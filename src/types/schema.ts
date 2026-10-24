@@ -62,3 +62,16 @@ export interface ChirpVoice {
   description: string;
   isDefault: boolean;
 }
+
+export type SRSRating = 'again' | 'hard' | 'good' | 'easy';
+
+export interface CardSRSData {
+  cardId: string;
+  isLearned: boolean;
+  intervalDays: number;
+  repetition: number;
+  easeFactor: number;
+  lastReviewed?: string;
+  nextReviewDue?: string;
+}
+

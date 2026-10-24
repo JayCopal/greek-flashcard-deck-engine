@@ -1,5 +1,11 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, forwardRef, useImperativeHandle } from 'react';
 import { Volume2, VolumeX, Play, Pause, RotateCcw } from 'lucide-react';
+
+export interface AudioPlayerHandle {
+  playAudio: () => void;
+  pauseAudio: () => void;
+  replayAudio: () => void;
+}
 
 interface AudioPlayerProps {
   src?: string | null;
@@ -9,23 +15,43 @@ interface AudioPlayerProps {
   mini?: boolean;
 }
 
-export const AudioPlayer: React.FC<AudioPlayerProps> = ({
+export const AudioPlayer = forwardRef<AudioPlayerHandle, AudioPlayerProps>(({
   src,
   autoPlay = false,
   label,
   className = '',
   mini = false,
-}) => {
+}, ref) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [hasError, setHasError] = useState(false);
+
+  useImperativeHandle(ref, () => ({
+    playAudio: () => {
+      if (audioRef.current && src) {
+        audioRef.current.currentTime = 0;
+        audioRef.current.play().catch(() => setHasError(true));
+      }
+    },
+    pauseAudio: () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    },
+    replayAudio: () => {
+      if (audioRef.current && src) {
+        audioRef.current.currentTime = 0;
+        audioRef.current.play().catch(() => setHasError(true));
+      }
+    },
+  }));
 
   useEffect(() => {
     setIsPlaying(false);
     setHasError(false);
     if (src && autoPlay && audioRef.current) {
       audioRef.current.play().catch(() => {
-        // Autoplay policy might catch it, silent fail
+        // Autoplay policy silent catch
       });
     }
   }, [src, autoPlay]);
@@ -67,7 +93,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
         <button
           type="button"
           onClick={togglePlay}
-          title="Play Native Audio"
+          title="Play Native Audio (↓)"
           className={`p-2 rounded-xl transition-all duration-200 ${
             isPlaying
               ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30 scale-105'
@@ -112,7 +138,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           }
         }}
         className="p-1.5 text-slate-400 hover:text-slate-200 rounded-lg hover:bg-slate-700/50"
-        title="Replay from start"
+        title="Replay from start (↓)"
       >
         <RotateCcw className="w-3.5 h-3.5" />
       </button>
@@ -128,4 +154,6 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
       )}
     </div>
   );
-};
+});
+
+AudioPlayer.displayName = 'AudioPlayer';

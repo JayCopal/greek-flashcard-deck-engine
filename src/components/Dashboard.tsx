@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DeckData, Lesson } from '../types/schema';
+import { getAllSRSData, isCardDue } from '../utils/srs';
 import { 
   BookOpen, 
   Layers, 
@@ -9,7 +10,8 @@ import {
   Play, 
   Download, 
   Sparkles, 
-  ChevronRight
+  ChevronRight,
+  Award
 } from 'lucide-react';
 
 interface DashboardProps {
@@ -32,6 +34,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   // Gather all cards across all lessons
   const allCards = units.flatMap((u) => u.lessons.flatMap((l) => l.entries));
+
+  // Compute SRS statistics
+  const srsMap = getAllSRSData();
+  const learnedCount = allCards.filter((c) => srsMap[c.id]?.isLearned).length;
+  const dueCards = allCards.filter((c) => {
+    const srs = srsMap[c.id];
+    if (!srs) return true; // new card is due
+    if (srs.isLearned) return false; // learned card not due unless unlearned
+    return isCardDue(srs);
+  });
 
   const handleExport = async () => {
     setIsExporting(true);
@@ -70,6 +82,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
+            {dueCards.length > 0 && (
+              <button
+                onClick={() => onStartStudy(dueCards, `${manifest.deck_title} • Due for Review`)}
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-lg shadow-amber-500/25 transition-all hover:scale-[1.02] active:scale-95"
+              >
+                <Clock className="w-4 h-4" /> Review Due ({dueCards.length})
+              </button>
+            )}
             <button
               onClick={() => onStartStudy(allCards, manifest.deck_title)}
               disabled={allCards.length === 0}
@@ -102,7 +122,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {/* Global Metrics Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
         {/* Total Cards */}
         <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between">
           <div className="flex items-center justify-between text-slate-400">
@@ -111,19 +131,31 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
           <div className="mt-3 flex items-baseline gap-2">
             <span className="text-3xl font-extrabold text-white">{stats.total_entries}</span>
-            <span className="text-xs text-slate-400">across {stats.total_lessons} lessons</span>
+            <span className="text-xs text-slate-400">cards</span>
+          </div>
+        </div>
+
+        {/* Mastered / Learned Cards */}
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-emerald-500/30">
+          <div className="flex items-center justify-between text-emerald-400">
+            <span className="text-xs font-semibold uppercase tracking-wider">Learned</span>
+            <Award className="w-4 h-4" />
+          </div>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="text-3xl font-extrabold text-emerald-400">{learnedCount}</span>
+            <span className="text-xs text-emerald-500/80">({stats.total_entries > 0 ? Math.round((learnedCount / stats.total_entries) * 100) : 0}%)</span>
           </div>
         </div>
 
         {/* Verified Audio */}
-        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-emerald-500/20">
-          <div className="flex items-center justify-between text-emerald-400">
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-teal-500/20">
+          <div className="flex items-center justify-between text-teal-400">
             <span className="text-xs font-semibold uppercase tracking-wider">Verified Audio</span>
             <CheckCircle2 className="w-4 h-4" />
           </div>
           <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-emerald-400">{stats.verified_count}</span>
-            <span className="text-xs text-emerald-500/80">({stats.coverage_percentage}% coverage)</span>
+            <span className="text-3xl font-extrabold text-teal-400">{stats.verified_count}</span>
+            <span className="text-xs text-teal-500/80">({stats.coverage_percentage}%)</span>
           </div>
         </div>
 
@@ -135,7 +167,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
           <div className="mt-3 flex items-baseline gap-2">
             <span className="text-3xl font-extrabold text-amber-400">{stats.pending_count}</span>
-            <span className="text-xs text-amber-500/80">awaiting generation</span>
+            <span className="text-xs text-amber-500/80">awaiting audio</span>
           </div>
         </div>
 
@@ -147,7 +179,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
           <div className="mt-3 flex items-baseline gap-2">
             <span className="text-3xl font-extrabold text-rose-400">{stats.needs_review_count}</span>
-            <span className="text-xs text-rose-500/80">rejected / refine tonos</span>
+            <span className="text-xs text-rose-500/80">rejected / refine</span>
           </div>
         </div>
       </div>
