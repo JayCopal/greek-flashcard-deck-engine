@@ -1,0 +1,46 @@
+unit_id: unit-01
+lesson_id: lesson-01
+title: Greetings & Polite Phrases
+description: Core everyday conversational greetings and courtesy expressions.
+entries:
+- id: grk-001
+  greek: Καλημέρα
+  phonetic_hint: kah-lee-MEH-rah
+  english: Good morning
+  notes: Used from morning until early afternoon. Stress on the last syllable (tonos
+    on ε).
+  gender_or_pos: phrase
+  audio: kalimera-2490ee.mp3
+  status: verified
+- id: grk-002
+  greek: Καλησπέρα
+  phonetic_hint: kah-lee-SPEH-rah
+  english: Good evening
+  notes: Used from late afternoon until bedtime when greeting someone.
+  gender_or_pos: phrase
+  audio: null
+  status: pending_tts
+- id: grk-003
+  greek: Ευχαριστώ πολύ
+  phonetic_hint: ef-hah-ree-STO po-LEE
+  english: Thank you very much
+  notes: Notice the 'ευ' pronounced as 'ef' before voiceless consonants like 'χ'.
+  gender_or_pos: phrase
+  audio: null
+  status: pending_tts
+- id: grk-004
+  greek: Παρακαλώ
+  phonetic_hint: pah-rah-kah-LOH
+  english: Please / You are welcome
+  notes: Polite response to ευχαριστώ, or used when requesting something.
+  gender_or_pos: phrase
+  audio: null
+  status: pending_tts
+- id: grk-005
+  greek: Γεια σας
+  phonetic_hint: YAH sahs
+  english: Hello (formal / plural)
+  notes: Polite greeting used for elders, strangers, or a group of people.
+  gender_or_pos: phrase
+  audio: null
+  status: pending_tts

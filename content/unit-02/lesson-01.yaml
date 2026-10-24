@@ -1,0 +1,22 @@
+unit_id: "unit-02"
+lesson_id: "lesson-01"
+title: "Ordering at the Kafeneio"
+description: "Ordering coffee and basic drinks in Greek."
+entries:
+  - id: "grk-008"
+    greek: "Έναν ελληνικό καφέ, παρακαλώ."
+    phonetic_hint: "EH-nahn eh-lee-nee-KOH kah-FEH, pah-rah-kah-LOH"
+    english: "One Greek coffee, please."
+    notes: "Accusative masculine form 'έναν'."
+    gender_or_pos: "phrase"
+    audio: null
+    status: "pending_tts"
+
+  - id: "grk-009"
+    greek: "Χωρίς ζάχαρη (σκέτο)"
+    phonetic_hint: "hoh-REES ZAH-hah-ree (SKEH-toh)"
+    english: "Without sugar (plain/black)"
+    notes: "'Σκέτο' is standard vocabulary for coffee with zero sugar."
+    gender_or_pos: "phrase"
+    audio: null
+    status: "pending_tts"

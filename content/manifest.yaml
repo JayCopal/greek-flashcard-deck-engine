@@ -1,0 +1,22 @@
+deck_title: "Modern Greek Mastery"
+source_language: "en"
+target_language: "el"
+created_at: "2026-01-01"
+units:
+  - id: "unit-01"
+    title: "Foundations & Daily Basics"
+    order: 1
+    lessons:
+      - id: "lesson-01"
+        file: "unit-01/lesson-01.yaml"
+        title: "Greetings & Polite Phrases"
+      - id: "lesson-02"
+        file: "unit-01/lesson-02.yaml"
+        title: "Essential Everyday Questions"
+  - id: "unit-02"
+    title: "Food, Drink & Taverna"
+    order: 2
+    lessons:
+      - id: "lesson-01"
+        file: "unit-02/lesson-01.yaml"
+        title: "Ordering at the Kafeneio"

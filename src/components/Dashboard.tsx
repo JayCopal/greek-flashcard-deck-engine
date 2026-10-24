@@ -1,0 +1,284 @@
+import React, { useState } from 'react';
+import { DeckData, Lesson } from '../types/schema';
+import { 
+  BookOpen, 
+  Layers, 
+  CheckCircle2, 
+  Clock, 
+  AlertCircle, 
+  Play, 
+  Download, 
+  Sparkles, 
+  ChevronRight
+} from 'lucide-react';
+
+interface DashboardProps {
+  deck: DeckData;
+  onSelectLesson: (unitId: string, lessonId: string) => void;
+  onStartStudy: (cards: Lesson['entries'], title: string) => void;
+  onRefresh: () => void;
+}
+
+export const Dashboard: React.FC<DashboardProps> = ({
+  deck,
+  onSelectLesson,
+  onStartStudy,
+  onRefresh,
+}) => {
+  const [isExporting, setIsExporting] = useState(false);
+  const [exportMessage, setExportMessage] = useState<string | null>(null);
+
+  const { stats, manifest, units } = deck;
+
+  // Gather all cards across all lessons
+  const allCards = units.flatMap((u) => u.lessons.flatMap((l) => l.entries));
+
+  const handleExport = async () => {
+    setIsExporting(true);
+    setExportMessage(null);
+    try {
+      const res = await fetch('/api/export', { method: 'POST' });
+      const data = await res.json();
+      if (data.success) {
+        setExportMessage(data.message || 'PWA distribution package generated!');
+      } else {
+        setExportMessage(`Export error: ${data.detail || 'Failed'}`);
+      }
+    } catch {
+      setExportMessage('Export failed. Check backend connection.');
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
+  return (
+    <div className="space-y-8 max-w-6xl mx-auto pb-12">
+      {/* Header Banner */}
+      <div className="relative overflow-hidden rounded-3xl p-8 bg-gradient-to-r from-sky-900/60 via-slate-800 to-indigo-950/60 border border-sky-500/20 shadow-2xl">
+        <div className="absolute top-0 right-0 -mt-12 -mr-12 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold mb-3">
+              <Sparkles className="w-3.5 h-3.5" /> Modern Greek Mastery • Local-First PWA
+            </div>
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              {manifest.deck_title}
+            </h1>
+            <p className="text-slate-400 text-sm mt-1 max-w-xl">
+              Local filesystem source of truth with verified Google Cloud Chirp 3 native Greek pronunciation.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              onClick={() => onStartStudy(allCards, manifest.deck_title)}
+              disabled={allCards.length === 0}
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/25 transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50"
+            >
+              <Play className="w-4 h-4 fill-current" /> Study All ({allCards.length})
+            </button>
+            <button
+              onClick={handleExport}
+              disabled={isExporting}
+              className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium text-sm transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50"
+            >
+              <Download className="w-4 h-4" />
+              {isExporting ? 'Exporting PWA...' : 'Export Mobile PWA'}
+            </button>
+          </div>
+        </div>
+
+        {exportMessage && (
+          <div className="mt-4 p-3 rounded-xl bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 text-xs flex items-center justify-between">
+            <span>{exportMessage}</span>
+            <button 
+              onClick={() => setExportMessage(null)}
+              className="text-emerald-400 hover:text-white text-xs underline ml-2"
+            >
+              Dismiss
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Global Metrics Cards */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* Total Cards */}
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between">
+          <div className="flex items-center justify-between text-slate-400">
+            <span className="text-xs font-semibold uppercase tracking-wider">Total Cards</span>
+            <Layers className="w-4 h-4 text-sky-400" />
+          </div>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="text-3xl font-extrabold text-white">{stats.total_entries}</span>
+            <span className="text-xs text-slate-400">across {stats.total_lessons} lessons</span>
+          </div>
+        </div>
+
+        {/* Verified Audio */}
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-emerald-500/20">
+          <div className="flex items-center justify-between text-emerald-400">
+            <span className="text-xs font-semibold uppercase tracking-wider">Verified Audio</span>
+            <CheckCircle2 className="w-4 h-4" />
+          </div>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="text-3xl font-extrabold text-emerald-400">{stats.verified_count}</span>
+            <span className="text-xs text-emerald-500/80">({stats.coverage_percentage}% coverage)</span>
+          </div>
+        </div>
+
+        {/* Pending TTS */}
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-amber-500/20">
+          <div className="flex items-center justify-between text-amber-400">
+            <span className="text-xs font-semibold uppercase tracking-wider">Pending TTS</span>
+            <Clock className="w-4 h-4" />
+          </div>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="text-3xl font-extrabold text-amber-400">{stats.pending_count}</span>
+            <span className="text-xs text-amber-500/80">awaiting generation</span>
+          </div>
+        </div>
+
+        {/* Needs Review */}
+        <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-rose-500/20">
+          <div className="flex items-center justify-between text-rose-400">
+            <span className="text-xs font-semibold uppercase tracking-wider">Needs Review</span>
+            <AlertCircle className="w-4 h-4" />
+          </div>
+          <div className="mt-3 flex items-baseline gap-2">
+            <span className="text-3xl font-extrabold text-rose-400">{stats.needs_review_count}</span>
+            <span className="text-xs text-rose-500/80">rejected / refine tonos</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Coverage Progress Bar */}
+      <div className="glass-panel p-6 rounded-2xl">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-sm font-semibold text-slate-300">Total Audio Health Coverage</span>
+          <span className="text-sm font-bold text-sky-400">{stats.coverage_percentage}%</span>
+        </div>
+        <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden flex">
+          <div 
+            className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
+            style={{ width: `${stats.coverage_percentage}%` }}
+          />
+          <div 
+            className="h-full bg-amber-500 transition-all duration-500"
+            style={{ width: `${(stats.pending_count / (stats.total_entries || 1)) * 100}%` }}
+          />
+          <div 
+            className="h-full bg-rose-500 transition-all duration-500"
+            style={{ width: `${(stats.needs_review_count / (stats.total_entries || 1)) * 100}%` }}
+          />
+        </div>
+        <div className="flex items-center gap-6 mt-3 text-xs text-slate-400">
+          <div className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" /> Verified ({stats.verified_count})
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-500" /> Pending ({stats.pending_count})
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-rose-500" /> Needs Review ({stats.needs_review_count})
+          </div>
+        </div>
+      </div>
+
+      {/* Units & Lessons Breakdown */}
+      <div className="space-y-6">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xl font-bold text-white flex items-center gap-2">
+            <BookOpen className="w-5 h-5 text-sky-400" /> Curriculum & Lessons
+          </h2>
+          <button 
+            onClick={onRefresh}
+            className="text-xs text-slate-400 hover:text-sky-400 transition-colors"
+          >
+            Refresh from disk
+          </button>
+        </div>
+
+        <div className="space-y-4">
+          {units.map((unit) => (
+            <div key={unit.id} className="glass-panel rounded-2xl p-6 border-slate-800 hover:border-slate-700 transition-all">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-slate-800">
+                <div>
+                  <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Unit {unit.order}</span>
+                  <h3 className="text-lg font-bold text-white">{unit.title}</h3>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-slate-400">
+                    {unit.verified_entries || 0} / {unit.total_entries || 0} Verified ({unit.coverage_percentage || 0}%)
+                  </span>
+                  <button
+                    onClick={() => onStartStudy(unit.lessons.flatMap(l => l.entries), unit.title)}
+                    className="px-3 py-1.5 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 text-xs font-semibold transition-colors flex items-center gap-1"
+                  >
+                    <Play className="w-3 h-3 fill-current" /> Drill Unit
+                  </button>
+                </div>
+              </div>
+
+              {/* Lessons List */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {unit.lessons.map((lesson) => (
+                  <div
+                    key={lesson.lesson_id}
+                    className="p-4 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/50 hover:border-sky-500/30 transition-all flex flex-col justify-between group"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <h4 className="font-semibold text-white text-sm group-hover:text-sky-300 transition-colors">
+                          {lesson.title}
+                        </h4>
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-slate-900/60 text-slate-300 border border-slate-700">
+                          {lesson.entries.length} cards
+                        </span>
+                      </div>
+                      {lesson.description && (
+                        <p className="text-xs text-slate-400 line-clamp-1 mb-3">
+                          {lesson.description}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="mt-3 pt-3 border-t border-slate-700/40 flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs font-medium text-emerald-400">
+                          {lesson.verified_entries || 0} verified
+                        </span>
+                        {((lesson.total_entries || 0) - (lesson.verified_entries || 0)) > 0 && (
+                          <span className="text-xs text-amber-400">
+                            • {((lesson.total_entries || 0) - (lesson.verified_entries || 0))} pending
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => onSelectLesson(unit.id, lesson.lesson_id)}
+                          className="p-1.5 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors"
+                          title="Open Editor / Review Audio"
+                        >
+                          <ChevronRight className="w-4 h-4" />
+                        </button>
+                        <button
+                          onClick={() => onStartStudy(lesson.entries, lesson.title)}
+                          className="p-1.5 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 text-sky-400 transition-colors"
+                          title="Drill this lesson"
+                        >
+                          <Play className="w-4 h-4 fill-current" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
