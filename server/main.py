@@ -61,6 +61,13 @@ class UpdateEntryPayload(BaseModel):
     audio: Optional[str] = None
 
 
+class UpdateLessonPayload(BaseModel):
+    lesson_notes: Optional[str] = None
+    lesson_status: Optional[str] = None  # 'not_started' | 'in_progress' | 'learned'
+    title: Optional[str] = None
+    description: Optional[str] = None
+
+
 class TTSPreviewRequest(BaseModel):
     text: str
     voice: Optional[str] = None
@@ -127,6 +134,8 @@ def get_deck():
             rel_file = lesson_meta.get("file")
             lesson_path = CONTENT_DIR / rel_file
             lesson_data = load_yaml(lesson_path)
+            lesson_data.setdefault("lesson_status", "not_started")
+            lesson_data.setdefault("lesson_notes", "")
 
             entries = lesson_data.get("entries", [])
             lesson_entries_count = len(entries)
@@ -273,6 +282,38 @@ def update_entry(entry_id: str, payload: UpdateEntryPayload):
 
     save_yaml(lesson_path, lesson_data)
     return {"success": True, "entry": matched}
+
+
+@app.put("/api/lesson/{unit_id}/{lesson_id}")
+def update_lesson(unit_id: str, lesson_id: str, payload: UpdateLessonPayload):
+    manifest = load_yaml(CONTENT_DIR / "manifest.yaml")
+    lesson_rel = None
+    for unit in manifest.get("units", []):
+        if unit.get("id") == unit_id:
+            for les in unit.get("lessons", []):
+                if les.get("id") == lesson_id:
+                    lesson_rel = les.get("file")
+                    break
+
+    if not lesson_rel:
+        raise HTTPException(status_code=404, detail="Lesson not found in manifest")
+
+    lesson_path = CONTENT_DIR / lesson_rel
+    lesson_data = load_yaml(lesson_path)
+
+    if payload.lesson_notes is not None:
+        lesson_data["lesson_notes"] = payload.lesson_notes.strip()
+    if payload.lesson_status is not None:
+        if payload.lesson_status not in ["not_started", "in_progress", "learned"]:
+            raise HTTPException(status_code=400, detail="Invalid lesson status")
+        lesson_data["lesson_status"] = payload.lesson_status
+    if payload.title is not None:
+        lesson_data["title"] = payload.title.strip()
+    if payload.description is not None:
+        lesson_data["description"] = payload.description.strip()
+
+    save_yaml(lesson_path, lesson_data)
+    return {"success": True, "lesson": lesson_data}
 
 
 @app.post("/api/tts/preview")

@@ -22,6 +22,7 @@ export function App() {
   // Study session state
   const [studyCards, setStudyCards] = useState<CardEntry[]>([]);
   const [studyTitle, setStudyTitle] = useState('Study Session');
+  const [studyLessonNotes, setStudyLessonNotes] = useState<string | undefined>();
 
   // Editor jump state
   const [editorUnitId, setEditorUnitId] = useState<string | undefined>();
@@ -69,9 +70,10 @@ export function App() {
     setActiveTab('editor');
   };
 
-  const handleStartStudy = (cards: CardEntry[], title: string) => {
+  const handleStartStudy = (cards: CardEntry[], title: string, lessonNotes?: string) => {
     setStudyCards(cards);
     setStudyTitle(title);
+    setStudyLessonNotes(lessonNotes);
     setActiveTab('study');
   };
 
@@ -213,6 +215,7 @@ export function App() {
               <StudySession
                 cards={studyCards.length > 0 ? studyCards : deck.units.flatMap(u => u.lessons.flatMap(l => l.entries))}
                 title={studyTitle}
+                lessonNotes={studyLessonNotes}
                 onExit={() => setActiveTab('dashboard')}
               />
             )}

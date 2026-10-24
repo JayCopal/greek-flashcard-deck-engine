@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { CardEntry, SRSRating } from '../types/schema';
 import { AudioPlayer, AudioPlayerHandle } from './AudioPlayer';
 import { 
@@ -20,7 +20,8 @@ import {
   EyeOff,
   Clock,
   ArrowUpDown,
-  Award
+  Award,
+  FileText
 } from 'lucide-react';
 
 type StudyDirection = 'greek_to_english' | 'english_to_greek';
@@ -28,12 +29,14 @@ type StudyDirection = 'greek_to_english' | 'english_to_greek';
 interface StudySessionProps {
   cards: CardEntry[];
   title?: string;
+  lessonNotes?: string;
   onExit: () => void;
 }
 
 export const StudySession: React.FC<StudySessionProps> = ({
   cards: initialCards,
   title = 'Study Drill',
+  lessonNotes,
   onExit,
 }) => {
   // Study configuration options
@@ -41,6 +44,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const [hideLearned, setHideLearned] = useState<boolean>(true);
   const [dueOnly, setDueOnly] = useState<boolean>(false);
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false); // Default is OFF as requested
+  const [showNotes, setShowNotes] = useState<boolean>(false);
 
   // Active cards filtered by learned/due status
   const [filteredCards, setFilteredCards] = useState<CardEntry[]>(() =>
@@ -307,6 +311,23 @@ export const StudySession: React.FC<StudySessionProps> = ({
             <Volume2 className="w-4 h-4" />
           </button>
 
+          {/* Notes Toggle Button if notes exist */}
+          {lessonNotes && (
+            <button
+              type="button"
+              onClick={() => setShowNotes(!showNotes)}
+              className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                showNotes
+                  ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
+                  : 'bg-slate-800 text-sky-400 border-slate-700 hover:text-white'
+              }`}
+              title="Toggle lesson grammar notes"
+            >
+              <FileText className="w-3.5 h-3.5" />
+              <span>Notes</span>
+            </button>
+          )}
+
           {/* Shuffle button */}
           <button
             type="button"
@@ -318,6 +339,24 @@ export const StudySession: React.FC<StudySessionProps> = ({
           </button>
         </div>
       </div>
+
+      {/* Collapsible Lesson Notes Banner */}
+      {showNotes && lessonNotes && (
+        <div className="p-4 rounded-2xl bg-sky-950/40 border border-sky-500/30 text-sky-100 text-sm whitespace-pre-line leading-relaxed shadow-lg">
+          <div className="flex items-center justify-between pb-2 mb-2 border-b border-sky-500/20 text-xs font-bold text-sky-300">
+            <span className="flex items-center gap-1.5">
+              <FileText className="w-4 h-4" /> Lesson Notes & Grammar Context
+            </span>
+            <button 
+              onClick={() => setShowNotes(false)} 
+              className="text-sky-400 hover:text-white text-xs px-2 py-0.5 rounded bg-sky-900/60"
+            >
+              Close
+            </button>
+          </div>
+          {lessonNotes}
+        </div>
+      )}
 
       {/* Progress Bar */}
       <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">

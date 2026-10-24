@@ -11,11 +11,15 @@ export interface CardEntry {
   status: EntryStatus;
 }
 
+export type LessonStatus = 'not_started' | 'in_progress' | 'learned';
+
 export interface Lesson {
   unit_id: string;
   lesson_id: string;
   title: string;
   description?: string;
+  lesson_notes?: string;
+  lesson_status?: LessonStatus;
   entries: CardEntry[];
   total_entries?: number;
   verified_entries?: number;

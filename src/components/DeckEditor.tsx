@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { DeckData, Lesson, CardEntry, ChirpVoice } from '../types/schema';
+import { useState, useEffect } from 'react';
+import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus } from '../types/schema';
 import { AudioPlayer } from './AudioPlayer';
 import { 
   Sparkles, 
@@ -11,7 +11,11 @@ import {
   Loader2, 
   Save, 
   AlertTriangle,
-  ArrowLeft
+  ArrowLeft,
+  FileText,
+  CheckCircle,
+  Clock,
+  CircleDot
 } from 'lucide-react';
 
 interface DeckEditorProps {
@@ -71,6 +75,50 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
   const [newCardPhonetic, setNewCardPhonetic] = useState('');
   const [newCardNotes, setNewCardNotes] = useState('');
   const [newCardPos, setNewCardPos] = useState('phrase');
+
+  // Lesson status & notes state
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
+  const [lessonNotesText, setLessonNotesText] = useState(currentLesson?.lesson_notes || '');
+  const [isSavingLesson, setIsSavingLesson] = useState(false);
+
+  useEffect(() => {
+    setLessonNotesText(currentLesson?.lesson_notes || '');
+    setIsEditingNotes(false);
+  }, [currentLesson?.lesson_id, currentLesson?.lesson_notes]);
+
+  const handleUpdateLessonStatus = async (status: LessonStatus) => {
+    if (!currentLesson || !currentUnit) return;
+    try {
+      const res = await fetch(`/api/lesson/${currentUnit.id}/${currentLesson.lesson_id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ lesson_status: status }),
+      });
+      if (!res.ok) throw new Error('Failed to update lesson status');
+      onRefresh();
+    } catch (err: any) {
+      setErrorMessage(err.message || 'Error updating lesson status');
+    }
+  };
+
+  const handleSaveLessonNotes = async () => {
+    if (!currentLesson || !currentUnit) return;
+    setIsSavingLesson(true);
+    try {
+      const res = await fetch(`/api/lesson/${currentUnit.id}/${currentLesson.lesson_id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ lesson_notes: lessonNotesText }),
+      });
+      if (!res.ok) throw new Error('Failed to save lesson notes');
+      setIsEditingNotes(false);
+      onRefresh();
+    } catch (err: any) {
+      setErrorMessage(err.message || 'Error saving lesson notes');
+    } finally {
+      setIsSavingLesson(false);
+    }
+  };
 
   // Fetch voices on load
   useEffect(() => {
@@ -379,22 +427,148 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         </div>
       )}
 
-      {/* Lesson Info & Actions Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-2xl font-bold text-white tracking-tight">
-            {currentLesson?.title}
-          </h2>
-          {currentLesson?.description && (
-            <p className="text-xs text-slate-400 mt-0.5">{currentLesson.description}</p>
+      {/* Lesson Info, Status Toggle & Actions Card */}
+      <div className="glass-panel p-6 rounded-2xl border-slate-800 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
+                Unit {currentUnit?.order}: {currentUnit?.title}
+              </span>
+            </div>
+            <h2 className="text-2xl font-bold text-white tracking-tight">
+              {currentLesson?.title}
+            </h2>
+            {currentLesson?.description && (
+              <p className="text-xs text-slate-400 mt-1 max-w-xl">{currentLesson.description}</p>
+            )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2 sm:self-center">
+            {/* Status Toggle Buttons */}
+            <div className="flex items-center p-1 rounded-xl bg-slate-900 border border-slate-700/80">
+              <button
+                type="button"
+                onClick={() => handleUpdateLessonStatus('not_started')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                  (currentLesson?.lesson_status || 'not_started') === 'not_started'
+                    ? 'bg-slate-700 text-slate-200 shadow-sm'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+                title="Mark lesson as Not Started"
+              >
+                <CircleDot className="w-3.5 h-3.5 text-slate-400" />
+                <span>Not Started</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleUpdateLessonStatus('in_progress')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                  currentLesson?.lesson_status === 'in_progress'
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
+                    : 'text-slate-400 hover:text-amber-300'
+                }`}
+                title="Mark lesson as In Progress"
+              >
+                <Clock className="w-3.5 h-3.5 text-amber-400" />
+                <span>In Progress</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleUpdateLessonStatus('learned')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                  currentLesson?.lesson_status === 'learned'
+                    ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm'
+                    : 'text-slate-400 hover:text-emerald-300'
+                }`}
+                title="Mark lesson as Learned"
+              >
+                <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Learned</span>
+              </button>
+            </div>
+
+            <button
+              onClick={() => setIsAddingCard(!isAddingCard)}
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-semibold text-xs border border-sky-500/30 transition-all"
+            >
+              <Plus className="w-4 h-4" /> {isAddingCard ? 'Cancel New Card' : 'Add Card to YAML'}
+            </button>
+          </div>
+        </div>
+
+        {/* Lesson Notes & Grammar Guide Box */}
+        <div className="pt-4 border-t border-slate-800">
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-2 text-xs font-bold text-slate-300 uppercase tracking-wider">
+              <FileText className="w-4 h-4 text-sky-400" />
+              <span>Lesson Study Notes & Grammar Context</span>
+            </div>
+            {!isEditingNotes && (
+              <button
+                type="button"
+                onClick={() => setIsEditingNotes(true)}
+                className="text-xs text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-1 transition-colors"
+              >
+                <Edit3 className="w-3.5 h-3.5" />
+                <span>{currentLesson?.lesson_notes ? 'Edit Notes' : 'Add Notes'}</span>
+              </button>
+            )}
+          </div>
+
+          {isEditingNotes ? (
+            <div className="space-y-3">
+              <textarea
+                value={lessonNotesText}
+                onChange={(e) => setLessonNotesText(e.target.value)}
+                placeholder="Add grammar notes, verb conjugations, usage tips, or cultural context for this lesson..."
+                rows={4}
+                className="w-full bg-slate-900 text-white border border-slate-700 rounded-xl p-3 text-sm focus:outline-none focus:border-sky-500 font-sans"
+              />
+              <div className="flex justify-end gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setLessonNotesText(currentLesson?.lesson_notes || '');
+                    setIsEditingNotes(false);
+                  }}
+                  className="px-3 py-1.5 rounded-lg text-xs text-slate-400 hover:text-white"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  onClick={handleSaveLessonNotes}
+                  disabled={isSavingLesson}
+                  className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold shadow-md shadow-sky-500/25 disabled:opacity-50"
+                >
+                  {isSavingLesson ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" /> Saving...
+                    </>
+                  ) : (
+                    <>
+                      <Save className="w-3.5 h-3.5" /> Save Lesson Notes
+                    </>
+                  )}
+                </button>
+              </div>
+            </div>
+          ) : currentLesson?.lesson_notes ? (
+            <div className="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 text-slate-300 text-sm whitespace-pre-line leading-relaxed">
+              {currentLesson.lesson_notes}
+            </div>
+          ) : (
+            <div 
+              onClick={() => setIsEditingNotes(true)}
+              className="p-3 rounded-xl bg-slate-900/40 border border-dashed border-slate-800 text-slate-500 text-xs italic cursor-pointer hover:border-slate-700 hover:text-slate-400 transition-colors"
+            >
+              No lesson notes added yet. Click here or "Add Notes" to write grammar notes, declensions, or tips for this lesson.
+            </div>
           )}
         </div>
-        <button
-          onClick={() => setIsAddingCard(!isAddingCard)}
-          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-semibold text-xs border border-sky-500/30 transition-all"
-        >
-          <Plus className="w-4 h-4" /> {isAddingCard ? 'Cancel New Card' : 'Add Card to YAML'}
-        </button>
       </div>
 
       {/* Add New Card Form */}
