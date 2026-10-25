@@ -1,0 +1,1107 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 102 from Klik A1 (Pages 43-54):
+Ενότητα 1: Γεια χαρά! - Χαιρετισμοί & Γνωριμία
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and the klik-a1-deck-builder skill.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-102"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u102 = [
+    # --- Greetings & Time of Day (pp. 43-45, 49, 54) ---
+    {
+        "id": "A1-U102-001",
+        "greek": "Γεια!",
+        "phonetic_hint": "yeh",
+        "english": "Hello! / Hi! / Bye!",
+        "notes": "Klik A1 p. 43. Universal casual greeting and farewell among friends and peers.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια! Τι κάνεις;",
+        "example_en": "Hi! How are you?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Casual informal greeting and farewell"
+    },
+    {
+        "id": "A1-U102-002",
+        "greek": "Γεια σου!",
+        "phonetic_hint": "YAH-soo",
+        "english": "Hello! / Hi! / Bye! (informal singular)",
+        "notes": "Klik A1 p. 43. Literally 'Health to you'. Used addressing one person informally.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σου, Νίκη! Είσαι καλά;",
+        "example_en": "Hello, Niki! Are you well?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Greeting a single friend or peer informally"
+    },
+    {
+        "id": "A1-U102-003",
+        "greek": "Γεια σας!",
+        "phonetic_hint": "YAH-sahs",
+        "english": "Hello! / Goodbye! (formal singular or plural)",
+        "notes": "Klik A1 p. 43. Used when greeting multiple people or one person with polite distance.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σας, κύριε Παπαδόπουλε! Πώς είστε;",
+        "example_en": "Hello, Mr. Papadopoulos! How are you?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Polite or group greeting and farewell"
+    },
+    {
+        "id": "A1-U102-004",
+        "greek": "Γεια χαρά!",
+        "phonetic_hint": "yah hah-RAH",
+        "english": "Hi there! / Cheers! / Goodbye!",
+        "notes": "Klik A1 p. 43 (Unit title). Upbeat, cheerful greeting: 'health and joy'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια χαρά σε όλους!",
+        "example_en": "Hi there to everyone!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Cheerful friendly greeting"
+    },
+    {
+        "id": "A1-U102-005",
+        "greek": "Καλημέρα!",
+        "phonetic_hint": "kah-lee-MEH-rah",
+        "english": "Good morning! / Good day!",
+        "notes": "Klik A1 p. 43, 45. Standard daytime greeting from morning until midday.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλημέρα, παιδιά! Πώς είστε σήμερα;",
+        "example_en": "Good morning, children! How are you today?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Greeting in the morning hours"
+    },
+    {
+        "id": "A1-U102-006",
+        "greek": "Καλησπέρα!",
+        "phonetic_hint": "kah-lee-SPEH-rah",
+        "english": "Good evening!",
+        "notes": "Klik A1 p. 44, 49, 54. Greeting used from late afternoon until night.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλησπέρα σας, κυρία Ελένη.",
+        "example_en": "Good evening, Mrs. Eleni.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Greeting in late afternoon and evening"
+    },
+    {
+        "id": "A1-U102-007",
+        "greek": "Καληνύχτα!",
+        "phonetic_hint": "kah-lee-NEEKH-tah",
+        "english": "Good night!",
+        "notes": "Klik A1 p. 49, 54. Exclusively a departure farewell before sleep or leaving late at night.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καληνύχτα και όνειρα γλυκά!",
+        "example_en": "Good night and sweet dreams!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Parting at night before bed"
+    },
+    {
+        "id": "A1-U102-008",
+        "greek": "Καλό βράδυ!",
+        "phonetic_hint": "kah-LO VRAH-thee",
+        "english": "Have a good evening!",
+        "notes": "Klik A1 p. 49, 54. Farewell wish used when parting in the evening.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ευχαριστώ πολύ για τη φιλοξενία, καλό βράδυ!",
+        "example_en": "Thank you very much for the hospitality, have a good evening!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Wishing someone a pleasant evening upon parting"
+    },
+    {
+        "id": "A1-U102-009",
+        "greek": "Αντίο!",
+        "phonetic_hint": "ahn-DEE-o",
+        "english": "Goodbye! / Farewell!",
+        "notes": "Klik A1 p. 49, 54. Formal or definitive farewell parting word.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αντίο, κύριε καθηγητά, τα λέμε αύριο.",
+        "example_en": "Goodbye, professor, see you tomorrow.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Saying goodbye upon departure"
+    },
+    {
+        "id": "A1-U102-010",
+        "greek": "Τα λέμε!",
+        "phonetic_hint": "tah LEH-meh",
+        "english": "See you! / Talk soon!",
+        "notes": "Klik A1 p. 49, 54. Extremely common colloquial farewell. Literally: 'We speak (to each other)'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έφυγα τώρα, τα λέμε αργότερα!",
+        "example_en": "I'm off now, see you later!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Informal parting among friends"
+    },
+
+    # --- Inquiring About Name & Making Introductions (pp. 43, 44, 46, 47, 48, 52) ---
+    {
+        "id": "A1-U102-011",
+        "greek": "Πώς σε λένε;",
+        "phonetic_hint": "pos seh LEH-neh",
+        "english": "What is your name? (informal)",
+        "notes": "Klik A1 p. 43, 44. Standard informal question. Lit: 'How do they call you?'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σου! Είμαι ο Γιώργος. Πώς σε λένε;",
+        "example_en": "Hi! I am Giorgos. What is your name?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking someone's name informally"
+    },
+    {
+        "id": "A1-U102-012",
+        "greek": "Πώς σας λένε;",
+        "phonetic_hint": "pos sahs LEH-neh",
+        "english": "What is your name? (formal / polite plural)",
+        "notes": "Klik A1 p. 48. Polite question used when meeting an adult, teacher, or group.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Χαίρετε! Πώς σας λένε, παρακαλώ;",
+        "example_en": "Greetings! What is your name, please?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking someone's name politely or formally"
+    },
+    {
+        "id": "A1-U102-013",
+        "greek": "Με λένε...",
+        "phonetic_hint": "meh LEH-neh",
+        "english": "My name is... / They call me...",
+        "notes": "Klik A1 p. 43, 47. Followed by accusative or bare name: 'Με λένε Σοφία / Κώστα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Με λένε Μαρία και είμαι φοιτήτρια.",
+        "example_en": "My name is Maria and I am a student.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing oneself by name"
+    },
+    {
+        "id": "A1-U102-014",
+        "greek": "Ποιος είσαι;",
+        "phonetic_hint": "pyos EE-seh",
+        "english": "Who are you? (masculine singular)",
+        "notes": "Klik A1 p. 45. Inquiring about masculine identity.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εσύ ποιος είσαι; Δεν σε γνωρίζω.",
+        "example_en": "Who are you? I don't know you.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for identity directly"
+    },
+    {
+        "id": "A1-U102-015",
+        "greek": "Ποια είσαι;",
+        "phonetic_hint": "pyah EE-seh",
+        "english": "Who are you? (feminine singular)",
+        "notes": "Klik A1 p. 45. Feminine form of interrogative pronoun ποιος.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σου! Ποια είσαι εσύ;",
+        "example_en": "Hello! Who are you?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking a female speaker for her identity"
+    },
+    {
+        "id": "A1-U102-016",
+        "greek": "Χαίρω πολύ!",
+        "phonetic_hint": "KHEH-ro po-LEE",
+        "english": "Pleased to meet you! / Nice to meet you!",
+        "notes": "Klik A1 p. 48, 49, 52. Standard polite response upon first meeting someone.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είμαι η Αλεξάνδρα. — Χαίρω πολύ!",
+        "example_en": "— I am Alexandra. — Pleased to meet you!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Acknowledging an introduction politely"
+    },
+    {
+        "id": "A1-U102-017",
+        "greek": "Επίσης!",
+        "phonetic_hint": "eh-PEE-sees",
+        "english": "Likewise! / As well! / Same to you!",
+        "notes": "Klik A1 p. 48, 50, 53. Adverb used as an elliptical reciprocal reply.",
+        "gender_or_pos": "adverb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Χάρηκα πολύ για τη γνωριμία! — Επίσης!",
+        "example_en": "— Nice to meet you! — Likewise!",
+        "grammatical_info": {
+            "part_of_speech": "adverb"
+        },
+        "keg_communicative_function": "Expressing reciprocal politeness"
+    },
+    {
+        "id": "A1-U102-018",
+        "greek": "Κι εγώ!",
+        "phonetic_hint": "kee eh-GHOH",
+        "english": "Me too! / Likewise!",
+        "notes": "Klik A1 p. 46, 48, 52. Contraction of 'και εγώ'. Informal reciprocal response.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Χαίρω πολύ, Σωτήρη! — Κι εγώ!",
+        "example_en": "— Nice to meet you, Sotiris! — Me too!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reciprocating an introduction informally"
+    },
+    {
+        "id": "A1-U102-019",
+        "greek": "Από εδώ...",
+        "phonetic_hint": "ah-PO eh-THOH",
+        "english": "This is... (introducing a person)",
+        "notes": "Klik A1 p. 48, 52, 54. Key phrase for introducing a third person. Lit: 'From here...'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Από εδώ ο φίλος μου, ο Μιχάλης.",
+        "example_en": "This is my friend, Michalis.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing a third person to others"
+    },
+    {
+        "id": "A1-U102-020",
+        "greek": "Καλωσόρισες!",
+        "phonetic_hint": "kah-loh-SOH-ree-ses",
+        "english": "Welcome! (informal singular)",
+        "notes": "Klik A1 p. 53. Welcoming one person informally.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλωσόρισες στο σπίτι μας, Πέτρο!",
+        "example_en": "Welcome to our home, Petros!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Welcoming a guest informally"
+    },
+    {
+        "id": "A1-U102-021",
+        "greek": "Καλωσορίσατε!",
+        "phonetic_hint": "kah-loh-soh-REE-sah-teh",
+        "english": "Welcome! (formal singular or plural)",
+        "notes": "Klik A1 p. 53. Welcoming a group or addressing an individual politely.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλωσορίσατε στην Ελλάδα!",
+        "example_en": "Welcome to Greece!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Welcoming visitors politely or in groups"
+    },
+
+    # --- Inquiring About Well-being & Responses (pp. 48, 49, 51, 54) ---
+    {
+        "id": "A1-U102-022",
+        "greek": "Τι κάνεις;",
+        "phonetic_hint": "tee KAH-nees",
+        "english": "How are you? / What are you doing? (informal)",
+        "notes": "Klik A1 p. 48, 49, 54. Primary conversational check-in among friends.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σου, Άννα! Τι κάνεις; Είσαι καλά;",
+        "example_en": "Hello, Anna! How are you? Are you well?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking about health and state informally"
+    },
+    {
+        "id": "A1-U102-023",
+        "greek": "Τι κάνετε;",
+        "phonetic_hint": "tee KAH-neh-teh",
+        "english": "How are you? (formal singular or plural)",
+        "notes": "Klik A1 p. 49, 53, 54. Polite plural form of 'τι κάνεις'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλημέρα σας, κύριε καθηγητά! Τι κάνετε;",
+        "example_en": "Good morning, professor! How are you?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking how someone is doing formally"
+    },
+    {
+        "id": "A1-U102-024",
+        "greek": "Πώς είσαι;",
+        "phonetic_hint": "pos EE-seh",
+        "english": "How are you doing? (informal)",
+        "notes": "Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person singular of είμαι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πώς είσαι σήμερα; Νιώθεις καλύτερα;",
+        "example_en": "How are you today? Do you feel better?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about someone's condition"
+    },
+    {
+        "id": "A1-U102-025",
+        "greek": "Πώς είστε;",
+        "phonetic_hint": "pos EES-teh",
+        "english": "How are you doing? (formal or plural)",
+        "notes": "Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person plural/polite of είμαι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σας, παιδιά! Πώς είστε όλοι;",
+        "example_en": "Hello, guys! How are you all doing?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about well-being in formal or group contexts"
+    },
+    {
+        "id": "A1-U102-026",
+        "greek": "Είσαι καλά;",
+        "phonetic_hint": "EE-seh kah-LAH",
+        "english": "Are you well? / Are you okay?",
+        "notes": "Klik A1 p. 51. Direct question checking someone's health or state.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είσαι καλά; — Ναι, πολύ καλά είμαι.",
+        "example_en": "— Are you okay? — Yes, I am very well.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Checking if someone is okay"
+    },
+    {
+        "id": "A1-U102-027",
+        "greek": "Πολύ καλά, ευχαριστώ!",
+        "phonetic_hint": "po-LEE kah-LAH ef-hah-ree-STOH",
+        "english": "Very well, thank you!",
+        "notes": "Klik A1 p. 48, 49, 52, 54. Standard polite reply to 'τι κάνεις'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι κάνεις; — Πολύ καλά, ευχαριστώ! Εσύ;",
+        "example_en": "— How are you? — Very well, thank you! And you?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Answering an inquiry about condition politely"
+    },
+    {
+        "id": "A1-U102-028",
+        "greek": "Μια χαρά!",
+        "phonetic_hint": "myah hah-RAH",
+        "english": "Great! / Just fine! / Wonderful!",
+        "notes": "Klik A1 p. 49, 51, 52, 54. Very common Greek upbeat reply. Lit: 'A joy!'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Όλα πάνε μια χαρά με τα μαθήματα.",
+        "example_en": "Everything is going great with the lessons.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing positive state enthusiastically"
+    },
+    {
+        "id": "A1-U102-029",
+        "greek": "Όλα καλά!",
+        "phonetic_hint": "OH-lah kah-LAH",
+        "english": "All good! / Everything is fine!",
+        "notes": "Klik A1 p. 49, 54. Colloquial reassurance: 'Everything is good'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Όλα καλά στη δουλειά; — Ναι, όλα καλά!",
+        "example_en": "— Everything good at work? — Yes, all good!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Confirming everything is running smoothly"
+    },
+    {
+        "id": "A1-U102-030",
+        "greek": "Έτσι κι έτσι.",
+        "phonetic_hint": "ET-see kee ET-see",
+        "english": "So-so. / Not bad, not great.",
+        "notes": "Klik A1 p. 49, 54. Neutral reply indicating moderate condition.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς πάνε τα πράγματα; — Έτσι κι έτσι.",
+        "example_en": "— How are things going? — So-so.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing mediocre condition"
+    },
+    {
+        "id": "A1-U102-031",
+        "greek": "Όχι καλά.",
+        "phonetic_hint": "OH-khee kah-LAH",
+        "english": "Not well. / Not good.",
+        "notes": "Klik A1 p. 49, 54. Honest negative response to well-being inquiry.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σήμερα δεν είμαι καλά, πονάει το κεφάλι μου.",
+        "example_en": "Today I am not well, my head hurts.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing negative well-being"
+    },
+    {
+        "id": "A1-U102-032",
+        "greek": "Εσύ;",
+        "phonetic_hint": "eh-SEE",
+        "english": "And you? (informal singular)",
+        "notes": "Klik A1 p. 48, 49, 50, 54. Conversational rebound asking the other person.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εγώ είμαι καλά. Εσύ;",
+        "example_en": "I am fine. And you?",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun"
+        },
+        "keg_communicative_function": "Bouncing a social inquiry back to the speaker"
+    },
+    {
+        "id": "A1-U102-033",
+        "greek": "Εσείς;",
+        "phonetic_hint": "eh-SEES",
+        "english": "And you? (formal or plural)",
+        "notes": "Klik A1 p. 48, 54. Polite or plural rebound pronoun.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ευχαριστώ, είμαι πολύ καλά. Εσείς;",
+        "example_en": "Thank you, I am very well. And you?",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun"
+        },
+        "keg_communicative_function": "Bouncing an inquiry back formally"
+    },
+
+    # --- Subject Personal Pronouns (p. 51) ---
+    {
+        "id": "A1-U102-034",
+        "greek": "εγώ",
+        "phonetic_hint": "eh-GHOH",
+        "english": "I (personal pronoun)",
+        "notes": "Klik A1 p. 51. 1st person singular. Used for emphasis or contrast since verbs show person.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εγώ είμαι ο Ανδρέας.",
+        "example_en": "I am Andreas.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun",
+            "grammatical_person": "1st person singular"
+        },
+        "keg_communicative_function": "Emphasizing oneself as subject"
+    },
+    {
+        "id": "A1-U102-035",
+        "greek": "εσύ",
+        "phonetic_hint": "eh-SEE",
+        "english": "you (informal singular pronoun)",
+        "notes": "Klik A1 p. 51. 2nd person singular subject personal pronoun.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εσύ είσαι ο Πέτρος;",
+        "example_en": "Are you Petros?",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun",
+            "grammatical_person": "2nd person singular"
+        },
+        "keg_communicative_function": "Addressing someone directly as subject"
+    },
+    {
+        "id": "A1-U102-036",
+        "greek": "αυτός",
+        "phonetic_hint": "af-TOS",
+        "english": "he / this one (masculine)",
+        "notes": "Klik A1 p. 51. 3rd person singular masculine. Diphthong αυ pronounced [af].",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτός είναι ο καινούριος συνάδελφος.",
+        "example_en": "He is the new colleague.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (masculine)",
+            "grammatical_person": "3rd person singular masculine"
+        },
+        "keg_communicative_function": "Referring to a male person"
+    },
+    {
+        "id": "A1-U102-037",
+        "greek": "αυτή",
+        "phonetic_hint": "af-TEE",
+        "english": "she / this one (feminine)",
+        "notes": "Klik A1 p. 51. 3rd person singular feminine pronoun. Diphthong αυ pronounced [af].",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτή είναι η κυρία Ελένη.",
+        "example_en": "She is Mrs. Eleni.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (feminine)",
+            "grammatical_person": "3rd person singular feminine"
+        },
+        "keg_communicative_function": "Referring to a female person"
+    },
+    {
+        "id": "A1-U102-038",
+        "greek": "αυτό",
+        "phonetic_hint": "af-TOH",
+        "english": "it / this (neuter)",
+        "notes": "Klik A1 p. 51. 3rd person singular neuter pronoun.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτό είναι το σχολείο της γειτονιάς.",
+        "example_en": "This is the neighborhood school.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (neuter)",
+            "grammatical_person": "3rd person singular neuter"
+        },
+        "keg_communicative_function": "Pointing out or identifying neuter objects and places"
+    },
+    {
+        "id": "A1-U102-039",
+        "greek": "εμείς",
+        "phonetic_hint": "eh-MEES",
+        "english": "we (personal pronoun)",
+        "notes": "Klik A1 p. 51, 52. 1st person plural subject pronoun. Digraph ει [i].",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εμείς είμαστε μαθητές στο πρώτο επίπεδο.",
+        "example_en": "We are students in the first level.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun",
+            "grammatical_person": "1st person plural"
+        },
+        "keg_communicative_function": "Speaking as a group"
+    },
+    {
+        "id": "A1-U102-040",
+        "greek": "εσείς",
+        "phonetic_hint": "eh-SEES",
+        "english": "you (plural or polite singular pronoun)",
+        "notes": "Klik A1 p. 51. 2nd person plural subject pronoun, also polite singular address.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εσείς είστε ο κύριος Σταύρος;",
+        "example_en": "Are you Mr. Stavros?",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun",
+            "grammatical_person": "2nd person plural / formal"
+        },
+        "keg_communicative_function": "Addressing groups or individuals politely"
+    },
+    {
+        "id": "A1-U102-041",
+        "greek": "αυτοί",
+        "phonetic_hint": "af-TEE",
+        "english": "they (masculine plural pronoun)",
+        "notes": "Klik A1 p. 51. 3rd person plural masculine (or mixed gender group). Digraph οι [i].",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτοί είναι ο Κώστας και ο Δημήτρης.",
+        "example_en": "They are Kostas and Dimitris.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (masculine plural)",
+            "grammatical_person": "3rd person plural masculine"
+        },
+        "keg_communicative_function": "Referring to multiple male individuals"
+    },
+    {
+        "id": "A1-U102-042",
+        "greek": "αυτές",
+        "phonetic_hint": "af-TES",
+        "english": "they (feminine plural pronoun)",
+        "notes": "Klik A1 p. 51. 3rd person plural feminine pronoun.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτές είναι η Άννα και η Μαρία.",
+        "example_en": "They are Anna and Maria.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (feminine plural)",
+            "grammatical_person": "3rd person plural feminine"
+        },
+        "keg_communicative_function": "Referring to a group of female individuals"
+    },
+    {
+        "id": "A1-U102-043",
+        "greek": "αυτά",
+        "phonetic_hint": "af-TAH",
+        "english": "they / these (neuter plural pronoun)",
+        "notes": "Klik A1 p. 51. 3rd person plural neuter pronoun.",
+        "gender_or_pos": "pronoun",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτά είναι τα παιδιά της γειτονιάς.",
+        "example_en": "These are the children of the neighborhood.",
+        "grammatical_info": {
+            "part_of_speech": "personal pronoun (neuter plural)",
+            "grammatical_person": "3rd person plural neuter"
+        },
+        "keg_communicative_function": "Referring to neuter plural entities"
+    },
+
+    # --- Present Tense of 'είμαι' (to be) & Core Particles (pp. 43, 45, 51, 52) ---
+    {
+        "id": "A1-U102-044",
+        "greek": "είμαι",
+        "phonetic_hint": "EE-meh",
+        "english": "to be / I am",
+        "notes": "Klik A1 p. 43, 51. Core irregular copular verb: είμαι, είσαι, είναι, είμαστε, είστε, είναι.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είμαι ο Δημήτρης και είμαι από την Ελλάδα.",
+        "example_en": "I am Dimitris and I am from Greece.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "irregular copular",
+            "third_person_singular": "είναι",
+            "first_person_plural": "είμαστε"
+        },
+        "keg_communicative_function": "Stating identity, origin, and state"
+    },
+    {
+        "id": "A1-U102-045",
+        "greek": "είσαι",
+        "phonetic_hint": "EE-seh",
+        "english": "you are (2nd person singular of είμαι)",
+        "notes": "Klik A1 p. 51. Used for singular informal address.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είσαι έτοιμος για το μάθημα;",
+        "example_en": "Are you ready for the lesson?",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "irregular copular",
+            "third_person_singular": "είναι",
+            "first_person_plural": "είμαστε"
+        },
+        "keg_communicative_function": "Addressing someone directly about their state"
+    },
+    {
+        "id": "A1-U102-046",
+        "greek": "είναι",
+        "phonetic_hint": "EE-neh",
+        "english": "is / are (3rd person singular and plural)",
+        "notes": "Klik A1 p. 51. Identical form for 3rd person singular and 3rd person plural.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτός είναι ο δάσκαλος και αυτοί είναι οι μαθητές.",
+        "example_en": "He is the teacher and they are the students.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "irregular copular",
+            "third_person_singular": "είναι",
+            "first_person_plural": "είμαστε"
+        },
+        "keg_communicative_function": "Stating facts and introducing others"
+    },
+    {
+        "id": "A1-U102-047",
+        "greek": "είμαστε",
+        "phonetic_hint": "EE-mahs-teh",
+        "english": "we are (1st person plural of είμαι)",
+        "notes": "Klik A1 p. 51, 52. 1st person plural copula.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είμαστε φίλοι εδώ και πολλά χρόνια.",
+        "example_en": "We are friends for many years.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "irregular copular",
+            "third_person_singular": "είναι",
+            "first_person_plural": "είμαστε"
+        },
+        "keg_communicative_function": "Stating joint group identity"
+    },
+    {
+        "id": "A1-U102-048",
+        "greek": "είστε",
+        "phonetic_hint": "EES-teh",
+        "english": "you are (2nd person plural or polite singular)",
+        "notes": "Klik A1 p. 51. 2nd person plural and formal singular copula.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εσείς είστε η κυρία καθηγήτρια;",
+        "example_en": "Are you the professor?",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "irregular copular",
+            "third_person_singular": "είναι",
+            "first_person_plural": "είμαστε"
+        },
+        "keg_communicative_function": "Addressing individuals politely or groups"
+    },
+    {
+        "id": "A1-U102-049",
+        "greek": "ναι",
+        "phonetic_hint": "neh",
+        "english": "yes",
+        "notes": "Klik A1 p. 51, 52, 54. Affirmative particle. Digraph αι [e].",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ναι, εγώ είμαι ο Κώστας.",
+        "example_en": "Yes, I am Kostas.",
+        "grammatical_info": {
+            "part_of_speech": "particle (affirmative)"
+        },
+        "keg_communicative_function": "Expressing affirmation"
+    },
+    {
+        "id": "A1-U102-050",
+        "greek": "όχι",
+        "phonetic_hint": "OH-khee",
+        "english": "no",
+        "notes": "Klik A1 p. 51, 52, 54. Negative particle. Voiceless velar/palatal fricative χ [ç].",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Όχι, δεν είμαι ο Γιάννης.",
+        "example_en": "No, I am not Giannis.",
+        "grammatical_info": {
+            "part_of_speech": "particle (negative)"
+        },
+        "keg_communicative_function": "Expressing negation"
+    },
+    {
+        "id": "A1-U102-051",
+        "greek": "δεν",
+        "phonetic_hint": "then",
+        "english": "not / do not (verbal negation)",
+        "notes": "Klik A1 p. 51, 52, 53. Verbal negation particle placed immediately before the verb.",
+        "gender_or_pos": "particle (negative)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δεν είμαι από την Αθήνα, είμαι από τη Θεσσαλονίκη.",
+        "example_en": "I am not from Athens, I am from Thessaloniki.",
+        "grammatical_info": {
+            "part_of_speech": "negative particle"
+        },
+        "keg_communicative_function": "Negating a verb statement"
+    },
+
+    # --- Core Interpersonal Nouns (pp. 43, 48, 51, 54) ---
+    {
+        "id": "A1-U102-052",
+        "greek": "ο φίλος",
+        "phonetic_hint": "o FEE-los",
+        "english": "friend (male)",
+        "notes": "Klik A1 p. 48, 52. Masculine noun in -ος. Plural: οι φίλοι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Από εδώ ο φίλος μου, ο Αλέξης.",
+        "example_en": "This is my friend, Alexis.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι φίλοι",
+            "accusative_singular": "τον φίλο"
+        },
+        "keg_communicative_function": "Introducing a male friend"
+    },
+    {
+        "id": "A1-U102-053",
+        "greek": "η φίλη",
+        "phonetic_hint": "ee FEE-lee",
+        "english": "friend (female)",
+        "notes": "Klik A1 p. 48, 52, 54. Feminine noun in -η. Plural: οι φίλες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Από εδώ η καλή μου φίλη, η Αλεξάνδρα.",
+        "example_en": "This is my good friend, Alexandra.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι φίλες",
+            "accusative_singular": "τη φίλη"
+        },
+        "keg_communicative_function": "Introducing a female friend"
+    },
+    {
+        "id": "A1-U102-054",
+        "greek": "ο δάσκαλος",
+        "phonetic_hint": "o THAHS-kah-los",
+        "english": "teacher / schoolteacher (male)",
+        "notes": "Klik A1 p. 48, 54. Masculine proparoxytone in -ος (vocative: δάσκαλε).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο δάσκαλος μπαίνει στην τάξη και λέει καλημέρα.",
+        "example_en": "The teacher enters the classroom and says good morning.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι δάσκαλοι",
+            "accusative_singular": "τον δάσκαλο"
+        },
+        "keg_communicative_function": "Identifying a male instructor"
+    },
+    {
+        "id": "A1-U102-055",
+        "greek": "η δασκάλα",
+        "phonetic_hint": "ee thahs-KAH-lah",
+        "english": "teacher / schoolteacher (female)",
+        "notes": "Klik A1 p. 48, 54. Feminine paroxytone in -α (plural: οι δασκάλες).",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η δασκάλα μας είναι πολύ ευγενική.",
+        "example_en": "Our teacher is very polite.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι δασκάλες",
+            "accusative_singular": "τη δασκάλα"
+        },
+        "keg_communicative_function": "Identifying a female instructor"
+    },
+    {
+        "id": "A1-U102-056",
+        "greek": "ο συμμαθητής",
+        "phonetic_hint": "o see-mah-thee-TEES",
+        "english": "classmate (male)",
+        "notes": "Klik A1 p. 43, 53. Masculine oxytone in -ής (plural: οι συμμαθητές).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο συμμαθητής μου κάθεται δίπλα μου.",
+        "example_en": "My classmate sits next to me.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι συμμαθητές",
+            "accusative_singular": "τον συμμαθητή"
+        },
+        "keg_communicative_function": "Identifying fellow male students"
+    },
+    {
+        "id": "A1-U102-057",
+        "greek": "η συμμαθήτρια",
+        "phonetic_hint": "ee see-mah-THEE-tree-ah",
+        "english": "classmate (female)",
+        "notes": "Klik A1 p. 53. Feminine noun in -τρια (plural: οι συμμαθήτριες).",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάνω την άσκηση μαζί με τη συμμαθήτριά μου.",
+        "example_en": "I do the exercise together with my classmate.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι συμμαθήτριες",
+            "accusative_singular": "τη συμμαθήτρια"
+        },
+        "keg_communicative_function": "Identifying fellow female students"
+    },
+    {
+        "id": "A1-U102-058",
+        "greek": "το παιδί",
+        "phonetic_hint": "to peh-THEE",
+        "english": "child / kid",
+        "notes": "Klik A1 p. 48, 51. Digraph αι [e]. Vocative plural: 'παιδιά!' (guys! / children!).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλημέρα, παιδιά! Ανοίξτε τα βιβλία σας.",
+        "example_en": "Good morning, children! Open your books.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα παιδιά",
+            "accusative_singular": "το παιδί"
+        },
+        "keg_communicative_function": "Addressing groups of learners or children"
+    },
+    {
+        "id": "A1-U102-059",
+        "greek": "το κορίτσι",
+        "phonetic_hint": "to koh-REET-see",
+        "english": "girl",
+        "notes": "Klik A1 p. 51. Neuter noun in -ι with plural in -ια. Practicing affricate τσ [ts].",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτά τα κορίτσια μαθαίνουν ελληνικά.",
+        "example_en": "These girls are learning Greek.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα κορίτσια",
+            "accusative_singular": "το κορίτσι"
+        },
+        "keg_communicative_function": "Identifying young females"
+    },
+    {
+        "id": "A1-U102-060",
+        "greek": "το αγόρι",
+        "phonetic_hint": "to ah-GHOH-ree",
+        "english": "boy",
+        "notes": "Klik A1 p. 51. Neuter noun in -ι with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το αγόρι παίζει ποδόσφαιρο στην αυλή.",
+        "example_en": "The boy is playing soccer in the courtyard.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα αγόρια",
+            "accusative_singular": "το αγόρι"
+        },
+        "keg_communicative_function": "Identifying young males"
+    }
+]
+
+lesson_u102 = {
+    "unit_id": "unit-102",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages 43-54)",
+    "description": "CEFR A1: Greetings by time of day, formal and informal introductions, personal pronouns, the present tense of 'είμαι', vocative address, and social etiquette from Klik A1 (pages 43-54).",
+    "lesson_status": "not_started",
+    "lesson_notes": """Κλικ στα Ελληνικά Α1 — Ενότητα 1: Γεια χαρά! (Σελίδες 43-54):
+• Χαιρετισμοί & Χρόνος (Greetings by Time):
+  - Πρωί: Καλημέρα! (Good morning!)
+  - Απόγευμα & Βράδυ: Καλησπέρα! (Good evening!)
+  - Αποχαιρετισμός: Αντίο!, Γεια σου/σας!, Τα λέμε!, Καλό βράδυ!, Καληνύχτα!
+• Συστάσεις (Introductions):
+  - «Με λένε + Αιτιατική / όνομα» (π.χ. Με λένε Κώστα / Σοφία).
+  - «Είμαι ο / η + Ονομαστική» (π.χ. Είμαι ο Νίκος / Είμαι η Μαρία).
+  - «Από εδώ ο φίλος μου / η φίλη μου...» (This is my friend...).
+  - Απάντηση: «Χαίρω πολύ!», «Κι εγώ!», «Επίσης!».
+• Κλητική Πτώση (Vocative in Direct Address):
+  - Αρσενικά σε -ος: κύριε Παπαδόπουλε!, Νίκο!
+  - Αρσενικά σε -ης: Δημήτρη!, Άρη!
+  - Αρσενικά σε -ας: Κώστα!
+  - Θηλυκά παραμένουν ίδια: Άννα!, Ελένη!
+• Προσωπικές Αντωνυμίες & Ρήμα «είμαι» (Present):
+  - εγώ είμαι, εσύ είσαι, αυτός/αυτή/αυτό είναι
+  - εμείς είμαστε, εσείς είστε, αυτοί/αυτές/αυτά είναι
+• Άρνηση (Negation):
+  - «Όχι, δεν είμαι ο Γιάννης.» (No, I am not Giannis).""",
+    "entries": cards_u102
+}
+
+def main():
+    print(f"Writing {len(cards_u102)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u102, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-102"), None)
+    unit_102_entry = {
+        "id": "unit-102",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 43-54 (Ενότητα 1: Γεια χαρά! - Χαιρετισμοί & Γνωριμία)",
+        "order": 102,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-102/lesson-01.yaml",
+                "title": "Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages 43-54)"
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-102 in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_102_entry
+    else:
+        print("Appending unit-102 to manifest.yaml...")
+        units.append(unit_102_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-102!")
+
+if __name__ == "__main__":
+    main()

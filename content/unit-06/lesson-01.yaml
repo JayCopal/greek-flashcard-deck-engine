@@ -1,0 +1,637 @@
+unit_id: unit-06
+lesson_id: lesson-01
+title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
+description: 'CEFR A1: Supermarket shopping, farmers'' market transactions, buying
+  groceries and clothes, asking for prices and weights, and payment methods.'
+lesson_status: not_started
+lesson_notes: "Unit 6 Core Grammar Notes:\n\n• Inquiring about Prices:\n  - Singular:\
+  \ 'Πόσο κάνει;' / 'Πόσο κοστίζει;' (e.g. Πόσο κάνει το γάλα;)\n  - Plural: 'Πόσο\
+  \ έχουν;' / 'Πόσο κάνουν;' (e.g. Πόσο έχουν τα πορτοκάλια;)\n\n• Units of Measurement\
+  \ & Packaging:\n  - το κιλό (kilo) / μισό κιλό (half kilo)\n  - το γραμμάριο (gram)\
+  \ / διακόσια γραμμάρια (200g)\n  - το λίτρο (liter) / το μπουκάλι (bottle) / το\
+  \ πακέτο (packet)\n\n• Neuter Nouns in -ο, -ι, -μα:\n  - In -ο: το κιλό -> τα κιλά,\
+  \ το λίτρο -> τα λίτρα, το μήλο -> τα μήλα.\n  - In -ι: το ψωμί -> τα ψωμιά, το\
+  \ τυρί -> τα τυριά, το μαγαζί -> τα μαγαζιά.\n  - In -μα: το χρώμα -> τα χρώματα,\
+  \ το πράγμα -> τα πράγματα.\n\n• Payment Methods:\n  - με μετρητά (with cash)\n\
+  \  - με κάρτα (by card)\n\n• Key Commercial Expressions:\n  - 'Ορίστε τα ρέστα σας.'\
+  \ (Here is your change.)\n  - 'Χρειάζεστε απόδειξη;' (Do you need a receipt?)\n\
+  \  - 'Ψάχνω ένα...' (I am looking for a...)"
+entries:
+- id: A1-U06-001
+  greek: η αγορά
+  phonetic_hint: ''
+  english: market / marketplace
+  notes: Feminine in -ά with plural in -ές. Also means the abstract economy or financial
+    market.
+  gender_or_pos: noun (feminine)
+  audio: i-agora-e17ce7.mp3
+  status: verified
+  example_el: Πάω στην κεντρική αγορά για ψώνια.
+  example_en: I am going to the central market for shopping.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αγορές
+    accusative_singular: την αγορά
+  keg_communicative_function: Inquiring about and identifying shopping venues
+- id: A1-U06-002
+  greek: η λαϊκή αγορά
+  phonetic_hint: ''
+  english: open-air farmers' market / street market
+  notes: Universally referred to as 'η λαϊκή'. Core cultural setting in KEG listening
+    exams.
+  gender_or_pos: noun phrase (feminine)
+  audio: i-laiki-agora-a4e79f.mp3
+  status: verified
+  example_el: Κάθε Σάββατο πηγαίνουμε στη λαϊκή.
+  example_en: Every Saturday we go to the street market.
+  grammatical_info:
+    part_of_speech: noun phrase (feminine)
+    plural: οι λαϊκές αγορές
+    accusative_singular: τη λαϊκή αγορά
+  keg_communicative_function: Shopping for fresh agricultural produce in Greece
+- id: A1-U06-003
+  greek: το σούπερ μάρκετ
+  phonetic_hint: ''
+  english: supermarket / grocery store
+  notes: Indeclinable neuter loanword.
+  gender_or_pos: noun (neuter indeclinable)
+  audio: to-soyper-market-f6ce04.mp3
+  status: verified
+  example_el: Κάνω τα ψώνια της εβδομάδας στο σούπερ μάρκετ.
+  example_en: I do the week's shopping at the supermarket.
+  grammatical_info:
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα σούπερ μάρκετ
+    accusative_singular: το σούπερ μάρκετ
+  keg_communicative_function: Navigating grocery retail chains
+- id: A1-U06-004
+  greek: ο φούρνος
+  phonetic_hint: ''
+  english: bakery / baker's oven
+  notes: 'Masculine in -ος (plural: οι φούρνοι). Synonym of ''το αρτοποιείο''.'
+  gender_or_pos: noun (masculine)
+  audio: o-foyrnos-10fcda.mp3
+  status: verified
+  example_el: Αγοράζω φρέσκο ψωμί από τον φούρνο.
+  example_en: I buy fresh bread from the bakery.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι φούρνοι
+    accusative_singular: τον φούρνο
+  keg_communicative_function: Buying bread, bakery goods, and morning pies
+- id: A1-U06-005
+  greek: το κρεοπωλείο
+  phonetic_hint: ''
+  english: butcher shop
+  notes: Compound of κρέας (meat) + πωλώ (to sell). Paroxytone neuter in -είο.
+  gender_or_pos: noun (neuter)
+  audio: to-kreopoleio-6cbed0.mp3
+  status: verified
+  example_el: Το κρεοπωλείο είναι δίπλα στον φούρνο.
+  example_en: The butcher shop is next to the bakery.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρεοπωλεία
+    accusative_singular: το κρεοπωλείο
+  keg_communicative_function: Purchasing fresh meat and poultry
+- id: A1-U06-006
+  greek: το μαγαζί
+  phonetic_hint: ''
+  english: shop / store
+  notes: 'Oxytone neuter in -ί (plural: τα μαγαζιά). Synonym of ''το κατάστημα''.'
+  gender_or_pos: noun (neuter)
+  audio: to-magazi-41f2a5.mp3
+  status: verified
+  example_el: Τα μαγαζιά κλείνουν στις εννέα το βράδυ.
+  example_en: The shops close at nine in the evening.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μαγαζιά
+    accusative_singular: το μαγαζί
+  keg_communicative_function: Referring to commercial stores in general
+- id: A1-U06-007
+  greek: το λάδι / το ελαιόλαδο
+  phonetic_hint: ''
+  english: olive oil / oil
+  notes: 'Neuter in -ι (plural: τα λάδια). ''Ελαιόλαδο'' specifically denotes olive
+    oil.'
+  gender_or_pos: noun (neuter)
+  audio: to-ladi-to-elaiolado-bef3ef.mp3
+  status: verified
+  example_el: Χρειαζόμαστε ένα λίτρο ελαιόλαδο.
+  example_en: We need one liter of olive oil.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λάδια
+    accusative_singular: το λάδι / το ελαιόλαδο
+  keg_communicative_function: Purchasing cooking oil and Greek staple products
+- id: A1-U06-008
+  greek: το ρύζι
+  phonetic_hint: ''
+  english: rice
+  notes: Paroxytone neuter in -ι.
+  gender_or_pos: noun (neuter)
+  audio: to-ryzi-b3bc9c.mp3
+  status: verified
+  example_el: Ένα πακέτο ρύζι για πιλάφι, παρακαλώ.
+  example_en: A package of rice for pilaf, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρύζια
+    accusative_singular: το ρύζι
+  keg_communicative_function: Buying grain staples at the supermarket
+- id: A1-U06-009
+  greek: τα μακαρόνια
+  phonetic_hint: ''
+  english: pasta / spaghetti
+  notes: Plural noun in Greek (τα μακαρόνια). Spelled with one κ.
+  gender_or_pos: noun (neuter plural)
+  audio: ta-makaronia-72b9ef.mp3
+  status: verified
+  example_el: Αγοράζω δύο πακέτα μακαρόνια.
+  example_en: I am buying two packets of pasta.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα μακαρόνια
+    accusative_plural: τα μακαρόνια
+  keg_communicative_function: Buying pasta on grocery shopping trips
+- id: A1-U06-010
+  greek: τα φρούτα
+  phonetic_hint: ''
+  english: fruits
+  notes: 'Neuter plural (singular: το φρούτο).'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-froyta-b62ec9.mp3
+  status: verified
+  example_el: Στη λαϊκή έχει πάντα φρέσκα φρούτα.
+  example_en: At the street market there is always fresh fruit.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα φρούτα
+    accusative_plural: τα φρούτα
+  keg_communicative_function: Shopping at greengrocers or open markets
+- id: A1-U06-011
+  greek: τα λαχανικά
+  phonetic_hint: ''
+  english: vegetables / greens
+  notes: 'Oxytone neuter plural (singular: το λαχανικό).'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-lachanika-7ed74d.mp3
+  status: verified
+  example_el: Τρώμε πολλά λαχανικά για υγεία.
+  example_en: We eat a lot of vegetables for good health.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα λαχανικά
+    accusative_plural: τα λαχανικά
+  keg_communicative_function: Buying fresh vegetables
+- id: A1-U06-012
+  greek: η ντομάτα
+  phonetic_hint: ''
+  english: tomato
+  notes: 'Paroxytone feminine in -α with plural in -ες. Accusative keeps -ν before
+    ντ: ''την ντομάτα''.'
+  gender_or_pos: noun (feminine)
+  audio: i-ntomata-d5f72a.mp3
+  status: verified
+  example_el: Βάλτε μου δύο κιλά ντομάτες για σαλάτα.
+  example_en: Give me two kilos of tomatoes for salad.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ντομάτες
+    accusative_singular: την ντομάτα
+  keg_communicative_function: Specifying produce quantities at the market
+- id: A1-U06-013
+  greek: το αγγούρι
+  phonetic_hint: ''
+  english: cucumber
+  notes: Spelled with double γ (γγ pronounced [ŋg]). Neuter in -ι.
+  gender_or_pos: noun (neuter)
+  audio: to-aggoyri-984078.mp3
+  status: verified
+  example_el: Θέλω μισό κιλό αγγούρια.
+  example_en: I want half a kilo of cucumbers.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αγγούρια
+    accusative_singular: το αγγούρι
+  keg_communicative_function: Buying salad vegetables
+- id: A1-U06-014
+  greek: το κρεμμύδι
+  phonetic_hint: ''
+  english: onion
+  notes: Spelled with double μ (μμ) and upsilon (υ).
+  gender_or_pos: noun (neuter)
+  audio: to-kremmydi-ad7dd2.mp3
+  status: verified
+  example_el: Ένα κιλό ξερά κρεμμύδια, παρακαλώ.
+  example_en: One kilo of dry onions, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρεμμύδια
+    accusative_singular: το κρεμμύδι
+  keg_communicative_function: Buying staple cooking vegetables
+- id: A1-U06-015
+  greek: το μήλο
+  phonetic_hint: ''
+  english: apple
+  notes: Paroxytone neuter in -ο with plural in -α (τα μήλα).
+  gender_or_pos: noun (neuter)
+  audio: to-milo-8bba30.mp3
+  status: verified
+  example_el: Πόσο έχουν τα κόκκινα μήλα;
+  example_en: How much are the red apples?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μήλα
+    accusative_singular: το μήλο
+  keg_communicative_function: Inquiring about fruit prices and buying fruit
+- id: A1-U06-016
+  greek: το πορτοκάλι
+  phonetic_hint: ''
+  english: orange (fruit)
+  notes: 'Distinguish: ''πορτοκάλι'' (noun fruit) vs ''πορτοκαλί'' (indeclinable orange
+    color).'
+  gender_or_pos: noun (neuter)
+  audio: to-portokali-82af5a.mp3
+  status: verified
+  example_el: Δύο κιλά πορτοκάλια για χυμό, παρακαλώ.
+  example_en: Two kilos of oranges for juicing, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πορτοκάλια
+    accusative_singular: το πορτοκάλι
+  keg_communicative_function: Purchasing citrus fruit by weight
+- id: A1-U06-017
+  greek: το κιλό
+  phonetic_hint: ''
+  english: kilo / kilogram
+  notes: 'Oxytone neuter in -ό (plural: τα κιλά). ''Μισό κιλό'' = half a kilo.'
+  gender_or_pos: noun (neuter)
+  audio: to-kilo-2bd069.mp3
+  status: verified
+  example_el: Ένα κιλό φέτα και μισό κιλό ελιές.
+  example_en: One kilo of feta and half a kilo of olives.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κιλά
+    accusative_singular: το κιλό
+  keg_communicative_function: Stating weights when buying food in Greece
+- id: A1-U06-018
+  greek: το γραμμάριο
+  phonetic_hint: ''
+  english: gram
+  notes: Proparoxytone neuter. In Greek deli counters, portions are ordered in hundreds
+    of grams (διακόσια γραμμάρια).
+  gender_or_pos: noun (neuter)
+  audio: to-grammario-c04eda.mp3
+  status: verified
+  example_el: Διακόσια γραμμάρια τυρί γκούντα σε φέτες.
+  example_en: Two hundred grams of gouda cheese in slices.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γραμμάρια
+    accusative_singular: το γραμμάριο
+  keg_communicative_function: Ordering sliced deli meats and cheese by weight
+- id: A1-U06-019
+  greek: το λίτρο
+  phonetic_hint: ''
+  english: liter
+  notes: Paroxytone neuter in -ο.
+  gender_or_pos: noun (neuter)
+  audio: to-litro-84ec76.mp3
+  status: verified
+  example_el: Ένα λίτρο φρέσκο γάλα.
+  example_en: One liter of fresh milk.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λίτρα
+    accusative_singular: το λίτρο
+  keg_communicative_function: Specifying liquid volumes for milk, oil, or wine
+- id: A1-U06-020
+  greek: το μπουκάλι
+  phonetic_hint: ''
+  english: bottle
+  notes: Paroxytone neuter in -ι.
+  gender_or_pos: noun (neuter)
+  audio: to-mpoykali-ae0c15.mp3
+  status: verified
+  example_el: Δύο μπουκάλια εμφιαλωμένο νερό.
+  example_en: Two bottles of bottled water.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπουκάλια
+    accusative_singular: το μπουκάλι
+  keg_communicative_function: Ordering bottled drinks and liquids
+- id: A1-U06-021
+  greek: το πακέτο
+  phonetic_hint: ''
+  english: packet / package / parcel
+  notes: 'Also used in food take-out: ''σε πακέτο'' / ''για πακέτο'' (to go / take
+    away).'
+  gender_or_pos: noun (neuter)
+  audio: to-paketo-9ae428.mp3
+  status: verified
+  example_el: Ένα πακέτο μπισκότα για τα παιδιά.
+  example_en: A packet of biscuits for the children.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πακέτα
+    accusative_singular: το πακέτο
+  keg_communicative_function: Buying boxed or packaged goods (pasta, coffee, cookies)
+- id: A1-U06-022
+  greek: το κομμάτι
+  phonetic_hint: ''
+  english: piece / slice / item
+  notes: 'Spelled with double μ (μμ). Plural: τα κομμάτια.'
+  gender_or_pos: noun (neuter)
+  audio: to-kommati-f9c02f.mp3
+  status: verified
+  example_el: Ένα κομμάτι τυρόπιτα, παρακαλώ.
+  example_en: A piece of cheese pie, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κομμάτια
+    accusative_singular: το κομμάτι
+  keg_communicative_function: Asking for individual portions or pieces
+- id: A1-U06-023
+  greek: το ρούχο
+  phonetic_hint: ''
+  english: 'garment / piece of clothing (plural: clothes)'
+  notes: Regular neuter in -ο. Almost always used in plural 'τα ρούχα' (clothes).
+  gender_or_pos: noun (neuter)
+  audio: to-roycho-fd4a0e.mp3
+  status: verified
+  example_el: Ψωνίζουμε ρούχα στις εκπτώσεις.
+  example_en: We shop for clothes during the sales.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρούχα
+    accusative_singular: το ρούχο
+  keg_communicative_function: Shopping for apparel and garments
+- id: A1-U06-024
+  greek: το παντελόνι
+  phonetic_hint: ''
+  english: trousers / pants
+  notes: Grammatically singular in Greek (το παντελόνι) unlike English plural 'pants/trousers'.
+  gender_or_pos: noun (neuter)
+  audio: to-panteloni-acf681.mp3
+  status: verified
+  example_el: Δοκιμάζω ένα μαύρο παντελόνι.
+  example_en: I am trying on a pair of black trousers.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παντελόνια
+    accusative_singular: το παντελόνι
+  keg_communicative_function: Buying trousers or jeans
+- id: A1-U06-025
+  greek: η μπλούζα
+  phonetic_hint: ''
+  english: blouse / T-shirt / top
+  notes: Paroxytone feminine in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mployza-33b1a4.mp3
+  status: verified
+  example_el: Μου αρέσει αυτή η μπλε μπλούζα.
+  example_en: I like this blue top.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπλούζες
+    accusative_singular: την μπλούζα
+  keg_communicative_function: Buying tops and casual shirts
+- id: A1-U06-026
+  greek: το πουκάμισο
+  phonetic_hint: ''
+  english: shirt (collared / button-down)
+  notes: 'Proparoxytone neuter in -ο (plural: τα πουκάμισα).'
+  gender_or_pos: noun (neuter)
+  audio: to-poykamiso-55710a.mp3
+  status: verified
+  example_el: Ψάχνω ένα άσπρο πουκάμισο για τη δουλειά.
+  example_en: I am looking for a white shirt for work.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πουκάμισα
+    accusative_singular: το πουκάμισο
+  keg_communicative_function: Shopping for formal or business attire
+- id: A1-U06-027
+  greek: τα παπούτσια
+  phonetic_hint: ''
+  english: shoes / footwear
+  notes: 'Neuter plural (singular: το παπούτσι).'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-papoytsia-bc944f.mp3
+  status: verified
+  example_el: Αυτά τα παπούτσια είναι πολύ άνετα.
+  example_en: These shoes are very comfortable.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα παπούτσια
+    accusative_plural: τα παπούτσια
+  keg_communicative_function: Buying footwear in shoe stores
+- id: A1-U06-028
+  greek: το μέγεθος
+  phonetic_hint: ''
+  english: size (clothing / shoes)
+  notes: 'Ancient declension neuter in -ος with plural in -η (τα μεγέθη). Note: shoe
+    size is also called ''το νούμερο''.'
+  gender_or_pos: noun (neuter in -ος)
+  audio: to-megethos-77d489.mp3
+  status: verified
+  example_el: Τι μέγεθος φοράτε; — Φοράω medium.
+  example_en: What size do you wear? — I wear medium.
+  grammatical_info:
+    part_of_speech: noun (neuter in -ος)
+    plural: τα μεγέθη
+    accusative_singular: το μέγεθος
+  keg_communicative_function: Asking for clothes size or shoe size
+- id: A1-U06-029
+  greek: το χρώμα
+  phonetic_hint: ''
+  english: color
+  notes: Neuter in -μα with plural in -ματα (τα χρώματα).
+  gender_or_pos: noun (neuter)
+  audio: to-chroma-24d8f2.mp3
+  status: verified
+  example_el: Έχετε αυτό το φόρεμα σε άλλο χρώμα;
+  example_en: Do you have this dress in another color?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χρώματα
+    accusative_singular: το χρώμα
+  keg_communicative_function: Asking for products in specific colors
+- id: A1-U06-030
+  greek: η τιμή
+  phonetic_hint: ''
+  english: price / cost / honor
+  notes: 'Oxytone feminine in -ή. In receipts: ''Τιμή μονάδας'' = unit price.'
+  gender_or_pos: noun (feminine)
+  audio: i-timi-c23e55.mp3
+  status: verified
+  example_el: Η τιμή είναι πολύ καλή για τέτοια ποιότητα.
+  example_en: The price is very good for such quality.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τιμές
+    accusative_singular: την τιμή
+  keg_communicative_function: Reading price tags or asking about costs
+- id: A1-U06-031
+  greek: τα ρέστα
+  phonetic_hint: ''
+  english: change (money returned)
+  notes: 'Plural only in commerce: τα ρέστα.'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-resta-bc6b04.mp3
+  status: verified
+  example_el: 'Ορίστε τα ρέστα σας: πέντε ευρώ.'
+  example_en: 'Here is your change: five euros.'
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα ρέστα
+    accusative_plural: τα ρέστα
+  keg_communicative_function: Handling cash change during transactions
+- id: A1-U06-032
+  greek: η απόδειξη
+  phonetic_hint: ''
+  english: receipt / proof
+  notes: Feminine noun in -ση with plural in -σεις. Essential keyword in KEG reading
+    tasks matching receipts to shopping lists.
+  gender_or_pos: noun (feminine)
+  audio: i-apodeixi-8d4ab6.mp3
+  status: verified
+  example_el: Μου δίνετε την απόδειξη, παρακαλώ;
+  example_en: Could you give me the receipt, please?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αποδείξεις
+    accusative_singular: την απόδειξη
+  keg_communicative_function: Requesting or checking shopping receipts
+- id: A1-U06-033
+  greek: τα μετρητά
+  phonetic_hint: ''
+  english: cash
+  notes: 'From μετρώ (to count). Always plural: ''πληρώνω με μετρητά''.'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-metrita-4b1de5.mp3
+  status: verified
+  example_el: Πληρώνετε με μετρητά ή με κάρτα;
+  example_en: Are you paying with cash or with card?
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα μετρητά
+    accusative_plural: τα μετρητά
+  keg_communicative_function: Specifying cash payment method at checkout
+- id: A1-U06-034
+  greek: η κάρτα
+  phonetic_hint: ''
+  english: card / bank card / credit card
+  notes: 'Universal payment method formula: ''με κάρτα''.'
+  gender_or_pos: noun (feminine)
+  audio: i-karta-7ebb5d.mp3
+  status: verified
+  example_el: Μπορώ να πληρώσω με κάρτα;
+  example_en: Can I pay by card?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κάρτες
+    accusative_singular: την κάρτα
+  keg_communicative_function: Paying by debit or credit card
+- id: A1-U06-035
+  greek: αγοράζω
+  phonetic_hint: ''
+  english: to buy / to purchase / I buy
+  notes: Regular Type A active verb (-ω, -εις, -ει, -ουμε, -ετε, -ουν). Derived from
+    'η αγορά'.
+  gender_or_pos: verb
+  audio: agorazo-f6577f.mp3
+  status: verified
+  example_el: Αγοράζω φρούτα από τη λαϊκή αγορά.
+  example_en: I buy fruit from the street market.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό αγοράζει
+    first_person_plural: εμείς αγοράζουμε
+  keg_communicative_function: Talking about purchasing goods and everyday items
+- id: A1-U06-036
+  greek: κοστίζω
+  phonetic_hint: ''
+  english: to cost / it costs
+  notes: Type A verb. Almost always used in 3rd person singular (κοστίζει) or 3rd
+    person plural (κοστίζουν).
+  gender_or_pos: verb
+  audio: kostizo-b2415c.mp3
+  status: verified
+  example_el: Πόσο κοστίζει αυτό το παντελόνι;
+  example_en: How much does this pair of trousers cost?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτό κοστίζει
+    first_person_plural: αυτά κοστίζουν (3rd plural)
+  keg_communicative_function: Inquiring about prices and costs of items
+- id: A1-U06-037
+  greek: πληρώνω
+  phonetic_hint: ''
+  english: to pay / I pay
+  notes: 'Type A active verb: πληρώνω, πληρώνεις, πληρώνει, πληρώνουμε, πληρώνετε,
+    πληρώνουν.'
+  gender_or_pos: verb
+  audio: plirono-59d3cc.mp3
+  status: verified
+  example_el: Πληρώνω στο ταμείο με κάρτα.
+  example_en: I pay at the cash desk by card.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό πληρώνει
+    first_person_plural: εμείς πληρώνουμε
+  keg_communicative_function: Executing payment transactions at stores and supermarkets
+- id: A1-U06-038
+  greek: ψάχνω
+  phonetic_hint: ''
+  english: to look for / to search for / I look for
+  notes: 'Type A active verb. Directly takes direct object in accusative: ψάχνω το
+    ταμείο.'
+  gender_or_pos: verb
+  audio: psachno-dc7f86.mp3
+  status: verified
+  example_el: Καλημέρα σας, ψάχνω ένα ζεστό μπουφάν.
+  example_en: Good morning, I am looking for a warm jacket.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ψάχνει
+    first_person_plural: εμείς ψάχνουμε
+  keg_communicative_function: Asking shop staff for assistance when locating items
+- id: A1-U06-039
+  greek: πόσο κάνει; / πόσο έχουν;
+  phonetic_hint: ''
+  english: how much is it? / how much are they?
+  notes: 'Singular agreement: ''Πόσο κάνει το τυρί;'' / Plural agreement: ''Πόσο έχουν
+    / κάνουν τα μήλα;''.'
+  gender_or_pos: pricing inquiry formula
+  audio: poso-kanei-poso-echo-0c60c2.mp3
+  status: verified
+  example_el: — Πόσο κάνουν αυτά τα πορτοκάλια; — Ένα ευρώ το κιλό.
+  example_en: — How much are these oranges? — One euro a kilo.
+  grammatical_info:
+    part_of_speech: pricing inquiry formula
+    forms: πόσο κάνει; (singular) / πόσο έχουν; (plural)
+  keg_communicative_function: Asking for prices of singular and plural merchandise
+- id: A1-U06-040
+  greek: ακριβός, -ή, -ό
+  phonetic_hint: ''
+  english: expensive / costly
+  notes: Oxytone regular adjective. Direct antonym of 'φθηνός / φτηνός' (cheap / inexpensive).
+  gender_or_pos: adjective
+  audio: akrivos-i-o-6066f9.mp3
+  status: verified
+  example_el: Αυτό το παλτό είναι πολύ ακριβό.
+  example_en: This coat is very expensive.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ακριβή
+    neuter: ακριβό
+    plural: ακριβοί, ακριβές, ακριβά
+  keg_communicative_function: Evaluating merchandise prices and comparing store costs

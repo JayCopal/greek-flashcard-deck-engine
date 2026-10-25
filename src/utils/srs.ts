@@ -1,43 +1,47 @@
 import { CardSRSData, SRSRating, CardEntry } from '../types/schema';
+import { getSRSStorageKey, notifyProgressChanged } from './userStorage';
 
-const SRS_STORAGE_KEY = 'greek_deck_srs_state_v1';
-
-export function getAllSRSData(): Record<string, CardSRSData> {
+export function getAllSRSData(userId?: string): Record<string, CardSRSData> {
+  const key = getSRSStorageKey(userId);
   try {
-    const raw = localStorage.getItem(SRS_STORAGE_KEY);
+    const raw = localStorage.getItem(key);
     return raw ? JSON.parse(raw) : {};
   } catch {
     return {};
   }
 }
 
-export function saveAllSRSData(data: Record<string, CardSRSData>): void {
+export function saveAllSRSData(data: Record<string, CardSRSData>, userId?: string): void {
+  const key = getSRSStorageKey(userId);
   try {
-    localStorage.setItem(SRS_STORAGE_KEY, JSON.stringify(data));
+    localStorage.setItem(key, JSON.stringify(data));
+    notifyProgressChanged();
   } catch (err) {
     console.error('Failed to save SRS state to localStorage', err);
   }
 }
 
-export function getCardSRS(cardId: string): CardSRSData {
-  const all = getAllSRSData();
+export function getCardSRS(cardId: string, userId?: string): CardSRSData {
+  const all = getAllSRSData(userId);
   if (all[cardId]) {
     return all[cardId];
   }
   return {
     cardId,
     isLearned: false,
+    isExcluded: false,
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
   };
 }
 
-export function toggleCardLearned(cardId: string): boolean {
-  const all = getAllSRSData();
+export function toggleCardLearned(cardId: string, userId?: string): boolean {
+  const all = getAllSRSData(userId);
   const current = all[cardId] || {
     cardId,
     isLearned: false,
+    isExcluded: false,
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
@@ -45,15 +49,16 @@ export function toggleCardLearned(cardId: string): boolean {
 
   current.isLearned = !current.isLearned;
   all[cardId] = current;
-  saveAllSRSData(all);
+  saveAllSRSData(all, userId);
   return current.isLearned;
 }
 
-export function setCardLearned(cardId: string, learned: boolean): void {
-  const all = getAllSRSData();
+export function setCardLearned(cardId: string, learned: boolean, userId?: string): void {
+  const all = getAllSRSData(userId);
   const current = all[cardId] || {
     cardId,
     isLearned: false,
+    isExcluded: false,
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
@@ -61,14 +66,48 @@ export function setCardLearned(cardId: string, learned: boolean): void {
 
   current.isLearned = learned;
   all[cardId] = current;
-  saveAllSRSData(all);
+  saveAllSRSData(all, userId);
 }
 
-export function recordSRSRating(cardId: string, rating: SRSRating): CardSRSData {
-  const all = getAllSRSData();
+export function toggleCardExcluded(cardId: string, userId?: string): boolean {
+  const all = getAllSRSData(userId);
   const current = all[cardId] || {
     cardId,
     isLearned: false,
+    isExcluded: false,
+    intervalDays: 0,
+    repetition: 0,
+    easeFactor: 2.5,
+  };
+
+  current.isExcluded = !current.isExcluded;
+  all[cardId] = current;
+  saveAllSRSData(all, userId);
+  return current.isExcluded;
+}
+
+export function setCardExcluded(cardId: string, excluded: boolean, userId?: string): void {
+  const all = getAllSRSData(userId);
+  const current = all[cardId] || {
+    cardId,
+    isLearned: false,
+    isExcluded: false,
+    intervalDays: 0,
+    repetition: 0,
+    easeFactor: 2.5,
+  };
+
+  current.isExcluded = excluded;
+  all[cardId] = current;
+  saveAllSRSData(all, userId);
+}
+
+export function recordSRSRating(cardId: string, rating: SRSRating, userId?: string): CardSRSData {
+  const all = getAllSRSData(userId);
+  const current = all[cardId] || {
+    cardId,
+    isLearned: false,
+    isExcluded: false,
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
@@ -110,6 +149,7 @@ export function recordSRSRating(cardId: string, rating: SRSRating): CardSRSData 
 
   const updated: CardSRSData = {
     ...current,
+    lastRating: rating,
     intervalDays,
     repetition,
     easeFactor: Number(easeFactor.toFixed(2)),
@@ -118,7 +158,7 @@ export function recordSRSRating(cardId: string, rating: SRSRating): CardSRSData 
   };
 
   all[cardId] = updated;
-  saveAllSRSData(all);
+  saveAllSRSData(all, userId);
   return updated;
 }
 
@@ -127,23 +167,43 @@ export function isCardDue(srs: CardSRSData): boolean {
   return new Date(srs.nextReviewDue) <= new Date();
 }
 
+export type RatingFilterOption = 'all' | 'again' | 'hard' | 'good' | 'easy' | 'new';
+
+export function getCardRatingStatus(srs?: CardSRSData): SRSRating | 'new' {
+  if (!srs || !srs.lastReviewed) return 'new';
+  if (srs.lastRating) return srs.lastRating;
+  if (srs.repetition === 0) return 'again';
+  if (srs.easeFactor < 2.0) return 'hard';
+  return 'good';
+}
+
 export function filterStudyCards(
   cards: CardEntry[],
   options: {
     hideLearned: boolean;
     dueOnly: boolean;
-  }
+    hideExcluded?: boolean;
+    ratingFilter?: RatingFilterOption;
+  },
+  userId?: string
 ): CardEntry[] {
-  const allSRS = getAllSRSData();
+  const allSRS = getAllSRSData(userId);
+  const hideExcluded = options.hideExcluded ?? true;
+  const ratingFilter = options.ratingFilter ?? 'all';
 
   return cards.filter((card) => {
     const srs = allSRS[card.id] || {
       cardId: card.id,
       isLearned: false,
+      isExcluded: false,
       intervalDays: 0,
       repetition: 0,
       easeFactor: 2.5,
     };
+
+    if (hideExcluded && srs.isExcluded) {
+      return false;
+    }
 
     if (options.hideLearned && srs.isLearned) {
       return false;
@@ -151,6 +211,13 @@ export function filterStudyCards(
 
     if (options.dueOnly && !isCardDue(srs)) {
       return false;
+    }
+
+    if (ratingFilter !== 'all') {
+      const status = getCardRatingStatus(srs);
+      if (status !== ratingFilter) {
+        return false;
+      }
     }
 
     return true;

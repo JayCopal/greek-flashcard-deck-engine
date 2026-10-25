@@ -15,7 +15,8 @@ A local-first, single-user authoring workstation and study engine for Modern Gre
 - **"Listen, Accept or Reject" Review Pipeline:** Preview pronunciation in-memory before committing. Green "Accept" writes the deterministic MP3 file and updates the YAML. Red "Reject" discards the audio buffer and reveals an inline editor to adjust Greek spelling or *tonos* accents.
 - **Deterministic Audio Slug Strategy:** Greek text is transliterated to clean Latin slugs with a SHA-256 Unicode hash (e.g. `kalimera-2490ee.mp3`), ensuring portable, collision-free assets.
 - **Interactive Flashcard Drilling Mode:** 3D perspective flip cards with keyboard shortcuts (`Space` to flip, `ArrowLeft`/`ArrowRight` to navigate, auto-play audio).
-- **One-Click Static Mobile PWA Export:** `npm run export:pwa` bundles everything into `dist-pwa/` with a Service Worker. Works 100% offline on iOS and Android with zero server running.
+- **Multi-User Local Storage:** Card markings, SRS intervals, review history, and lesson completion status are isolated per learner profile in `localStorage`. Switch learners, create new profiles, or reset progress at any time without server dependencies.
+- **One-Click Static Mobile PWA & WebAPK Installation:** `npm run export:pwa` bundles everything into `dist-pwa/` with high-resolution adaptive/maskable icons and a Service Worker. Works 100% offline on iOS and Android with full native WebAPK installation support on Android Chrome.
 
 ---
 
@@ -49,8 +50,9 @@ Open **http://localhost:5173** in your browser.
   ```powershell
   npm run audio:generate
   ```
-- **Authoring Guide:**
-  See [docs/LESSON_CREATION_GUIDE.md](file:///c:/jay-programs/greek-flashcard-deck-engine/docs/LESSON_CREATION_GUIDE.md) for full YAML schema definitions and authoring workflows.
+- **Authoring & Audio Guides:**
+  - [docs/LESSON_CREATION_GUIDE.md](file:///c:/jay-programs/greek-flashcard-deck-engine/docs/LESSON_CREATION_GUIDE.md): Full YAML schema definitions, validation rules, and lesson authoring workflows.
+  - [docs/AUDIO_GENERATION_GUIDE.md](file:///c:/jay-programs/greek-flashcard-deck-engine/docs/AUDIO_GENERATION_GUIDE.md): Chirp-3 HD audio pipeline specifications, deterministic slug hashing, and AI agent execution protocols.
 
 ---
 

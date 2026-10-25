@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { DeckData, Lesson, LessonStatus } from '../types/schema';
-import { getAllSRSData, isCardDue } from '../utils/srs';
+import { getAllSRSData, isCardDue, getCardRatingStatus } from '../utils/srs';
+import { getUserLessonStatus, setUserLessonStatus, getActiveUser } from '../utils/userStorage';
 import { 
   BookOpen, 
   Layers, 
@@ -33,32 +34,61 @@ export const Dashboard: React.FC<DashboardProps> = ({
 }) => {
   const [isExporting, setIsExporting] = useState(false);
   const [exportMessage, setExportMessage] = useState<string | null>(null);
+  const [activeUser, setActiveUser] = useState(getActiveUser());
+  const [, setVersion] = useState(0);
+
+  useEffect(() => {
+    const handleUpdate = () => {
+      setActiveUser(getActiveUser());
+      setVersion((v) => v + 1);
+    };
+    window.addEventListener('greek_deck_user_change', handleUpdate);
+    window.addEventListener('greek_deck_progress_change', handleUpdate);
+    return () => {
+      window.removeEventListener('greek_deck_user_change', handleUpdate);
+      window.removeEventListener('greek_deck_progress_change', handleUpdate);
+    };
+  }, []);
 
   const { stats, manifest, units } = deck;
 
   // Gather all cards across all lessons
   const allCards = units.flatMap((u) => u.lessons.flatMap((l) => l.entries));
 
-  // Compute SRS statistics
-  const srsMap = getAllSRSData();
+  // Compute SRS statistics for active user
+  const srsMap = getAllSRSData(activeUser.id);
   const learnedCount = allCards.filter((c) => srsMap[c.id]?.isLearned).length;
+  const excludedCount = allCards.filter((c) => srsMap[c.id]?.isExcluded).length;
   const dueCards = allCards.filter((c) => {
     const srs = srsMap[c.id];
     if (!srs) return true; // new card is due
-    if (srs.isLearned) return false; // learned card not due unless unlearned
+    if (srs.isLearned || srs.isExcluded) return false; // learned or excluded card not due
     return isCardDue(srs);
   });
+
+  // Filter cards by rating status for active user
+  const againCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'again');
+  const hardCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'hard');
+  const goodCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'good');
+  const easyCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'easy');
+  const newCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'new');
+
+  const getEffectiveLessonStatus = (lesson: Lesson): LessonStatus => {
+    return getUserLessonStatus(lesson.lesson_id, lesson.lesson_status, activeUser.id);
+  };
+
   // Lesson status filter state
   const [lessonStatusFilter, setLessonStatusFilter] = useState<'all' | 'not_started' | 'in_progress' | 'learned'>('all');
   const [viewingNotesLesson, setViewingNotesLesson] = useState<Lesson | null>(null);
 
-  // Compute lesson status statistics
+  // Compute lesson status statistics for active user
   const allLessons = units.flatMap((u) => u.lessons);
-  const lessonsInProgressCount = allLessons.filter((l) => l.lesson_status === 'in_progress').length;
-  const lessonsLearnedCount = allLessons.filter((l) => l.lesson_status === 'learned').length;
-  const lessonsNotStartedCount = allLessons.filter((l) => !l.lesson_status || l.lesson_status === 'not_started').length;
+  const lessonsInProgressCount = allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress').length;
+  const lessonsLearnedCount = allLessons.filter((l) => getEffectiveLessonStatus(l) === 'learned').length;
+  const lessonsNotStartedCount = allLessons.filter((l) => getEffectiveLessonStatus(l) === 'not_started').length;
 
   const handleQuickLessonStatusChange = async (unitId: string, lessonId: string, newStatus: LessonStatus) => {
+    setUserLessonStatus(lessonId, newStatus, activeUser.id);
     try {
       const res = await fetch(`/api/lesson/${unitId}/${lessonId}`, {
         method: 'PUT',
@@ -68,8 +98,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
       if (res.ok) {
         onRefresh();
       }
-    } catch (err) {
-      console.error('Failed to update lesson status', err);
+    } catch {
+      // Ignored in offline mode
     }
   };
   const handleExport = async () => {
@@ -165,12 +195,19 @@ export const Dashboard: React.FC<DashboardProps> = ({
         {/* Mastered / Learned Cards */}
         <div className="glass-panel p-5 rounded-2xl flex flex-col justify-between border-emerald-500/30">
           <div className="flex items-center justify-between text-emerald-400">
-            <span className="text-xs font-semibold uppercase tracking-wider">Learned</span>
+            <span className="text-xs font-semibold uppercase tracking-wider">{activeUser.name}'s Learned</span>
             <Award className="w-4 h-4" />
           </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-emerald-400">{learnedCount}</span>
-            <span className="text-xs text-emerald-500/80">({stats.total_entries > 0 ? Math.round((learnedCount / stats.total_entries) * 100) : 0}%)</span>
+          <div className="mt-3 flex items-baseline justify-between">
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl font-extrabold text-emerald-400">{learnedCount}</span>
+              <span className="text-xs text-emerald-500/80">({stats.total_entries > 0 ? Math.round((learnedCount / stats.total_entries) * 100) : 0}%)</span>
+            </div>
+            {excludedCount > 0 && (
+              <span className="text-[10px] text-rose-400 font-semibold px-1.5 py-0.5 rounded bg-rose-950/60 border border-rose-800/60" title={`${excludedCount} card(s) marked Don't Learn`}>
+                {excludedCount} excluded
+              </span>
+            )}
           </div>
         </div>
 
@@ -241,6 +278,108 @@ export const Dashboard: React.FC<DashboardProps> = ({
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded-full bg-rose-500" /> Needs Review ({stats.needs_review_count})
           </div>
+        </div>
+      </div>
+
+      {/* Targeted Practice by Card Rating / Status */}
+      <div className="glass-panel p-5 rounded-2xl border-slate-800 space-y-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-sky-400" />
+            <h2 className="text-sm font-bold text-white tracking-wide uppercase">
+              Targeted Practice • Review by Card Status
+            </h2>
+          </div>
+          <span className="text-xs text-slate-400">
+            Select cards by their SRS rating to focus your study session
+          </span>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 pt-1">
+          {/* Again Button */}
+          <button
+            type="button"
+            disabled={againCards.length === 0}
+            onClick={() => onStartStudy(againCards, `${manifest.deck_title} • Again Cards`)}
+            className="p-3.5 rounded-xl bg-rose-950/40 hover:bg-rose-950/80 border border-rose-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
+            title="Drill cards marked Again"
+          >
+            <div className="text-[11px] font-bold text-rose-400 uppercase tracking-wider flex items-center justify-between">
+              <span>Again [1]</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-rose-900/60 text-rose-200 border border-rose-800/60">{againCards.length}</span>
+            </div>
+            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white">
+              Repeat Soon
+            </div>
+          </button>
+
+          {/* Hard Button */}
+          <button
+            type="button"
+            disabled={hardCards.length === 0}
+            onClick={() => onStartStudy(hardCards, `${manifest.deck_title} • Hard Cards`)}
+            className="p-3.5 rounded-xl bg-amber-950/40 hover:bg-amber-950/80 border border-amber-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
+            title="Drill cards marked Hard"
+          >
+            <div className="text-[11px] font-bold text-amber-400 uppercase tracking-wider flex items-center justify-between">
+              <span>Hard [2]</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-amber-900/60 text-amber-200 border border-amber-800/60">{hardCards.length}</span>
+            </div>
+            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white">
+              Challenging
+            </div>
+          </button>
+
+          {/* Good Button */}
+          <button
+            type="button"
+            disabled={goodCards.length === 0}
+            onClick={() => onStartStudy(goodCards, `${manifest.deck_title} • Good Cards`)}
+            className="p-3.5 rounded-xl bg-sky-950/40 hover:bg-sky-950/80 border border-sky-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
+            title="Drill cards marked Good"
+          >
+            <div className="text-[11px] font-bold text-sky-400 uppercase tracking-wider flex items-center justify-between">
+              <span>Good [3]</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-sky-900/60 text-sky-200 border border-sky-800/60">{goodCards.length}</span>
+            </div>
+            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white">
+              Remembered
+            </div>
+          </button>
+
+          {/* Easy Button */}
+          <button
+            type="button"
+            disabled={easyCards.length === 0}
+            onClick={() => onStartStudy(easyCards, `${manifest.deck_title} • Easy Cards`)}
+            className="p-3.5 rounded-xl bg-emerald-950/40 hover:bg-emerald-950/80 border border-emerald-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
+            title="Drill cards marked Easy"
+          >
+            <div className="text-[11px] font-bold text-emerald-400 uppercase tracking-wider flex items-center justify-between">
+              <span>Easy [4]</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-900/60 text-emerald-200 border border-emerald-800/60">{easyCards.length}</span>
+            </div>
+            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white">
+              Effortless
+            </div>
+          </button>
+
+          {/* New / Unrated Button */}
+          <button
+            type="button"
+            disabled={newCards.length === 0}
+            onClick={() => onStartStudy(newCards, `${manifest.deck_title} • New Cards`)}
+            className="p-3.5 rounded-xl bg-slate-800/60 hover:bg-slate-800 border border-slate-700 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
+            title="Drill unreviewed new cards"
+          >
+            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+              <span>New</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-200 border border-slate-600">{newCards.length}</span>
+            </div>
+            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white">
+              Unreviewed
+            </div>
+          </button>
         </div>
       </div>
 
@@ -324,7 +463,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {units.map((unit) => {
             const filteredLessons = unit.lessons.filter((lesson) => {
               if (lessonStatusFilter === 'all') return true;
-              const st = lesson.lesson_status || 'not_started';
+              const st = getEffectiveLessonStatus(lesson);
               return st === lessonStatusFilter;
             });
 
@@ -378,14 +517,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         {/* Interactive Status & Notes Badges */}
                         <div className="flex flex-wrap items-center gap-2 mb-2">
                           <select
-                            value={lesson.lesson_status || 'not_started'}
+                            value={getEffectiveLessonStatus(lesson)}
                             onChange={(e) =>
                               handleQuickLessonStatusChange(unit.id, lesson.lesson_id, e.target.value as LessonStatus)
                             }
                             className={`text-[11px] font-semibold px-2 py-1 rounded-lg border focus:outline-none transition-all cursor-pointer ${
-                              lesson.lesson_status === 'learned'
+                              getEffectiveLessonStatus(lesson) === 'learned'
                                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700 hover:bg-emerald-900'
-                                : lesson.lesson_status === 'in_progress'
+                                : getEffectiveLessonStatus(lesson) === 'in_progress'
                                 ? 'bg-amber-950/80 text-amber-300 border-amber-700 hover:bg-amber-900'
                                 : 'bg-slate-900 text-slate-400 border-slate-700 hover:text-white'
                             }`}

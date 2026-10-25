@@ -76,10 +76,20 @@ export type SRSRating = 'again' | 'hard' | 'good' | 'easy';
 export interface CardSRSData {
   cardId: string;
   isLearned: boolean;
+  isExcluded?: boolean;
+  lastRating?: SRSRating;
   intervalDays: number;
   repetition: number;
   easeFactor: number;
   lastReviewed?: string;
   nextReviewDue?: string;
+}
+
+export interface UserProfile {
+  id: string;
+  name: string;
+  createdAt: string;
+  lastActiveAt: string;
+  color?: string;
 }
 

@@ -4,10 +4,14 @@ import { AudioPlayer, AudioPlayerHandle } from './AudioPlayer';
 import { 
   getCardSRS, 
   toggleCardLearned, 
+  toggleCardExcluded,
   recordSRSRating, 
   filterStudyCards, 
-  getAllSRSData 
+  getAllSRSData,
+  RatingFilterOption,
+  getCardRatingStatus
 } from '../utils/srs';
+import { getActiveUser } from '../utils/userStorage';
 import { 
   ChevronLeft, 
   ChevronRight, 
@@ -21,7 +25,9 @@ import {
   Clock,
   ArrowUpDown,
   Award,
-  FileText
+  FileText,
+  Ban,
+  Filter
 } from 'lucide-react';
 
 type StudyDirection = 'greek_to_english' | 'english_to_greek';
@@ -42,13 +48,21 @@ export const StudySession: React.FC<StudySessionProps> = ({
   // Study configuration options
   const [studyDirection, setStudyDirection] = useState<StudyDirection>('greek_to_english');
   const [hideLearned, setHideLearned] = useState<boolean>(true);
+  const [hideExcluded, setHideExcluded] = useState<boolean>(true);
   const [dueOnly, setDueOnly] = useState<boolean>(false);
+  const [ratingFilter, setRatingFilter] = useState<RatingFilterOption>('all');
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false); // Default is OFF as requested
   const [showNotes, setShowNotes] = useState<boolean>(false);
+  const [activeUser, setActiveUser] = useState(getActiveUser());
 
-  // Active cards filtered by learned/due status
+  // Active cards filtered by learned/excluded/due/rating status
   const [filteredCards, setFilteredCards] = useState<CardEntry[]>(() =>
-    filterStudyCards(initialCards, { hideLearned: true, dueOnly: false })
+    filterStudyCards(initialCards, { 
+      hideLearned: true, 
+      dueOnly: false, 
+      hideExcluded: true,
+      ratingFilter: 'all'
+    })
   );
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,20 +73,41 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   // Re-filter cards whenever settings or master list changes
   const applyFilter = useCallback(
-    (customHideLearned = hideLearned, customDueOnly = dueOnly) => {
+    (
+      customHideLearned = hideLearned, 
+      customDueOnly = dueOnly, 
+      customHideExcluded = hideExcluded,
+      customRatingFilter = ratingFilter
+    ) => {
       const updated = filterStudyCards(initialCards, {
         hideLearned: customHideLearned,
         dueOnly: customDueOnly,
+        hideExcluded: customHideExcluded,
+        ratingFilter: customRatingFilter,
       });
       setFilteredCards(updated);
       setCurrentIndex((prev) => (prev < updated.length ? prev : 0));
       setIsFlipped(false);
     },
-    [initialCards, hideLearned, dueOnly]
+    [initialCards, hideLearned, dueOnly, hideExcluded, ratingFilter]
   );
+
+  useEffect(() => {
+    const handleUserOrProgress = () => {
+      setActiveUser(getActiveUser());
+      applyFilter(hideLearned, dueOnly, hideExcluded, ratingFilter);
+    };
+    window.addEventListener('greek_deck_user_change', handleUserOrProgress);
+    window.addEventListener('greek_deck_progress_change', handleUserOrProgress);
+    return () => {
+      window.removeEventListener('greek_deck_user_change', handleUserOrProgress);
+      window.removeEventListener('greek_deck_progress_change', handleUserOrProgress);
+    };
+  }, [applyFilter, hideLearned, dueOnly, hideExcluded, ratingFilter]);
 
   const currentCard: CardEntry | undefined = filteredCards[currentIndex];
   const srsData = currentCard ? getCardSRS(currentCard.id) : null;
+  const ratingStatus = currentCard ? getCardRatingStatus(srsData || undefined) : null;
 
   const handleNext = useCallback(() => {
     setIsFlipped(false);
@@ -106,25 +141,39 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
     if (hideLearned && isNowLearned) {
       // Remove from active list
-      applyFilter(hideLearned, dueOnly);
+      applyFilter(hideLearned, dueOnly, hideExcluded, ratingFilter);
     } else {
       // Force re-render to update badge
       setFilteredCards((prev) => [...prev]);
     }
-  }, [currentCard, hideLearned, dueOnly, applyFilter]);
+  }, [currentCard, hideLearned, dueOnly, hideExcluded, ratingFilter, applyFilter]);
+
+  // Toggle "Don't Learn" (Exclude) on current card
+  const handleToggleExcluded = useCallback(() => {
+    if (!currentCard) return;
+    const isNowExcluded = toggleCardExcluded(currentCard.id);
+
+    if (hideExcluded && isNowExcluded) {
+      // Remove from active list
+      applyFilter(hideLearned, dueOnly, hideExcluded, ratingFilter);
+    } else {
+      // Force re-render to update badge
+      setFilteredCards((prev) => [...prev]);
+    }
+  }, [currentCard, hideExcluded, hideLearned, dueOnly, ratingFilter, applyFilter]);
 
   // Rate card with SRS rating (Again, Hard, Good, Easy)
   const handleRateSRS = useCallback(
     (rating: SRSRating) => {
       if (!currentCard) return;
       recordSRSRating(currentCard.id, rating);
-      if (dueOnly) {
-        applyFilter(hideLearned, dueOnly);
+      if (dueOnly || ratingFilter !== 'all') {
+        applyFilter(hideLearned, dueOnly, hideExcluded, ratingFilter);
       } else {
         handleNext();
       }
     },
-    [currentCard, dueOnly, hideLearned, applyFilter, handleNext]
+    [currentCard, dueOnly, hideLearned, hideExcluded, ratingFilter, applyFilter, handleNext]
   );
 
   // Keyboard navigation shortcuts
@@ -162,16 +211,20 @@ export const StudySession: React.FC<StudySessionProps> = ({
       } else if (e.code === 'KeyM') {
         e.preventDefault();
         handleToggleLearned(); // 'M': TOGGLE LEARNED
+      } else if (e.code === 'KeyX') {
+        e.preventDefault();
+        handleToggleExcluded(); // 'X': TOGGLE DON'T LEARN / EXCLUDE
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleFlip, handlePlayAudio, handleNext, handlePrevious, handleRateSRS, handleToggleLearned]);
+  }, [handleFlip, handlePlayAudio, handleNext, handlePrevious, handleRateSRS, handleToggleLearned, handleToggleExcluded]);
 
-  // Count how many total cards are learned
+  // Count how many total cards are learned and excluded
   const allSRS = getAllSRSData();
   const totalLearnedCount = initialCards.filter((c) => allSRS[c.id]?.isLearned).length;
+  const totalExcludedCount = initialCards.filter((c) => allSRS[c.id]?.isExcluded).length;
 
   if (!currentCard || filteredCards.length === 0) {
     return (
@@ -181,26 +234,50 @@ export const StudySession: React.FC<StudySessionProps> = ({
         </div>
         <h3 className="text-2xl font-extrabold text-white">All Active Cards Completed!</h3>
         <p className="text-sm text-slate-400 max-w-sm mx-auto">
-          {hideLearned && totalLearnedCount > 0
-            ? `You have marked ${totalLearnedCount} of ${initialCards.length} cards as learned. Uncheck "Hide Learned" below to review them.`
+          {ratingFilter !== 'all'
+            ? `No cards in this deck currently match status filter "${ratingFilter}".`
+            : (hideLearned && totalLearnedCount > 0) || (hideExcluded && totalExcludedCount > 0)
+            ? `You have marked ${totalLearnedCount} card${totalLearnedCount === 1 ? '' : 's'} as learned and ${totalExcludedCount} as "don't learn". Adjust filters below to review them.`
             : 'No cards match your current filter settings.'}
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
-          {hideLearned && (
+          {ratingFilter !== 'all' && (
+            <button
+              onClick={() => {
+                setRatingFilter('all');
+                applyFilter(hideLearned, dueOnly, hideExcluded, 'all');
+              }}
+              className="px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold shadow-md shadow-sky-500/25"
+            >
+              Reset Status Filter (Show All)
+            </button>
+          )}
+          {hideLearned && totalLearnedCount > 0 && ratingFilter === 'all' && (
             <button
               onClick={() => {
                 setHideLearned(false);
-                applyFilter(false, dueOnly);
+                applyFilter(false, dueOnly, hideExcluded, ratingFilter);
               }}
               className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold"
             >
               Show Learned Cards ({totalLearnedCount})
             </button>
           )}
+          {hideExcluded && totalExcludedCount > 0 && ratingFilter === 'all' && (
+            <button
+              onClick={() => {
+                setHideExcluded(false);
+                applyFilter(hideLearned, dueOnly, false, ratingFilter);
+              }}
+              className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold"
+            >
+              Show Excluded Cards ({totalExcludedCount})
+            </button>
+          )}
           <button
             onClick={onExit}
-            className="px-5 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold shadow-md shadow-sky-500/25"
+            className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-semibold"
           >
             Back to Dashboard
           </button>
@@ -228,14 +305,29 @@ export const StudySession: React.FC<StudySessionProps> = ({
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
-              {title}
-            </span>
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
+                {title}
+              </span>
+              <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 border border-slate-700">
+                {activeUser.name}
+              </span>
+            </div>
             <div className="text-xs text-slate-400">
               Card {currentIndex + 1} of {filteredCards.length}
+              {ratingFilter !== 'all' && (
+                <span className="text-sky-400 ml-1.5 font-semibold capitalize">
+                  [{ratingFilter}]
+                </span>
+              )}
               {totalLearnedCount > 0 && (
                 <span className="text-emerald-400 ml-2 font-medium">
                   ({totalLearnedCount} learned)
+                </span>
+              )}
+              {totalExcludedCount > 0 && (
+                <span className="text-rose-400 ml-2 font-medium">
+                  ({totalExcludedCount} excluded)
                 </span>
               )}
             </div>
@@ -244,6 +336,28 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
         {/* Filter & Direction Controls */}
         <div className="flex flex-wrap items-center gap-2">
+          {/* Card Status / Rating Filter Dropdown */}
+          <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800 border border-slate-700 text-xs">
+            <Filter className="w-3.5 h-3.5 text-sky-400" />
+            <select
+              value={ratingFilter}
+              onChange={(e) => {
+                const val = e.target.value as RatingFilterOption;
+                setRatingFilter(val);
+                applyFilter(hideLearned, dueOnly, hideExcluded, val);
+              }}
+              className="bg-transparent text-slate-200 text-xs font-semibold focus:outline-none cursor-pointer pr-1"
+              title="Filter drill cards by their SRS rating status"
+            >
+              <option value="all" className="bg-slate-900 text-slate-200">All Ratings</option>
+              <option value="again" className="bg-slate-900 text-rose-300">Again (1)</option>
+              <option value="hard" className="bg-slate-900 text-amber-300">Hard (2)</option>
+              <option value="good" className="bg-slate-900 text-sky-300">Good (3)</option>
+              <option value="easy" className="bg-slate-900 text-emerald-300">Easy (4)</option>
+              <option value="new" className="bg-slate-900 text-slate-300">New / Unrated</option>
+            </select>
+          </div>
+
           {/* Study Direction Toggle: Greek -> English vs English -> Greek */}
           <button
             type="button"
@@ -268,7 +382,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
             onClick={() => {
               const nextVal = !hideLearned;
               setHideLearned(nextVal);
-              applyFilter(nextVal, dueOnly);
+              applyFilter(nextVal, dueOnly, hideExcluded, ratingFilter);
             }}
             className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
               hideLearned
@@ -281,13 +395,32 @@ export const StudySession: React.FC<StudySessionProps> = ({
             <span>Hide Learned</span>
           </button>
 
+          {/* Hide Excluded (Don't Learn) Toggle */}
+          <button
+            type="button"
+            onClick={() => {
+              const nextVal = !hideExcluded;
+              setHideExcluded(nextVal);
+              applyFilter(hideLearned, dueOnly, nextVal, ratingFilter);
+            }}
+            className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
+              hideExcluded
+                ? 'bg-rose-950/80 border-rose-500/40 text-rose-400'
+                : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
+            }`}
+            title="Hide cards you've decided not to learn"
+          >
+            <Ban className="w-3.5 h-3.5" />
+            <span>Hide Excluded</span>
+          </button>
+
           {/* Due Only (SRS) Toggle */}
           <button
             type="button"
             onClick={() => {
               const nextVal = !dueOnly;
               setDueOnly(nextVal);
-              applyFilter(hideLearned, nextVal);
+              applyFilter(hideLearned, nextVal, hideExcluded, ratingFilter);
             }}
             className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
               dueOnly
@@ -386,10 +519,23 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 {studyDirection === 'greek_to_english' ? 'Greek Prompt' : 'English Prompt (Recall Greek)'}
               </span>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
                 {currentCard.gender_or_pos && (
                   <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700">
                     {currentCard.gender_or_pos}
+                  </span>
+                )}
+                {ratingStatus && ratingStatus !== 'new' && (
+                  <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full border ${
+                    ratingStatus === 'again'
+                      ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
+                      : ratingStatus === 'hard'
+                      ? 'bg-amber-950/90 text-amber-300 border-amber-700/60'
+                      : ratingStatus === 'good'
+                      ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
+                      : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
+                  }`}>
+                    {ratingStatus.toUpperCase()}
                   </span>
                 )}
                 {srsData?.isLearned && (
@@ -397,11 +543,28 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     <CheckCircle className="w-3 h-3" /> Learned
                   </span>
                 )}
+                {srsData?.isExcluded && (
+                  <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-rose-950/90 text-rose-400 border border-rose-800 flex items-center gap-1">
+                    <Ban className="w-3 h-3" /> Excluded
+                  </span>
+                )}
+                <button
+                  type="button"
+                  onClick={handleToggleExcluded}
+                  className={`p-1.5 rounded-full border text-xs font-semibold transition-all ${
+                    srsData?.isExcluded
+                      ? 'bg-rose-900/80 border-rose-500 text-rose-200'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-400 hover:text-rose-400'
+                  }`}
+                  title={srsData?.isExcluded ? "Undo exclude (Shortcut: X)" : "Don't want to learn this card? Click to exclude (Shortcut: X)"}
+                >
+                  <Ban className="w-3.5 h-3.5" />
+                </button>
               </div>
             </div>
 
             {/* Prompt Content */}
-            <div className="text-center py-6 space-y-4">
+            <div className="text-center py-6 space-y-4 my-auto">
               {studyDirection === 'greek_to_english' ? (
                 <>
                   <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide font-serif leading-tight">
@@ -430,15 +593,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
               )}
             </div>
 
-            {/* Bottom info on Front */}
-            <div className="flex items-center justify-between text-xs text-slate-500 border-t border-slate-700/40 pt-4">
-              <span>
-                Press <kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-sky-400 font-bold">↑ Up</kbd> or click to flip
-              </span>
-              <span>
-                Audio: <kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-sky-400 font-bold">↓ Down</kbd>
-              </span>
-            </div>
+            {/* Spacer for bottom balance */}
+            <div className="h-2" />
           </div>
 
           {/* ================= CARD BACK (REVEAL) ================= */}
@@ -450,6 +606,19 @@ export const StudySession: React.FC<StudySessionProps> = ({
               </span>
 
               <div className="flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
+                {ratingStatus && ratingStatus !== 'new' && (
+                  <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full border ${
+                    ratingStatus === 'again'
+                      ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
+                      : ratingStatus === 'hard'
+                      ? 'bg-amber-950/90 text-amber-300 border-amber-700/60'
+                      : ratingStatus === 'good'
+                      ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
+                      : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
+                  }`}>
+                    {ratingStatus.toUpperCase()}
+                  </span>
+                )}
                 <button
                   type="button"
                   onClick={handleToggleLearned}
@@ -463,11 +632,25 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   <CheckCircle className="w-3.5 h-3.5" />
                   <span>{srsData?.isLearned ? 'Learned (M)' : 'Mark Learned (M)'}</span>
                 </button>
+
+                <button
+                  type="button"
+                  onClick={handleToggleExcluded}
+                  className={`px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1.5 border transition-all ${
+                    srsData?.isExcluded
+                      ? 'bg-rose-900/80 border-rose-500 text-rose-200 shadow-md shadow-rose-900/30'
+                      : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-rose-400'
+                  }`}
+                  title="Decide not to learn this card (Shortcut: X)"
+                >
+                  <Ban className="w-3.5 h-3.5" />
+                  <span>{srsData?.isExcluded ? "Excluded (X)" : "Don't Learn (X)"}</span>
+                </button>
               </div>
             </div>
 
             {/* Answer Content */}
-            <div className="text-center py-4 space-y-4">
+            <div className="text-center py-4 space-y-4 my-auto">
               {studyDirection === 'greek_to_english' ? (
                 <>
                   <h3 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
@@ -588,10 +771,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* Flip button */}
           <button
             onClick={handleFlip}
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+            className="inline-flex items-center gap-1.5 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
             title="Flip Card (↑ Up Arrow)"
           >
-            <RotateCw className="w-4 h-4" /> Flip [↑]
+            <RotateCw className="w-4 h-4" /> [↑]
           </button>
 
           {/* Audio trigger button */}
@@ -619,6 +802,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
         <span><kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">↓</kbd> Play Audio</span>
         <span><kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">←</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">→</kbd> Prev / Next</span>
         <span><kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">M</kbd> Mark Learned</span>
+        <span><kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">X</kbd> Don't Learn</span>
         <span><kbd className="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-white font-semibold">1-4</kbd> SRS Rating</span>
       </div>
     </div>

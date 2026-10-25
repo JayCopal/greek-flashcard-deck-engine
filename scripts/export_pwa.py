@@ -24,6 +24,18 @@ DIST_PWA = BASE_DIR / "dist-pwa"
 def export():
     print("==> Starting Static Mobile PWA Export...")
     
+    # 0. Ensure PWA icons exist in public/
+    icons = ["pwa-192x192.png", "pwa-512x512.png", "pwa-maskable-512x512.png", "apple-touch-icon.png", "favicon.ico"]
+    public_dir = BASE_DIR / "public"
+    missing = [i for i in icons if not (public_dir / i).exists()]
+    if missing:
+        print(f"==> Generating missing PWA icons: {missing}")
+        try:
+            from scripts.generate_pwa_icons import generate_all
+            generate_all()
+        except Exception as e:
+            print(f"Warning: could not auto-generate icons: {e}")
+
     # 1. First run vite build if package.json has build script
     if (BASE_DIR / "package.json").exists():
         print("==> Building Vite production assets...")

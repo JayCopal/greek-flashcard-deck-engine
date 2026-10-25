@@ -3,13 +3,20 @@ import { DeckData, CardEntry } from './types/schema';
 import { Dashboard } from './components/Dashboard';
 import { DeckEditor } from './components/DeckEditor';
 import { StudySession } from './components/StudySession';
+import { UserSelector } from './components/UserSelector';
 import { 
   Layers, 
   BookOpen, 
   Play, 
   RefreshCw, 
-  WifiOff
+  WifiOff,
+  Download
 } from 'lucide-react';
+
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
+}
 
 type ActiveTab = 'dashboard' | 'editor' | 'study';
 
@@ -27,6 +34,44 @@ export function App() {
   // Editor jump state
   const [editorUnitId, setEditorUnitId] = useState<string | undefined>();
   const [editorLessonId, setEditorLessonId] = useState<string | undefined>();
+
+  // PWA Install Prompt State
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      e.preventDefault();
+      setInstallPrompt(e as BeforeInstallPromptEvent);
+    };
+
+    const installedHandler = () => {
+      setIsInstalled(true);
+      setInstallPrompt(null);
+    };
+
+    if (window.matchMedia('(display-mode: standalone)').matches || (navigator as any).standalone) {
+      setIsInstalled(true);
+    }
+
+    window.addEventListener('beforeinstallprompt', handler);
+    window.addEventListener('appinstalled', installedHandler);
+
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handler);
+      window.removeEventListener('appinstalled', installedHandler);
+    };
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!installPrompt) return;
+    await installPrompt.prompt();
+    const choice = await installPrompt.userChoice;
+    if (choice.outcome === 'accepted') {
+      setIsInstalled(true);
+    }
+    setInstallPrompt(null);
+  };
 
   // Fetch Deck Data from API or offline fallback
   const fetchDeck = async () => {
@@ -154,11 +199,25 @@ export function App() {
             </button>
           </nav>
 
-          {/* Offline badge or reload button */}
+          {/* Right Header Area: PWA Install, Learner Profiles & Mode */}
           <div className="flex items-center gap-2">
+            {installPrompt && !isInstalled && (
+              <button
+                onClick={handleInstallClick}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-bold shadow-md shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
+                title="Install Progressive Web App on your device"
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Install App</span>
+              </button>
+            )}
+
+            <UserSelector />
+
             {isOfflineMode ? (
-              <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2.5 py-1 rounded-full border border-teal-800">
-                <WifiOff className="w-3 h-3" /> Offline PWA
+              <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2.5 py-1.5 rounded-xl border border-teal-800">
+                <WifiOff className="w-3 h-3" />
+                <span className="hidden md:inline">Offline</span>
               </span>
             ) : (
               <button
@@ -228,7 +287,7 @@ export function App() {
 
       {/* Subtle Footer */}
       <footer className="border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500">
-        Single-User Greek Deck Engine • Powered by Google Cloud Chirp 3 HD • Local Filesystem Storage
+        Modern Greek Deck Engine • Multi-User Local Storage • Powered by Google Cloud Chirp 3 HD
       </footer>
     </div>
   );

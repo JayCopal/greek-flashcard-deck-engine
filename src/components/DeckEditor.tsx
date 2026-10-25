@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus } from '../types/schema';
 import { AudioPlayer } from './AudioPlayer';
+import { getUserLessonStatus, setUserLessonStatus } from '../utils/userStorage';
 import { 
   Sparkles, 
   Volume2, 
@@ -88,6 +89,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
 
   const handleUpdateLessonStatus = async (status: LessonStatus) => {
     if (!currentLesson || !currentUnit) return;
+    setUserLessonStatus(currentLesson.lesson_id, status);
     try {
       const res = await fetch(`/api/lesson/${currentUnit.id}/${currentLesson.lesson_id}`, {
         method: 'PUT',
@@ -97,7 +99,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       if (!res.ok) throw new Error('Failed to update lesson status');
       onRefresh();
     } catch (err: any) {
-      setErrorMessage(err.message || 'Error updating lesson status');
+      // In offline mode or local mode, status is already saved in localStorage
     }
   };
 
@@ -447,47 +449,54 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
           <div className="flex flex-wrap items-center gap-2 sm:self-center">
             {/* Status Toggle Buttons */}
             <div className="flex items-center p-1 rounded-xl bg-slate-900 border border-slate-700/80">
-              <button
-                type="button"
-                onClick={() => handleUpdateLessonStatus('not_started')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                  (currentLesson?.lesson_status || 'not_started') === 'not_started'
-                    ? 'bg-slate-700 text-slate-200 shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-                title="Mark lesson as Not Started"
-              >
-                <CircleDot className="w-3.5 h-3.5 text-slate-400" />
-                <span>Not Started</span>
-              </button>
+              {(() => {
+                const currentStatus = currentLesson ? getUserLessonStatus(currentLesson.lesson_id, currentLesson.lesson_status) : 'not_started';
+                return (
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('not_started')}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'not_started'
+                          ? 'bg-slate-700 text-slate-200 shadow-sm'
+                          : 'text-slate-400 hover:text-white'
+                      }`}
+                      title="Mark lesson as Not Started"
+                    >
+                      <CircleDot className="w-3.5 h-3.5 text-slate-400" />
+                      <span>Not Started</span>
+                    </button>
 
-              <button
-                type="button"
-                onClick={() => handleUpdateLessonStatus('in_progress')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                  currentLesson?.lesson_status === 'in_progress'
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
-                    : 'text-slate-400 hover:text-amber-300'
-                }`}
-                title="Mark lesson as In Progress"
-              >
-                <Clock className="w-3.5 h-3.5 text-amber-400" />
-                <span>In Progress</span>
-              </button>
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('in_progress')}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress'
+                          ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-amber-300'
+                      }`}
+                      title="Mark lesson as In Progress"
+                    >
+                      <Clock className="w-3.5 h-3.5 text-amber-400" />
+                      <span>In Progress</span>
+                    </button>
 
-              <button
-                type="button"
-                onClick={() => handleUpdateLessonStatus('learned')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                  currentLesson?.lesson_status === 'learned'
-                    ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm'
-                    : 'text-slate-400 hover:text-emerald-300'
-                }`}
-                title="Mark lesson as Learned"
-              >
-                <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
-                <span>Learned</span>
-              </button>
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('learned')}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'learned'
+                          ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-emerald-300'
+                      }`}
+                      title="Mark lesson as Learned"
+                    >
+                      <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
+                      <span>Learned</span>
+                    </button>
+                  </>
+                );
+              })()}
             </div>
 
             <button

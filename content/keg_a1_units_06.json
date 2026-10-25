@@ -1,0 +1,686 @@
+[
+  {
+    "id": "A1-U06-001",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η αγορά",
+    "back_primary": "market / marketplace",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι αγορές",
+      "accusative_singular": "την αγορά"
+    },
+    "keg_communicative_function": "Inquiring about and identifying shopping venues",
+    "example_el": "Πάω στην κεντρική αγορά για ψώνια.",
+    "example_en": "I am going to the central market for shopping.",
+    "notes_or_mnemonics": "Feminine in -ά with plural in -ές. Also means the abstract economy or financial market."
+  },
+  {
+    "id": "A1-U06-002",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η λαϊκή αγορά",
+    "back_primary": "open-air farmers' market / street market",
+    "grammatical_info": {
+      "part_of_speech": "noun phrase (feminine)",
+      "plural": "οι λαϊκές αγορές",
+      "accusative_singular": "τη λαϊκή αγορά"
+    },
+    "keg_communicative_function": "Shopping for fresh agricultural produce in Greece",
+    "example_el": "Κάθε Σάββατο πηγαίνουμε στη λαϊκή.",
+    "example_en": "Every Saturday we go to the street market.",
+    "notes_or_mnemonics": "Universally referred to as 'η λαϊκή'. Core cultural setting in KEG listening exams."
+  },
+  {
+    "id": "A1-U06-003",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το σούπερ μάρκετ",
+    "back_primary": "supermarket / grocery store",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter indeclinable)",
+      "plural": "τα σούπερ μάρκετ",
+      "accusative_singular": "το σούπερ μάρκετ"
+    },
+    "keg_communicative_function": "Navigating grocery retail chains",
+    "example_el": "Κάνω τα ψώνια της εβδομάδας στο σούπερ μάρκετ.",
+    "example_en": "I do the week's shopping at the supermarket.",
+    "notes_or_mnemonics": "Indeclinable neuter loanword."
+  },
+  {
+    "id": "A1-U06-004",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "ο φούρνος",
+    "back_primary": "bakery / baker's oven",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι φούρνοι",
+      "accusative_singular": "τον φούρνο"
+    },
+    "keg_communicative_function": "Buying bread, bakery goods, and morning pies",
+    "example_el": "Αγοράζω φρέσκο ψωμί από τον φούρνο.",
+    "example_en": "I buy fresh bread from the bakery.",
+    "notes_or_mnemonics": "Masculine in -ος (plural: οι φούρνοι). Synonym of 'το αρτοποιείο'."
+  },
+  {
+    "id": "A1-U06-005",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το κρεοπωλείο",
+    "back_primary": "butcher shop",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κρεοπωλεία",
+      "accusative_singular": "το κρεοπωλείο"
+    },
+    "keg_communicative_function": "Purchasing fresh meat and poultry",
+    "example_el": "Το κρεοπωλείο είναι δίπλα στον φούρνο.",
+    "example_en": "The butcher shop is next to the bakery.",
+    "notes_or_mnemonics": "Compound of κρέας (meat) + πωλώ (to sell). Paroxytone neuter in -είο."
+  },
+  {
+    "id": "A1-U06-006",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το μαγαζί",
+    "back_primary": "shop / store",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μαγαζιά",
+      "accusative_singular": "το μαγαζί"
+    },
+    "keg_communicative_function": "Referring to commercial stores in general",
+    "example_el": "Τα μαγαζιά κλείνουν στις εννέα το βράδυ.",
+    "example_en": "The shops close at nine in the evening.",
+    "notes_or_mnemonics": "Oxytone neuter in -ί (plural: τα μαγαζιά). Synonym of 'το κατάστημα'."
+  },
+  {
+    "id": "A1-U06-007",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το λάδι / το ελαιόλαδο",
+    "back_primary": "olive oil / oil",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα λάδια",
+      "accusative_singular": "το λάδι / το ελαιόλαδο"
+    },
+    "keg_communicative_function": "Purchasing cooking oil and Greek staple products",
+    "example_el": "Χρειαζόμαστε ένα λίτρο ελαιόλαδο.",
+    "example_en": "We need one liter of olive oil.",
+    "notes_or_mnemonics": "Neuter in -ι (plural: τα λάδια). 'Ελαιόλαδο' specifically denotes olive oil."
+  },
+  {
+    "id": "A1-U06-008",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το ρύζι",
+    "back_primary": "rice",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ρύζια",
+      "accusative_singular": "το ρύζι"
+    },
+    "keg_communicative_function": "Buying grain staples at the supermarket",
+    "example_el": "Ένα πακέτο ρύζι για πιλάφι, παρακαλώ.",
+    "example_en": "A package of rice for pilaf, please.",
+    "notes_or_mnemonics": "Paroxytone neuter in -ι."
+  },
+  {
+    "id": "A1-U06-009",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα μακαρόνια",
+    "back_primary": "pasta / spaghetti",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα μακαρόνια",
+      "accusative_plural": "τα μακαρόνια"
+    },
+    "keg_communicative_function": "Buying pasta on grocery shopping trips",
+    "example_el": "Αγοράζω δύο πακέτα μακαρόνια.",
+    "example_en": "I am buying two packets of pasta.",
+    "notes_or_mnemonics": "Plural noun in Greek (τα μακαρόνια). Spelled with one κ."
+  },
+  {
+    "id": "A1-U06-010",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα φρούτα",
+    "back_primary": "fruits",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα φρούτα",
+      "accusative_plural": "τα φρούτα"
+    },
+    "keg_communicative_function": "Shopping at greengrocers or open markets",
+    "example_el": "Στη λαϊκή έχει πάντα φρέσκα φρούτα.",
+    "example_en": "At the street market there is always fresh fruit.",
+    "notes_or_mnemonics": "Neuter plural (singular: το φρούτο)."
+  },
+  {
+    "id": "A1-U06-011",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα λαχανικά",
+    "back_primary": "vegetables / greens",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα λαχανικά",
+      "accusative_plural": "τα λαχανικά"
+    },
+    "keg_communicative_function": "Buying fresh vegetables",
+    "example_el": "Τρώμε πολλά λαχανικά για υγεία.",
+    "example_en": "We eat a lot of vegetables for good health.",
+    "notes_or_mnemonics": "Oxytone neuter plural (singular: το λαχανικό)."
+  },
+  {
+    "id": "A1-U06-012",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η ντομάτα",
+    "back_primary": "tomato",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι ντομάτες",
+      "accusative_singular": "την ντομάτα"
+    },
+    "keg_communicative_function": "Specifying produce quantities at the market",
+    "example_el": "Βάλτε μου δύο κιλά ντομάτες για σαλάτα.",
+    "example_en": "Give me two kilos of tomatoes for salad.",
+    "notes_or_mnemonics": "Paroxytone feminine in -α with plural in -ες. Accusative keeps -ν before ντ: 'την ντομάτα'."
+  },
+  {
+    "id": "A1-U06-013",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το αγγούρι",
+    "back_primary": "cucumber",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα αγγούρια",
+      "accusative_singular": "το αγγούρι"
+    },
+    "keg_communicative_function": "Buying salad vegetables",
+    "example_el": "Θέλω μισό κιλό αγγούρια.",
+    "example_en": "I want half a kilo of cucumbers.",
+    "notes_or_mnemonics": "Spelled with double γ (γγ pronounced [ŋg]). Neuter in -ι."
+  },
+  {
+    "id": "A1-U06-014",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το κρεμμύδι",
+    "back_primary": "onion",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κρεμμύδια",
+      "accusative_singular": "το κρεμμύδι"
+    },
+    "keg_communicative_function": "Buying staple cooking vegetables",
+    "example_el": "Ένα κιλό ξερά κρεμμύδια, παρακαλώ.",
+    "example_en": "One kilo of dry onions, please.",
+    "notes_or_mnemonics": "Spelled with double μ (μμ) and upsilon (υ)."
+  },
+  {
+    "id": "A1-U06-015",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το μήλο",
+    "back_primary": "apple",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μήλα",
+      "accusative_singular": "το μήλο"
+    },
+    "keg_communicative_function": "Inquiring about fruit prices and buying fruit",
+    "example_el": "Πόσο έχουν τα κόκκινα μήλα;",
+    "example_en": "How much are the red apples?",
+    "notes_or_mnemonics": "Paroxytone neuter in -ο with plural in -α (τα μήλα)."
+  },
+  {
+    "id": "A1-U06-016",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το πορτοκάλι",
+    "back_primary": "orange (fruit)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πορτοκάλια",
+      "accusative_singular": "το πορτοκάλι"
+    },
+    "keg_communicative_function": "Purchasing citrus fruit by weight",
+    "example_el": "Δύο κιλά πορτοκάλια για χυμό, παρακαλώ.",
+    "example_en": "Two kilos of oranges for juicing, please.",
+    "notes_or_mnemonics": "Distinguish: 'πορτοκάλι' (noun fruit) vs 'πορτοκαλί' (indeclinable orange color)."
+  },
+  {
+    "id": "A1-U06-017",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το κιλό",
+    "back_primary": "kilo / kilogram",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κιλά",
+      "accusative_singular": "το κιλό"
+    },
+    "keg_communicative_function": "Stating weights when buying food in Greece",
+    "example_el": "Ένα κιλό φέτα και μισό κιλό ελιές.",
+    "example_en": "One kilo of feta and half a kilo of olives.",
+    "notes_or_mnemonics": "Oxytone neuter in -ό (plural: τα κιλά). 'Μισό κιλό' = half a kilo."
+  },
+  {
+    "id": "A1-U06-018",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το γραμμάριο",
+    "back_primary": "gram",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα γραμμάρια",
+      "accusative_singular": "το γραμμάριο"
+    },
+    "keg_communicative_function": "Ordering sliced deli meats and cheese by weight",
+    "example_el": "Διακόσια γραμμάρια τυρί γκούντα σε φέτες.",
+    "example_en": "Two hundred grams of gouda cheese in slices.",
+    "notes_or_mnemonics": "Proparoxytone neuter. In Greek deli counters, portions are ordered in hundreds of grams (διακόσια γραμμάρια)."
+  },
+  {
+    "id": "A1-U06-019",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το λίτρο",
+    "back_primary": "liter",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα λίτρα",
+      "accusative_singular": "το λίτρο"
+    },
+    "keg_communicative_function": "Specifying liquid volumes for milk, oil, or wine",
+    "example_el": "Ένα λίτρο φρέσκο γάλα.",
+    "example_en": "One liter of fresh milk.",
+    "notes_or_mnemonics": "Paroxytone neuter in -ο."
+  },
+  {
+    "id": "A1-U06-020",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το μπουκάλι",
+    "back_primary": "bottle",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μπουκάλια",
+      "accusative_singular": "το μπουκάλι"
+    },
+    "keg_communicative_function": "Ordering bottled drinks and liquids",
+    "example_el": "Δύο μπουκάλια εμφιαλωμένο νερό.",
+    "example_en": "Two bottles of bottled water.",
+    "notes_or_mnemonics": "Paroxytone neuter in -ι."
+  },
+  {
+    "id": "A1-U06-021",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το πακέτο",
+    "back_primary": "packet / package / parcel",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πακέτα",
+      "accusative_singular": "το πακέτο"
+    },
+    "keg_communicative_function": "Buying boxed or packaged goods (pasta, coffee, cookies)",
+    "example_el": "Ένα πακέτο μπισκότα για τα παιδιά.",
+    "example_en": "A packet of biscuits for the children.",
+    "notes_or_mnemonics": "Also used in food take-out: 'σε πακέτο' / 'για πακέτο' (to go / take away)."
+  },
+  {
+    "id": "A1-U06-022",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το κομμάτι",
+    "back_primary": "piece / slice / item",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κομμάτια",
+      "accusative_singular": "το κομμάτι"
+    },
+    "keg_communicative_function": "Asking for individual portions or pieces",
+    "example_el": "Ένα κομμάτι τυρόπιτα, παρακαλώ.",
+    "example_en": "A piece of cheese pie, please.",
+    "notes_or_mnemonics": "Spelled with double μ (μμ). Plural: τα κομμάτια."
+  },
+  {
+    "id": "A1-U06-023",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το ρούχο",
+    "back_primary": "garment / piece of clothing (plural: clothes)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ρούχα",
+      "accusative_singular": "το ρούχο"
+    },
+    "keg_communicative_function": "Shopping for apparel and garments",
+    "example_el": "Ψωνίζουμε ρούχα στις εκπτώσεις.",
+    "example_en": "We shop for clothes during the sales.",
+    "notes_or_mnemonics": "Regular neuter in -ο. Almost always used in plural 'τα ρούχα' (clothes)."
+  },
+  {
+    "id": "A1-U06-024",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το παντελόνι",
+    "back_primary": "trousers / pants",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα παντελόνια",
+      "accusative_singular": "το παντελόνι"
+    },
+    "keg_communicative_function": "Buying trousers or jeans",
+    "example_el": "Δοκιμάζω ένα μαύρο παντελόνι.",
+    "example_en": "I am trying on a pair of black trousers.",
+    "notes_or_mnemonics": "Grammatically singular in Greek (το παντελόνι) unlike English plural 'pants/trousers'."
+  },
+  {
+    "id": "A1-U06-025",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η μπλούζα",
+    "back_primary": "blouse / T-shirt / top",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι μπλούζες",
+      "accusative_singular": "την μπλούζα"
+    },
+    "keg_communicative_function": "Buying tops and casual shirts",
+    "example_el": "Μου αρέσει αυτή η μπλε μπλούζα.",
+    "example_en": "I like this blue top.",
+    "notes_or_mnemonics": "Paroxytone feminine in -α with plural in -ες."
+  },
+  {
+    "id": "A1-U06-026",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το πουκάμισο",
+    "back_primary": "shirt (collared / button-down)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πουκάμισα",
+      "accusative_singular": "το πουκάμισο"
+    },
+    "keg_communicative_function": "Shopping for formal or business attire",
+    "example_el": "Ψάχνω ένα άσπρο πουκάμισο για τη δουλειά.",
+    "example_en": "I am looking for a white shirt for work.",
+    "notes_or_mnemonics": "Proparoxytone neuter in -ο (plural: τα πουκάμισα)."
+  },
+  {
+    "id": "A1-U06-027",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα παπούτσια",
+    "back_primary": "shoes / footwear",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα παπούτσια",
+      "accusative_plural": "τα παπούτσια"
+    },
+    "keg_communicative_function": "Buying footwear in shoe stores",
+    "example_el": "Αυτά τα παπούτσια είναι πολύ άνετα.",
+    "example_en": "These shoes are very comfortable.",
+    "notes_or_mnemonics": "Neuter plural (singular: το παπούτσι)."
+  },
+  {
+    "id": "A1-U06-028",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το μέγεθος",
+    "back_primary": "size (clothing / shoes)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter in -ος)",
+      "plural": "τα μεγέθη",
+      "accusative_singular": "το μέγεθος"
+    },
+    "keg_communicative_function": "Asking for clothes size or shoe size",
+    "example_el": "Τι μέγεθος φοράτε; — Φοράω medium.",
+    "example_en": "What size do you wear? — I wear medium.",
+    "notes_or_mnemonics": "Ancient declension neuter in -ος with plural in -η (τα μεγέθη). Note: shoe size is also called 'το νούμερο'."
+  },
+  {
+    "id": "A1-U06-029",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "το χρώμα",
+    "back_primary": "color",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα χρώματα",
+      "accusative_singular": "το χρώμα"
+    },
+    "keg_communicative_function": "Asking for products in specific colors",
+    "example_el": "Έχετε αυτό το φόρεμα σε άλλο χρώμα;",
+    "example_en": "Do you have this dress in another color?",
+    "notes_or_mnemonics": "Neuter in -μα with plural in -ματα (τα χρώματα)."
+  },
+  {
+    "id": "A1-U06-030",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η τιμή",
+    "back_primary": "price / cost / honor",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι τιμές",
+      "accusative_singular": "την τιμή"
+    },
+    "keg_communicative_function": "Reading price tags or asking about costs",
+    "example_el": "Η τιμή είναι πολύ καλή για τέτοια ποιότητα.",
+    "example_en": "The price is very good for such quality.",
+    "notes_or_mnemonics": "Oxytone feminine in -ή. In receipts: 'Τιμή μονάδας' = unit price."
+  },
+  {
+    "id": "A1-U06-031",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα ρέστα",
+    "back_primary": "change (money returned)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα ρέστα",
+      "accusative_plural": "τα ρέστα"
+    },
+    "keg_communicative_function": "Handling cash change during transactions",
+    "example_el": "Ορίστε τα ρέστα σας: πέντε ευρώ.",
+    "example_en": "Here is your change: five euros.",
+    "notes_or_mnemonics": "Plural only in commerce: τα ρέστα."
+  },
+  {
+    "id": "A1-U06-032",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η απόδειξη",
+    "back_primary": "receipt / proof",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι αποδείξεις",
+      "accusative_singular": "την απόδειξη"
+    },
+    "keg_communicative_function": "Requesting or checking shopping receipts",
+    "example_el": "Μου δίνετε την απόδειξη, παρακαλώ;",
+    "example_en": "Could you give me the receipt, please?",
+    "notes_or_mnemonics": "Feminine noun in -ση with plural in -σεις. Essential keyword in KEG reading tasks matching receipts to shopping lists."
+  },
+  {
+    "id": "A1-U06-033",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "τα μετρητά",
+    "back_primary": "cash",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter plural)",
+      "plural": "τα μετρητά",
+      "accusative_plural": "τα μετρητά"
+    },
+    "keg_communicative_function": "Specifying cash payment method at checkout",
+    "example_el": "Πληρώνετε με μετρητά ή με κάρτα;",
+    "example_en": "Are you paying with cash or with card?",
+    "notes_or_mnemonics": "From μετρώ (to count). Always plural: 'πληρώνω με μετρητά'."
+  },
+  {
+    "id": "A1-U06-034",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "vocabulary",
+    "front": "η κάρτα",
+    "back_primary": "card / bank card / credit card",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι κάρτες",
+      "accusative_singular": "την κάρτα"
+    },
+    "keg_communicative_function": "Paying by debit or credit card",
+    "example_el": "Μπορώ να πληρώσω με κάρτα;",
+    "example_en": "Can I pay by card?",
+    "notes_or_mnemonics": "Universal payment method formula: 'με κάρτα'."
+  },
+  {
+    "id": "A1-U06-035",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "verb",
+    "front": "αγοράζω",
+    "back_primary": "to buy / to purchase / I buy",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό αγοράζει",
+      "first_person_plural": "εμείς αγοράζουμε"
+    },
+    "keg_communicative_function": "Talking about purchasing goods and everyday items",
+    "example_el": "Αγοράζω φρούτα από τη λαϊκή αγορά.",
+    "example_en": "I buy fruit from the street market.",
+    "notes_or_mnemonics": "Regular Type A active verb (-ω, -εις, -ει, -ουμε, -ετε, -ουν). Derived from 'η αγορά'."
+  },
+  {
+    "id": "A1-U06-036",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "verb",
+    "front": "κοστίζω",
+    "back_primary": "to cost / it costs",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτό κοστίζει",
+      "first_person_plural": "αυτά κοστίζουν (3rd plural)"
+    },
+    "keg_communicative_function": "Inquiring about prices and costs of items",
+    "example_el": "Πόσο κοστίζει αυτό το παντελόνι;",
+    "example_en": "How much does this pair of trousers cost?",
+    "notes_or_mnemonics": "Type A verb. Almost always used in 3rd person singular (κοστίζει) or 3rd person plural (κοστίζουν)."
+  },
+  {
+    "id": "A1-U06-037",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "verb",
+    "front": "πληρώνω",
+    "back_primary": "to pay / I pay",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό πληρώνει",
+      "first_person_plural": "εμείς πληρώνουμε"
+    },
+    "keg_communicative_function": "Executing payment transactions at stores and supermarkets",
+    "example_el": "Πληρώνω στο ταμείο με κάρτα.",
+    "example_en": "I pay at the cash desk by card.",
+    "notes_or_mnemonics": "Type A active verb: πληρώνω, πληρώνεις, πληρώνει, πληρώνουμε, πληρώνετε, πληρώνουν."
+  },
+  {
+    "id": "A1-U06-038",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "verb",
+    "front": "ψάχνω",
+    "back_primary": "to look for / to search for / I look for",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό ψάχνει",
+      "first_person_plural": "εμείς ψάχνουμε"
+    },
+    "keg_communicative_function": "Asking shop staff for assistance when locating items",
+    "example_el": "Καλημέρα σας, ψάχνω ένα ζεστό μπουφάν.",
+    "example_en": "Good morning, I am looking for a warm jacket.",
+    "notes_or_mnemonics": "Type A active verb. Directly takes direct object in accusative: ψάχνω το ταμείο."
+  },
+  {
+    "id": "A1-U06-039",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "phrase",
+    "front": "πόσο κάνει; / πόσο έχουν;",
+    "back_primary": "how much is it? / how much are they?",
+    "grammatical_info": {
+      "part_of_speech": "pricing inquiry formula",
+      "forms": "πόσο κάνει; (singular) / πόσο έχουν; (plural)"
+    },
+    "keg_communicative_function": "Asking for prices of singular and plural merchandise",
+    "example_el": "— Πόσο κάνουν αυτά τα πορτοκάλια; — Ένα ευρώ το κιλό.",
+    "example_en": "— How much are these oranges? — One euro a kilo.",
+    "notes_or_mnemonics": "Singular agreement: 'Πόσο κάνει το τυρί;' / Plural agreement: 'Πόσο έχουν / κάνουν τα μήλα;'."
+  },
+  {
+    "id": "A1-U06-040",
+    "unit_number": 6,
+    "unit_theme": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+    "card_type": "adjective",
+    "front": "ακριβός, -ή, -ό",
+    "back_primary": "expensive / costly",
+    "grammatical_info": {
+      "part_of_speech": "adjective",
+      "feminine": "ακριβή",
+      "neuter": "ακριβό",
+      "plural": "ακριβοί, ακριβές, ακριβά"
+    },
+    "keg_communicative_function": "Evaluating merchandise prices and comparing store costs",
+    "example_el": "Αυτό το παλτό είναι πολύ ακριβό.",
+    "example_en": "This coat is very expensive.",
+    "notes_or_mnemonics": "Oxytone regular adjective. Direct antonym of 'φθηνός / φτηνός' (cheap / inexpensive)."
+  }
+]

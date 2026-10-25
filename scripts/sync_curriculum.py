@@ -91,6 +91,31 @@ UNIT_METADATA = {
             "  - 'Καλή όρεξη!' (Enjoy your meal!) / 'Στην υγειά μας!' (Cheers!)"
         ),
     },
+    6: {
+        "title": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
+        "description": "CEFR A1: Supermarket shopping, farmers' market transactions, buying groceries and clothes, asking for prices and weights, and payment methods.",
+        "lesson_notes": (
+            "Unit 6 Core Grammar Notes:\n"
+            "• Inquiring about Prices:\n"
+            "  - Singular: 'Πόσο κάνει;' / 'Πόσο κοστίζει;' (e.g. Πόσο κάνει το γάλα;)\n"
+            "  - Plural: 'Πόσο έχουν;' / 'Πόσο κάνουν;' (e.g. Πόσο έχουν τα πορτοκάλια;)\n"
+            "• Units of Measurement & Packaging:\n"
+            "  - το κιλό (kilo) / μισό κιλό (half kilo)\n"
+            "  - το γραμμάριο (gram) / διακόσια γραμμάρια (200g)\n"
+            "  - το λίτρο (liter) / το μπουκάλι (bottle) / το πακέτο (packet)\n"
+            "• Neuter Nouns in -ο, -ι, -μα:\n"
+            "  - In -ο: το κιλό -> τα κιλά, το λίτρο -> τα λίτρα, το μήλο -> τα μήλα.\n"
+            "  - In -ι: το ψωμί -> τα ψωμιά, το τυρί -> τα τυριά, το μαγαζί -> τα μαγαζιά.\n"
+            "  - In -μα: το χρώμα -> τα χρώματα, το πράγμα -> τα πράγματα.\n"
+            "• Payment Methods:\n"
+            "  - με μετρητά (with cash)\n"
+            "  - με κάρτα (by card)\n"
+            "• Key Commercial Expressions:\n"
+            "  - 'Ορίστε τα ρέστα σας.' (Here is your change.)\n"
+            "  - 'Χρειάζεστε απόδειξη;' (Do you need a receipt?)\n"
+            "  - 'Ψάχνω ένα...' (I am looking for a...)"
+        ),
+    },
 }
 
 

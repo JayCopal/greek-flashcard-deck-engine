@@ -169,4 +169,31 @@ If using an automated python script to generate large curriculum batches:
 ## 5. Audio Generation & Verification
 
 Audio generation is strictly managed by **Google Cloud Text-to-Speech Chirp 3 HD**. 
-For full t
+For full technical specifications, deterministic slug hashing algorithms, and subagent guidelines, see [docs/AUDIO_GENERATION_GUIDE.md](file:///c:/jay-programs/greek-flashcard-deck-engine/docs/AUDIO_GENERATION_GUIDE.md).
+
+Quick Audio Commands:
+* `npm run audio:generate` - Process all pending entries across all units.
+* `python scripts/generate_audio_assets.py --unit unit-05` - Process only Unit 5.
+* `python scripts/generate_audio_assets.py --file content/unit-05/lesson-01.yaml` - Process a specific lesson file.
+
+---
+
+## 6. Exporting and Testing
+
+After adding or modifying lessons:
+
+1. **Verify Live Deck Statistics:**
+   Run the dev servers and check the Dashboard counters:
+   ```powershell
+   npm run server
+   npm run dev
+   ```
+2. **Export Static PWA Bundle:**
+   ```powershell
+   npm run export:pwa
+   ```
+   This compiles `dist-pwa/data/deck.json`, copies all verified audio files to `dist-pwa/audio/`, and updates `public/data/deck.json` for offline mobile caching.
+3. **Local PWA Preview:**
+   ```powershell
+   npx serve dist-pwa
+   ```
