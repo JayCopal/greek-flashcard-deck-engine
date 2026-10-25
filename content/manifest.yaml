@@ -1,22 +1,33 @@
-deck_title: "Modern Greek Mastery"
-source_language: "en"
-target_language: "el"
-created_at: "2026-01-01"
+deck_title: Modern Greek Mastery (CEFR A1)
+source_language: en
+target_language: el
+created_at: '2026-10-25'
 units:
-  - id: "unit-01"
-    title: "Foundations & Daily Basics"
-    order: 1
-    lessons:
-      - id: "lesson-01"
-        file: "unit-01/lesson-01.yaml"
-        title: "Greetings & Polite Phrases"
-      - id: "lesson-02"
-        file: "unit-01/lesson-02.yaml"
-        title: "Essential Everyday Questions"
-  - id: "unit-02"
-    title: "Food, Drink & Taverna"
-    order: 2
-    lessons:
-      - id: "lesson-01"
-        file: "unit-02/lesson-01.yaml"
-        title: "Ordering at the Kafeneio"
+- id: unit-01
+  title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
+  order: 1
+  lessons:
+  - id: lesson-01
+    file: unit-01/lesson-01.yaml
+    title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
+- id: unit-02
+  title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
+  order: 2
+  lessons:
+  - id: lesson-01
+    file: unit-02/lesson-01.yaml
+    title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
+- id: unit-03
+  title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
+  order: 3
+  lessons:
+  - id: lesson-01
+    file: unit-03/lesson-01.yaml
+    title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
+- id: unit-04
+  title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
+  order: 4
+  lessons:
+  - id: lesson-01
+    file: unit-04/lesson-01.yaml
+    title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)

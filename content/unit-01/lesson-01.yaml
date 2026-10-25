@@ -1,46 +1,548 @@
 unit_id: unit-01
 lesson_id: lesson-01
-title: Greetings & Polite Phrases
-description: Core everyday conversational greetings and courtesy expressions.
+title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
+description: 'CEFR A1: Formal & informal greetings, polite addresses, personal pronouns,
+  and core verbs (είμαι, λέω, γράφω).'
+lesson_status: not_started
+lesson_notes: 'Unit 1 Core Grammar Notes:
+
+  • Vocative Singular: Masculine nouns in -ος end in -ε (κύριε Παπαδόπουλε). Feminine
+  nouns in -α/-η remain unchanged (κυρία, δεσποινίς).
+
+  • Copular Verb ''είμαι'' (Present): εγώ είμαι, εσύ είσαι, αυτός/αυτή/αυτό είναι,
+  εμείς είμαστε, εσείς είστε, αυτοί/αυτές/αυτά είναι.
+
+  • Stating Names: ''Με λένε + Accusative'' (e.g. Με λένε Κώστα) or ''Είμαι ο/η +
+  Nominative''.'
 entries:
-- id: grk-001
-  greek: Καλημέρα
-  phonetic_hint: kah-lee-MEH-rah
-  english: Good morning
-  notes: Used from morning until early afternoon. Stress on the last syllable (tonos
-    on ε).
-  gender_or_pos: phrase
-  audio: kalimera-2490ee.mp3
+- id: A1-U01-001
+  greek: ο κύριος
+  phonetic_hint: ''
+  english: Mr. / sir / gentleman
+  notes: Vocative singular drops final -ς and changes to -ε (κύριε).
+  gender_or_pos: noun (masculine)
+  audio: o-kyrios-022974.mp3
   status: verified
-- id: grk-002
-  greek: Καλησπέρα
-  phonetic_hint: kah-lee-SPEH-rah
-  english: Good evening
-  notes: Used from late afternoon until bedtime when greeting someone.
+  example_el: Γεια σας, κύριε Παπαδόπουλε.
+  example_en: Hello, Mr. Papadopoulos.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κύριοι
+    accusative_singular: τον κύριο
+  keg_communicative_function: Addressing individuals politely and formal introductions
+- id: A1-U01-002
+  greek: η κυρία
+  phonetic_hint: ''
+  english: Mrs. / Ms. / lady
+  notes: 'Vocative singular is identical to nominative: κυρία.'
+  gender_or_pos: noun (feminine)
+  audio: i-kyria-15b8ff.mp3
+  status: verified
+  example_el: Αυτή είναι η κυρία Καραγιάννη.
+  example_en: This is Mrs. Karagianni.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κυρίες
+    accusative_singular: την κυρία
+  keg_communicative_function: Addressing adult women respectfully
+- id: A1-U01-003
+  greek: η δεσποινίδα
+  phonetic_hint: ''
+  english: Miss / young lady
+  notes: In daily spoken Greek, often truncated to the vocative particle 'δεσποινίς'.
+  gender_or_pos: noun (feminine)
+  audio: i-despoinida-50adc7.mp3
+  status: verified
+  example_el: Καλημέρα σας, δεσποινίς Ελένη.
+  example_en: Good morning, Miss Eleni.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δεσποινίδες
+    accusative_singular: τη δεσποινίδα
+  keg_communicative_function: Polite address to an unmarried young woman
+- id: A1-U01-004
+  greek: το όνομα
+  phonetic_hint: ''
+  english: name / first name
+  notes: 'Neuter noun in -μα; plural adds -τα (τα ονόματα). Takes a second accent
+    before possessive clitic: το όνομά μου.'
+  gender_or_pos: noun (neuter)
+  audio: to-onoma-3f4b6c.mp3
+  status: verified
+  example_el: Ποιο είναι το όνομά σου;
+  example_en: What is your name?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ονόματα
+    accusative_singular: το όνομα
+  keg_communicative_function: Asking for and stating names in introductions
+- id: A1-U01-005
+  greek: το επώνυμο
+  phonetic_hint: ''
+  english: surname / last name
+  notes: 'Proparoxytone noun (accent on antepenult). Takes an enclitic accent before
+    possessive: το επώνυμό μου.'
+  gender_or_pos: noun (neuter)
+  audio: to-eponymo-1420da.mp3
+  status: verified
+  example_el: Το επώνυμό μου είναι Αντωνίου.
+  example_en: My last name is Antoniou.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επώνυμα
+    accusative_singular: το επώνυμο
+  keg_communicative_function: Official registration and identity forms
+- id: A1-U01-006
+  greek: το γράμμα
+  phonetic_hint: ''
+  english: letter (alphabet) / postal letter
+  notes: 'Neuter noun in -μα (plural: τα γράμματα). Essential for KEG listening task
+    on name spelling.'
+  gender_or_pos: noun (neuter)
+  audio: to-gramma-9b532e.mp3
+  status: verified
+  example_el: Ποιο είναι το πρώτο γράμμα;
+  example_en: What is the first letter?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γράμματα
+    accusative_singular: το γράμμα
+  keg_communicative_function: Spelling Greek names and asking about the alphabet
+- id: A1-U01-007
+  greek: ο φίλος
+  phonetic_hint: ''
+  english: friend (male)
+  notes: 'Vocative singular: (ε) φίλε μου! Note masculine nominative article ''ο''.'
+  gender_or_pos: noun (masculine)
+  audio: o-filos-568da6.mp3
+  status: verified
+  example_el: Αυτός είναι ο φίλος μου, ο Νίκος.
+  example_en: This is my friend, Nikos.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι φίλοι
+    accusative_singular: τον φίλο
+  keg_communicative_function: Introducing social acquaintances and friends
+- id: A1-U01-008
+  greek: η φίλη
+  phonetic_hint: ''
+  english: friend (female)
+  notes: Regular feminine in -η with plural in -ες. Accusative drops final -ν before
+    fricatives (τη φίλη).
+  gender_or_pos: noun (feminine)
+  audio: i-fili-01b48a.mp3
+  status: verified
+  example_el: Αυτή είναι η φίλη μου, η Μαρία.
+  example_en: This is my friend, Maria.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φίλες
+    accusative_singular: τη φίλη
+  keg_communicative_function: Introducing female friends
+- id: A1-U01-009
+  greek: είμαι
+  phonetic_hint: ''
+  english: to be / I am
+  notes: 'Copular auxiliary verb. Full present paradigm: είμαι, είσαι, είναι, είμαστε,
+    είστε (είσαστε), είναι.'
+  gender_or_pos: verb (irregular)
+  audio: eimai-8863b2.mp3
+  status: verified
+  example_el: Εγώ είμαι ο Γιώργος.
+  example_en: I am Giorgos.
+  grammatical_info:
+    part_of_speech: verb (irregular)
+    verb_type: irregular
+    third_person_singular: αυτός / αυτή / αυτό είναι
+    first_person_plural: εμείς είμαστε
+  keg_communicative_function: Self-identification, stating profession and identity
+- id: A1-U01-010
+  greek: λέω
+  phonetic_hint: ''
+  english: to say / to tell / to call
+  notes: '''Με λένε + Accusative'' literally means ''They call me''. Most natural
+    everyday way to state your name.'
+  gender_or_pos: verb
+  audio: leo-5cb2e9.mp3
+  status: verified
+  example_el: Με λένε Κώστα και είμαι μαθητής.
+  example_en: My name is Kostas and I am a student.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό λέει
+    first_person_plural: εμείς λέμε
+  keg_communicative_function: Stating one's name via direct object formula ('με λένε')
+- id: A1-U01-011
+  greek: γράφω
+  phonetic_hint: ''
+  english: to write / to spell
+  notes: Model Type A regular active verb (-ω, -εις, -ει, -ουμε, -ετε, -ουν).
+  gender_or_pos: verb
+  audio: grafo-ee0d8a.mp3
+  status: verified
+  example_el: Πώς γράφετε το όνομά σας;
+  example_en: How do you write (spell) your name?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό γράφει
+    first_person_plural: εμείς γράφουμε
+  keg_communicative_function: Asking how names and contact information are spelled
+- id: A1-U01-012
+  greek: εγώ
+  phonetic_hint: ''
+  english: I (subject pronoun)
+  notes: Modern Greek is a pro-drop language; 'εγώ' is reserved for emphasis or contrast.
+  gender_or_pos: personal pronoun
+  audio: ego-98e697.mp3
+  status: verified
+  example_el: Εγώ είμαι από την Ελλάδα, εσύ;
+  example_en: I am from Greece, and you?
+  grammatical_info:
+    part_of_speech: personal pronoun
+    case: nominative
+    person_number: 1st person singular
+  keg_communicative_function: Emphasizing personal identity or contrasting with others
+- id: A1-U01-013
+  greek: εσύ
+  phonetic_hint: ''
+  english: you (informal singular)
+  notes: Informal address. Contrasts strictly with the formal polite 'εσείς'.
+  gender_or_pos: personal pronoun
+  audio: esy-96c0ba.mp3
+  status: verified
+  example_el: Εσύ πώς είσαι σήμερα;
+  example_en: How are you today?
+  grammatical_info:
+    part_of_speech: personal pronoun
+    case: nominative
+    person_number: 2nd person singular
+  keg_communicative_function: Directly addressing a friend, colleague, or child
+- id: A1-U01-014
+  greek: αυτός
+  phonetic_hint: ''
+  english: he / this (masculine)
+  notes: Functions both as 3rd person subject pronoun ('he') and demonstrative ('this').
+  gender_or_pos: demonstrative / personal pronoun
+  audio: aytos-9a3230.mp3
+  status: verified
+  example_el: Αυτός είναι ο δάσκαλός μας.
+  example_en: He is our teacher.
+  grammatical_info:
+    part_of_speech: demonstrative / personal pronoun
+    gender: masculine
+    case: nominative singular
+    plural: αυτοί
+  keg_communicative_function: Introducing and pointing out a male individual
+- id: A1-U01-015
+  greek: αυτή
+  phonetic_hint: ''
+  english: she / this (feminine)
+  notes: Feminine nominative singular. Plural is 'αυτές'.
+  gender_or_pos: demonstrative / personal pronoun
+  audio: ayti-2d323d.mp3
+  status: verified
+  example_el: Αυτή είναι η Άννα.
+  example_en: She is Anna.
+  grammatical_info:
+    part_of_speech: demonstrative / personal pronoun
+    gender: feminine
+    case: nominative singular
+    plural: αυτές
+  keg_communicative_function: Introducing and pointing out a female individual
+- id: A1-U01-016
+  greek: αυτό
+  phonetic_hint: ''
+  english: it / this (neuter)
+  notes: 'Neuter singular. Universal question prompt in KEG A1 listening items: ''Τι
+    είναι αυτό;''.'
+  gender_or_pos: demonstrative / personal pronoun
+  audio: ayto-89e896.mp3
+  status: verified
+  example_el: Τι είναι αυτό;
+  example_en: What is this?
+  grammatical_info:
+    part_of_speech: demonstrative / personal pronoun
+    gender: neuter
+    case: nominative singular
+    plural: αυτά
+  keg_communicative_function: Inquiring about or identifying objects and concepts
+- id: A1-U01-017
+  greek: εμείς
+  phonetic_hint: ''
+  english: we (subject pronoun)
+  notes: Triggers 1st person plural verb ending -ουμε / -μαστε.
+  gender_or_pos: personal pronoun
+  audio: emeis-2dfd81.mp3
+  status: verified
+  example_el: Εμείς είμαστε μαθητές.
+  example_en: We are students.
+  grammatical_info:
+    part_of_speech: personal pronoun
+    case: nominative
+    person_number: 1st person plural
+  keg_communicative_function: Expressing shared identity or group actions
+- id: A1-U01-018
+  greek: εσείς
+  phonetic_hint: ''
+  english: you (polite singular / plural)
+  notes: The plural of courtesy (πληθυντικός ευγενείας). Essential KEG A1 social competence
+    marker.
+  gender_or_pos: personal pronoun
+  audio: eseis-f7b073.mp3
+  status: verified
+  example_el: Εσείς από πού είστε;
+  example_en: Where are you from? (formal or plural)
+  grammatical_info:
+    part_of_speech: personal pronoun
+    case: nominative
+    person_number: 2nd person plural / polite singular
+  keg_communicative_function: Polite formula for addressing adult strangers or a group
+- id: A1-U01-019
+  greek: αυτοί, αυτές, αυτά
+  phonetic_hint: ''
+  english: they (m. / f. / n.)
+  notes: 'Gender agreement is mandatory in 3rd person plural: άντρες -> αυτοί, γυναίκες
+    -> αυτές, πράγματα -> αυτά.'
+  gender_or_pos: demonstrative / personal pronoun
+  audio: aytoi-aytes-ayta-2df532.mp3
+  status: verified
+  example_el: Αυτοί είναι οι νέοι συμμαθητές μας.
+  example_en: They are our new classmates.
+  grammatical_info:
+    part_of_speech: demonstrative / personal pronoun
+    case: nominative plural
+    forms: αυτοί (m), αυτές (f), αυτά (n)
+  keg_communicative_function: Identifying multiple third persons or objects
+- id: A1-U01-020
+  greek: πώς
+  phonetic_hint: ''
+  english: how
+  notes: Always takes a written accent (τόνος) in questions to distinguish from the
+    conjunction 'πως' (that).
+  gender_or_pos: interrogative adverb
+  audio: pos-9157e7.mp3
+  status: verified
+  example_el: Πώς σε λένε;
+  example_en: 'What is your name? (Literally: How do they call you?)'
+  grammatical_info:
+    part_of_speech: interrogative adverb
+  keg_communicative_function: Inquiring about well-being, names, and methods
+- id: A1-U01-021
+  greek: ποιος, ποια, ποιο
+  phonetic_hint: ''
+  english: who / which (m. / f. / n.)
+  notes: 'Always accented. Agrees in gender with the referenced noun: ποιος είναι
+    αυτός; / ποια είναι αυτή;.'
+  gender_or_pos: interrogative pronoun
+  audio: poios-poia-poio-37e5e1.mp3
+  status: verified
+  example_el: Ποιος είναι αυτός ο κύριος;
+  example_en: Who is that gentleman?
+  grammatical_info:
+    part_of_speech: interrogative pronoun
+    forms: ποιος (masculine), ποια (feminine), ποιο (neuter)
+  keg_communicative_function: Inquiring about the identity of specific persons or
+    objects
+- id: A1-U01-022
+  greek: τι
+  phonetic_hint: ''
+  english: what
+  notes: Monosyllabic and never accented. 'Τι κάνεις;' is the ubiquitous everyday
+    Greek greeting.
+  gender_or_pos: interrogative pronoun (indeclinable)
+  audio: ti-45404c.mp3
+  status: verified
+  example_el: Τι κάνεις;
+  example_en: How are you doing? / What are you doing?
+  grammatical_info:
+    part_of_speech: interrogative pronoun (indeclinable)
+  keg_communicative_function: Asking for information about things, actions, and states
+- id: A1-U01-023
+  greek: γεια σου
+  phonetic_hint: ''
+  english: hello / hi / bye (informal singular)
+  notes: Derived from 'υγεία σου' (to your health). Used symmetrically for both 'hello'
+    and 'goodbye'.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
-- id: grk-003
-  greek: Ευχαριστώ πολύ
-  phonetic_hint: ef-hah-ree-STO po-LEE
-  english: Thank you very much
-  notes: Notice the 'ευ' pronounced as 'ef' before voiceless consonants like 'χ'.
+  audio: geia-soy-f16a94.mp3
+  status: verified
+  example_el: Γεια σου, Ελένη! Τι νέα;
+  example_en: Hi, Eleni! What's new?
+  grammatical_info:
+    part_of_speech: phrase
+    register: informal singular
+  keg_communicative_function: Greeting or saying farewell to friends, family, and
+    peers
+- id: A1-U01-024
+  greek: γεια σας
+  phonetic_hint: ''
+  english: hello / goodbye (formal singular / plural)
+  notes: Standard formal opening for KEG oral examination interviews.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
-- id: grk-004
-  greek: Παρακαλώ
-  phonetic_hint: pah-rah-kah-LOH
-  english: Please / You are welcome
-  notes: Polite response to ευχαριστώ, or used when requesting something.
+  audio: geia-sas-874d29.mp3
+  status: verified
+  example_el: Γεια σας, κύριε καθηγητά.
+  example_en: Hello, professor.
+  grammatical_info:
+    part_of_speech: phrase
+    register: formal singular or plural
+  keg_communicative_function: Greeting professionals, elders, strangers, or multiple
+    people
+- id: A1-U01-025
+  greek: καλημέρα
+  phonetic_hint: ''
+  english: good morning / good day
+  notes: Compound of καλή + μέρα. Written as a single word with accent on -ε-.
+  gender_or_pos: phrase (greeting)
+  audio: kalimera-bf9fcd.mp3
+  status: verified
+  example_el: Καλημέρα σε όλους!
+  example_en: Good morning to everyone!
+  grammatical_info:
+    part_of_speech: phrase (greeting)
+  keg_communicative_function: Standard daytime greeting from dawn until early afternoon
+- id: A1-U01-026
+  greek: καλησπέρα
+  phonetic_hint: ''
+  english: good afternoon / good evening
+  notes: Used exclusively as a greeting upon arrival/meeting, never as a farewell.
+  gender_or_pos: phrase (greeting)
+  audio: kalispera-9d6e35.mp3
+  status: verified
+  example_el: Καλησπέρα σας, τι κάνετε;
+  example_en: Good evening, how are you?
+  grammatical_info:
+    part_of_speech: phrase (greeting)
+  keg_communicative_function: Greeting upon arrival from mid-afternoon onward
+- id: A1-U01-027
+  greek: καληνύχτα
+  phonetic_hint: ''
+  english: good night
+  notes: Strictly a parting farewell before sleep; never used as a greeting upon arrival.
+  gender_or_pos: phrase (farewell)
+  audio: kalinychta-3e367a.mp3
+  status: verified
+  example_el: Καληνύχτα και καλό ξημέρωμα!
+  example_en: Good night and sleep well!
+  grammatical_info:
+    part_of_speech: phrase (farewell)
+  keg_communicative_function: Wishing someone a good night when taking leave or sleeping
+- id: A1-U01-028
+  greek: αντίο
+  phonetic_hint: ''
+  english: goodbye / farewell
+  notes: 'Often paired with ''σας'' in polite social contexts: Αντίο σας.'
+  gender_or_pos: phrase (farewell)
+  audio: antio-bed8a5.mp3
+  status: verified
+  example_el: Αντίο σας, καλό απόγευμα.
+  example_en: Goodbye, have a pleasant afternoon.
+  grammatical_info:
+    part_of_speech: phrase (farewell)
+  keg_communicative_function: Formal or standard farewell when departing
+- id: A1-U01-029
+  greek: τα λέμε
+  phonetic_hint: ''
+  english: see you / talk soon
+  notes: 'Literally: ''We say them''. The most frequent casual goodbye in modern Greece.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
-- id: grk-005
-  greek: Γεια σας
-  phonetic_hint: YAH sahs
-  english: Hello (formal / plural)
-  notes: Polite greeting used for elders, strangers, or a group of people.
+  audio: ta-leme-f2f3be.mp3
+  status: verified
+  example_el: Τα λέμε αύριο στο μάθημα!
+  example_en: See you tomorrow in class!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Informal parting formula between friends and colleagues
+- id: A1-U01-030
+  greek: ευχαριστώ
+  phonetic_hint: ''
+  english: thank you / I thank
+  notes: Diphthong 'ευ' is pronounced as /ef/ before voiceless 'χ'. Often emphasized
+    as 'ευχαριστώ πολύ'.
+  gender_or_pos: verb
+  audio: eycharisto-b19a30.mp3
+  status: verified
+  example_el: Ευχαριστώ πολύ για τη βοήθεια.
+  example_en: Thank you very much for the help.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B2
+    third_person_singular: αυτός / αυτή / αυτό ευχαριστεί
+    first_person_plural: εμείς ευχαριστούμε
+  keg_communicative_function: Expressing gratitude politely
+- id: A1-U01-031
+  greek: παρακαλώ
+  phonetic_hint: ''
+  english: please / you are welcome
+  notes: 'Two-way usage: ''please'' when ordering/asking, and ''you are welcome''
+    after ''ευχαριστώ''.'
+  gender_or_pos: verb
+  audio: parakalo-2e9802.mp3
+  status: verified
+  example_el: Έναν καφέ, παρακαλώ.
+  example_en: A coffee, please.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B2
+    third_person_singular: αυτός / αυτή / αυτό παρακαλεί
+    first_person_plural: εμείς παρακαλούμε
+  keg_communicative_function: Polite requests and responding to thanks
+- id: A1-U01-032
+  greek: η συγγνώμη
+  phonetic_hint: ''
+  english: excuse me / sorry / forgiveness
+  notes: Spelled with double γ (γγ pronounced as velar nasal [ŋ]).
+  gender_or_pos: noun (feminine)
+  audio: i-syggnomi-e38066.mp3
+  status: verified
+  example_el: Συγγνώμη, ποιος είναι ο καθηγητής;
+  example_en: Excuse me, who is the professor?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συγγνώμες
+    accusative_singular: τη συγγνώμη
+  keg_communicative_function: Apologizing or politely getting someone's attention
+- id: A1-U01-033
+  greek: χάρηκα
+  phonetic_hint: ''
+  english: pleased to meet you / nice to meet you
+  notes: Standard social formula taught formulaically at A1 upon hearing someone's
+    name.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: charika-022860.mp3
+  status: verified
+  example_el: — Είμαι ο Γιάννης. — Χάρηκα, είμαι η Σοφία.
+  example_en: — I am Giannis. — Pleased to meet you, I am Sofia.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Acknowledging an introduction politely
+- id: A1-U01-034
+  greek: πολύ
+  phonetic_hint: ''
+  english: very / very much / a lot
+  notes: Adverbial form (πολύ). Must not be confused with the inflected adjective
+    'πολύς'.
+  gender_or_pos: adverb
+  audio: poly-ac633a.mp3
+  status: verified
+  example_el: Είμαι πολύ καλά, ευχαριστώ.
+  example_en: I am very well, thank you.
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Modifying adjectives, adverbs, and verbs to express
+    high degree
+- id: A1-U01-035
+  greek: καλά
+  phonetic_hint: ''
+  english: well / fine
+  notes: Adverb formed from the neuter plural of the adjective 'καλός'.
+  gender_or_pos: adverb
+  audio: kala-5388e4.mp3
+  status: verified
+  example_el: — Πώς είσαι; — Καλά, εσύ;
+  example_en: — How are you? — Fine, and you?
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Stating positive personal condition in greeting exchanges

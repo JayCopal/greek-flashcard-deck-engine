@@ -1,0 +1,1407 @@
+{
+  "manifest": {
+    "deck_title": "Modern Greek Mastery (CEFR A1)",
+    "source_language": "en",
+    "target_language": "el",
+    "created_at": "2026-10-25"
+  },
+  "stats": {
+    "total_units": 2,
+    "total_lessons": 2,
+    "total_entries": 75,
+    "verified_count": 75,
+    "pending_count": 0,
+    "needs_review_count": 0,
+    "coverage_percentage": 100.0
+  },
+  "units": [
+    {
+      "id": "unit-01",
+      "title": "Χαιρετισμοί & Γνωριμία (Greetings & Introductions)",
+      "order": 1,
+      "lessons": [
+        {
+          "unit_id": "unit-01",
+          "lesson_id": "lesson-01",
+          "title": "Χαιρετισμοί & Γνωριμία (Greetings & Introductions)",
+          "description": "CEFR A1: Formal & informal greetings, polite addresses, personal pronouns, and core verbs (είμαι, λέω, γράφω).",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 1 Core Grammar Notes:\n• Vocative Singular: Masculine nouns in -ος end in -ε (κύριε Παπαδόπουλε). Feminine nouns in -α/-η remain unchanged (κυρία, δεσποινίς).\n• Copular Verb 'είμαι' (Present): εγώ είμαι, εσύ είσαι, αυτός/αυτή/αυτό είναι, εμείς είμαστε, εσείς είστε, αυτοί/αυτές/αυτά είναι.\n• Stating Names: 'Με λένε + Accusative' (e.g. Με λένε Κώστα) or 'Είμαι ο/η + Nominative'.",
+          "entries": [
+            {
+              "id": "A1-U01-001",
+              "greek": "ο κύριος",
+              "phonetic_hint": "",
+              "english": "Mr. / sir / gentleman",
+              "notes": "Vocative singular drops final -ς and changes to -ε (κύριε).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-kyrios-022974.mp3",
+              "status": "verified",
+              "example_el": "Γεια σας, κύριε Παπαδόπουλε.",
+              "example_en": "Hello, Mr. Papadopoulos.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι κύριοι",
+                "accusative_singular": "τον κύριο"
+              },
+              "keg_communicative_function": "Addressing individuals politely and formal introductions"
+            },
+            {
+              "id": "A1-U01-002",
+              "greek": "η κυρία",
+              "phonetic_hint": "",
+              "english": "Mrs. / Ms. / lady",
+              "notes": "Vocative singular is identical to nominative: κυρία.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-kyria-15b8ff.mp3",
+              "status": "verified",
+              "example_el": "Αυτή είναι η κυρία Καραγιάννη.",
+              "example_en": "This is Mrs. Karagianni.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι κυρίες",
+                "accusative_singular": "την κυρία"
+              },
+              "keg_communicative_function": "Addressing adult women respectfully"
+            },
+            {
+              "id": "A1-U01-003",
+              "greek": "η δεσποινίδα",
+              "phonetic_hint": "",
+              "english": "Miss / young lady",
+              "notes": "In daily spoken Greek, often truncated to the vocative particle 'δεσποινίς'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-despoinida-50adc7.mp3",
+              "status": "verified",
+              "example_el": "Καλημέρα σας, δεσποινίς Ελένη.",
+              "example_en": "Good morning, Miss Eleni.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι δεσποινίδες",
+                "accusative_singular": "τη δεσποινίδα"
+              },
+              "keg_communicative_function": "Polite address to an unmarried young woman"
+            },
+            {
+              "id": "A1-U01-004",
+              "greek": "το όνομα",
+              "phonetic_hint": "",
+              "english": "name / first name",
+              "notes": "Neuter noun in -μα; plural adds -τα (τα ονόματα). Takes a second accent before possessive clitic: το όνομά μου.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-onoma-3f4b6c.mp3",
+              "status": "verified",
+              "example_el": "Ποιο είναι το όνομά σου;",
+              "example_en": "What is your name?",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ονόματα",
+                "accusative_singular": "το όνομα"
+              },
+              "keg_communicative_function": "Asking for and stating names in introductions"
+            },
+            {
+              "id": "A1-U01-005",
+              "greek": "το επώνυμο",
+              "phonetic_hint": "",
+              "english": "surname / last name",
+              "notes": "Proparoxytone noun (accent on antepenult). Takes an enclitic accent before possessive: το επώνυμό μου.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-eponymo-1420da.mp3",
+              "status": "verified",
+              "example_el": "Το επώνυμό μου είναι Αντωνίου.",
+              "example_en": "My last name is Antoniou.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα επώνυμα",
+                "accusative_singular": "το επώνυμο"
+              },
+              "keg_communicative_function": "Official registration and identity forms"
+            },
+            {
+              "id": "A1-U01-006",
+              "greek": "το γράμμα",
+              "phonetic_hint": "",
+              "english": "letter (alphabet) / postal letter",
+              "notes": "Neuter noun in -μα (plural: τα γράμματα). Essential for KEG listening task on name spelling.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-gramma-9b532e.mp3",
+              "status": "verified",
+              "example_el": "Ποιο είναι το πρώτο γράμμα;",
+              "example_en": "What is the first letter?",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα γράμματα",
+                "accusative_singular": "το γράμμα"
+              },
+              "keg_communicative_function": "Spelling Greek names and asking about the alphabet"
+            },
+            {
+              "id": "A1-U01-007",
+              "greek": "ο φίλος",
+              "phonetic_hint": "",
+              "english": "friend (male)",
+              "notes": "Vocative singular: (ε) φίλε μου! Note masculine nominative article 'ο'.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-filos-568da6.mp3",
+              "status": "verified",
+              "example_el": "Αυτός είναι ο φίλος μου, ο Νίκος.",
+              "example_en": "This is my friend, Nikos.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι φίλοι",
+                "accusative_singular": "τον φίλο"
+              },
+              "keg_communicative_function": "Introducing social acquaintances and friends"
+            },
+            {
+              "id": "A1-U01-008",
+              "greek": "η φίλη",
+              "phonetic_hint": "",
+              "english": "friend (female)",
+              "notes": "Regular feminine in -η with plural in -ες. Accusative drops final -ν before fricatives (τη φίλη).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-fili-01b48a.mp3",
+              "status": "verified",
+              "example_el": "Αυτή είναι η φίλη μου, η Μαρία.",
+              "example_en": "This is my friend, Maria.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι φίλες",
+                "accusative_singular": "τη φίλη"
+              },
+              "keg_communicative_function": "Introducing female friends"
+            },
+            {
+              "id": "A1-U01-009",
+              "greek": "είμαι",
+              "phonetic_hint": "",
+              "english": "to be / I am",
+              "notes": "Copular auxiliary verb. Full present paradigm: είμαι, είσαι, είναι, είμαστε, είστε (είσαστε), είναι.",
+              "gender_or_pos": "verb (irregular)",
+              "audio": "eimai-8863b2.mp3",
+              "status": "verified",
+              "example_el": "Εγώ είμαι ο Γιώργος.",
+              "example_en": "I am Giorgos.",
+              "grammatical_info": {
+                "part_of_speech": "verb (irregular)",
+                "verb_type": "irregular",
+                "third_person_singular": "αυτός / αυτή / αυτό είναι",
+                "first_person_plural": "εμείς είμαστε"
+              },
+              "keg_communicative_function": "Self-identification, stating profession and identity"
+            },
+            {
+              "id": "A1-U01-010",
+              "greek": "λέω",
+              "phonetic_hint": "",
+              "english": "to say / to tell / to call",
+              "notes": "'Με λένε + Accusative' literally means 'They call me'. Most natural everyday way to state your name.",
+              "gender_or_pos": "verb",
+              "audio": "leo-5cb2e9.mp3",
+              "status": "verified",
+              "example_el": "Με λένε Κώστα και είμαι μαθητής.",
+              "example_en": "My name is Kostas and I am a student.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό λέει",
+                "first_person_plural": "εμείς λέμε"
+              },
+              "keg_communicative_function": "Stating one's name via direct object formula ('με λένε')"
+            },
+            {
+              "id": "A1-U01-011",
+              "greek": "γράφω",
+              "phonetic_hint": "",
+              "english": "to write / to spell",
+              "notes": "Model Type A regular active verb (-ω, -εις, -ει, -ουμε, -ετε, -ουν).",
+              "gender_or_pos": "verb",
+              "audio": "grafo-ee0d8a.mp3",
+              "status": "verified",
+              "example_el": "Πώς γράφετε το όνομά σας;",
+              "example_en": "How do you write (spell) your name?",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό γράφει",
+                "first_person_plural": "εμείς γράφουμε"
+              },
+              "keg_communicative_function": "Asking how names and contact information are spelled"
+            },
+            {
+              "id": "A1-U01-012",
+              "greek": "εγώ",
+              "phonetic_hint": "",
+              "english": "I (subject pronoun)",
+              "notes": "Modern Greek is a pro-drop language; 'εγώ' is reserved for emphasis or contrast.",
+              "gender_or_pos": "personal pronoun",
+              "audio": "ego-98e697.mp3",
+              "status": "verified",
+              "example_el": "Εγώ είμαι από την Ελλάδα, εσύ;",
+              "example_en": "I am from Greece, and you?",
+              "grammatical_info": {
+                "part_of_speech": "personal pronoun",
+                "case": "nominative",
+                "person_number": "1st person singular"
+              },
+              "keg_communicative_function": "Emphasizing personal identity or contrasting with others"
+            },
+            {
+              "id": "A1-U01-013",
+              "greek": "εσύ",
+              "phonetic_hint": "",
+              "english": "you (informal singular)",
+              "notes": "Informal address. Contrasts strictly with the formal polite 'εσείς'.",
+              "gender_or_pos": "personal pronoun",
+              "audio": "esy-96c0ba.mp3",
+              "status": "verified",
+              "example_el": "Εσύ πώς είσαι σήμερα;",
+              "example_en": "How are you today?",
+              "grammatical_info": {
+                "part_of_speech": "personal pronoun",
+                "case": "nominative",
+                "person_number": "2nd person singular"
+              },
+              "keg_communicative_function": "Directly addressing a friend, colleague, or child"
+            },
+            {
+              "id": "A1-U01-014",
+              "greek": "αυτός",
+              "phonetic_hint": "",
+              "english": "he / this (masculine)",
+              "notes": "Functions both as 3rd person subject pronoun ('he') and demonstrative ('this').",
+              "gender_or_pos": "demonstrative / personal pronoun",
+              "audio": "aytos-9a3230.mp3",
+              "status": "verified",
+              "example_el": "Αυτός είναι ο δάσκαλός μας.",
+              "example_en": "He is our teacher.",
+              "grammatical_info": {
+                "part_of_speech": "demonstrative / personal pronoun",
+                "gender": "masculine",
+                "case": "nominative singular",
+                "plural": "αυτοί"
+              },
+              "keg_communicative_function": "Introducing and pointing out a male individual"
+            },
+            {
+              "id": "A1-U01-015",
+              "greek": "αυτή",
+              "phonetic_hint": "",
+              "english": "she / this (feminine)",
+              "notes": "Feminine nominative singular. Plural is 'αυτές'.",
+              "gender_or_pos": "demonstrative / personal pronoun",
+              "audio": "ayti-2d323d.mp3",
+              "status": "verified",
+              "example_el": "Αυτή είναι η Άννα.",
+              "example_en": "She is Anna.",
+              "grammatical_info": {
+                "part_of_speech": "demonstrative / personal pronoun",
+                "gender": "feminine",
+                "case": "nominative singular",
+                "plural": "αυτές"
+              },
+              "keg_communicative_function": "Introducing and pointing out a female individual"
+            },
+            {
+              "id": "A1-U01-016",
+              "greek": "αυτό",
+              "phonetic_hint": "",
+              "english": "it / this (neuter)",
+              "notes": "Neuter singular. Universal question prompt in KEG A1 listening items: 'Τι είναι αυτό;'.",
+              "gender_or_pos": "demonstrative / personal pronoun",
+              "audio": "ayto-89e896.mp3",
+              "status": "verified",
+              "example_el": "Τι είναι αυτό;",
+              "example_en": "What is this?",
+              "grammatical_info": {
+                "part_of_speech": "demonstrative / personal pronoun",
+                "gender": "neuter",
+                "case": "nominative singular",
+                "plural": "αυτά"
+              },
+              "keg_communicative_function": "Inquiring about or identifying objects and concepts"
+            },
+            {
+              "id": "A1-U01-017",
+              "greek": "εμείς",
+              "phonetic_hint": "",
+              "english": "we (subject pronoun)",
+              "notes": "Triggers 1st person plural verb ending -ουμε / -μαστε.",
+              "gender_or_pos": "personal pronoun",
+              "audio": "emeis-2dfd81.mp3",
+              "status": "verified",
+              "example_el": "Εμείς είμαστε μαθητές.",
+              "example_en": "We are students.",
+              "grammatical_info": {
+                "part_of_speech": "personal pronoun",
+                "case": "nominative",
+                "person_number": "1st person plural"
+              },
+              "keg_communicative_function": "Expressing shared identity or group actions"
+            },
+            {
+              "id": "A1-U01-018",
+              "greek": "εσείς",
+              "phonetic_hint": "",
+              "english": "you (polite singular / plural)",
+              "notes": "The plural of courtesy (πληθυντικός ευγενείας). Essential KEG A1 social competence marker.",
+              "gender_or_pos": "personal pronoun",
+              "audio": "eseis-f7b073.mp3",
+              "status": "verified",
+              "example_el": "Εσείς από πού είστε;",
+              "example_en": "Where are you from? (formal or plural)",
+              "grammatical_info": {
+                "part_of_speech": "personal pronoun",
+                "case": "nominative",
+                "person_number": "2nd person plural / polite singular"
+              },
+              "keg_communicative_function": "Polite formula for addressing adult strangers or a group"
+            },
+            {
+              "id": "A1-U01-019",
+              "greek": "αυτοί, αυτές, αυτά",
+              "phonetic_hint": "",
+              "english": "they (m. / f. / n.)",
+              "notes": "Gender agreement is mandatory in 3rd person plural: άντρες -> αυτοί, γυναίκες -> αυτές, πράγματα -> αυτά.",
+              "gender_or_pos": "demonstrative / personal pronoun",
+              "audio": "aytoi-aytes-ayta-2df532.mp3",
+              "status": "verified",
+              "example_el": "Αυτοί είναι οι νέοι συμμαθητές μας.",
+              "example_en": "They are our new classmates.",
+              "grammatical_info": {
+                "part_of_speech": "demonstrative / personal pronoun",
+                "case": "nominative plural",
+                "forms": "αυτοί (m), αυτές (f), αυτά (n)"
+              },
+              "keg_communicative_function": "Identifying multiple third persons or objects"
+            },
+            {
+              "id": "A1-U01-020",
+              "greek": "πώς",
+              "phonetic_hint": "",
+              "english": "how",
+              "notes": "Always takes a written accent (τόνος) in questions to distinguish from the conjunction 'πως' (that).",
+              "gender_or_pos": "interrogative adverb",
+              "audio": "pos-9157e7.mp3",
+              "status": "verified",
+              "example_el": "Πώς σε λένε;",
+              "example_en": "What is your name? (Literally: How do they call you?)",
+              "grammatical_info": {
+                "part_of_speech": "interrogative adverb"
+              },
+              "keg_communicative_function": "Inquiring about well-being, names, and methods"
+            },
+            {
+              "id": "A1-U01-021",
+              "greek": "ποιος, ποια, ποιο",
+              "phonetic_hint": "",
+              "english": "who / which (m. / f. / n.)",
+              "notes": "Always accented. Agrees in gender with the referenced noun: ποιος είναι αυτός; / ποια είναι αυτή;.",
+              "gender_or_pos": "interrogative pronoun",
+              "audio": "poios-poia-poio-37e5e1.mp3",
+              "status": "verified",
+              "example_el": "Ποιος είναι αυτός ο κύριος;",
+              "example_en": "Who is that gentleman?",
+              "grammatical_info": {
+                "part_of_speech": "interrogative pronoun",
+                "forms": "ποιος (masculine), ποια (feminine), ποιο (neuter)"
+              },
+              "keg_communicative_function": "Inquiring about the identity of specific persons or objects"
+            },
+            {
+              "id": "A1-U01-022",
+              "greek": "τι",
+              "phonetic_hint": "",
+              "english": "what",
+              "notes": "Monosyllabic and never accented. 'Τι κάνεις;' is the ubiquitous everyday Greek greeting.",
+              "gender_or_pos": "interrogative pronoun (indeclinable)",
+              "audio": "ti-45404c.mp3",
+              "status": "verified",
+              "example_el": "Τι κάνεις;",
+              "example_en": "How are you doing? / What are you doing?",
+              "grammatical_info": {
+                "part_of_speech": "interrogative pronoun (indeclinable)"
+              },
+              "keg_communicative_function": "Asking for information about things, actions, and states"
+            },
+            {
+              "id": "A1-U01-023",
+              "greek": "γεια σου",
+              "phonetic_hint": "",
+              "english": "hello / hi / bye (informal singular)",
+              "notes": "Derived from 'υγεία σου' (to your health). Used symmetrically for both 'hello' and 'goodbye'.",
+              "gender_or_pos": "phrase",
+              "audio": "geia-soy-f16a94.mp3",
+              "status": "verified",
+              "example_el": "Γεια σου, Ελένη! Τι νέα;",
+              "example_en": "Hi, Eleni! What's new?",
+              "grammatical_info": {
+                "part_of_speech": "phrase",
+                "register": "informal singular"
+              },
+              "keg_communicative_function": "Greeting or saying farewell to friends, family, and peers"
+            },
+            {
+              "id": "A1-U01-024",
+              "greek": "γεια σας",
+              "phonetic_hint": "",
+              "english": "hello / goodbye (formal singular / plural)",
+              "notes": "Standard formal opening for KEG oral examination interviews.",
+              "gender_or_pos": "phrase",
+              "audio": "geia-sas-874d29.mp3",
+              "status": "verified",
+              "example_el": "Γεια σας, κύριε καθηγητά.",
+              "example_en": "Hello, professor.",
+              "grammatical_info": {
+                "part_of_speech": "phrase",
+                "register": "formal singular or plural"
+              },
+              "keg_communicative_function": "Greeting professionals, elders, strangers, or multiple people"
+            },
+            {
+              "id": "A1-U01-025",
+              "greek": "καλημέρα",
+              "phonetic_hint": "",
+              "english": "good morning / good day",
+              "notes": "Compound of καλή + μέρα. Written as a single word with accent on -ε-.",
+              "gender_or_pos": "phrase (greeting)",
+              "audio": "kalimera-bf9fcd.mp3",
+              "status": "verified",
+              "example_el": "Καλημέρα σε όλους!",
+              "example_en": "Good morning to everyone!",
+              "grammatical_info": {
+                "part_of_speech": "phrase (greeting)"
+              },
+              "keg_communicative_function": "Standard daytime greeting from dawn until early afternoon"
+            },
+            {
+              "id": "A1-U01-026",
+              "greek": "καλησπέρα",
+              "phonetic_hint": "",
+              "english": "good afternoon / good evening",
+              "notes": "Used exclusively as a greeting upon arrival/meeting, never as a farewell.",
+              "gender_or_pos": "phrase (greeting)",
+              "audio": "kalispera-9d6e35.mp3",
+              "status": "verified",
+              "example_el": "Καλησπέρα σας, τι κάνετε;",
+              "example_en": "Good evening, how are you?",
+              "grammatical_info": {
+                "part_of_speech": "phrase (greeting)"
+              },
+              "keg_communicative_function": "Greeting upon arrival from mid-afternoon onward"
+            },
+            {
+              "id": "A1-U01-027",
+              "greek": "καληνύχτα",
+              "phonetic_hint": "",
+              "english": "good night",
+              "notes": "Strictly a parting farewell before sleep; never used as a greeting upon arrival.",
+              "gender_or_pos": "phrase (farewell)",
+              "audio": "kalinychta-3e367a.mp3",
+              "status": "verified",
+              "example_el": "Καληνύχτα και καλό ξημέρωμα!",
+              "example_en": "Good night and sleep well!",
+              "grammatical_info": {
+                "part_of_speech": "phrase (farewell)"
+              },
+              "keg_communicative_function": "Wishing someone a good night when taking leave or sleeping"
+            },
+            {
+              "id": "A1-U01-028",
+              "greek": "αντίο",
+              "phonetic_hint": "",
+              "english": "goodbye / farewell",
+              "notes": "Often paired with 'σας' in polite social contexts: Αντίο σας.",
+              "gender_or_pos": "phrase (farewell)",
+              "audio": "antio-bed8a5.mp3",
+              "status": "verified",
+              "example_el": "Αντίο σας, καλό απόγευμα.",
+              "example_en": "Goodbye, have a pleasant afternoon.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (farewell)"
+              },
+              "keg_communicative_function": "Formal or standard farewell when departing"
+            },
+            {
+              "id": "A1-U01-029",
+              "greek": "τα λέμε",
+              "phonetic_hint": "",
+              "english": "see you / talk soon",
+              "notes": "Literally: 'We say them'. The most frequent casual goodbye in modern Greece.",
+              "gender_or_pos": "phrase",
+              "audio": "ta-leme-f2f3be.mp3",
+              "status": "verified",
+              "example_el": "Τα λέμε αύριο στο μάθημα!",
+              "example_en": "See you tomorrow in class!",
+              "grammatical_info": {
+                "part_of_speech": "phrase"
+              },
+              "keg_communicative_function": "Informal parting formula between friends and colleagues"
+            },
+            {
+              "id": "A1-U01-030",
+              "greek": "ευχαριστώ",
+              "phonetic_hint": "",
+              "english": "thank you / I thank",
+              "notes": "Diphthong 'ευ' is pronounced as /ef/ before voiceless 'χ'. Often emphasized as 'ευχαριστώ πολύ'.",
+              "gender_or_pos": "verb",
+              "audio": "eycharisto-b19a30.mp3",
+              "status": "verified",
+              "example_el": "Ευχαριστώ πολύ για τη βοήθεια.",
+              "example_en": "Thank you very much for the help.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B2",
+                "third_person_singular": "αυτός / αυτή / αυτό ευχαριστεί",
+                "first_person_plural": "εμείς ευχαριστούμε"
+              },
+              "keg_communicative_function": "Expressing gratitude politely"
+            },
+            {
+              "id": "A1-U01-031",
+              "greek": "παρακαλώ",
+              "phonetic_hint": "",
+              "english": "please / you are welcome",
+              "notes": "Two-way usage: 'please' when ordering/asking, and 'you are welcome' after 'ευχαριστώ'.",
+              "gender_or_pos": "verb",
+              "audio": "parakalo-2e9802.mp3",
+              "status": "verified",
+              "example_el": "Έναν καφέ, παρακαλώ.",
+              "example_en": "A coffee, please.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B2",
+                "third_person_singular": "αυτός / αυτή / αυτό παρακαλεί",
+                "first_person_plural": "εμείς παρακαλούμε"
+              },
+              "keg_communicative_function": "Polite requests and responding to thanks"
+            },
+            {
+              "id": "A1-U01-032",
+              "greek": "η συγγνώμη",
+              "phonetic_hint": "",
+              "english": "excuse me / sorry / forgiveness",
+              "notes": "Spelled with double γ (γγ pronounced as velar nasal [ŋ]).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-syggnomi-e38066.mp3",
+              "status": "verified",
+              "example_el": "Συγγνώμη, ποιος είναι ο καθηγητής;",
+              "example_en": "Excuse me, who is the professor?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι συγγνώμες",
+                "accusative_singular": "τη συγγνώμη"
+              },
+              "keg_communicative_function": "Apologizing or politely getting someone's attention"
+            },
+            {
+              "id": "A1-U01-033",
+              "greek": "χάρηκα",
+              "phonetic_hint": "",
+              "english": "pleased to meet you / nice to meet you",
+              "notes": "Standard social formula taught formulaically at A1 upon hearing someone's name.",
+              "gender_or_pos": "phrase",
+              "audio": "charika-022860.mp3",
+              "status": "verified",
+              "example_el": "— Είμαι ο Γιάννης. — Χάρηκα, είμαι η Σοφία.",
+              "example_en": "— I am Giannis. — Pleased to meet you, I am Sofia.",
+              "grammatical_info": {
+                "part_of_speech": "phrase"
+              },
+              "keg_communicative_function": "Acknowledging an introduction politely"
+            },
+            {
+              "id": "A1-U01-034",
+              "greek": "πολύ",
+              "phonetic_hint": "",
+              "english": "very / very much / a lot",
+              "notes": "Adverbial form (πολύ). Must not be confused with the inflected adjective 'πολύς'.",
+              "gender_or_pos": "adverb",
+              "audio": "poly-ac633a.mp3",
+              "status": "verified",
+              "example_el": "Είμαι πολύ καλά, ευχαριστώ.",
+              "example_en": "I am very well, thank you.",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Modifying adjectives, adverbs, and verbs to express high degree"
+            },
+            {
+              "id": "A1-U01-035",
+              "greek": "καλά",
+              "phonetic_hint": "",
+              "english": "well / fine",
+              "notes": "Adverb formed from the neuter plural of the adjective 'καλός'.",
+              "gender_or_pos": "adverb",
+              "audio": "kala-5388e4.mp3",
+              "status": "verified",
+              "example_el": "— Πώς είσαι; — Καλά, εσύ;",
+              "example_en": "— How are you? — Fine, and you?",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Stating positive personal condition in greeting exchanges"
+            }
+          ],
+          "total_entries": 35,
+          "verified_entries": 35,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 35,
+      "verified_entries": 35,
+      "coverage_percentage": 100.0
+    },
+    {
+      "id": "unit-02",
+      "title": "Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)",
+      "order": 2,
+      "lessons": [
+        {
+          "unit_id": "unit-02",
+          "lesson_id": "lesson-01",
+          "title": "Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)",
+          "description": "CEFR A1: Countries, nationalities, spoken languages, and verbs of residence & communication (μένω, μιλάω, μαθαίνω).",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 2 Core Grammar Notes:\n• Expressing Origin: 'από + Accusative' (e.g., Από πού είσαι; — Είμαι από την Ελλάδα).\n• Expressing Residence: 'σε + Accusative' contracts with article: σε + την = στην, σε + το = στο, σε + τον = στον (e.g., Μένω στην Αθήνα).\n• Nationalities: Masculine in -ος/-ας/-ης, Feminine in -ίδα/-α (ο Έλληνας / η Ελληνίδα, ο Άγγλος / η Αγγλίδα).\n• Languages: Neuter plural with definite article (τα ελληνικά, τα αγγλικά, τα γαλλικά).",
+          "entries": [
+            {
+              "id": "A1-U02-001",
+              "greek": "η χώρα",
+              "phonetic_hint": "",
+              "english": "country / nation",
+              "notes": "Feminine noun in -α with plural in -ες. Note: 'η Χώρα' on Greek islands also refers to the main town.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-chora-8102dc.mp3",
+              "status": "verified",
+              "example_el": "Από ποια χώρα είσαι;",
+              "example_en": "Which country are you from?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι χώρες",
+                "accusative_singular": "τη χώρα"
+              },
+              "keg_communicative_function": "Asking for and stating geographic origins"
+            },
+            {
+              "id": "A1-U02-002",
+              "greek": "η πόλη",
+              "phonetic_hint": "",
+              "english": "city / town",
+              "notes": "Feminine noun in -η ending in -εις in nominative plural (οι πόλεις).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-poli-192d8a.mp3",
+              "status": "verified",
+              "example_el": "Η Αθήνα είναι μία μεγάλη πόλη.",
+              "example_en": "Athens is a big city.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι πόλεις",
+                "accusative_singular": "την πόλη"
+              },
+              "keg_communicative_function": "Stating one's city of residence or origin"
+            },
+            {
+              "id": "A1-U02-003",
+              "greek": "το κράτος",
+              "phonetic_hint": "",
+              "english": "state / sovereign state",
+              "notes": "Ancient-declension neuter in -ος with plural in -η (τα κράτη).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-kratos-f3334f.mp3",
+              "status": "verified",
+              "example_el": "Η Ελλάδα είναι κράτος της Ευρωπαϊκής Ένωσης.",
+              "example_en": "Greece is a member state of the European Union.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα κράτη",
+                "accusative_singular": "το κράτος"
+              },
+              "keg_communicative_function": "Referring to geopolitical states in official contexts"
+            },
+            {
+              "id": "A1-U02-004",
+              "greek": "η εθνικότητα",
+              "phonetic_hint": "",
+              "english": "nationality / citizenship",
+              "notes": "Feminine noun in -ότητα (plural in -ότητες). Essential keyword in KEG reading forms.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ethnikotita-5450c8.mp3",
+              "status": "verified",
+              "example_el": "Ποια είναι η εθνικότητά σας;",
+              "example_en": "What is your nationality?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι εθνικότητες",
+                "accusative_singular": "την εθνικότητα"
+              },
+              "keg_communicative_function": "Completing official registration cards and forms"
+            },
+            {
+              "id": "A1-U02-005",
+              "greek": "η καταγωγή",
+              "phonetic_hint": "",
+              "english": "origin / descent / heritage",
+              "notes": "Commonly paired with 'έχω' + adjective of nationality in the feminine.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-katagogi-17132e.mp3",
+              "status": "verified",
+              "example_el": "Έχω ελληνική καταγωγή αλλά μένω στον Καναδά.",
+              "example_en": "I have Greek heritage but I live in Canada.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι καταγωγές",
+                "accusative_singular": "την καταγωγή"
+              },
+              "keg_communicative_function": "Discussing ancestral background and cultural roots"
+            },
+            {
+              "id": "A1-U02-006",
+              "greek": "η γλώσσα",
+              "phonetic_hint": "",
+              "english": "language / tongue",
+              "notes": "Regular feminine in -α with plural in -ες. Root of English 'linguistics/glossary'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-glossa-d5ff10.mp3",
+              "status": "verified",
+              "example_el": "Ποιες γλώσσες μιλάτε;",
+              "example_en": "Which languages do you speak?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γλώσσες",
+                "accusative_singular": "τη γλώσσα"
+              },
+              "keg_communicative_function": "Inquiring about linguistic competencies"
+            },
+            {
+              "id": "A1-U02-007",
+              "greek": "η μητρική γλώσσα",
+              "phonetic_hint": "",
+              "english": "mother tongue / native language",
+              "notes": "Adjective 'μητρικός' (maternal) agrees with 'γλώσσα' in feminine nominative.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-mitriki-glossa-f2c6b4.mp3",
+              "status": "verified",
+              "example_el": "Η μητρική μου γλώσσα είναι τα αγγλικά.",
+              "example_en": "My mother tongue is English.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι μητρικές γλώσσες",
+                "accusative_singular": "τη μητρική γλώσσα"
+              },
+              "keg_communicative_function": "Identifying one's primary native language"
+            },
+            {
+              "id": "A1-U02-008",
+              "greek": "η Ελλάδα",
+              "phonetic_hint": "",
+              "english": "Greece",
+              "notes": "Takes final -ν in the accusative article before vowels: 'στην Ελλάδα', 'από την Ελλάδα'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ellada-245ebf.mp3",
+              "status": "verified",
+              "example_el": "Μένω στην Ελλάδα τώρα.",
+              "example_en": "I live in Greece now.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Ελλάδα"
+              },
+              "keg_communicative_function": "Naming the target host country"
+            },
+            {
+              "id": "A1-U02-009",
+              "greek": "η Αγγλία",
+              "phonetic_hint": "",
+              "english": "England / Great Britain",
+              "notes": "Feminine proper noun. Accusative: την Αγγλία (keeps -ν before vowel).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-agglia-716ff5.mp3",
+              "status": "verified",
+              "example_el": "Ο φίλος μου είναι από την Αγγλία.",
+              "example_en": "My friend is from England.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Αγγλία"
+              },
+              "keg_communicative_function": "Identifying country of origin"
+            },
+            {
+              "id": "A1-U02-010",
+              "greek": "η Κύπρος",
+              "phonetic_hint": "",
+              "english": "Cyprus",
+              "notes": "Crucial grammatical trap: feminine gender despite ending in -ος (accusative: την Κύπρο).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-kypros-102dc0.mp3",
+              "status": "verified",
+              "example_el": "Η Κύπρος είναι ένα όμορφο νησί.",
+              "example_en": "Cyprus is a beautiful island.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Κύπρο"
+              },
+              "keg_communicative_function": "Naming Greek-speaking countries and regions"
+            },
+            {
+              "id": "A1-U02-011",
+              "greek": "η Γαλλία",
+              "phonetic_hint": "",
+              "english": "France",
+              "notes": "Accusative drops -ν before γ: 'από τη Γαλλία', 'στη Γαλλία'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-gallia-c580d4.mp3",
+              "status": "verified",
+              "example_el": "Η καθηγήτρια είναι από τη Γαλλία.",
+              "example_en": "The teacher is from France.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "τη Γαλλία"
+              },
+              "keg_communicative_function": "Identifying European origin"
+            },
+            {
+              "id": "A1-U02-012",
+              "greek": "η Γερμανία",
+              "phonetic_hint": "",
+              "english": "Germany",
+              "notes": "Accusative drops -ν before γ: 'στη Γερμανία'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-germania-cc12d4.mp3",
+              "status": "verified",
+              "example_el": "Μένουμε στη Γερμανία.",
+              "example_en": "We live in Germany.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "τη Γερμανία"
+              },
+              "keg_communicative_function": "Identifying European origin"
+            },
+            {
+              "id": "A1-U02-013",
+              "greek": "η Ιταλία",
+              "phonetic_hint": "",
+              "english": "Italy",
+              "notes": "Accusative retains -ν before vowel: 'στην Ιταλία'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-italia-7384c7.mp3",
+              "status": "verified",
+              "example_el": "Ταξιδεύω συχνά στην Ιταλία.",
+              "example_en": "I travel often to Italy.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Ιταλία"
+              },
+              "keg_communicative_function": "Identifying Mediterranean origin"
+            },
+            {
+              "id": "A1-U02-014",
+              "greek": "η Ισπανία",
+              "phonetic_hint": "",
+              "english": "Spain",
+              "notes": "Accusative retains -ν before vowel: 'από την Ισπανία'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ispania-bb6426.mp3",
+              "status": "verified",
+              "example_el": "Η Μαρία είναι από την Ισπανία.",
+              "example_en": "Maria is from Spain.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Ισπανία"
+              },
+              "keg_communicative_function": "Identifying country of origin"
+            },
+            {
+              "id": "A1-U02-015",
+              "greek": "οι Ηνωμένες Πολιτείες",
+              "phonetic_hint": "",
+              "english": "the United States (USA)",
+              "notes": "Plural agreement: 'από τις Ηνωμένες Πολιτείες', 'στις Ηνωμένες Πολιτείες'.",
+              "gender_or_pos": "noun (feminine plural)",
+              "audio": "oi-inomenes-politeie-35f598.mp3",
+              "status": "verified",
+              "example_el": "Είμαι από τις Ηνωμένες Πολιτείες της Αμερικής.",
+              "example_en": "I am from the United States of America.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine plural)",
+                "plural": "οι Ηνωμένες Πολιτείες",
+                "accusative_singular": "— (plural only)",
+                "accusative_plural": "τις Ηνωμένες Πολιτείες"
+              },
+              "keg_communicative_function": "Identifying North American origin"
+            },
+            {
+              "id": "A1-U02-016",
+              "greek": "η Αυστραλία",
+              "phonetic_hint": "",
+              "english": "Australia",
+              "notes": "Accusative retains -ν before vowel: 'στην Αυστραλία'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-aystralia-a7a294.mp3",
+              "status": "verified",
+              "example_el": "Έχω συγγενείς στην Αυστραλία.",
+              "example_en": "I have relatives in Australia.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "— (singular only)",
+                "accusative_singular": "την Αυστραλία"
+              },
+              "keg_communicative_function": "Identifying country of origin and Greek diaspora center"
+            },
+            {
+              "id": "A1-U02-017",
+              "greek": "ο Έλληνας",
+              "phonetic_hint": "",
+              "english": "Greek man",
+              "notes": "Masculine noun in -ας; nominative plural is 'οι Έλληνες'.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ellinas-9c74c3.mp3",
+              "status": "verified",
+              "example_el": "Ο Νίκος είναι Έλληνας.",
+              "example_en": "Nikos is a Greek man.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Έλληνες",
+                "accusative_singular": "τον Έλληνα"
+              },
+              "keg_communicative_function": "Stating male Greek nationality"
+            },
+            {
+              "id": "A1-U02-018",
+              "greek": "η Ελληνίδα",
+              "phonetic_hint": "",
+              "english": "Greek woman",
+              "notes": "Feminine nationality suffix -ίδα with plural in -ίδες.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ellinida-569518.mp3",
+              "status": "verified",
+              "example_el": "Η Ελένη είναι Ελληνίδα.",
+              "example_en": "Eleni is a Greek woman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Ελληνίδες",
+                "accusative_singular": "την Ελληνίδα"
+              },
+              "keg_communicative_function": "Stating female Greek nationality"
+            },
+            {
+              "id": "A1-U02-019",
+              "greek": "ο Άγγλος",
+              "phonetic_hint": "",
+              "english": "Englishman",
+              "notes": "Capitalized when denoting the national noun.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-agglos-118e0f.mp3",
+              "status": "verified",
+              "example_el": "Ο Τζον είναι Άγγλος.",
+              "example_en": "John is an Englishman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Άγγλοι",
+                "accusative_singular": "τον Άγγλο"
+              },
+              "keg_communicative_function": "Stating male English nationality"
+            },
+            {
+              "id": "A1-U02-020",
+              "greek": "η Αγγλίδα",
+              "phonetic_hint": "",
+              "english": "Englishwoman",
+              "notes": "Feminine nationality noun in -ίδα.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-agglida-159ea1.mp3",
+              "status": "verified",
+              "example_el": "Η Σάρα είναι Αγγλίδα.",
+              "example_en": "Sarah is an Englishwoman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Αγγλίδες",
+                "accusative_singular": "την Αγγλίδα"
+              },
+              "keg_communicative_function": "Stating female English nationality"
+            },
+            {
+              "id": "A1-U02-021",
+              "greek": "ο Γάλλος",
+              "phonetic_hint": "",
+              "english": "Frenchman",
+              "notes": "Regular masculine in -ος (plural: οι Γάλλοι).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-gallos-8b8ed3.mp3",
+              "status": "verified",
+              "example_el": "Ο Πιερ είναι Γάλλος φοιτητής.",
+              "example_en": "Pierre is a French student.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Γάλλοι",
+                "accusative_singular": "τον Γάλλο"
+              },
+              "keg_communicative_function": "Stating male French nationality"
+            },
+            {
+              "id": "A1-U02-022",
+              "greek": "η Γαλλίδα",
+              "phonetic_hint": "",
+              "english": "Frenchwoman",
+              "notes": "Feminine nationality form in -ίδα.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-gallida-185893.mp3",
+              "status": "verified",
+              "example_el": "Η Μαρί είναι Γαλλίδα.",
+              "example_en": "Marie is a Frenchwoman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Γαλλίδες",
+                "accusative_singular": "τη Γαλλίδα"
+              },
+              "keg_communicative_function": "Stating female French nationality"
+            },
+            {
+              "id": "A1-U02-023",
+              "greek": "ο Γερμανός",
+              "phonetic_hint": "",
+              "english": "German man",
+              "notes": "Oxytone masculine (accent on final syllable -ός).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-germanos-214db3.mp3",
+              "status": "verified",
+              "example_el": "Ο Χανς είναι Γερμανός.",
+              "example_en": "Hans is a German man.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Γερμανοί",
+                "accusative_singular": "τον Γερμανό"
+              },
+              "keg_communicative_function": "Stating male German nationality"
+            },
+            {
+              "id": "A1-U02-024",
+              "greek": "η Γερμανίδα",
+              "phonetic_hint": "",
+              "english": "German woman",
+              "notes": "Feminine nationality form in -ίδα.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-germanida-34f351.mp3",
+              "status": "verified",
+              "example_el": "Η Ίνγκριντ είναι Γερμανίδα.",
+              "example_en": "Ingrid is a German woman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Γερμανίδες",
+                "accusative_singular": "τη Γερμανίδα"
+              },
+              "keg_communicative_function": "Stating female German nationality"
+            },
+            {
+              "id": "A1-U02-025",
+              "greek": "ο Ιταλός",
+              "phonetic_hint": "",
+              "english": "Italian man",
+              "notes": "Oxytone masculine noun in -ός.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-italos-c933fd.mp3",
+              "status": "verified",
+              "example_el": "Ο Μάρκο είναι Ιταλός.",
+              "example_en": "Marco is an Italian man.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Ιταλοί",
+                "accusative_singular": "τον Ιταλό"
+              },
+              "keg_communicative_function": "Stating male Italian nationality"
+            },
+            {
+              "id": "A1-U02-026",
+              "greek": "η Ιταλίδα",
+              "phonetic_hint": "",
+              "english": "Italian woman",
+              "notes": "Feminine counterpart of ο Ιταλός.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-italida-a823f6.mp3",
+              "status": "verified",
+              "example_el": "Η Τζούλια είναι Ιταλίδα.",
+              "example_en": "Giulia is an Italian woman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Ιταλίδες",
+                "accusative_singular": "την Ιταλίδα"
+              },
+              "keg_communicative_function": "Stating female Italian nationality"
+            },
+            {
+              "id": "A1-U02-027",
+              "greek": "ο Ισπανός",
+              "phonetic_hint": "",
+              "english": "Spanish man",
+              "notes": "Oxytone masculine noun in -ός.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ispanos-95f7c0.mp3",
+              "status": "verified",
+              "example_el": "Ο Κάρλος είναι Ισπανός.",
+              "example_en": "Carlos is a Spanish man.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι Ισπανοί",
+                "accusative_singular": "τον Ισπανό"
+              },
+              "keg_communicative_function": "Stating male Spanish nationality"
+            },
+            {
+              "id": "A1-U02-028",
+              "greek": "η Ισπανίδα",
+              "phonetic_hint": "",
+              "english": "Spanish woman",
+              "notes": "Feminine counterpart of ο Ισπανός.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ispanida-b0d930.mp3",
+              "status": "verified",
+              "example_el": "Η Κάρμεν είναι Ισπανίδα.",
+              "example_en": "Carmen is a Spanish woman.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι Ισπανίδες",
+                "accusative_singular": "την Ισπανίδα"
+              },
+              "keg_communicative_function": "Stating female Spanish nationality"
+            },
+            {
+              "id": "A1-U02-029",
+              "greek": "ελληνικός, -ή, -ό",
+              "phonetic_hint": "",
+              "english": "Greek (adjective)",
+              "notes": "Adjectives in Greek are written in lower case (ελληνικός) unlike the proper national nouns (ο Έλληνας).",
+              "gender_or_pos": "adjective",
+              "audio": "ellinikos-i-o-aab118.mp3",
+              "status": "verified",
+              "example_el": "Μου αρέσει ο ελληνικός καφές.",
+              "example_en": "I like Greek coffee.",
+              "grammatical_info": {
+                "part_of_speech": "adjective",
+                "feminine": "ελληνική",
+                "neuter": "ελληνικό",
+                "plural": "ελληνικοί, ελληνικές, ελληνικά"
+              },
+              "keg_communicative_function": "Describing objects, concepts, and traditions related to Greece"
+            },
+            {
+              "id": "A1-U02-030",
+              "greek": "τα ελληνικά",
+              "phonetic_hint": "",
+              "english": "Greek language",
+              "notes": "Language names in Modern Greek are grammatically neuter plural adjectives (τα ελληνικά).",
+              "gender_or_pos": "noun (neuter plural)",
+              "audio": "ta-ellinika-530289.mp3",
+              "status": "verified",
+              "example_el": "Μαθαίνω ελληνικά στο πανεπιστήμιο.",
+              "example_en": "I am learning Greek at the university.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter plural)",
+                "plural": "τα ελληνικά",
+                "accusative_singular": "— (plural only)",
+                "accusative_plural": "τα ελληνικά"
+              },
+              "keg_communicative_function": "Referring to the Greek language as a field of study or speech"
+            },
+            {
+              "id": "A1-U02-031",
+              "greek": "τα αγγλικά",
+              "phonetic_hint": "",
+              "english": "English language",
+              "notes": "Neuter plural without capital letter when denoting language.",
+              "gender_or_pos": "noun (neuter plural)",
+              "audio": "ta-agglika-5f8d7f.mp3",
+              "status": "verified",
+              "example_el": "Μιλάω πολύ καλά αγγλικά.",
+              "example_en": "I speak English very well.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter plural)",
+                "plural": "τα αγγλικά",
+                "accusative_singular": "— (plural only)",
+                "accusative_plural": "τα αγγλικά"
+              },
+              "keg_communicative_function": "Referring to the English language"
+            },
+            {
+              "id": "A1-U02-032",
+              "greek": "τα γαλλικά",
+              "phonetic_hint": "",
+              "english": "French language",
+              "notes": "Neuter plural language designation.",
+              "gender_or_pos": "noun (neuter plural)",
+              "audio": "ta-gallika-ee35ea.mp3",
+              "status": "verified",
+              "example_el": "Καταλαβαίνω λίγα γαλλικά.",
+              "example_en": "I understand a little French.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter plural)",
+                "plural": "τα γαλλικά",
+                "accusative_singular": "— (plural only)",
+                "accusative_plural": "τα γαλλικά"
+              },
+              "keg_communicative_function": "Referring to the French language"
+            },
+            {
+              "id": "A1-U02-033",
+              "greek": "μένω",
+              "phonetic_hint": "",
+              "english": "to live / to reside / to stay",
+              "notes": "Type A active verb. Governs 'σε + Accusative' for location (μένω στο Παρίσι, μένω στη Ρώμη).",
+              "gender_or_pos": "verb",
+              "audio": "meno-7ee031.mp3",
+              "status": "verified",
+              "example_el": "Μένω στην Αθήνα, στην οδό Πανεπιστημίου.",
+              "example_en": "I live in Athens, on Panepistimiou Street.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό μένει",
+                "first_person_plural": "εμείς μένουμε"
+              },
+              "keg_communicative_function": "Stating address, neighborhood, city, or country of residence"
+            },
+            {
+              "id": "A1-U02-034",
+              "greek": "μιλάω / μιλώ",
+              "phonetic_hint": "",
+              "english": "to speak / to talk",
+              "notes": "Archetypal Type B1 contracted active verb (-άω/-ώ, -άς, -άει/-ά, -άμε, -άτε, -άνε/-ούν).",
+              "gender_or_pos": "verb",
+              "audio": "milao-milo-b8ad12.mp3",
+              "status": "verified",
+              "example_el": "Μιλάω ελληνικά και αγγλικά.",
+              "example_en": "I speak Greek and English.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1",
+                "third_person_singular": "αυτός / αυτή / αυτό μιλάει (μιλά)",
+                "first_person_plural": "εμείς μιλάμε (μιλούμε)"
+              },
+              "keg_communicative_function": "Expressing language skills and conversational communication"
+            },
+            {
+              "id": "A1-U02-035",
+              "greek": "μαθαίνω",
+              "phonetic_hint": "",
+              "english": "to learn / to study",
+              "notes": "Type A active verb with stem ending in -αιν- (-αίνω, -αίνεις, -αίνει).",
+              "gender_or_pos": "verb",
+              "audio": "mathaino-7499fc.mp3",
+              "status": "verified",
+              "example_el": "Μαθαίνουμε νέα ελληνικά στο σχολείο.",
+              "example_en": "We are learning Modern Greek at school.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό μαθαίνει",
+                "first_person_plural": "εμείς μαθαίνουμε"
+              },
+              "keg_communicative_function": "Talking about learning languages and subjects"
+            },
+            {
+              "id": "A1-U02-036",
+              "greek": "καταλαβαίνω",
+              "phonetic_hint": "",
+              "english": "to understand / to comprehend",
+              "notes": "Crucial survival phrase for KEG oral examination. Conjugates like μαθαίνω.",
+              "gender_or_pos": "verb",
+              "audio": "katalavaino-c8a582.mp3",
+              "status": "verified",
+              "example_el": "Δεν καταλαβαίνω, παρακαλώ μιλάτε πιο αργά.",
+              "example_en": "I do not understand, please speak more slowly.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό καταλαβαίνει",
+                "first_person_plural": "εμείς καταλαβαίνουμε"
+              },
+              "keg_communicative_function": "Expressing comprehension or requesting clarification"
+            },
+            {
+              "id": "A1-U02-037",
+              "greek": "ξέρω",
+              "phonetic_hint": "",
+              "english": "to know",
+              "notes": "Type A active verb. Frequently used in questions with polite 'εσείς' (ξέρετε).",
+              "gender_or_pos": "verb",
+              "audio": "xero-6fa5a4.mp3",
+              "status": "verified",
+              "example_el": "Ξέρετε πού είναι το σχολείο;",
+              "example_en": "Do you know where the school is?",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό ξέρει",
+                "first_person_plural": "εμείς ξέρουμε"
+              },
+              "keg_communicative_function": "Stating knowledge of facts, information, or languages"
+            },
+            {
+              "id": "A1-U02-038",
+              "greek": "από",
+              "phonetic_hint": "",
+              "english": "from / of (+ Accusative)",
+              "notes": "Always governs the Accusative case: από + τον/την/το/τους/τις/τα.",
+              "gender_or_pos": "preposition",
+              "audio": "apo-5dabb6.mp3",
+              "status": "verified",
+              "example_el": "Είμαι από την Κύπρο.",
+              "example_en": "I am from Cyprus.",
+              "grammatical_info": {
+                "part_of_speech": "preposition",
+                "governs_case": "accusative"
+              },
+              "keg_communicative_function": "Expressing origin, provenance, and nationality background"
+            },
+            {
+              "id": "A1-U02-039",
+              "greek": "σε",
+              "phonetic_hint": "",
+              "english": "in / at / to (+ Accusative)",
+              "notes": "Contracted systematically with the definite article (στο, στη, στον, στα, στις, στους).",
+              "gender_or_pos": "preposition",
+              "audio": "se-1d6d67.mp3",
+              "status": "verified",
+              "example_el": "Ζω στην Αθήνα και δουλεύω στο κέντρο.",
+              "example_en": "I live in Athens and work in the centre.",
+              "grammatical_info": {
+                "part_of_speech": "preposition",
+                "governs_case": "accusative",
+                "contractions": "σε + τον = στον, σε + την = στη(ν), σε + το = στο, σε + τους = στους, σε + τις = στις, σε + τα = στα"
+              },
+              "keg_communicative_function": "Expressing location and residence"
+            },
+            {
+              "id": "A1-U02-040",
+              "greek": "λίγο",
+              "phonetic_hint": "",
+              "english": "a little / slightly",
+              "notes": "Adverbial modifier. Often contrasted with 'πολύ' (very / a lot).",
+              "gender_or_pos": "adverb",
+              "audio": "ligo-c1ff26.mp3",
+              "status": "verified",
+              "example_el": "Μιλάω μόνο λίγο ελληνικά.",
+              "example_en": "I speak only a little Greek.",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Expressing basic or emerging language competency"
+            }
+          ],
+          "total_entries": 40,
+          "verified_entries": 40,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 40,
+      "verified_entries": 40,
+      "coverage_percentage": 100.0
+    }
+  ]
+}

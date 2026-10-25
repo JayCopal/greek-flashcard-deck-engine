@@ -47,7 +47,10 @@ export function App() {
 
     // Offline / Exported Static PWA Fallback
     try {
-      const fallbackRes = await fetch('/data/deck.json');
+      const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+        ? import.meta.env.BASE_URL
+        : `${import.meta.env.BASE_URL}/`;
+      const fallbackRes = await fetch(`${baseUrl}data/deck.json`);
       if (fallbackRes.ok) {
         const data = await fallbackRes.json();
         setDeck(data);

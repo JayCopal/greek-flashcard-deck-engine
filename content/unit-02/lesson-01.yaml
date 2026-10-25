@@ -1,22 +1,638 @@
-unit_id: "unit-02"
-lesson_id: "lesson-01"
-title: "Ordering at the Kafeneio"
-description: "Ordering coffee and basic drinks in Greek."
-entries:
-  - id: "grk-008"
-    greek: "Έναν ελληνικό καφέ, παρακαλώ."
-    phonetic_hint: "EH-nahn eh-lee-nee-KOH kah-FEH, pah-rah-kah-LOH"
-    english: "One Greek coffee, please."
-    notes: "Accusative masculine form 'έναν'."
-    gender_or_pos: "phrase"
-    audio: null
-    status: "pending_tts"
+unit_id: unit-02
+lesson_id: lesson-01
+title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
+description: 'CEFR A1: Countries, nationalities, spoken languages, and verbs of residence
+  & communication (μένω, μιλάω, μαθαίνω).'
+lesson_status: not_started
+lesson_notes: 'Unit 2 Core Grammar Notes:
 
-  - id: "grk-009"
-    greek: "Χωρίς ζάχαρη (σκέτο)"
-    phonetic_hint: "hoh-REES ZAH-hah-ree (SKEH-toh)"
-    english: "Without sugar (plain/black)"
-    notes: "'Σκέτο' is standard vocabulary for coffee with zero sugar."
-    gender_or_pos: "phrase"
-    audio: null
-    status: "pending_tts"
+  • Expressing Origin: ''από + Accusative'' (e.g., Από πού είσαι; — Είμαι από την
+  Ελλάδα).
+
+  • Expressing Residence: ''σε + Accusative'' contracts with article: σε + την = στην,
+  σε + το = στο, σε + τον = στον (e.g., Μένω στην Αθήνα).
+
+  • Nationalities: Masculine in -ος/-ας/-ης, Feminine in -ίδα/-α (ο Έλληνας / η Ελληνίδα,
+  ο Άγγλος / η Αγγλίδα).
+
+  • Languages: Neuter plural with definite article (τα ελληνικά, τα αγγλικά, τα γαλλικά).'
+entries:
+- id: A1-U02-001
+  greek: η χώρα
+  phonetic_hint: ''
+  english: country / nation
+  notes: 'Feminine noun in -α with plural in -ες. Note: ''η Χώρα'' on Greek islands
+    also refers to the main town.'
+  gender_or_pos: noun (feminine)
+  audio: i-chora-8102dc.mp3
+  status: verified
+  example_el: Από ποια χώρα είσαι;
+  example_en: Which country are you from?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι χώρες
+    accusative_singular: τη χώρα
+  keg_communicative_function: Asking for and stating geographic origins
+- id: A1-U02-002
+  greek: η πόλη
+  phonetic_hint: ''
+  english: city / town
+  notes: Feminine noun in -η ending in -εις in nominative plural (οι πόλεις).
+  gender_or_pos: noun (feminine)
+  audio: i-poli-192d8a.mp3
+  status: verified
+  example_el: Η Αθήνα είναι μία μεγάλη πόλη.
+  example_en: Athens is a big city.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πόλεις
+    accusative_singular: την πόλη
+  keg_communicative_function: Stating one's city of residence or origin
+- id: A1-U02-003
+  greek: το κράτος
+  phonetic_hint: ''
+  english: state / sovereign state
+  notes: Ancient-declension neuter in -ος with plural in -η (τα κράτη).
+  gender_or_pos: noun (neuter)
+  audio: to-kratos-f3334f.mp3
+  status: verified
+  example_el: Η Ελλάδα είναι κράτος της Ευρωπαϊκής Ένωσης.
+  example_en: Greece is a member state of the European Union.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κράτη
+    accusative_singular: το κράτος
+  keg_communicative_function: Referring to geopolitical states in official contexts
+- id: A1-U02-004
+  greek: η εθνικότητα
+  phonetic_hint: ''
+  english: nationality / citizenship
+  notes: Feminine noun in -ότητα (plural in -ότητες). Essential keyword in KEG reading
+    forms.
+  gender_or_pos: noun (feminine)
+  audio: i-ethnikotita-5450c8.mp3
+  status: verified
+  example_el: Ποια είναι η εθνικότητά σας;
+  example_en: What is your nationality?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εθνικότητες
+    accusative_singular: την εθνικότητα
+  keg_communicative_function: Completing official registration cards and forms
+- id: A1-U02-005
+  greek: η καταγωγή
+  phonetic_hint: ''
+  english: origin / descent / heritage
+  notes: Commonly paired with 'έχω' + adjective of nationality in the feminine.
+  gender_or_pos: noun (feminine)
+  audio: i-katagogi-17132e.mp3
+  status: verified
+  example_el: Έχω ελληνική καταγωγή αλλά μένω στον Καναδά.
+  example_en: I have Greek heritage but I live in Canada.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καταγωγές
+    accusative_singular: την καταγωγή
+  keg_communicative_function: Discussing ancestral background and cultural roots
+- id: A1-U02-006
+  greek: η γλώσσα
+  phonetic_hint: ''
+  english: language / tongue
+  notes: Regular feminine in -α with plural in -ες. Root of English 'linguistics/glossary'.
+  gender_or_pos: noun (feminine)
+  audio: i-glossa-d5ff10.mp3
+  status: verified
+  example_el: Ποιες γλώσσες μιλάτε;
+  example_en: Which languages do you speak?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γλώσσες
+    accusative_singular: τη γλώσσα
+  keg_communicative_function: Inquiring about linguistic competencies
+- id: A1-U02-007
+  greek: η μητρική γλώσσα
+  phonetic_hint: ''
+  english: mother tongue / native language
+  notes: Adjective 'μητρικός' (maternal) agrees with 'γλώσσα' in feminine nominative.
+  gender_or_pos: noun (feminine)
+  audio: i-mitriki-glossa-f2c6b4.mp3
+  status: verified
+  example_el: Η μητρική μου γλώσσα είναι τα αγγλικά.
+  example_en: My mother tongue is English.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μητρικές γλώσσες
+    accusative_singular: τη μητρική γλώσσα
+  keg_communicative_function: Identifying one's primary native language
+- id: A1-U02-008
+  greek: η Ελλάδα
+  phonetic_hint: ''
+  english: Greece
+  notes: 'Takes final -ν in the accusative article before vowels: ''στην Ελλάδα'',
+    ''από την Ελλάδα''.'
+  gender_or_pos: noun (feminine)
+  audio: i-ellada-245ebf.mp3
+  status: verified
+  example_el: Μένω στην Ελλάδα τώρα.
+  example_en: I live in Greece now.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Ελλάδα
+  keg_communicative_function: Naming the target host country
+- id: A1-U02-009
+  greek: η Αγγλία
+  phonetic_hint: ''
+  english: England / Great Britain
+  notes: 'Feminine proper noun. Accusative: την Αγγλία (keeps -ν before vowel).'
+  gender_or_pos: noun (feminine)
+  audio: i-agglia-716ff5.mp3
+  status: verified
+  example_el: Ο φίλος μου είναι από την Αγγλία.
+  example_en: My friend is from England.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Αγγλία
+  keg_communicative_function: Identifying country of origin
+- id: A1-U02-010
+  greek: η Κύπρος
+  phonetic_hint: ''
+  english: Cyprus
+  notes: 'Crucial grammatical trap: feminine gender despite ending in -ος (accusative:
+    την Κύπρο).'
+  gender_or_pos: noun (feminine)
+  audio: i-kypros-102dc0.mp3
+  status: verified
+  example_el: Η Κύπρος είναι ένα όμορφο νησί.
+  example_en: Cyprus is a beautiful island.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Κύπρο
+  keg_communicative_function: Naming Greek-speaking countries and regions
+- id: A1-U02-011
+  greek: η Γαλλία
+  phonetic_hint: ''
+  english: France
+  notes: 'Accusative drops -ν before γ: ''από τη Γαλλία'', ''στη Γαλλία''.'
+  gender_or_pos: noun (feminine)
+  audio: i-gallia-c580d4.mp3
+  status: verified
+  example_el: Η καθηγήτρια είναι από τη Γαλλία.
+  example_en: The teacher is from France.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: τη Γαλλία
+  keg_communicative_function: Identifying European origin
+- id: A1-U02-012
+  greek: η Γερμανία
+  phonetic_hint: ''
+  english: Germany
+  notes: 'Accusative drops -ν before γ: ''στη Γερμανία''.'
+  gender_or_pos: noun (feminine)
+  audio: i-germania-cc12d4.mp3
+  status: verified
+  example_el: Μένουμε στη Γερμανία.
+  example_en: We live in Germany.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: τη Γερμανία
+  keg_communicative_function: Identifying European origin
+- id: A1-U02-013
+  greek: η Ιταλία
+  phonetic_hint: ''
+  english: Italy
+  notes: 'Accusative retains -ν before vowel: ''στην Ιταλία''.'
+  gender_or_pos: noun (feminine)
+  audio: i-italia-7384c7.mp3
+  status: verified
+  example_el: Ταξιδεύω συχνά στην Ιταλία.
+  example_en: I travel often to Italy.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Ιταλία
+  keg_communicative_function: Identifying Mediterranean origin
+- id: A1-U02-014
+  greek: η Ισπανία
+  phonetic_hint: ''
+  english: Spain
+  notes: 'Accusative retains -ν before vowel: ''από την Ισπανία''.'
+  gender_or_pos: noun (feminine)
+  audio: i-ispania-bb6426.mp3
+  status: verified
+  example_el: Η Μαρία είναι από την Ισπανία.
+  example_en: Maria is from Spain.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Ισπανία
+  keg_communicative_function: Identifying country of origin
+- id: A1-U02-015
+  greek: οι Ηνωμένες Πολιτείες
+  phonetic_hint: ''
+  english: the United States (USA)
+  notes: 'Plural agreement: ''από τις Ηνωμένες Πολιτείες'', ''στις Ηνωμένες Πολιτείες''.'
+  gender_or_pos: noun (feminine plural)
+  audio: oi-inomenes-politeie-35f598.mp3
+  status: verified
+  example_el: Είμαι από τις Ηνωμένες Πολιτείες της Αμερικής.
+  example_en: I am from the United States of America.
+  grammatical_info:
+    part_of_speech: noun (feminine plural)
+    plural: οι Ηνωμένες Πολιτείες
+    accusative_singular: — (plural only)
+    accusative_plural: τις Ηνωμένες Πολιτείες
+  keg_communicative_function: Identifying North American origin
+- id: A1-U02-016
+  greek: η Αυστραλία
+  phonetic_hint: ''
+  english: Australia
+  notes: 'Accusative retains -ν before vowel: ''στην Αυστραλία''.'
+  gender_or_pos: noun (feminine)
+  audio: i-aystralia-a7a294.mp3
+  status: verified
+  example_el: Έχω συγγενείς στην Αυστραλία.
+  example_en: I have relatives in Australia.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: — (singular only)
+    accusative_singular: την Αυστραλία
+  keg_communicative_function: Identifying country of origin and Greek diaspora center
+- id: A1-U02-017
+  greek: ο Έλληνας
+  phonetic_hint: ''
+  english: Greek man
+  notes: Masculine noun in -ας; nominative plural is 'οι Έλληνες'.
+  gender_or_pos: noun (masculine)
+  audio: o-ellinas-9c74c3.mp3
+  status: verified
+  example_el: Ο Νίκος είναι Έλληνας.
+  example_en: Nikos is a Greek man.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Έλληνες
+    accusative_singular: τον Έλληνα
+  keg_communicative_function: Stating male Greek nationality
+- id: A1-U02-018
+  greek: η Ελληνίδα
+  phonetic_hint: ''
+  english: Greek woman
+  notes: Feminine nationality suffix -ίδα with plural in -ίδες.
+  gender_or_pos: noun (feminine)
+  audio: i-ellinida-569518.mp3
+  status: verified
+  example_el: Η Ελένη είναι Ελληνίδα.
+  example_en: Eleni is a Greek woman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Ελληνίδες
+    accusative_singular: την Ελληνίδα
+  keg_communicative_function: Stating female Greek nationality
+- id: A1-U02-019
+  greek: ο Άγγλος
+  phonetic_hint: ''
+  english: Englishman
+  notes: Capitalized when denoting the national noun.
+  gender_or_pos: noun (masculine)
+  audio: o-agglos-118e0f.mp3
+  status: verified
+  example_el: Ο Τζον είναι Άγγλος.
+  example_en: John is an Englishman.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Άγγλοι
+    accusative_singular: τον Άγγλο
+  keg_communicative_function: Stating male English nationality
+- id: A1-U02-020
+  greek: η Αγγλίδα
+  phonetic_hint: ''
+  english: Englishwoman
+  notes: Feminine nationality noun in -ίδα.
+  gender_or_pos: noun (feminine)
+  audio: i-agglida-159ea1.mp3
+  status: verified
+  example_el: Η Σάρα είναι Αγγλίδα.
+  example_en: Sarah is an Englishwoman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Αγγλίδες
+    accusative_singular: την Αγγλίδα
+  keg_communicative_function: Stating female English nationality
+- id: A1-U02-021
+  greek: ο Γάλλος
+  phonetic_hint: ''
+  english: Frenchman
+  notes: 'Regular masculine in -ος (plural: οι Γάλλοι).'
+  gender_or_pos: noun (masculine)
+  audio: o-gallos-8b8ed3.mp3
+  status: verified
+  example_el: Ο Πιερ είναι Γάλλος φοιτητής.
+  example_en: Pierre is a French student.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Γάλλοι
+    accusative_singular: τον Γάλλο
+  keg_communicative_function: Stating male French nationality
+- id: A1-U02-022
+  greek: η Γαλλίδα
+  phonetic_hint: ''
+  english: Frenchwoman
+  notes: Feminine nationality form in -ίδα.
+  gender_or_pos: noun (feminine)
+  audio: i-gallida-185893.mp3
+  status: verified
+  example_el: Η Μαρί είναι Γαλλίδα.
+  example_en: Marie is a Frenchwoman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Γαλλίδες
+    accusative_singular: τη Γαλλίδα
+  keg_communicative_function: Stating female French nationality
+- id: A1-U02-023
+  greek: ο Γερμανός
+  phonetic_hint: ''
+  english: German man
+  notes: Oxytone masculine (accent on final syllable -ός).
+  gender_or_pos: noun (masculine)
+  audio: o-germanos-214db3.mp3
+  status: verified
+  example_el: Ο Χανς είναι Γερμανός.
+  example_en: Hans is a German man.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Γερμανοί
+    accusative_singular: τον Γερμανό
+  keg_communicative_function: Stating male German nationality
+- id: A1-U02-024
+  greek: η Γερμανίδα
+  phonetic_hint: ''
+  english: German woman
+  notes: Feminine nationality form in -ίδα.
+  gender_or_pos: noun (feminine)
+  audio: i-germanida-34f351.mp3
+  status: verified
+  example_el: Η Ίνγκριντ είναι Γερμανίδα.
+  example_en: Ingrid is a German woman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Γερμανίδες
+    accusative_singular: τη Γερμανίδα
+  keg_communicative_function: Stating female German nationality
+- id: A1-U02-025
+  greek: ο Ιταλός
+  phonetic_hint: ''
+  english: Italian man
+  notes: Oxytone masculine noun in -ός.
+  gender_or_pos: noun (masculine)
+  audio: o-italos-c933fd.mp3
+  status: verified
+  example_el: Ο Μάρκο είναι Ιταλός.
+  example_en: Marco is an Italian man.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Ιταλοί
+    accusative_singular: τον Ιταλό
+  keg_communicative_function: Stating male Italian nationality
+- id: A1-U02-026
+  greek: η Ιταλίδα
+  phonetic_hint: ''
+  english: Italian woman
+  notes: Feminine counterpart of ο Ιταλός.
+  gender_or_pos: noun (feminine)
+  audio: i-italida-a823f6.mp3
+  status: verified
+  example_el: Η Τζούλια είναι Ιταλίδα.
+  example_en: Giulia is an Italian woman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Ιταλίδες
+    accusative_singular: την Ιταλίδα
+  keg_communicative_function: Stating female Italian nationality
+- id: A1-U02-027
+  greek: ο Ισπανός
+  phonetic_hint: ''
+  english: Spanish man
+  notes: Oxytone masculine noun in -ός.
+  gender_or_pos: noun (masculine)
+  audio: o-ispanos-95f7c0.mp3
+  status: verified
+  example_el: Ο Κάρλος είναι Ισπανός.
+  example_en: Carlos is a Spanish man.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Ισπανοί
+    accusative_singular: τον Ισπανό
+  keg_communicative_function: Stating male Spanish nationality
+- id: A1-U02-028
+  greek: η Ισπανίδα
+  phonetic_hint: ''
+  english: Spanish woman
+  notes: Feminine counterpart of ο Ισπανός.
+  gender_or_pos: noun (feminine)
+  audio: i-ispanida-b0d930.mp3
+  status: verified
+  example_el: Η Κάρμεν είναι Ισπανίδα.
+  example_en: Carmen is a Spanish woman.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Ισπανίδες
+    accusative_singular: την Ισπανίδα
+  keg_communicative_function: Stating female Spanish nationality
+- id: A1-U02-029
+  greek: ελληνικός, -ή, -ό
+  phonetic_hint: ''
+  english: Greek (adjective)
+  notes: Adjectives in Greek are written in lower case (ελληνικός) unlike the proper
+    national nouns (ο Έλληνας).
+  gender_or_pos: adjective
+  audio: ellinikos-i-o-aab118.mp3
+  status: verified
+  example_el: Μου αρέσει ο ελληνικός καφές.
+  example_en: I like Greek coffee.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ελληνική
+    neuter: ελληνικό
+    plural: ελληνικοί, ελληνικές, ελληνικά
+  keg_communicative_function: Describing objects, concepts, and traditions related
+    to Greece
+- id: A1-U02-030
+  greek: τα ελληνικά
+  phonetic_hint: ''
+  english: Greek language
+  notes: Language names in Modern Greek are grammatically neuter plural adjectives
+    (τα ελληνικά).
+  gender_or_pos: noun (neuter plural)
+  audio: ta-ellinika-530289.mp3
+  status: verified
+  example_el: Μαθαίνω ελληνικά στο πανεπιστήμιο.
+  example_en: I am learning Greek at the university.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα ελληνικά
+    accusative_singular: — (plural only)
+    accusative_plural: τα ελληνικά
+  keg_communicative_function: Referring to the Greek language as a field of study
+    or speech
+- id: A1-U02-031
+  greek: τα αγγλικά
+  phonetic_hint: ''
+  english: English language
+  notes: Neuter plural without capital letter when denoting language.
+  gender_or_pos: noun (neuter plural)
+  audio: ta-agglika-5f8d7f.mp3
+  status: verified
+  example_el: Μιλάω πολύ καλά αγγλικά.
+  example_en: I speak English very well.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα αγγλικά
+    accusative_singular: — (plural only)
+    accusative_plural: τα αγγλικά
+  keg_communicative_function: Referring to the English language
+- id: A1-U02-032
+  greek: τα γαλλικά
+  phonetic_hint: ''
+  english: French language
+  notes: Neuter plural language designation.
+  gender_or_pos: noun (neuter plural)
+  audio: ta-gallika-ee35ea.mp3
+  status: verified
+  example_el: Καταλαβαίνω λίγα γαλλικά.
+  example_en: I understand a little French.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα γαλλικά
+    accusative_singular: — (plural only)
+    accusative_plural: τα γαλλικά
+  keg_communicative_function: Referring to the French language
+- id: A1-U02-033
+  greek: μένω
+  phonetic_hint: ''
+  english: to live / to reside / to stay
+  notes: Type A active verb. Governs 'σε + Accusative' for location (μένω στο Παρίσι,
+    μένω στη Ρώμη).
+  gender_or_pos: verb
+  audio: meno-7ee031.mp3
+  status: verified
+  example_el: Μένω στην Αθήνα, στην οδό Πανεπιστημίου.
+  example_en: I live in Athens, on Panepistimiou Street.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό μένει
+    first_person_plural: εμείς μένουμε
+  keg_communicative_function: Stating address, neighborhood, city, or country of residence
+- id: A1-U02-034
+  greek: μιλάω / μιλώ
+  phonetic_hint: ''
+  english: to speak / to talk
+  notes: Archetypal Type B1 contracted active verb (-άω/-ώ, -άς, -άει/-ά, -άμε, -άτε,
+    -άνε/-ούν).
+  gender_or_pos: verb
+  audio: milao-milo-b8ad12.mp3
+  status: verified
+  example_el: Μιλάω ελληνικά και αγγλικά.
+  example_en: I speak Greek and English.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό μιλάει (μιλά)
+    first_person_plural: εμείς μιλάμε (μιλούμε)
+  keg_communicative_function: Expressing language skills and conversational communication
+- id: A1-U02-035
+  greek: μαθαίνω
+  phonetic_hint: ''
+  english: to learn / to study
+  notes: Type A active verb with stem ending in -αιν- (-αίνω, -αίνεις, -αίνει).
+  gender_or_pos: verb
+  audio: mathaino-7499fc.mp3
+  status: verified
+  example_el: Μαθαίνουμε νέα ελληνικά στο σχολείο.
+  example_en: We are learning Modern Greek at school.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό μαθαίνει
+    first_person_plural: εμείς μαθαίνουμε
+  keg_communicative_function: Talking about learning languages and subjects
+- id: A1-U02-036
+  greek: καταλαβαίνω
+  phonetic_hint: ''
+  english: to understand / to comprehend
+  notes: Crucial survival phrase for KEG oral examination. Conjugates like μαθαίνω.
+  gender_or_pos: verb
+  audio: katalavaino-c8a582.mp3
+  status: verified
+  example_el: Δεν καταλαβαίνω, παρακαλώ μιλάτε πιο αργά.
+  example_en: I do not understand, please speak more slowly.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό καταλαβαίνει
+    first_person_plural: εμείς καταλαβαίνουμε
+  keg_communicative_function: Expressing comprehension or requesting clarification
+- id: A1-U02-037
+  greek: ξέρω
+  phonetic_hint: ''
+  english: to know
+  notes: Type A active verb. Frequently used in questions with polite 'εσείς' (ξέρετε).
+  gender_or_pos: verb
+  audio: xero-6fa5a4.mp3
+  status: verified
+  example_el: Ξέρετε πού είναι το σχολείο;
+  example_en: Do you know where the school is?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ξέρει
+    first_person_plural: εμείς ξέρουμε
+  keg_communicative_function: Stating knowledge of facts, information, or languages
+- id: A1-U02-038
+  greek: από
+  phonetic_hint: ''
+  english: from / of (+ Accusative)
+  notes: 'Always governs the Accusative case: από + τον/την/το/τους/τις/τα.'
+  gender_or_pos: preposition
+  audio: apo-5dabb6.mp3
+  status: verified
+  example_el: Είμαι από την Κύπρο.
+  example_en: I am from Cyprus.
+  grammatical_info:
+    part_of_speech: preposition
+    governs_case: accusative
+  keg_communicative_function: Expressing origin, provenance, and nationality background
+- id: A1-U02-039
+  greek: σε
+  phonetic_hint: ''
+  english: in / at / to (+ Accusative)
+  notes: Contracted systematically with the definite article (στο, στη, στον, στα,
+    στις, στους).
+  gender_or_pos: preposition
+  audio: se-1d6d67.mp3
+  status: verified
+  example_el: Ζω στην Αθήνα και δουλεύω στο κέντρο.
+  example_en: I live in Athens and work in the centre.
+  grammatical_info:
+    part_of_speech: preposition
+    governs_case: accusative
+    contractions: σε + τον = στον, σε + την = στη(ν), σε + το = στο, σε + τους = στους,
+      σε + τις = στις, σε + τα = στα
+  keg_communicative_function: Expressing location and residence
+- id: A1-U02-040
+  greek: λίγο
+  phonetic_hint: ''
+  english: a little / slightly
+  notes: Adverbial modifier. Often contrasted with 'πολύ' (very / a lot).
+  gender_or_pos: adverb
+  audio: ligo-c1ff26.mp3
+  status: verified
+  example_el: Μιλάω μόνο λίγο ελληνικά.
+  example_en: I speak only a little Greek.
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Expressing basic or emerging language competency

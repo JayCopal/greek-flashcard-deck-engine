@@ -1,0 +1,648 @@
+unit_id: unit-04
+lesson_id: lesson-01
+title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
+description: 'CEFR A1: Family relations, marital status, physical descriptions, the
+  verb ''έχω'', and possessive enclitics (μου, σου, του, της).'
+lesson_status: not_started
+lesson_notes: 'Unit 4 Core Grammar Notes:
+
+  • Verb ''έχω'' (Present Active): εγώ έχω, εσύ έχεις, αυτός/αυτή/αυτό έχει, εμείς
+  έχουμε, εσείς έχετε, αυτοί/αυτές/αυτά έχουν.
+
+  • Weak Possessive Clitics: Placed directly after the noun (ο πατέρας μου, η μητέρα
+  σου, το παιδί μας).
+
+  • Definite Article Rule: Possessive clitics always require the definite article
+  before the noun: ''το μωρό μου'' (NOT ''μωρό μου'' in declarative statements).
+
+  • Adjective Agreement: Masculine in -ος, Feminine in -η/-α, Neuter in -ο (ψηλός,
+  ψηλή, ψηλό; νέος, νέα, νέο).'
+entries:
+- id: A1-U04-001
+  greek: η οικογένεια
+  phonetic_hint: ''
+  english: family
+  notes: 'Feminine in -εια (plural: οι οικογένειες). Theme word for KEG personal description
+    emails.'
+  gender_or_pos: noun (feminine)
+  audio: i-oikogeneia-8c28be.mp3
+  status: verified
+  example_el: Έχω μία μεγάλη οικογένεια.
+  example_en: I have a big family.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι οικογένειες
+    accusative_singular: την οικογένεια
+  keg_communicative_function: Introducing and discussing family composition
+- id: A1-U04-002
+  greek: οι γονείς
+  phonetic_hint: ''
+  english: parents
+  notes: Plural noun in -είς. Accusative plural is 'τους γονείς'.
+  gender_or_pos: noun (masculine plural)
+  audio: oi-goneis-d1c011.mp3
+  status: verified
+  example_el: Οι γονείς μου μένουν στη Θεσσαλονίκη.
+  example_en: My parents live in Thessaloniki.
+  grammatical_info:
+    part_of_speech: noun (masculine plural)
+    plural: οι γονείς
+    accusative_plural: τους γονείς
+  keg_communicative_function: Talking about father and mother collectively
+- id: A1-U04-003
+  greek: ο πατέρας
+  phonetic_hint: ''
+  english: father
+  notes: 'Paroxytone masculine in -ας (plural: οι πατέρες). Accusative drops final
+    -ς: τον πατέρα.'
+  gender_or_pos: noun (masculine)
+  audio: o-pateras-2e2a45.mp3
+  status: verified
+  example_el: Ο πατέρας μου είναι γιατρός.
+  example_en: My father is a doctor.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πατέρες
+    accusative_singular: τον πατέρα
+  keg_communicative_function: Identifying one's father in family descriptions
+- id: A1-U04-004
+  greek: η μητέρα
+  phonetic_hint: ''
+  english: mother
+  notes: 'Paroxytone feminine in -α (plural: οι μητέρες).'
+  gender_or_pos: noun (feminine)
+  audio: i-mitera-0ded42.mp3
+  status: verified
+  example_el: Η μητέρα μου είναι δασκάλα.
+  example_en: My mother is a teacher.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μητέρες
+    accusative_singular: τη μητέρα
+  keg_communicative_function: Identifying one's mother in family descriptions
+- id: A1-U04-005
+  greek: ο μπαμπάς
+  phonetic_hint: ''
+  english: dad / papa
+  notes: Oxytone masculine in -άς; forms plural with suffix -άδες (οι μπαμπάδες).
+  gender_or_pos: noun (masculine)
+  audio: o-mpampas-67d8ba.mp3
+  status: verified
+  example_el: Ο μπαμπάς μου μαγειρεύει πολύ καλά.
+  example_en: My dad cooks very well.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μπαμπάδες
+    accusative_singular: τον μπαμπά
+  keg_communicative_function: Informal and affectionate reference to father
+- id: A1-U04-006
+  greek: η μαμά
+  phonetic_hint: ''
+  english: mom / mama
+  notes: Oxytone feminine in -ά; plural takes suffix -άδες (οι μαμάδες).
+  gender_or_pos: noun (feminine)
+  audio: i-mama-dd09d8.mp3
+  status: verified
+  example_el: Η μαμά μου είναι πολύ γλυκιά.
+  example_en: My mom is very sweet.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μαμάδες
+    accusative_singular: τη μαμά
+  keg_communicative_function: Informal and affectionate reference to mother
+- id: A1-U04-007
+  greek: ο γιος
+  phonetic_hint: ''
+  english: son
+  notes: Monosyllabic masculine with diphthong (ο γιος, οι γιοι, τους γιους).
+  gender_or_pos: noun (masculine)
+  audio: o-gios-74bed4.mp3
+  status: verified
+  example_el: Έχουν έναν γιο και μία κόρη.
+  example_en: They have a son and a daughter.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι γιοι
+    accusative_singular: τον γιο
+  keg_communicative_function: Describing offspring (male child)
+- id: A1-U04-008
+  greek: η κόρη
+  phonetic_hint: ''
+  english: daughter
+  notes: Paroxytone feminine in -η with plural in -ες (οι κόρες).
+  gender_or_pos: noun (feminine)
+  audio: i-kori-2d826e.mp3
+  status: verified
+  example_el: Η κόρη τους σπουδάζει στην Αγγλία.
+  example_en: Their daughter is studying in England.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κόρες
+    accusative_singular: την κόρη
+  keg_communicative_function: Describing offspring (female child)
+- id: A1-U04-009
+  greek: ο αδελφός / ο αδερφός
+  phonetic_hint: ''
+  english: brother
+  notes: Both forms 'αδελφός' (formal/written) and 'αδερφός' (spoken/demotic) are
+    standard in Greece.
+  gender_or_pos: noun (masculine)
+  audio: o-adelfos-o-aderfos-cf8fe6.mp3
+  status: verified
+  example_el: Ο αδελφός μου είναι είκοσι πέντε χρονών.
+  example_en: My brother is twenty-five years old.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι αδελφοί / οι αδερφοί
+    accusative_singular: τον αδελφό / τον αδερφό
+  keg_communicative_function: Identifying male siblings
+- id: A1-U04-010
+  greek: η αδελφή / η αδερφή
+  phonetic_hint: ''
+  english: sister
+  notes: Oxytone feminine in -ή (plural in -ές).
+  gender_or_pos: noun (feminine)
+  audio: i-adelfi-i-aderfi-cb6dea.mp3
+  status: verified
+  example_el: Η αδελφή μου δουλεύει σε τράπεζα.
+  example_en: My sister works at a bank.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αδελφές / οι αδερφές
+    accusative_singular: την αδελφή / την αδερφή
+  keg_communicative_function: Identifying female siblings
+- id: A1-U04-011
+  greek: ο παππούς
+  phonetic_hint: ''
+  english: grandfather
+  notes: 'Spelled with double π (ππ). Plural forms in -ούδες: οι παππούδες.'
+  gender_or_pos: noun (masculine)
+  audio: o-pappoys-d7d09a.mp3
+  status: verified
+  example_el: Ο παππούς μου είναι εβδομήντα χρονών.
+  example_en: My grandfather is seventy years old.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι παππούδες
+    accusative_singular: τον παππού
+  keg_communicative_function: Talking about grandparents and elderly family members
+- id: A1-U04-012
+  greek: η γιαγιά
+  phonetic_hint: ''
+  english: grandmother
+  notes: Oxytone feminine with plural in -άδες (οι γιαγιάδες).
+  gender_or_pos: noun (feminine)
+  audio: i-giagia-f35cea.mp3
+  status: verified
+  example_el: Η γιαγιά μου φτιάχνει τέλεια πίτα.
+  example_en: My grandmother makes perfect pie.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γιαγιάδες
+    accusative_singular: τη γιαγιά
+  keg_communicative_function: Talking about grandmother
+- id: A1-U04-013
+  greek: το παιδί
+  phonetic_hint: ''
+  english: child / kid
+  notes: 'Oxytone neuter in -ί (plural: τα παιδιά). Colloquially used among young
+    adults: ''Γεια σας, παιδιά!'' (Hi guys!).'
+  gender_or_pos: noun (neuter)
+  audio: to-paidi-4ddee0.mp3
+  status: verified
+  example_el: Έχουν δύο παιδιά.
+  example_en: They have two children.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παιδιά
+    accusative_singular: το παιδί
+  keg_communicative_function: Referring to children or family dependents
+- id: A1-U04-014
+  greek: το μωρό
+  phonetic_hint: ''
+  english: baby / infant
+  notes: Oxytone neuter in -ό with plural in -ά (τα μωρά).
+  gender_or_pos: noun (neuter)
+  audio: to-moro-440620.mp3
+  status: verified
+  example_el: Το μωρό κοιμάται τώρα.
+  example_en: The baby is sleeping right now.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μωρά
+    accusative_singular: το μωρό
+  keg_communicative_function: Referring to infants and very young children
+- id: A1-U04-015
+  greek: ο άντρας
+  phonetic_hint: ''
+  english: man / husband
+  notes: Paroxytone masculine in -ας. Context determines whether it means 'man' or
+    'husband'.
+  gender_or_pos: noun (masculine)
+  audio: o-antras-3dd947.mp3
+  status: verified
+  example_el: Ο άντρας της είναι αρχιτέκτονας.
+  example_en: Her husband is an architect.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι άντρες
+    accusative_singular: τον άντρα
+  keg_communicative_function: Referring to an adult male or one's husband
+- id: A1-U04-016
+  greek: η γυναίκα
+  phonetic_hint: ''
+  english: woman / wife
+  notes: Paroxytone feminine in -α. Context determines whether it means 'woman' or
+    'wife'.
+  gender_or_pos: noun (feminine)
+  audio: i-gynaika-2420c2.mp3
+  status: verified
+  example_el: Η γυναίκα μου δουλεύει στο πανεπιστήμιο.
+  example_en: My wife works at the university.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γυναίκες
+    accusative_singular: τη γυναίκα
+  keg_communicative_function: Referring to an adult female or one's wife
+- id: A1-U04-017
+  greek: ο θείος
+  phonetic_hint: ''
+  english: uncle
+  notes: 'Regular masculine in -ος (plural: οι θείοι).'
+  gender_or_pos: noun (masculine)
+  audio: o-theios-4698b6.mp3
+  status: verified
+  example_el: Ο θείος μου μένει στην Κρήτη.
+  example_en: My uncle lives in Crete.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι θείοι
+    accusative_singular: τον θείο
+  keg_communicative_function: Describing extended family relations
+- id: A1-U04-018
+  greek: η θεία
+  phonetic_hint: ''
+  english: aunt
+  notes: Feminine counterpart of ο θείος.
+  gender_or_pos: noun (feminine)
+  audio: i-theia-5013de.mp3
+  status: verified
+  example_el: Η θεία Ελένη έχει τρία παιδιά.
+  example_en: Aunt Eleni has three children.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θείες
+    accusative_singular: τη θεία
+  keg_communicative_function: Describing extended family relations
+- id: A1-U04-019
+  greek: ο ξάδελφος / ο ξάδερφος
+  phonetic_hint: ''
+  english: cousin (male)
+  notes: 'Both forms ''ξάδελφος'' and ''ξάδερφος'' are standard. Takes second accent
+    with clitic: ο ξάδελφός μου.'
+  gender_or_pos: noun (masculine)
+  audio: o-xadelfos-o-xaderfo-6251ac.mp3
+  status: verified
+  example_el: Ο ξάδελφός μου σπουδάζει πληροφορική.
+  example_en: My cousin is studying computer science.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι ξάδελφοι / οι ξάδερφοι
+    accusative_singular: τον ξάδελφο / τον ξάδερφο
+  keg_communicative_function: Describing extended family members
+- id: A1-U04-020
+  greek: η ξαδέλφη / η ξαδέρφη
+  phonetic_hint: ''
+  english: cousin (female)
+  notes: 'Feminine form in -η (plural: οι ξαδέλφες).'
+  gender_or_pos: noun (feminine)
+  audio: i-xadelfi-i-xaderfi-4c772d.mp3
+  status: verified
+  example_el: Η ξαδέλφη μου μένει δίπλα στο σπίτι μας.
+  example_en: My cousin lives next to our house.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ξαδέλφες / οι ξαδέρφες
+    accusative_singular: την ξαδέλφη / την ξαδέρφη
+  keg_communicative_function: Describing female cousins
+- id: A1-U04-021
+  greek: ο άνθρωπος
+  phonetic_hint: ''
+  english: human being / person / man
+  notes: Proparoxytone masculine in -ος (root of English 'anthropology').
+  gender_or_pos: noun (masculine)
+  audio: o-anthropos-802f81.mp3
+  status: verified
+  example_el: Είναι πολύ καλός άνθρωπος.
+  example_en: He is a very good person.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι άνθρωποι
+    accusative_singular: τον άνθρωπο
+  keg_communicative_function: Referring to persons in general
+- id: A1-U04-022
+  greek: παντρεμένος, -η, -ο
+  phonetic_hint: ''
+  english: married
+  notes: Participle used as descriptive adjective of marital status (οικογενειακή
+    κατάσταση).
+  gender_or_pos: adjective
+  audio: pantremenos-i-o-368b00.mp3
+  status: verified
+  example_el: Είστε παντρεμένος ή ελεύθερος;
+  example_en: Are you married or single?
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: παντρεμένη
+    neuter: παντρεμένο
+    plural: παντρεμένοι, παντρεμένες, παντρεμένα
+  keg_communicative_function: Stating marital status on questionnaires and forms
+- id: A1-U04-023
+  greek: ελεύθερος, -η, -ο
+  phonetic_hint: ''
+  english: single (unmarried) / free
+  notes: Standard demographic term for 'single / unmarried' on Greek registration
+    forms.
+  gender_or_pos: adjective
+  audio: eleytheros-i-o-c03fcc.mp3
+  status: verified
+  example_el: Ο αδελφός μου είναι ακόμη ελεύθερος.
+  example_en: My brother is still single.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ελεύθερη
+    neuter: ελεύθερο
+    plural: ελεύθεροι, ελεύθερες, ελεύθερα
+  keg_communicative_function: Indicating single marital status
+- id: A1-U04-024
+  greek: το πρόσωπο
+  phonetic_hint: ''
+  english: face / person
+  notes: 'Proparoxytone neuter in -ο. Takes second accent with possessive: το πρόσωπό
+    του.'
+  gender_or_pos: noun (neuter)
+  audio: to-prosopo-e7a7ef.mp3
+  status: verified
+  example_el: Έχει πολύ γλυκό πρόσωπο.
+  example_en: He/she has a very sweet face.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πρόσωπα
+    accusative_singular: το πρόσωπο
+  keg_communicative_function: Describing facial features and physical appearance
+- id: A1-U04-025
+  greek: τα μαλλιά
+  phonetic_hint: ''
+  english: hair (on head)
+  notes: Modern Greek expresses head hair in the plural neuter (τα μαλλιά).
+  gender_or_pos: noun (neuter plural)
+  audio: ta-mallia-e9d540.mp3
+  status: verified
+  example_el: Η Ελένη έχει μακριά καστανά μαλλιά.
+  example_en: Eleni has long brown hair.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα μαλλιά
+    accusative_plural: τα μαλλιά
+  keg_communicative_function: Describing hair color and style in physical descriptions
+- id: A1-U04-026
+  greek: τα μάτια
+  phonetic_hint: ''
+  english: eyes
+  notes: 'Neuter plural of ''το μάτι''. Common colors: μπλε (blue), πράσινα (green),
+    καστανά (brown).'
+  gender_or_pos: noun (neuter plural)
+  audio: ta-matia-10a797.mp3
+  status: verified
+  example_el: Ο γιος μου έχει μπλε μάτια.
+  example_en: My son has blue eyes.
+  grammatical_info:
+    part_of_speech: noun (neuter plural)
+    plural: τα μάτια
+    accusative_plural: τα μάτια
+  keg_communicative_function: Describing eye color in person descriptions
+- id: A1-U04-027
+  greek: ψηλός, -ή, -ό
+  phonetic_hint: ''
+  english: tall / high
+  notes: Oxytone adjective. Spelled with ψι (ψ) + ήτα (η).
+  gender_or_pos: adjective
+  audio: psilos-i-o-554735.mp3
+  status: verified
+  example_el: Ο πατέρας μου είναι ψηλός άντρας.
+  example_en: My father is a tall man.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ψηλή
+    neuter: ψηλό
+    plural: ψηλοί, ψηλές, ψηλά
+  keg_communicative_function: Describing height and stature
+- id: A1-U04-028
+  greek: κοντός, -ή, -ό
+  phonetic_hint: ''
+  english: short (stature / length)
+  notes: Direct antonym of ψηλός.
+  gender_or_pos: adjective
+  audio: kontos-i-o-9e4944.mp3
+  status: verified
+  example_el: Η αδελφή μου είναι λίγο κοντή.
+  example_en: My sister is a little short.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: κοντή
+    neuter: κοντό
+    plural: κοντοί, κοντές, κοντά
+  keg_communicative_function: Describing physical height
+- id: A1-U04-029
+  greek: αδύνατος, -η, -ο
+  phonetic_hint: ''
+  english: thin / slim / weak
+  notes: 'Proparoxytone adjective in -ος, -η, -ο. Alpha-privative: α- + δυνατός (not
+    strong / thin).'
+  gender_or_pos: adjective
+  audio: adynatos-i-o-fe36fe.mp3
+  status: verified
+  example_el: Ο Νίκος είναι ψηλός και αδύνατος.
+  example_en: Nikos is tall and slim.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: αδύνατη
+    neuter: αδύνατο
+    plural: αδύνατοι, αδύνατες, αδύνατα
+  keg_communicative_function: Describing slender build or body type
+- id: A1-U04-030
+  greek: χοντρός, -ή, -ό
+  phonetic_hint: ''
+  english: stout / heavy-set / thick
+  notes: Oxytone regular adjective.
+  gender_or_pos: adjective
+  audio: chontros-i-o-808b37.mp3
+  status: verified
+  example_el: Φοράει ένα χοντρό παλτό.
+  example_en: He/she is wearing a thick coat.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: χοντρή
+    neuter: χοντρό
+    plural: χοντροί, χοντρές, χοντρά
+  keg_communicative_function: Describing body build or thick objects
+- id: A1-U04-031
+  greek: όμορφος, -η, -ο
+  phonetic_hint: ''
+  english: beautiful / handsome / pretty
+  notes: Proparoxytone adjective (accent on first syllable ό-).
+  gender_or_pos: adjective
+  audio: omorfos-i-o-61f5c4.mp3
+  status: verified
+  example_el: Η μητέρα της είναι πολύ όμορφη γυναίκα.
+  example_en: Her mother is a very beautiful woman.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: όμορφη
+    neuter: όμορφο
+    plural: όμορφοι, όμορφες, όμορφα
+  keg_communicative_function: Describing attractive appearance of persons or places
+- id: A1-U04-032
+  greek: νέος, -α, -ο
+  phonetic_hint: ''
+  english: young / new
+  notes: Feminine ends in -α (νέα) because a vowel precedes the ending.
+  gender_or_pos: adjective
+  audio: neos-a-o-f7963c.mp3
+  status: verified
+  example_el: Ο καθηγητής μας είναι αρκετά νέος.
+  example_en: Our professor is quite young.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: νέα
+    neuter: νέο
+    plural: νέοι, νέες, νέα
+  keg_communicative_function: Talking about age and novelty
+- id: A1-U04-033
+  greek: μεγάλος, -η, -ο
+  phonetic_hint: ''
+  english: elderly / old (in age) / big
+  notes: When referring to people, 'μεγάλος' is the polite way to say older/elderly
+    (rather than γέρος).
+  gender_or_pos: adjective
+  audio: megalos-i-o-d2a1a2.mp3
+  status: verified
+  example_el: Ο παππούς μου είναι μεγάλος άνθρωπος.
+  example_en: My grandfather is an elderly person.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: μεγάλη
+    neuter: μεγάλο
+    plural: μεγάλοι, μεγάλες, μεγάλα
+  keg_communicative_function: Describing older age or large size
+- id: A1-U04-034
+  greek: καλός, -ή, -ό
+  phonetic_hint: ''
+  english: good / kind-hearted
+  notes: Base oxytone adjective used in numerous daily formulas (καλημέρα, καλό ταξίδι).
+  gender_or_pos: adjective
+  audio: kalos-i-o-09e75d.mp3
+  status: verified
+  example_el: Είναι πολύ καλοί φίλοι.
+  example_en: They are very good friends.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: καλή
+    neuter: καλό
+    plural: καλοί, καλές, καλά
+  keg_communicative_function: Expressing positive character and quality evaluation
+- id: A1-U04-035
+  greek: συμπαθητικός, -ή, -ό
+  phonetic_hint: ''
+  english: pleasant / likeable / friendly
+  notes: 'False friend: means ''likeable/pleasant'', not ''feeling pity/sympathy''.'
+  gender_or_pos: adjective
+  audio: sympathitikos-i-o-be1b5f.mp3
+  status: verified
+  example_el: Η νέα γειτόνισσα είναι πολύ συμπαθητική.
+  example_en: The new neighbor is very likeable.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: συμπαθητική
+    neuter: συμπαθητικό
+    plural: συμπαθητικοί, συμπαθητικές, συμπαθητικά
+  keg_communicative_function: Describing agreeable personality traits
+- id: A1-U04-036
+  greek: έχω
+  phonetic_hint: ''
+  english: to have / I have
+  notes: 'Crucial verb for A1 personal descriptions. Present: έχω, έχεις, έχει, έχουμε,
+    έχετε, έχουν.'
+  gender_or_pos: verb
+  audio: echo-d3b08f.mp3
+  status: verified
+  example_el: Έχω δύο αδέλφια και έναν σκύλο.
+  example_en: I have two siblings and a dog.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό έχει
+    first_person_plural: εμείς έχουμε
+  keg_communicative_function: Expressing family relations, age, and possession
+- id: A1-U04-037
+  greek: μου
+  phonetic_hint: ''
+  english: my / of mine (possessive enclitic)
+  notes: 'Enclitic follows the noun. Causes a second accent if noun is proparoxytone:
+    το αυτοκίνητό μου.'
+  gender_or_pos: possessive clitic pronoun
+  audio: moy-7195c6.mp3
+  status: verified
+  example_el: Αυτή είναι η μητέρα μου.
+  example_en: This is my mother.
+  grammatical_info:
+    part_of_speech: possessive clitic pronoun
+    person_number: 1st person singular
+    position: post-nominal enclitic
+  keg_communicative_function: Indicating family relations and personal ownership
+- id: A1-U04-038
+  greek: σου
+  phonetic_hint: ''
+  english: your / of yours (informal singular)
+  notes: Informal singular possessive clitic.
+  gender_or_pos: possessive clitic pronoun
+  audio: soy-74ea3f.mp3
+  status: verified
+  example_el: Πώς λένε τον αδελφό σου;
+  example_en: What is your brother's name?
+  grammatical_info:
+    part_of_speech: possessive clitic pronoun
+    person_number: 2nd person singular
+    position: post-nominal enclitic
+  keg_communicative_function: Inquiring about someone's family or possessions
+- id: A1-U04-039
+  greek: του / της / του
+  phonetic_hint: ''
+  english: his / her / its (possessive enclitic)
+  notes: 'Agrees with the possessor, not the possessed object: το σπίτι της (her house),
+    το σπίτι του (his house).'
+  gender_or_pos: possessive clitic pronoun
+  audio: toy-tis-toy-eab2c8.mp3
+  status: verified
+  example_el: Ο άντρας της είναι καθηγητής.
+  example_en: Her husband is a professor.
+  grammatical_info:
+    part_of_speech: possessive clitic pronoun
+    person_number: 3rd person singular
+    forms: του (masculine / neuter), της (feminine)
+  keg_communicative_function: Expressing possession relating to a third person
+- id: A1-U04-040
+  greek: μας / σας / τους
+  phonetic_hint: ''
+  english: our / your (polite/pl.) / their
+  notes: '''σας'' is used politely to a single person: ''Ποιο είναι το τηλέφωνό σας;''.'
+  gender_or_pos: possessive clitic pronoun
+  audio: mas-sas-toys-6b2bc5.mp3
+  status: verified
+  example_el: Αυτός είναι ο καθηγητής μας.
+  example_en: This is our professor.
+  grammatical_info:
+    part_of_speech: possessive clitic pronoun
+    person_number: plural possessives
+    forms: μας (1st pl), σας (2nd pl/polite), τους (3rd pl)
+  keg_communicative_function: Expressing group possession and polite address

@@ -9,6 +9,10 @@ export interface CardEntry {
   gender_or_pos?: string;
   audio: string | null;
   status: EntryStatus;
+  example_el?: string;
+  example_en?: string;
+  grammatical_info?: Record<string, any>;
+  keg_communicative_function?: string;
 }
 
 export type LessonStatus = 'not_started' | 'in_progress' | 'learned';

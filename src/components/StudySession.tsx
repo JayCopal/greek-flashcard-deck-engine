@@ -209,7 +209,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
     );
   }
 
-  const audioSrc = currentCard.audio ? `/audio/${currentCard.audio}` : null;
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+  const audioSrc = currentCard.audio ? `${baseUrl}audio/${currentCard.audio}` : null;
 
   return (
     <div className="max-w-3xl mx-auto space-y-6 pb-20">
@@ -475,6 +478,12 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       /{currentCard.phonetic_hint}/
                     </div>
                   )}
+                  {currentCard.example_el && (
+                    <div className="text-left bg-slate-800/60 p-3 rounded-xl border border-slate-700/60 max-w-md mx-auto">
+                      <div className="font-serif text-teal-300 text-sm font-medium">{currentCard.example_el}</div>
+                      <div className="text-slate-400 text-xs mt-0.5">{currentCard.example_en}</div>
+                    </div>
+                  )}
                   {currentCard.notes && (
                     <p className="text-sm text-slate-300 max-w-md mx-auto italic mt-1 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
                       {currentCard.notes}
@@ -499,6 +508,12 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       mini
                     />
                   </div>
+                  {currentCard.example_el && (
+                    <div className="text-left bg-slate-800/60 p-3 rounded-xl border border-slate-700/60 max-w-md mx-auto">
+                      <div className="font-serif text-teal-300 text-sm font-medium">{currentCard.example_el}</div>
+                      <div className="text-slate-400 text-xs mt-0.5">{currentCard.example_en}</div>
+                    </div>
+                  )}
                   {currentCard.notes && (
                     <p className="text-sm text-slate-300 max-w-md mx-auto italic mt-1 bg-slate-800/40 p-3 rounded-xl border border-slate-700/50">
                       {currentCard.notes}

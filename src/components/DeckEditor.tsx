@@ -801,6 +801,18 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       </p>
                     )}
 
+                    {entry.example_el && (
+                      <div className="text-xs text-sky-300 font-serif pt-0.5">
+                        <span className="text-slate-400 font-sans text-[11px] mr-1">Ex:</span>
+                        {entry.example_el}
+                        {entry.example_en && (
+                          <span className="text-slate-400 font-sans text-[11px] ml-1.5 italic">
+                            ({entry.example_en})
+                          </span>
+                        )}
+                      </div>
+                    )}
+
                     {entry.audio && (
                       <div className="text-[10px] text-slate-500 font-mono flex items-center gap-1 pt-1">
                         <span>Audio: {entry.audio}</span>
@@ -812,7 +824,11 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                   <div className="flex flex-wrap items-center gap-2.5 sm:self-center">
                     {/* Permanent audio player if verified */}
                     {entry.audio && !isPreviewing && (
-                      <AudioPlayer src={`/audio/${entry.audio}`} mini label="Verified" />
+                      <AudioPlayer
+                        src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`}audio/${entry.audio}`}
+                        mini
+                        label="Verified"
+                      />
                     )}
 
                     {/* TTS Generation Button */}

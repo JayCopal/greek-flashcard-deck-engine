@@ -1,0 +1,633 @@
+unit_id: unit-03
+lesson_id: lesson-01
+title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
+description: 'CEFR A1: Occupations, workplaces, phone numbers, addresses, digits 0-10,
+  and verbs (δουλεύω, σπουδάζω, διδάσκω).'
+lesson_status: not_started
+lesson_notes: 'Unit 3 Core Grammar Notes:
+
+  • Professions & Gender Suffixes: Masculine in -ος, Feminine in -α/-ος (ο δάσκαλος
+  / η δασκάλα, ο/η γιατρός, ο/η δικηγόρος). Masculine in -ης, Feminine in -τρια (ο
+  καθηγητής / η καθηγήτρια, ο φοιτητής / η φοιτήτρια).
+
+  • Asking about Profession: ''Τι δουλειά κάνεις;'' or ''Με τι ασχολείσαι;''
+
+  • Cardinal Numerals: μηδέν (0), ένας/μία/ένα (1), δέκα (10), είκοσι (20), εκατό
+  (100).'
+entries:
+- id: A1-U03-001
+  greek: το επάγγελμα
+  phonetic_hint: ''
+  english: profession / occupation / job
+  notes: Neuter in -μα with plural in -ματα. Core field on KEG exam personal registration
+    forms.
+  gender_or_pos: noun (neuter)
+  audio: to-epaggelma-f3017e.mp3
+  status: verified
+  example_el: Ποιο είναι το επάγγελμά σας;
+  example_en: What is your profession?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επαγγέλματα
+    accusative_singular: το επάγγελμα
+  keg_communicative_function: Inquiring about and stating occupational status
+- id: A1-U03-002
+  greek: ο δάσκαλος
+  phonetic_hint: ''
+  english: primary school teacher (male)
+  notes: Proparoxytone masculine in -ος (accent shifts in genitive, but stays stable
+    at A1 nominative/accusative).
+  gender_or_pos: noun (masculine)
+  audio: o-daskalos-218684.mp3
+  status: verified
+  example_el: Ο δάσκαλος διδάσκει τα παιδιά στην τάξη.
+  example_en: The teacher teaches the children in the classroom.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι δάσκαλοι
+    accusative_singular: τον δάσκαλο
+  keg_communicative_function: Identifying primary school teaching professionals
+- id: A1-U03-003
+  greek: η δασκάλα
+  phonetic_hint: ''
+  english: primary school teacher (female)
+  notes: Feminine equivalent of ο δάσκαλος; regular feminine in -α with plural in
+    -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-daskala-a57b1d.mp3
+  status: verified
+  example_el: Η δασκάλα είναι πολύ ευγενική.
+  example_en: The teacher is very kind.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δασκάλες
+    accusative_singular: τη δασκάλα
+  keg_communicative_function: Identifying female primary school educators
+- id: A1-U03-004
+  greek: ο καθηγητής
+  phonetic_hint: ''
+  english: professor / secondary school teacher (male)
+  notes: 'Masculine in -ης (plural: -ες). Used for both high school teachers and university
+    professors.'
+  gender_or_pos: noun (masculine)
+  audio: o-kathigitis-48ad42.mp3
+  status: verified
+  example_el: Ο καθηγητής διδάσκει στο πανεπιστήμιο.
+  example_en: The professor teaches at the university.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καθηγητές
+    accusative_singular: τον καθηγητή
+  keg_communicative_function: Identifying secondary or tertiary academic instructors
+- id: A1-U03-005
+  greek: η καθηγήτρια
+  phonetic_hint: ''
+  english: professor / secondary school teacher (female)
+  notes: Feminine suffix -τρια derived from masculine in -τής (ο καθηγητής -> η καθηγήτρια).
+  gender_or_pos: noun (feminine)
+  audio: i-kathigitria-aca0bc.mp3
+  status: verified
+  example_el: Η κυρία Ανδρέου είναι καθηγήτρια γαλλικών.
+  example_en: Mrs. Andreou is a French teacher.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καθηγήτριες
+    accusative_singular: την καθηγήτρια
+  keg_communicative_function: Identifying female academic instructors
+- id: A1-U03-006
+  greek: ο μαθητής
+  phonetic_hint: ''
+  english: school pupil / student (male)
+  notes: 'Masculine noun in -ης. Note distinction: μαθητής (school pupil) vs φοιτητής
+    (university student).'
+  gender_or_pos: noun (masculine)
+  audio: o-mathitis-fd2beb.mp3
+  status: verified
+  example_el: Ο Νίκος είναι επιμελής μαθητής.
+  example_en: Nikos is a diligent student.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μαθητές
+    accusative_singular: τον μαθητή
+  keg_communicative_function: Identifying male primary or secondary school students
+- id: A1-U03-007
+  greek: η μαθήτρια
+  phonetic_hint: ''
+  english: school pupil / student (female)
+  notes: 'Feminine in -τρια (plural: οι μαθήτριες).'
+  gender_or_pos: noun (feminine)
+  audio: i-mathitria-044f2b.mp3
+  status: verified
+  example_el: Η Μαρία είναι μαθήτρια στο γυμνάσιο.
+  example_en: Maria is a student in middle school.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μαθήτριες
+    accusative_singular: τη μαθήτρια
+  keg_communicative_function: Identifying female primary or secondary school students
+- id: A1-U03-008
+  greek: ο φοιτητής
+  phonetic_hint: ''
+  english: university student (male)
+  notes: Refers strictly to tertiary/higher education students.
+  gender_or_pos: noun (masculine)
+  audio: o-foititis-585c37.mp3
+  status: verified
+  example_el: Είμαι φοιτητής ιατρικής.
+  example_en: I am a medical student.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι φοιτητές
+    accusative_singular: τον φοιτητή
+  keg_communicative_function: Stating university student status
+- id: A1-U03-009
+  greek: η φοιτήτρια
+  phonetic_hint: ''
+  english: university student (female)
+  notes: Feminine counterpart of ο φοιτητής.
+  gender_or_pos: noun (feminine)
+  audio: i-foititria-7ade48.mp3
+  status: verified
+  example_el: Η Άννα είναι φοιτήτρια στην Αθήνα.
+  example_en: Anna is a university student in Athens.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φοιτήτριες
+    accusative_singular: τη φοιτήτρια
+  keg_communicative_function: Stating female university student status
+- id: A1-U03-010
+  greek: ο γιατρός
+  phonetic_hint: ''
+  english: doctor / physician
+  notes: 'Oxytone masculine in -ός. In modern Greek, often used with feminine article
+    for female doctors: η γιατρός.'
+  gender_or_pos: noun (masculine / common gender)
+  audio: o-giatros-c40f64.mp3
+  status: verified
+  example_el: Ο γιατρός εξετάζει τον ασθενή.
+  example_en: The doctor is examining the patient.
+  grammatical_info:
+    part_of_speech: noun (masculine / common gender)
+    plural: οι γιατροί
+    accusative_singular: τον γιατρό
+  keg_communicative_function: Talking about healthcare professions
+- id: A1-U03-011
+  greek: η νοσοκόμα
+  phonetic_hint: ''
+  english: nurse (female)
+  notes: Compound from νόσος (illness) + κομώ (care for). Male form is ο νοσοκόμος.
+  gender_or_pos: noun (feminine)
+  audio: i-nosokoma-d39d56.mp3
+  status: verified
+  example_el: Η νοσοκόμα δουλεύει στο νοσοκομείο.
+  example_en: The nurse works at the hospital.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι νοσοκόμες
+    accusative_singular: τη νοσοκόμα
+  keg_communicative_function: Describing nursing staff and hospital personnel
+- id: A1-U03-012
+  greek: ο δικηγόρος
+  phonetic_hint: ''
+  english: lawyer / attorney
+  notes: 'Compound from δίκη (trial/justice) + αγορεύω (speak publicly). Female lawyer:
+    η δικηγόρος.'
+  gender_or_pos: noun (masculine / common gender)
+  audio: o-dikigoros-7194f6.mp3
+  status: verified
+  example_el: Ο δικηγόρος έχει γραφείο στο κέντρο.
+  example_en: The lawyer has an office in the city centre.
+  grammatical_info:
+    part_of_speech: noun (masculine / common gender)
+    plural: οι δικηγόροι
+    accusative_singular: τον δικηγόρο
+  keg_communicative_function: Describing legal professions
+- id: A1-U03-013
+  greek: ο γραμματέας
+  phonetic_hint: ''
+  english: secretary / administrative assistant
+  notes: 'Common-gender noun: ο γραμματέας (male), η γραμματέας (female). Plural:
+    οι γραμματείς.'
+  gender_or_pos: noun (masculine / feminine)
+  audio: o-grammateas-4feb2a.mp3
+  status: verified
+  example_el: Η γραμματέας απαντάει στο τηλέφωνο.
+  example_en: The secretary answers the phone.
+  grammatical_info:
+    part_of_speech: noun (masculine / feminine)
+    plural: οι γραμματείς
+    accusative_singular: τον / τη γραμματέα
+  keg_communicative_function: Describing office administration roles
+- id: A1-U03-014
+  greek: ο υπάλληλος
+  phonetic_hint: ''
+  english: employee / office clerk
+  notes: Proparoxytone noun in -ος. Female equivalent is η υπάλληλος.
+  gender_or_pos: noun (masculine / common gender)
+  audio: o-ypallilos-2092ff.mp3
+  status: verified
+  example_el: Είναι υπάλληλος σε μία τράπεζα.
+  example_en: He/she is an employee in a bank.
+  grammatical_info:
+    part_of_speech: noun (masculine / common gender)
+    plural: οι υπάλληλοι
+    accusative_singular: τον υπάλληλο
+  keg_communicative_function: Describing employment in offices, stores, and banks
+- id: A1-U03-015
+  greek: ο πωλητής
+  phonetic_hint: ''
+  english: salesperson / shop assistant (male)
+  notes: Agent noun in -τής with oxytone stress.
+  gender_or_pos: noun (masculine)
+  audio: o-politis-5e3d55.mp3
+  status: verified
+  example_el: Ο πωλητής εξυπηρετεί τους πελάτες.
+  example_en: The shop assistant serves the customers.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πωλητές
+    accusative_singular: τον πωλητή
+  keg_communicative_function: Identifying retail commerce staff
+- id: A1-U03-016
+  greek: η πωλήτρια
+  phonetic_hint: ''
+  english: salesperson / shop assistant (female)
+  notes: Feminine agent suffix -τρια with paroxytone stress (η πωλήτρια).
+  gender_or_pos: noun (feminine)
+  audio: i-politria-4a7f59.mp3
+  status: verified
+  example_el: Η πωλήτρια δουλεύει σε κατάστημα ρούχων.
+  example_en: The saleswoman works in a clothing store.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πωλήτριες
+    accusative_singular: την πωλήτρια
+  keg_communicative_function: Identifying female retail personnel
+- id: A1-U03-017
+  greek: ο σερβιτόρος
+  phonetic_hint: ''
+  english: waiter
+  notes: From French 'serviteur'. Standard paroxytone masculine in -ος.
+  gender_or_pos: noun (masculine)
+  audio: o-servitoros-e2bbd1.mp3
+  status: verified
+  example_el: Ο σερβιτόρος φέρνει τον κατάλογο.
+  example_en: The waiter brings the menu.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι σερβιτόροι
+    accusative_singular: τον σερβιτόρο
+  keg_communicative_function: Addressing and describing dining staff in tavernas and
+    cafes
+- id: A1-U03-018
+  greek: η σερβιτόρα
+  phonetic_hint: ''
+  english: waitress
+  notes: Feminine form of ο σερβιτόρος.
+  gender_or_pos: noun (feminine)
+  audio: i-servitora-796a7b.mp3
+  status: verified
+  example_el: Η σερβιτόρα παίρνει την παραγγελία.
+  example_en: The waitress takes the order.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σερβιτόρες
+    accusative_singular: τη σερβιτόρα
+  keg_communicative_function: Describing dining service staff
+- id: A1-U03-019
+  greek: ο οδηγός
+  phonetic_hint: ''
+  english: driver / guide
+  notes: 'Oxytone masculine in -ός (plural: οι οδηγοί). Used for drivers (ταξί, λεωφορείου)
+    and tourist guides.'
+  gender_or_pos: noun (masculine / common gender)
+  audio: o-odigos-6157ad.mp3
+  status: verified
+  example_el: Ο οδηγός του λεωφορείου είναι πολύ προσεκτικός.
+  example_en: The bus driver is very careful.
+  grammatical_info:
+    part_of_speech: noun (masculine / common gender)
+    plural: οι οδηγοί
+    accusative_singular: τον οδηγό
+  keg_communicative_function: Describing transport and transit operators
+- id: A1-U03-020
+  greek: ο μάγειρας
+  phonetic_hint: ''
+  english: cook / chef
+  notes: Proparoxytone masculine in -ας with plural in -ες (οι μάγειρες).
+  gender_or_pos: noun (masculine)
+  audio: o-mageiras-f9881b.mp3
+  status: verified
+  example_el: Ο μάγειρας ετοιμάζει νόστιμο φαγητό.
+  example_en: The chef prepares delicious food.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μάγειρες
+    accusative_singular: τον μάγειρα
+  keg_communicative_function: Describing culinary and restaurant occupations
+- id: A1-U03-021
+  greek: το γραφείο
+  phonetic_hint: ''
+  english: office / desk
+  notes: Regular neuter in -ο. Governed by 'σε + άρθρο' (στο γραφείο).
+  gender_or_pos: noun (neuter)
+  audio: to-grafeio-323cf7.mp3
+  status: verified
+  example_el: Δουλεύω σε ένα μεγάλο γραφείο.
+  example_en: I work in a big office.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γραφεία
+    accusative_singular: το γραφείο
+  keg_communicative_function: Specifying workplace locations
+- id: A1-U03-022
+  greek: το σχολείο
+  phonetic_hint: ''
+  english: school
+  notes: 'Paroxytone neuter in -είο (plural: τα σχολεία).'
+  gender_or_pos: noun (neuter)
+  audio: to-scholeio-3043b8.mp3
+  status: verified
+  example_el: Τα παιδιά πάνε στο σχολείο κάθε πρωί.
+  example_en: The children go to school every morning.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σχολεία
+    accusative_singular: το σχολείο
+  keg_communicative_function: Referring to places of primary and secondary education
+- id: A1-U03-023
+  greek: το πανεπιστήμιο
+  phonetic_hint: ''
+  english: university
+  notes: 'Proparoxytone neuter in -ιο (plural: τα πανεπιστήμια).'
+  gender_or_pos: noun (neuter)
+  audio: to-panepistimio-7d0e6a.mp3
+  status: verified
+  example_el: Σπουδάζω νομικά στο πανεπιστήμιο.
+  example_en: I study law at the university.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πανεπιστήμια
+    accusative_singular: το πανεπιστήμιο
+  keg_communicative_function: Referring to higher education institutions
+- id: A1-U03-024
+  greek: το νοσοκομείο
+  phonetic_hint: ''
+  english: hospital
+  notes: Neuter in -είο. Frequent landmark in KEG city direction questions.
+  gender_or_pos: noun (neuter)
+  audio: to-nosokomeio-47505b.mp3
+  status: verified
+  example_el: Ο γιατρός είναι τώρα στο νοσοκομείο.
+  example_en: The doctor is at the hospital right now.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νοσοκομεία
+    accusative_singular: το νοσοκομείο
+  keg_communicative_function: Referring to healthcare workplaces and facilities
+- id: A1-U03-025
+  greek: η εταιρεία
+  phonetic_hint: ''
+  english: company / firm / business
+  notes: 'Feminine noun in -εια (plural: οι εταιρείες).'
+  gender_or_pos: noun (feminine)
+  audio: i-etaireia-755437.mp3
+  status: verified
+  example_el: Δουλεύει σε μία πολυεθνική εταιρεία.
+  example_en: He/she works at a multinational company.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εταιρείες
+    accusative_singular: την εταιρεία
+  keg_communicative_function: Describing corporate employment
+- id: A1-U03-026
+  greek: η διεύθυνση
+  phonetic_hint: ''
+  english: address / street address
+  notes: Feminine noun in -ση with plural in -σεις. Core item in KEG Writing Task
+    1 forms.
+  gender_or_pos: noun (feminine)
+  audio: i-dieythynsi-306cae.mp3
+  status: verified
+  example_el: Ποια είναι η διεύθυνσή σας;
+  example_en: What is your address?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διευθύνσεις
+    accusative_singular: τη διεύθυνση
+  keg_communicative_function: Asking for and writing postal/residential address
+- id: A1-U03-027
+  greek: η οδός
+  phonetic_hint: ''
+  english: street / road
+  notes: 'Grammatical exception: feminine gender despite ending in -ος (accusative:
+    την οδό).'
+  gender_or_pos: noun (feminine in -ος)
+  audio: i-odos-ab501d.mp3
+  status: verified
+  example_el: Μένω στην οδό Σταδίου, στον αριθμό 10.
+  example_en: I live on Stadiou Street, at number 10.
+  grammatical_info:
+    part_of_speech: noun (feminine in -ος)
+    plural: οι οδοί
+    accusative_singular: την οδό
+  keg_communicative_function: Specifying street names on contact forms
+- id: A1-U03-028
+  greek: ο αριθμός
+  phonetic_hint: ''
+  english: number / street number
+  notes: 'Oxytone masculine noun in -ός (plural: οι αριθμοί).'
+  gender_or_pos: noun (masculine)
+  audio: o-arithmos-a6ae85.mp3
+  status: verified
+  example_el: Ποιος είναι ο αριθμός του σπιτιού σου;
+  example_en: What is your house number?
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι αριθμοί
+    accusative_singular: τον αριθμό
+  keg_communicative_function: Stating house, flat, and phone numbers
+- id: A1-U03-029
+  greek: το τηλέφωνο
+  phonetic_hint: ''
+  english: telephone / landline / phone number
+  notes: 'Proparoxytone neuter. Takes enclitic accent before possessive pronoun: το
+    τηλέφωνό μου.'
+  gender_or_pos: noun (neuter)
+  audio: to-tilefono-41ccca.mp3
+  status: verified
+  example_el: Ποιο είναι το τηλέφωνό σου;
+  example_en: What is your phone number?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τηλέφωνα
+    accusative_singular: το τηλέφωνο
+  keg_communicative_function: Exchanging personal contact telephone numbers
+- id: A1-U03-030
+  greek: το κινητό
+  phonetic_hint: ''
+  english: mobile phone / cellphone
+  notes: Short for 'το κινητό τηλέφωνο'. Always neuter in -ό.
+  gender_or_pos: noun (neuter)
+  audio: to-kinito-08f2c5.mp3
+  status: verified
+  example_el: Έχεις το κινητό της Μαρίας;
+  example_en: Do you have Maria's mobile number?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κινητά
+    accusative_singular: το κινητό
+  keg_communicative_function: Giving and asking for mobile phone numbers
+- id: A1-U03-031
+  greek: το ταχυδρομείο
+  phonetic_hint: ''
+  english: post office / postal service
+  notes: Compound from ταχύς (swift) + δρόμος (run/path). Abbreviated on Greek signs
+    as ΕΛΤΑ.
+  gender_or_pos: noun (neuter)
+  audio: to-tachydromeio-4f5b5b.mp3
+  status: verified
+  example_el: Το ταχυδρομείο είναι ανοιχτό μέχρι τις δύο.
+  example_en: The post office is open until two o'clock.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταχυδρομεία
+    accusative_singular: το ταχυδρομείο
+  keg_communicative_function: Referring to postal services and public buildings
+- id: A1-U03-032
+  greek: ο ταχυδρομικός κώδικας
+  phonetic_hint: ''
+  english: postal code / ZIP code
+  notes: Often abbreviated as Τ.Κ. in Greek forms and exam papers.
+  gender_or_pos: noun phrase (masculine)
+  audio: o-tachydromikos-kodi-3d3996.mp3
+  status: verified
+  example_el: Ο ταχυδρομικός κώδικας της περιοχής είναι 10679.
+  example_en: The postal code of the area is 10679.
+  grammatical_info:
+    part_of_speech: noun phrase (masculine)
+    plural: οι ταχυδρομικοί κώδικες
+    accusative_singular: τον ταχυδρομικό κώδικα
+  keg_communicative_function: Completing postal code entries on registration forms
+- id: A1-U03-033
+  greek: δουλεύω
+  phonetic_hint: ''
+  english: to work / to have a job
+  notes: Standard Type A active verb (-ω, -εις, -ει, -ουμε, -ετε, -ουν). Synonym of
+    εργάζομαι.
+  gender_or_pos: verb
+  audio: doyleyo-2bcff8.mp3
+  status: verified
+  example_el: Δουλεύω ως προγραμματιστής στην Αθήνα.
+  example_en: I work as a developer in Athens.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό δουλεύει
+    first_person_plural: εμείς δουλεύουμε
+  keg_communicative_function: Talking about current work, employment, and workplace
+- id: A1-U03-034
+  greek: σπουδάζω
+  phonetic_hint: ''
+  english: to study (academic field)
+  notes: 'Distinct from ''διαβάζω'' (to read / do homework): ''σπουδάζω'' means enrolled
+    in higher education studies.'
+  gender_or_pos: verb
+  audio: spoydazo-55e049.mp3
+  status: verified
+  example_el: Σπουδάζω αρχιτεκτονική στο πολυτεχνείο.
+  example_en: I am studying architecture at the polytechnic.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό σπουδάζει
+    first_person_plural: εμείς σπουδάζουμε
+  keg_communicative_function: Talking about university majors and fields of study
+- id: A1-U03-035
+  greek: μηδέν
+  phonetic_hint: ''
+  english: zero (0)
+  notes: Oxytone indeclinable numeral.
+  gender_or_pos: cardinal numeral (indeclinable)
+  audio: miden-d2b310.mp3
+  status: verified
+  example_el: Το τηλέφωνό μου αρχίζει από μηδέν.
+  example_en: My phone number starts with zero.
+  grammatical_info:
+    part_of_speech: cardinal numeral (indeclinable)
+    value: 0
+  keg_communicative_function: Dictating and reading phone numbers and postal codes
+- id: A1-U03-036
+  greek: ένας, μία / μια, ένα
+  phonetic_hint: ''
+  english: one (1) / a / an
+  notes: The numbers 1, 3, 4 inflect for gender in Modern Greek. Masculine accusative
+    is 'έναν' before vowels/plosives.
+  gender_or_pos: cardinal numeral / indefinite article
+  audio: enas-mia-mia-ena-e2eda5.mp3
+  status: verified
+  example_el: Έχω έναν αδελφό και μία αδελφή.
+  example_en: I have one brother and one sister.
+  grammatical_info:
+    part_of_speech: cardinal numeral / indefinite article
+    forms: ένας (masculine), μία/μια (feminine), ένα (neuter)
+    accusative: έναν / ένα (m), μία/μια (f), ένα (n)
+  keg_communicative_function: Counting units and serving as the indefinite article
+- id: A1-U03-037
+  greek: δέκα
+  phonetic_hint: ''
+  english: ten (10)
+  notes: Indeclinable cardinal numeral.
+  gender_or_pos: cardinal numeral (indeclinable)
+  audio: deka-f12a18.mp3
+  status: verified
+  example_el: Μένω στον αριθμό δέκα.
+  example_en: I live at number ten.
+  grammatical_info:
+    part_of_speech: cardinal numeral (indeclinable)
+    value: 10
+  keg_communicative_function: Stating quantities, street numbers, and dates
+- id: A1-U03-038
+  greek: είκοσι
+  phonetic_hint: ''
+  english: twenty (20)
+  notes: Indeclinable cardinal base for numbers 21-29 (είκοσι ένα, είκοσι δύο...).
+  gender_or_pos: cardinal numeral (indeclinable)
+  audio: eikosi-1f90c9.mp3
+  status: verified
+  example_el: Είμαι είκοσι χρονών.
+  example_en: I am twenty years old.
+  grammatical_info:
+    part_of_speech: cardinal numeral (indeclinable)
+    value: 20
+  keg_communicative_function: Telling age, prices, and contact details
+- id: A1-U03-039
+  greek: εκατό
+  phonetic_hint: ''
+  english: one hundred (100)
+  notes: 'Takes final -ν in compound numerals starting with a vowel: εκατόν ένα (101),
+    εκατόν οκτώ (108).'
+  gender_or_pos: cardinal numeral (indeclinable)
+  audio: ekato-22f5ee.mp3
+  status: verified
+  example_el: Το εισιτήριο κάνει εκατό ευρώ.
+  example_en: The ticket costs one hundred euros.
+  grammatical_info:
+    part_of_speech: cardinal numeral (indeclinable)
+    value: 100
+    euphonic_variant: εκατόν (before vowels in compounds, e.g. εκατόν ένα)
+  keg_communicative_function: Reading three-digit numbers, prices, and street addresses
+- id: A1-U03-040
+  greek: πού
+  phonetic_hint: ''
+  english: where
+  notes: Must always be written with a written accent (τόνος) in questions to distinguish
+    from the relative pronoun 'που'.
+  gender_or_pos: interrogative adverb
+  audio: poy-2c0982.mp3
+  status: verified
+  example_el: Πού δουλεύετε;
+  example_en: Where do you work?
+  grammatical_info:
+    part_of_speech: interrogative adverb
+  keg_communicative_function: Asking for workplace, residence, and geographical location

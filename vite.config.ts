@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/greek-flashcard-deck-engine/' : '/',
   plugins: [
     react(),
     VitePWA({
@@ -32,7 +33,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,mp3}'],
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => url.pathname.startsWith('/audio/') || url.pathname.endsWith('.mp3'),
+            urlPattern: ({ url }) => url.pathname.includes('/audio/') || url.pathname.endsWith('.mp3'),
             handler: 'CacheFirst',
             options: {
               cacheName: 'greek-audio-cache',

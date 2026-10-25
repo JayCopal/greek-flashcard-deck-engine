@@ -1,9 +1,21 @@
 # Credentials and secrets
 gcp_credentials.json
+*credentials*.json
+*service_account*.json
+client_secret*.json
+*.pem
+*.key
+.env
+.env.*
+.env.local
+
+# JSON files (keep config and content)
 *.json
 !package.json
+!package-lock.json
 !tsconfig*.json
-.env
+!content/*.json
+!public/data/*.json
 
 # Python
 __pycache__/
@@ -18,3 +30,4 @@ dist/
 dist-pwa/
 .DS_Store
 Thumbs.db
+
