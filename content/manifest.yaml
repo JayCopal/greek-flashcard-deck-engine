@@ -31,3 +31,10 @@ units:
   - id: lesson-01
     file: unit-04/lesson-01.yaml
     title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
+- id: unit-05
+  title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
+  order: 5
+  lessons:
+  - id: lesson-01
+    file: unit-05/lesson-01.yaml
+    title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)

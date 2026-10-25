@@ -8,6 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "server": "uvicorn server.main:app --reload --port 8000",
+    "sync:curriculum": "python scripts/sync_curriculum.py",
+    "audio:generate": "python scripts/generate_audio_assets.py",
     "export:pwa": "python scripts/export_pwa.py"
   },
   "dependencies": {

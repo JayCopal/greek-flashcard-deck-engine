@@ -39,6 +39,19 @@ npm run dev
 ```
 Open **http://localhost:5173** in your browser.
 
+### 3. Curriculum & Audio Commands
+
+- **Sync Curriculum Batches to YAML (SSOT):**
+  ```powershell
+  npm run sync:curriculum
+  ```
+- **Batch Generate Chirp-3 HD Audio for Pending Cards:**
+  ```powershell
+  npm run audio:generate
+  ```
+- **Authoring Guide:**
+  See [docs/LESSON_CREATION_GUIDE.md](file:///c:/jay-programs/greek-flashcard-deck-engine/docs/LESSON_CREATION_GUIDE.md) for full YAML schema definitions and authoring workflows.
+
 ---
 
 ## Project Structure

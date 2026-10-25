@@ -71,7 +71,7 @@ class UpdateLessonPayload(BaseModel):
 class TTSPreviewRequest(BaseModel):
     text: str
     voice: Optional[str] = None
-    speaking_rate: Optional[float] = 0.95
+    speaking_rate: Optional[float] = 0.9
 
 
 class TTSAcceptRequest(BaseModel):
@@ -325,7 +325,7 @@ def tts_preview(payload: TTSPreviewRequest):
         session = create_preview_session(
             text=payload.text,
             voice_name=payload.voice,
-            speaking_rate=payload.speaking_rate or 0.95
+            speaking_rate=payload.speaking_rate or 0.9
         )
         audio_b64 = base64.b64encode(session["audioBytes"]).decode("ascii")
         return {

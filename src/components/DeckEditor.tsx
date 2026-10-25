@@ -173,7 +173,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         body: JSON.stringify({
           text: entry.greek,
           voice: selectedVoice,
-          speaking_rate: 0.95,
+          speaking_rate: 0.9,
         }),
       });
 

@@ -65,6 +65,32 @@ UNIT_METADATA = {
             "• The Verb 'έχω' (to have): εγώ έχω, εσύ έχεις, αυτός/αυτή/αυτό έχει, εμείς έχουμε, εσείς έχετε, αυτοί/αυτές/αυτά έχουν."
         ),
     },
+    5: {
+        "title": "Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)",
+        "description": "CEFR A1: Reading Greek menus, ordering food and drinks, coffee preparation styles, taverna etiquette, and consumption verbs (θέλω, πίνω, παίρνω, τρώω).",
+        "lesson_notes": (
+            "Unit 5 Core Grammar Notes:\n"
+            "• Verbs of Consumption & Preference (Present Active Indicative):\n"
+            "  - θέλω (Type A): θέλω, θέλεις, θέλει, θέλουμε, θέλετε, θέλουν.\n"
+            "  - πίνω (Type A): πίνω, πίνεις, πίνει, πίνουμε, πίνετε, πίνουν.\n"
+            "  - παίρνω (Type A): παίρνω, παίρνεις, παίρνει, παίρνουμε, παίρνετε, παίρνουν.\n"
+            "  - τρώω (Type A irregular): τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε.\n"
+            "• Direct Object in Accusative with Indefinite Article:\n"
+            "  - Masculine: έναν καφέ, έναν χυμό\n"
+            "  - Feminine: μία μπίρα (μπύρα), μία σαλάτα\n"
+            "  - Neuter: ένα νερό, ένα τοστ, ένα σουβλάκι\n"
+            "• Greek Coffee Sweetness Degrees:\n"
+            "  - σκέτος (plain / zero sugar)\n"
+            "  - μέτριος (medium / 1 spoon sugar)\n"
+            "  - γλυκός (sweet / 2 spoons sugar)\n"
+            "• Common Ordering Formulas:\n"
+            "  - 'Τι θα πάρετε;' (What will you have?)\n"
+            "  - 'Για μένα... παρακαλώ.' (For me... please.)\n"
+            "  - 'Τον λογαριασμό, παρακαλώ.' (The bill, please.)\n"
+            "  - 'Ορίστε!' (Here you are! / Certainly!)\n"
+            "  - 'Καλή όρεξη!' (Enjoy your meal!) / 'Στην υγειά μας!' (Cheers!)"
+        ),
+    },
 }
 
 

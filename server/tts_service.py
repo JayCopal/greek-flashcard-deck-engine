@@ -56,6 +56,7 @@ VOICE_CATALOG = [
 ]
 
 DEFAULT_VOICE = os.getenv("DEFAULT_VOICE", "el-GR-Chirp3-HD-Leda")
+DEFAULT_SPEAKING_RATE = 0.9
 
 # In-memory preview buffer (sessionId -> { audio_bytes, greek_text, voice, created_at })
 preview_sessions: Dict[str, Dict[str, Any]] = {}
@@ -99,7 +100,7 @@ def generate_audio_filename(greek_text: str) -> str:
 def synthesize_greek_chirp(
     text: str,
     voice_name: Optional[str] = None,
-    speaking_rate: float = 0.95
+    speaking_rate: float = DEFAULT_SPEAKING_RATE
 ) -> bytes:
     """
     Synthesize speech using Google Cloud TTS Chirp 3 HD Greek voices.
@@ -136,7 +137,7 @@ def synthesize_greek_chirp(
     return response.audio_content
 
 
-def create_preview_session(text: str, voice_name: Optional[str] = None, speaking_rate: float = 0.95) -> Dict[str, Any]:
+def create_preview_session(text: str, voice_name: Optional[str] = None, speaking_rate: float = DEFAULT_SPEAKING_RATE) -> Dict[str, Any]:
     # Prune sessions older than 30 minutes
     now = time.time()
     stale_keys = [k for k, v in preview_sessions.items() if now - v["created_at"] > 1800]

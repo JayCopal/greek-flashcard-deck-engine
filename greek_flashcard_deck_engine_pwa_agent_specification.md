@@ -253,7 +253,7 @@ export async function synthesizeGreekChirp(text: string): Promise<Buffer> {
     },
     audioConfig: {
       audioEncoding: 'MP3' as const,
-      speakingRate: 0.95, // Slightly slowed for language learners
+      speakingRate: 0.9, // Slightly slowed for language learners
       sampleRateHertz: 24000,
     },
   };

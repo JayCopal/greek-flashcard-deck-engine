@@ -1,0 +1,720 @@
+unit_id: unit-05
+lesson_id: lesson-01
+title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
+description: 'CEFR A1: Reading Greek menus, ordering food and drinks, coffee preparation
+  styles, taverna etiquette, and consumption verbs (θέλω, πίνω, παίρνω, τρώω).'
+lesson_status: not_started
+lesson_notes: "Unit 5 Core Grammar Notes:\n\n• Verbs of Consumption & Preference (Present\
+  \ Active Indicative):\n  - θέλω (Type A): θέλω, θέλεις, θέλει, θέλουμε, θέλετε,\
+  \ θέλουν.\n  - πίνω (Type A): πίνω, πίνεις, πίνει, πίνουμε, πίνετε, πίνουν.\n  -\
+  \ παίρνω (Type A): παίρνω, παίρνεις, παίρνει, παίρνουμε, παίρνετε, παίρνουν.\n \
+  \ - τρώω (Type A irregular): τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε.\n\n• Direct\
+  \ Object in Accusative with Indefinite Article:\n  - Masculine: έναν καφέ, έναν\
+  \ χυμό\n  - Feminine: μία μπίρα (μπύρα), μία σαλάτα\n  - Neuter: ένα νερό, ένα τοστ,\
+  \ ένα σουβλάκι\n\n• Greek Coffee Sweetness Degrees:\n  - σκέτος (plain / zero sugar)\n\
+  \  - μέτριος (medium / 1 spoon sugar)\n  - γλυκός (sweet / 2 spoons sugar)\n\n•\
+  \ Common Ordering Formulas:\n  - 'Τι θα πάρετε;' (What will you have?)\n  - 'Για\
+  \ μένα... παρακαλώ.' (For me... please.)\n  - 'Τον λογαριασμό, παρακαλώ.' (The bill,\
+  \ please.)\n  - 'Ορίστε!' (Here you are! / Certainly!)\n  - 'Καλή όρεξη!' (Enjoy\
+  \ your meal!) / 'Στην υγειά μας!' (Cheers!)"
+entries:
+- id: A1-U05-001
+  greek: ο καφές
+  phonetic_hint: ''
+  english: coffee
+  notes: 'Masculine in -ές. Plural adds -έδες (οι καφέδες). Direct object accusative:
+    έναν καφέ.'
+  gender_or_pos: noun (masculine)
+  audio: o-kafes-733951.mp3
+  status: verified
+  example_el: Έναν ελληνικό καφέ μέτριο, παρακαλώ.
+  example_en: A medium-sweet Greek coffee, please.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καφέδες
+    accusative_singular: τον καφέ
+  keg_communicative_function: Ordering beverages at a cafe or traditional kafeneio
+- id: A1-U05-002
+  greek: το νερό
+  phonetic_hint: ''
+  english: water
+  notes: Oxytone neuter in -ό. Served automatically in carafes or bottles in Greek
+    cafes.
+  gender_or_pos: noun (neuter)
+  audio: to-nero-743b44.mp3
+  status: verified
+  example_el: Ένα μπουκάλι νερό, παρακαλώ.
+  example_en: A bottle of water, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νερά
+    accusative_singular: το νερό
+  keg_communicative_function: Asking for water in dining establishments
+- id: A1-U05-003
+  greek: το τσάι
+  phonetic_hint: ''
+  english: tea
+  notes: 'Neuter in -ι with diphthong (plural: τα τσάγια). ''Τσάι του βουνού'' (mountain
+    tea) is an iconic Greek herbal tea.'
+  gender_or_pos: noun (neuter)
+  audio: to-tsai-ee73ff.mp3
+  status: verified
+  example_el: Πίνω ζεστό τσάι του βουνού με μέλι.
+  example_en: I drink hot mountain tea with honey.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τσάγια
+    accusative_singular: το τσάι
+  keg_communicative_function: Ordering hot or cold tea
+- id: A1-U05-004
+  greek: ο χυμός
+  phonetic_hint: ''
+  english: juice
+  notes: 'Oxytone masculine in -ός (accusative: τον χυμό). Note: ''φρέσκος χυμός''
+    = fresh-squeezed juice.'
+  gender_or_pos: noun (masculine)
+  audio: o-chymos-390ab5.mp3
+  status: verified
+  example_el: Θέλω έναν φρέσκο χυμό πορτοκάλι.
+  example_en: I want a fresh orange juice.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι χυμοί
+    accusative_singular: τον χυμό
+  keg_communicative_function: Ordering non-alcoholic fruit beverages
+- id: A1-U05-005
+  greek: η πορτοκαλάδα
+  phonetic_hint: ''
+  english: orange soda / orangeade
+  notes: 'In Greece, waiters will ask: ''Με ανθρακικό ή χωρίς;'' (Sparkling or still?).'
+  gender_or_pos: noun (feminine)
+  audio: i-portokalada-8d215e.mp3
+  status: verified
+  example_el: Μία πορτοκαλάδα με ανθρακικό, παρακαλώ.
+  example_en: An orangeade with carbonation, please.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πορτοκαλάδες
+    accusative_singular: την πορτοκαλάδα
+  keg_communicative_function: Ordering carbonated fruit soft drinks
+- id: A1-U05-006
+  greek: η λεμονάδα
+  phonetic_hint: ''
+  english: lemonade
+  notes: Paroxytone feminine in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-lemonada-33e4ab.mp3
+  status: verified
+  example_el: Για μένα μία κρύα λεμονάδα.
+  example_en: For me a cold lemonade.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι λεμονάδες
+    accusative_singular: τη λεμονάδα
+  keg_communicative_function: Ordering soft drinks
+- id: A1-U05-007
+  greek: το γάλα
+  phonetic_hint: ''
+  english: milk
+  notes: 'Irregular neuter noun: adds -τ- in plural (τα γάλατα). ''Με γάλα'' = with
+    milk, ''χωρίς γάλα'' = without milk.'
+  gender_or_pos: noun (neuter)
+  audio: to-gala-5a7807.mp3
+  status: verified
+  example_el: Θέλετε τον καφέ με γάλα ή χωρίς γάλα;
+  example_en: Do you want the coffee with milk or without milk?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γάλατα
+    accusative_singular: το γάλα
+  keg_communicative_function: Specifying coffee additives or ordering breakfast beverages
+- id: A1-U05-008
+  greek: η μπίρα / η μπύρα
+  phonetic_hint: ''
+  english: beer
+  notes: Both spellings 'μπίρα' (simplified official) and 'μπύρα' (traditional) are
+    prevalent across Greece.
+  gender_or_pos: noun (feminine)
+  audio: i-mpira-i-mpyra-b1cc51.mp3
+  status: verified
+  example_el: Φέρτε μας δύο κρύες μπίρες, παρακαλώ.
+  example_en: Bring us two cold beers, please.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπίρες / οι μπύρες
+    accusative_singular: την μπίρα / την μπύρα
+  keg_communicative_function: Ordering alcoholic beverages in tavernas and bars
+- id: A1-U05-009
+  greek: το κρασί
+  phonetic_hint: ''
+  english: wine
+  notes: In Greek tavernas, house wine is ordered by the kilo/half-kilo (μισό κιλό
+    χύμα κρασί).
+  gender_or_pos: noun (neuter)
+  audio: to-krasi-005a2e.mp3
+  status: verified
+  example_el: Παίρνουμε μισό κιλό κόκκινο κρασί.
+  example_en: We take half a kilo of red wine.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρασιά
+    accusative_singular: το κρασί
+  keg_communicative_function: Ordering wine with meals
+- id: A1-U05-010
+  greek: η ζάχαρη
+  phonetic_hint: ''
+  english: sugar
+  notes: 'Proparoxytone feminine in -η (plural: οι ζάχαρες). Preposition ''χωρίς''
+    takes accusative: χωρίς ζάχαρη.'
+  gender_or_pos: noun (feminine)
+  audio: i-zachari-0e3ae2.mp3
+  status: verified
+  example_el: Πίνω τον καφέ μου χωρίς ζάχαρη.
+  example_en: I drink my coffee without sugar.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ζάχαρες
+    accusative_singular: τη ζάχαρη
+  keg_communicative_function: Specifying sweetness level for hot and iced beverages
+- id: A1-U05-011
+  greek: το φαγητό
+  phonetic_hint: ''
+  english: food / cooked meal
+  notes: Oxytone neuter in -ό. Derived from ancient verb φαγεῖν (to eat).
+  gender_or_pos: noun (neuter)
+  audio: to-fagito-22aa51.mp3
+  status: verified
+  example_el: Το ελληνικό φαγητό είναι πολύ νόστιμο.
+  example_en: Greek food is very tasty.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φαγητά
+    accusative_singular: το φαγητό
+  keg_communicative_function: Talking about cuisine and meals in general
+- id: A1-U05-012
+  greek: το ψωμί
+  phonetic_hint: ''
+  english: bread
+  notes: 'Oxytone neuter in -ί (plural: τα ψωμιά). Staple accompanied item in every
+    Greek meal.'
+  gender_or_pos: noun (neuter)
+  audio: to-psomi-abf6f9.mp3
+  status: verified
+  example_el: Μας φέρνετε λίγο ψωμί, παρακαλώ;
+  example_en: Could you bring us some bread, please?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψωμιά
+    accusative_singular: το ψωμί
+  keg_communicative_function: Requesting bread basket at the table
+- id: A1-U05-013
+  greek: η σαλάτα
+  phonetic_hint: ''
+  english: salad
+  notes: Paroxytone feminine in -α with plural in -ες (οι σαλάτες).
+  gender_or_pos: noun (feminine)
+  audio: i-salata-036af9.mp3
+  status: verified
+  example_el: Θέλουμε μία πράσινη σαλάτα.
+  example_en: We want a green salad.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σαλάτες
+    accusative_singular: τη σαλάτα
+  keg_communicative_function: Ordering starters and vegetable salads
+- id: A1-U05-014
+  greek: η χωριάτικη σαλάτα
+  phonetic_hint: ''
+  english: Greek salad / village salad
+  notes: 'Literally: ''village salad''. In Greece, salads are traditionally placed
+    ''για τη μέση'' (to share).'
+  gender_or_pos: noun phrase (feminine)
+  audio: i-choriatiki-salata-bcfba5.mp3
+  status: verified
+  example_el: Παίρνουμε μία χωριάτικη σαλάτα για τη μέση.
+  example_en: We take a Greek salad to share (for the middle of the table).
+  grammatical_info:
+    part_of_speech: noun phrase (feminine)
+    plural: οι χωριάτικες σαλάτες
+    accusative_singular: τη χωριάτικη σαλάτα
+  keg_communicative_function: Ordering Greece's signature traditional salad
+- id: A1-U05-015
+  greek: το τυρί
+  phonetic_hint: ''
+  english: cheese
+  notes: 'Oxytone neuter in -ί (plural: τα τυριά).'
+  gender_or_pos: noun (neuter)
+  audio: to-tyri-60f7f3.mp3
+  status: verified
+  example_el: Μου αρέσει πολύ το ελληνικό τυρί.
+  example_en: I like Greek cheese very much.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τυριά
+    accusative_singular: το τυρί
+  keg_communicative_function: Ordering dairy appetisers and ingredients
+- id: A1-U05-016
+  greek: η φέτα
+  phonetic_hint: ''
+  english: feta cheese / slice
+  notes: Also means 'slice' (e.g. μία φέτα ψωμί = a slice of bread).
+  gender_or_pos: noun (feminine)
+  audio: i-feta-fb4eae.mp3
+  status: verified
+  example_el: Θέλουμε ψητή φέτα με μέλι και σουσάμι.
+  example_en: We want baked feta with honey and sesame.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φέτες
+    accusative_singular: τη φέτα
+  keg_communicative_function: Ordering traditional feta cheese dishes
+- id: A1-U05-017
+  greek: το κρέας
+  phonetic_hint: ''
+  english: meat
+  notes: Neuter in -ας with plural in -ατα (τα κρέατα).
+  gender_or_pos: noun (neuter)
+  audio: to-kreas-19dee6.mp3
+  status: verified
+  example_el: Δεν τρώω κρέας, είμαι χορτοφάγος.
+  example_en: I do not eat meat, I am a vegetarian.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρέατα
+    accusative_singular: το κρέας
+  keg_communicative_function: Inquiring about main courses or dietary preferences
+- id: A1-U05-018
+  greek: το κοτόπουλο
+  phonetic_hint: ''
+  english: chicken
+  notes: 'Proparoxytone neuter in -ο (plural: τα κοτόπουλα).'
+  gender_or_pos: noun (neuter)
+  audio: to-kotopoylo-7976ac.mp3
+  status: verified
+  example_el: Για κυρίως πιάτο θέλω κοτόπουλο με πατάτες.
+  example_en: For main dish I want chicken with potatoes.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κοτόπουλα
+    accusative_singular: το κοτόπουλο
+  keg_communicative_function: Ordering poultry main courses
+- id: A1-U05-019
+  greek: το ψάρι
+  phonetic_hint: ''
+  english: fish
+  notes: 'Paroxytone neuter in -ι (plural: τα ψάρια).'
+  gender_or_pos: noun (neuter)
+  audio: to-psari-9bbcbf.mp3
+  status: verified
+  example_el: Έχετε φρέσκο ψάρι σήμερα;
+  example_en: Do you have fresh fish today?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψάρια
+    accusative_singular: το ψάρι
+  keg_communicative_function: Ordering seafood and fresh fish at seaside tavernas
+- id: A1-U05-020
+  greek: το σουβλάκι
+  phonetic_hint: ''
+  english: souvlaki / meat skewer
+  notes: 'Diminutive of σούβλα (spit). Plural: τα σουβλάκια.'
+  gender_or_pos: noun (neuter)
+  audio: to-soyvlaki-1bd780.mp3
+  status: verified
+  example_el: Παίρνουμε δύο σουβλάκια με πίτα και τζατζίκι.
+  example_en: We take two souvlakia with pita and tzatziki.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σουβλάκια
+    accusative_singular: το σουβλάκι
+  keg_communicative_function: Ordering iconic Greek street food
+- id: A1-U05-021
+  greek: η πίτα
+  phonetic_hint: ''
+  english: pita bread / traditional savory pie
+  notes: Refers both to flatbread for souvlaki and filo pastry pies (τυρόπιτα).
+  gender_or_pos: noun (feminine)
+  audio: i-pita-3acd59.mp3
+  status: verified
+  example_el: Θέλω ένα σουβλάκι σε πίτα.
+  example_en: I want a souvlaki in pita bread.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πίτες
+    accusative_singular: την πίτα
+  keg_communicative_function: Ordering pita wraps or bakery pies (τυρόπιτα, σπανακόπιτα)
+- id: A1-U05-022
+  greek: οι πατάτες
+  phonetic_hint: ''
+  english: potatoes / french fries
+  notes: In taverna menus, 'πατάτες τηγανητές' (fried potatoes / fries) is universally
+    ordered in the plural.
+  gender_or_pos: noun (feminine plural)
+  audio: oi-patates-60c500.mp3
+  status: verified
+  example_el: Μία μερίδα πατάτες τηγανητές, παρακαλώ.
+  example_en: One portion of french fries, please.
+  grammatical_info:
+    part_of_speech: noun (feminine plural)
+    plural: οι πατάτες
+    accusative_plural: τις πατάτες
+  keg_communicative_function: Ordering side dishes (τηγανητές πατάτες)
+- id: A1-U05-023
+  greek: το τοστ
+  phonetic_hint: ''
+  english: toasted sandwich / toast
+  notes: 'Foreign loanword: indeclinable neuter noun (το τοστ / τα τοστ).'
+  gender_or_pos: noun (neuter indeclinable)
+  audio: to-tost-365b12.mp3
+  status: verified
+  example_el: Ένα τοστ με γαλοπούλα και τυρί.
+  example_en: A toasted sandwich with turkey and cheese.
+  grammatical_info:
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα τοστ
+    accusative_singular: το τοστ
+  keg_communicative_function: Ordering quick cafe snacks
+- id: A1-U05-024
+  greek: το γλυκό
+  phonetic_hint: ''
+  english: dessert / sweet / pastry
+  notes: 'Substantivized neuter adjective: το γλυκό (the sweet/dessert), plural: τα
+    γλυκά.'
+  gender_or_pos: noun (neuter)
+  audio: to-glyko-bae25e.mp3
+  status: verified
+  example_el: Τι γλυκό έχετε σήμερα;
+  example_en: What dessert do you have today?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γλυκά
+    accusative_singular: το γλυκό
+  keg_communicative_function: Ordering post-meal desserts
+- id: A1-U05-025
+  greek: το παγωτό
+  phonetic_hint: ''
+  english: ice cream
+  notes: 'Oxytone neuter in -ό (plural: τα παγωτά). Root: παγώνω (to freeze).'
+  gender_or_pos: noun (neuter)
+  audio: to-pagoto-293237.mp3
+  status: verified
+  example_el: Θέλω ένα παγωτό σοκολάτα.
+  example_en: I want a chocolate ice cream.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παγωτά
+    accusative_singular: το παγωτό
+  keg_communicative_function: Ordering cold desserts in summer
+- id: A1-U05-026
+  greek: το καφενείο
+  phonetic_hint: ''
+  english: traditional Greek cafe / coffeehouse
+  notes: Paroxytone neuter in -είο. Iconic pillar of Greek community life.
+  gender_or_pos: noun (neuter)
+  audio: to-kafeneio-677521.mp3
+  status: verified
+  example_el: Οι ηλικιωμένοι πίνουν καφέ στο παραδοσιακό καφενείο.
+  example_en: The elderly drink coffee at the traditional coffeehouse.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καφενεία
+    accusative_singular: το καφενείο
+  keg_communicative_function: Referring to historic Greek social meeting venues
+- id: A1-U05-027
+  greek: η καφετέρια
+  phonetic_hint: ''
+  english: café / coffee shop
+  notes: 'Feminine noun in -ια (plural: οι καφετέριες). Refers to modern cafes (serving
+    freddo espresso/cappuccino).'
+  gender_or_pos: noun (feminine)
+  audio: i-kafeteria-36a64b.mp3
+  status: verified
+  example_el: Συναντιόμαστε στην καφετέρια στην πλατεία.
+  example_en: We meet at the cafe in the square.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καφετέριες
+    accusative_singular: την καφετέρια
+  keg_communicative_function: Arranging social meetings at contemporary cafes
+- id: A1-U05-028
+  greek: η ταβέρνα
+  phonetic_hint: ''
+  english: taverna / traditional Greek restaurant
+  notes: Paroxytone feminine in -α. Core cultural keyword in KEG exam listening dialogues.
+  gender_or_pos: noun (feminine)
+  audio: i-taverna-c7c81a.mp3
+  status: verified
+  example_el: Το βράδυ τρώμε σε μία ψαροταβέρνα.
+  example_en: In the evening we eat at a seafood taverna.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ταβέρνες
+    accusative_singular: την ταβέρνα
+  keg_communicative_function: Choosing dining venues for lunch or dinner
+- id: A1-U05-029
+  greek: το εστιατόριο
+  phonetic_hint: ''
+  english: restaurant
+  notes: 'Proparoxytone neuter in -ιο (plural: τα εστιατόρια).'
+  gender_or_pos: noun (neuter)
+  audio: to-estiatorio-3bddaf.mp3
+  status: verified
+  example_el: Αυτό το εστιατόριο έχει εξαιρετική θέα.
+  example_en: This restaurant has an excellent view.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα εστιατόρια
+    accusative_singular: το εστιατόριο
+  keg_communicative_function: Referring to restaurants and dining establishments
+- id: A1-U05-030
+  greek: το τραπέζι
+  phonetic_hint: ''
+  english: table
+  notes: Paroxytone neuter in -ι. Phrase 'κάνω το τραπέζι' = to treat someone to a
+    meal.
+  gender_or_pos: noun (neuter)
+  audio: to-trapezi-4c842a.mp3
+  status: verified
+  example_el: Ένα τραπέζι για τέσσερα άτομα, παρακαλώ.
+  example_en: A table for four people, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τραπέζια
+    accusative_singular: το τραπέζι
+  keg_communicative_function: Requesting seating in restaurants and cafes
+- id: A1-U05-031
+  greek: ο κατάλογος
+  phonetic_hint: ''
+  english: menu / list
+  notes: 'Proparoxytone masculine in -ος (plural: οι κατάλογοι). In tavernas also
+    called ''το μενού''.'
+  gender_or_pos: noun (masculine)
+  audio: o-katalogos-bb4eb8.mp3
+  status: verified
+  example_el: Μας φέρνετε τον κατάλογο, παρακαλώ;
+  example_en: Could you bring us the menu, please?
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κατάλογοι
+    accusative_singular: τον κατάλογο
+  keg_communicative_function: Asking for the food or drink menu
+- id: A1-U05-032
+  greek: ο λογαριασμός
+  phonetic_hint: ''
+  english: bill / check / account
+  notes: 'Oxytone masculine in -ός (accusative: τον λογαριασμό). Universal payment
+    formula in Greece.'
+  gender_or_pos: noun (masculine)
+  audio: o-logariasmos-0a3d2a.mp3
+  status: verified
+  example_el: Τον λογαριασμό, παρακαλώ!
+  example_en: The bill, please!
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι λογαριασμοί
+    accusative_singular: τον λογαριασμό
+  keg_communicative_function: Asking for the check at the end of a meal
+- id: A1-U05-033
+  greek: το φιλοδώρημα
+  phonetic_hint: ''
+  english: tip / gratuity
+  notes: Compound from φίλος (friend) + δώρο (gift). Proparoxytone neuter in -μα.
+  gender_or_pos: noun (neuter)
+  audio: to-filodorima-a52099.mp3
+  status: verified
+  example_el: Αφήνουμε φιλοδώρημα στο τραπέζι.
+  example_en: We leave a tip on the table.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φιλοδωρήματα
+    accusative_singular: το φιλοδώρημα
+  keg_communicative_function: Tipping dining service personnel
+- id: A1-U05-034
+  greek: θέλω
+  phonetic_hint: ''
+  english: to want / I want
+  notes: 'Core Type A modal verb. Present: θέλω, θέλεις, θέλει, θέλουμε, θέλετε, θέλουν.
+    Triggers ''να + verb'': θέλω να παραγγείλω.'
+  gender_or_pos: verb
+  audio: thelo-ccc38f.mp3
+  status: verified
+  example_el: Θέλω ένα ποτήρι κρύο νερό.
+  example_en: I want a glass of cold water.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό θέλει
+    first_person_plural: εμείς θέλουμε
+  keg_communicative_function: Expressing wishes and placing dining orders
+- id: A1-U05-035
+  greek: πίνω
+  phonetic_hint: ''
+  english: to drink / I drink
+  notes: 'Type A active verb. Present paradigm: πίνω, πίνεις, πίνει, πίνουμε, πίνετε,
+    πίνουν.'
+  gender_or_pos: verb
+  audio: pino-d8d6fd.mp3
+  status: verified
+  example_el: Τι πίνετε; — Πίνω έναν ζεστό καφέ.
+  example_en: What are you drinking? — I am drinking a hot coffee.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό πίνει
+    first_person_plural: εμείς πίνουμε
+  keg_communicative_function: Talking about beverage consumption habits
+- id: A1-U05-036
+  greek: παίρνω
+  phonetic_hint: ''
+  english: to take / to order / to have (food/drink)
+  notes: 'Type A active verb. In ordering context, ''παίρνω'' is the most natural
+    verb: ''Τι θα πάρετε;'' (What will you have?).'
+  gender_or_pos: verb
+  audio: pairno-a8d891.mp3
+  status: verified
+  example_el: Εγώ παίρνω μία χωριάτικη σαλάτα και ένα σουβλάκι.
+  example_en: I will take a Greek salad and a souvlaki.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό παίρνει
+    first_person_plural: εμείς παίρνουμε
+  keg_communicative_function: Standard conversational verb used when placing orders
+- id: A1-U05-037
+  greek: τρώω
+  phonetic_hint: ''
+  english: to eat / I eat
+  notes: 'Contracted present forms: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε. Note spelling
+    with omega and tonos.'
+  gender_or_pos: verb (irregular present)
+  audio: troo-2a4d34.mp3
+  status: verified
+  example_el: Τρώμε μεσημεριανό στις δύο.
+  example_en: We eat lunch at two o'clock.
+  grammatical_info:
+    part_of_speech: verb (irregular present)
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό τρώει
+    first_person_plural: εμείς τρώμε
+  keg_communicative_function: Talking about food consumption and dietary habits
+- id: A1-U05-038
+  greek: παραγγέλνω
+  phonetic_hint: ''
+  english: to order (food / drinks / goods)
+  notes: 'Type A active verb: παραγγέλνω, παραγγέλνεις, παραγγέλνει, παραγγέλνουμε,
+    παραγγέλνετε, παραγγέλνουν.'
+  gender_or_pos: verb
+  audio: paraggelno-57508a.mp3
+  status: verified
+  example_el: Είμαστε έτοιμοι να παραγγείλουμε.
+  example_en: We are ready to order.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό παραγγέλνει
+    first_person_plural: εμείς παραγγέλνουμε
+  keg_communicative_function: Explicitly initiating an order at a restaurant or shop
+- id: A1-U05-039
+  greek: ορίστε
+  phonetic_hint: ''
+  english: here you are / certainly / what can I get you?
+  notes: 'Versatile Greek particle: used when handing over items (''Here you go''),
+    answering the door/phone (''Yes?''), or acknowledging a customer.'
+  gender_or_pos: polite communicative particle
+  audio: oriste-54b05b.mp3
+  status: verified
+  example_el: — Έναν καφέ, παρακαλώ. — Ορίστε, ο καφές σας!
+  example_en: — A coffee, please. — Here you are, your coffee!
+  grammatical_info:
+    part_of_speech: polite communicative particle
+  keg_communicative_function: Handing something over or responding politely to customers
+- id: A1-U05-040
+  greek: για μένα
+  phonetic_hint: ''
+  english: for me
+  notes: 'Preposition ''για'' takes strong accusative: για μένα (for me), για σένα
+    (for you).'
+  gender_or_pos: prepositional phrase
+  audio: gia-mena-161429.mp3
+  status: verified
+  example_el: Για μένα μία μπίρα, παρακαλώ.
+  example_en: For me a beer, please.
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    structure: για + strong personal pronoun in accusative (μένα)
+  keg_communicative_function: Specifying one's individual choice in a group order
+- id: A1-U05-041
+  greek: τι θα πάρετε;
+  phonetic_hint: ''
+  english: what will you have? / what can I get you?
+  notes: The universal question posed by Greek waiters and kiosk clerks to start a
+    transaction.
+  gender_or_pos: conversational question formula
+  audio: ti-tha-parete-69520a.mp3
+  status: verified
+  example_el: Γεια σας, τι θα πάρετε παρακαλώ;
+  example_en: Hello, what will you have, please?
+  grammatical_info:
+    part_of_speech: conversational question formula
+  keg_communicative_function: Understanding standard waiter inquiry in listening tests
+- id: A1-U05-042
+  greek: καλή όρεξη
+  phonetic_hint: ''
+  english: enjoy your meal / bon appétit
+  notes: 'Literally: ''Good appetite''. Addressed to anyone sitting down to eat.'
+  gender_or_pos: dining courtesy phrase
+  audio: kali-orexi-49f507.mp3
+  status: verified
+  example_el: Το φαγητό έφτασε. Καλή όρεξη σε όλους!
+  example_en: The food has arrived. Enjoy your meal, everyone!
+  grammatical_info:
+    part_of_speech: dining courtesy phrase
+  keg_communicative_function: Wishing dining companions a pleasant meal
+- id: A1-U05-043
+  greek: στην υγειά μας
+  phonetic_hint: ''
+  english: cheers! / to our health!
+  notes: Contraction of 'σε + την υγεία μας'. Also commonly shortened to 'γεια μας!'.
+  gender_or_pos: social toast formula
+  audio: stin-ygeia-mas-17c824.mp3
+  status: verified
+  example_el: Στην υγειά μας, παιδιά!
+  example_en: Cheers, guys! (To our health!)
+  grammatical_info:
+    part_of_speech: social toast formula
+  keg_communicative_function: Making toasts when drinking wine or beer
+- id: A1-U05-044
+  greek: μέτριος, -α, -ο
+  phonetic_hint: ''
+  english: medium-sweet (coffee) / medium / moderate
+  notes: 'In Greek coffee culture: ''μέτριος'' means 1 spoon of coffee and 1 spoon
+    of sugar.'
+  gender_or_pos: adjective
+  audio: metrios-a-o-112076.mp3
+  status: verified
+  example_el: Έναν φραπέ μέτριο με γάλα, παρακαλώ.
+  example_en: A medium-sweet frappé with milk, please.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: μέτρια
+    neuter: μέτριο
+    plural: μέτριοι, μέτριες, μέτρια
+  keg_communicative_function: Specifying sweetness level when ordering Greek coffee
+    or frappé
+- id: A1-U05-045
+  greek: σκέτος, -η, -ο
+  phonetic_hint: ''
+  english: plain / black (coffee with zero sugar)
+  notes: 'The three standard coffee sugar levels are: σκέτος (0 sugar), μέτριος (1
+    sugar), γλυκός (2 sugar).'
+  gender_or_pos: adjective
+  audio: sketos-i-o-e6418c.mp3
+  status: verified
+  example_el: Πίνω τον καφέ πάντα σκέτο.
+  example_en: I always drink my coffee plain (without sugar).
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: σκέτη
+    neuter: σκέτο
+    plural: σκέτοι, σκέτες, σκέτα
+  keg_communicative_function: Ordering unsweetened coffee or plain food items

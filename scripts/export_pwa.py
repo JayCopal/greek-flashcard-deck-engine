@@ -54,6 +54,12 @@ def export():
         json.dump(deck_data, f, ensure_ascii=False, indent=2)
     print(f"==> Wrote compiled deck data to {data_dir / 'deck.json'}")
 
+    public_data_dir = BASE_DIR / "public" / "data"
+    public_data_dir.mkdir(parents=True, exist_ok=True)
+    with open(public_data_dir / "deck.json", "w", encoding="utf-8") as f:
+        json.dump(deck_data, f, ensure_ascii=False, indent=2)
+    print(f"==> Synced offline deck data to {public_data_dir / 'deck.json'}")
+
     # 4. Copy verified audio
     copied = 0
     for unit in deck_data.get("units", []):
