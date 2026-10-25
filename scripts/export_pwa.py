@@ -27,7 +27,7 @@ def export():
     # 1. First run vite build if package.json has build script
     if (BASE_DIR / "package.json").exists():
         print("==> Building Vite production assets...")
-        res = subprocess.run(["npm", "run", "build"], cwd=str(BASE_DIR), shell=True)
+        res = subprocess.run("npm run build", cwd=str(BASE_DIR), shell=True)
         if res.returncode != 0:
             print("Error: npm run build failed.")
             sys.exit(res.returncode)
