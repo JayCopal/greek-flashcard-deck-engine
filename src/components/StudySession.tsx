@@ -757,10 +757,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
         </div>
       </div>
 
-      {/* Navigation & Action Controls (lowered by 130% of button height to prevent overlap with flipped card SRS rating buttons) */}
+      {/* Navigation & Action Controls (lowered by 200% of button height to prevent overlap with flipped card SRS rating buttons) */}
       <div 
         className="relative z-10 flex items-center justify-between"
-        style={{ marginTop: 'calc(1.3 * 48px)' }}
+        style={{ marginTop: 'calc(2 * 48px)' }}
       >
         <button
           onClick={handlePrevious}
