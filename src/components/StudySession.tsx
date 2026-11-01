@@ -757,11 +757,14 @@ export const StudySession: React.FC<StudySessionProps> = ({
         </div>
       </div>
 
-      {/* Navigation & Action Controls */}
-      <div className="flex items-center justify-between pt-2">
+      {/* Navigation & Action Controls (lowered by 130% of button height to prevent overlap with flipped card SRS rating buttons) */}
+      <div 
+        className="relative z-10 flex items-center justify-between"
+        style={{ marginTop: 'calc(1.3 * 48px)' }}
+      >
         <button
           onClick={handlePrevious}
-          className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+          className="h-12 inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
           title="Previous card (← Left Arrow)"
         >
           <ChevronLeft className="w-4 h-4" /> Previous
@@ -771,7 +774,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* Flip button */}
           <button
             onClick={handleFlip}
-            className="inline-flex items-center gap-1.5 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+            className="h-12 inline-flex items-center gap-1.5 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
             title="Flip Card (↑ Up Arrow)"
           >
             <RotateCw className="w-4 h-4" /> [↑]
@@ -780,7 +783,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* Audio trigger button */}
           <button
             onClick={handlePlayAudio}
-            className="inline-flex items-center gap-2 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+            className="h-12 inline-flex items-center gap-2 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
             title="Play Audio (↓ Down Arrow)"
           >
             <Volume2 className="w-4 h-4" /> [↓]
@@ -789,7 +792,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
         <button
           onClick={handleNext}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
+          className="h-12 inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
           title="Next card (→ Right Arrow)"
         >
           Next <ChevronRight className="w-4 h-4" />
