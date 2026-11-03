@@ -37,6 +37,8 @@ interface StudySessionProps {
   title?: string;
   lessonNotes?: string;
   lessonNumber?: string;
+  initialHideExcluded?: boolean;
+  initialHideLearned?: boolean;
   onExit: () => void;
 }
 
@@ -45,14 +47,29 @@ export const StudySession: React.FC<StudySessionProps> = ({
   title = 'Study Drill',
   lessonNotes,
   lessonNumber,
+  initialHideExcluded,
+  initialHideLearned,
   onExit,
 }) => {
   const [activeUser, setActiveUser] = useState(getActiveUser());
 
+  const isAllIgnored = initialCards.length > 0 && initialCards.every((c) => {
+    const s = getAllSRSData(getActiveUserId())[c.id];
+    return s?.isExcluded;
+  });
+
+  const resolvedHideExcluded = initialHideExcluded !== undefined 
+    ? initialHideExcluded 
+    : (isAllIgnored ? false : true);
+
+  const resolvedHideLearned = initialHideLearned !== undefined 
+    ? initialHideLearned 
+    : false;
+
   // Study configuration options
   const [studyDirection, setStudyDirection] = useState<StudyDirection>('greek_to_english');
-  const [hideLearned, setHideLearned] = useState<boolean>(false);
-  const [hideExcluded, setHideExcluded] = useState<boolean>(true);
+  const [hideLearned, setHideLearned] = useState<boolean>(resolvedHideLearned);
+  const [hideExcluded, setHideExcluded] = useState<boolean>(resolvedHideExcluded);
   const [dueOnly, setDueOnly] = useState<boolean>(false);
   const [ratingFilter, setRatingFilter] = useState<RatingFilterOption>('all');
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(true); // Default is ON as requested
@@ -61,9 +78,9 @@ export const StudySession: React.FC<StudySessionProps> = ({
   // Active cards filtered by learned/excluded/due/rating status
   const [filteredCards, setFilteredCards] = useState<CardEntry[]>(() =>
     filterStudyCards(initialCards, { 
-      hideLearned: false, 
+      hideLearned: resolvedHideLearned, 
       dueOnly: false, 
-      hideExcluded: true,
+      hideExcluded: resolvedHideExcluded,
       ratingFilter: 'all'
     }, getActiveUserId())
   );
@@ -927,49 +944,50 @@ export const StudySession: React.FC<StudySessionProps> = ({
       <div 
         id="study-row-2-navigation" 
         data-testid="study-row-2-navigation"
-        className="flex items-center justify-between gap-2 pt-2"
+        className="grid grid-cols-4 gap-2 pt-2"
       >
         {/* 1. Previous button */}
         <button
           onClick={handlePrevious}
-          className="h-12 inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+          className="h-12 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
           title="Previous card (← Left Arrow)"
         >
-          <ChevronLeft className="w-4 h-4" /> Previous
+          <ChevronLeft className="w-4 h-4 shrink-0" />
+          <span className="truncate">Previous</span>
         </button>
 
-        {/* Center Group: Play (2nd) and Flip (3rd) */}
-        <div className="flex items-center gap-2">
-          {/* 2. Play Audio button (comes second) */}
-          <button
-            onClick={handlePlayAudio}
-            className={`h-12 inline-flex items-center gap-2 px-4 py-3 rounded-2xl border font-semibold text-sm transition-all hover:scale-105 active:scale-95 ${
-              isAudioPlaying
-                ? 'bg-sky-500 text-white border-sky-400 shadow-lg shadow-sky-500/30'
-                : 'bg-slate-800 hover:bg-slate-700 text-sky-300 border-slate-700'
-            }`}
-            title="Play Audio (↓ Down Arrow)"
-          >
-            {isAudioPlaying ? <Pause className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />} [↓]
-          </button>
+        {/* 2. Play Audio button (comes second) */}
+        <button
+          onClick={handlePlayAudio}
+          className={`h-12 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl border font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm ${
+            isAudioPlaying
+              ? 'bg-sky-500 text-white border-sky-400 shadow-lg shadow-sky-500/30'
+              : 'bg-slate-800 hover:bg-slate-700 text-sky-300 border-slate-700'
+          }`}
+          title="Play Audio (↓ Down Arrow)"
+        >
+          {isAudioPlaying ? <Pause className="w-4 h-4 shrink-0" /> : <Volume2 className="w-4 h-4 shrink-0" />}
+          <span>[↓]</span>
+        </button>
 
-          {/* 3. Flip button (comes third) */}
-          <button
-            onClick={handleFlip}
-            className="h-12 inline-flex items-center gap-1.5 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
-            title="Flip Card (↑ Up Arrow)"
-          >
-            <RotateCw className="w-4 h-4" /> [↑]
-          </button>
-        </div>
+        {/* 3. Flip button (comes third) */}
+        <button
+          onClick={handleFlip}
+          className="h-12 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
+          title="Flip Card (↑ Up Arrow)"
+        >
+          <RotateCw className="w-4 h-4 shrink-0" />
+          <span>[↑]</span>
+        </button>
 
         {/* 4. Next button */}
         <button
           onClick={handleNext}
-          className="h-12 inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
+          className="h-12 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-[1.02] active:scale-95"
           title="Next card (→ Right Arrow)"
         >
-          Next <ChevronRight className="w-4 h-4" />
+          <span className="truncate">Next</span>
+          <ChevronRight className="w-4 h-4 shrink-0" />
         </button>
       </div>
 
