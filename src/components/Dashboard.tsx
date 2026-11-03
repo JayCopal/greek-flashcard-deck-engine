@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DeckData, Lesson, LessonStatus } from '../types/schema';
 import { getAllSRSData, isCardDue, getCardRatingStatus } from '../utils/srs';
-import { getUserLessonStatus, setUserLessonStatus, getActiveUser } from '../utils/userStorage';
+import { getUserLessonStatus, setUserLessonStatus, getUserLessonNotes, getActiveUser } from '../utils/userStorage';
 import { 
   BookOpen, 
   Layers, 
@@ -22,7 +22,7 @@ import {
 interface DashboardProps {
   deck: DeckData;
   onSelectLesson: (unitId: string, lessonId: string) => void;
-  onStartStudy: (cards: Lesson['entries'], title: string, lessonNotes?: string) => void;
+  onStartStudy: (cards: Lesson['entries'], title: string, lessonNotes?: string, lessonNumber?: string) => void;
   onRefresh: () => void;
 }
 
@@ -74,7 +74,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const newCards = allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'new');
 
   const getEffectiveLessonStatus = (lesson: Lesson): LessonStatus => {
-    return getUserLessonStatus(lesson.lesson_id, lesson.lesson_status, activeUser.id);
+    return getUserLessonStatus(lesson.unit_id, lesson.lesson_id, lesson.lesson_status, activeUser.id);
+  };
+
+  const getEffectiveLessonNotes = (lesson: Lesson): string => {
+    return getUserLessonNotes(lesson.unit_id, lesson.lesson_id, lesson.lesson_notes, activeUser.id);
   };
 
   // Lesson status filter state
@@ -88,7 +92,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const lessonsNotStartedCount = allLessons.filter((l) => getEffectiveLessonStatus(l) === 'not_started').length;
 
   const handleQuickLessonStatusChange = async (unitId: string, lessonId: string, newStatus: LessonStatus) => {
-    setUserLessonStatus(lessonId, newStatus, activeUser.id);
+    setUserLessonStatus(unitId, lessonId, newStatus, activeUser.id);
     try {
       const res = await fetch(`/api/lesson/${unitId}/${lessonId}`, {
         method: 'PUT',
@@ -483,7 +487,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       {unit.verified_entries || 0} / {unit.total_entries || 0} Verified ({unit.coverage_percentage || 0}%)
                     </span>
                     <button
-                      onClick={() => onStartStudy(unit.lessons.flatMap(l => l.entries), unit.title)}
+                      onClick={() => onStartStudy(unit.lessons.flatMap(l => l.entries), unit.title, undefined, `Lesson ${unit.order}`)}
                       className="px-3 py-1.5 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 text-xs font-semibold transition-colors flex items-center gap-1"
                     >
                       <Play className="w-3 h-3 fill-current" /> Drill Unit
@@ -535,10 +539,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
                             <option value="learned">🟢 Learned</option>
                           </select>
 
-                          {lesson.lesson_notes && (
+                          {getEffectiveLessonNotes(lesson) && (
                             <button
                               type="button"
-                              onClick={() => setViewingNotesLesson(lesson)}
+                              onClick={() => setViewingNotesLesson({ ...lesson, lesson_notes: getEffectiveLessonNotes(lesson) })}
                               className="px-2 py-1 rounded-lg bg-sky-950/80 text-sky-400 hover:bg-sky-900 border border-sky-800 text-[11px] font-semibold flex items-center gap-1 transition-colors"
                               title="View Lesson Notes"
                             >
@@ -550,15 +554,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       </div>
 
                       <div className="mt-2 pt-3 border-t border-slate-700/40 flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs font-medium text-emerald-400">
-                            {lesson.verified_entries || 0} verified
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-xs font-semibold text-teal-400">
+                            {lesson.entries.filter((c) => srsMap[c.id]?.isLearned).length} / {lesson.entries.length} learned
                           </span>
-                          {((lesson.total_entries || 0) - (lesson.verified_entries || 0)) > 0 && (
-                            <span className="text-xs text-amber-400">
-                              • {((lesson.total_entries || 0) - (lesson.verified_entries || 0))} pending
-                            </span>
-                          )}
+                          <span className="text-slate-500 text-xs">•</span>
+                          <span className="text-xs font-medium text-emerald-400">
+                            {lesson.verified_entries || 0} verified audio
+                          </span>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -570,7 +573,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
                             <ChevronRight className="w-4 h-4" />
                           </button>
                           <button
-                            onClick={() => onStartStudy(lesson.entries, lesson.title, lesson.lesson_notes)}
+                            onClick={() => {
+                              onStartStudy(lesson.entries, lesson.title, getEffectiveLessonNotes(lesson), `Lesson ${unit.order}`);
+                            }}
                             className="p-1.5 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 text-sky-400 transition-colors"
                             title="Drill this lesson"
                           >
@@ -607,7 +612,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
 
             <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 text-slate-200 text-sm whitespace-pre-line leading-relaxed max-h-96 overflow-y-auto">
-              {viewingNotesLesson.lesson_notes || 'No notes for this lesson.'}
+              {getEffectiveLessonNotes(viewingNotesLesson) || 'No notes for this lesson.'}
             </div>
 
             <div className="flex justify-end gap-2 pt-2">

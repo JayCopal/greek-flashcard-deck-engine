@@ -134,6 +134,8 @@ def get_deck():
             rel_file = lesson_meta.get("file")
             lesson_path = CONTENT_DIR / rel_file
             lesson_data = load_yaml(lesson_path)
+            lesson_data.setdefault("unit_id", unit.get("id"))
+            lesson_data.setdefault("lesson_id", lesson_meta.get("id", "lesson-01"))
             lesson_data.setdefault("lesson_status", "not_started")
             lesson_data.setdefault("lesson_notes", "")
 

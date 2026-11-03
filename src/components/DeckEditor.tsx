@@ -1,7 +1,21 @@
 import { useState, useEffect } from 'react';
-import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus } from '../types/schema';
+import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus, SRSRating } from '../types/schema';
 import { AudioPlayer } from './AudioPlayer';
-import { getUserLessonStatus, setUserLessonStatus } from '../utils/userStorage';
+import { 
+  getUserLessonStatus, 
+  setUserLessonStatus, 
+  getUserLessonNotes, 
+  setUserLessonNotes, 
+  getActiveUser 
+} from '../utils/userStorage';
+import { 
+  getAllSRSData, 
+  getCardSRS, 
+  toggleCardLearned, 
+  toggleCardExcluded, 
+  recordSRSRating, 
+  getCardRatingStatus 
+} from '../utils/srs';
 import { 
   Sparkles, 
   Volume2, 
@@ -16,7 +30,9 @@ import {
   FileText,
   CheckCircle,
   Clock,
-  CircleDot
+  CircleDot,
+  Award,
+  Ban
 } from 'lucide-react';
 
 interface DeckEditorProps {
@@ -77,19 +93,39 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
   const [newCardNotes, setNewCardNotes] = useState('');
   const [newCardPos, setNewCardPos] = useState('phrase');
 
+  // Active user & SRS state
+  const [activeUser, setActiveUser] = useState(getActiveUser());
+  const [, setSrsVersion] = useState(0);
+
+  useEffect(() => {
+    const handleUpdate = () => {
+      setActiveUser(getActiveUser());
+      setSrsVersion((v) => v + 1);
+    };
+    window.addEventListener('greek_deck_user_change', handleUpdate);
+    window.addEventListener('greek_deck_progress_change', handleUpdate);
+    return () => {
+      window.removeEventListener('greek_deck_user_change', handleUpdate);
+      window.removeEventListener('greek_deck_progress_change', handleUpdate);
+    };
+  }, []);
+
   // Lesson status & notes state
   const [isEditingNotes, setIsEditingNotes] = useState(false);
-  const [lessonNotesText, setLessonNotesText] = useState(currentLesson?.lesson_notes || '');
+  const [lessonNotesText, setLessonNotesText] = useState('');
   const [isSavingLesson, setIsSavingLesson] = useState(false);
 
   useEffect(() => {
-    setLessonNotesText(currentLesson?.lesson_notes || '');
-    setIsEditingNotes(false);
-  }, [currentLesson?.lesson_id, currentLesson?.lesson_notes]);
+    if (currentUnit && currentLesson) {
+      const notes = getUserLessonNotes(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_notes, activeUser.id);
+      setLessonNotesText(notes);
+      setIsEditingNotes(false);
+    }
+  }, [currentUnit?.id, currentLesson?.lesson_id, currentLesson?.lesson_notes, activeUser.id]);
 
   const handleUpdateLessonStatus = async (status: LessonStatus) => {
     if (!currentLesson || !currentUnit) return;
-    setUserLessonStatus(currentLesson.lesson_id, status);
+    setUserLessonStatus(currentUnit.id, currentLesson.lesson_id, status, activeUser.id);
     try {
       const res = await fetch(`/api/lesson/${currentUnit.id}/${currentLesson.lesson_id}`, {
         method: 'PUT',
@@ -98,14 +134,15 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       });
       if (!res.ok) throw new Error('Failed to update lesson status');
       onRefresh();
-    } catch (err: any) {
-      // In offline mode or local mode, status is already saved in localStorage
+    } catch {
+      // In offline mode or local mode, status is already safely saved in localStorage
     }
   };
 
   const handleSaveLessonNotes = async () => {
     if (!currentLesson || !currentUnit) return;
     setIsSavingLesson(true);
+    setUserLessonNotes(currentUnit.id, currentLesson.lesson_id, lessonNotesText, activeUser.id);
     try {
       const res = await fetch(`/api/lesson/${currentUnit.id}/${currentLesson.lesson_id}`, {
         method: 'PUT',
@@ -116,10 +153,26 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       setIsEditingNotes(false);
       onRefresh();
     } catch (err: any) {
-      setErrorMessage(err.message || 'Error saving lesson notes');
+      // In offline mode, notes are safely saved in localStorage
+      setIsEditingNotes(false);
     } finally {
       setIsSavingLesson(false);
     }
+  };
+
+  const handleToggleCardLearnedInEditor = (cardId: string) => {
+    toggleCardLearned(cardId, activeUser.id);
+    setSrsVersion((v) => v + 1);
+  };
+
+  const handleToggleCardExcludedInEditor = (cardId: string) => {
+    toggleCardExcluded(cardId, activeUser.id);
+    setSrsVersion((v) => v + 1);
+  };
+
+  const handleRateCardInEditor = (cardId: string, rating: SRSRating) => {
+    recordSRSRating(cardId, rating, activeUser.id);
+    setSrsVersion((v) => v + 1);
   };
 
   // Fetch voices on load
@@ -450,7 +503,9 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             {/* Status Toggle Buttons */}
             <div className="flex items-center p-1 rounded-xl bg-slate-900 border border-slate-700/80">
               {(() => {
-                const currentStatus = currentLesson ? getUserLessonStatus(currentLesson.lesson_id, currentLesson.lesson_status) : 'not_started';
+                const currentStatus = currentUnit && currentLesson
+                  ? getUserLessonStatus(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_status, activeUser.id)
+                  : 'not_started';
                 return (
                   <>
                     <button
@@ -522,7 +577,11 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                 className="text-xs text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-1 transition-colors"
               >
                 <Edit3 className="w-3.5 h-3.5" />
-                <span>{currentLesson?.lesson_notes ? 'Edit Notes' : 'Add Notes'}</span>
+                <span>
+                  {currentUnit && currentLesson && getUserLessonNotes(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_notes, activeUser.id)
+                    ? 'Edit Notes'
+                    : 'Add Notes'}
+                </span>
               </button>
             )}
           </div>
@@ -540,7 +599,10 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                 <button
                   type="button"
                   onClick={() => {
-                    setLessonNotesText(currentLesson?.lesson_notes || '');
+                    const fallbackNotes = currentUnit && currentLesson
+                      ? getUserLessonNotes(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_notes, activeUser.id)
+                      : '';
+                    setLessonNotesText(fallbackNotes);
                     setIsEditingNotes(false);
                   }}
                   className="px-3 py-1.5 rounded-lg text-xs text-slate-400 hover:text-white"
@@ -565,18 +627,23 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                 </button>
               </div>
             </div>
-          ) : currentLesson?.lesson_notes ? (
-            <div className="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 text-slate-300 text-sm whitespace-pre-line leading-relaxed">
-              {currentLesson.lesson_notes}
-            </div>
-          ) : (
-            <div 
-              onClick={() => setIsEditingNotes(true)}
-              className="p-3 rounded-xl bg-slate-900/40 border border-dashed border-slate-800 text-slate-500 text-xs italic cursor-pointer hover:border-slate-700 hover:text-slate-400 transition-colors"
-            >
-              No lesson notes added yet. Click here or "Add Notes" to write grammar notes, declensions, or tips for this lesson.
-            </div>
-          )}
+          ) : (() => {
+            const currentNotes = currentUnit && currentLesson
+              ? getUserLessonNotes(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_notes, activeUser.id)
+              : '';
+            return currentNotes ? (
+              <div className="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800 text-slate-300 text-sm whitespace-pre-line leading-relaxed">
+                {currentNotes}
+              </div>
+            ) : (
+              <div 
+                onClick={() => setIsEditingNotes(true)}
+                className="p-3 rounded-xl bg-slate-900/40 border border-dashed border-slate-800 text-slate-500 text-xs italic cursor-pointer hover:border-slate-700 hover:text-slate-400 transition-colors"
+              >
+                No lesson notes added yet. Click here or "Add Notes" to write grammar notes, declensions, or tips for this lesson.
+              </div>
+            );
+          })()}
         </div>
       </div>
 
@@ -673,12 +740,47 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         </form>
       )}
 
+      {/* Lesson Learner Progress & Stats */}
+      {(() => {
+        const allSRS = getAllSRSData(activeUser.id);
+        const entries = currentLesson?.entries || [];
+        const learned = entries.filter((e) => allSRS[e.id]?.isLearned).length;
+        const easy = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'easy').length;
+        const good = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'good').length;
+        const hard = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'hard').length;
+        const again = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'again').length;
+        const ignored = entries.filter((e) => allSRS[e.id]?.isExcluded).length;
+
+        return (
+          <div className="glass-panel p-4 rounded-2xl border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
+            <div className="flex items-center gap-2">
+              <Award className="w-4 h-4 text-emerald-400" />
+              <span className="font-bold text-white">{activeUser.name}'s Progress in this Lesson:</span>
+              <span className="font-extrabold text-teal-400">{learned} / {entries.length} Learned</span>
+              {entries.length > 0 && (
+                <span className="text-slate-400">({Math.round((learned / entries.length) * 100)}%)</span>
+              )}
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-emerald-950/60 border border-emerald-800 text-emerald-300 font-semibold">{easy} Easy</span>
+              <span className="px-2 py-0.5 rounded bg-sky-950/60 border border-sky-800 text-sky-300 font-semibold">{good} Good</span>
+              <span className="px-2 py-0.5 rounded bg-amber-950/60 border border-amber-800 text-amber-300 font-semibold">{hard} Hard</span>
+              {again > 0 && <span className="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-800 text-rose-300 font-semibold">{again} Again</span>}
+              {ignored > 0 && <span className="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-800 text-rose-400 font-semibold">{ignored} Ignored</span>}
+            </div>
+          </div>
+        );
+      })()}
+
       {/* Cards List */}
       <div className="space-y-4">
         {currentLesson?.entries.map((entry) => {
           const isPreviewing = activePreview?.entryId === entry.id;
           const isEditing = editingEntryId === entry.id;
           const isLoadingTts = loadingTtsId === entry.id;
+          const cardSrs = getCardSRS(entry.id, activeUser.id);
+          const cardRating = getCardRatingStatus(cardSrs);
 
           return (
             <div
@@ -793,6 +895,35 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                           Needs Review
                         </span>
                       )}
+
+                      {/* Learner Progress Badges */}
+                      {cardSrs.isLearned && (
+                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-teal-950/90 text-teal-300 border border-teal-700 flex items-center gap-1">
+                          <CheckCircle className="w-3 h-3" /> Learned
+                        </span>
+                      )}
+                      {cardRating !== 'new' ? (
+                        <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full border ${
+                          cardRating === 'again'
+                            ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
+                            : cardRating === 'hard'
+                            ? 'bg-amber-950/90 text-amber-300 border-amber-700/60'
+                            : cardRating === 'good'
+                            ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
+                            : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
+                        }`}>
+                          {cardRating.toUpperCase()}
+                        </span>
+                      ) : (
+                        <span className="text-[11px] font-medium px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">
+                          NEW
+                        </span>
+                      )}
+                      {cardSrs.isExcluded && (
+                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-rose-950/90 text-rose-400 border border-rose-800 flex items-center gap-1">
+                          <Ban className="w-3 h-3" /> Ignored
+                        </span>
+                      )}
                     </div>
 
                     <div className="text-slate-300 text-sm font-medium">
@@ -875,6 +1006,64 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       >
                         <Edit3 className="w-3.5 h-3.5" />
                       </button>
+                    )}
+
+                    {/* Learner Progress Controls: Learned, Rating, Ignore */}
+                    {!isPreviewing && (
+                      <div className="flex items-center gap-1.5 pl-1 border-l border-slate-700/60">
+                        {/* Toggle Learned */}
+                        <button
+                          type="button"
+                          onClick={() => handleToggleCardLearnedInEditor(entry.id)}
+                          className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
+                            cardSrs.isLearned
+                              ? 'bg-teal-600 border-teal-500 text-white shadow-sm'
+                              : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
+                          }`}
+                          title={cardSrs.isLearned ? 'Marked as Learned (click to unmark)' : 'Mark card as Learned'}
+                        >
+                          <CheckCircle className="w-3.5 h-3.5" />
+                          <span className="hidden md:inline">{cardSrs.isLearned ? 'Learned' : 'Learn'}</span>
+                        </button>
+
+                        {/* Rating Selector */}
+                        <select
+                          value={cardRating}
+                          onChange={(e) => handleRateCardInEditor(entry.id, e.target.value as SRSRating)}
+                          className={`text-xs font-semibold px-2 py-1.5 rounded-xl border focus:outline-none cursor-pointer transition-colors ${
+                            cardRating === 'easy'
+                              ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
+                              : cardRating === 'good'
+                              ? 'bg-sky-950/80 text-sky-300 border-sky-700'
+                              : cardRating === 'hard'
+                              ? 'bg-amber-950/80 text-amber-300 border-amber-700'
+                              : cardRating === 'again'
+                              ? 'bg-rose-950/80 text-rose-300 border-rose-700'
+                              : 'bg-slate-800 text-slate-300 border-slate-700'
+                          }`}
+                          title="Set card SRS rating"
+                        >
+                          <option value="new" className="bg-slate-900 text-slate-400">Rating: New</option>
+                          <option value="again" className="bg-slate-900 text-rose-400">Again [1]</option>
+                          <option value="hard" className="bg-slate-900 text-amber-400">Hard [2]</option>
+                          <option value="good" className="bg-slate-900 text-sky-400">Good [3]</option>
+                          <option value="easy" className="bg-slate-900 text-emerald-400">Easy [4]</option>
+                        </select>
+
+                        {/* Toggle Ignore */}
+                        <button
+                          type="button"
+                          onClick={() => handleToggleCardExcludedInEditor(entry.id)}
+                          className={`p-2 rounded-xl border transition-all ${
+                            cardSrs.isExcluded
+                              ? 'bg-rose-900 border-rose-600 text-rose-200'
+                              : 'bg-slate-800 border-slate-700 text-slate-500 hover:text-rose-400'
+                          }`}
+                          title={cardSrs.isExcluded ? 'Ignored card (click to un-ignore)' : 'Ignore card'}
+                        >
+                          <Ban className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
                     )}
 
                     {/* THE IN-MEMORY DECISION PIPELINE (Listen, Accept or Reject) */}

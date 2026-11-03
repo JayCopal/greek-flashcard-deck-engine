@@ -1723,3 +1723,201 @@ entries:
     plural: τα τραπέζια
     accusative_singular: το τραπέζι
   keg_communicative_function: Reserving or asking for a table at a taverna
+- id: A1-U101-113
+  greek: το λουλούδι
+  phonetic_hint: ''
+  english: flower / flowers
+  notes: Klik A1 p. 25. Neuter noun in -ι with plural in -ια (τα λουλούδια). Diminutive
+    formation from ancient Greek λούλουδον.
+  gender_or_pos: noun (neuter)
+  audio: to-loyloydi-8dc813.mp3
+  status: verified
+  example_el: Έχει όμορφα λουλούδια στο βάζο.
+  example_en: There are beautiful flowers in the vase.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λουλούδια
+    accusative_singular: το λουλούδι
+  keg_communicative_function: Naming flowers, nature, and household decorations
+- id: A1-U101-114
+  greek: το επώνυμο
+  phonetic_hint: ''
+  english: surname / last name
+  notes: Klik A1 p. 38-39. Essential personal registration noun. Proparoxytone in
+    -ο; takes an enclitic accent before possessives (το επώνυμό μου).
+  gender_or_pos: noun (neuter)
+  audio: to-eponymo-1420da.mp3
+  status: verified
+  example_el: Ποιο είναι το επώνυμό σας, παρακαλώ;
+  example_en: What is your last name, please?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επώνυμα
+    accusative_singular: το επώνυμο
+  keg_communicative_function: Providing and asking for last name and identification
+- id: A1-U101-115
+  greek: το αλάτι
+  phonetic_hint: ''
+  english: salt
+  notes: Klik A1 p. 25-28. Neuter noun in -ι with imparisyllabic genitive and plural
+    (του αλατιού, τα αλάτια).
+  gender_or_pos: noun (neuter)
+  audio: to-alati-c3f11d.mp3
+  status: verified
+  example_el: Μπορώ να έχω λίγο αλάτι, παρακαλώ;
+  example_en: Could I have some salt, please?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αλάτια
+    accusative_singular: το αλάτι
+  keg_communicative_function: Requesting seasonings and essential dining ingredients
+- id: A1-U101-116
+  greek: ο δάσκαλος
+  phonetic_hint: ''
+  english: teacher / schoolteacher (male)
+  notes: 'Klik A1 p. 30. Proparoxytone masculine noun in -ος with vocative singular
+    δάσκαλε (female counterpart: η δασκάλα).'
+  gender_or_pos: noun (masculine)
+  audio: o-daskalos-218684.mp3
+  status: verified
+  example_el: Ο δάσκαλος εξηγεί το μάθημα στην τάξη.
+  example_en: The teacher explains the lesson in the classroom.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι δάσκαλοι
+    accusative_singular: τον δάσκαλο
+  keg_communicative_function: Identifying teaching professionals and classroom roles
+- id: A1-U101-117
+  greek: ο μαθητής
+  phonetic_hint: ''
+  english: student / school pupil (male)
+  notes: 'Klik A1 p. 30. Masculine oxytone in -ης (plural: οι μαθητές). Female counterpart:
+    η μαθήτρια. Compare with university student: ο φοιτητής.'
+  gender_or_pos: noun (masculine)
+  audio: o-mathitis-fd2beb.mp3
+  status: verified
+  example_el: Ο μαθητής ανοίγει το βιβλίο των Ελληνικών.
+  example_en: The student opens the Greek book.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μαθητές
+    accusative_singular: τον μαθητή
+  keg_communicative_function: Identifying students and academic learners
+- id: A1-U101-118
+  greek: το παράδειγμα
+  phonetic_hint: ''
+  english: example
+  notes: Klik A1 p. 25-41. Core textbook instructional vocabulary. Frequently used
+    in the phrase 'για παράδειγμα' (for example). Neuter noun in -μα.
+  gender_or_pos: noun (neuter)
+  audio: to-paradeigma-9d7614.mp3
+  status: verified
+  example_el: Διαβάζουμε το παράδειγμα στην άσκηση.
+  example_en: We read the example in the exercise.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παραδείγματα
+    accusative_singular: το παράδειγμα
+  keg_communicative_function: Understanding exercise examples and learning guidelines
+- id: A1-U101-119
+  greek: διαβάζω
+  phonetic_hint: ''
+  english: to read / to study
+  notes: 'Klik A1 p. 25-41. Fundamental Type A active regular verb: διαβάζω, διαβάζεις,
+    διαβάζει, διαβάζουμε, διαβάζετε, διαβάζουν. Related to το διάβασμα.'
+  gender_or_pos: verb
+  audio: diavazo-7487a6.mp3
+  status: verified
+  example_el: Διαβάζω ένα ενδιαφέρον βιβλίο στα ελληνικά.
+  example_en: I am reading an interesting book in Greek.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: διαβάζει
+    first_person_plural: διαβάζουμε
+  keg_communicative_function: Expressing reading, studying, and literacy habits
+- id: A1-U101-120
+  greek: γράφω
+  phonetic_hint: ''
+  english: to write / to spell
+  notes: 'Klik A1 p. 25-41. Model Type A active regular verb: γράφω, γράφεις, γράφει,
+    γράφουμε, γράφετε, γράφουν. Past simple stem: έγραψα.'
+  gender_or_pos: verb
+  audio: grafo-ee0d8a.mp3
+  status: verified
+  example_el: Γράφω μια νέα λέξη στο τετράδιο.
+  example_en: I write a new word in the notebook.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: γράφει
+    first_person_plural: γράφουμε
+  keg_communicative_function: Expressing writing and spelling activities
+- id: A1-U101-121
+  greek: βλέπω
+  phonetic_hint: ''
+  english: to see / to watch
+  notes: 'Klik A1 p. 25-41. Common Type A active regular verb: βλέπω, βλέπεις, βλέπει,
+    βλέπουμε, βλέπετε, βλέπουν.'
+  gender_or_pos: verb
+  audio: vlepo-b9ac52.mp3
+  status: verified
+  example_el: Βλέπω μια ωραία ελληνική ταινία απόψε.
+  example_en: I am watching a nice Greek movie tonight.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: βλέπει
+    first_person_plural: βλέπουμε
+  keg_communicative_function: Expressing visual perception and watching activities
+- id: A1-U101-122
+  greek: ακούω
+  phonetic_hint: ''
+  english: to hear / to listen to
+  notes: 'Klik A1 p. 25-41. Common irregular active verb: ακούω, ακούς, ακούει, ακούμε,
+    ακούτε, ακούν(ε). Key verb for audio exercises.'
+  gender_or_pos: verb
+  audio: akoyo-38930c.mp3
+  status: verified
+  example_el: Ακούω τον διάλογο στο μάθημα.
+  example_en: I listen to the dialogue in the lesson.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (irregular active)
+    third_person_singular: ακούει
+    first_person_plural: ακούμε
+  keg_communicative_function: Expressing auditory perception and listening to audio
+    exercises
+- id: A1-U101-123
+  greek: μυρίζω
+  phonetic_hint: ''
+  english: to smell / to scent
+  notes: 'Klik A1 p. 25-41. Type A active regular verb in -ίζω: μυρίζω, μυρίζεις,
+    μυρίζει, μυρίζουμε, μυρίζετε, μυρίζουν. Used for fragrances and scents.'
+  gender_or_pos: verb
+  audio: myrizo-a43ce4.mp3
+  status: verified
+  example_el: Τα λουλούδια μυρίζουν υπέροχα στην άνοιξη.
+  example_en: The flowers smell wonderful in spring.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: μυρίζει
+    first_person_plural: μυρίζουμε
+  keg_communicative_function: Expressing olfactory perception and describing scents
+- id: A1-U101-124
+  greek: το έξυπνο κινητό
+  phonetic_hint: ''
+  english: smartphone / smart mobile phone
+  notes: 'Klik A1 p. 25-41. Modern Greek compound noun: έξυπνο (smart) + κινητό (mobile).
+    Commonly called ''το smartphone'' or simply ''το κινητό''.'
+  gender_or_pos: noun (neuter)
+  audio: to-exypno-kinito-e9284b.mp3
+  status: verified
+  example_el: Έχω ένα καινούργιο έξυπνο κινητό με καλή κάμερα.
+  example_en: I have a new smartphone with a good camera.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα έξυπνα κινητά
+    accusative_singular: το έξυπνο κινητό
+  keg_communicative_function: Discussing personal digital devices and smart technology

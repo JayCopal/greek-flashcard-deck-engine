@@ -24,6 +24,20 @@ export function getLessonStorageKey(userId?: string): string {
   return `greek_deck_lessons_${uid}`;
 }
 
+export function getLessonNotesStorageKey(userId?: string): string {
+  const uid = userId || getActiveUserId();
+  return `greek_deck_lesson_notes_${uid}`;
+}
+
+export function getLessonCompositeKey(unitId?: string, lessonId?: string): string {
+  if (!unitId && !lessonId) return 'unknown';
+  if (!unitId) return lessonId!;
+  if (!lessonId) return unitId;
+  // If lessonId already includes unit prefix (e.g. "unit-01/lesson-01"), return as is
+  if (lessonId.includes('/') || lessonId.includes(':')) return lessonId;
+  return `${unitId}/${lessonId}`;
+}
+
 /**
  * Initialize default user and migrate legacy single-user data if needed
  */
@@ -182,6 +196,7 @@ export function deleteUser(userId: string): boolean {
   try {
     localStorage.removeItem(`greek_deck_srs_${userId}`);
     localStorage.removeItem(`greek_deck_lessons_${userId}`);
+    localStorage.removeItem(`greek_deck_lesson_notes_${userId}`);
   } catch {}
 
   // If the active user was deleted, switch to the first remaining user
@@ -202,6 +217,7 @@ export function resetUserProgress(userId?: string): void {
   try {
     localStorage.removeItem(`greek_deck_srs_${uid}`);
     localStorage.removeItem(`greek_deck_lessons_${uid}`);
+    localStorage.removeItem(`greek_deck_lesson_notes_${uid}`);
     if (uid === 'default') {
       localStorage.removeItem(LEGACY_SRS_KEY);
     }
@@ -224,20 +240,157 @@ export function getUserLessonStatusMap(userId?: string): Record<string, LessonSt
   }
 }
 
-export function getUserLessonStatus(lessonId: string, fallback?: LessonStatus, userId?: string): LessonStatus {
-  const map = getUserLessonStatusMap(userId);
-  if (map[lessonId]) return map[lessonId];
-  return fallback || 'not_started';
+export function getUserLessonStatus(
+  unitIdOrLessonId: string,
+  lessonIdOrFallback?: string | LessonStatus,
+  fallback?: LessonStatus,
+  userId?: string
+): LessonStatus {
+  // Determine arguments based on whether unitId and lessonId were both provided
+  let compositeKey: string;
+  let effectiveFallback: LessonStatus;
+  let effectiveUserId: string | undefined;
+
+  if (
+    lessonIdOrFallback === 'not_started' ||
+    lessonIdOrFallback === 'in_progress' ||
+    lessonIdOrFallback === 'learned' ||
+    lessonIdOrFallback === undefined
+  ) {
+    // Single ID signature: getUserLessonStatus(lessonId, fallback, userId)
+    compositeKey = unitIdOrLessonId;
+    effectiveFallback = (lessonIdOrFallback as LessonStatus) || fallback || 'not_started';
+    effectiveUserId = userId;
+  } else {
+    // Two-part signature: getUserLessonStatus(unitId, lessonId, fallback, userId)
+    compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrFallback);
+    effectiveFallback = fallback || 'not_started';
+    effectiveUserId = userId;
+  }
+
+  const map = getUserLessonStatusMap(effectiveUserId);
+  // Check exact composite key first
+  if (map[compositeKey]) return map[compositeKey];
+
+  // If key is not in map, return fallback (do not fall back to collision-prone "lesson-01")
+  return effectiveFallback;
 }
 
-export function setUserLessonStatus(lessonId: string, status: LessonStatus, userId?: string): void {
-  const key = getLessonStorageKey(userId);
-  const map = getUserLessonStatusMap(userId);
-  map[lessonId] = status;
+export function setUserLessonStatus(
+  unitIdOrLessonId: string,
+  lessonIdOrStatus: string | LessonStatus,
+  statusOrUserId?: LessonStatus | string,
+  userId?: string
+): void {
+  let compositeKey: string;
+  let status: LessonStatus;
+  let effectiveUserId: string | undefined;
+
+  if (
+    lessonIdOrStatus === 'not_started' ||
+    lessonIdOrStatus === 'in_progress' ||
+    lessonIdOrStatus === 'learned'
+  ) {
+    // Single ID signature: setUserLessonStatus(lessonId, status, userId)
+    compositeKey = unitIdOrLessonId;
+    status = lessonIdOrStatus as LessonStatus;
+    effectiveUserId = statusOrUserId as string | undefined;
+  } else {
+    // Two-part signature: setUserLessonStatus(unitId, lessonId, status, userId)
+    compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrStatus);
+    status = statusOrUserId as LessonStatus;
+    effectiveUserId = userId;
+  }
+
+  const key = getLessonStorageKey(effectiveUserId);
+  const map = getUserLessonStatusMap(effectiveUserId);
+  map[compositeKey] = status;
+
+  // Clean up legacy global colliding key if present
+  if (map['lesson-01']) {
+    delete map['lesson-01'];
+  }
+
   try {
     localStorage.setItem(key, JSON.stringify(map));
   } catch (err) {
     console.error('Failed to save user lesson status', err);
+  }
+  notifyProgressChanged();
+}
+
+/**
+ * Lesson notes per-user / offline storage
+ */
+export function getUserLessonNotesMap(userId?: string): Record<string, string> {
+  const key = getLessonNotesStorageKey(userId);
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function getUserLessonNotes(
+  unitIdOrLessonId: string,
+  lessonIdOrFallback?: string,
+  fallback?: string,
+  userId?: string
+): string {
+  let compositeKey: string;
+  let effectiveFallback: string;
+  let effectiveUserId: string | undefined;
+
+  // Check if called as (unitId, lessonId, fallback, userId) or (lessonId, fallback, userId)
+  if (
+    lessonIdOrFallback !== undefined &&
+    (lessonIdOrFallback.startsWith('lesson-') || lessonIdOrFallback.includes('-'))
+  ) {
+    compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrFallback);
+    effectiveFallback = fallback || '';
+    effectiveUserId = userId;
+  } else {
+    compositeKey = unitIdOrLessonId;
+    effectiveFallback = lessonIdOrFallback || fallback || '';
+    effectiveUserId = userId;
+  }
+
+  const map = getUserLessonNotesMap(effectiveUserId);
+  if (map[compositeKey] !== undefined) return map[compositeKey];
+  return effectiveFallback;
+}
+
+export function setUserLessonNotes(
+  unitIdOrLessonId: string,
+  lessonIdOrNotes: string,
+  notesOrUserId?: string,
+  userId?: string
+): void {
+  let compositeKey: string;
+  let notes: string;
+  let effectiveUserId: string | undefined;
+
+  if (notesOrUserId !== undefined && (notesOrUserId.length > 0 || userId !== undefined)) {
+    // Called as (unitId, lessonId, notes, userId)
+    compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrNotes);
+    notes = notesOrUserId;
+    effectiveUserId = userId;
+  } else {
+    // Called as (lessonId, notes, userId)
+    compositeKey = unitIdOrLessonId;
+    notes = lessonIdOrNotes;
+    effectiveUserId = notesOrUserId;
+  }
+
+  const key = getLessonNotesStorageKey(effectiveUserId);
+  const map = getUserLessonNotesMap(effectiveUserId);
+  map[compositeKey] = notes;
+
+  try {
+    localStorage.setItem(key, JSON.stringify(map));
+  } catch (err) {
+    console.error('Failed to save user lesson notes', err);
   }
   notifyProgressChanged();
 }

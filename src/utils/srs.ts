@@ -48,6 +48,9 @@ export function toggleCardLearned(cardId: string, userId?: string): boolean {
   };
 
   current.isLearned = !current.isLearned;
+  if (!current.lastReviewed) {
+    current.lastReviewed = new Date().toISOString();
+  }
   all[cardId] = current;
   saveAllSRSData(all, userId);
   return current.isLearned;
@@ -65,6 +68,9 @@ export function setCardLearned(cardId: string, learned: boolean, userId?: string
   };
 
   current.isLearned = learned;
+  if (!current.lastReviewed) {
+    current.lastReviewed = new Date().toISOString();
+  }
   all[cardId] = current;
   saveAllSRSData(all, userId);
 }
@@ -170,8 +176,9 @@ export function isCardDue(srs: CardSRSData): boolean {
 export type RatingFilterOption = 'all' | 'again' | 'hard' | 'good' | 'easy' | 'new';
 
 export function getCardRatingStatus(srs?: CardSRSData): SRSRating | 'new' {
-  if (!srs || !srs.lastReviewed) return 'new';
+  if (!srs) return 'new';
   if (srs.lastRating) return srs.lastRating;
+  if (!srs.lastReviewed) return 'new';
   if (srs.repetition === 0) return 'again';
   if (srs.easeFactor < 2.0) return 'hard';
   return 'good';
