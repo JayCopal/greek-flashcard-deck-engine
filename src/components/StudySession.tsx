@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { CardEntry, SRSRating } from '../types/schema';
-import { AudioPlayer, AudioPlayerHandle } from './AudioPlayer';
 import { getActiveUser, getActiveUserId } from '../utils/userStorage';
 import { 
   getCardSRS, 
@@ -19,6 +18,8 @@ import {
   Shuffle, 
   ArrowLeft, 
   Volume2, 
+  VolumeX,
+  Pause,
   CheckCircle, 
   EyeOff, 
   Clock, 
@@ -70,8 +71,9 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
-  // Audio player ref for imperative play on Down Arrow
-  const audioPlayerRef = useRef<AudioPlayerHandle | null>(null);
+  // Centralized single HTMLAudioElement ref and playback state
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
 
   // Re-filter cards whenever settings or master list changes
   const applyFilter = useCallback(
@@ -136,6 +138,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
     (currentCard ? getCardLessonLabel(currentCard) : null) ||
     'Lesson 1';
 
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+  const audioSrc = currentCard?.audio ? `${baseUrl}audio/${currentCard.audio}` : null;
+
   const handleNext = useCallback(() => {
     setIsFlipped(false);
     setCurrentIndex((prev) => (prev + 1 < filteredCards.length ? prev + 1 : 0));
@@ -149,12 +156,41 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const handleFlip = useCallback(() => {
     setIsFlipped((prev) => !prev);
     // Anytime a card is flipped, play the native audio
-    audioPlayerRef.current?.playAudio();
-  }, []);
+    if (audioRef.current && audioSrc) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play().catch(() => {});
+    }
+  }, [audioSrc]);
 
   const handlePlayAudio = useCallback(() => {
-    audioPlayerRef.current?.playAudio();
-  }, []);
+    if (!audioRef.current || !audioSrc) return;
+    if (audioRef.current.paused) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play().catch(() => {});
+    } else {
+      audioRef.current.pause();
+    }
+  }, [audioSrc]);
+
+  // Single-source audio playback controller: stop previous and auto-play new card once
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setIsAudioPlaying(false);
+
+    // If auto-play is enabled and we are showing Greek on the front (greek_to_english), play once
+    if (autoPlayAudio && studyDirection === 'greek_to_english' && audioSrc) {
+      const timer = setTimeout(() => {
+        if (audioRef.current) {
+          audioRef.current.currentTime = 0;
+          audioRef.current.play().catch(() => {});
+        }
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIndex, currentCard?.id, autoPlayAudio, studyDirection, audioSrc]);
 
   const handleShuffle = () => {
     const shuffled = [...filteredCards].sort(() => Math.random() - 0.5);
@@ -333,13 +369,19 @@ export const StudySession: React.FC<StudySessionProps> = ({
     );
   }
 
-  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
-    ? import.meta.env.BASE_URL
-    : `${import.meta.env.BASE_URL}/`;
-  const audioSrc = currentCard.audio ? `${baseUrl}audio/${currentCard.audio}` : null;
-
   return (
     <div className="max-w-3xl mx-auto space-y-6 pb-20">
+      {/* Centralized Native Audio Element (Single-source to prevent double playback) */}
+      <audio
+        ref={audioRef}
+        src={audioSrc || undefined}
+        preload="auto"
+        onPlay={() => setIsAudioPlaying(true)}
+        onPause={() => setIsAudioPlaying(false)}
+        onEnded={() => setIsAudioPlaying(false)}
+        onError={() => setIsAudioPlaying(false)}
+      />
+
       {/* Top Header & Settings Bar */}
       <div className="glass-panel p-4 rounded-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
         {/* Back and Title */}
@@ -604,12 +646,24 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     {currentCard.greek}
                   </h2>
                   <div className="inline-block mt-3" onClick={(e) => e.stopPropagation()}>
-                    <AudioPlayer
-                      ref={audioPlayerRef}
-                      src={audioSrc}
-                      autoPlay={autoPlayAudio}
-                      mini
-                    />
+                    {audioSrc ? (
+                      <button
+                        type="button"
+                        onClick={handlePlayAudio}
+                        title="Play Native Audio (↓)"
+                        className={`p-2 rounded-xl transition-all duration-200 ${
+                          isAudioPlaying
+                            ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30 scale-105'
+                            : 'bg-slate-800 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border border-slate-700'
+                        }`}
+                      >
+                        {isAudioPlaying ? <Pause className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                      </button>
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 italic py-1 px-2.5 rounded-lg bg-slate-800/40 border border-slate-700/50">
+                        <VolumeX className="w-3.5 h-3.5 text-slate-500" /> No audio
+                      </span>
+                    )}
                   </div>
                 </>
               ) : (
@@ -681,12 +735,24 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     </div>
                   )}
                   <div className="inline-block mt-1" onClick={(e) => e.stopPropagation()}>
-                    <AudioPlayer
-                      ref={audioPlayerRef}
-                      src={audioSrc}
-                      autoPlay={autoPlayAudio}
-                      mini
-                    />
+                    {audioSrc ? (
+                      <button
+                        type="button"
+                        onClick={handlePlayAudio}
+                        title="Play Native Audio (↓)"
+                        className={`p-2 rounded-xl transition-all duration-200 ${
+                          isAudioPlaying
+                            ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30 scale-105'
+                            : 'bg-slate-800 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border border-slate-700'
+                        }`}
+                      >
+                        {isAudioPlaying ? <Pause className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                      </button>
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 italic py-1 px-2.5 rounded-lg bg-slate-800/40 border border-slate-700/50">
+                        <VolumeX className="w-3.5 h-3.5 text-slate-500" /> No audio
+                      </span>
+                    )}
                   </div>
                   {currentCard.example_el && (
                     <div className="text-left bg-slate-800/60 p-3 rounded-xl border border-slate-700/60 max-w-md mx-auto">
@@ -714,12 +780,24 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     </div>
                   )}
                   <div className="inline-block mt-2" onClick={(e) => e.stopPropagation()}>
-                    <AudioPlayer
-                      ref={audioPlayerRef}
-                      src={audioSrc}
-                      autoPlay={autoPlayAudio}
-                      mini
-                    />
+                    {audioSrc ? (
+                      <button
+                        type="button"
+                        onClick={handlePlayAudio}
+                        title="Play Native Audio (↓)"
+                        className={`p-2 rounded-xl transition-all duration-200 ${
+                          isAudioPlaying
+                            ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30 scale-105'
+                            : 'bg-slate-800 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border border-slate-700'
+                        }`}
+                      >
+                        {isAudioPlaying ? <Pause className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                      </button>
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 italic py-1 px-2.5 rounded-lg bg-slate-800/40 border border-slate-700/50">
+                        <VolumeX className="w-3.5 h-3.5 text-slate-500" /> No audio
+                      </span>
+                    )}
                   </div>
                   {currentCard.example_el && (
                     <div className="text-left bg-slate-800/60 p-3 rounded-xl border border-slate-700/60 max-w-md mx-auto">
@@ -865,10 +943,14 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* 2. Play Audio button (comes second) */}
           <button
             onClick={handlePlayAudio}
-            className="h-12 inline-flex items-center gap-2 px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 font-semibold text-sm transition-all hover:scale-105 active:scale-95"
+            className={`h-12 inline-flex items-center gap-2 px-4 py-3 rounded-2xl border font-semibold text-sm transition-all hover:scale-105 active:scale-95 ${
+              isAudioPlaying
+                ? 'bg-sky-500 text-white border-sky-400 shadow-lg shadow-sky-500/30'
+                : 'bg-slate-800 hover:bg-slate-700 text-sky-300 border-slate-700'
+            }`}
             title="Play Audio (↓ Down Arrow)"
           >
-            <Volume2 className="w-4 h-4" /> [↓]
+            {isAudioPlaying ? <Pause className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />} [↓]
           </button>
 
           {/* 3. Flip button (comes third) */}
