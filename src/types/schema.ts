@@ -33,7 +33,9 @@ export interface Lesson {
 export interface Unit {
   id: string;
   title: string;
-  order: number;
+  order: number | string;
+  is_expansion?: boolean;
+  expansion_of?: string;
   lessons: Lesson[];
   total_entries?: number;
   verified_entries?: number;

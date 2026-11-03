@@ -11181,7 +11181,7 @@
     {
       "id": "unit-105b",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ - Γραμματική & Προτάσεις)",
-      "order": 106,
+      "order": "105B",
       "lessons": [
         {
           "unit_id": "unit-105b",
@@ -12021,6 +12021,7 @@
               "keg_communicative_function": "Expressing recurring lifestyle habits with 'συνήθως' and 'σπάνια'"
             }
           ],
+          "description": "Expansion & Complementary to Lesson 105: Sentence structures, syntax patterns, accusative direct objects, irregular verbs, and time-telling.",
           "lesson_status": "not_started",
           "lesson_notes": "",
           "total_entries": 52,
@@ -12028,6 +12029,8 @@
           "coverage_percentage": 100.0
         }
       ],
+      "is_expansion": true,
+      "expansion_of": "105",
       "total_entries": 52,
       "verified_entries": 52,
       "coverage_percentage": 100.0

@@ -896,12 +896,15 @@ def main():
     unit_105b_entry = {
         "id": "unit-105b",
         "title": "Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ - Γραμματική & Προτάσεις)",
-        "order": 106,
+        "order": "105B",
+        "is_expansion": True,
+        "expansion_of": "105",
         "lessons": [
             {
                 "id": "lesson-01",
                 "file": "unit-105b/lesson-01.yaml",
-                "title": "Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες (Pages 87-110)"
+                "title": "Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες (Pages 87-110)",
+                "description": "Expansion & Complementary to Lesson 105: Sentence structures, syntax patterns, accusative direct objects, irregular verbs, and time-telling."
             }
         ]
     }

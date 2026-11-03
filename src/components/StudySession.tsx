@@ -110,13 +110,17 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const srsData = currentCard ? getCardSRS(currentCard.id, activeUser.id) : null;
   const ratingStatus = currentCard ? getCardRatingStatus(srsData || undefined) : null;
 
-  // Helper to extract lesson label from card ID (e.g., A1-U01-001 -> "Lesson 1", A1-U101-001 -> "Lesson 101")
+  // Helper to extract lesson label from card ID (e.g., A1-U01-001 -> "Lesson 1", A1-U101-001 -> "Lesson 101", A1-U105B-001 -> "Lesson 105B")
   const getCardLessonLabel = (card?: CardEntry): string | null => {
     if (!card?.id) return null;
-    const match = card.id.match(/U(\d+)/i);
+    const match = card.id.match(/U(\d+[A-Za-z]?)/i);
     if (match) {
-      const num = parseInt(match[1], 10);
-      return `Lesson ${num}`;
+      const code = match[1].toUpperCase();
+      const numMatch = code.match(/^0*(\d+)([A-Za-z]?)$/);
+      if (numMatch) {
+        return `Lesson ${numMatch[1]}${numMatch[2]}`;
+      }
+      return `Lesson ${code}`;
     }
     return null;
   };
@@ -124,8 +128,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const formatLessonLabel = (val?: string): string | null => {
     if (!val) return null;
     if (val.toLowerCase().startsWith('lesson')) return val;
-    const num = parseInt(val.replace(/\D+/g, ''), 10);
-    return isNaN(num) ? val : `Lesson ${num}`;
+    return `Lesson ${val}`;
   };
 
   const displayLessonLabel =
@@ -356,6 +359,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
               <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 border border-slate-700">
                 {displayLessonLabel}
               </span>
+              {(displayLessonLabel?.includes('105B') || title?.includes('105B') || (currentCard?.id && currentCard.id.includes('U105B'))) && (
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
+                  Expansion • Complementary to Lesson 105
+                </span>
+              )}
             </div>
             <div className="text-xs text-slate-400">
               Card {currentIndex + 1} of {filteredCards.length}

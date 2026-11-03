@@ -479,7 +479,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <div key={unit.id} className="glass-panel rounded-2xl p-6 border-slate-800 hover:border-slate-700 transition-all">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-slate-800">
                   <div>
-                    <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Unit {unit.order}</span>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Unit {unit.order}</span>
+                      {(unit.is_expansion || unit.id === 'unit-105b' || String(unit.order).toUpperCase() === '105B') && (
+                        <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
+                          Expansion • Complementary to Unit {unit.expansion_of || '105'}
+                        </span>
+                      )}
+                    </div>
                     <h3 className="text-lg font-bold text-white">{unit.title}</h3>
                   </div>
                   <div className="flex items-center gap-3">
@@ -507,9 +514,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           <h4 className="font-semibold text-white text-sm group-hover:text-sky-300 transition-colors truncate">
                             {lesson.title}
                           </h4>
-                          <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-slate-900/60 text-slate-300 border border-slate-700 flex-shrink-0">
-                            {lesson.entries.length} cards
-                          </span>
+                          <div className="flex items-center gap-1.5 flex-shrink-0">
+                            {(unit.is_expansion || unit.id === 'unit-105b' || String(unit.order).toUpperCase() === '105B') && (
+                              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-purple-950/80 text-purple-300 border border-purple-700/60">
+                                105B Expansion
+                              </span>
+                            )}
+                            <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-slate-900/60 text-slate-300 border border-slate-700">
+                              {lesson.entries.length} cards
+                            </span>
+                          </div>
                         </div>
 
                         {lesson.description && (

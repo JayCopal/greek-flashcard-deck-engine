@@ -410,7 +410,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             >
               {units.map((u) => (
                 <option key={u.id} value={u.id}>
-                  Unit {u.order}: {u.title}
+                  Unit {u.order}{u.is_expansion || u.id === 'unit-105b' || String(u.order).toUpperCase() === '105B' ? ' (Expansion)' : ''}: {u.title}
                 </option>
               ))}
             </select>
@@ -486,10 +486,15 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       <div className="glass-panel p-6 rounded-2xl border-slate-800 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <div className="flex items-center gap-2 mb-1">
+            <div className="flex flex-wrap items-center gap-2 mb-1">
               <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
                 Unit {currentUnit?.order}: {currentUnit?.title}
               </span>
+              {(currentUnit?.is_expansion || currentUnit?.id === 'unit-105b' || String(currentUnit?.order).toUpperCase() === '105B') && (
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
+                  Expansion • Complementary to Unit {currentUnit?.expansion_of || '105'}
+                </span>
+              )}
             </div>
             <h2 className="text-2xl font-bold text-white tracking-tight">
               {currentLesson?.title}
