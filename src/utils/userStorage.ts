@@ -291,6 +291,25 @@ export function getUserLessonStatusMap(userId?: string): Record<string, LessonSt
   }
 }
 
+const VALID_LESSON_STATUSES: Set<string> = new Set([
+  'not_started',
+  'in_progress',
+  'in_progress_1',
+  'in_progress_2',
+  'in_progress_3',
+  'learned',
+]);
+
+function isLessonStatus(val: any): val is LessonStatus {
+  return typeof val === 'string' && VALID_LESSON_STATUSES.has(val);
+}
+
+function normalizeLessonStatus(status: LessonStatus | string | undefined): LessonStatus {
+  if (!status) return 'not_started';
+  if (status === 'in_progress') return 'in_progress_1';
+  return status as LessonStatus;
+}
+
 export function getUserLessonStatus(
   unitIdOrLessonId: string,
   lessonIdOrFallback?: string | LessonStatus,
@@ -302,28 +321,22 @@ export function getUserLessonStatus(
   let effectiveFallback: LessonStatus;
   let effectiveUserId: string | undefined;
 
-  if (
-    lessonIdOrFallback === 'not_started' ||
-    lessonIdOrFallback === 'in_progress' ||
-    lessonIdOrFallback === 'learned' ||
-    lessonIdOrFallback === undefined
-  ) {
+  if (isLessonStatus(lessonIdOrFallback) || lessonIdOrFallback === undefined) {
     // Single ID signature: getUserLessonStatus(lessonId, fallback, userId)
     compositeKey = unitIdOrLessonId;
-    effectiveFallback = (lessonIdOrFallback as LessonStatus) || fallback || 'not_started';
+    effectiveFallback = normalizeLessonStatus((lessonIdOrFallback as LessonStatus) || fallback);
     effectiveUserId = userId;
   } else {
     // Two-part signature: getUserLessonStatus(unitId, lessonId, fallback, userId)
     compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrFallback);
-    effectiveFallback = fallback || 'not_started';
+    effectiveFallback = normalizeLessonStatus(fallback);
     effectiveUserId = userId;
   }
 
   const map = getUserLessonStatusMap(effectiveUserId);
   // Check exact composite key first
-  if (map[compositeKey]) return map[compositeKey];
+  if (map[compositeKey]) return normalizeLessonStatus(map[compositeKey]);
 
-  // If key is not in map, return fallback (do not fall back to collision-prone "lesson-01")
   return effectiveFallback;
 }
 
@@ -337,19 +350,15 @@ export function setUserLessonStatus(
   let status: LessonStatus;
   let effectiveUserId: string | undefined;
 
-  if (
-    lessonIdOrStatus === 'not_started' ||
-    lessonIdOrStatus === 'in_progress' ||
-    lessonIdOrStatus === 'learned'
-  ) {
+  if (isLessonStatus(lessonIdOrStatus)) {
     // Single ID signature: setUserLessonStatus(lessonId, status, userId)
     compositeKey = unitIdOrLessonId;
-    status = lessonIdOrStatus as LessonStatus;
+    status = normalizeLessonStatus(lessonIdOrStatus as LessonStatus);
     effectiveUserId = statusOrUserId as string | undefined;
   } else {
     // Two-part signature: setUserLessonStatus(unitId, lessonId, status, userId)
     compositeKey = getLessonCompositeKey(unitIdOrLessonId, lessonIdOrStatus);
-    status = statusOrUserId as LessonStatus;
+    status = normalizeLessonStatus(statusOrUserId as LessonStatus);
     effectiveUserId = userId;
   }
 

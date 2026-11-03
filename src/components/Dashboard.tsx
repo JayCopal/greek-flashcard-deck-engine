@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { DeckData, Lesson, Unit, LessonStatus } from '../types/schema';
 import { getAllSRSData, isCardDue, getCardRatingStatus } from '../utils/srs';
 import { getUserLessonStatus, setUserLessonStatus, getUserLessonNotes, getActiveUser } from '../utils/userStorage';
+import { parseLessonCode, formatLessonLabel, getGroupTitle, extractUnitContext } from '../utils/unitNaming';
 import { 
   BookOpen, 
   Layers, 
@@ -33,18 +34,21 @@ interface DashboardProps {
     title: string,
     lessonNotes?: string,
     lessonNumber?: string,
-    options?: { hideExcluded?: boolean; hideLearned?: boolean }
+    options?: { hideExcluded?: boolean; hideLearned?: boolean },
+    unitId?: string,
+    lessonId?: string
   ) => void;
   onRefresh: () => void;
 }
 
-type TrackFilter = 'all' | 'core' | 'textbook';
-type StatusFilter = 'all' | 'not_started' | 'in_progress' | 'learned';
+type GroupFilter = 'all' | string;
+type StatusFilter = 'all' | 'not_started' | 'in_progress_1' | 'in_progress_2' | 'in_progress_3' | 'learned';
 
-interface ParsedUnitInfo {
+interface ParsedLessonInfo {
   primaryTitle: string;
   subtitle?: string;
-  trackLabel: string;
+  groupLabel: string;
+  unitContext: string;
   pageRange?: string;
   isTextbook: boolean;
   isExpansion: boolean;
@@ -52,13 +56,42 @@ interface ParsedUnitInfo {
 }
 
 /**
- * Intelligent parser that extracts clean Greek title, subtitle, textbook page ranges,
- * and track metadata while eliminating all duplicated titles.
+ * Helper that returns color-coded Tailwind classes for the 5 lesson statuses
  */
-function parseUnitInfo(unit: Unit, primaryLesson?: Lesson): ParsedUnitInfo {
-  const isTextbook = String(unit.order).toUpperCase().startsWith('10') || Number(unit.order) >= 100;
-  const isExpansion = Boolean(unit.is_expansion || unit.id === 'unit-105b' || String(unit.order).toUpperCase() === '105B');
-  const expansionTarget = unit.expansion_of || (isExpansion ? '105' : undefined);
+export function getLessonStatusClasses(status: LessonStatus): string {
+  switch (status) {
+    case 'learned':
+      return 'bg-emerald-950/90 text-emerald-300 border-emerald-600/70 hover:bg-emerald-900';
+    case 'in_progress_3':
+      return 'bg-purple-950/90 text-purple-300 border-purple-600/70 hover:bg-purple-900';
+    case 'in_progress_2':
+      return 'bg-amber-950/90 text-amber-300 border-amber-600/70 hover:bg-amber-900';
+    case 'in_progress_1':
+    case 'in_progress':
+      return 'bg-sky-950/90 text-sky-300 border-sky-600/70 hover:bg-sky-900';
+    case 'not_started':
+    default:
+      return 'bg-slate-900/90 text-slate-400 border-slate-700 hover:text-slate-200';
+  }
+}
+
+/**
+ * Intelligent parser that extracts clean Greek title, subtitle, textbook page ranges,
+ * group metadata, and thematic unit context without repeating titles.
+ */
+function parseLessonInfo(unit: Unit, primaryLesson?: Lesson): ParsedLessonInfo {
+  const code = parseLessonCode(unit.order || unit.id);
+  const isTextbook = code.group.toLowerCase().startsWith('klik') || 
+    String(unit.order).toUpperCase().startsWith('10') || 
+    Number(unit.order) >= 100 ||
+    unit.id.startsWith('unit-10');
+  const isExpansion = Boolean(
+    unit.is_expansion || 
+    code.suffix !== 'A' || 
+    unit.id === 'unit-105b' || 
+    String(unit.order).toUpperCase().endsWith('B')
+  );
+  const expansionTarget = unit.expansion_of || (isExpansion ? `${code.group}-${String(code.orderNum).padStart(2, '0')}-A` : undefined);
 
   // Extract page ranges if present (e.g., "Pages 25-41" or "Σελίδες 25-41")
   const combinedText = `${unit.title} ${primaryLesson?.title || ''}`;
@@ -66,6 +99,7 @@ function parseUnitInfo(unit: Unit, primaryLesson?: Lesson): ParsedUnitInfo {
   const pageRange = pageMatch ? pageMatch[1].trim() : undefined;
 
   const rawTitle = primaryLesson?.title || unit.title;
+  const unitContext = extractUnitContext(unit.title, unit.order);
 
   if (isTextbook) {
     let clean = rawTitle;
@@ -77,7 +111,8 @@ function parseUnitInfo(unit: Unit, primaryLesson?: Lesson): ParsedUnitInfo {
     return {
       primaryTitle: clean,
       subtitle: primaryLesson?.description || (isExpansion ? 'Grammar patterns, sentence syntax & accusative expressions' : undefined),
-      trackLabel: 'Κλικ στα Ελληνικά Α1',
+      groupLabel: getGroupTitle(code.group),
+      unitContext,
       pageRange: pageRange ? `pp. ${pageRange}` : undefined,
       isTextbook: true,
       isExpansion,
@@ -91,7 +126,8 @@ function parseUnitInfo(unit: Unit, primaryLesson?: Lesson): ParsedUnitInfo {
     return {
       primaryTitle: parenMatch[1].trim(),
       subtitle: parenMatch[2].trim(),
-      trackLabel: 'Core Foundations',
+      groupLabel: getGroupTitle(code.group),
+      unitContext,
       isTextbook: false,
       isExpansion: false,
     };
@@ -100,7 +136,8 @@ function parseUnitInfo(unit: Unit, primaryLesson?: Lesson): ParsedUnitInfo {
   return {
     primaryTitle: rawTitle,
     subtitle: primaryLesson?.description,
-    trackLabel: 'Core Foundations',
+    groupLabel: getGroupTitle(code.group),
+    unitContext,
     isTextbook: false,
     isExpansion: false,
   };
@@ -118,10 +155,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [, setVersion] = useState(0);
 
   // Filter and search states
-  const [trackFilter, setTrackFilter] = useState<TrackFilter>('all');
+  const [groupFilter, setGroupFilter] = useState<GroupFilter>('all');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [viewingNotesLesson, setViewingNotesLesson] = useState<{ lesson: Lesson; unitOrder: string | number } | null>(null);
+  const [viewingNotesLesson, setViewingNotesLesson] = useState<{ lesson: Lesson; lessonLabel: string } | null>(null);
 
   useEffect(() => {
     const handleUpdate = () => {
@@ -174,9 +211,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   // Compute lesson status statistics for active user
   const allLessons = useMemo(() => units.flatMap((u) => u.lessons), [units]);
-  const lessonsInProgressCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress').length, [allLessons, activeUser.id]);
-  const lessonsLearnedCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'learned').length, [allLessons, activeUser.id]);
   const lessonsNotStartedCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'not_started').length, [allLessons, activeUser.id]);
+  const lessonsInProgress1Count = useMemo(() => allLessons.filter((l) => {
+    const s = getEffectiveLessonStatus(l);
+    return s === 'in_progress_1' || s === 'in_progress';
+  }).length, [allLessons, activeUser.id]);
+  const lessonsInProgress2Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_2').length, [allLessons, activeUser.id]);
+  const lessonsInProgress3Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_3').length, [allLessons, activeUser.id]);
+  const lessonsLearnedCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'learned').length, [allLessons, activeUser.id]);
 
   const handleQuickLessonStatusChange = async (unitId: string, lessonId: string, newStatus: LessonStatus) => {
     setUserLessonStatus(unitId, lessonId, newStatus, activeUser.id);
@@ -212,18 +254,46 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
+  // Dynamically group curriculum collections (e.g. Original Content [OG], Klik A1 [KlikA1], Klik A2 [KlikA2], etc.)
+  const availableGroups = useMemo(() => {
+    const groupMap = new Map<string, { id: string; name: string; lessonsCount: number; cardsCount: number }>();
+    for (const unit of units) {
+      const code = parseLessonCode(unit.order || unit.id);
+      const groupId = code.group;
+      const existing = groupMap.get(groupId);
+      const cardCount = unit.lessons.flatMap((l) => l.entries).length;
+      if (existing) {
+        existing.lessonsCount += 1;
+        existing.cardsCount += cardCount;
+      } else {
+        groupMap.set(groupId, {
+          id: groupId,
+          name: getGroupTitle(groupId),
+          lessonsCount: 1,
+          cardsCount: cardCount,
+        });
+      }
+    }
+    return Array.from(groupMap.values());
+  }, [units]);
+
   // Filtered units computation
   const filteredUnits = useMemo(() => {
     return units.filter((unit) => {
-      const isTextbook = String(unit.order).toUpperCase().startsWith('10') || Number(unit.order) >= 100;
+      const code = parseLessonCode(unit.order || unit.id);
       
-      // Track filter
-      if (trackFilter === 'core' && isTextbook) return false;
-      if (trackFilter === 'textbook' && !isTextbook) return false;
+      // Group filter (OG, KlikA1, KlikA2, etc.)
+      if (groupFilter !== 'all' && code.group.toLowerCase() !== groupFilter.toLowerCase()) {
+        return false;
+      }
 
       // Status filter: match if any lesson in the unit matches the status
       if (statusFilter !== 'all') {
-        const hasMatchingStatus = unit.lessons.some((l) => getEffectiveLessonStatus(l) === statusFilter);
+        const hasMatchingStatus = unit.lessons.some((l) => {
+          const s = getEffectiveLessonStatus(l);
+          if (statusFilter === 'in_progress_1') return s === 'in_progress_1' || s === 'in_progress';
+          return s === statusFilter;
+        });
         if (!hasMatchingStatus) return false;
       }
 
@@ -231,10 +301,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
         const primaryLesson = unit.lessons[0];
-        const parsed = parseUnitInfo(unit, primaryLesson);
+        const parsed = parseLessonInfo(unit, primaryLesson);
         const matchTitle = unit.title.toLowerCase().includes(q) || 
           parsed.primaryTitle.toLowerCase().includes(q) || 
           (parsed.subtitle && parsed.subtitle.toLowerCase().includes(q)) ||
+          parsed.unitContext.toLowerCase().includes(q) ||
+          code.formatted.toLowerCase().includes(q) ||
+          code.group.toLowerCase().includes(q) ||
           String(unit.order).toLowerCase().includes(q);
         
         const matchCards = unit.lessons.some(l => 
@@ -246,18 +319,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
       return true;
     });
-  }, [units, trackFilter, statusFilter, searchQuery, activeUser.id]);
+  }, [units, groupFilter, statusFilter, searchQuery, activeUser.id]);
 
-  // Split into sections when viewing 'all' with no active search/status filter
-  const isDefaultView = trackFilter === 'all' && statusFilter === 'all' && !searchQuery.trim();
-  const coreUnits = useMemo(() => filteredUnits.filter((u) => !String(u.order).toUpperCase().startsWith('10') && Number(u.order) < 100), [filteredUnits]);
-  const textbookUnits = useMemo(() => filteredUnits.filter((u) => String(u.order).toUpperCase().startsWith('10') || Number(u.order) >= 100), [filteredUnits]);
+  // Is viewing default all groups & no search
+  const isDefaultView = groupFilter === 'all' && statusFilter === 'all' && !searchQuery.trim();
 
-  // Render a clean, unified Unit Card (no duplicated title, no nested box)
-  const renderUnitCard = (unit: Unit) => {
+  // Render a clean, unified Lesson Card with distinct Group, Unit, and Lesson context
+  const renderLessonCard = (unit: Unit) => {
     const isSingleLesson = unit.lessons.length === 1;
     const primaryLesson = unit.lessons[0];
-    const parsed = parseUnitInfo(unit, primaryLesson);
+    const parsed = parseLessonInfo(unit, primaryLesson);
+    const code = parseLessonCode(unit.order || unit.id);
+    const lessonLabel = formatLessonLabel(unit);
     
     // Aggregate cards & progress
     const unitCards = unit.lessons.flatMap((l) => l.entries);
@@ -275,30 +348,36 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {/* Card Top Metadata & Status Row */}
           <div className="flex flex-wrap items-center justify-between gap-2.5 mb-3.5">
             <div className="flex flex-wrap items-center gap-2">
-              {/* Unit Order Pill */}
+              {/* Lesson Code Pill */}
               <span className="px-2.5 py-1 rounded-lg text-xs font-black tracking-wider uppercase bg-sky-500/15 text-sky-400 border border-sky-500/30 shadow-sm">
-                Unit {unit.order}
+                {lessonLabel}
               </span>
 
-              {/* Track / Curriculum Tag */}
-              {parsed.isTextbook ? (
-                <span className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-indigo-950/70 text-indigo-300 border border-indigo-700/50 flex items-center gap-1.5">
-                  <BookMarked className="w-3.5 h-3.5 text-indigo-400" />
-                  <span>Κλικ στα Ελληνικά Α1</span>
+              {/* Group Badge */}
+              <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${
+                parsed.isTextbook 
+                  ? 'bg-indigo-950/70 text-indigo-300 border-indigo-700/50' 
+                  : 'bg-slate-800 text-slate-300 border-slate-700'
+              }`}>
+                {parsed.isTextbook && <BookMarked className="w-3.5 h-3.5 text-indigo-400" />}
+                <span>Group: {code.group}</span>
+              </span>
+
+              {/* Thematic Unit Context */}
+              {parsed.unitContext && (
+                <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-900/90 text-slate-300 border border-slate-800 flex items-center gap-1">
+                  <span className="text-slate-400">Unit:</span>
+                  <span className="text-slate-200">{parsed.unitContext}</span>
                   {parsed.pageRange && (
-                    <span className="text-indigo-200 font-mono text-[10px] opacity-90">• {parsed.pageRange}</span>
+                    <span className="text-slate-400 font-mono text-[10px] ml-1">• {parsed.pageRange}</span>
                   )}
-                </span>
-              ) : (
-                <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-800 text-slate-300 border border-slate-700">
-                  Core Foundations
                 </span>
               )}
 
               {/* Expansion Badge */}
               {parsed.isExpansion && (
                 <span className="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-purple-950/80 text-purple-300 border border-purple-600/60 shadow-sm">
-                  Expansion • Unit {parsed.expansionTarget || '105'}
+                  Expansion of Lesson {parsed.expansionTarget || 'KlikA1-05-A'}
                 </span>
               )}
             </div>
@@ -308,26 +387,22 @@ export const Dashboard: React.FC<DashboardProps> = ({
               {isSingleLesson && primaryLesson && (
                 <>
                   <select
-                    value={unitEffectiveStatus}
+                    value={unitEffectiveStatus === 'in_progress' ? 'in_progress_1' : unitEffectiveStatus}
                     onChange={(e) => handleQuickLessonStatusChange(unit.id, primaryLesson.lesson_id, e.target.value as LessonStatus)}
-                    className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-sky-500 ${
-                      unitEffectiveStatus === 'learned'
-                        ? 'bg-emerald-950/90 text-emerald-300 border-emerald-600/70 hover:bg-emerald-900'
-                        : unitEffectiveStatus === 'in_progress'
-                        ? 'bg-amber-950/90 text-amber-300 border-amber-600/70 hover:bg-amber-900'
-                        : 'bg-slate-900/90 text-slate-400 border-slate-700 hover:text-slate-200'
-                    }`}
-                    title="Change Unit Mastery Status"
+                    className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-sky-500 ${getLessonStatusClasses(unitEffectiveStatus)}`}
+                    title="Change Lesson Mastery Status"
                   >
                     <option value="not_started">⚪ Not Started</option>
-                    <option value="in_progress">🟡 In Progress</option>
+                    <option value="in_progress_1">🔵 In Progress 1</option>
+                    <option value="in_progress_2">🟡 In Progress 2</option>
+                    <option value="in_progress_3">🟣 In Progress 3</option>
                     <option value="learned">🟢 Learned</option>
                   </select>
 
                   {notes && (
                     <button
                       type="button"
-                      onClick={() => setViewingNotesLesson({ lesson: primaryLesson, unitOrder: unit.order })}
+                      onClick={() => setViewingNotesLesson({ lesson: primaryLesson, lessonLabel })}
                       className="px-2.5 py-1 rounded-lg bg-sky-950/70 text-sky-400 hover:bg-sky-900/80 border border-sky-800 text-[11px] font-bold flex items-center gap-1.5 transition-colors shadow-sm"
                       title="View Lesson Notes"
                     >
@@ -382,19 +457,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
                       <div className="flex items-center gap-2 self-end sm:self-auto shrink-0">
                         <select
-                          value={lessonStatus}
+                          value={lessonStatus === 'in_progress' ? 'in_progress_1' : lessonStatus}
                           onChange={(e) => handleQuickLessonStatusChange(unit.id, lesson.lesson_id, e.target.value as LessonStatus)}
-                          className="text-[10px] font-bold px-2 py-1 rounded-md bg-slate-800 border border-slate-700 text-slate-300 cursor-pointer"
+                          className={`text-[10px] font-bold px-2 py-1 rounded-md border cursor-pointer ${getLessonStatusClasses(lessonStatus)}`}
                         >
                           <option value="not_started">⚪ Not Started</option>
-                          <option value="in_progress">🟡 In Progress</option>
+                          <option value="in_progress_1">🔵 In Progress 1</option>
+                          <option value="in_progress_2">🟡 In Progress 2</option>
+                          <option value="in_progress_3">🟣 In Progress 3</option>
                           <option value="learned">🟢 Learned</option>
                         </select>
 
                         {lessonNotes && (
                           <button
                             type="button"
-                            onClick={() => setViewingNotesLesson({ lesson, unitOrder: unit.order })}
+                            onClick={() => setViewingNotesLesson({ lesson, lessonLabel: `${lessonLabel} #${idx + 1}` })}
                             className="p-1.5 rounded-lg bg-sky-950/80 text-sky-400 hover:bg-sky-900 border border-sky-800 text-xs"
                             title="Notes"
                           >
@@ -411,7 +488,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         </button>
 
                         <button
-                          onClick={() => onStartStudy(lesson.entries, lesson.title, lessonNotes, `Unit ${unit.order}`)}
+                          onClick={() => onStartStudy(lesson.entries, lesson.title, lessonNotes, lessonLabel, undefined, unit.id, lesson.lesson_id)}
                           className="px-2.5 py-1 rounded-lg bg-sky-500 hover:bg-sky-400 text-white font-semibold text-xs flex items-center gap-1 shadow-sm"
                           title="Drill Lesson"
                         >
@@ -471,20 +548,20 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </button>
             )}
 
-            {/* Study Unit Primary Button */}
+            {/* Study Lesson Primary Button */}
             <button
               type="button"
               onClick={() => {
                 const targetCards = unitCards;
                 const titleToUse = parsed.primaryTitle;
-                onStartStudy(targetCards, titleToUse, notes, `Unit ${unit.order}`);
+                onStartStudy(targetCards, titleToUse, notes, lessonLabel, undefined, unit.id, primaryLesson?.lesson_id);
               }}
               disabled={unitCards.length === 0}
               className="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 active:scale-95 text-white font-bold text-xs shadow-md shadow-sky-500/20 transition-all flex items-center gap-1.5 ml-auto disabled:opacity-40"
-              title={`Practice all ${unitCards.length} cards in this unit`}
+              title={`Practice all ${unitCards.length} cards in this lesson`}
             >
               <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Study Unit ({unitCards.length})</span>
+              <span>Study Lesson ({unitCards.length})</span>
             </button>
           </div>
         </div>
@@ -501,13 +578,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/15 border border-sky-500/30 text-sky-300 text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5 text-sky-400" />
-              <span>Modern Greek (CEFR A1) • Chirp 3 HD & FSRS Engine</span>
+              <span>Modern Greek (CEFR A1) • Studio Audio & FSRS Engine</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
               {manifest.deck_title}
             </h1>
             <p className="text-slate-400 text-sm max-w-2xl leading-relaxed">
-              Native Greek pronunciation verified with Google Cloud Chirp 3 HD. Local-first YAML source of truth with FSRS spaced repetition and full offline PWA support.
+              Native Greek pronunciation verified with studio-quality audio. Local-first YAML source of truth with FSRS spaced repetition and full offline PWA support.
             </p>
           </div>
 
@@ -566,7 +643,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <span className="text-3xl font-extrabold text-white">{stats.total_entries}</span>
               <span className="text-xs text-slate-400">cards</span>
             </div>
-            <p className="text-[11px] text-slate-500 mt-1">{units.length} units in deck</p>
+            <p className="text-[11px] text-slate-500 mt-1">{units.length} lessons in deck</p>
           </div>
         </div>
 
@@ -606,7 +683,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <span className="text-3xl font-extrabold text-teal-400">{stats.verified_count}</span>
               <span className="text-xs text-teal-500/90 font-medium">({stats.coverage_percentage}%)</span>
             </div>
-            <p className="text-[11px] text-teal-600/90 mt-1">Chirp 3 HD pronunciation</p>
+            <p className="text-[11px] text-teal-600/90 mt-1">Studio-quality pronunciation</p>
           </div>
         </div>
 
@@ -819,17 +896,17 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
       </div>
 
-      {/* Curriculum & Units Section */}
+      {/* Curriculum Groups & Lessons Section */}
       <div className="space-y-6">
         {/* Section Header with Search & Controls */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2.5">
               <BookOpen className="w-5 h-5 text-sky-400" />
-              <span>Curriculum & Learning Units</span>
+              <span>Curriculum Groups & Lessons</span>
             </h2>
             <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
-              Browse foundational topics and structured textbook units
+              Browse curriculum groups, thematic units, and structured lessons
             </p>
           </div>
 
@@ -841,7 +918,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search unit or words..."
+                placeholder="Search lessons, units or words..."
                 className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-700 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
               />
               {searchQuery && (
@@ -866,43 +943,41 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
         </div>
 
-        {/* Filter Navigation Bar: Track Selection & Status Filtering */}
+        {/* Filter Navigation Bar: Group Selection & Status Filtering */}
         <div className="glass-panel p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-slate-800">
-          {/* Track Filter (All vs Core vs Textbook) */}
-          <div className="flex items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
+          {/* Group Filter (Dynamic Groups) */}
+          <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
             <button
               type="button"
-              onClick={() => setTrackFilter('all')}
+              onClick={() => setGroupFilter('all')}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                trackFilter === 'all'
+                groupFilter === 'all'
                   ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              All Curriculum ({units.length})
+              All Groups ({units.length})
             </button>
-            <button
-              type="button"
-              onClick={() => setTrackFilter('core')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                trackFilter === 'core'
-                  ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              Core Units (1–6)
-            </button>
-            <button
-              type="button"
-              onClick={() => setTrackFilter('textbook')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                trackFilter === 'textbook'
-                  ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              Κλικ στα Ελληνικά Α1 (101+)
-            </button>
+            {availableGroups.map((group) => {
+              const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
+              const isKlik = group.id.toLowerCase().startsWith('klik');
+              return (
+                <button
+                  key={group.id}
+                  type="button"
+                  onClick={() => setGroupFilter(group.id)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                    isSelected
+                      ? isKlik
+                        ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+                        : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                      : 'text-slate-400 hover:text-white'
+                  }`}
+                >
+                  {group.name} ({group.lessonsCount})
+                </button>
+              );
+            })}
           </div>
 
           {/* Status Filter */}
@@ -923,15 +998,51 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </button>
             <button
               type="button"
-              onClick={() => setStatusFilter('in_progress')}
+              onClick={() => setStatusFilter('not_started')}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'in_progress'
+                statusFilter === 'not_started'
+                  ? 'bg-slate-600 text-white shadow-sm'
+                  : 'bg-slate-800/80 text-slate-400 hover:text-white'
+              }`}
+            >
+              <CircleDot className="w-3 h-3 text-slate-400" />
+              <span>Not Started ({lessonsNotStartedCount})</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setStatusFilter('in_progress_1')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                statusFilter === 'in_progress_1'
+                  ? 'bg-sky-500 text-slate-950 font-bold shadow-sm shadow-sky-500/25'
+                  : 'bg-slate-800/80 text-slate-400 hover:text-sky-300'
+              }`}
+            >
+              <Clock className="w-3 h-3 text-sky-400" />
+              <span>In Progress 1 ({lessonsInProgress1Count})</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setStatusFilter('in_progress_2')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                statusFilter === 'in_progress_2'
                   ? 'bg-amber-500 text-slate-950 font-bold shadow-sm shadow-amber-500/25'
                   : 'bg-slate-800/80 text-slate-400 hover:text-amber-300'
               }`}
             >
               <Clock className="w-3 h-3 text-amber-400" />
-              <span>In Progress ({lessonsInProgressCount})</span>
+              <span>In Progress 2 ({lessonsInProgress2Count})</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setStatusFilter('in_progress_3')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                statusFilter === 'in_progress_3'
+                  ? 'bg-purple-500 text-slate-950 font-bold shadow-sm shadow-purple-500/25'
+                  : 'bg-slate-800/80 text-slate-400 hover:text-purple-300'
+              }`}
+            >
+              <Clock className="w-3 h-3 text-purple-400" />
+              <span>In Progress 3 ({lessonsInProgress3Count})</span>
             </button>
             <button
               type="button"
@@ -945,33 +1056,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <CheckCircle className="w-3 h-3 text-emerald-400" />
               <span>Learned ({lessonsLearnedCount})</span>
             </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('not_started')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'not_started'
-                  ? 'bg-slate-600 text-white shadow-sm'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-white'
-              }`}
-            >
-              <CircleDot className="w-3 h-3 text-slate-400" />
-              <span>Not Started ({lessonsNotStartedCount})</span>
-            </button>
           </div>
         </div>
 
-        {/* Units Presentation List */}
+        {/* Lessons Presentation List */}
         {filteredUnits.length === 0 ? (
           <div className="glass-panel p-12 rounded-3xl text-center space-y-3 border-slate-800">
             <BookOpen className="w-10 h-10 text-slate-600 mx-auto" />
-            <h3 className="text-base font-bold text-white">No matching units found</h3>
+            <h3 className="text-base font-bold text-white">No matching lessons found</h3>
             <p className="text-xs text-slate-400 max-w-sm mx-auto">
-              No units matched your active filters or search query. Try clearing filters to see all units.
+              No lessons matched your active filters or search query. Try clearing filters to see all lessons.
             </p>
             <button
               type="button"
               onClick={() => {
-                setTrackFilter('all');
+                setGroupFilter('all');
                 setStatusFilter('all');
                 setSearchQuery('');
               }}
@@ -981,48 +1080,34 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </button>
           </div>
         ) : isDefaultView ? (
-          /* Structured Sections in default view */
+          /* Structured Sections in default view grouped by Curriculum Group */
           <div className="space-y-8">
-            {/* Section 1: Core Conversational Foundations */}
-            {coreUnits.length > 0 && (
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 pb-1 border-b border-slate-800">
-                  <span className="w-2.5 h-2.5 rounded-full bg-sky-400" />
-                  <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                    Core Conversational Foundations (Units 1–6)
-                  </h3>
-                  <span className="text-xs text-slate-400 font-medium ml-auto">
-                    {coreUnits.length} units
-                  </span>
+            {availableGroups.map((group) => {
+              const groupUnits = filteredUnits.filter((u) => parseLessonCode(u.order || u.id).group.toLowerCase() === group.id.toLowerCase());
+              if (groupUnits.length === 0) return null;
+              const isKlik = group.id.toLowerCase().startsWith('klik');
+              return (
+                <div key={group.id} className="space-y-4">
+                  <div className="flex items-center gap-2 pb-1.5 border-b border-slate-800">
+                    <span className={`w-2.5 h-2.5 rounded-full ${isKlik ? 'bg-indigo-400' : 'bg-sky-400'}`} />
+                    <h3 className="text-base font-bold text-white uppercase tracking-wider">
+                      Group: {group.name}
+                    </h3>
+                    <span className="text-xs text-slate-400 font-medium ml-auto">
+                      {groupUnits.length} {groupUnits.length === 1 ? 'lesson' : 'lessons'} ({group.cardsCount} cards)
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    {groupUnits.map(renderLessonCard)}
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                  {coreUnits.map(renderUnitCard)}
-                </div>
-              </div>
-            )}
-
-            {/* Section 2: Κλικ στα Ελληνικά Α1 Curriculum */}
-            {textbookUnits.length > 0 && (
-              <div className="space-y-4 pt-2">
-                <div className="flex items-center gap-2 pb-1 border-b border-slate-800">
-                  <span className="w-2.5 h-2.5 rounded-full bg-indigo-400" />
-                  <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                    Κλικ στα Ελληνικά Α1 Curriculum (Units 101–105b)
-                  </h3>
-                  <span className="text-xs text-slate-400 font-medium ml-auto">
-                    {textbookUnits.length} units
-                  </span>
-                </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                  {textbookUnits.map(renderUnitCard)}
-                </div>
-              </div>
-            )}
+              );
+            })}
           </div>
         ) : (
           /* Filtered or Searched Grid View */
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {filteredUnits.map(renderUnitCard)}
+            {filteredUnits.map(renderLessonCard)}
           </div>
         )}
       </div>
@@ -1036,7 +1121,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 <FileText className="w-5 h-5 text-sky-400" />
                 <div>
                   <h3 className="font-bold text-white text-base">
-                    Study Notes • Unit {viewingNotesLesson.unitOrder}
+                    Study Notes • {viewingNotesLesson.lessonLabel}
                   </h3>
                   <p className="text-xs text-slate-400 truncate max-w-xs">
                     {viewingNotesLesson.lesson.title}

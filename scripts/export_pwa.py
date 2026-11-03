@@ -6,7 +6,6 @@ Static Mobile PWA Export Script
 - Copies all verified audio from audio/ to dist-pwa/audio/
 - Runs Vite build to generate the production PWA bundle in dist-pwa/
 """
-import os
 import sys
 import json
 import shutil

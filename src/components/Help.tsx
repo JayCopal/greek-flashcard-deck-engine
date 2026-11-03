@@ -219,10 +219,10 @@ export const Help: React.FC<HelpProps> = ({ onBackToDashboard, onStartStudy }) =
           <div className="glass-panel p-5 rounded-2xl border border-slate-800 space-y-2.5">
             <div className="flex items-center gap-2 text-purple-400 text-sm font-bold">
               <Volume2 className="w-4 h-4" />
-              <span>Google Cloud Chirp 3 HD Audio</span>
+              <span>Native Greek Audio Pronunciation</span>
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Every card is paired with high-fidelity native pronunciation powered by Google Cloud Chirp 3 HD. The speaker icon on the Greek side allows instant on-demand playback, and auto-play can be toggled on or off at any time.
+              Every card is paired with high-fidelity native pronunciation. The speaker icon on the Greek side allows instant on-demand playback, and auto-play can be toggled on or off at any time.
             </p>
           </div>
 

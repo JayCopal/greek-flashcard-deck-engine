@@ -6,19 +6,1232 @@
     "created_at": "2026-10-25"
   },
   "stats": {
-    "total_units": 13,
-    "total_lessons": 13,
-    "total_entries": 712,
-    "verified_count": 712,
+    "total_units": 14,
+    "total_lessons": 14,
+    "total_entries": 777,
+    "verified_count": 777,
     "pending_count": 0,
     "needs_review_count": 0,
     "coverage_percentage": 100.0
   },
   "units": [
     {
+      "id": "unit-00",
+      "title": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
+      "order": "OG-00-A",
+      "lessons": [
+        {
+          "unit_id": "unit-00",
+          "lesson_id": "lesson-01",
+          "title": "Μάθημα 0: Οδηγίες Εξετάσεων & Ασκήσεων (Lesson 0: Exam Instructions & Rubrics)",
+          "description": "Essential exam instructions, rubric imperatives, question formats (true/false, multiple choice, matching), and test terminology for Greek citizenship & CEFR exams (ΠΕΓΠ & ΚΕΓ) and Klik textbooks.",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 0 Core Notes: Γλώσσα Εξετάσεων & Βιβλίου (Exam Rubrics & Textbook Instructions)\n\n• The Polite Imperative in Instructions (Πληθυντικός Ευγενείας):\n  In Modern Greek textbooks (like 'Κλικ στα Ελληνικά') and official certification exams\n  (ΠΕΓΠ Citizenship & ΚΕΓ Ellinomatheia), rubrics are consistently written in the polite 2nd-person plural (-τε / -στε):\n  - διαβάστε (read!)\n  - γράψτε (write!)\n  - ακούστε (listen!)\n  - κοιτάξτε / δείτε (look!)\n  - αντιστοιχίστε (match!)\n  - συμπληρώστε (fill in!)\n  - επιλέξτε / διαλέξτε (choose!)\n  - κυκλώστε (circle!)\n  - υπογραμμίστε (underline!)\n  - σημειώστε (mark / tick!)\n  - απαντήστε (answer!)\n\n• The Standard 4 Skills of Language & Citizenship Exams:\n  1. Κατανόηση Γραπτού Λόγου (Reading Comprehension): short texts, public signs, advertisements, emails.\n  2. Κατανόηση Προφορικού Λόγου (Listening Comprehension): announcements, telephone dialogues, voicemail messages.\n  3. Παραγωγή Γραπτού Λόγου (Writing): short personal notes, emails, invitation replies (usually 40-60 words at A1/A2).\n  4. Παραγωγή Προφορικού Λόγου (Speaking): self-introduction, describing picture cards, interview with examiners.\n\n• Question Types & Symbols:\n  - Σωστό ή Λάθος: Mark 'Σ' for True (Σωστό) and 'Λ' for False (Λάθος).\n  - Πολλαπλή Επιλογή (Multiple Choice): typically 3 or 4 options (α, β, γ, δ).\n  - Συμπλήρωση Κενών: Gap fill where one word per numbered blank is required.\n  - Αντιστοίχιση: Matching Column A (Στήλη Α) with Column B (Στήλη Β).\n\n• Exam Caution — Watch Out for Negative Instructions:\n  - 'Ποιο ΔΕΝ είναι σωστό;' (Which one is NOT correct?)\n  - 'Διαγράψτε τη λάθος λέξη' (Cross out the wrong word / odd-one-out).",
+          "entries": [
+            {
+              "id": "A1-U00-001",
+              "greek": "διαβάζω",
+              "phonetic_hint": "",
+              "english": "to read / read! (διαβάστε)",
+              "notes": "Core regular Type A verb. In exams and textbooks, the polite/plural imperative 'διαβάστε' (read!) is universally used for rubrics.",
+              "gender_or_pos": "verb",
+              "audio": "diavazo-7487a6.mp3",
+              "status": "verified",
+              "example_el": "Διαβάστε το παρακάτω κείμενο προσεκτικά και απαντήστε στις ερωτήσεις.",
+              "example_en": "Read the following text carefully and answer the questions.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "διαβάζει",
+                "first_person_plural": "διαβάζουμε",
+                "imperative_formal": "διαβάστε"
+              },
+              "keg_communicative_function": "Understanding exam reading instructions and exercise prompts"
+            },
+            {
+              "id": "A1-U00-002",
+              "greek": "γράφω",
+              "phonetic_hint": "",
+              "english": "to write / write! (γράψτε)",
+              "notes": "Imperative 'γράψτε' marks all written production tasks on citizenship and KEG test papers.",
+              "gender_or_pos": "verb",
+              "audio": "grafo-ee0d8a.mp3",
+              "status": "verified",
+              "example_el": "Γράψτε ένα σύντομο κείμενο 40-50 λέξεων για τις συνήθειές σας.",
+              "example_en": "Write a short text of 40-50 words about your habits.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "γράφει",
+                "first_person_plural": "γράφουμε",
+                "imperative_formal": "γράψτε"
+              },
+              "keg_communicative_function": "Understanding written production tasks and writing instructions"
+            },
+            {
+              "id": "A1-U00-003",
+              "greek": "ακούω",
+              "phonetic_hint": "",
+              "english": "to listen / listen! (ακούστε)",
+              "notes": "Essential for listening tests (κατανόηση προφορικού λόγου). Test recordings always begin with 'Ακούστε'.",
+              "gender_or_pos": "verb",
+              "audio": "akoyo-38930c.mp3",
+              "status": "verified",
+              "example_el": "Ακούστε τον διάλογο δύο φορές και σημειώστε τη σωστή απάντηση.",
+              "example_en": "Listen to the dialogue twice and mark the correct answer.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "ακούει",
+                "first_person_plural": "ακούμε",
+                "imperative_formal": "ακούστε"
+              },
+              "keg_communicative_function": "Understanding listening comprehension section instructions"
+            },
+            {
+              "id": "A1-U00-004",
+              "greek": "κοιτάζω",
+              "phonetic_hint": "",
+              "english": "to look at / look! (κοιτάξτε)",
+              "notes": "Frequent in Klik exercises (e.g. 'Κοιτάξτε τις εικόνες'). Imperative plural: κοιτάξτε.",
+              "gender_or_pos": "verb",
+              "audio": "koitazo-a9909f.mp3",
+              "status": "verified",
+              "example_el": "Κοιτάξτε την εικόνα και γράψτε τι βλέπετε.",
+              "example_en": "Look at the picture and write what you see.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "κοιτάζει",
+                "first_person_plural": "κοιτάζουμε",
+                "imperative_formal": "κοιτάξτε"
+              },
+              "keg_communicative_function": "Directing visual attention to diagrams, pictures, or tables"
+            },
+            {
+              "id": "A1-U00-005",
+              "greek": "βλέπω",
+              "phonetic_hint": "",
+              "english": "to see / see! / look! (δείτε)",
+              "notes": "Irregular aorist imperative: δείτε (see! / look!). Constantly used with 'Δείτε το παράδειγμα'.",
+              "gender_or_pos": "verb",
+              "audio": "vlepo-b9ac52.mp3",
+              "status": "verified",
+              "example_el": "Δείτε το παράδειγμα και συμπληρώστε τις υπόλοιπες προτάσεις.",
+              "example_en": "See (look at) the example and complete the remaining sentences.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "βλέπει",
+                "first_person_plural": "βλέπουμε",
+                "imperative_formal": "δείτε"
+              },
+              "keg_communicative_function": "Referring students to visual prompts and examples"
+            },
+            {
+              "id": "A1-U00-006",
+              "greek": "αντιστοιχίζω",
+              "phonetic_hint": "",
+              "english": "to match / match! (αντιστοιχίστε)",
+              "notes": "The universal command for matching exercises in Klik books and Greek citizenship exams.",
+              "gender_or_pos": "verb",
+              "audio": "antistoichizo-5127a2.mp3",
+              "status": "verified",
+              "example_el": "Αντιστοιχίστε τις ερωτήσεις της στήλης Α με τις απαντήσεις της στήλης Β.",
+              "example_en": "Match the questions of column A with the answers of column B.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "αντιστοιχίζει",
+                "first_person_plural": "αντιστοιχίζουμε",
+                "imperative_formal": "αντιστοιχίστε"
+              },
+              "keg_communicative_function": "Matching columns, items, or definitions in test sections"
+            },
+            {
+              "id": "A1-U00-007",
+              "greek": "συμπληρώνω",
+              "phonetic_hint": "",
+              "english": "to fill in / complete! (συμπληρώστε)",
+              "notes": "Imperative 'συμπληρώστε' introduces fill-in-the-blank questions (συμπλήρωση κενών) everywhere.",
+              "gender_or_pos": "verb",
+              "audio": "symplirono-3740a3.mp3",
+              "status": "verified",
+              "example_el": "Συμπληρώστε τα κενά με τη σωστή μορφή του ρήματος.",
+              "example_en": "Fill in the blanks with the correct form of the verb.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "συμπληρώνει",
+                "first_person_plural": "συμπληρώνουμε",
+                "imperative_formal": "συμπληρώστε"
+              },
+              "keg_communicative_function": "Completing gap-fill sentences, forms, and vocabulary blanks"
+            },
+            {
+              "id": "A1-U00-008",
+              "greek": "επιλέγω",
+              "phonetic_hint": "",
+              "english": "to choose / select! (επιλέξτε)",
+              "notes": "Formal term for 'choose' used in official test rubrics. Imperative: επιλέξτε.",
+              "gender_or_pos": "verb",
+              "audio": "epilego-d05006.mp3",
+              "status": "verified",
+              "example_el": "Επιλέξτε τη σωστή απάντηση ανάμεσα στις επιλογές α, β και γ.",
+              "example_en": "Choose the correct answer among options a, b, and c.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "επιλέγει",
+                "first_person_plural": "επιλέγουμε",
+                "imperative_formal": "επιλέξτε"
+              },
+              "keg_communicative_function": "Selecting the correct alternative in multiple-choice exams"
+            },
+            {
+              "id": "A1-U00-009",
+              "greek": "διαλέγω",
+              "phonetic_hint": "",
+              "english": "to pick / choose! (διαλέξτε)",
+              "notes": "Slightly less formal synonym of 'επιλέγω', commonly found in Klik textbook exercises.",
+              "gender_or_pos": "verb",
+              "audio": "dialego-54f07c.mp3",
+              "status": "verified",
+              "example_el": "Διαλέξτε ένα θέμα και γράψτε τη γνώμη σας.",
+              "example_en": "Pick a topic and write your opinion.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "διαλέγει",
+                "first_person_plural": "διαλέγουμε",
+                "imperative_formal": "διαλέξτε"
+              },
+              "keg_communicative_function": "Picking answers or topics in textbook tasks"
+            },
+            {
+              "id": "A1-U00-010",
+              "greek": "κυκλώνω",
+              "phonetic_hint": "",
+              "english": "to circle / circle! (κυκλώστε)",
+              "notes": "From 'ο κύκλος' (circle). 'Κυκλώστε το σωστό' is a standard instruction across all A1-B1 exams.",
+              "gender_or_pos": "verb",
+              "audio": "kyklono-494775.mp3",
+              "status": "verified",
+              "example_el": "Κυκλώστε το σωστό γράμμα για κάθε ερώτηση.",
+              "example_en": "Circle the correct letter for each question.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "κυκλώνει",
+                "first_person_plural": "κυκλώνουμε",
+                "imperative_formal": "κυκλώστε"
+              },
+              "keg_communicative_function": "Circling the correct letter or word in exam papers"
+            },
+            {
+              "id": "A1-U00-011",
+              "greek": "υπογραμμίζω",
+              "phonetic_hint": "",
+              "english": "to underline / underline! (υπογραμμίστε)",
+              "notes": "From 'υπό' (under) + 'γραμμή' (line). Imperative: υπογραμμίστε.",
+              "gender_or_pos": "verb",
+              "audio": "ypogrammizo-4d3839.mp3",
+              "status": "verified",
+              "example_el": "Υπογραμμίστε όλα τα ρήματα στο απόσπασμα.",
+              "example_en": "Underline all the verbs in the passage.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "υπογραμμίζει",
+                "first_person_plural": "υπογραμμίζουμε",
+                "imperative_formal": "υπογραμμίστε"
+              },
+              "keg_communicative_function": "Underlining grammatical targets or keywords in text"
+            },
+            {
+              "id": "A1-U00-012",
+              "greek": "σημειώνω",
+              "phonetic_hint": "",
+              "english": "to mark / tick / note! (σημειώστε)",
+              "notes": "Universal in True/False and multiple-choice rubrics: 'Σημειώστε Σ ή Λ'.",
+              "gender_or_pos": "verb",
+              "audio": "simeiono-58441c.mp3",
+              "status": "verified",
+              "example_el": "Σημειώστε με ένα [X] στο κατάλληλο κουτάκι.",
+              "example_en": "Mark with an [X] in the appropriate box.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "σημειώνει",
+                "first_person_plural": "σημειώνουμε",
+                "imperative_formal": "σημειώστε"
+              },
+              "keg_communicative_function": "Marking boxes or choices with symbols (X or checkmark)"
+            },
+            {
+              "id": "A1-U00-013",
+              "greek": "απαντώ",
+              "phonetic_hint": "",
+              "english": "to answer / answer! (απαντήστε)",
+              "notes": "Type B1 contract verb. Takes preposition 'σε': απαντώ σε μία ερώτηση (I answer a question).",
+              "gender_or_pos": "verb",
+              "audio": "apanto-c92f20.mp3",
+              "status": "verified",
+              "example_el": "Απαντήστε στις ερωτήσεις με πλήρεις προτάσεις.",
+              "example_en": "Answer the questions in complete sentences.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type B1",
+                "third_person_singular": "απαντάει / απαντά",
+                "first_person_plural": "απαντάμε",
+                "imperative_formal": "απαντήστε"
+              },
+              "keg_communicative_function": "Responding to questions in oral and written exam sections"
+            },
+            {
+              "id": "A1-U00-014",
+              "greek": "βρίσκω",
+              "phonetic_hint": "",
+              "english": "to find / find! (βρείτε)",
+              "notes": "Irregular aorist imperative: βρείτε (find!). Common prompt: 'Βρείτε το λάθος' (Find the error).",
+              "gender_or_pos": "verb",
+              "audio": "vrisko-891a13.mp3",
+              "status": "verified",
+              "example_el": "Βρείτε στο κείμενο τη λέξη που σημαίνει 'διακοπές'.",
+              "example_en": "Find in the text the word that means 'vacation'.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "βρίσκει",
+                "first_person_plural": "βρίσκουμε",
+                "imperative_formal": "βρείτε"
+              },
+              "keg_communicative_function": "Locating information, synonyms, or answers in text"
+            },
+            {
+              "id": "A1-U00-015",
+              "greek": "βάζω",
+              "phonetic_hint": "",
+              "english": "to put / put! (βάλτε)",
+              "notes": "Imperative: βάλτε. Often paired with 'στη σωστή σειρά' (in the correct order) or 'σε κύκλο' (in a circle).",
+              "gender_or_pos": "verb",
+              "audio": "vazo-712424.mp3",
+              "status": "verified",
+              "example_el": "Βάλτε τις λέξεις στη σωστή σειρά για να φτιάξετε προτάσεις.",
+              "example_en": "Put the words in the correct order to make sentences.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "βάζει",
+                "first_person_plural": "βάζουμε",
+                "imperative_formal": "βάλτε"
+              },
+              "keg_communicative_function": "Ordering scrambled sentences or organizing items"
+            },
+            {
+              "id": "A1-U00-016",
+              "greek": "διαγράφω",
+              "phonetic_hint": "",
+              "english": "to cross out / strike through! (διαγράψτε)",
+              "notes": "Used in 'odd-one-out' (βρες το περιττό) vocabulary drills in Klik A1. Imperative: διαγράψτε.",
+              "gender_or_pos": "verb",
+              "audio": "diagrafo-fcbe2d.mp3",
+              "status": "verified",
+              "example_el": "Διαγράψτε τη λέξη που δεν ταιριάζει με τις άλλες.",
+              "example_en": "Cross out the word that does not belong with the others.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "διαγράφει",
+                "first_person_plural": "διαγράφουμε",
+                "imperative_formal": "διαγράψτε"
+              },
+              "keg_communicative_function": "Eliminating incorrect choices or intruder words (odd-one-out)"
+            },
+            {
+              "id": "A1-U00-017",
+              "greek": "διορθώνω",
+              "phonetic_hint": "",
+              "english": "to correct / correct! (διορθώστε)",
+              "notes": "Imperative: διορθώστε. Core skill for self-editing before submitting citizenship test sheets.",
+              "gender_or_pos": "verb",
+              "audio": "diorthono-55496c.mp3",
+              "status": "verified",
+              "example_el": "Διορθώστε τα λάθη στις παρακάτω προτάσεις.",
+              "example_en": "Correct the mistakes in the following sentences.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "διορθώνει",
+                "first_person_plural": "διορθώνουμε",
+                "imperative_formal": "διορθώστε"
+              },
+              "keg_communicative_function": "Correcting errors in sentences and proofreading written texts"
+            },
+            {
+              "id": "A1-U00-018",
+              "greek": "ξαναδιαβάζω",
+              "phonetic_hint": "",
+              "english": "to re-read / re-read! (ξαναδιαβάστε)",
+              "notes": "Prefix 'ξανα-' denotes repetition ('again'). Essential exam strategy reminder.",
+              "gender_or_pos": "verb",
+              "audio": "xanadiavazo-08edcd.mp3",
+              "status": "verified",
+              "example_el": "Ξαναδιαβάστε το κείμενο για να ελέγξετε τις απαντήσεις σας.",
+              "example_en": "Re-read the text to check your answers.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "ξαναδιαβάζει",
+                "first_person_plural": "ξαναδιαβάζουμε",
+                "imperative_formal": "ξαναδιαβάστε"
+              },
+              "keg_communicative_function": "Reviewing text passages and verifying exam answers"
+            },
+            {
+              "id": "A1-U00-019",
+              "greek": "συνεχίζω",
+              "phonetic_hint": "",
+              "english": "to continue / continue! (συνεχίστε)",
+              "notes": "Imperative: συνεχίστε. Frequent in textbook pair-work and speaking role-play tasks.",
+              "gender_or_pos": "verb",
+              "audio": "synechizo-ace31d.mp3",
+              "status": "verified",
+              "example_el": "Συνεχίστε τον διάλογο σύμφωνα με το παράδειγμα.",
+              "example_en": "Continue the dialogue according to the example.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type A",
+                "third_person_singular": "συνεχίζει",
+                "first_person_plural": "συνεχίζουμε",
+                "imperative_formal": "συνεχίστε"
+              },
+              "keg_communicative_function": "Continuing patterns, dialogues, or story prompts"
+            },
+            {
+              "id": "A1-U00-020",
+              "greek": "εξηγώ",
+              "phonetic_hint": "",
+              "english": "to explain / explain! (εξηγήστε)",
+              "notes": "Contract Type B2 verb. In speaking examinations, examiners frequently prompt: 'Εξηγήστε μου...' (Explain to me...).",
+              "gender_or_pos": "verb",
+              "audio": "exigo-7cf6cd.mp3",
+              "status": "verified",
+              "example_el": "Εξηγήστε γιατί επιλέξατε αυτή την απάντηση.",
+              "example_en": "Explain why you chose this answer.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "Type B2",
+                "third_person_singular": "εξηγεί",
+                "first_person_plural": "εξηγούμε",
+                "imperative_formal": "εξηγήστε"
+              },
+              "keg_communicative_function": "Clarifying reasons or answering why questions in oral exams"
+            },
+            {
+              "id": "A1-U00-021",
+              "greek": "το σωστό",
+              "phonetic_hint": "",
+              "english": "the correct / right / true",
+              "notes": "Adjective used as neuter noun. The counterpart of 'το λάθος'. Represented by 'Σ' in True/False questions.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-sosto-287a72.mp3",
+              "status": "verified",
+              "example_el": "Βρείτε ποιο είναι το σωστό και κυκλώστε το.",
+              "example_en": "Find which is the correct one and circle it.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα σωστά",
+                "accusative_singular": "το σωστό"
+              },
+              "keg_communicative_function": "Identifying true/correct alternatives in test items"
+            },
+            {
+              "id": "A1-U00-022",
+              "greek": "το λάθος",
+              "phonetic_hint": "",
+              "english": "the wrong / mistake / false",
+              "notes": "Neuter in -ος, plural: τα λάθη (genitive: των λαθών). Represented by 'Λ' in tests.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-lathos-e42483.mp3",
+              "status": "verified",
+              "example_el": "Αυτή η πρόταση είναι λάθος, γιατί ο Νίκος δεν μένει στην Αθήνα.",
+              "example_en": "This sentence is false/wrong, because Nikos does not live in Athens.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα λάθη",
+                "accusative_singular": "το λάθος"
+              },
+              "keg_communicative_function": "Detecting false statements, errors, and incorrect answers"
+            },
+            {
+              "id": "A1-U00-023",
+              "greek": "Σωστό ή Λάθος (Σ/Λ)",
+              "phonetic_hint": "",
+              "english": "True or False (T/F)",
+              "notes": "Every Greek language test and citizenship exam includes a 'Σωστό ή Λάθος' section. Always mark 'Σ' for True and 'Λ' for False.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "sosto-i-lathos-s-l-a945a9.mp3",
+              "status": "verified",
+              "example_el": "Σημειώστε Σ (Σωστό) ή Λ (Λάθος) για κάθε πρόταση του κειμένου.",
+              "example_en": "Mark T (True) or F (False) for each sentence of the text.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Understanding binary verification tasks in reading & listening tests"
+            },
+            {
+              "id": "A1-U00-024",
+              "greek": "η πολλαπλή επιλογή",
+              "phonetic_hint": "",
+              "english": "multiple choice",
+              "notes": "'Πολλαπλή' (multiple) + 'επιλογή' (choice). Citizenship knowledge exams in Greece (ΠΕΓΠ) heavily feature multiple choice.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-pollapli-epilogi-fa41cc.mp3",
+              "status": "verified",
+              "example_el": "Το γραπτό τεστ αποτελείται από είκοσι ερωτήσεις πολλαπλής επιλογής.",
+              "example_en": "The written test consists of twenty multiple-choice questions.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι πολλαπλές επιλογές",
+                "accusative_singular": "την πολλαπλή επιλογή"
+              },
+              "keg_communicative_function": "Navigating multiple-choice testing formats and options"
+            },
+            {
+              "id": "A1-U00-025",
+              "greek": "συμπληρώστε τα κενά",
+              "phonetic_hint": "",
+              "english": "fill in the blanks / gaps",
+              "notes": "One of the most frequent rubric headings in 'Κλικ στα Ελληνικά' and KEG language tests.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "sympliroste-ta-kena-8ef368.mp3",
+              "status": "verified",
+              "example_el": "Συμπληρώστε τα κενά από το 1 έως το 6 με τις λέξεις του πλαισίου.",
+              "example_en": "Fill in the blanks from 1 to 6 with the words in the box.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Executing cloze and gap-fill exercise prompts"
+            },
+            {
+              "id": "A1-U00-026",
+              "greek": "αντιστοιχίστε τη στήλη Α με τη στήλη Β",
+              "phonetic_hint": "",
+              "english": "match column A with column B",
+              "notes": "Standard two-column matching prompt used in grammar and vocabulary assessment.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "antistoichiste-ti-st-417a40.mp3",
+              "status": "verified",
+              "example_el": "Αντιστοιχίστε τη στήλη Α (ερωτήσεις) με τη στήλη Β (απαντήσεις).",
+              "example_en": "Match column A (questions) with column B (answers).",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Connecting related entries across two visual columns"
+            },
+            {
+              "id": "A1-U00-027",
+              "greek": "κυκλώστε το σωστό",
+              "phonetic_hint": "",
+              "english": "circle the correct answer",
+              "notes": "Clear mechanical command seen on paper-and-pencil test formats.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "kykloste-to-sosto-136849.mp3",
+              "status": "verified",
+              "example_el": "Κυκλώστε το σωστό γράμμα: α, β ή γ.",
+              "example_en": "Circle the correct letter: a, b, or c.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Executing item selection by drawing a circle around choices"
+            },
+            {
+              "id": "A1-U00-028",
+              "greek": "βάλτε στη σωστή σειρά",
+              "phonetic_hint": "",
+              "english": "put in the correct order",
+              "notes": "Critical for reading comprehension sequencing tasks in A1-A2 exams.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "valte-sti-sosti-seir-d3494e.mp3",
+              "status": "verified",
+              "example_el": "Βάλτε στη σωστή σειρά τις παραγράφους του κειμένου (1-4).",
+              "example_en": "Put in the correct order the paragraphs of the text (1-4).",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Sequencing scrambled narratives, sentences, or chronological events"
+            },
+            {
+              "id": "A1-U00-029",
+              "greek": "απαντήστε στις ερωτήσεις",
+              "phonetic_hint": "",
+              "english": "answer the questions",
+              "notes": "Universal instruction heading appearing right after reading or listening passages.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "apantiste-stis-eroti-35a0d0.mp3",
+              "status": "verified",
+              "example_el": "Απαντήστε στις ερωτήσεις σύμφωνα με όσα ακούσατε στον διάλογο.",
+              "example_en": "Answer the questions according to what you heard in the dialogue.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Directing candidates to open-ended or short-answer question sections"
+            },
+            {
+              "id": "A1-U00-030",
+              "greek": "διαλέξτε τη σωστή απάντηση",
+              "phonetic_hint": "",
+              "english": "choose / pick the correct answer",
+              "notes": "Everyday textbook phrasing in Klik sta Ellinika exercises.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "dialexte-ti-sosti-ap-67b43f.mp3",
+              "status": "verified",
+              "example_el": "Διαλέξτε τη σωστή απάντηση για να ολοκληρώσετε την πρόταση.",
+              "example_en": "Pick the correct answer to complete the sentence.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Executing item selection in multiple choice or gap-fill prompts"
+            },
+            {
+              "id": "A1-U00-031",
+              "greek": "σημειώστε με ένα τικ",
+              "phonetic_hint": "",
+              "english": "mark with a checkmark / tick",
+              "notes": "Common in textbook self-assessment grids and citizenship application forms.",
+              "gender_or_pos": "phrase / exam instruction",
+              "audio": "simeioste-me-ena-tik-d4f64a.mp3",
+              "status": "verified",
+              "example_el": "Σημειώστε με ένα τικ (✓) στις δηλώσεις που ταιριάζουν σε εσάς.",
+              "example_en": "Mark with a checkmark (✓) the statements that match you.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam instruction"
+              },
+              "keg_communicative_function": "Marking boxes on standardized survey or test response forms"
+            },
+            {
+              "id": "A1-U00-032",
+              "greek": "η εξέταση",
+              "phonetic_hint": "",
+              "english": "the exam / examination (οι εξετάσεις)",
+              "notes": "Feminine noun in -ση (plural: -σεις). Frequently used in plural: 'δίνω εξετάσεις' (I sit for exams).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-exetasi-1d1e76.mp3",
+              "status": "verified",
+              "example_el": "Προετοιμάζομαι για τις εξετάσεις της ελληνομάθειας και της πολιτογράφησης.",
+              "example_en": "I am preparing for the exams of Greek attainment and citizenship.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι εξετάσεις",
+                "accusative_singular": "την εξέταση"
+              },
+              "keg_communicative_function": "Discussing official tests, exams, and citizenship certifications"
+            },
+            {
+              "id": "A1-U00-033",
+              "greek": "το τεστ",
+              "phonetic_hint": "",
+              "english": "the test / quiz",
+              "notes": "Indeclinable neuter loanword (το τεστ, τα τεστ). Used colloquially and in textbook section headers.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-test-d2383b.mp3",
+              "status": "verified",
+              "example_el": "Στο τέλος κάθε ενότητας του βιβλίου κάνουμε ένα μικρό τεστ.",
+              "example_en": "At the end of each unit of the book, we do a short test.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα τεστ",
+                "accusative_singular": "το τεστ"
+              },
+              "keg_communicative_function": "Referring to classroom and end-of-unit tests"
+            },
+            {
+              "id": "A1-U00-034",
+              "greek": "η οδηγία",
+              "phonetic_hint": "",
+              "english": "the instruction / direction (οι οδηγίες)",
+              "notes": "Almost always plural on exams: 'Οι οδηγίες της εξέτασης' (The exam instructions).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-odigia-ebb258.mp3",
+              "status": "verified",
+              "example_el": "Διαβάστε προσεκτικά τις οδηγίες πριν αρχίσετε να γράφετε.",
+              "example_en": "Read the instructions carefully before you begin writing.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι οδηγίες",
+                "accusative_singular": "την οδηγία"
+              },
+              "keg_communicative_function": "Reading and understanding rubric directions on test papers"
+            },
+            {
+              "id": "A1-U00-035",
+              "greek": "η ερώτηση",
+              "phonetic_hint": "",
+              "english": "the question",
+              "notes": "Feminine in -ση (plural: οι ερωτήσεις). Pair with 'η απάντηση' (the answer).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-erotisi-f648bf.mp3",
+              "status": "verified",
+              "example_el": "Αυτή η ερώτηση έχει τρεις πιθανές απαντήσεις.",
+              "example_en": "This question has three possible answers.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι ερωτήσεις",
+                "accusative_singular": "την ερώτηση"
+              },
+              "keg_communicative_function": "Identifying test items and asking clarifying questions"
+            },
+            {
+              "id": "A1-U00-036",
+              "greek": "η απάντηση",
+              "phonetic_hint": "",
+              "english": "the answer / reply / response",
+              "notes": "From verb 'απαντώ'. Plural: οι απαντήσεις. 'Φύλλο απαντήσεων' = answer sheet.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-apantisi-3cf2a1.mp3",
+              "status": "verified",
+              "example_el": "Σημειώστε την τελική απάντηση στο φύλλο απαντήσεων.",
+              "example_en": "Mark the final answer on the answer sheet.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι απαντήσεις",
+                "accusative_singular": "την απάντηση"
+              },
+              "keg_communicative_function": "Formulating answers and locating answer keys"
+            },
+            {
+              "id": "A1-U00-037",
+              "greek": "το θέμα",
+              "phonetic_hint": "",
+              "english": "the topic / subject / exam task",
+              "notes": "In Greek official examinations, each major section or question is designated as 'Θέμα 1', 'Θέμα 2', etc.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-thema-eb449d.mp3",
+              "status": "verified",
+              "example_el": "Το Θέμα 1 της εξέτασης αφορά την κατανόηση γραπτού κειμένου.",
+              "example_en": "Task (Section) 1 of the exam concerns reading comprehension.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα θέματα",
+                "accusative_singular": "το θέμα"
+              },
+              "keg_communicative_function": "Navigating designated exam sections and essay subjects"
+            },
+            {
+              "id": "A1-U00-038",
+              "greek": "το παράδειγμα",
+              "phonetic_hint": "",
+              "english": "the example",
+              "notes": "In exams and books, item (0) is almost always the solved model example (το παράδειγμα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-paradeigma-9d7614.mp3",
+              "status": "verified",
+              "example_el": "Κοιτάξτε το παράδειγμα (0) πριν αρχίσετε την άσκηση.",
+              "example_en": "Look at example (0) before beginning the exercise.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα παραδείγματα",
+                "accusative_singular": "το παράδειγμα"
+              },
+              "keg_communicative_function": "Analyzing sample answers before starting an exercise"
+            },
+            {
+              "id": "A1-U00-039",
+              "greek": "το κείμενο",
+              "phonetic_hint": "",
+              "english": "the text / reading passage",
+              "notes": "Neuter in -ο (plural: τα κείμενα). The central piece of all reading comprehension modules.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-keimeno-30fd20.mp3",
+              "status": "verified",
+              "example_el": "Το κείμενο περιγράφει τη ζωή μιας οικογένειας στην Κύπρο.",
+              "example_en": "The text describes the life of a family in Cyprus.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα κείμενα",
+                "accusative_singular": "το κείμενο"
+              },
+              "keg_communicative_function": "Identifying reading comprehension texts and articles"
+            },
+            {
+              "id": "A1-U00-040",
+              "greek": "ο διάλογος",
+              "phonetic_hint": "",
+              "english": "the dialogue / conversation",
+              "notes": "Masculine in -ος (plural: οι διάλογοι). Primary basis of CEFR A1 listening tests.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-dialogos-5bfa62.mp3",
+              "status": "verified",
+              "example_el": "Ακούστε τον σύντομο διάλογο και βρείτε πού βρίσκονται οι δύο ομιλητές.",
+              "example_en": "Listen to the short dialogue and find where the two speakers are.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι διάλογοι",
+                "accusative_singular": "τον διάλογο"
+              },
+              "keg_communicative_function": "Following conversational exchanges in audio and textbooks"
+            },
+            {
+              "id": "A1-U00-041",
+              "greek": "η πρόταση",
+              "phonetic_hint": "",
+              "english": "the sentence",
+              "notes": "Feminine in -ση. Means both 'grammatical sentence' and 'suggestion/proposal'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-protasi-35a9f9.mp3",
+              "status": "verified",
+              "example_el": "Φτιάξτε μια ολοκληρωμένη πρόταση με τις παρακάτω λέξεις.",
+              "example_en": "Form a complete sentence with the words below.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι προτάσεις",
+                "accusative_singular": "την πρόταση"
+              },
+              "keg_communicative_function": "Constructing and analyzing grammatical sentences"
+            },
+            {
+              "id": "A1-U00-042",
+              "greek": "η λέξη",
+              "phonetic_hint": "",
+              "english": "the word",
+              "notes": "Feminine noun (genitive: της λέξης, plural: οι λέξεις). Essay prompts enforce strict word counts (π.χ. 40-60 λέξεις).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-lexi-81d4f8.mp3",
+              "status": "verified",
+              "example_el": "Γράψτε ένα κείμενο τουλάχιστον 50 λέξεων.",
+              "example_en": "Write a text of at least 50 words.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι λέξεις",
+                "accusative_singular": "τη λέξη"
+              },
+              "keg_communicative_function": "Identifying lexical units and checking word limits"
+            },
+            {
+              "id": "A1-U00-043",
+              "greek": "το κενό",
+              "phonetic_hint": "",
+              "english": "the blank / gap / empty space",
+              "notes": "Neuter noun (plural: τα κενά). Cloze tests instruct: 'Συμπληρώστε τα κενά'.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-keno-7a4fab.mp3",
+              "status": "verified",
+              "example_el": "Γράψτε μία μόνο λέξη σε κάθε κενό.",
+              "example_en": "Write only one word in each blank.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα κενά",
+                "accusative_singular": "το κενό"
+              },
+              "keg_communicative_function": "Locating fill-in positions within cloze exercises"
+            },
+            {
+              "id": "A1-U00-044",
+              "greek": "η εικόνα",
+              "phonetic_hint": "",
+              "english": "the picture / image",
+              "notes": "Feminine noun (plural: οι εικόνες). In speaking exams (προφορικά), examiners give you a picture to describe.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-eikona-dd9e44.mp3",
+              "status": "verified",
+              "example_el": "Περιγράψτε την εικόνα και πείτε τι κάνουν οι άνθρωποι.",
+              "example_en": "Describe the picture and tell what the people are doing.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι εικόνες",
+                "accusative_singular": "την εικόνα"
+              },
+              "keg_communicative_function": "Interpreting visual prompts in oral examinations and textbooks"
+            },
+            {
+              "id": "A1-U00-045",
+              "greek": "η φωτογραφία",
+              "phonetic_hint": "",
+              "english": "the photograph / photo",
+              "notes": "Often abbreviated as 'η φωτό' in informal contexts; formal on exam sheets.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-fotografia-c2a41e.mp3",
+              "status": "verified",
+              "example_el": "Στη φωτογραφία βλέπουμε μια παραλία το καλοκαίρι.",
+              "example_en": "In the photograph, we see a beach in summer.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι φωτογραφίες",
+                "accusative_singular": "τη φωτογραφία"
+              },
+              "keg_communicative_function": "Describing photograph stimulus materials in speaking tests"
+            },
+            {
+              "id": "A1-U00-046",
+              "greek": "ο πίνακας",
+              "phonetic_hint": "",
+              "english": "the table / chart / board",
+              "notes": "Masculine in -ας (plural: οι πίνακες). Used for both 'table/chart' in books and 'blackboard/whiteboard' in classrooms.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-pinakas-c4ad82.mp3",
+              "status": "verified",
+              "example_el": "Συμπληρώστε τον πίνακα γραμματικής με τα κατάλληλα άρθρα.",
+              "example_en": "Complete the grammar table with the appropriate articles.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πίνακες",
+                "accusative_singular": "τον πίνακα"
+              },
+              "keg_communicative_function": "Reading and completing data charts and grammar grids"
+            },
+            {
+              "id": "A1-U00-047",
+              "greek": "η στήλη",
+              "phonetic_hint": "",
+              "english": "the column",
+              "notes": "Feminine noun (plural: οι στήλες). Paired with 'η γραμμή' (row/line).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-stili-3bf1a9.mp3",
+              "status": "verified",
+              "example_el": "Η πρώτη στήλη περιέχει τα ρήματα και η δεύτερη τα αντικείμενα.",
+              "example_en": "The first column contains the verbs and the second the objects.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι στήλες",
+                "accusative_singular": "τη στήλη"
+              },
+              "keg_communicative_function": "Locating paired elements in matching tasks"
+            },
+            {
+              "id": "A1-U00-048",
+              "greek": "η γραμμή",
+              "phonetic_hint": "",
+              "english": "the line / row",
+              "notes": "Feminine noun (plural: οι γραμμές). Refers to horizontal writing lines or rows in tables.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-grammi-86397e.mp3",
+              "status": "verified",
+              "example_el": "Γράψτε την απάντησή σας στην επόμενη κενή γραμμή.",
+              "example_en": "Write your answer on the next blank line.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γραμμές",
+                "accusative_singular": "τη γραμμή"
+              },
+              "keg_communicative_function": "Writing on lined exam paper and referencing text rows"
+            },
+            {
+              "id": "A1-U00-049",
+              "greek": "ο βαθμός",
+              "phonetic_hint": "",
+              "english": "the grade / mark / score",
+              "notes": "Masculine in -ος (plural: οι βαθμοί). 'Βάση' is the minimum passing score.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-vathmos-be1cd4.mp3",
+              "status": "verified",
+              "example_el": "Ο τελικός βαθμός μου ήταν αρκετά υψηλός για να περάσω.",
+              "example_en": "My final grade was high enough to pass.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι βαθμοί",
+                "accusative_singular": "τον βαθμό"
+              },
+              "keg_communicative_function": "Understanding pass marks and grading criteria"
+            },
+            {
+              "id": "A1-U00-050",
+              "greek": "η βαθμολογία",
+              "phonetic_hint": "",
+              "english": "the scoring / mark evaluation",
+              "notes": "Feminine noun. In exams, 'Μέγιστη βαθμολογία: 100 μονάδες'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-vathmologia-99d001.mp3",
+              "status": "verified",
+              "example_el": "Κάθε σωστή απάντηση δίνει μία μονάδα στη συνολική βαθμολογία.",
+              "example_en": "Each correct answer gives one point towards the overall score.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι βαθμολογίες",
+                "accusative_singular": "τη βαθμολογία"
+              },
+              "keg_communicative_function": "Understanding exam point values per question"
+            },
+            {
+              "id": "A1-U00-051",
+              "greek": "ο χρόνος",
+              "phonetic_hint": "",
+              "english": "time / duration / exam time",
+              "notes": "Masculine in -ος. Examiners announce: 'Ο χρόνος τελείωσε' (Time is up).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-chronos-d94a1b.mp3",
+              "status": "verified",
+              "example_el": "Ο χρόνος για το πρώτο μέρος της εξέτασης είναι 45 λεπτά.",
+              "example_en": "The time for the first part of the exam is 45 minutes.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι χρόνοι",
+                "accusative_singular": "τον χρόνο"
+              },
+              "keg_communicative_function": "Managing exam time allocation and pace"
+            },
+            {
+              "id": "A1-U00-052",
+              "greek": "η σελίδα",
+              "phonetic_hint": "",
+              "english": "the page",
+              "notes": "Feminine noun (plural: οι σελίδες). Abbreviated as 'σελ.' or 'σ.' in Greek books.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-selida-cdd98d.mp3",
+              "status": "verified",
+              "example_el": "Ανοίξτε το βιβλίο 'Κλικ' στη σελίδα 43.",
+              "example_en": "Open the book 'Klik' to page 43.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι σελίδες",
+                "accusative_singular": "τη σελίδα"
+              },
+              "keg_communicative_function": "Navigating textbooks and multi-page exam booklets"
+            },
+            {
+              "id": "A1-U00-053",
+              "greek": "η άσκηση",
+              "phonetic_hint": "",
+              "english": "the exercise / drill (οι ασκήσεις)",
+              "notes": "Feminine in -ση (plural: οι ασκήσεις). Numbered throughout every chapter of Klik.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-askisi-9ed6d5.mp3",
+              "status": "verified",
+              "example_el": "Κάντε την άσκηση 4 για το επόμενο μάθημα.",
+              "example_en": "Do exercise 4 for the next lesson.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι ασκήσεις",
+                "accusative_singular": "την άσκηση"
+              },
+              "keg_communicative_function": "Identifying practice exercises and homework activities"
+            },
+            {
+              "id": "A1-U00-054",
+              "greek": "η κατανόηση γραπτού λόγου",
+              "phonetic_hint": "",
+              "english": "reading comprehension",
+              "notes": "Official title on citizenship and KEG exam booklets: 'Κατανόηση Γραπτού Λόγου' (Reading).",
+              "gender_or_pos": "phrase / exam section",
+              "audio": "i-katanoisi-graptoy--f591bb.mp3",
+              "status": "verified",
+              "example_el": "Η κατανόηση γραπτού λόγου εξετάζει αν καταλαβαίνετε κείμενα και ανακοινώσεις.",
+              "example_en": "Reading comprehension tests whether you understand texts and announcements.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam section",
+                "accusative_singular": "την κατανόηση γραπτού λόγου"
+              },
+              "keg_communicative_function": "Identifying the written reading comprehension section of exams"
+            },
+            {
+              "id": "A1-U00-055",
+              "greek": "η κατανόηση προφορικού λόγου",
+              "phonetic_hint": "",
+              "english": "listening comprehension",
+              "notes": "Official exam term: 'Κατανόηση Προφορικού Λόγου' (Listening).",
+              "gender_or_pos": "phrase / exam section",
+              "audio": "i-katanoisi-proforik-cefc51.mp3",
+              "status": "verified",
+              "example_el": "Στην κατανόηση προφορικού λόγου θα ακούσετε ηχογραφημένους διαλόγους.",
+              "example_en": "In listening comprehension, you will hear recorded dialogues.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam section",
+                "accusative_singular": "την κατανόηση προφορικού λόγου"
+              },
+              "keg_communicative_function": "Identifying the audio listening comprehension section of exams"
+            },
+            {
+              "id": "A1-U00-056",
+              "greek": "η παραγωγή γραπτού λόγου",
+              "phonetic_hint": "",
+              "english": "written expression / writing exam",
+              "notes": "Official exam term: 'Παραγωγή Γραπτού Λόγου' (Writing task / essay).",
+              "gender_or_pos": "phrase / exam section",
+              "audio": "i-paragogi-graptoy-l-f6da4c.mp3",
+              "status": "verified",
+              "example_el": "Στην παραγωγή γραπτού λόγου πρέπει να γράψετε ένα email σε έναν φίλο.",
+              "example_en": "In written production, you must write an email to a friend.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam section",
+                "accusative_singular": "την παραγωγή γραπτού λόγου"
+              },
+              "keg_communicative_function": "Identifying the free writing/essay section of exams"
+            },
+            {
+              "id": "A1-U00-057",
+              "greek": "η παραγωγή προφορικού λόγου",
+              "phonetic_hint": "",
+              "english": "oral production / speaking exam",
+              "notes": "Official exam term: 'Παραγωγή Προφορικού Λόγου' (Speaking interview).",
+              "gender_or_pos": "phrase / exam section",
+              "audio": "i-paragogi-proforiko-6472e6.mp3",
+              "status": "verified",
+              "example_el": "Η παραγωγή προφορικού λόγου περιλαμβάνει συνομιλία με τον εξεταστή.",
+              "example_en": "Oral production includes a conversation with the examiner.",
+              "grammatical_info": {
+                "part_of_speech": "phrase / exam section",
+                "accusative_singular": "την παραγωγή προφορικού λόγου"
+              },
+              "keg_communicative_function": "Identifying the speaking interview component with examiners"
+            },
+            {
+              "id": "A1-U00-058",
+              "greek": "η πολιτογράφηση",
+              "phonetic_hint": "",
+              "english": "citizenship / naturalization",
+              "notes": "From 'πολίτης' (citizen). The exam is officially named 'Πιστοποιητικό Επάρκειας Γνώσεων για Πολιτογράφηση (Π.Ε.Γ.Π.)'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-politografisi-4e1e7c.mp3",
+              "status": "verified",
+              "example_el": "Στόχος μου είναι να αποκτήσω το πιστοποιητικό για την ελληνική πολιτογράφηση.",
+              "example_en": "My goal is to obtain the certificate for Greek naturalization (citizenship).",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι πολιτογραφήσεις",
+                "accusative_singular": "την πολιτογράφηση"
+              },
+              "keg_communicative_function": "Discussing citizenship goals and application requirements in Greece/Cyprus"
+            },
+            {
+              "id": "A1-U00-059",
+              "greek": "ο κανόνας",
+              "phonetic_hint": "",
+              "english": "the rule (οι κανόνες)",
+              "notes": "Masculine in -ας (plural: οι κανόνες). Boxed in yellow/blue in 'Κλικ' textbook grammar sections.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-kanonas-99d68d.mp3",
+              "status": "verified",
+              "example_el": "Αυτός είναι ένας βασικός κανόνας της γραμματικής.",
+              "example_en": "This is a basic rule of grammar.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι κανόνες",
+                "accusative_singular": "τον κανόνα"
+              },
+              "keg_communicative_function": "Understanding grammatical and structural rules in language textbooks"
+            },
+            {
+              "id": "A1-U00-060",
+              "greek": "το ουσιαστικό",
+              "phonetic_hint": "",
+              "english": "the noun",
+              "notes": "Literally 'substantive'. Categorized into masculine (αρσενικό), feminine (θηλυκό), neuter (ουδέτερο).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-oysiastiko-f1549f.mp3",
+              "status": "verified",
+              "example_el": "Κάθε ελληνικό ουσιαστικό έχει γένος: αρσενικό, θηλυκό ή ουδέτερο.",
+              "example_en": "Every Greek noun has a gender: masculine, feminine, or neuter.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ουσιαστικά",
+                "accusative_singular": "το ουσιαστικό"
+              },
+              "keg_communicative_function": "Identifying parts of speech in grammar charts"
+            },
+            {
+              "id": "A1-U00-061",
+              "greek": "το ρήμα",
+              "phonetic_hint": "",
+              "english": "the verb",
+              "notes": "Neuter in -μα, plural: τα ρήματα. Conjugation in Greek is 'η κλίση των ρημάτων'.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-rima-be01f3.mp3",
+              "status": "verified",
+              "example_el": "Βρείτε το ρήμα στην πρόταση και γράψτε το στον σωστό χρόνο.",
+              "example_en": "Find the verb in the sentence and write it in the correct tense.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ρήματα",
+                "accusative_singular": "το ρήμα"
+              },
+              "keg_communicative_function": "Recognizing verbs and verb conjugations"
+            },
+            {
+              "id": "A1-U00-062",
+              "greek": "το επίθετο",
+              "phonetic_hint": "",
+              "english": "the adjective",
+              "notes": "Neuter in -ο. Note: also means 'surname/last name' in administrative forms (Όνομα / Επίθετο).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-epitheto-ac8998.mp3",
+              "status": "verified",
+              "example_el": "Το επίθετο πρέπει να συμφωνεί σε γένος, αριθμό και πτώση με το ουσιαστικό.",
+              "example_en": "The adjective must agree in gender, number, and case with the noun.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα επίθετα",
+                "accusative_singular": "το επίθετο"
+              },
+              "keg_communicative_function": "Recognizing adjective agreements with nouns"
+            },
+            {
+              "id": "A1-U00-063",
+              "greek": "το άρθρο",
+              "phonetic_hint": "",
+              "english": "the article (definite / indefinite)",
+              "notes": "Neuter in -ο. 'Οριστικό άρθρο' = definite article; 'αόριστο άρθρο' = indefinite article.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-arthro-bbcde6.mp3",
+              "status": "verified",
+              "example_el": "Βάλτε το σωστό οριστικό άρθρο: ο, η ή το.",
+              "example_en": "Put the correct definite article: ο, η, or το.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα άρθρα",
+                "accusative_singular": "το άρθρο"
+              },
+              "keg_communicative_function": "Identifying and applying definite and indefinite articles"
+            },
+            {
+              "id": "A1-U00-064",
+              "greek": "ο ενικός αριθμός",
+              "phonetic_hint": "",
+              "english": "the singular number",
+              "notes": "Abbreviated as 'ενικ.' in dictionaries and textbooks.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-enikos-arithmos-525ab0.mp3",
+              "status": "verified",
+              "example_el": "Μετατρέψτε τις προτάσεις από τον ενικό στον πληθυντικό αριθμό.",
+              "example_en": "Transform the sentences from the singular to the plural number.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι ενικοί αριθμοί",
+                "accusative_singular": "τον ενικό αριθμό"
+              },
+              "keg_communicative_function": "Distinguishing singular grammatical forms"
+            },
+            {
+              "id": "A1-U00-065",
+              "greek": "ο πληθυντικός αριθμός",
+              "phonetic_hint": "",
+              "english": "the plural number",
+              "notes": "Abbreviated as 'πληθ.'. 'Πληθυντικός ευγενείας' is the polite plural used in all test instructions (διαβάστε, γράψτε).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-plithyntikos-arith-3f8809.mp3",
+              "status": "verified",
+              "example_el": "Στα ελληνικά χρησιμοποιούμε τον πληθυντικό ευγενείας για να μιλήσουμε ευγενικά.",
+              "example_en": "In Greek we use the polite plural to speak politely.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πληθυντικοί αριθμοί",
+                "accusative_singular": "τον πληθυντικό αριθμό"
+              },
+              "keg_communicative_function": "Distinguishing plural grammatical forms and polite address"
+            }
+          ],
+          "total_entries": 65,
+          "verified_entries": 65,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 65,
+      "verified_entries": 65,
+      "coverage_percentage": 100.0
+    },
+    {
       "id": "unit-01",
       "title": "Χαιρετισμοί & Γνωριμία (Greetings & Introductions)",
-      "order": 1,
+      "order": "OG-01-A",
       "lessons": [
         {
           "unit_id": "unit-01",
@@ -656,7 +1869,7 @@
     {
       "id": "unit-02",
       "title": "Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)",
-      "order": 2,
+      "order": "OG-02-A",
       "lessons": [
         {
           "unit_id": "unit-02",
@@ -1406,7 +2619,7 @@
     {
       "id": "unit-03",
       "title": "Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)",
-      "order": 3,
+      "order": "OG-03-A",
       "lessons": [
         {
           "unit_id": "unit-03",
@@ -2146,7 +3359,7 @@
     {
       "id": "unit-04",
       "title": "Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)",
-      "order": 4,
+      "order": "OG-04-A",
       "lessons": [
         {
           "unit_id": "unit-04",
@@ -2901,7 +4114,7 @@
     {
       "id": "unit-05",
       "title": "Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)",
-      "order": 5,
+      "order": "OG-05-A",
       "lessons": [
         {
           "unit_id": "unit-05",
@@ -3732,7 +4945,7 @@
     {
       "id": "unit-06",
       "title": "Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)",
-      "order": 6,
+      "order": "OG-06-A",
       "lessons": [
         {
           "unit_id": "unit-06",
@@ -4479,7 +5692,7 @@
     {
       "id": "unit-07",
       "title": "Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)",
-      "order": 7,
+      "order": "OG-07-A",
       "lessons": [
         {
           "unit_id": "unit-07",
@@ -5271,7 +6484,7 @@
     {
       "id": "unit-101",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 25-41 (Εισαγωγική Ενότητα - Ήχοι, Γράμματα & Πρώτες Λέξεις)",
-      "order": 101,
+      "order": "KlikA1-01-A",
       "lessons": [
         {
           "unit_id": "unit-101",
@@ -7536,7 +8749,7 @@
     {
       "id": "unit-102",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 43-54 (Ενότητα 1: Γεια χαρά! - Χαιρετισμοί & Γνωριμία)",
-      "order": 102,
+      "order": "KlikA1-02-A",
       "lessons": [
         {
           "unit_id": "unit-102",
@@ -8562,7 +9775,7 @@
     {
       "id": "unit-103",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Κατοικία, Πόλεις & Αριθμοί)",
-      "order": 103,
+      "order": "KlikA1-03-A",
       "lessons": [
         {
           "unit_id": "unit-103",
@@ -9659,7 +10872,7 @@
     {
       "id": "unit-104",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Συγγένεια, Περιγραφή & Εθνικότητες)",
-      "order": 104,
+      "order": "KlikA1-04-A",
       "lessons": [
         {
           "unit_id": "unit-104",
@@ -10819,7 +12032,7 @@
     {
       "id": "unit-105",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ - Καθημερινότητα, Ελεύθερος Χρόνος, Ώρα & Ρήματα)",
-      "order": 105,
+      "order": "KlikA1-05-A",
       "lessons": [
         {
           "unit_id": "unit-105",
@@ -11973,7 +13186,7 @@
     {
       "id": "unit-105b",
       "title": "Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ - Γραμματική & Προτάσεις)",
-      "order": "105B",
+      "order": "KlikA1-05-B",
       "lessons": [
         {
           "unit_id": "unit-105b",
@@ -12822,7 +14035,7 @@
         }
       ],
       "is_expansion": true,
-      "expansion_of": "105",
+      "expansion_of": "KlikA1-05-A",
       "total_entries": 52,
       "verified_entries": 52,
       "coverage_percentage": 100.0

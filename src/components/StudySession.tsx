@@ -1,11 +1,7 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
-import { CardEntry, SRSRating } from '../types/schema';
-import { 
-  getActiveUser, 
-  getActiveUserId, 
-  getUserStudyPreferences, 
-  setUserStudyPreferences 
-} from '../utils/userStorage';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { CardEntry, SRSRating, LessonStatus } from '../types/schema';
+import { getActiveUser, getActiveUserId, getUserStudyPreferences, setUserStudyPreferences, getUserLessonStatus, setUserLessonStatus } from '../utils/userStorage';
+import { parseLessonCode, extractUnitContext } from '../utils/unitNaming';
 import { 
   getCardSRS, 
   toggleCardLearned, 
@@ -26,6 +22,7 @@ import {
   VolumeX,
   Pause,
   CheckCircle, 
+  Check,
   EyeOff, 
   Clock, 
   ArrowUpDown, 
@@ -38,11 +35,51 @@ import {
 
 type StudyDirection = 'greek_to_english' | 'english_to_greek';
 
+const STATUS_OPTIONS: {
+  value: LessonStatus;
+  label: string;
+  icon: string;
+  activeClasses: string;
+}[] = [
+  {
+    value: 'not_started',
+    label: 'Not Started',
+    icon: '⚪',
+    activeClasses: 'bg-slate-800 text-slate-200 border-slate-500 ring-2 ring-slate-400/40',
+  },
+  {
+    value: 'in_progress_1',
+    label: 'In Progress 1',
+    icon: '🔵',
+    activeClasses: 'bg-sky-950 text-sky-200 border-sky-500 ring-2 ring-sky-500/40',
+  },
+  {
+    value: 'in_progress_2',
+    label: 'In Progress 2',
+    icon: '🟡',
+    activeClasses: 'bg-amber-950 text-amber-200 border-amber-500 ring-2 ring-amber-500/40',
+  },
+  {
+    value: 'in_progress_3',
+    label: 'In Progress 3',
+    icon: '🟣',
+    activeClasses: 'bg-purple-950 text-purple-200 border-purple-500 ring-2 ring-purple-500/40',
+  },
+  {
+    value: 'learned',
+    label: 'Learned',
+    icon: '🟢',
+    activeClasses: 'bg-emerald-950 text-emerald-200 border-emerald-500 ring-2 ring-emerald-500/40',
+  },
+];
+
 interface StudySessionProps {
   cards: CardEntry[];
   title?: string;
   lessonNotes?: string;
   lessonNumber?: string;
+  unitId?: string;
+  lessonId?: string;
   initialHideExcluded?: boolean;
   initialHideLearned?: boolean;
   onExit: () => void;
@@ -54,6 +91,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
   title = 'Study Drill',
   lessonNotes,
   lessonNumber,
+  unitId,
+  lessonId,
   initialHideExcluded,
   initialHideLearned,
   onExit,
@@ -61,6 +100,73 @@ export const StudySession: React.FC<StudySessionProps> = ({
 }) => {
   const [activeUser, setActiveUser] = useState(getActiveUser());
   const userPrefs = getUserStudyPreferences(activeUser.id);
+
+  // Auto-scroll progress bar ref
+  const progressBarRef = useRef<HTMLDivElement>(null);
+
+  // Deck completion & unit status offer state
+  const [showCompletionModal, setShowCompletionModal] = useState<boolean>(false);
+  const [statusUpdateMessage, setStatusUpdateMessage] = useState<string | null>(null);
+
+  // Automatically derive effective unit and lesson IDs
+  const effectiveUnitId = useMemo(() => {
+    if (unitId) return unitId;
+    if (initialCards.length > 0 && initialCards[0]?.id) {
+      const match = initialCards[0].id.match(/U(\d+[A-Za-z]?)/i);
+      if (match) {
+        return `unit-${match[1].toLowerCase()}`;
+      }
+    }
+    return undefined;
+  }, [unitId, initialCards]);
+
+  const effectiveLessonId = useMemo(() => {
+    if (lessonId) return lessonId;
+    return 'lesson-01';
+  }, [lessonId]);
+
+  const [currentUnitStatus, setCurrentUnitStatus] = useState<LessonStatus>(() => {
+    if (effectiveUnitId && effectiveLessonId) {
+      return getUserLessonStatus(effectiveUnitId, effectiveLessonId, 'not_started', activeUser.id);
+    }
+    return 'not_started';
+  });
+
+  useEffect(() => {
+    if (effectiveUnitId && effectiveLessonId) {
+      setCurrentUnitStatus(getUserLessonStatus(effectiveUnitId, effectiveLessonId, 'not_started', activeUser.id));
+    }
+  }, [effectiveUnitId, effectiveLessonId, activeUser.id]);
+
+  // Handle updating unit status when offered upon completion
+  const handleUpdateUnitStatus = async (newStatus: LessonStatus) => {
+    setCurrentUnitStatus(newStatus);
+    if (effectiveUnitId && effectiveLessonId) {
+      setUserLessonStatus(effectiveUnitId, effectiveLessonId, newStatus, activeUser.id);
+      try {
+        await fetch(`/api/lesson/${effectiveUnitId}/${effectiveLessonId}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lesson_status: newStatus }),
+        });
+      } catch {
+        // Offline safe
+      }
+      const label = STATUS_OPTIONS.find((o) => o.value === newStatus)?.label || newStatus;
+      setStatusUpdateMessage(`Lesson status updated to "${label}"!`);
+      setTimeout(() => setStatusUpdateMessage(null), 3000);
+    }
+  };
+
+  // Automatically scroll down to the progress bar when a deck is selected
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (progressBarRef.current) {
+        progressBarRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 120);
+    return () => clearTimeout(timer);
+  }, []);
 
   const isAllIgnored = initialCards.length > 0 && initialCards.every((c) => {
     const s = getAllSRSData(getActiveUserId())[c.id];
@@ -141,31 +247,19 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const srsData = currentCard ? getCardSRS(currentCard.id, activeUser.id) : null;
   const ratingStatus = currentCard ? getCardRatingStatus(srsData || undefined) : null;
 
-  // Helper to extract lesson label from card ID (e.g., A1-U01-001 -> "Lesson 1", A1-U101-001 -> "Lesson 101", A1-U105B-001 -> "Lesson 105B")
-  const getCardLessonLabel = (card?: CardEntry): string | null => {
-    if (!card?.id) return null;
-    const match = card.id.match(/U(\d+[A-Za-z]?)/i);
-    if (match) {
-      const code = match[1].toUpperCase();
-      const numMatch = code.match(/^0*(\d+)([A-Za-z]?)$/);
-      if (numMatch) {
-        return `Lesson ${numMatch[1]}${numMatch[2]}`;
-      }
-      return `Lesson ${code}`;
+  // Parse lesson code and unit context
+  const parsedLessonCode = useMemo(() => {
+    if (lessonNumber) return parseLessonCode(lessonNumber);
+    if (effectiveUnitId) return parseLessonCode(effectiveUnitId);
+    if (currentCard?.id) {
+      const match = currentCard.id.match(/U(\d+[A-Za-z]?)/i);
+      if (match) return parseLessonCode(`unit-${match[1]}`);
     }
-    return null;
-  };
+    return parseLessonCode('OG-01-A');
+  }, [lessonNumber, effectiveUnitId, currentCard]);
 
-  const formatLessonLabel = (val?: string): string | null => {
-    if (!val) return null;
-    if (val.toLowerCase().startsWith('lesson')) return val;
-    return `Lesson ${val}`;
-  };
-
-  const displayLessonLabel =
-    formatLessonLabel(lessonNumber) ||
-    (currentCard ? getCardLessonLabel(currentCard) : null) ||
-    'Lesson 1';
+  const displayLessonLabel = parsedLessonCode.lessonLabel;
+  const unitContext = useMemo(() => extractUnitContext(title), [title]);
 
   const baseUrl = import.meta.env.BASE_URL.endsWith('/')
     ? import.meta.env.BASE_URL
@@ -174,8 +268,13 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   const handleNext = useCallback(() => {
     setIsFlipped(false);
-    setCurrentIndex((prev) => (prev + 1 < filteredCards.length ? prev + 1 : 0));
-  }, [filteredCards.length]);
+    if (currentIndex + 1 >= filteredCards.length) {
+      // Completed deck from beginning to end!
+      setShowCompletionModal(true);
+    } else {
+      setCurrentIndex((prev) => prev + 1);
+    }
+  }, [currentIndex, filteredCards.length]);
 
   const handlePrevious = useCallback(() => {
     setIsFlipped(false);
@@ -340,7 +439,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   if (!currentCard || filteredCards.length === 0) {
     return (
-      <div className="max-w-md mx-auto text-center py-20 space-y-5">
+      <div className="max-w-md mx-auto text-center py-16 space-y-5">
         <div className="w-16 h-16 rounded-3xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto shadow-xl shadow-emerald-500/10">
           <Award className="w-8 h-8" />
         </div>
@@ -350,8 +449,52 @@ export const StudySession: React.FC<StudySessionProps> = ({
             ? `No cards in this deck currently match status filter "${ratingFilter}".`
             : (hideLearned && totalLearnedCount > 0) || (hideExcluded && totalExcludedCount > 0)
             ? `You have marked ${totalLearnedCount} card${totalLearnedCount === 1 ? '' : 's'} as learned and ${totalExcludedCount} as ignored. Adjust filters below to review them.`
-            : 'No cards match your current filter settings.'}
+            : 'You have finished all active cards in this deck!'}
         </p>
+
+        {/* Offer lesson status change */}
+        <div className="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 text-left">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+              Lesson Mastery Status
+            </span>
+            <span className="text-xs font-bold text-sky-400">
+              {displayLessonLabel}
+            </span>
+          </div>
+
+          {statusUpdateMessage && (
+            <div className="p-2.5 rounded-xl bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-xs flex items-center gap-2">
+              <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span>{statusUpdateMessage}</span>
+            </div>
+          )}
+
+          <p className="text-xs text-slate-400">
+            Update lesson status for your active profile:
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+            {STATUS_OPTIONS.map((opt) => (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() => handleUpdateUnitStatus(opt.value)}
+                className={`p-2.5 rounded-xl text-xs font-semibold flex items-center gap-2 border transition-all text-left ${
+                  currentUnitStatus === opt.value
+                    ? opt.activeClasses
+                    : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-300'
+                }`}
+              >
+                <span>{opt.icon}</span>
+                <span className="font-bold">{opt.label}</span>
+                {currentUnitStatus === opt.value && (
+                  <Check className="w-3.5 h-3.5 ml-auto text-current" />
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
           {ratingFilter !== 'all' && (
@@ -423,16 +566,21 @@ export const StudySession: React.FC<StudySessionProps> = ({
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
-                {title}
-              </span>
-              <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 border border-slate-700">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-sky-500/15 text-sky-400 border border-sky-500/30">
                 {displayLessonLabel}
               </span>
-              {(displayLessonLabel?.includes('105B') || title?.includes('105B') || (currentCard?.id && currentCard.id.includes('U105B'))) && (
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-slate-800 text-slate-300 border border-slate-700">
+                Group: {parsedLessonCode.group}
+              </span>
+              {unitContext && (
+                <span className="text-[10px] font-semibold px-2 py-0.5 rounded-lg bg-slate-900 text-slate-300 border border-slate-800">
+                  Unit: {unitContext}
+                </span>
+              )}
+              {parsedLessonCode.suffix !== 'A' && (
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
-                  Expansion • Complementary to Lesson 105
+                  Expansion
                 </span>
               )}
             </div>
@@ -632,8 +780,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
         </div>
       )}
 
-      {/* Progress Bar */}
-      <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+      {/* Progress Bar (Auto-scrolled into view on deck selection) */}
+      <div 
+        ref={progressBarRef}
+        className="scroll-mt-20 w-full h-2 bg-slate-800 rounded-full overflow-hidden shadow-inner"
+      >
         <div
           className="h-full bg-sky-500 transition-all duration-300 ease-out"
           style={{ width: `${((currentIndex + 1) / filteredCards.length) * 100}%` }}
@@ -1001,6 +1152,94 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <ChevronRight className="w-4 h-4 shrink-0" />
         </button>
       </div>
+
+      {/* Deck Completion Modal (Offers status change when deck is completed from beginning to end) */}
+      {showCompletionModal && (
+        <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="glass-panel p-6 sm:p-8 rounded-3xl max-w-lg w-full border border-sky-500/30 space-y-6 shadow-2xl text-center">
+            <div className="w-16 h-16 rounded-3xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 flex items-center justify-center mx-auto shadow-xl shadow-emerald-500/10">
+              <Award className="w-8 h-8" />
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-2xl font-extrabold text-white tracking-tight">
+                🎉 Lesson Completed!
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-300">
+                You've completed all {filteredCards.length} cards from beginning to end!
+              </p>
+            </div>
+
+            {/* Offer to change status of that lesson */}
+            <div className="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 text-left">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Lesson Mastery Status
+                </span>
+                <span className="text-xs font-bold text-sky-400">
+                  {displayLessonLabel}
+                </span>
+              </div>
+
+              {statusUpdateMessage && (
+                <div className="p-2.5 rounded-xl bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-xs flex items-center gap-2">
+                  <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+                  <span>{statusUpdateMessage}</span>
+                </div>
+              )}
+
+              <p className="text-xs text-slate-400">
+                Update status for this lesson:
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                {STATUS_OPTIONS.map((opt) => (
+                  <button
+                    key={opt.value}
+                    type="button"
+                    onClick={() => handleUpdateUnitStatus(opt.value)}
+                    className={`p-2.5 rounded-xl text-xs font-semibold flex items-center gap-2 border transition-all text-left ${
+                      currentUnitStatus === opt.value
+                        ? opt.activeClasses
+                        : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-300'
+                    }`}
+                  >
+                    <span>{opt.icon}</span>
+                    <span className="font-bold">{opt.label}</span>
+                    {currentUnitStatus === opt.value && (
+                      <Check className="w-3.5 h-3.5 ml-auto text-current" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setShowCompletionModal(false);
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                }}
+                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold flex items-center justify-center gap-1.5 transition-all"
+              >
+                <RotateCw className="w-3.5 h-3.5" />
+                <span>Restart Deck</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={onExit}
+                className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-xs font-bold shadow-lg shadow-sky-500/25 transition-all"
+              >
+                Back to Dashboard
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -33,6 +33,8 @@ export function App() {
   const [studyTitle, setStudyTitle] = useState('Study Session');
   const [studyLessonNotes, setStudyLessonNotes] = useState<string | undefined>();
   const [studyLessonNumber, setStudyLessonNumber] = useState<string | undefined>();
+  const [studyUnitId, setStudyUnitId] = useState<string | undefined>();
+  const [studyLessonId, setStudyLessonId] = useState<string | undefined>();
   const [studyOptions, setStudyOptions] = useState<{ hideExcluded?: boolean; hideLearned?: boolean } | undefined>();
 
   // Editor jump state
@@ -127,13 +129,17 @@ export function App() {
     title: string,
     lessonNotes?: string,
     lessonNumber?: string,
-    options?: { hideExcluded?: boolean; hideLearned?: boolean }
+    options?: { hideExcluded?: boolean; hideLearned?: boolean },
+    unitId?: string,
+    lessonId?: string
   ) => {
     setStudyCards(cards);
     setStudyTitle(title);
     setStudyLessonNotes(lessonNotes);
     setStudyLessonNumber(lessonNumber);
     setStudyOptions(options);
+    setStudyUnitId(unitId);
+    setStudyLessonId(lessonId);
     setActiveTab('study');
   };
 
@@ -156,7 +162,7 @@ export function App() {
                   GreekDeck
                 </span>
                 <span className="text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-400 border border-sky-500/30">
-                  Chirp 3 HD
+                  A1
                 </span>
               </div>
               <p className="text-[11px] text-slate-400 font-medium hidden sm:block">
@@ -307,6 +313,8 @@ export function App() {
                 title={studyTitle}
                 lessonNotes={studyLessonNotes}
                 lessonNumber={studyLessonNumber}
+                unitId={studyUnitId}
+                lessonId={studyLessonId}
                 initialHideExcluded={studyOptions?.hideExcluded}
                 initialHideLearned={studyOptions?.hideLearned}
                 onExit={() => setActiveTab('dashboard')}
@@ -331,7 +339,7 @@ export function App() {
 
       {/* Subtle Footer */}
       <footer className="border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-        <span>Modern Greek Deck Engine • Multi-User Local Storage • Powered by Google Cloud Chirp 3 HD</span>
+        <span>Modern Greek Deck Engine • Multi-User Local Storage • High-Fidelity Native Audio</span>
         <button
           onClick={() => setActiveTab('help')}
           className="text-slate-400 hover:text-sky-400 underline underline-offset-2 transition-colors"

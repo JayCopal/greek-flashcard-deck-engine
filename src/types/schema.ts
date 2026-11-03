@@ -15,7 +15,13 @@ export interface CardEntry {
   keg_communicative_function?: string;
 }
 
-export type LessonStatus = 'not_started' | 'in_progress' | 'learned';
+export type LessonStatus = 
+  | 'not_started' 
+  | 'in_progress_1' 
+  | 'in_progress_2' 
+  | 'in_progress_3' 
+  | 'learned'
+  | 'in_progress'; // Legacy compatibility
 
 export interface Lesson {
   unit_id: string;

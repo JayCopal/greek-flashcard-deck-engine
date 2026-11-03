@@ -3,51 +3,59 @@ source_language: en
 target_language: el
 created_at: '2026-10-25'
 units:
+- id: unit-00
+  title: Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)
+  order: OG-00-A
+  lessons:
+  - id: lesson-01
+    file: unit-00/lesson-01.yaml
+    title: 'Μάθημα 0: Οδηγίες Εξετάσεων & Ασκήσεων (Lesson 0: Exam Instructions &
+      Rubrics)'
 - id: unit-01
   title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
-  order: 1
+  order: OG-01-A
   lessons:
   - id: lesson-01
     file: unit-01/lesson-01.yaml
     title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
 - id: unit-02
   title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
-  order: 2
+  order: OG-02-A
   lessons:
   - id: lesson-01
     file: unit-02/lesson-01.yaml
     title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
 - id: unit-03
   title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
-  order: 3
+  order: OG-03-A
   lessons:
   - id: lesson-01
     file: unit-03/lesson-01.yaml
     title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
 - id: unit-04
   title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
-  order: 4
+  order: OG-04-A
   lessons:
   - id: lesson-01
     file: unit-04/lesson-01.yaml
     title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
 - id: unit-05
   title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
-  order: 5
+  order: OG-05-A
   lessons:
   - id: lesson-01
     file: unit-05/lesson-01.yaml
     title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
 - id: unit-06
   title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
-  order: 6
+  order: OG-06-A
   lessons:
   - id: lesson-01
     file: unit-06/lesson-01.yaml
     title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
 - id: unit-07
   title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
-  order: 7
+  order: OG-07-A
   lessons:
   - id: lesson-01
     file: unit-07/lesson-01.yaml
@@ -55,7 +63,7 @@ units:
 - id: unit-101
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-41 (Εισαγωγική Ενότητα - Ήχοι, Γράμματα
     & Πρώτες Λέξεις)'
-  order: 101
+  order: KlikA1-01-A
   lessons:
   - id: lesson-01
     file: unit-101/lesson-01.yaml
@@ -63,7 +71,7 @@ units:
 - id: unit-102
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 43-54 (Ενότητα 1: Γεια χαρά! - Χαιρετισμοί
     & Γνωριμία)'
-  order: 102
+  order: KlikA1-02-A
   lessons:
   - id: lesson-01
     file: unit-102/lesson-01.yaml
@@ -72,7 +80,7 @@ units:
 - id: unit-103
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Κατοικία,
     Πόλεις & Αριθμοί)'
-  order: 103
+  order: KlikA1-03-A
   lessons:
   - id: lesson-01
     file: unit-103/lesson-01.yaml
@@ -81,7 +89,7 @@ units:
 - id: unit-104
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Συγγένεια,
     Περιγραφή & Εθνικότητες)'
-  order: 104
+  order: KlikA1-04-A
   lessons:
   - id: lesson-01
     file: unit-104/lesson-01.yaml
@@ -90,7 +98,7 @@ units:
 - id: unit-105
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
     - Καθημερινότητα, Ελεύθερος Χρόνος, Ώρα & Ρήματα)'
-  order: 105
+  order: KlikA1-05-A
   lessons:
   - id: lesson-01
     file: unit-105/lesson-01.yaml
@@ -99,7 +107,7 @@ units:
 - id: unit-105b
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
     - Γραμματική & Προτάσεις)'
-  order: 105B
+  order: KlikA1-05-B
   lessons:
   - id: lesson-01
     file: unit-105b/lesson-01.yaml
@@ -108,4 +116,4 @@ units:
     description: 'Expansion & Complementary to Lesson 105: Sentence structures, syntax
       patterns, accusative direct objects, irregular verbs, and time-telling.'
   is_expansion: true
-  expansion_of: '105'
+  expansion_of: KlikA1-05-A

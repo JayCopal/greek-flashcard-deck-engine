@@ -4,8 +4,8 @@ import base64
 import yaml
 import unicodedata
 from pathlib import Path
-from typing import Optional, List, Dict, Any
-from fastapi import FastAPI, HTTPException, Body
+from typing import Optional, Dict, Any
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -16,7 +16,6 @@ from .tts_service import (
     create_preview_session,
     get_preview_session,
     remove_preview_session,
-    generate_audio_filename,
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -63,7 +62,7 @@ class UpdateEntryPayload(BaseModel):
 
 class UpdateLessonPayload(BaseModel):
     lesson_notes: Optional[str] = None
-    lesson_status: Optional[str] = None  # 'not_started' | 'in_progress' | 'learned'
+    lesson_status: Optional[str] = None  # 'not_started' | 'in_progress_1' | 'in_progress_2' | 'in_progress_3' | 'learned'
     title: Optional[str] = None
     description: Optional[str] = None
 
@@ -306,7 +305,8 @@ def update_lesson(unit_id: str, lesson_id: str, payload: UpdateLessonPayload):
     if payload.lesson_notes is not None:
         lesson_data["lesson_notes"] = payload.lesson_notes.strip()
     if payload.lesson_status is not None:
-        if payload.lesson_status not in ["not_started", "in_progress", "learned"]:
+        valid_statuses = ["not_started", "in_progress", "in_progress_1", "in_progress_2", "in_progress_3", "learned"]
+        if payload.lesson_status not in valid_statuses:
             raise HTTPException(status_code=400, detail="Invalid lesson status")
         lesson_data["lesson_status"] = payload.lesson_status
     if payload.title is not None:
@@ -430,7 +430,6 @@ def export_pwa():
     data_dir.mkdir(parents=True, exist_ok=True)
     audio_export_dir.mkdir(parents=True, exist_ok=True)
 
-    manifest = load_yaml(CONTENT_DIR / "manifest.yaml")
     full_deck = get_deck()
 
     # Save compiled deck JSON

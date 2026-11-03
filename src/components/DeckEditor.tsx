@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus, SRSRating } from '../types/schema';
+import { formatLessonLabel, parseLessonCode, extractUnitContext } from '../utils/unitNaming';
 import { AudioPlayer } from './AudioPlayer';
 import { 
   getUserLessonStatus, 
@@ -122,6 +123,19 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       setIsEditingNotes(false);
     }
   }, [currentUnit?.id, currentLesson?.lesson_id, currentLesson?.lesson_notes, activeUser.id]);
+
+  // Progress container ref for auto-scrolling
+  const progressRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // When a unit/lesson is selected, scroll smoothly to the progress section
+    const timer = setTimeout(() => {
+      if (progressRef.current) {
+        progressRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 150);
+    return () => clearTimeout(timer);
+  }, [selectedUnitId, selectedLessonId]);
 
   const handleUpdateLessonStatus = async (status: LessonStatus) => {
     if (!currentLesson || !currentUnit) return;
@@ -398,21 +412,24 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       {/* Selector Controls Bar */}
       <div className="glass-panel p-6 rounded-2xl space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* Unit selector */}
+          {/* Lesson pack selector */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5">
-              Select Unit
+              Select Lesson Pack
             </label>
             <select
               value={selectedUnitId}
               onChange={(e) => setSelectedUnitId(e.target.value)}
               className="w-full bg-slate-800 text-white border border-slate-700 rounded-xl px-3 py-2 text-sm focus:outline-none focus:border-sky-500 transition-colors"
             >
-              {units.map((u) => (
-                <option key={u.id} value={u.id}>
-                  Unit {u.order}{u.is_expansion || u.id === 'unit-105b' || String(u.order).toUpperCase() === '105B' ? ' (Expansion)' : ''}: {u.title}
-                </option>
-              ))}
+              {units.map((u) => {
+                const code = parseLessonCode(u.order || u.id);
+                return (
+                  <option key={u.id} value={u.id}>
+                    {formatLessonLabel(u)} [Group: {code.group}]: {u.title}
+                  </option>
+                );
+              })}
             </select>
           </div>
 
@@ -434,11 +451,11 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             </select>
           </div>
 
-          {/* Google Chirp 3 Voice Selector */}
+          {/* Native Voice Selector */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5 flex items-center justify-between">
-              <span>Chirp 3 Voice</span>
-              <span className="text-[10px] text-sky-400 font-medium">Google Cloud TTS</span>
+              <span>Voice</span>
+              <span className="text-[10px] text-sky-400 font-medium">Native Audio</span>
             </label>
             <select
               value={selectedVoice}
@@ -488,11 +505,16 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
           <div>
             <div className="flex flex-wrap items-center gap-2 mb-1">
               <span className="text-[10px] uppercase font-bold text-sky-400 tracking-wider">
-                Unit {currentUnit?.order}: {currentUnit?.title}
+                {formatLessonLabel(currentUnit)} • Group: {parseLessonCode(currentUnit?.order || currentUnit?.id).group}
               </span>
-              {(currentUnit?.is_expansion || currentUnit?.id === 'unit-105b' || String(currentUnit?.order).toUpperCase() === '105B') && (
+              {currentUnit && (
+                <span className="text-[10px] font-semibold px-2 py-0.5 rounded-lg bg-slate-800 text-slate-300 border border-slate-700">
+                  Unit: {extractUnitContext(currentUnit.title)}
+                </span>
+              )}
+              {(currentUnit?.is_expansion || currentUnit?.id === 'unit-105b' || String(currentUnit?.order).toUpperCase().endsWith('B')) && (
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
-                  Expansion • Complementary to Unit {currentUnit?.expansion_of || '105'}
+                  Expansion • Complementary to Lesson {currentUnit?.expansion_of || 'KlikA1-05-A'}
                 </span>
               )}
             </div>
@@ -505,8 +527,8 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
           </div>
 
           <div className="flex flex-wrap items-center gap-2 sm:self-center">
-            {/* Status Toggle Buttons */}
-            <div className="flex items-center p-1 rounded-xl bg-slate-900 border border-slate-700/80">
+            {/* Status Toggle Buttons (5 States: Not Started, In Progress 1, 2, 3, Learned) */}
+            <div className="flex flex-wrap items-center p-1 rounded-xl bg-slate-900 border border-slate-700/80 gap-1">
               {(() => {
                 const currentStatus = currentUnit && currentLesson
                   ? getUserLessonStatus(currentUnit.id, currentLesson.lesson_id, currentLesson.lesson_status, activeUser.id)
@@ -516,42 +538,70 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                     <button
                       type="button"
                       onClick={() => handleUpdateLessonStatus('not_started')}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                         currentStatus === 'not_started'
                           ? 'bg-slate-700 text-slate-200 shadow-sm'
                           : 'text-slate-400 hover:text-white'
                       }`}
                       title="Mark lesson as Not Started"
                     >
-                      <CircleDot className="w-3.5 h-3.5 text-slate-400" />
+                      <CircleDot className="w-3 h-3 text-slate-400" />
                       <span>Not Started</span>
                     </button>
 
                     <button
                       type="button"
-                      onClick={() => handleUpdateLessonStatus('in_progress')}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                        currentStatus === 'in_progress'
+                      onClick={() => handleUpdateLessonStatus('in_progress_1')}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress_1' || currentStatus === 'in_progress'
+                          ? 'bg-sky-500/20 text-sky-300 border border-sky-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-sky-300'
+                      }`}
+                      title="Mark lesson as In Progress 1"
+                    >
+                      <Clock className="w-3 h-3 text-sky-400" />
+                      <span>In Progress 1</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('in_progress_2')}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress_2'
                           ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
                           : 'text-slate-400 hover:text-amber-300'
                       }`}
-                      title="Mark lesson as In Progress"
+                      title="Mark lesson as In Progress 2"
                     >
-                      <Clock className="w-3.5 h-3.5 text-amber-400" />
-                      <span>In Progress</span>
+                      <Clock className="w-3 h-3 text-amber-400" />
+                      <span>In Progress 2</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('in_progress_3')}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress_3'
+                          ? 'bg-purple-500/20 text-purple-300 border border-purple-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-purple-300'
+                      }`}
+                      title="Mark lesson as In Progress 3"
+                    >
+                      <Clock className="w-3 h-3 text-purple-400" />
+                      <span>In Progress 3</span>
                     </button>
 
                     <button
                       type="button"
                       onClick={() => handleUpdateLessonStatus('learned')}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                         currentStatus === 'learned'
                           ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm'
                           : 'text-slate-400 hover:text-emerald-300'
                       }`}
                       title="Mark lesson as Learned"
                     >
-                      <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
+                      <CheckCircle className="w-3 h-3 text-emerald-400" />
                       <span>Learned</span>
                     </button>
                   </>
@@ -757,7 +807,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         const ignored = entries.filter((e) => allSRS[e.id]?.isExcluded).length;
 
         return (
-          <div className="glass-panel p-4 rounded-2xl border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
+          <div ref={progressRef} className="scroll-mt-20 glass-panel p-4 rounded-2xl border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-emerald-400" />
               <span className="font-bold text-white">{activeUser.name}'s Progress in this Lesson:</span>
@@ -986,7 +1036,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                             ? 'bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700'
                             : 'bg-sky-500 hover:bg-sky-400 text-white shadow-md shadow-sky-500/20'
                         } disabled:opacity-50`}
-                        title="Generate Chirp 3 Audio"
+                        title="Generate Audio"
                       >
                         {isLoadingTts ? (
                           <>
