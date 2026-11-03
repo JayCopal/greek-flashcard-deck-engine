@@ -3,6 +3,7 @@ import { DeckData, CardEntry } from './types/schema';
 import { Dashboard } from './components/Dashboard';
 import { DeckEditor } from './components/DeckEditor';
 import { StudySession } from './components/StudySession';
+import { Help } from './components/Help';
 import { UserSelector } from './components/UserSelector';
 import { 
   Layers, 
@@ -10,7 +11,8 @@ import {
   Play, 
   RefreshCw, 
   WifiOff,
-  Download
+  Download,
+  HelpCircle
 } from 'lucide-react';
 
 interface BeforeInstallPromptEvent extends Event {
@@ -18,7 +20,7 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
-type ActiveTab = 'dashboard' | 'editor' | 'study';
+type ActiveTab = 'dashboard' | 'editor' | 'study' | 'help';
 
 export function App() {
   const [deck, setDeck] = useState<DeckData | null>(null);
@@ -241,6 +243,19 @@ export function App() {
               <Play className="w-4 h-4 fill-current shrink-0" />
               <span>Study</span>
             </button>
+
+            <button
+              onClick={() => setActiveTab('help')}
+              className={`flex-1 md:flex-initial px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+                activeTab === 'help'
+                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
+              title="Help & Keyboard Shortcuts"
+            >
+              <HelpCircle className="w-4 h-4 shrink-0" />
+              <span>Help</span>
+            </button>
           </nav>
         </div>
       </header>
@@ -295,6 +310,19 @@ export function App() {
                 initialHideExcluded={studyOptions?.hideExcluded}
                 initialHideLearned={studyOptions?.hideLearned}
                 onExit={() => setActiveTab('dashboard')}
+                onOpenHelp={() => setActiveTab('help')}
+              />
+            )}
+
+            {activeTab === 'help' && (
+              <Help
+                onBackToDashboard={() => setActiveTab('dashboard')}
+                onStartStudy={() => {
+                  if (deck) {
+                    const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
+                    handleStartStudy(allCards, deck.manifest.deck_title);
+                  }
+                }}
               />
             )}
           </>
@@ -302,8 +330,14 @@ export function App() {
       </main>
 
       {/* Subtle Footer */}
-      <footer className="border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500">
-        Modern Greek Deck Engine • Multi-User Local Storage • Powered by Google Cloud Chirp 3 HD
+      <footer className="border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+        <span>Modern Greek Deck Engine • Multi-User Local Storage • Powered by Google Cloud Chirp 3 HD</span>
+        <button
+          onClick={() => setActiveTab('help')}
+          className="text-slate-400 hover:text-sky-400 underline underline-offset-2 transition-colors"
+        >
+          Help & Keyboard Shortcuts
+        </button>
       </footer>
     </div>
   );

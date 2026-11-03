@@ -116,6 +116,29 @@ UNIT_METADATA = {
             "  - 'Ψάχνω ένα...' (I am looking for a...)"
         ),
     },
+    7: {
+        "title": "Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)",
+        "description": "CEFR A1: Describing an apartment, rooms of the house, core furniture, spatial prepositions, and understanding classified accommodation listings.",
+        "lesson_notes": (
+            "Unit 7 Core Grammar Notes:\n"
+            "• Existential Construction 'υπάρχει / υπάρχουν':\n"
+            "  - Singular: 'Υπάρχει ένα μεγάλο σαλόνι.' (There is a large living room.)\n"
+            "  - Plural: 'Υπάρχουν δύο κρεβατοκάμαρες.' (There are two bedrooms.)\n"
+            "  - Negative: 'Δεν υπάρχει ασανσέρ.' (There is no elevator.)\n"
+            "• Spatial Prepositions & Adverbs (Governing Accusative):\n"
+            "  - Governed by 'σε + άρθρο' (contracted): μέσα σε (inside), πάνω σε (on top of), δίπλα σε (next to), ανάμεσα σε (between).\n"
+            "  - Governed by 'από + άρθρο': έξω από (outside of), κάτω από (under), απέναντι από (across from), μπροστά από (in front of), πίσω από (behind).\n"
+            "• Definite Article Grid (Nominative & Accusative):\n"
+            "  - Masculine: Nom: ο / οι — Acc: τον / τους\n"
+            "  - Feminine:  Nom: η / οι — Acc: τη(ν) / τις\n"
+            "  - Neuter:    Nom: το / τα — Acc: το / τα\n"
+            "• Reading Housing Classified Ads (Αγγελίες Κατοικιών):\n"
+            "  - ενοικιάζεται (for rent) / πωλείται (for sale)\n"
+            "  - γκαρσονιέρα (studio flat), δυάρι (2-room flat), τριάρι (3-room flat)\n"
+            "  - όροφος: 1ος (πρώτος), 2ος (δεύτερος), ισόγειο (ground floor)\n"
+            "  - επιπλωμένο (furnished) / αυτόνομη θέρμανση (independent heating)"
+        ),
+    },
 }
 
 

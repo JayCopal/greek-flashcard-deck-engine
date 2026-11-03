@@ -1,0 +1,683 @@
+unit_id: unit-07
+lesson_id: lesson-01
+title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
+description: 'CEFR A1: Describing an apartment, rooms of the house, core furniture,
+  spatial prepositions, and understanding classified accommodation listings.'
+lesson_status: not_started
+lesson_notes: "Unit 7 Core Grammar Notes:\n\n• Existential Construction 'υπάρχει /\
+  \ υπάρχουν':\n  - Singular: 'Υπάρχει ένα μεγάλο σαλόνι.' (There is a large living\
+  \ room.)\n  - Plural: 'Υπάρχουν δύο κρεβατοκάμαρες.' (There are two bedrooms.)\n\
+  \  - Negative: 'Δεν υπάρχει ασανσέρ.' (There is no elevator.)\n\n• Spatial Prepositions\
+  \ & Adverbs (Governing Accusative):\n  - Governed by 'σε + άρθρο' (contracted):\
+  \ μέσα σε (inside), πάνω σε (on top of), δίπλα σε (next to), ανάμεσα σε (between).\n\
+  \  - Governed by 'από + άρθρο': έξω από (outside of), κάτω από (under), απέναντι\
+  \ από (across from), μπροστά από (in front of), πίσω από (behind).\n\n• Definite\
+  \ Article Grid (Nominative & Accusative):\n  - Masculine: Nom: ο / οι — Acc: τον\
+  \ / τους\n  - Feminine:  Nom: η / οι — Acc: τη(ν) / τις\n  - Neuter:    Nom: το\
+  \ / τα — Acc: το / τα\n\n• Reading Housing Classified Ads (Αγγελίες Κατοικιών):\n\
+  \  - ενοικιάζεται (for rent) / πωλείται (for sale)\n  - γκαρσονιέρα (studio flat),\
+  \ δυάρι (2-room flat), τριάρι (3-room flat)\n  - όροφος: 1ος (πρώτος), 2ος (δεύτερος),\
+  \ ισόγειο (ground floor)\n  - επιπλωμένο (furnished) / αυτόνομη θέρμανση (independent\
+  \ heating)"
+entries:
+- id: A1-U07-001
+  greek: το σπίτι
+  phonetic_hint: ''
+  english: house / home
+  notes: 'Paroxytone neuter in -ι (plural: τα σπίτια). ''Στο σπίτι'' means both ''at
+    home'' and ''in the house''.'
+  gender_or_pos: noun (neuter)
+  audio: to-spiti-b7d111.mp3
+  status: verified
+  example_el: Μένω σε ένα παλιό αλλά όμορφο σπίτι.
+  example_en: I live in an old but beautiful house.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σπίτια
+    accusative_singular: το σπίτι
+  keg_communicative_function: Describing one's residence and home
+- id: A1-U07-002
+  greek: το διαμέρισμα
+  phonetic_hint: ''
+  english: apartment / flat
+  notes: Neuter in -μα with plural in -ματα (τα διαμερίσματα). Key term in classified
+    real estate ads (αγγελίες).
+  gender_or_pos: noun (neuter)
+  audio: to-diamerisma-44a98d.mp3
+  status: verified
+  example_el: Ψάχνω ένα διαμέρισμα με δύο δωμάτια στο κέντρο.
+  example_en: I am looking for a two-room apartment in the city center.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα διαμερίσματα
+    accusative_singular: το διαμέρισμα
+  keg_communicative_function: Describing apartment living and reading housing ads
+- id: A1-U07-003
+  greek: η πολυκατοικία
+  phonetic_hint: ''
+  english: apartment building / block of flats
+  notes: Compound from πολύς (many) + κατοικία (dwelling/residence). Paroxytone feminine
+    in -ία.
+  gender_or_pos: noun (feminine)
+  audio: i-polykatoikia-351c6a.mp3
+  status: verified
+  example_el: Η πολυκατοικία μας έχει έξι ορόφους.
+  example_en: Our apartment building has six floors.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πολυκατοικίες
+    accusative_singular: την πολυκατοικία
+  keg_communicative_function: Identifying building types in urban neighborhoods
+- id: A1-U07-004
+  greek: το δωμάτιο
+  phonetic_hint: ''
+  english: room (in a house or hotel)
+  notes: 'Proparoxytone neuter in -ιο (plural: τα δωμάτια). Double room = δίκλινο,
+    single room = μονόκλινο.'
+  gender_or_pos: noun (neuter)
+  audio: to-domatio-f088e7.mp3
+  status: verified
+  example_el: Θέλω ένα δίκλινο δωμάτιο με θέα στη θάλασσα.
+  example_en: I want a double room with a sea view.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δωμάτια
+    accusative_singular: το δωμάτιο
+  keg_communicative_function: Specifying number of rooms or booking hotel rooms
+- id: A1-U07-005
+  greek: το ξενοδοχείο
+  phonetic_hint: ''
+  english: hotel
+  notes: Compound from ξένος (stranger/guest) + δέχομαι (to receive). Neuter in -είο.
+  gender_or_pos: noun (neuter)
+  audio: to-xenodocheio-2248f1.mp3
+  status: verified
+  example_el: Το ξενοδοχείο είναι πολύ κοντά στο μετρό.
+  example_en: The hotel is very close to the metro.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ξενοδοχεία
+    accusative_singular: το ξενοδοχείο
+  keg_communicative_function: Inquiring about tourist lodging and reservations
+- id: A1-U07-006
+  greek: ο όροφος
+  phonetic_hint: ''
+  english: floor / storey
+  notes: 'Proparoxytone masculine in -ος (accusative: τον όροφο). 1st floor = πρώτος
+    όροφος, 2nd = δεύτερος όροφος.'
+  gender_or_pos: noun (masculine)
+  audio: o-orofos-f6f7f8.mp3
+  status: verified
+  example_el: Μένουμε στον δεύτερο όροφο.
+  example_en: We live on the second floor.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι όροφοι
+    accusative_singular: τον όροφο
+  keg_communicative_function: Stating apartment floor level in addresses or housing
+    ads
+- id: A1-U07-007
+  greek: το ισόγειο
+  phonetic_hint: ''
+  english: ground floor
+  notes: Compound from ίσος (equal/level) + γη (earth). Neuter in -ειο (στο ισόγειο).
+  gender_or_pos: noun (neuter)
+  audio: to-isogeio-75f059.mp3
+  status: verified
+  example_el: Το φαρμακείο είναι στο ισόγειο.
+  example_en: The pharmacy is on the ground floor.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ισόγεια
+    accusative_singular: το ισόγειο
+  keg_communicative_function: Describing ground level premises or apartment floors
+- id: A1-U07-008
+  greek: το μπαλκόνι
+  phonetic_hint: ''
+  english: balcony
+  notes: 'Paroxytone neuter in -ι (plural: τα μπαλκόνια). Essential feature in Greek
+    housing culture.'
+  gender_or_pos: noun (neuter)
+  audio: to-mpalkoni-63b14b.mp3
+  status: verified
+  example_el: Το διαμέρισμα έχει ένα μεγάλο φωτεινό μπαλκόνι.
+  example_en: The apartment has a large sunny balcony.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπαλκόνια
+    accusative_singular: το μπαλκόνι
+  keg_communicative_function: Describing outdoor spaces of an apartment
+- id: A1-U07-009
+  greek: ο κήπος
+  phonetic_hint: ''
+  english: garden / yard
+  notes: 'Paroxytone masculine in -ος (accusative: τον κήπο).'
+  gender_or_pos: noun (masculine)
+  audio: o-kipos-f5cfad.mp3
+  status: verified
+  example_el: Τα παιδιά παίζουν στον κήπο.
+  example_en: The children are playing in the garden.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κήποι
+    accusative_singular: τον κήπο
+  keg_communicative_function: Describing gardens and outdoor residential areas
+- id: A1-U07-010
+  greek: το σαλόνι
+  phonetic_hint: ''
+  english: living room / sitting room
+  notes: 'Paroxytone neuter in -ι (plural: τα σαλόνια).'
+  gender_or_pos: noun (neuter)
+  audio: to-saloni-9b4a14.mp3
+  status: verified
+  example_el: Καθόμαστε στο σαλόνι και βλέπουμε τηλεόραση.
+  example_en: We sit in the living room and watch television.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σαλόνια
+    accusative_singular: το σαλόνι
+  keg_communicative_function: Describing the main living and entertaining room
+- id: A1-U07-011
+  greek: η κουζίνα
+  phonetic_hint: ''
+  english: kitchen / cooking stove
+  notes: 'Feminine in -α (plural: οι κουζίνες). Refers both to the room and the cooking
+    appliance (η ηλεκτρική κουζίνα).'
+  gender_or_pos: noun (feminine)
+  audio: i-koyzina-f8029f.mp3
+  status: verified
+  example_el: Μαγειρεύω στην κουζίνα κάθε μεσημέρι.
+  example_en: I cook in the kitchen every afternoon.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κουζίνες
+    accusative_singular: την κουζίνα
+  keg_communicative_function: Referring to the kitchen area or the cooking appliance
+- id: A1-U07-012
+  greek: η κρεβατοκάμαρα
+  phonetic_hint: ''
+  english: bedroom / master bedroom
+  notes: 'Compound from κρεβάτι (bed) + κάμαρα (room). Synonym: το υπνοδωμάτιο.'
+  gender_or_pos: noun (feminine)
+  audio: i-krevatokamara-ac4542.mp3
+  status: verified
+  example_el: Η κρεβατοκάμαρα έχει ένα μεγάλο διπλό κρεβάτι.
+  example_en: The bedroom has a large double bed.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κρεβατοκάμαρες
+    accusative_singular: την κρεβατοκάμαρα
+  keg_communicative_function: Describing sleeping quarters in a home
+- id: A1-U07-013
+  greek: το μπάνιο
+  phonetic_hint: ''
+  english: bathroom / bath
+  notes: 'Neuter in -ιο. Also used idiomatically for swimming in the sea: ''κάνω μπάνιο''
+    (to take a bath / to swim).'
+  gender_or_pos: noun (neuter)
+  audio: to-mpanio-e4e21b.mp3
+  status: verified
+  example_el: Πού είναι το μπάνιο, παρακαλώ;
+  example_en: Where is the bathroom, please?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπάνια
+    accusative_singular: το μπάνιο
+  keg_communicative_function: Inquiring about bathroom facilities in accommodation
+- id: A1-U07-014
+  greek: ο διάδρομος
+  phonetic_hint: ''
+  english: hallway / corridor
+  notes: 'Proparoxytone masculine in -ος (accusative: τον διάδρομο).'
+  gender_or_pos: noun (masculine)
+  audio: o-diadromos-9d982f.mp3
+  status: verified
+  example_el: Το μπάνιο είναι στο τέλος του διαδρόμου.
+  example_en: The bathroom is at the end of the hallway.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι διάδρομοι
+    accusative_singular: τον διάδρομο
+  keg_communicative_function: Giving directions inside an apartment or hotel
+- id: A1-U07-015
+  greek: η πόρτα
+  phonetic_hint: ''
+  english: door
+  notes: Paroxytone feminine in -α with plural in -ες (οι πόρτες).
+  gender_or_pos: noun (feminine)
+  audio: i-porta-2f3e68.mp3
+  status: verified
+  example_el: Κλείνω την πόρτα του σπιτιού με το κλειδί.
+  example_en: I lock the door of the house with the key.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πόρτες
+    accusative_singular: την πόρτα
+  keg_communicative_function: Referring to home entrances and doors
+- id: A1-U07-016
+  greek: το παράθυρο
+  phonetic_hint: ''
+  english: window
+  notes: 'Proparoxytone neuter in -ο (plural: τα παράθυρα).'
+  gender_or_pos: noun (neuter)
+  audio: to-parathyro-4687bb.mp3
+  status: verified
+  example_el: Ανοίγω το παράθυρο για φρέσκο αέρα.
+  example_en: I open the window for fresh air.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παράθυρα
+    accusative_singular: το παράθυρο
+  keg_communicative_function: Describing rooms with natural light and ventilation
+- id: A1-U07-017
+  greek: το έπιπλο
+  phonetic_hint: ''
+  english: 'piece of furniture (plural: furniture)'
+  notes: Proparoxytone neuter in -ο. English 'furniture' is uncountable, but Greek
+    uses plural 'τα έπιπλα'.
+  gender_or_pos: noun (neuter)
+  audio: to-epiplo-f6a0a7.mp3
+  status: verified
+  example_el: Αγοράζουμε νέα έπιπλα για το σαλόνι.
+  example_en: We are buying new furniture for the living room.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα έπιπλα
+    accusative_singular: το έπιπλο
+  keg_communicative_function: Talking about home furnishings and interior decor
+- id: A1-U07-018
+  greek: το κρεβάτι
+  phonetic_hint: ''
+  english: bed
+  notes: 'Paroxytone neuter in -ι (plural: τα κρεβάτια). ''Πάω για ύπνο στο κρεβάτι''
+    = I go to sleep in bed.'
+  gender_or_pos: noun (neuter)
+  audio: to-krevati-7cc70b.mp3
+  status: verified
+  example_el: Το κρεβάτι είναι πολύ αναπαυτικό.
+  example_en: The bed is very comfortable.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρεβάτια
+    accusative_singular: το κρεβάτι
+  keg_communicative_function: Describing bedroom furniture and hotel room types
+- id: A1-U07-019
+  greek: ο καναπές
+  phonetic_hint: ''
+  english: sofa / couch
+  notes: 'Oxytone masculine in -ές (plural: οι καναπέδες, accusative: τον καναπέ).'
+  gender_or_pos: noun (masculine)
+  audio: o-kanapes-6eb76c.mp3
+  status: verified
+  example_el: Ξεκουράζομαι στον καναπέ μετά τη δουλειά.
+  example_en: I rest on the sofa after work.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καναπέδες
+    accusative_singular: τον καναπέ
+  keg_communicative_function: Describing living room seating
+- id: A1-U07-020
+  greek: η πολυθρόνα
+  phonetic_hint: ''
+  english: armchair
+  notes: Compound from πολύς (much) + θρόνος (throne). Paroxytone feminine in -α.
+  gender_or_pos: noun (feminine)
+  audio: i-polythrona-3b7628.mp3
+  status: verified
+  example_el: Διαβάζω ένα βιβλίο στην πολυθρόνα.
+  example_en: I am reading a book in the armchair.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πολυθρόνες
+    accusative_singular: την πολυθρόνα
+  keg_communicative_function: Describing comfortable seating in living rooms
+- id: A1-U07-021
+  greek: η καρέκλα
+  phonetic_hint: ''
+  english: chair
+  notes: Paroxytone feminine in -α with plural in -ες (οι καρέκλες).
+  gender_or_pos: noun (feminine)
+  audio: i-karekla-438e54.mp3
+  status: verified
+  example_el: Χρειαζόμαστε άλλη μία καρέκλα για το τραπέζι.
+  example_en: We need another chair for the table.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καρέκλες
+    accusative_singular: την καρέκλα
+  keg_communicative_function: Asking for chairs or arranging dining seating
+- id: A1-U07-022
+  greek: η ντουλάπα
+  phonetic_hint: ''
+  english: wardrobe / closet
+  notes: Feminine in -α. In Greek apartments, 'εντοιχισμένη ντουλάπα' denotes a built-in
+    closet.
+  gender_or_pos: noun (feminine)
+  audio: i-ntoylapa-df8185.mp3
+  status: verified
+  example_el: Βάζω τα ρούχα μου στην ντουλάπα.
+  example_en: I put my clothes in the wardrobe.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ντουλάπες
+    accusative_singular: την ντουλάπα
+  keg_communicative_function: Describing bedroom storage and closet space
+- id: A1-U07-023
+  greek: το ψυγείο
+  phonetic_hint: ''
+  english: refrigerator / fridge
+  notes: 'Paroxytone neuter in -είο (plural: τα ψυγεία). Derived from ψύχος (cold).'
+  gender_or_pos: noun (neuter)
+  audio: to-psygeio-6f8f89.mp3
+  status: verified
+  example_el: Βάζω το γάλα και το τυρί στο ψυγείο.
+  example_en: I put the milk and cheese in the fridge.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψυγεία
+    accusative_singular: το ψυγείο
+  keg_communicative_function: Referring to essential kitchen appliances
+- id: A1-U07-024
+  greek: το πλυντήριο
+  phonetic_hint: ''
+  english: washing machine
+  notes: Proparoxytone neuter in -ιο. 'Πλυντήριο ρούχων' = clothes washer; 'πλυντήριο
+    πιάτων' = dishwasher.
+  gender_or_pos: noun (neuter)
+  audio: to-plyntirio-c5ec8c.mp3
+  status: verified
+  example_el: Το διαμέρισμα διαθέτει πλυντήριο ρούχων.
+  example_en: The apartment features a washing machine.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πλυντήρια
+    accusative_singular: το πλυντήριο
+  keg_communicative_function: Describing household appliances in rental listings
+- id: A1-U07-025
+  greek: η τηλεόραση
+  phonetic_hint: ''
+  english: television / TV set
+  notes: Feminine noun in -ση with plural in -σεις (οι τηλεοράσεις).
+  gender_or_pos: noun (feminine)
+  audio: i-tileorasi-8e21f7.mp3
+  status: verified
+  example_el: Βλέπουμε τις ειδήσεις στην τηλεόραση.
+  example_en: We watch the news on television.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τηλεοράσεις
+    accusative_singular: την τηλεόραση
+  keg_communicative_function: Describing home entertainment and media devices
+- id: A1-U07-026
+  greek: το φωτιστικό
+  phonetic_hint: ''
+  english: light fixture / lamp
+  notes: 'Oxytone neuter in -ό (plural: τα φωτιστικά). Derived from φως (light).'
+  gender_or_pos: noun (neuter)
+  audio: to-fotistiko-b106db.mp3
+  status: verified
+  example_el: Υπάρχει ένα φωτιστικό πάνω στο γραφείο.
+  example_en: There is a lamp on the desk.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φωτιστικά
+    accusative_singular: το φωτιστικό
+  keg_communicative_function: Describing room lighting and fixtures
+- id: A1-U07-027
+  greek: το χαλί
+  phonetic_hint: ''
+  english: rug / carpet
+  notes: 'Oxytone neuter in -ί (plural: τα χαλιά).'
+  gender_or_pos: noun (neuter)
+  audio: to-chali-c80887.mp3
+  status: verified
+  example_el: Στο σαλόνι έχουμε ένα μεγάλο κόκκινο χαλί.
+  example_en: In the living room we have a large red rug.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χαλιά
+    accusative_singular: το χαλί
+  keg_communicative_function: Describing floor coverings in home decoration
+- id: A1-U07-028
+  greek: μέσα σε
+  phonetic_hint: ''
+  english: in / inside (+ Accusative)
+  notes: 'Combines with contracted article: μέσα στο σπίτι, μέσα στο δωμάτιο.'
+  gender_or_pos: phrase (spatial preposition)
+  audio: mesa-se-ac2632.mp3
+  status: verified
+  example_el: Τα κλειδιά είναι μέσα στην τσάντα μου.
+  example_en: The keys are inside my bag.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative with article (στο, στη, στον, στα, στις, στους)
+  keg_communicative_function: Expressing position inside a space, container, or room
+- id: A1-U07-029
+  greek: έξω από
+  phonetic_hint: ''
+  english: outside of (+ Accusative)
+  notes: Direct antonym of 'μέσα σε'. Governs 'από + Accusative'.
+  gender_or_pos: phrase (spatial preposition)
+  audio: exo-apo-c5e1bb.mp3
+  status: verified
+  example_el: Περιμένω έξω από την πολυκατοικία.
+  example_en: I am waiting outside the apartment building.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative (από + τον, την, το, τους, τις, τα)
+  keg_communicative_function: Expressing location outside a building or room
+- id: A1-U07-030
+  greek: πάνω σε
+  phonetic_hint: ''
+  english: on / on top of (+ Accusative)
+  notes: Also used simply as 'πάνω στο τραπέζι'. Direct antonym of 'κάτω από'.
+  gender_or_pos: phrase (spatial preposition)
+  audio: pano-se-f61ef0.mp3
+  status: verified
+  example_el: Το βιβλίο είναι πάνω στο τραπέζι.
+  example_en: The book is on the table.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative with article (στο, στη, στον, στα)
+  keg_communicative_function: Describing objects resting on surfaces
+- id: A1-U07-031
+  greek: κάτω από
+  phonetic_hint: ''
+  english: under / underneath (+ Accusative)
+  notes: Governs 'από + Accusative' (κάτω από το τραπέζι).
+  gender_or_pos: phrase (spatial preposition)
+  audio: kato-apo-4597b4.mp3
+  status: verified
+  example_el: Η γάτα κοιμάται κάτω από το κρεβάτι.
+  example_en: The cat is sleeping under the bed.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative (από + article)
+  keg_communicative_function: Describing objects positioned beneath surfaces
+- id: A1-U07-032
+  greek: δίπλα σε
+  phonetic_hint: ''
+  english: next to / beside (+ Accusative)
+  notes: 'Combines with ''σε + άρθρο'': δίπλα στον καναπέ, δίπλα στην πόρτα.'
+  gender_or_pos: phrase (spatial preposition)
+  audio: dipla-se-bb57f9.mp3
+  status: verified
+  example_el: Η πολυθρόνα είναι δίπλα στο παράθυρο.
+  example_en: The armchair is next to the window.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative with article (στο, στη, στον, στα)
+  keg_communicative_function: Describing adjacent positioning of furniture or buildings
+- id: A1-U07-033
+  greek: απέναντι από
+  phonetic_hint: ''
+  english: opposite / across from (+ Accusative)
+  notes: Governs 'από + Accusative' (απέναντι από την τράπεζα).
+  gender_or_pos: phrase (spatial preposition)
+  audio: apenanti-apo-240ccc.mp3
+  status: verified
+  example_el: Το σούπερ μάρκετ είναι απέναντι από το σπίτι μου.
+  example_en: The supermarket is across from my house.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative (από + article)
+  keg_communicative_function: Describing facing objects or buildings across the street
+- id: A1-U07-034
+  greek: μπροστά από
+  phonetic_hint: ''
+  english: in front of (+ Accusative)
+  notes: Direct antonym of 'πίσω από'.
+  gender_or_pos: phrase (spatial preposition)
+  audio: mprosta-apo-45e815.mp3
+  status: verified
+  example_el: Υπάρχει ένα μικρό τραπέζι μπροστά από τον καναπέ.
+  example_en: There is a small table in front of the sofa.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative (από + article)
+  keg_communicative_function: Describing spatial placement in front of an object
+- id: A1-U07-035
+  greek: πίσω από
+  phonetic_hint: ''
+  english: behind (+ Accusative)
+  notes: Governs 'από + Accusative' (πίσω από την πόρτα).
+  gender_or_pos: phrase (spatial preposition)
+  audio: piso-apo-cece97.mp3
+  status: verified
+  example_el: Ο κήπος είναι πίσω από την πολυκατοικία.
+  example_en: The garden is behind the apartment building.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative (από + article)
+  keg_communicative_function: Describing position behind an object or building
+- id: A1-U07-036
+  greek: ανάμεσα σε
+  phonetic_hint: ''
+  english: between / among (+ Accusative)
+  notes: 'Formula: ''ανάμεσα σε + Accusative'' or ''ανάμεσα στο Α και στο Β''.'
+  gender_or_pos: phrase (spatial preposition)
+  audio: anamesa-se-1a80e4.mp3
+  status: verified
+  example_el: Το κομοδίνο είναι ανάμεσα στα δύο κρεβάτια.
+  example_en: The nightstand is between the two beds.
+  grammatical_info:
+    part_of_speech: phrase (spatial preposition)
+    governs_case: accusative with article (ανάμεσα στο... και στο...)
+  keg_communicative_function: Describing intermediate positioning between two objects
+- id: A1-U07-037
+  greek: το ενοίκιο
+  phonetic_hint: ''
+  english: rent (monthly payment)
+  notes: 'Proparoxytone neuter in -ιο (plural: τα ενοίκια). Essential classified ad
+    term.'
+  gender_or_pos: noun (neuter)
+  audio: to-enoikio-b77ed7.mp3
+  status: verified
+  example_el: Πόσο είναι το ενοίκιο τον μήνα;
+  example_en: How much is the rent per month?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ενοίκια
+    accusative_singular: το ενοίκιο
+  keg_communicative_function: Asking for and discussing rental prices in classified
+    ads
+- id: A1-U07-038
+  greek: το ασανσέρ
+  phonetic_hint: ''
+  english: elevator / lift
+  notes: 'French loanword: indeclinable neuter (το ασανσέρ, τα ασανσέρ).'
+  gender_or_pos: noun (neuter indeclinable)
+  audio: to-asanser-33aacc.mp3
+  status: verified
+  example_el: Η πολυκατοικία διαθέτει καινούριο ασανσέρ.
+  example_en: The apartment building has a new elevator.
+  grammatical_info:
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα ασανσέρ
+    accusative_singular: το ασανσέρ
+  keg_communicative_function: Checking building amenities in real estate listings
+- id: A1-U07-039
+  greek: η θέρμανση
+  phonetic_hint: ''
+  english: heating / central heating
+  notes: Feminine noun in -ση. 'Αυτόνομη θέρμανση' (independent heating) vs 'κεντρική
+    θέρμανση' (central heating).
+  gender_or_pos: noun (feminine)
+  audio: i-thermansi-062ade.mp3
+  status: verified
+  example_el: Το σπίτι έχει αυτόνομη θέρμανση φυσικού αερίου.
+  example_en: The house has autonomous natural gas heating.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θερμάνσεις
+    accusative_singular: τη θέρμανση
+  keg_communicative_function: Inquiring about heating systems (αυτόνομη / κεντρική)
+- id: A1-U07-040
+  greek: νοικιάζω
+  phonetic_hint: ''
+  english: to rent / to lease / I rent
+  notes: Type A active verb. Means both 'to rent from someone' and 'to rent out to
+    someone'.
+  gender_or_pos: verb
+  audio: noikiazo-7b0291.mp3
+  status: verified
+  example_el: Νοικιάζω ένα δυάρι στους Αμπελόκηπους.
+  example_en: I am renting a two-room apartment in Ambelokipi.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό νοικιάζει
+    first_person_plural: εμείς νοικιάζουμε
+  keg_communicative_function: Talking about renting a house or apartment
+- id: A1-U07-041
+  greek: υπάρχει / υπάρχουν
+  phonetic_hint: ''
+  english: there is / there are
+  notes: 'Existential construction. Singular: υπάρχει + singular noun; Plural: υπάρχουν
+    + plural noun.'
+  gender_or_pos: verb
+  audio: yparchei-yparchoyn-af2850.mp3
+  status: verified
+  example_el: Στο σαλόνι υπάρχουν δύο μεγάλες πολυθρόνες.
+  example_en: In the living room there are two large armchairs.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: υπάρχει (there is)
+    first_person_plural: υπάρχουν (there are - 3rd pl.)
+  keg_communicative_function: Expressing existence and availability of rooms, amenities,
+    or items
+- id: A1-U07-042
+  greek: φωτεινός, -ή, -ό
+  phonetic_hint: ''
+  english: bright / luminous / sunny
+  notes: Oxytone regular adjective in -ός, -ή, -ό. Ubiquitous descriptor in Greek
+    rental ads.
+  gender_or_pos: adjective
+  audio: foteinos-i-o-2a0d1a.mp3
+  status: verified
+  example_el: Είναι ένα πολύ φωτεινό διαμέρισμα με νότιο προσανατολισμό.
+  example_en: It is a very bright apartment with south-facing orientation.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: φωτεινή
+    neuter: φωτεινό
+    plural: φωτεινοί, φωτεινές, φωτεινά
+  keg_communicative_function: Describing well-lit apartments and rooms
+- id: A1-U07-043
+  greek: επιπλωμένος, -η, -ο
+  phonetic_hint: ''
+  english: furnished
+  notes: 'Participle used as adjective: επιπλωμένος, -η, -ο (from έπιπλο). Antonym:
+    ανεπίπλωτος (unfurnished).'
+  gender_or_pos: adjective
+  audio: epiplomenos-i-o-57ee52.mp3
+  status: verified
+  example_el: Ενοικιάζεται επιπλωμένη γκαρσονιέρα στο κέντρο.
+  example_en: Furnished studio apartment for rent in the center.
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: επιπλωμένη
+    neuter: επιπλωμένο
+    plural: επιπλωμένοι, επιπλωμένες, επιπλωμένα
+  keg_communicative_function: Identifying furnished accommodation in listings

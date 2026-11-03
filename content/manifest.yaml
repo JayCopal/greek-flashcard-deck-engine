@@ -45,6 +45,13 @@ units:
   - id: lesson-01
     file: unit-06/lesson-01.yaml
     title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
+- id: unit-07
+  title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
+  order: 7
+  lessons:
+  - id: lesson-01
+    file: unit-07/lesson-01.yaml
+    title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
 - id: unit-101
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-41 (Εισαγωγική Ενότητα - Ήχοι, Γράμματα
     & Πρώτες Λέξεις)'

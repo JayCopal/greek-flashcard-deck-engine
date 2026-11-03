@@ -218,6 +218,7 @@ export function resetUserProgress(userId?: string): void {
     localStorage.removeItem(`greek_deck_srs_${uid}`);
     localStorage.removeItem(`greek_deck_lessons_${uid}`);
     localStorage.removeItem(`greek_deck_lesson_notes_${uid}`);
+    localStorage.removeItem(`greek_deck_study_prefs_${uid}`);
     if (uid === 'default') {
       localStorage.removeItem(LEGACY_SRS_KEY);
     }
@@ -225,6 +226,56 @@ export function resetUserProgress(userId?: string): void {
     console.error('Failed to reset user progress', e);
   }
   notifyProgressChanged();
+}
+
+/**
+ * User study session preferences (remembered filters)
+ */
+export interface UserStudyPreferences {
+  hideLearned: boolean;
+  hideExcluded: boolean;
+}
+
+export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
+  hideLearned: true,
+  hideExcluded: true,
+};
+
+export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
+  const uid = userId || getActiveUserId();
+  const key = `greek_deck_study_prefs_${uid}`;
+  try {
+    const raw = localStorage.getItem(key);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return {
+        hideLearned: parsed.hideLearned !== undefined ? Boolean(parsed.hideLearned) : true,
+        hideExcluded: parsed.hideExcluded !== undefined ? Boolean(parsed.hideExcluded) : true,
+      };
+    }
+  } catch (e) {
+    console.warn('Failed to read study preferences', e);
+  }
+  return { ...DEFAULT_STUDY_PREFERENCES };
+}
+
+export function setUserStudyPreferences(
+  prefs: Partial<UserStudyPreferences>,
+  userId?: string
+): UserStudyPreferences {
+  const uid = userId || getActiveUserId();
+  const key = `greek_deck_study_prefs_${uid}`;
+  const current = getUserStudyPreferences(uid);
+  const updated: UserStudyPreferences = {
+    ...current,
+    ...prefs,
+  };
+  try {
+    localStorage.setItem(key, JSON.stringify(updated));
+  } catch (err) {
+    console.error('Failed to save study preferences', err);
+  }
+  return updated;
 }
 
 /**
