@@ -1021,12 +1021,6 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 </>
               )}
             </div>
-
-            {/* Subtle Flip Back Indicator */}
-            <div className="text-center text-[11px] text-slate-500 font-medium tracking-wide flex items-center justify-center gap-1.5">
-              <RotateCw className="w-3 h-3 text-slate-600" />
-              <span>Tap card or press <kbd className="px-1 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700/60 font-mono text-[10px]">↑</kbd> to flip back</span>
-            </div>
           </div>
         </div>
       </div>
