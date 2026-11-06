@@ -80,11 +80,13 @@ export function App() {
   };
 
   // Fetch Deck Data from API or offline fallback
-  const fetchDeck = async () => {
+  const fetchDeck = async (forceBust = false) => {
     setLoading(true);
     try {
       // First attempt local backend API
-      const res = await fetch('/api/deck');
+      const res = await fetch(`/api/deck${forceBust ? `?t=${Date.now()}` : ''}`, {
+        cache: forceBust ? 'no-cache' : 'default',
+      });
       if (res.ok) {
         const data = await res.json();
         setDeck(data);
@@ -101,7 +103,8 @@ export function App() {
       const baseUrl = import.meta.env.BASE_URL.endsWith('/')
         ? import.meta.env.BASE_URL
         : `${import.meta.env.BASE_URL}/`;
-      const fallbackRes = await fetch(`${baseUrl}data/deck.json`);
+      const url = `${baseUrl}data/deck.json${forceBust ? `?t=${Date.now()}` : ''}`;
+      const fallbackRes = await fetch(url, { cache: forceBust ? 'no-cache' : 'default' });
       if (fallbackRes.ok) {
         const data = await fallbackRes.json();
         setDeck(data);
@@ -112,6 +115,21 @@ export function App() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleRefresh = async () => {
+    setLoading(true);
+    if ('serviceWorker' in navigator) {
+      try {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        for (const reg of regs) {
+          await reg.update();
+        }
+      } catch {
+        // ignore
+      }
+    }
+    await fetchDeck(true);
   };
 
   useEffect(() => {
@@ -186,7 +204,7 @@ export function App() {
 
             <UserSelector />
 
-            {isOfflineMode ? (
+            {isOfflineMode && (
               <span 
                 className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2 sm:px-2.5 py-1.5 rounded-xl border border-teal-800"
                 title="PWA Offline Mode Active"
@@ -194,15 +212,14 @@ export function App() {
                 <WifiOff className="w-3.5 h-3.5" />
                 <span className="hidden md:inline">Offline</span>
               </span>
-            ) : (
-              <button
-                onClick={fetchDeck}
-                className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700"
-                title="Reload YAML from disk"
-              >
-                <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              </button>
             )}
+            <button
+              onClick={handleRefresh}
+              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700"
+              title={isOfflineMode ? "Check for updates and reload deck data" : "Reload YAML from disk"}
+            >
+              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
+            </button>
           </div>
 
           {/* Nav Tabs - Wraps gracefully below on mobile/PWA, centers inline on md+ */}
@@ -280,7 +297,7 @@ export function App() {
               Ensure the Python backend is running on port 8000 and that <code>content/manifest.yaml</code> exists.
             </p>
             <button
-              onClick={fetchDeck}
+              onClick={() => handleRefresh()}
               className="px-4 py-2 rounded-xl bg-sky-500 text-white text-sm font-semibold"
             >
               Retry Connection
@@ -293,7 +310,7 @@ export function App() {
                 deck={deck}
                 onSelectLesson={handleSelectLessonFromDashboard}
                 onStartStudy={handleStartStudy}
-                onRefresh={fetchDeck}
+                onRefresh={handleRefresh}
               />
             )}
 
@@ -303,7 +320,7 @@ export function App() {
                 initialUnitId={editorUnitId}
                 initialLessonId={editorLessonId}
                 onBackToDashboard={() => setActiveTab('dashboard')}
-                onRefresh={fetchDeck}
+                onRefresh={handleRefresh}
               />
             )}
 

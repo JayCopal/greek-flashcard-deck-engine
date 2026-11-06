@@ -20,7 +20,7 @@ export default defineConfig({
         id: process.env.NODE_ENV === 'production' ? '/greek-flashcard-deck-engine/' : '/',
         name: 'Modern Greek Flashcard Deck',
         short_name: 'GreekCards',
-        description: 'Offline Greek Flashcards with Native Google Chirp-3 HD Audio',
+        description: 'Offline Greek Flashcards with Studio-Quality Native Audio',
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
@@ -48,6 +48,9 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,mp3}'],
+        cleanupOutdatedCaches: true,
+        skipWaiting: true,
+        clientsClaim: true,
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.includes('/audio/') || url.pathname.endsWith('.mp3'),
@@ -65,9 +68,14 @@ export default defineConfig({
           },
           {
             urlPattern: ({ url }) => url.pathname.endsWith('/data/deck.json') || url.pathname.endsWith('deck.json'),
-            handler: 'StaleWhileRevalidate',
+            handler: 'NetworkFirst',
             options: {
-              cacheName: 'greek-deck-data'
+              cacheName: 'greek-deck-data',
+              networkTimeoutSeconds: 3,
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days fallback
+              }
             }
           }
         ]
