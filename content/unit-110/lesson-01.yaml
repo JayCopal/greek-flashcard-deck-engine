@@ -1,1146 +1,1048 @@
 unit_id: unit-110
 lesson_id: lesson-01
-title: 'Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)'
-description: 'Core vocabulary for Unit 9 and Review 7-9 of Klik sta Ellinika A1: Academic
-  institutions & education (σπουδές, πανεπιστήμιο, σχολή, φροντιστήριο, εργαστήριο,
-  σχολείο, γυμνάσιο, λύκειο), classroom and school supplies (πίνακας, θρανίο, κασετίνα,
-  σακίδιο, τετράδιο, μολύβι, στυλό), musical instruments & arts (μουσική, πιάνο, κιθάρα,
-  βιολί, μπουζούκι, ζωγραφική, πινέλο), professions (καθηγητής, δάσκαλος, φοιτητής,
-  διευθυντής, γραμματέας, υπάλληλος, γιατρός, δικηγόρος, μηχανικός, μάγειρας, λογιστής,
-  κομμωτής), workplaces and employment (εργασία, μισθός, ωράριο, υπερωρία, άδεια,
-  εταιρεία, εργοστάσιο, νοσοκομείο, κομμωτήριο).'
+title: 'Ενότητα 10: Περαστικά! — Βασικό Λεξιλόγιο (Pages 219-232)'
+description: 'Core vocabulary for Unit 10 of Klik sta Ellinika A1: Health and illness
+  (υγεία, αρρώστια, ασθένεια, άρρωστος, πυρετός, βήχας, γρίπη, κρυολόγημα, πόνος,
+  πονοκέφαλος, πονόλαιμος), medical practitioners and facilities (γιατρός, παθολόγος,
+  παιδίατρος, οδοντίατρος, φαρμακοποιός, φαρμακείο, νοσοκομείο, ιατρείο, ασθενοφόρο),
+  pharmacy supplies and remedies (φάρμακο, χάπι, ασπιρίνη, σιρόπι, ένεση, αλοιφή,
+  επίδεσμος, τσιρότο, θερμόμετρο, παυσίπονο, χαμομήλι), anatomy and human body parts
+  (σώμα, κεφάλι, πρόσωπο, μάτι, αυτί, μύτη, στόμα, δόντι, λαιμός, πλάτη, καρδιά, κοιλιά,
+  χέρι, πόδι), and illness verbs (αρρωσταίνω, πονάω, κρυώνω, βήχω).'
 lesson_status: not_started
 entries:
 - id: A1-U110-001
-  greek: οι σπουδές
-  phonetic_hint: ee spoo-THES
-  english: studies / higher education
-  notes: Klik A1 p. 195, 199. Feminine noun used predominantly in plural (οι σπουδές).
+  greek: η υγεία
+  phonetic_hint: ee ee-YEE-ah
+  english: health
+  notes: Klik A1 p. 219, 231. Feminine noun in -α with plural in -ες. Central thematic
+    concept of Unit 10.
   gender_or_pos: noun (feminine)
-  audio: oi-spoydes-d8168c.mp3
+  audio: i-ygeia-bc5615.mp3
   status: verified
-  example_el: Οι σπουδές στο πανεπιστήμιο απαιτούν πολύ διάβασμα.
-  example_en: University studies require a lot of reading.
+  example_el: Η υγεία είναι το πιο σημαντικό πράγμα στη ζωή μας.
+  example_en: Health is the most important thing in our life.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι σπουδές
-    accusative_singular: τις σπουδές
-  keg_communicative_function: Naming higher education studies
+    plural: οι υγείες
+    accusative_singular: την υγεία
+  keg_communicative_function: Discussing health and physical wellbeing
 - id: A1-U110-002
-  greek: το πανεπιστήμιο
-  phonetic_hint: to pah-neh-pee-STEE-mee-o
-  english: university
-  notes: Klik A1 p. 195, 215. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-panepistimio-7d0e6a.mp3
+  greek: η αρρώστια
+  phonetic_hint: ee ah-RO-styah
+  english: sickness / illness
+  notes: Klik A1 p. 219, 220. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-arrostia-d0fb6a.mp3
   status: verified
-  example_el: Ο αδερφός μου πέρασε στο Πανεπιστήμιο Αθηνών.
-  example_en: My brother got into the University of Athens.
+  example_el: Τον χειμώνα κυκλοφορούν πολλές αρρώστιες και ιώσεις.
+  example_en: In winter many illnesses and viruses circulate.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πανεπιστήμια
-    accusative_singular: το πανεπιστήμιο
-  keg_communicative_function: Identifying higher education institutions
+    part_of_speech: noun (feminine)
+    plural: οι αρρώστιες
+    accusative_singular: την αρρώστια
+  keg_communicative_function: Naming illnesses and medical conditions
 - id: A1-U110-003
-  greek: η σχολή
-  phonetic_hint: ee sko-LEE
-  english: school / faculty / college department
-  notes: Klik A1 p. 195, 199. Feminine noun in -ή with plural in -ές.
+  greek: η ασθένεια
+  phonetic_hint: ee ah-STHEH-nee-ah
+  english: disease / medical illness / ailment
+  notes: Klik A1 p. 224, 231. Feminine noun in -α with plural in -ες.
   gender_or_pos: noun (feminine)
-  audio: i-scholi-fb55f3.mp3
+  audio: i-astheneia-6870c2.mp3
   status: verified
-  example_el: Η νομική σχολή έχει πολλά δύσκολα μαθήματα.
-  example_en: The law school has many difficult courses.
+  example_el: Ο γιατρός διέγνωσε μια κοινή εποχική ασθένεια.
+  example_en: The doctor diagnosed a common seasonal illness.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι σχολές
-    accusative_singular: τη σχολή
-  keg_communicative_function: Naming university faculties and vocational colleges
+    plural: οι ασθένειες
+    accusative_singular: την ασθένεια
+  keg_communicative_function: Referring to medical ailments formally
 - id: A1-U110-004
-  greek: το φροντιστήριο
-  phonetic_hint: to fron-dee-STEE-ree-o
-  english: cram school / private tutoring institute (languages/exams)
-  notes: Klik A1 p. 197, 199. Neuter noun in -ο with plural in -α. Institution for
-    private tutoring or language study.
-  gender_or_pos: noun (neuter)
-  audio: to-frontistirio-726ac0.mp3
+  greek: ο άρρωστος
+  phonetic_hint: o AH-ro-stos
+  english: sick person / patient (male)
+  notes: Klik A1 p. 219, 220, 222. Substantivized adjective in -ος with plural in
+    -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-arrostos-c8483a.mp3
   status: verified
-  example_el: Κάνω μαθήματα ελληνικών σε ένα φροντιστήριο ξένων γλωσσών.
-  example_en: I take Greek lessons at a foreign language institute.
+  example_el: Ο άρρωστος πρέπει να μείνει στο κρεβάτι και να ξεκουραστεί.
+  example_en: The sick person must stay in bed and rest.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα φροντιστήρια
-    accusative_singular: το φροντιστήριο
-  keg_communicative_function: Identifying private educational tutoring centers
+    part_of_speech: noun (masculine)
+    plural: οι άρρωστοι
+    accusative_singular: τον άρρωστο
+  keg_communicative_function: Identifying a sick individual
 - id: A1-U110-005
-  greek: το εργαστήριο
-  phonetic_hint: to er-ghah-STEE-ree-o
-  english: workshop / laboratory / studio
-  notes: Klik A1 p. 196, 206. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-ergastirio-11789e.mp3
+  greek: η άρρωστη
+  phonetic_hint: ee AH-ro-stee
+  english: sick person / patient (female)
+  notes: Klik A1 p. 219, 220, 231. Feminine form in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-arrosti-eee7d0.mp3
   status: verified
-  example_el: Κάθε Σάββατο πηγαίνω στο εργαστήριο ζωγραφικής.
-  example_en: Every Saturday I go to the art workshop.
+  example_el: Η άρρωστη μητέρα μου πίνει ζεστό χαμομήλι με μέλι.
+  example_en: My sick mother is drinking hot chamomile tea with honey.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα εργαστήρια
-    accusative_singular: το εργαστήριο
-  keg_communicative_function: Naming instructional studios and laboratories
+    part_of_speech: noun (feminine)
+    plural: οι άρρωστες
+    accusative_singular: την άρρωστη
+  keg_communicative_function: Identifying a sick female individual
 - id: A1-U110-006
-  greek: το σχολείο
-  phonetic_hint: to sko-LEE-o
-  english: school
-  notes: Klik A1 p. 197, 206. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-scholeio-3043b8.mp3
+  greek: ο ασθενής
+  phonetic_hint: o ah-stheh-NEES
+  english: patient (clinical)
+  notes: 'Klik A1 p. 224, 231. Masculine noun in -ής with plural in -είς (common gender:
+    ο/η ασθενής).'
+  gender_or_pos: noun (masculine)
+  audio: o-asthenis-498cff.mp3
   status: verified
-  example_el: Τα παιδιά πάνε στο σχολείο στις οκτώ το πρωί.
-  example_en: The children go to school at eight in the morning.
+  example_el: Ο γιατρός επισκέφτηκε τον ασθενή στον θάλαμο του νοσοκομείου.
+  example_en: The doctor visited the patient in the hospital ward.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σχολεία
-    accusative_singular: το σχολείο
-  keg_communicative_function: Naming primary and secondary educational schools
+    part_of_speech: noun (masculine)
+    plural: οι ασθενείς
+    accusative_singular: τον ασθενή
+  keg_communicative_function: Referring to clinical hospital patients
 - id: A1-U110-007
-  greek: το γυμνάσιο
-  phonetic_hint: to yeem-NAH-see-o
-  english: gymnasium / junior high school (grades 7-9)
-  notes: Klik A1 p. 202, 204. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-gymnasio-433b0b.mp3
+  greek: ο πυρετός
+  phonetic_hint: o pee-reh-TOS
+  english: fever / temperature
+  notes: Klik A1 p. 219, 220, 221. Masculine noun in -ός with plural in -οί.
+  gender_or_pos: noun (masculine)
+  audio: o-pyretos-95d8d4.mp3
   status: verified
-  example_el: Ο γιος μου τελείωσε το δημοτικό και πάει στο γυμνάσιο.
-  example_en: My son finished primary school and goes to junior high.
+  example_el: Το παιδί έχει υψηλό πυρετό, τριάντα εννέα βαθμούς.
+  example_en: The child has a high fever, thirty-nine degrees.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα γυμνάσια
-    accusative_singular: το γυμνάσιο
-  keg_communicative_function: Naming junior secondary school
+    part_of_speech: noun (masculine)
+    plural: οι πυρετοί
+    accusative_singular: τον πυρετό
+  keg_communicative_function: Reporting body fever symptoms
 - id: A1-U110-008
-  greek: το λύκειο
-  phonetic_hint: to LEE-kee-o
-  english: lyceum / senior high school (grades 10-12)
-  notes: Klik A1 p. 191, 202. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-lykeio-590eee.mp3
+  greek: ο βήχας
+  phonetic_hint: o VEE-khahs
+  english: cough
+  notes: Klik A1 p. 219, 220, 221, 231. Masculine noun in -ας with plural in -ες.
+  gender_or_pos: noun (masculine)
+  audio: o-vichas-e1bdb0.mp3
   status: verified
-  example_el: Στο λύκειο οι μαθητές προετοιμάζονται για τις πανελλήνιες εξετάσεις.
-  example_en: In senior high school students prepare for national entrance exams.
+  example_el: Έχω έναν έντονο ξηρό βήχα που δεν με αφήνει να κοιμηθώ.
+  example_en: I have an intense dry cough that does not let me sleep.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λύκεια
-    accusative_singular: το λύκειο
-  keg_communicative_function: Naming senior high school
+    part_of_speech: noun (masculine)
+    plural: οι βήχες
+    accusative_singular: τον βήχα
+  keg_communicative_function: Describing cough symptoms
 - id: A1-U110-009
-  greek: η τάξη
-  phonetic_hint: ee TAH-ksee
-  english: classroom / class / grade
-  notes: Klik A1 p. 197, 198. Feminine noun in -η with plural in -εις.
+  greek: η γρίπη
+  phonetic_hint: ee GREE-pee
+  english: flu / influenza
+  notes: Klik A1 p. 219, 220. Feminine noun in -η with plural in -ες.
   gender_or_pos: noun (feminine)
-  audio: i-taxi-80e810.mp3
+  audio: i-gripi-5d12af.mp3
   status: verified
-  example_el: Στην τάξη μας είμαστε δεκαπέντε μαθητές.
-  example_en: In our classroom we are fifteen students.
+  example_el: Κόλλησα εποχική γρίπη και πρέπει να μείνω στο σπίτι.
+  example_en: I caught seasonal flu and must stay home.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι τάξεις
-    accusative_singular: την τάξη
-  keg_communicative_function: Identifying classrooms and grade levels
+    plural: οι γρίπες
+    accusative_singular: τη γρίπη
+  keg_communicative_function: Naming the influenza virus
 - id: A1-U110-010
-  greek: το μάθημα
-  phonetic_hint: to MAH-thee-mah
-  english: lesson / course / lecture
-  notes: Klik A1 p. 196, 198, 199. Neuter noun in -μα with plural in -ματα.
+  greek: το κρυολόγημα
+  phonetic_hint: to kree-o-LO-yee-mah
+  english: common cold / chill
+  notes: Klik A1 p. 219, 220. Neuter noun in -μα with plural in -ματα.
   gender_or_pos: noun (neuter)
-  audio: to-mathima-6a1c3d.mp3
+  audio: to-kryologima-f74468.mp3
   status: verified
-  example_el: Το μάθημα των ελληνικών αρχίζει στις έξι το απόγευμα.
-  example_en: The Greek lesson starts at six in the evening.
+  example_el: Ένα βαρύ κρυολόγημα με ταλαιπωρεί εδώ και μία εβδομάδα.
+  example_en: A bad cold has been troubling me for a week.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα μαθήματα
-    accusative_singular: το μάθημα
-  keg_communicative_function: Referring to scheduled instructional lessons
+    plural: τα κρυολογήματα
+    accusative_singular: το κρυολόγημα
+  keg_communicative_function: Naming the common cold
 - id: A1-U110-011
-  greek: το εξάμηνο
-  phonetic_hint: to ek-SAH-mee-no
-  english: semester / academic term
-  notes: Klik A1 p. 198. Neuter noun in -ο with plural in -α.
+  greek: το συνάχι
+  phonetic_hint: to see-NAH-khee
+  english: runny nose / head cold / coryza
+  notes: Klik A1 p. 220. Neuter noun in -ι with plural in -ια.
   gender_or_pos: noun (neuter)
-  audio: to-examino-bd6efa.mp3
+  audio: to-synachi-b56f47.mp3
   status: verified
-  example_el: Τα δίδακτρα είναι πεντακόσια ευρώ το εξάμηνο.
-  example_en: The tuition is five hundred euros per semester.
+  example_el: Έχω συνάχι και χρειάζομαι χαρτομάντιλα.
+  example_en: I have a runny nose and need paper tissues.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα εξάμηνα
-    accusative_singular: το εξάμηνο
-  keg_communicative_function: Specifying academic terms and semesters
+    plural: τα συνάχια
+    accusative_singular: το συνάχι
+  keg_communicative_function: Describing nasal congestion and head cold
 - id: A1-U110-012
-  greek: η εγγραφή
-  phonetic_hint: ee eng-grah-FEE
-  english: enrollment / registration
-  notes: Klik A1 p. 195, 198, 199. Feminine noun in -ή with plural in -ές.
-  gender_or_pos: noun (feminine)
-  audio: i-eggrafi-e1edf4.mp3
+  greek: ο πόνος
+  phonetic_hint: o PO-nos
+  english: pain / ache
+  notes: Klik A1 p. 219, 220, 225. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-ponos-2bb4bc.mp3
   status: verified
-  example_el: Οι εγγραφές για τα νέα τμήματα γίνονται τον Σεπτέμβριο.
-  example_en: Registration for the new classes takes place in September.
+  example_el: Ο γιατρός μού έδωσε ένα φάρμακο και ο πόνος πέρασε.
+  example_en: The doctor gave me a medicine and the pain went away.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι εγγραφές
-    accusative_singular: την εγγραφή
-  keg_communicative_function: Discussing course registration and enrollment
+    part_of_speech: noun (masculine)
+    plural: οι πόνοι
+    accusative_singular: τον πόνο
+  keg_communicative_function: Reporting physical pain
 - id: A1-U110-013
-  greek: η εξέταση
-  phonetic_hint: ee ek-SEH-tah-see
-  english: examination / test
-  notes: Klik A1 p. 199, 200. Feminine noun in -η with plural in -εις.
-  gender_or_pos: noun (feminine)
-  audio: i-exetasi-1d1e76.mp3
+  greek: ο πονοκέφαλος
+  phonetic_hint: o po-no-KEH-fah-los
+  english: headache
+  notes: Klik A1 p. 224, 225. Compound masculine noun (πόνος + κεφάλι) in -ος with
+    plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-ponokefalos-f0102a.mp3
   status: verified
-  example_el: Αύριο έχουμε γραπτή εξέταση στη γραμματική.
-  example_en: Tomorrow we have a written examination in grammar.
+  example_el: Έχω έντονο πονοκέφαλο από την κούραση και την οθόνη.
+  example_en: I have an intense headache from tiredness and screen time.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι εξετάσεις
-    accusative_singular: την εξέταση
-  keg_communicative_function: Naming academic examinations and tests
+    part_of_speech: noun (masculine)
+    plural: οι πονοκέφαλοι
+    accusative_singular: τον πονοκέφαλο
+  keg_communicative_function: Specifying headaches
 - id: A1-U110-014
-  greek: το πτυχίο
-  phonetic_hint: to ptee-KHEE-o
-  english: degree / university diploma
-  notes: Klik A1 p. 195, 200. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-ptychio-a61772.mp3
+  greek: ο πονόλαιμος
+  phonetic_hint: o po-NO-leh-mos
+  english: sore throat
+  notes: Klik A1 p. 224, 225, 231. Compound masculine noun (πόνος + λαιμός) in -ος
+    with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-ponolaimos-d21d0f.mp3
   status: verified
-  example_el: Πήρε το πτυχίο της στη φιλολογία με άριστα.
-  example_en: She received her degree in philology with honors.
+  example_el: Ο πονόλαιμος δεν με αφήνει να καταπιώ εύκολα.
+  example_en: The sore throat does not let me swallow easily.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πτυχία
-    accusative_singular: το πτυχίο
-  keg_communicative_function: Naming university degrees and diplomas
+    part_of_speech: noun (masculine)
+    plural: οι πονόλαιμοι
+    accusative_singular: τον πονόλαιμο
+  keg_communicative_function: Reporting sore throat symptoms
 - id: A1-U110-015
-  greek: ο βαθμός
-  phonetic_hint: o vahth-MOS
-  english: grade / mark / degree
-  notes: Klik A1 p. 199, 200. Masculine noun in -ός with plural in -οί.
+  greek: ο στομαχόπονος
+  phonetic_hint: o sto-mah-KHO-po-nos
+  english: stomach ache
+  notes: Klik A1 p. 224, 225. Compound masculine noun (στομάχι + πόνος) in -ος with
+    plural in -οι.
   gender_or_pos: noun (masculine)
-  audio: o-vathmos-be1cd4.mp3
+  audio: o-stomachoponos-d87fb1.mp3
   status: verified
-  example_el: Έγραψε πολύ καλά και πήρε υψηλό βαθμό στο τεστ.
-  example_en: He wrote very well and got a high mark on the test.
+  example_el: Έφαγα κάτι βαρύ και με έπιασε δυνατός στομαχόπονος.
+  example_en: I ate something heavy and caught a strong stomach ache.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι βαθμοί
-    accusative_singular: τον βαθμό
-  keg_communicative_function: Referring to academic marks and grades
+    plural: οι στομαχόπονοι
+    accusative_singular: τον στομαχόπονο
+  keg_communicative_function: Reporting stomach pain
 - id: A1-U110-016
-  greek: η γνώση
-  phonetic_hint: ee GNO-see
-  english: knowledge
-  notes: Klik A1 p. 195, 198. Feminine noun in -η with plural in -εις.
-  gender_or_pos: noun (feminine)
-  audio: i-gnosi-736e24.mp3
+  greek: ο πονόδοντος
+  phonetic_hint: o po-NO-thon-dos
+  english: toothache
+  notes: Klik A1 p. 224, 225. Compound masculine noun (πόνος + δόντι) in -ος with
+    plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-ponodontos-545163.mp3
   status: verified
-  example_el: Η γνώση ξένων γλωσσών ανοίγει πόρτες στην αγορά εργασίας.
-  example_en: Knowledge of foreign languages opens doors in the labor market.
+  example_el: Ο πονόδοντος είναι ανυπόφορος, πρέπει να πάω στον οδοντίατρο.
+  example_en: The toothache is unbearable, I must go to the dentist.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γνώσεις
-    accusative_singular: τη γνώση
-  keg_communicative_function: Expressing concept of knowledge and skills
+    part_of_speech: noun (masculine)
+    plural: οι πονόδοντοι
+    accusative_singular: τον πονόδοντο
+  keg_communicative_function: Reporting toothaches
 - id: A1-U110-017
-  greek: το ταλέντο
-  phonetic_hint: to tah-LEN-do
-  english: talent / gift
-  notes: Klik A1 p. 196. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-talento-c7d911.mp3
+  greek: η ζάλη
+  phonetic_hint: ee ZAH-lee
+  english: dizziness / lightheadedness
+  notes: Klik A1 p. 220, 224. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-zali-b9a821.mp3
   status: verified
-  example_el: Έχει μεγάλο ταλέντο στη μουσική και στη ζωγραφική.
-  example_en: She has great talent in music and painting.
+  example_el: Νιώθω μια ξαφνική ζάλη και πρέπει να καθίσω.
+  example_en: I feel sudden dizziness and need to sit down.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ταλέντα
-    accusative_singular: το ταλέντο
-  keg_communicative_function: Identifying personal talents and artistic gifts
+    part_of_speech: noun (feminine)
+    plural: οι ζάλες
+    accusative_singular: τη ζάλη
+  keg_communicative_function: Describing dizziness symptoms
 - id: A1-U110-018
-  greek: ο πίνακας
-  phonetic_hint: o PEE-nah-kahs
-  english: board / chalkboard / whiteboard / painting
-  notes: Klik A1 p. 197. Masculine noun in -ας with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-pinakas-c4ad82.mp3
+  greek: η ναυτία
+  phonetic_hint: ee nahf-TEE-ah
+  english: nausea
+  notes: Klik A1 p. 224. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-naytia-315dc5.mp3
   status: verified
-  example_el: Ο καθηγητής γράφει τις νέες λέξεις στον πίνακα.
-  example_en: The teacher writes the new words on the board.
+  example_el: Στο πλοίο με έπιασε ναυτία από τα κύματα.
+  example_en: On the ship I got nausea from the waves.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι πίνακες
-    accusative_singular: τον πίνακα
-  keg_communicative_function: Naming the classroom blackboard or whiteboard
+    part_of_speech: noun (feminine)
+    plural: οι ναυτίες
+    accusative_singular: τη ναυτία
+  keg_communicative_function: Describing nausea and motion sickness
 - id: A1-U110-019
-  greek: το θρανίο
-  phonetic_hint: to thrah-NEE-o
-  english: school desk
-  notes: Klik A1 p. 197, 199. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-thranio-a08b00.mp3
-  status: verified
-  example_el: Οι μαθητές κάθονται δύο δύο σε κάθε θρανίο.
-  example_en: The students sit in pairs at each desk.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα θρανία
-    accusative_singular: το θρανίο
-  keg_communicative_function: Naming student desks in school classrooms
-- id: A1-U110-020
-  greek: η κασετίνα
-  phonetic_hint: ee kah-seh-TEE-nah
-  english: pencil case
-  notes: Klik A1 p. 197, 198, 199. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-kasetina-634374.mp3
-  status: verified
-  example_el: Έχω τα στυλό και τα μολύβια μέσα στην κασετίνα μου.
-  example_en: I keep my pens and pencils inside my pencil case.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κασετίνες
-    accusative_singular: την κασετίνα
-  keg_communicative_function: Naming student pencil cases
-- id: A1-U110-021
-  greek: το σακίδιο
-  phonetic_hint: to sah-KEE-thee-o
-  english: backpack / school rucksack
-  notes: Klik A1 p. 197. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-sakidio-724b90.mp3
-  status: verified
-  example_el: Βάζω τα βιβλία και το κολατσιό μέσα στο σχολικό σακίδιο.
-  example_en: I put my books and snack inside the school backpack.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σακίδια
-    accusative_singular: το σακίδιο
-  keg_communicative_function: Naming student backpacks
-- id: A1-U110-022
-  greek: το τετράδιο
-  phonetic_hint: to teh-TRAH-thee-o
-  english: notebook / exercise book
-  notes: Klik A1 p. 197. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-tetradio-bbf612.mp3
-  status: verified
-  example_el: Γράφω τις ασκήσεις γραμματικής στο τετράδιο.
-  example_en: I write the grammar exercises in the notebook.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τετράδια
-    accusative_singular: το τετράδιο
-  keg_communicative_function: Naming student exercise notebooks
-- id: A1-U110-023
-  greek: το βιβλίο
-  phonetic_hint: to vee-VLEE-o
-  english: book / textbook
-  notes: Klik A1 p. 197. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-vivlio-abc110.mp3
-  status: verified
-  example_el: Ανοίξτε το βιβλίο στη σελίδα εκατόν ενενήντα έξι.
-  example_en: Open the book to page one hundred ninety-six.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βιβλία
-    accusative_singular: το βιβλίο
-  keg_communicative_function: Naming textbooks and literature
-- id: A1-U110-024
-  greek: το μολύβι
-  phonetic_hint: to mo-LEE-vee
-  english: pencil
-  notes: Klik A1 p. 197. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-molyvi-5ebe39.mp3
-  status: verified
-  example_el: Σημειώνω τις απαντήσεις με μολύβι για να μπορώ να τις σβήσω.
-  example_en: I mark the answers in pencil so I can erase them.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μολύβια
-    accusative_singular: το μολύβι
-  keg_communicative_function: Naming writing pencils
-- id: A1-U110-025
-  greek: το στυλό
-  phonetic_hint: to stee-LO
-  english: ballpoint pen / pen
-  notes: Klik A1 p. 197. Undeclined loan neuter noun (το στυλό, τα στυλό).
-  gender_or_pos: noun (neuter)
-  audio: to-stylo-08948a.mp3
-  status: verified
-  example_el: Υπογράφω την αίτηση εγγραφής με μπλε στυλό.
-  example_en: I sign the application form with blue pen.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα στυλό
-    accusative_singular: το στυλό
-  keg_communicative_function: Naming ink pens
-- id: A1-U110-026
-  greek: η γόμα
-  phonetic_hint: ee GHO-mah
-  english: eraser / rubber
-  notes: Klik A1 p. 197. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-goma-e5f781.mp3
-  status: verified
-  example_el: Μου δανείζεις τη γόμα σου για να σβήσω ένα λάθος;
-  example_en: Can you lend me your eraser to erase a mistake?
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γόμες
-    accusative_singular: τη γόμα
-  keg_communicative_function: Naming pencil erasers
-- id: A1-U110-027
-  greek: ο χάρτης
-  phonetic_hint: o KHAHR-tees
-  english: map
-  notes: Klik A1 p. 197. Masculine noun in -ης with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-chartis-5e3927.mp3
-  status: verified
-  example_el: Στον τοίχο της τάξης κρέμεται ο παγκόσμιος χάρτης.
-  example_en: The world map hangs on the classroom wall.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι χάρτες
-    accusative_singular: τον χάρτη
-  keg_communicative_function: Naming geographical maps
-- id: A1-U110-028
-  greek: η μουσική
-  phonetic_hint: ee moo-see-KEE
-  english: music
-  notes: Klik A1 p. 196, 198. Feminine noun in -ή with plural in -ές.
-  gender_or_pos: noun (feminine)
-  audio: i-moysiki-e0dba4.mp3
-  status: verified
-  example_el: Ακούω κλασική και παραδοσιακή ελληνική μουσική.
-  example_en: I listen to classical and traditional Greek music.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι μουσικές
-    accusative_singular: τη μουσική
-  keg_communicative_function: Naming musical art forms
-- id: A1-U110-029
-  greek: το μουσικό όργανο
-  phonetic_hint: to moo-see-KO OR-ghah-no
-  english: musical instrument
-  notes: Klik A1 p. 196, 197, 198. Neuter noun phrase with adjective.
-  gender_or_pos: noun (neuter)
-  audio: to-moysiko-organo-2d729b.mp3
-  status: verified
-  example_el: Παίζεις κανένα μουσικό όργανο;
-  example_en: Do you play any musical instrument?
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μουσικά όργανα
-    accusative_singular: το μουσικό όργανο
-  keg_communicative_function: Referring to musical instruments collectively
-- id: A1-U110-030
-  greek: το πιάνο
-  phonetic_hint: to PYAH-no
-  english: piano
-  notes: Klik A1 p. 196, 197, 198. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-piano-f154cb.mp3
-  status: verified
-  example_el: Η αδερφή μου μαθαίνει να παίζει πιάνο στο ωδείο.
-  example_en: My sister is learning to play the piano at the conservatory.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πιάνα
-    accusative_singular: το πιάνο
-  keg_communicative_function: Naming keyboard musical instruments
-- id: A1-U110-031
-  greek: η κιθάρα
-  phonetic_hint: ee kee-THAH-rah
-  english: guitar
-  notes: Klik A1 p. 197, 215. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-kithara-29af23.mp3
-  status: verified
-  example_el: Στην παραλία παίζουμε κιθάρα και τραγουδάμε γύρω από τη φωτιά.
-  example_en: At the beach we play guitar and sing around the fire.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κιθάρες
-    accusative_singular: την κιθάρα
-  keg_communicative_function: Naming stringed instruments
-- id: A1-U110-032
-  greek: το βιολί
-  phonetic_hint: to vee-o-LEE
-  english: violin
-  notes: Klik A1 p. 197, 199. Neuter noun in -ί with plural in -ιά.
-  gender_or_pos: noun (neuter)
-  audio: to-violi-99cd85.mp3
-  status: verified
-  example_el: Το βιολί είναι παραδοσιακό όργανο στα νησιά του Αιγαίου.
-  example_en: The violin is a traditional instrument in the Aegean islands.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βιολιά
-    accusative_singular: το βιολί
-  keg_communicative_function: Naming stringed orchestral instruments
-- id: A1-U110-033
-  greek: το μπουζούκι
-  phonetic_hint: to boo-ZOO-kee
-  english: bouzouki (Greek long-necked lute)
-  notes: Klik A1 p. 196, 197. Neuter noun in -ι with plural in -ια. Iconic Greek folk
-    instrument.
-  gender_or_pos: noun (neuter)
-  audio: to-mpoyzoyki-ac088d.mp3
-  status: verified
-  example_el: Ο μουσικός παίζει μπουζούκι στην ταβέρνα κάθε Παρασκευή.
-  example_en: The musician plays the bouzouki at the tavern every Friday.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μπουζούκια
-    accusative_singular: το μπουζούκι
-  keg_communicative_function: Naming traditional Greek folk instruments
-- id: A1-U110-034
-  greek: το μπάσο
-  phonetic_hint: to BAH-so
-  english: bass / bass guitar
-  notes: Klik A1 p. 197. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-mpaso-bb118f.mp3
-  status: verified
-  example_el: Στο ροκ συγκρότημα παίζει ηλεκτρικό μπάσο.
-  example_en: In the rock band he plays electric bass.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μπάσα
-    accusative_singular: το μπάσο
-  keg_communicative_function: Naming bass rhythm instruments
-- id: A1-U110-035
-  greek: το τραγούδι
-  phonetic_hint: to trah-GHOO-thee
-  english: song
-  notes: Klik A1 p. 198. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-tragoydi-584017.mp3
-  status: verified
-  example_el: Αυτό είναι το αγαπημένο μου ελληνικό τραγούδι.
-  example_en: This is my favorite Greek song.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τραγούδια
-    accusative_singular: το τραγούδι
-  keg_communicative_function: Naming musical songs
-- id: A1-U110-036
-  greek: η ζωγραφική
-  phonetic_hint: ee zo-ghrah-fee-KEE
-  english: painting / fine art
-  notes: Klik A1 p. 195, 196, 198, 199. Feminine noun in -ή with plural in -ές.
-  gender_or_pos: noun (feminine)
-  audio: i-zografiki-624c29.mp3
-  status: verified
-  example_el: Η ζωγραφική με βοηθάει να χαλαρώνω μετά τη δουλειά.
-  example_en: Painting helps me relax after work.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ζωγραφικές
-    accusative_singular: τη ζωγραφική
-  keg_communicative_function: Naming visual painting arts
-- id: A1-U110-037
-  greek: το πινέλο
-  phonetic_hint: to pee-NEH-lo
-  english: paintbrush
-  notes: Klik A1 p. 203. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-pinelo-dd2249.mp3
-  status: verified
-  example_el: Ο ζωγράφος κρατάει το πινέλο και ζωγραφίζει στον καμβά.
-  example_en: The painter holds the paintbrush and paints on the canvas.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πινέλα
-    accusative_singular: το πινέλο
-  keg_communicative_function: Naming artistic tools
-- id: A1-U110-038
-  greek: ο καθηγητής
-  phonetic_hint: o kah-thee-yee-TEES
-  english: professor / high school teacher (male)
-  notes: Klik A1 p. 203. Masculine noun in -ής with plural in -ές.
-  gender_or_pos: noun (masculine)
-  audio: o-kathigitis-48ad42.mp3
-  status: verified
-  example_el: Ο καθηγητής των γερμανικών εξηγεί τον κανόνα.
-  example_en: The German professor explains the rule.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι καθηγητές
-    accusative_singular: τον καθηγητή
-  keg_communicative_function: Identifying male secondary or tertiary educators
-- id: A1-U110-039
-  greek: η καθηγήτρια
-  phonetic_hint: ee kah-thee-YEE-tree-ah
-  english: professor / high school teacher (female)
-  notes: Klik A1 p. 203. Feminine noun in -τρια with plural in -τριες.
-  gender_or_pos: noun (feminine)
-  audio: i-kathigitria-aca0bc.mp3
-  status: verified
-  example_el: Η καθηγήτρια της ιστορίας είναι πολύ αυστηρή αλλά δίκαιη.
-  example_en: The history teacher is very strict but fair.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι καθηγήτριες
-    accusative_singular: την καθηγήτρια
-  keg_communicative_function: Identifying female secondary or tertiary educators
-- id: A1-U110-040
-  greek: ο δάσκαλος
-  phonetic_hint: o THAH-skah-los
-  english: teacher (male primary educator)
-  notes: Klik A1 p. 203, 206. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-daskalos-218684.mp3
-  status: verified
-  example_el: Ο δάσκαλος διδάσκει ανάγνωση και γραφή στα παιδιά.
-  example_en: The teacher teaches reading and writing to the children.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι δάσκαλοι
-    accusative_singular: τον δάσκαλο
-  keg_communicative_function: Identifying male primary school teachers
-- id: A1-U110-041
-  greek: η δασκάλα
-  phonetic_hint: ee thah-SKAH-lah
-  english: teacher (female primary educator)
-  notes: Klik A1 p. 203, 204. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-daskala-a57b1d.mp3
-  status: verified
-  example_el: Η δασκάλα μας βοηθάει πάντα με πολλή υπομονή.
-  example_en: Our teacher always helps us with great patience.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι δασκάλες
-    accusative_singular: τη δασκάλα
-  keg_communicative_function: Identifying female primary school teachers
-- id: A1-U110-042
-  greek: ο μαθητής
-  phonetic_hint: o mah-thee-TEES
-  english: student / pupil (male)
-  notes: Klik A1 p. 197, 199, 203. Masculine noun in -ής with plural in -ές.
-  gender_or_pos: noun (masculine)
-  audio: o-mathitis-fd2beb.mp3
-  status: verified
-  example_el: Ο μαθητής σηκώνει το χέρι του για να απαντήσει.
-  example_en: The pupil raises his hand to answer.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι μαθητές
-    accusative_singular: τον μαθητή
-  keg_communicative_function: Identifying male school pupils
-- id: A1-U110-043
-  greek: η μαθήτρια
-  phonetic_hint: ee mah-THEE-tree-ah
-  english: student / pupil (female)
-  notes: Klik A1 p. 197, 199, 203. Feminine noun in -τρια with plural in -τριες.
-  gender_or_pos: noun (feminine)
-  audio: i-mathitria-044f2b.mp3
-  status: verified
-  example_el: Η μαθήτρια διαβάζει δυνατά το κείμενο στην τάξη.
-  example_en: The student reads the text aloud in class.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι μαθήτριες
-    accusative_singular: τη μαθήτρια
-  keg_communicative_function: Identifying female school pupils
-- id: A1-U110-044
-  greek: ο φοιτητής
-  phonetic_hint: o fee-tee-TEES
-  english: university student (male)
-  notes: Klik A1 p. 195, 203. Masculine noun in -ής with plural in -ές.
-  gender_or_pos: noun (masculine)
-  audio: o-foititis-585c37.mp3
-  status: verified
-  example_el: Ο φοιτητής περνάει πολλές ώρες στη βιβλιοθήκη της σχολής.
-  example_en: The university student spends many hours in the faculty library.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι φοιτητές
-    accusative_singular: τον φοιτητή
-  keg_communicative_function: Identifying male university students
-- id: A1-U110-045
-  greek: η φοιτήτρια
-  phonetic_hint: ee fee-TEE-tree-ah
-  english: university student (female)
-  notes: Klik A1 p. 195, 203. Feminine noun in -τρια with plural in -τριες.
-  gender_or_pos: noun (feminine)
-  audio: i-foititria-7ade48.mp3
-  status: verified
-  example_el: Η φοιτήτρια σπουδάζει ιατρική στη Θεσσαλονίκη.
-  example_en: The university student studies medicine in Thessaloniki.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι φοιτήτριες
-    accusative_singular: τη φοιτήτρια
-  keg_communicative_function: Identifying female university students
-- id: A1-U110-046
-  greek: ο διευθυντής
-  phonetic_hint: o thee-ef-theen-TEES
-  english: director / principal / manager (male)
-  notes: Klik A1 p. 203. Masculine noun in -ής with plural in -ές.
-  gender_or_pos: noun (masculine)
-  audio: o-dieythyntis-cb0985.mp3
-  status: verified
-  example_el: Ο διευθυντής της εταιρείας υπέγραψε τα νέα συμβόλαια.
-  example_en: The company director signed the new contracts.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι διευθυντές
-    accusative_singular: τον διευθυντή
-  keg_communicative_function: Identifying male executive managers and school principals
-- id: A1-U110-047
-  greek: η διευθύντρια
-  phonetic_hint: ee thee-ef-THEEN-tree-ah
-  english: director / principal / manager (female)
-  notes: Klik A1 p. 203. Feminine noun in -τρια with plural in -τριες.
-  gender_or_pos: noun (feminine)
-  audio: i-dieythyntria-074597.mp3
-  status: verified
-  example_el: Η διευθύντρια του σχολείου καλωσόρισε τους γονείς.
-  example_en: The school principal welcomed the parents.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι διευθύντριες
-    accusative_singular: τη διευθύντρια
-  keg_communicative_function: Identifying female executive managers and school principals
-- id: A1-U110-048
-  greek: ο γραμματέας
-  phonetic_hint: o ghrah-mah-TEH-ahs
-  english: secretary (male)
-  notes: Klik A1 p. 203, 204. Masculine noun in -έας with plural in -είς.
-  gender_or_pos: noun (masculine)
-  audio: o-grammateas-4feb2a.mp3
-  status: verified
-  example_el: Ο γραμματέας απαντάει στα τηλεφωνήματα και οργανώνει τα ραντεβού.
-  example_en: The secretary answers phone calls and organizes appointments.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι γραμματείς
-    accusative_singular: τον γραμματέα
-  keg_communicative_function: Identifying male administrative secretaries
-- id: A1-U110-049
-  greek: η γραμματέας
-  phonetic_hint: ee ghrah-mah-TEH-ahs
-  english: secretary (female)
-  notes: Klik A1 p. 203, 204. Feminine noun identical in nominative to masculine,
-    plural in -είς.
-  gender_or_pos: noun (feminine)
-  audio: i-grammateas-404f6b.mp3
-  status: verified
-  example_el: Η γραμματέας του γιατρού μού έκλεισε ραντεβού για την Τρίτη.
-  example_en: The doctor's secretary booked an appointment for me on Tuesday.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γραμματείς
-    accusative_singular: τη γραμματέα
-  keg_communicative_function: Identifying female administrative secretaries
-- id: A1-U110-050
-  greek: ο υπάλληλος
-  phonetic_hint: o ee-PAH-lee-los
-  english: employee / office clerk / clerk
-  notes: 'Klik A1 p. 203, 204. Masculine noun in -ος with plural in -οι (common gender:
-    ο/η υπάλληλος).'
-  gender_or_pos: noun (masculine)
-  audio: o-ypallilos-2092ff.mp3
-  status: verified
-  example_el: Ο τραπεζικός υπάλληλος με βοήθησε να ανοίξω λογαριασμό.
-  example_en: The bank employee helped me open an account.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι υπάλληλοι
-    accusative_singular: τον υπάλληλο
-  keg_communicative_function: Identifying commercial and office employees
-- id: A1-U110-051
   greek: ο γιατρός
   phonetic_hint: o yah-TROS
   english: doctor / physician
-  notes: 'Klik A1 p. 203, 219. Masculine noun in -ός with plural in -οί (common gender:
-    ο/η γιατρός).'
+  notes: Klik A1 p. 219, 220, 221, 222. Masculine noun in -ός with plural in -οί.
   gender_or_pos: noun (masculine)
   audio: o-giatros-c40f64.mp3
   status: verified
-  example_el: Ο γιατρός εξέτασε τον ασθενή και έγραψε φάρμακα.
-  example_en: The doctor examined the patient and prescribed medicine.
+  example_el: Όταν είσαι άρρωστος, πρέπει να πας στον γιατρό.
+  example_en: When you are sick, you must go to the doctor.
   grammatical_info:
     part_of_speech: noun (masculine)
     plural: οι γιατροί
     accusative_singular: τον γιατρό
-  keg_communicative_function: Identifying medical physicians
-- id: A1-U110-052
-  greek: ο νοσοκόμος
-  phonetic_hint: o no-so-KO-mos
-  english: nurse (male)
-  notes: Klik A1 p. 203. Masculine noun in -ος with plural in -οι.
+  keg_communicative_function: Naming the medical doctor
+- id: A1-U110-020
+  greek: ο παθολόγος
+  phonetic_hint: o pah-tho-LO-ghos
+  english: internist / general practitioner (GP)
+  notes: Klik A1 p. 219, 220. Masculine noun in -ος with plural in -οι. Primary care
+    physician for adults.
   gender_or_pos: noun (masculine)
-  audio: o-nosokomos-c7d401.mp3
+  audio: o-pathologos-727f49.mp3
   status: verified
-  example_el: Ο νοσοκόμος φροντίζει τους ασθενείς στον θάλαμο.
-  example_en: The male nurse cares for patients in the ward.
+  example_el: Ο παθολόγος εξέτασε τον λαιμό μου και μέτρησε την πίεσή μου.
+  example_en: The internist examined my throat and took my blood pressure.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι νοσοκόμοι
-    accusative_singular: τον νοσοκόμο
-  keg_communicative_function: Identifying male nursing staff
-- id: A1-U110-053
-  greek: η νοσοκόμα
-  phonetic_hint: ee no-so-KO-mah
-  english: nurse (female)
-  notes: Klik A1 p. 203. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-nosokoma-d39d56.mp3
-  status: verified
-  example_el: Η νοσοκόμα έκανε την ένεση γρήγορα και ανώδυνα.
-  example_en: The nurse gave the injection quickly and painlessly.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι νοσοκόμες
-    accusative_singular: τη νοσοκόμα
-  keg_communicative_function: Identifying female nursing staff
-- id: A1-U110-054
-  greek: ο δικηγόρος
-  phonetic_hint: o thee-kee-GHO-ros
-  english: lawyer / attorney
-  notes: 'Klik A1 p. 203, 204. Masculine noun in -ος with plural in -οι (common gender:
-    ο/η δικηγόρος).'
+    plural: οι παθολόγοι
+    accusative_singular: τον παθολόγο
+  keg_communicative_function: Identifying internal medicine general practitioners
+- id: A1-U110-021
+  greek: ο παιδίατρος
+  phonetic_hint: o peh-THEE-ah-tros
+  english: pediatrician (doctor for children)
+  notes: Klik A1 p. 219, 220, 221. Masculine noun in -ος with plural in -οι.
   gender_or_pos: noun (masculine)
-  audio: o-dikigoros-7194f6.mp3
+  audio: o-paidiatros-05af54.mp3
   status: verified
-  example_el: Ο δικηγόρος εκπροσωπεί τον πελάτη του στο δικαστήριο.
-  example_en: The lawyer represents his client in court.
+  example_el: Αν αρρωστήσει το παιδί, καλούμε αμέσως τον παιδίατρο.
+  example_en: If the child gets sick, we call the pediatrician immediately.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι δικηγόροι
-    accusative_singular: τον δικηγόρο
-  keg_communicative_function: Identifying legal professionals
-- id: A1-U110-055
-  greek: ο μηχανικός
-  phonetic_hint: o mee-khah-nee-KOS
-  english: engineer / mechanic
-  notes: 'Klik A1 p. 203, 204. Masculine noun in -ός with plural in -οί (common gender:
-    ο/η μηχανικός).'
+    plural: οι παιδίατροι
+    accusative_singular: τον παιδίατρο
+  keg_communicative_function: Naming medical pediatricians
+- id: A1-U110-022
+  greek: ο καρδιολόγος
+  phonetic_hint: o kahr-thee-o-LO-ghos
+  english: cardiologist (heart specialist)
+  notes: Klik A1 p. 219, 225. Masculine noun in -ος with plural in -οι.
   gender_or_pos: noun (masculine)
-  audio: o-michanikos-491aeb.mp3
+  audio: o-kardiologos-955792.mp3
   status: verified
-  example_el: Ο πολιτικός μηχανικός σχεδιάζει τη νέα γέφυρα.
-  example_en: The civil engineer designs the new bridge.
+  example_el: Ο καρδιολόγος έκανε καρδιογράφημα στον ασθενή.
+  example_en: The cardiologist performed an electrocardiogram on the patient.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι μηχανικοί
-    accusative_singular: τον μηχανικό
-  keg_communicative_function: Identifying engineering professionals
-- id: A1-U110-056
-  greek: ο αρχιτέκτονας
-  phonetic_hint: o ahr-khee-TEK-to-nahs
-  english: architect
-  notes: 'Klik A1 p. 203, 204. Masculine noun in -ας with plural in -ες (common gender:
-    ο/η αρχιτέκτονας).'
+    plural: οι καρδιολόγοι
+    accusative_singular: τον καρδιολόγο
+  keg_communicative_function: Identifying medical heart specialists
+- id: A1-U110-023
+  greek: ο οδοντίατρος
+  phonetic_hint: o o-thon-DEE-ah-tros
+  english: dentist
+  notes: Klik A1 p. 219, 225. Masculine noun in -ος with plural in -οι.
   gender_or_pos: noun (masculine)
-  audio: o-architektonas-953402.mp3
+  audio: o-odontiatros-651c49.mp3
   status: verified
-  example_el: Ο αρχιτέκτονας σχεδίασε μια μοντέρνα μονοκατοικία.
-  example_en: The architect designed a modern detached house.
+  example_el: Πηγαίνω στον οδοντίατρο κάθε έξι μήνες για καθαρισμό δοντιών.
+  example_en: I go to the dentist every six months for a teeth cleaning.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι αρχιτέκτονες
-    accusative_singular: τον αρχιτέκτονα
-  keg_communicative_function: Identifying architecture professionals
-- id: A1-U110-057
-  greek: ο λογιστής
-  phonetic_hint: o lo-yee-STEES
-  english: accountant (male)
-  notes: Klik A1 p. 206. Masculine noun in -ής with plural in -ές.
+    plural: οι οδοντίατροι
+    accusative_singular: τον οδοντίατρο
+  keg_communicative_function: Naming dental healthcare professionals
+- id: A1-U110-024
+  greek: ο φαρμακοποιός
+  phonetic_hint: o fahr-mah-ko-pee-OS
+  english: pharmacist / chemist
+  notes: Klik A1 p. 222, 231. Masculine noun in -ός with plural in -οί.
   gender_or_pos: noun (masculine)
-  audio: o-logistis-fab2b6.mp3
+  audio: o-farmakopoios-3f7234.mp3
   status: verified
-  example_el: Ο λογιστής ελέγχει τα οικονομικά στοιχεία της επιχείρησης.
-  example_en: The accountant audits the company's financial records.
+  example_el: Ο φαρμακοποιός μού εξήγησε πώς να πάρω το φάρμακο.
+  example_en: The pharmacist explained to me how to take the medicine.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι λογιστές
-    accusative_singular: τον λογιστή
-  keg_communicative_function: Identifying financial accounting professionals
-- id: A1-U110-058
-  greek: ο κομμωτής
-  phonetic_hint: o ko-mo-TEES
-  english: hairdresser / hair stylist (male)
-  notes: Klik A1 p. 195, 203. Masculine noun in -ής with plural in -ές.
-  gender_or_pos: noun (masculine)
-  audio: o-kommotis-555e21.mp3
-  status: verified
-  example_el: Ο κομμωτής μού έκοψε τα μαλλιά πολύ όμορφα.
-  example_en: The hairdresser cut my hair very nicely.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι κομμωτές
-    accusative_singular: τον κομμωτή
-  keg_communicative_function: Identifying male hairstyling professionals
-- id: A1-U110-059
-  greek: η κομμώτρια
-  phonetic_hint: ee ko-MO-tree-ah
-  english: hairdresser / hair stylist (female)
-  notes: Klik A1 p. 203, 206. Feminine noun in -τρια with plural in -τριες.
-  gender_or_pos: noun (feminine)
-  audio: i-kommotria-79078e.mp3
-  status: verified
-  example_el: Η κομμώτρια δουλεύει στο κομμωτήριο της γειτονιάς.
-  example_en: The female hairdresser works at the neighborhood hair salon.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κομμώτριες
-    accusative_singular: την κομμώτρια
-  keg_communicative_function: Identifying female hairstyling professionals
-- id: A1-U110-060
-  greek: ο μάγειρας
-  phonetic_hint: o MAH-yee-rahs
-  english: cook / chef (male)
-  notes: Klik A1 p. 195, 203, 204. Masculine noun in -ας with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-mageiras-f9881b.mp3
-  status: verified
-  example_el: Ο μάγειρας ετοιμάζει νόστιμα παραδοσιακά πιάτα.
-  example_en: The chef prepares delicious traditional dishes.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι μάγειρες
-    accusative_singular: τον μάγειρα
-  keg_communicative_function: Identifying culinary chefs and cooks
-- id: A1-U110-061
-  greek: ο οδηγός
-  phonetic_hint: o o-thee-GHOS
-  english: driver / chauffeur
-  notes: Klik A1 p. 203, 204. Masculine noun in -ός with plural in -οί.
-  gender_or_pos: noun (masculine)
-  audio: o-odigos-6157ad.mp3
-  status: verified
-  example_el: Ο οδηγός του λεωφορείου σταματάει σε κάθε στάση.
-  example_en: The bus driver stops at every bus stop.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι οδηγοί
-    accusative_singular: τον οδηγό
-  keg_communicative_function: Identifying transportation drivers
-- id: A1-U110-062
-  greek: ο πιλότος
-  phonetic_hint: o pee-LO-tos
-  english: pilot (aircraft)
-  notes: Klik A1 p. 203. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-pilotos-991c9e.mp3
-  status: verified
-  example_el: Ο πιλότος καλωσόρισε τους επιβάτες στο αεροπλάνο.
-  example_en: The pilot welcomed passengers on the airplane.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι πιλότοι
-    accusative_singular: τον πιλότο
-  keg_communicative_function: Identifying aviation pilots
-- id: A1-U110-063
-  greek: ο ηλεκτρολόγος
-  phonetic_hint: o ee-lek-tro-LO-ghos
-  english: electrician
-  notes: Klik A1 p. 203. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-ilektrologos-d72c2f.mp3
-  status: verified
-  example_el: Καλέσαμε τον ηλεκτρολόγο για να φτιάξει τα φώτα στο σπίτι.
-  example_en: We called the electrician to fix the lights at home.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι ηλεκτρολόγοι
-    accusative_singular: τον ηλεκτρολόγο
-  keg_communicative_function: Identifying technical trade professionals
-- id: A1-U110-064
-  greek: ο άνεργος
-  phonetic_hint: o AH-ner-ghos
-  english: unemployed person (male)
-  notes: Klik A1 p. 203. Substantivized adjective in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-anergos-17c0b7.mp3
-  status: verified
-  example_el: Ο άνεργος ψάχνει καθημερινά για δουλειά στο διαδίκτυο.
-  example_en: The unemployed man searches daily for work online.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι άνεργοι
-    accusative_singular: τον άνεργο
-  keg_communicative_function: Identifying employment status
-- id: A1-U110-065
-  greek: η εργασία
-  phonetic_hint: ee er-ghah-SEE-ah
-  english: work / employment / job / assignment
-  notes: Klik A1 p. 201, 202, 213. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-ergasia-0f1e60.mp3
-  status: verified
-  example_el: Είμαι πολύ ευχαριστημένος με τη νέα μου εργασία.
-  example_en: I am very pleased with my new job.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι εργασίες
-    accusative_singular: την εργασία
-  keg_communicative_function: Discussing work and professional employment
-- id: A1-U110-066
-  greek: ο μισθός
-  phonetic_hint: o mee-STHOS
-  english: salary / monthly wage
-  notes: Klik A1 p. 202, 206, 213. Masculine noun in -ός with plural in -οί.
-  gender_or_pos: noun (masculine)
-  audio: o-misthos-73fe69.mp3
-  status: verified
-  example_el: Πληρώνεται καλό μηνιαίο μισθό στην τράπεζα.
-  example_en: He is paid a good monthly salary at the bank.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι μισθοί
-    accusative_singular: τον μισθό
-  keg_communicative_function: Discussing remuneration and salaries
-- id: A1-U110-067
-  greek: το ωράριο
-  phonetic_hint: to o-RAH-ree-o
-  english: working hours / schedule / timetable
-  notes: Klik A1 p. 198, 204, 213, 215. Neuter noun in -ο with plural in -α.
+    plural: οι φαρμακοποιοί
+    accusative_singular: τον φαρμακοποιό
+  keg_communicative_function: Identifying pharmaceutical chemists
+- id: A1-U110-025
+  greek: το φαρμακείο
+  phonetic_hint: to fahr-mah-KEE-o
+  english: pharmacy / drugstore / chemist's
+  notes: Klik A1 p. 222, 231. Neuter noun in -ο with plural in -α.
   gender_or_pos: noun (neuter)
-  audio: to-orario-b02d17.mp3
+  audio: to-farmakeio-569253.mp3
   status: verified
-  example_el: Το ωράριο εργασίας μου είναι εννέα το πρωί με πέντε το απόγευμα.
-  example_en: My work hours are nine in the morning to five in the afternoon.
+  example_el: Υπάρχει ένα διανυκτερεύον φαρμακείο στη γωνία.
+  example_en: There is an on-duty overnight pharmacy on the corner.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα ωράρια
-    accusative_singular: το ωράριο
-  keg_communicative_function: Specifying daily working schedules
-- id: A1-U110-068
-  greek: η υπερωρία
-  phonetic_hint: ee ee-peh-ro-REE-ah
-  english: overtime work / overtime hour
-  notes: Klik A1 p. 213. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-yperoria-f9e01e.mp3
-  status: verified
-  example_el: Σήμερα έκανα δύο ώρες υπερωρία στο γραφείο.
-  example_en: Today I did two hours of overtime at the office.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι υπερωρίες
-    accusative_singular: την υπερωρία
-  keg_communicative_function: Discussing overtime work hours
-- id: A1-U110-069
-  greek: η άδεια
-  phonetic_hint: ee AH-thee-ah
-  english: leave / vacation leave / permit / license
-  notes: Klik A1 p. 202. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-adeia-c6b89c.mp3
-  status: verified
-  example_el: Τον Αύγουστο παίρνω είκοσι μέρες καλοκαιρινή άδεια.
-  example_en: In August I take twenty days of summer vacation leave.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι άδειες
-    accusative_singular: την άδεια
-  keg_communicative_function: Discussing vacation time and official leave
-- id: A1-U110-070
-  greek: το διάλειμμα
-  phonetic_hint: to thee-AH-lee-mah
-  english: break / recess / intermission
-  notes: Klik A1 p. 202. Neuter noun in -μα with plural in -ματα.
-  gender_or_pos: noun (neuter)
-  audio: to-dialeimma-916e08.mp3
-  status: verified
-  example_el: Κάνουμε ένα μικρό διάλειμμα για καφέ και φαγητό.
-  example_en: We take a short break for coffee and food.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα διαλείμματα
-    accusative_singular: το διάλειμμα
-  keg_communicative_function: Naming pauses and work breaks
-- id: A1-U110-071
-  greek: η εταιρεία
-  phonetic_hint: ee eh-teh-REE-ah
-  english: company / firm / corporation
-  notes: Klik A1 p. 204, 213. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-etaireia-755437.mp3
-  status: verified
-  example_el: Εργάζεται σε μια μεγάλη πολυεθνική εταιρεία πληροφορικής.
-  example_en: He works at a large multinational IT company.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι εταιρείες
-    accusative_singular: την εταιρεία
-  keg_communicative_function: Identifying commercial corporate entities
-- id: A1-U110-072
-  greek: το εργοστάσιο
-  phonetic_hint: to er-gho-STAH-see-o
-  english: factory / plant
-  notes: Klik A1 p. 202. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-ergostasio-3dd30d.mp3
-  status: verified
-  example_el: Το εργοστάσιο απασχολεί εκατοντάδες εργαζομένους.
-  example_en: The factory employs hundreds of workers.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα εργοστάσια
-    accusative_singular: το εργοστάσιο
-  keg_communicative_function: Naming industrial manufacturing plants
-- id: A1-U110-073
+    plural: τα φαρμακεία
+    accusative_singular: το φαρμακείο
+  keg_communicative_function: Locating retail pharmacies
+- id: A1-U110-026
   greek: το νοσοκομείο
   phonetic_hint: to no-so-ko-MEE-o
   english: hospital
-  notes: Klik A1 p. 204. Neuter noun in -ο with plural in -α.
+  notes: Klik A1 p. 221, 224. Neuter noun in -ο with plural in -α.
   gender_or_pos: noun (neuter)
   audio: to-nosokomeio-47505b.mp3
   status: verified
-  example_el: Ο αδερφός μου δουλεύει ως γιατρός στο γενικό νοσοκομείο.
-  example_en: My brother works as a doctor at the general hospital.
+  example_el: Το ασθενοφόρο μετέφερε τον τραυματία στο πλησιέστερο νοσοκομείο.
+  example_en: The ambulance transported the injured person to the nearest hospital.
   grammatical_info:
     part_of_speech: noun (neuter)
     plural: τα νοσοκομεία
     accusative_singular: το νοσοκομείο
-  keg_communicative_function: Naming hospital medical centers
-- id: A1-U110-074
+  keg_communicative_function: Identifying inpatient hospital facilities
+- id: A1-U110-027
   greek: το ιατρείο
   phonetic_hint: to yah-TREE-o
-  english: doctor's office / medical clinic / surgery
-  notes: Klik A1 p. 203, 219. Neuter noun in -ο with plural in -α.
+  english: doctor's surgery / clinic
+  notes: Klik A1 p. 221, 224. Neuter noun in -ο with plural in -α.
   gender_or_pos: noun (neuter)
   audio: to-iatreio-2e8717.mp3
   status: verified
-  example_el: Το ιατρείο του παιδιάτρου είναι ανοιχτό καθημερινά.
-  example_en: The pediatrician's clinic is open daily.
+  example_el: Περιμένω στην αίθουσα αναμονής στο ιατρείο.
+  example_en: I am waiting in the waiting room at the doctor's clinic.
   grammatical_info:
     part_of_speech: noun (neuter)
     plural: τα ιατρεία
     accusative_singular: το ιατρείο
-  keg_communicative_function: Naming private medical clinics
-- id: A1-U110-075
-  greek: το κομμωτήριο
-  phonetic_hint: to ko-mo-TEE-ree-o
-  english: hair salon / barbershop
-  notes: Klik A1 p. 206. Neuter noun in -ο with plural in -α.
+  keg_communicative_function: Naming outpatient medical offices
+- id: A1-U110-028
+  greek: το ασθενοφόρο
+  phonetic_hint: to ah-stheh-no-FO-ro
+  english: ambulance
+  notes: Klik A1 p. 224. Neuter noun in -ο with plural in -α.
   gender_or_pos: noun (neuter)
-  audio: to-kommotirio-ede8a4.mp3
+  audio: to-asthenoforo-afd4a5.mp3
   status: verified
-  example_el: Κλείνω ραντεβού στο κομμωτήριο για κούρεμα.
-  example_en: I make an appointment at the hair salon for a haircut.
+  example_el: Σε επείγουσα ανάγκη καλούμε αμέσως ασθενοφόρο στο 166.
+  example_en: In an emergency we immediately call an ambulance at 166.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα κομμωτήρια
-    accusative_singular: το κομμωτήριο
-  keg_communicative_function: Naming hairdressing salons
+    plural: τα ασθενοφόρα
+    accusative_singular: το ασθενοφόρο
+  keg_communicative_function: Naming emergency medical response vehicles
+- id: A1-U110-029
+  greek: τα επείγοντα
+  phonetic_hint: tah eh-PEE-ghon-dah
+  english: emergency room (ER) / emergency ward
+  notes: Klik A1 p. 224. Neuter plural substantivized participle (τα επείγοντα περιστατικά).
+  gender_or_pos: noun (neuter)
+  audio: ta-epeigonta-5316ff.mp3
+  status: verified
+  example_el: Πήγαμε στα επείγοντα του νοσοκομείου γιατί είχε πολύ πυρετό.
+  example_en: We went to the hospital emergency room because he had a high fever.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επείγοντα
+    accusative_singular: τα επείγοντα
+  keg_communicative_function: Locating hospital emergency departments
+- id: A1-U110-030
+  greek: η εξέταση
+  phonetic_hint: ee ek-SEH-tah-see
+  english: medical examination / checkup
+  notes: Klik A1 p. 224. Feminine noun in -η with plural in -εις.
+  gender_or_pos: noun (feminine)
+  audio: i-exetasi-1d1e76.mp3
+  status: verified
+  example_el: Έκανα αιματολογικές εξετάσεις για τον ετήσιο έλεγχο υγείας.
+  example_en: I did blood tests for my annual health checkup.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εξετάσεις
+    accusative_singular: την εξέταση
+  keg_communicative_function: Referring to diagnostic medical examinations
+- id: A1-U110-031
+  greek: η συνταγή
+  phonetic_hint: ee seen-dah-YEE
+  english: prescription (medical)
+  notes: Klik A1 p. 224, 231. Feminine noun in -ή with plural in -ές. Also means cooking
+    recipe.
+  gender_or_pos: noun (feminine)
+  audio: i-syntagi-f62f1d.mp3
+  status: verified
+  example_el: Ο γιατρός μού έγραψε ηλεκτρονική συνταγή για τα φάρμακα.
+  example_en: The doctor wrote an electronic prescription for my medication.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συνταγές
+    accusative_singular: τη συνταγή
+  keg_communicative_function: Referring to medical drug prescriptions
+- id: A1-U110-032
+  greek: το φάρμακο
+  phonetic_hint: to FAHR-mah-ko
+  english: medicine / medication / drug
+  notes: Klik A1 p. 220, 221, 222, 224. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-farmako-34841b.mp3
+  status: verified
+  example_el: Πρέπει να παίρνεις το φάρμακο μετά το φαγητό.
+  example_en: You must take the medication after eating.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φάρμακα
+    accusative_singular: το φάρμακο
+  keg_communicative_function: Naming therapeutic medications
+- id: A1-U110-033
+  greek: το χάπι
+  phonetic_hint: to KHAH-pee
+  english: pill / tablet
+  notes: Klik A1 p. 220, 224. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-chapi-cf9057.mp3
+  status: verified
+  example_el: Παίρνω ένα χάπι κάθε πρωί με ένα ποτήρι νερό.
+  example_en: I take one pill every morning with a glass of water.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χάπια
+    accusative_singular: το χάπι
+  keg_communicative_function: Naming medical pills and tablets
+- id: A1-U110-034
+  greek: η ασπιρίνη
+  phonetic_hint: ee ah-spee-REE-nee
+  english: aspirin
+  notes: Klik A1 p. 220, 221. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-aspirini-b4bc93.mp3
+  status: verified
+  example_el: Έχω πονοκέφαλο, θα πάρω μια ασπιρίνη να μου περάσει.
+  example_en: I have a headache, I'll take an aspirin so it goes away.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ασπιρίνες
+    accusative_singular: την ασπιρίνη
+  keg_communicative_function: Naming common analgesic aspirin
+- id: A1-U110-035
+  greek: το σιρόπι
+  phonetic_hint: to see-RO-pee
+  english: syrup / cough syrup
+  notes: Klik A1 p. 221, 231. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-siropi-bfa271.mp3
+  status: verified
+  example_el: Πάρε ένα κουταλάκι σιρόπι για να μαλακώσει ο λαιμός σου.
+  example_en: Take a teaspoon of syrup to soothe your throat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σιρόπια
+    accusative_singular: το σιρόπι
+  keg_communicative_function: Naming liquid cough syrups
+- id: A1-U110-036
+  greek: η ένεση
+  phonetic_hint: ee EH-neh-see
+  english: injection / shot
+  notes: Klik A1 p. 224. Feminine noun in -η with plural in -εις.
+  gender_or_pos: noun (feminine)
+  audio: i-enesi-7c639a.mp3
+  status: verified
+  example_el: Η νοσοκόμα μού έκανε την ένεση χωρίς να πονέσω καθόλου.
+  example_en: The nurse gave me the injection without me feeling any pain at all.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ενέσεις
+    accusative_singular: την ένεση
+  keg_communicative_function: Naming medical injections
+- id: A1-U110-037
+  greek: η αλοιφή
+  phonetic_hint: ee ah-lee-FEE
+  english: ointment / healing cream
+  notes: Klik A1 p. 224, 231. Feminine noun in -ή with plural in -ές.
+  gender_or_pos: noun (feminine)
+  audio: i-aloifi-2b4fda.mp3
+  status: verified
+  example_el: Βάζω καταπραϋντική αλοιφή πάνω στο έγκαυμα.
+  example_en: I apply soothing ointment onto the burn.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αλοιφές
+    accusative_singular: την αλοιφή
+  keg_communicative_function: Naming medical topical ointments
+- id: A1-U110-038
+  greek: οι σταγόνες
+  phonetic_hint: ee stah-GHO-nes
+  english: drops (eye/ear/nose drops)
+  notes: 'Klik A1 p. 224, 231. Feminine plural noun (singular: η σταγόνα).'
+  gender_or_pos: noun (feminine)
+  audio: oi-stagones-ece4c3.mp3
+  status: verified
+  example_el: Βάζω κολλύριο, δύο σταγόνες σε κάθε μάτι.
+  example_en: I apply eye drops, two drops in each eye.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σταγόνες
+    accusative_singular: τη σταγόνα
+  keg_communicative_function: Naming medicinal liquid drops
+- id: A1-U110-039
+  greek: ο επίδεσμος
+  phonetic_hint: o eh-PEE-theh-zmos
+  english: bandage / dressing
+  notes: Klik A1 p. 224. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-epidesmos-8a018b.mp3
+  status: verified
+  example_el: Τύλιξε τον επίδεσμο γύρω από το στραμπουληγμένο πόδι.
+  example_en: He wrapped the bandage around the sprained foot.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι επίδεσμοι
+    accusative_singular: τον επίδεσμο
+  keg_communicative_function: Naming first-aid bandages
+- id: A1-U110-040
+  greek: το τσιρότο
+  phonetic_hint: to tsee-RO-to
+  english: band-aid / sticking plaster
+  notes: Klik A1 p. 224. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-tsiroto-67b36b.mp3
+  status: verified
+  example_el: Έκοψα το δάχτυλό μου και έβαλα ένα τσιρότο.
+  example_en: I cut my finger and put a band-aid on.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τσιρότα
+    accusative_singular: το τσιρότο
+  keg_communicative_function: Naming adhesive plasters
+- id: A1-U110-041
+  greek: το θερμόμετρο
+  phonetic_hint: to ther-MO-meh-tro
+  english: thermometer
+  notes: Klik A1 p. 220, 224. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-thermometro-dee17b.mp3
+  status: verified
+  example_el: Βάλε το θερμόμετρο κάτω από τη μασχάλη για να μετρήσουμε τον πυρετό.
+  example_en: Put the thermometer under your armpit to measure your fever.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα θερμόμετρα
+    accusative_singular: το θερμόμετρο
+  keg_communicative_function: Naming fever thermometers
+- id: A1-U110-042
+  greek: το παυσίπονο
+  phonetic_hint: to pahf-SEE-po-no
+  english: painkiller / analgesic
+  notes: Klik A1 p. 221, 224. Neuter noun (παύω + πόνος) in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-paysipono-ee8426.mp3
+  status: verified
+  example_el: Αν έχεις έντονους πόνους, πάρε ένα παυσίπονο.
+  example_en: If you have severe pains, take a painkiller.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παυσίπονα
+    accusative_singular: το παυσίπονο
+  keg_communicative_function: Naming analgesic painkillers
+- id: A1-U110-043
+  greek: η βιταμίνη
+  phonetic_hint: ee vee-tah-MEE-nee
+  english: vitamin
+  notes: Klik A1 p. 220, 224. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-vitamini-ddca01.mp3
+  status: verified
+  example_el: Τα πορτοκάλια περιέχουν πολύτιμη βιταμίνη C.
+  example_en: Oranges contain valuable vitamin C.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βιταμίνες
+    accusative_singular: τη βιταμίνη
+  keg_communicative_function: Naming health vitamins
+- id: A1-U110-044
+  greek: το χαμομήλι
+  phonetic_hint: to khah-mo-MEE-lee
+  english: chamomile / chamomile tea
+  notes: Klik A1 p. 220, 221. Neuter noun in -ι with plural in -ια. Traditional herbal
+    remedy for colds.
+  gender_or_pos: noun (neuter)
+  audio: to-chamomili-07addc.mp3
+  status: verified
+  example_el: Πίνω ζεστό χαμομήλι με λεμόνι για να ηρεμήσει το στομάχι μου.
+  example_en: I drink hot chamomile tea with lemon to calm my stomach.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χαμομήλια
+    accusative_singular: το χαμομήλι
+  keg_communicative_function: Naming traditional medicinal herbal chamomile infusions
+- id: A1-U110-045
+  greek: το σώμα
+  phonetic_hint: to SO-mah
+  english: body
+  notes: Klik A1 p. 225. Neuter noun in -μα with plural in -ματα.
+  gender_or_pos: noun (neuter)
+  audio: to-soma-2288d9.mp3
+  status: verified
+  example_el: Η σωματική άσκηση διατηρεί το σώμα υγιές και δυνατό.
+  example_en: Physical exercise keeps the body healthy and strong.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σώματα
+    accusative_singular: το σώμα
+  keg_communicative_function: Naming the human body
+- id: A1-U110-046
+  greek: το κεφάλι
+  phonetic_hint: to keh-FAH-lee
+  english: head
+  notes: Klik A1 p. 225. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-kefali-528f3c.mp3
+  status: verified
+  example_el: Χτύπησα το κεφάλι μου στην πόρτα του ντουλαπιού.
+  example_en: I hit my head on the cabinet door.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κεφάλια
+    accusative_singular: το κεφάλι
+  keg_communicative_function: Naming the head
+- id: A1-U110-047
+  greek: το πρόσωπο
+  phonetic_hint: to PRO-so-po
+  english: face / person
+  notes: Klik A1 p. 225. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-prosopo-e7a7ef.mp3
+  status: verified
+  example_el: Πλένω το πρόσωπό μου με κρύο νερό κάθε πρωί.
+  example_en: I wash my face with cold water every morning.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πρόσωπα
+    accusative_singular: το πρόσωπο
+  keg_communicative_function: Naming facial features
+- id: A1-U110-048
+  greek: το μάτι
+  phonetic_hint: to MAH-tee
+  english: eye
+  notes: Klik A1 p. 225, 227. Neuter noun in -ι with plural in -ια (τα μάτια).
+  gender_or_pos: noun (neuter)
+  audio: to-mati-9257a7.mp3
+  status: verified
+  example_el: Με τα μάτια μας βλέπουμε τα όμορφα χρώματα της φύσης.
+  example_en: With our eyes we see the beautiful colors of nature.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μάτια
+    accusative_singular: το μάτι
+  keg_communicative_function: Naming sensory eyes
+- id: A1-U110-049
+  greek: το αυτί
+  phonetic_hint: to ahf-TEE
+  english: ear
+  notes: Klik A1 p. 225, 227. Neuter noun in -ί with plural in -ιά (τα αυτιά).
+  gender_or_pos: noun (neuter)
+  audio: to-ayti-184b88.mp3
+  status: verified
+  example_el: Πονάει το δεξί μου αυτί και δεν ακούω καθαρά.
+  example_en: My right ear hurts and I cannot hear clearly.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αυτιά
+    accusative_singular: το αυτί
+  keg_communicative_function: Naming auditory ears
+- id: A1-U110-050
+  greek: η μύτη
+  phonetic_hint: ee MEE-tee
+  english: nose
+  notes: Klik A1 p. 225, 227. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-myti-fa7d42.mp3
+  status: verified
+  example_el: Με τη μύτη μυρίζουμε τα λουλούδια και το φαγητό.
+  example_en: With our nose we smell flowers and food.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μύτες
+    accusative_singular: τη μύτη
+  keg_communicative_function: Naming the olfactory nose
+- id: A1-U110-051
+  greek: το στόμα
+  phonetic_hint: to STO-mah
+  english: mouth
+  notes: Klik A1 p. 225, 227. Neuter noun in -μα with plural in -ματα.
+  gender_or_pos: noun (neuter)
+  audio: to-stoma-e76f70.mp3
+  status: verified
+  example_el: Ανοίξτε το στόμα σας, παρακαλώ, για να δω τον λαιμό σας.
+  example_en: Open your mouth, please, so I can see your throat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα στόματα
+    accusative_singular: το στόμα
+  keg_communicative_function: Naming the mouth
+- id: A1-U110-052
+  greek: το δόντι
+  phonetic_hint: to THON-dee
+  english: tooth
+  notes: Klik A1 p. 225, 227. Neuter noun in -ι with plural in -ια (τα δόντια).
+  gender_or_pos: noun (neuter)
+  audio: to-donti-893683.mp3
+  status: verified
+  example_el: Πλένουμε τα δόντια μας δύο φορές την ημέρα.
+  example_en: We brush our teeth twice a day.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δόντια
+    accusative_singular: το δόντι
+  keg_communicative_function: Naming teeth and dental anatomy
+- id: A1-U110-053
+  greek: ο λαιμός
+  phonetic_hint: o leh-MOS
+  english: neck / throat
+  notes: Klik A1 p. 225. Masculine noun in -ός with plural in -οί.
+  gender_or_pos: noun (masculine)
+  audio: o-laimos-105150.mp3
+  status: verified
+  example_el: Φοράω ζεστό κασκόλ στον λαιμό μου όταν έχει κρύο.
+  example_en: I wear a warm scarf on my neck when it is cold.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι λαιμοί
+    accusative_singular: τον λαιμό
+  keg_communicative_function: Naming the neck and throat
+- id: A1-U110-054
+  greek: ο ώμος
+  phonetic_hint: o O-mos
+  english: shoulder
+  notes: Klik A1 p. 225. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-omos-a12276.mp3
+  status: verified
+  example_el: Πονάει ο ώμος μου επειδή κουβάλησα βαριές τσάντες.
+  example_en: My shoulder hurts because I carried heavy bags.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι ώμοι
+    accusative_singular: τον ώμο
+  keg_communicative_function: Naming shoulders
+- id: A1-U110-055
+  greek: το στήθος
+  phonetic_hint: to STEE-thos
+  english: chest / breast
+  notes: Klik A1 p. 225. Neuter noun in -ος with plural in -η (τα στήθη).
+  gender_or_pos: noun (neuter)
+  audio: to-stithos-ab8fdc.mp3
+  status: verified
+  example_el: Ένιωσε έντονο πόνο στο στήθος και πήγε αμέσως στο νοσοκομείο.
+  example_en: He felt sharp pain in his chest and went immediately to the hospital.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα στήθη
+    accusative_singular: το στήθος
+  keg_communicative_function: Naming the chest anatomy
+- id: A1-U110-056
+  greek: η πλάτη
+  phonetic_hint: ee PLAH-tee
+  english: back (anatomy)
+  notes: Klik A1 p. 225. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-plati-65e67f.mp3
+  status: verified
+  example_el: Πονάει η πλάτη μου από τις πολλές ώρες στον υπολογιστή.
+  example_en: My back hurts from many hours at the computer.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πλάτες
+    accusative_singular: την πλάτη
+  keg_communicative_function: Naming the back
+- id: A1-U110-057
+  greek: η μέση
+  phonetic_hint: ee MEH-see
+  english: waist / lower back
+  notes: Klik A1 p. 225. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mesi-e3d230.mp3
+  status: verified
+  example_el: Έσκυψε απότομα και έπαθε ψύξη στη μέση.
+  example_en: He bent down abruptly and strained his lower back.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μέσες
+    accusative_singular: τη μέση
+  keg_communicative_function: Naming the lower back and waist
+- id: A1-U110-058
+  greek: η καρδιά
+  phonetic_hint: ee kahr-THYAH
+  english: heart
+  notes: Klik A1 p. 225. Feminine noun in -ά with plural in -ές.
+  gender_or_pos: noun (feminine)
+  audio: i-kardia-fe121a.mp3
+  status: verified
+  example_el: Η υγιεινή διατροφή προστατεύει την καρδιά μας.
+  example_en: Healthy eating protects our heart.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καρδιές
+    accusative_singular: την καρδιά
+  keg_communicative_function: Naming the cardiac organ
+- id: A1-U110-059
+  greek: η κοιλιά
+  phonetic_hint: ee kee-LYAH
+  english: belly / abdomen
+  notes: Klik A1 p. 225. Feminine noun in -ά with plural in -ές.
+  gender_or_pos: noun (feminine)
+  audio: i-koilia-157cde.mp3
+  status: verified
+  example_el: Το μωρό κλαίει επειδή πονάει η κοιλιά του.
+  example_en: The baby is crying because its tummy hurts.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κοιλιές
+    accusative_singular: την κοιλιά
+  keg_communicative_function: Naming the abdomen
+- id: A1-U110-060
+  greek: το στομάχι
+  phonetic_hint: to sto-MAH-khee
+  english: stomach
+  notes: Klik A1 p. 225. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-stomachi-aba6c2.mp3
+  status: verified
+  example_el: Δεν μπορώ να φάω τίποτα, νιώθω βάρος στο στομάχι.
+  example_en: I cannot eat anything, I feel heaviness in my stomach.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα στομάχια
+    accusative_singular: το στομάχι
+  keg_communicative_function: Naming the stomach digestive organ
+- id: A1-U110-061
+  greek: το χέρι
+  phonetic_hint: to KHEH-ree
+  english: hand / arm
+  notes: Klik A1 p. 225, 227. Neuter noun in -ι with plural in -ια (τα χέρια).
+  gender_or_pos: noun (neuter)
+  audio: to-cheri-f10a1c.mp3
+  status: verified
+  example_el: Πλύνετε καλά τα χέρια σας με σαπούνι πριν το φαγητό.
+  example_en: Wash your hands well with soap before eating.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χέρια
+    accusative_singular: το χέρι
+  keg_communicative_function: Naming hands and arms
+- id: A1-U110-062
+  greek: το πόδι
+  phonetic_hint: to PO-thee
+  english: foot / leg
+  notes: Klik A1 p. 225, 227. Neuter noun in -ι with plural in -ια (τα πόδια).
+  gender_or_pos: noun (neuter)
+  audio: to-podi-efba4b.mp3
+  status: verified
+  example_el: Περπάτησα δέκα χιλιόμετρα και πονάνε τα πόδια μου.
+  example_en: I walked ten kilometers and my legs hurt.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πόδια
+    accusative_singular: το πόδι
+  keg_communicative_function: Naming feet and legs
+- id: A1-U110-063
+  greek: το γόνατο
+  phonetic_hint: to GHO-nah-to
+  english: knee
+  notes: Klik A1 p. 225. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-gonato-114dfb.mp3
+  status: verified
+  example_el: Έπεσε στο γήπεδο και χτύπησε το αριστερό του γόνατο.
+  example_en: He fell on the court and hurt his left knee.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γόνατα
+    accusative_singular: το γόνατο
+  keg_communicative_function: Naming knees
+- id: A1-U110-064
+  greek: το δάχτυλο
+  phonetic_hint: to THAHKH-tee-lo
+  english: finger / toe
+  notes: Klik A1 p. 225. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-dachtylo-250db6.mp3
+  status: verified
+  example_el: Φοράει ένα χρυσό δαχτυλίδι στο μεσαίο δάχτυλο.
+  example_en: She wears a gold ring on her middle finger.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δάχτυλα
+    accusative_singular: το δάχτυλο
+  keg_communicative_function: Naming digits (fingers and toes)
+- id: A1-U110-065
+  greek: αρρωσταίνω
+  phonetic_hint: ahr-ro-STEH-no
+  english: to fall ill / get sick
+  notes: 'Klik A1 p. 219, 220. Type A active verb. Simple past: αρρώστησα.'
+  gender_or_pos: verb
+  audio: arrostaino-19fe5d.mp3
+  status: verified
+  example_el: Αν βγεις χωρίς παλτό στο κρύο, θα αρρωστήσεις.
+  example_en: If you go out without a coat in the cold, you will get sick.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A
+    third_person_singular: αρρωσταίνει
+    first_person_plural: αρρωσταίνουμε
+  keg_communicative_function: Describing falling ill
+- id: A1-U110-066
+  greek: πονάω
+  phonetic_hint: po-NAH-o
+  english: to hurt / ache / feel pain
+  notes: 'Klik A1 p. 219, 225. Type B1 verb (πονάω/πονώ). Often used impersonally
+    in 3rd person: πονάει / πονάνε.'
+  gender_or_pos: verb
+  audio: ponao-f36b23.mp3
+  status: verified
+  example_el: Πού πονάτε ακριβώς, κύριε Παπαδόπουλε;
+  example_en: Where exactly does it hurt, Mr. Papadopoulos?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type B1
+    third_person_singular: πονάει
+    first_person_plural: πονάμε
+  keg_communicative_function: Locating bodily pain during medical triage
+- id: A1-U110-067
+  greek: κρυώνω
+  phonetic_hint: kree-O-no
+  english: to feel cold / catch a cold
+  notes: 'Klik A1 p. 219, 220. Type A verb. Simple past: κρύωσα.'
+  gender_or_pos: verb
+  audio: kryono-8b737d.mp3
+  status: verified
+  example_el: Κλείσε την πόρτα γιατί κρυώνω πολύ.
+  example_en: Close the door because I feel very cold.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A
+    third_person_singular: κρυώνει
+    first_person_plural: κρυώνουμε
+  keg_communicative_function: Expressing sensation of cold or catching a chill
+- id: A1-U110-068
+  greek: βήχω
+  phonetic_hint: VEE-kho
+  english: to cough
+  notes: 'Klik A1 p. 219, 220, 221. Type A verb. Simple past: έβηξα.'
+  gender_or_pos: verb
+  audio: vicho-0f7985.mp3
+  status: verified
+  example_el: Βήχω συνέχεια από χθες το βράδυ.
+  example_en: I have been coughing continuously since last night.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A
+    third_person_singular: βήχει
+    first_person_plural: βήχουμε
+  keg_communicative_function: Describing coughing actions

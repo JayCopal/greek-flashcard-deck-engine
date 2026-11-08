@@ -12,10 +12,16 @@ This skill guides AI agents in converting raw, optical-character-recognized (OCR
 ## 1. Core Principles & Conventions
 
 ### 1.1 Unit Numbering & Scope
-- **Unit IDs:** Units created from "Κλικ στα Ελληνικά Α1" must begin at **101** and increment sequentially: `unit-101`, `unit-102`, `unit-103`, etc.
-  - Base thematic units (`unit-01` to `unit-06`) are reserved for core thematic curricula.
-  - Series 101+ is explicitly reserved for textbook-aligned lessons.
-- **Card IDs:** Must follow the pattern `A1-U{UnitNumber}-{Index:03d}`, e.g., `A1-U101-001`, `A1-U101-002`.
+- **Unit IDs:** Units created from "Κλικ στα Ελληνικά Α1" must align directly with the textbook's unit numbering:
+  - **`unit-100`:** Reserved for the unnumbered **Εισαγωγική Ενότητα** (Introductory Unit, Pages 25-41) -> order: `KlikA1-00-A`.
+  - **`unit-101`+:** Reserved for numbered textbook units, following formula `unit-100 + Book Unit Number`:
+    - `unit-101`: Book **Ενότητα 1** -> order: `KlikA1-01-A`
+    - `unit-102`: Book **Ενότητα 2** -> order: `KlikA1-02-A` (and `unit-102b` -> `KlikA1-02-B` for grammar/syntax expansions)
+    - `unit-103`: Book **Ενότητα 3** -> order: `KlikA1-03-A` (and `unit-103b` -> `KlikA1-03-B`)
+    - ...
+    - `unit-111`: Book **Ενότητα 11** -> order: `KlikA1-11-A`
+  - Base thematic units (`unit-00` to `unit-07`) remain reserved for core thematic curricula and exam rubrics.
+- **Card IDs:** Must follow the pattern `A1-U{UnitNumber}-{Index:03d}`, e.g., `A1-U100-001` (Introductory), `A1-U101-001` (Unit 1), `A1-U102B-001` (Unit 2 Expansion).
 
 ### 1.2 Unit Title Naming Rule (Page Range Requirement)
 The title of the unit **must explicitly denote the page range involved** from the book:

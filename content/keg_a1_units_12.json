@@ -1,0 +1,711 @@
+[
+  {
+    "id": "A1-U12-001",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το σώμα",
+    "back_primary": "body",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα σώματα",
+      "accusative_singular": "το σώμα"
+    },
+    "keg_communicative_function": "Naming human body and physical anatomy",
+    "example_el": "Η άσκηση κάνει καλό σε όλο το σώμα.",
+    "example_en": "Exercise is good for the whole body.",
+    "notes_or_mnemonics": "Neuter noun in -μα with plural in -ματα (τα σώματα)."
+  },
+  {
+    "id": "A1-U12-002",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το κεφάλι",
+    "back_primary": "head",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κεφάλια",
+      "accusative_singular": "το κεφάλι"
+    },
+    "keg_communicative_function": "Describing head pain or injuries",
+    "example_el": "Πονάει το κεφάλι μου από το πρωί.",
+    "example_en": "My head hurts since morning.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα κεφάλια)."
+  },
+  {
+    "id": "A1-U12-003",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο λαιμός",
+    "back_primary": "throat / neck",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι λαιμοί",
+      "accusative_singular": "τον λαιμό"
+    },
+    "keg_communicative_function": "Reporting sore throat symptoms",
+    "example_el": "Έχω κόκκινο λαιμό και δεν μπορώ να καταπιώ.",
+    "example_en": "I have a red throat and I cannot swallow.",
+    "notes_or_mnemonics": "Masculine oxytone in -ός with plural in -οί (οι λαιμοί)."
+  },
+  {
+    "id": "A1-U12-004",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το στομάχι",
+    "back_primary": "stomach",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα στομάχια",
+      "accusative_singular": "το στομάχι"
+    },
+    "keg_communicative_function": "Describing gastric discomfort and digestive issues",
+    "example_el": "Με πονάει το στομάχι μου μετά το φαγητό.",
+    "example_en": "My stomach hurts after eating.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα στομάχια)."
+  },
+  {
+    "id": "A1-U12-005",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η κοιλιά",
+    "back_primary": "belly / abdomen / stomach",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι κοιλιές",
+      "accusative_singular": "την κοιλιά"
+    },
+    "keg_communicative_function": "Describing abdominal pain",
+    "example_el": "Το παιδί πονάει στην κοιλιά.",
+    "example_en": "The child has pain in the belly.",
+    "notes_or_mnemonics": "Feminine oxytone in -ιά with plural in -ιές (οι κοιλιές)."
+  },
+  {
+    "id": "A1-U12-006",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το μάτι",
+    "back_primary": "eye",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μάτια",
+      "accusative_singular": "το μάτι"
+    },
+    "keg_communicative_function": "Describing ocular symptoms or irritation",
+    "example_el": "Τον πονούν τα μάτια του από την οθόνη του υπολογιστή.",
+    "example_en": "His eyes hurt from the computer screen.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα μάτια)."
+  },
+  {
+    "id": "A1-U12-007",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το αυτί",
+    "back_primary": "ear",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα αυτιά",
+      "accusative_singular": "το αυτί"
+    },
+    "keg_communicative_function": "Describing earache symptoms to a physician",
+    "example_el": "Έχω πρόβλημα με το δεξί μου αυτί.",
+    "example_en": "I have an issue with my right ear.",
+    "notes_or_mnemonics": "Neuter oxytone in -ί with plural in -ιά (τα αυτιά). Also spelled αφτί."
+  },
+  {
+    "id": "A1-U12-008",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η μύτη",
+    "back_primary": "nose",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι μύτες",
+      "accusative_singular": "τη μύτη"
+    },
+    "keg_communicative_function": "Describing nasal symptoms and head colds",
+    "example_el": "Τρέχει η μύτη μου γιατί έχω κρύωμα.",
+    "example_en": "My nose is running because I have a cold.",
+    "notes_or_mnemonics": "Feminine in -η with plural in -ες (οι μύτες)."
+  },
+  {
+    "id": "A1-U12-009",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το στόμα",
+    "back_primary": "mouth",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα στόματα",
+      "accusative_singular": "το στόμα"
+    },
+    "keg_communicative_function": "Following doctor's examination commands",
+    "example_el": "Ανοίξτε το στόμα σας, παρακαλώ.",
+    "example_en": "Open your mouth, please.",
+    "notes_or_mnemonics": "Neuter in -μα with plural in -ματα (τα στόματα)."
+  },
+  {
+    "id": "A1-U12-010",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το δόντι",
+    "back_primary": "tooth",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα δόντια",
+      "accusative_singular": "το δόντι"
+    },
+    "keg_communicative_function": "Explaining dental pain and visiting the dentist",
+    "example_el": "Πρέπει να πάω στον οδοντίατρο για ένα δόντι.",
+    "example_en": "I must go to the dentist for a tooth.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα δόντια)."
+  },
+  {
+    "id": "A1-U12-011",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το χέρι",
+    "back_primary": "hand / arm",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα χέρια",
+      "accusative_singular": "το χέρι"
+    },
+    "keg_communicative_function": "Describing upper limb discomfort, injuries, or washing hands",
+    "example_el": "Πλένουμε καλά τα χέρια μας με σαπούνι.",
+    "example_en": "We wash our hands thoroughly with soap.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα χέρια)."
+  },
+  {
+    "id": "A1-U12-012",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το πόδι",
+    "back_primary": "foot / leg",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πόδια",
+      "accusative_singular": "το πόδι"
+    },
+    "keg_communicative_function": "Describing lower limb injuries or walking pain",
+    "example_el": "Πονάει το δεξί μου πόδι όταν περπατάω.",
+    "example_en": "My right leg hurts when I walk.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα πόδια)."
+  },
+  {
+    "id": "A1-U12-013",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η πλάτη",
+    "back_primary": "back (anatomy)",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι πλάτες",
+      "accusative_singular": "την πλάτη"
+    },
+    "keg_communicative_function": "Reporting back pain to a practitioner",
+    "example_el": "Έχω δυνατούς πόνους στην πλάτη.",
+    "example_en": "I have strong pain in my back.",
+    "notes_or_mnemonics": "Feminine in -η with plural in -ες (οι πλάτες)."
+  },
+  {
+    "id": "A1-U12-014",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η καρδιά",
+    "back_primary": "heart",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι καρδιές",
+      "accusative_singular": "την καρδιά"
+    },
+    "keg_communicative_function": "Discussing cardiovascular health and heart rate",
+    "example_el": "Ο γιατρός ακούει την καρδιά του ασθενούς.",
+    "example_en": "The doctor listens to the patient's heart.",
+    "notes_or_mnemonics": "Feminine oxytone in -ιά with plural in -ιές (οι καρδιές)."
+  },
+  {
+    "id": "A1-U12-015",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο πυρετός",
+    "back_primary": "fever / temperature",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι πυρετοί",
+      "accusative_singular": "τον πυρετό"
+    },
+    "keg_communicative_function": "Reporting fever symptoms and body temperature",
+    "example_el": "Έχω τριάντα οκτώ πυρετό από χθες το βράδυ.",
+    "example_en": "I have a fever of thirty-eight degrees since last night.",
+    "notes_or_mnemonics": "Masculine in -ός with plural in -οί (οι πυρετοί). Phrase: 'έχω πυρετό'."
+  },
+  {
+    "id": "A1-U12-016",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο πονοκέφαλος",
+    "back_primary": "headache",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι πονοκέφαλοι",
+      "accusative_singular": "τον πονοκέφαλο"
+    },
+    "keg_communicative_function": "Reporting headaches to medical staff",
+    "example_el": "Έχω έναν τρομερό πονοκέφαλο.",
+    "example_en": "I have a terrible headache.",
+    "notes_or_mnemonics": "Proparoxytone compound: πόνος (pain) + κεφάλι (head)."
+  },
+  {
+    "id": "A1-U12-017",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο πονόλαιμος",
+    "back_primary": "sore throat",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι πονόλαιμοι",
+      "accusative_singular": "τον πονόλαιμο"
+    },
+    "keg_communicative_function": "Reporting sore throat symptoms",
+    "example_el": "Έχετε καραμέλες για τον πονόλαιμο;",
+    "example_en": "Do you have lozenges for a sore throat?",
+    "notes_or_mnemonics": "Compound noun: πόνος (pain) + λαιμός (throat)."
+  },
+  {
+    "id": "A1-U12-018",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο πονόδοντος",
+    "back_primary": "toothache",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι πονόδοντοι",
+      "accusative_singular": "τον πονόδοντο"
+    },
+    "keg_communicative_function": "Explaining toothache symptoms",
+    "example_el": "Δεν μπορώ να κοιμηθώ από τον πονόδοντο.",
+    "example_en": "I cannot sleep because of the toothache.",
+    "notes_or_mnemonics": "Compound noun: πόνος (pain) + δόντι (tooth)."
+  },
+  {
+    "id": "A1-U12-019",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το συνάχι",
+    "back_primary": "runny nose / cold / sniffles",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα συνάχια",
+      "accusative_singular": "το συνάχι"
+    },
+    "keg_communicative_function": "Explaining mild viral cold symptoms",
+    "example_el": "Έχω συνάχι και βήχα εδώ και δύο μέρες.",
+    "example_en": "I have had a head cold and a cough for two days.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα συνάχια)."
+  },
+  {
+    "id": "A1-U12-020",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η γρίπη",
+    "back_primary": "flu / influenza",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι γρίπες",
+      "accusative_singular": "τη γρίπη"
+    },
+    "keg_communicative_function": "Reporting influenza infection",
+    "example_el": "Έμεινα στο κρεβάτι γιατί έχω γρίπη.",
+    "example_en": "I stayed in bed because I have the flu.",
+    "notes_or_mnemonics": "Feminine paroxytone in -η (η γρίπη)."
+  },
+  {
+    "id": "A1-U12-021",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο βήχας",
+    "back_primary": "cough",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι βήχες",
+      "accusative_singular": "τον βήχα"
+    },
+    "keg_communicative_function": "Describing coughing symptoms",
+    "example_el": "Ο βήχας δεν με αφήνει να μιλήσω.",
+    "example_en": "The cough doesn't let me speak.",
+    "notes_or_mnemonics": "Masculine in -ας with plural in -ες (οι βήχες)."
+  },
+  {
+    "id": "A1-U12-022",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η αλλεργία",
+    "back_primary": "allergy",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι αλλεργίες",
+      "accusative_singular": "την αλλεργία"
+    },
+    "keg_communicative_function": "Informing medical personnel of allergies",
+    "example_el": "Έχω αλλεργία στην πενικιλίνη.",
+    "example_en": "I have an allergy to penicillin.",
+    "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι αλλεργίες)."
+  },
+  {
+    "id": "A1-U12-023",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "άρρωστος, άρρωστη, άρρωστο",
+    "back_primary": "sick / ill",
+    "grammatical_info": {
+      "part_of_speech": "adjective",
+      "masculine": "άρρωστος",
+      "feminine": "άρρωστη",
+      "neuter": "άρρωστο"
+    },
+    "keg_communicative_function": "Stating ill health condition",
+    "example_el": "Είμαι άρρωστος και δεν μπορώ να έρθω στο μάθημα.",
+    "example_en": "I am sick and I cannot come to class.",
+    "notes_or_mnemonics": "Adjective in -ος, -η, -ο. Opposite: υγιής (healthy)."
+  },
+  {
+    "id": "A1-U12-024",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "κουρασμένος, κουρασμένη, κουρασμένο",
+    "back_primary": "tired / exhausted",
+    "grammatical_info": {
+      "part_of_speech": "adjective",
+      "masculine": "κουρασμένος",
+      "feminine": "κουρασμένη",
+      "neuter": "κουρασμένο"
+    },
+    "keg_communicative_function": "Expressing fatigue and tiredness",
+    "example_el": "Είμαι πολύ κουρασμένη από τη δουλειά.",
+    "example_en": "I am very tired from work.",
+    "notes_or_mnemonics": "Participle/adjective in -μένος, -μένη, -μένο."
+  },
+  {
+    "id": "A1-U12-025",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το φάρμακο",
+    "back_primary": "medicine / medication / drug",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα φάρμακα",
+      "accusative_singular": "το φάρμακο"
+    },
+    "keg_communicative_function": "Asking for medicine at the pharmacy",
+    "example_el": "Παίρνω αυτό το φάρμακο τρεις φορές την ημέρα.",
+    "example_en": "I take this medication three times a day.",
+    "notes_or_mnemonics": "Proparoxytone neuter in -ο with plural in -α (τα φάρμακα)."
+  },
+  {
+    "id": "A1-U12-026",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το χάπι",
+    "back_primary": "pill / tablet",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα χάπια",
+      "accusative_singular": "το χάπι"
+    },
+    "keg_communicative_function": "Buying and dosing pill medications",
+    "example_el": "Πάρτε δύο χάπια μετά το πρωινό.",
+    "example_en": "Take two pills after breakfast.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα χάπια)."
+  },
+  {
+    "id": "A1-U12-027",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η ασπιρίνη",
+    "back_primary": "aspirin",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι ασπιρίνες",
+      "accusative_singular": "την ασπιρίνη"
+    },
+    "keg_communicative_function": "Requesting over-the-counter pain relief",
+    "example_el": "Θέλω ένα κουτί ασπιρίνες, παρακαλώ.",
+    "example_en": "I want a box of aspirins, please.",
+    "notes_or_mnemonics": "Feminine paroxytone in -η with plural in -ες (οι ασπιρίνες)."
+  },
+  {
+    "id": "A1-U12-028",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το σιρόπι",
+    "back_primary": "syrup / cough syrup",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα σιρόπια",
+      "accusative_singular": "το σιρόπι"
+    },
+    "keg_communicative_function": "Purchasing cough syrup at a chemist",
+    "example_el": "Αυτό το σιρόπι είναι πολύ καλό για τον βήχα.",
+    "example_en": "This syrup is very good for the cough.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα σιρόπια)."
+  },
+  {
+    "id": "A1-U12-029",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το τσιρότο",
+    "back_primary": "band-aid / adhesive plaster / patch",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα τσιρότα",
+      "accusative_singular": "το τσιρότο"
+    },
+    "keg_communicative_function": "Purchasing first-aid supplies for minor cuts",
+    "example_el": "Χρειάζομαι ένα τσιρότο για το δάχτυλό μου.",
+    "example_en": "I need a band-aid for my finger.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα τσιρότα)."
+  },
+  {
+    "id": "A1-U12-030",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η γάζα",
+    "back_primary": "gauze / bandage",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι γάζες",
+      "accusative_singular": "τη γάζα"
+    },
+    "keg_communicative_function": "Asking for wound dressing supplies",
+    "example_el": "Βάζουμε καθαρή γάζα πάνω στην πληγή.",
+    "example_en": "We put clean gauze over the wound.",
+    "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι γάζες)."
+  },
+  {
+    "id": "A1-U12-031",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το οινόπνευμα",
+    "back_primary": "rubbing alcohol / surgical spirit",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα οινοπνεύματα",
+      "accusative_singular": "το οινόπνευμα"
+    },
+    "keg_communicative_function": "Purchasing antiseptic supplies",
+    "example_el": "Καθαρίζουμε το χέρι με λίγο οινόπνευμα.",
+    "example_en": "We clean the hand with some rubbing alcohol.",
+    "notes_or_mnemonics": "Compound neuter: οίνος (wine) + πνεύμα (spirit)."
+  },
+  {
+    "id": "A1-U12-032",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η συνταγή",
+    "back_primary": "medical prescription / recipe",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι συνταγές",
+      "accusative_singular": "τη συνταγή"
+    },
+    "keg_communicative_function": "Presenting prescriptions to a chemist",
+    "example_el": "Έχετε συνταγή από γιατρό για αυτό το φάρμακο;",
+    "example_en": "Do you have a doctor's prescription for this medicine?",
+    "notes_or_mnemonics": "Feminine oxytone in -ή with plural in -ές (οι συνταγές). Same word for cooking recipe."
+  },
+  {
+    "id": "A1-U12-033",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "ο φαρμακοποιός",
+    "back_primary": "pharmacist / chemist",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι φαρμακοποιοί",
+      "accusative_singular": "τον φαρμακοποιό"
+    },
+    "keg_communicative_function": "Addressing and asking advice from pharmacy professionals",
+    "example_el": "Ο φαρμακοποιός μού δίνει οδηγίες για τη δοσολογία.",
+    "example_en": "The pharmacist gives me instructions regarding the dosage.",
+    "notes_or_mnemonics": "Masculine/feminine in -ος (ο/η φαρμακοποιός)."
+  },
+  {
+    "id": "A1-U12-034",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "το ασθενοφόρο",
+    "back_primary": "ambulance",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ασθενοφόρα",
+      "accusative_singular": "το ασθενοφόρο"
+    },
+    "keg_communicative_function": "Calling emergency medical transport",
+    "example_el": "Καλέστε αμέσως ασθενοφόρο!",
+    "example_en": "Call an ambulance immediately!",
+    "notes_or_mnemonics": "Compound proparoxytone neuter: ασθενής (patient/sick person) + φέρω (to bear/carry)."
+  },
+  {
+    "id": "A1-U12-035",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "verb",
+    "front": "πονάω / πονώ",
+    "back_primary": "to hurt / to ache / to be in pain / I hurt",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "B1",
+      "third_person_singular": "αυτός / αυτή / αυτό πονάει (πονά)",
+      "first_person_plural": "εμείς πονάμε"
+    },
+    "keg_communicative_function": "Expressing bodily pain and distress",
+    "example_el": "Πονάω πολύ, χρειάζομαι ένα παυσίπονο.",
+    "example_en": "I am in a lot of pain, I need a painkiller.",
+    "notes_or_mnemonics": "Type B1 active verb: πονάω, πονάς, πονάει, πονάμε, πονάτε, πονάνε."
+  },
+  {
+    "id": "A1-U12-036",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "phrase",
+    "front": "πονάει... / πονάνε...",
+    "back_primary": "my ... hurts / my ... hurt",
+    "grammatical_info": {
+      "part_of_speech": "phrase (impersonal pain construction)"
+    },
+    "keg_communicative_function": "Specifying singular vs plural body parts in pain",
+    "example_el": "Με πονάει ο λαιμός μου και με πονάνε τα μάτια μου.",
+    "example_en": "My throat hurts and my eyes hurt.",
+    "notes_or_mnemonics": "Weak object pronoun (με / σε / τον / την) + πονάει (+ sing.) or πονάνε (+ plur.)."
+  },
+  {
+    "id": "A1-U12-037",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "phrase",
+    "front": "πρέπει να",
+    "back_primary": "must / have to / should (modal obligation)",
+    "grammatical_info": {
+      "part_of_speech": "phrase (modal particle phrase)",
+      "syntax": "πρέπει να + Present Active Indicative"
+    },
+    "keg_communicative_function": "Giving and understanding medical instructions or duties",
+    "example_el": "Πρέπει να πίνετε πολύ νερό και να ξεκουράζεστε.",
+    "example_en": "You must drink a lot of water and rest.",
+    "notes_or_mnemonics": "Impersonal modal verb 'πρέπει' + connector 'να' + conjugated verb."
+  },
+  {
+    "id": "A1-U12-038",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "verb",
+    "front": "νιώθω",
+    "back_primary": "to feel / I feel",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό νιώθει",
+      "first_person_plural": "εμείς νιώθουμε"
+    },
+    "keg_communicative_function": "Describing internal physical and emotional sensations",
+    "example_el": "Σήμερα νιώθω πολύ καλύτερα, ευχαριστώ.",
+    "example_en": "Today I feel much better, thank you.",
+    "notes_or_mnemonics": "Type A regular verb: νιώθω, νιώθεις, νιώθει, νιώθουμε, νιώθετε, νιώθουν."
+  },
+  {
+    "id": "A1-U12-039",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "phrase",
+    "front": "βοήθεια!",
+    "back_primary": "help!",
+    "grammatical_info": {
+      "part_of_speech": "phrase (exclamation / emergency formula)"
+    },
+    "keg_communicative_function": "Shouting for assistance in critical situations",
+    "example_el": "Βοήθεια! Κάποιος έπεσε στον δρόμο!",
+    "example_en": "Help! Someone fell on the street!",
+    "notes_or_mnemonics": "Noun η βοήθεια (help) used as an urgent exclamatory formula."
+  },
+  {
+    "id": "A1-U12-040",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "phrase",
+    "front": "χρειάζομαι γιατρό!",
+    "back_primary": "I need a doctor!",
+    "grammatical_info": {
+      "part_of_speech": "phrase (emergency inquiry)"
+    },
+    "keg_communicative_function": "Summoning physician assistance urgently",
+    "example_el": "Γρήγορα, χρειάζομαι γιατρό αμέσως!",
+    "example_en": "Quickly, I need a doctor immediately!",
+    "notes_or_mnemonics": "Common medical emergency request formula: verb χρειάζομαι + γιατρό."
+  },
+  {
+    "id": "A1-U12-041",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "phrase",
+    "front": "περαστικά!",
+    "back_primary": "get well soon! / may it pass quickly!",
+    "grammatical_info": {
+      "part_of_speech": "phrase (social wishing formula)"
+    },
+    "keg_communicative_function": "Wishing a swift recovery to sick friends or colleagues",
+    "example_el": "Έμαθα ότι έχεις γρίπη. Περαστικά σου!",
+    "example_en": "I heard that you have the flu. Get well soon!",
+    "notes_or_mnemonics": "Neuter plural adjective used as a greeting formula. Literally: 'may they pass'."
+  },
+  {
+    "id": "A1-U12-042",
+    "unit_number": 12,
+    "unit_theme": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+    "card_type": "vocabulary",
+    "front": "η υγεία",
+    "back_primary": "health",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι υγείες",
+      "accusative_singular": "την υγεία"
+    },
+    "keg_communicative_function": "Wishing good health, making toasts, and general wellness",
+    "example_el": "Στην υγειά μας! / Η υγεία είναι το πιο σημαντικό πράγμα.",
+    "example_en": "To our health! / Health is the most important thing.",
+    "notes_or_mnemonics": "Feminine oxytone in -α. In toasts contracted as: 'Στην υγειά μας!' / 'Γεια μας!'."
+  }
+]

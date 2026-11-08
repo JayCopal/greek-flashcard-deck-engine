@@ -1,0 +1,666 @@
+unit_id: unit-11
+lesson_id: lesson-01
+title: Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)
+description: 'CEFR A1: Talking about hobbies, sports, cinema, beach and island vacations,
+  describing the weather, and using direct-object clitic pronouns.'
+lesson_status: not_started
+lesson_notes: "Unit 11 Core Grammar Notes:\n\n• Weather Idioms & Impersonal Expressions:\n\
+  \  - 'Τι καιρό κάνει σήμερα;' (What's the weather like today?).\n  - 'Κάνει ζέστη\
+  \ / κάνει κρύο' (It is hot / cold).\n  - 'Έχει ήλιο / έχει συννεφιά / έχει αέρα'\
+  \ (It is sunny / cloudy / windy).\n  - Impersonal verbs: βρέχει (it rains), χιονίζει\
+  \ (it snows), φυσάει (the wind blows).\n  - Degrees of temperature: 'Η θερμοκρασία\
+  \ είναι 28 βαθμοί.'\n\n• Expressing Likes & Preferences ('Μου αρέσει / Μου αρέσουν'):\n\
+  \  - 'Μου αρέσει' + Singular noun or verb: 'Μου αρέσει η θάλασσα' / 'Μου αρέσει\
+  \ να ταξιδεύω'.\n  - 'Μου αρέσουν' + Plural noun: 'Μου αρέσουν τα νησιά'.\n  - Verb\
+  \ 'προτιμάω / προτιμώ': 'Προτιμώ τη θάλασσα από το βουνό.'\n\n• Weak Direct-Object\
+  \ Clitic Pronouns (Αιτιατική Προσωπικών Αντωνυμιών):\n  - Singular: με (me), σε\
+  \ (you), τον (him/it), την (her/it), το (it).\n  - Plural: μας (us), σας (you all),\
+  \ τους (them masc), τις (them fem), τα (them neut).\n  - Syntactic position: Placed\
+  \ immediately BEFORE the conjugated verb in active indicative:\n    * 'Τον βλέπω'\
+  \ (I see him).\n    * 'Τις ξέρεις;' (Do you know them?).\n    * 'Δεν το θέλω' (I\
+  \ don't want it)."
+entries:
+- id: A1-U11-001
+  greek: ο καιρός
+  phonetic_hint: ''
+  english: weather / time
+  notes: 'Masculine in -ος with plural in -οι (οι καιροί). Key question: ''Τι καιρό
+    κάνει;'' (What is the weather like?).'
+  gender_or_pos: noun (masculine)
+  audio: o-kairos-7c6f51.mp3
+  status: verified
+  example_el: Πώς είναι ο καιρός σήμερα στην Αθήνα;
+  example_en: How is the weather today in Athens?
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καιροί
+    accusative_singular: τον καιρό
+  keg_communicative_function: Inquiring about and describing the weather
+- id: A1-U11-002
+  greek: ο ήλιος
+  phonetic_hint: ''
+  english: sun
+  notes: Masculine in -ος with plural in -οι (οι ήλιοι).
+  gender_or_pos: noun (masculine)
+  audio: o-ilios-b8ba7b.mp3
+  status: verified
+  example_el: Ο ήλιος λάμπει στον ουρανό.
+  example_en: The sun shines in the sky.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι ήλιοι
+    accusative_singular: τον ήλιο
+  keg_communicative_function: Describing sunny atmospheric conditions
+- id: A1-U11-003
+  greek: η βροχή
+  phonetic_hint: ''
+  english: rain
+  notes: Feminine oxytone in -ή with plural in -ές (οι βροχές).
+  gender_or_pos: noun (feminine)
+  audio: i-vrochi-6244c9.mp3
+  status: verified
+  example_el: Η βροχή είναι πολύ δυνατή σήμερα.
+  example_en: The rain is very heavy today.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βροχές
+    accusative_singular: τη βροχή
+  keg_communicative_function: Discussing rainfall and rainy weather
+- id: A1-U11-004
+  greek: το χιόνι
+  phonetic_hint: ''
+  english: snow
+  notes: Neuter in -ι with plural in -ια (τα χιόνια).
+  gender_or_pos: noun (neuter)
+  audio: to-chioni-d54bfa.mp3
+  status: verified
+  example_el: Υπάρχει πολύ χιόνι πάνω στα βουνά.
+  example_en: There is a lot of snow up on the mountains.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χιόνια
+    accusative_singular: το χιόνι
+  keg_communicative_function: Discussing snowfall and winter conditions
+- id: A1-U11-005
+  greek: ο αέρας / ο άνεμος
+  phonetic_hint: ''
+  english: wind / air
+  notes: 'Common usage: ''ο αέρας''. Weather forecasts often use ''ο άνεμος''.'
+  gender_or_pos: noun (masculine)
+  audio: o-aeras-o-anemos-fc078c.mp3
+  status: verified
+  example_el: Σήμερα έχει πολύ δυνατό αέρα στο νησί.
+  example_en: Today there is very strong wind on the island.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι αέρηδες / οι άνεμοι
+    accusative_singular: τον αέρα / τον άνεμο
+  keg_communicative_function: Describing windy weather conditions
+- id: A1-U11-006
+  greek: το σύννεφο
+  phonetic_hint: ''
+  english: cloud
+  notes: Proparoxytone neuter in -ο with plural in -α (τα σύννεφα).
+  gender_or_pos: noun (neuter)
+  audio: to-synnefo-bce26e.mp3
+  status: verified
+  example_el: Βλέπω μαύρα σύννεφα στον ουρανό.
+  example_en: I see dark clouds in the sky.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σύννεφα
+    accusative_singular: το σύννεφο
+  keg_communicative_function: Describing sky conditions
+- id: A1-U11-007
+  greek: η συννεφιά
+  phonetic_hint: ''
+  english: cloudiness / overcast sky
+  notes: 'Feminine oxytone in -ιά. Frequently paired with verb: ''έχει συννεφιά''.'
+  gender_or_pos: noun (feminine)
+  audio: i-synnefia-012c77.mp3
+  status: verified
+  example_el: Έχει συννεφιά αλλά δεν βρέχει.
+  example_en: It is overcast, but it is not raining.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συννεφιές
+    accusative_singular: τη συννεφιά
+  keg_communicative_function: Reporting cloudy weather
+- id: A1-U11-008
+  greek: η θερμοκρασία
+  phonetic_hint: ''
+  english: temperature
+  notes: Feminine in -α with plural in -ες (οι θερμοκρασίες).
+  gender_or_pos: noun (feminine)
+  audio: i-thermokrasia-7df125.mp3
+  status: verified
+  example_el: Η θερμοκρασία είναι είκοσι πέντε βαθμοί Κελσίου.
+  example_en: The temperature is twenty-five degrees Celsius.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θερμοκρασίες
+    accusative_singular: τη θερμοκρασία
+  keg_communicative_function: Reading and discussing temperature forecasts
+- id: A1-U11-009
+  greek: ο βαθμός
+  phonetic_hint: ''
+  english: degree (temperature) / grade
+  notes: Masculine oxytone in -ός with plural in -οί (οι βαθμοί).
+  gender_or_pos: noun (masculine)
+  audio: o-vathmos-be1cd4.mp3
+  status: verified
+  example_el: Το καλοκαίρι έχουμε σαράντα βαθμούς.
+  example_en: In the summer we have forty degrees.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι βαθμοί
+    accusative_singular: τον βαθμό
+  keg_communicative_function: Expressing degrees of temperature
+- id: A1-U11-010
+  greek: κάνει ζέστη
+  phonetic_hint: ''
+  english: it is hot / it is warm (weather)
+  notes: 'Impersonal idiom: κάνει + noun ζέστη (heat).'
+  gender_or_pos: phrase (impersonal weather idiom)
+  audio: kanei-zesti-c920f1.mp3
+  status: verified
+  example_el: Σήμερα κάνει πολλή ζέστη στην Αθήνα.
+  example_en: Today it is very hot in Athens.
+  grammatical_info:
+    part_of_speech: phrase (impersonal weather idiom)
+  keg_communicative_function: Expressing that the weather is warm or hot
+- id: A1-U11-011
+  greek: κάνει κρύο
+  phonetic_hint: ''
+  english: it is cold (weather)
+  notes: 'Impersonal idiom: κάνει + noun/adjective κρύο (cold).'
+  gender_or_pos: phrase (impersonal weather idiom)
+  audio: kanei-kryo-117e0d.mp3
+  status: verified
+  example_el: Τον χειμώνα κάνει αρκετό κρύο.
+  example_en: In the winter it is quite cold.
+  grammatical_info:
+    part_of_speech: phrase (impersonal weather idiom)
+  keg_communicative_function: Expressing cold weather conditions
+- id: A1-U11-012
+  greek: έχει ήλιο
+  phonetic_hint: ''
+  english: it is sunny / the sun is out
+  notes: 'Impersonal construction: έχει + noun ήλιο.'
+  gender_or_pos: phrase (impersonal weather idiom)
+  audio: echei-ilio-f833b7.mp3
+  status: verified
+  example_el: Έχει ωραίο ήλιο σήμερα, πάμε βόλτα;
+  example_en: It is nice and sunny today, shall we go for a walk?
+  grammatical_info:
+    part_of_speech: phrase (impersonal weather idiom)
+  keg_communicative_function: Describing sunny days
+- id: A1-U11-013
+  greek: βρέχει
+  phonetic_hint: ''
+  english: it rains / it is raining
+  notes: 'Used almost exclusively in the 3rd person singular for weather: βρέχει.'
+  gender_or_pos: verb
+  audio: vrechei-406c0c.mp3
+  status: verified
+  example_el: Πάρε ομπρέλα γιατί βρέχει έξω.
+  example_en: Take an umbrella because it is raining outside.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A (impersonal 3rd singular)
+    third_person_singular: βρέχει
+    first_person_plural: 'βρέχουμε (as personal transitive: we wet)'
+  keg_communicative_function: Reporting rainy conditions
+- id: A1-U11-014
+  greek: χιονίζει
+  phonetic_hint: ''
+  english: it snows / it is snowing
+  notes: Impersonal weather verb from το χιόνι (snow).
+  gender_or_pos: verb
+  audio: chionizei-f8436c.mp3
+  status: verified
+  example_el: Χιονίζει στα βουνά της βόρειας Ελλάδας.
+  example_en: It is snowing in the mountains of northern Greece.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A (impersonal 3rd singular)
+    third_person_singular: χιονίζει
+    first_person_plural: χιονίζουμε
+  keg_communicative_function: Reporting snow conditions
+- id: A1-U11-015
+  greek: φυσάει / φυσά
+  phonetic_hint: ''
+  english: the wind blows / it is windy
+  notes: 'Type B1 active verb: φυσάει.'
+  gender_or_pos: verb
+  audio: fysaei-fysa-256616.mp3
+  status: verified
+  example_el: Φυσάει πολύ δυνατά κοντά στη θάλασσα.
+  example_en: The wind is blowing very strongly near the sea.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1 (impersonal 3rd singular)
+    third_person_singular: φυσάει / φυσά
+    first_person_plural: φυσάμε
+  keg_communicative_function: Reporting windy atmospheric phenomena
+- id: A1-U11-016
+  greek: ο ελεύθερος χρόνος
+  phonetic_hint: ''
+  english: free time / leisure time
+  notes: Adjective ελεύθερος (free) + χρόνος (time).
+  gender_or_pos: phrase (noun expression)
+  audio: o-eleytheros-chronos-fbdb07.mp3
+  status: verified
+  example_el: Τι κάνεις στον ελεύθερο χρόνο σου;
+  example_en: What do you do in your free time?
+  grammatical_info:
+    part_of_speech: phrase (noun expression)
+    plural: οι ελεύθεροι χρόνοι
+    accusative_singular: τον ελεύθερο χρόνο
+  keg_communicative_function: Talking about leisure availability and hobbies
+- id: A1-U11-017
+  greek: οι διακοπές
+  phonetic_hint: ''
+  english: vacation / holidays
+  notes: 'Commonly plural: οι διακοπές (the holidays). Phrase: ''πάω διακοπές''.'
+  gender_or_pos: noun (feminine plural)
+  audio: oi-diakopes-000025.mp3
+  status: verified
+  example_el: Το καλοκαίρι πάμε διακοπές στην Κρήτη.
+  example_en: In the summer we go on vacation to Crete.
+  grammatical_info:
+    part_of_speech: noun (feminine plural)
+    plural: οι διακοπές
+    accusative_singular: τη διακοπή (break / interruption)
+  keg_communicative_function: Discussing vacation plans and holiday periods
+- id: A1-U11-018
+  greek: η παραλία
+  phonetic_hint: ''
+  english: beach / seashore
+  notes: Feminine in -α with plural in -ες (οι παραλίες).
+  gender_or_pos: noun (feminine)
+  audio: i-paralia-019ba7.mp3
+  status: verified
+  example_el: Πηγαίνουμε στην παραλία για μπάνιο.
+  example_en: We go to the beach for a swim.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι παραλίες
+    accusative_singular: την παραλία
+  keg_communicative_function: Talking about seaside outings and summer recreation
+- id: A1-U11-019
+  greek: η θάλασσα
+  phonetic_hint: ''
+  english: sea
+  notes: Feminine proparoxytone in -α with plural in -ες (οι θάλασσες).
+  gender_or_pos: noun (feminine)
+  audio: i-thalassa-4f3dcd.mp3
+  status: verified
+  example_el: Το νερό στη θάλασσα είναι πολύ ζεστό.
+  example_en: The water in the sea is very warm.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θάλασσες
+    accusative_singular: τη θάλασσα
+  keg_communicative_function: Talking about marine geography and swimming
+- id: A1-U11-020
+  greek: το βουνό
+  phonetic_hint: ''
+  english: mountain
+  notes: Neuter oxytone in -ό with plural in -ά (τα βουνά).
+  gender_or_pos: noun (neuter)
+  audio: to-voyno-bdef81.mp3
+  status: verified
+  example_el: Μου αρέσει να περπατάω στο βουνό.
+  example_en: I like walking on the mountain.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βουνά
+    accusative_singular: το βουνό
+  keg_communicative_function: Talking about mountain hiking and nature excursions
+- id: A1-U11-021
+  greek: το νησί
+  phonetic_hint: ''
+  english: island
+  notes: Neuter oxytone in -ί with plural in -ιά (τα νησιά).
+  gender_or_pos: noun (neuter)
+  audio: to-nisi-52295e.mp3
+  status: verified
+  example_el: Η Σαντορίνη είναι ένα διάσημο ελληνικό νησί.
+  example_en: Santorini is a famous Greek island.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νησιά
+    accusative_singular: το νησί
+  keg_communicative_function: Talking about Greek islands and travel destinations
+- id: A1-U11-022
+  greek: το ταξίδι
+  phonetic_hint: ''
+  english: trip / journey / travel
+  notes: 'Neuter in -ι with plural in -ια (τα ταξίδια). Well-known wish: ''Καλό ταξίδι!''.'
+  gender_or_pos: noun (neuter)
+  audio: to-taxidi-a1fbbd.mp3
+  status: verified
+  example_el: Καλό ταξίδι και καλή διασκέδαση!
+  example_en: Have a good trip and have fun!
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταξίδια
+    accusative_singular: το ταξίδι
+  keg_communicative_function: Discussing journeys and wishing good travels
+- id: A1-U11-023
+  greek: η βόλτα
+  phonetic_hint: ''
+  english: walk / stroll / ride
+  notes: 'Feminine in -α with plural in -ες (οι βόλτες). Idiom: ''πάω βόλτα / κάνω
+    βόλτα''.'
+  gender_or_pos: noun (feminine)
+  audio: i-volta-3578d3.mp3
+  status: verified
+  example_el: Πάμε μια βόλτα στην παραλία το απόγευμα;
+  example_en: Shall we go for a walk on the beach this afternoon?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βόλτες
+    accusative_singular: τη βόλτα
+  keg_communicative_function: Arranging casual walks and outings
+- id: A1-U11-024
+  greek: το ποδόσφαιρο
+  phonetic_hint: ''
+  english: football / soccer
+  notes: 'Compound neuter: πόδι (foot) + σφαίρα (ball/sphere).'
+  gender_or_pos: noun (neuter)
+  audio: to-podosfairo-2aae48.mp3
+  status: verified
+  example_el: Τα παιδιά παίζουν ποδόσφαιρο στο πάρκο.
+  example_en: The children are playing soccer in the park.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ποδόσφαιρα (rare)
+    accusative_singular: το ποδόσφαιρο
+  keg_communicative_function: Discussing team sports and athletic hobbies
+- id: A1-U11-025
+  greek: το μπάσκετ
+  phonetic_hint: ''
+  english: basketball
+  notes: Indeclinable neuter loanword (το μπάσκετ).
+  gender_or_pos: noun (neuter)
+  audio: to-mpasket-eb1b2b.mp3
+  status: verified
+  example_el: Παίζω μπάσκετ με τους φίλους μου κάθε Σάββατο.
+  example_en: I play basketball with my friends every Saturday.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπάσκετ
+    accusative_singular: το μπάσκετ
+  keg_communicative_function: Discussing basketball games and hobbies
+- id: A1-U11-026
+  greek: το σινεμά
+  phonetic_hint: ''
+  english: cinema / movies / movie theater
+  notes: Indeclinable neuter loanword (το σινεμά). Synonymous with 'ο κινηματογράφος'.
+  gender_or_pos: noun (neuter)
+  audio: to-sinema-2837b6.mp3
+  status: verified
+  example_el: Πάμε σινεμά απόψε να δούμε μια ελληνική ταινία;
+  example_en: Shall we go to the cinema tonight to see a Greek movie?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σινεμά
+    accusative_singular: το σινεμά
+  keg_communicative_function: Going to movie screenings and entertainment
+- id: A1-U11-027
+  greek: το θέατρο
+  phonetic_hint: ''
+  english: theater / theatre
+  notes: Neuter in -ο with plural in -α (τα θέατρα).
+  gender_or_pos: noun (neuter)
+  audio: to-theatro-49289c.mp3
+  status: verified
+  example_el: Μου αρέσει πολύ το αρχαίο ελληνικό θέατρο.
+  example_en: I really like ancient Greek theater.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα θέατρα
+    accusative_singular: το θέατρο
+  keg_communicative_function: Attending theatrical performances
+- id: A1-U11-028
+  greek: η συναυλία
+  phonetic_hint: ''
+  english: concert
+  notes: Feminine in -α with plural in -ες (οι συναυλίες).
+  gender_or_pos: noun (feminine)
+  audio: i-synaylia-69d5fb.mp3
+  status: verified
+  example_el: Έχουμε εισιτήρια για τη συναυλία της Παρασκευής.
+  example_en: We have tickets for Friday's concert.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συναυλίες
+    accusative_singular: τη συναυλία
+  keg_communicative_function: Attending musical performances and live shows
+- id: A1-U11-029
+  greek: η μουσική
+  phonetic_hint: ''
+  english: music
+  notes: Feminine oxytone in -ή with plural in -ές (οι μουσικές).
+  gender_or_pos: noun (feminine)
+  audio: i-moysiki-e0dba4.mp3
+  status: verified
+  example_el: Ακούω παραδοσιακή ελληνική μουσική.
+  example_en: I listen to traditional Greek music.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μουσικές
+    accusative_singular: τη μουσική
+  keg_communicative_function: Expressing musical taste and listening habits
+- id: A1-U11-030
+  greek: η φωτογραφία
+  phonetic_hint: ''
+  english: photograph / photography
+  notes: 'Feminine in -α with plural in -ες (οι φωτογραφίες). Phrase: ''βγάζω φωτογραφία''
+    (to take a photo).'
+  gender_or_pos: noun (feminine)
+  audio: i-fotografia-c2a41e.mp3
+  status: verified
+  example_el: Βγάζω πολλές φωτογραφίες στις διακοπές μου.
+  example_en: I take lots of photos on my vacation.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φωτογραφίες
+    accusative_singular: τη φωτογραφία
+  keg_communicative_function: Taking vacation photos and discussing visual hobbies
+- id: A1-U11-031
+  greek: παίζω
+  phonetic_hint: ''
+  english: to play (sports/games/instruments) / I play
+  notes: 'Type A regular verb: παίζω, παίζεις, παίζει, παίζουμε, παίζετε, παίζουν.'
+  gender_or_pos: verb
+  audio: paizo-eee24f.mp3
+  status: verified
+  example_el: Παίζω κιθάρα και τραγουδάω.
+  example_en: I play guitar and sing.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό παίζει
+    first_person_plural: εμείς παίζουμε
+  keg_communicative_function: Talking about playing games, sports, and musical instruments
+- id: A1-U11-032
+  greek: ταξιδεύω
+  phonetic_hint: ''
+  english: to travel / I travel
+  notes: 'Type A regular verb in -εύω: ταξιδεύω, ταξιδεύεις, ταξιδεύει, ταξιδεύουμε,
+    ταξιδεύετε, ταξιδεύουν.'
+  gender_or_pos: verb
+  audio: taxideyo-6e1522.mp3
+  status: verified
+  example_el: Ταξιδεύουμε συχνά στο εξωτερικό.
+  example_en: We often travel abroad.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ταξιδεύει
+    first_person_plural: εμείς ταξιδεύουμε
+  keg_communicative_function: Describing travel habits and destinations
+- id: A1-U11-033
+  greek: κολυμπάω / κολυμπώ
+  phonetic_hint: ''
+  english: to swim / I swim
+  notes: 'Type B1 active verb: κολυμπάω, κολυμπάς, κολυμπάει, κολυμπάμε, κολυμπάτε,
+    κολυμπάνε.'
+  gender_or_pos: verb
+  audio: kolympao-kolympo-4842c0.mp3
+  status: verified
+  example_el: Κολυμπάω στη θάλασσα κάθε καλοκαίρι.
+  example_en: I swim in the sea every summer.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό κολυμπάει (κολυμπά)
+    first_person_plural: εμείς κολυμπάμε
+  keg_communicative_function: Describing swimming and aquatic recreation
+- id: A1-U11-034
+  greek: χορεύω
+  phonetic_hint: ''
+  english: to dance / I dance
+  notes: 'Type A regular verb in -εύω: χορεύω, χορεύεις, χορεύει, χορεύουμε, χορεύετε,
+    χορεύουν.'
+  gender_or_pos: verb
+  audio: choreyo-40716f.mp3
+  status: verified
+  example_el: Χορεύουμε συρτάκι στις γιορτές.
+  example_en: We dance syrtaki at celebrations.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό χορεύει
+    first_person_plural: εμείς χορεύουμε
+  keg_communicative_function: Talking about dancing and festive social gatherings
+- id: A1-U11-035
+  greek: ακούω
+  phonetic_hint: ''
+  english: to listen / to hear / I listen
+  notes: 'Type A vowel-stem verb: ακούω, ακούς, ακούει, ακούμε, ακούτε, ακούν(ε).'
+  gender_or_pos: verb
+  audio: akoyo-38930c.mp3
+  status: verified
+  example_el: Ακούω ραδιόφωνο όταν οδηγώ.
+  example_en: I listen to the radio when I drive.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ακούει
+    first_person_plural: εμείς ακούμε
+  keg_communicative_function: Expressing auditory perception and music consumption
+- id: A1-U11-036
+  greek: προτιμάω / προτιμώ
+  phonetic_hint: ''
+  english: to prefer / I prefer
+  notes: 'Type B1 active verb: προτιμάω, προτιμάς, προτιμάει, προτιμάμε, προτιμάτε,
+    προτιμούν.'
+  gender_or_pos: verb
+  audio: protimao-protimo-d59982.mp3
+  status: verified
+  example_el: Προτιμώ τη θάλασσα από το βουνό.
+  example_en: I prefer the sea over the mountain.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό προτιμάει (προτιμά)
+    first_person_plural: εμείς προτιμάμε
+  keg_communicative_function: Stating preferences between leisure options or choices
+- id: A1-U11-037
+  greek: μου αρέσει
+  phonetic_hint: ''
+  english: I like (singular noun or verb infinitive)
+  notes: Weak indirect object clitic (μου) + 3rd person singular 'αρέσει' + Nominative
+    singular or verb.
+  gender_or_pos: phrase (preference construction)
+  audio: moy-aresei-c71e29.mp3
+  status: verified
+  example_el: Μου αρέσει πολύ το ελληνικό καλοκαίρι.
+  example_en: I like the Greek summer very much.
+  grammatical_info:
+    part_of_speech: phrase (preference construction)
+  keg_communicative_function: Expressing likes and personal tastes with singular objects
+    or actions
+- id: A1-U11-038
+  greek: μου αρέσουν
+  phonetic_hint: ''
+  english: I like (plural nouns)
+  notes: 'Used exclusively when the liked entity is Nominative plural: ''μου αρέσουν
+    τα νησιά''.'
+  gender_or_pos: phrase (preference construction)
+  audio: moy-aresoyn-d226e3.mp3
+  status: verified
+  example_el: Μου αρέσουν τα παλιά ελληνικά τραγούδια.
+  example_en: I like old Greek songs.
+  grammatical_info:
+    part_of_speech: phrase (preference construction)
+  keg_communicative_function: Expressing likes and personal tastes with plural objects
+- id: A1-U11-039
+  greek: διασκεδάζω
+  phonetic_hint: ''
+  english: to have fun / to party / to enjoy oneself / I have fun
+  notes: 'Type A regular verb in -άζω: διασκεδάζω, διασκεδάζεις, διασκεδάζει, διασκεδάζουμε,
+    διασκεδάζετε, διασκεδάζουν.'
+  gender_or_pos: verb
+  audio: diaskedazo-b1a79a.mp3
+  status: verified
+  example_el: Διασκεδάζουμε πολύ στις διακοπές μας.
+  example_en: We have a lot of fun on our vacation.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό διασκεδάζει
+    first_person_plural: εμείς διασκεδάζουμε
+  keg_communicative_function: Talking about having a good time at outings and events
+- id: A1-U11-040
+  greek: χαλαρώνω
+  phonetic_hint: ''
+  english: to relax / to unwind / I relax
+  notes: 'Type A active verb: χαλαρώνω, χαλαρώνεις, χαλαρώνει, χαλαρώνουμε, χαλαρώνετε,
+    χαλαρώνουν.'
+  gender_or_pos: verb
+  audio: chalarono-d93c33.mp3
+  status: verified
+  example_el: Το σαββατοκύριακο μένω σπίτι και χαλαρώνω.
+  example_en: On the weekend I stay home and relax.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό χαλαρώνει
+    first_person_plural: εμείς χαλαρώνουμε
+  keg_communicative_function: Expressing unwinding and resting during free time
+- id: A1-U11-041
+  greek: τον / την / το
+  phonetic_hint: ''
+  english: him / her / it (weak direct-object clitics)
+  notes: Placed directly BEFORE the conjugated verb in indicative sentences (τον βλέπω,
+    την ξέρω, το ακούω).
+  gender_or_pos: pronoun (personal direct-object singular)
+  audio: ton-tin-to-49507a.mp3
+  status: verified
+  example_el: Βλέπεις τον Νίκο; — Ναι, τον βλέπω.
+  example_en: Do you see Nikos? — Yes, I see him.
+  grammatical_info:
+    part_of_speech: pronoun (personal direct-object singular)
+    clitic_forms: τον (masc), την (fem), το (neut)
+  keg_communicative_function: Referring to persons or objects as direct objects without
+    repeating nouns
+- id: A1-U11-042
+  greek: τους / τις / τα
+  phonetic_hint: ''
+  english: them (weak direct-object clitics plural)
+  notes: Placed directly BEFORE the conjugated verb in indicative sentences (τους
+    ξέρω, τις βλέπω, τα θέλω).
+  gender_or_pos: pronoun (personal direct-object plural)
+  audio: toys-tis-ta-31fb88.mp3
+  status: verified
+  example_el: Ξέρεις τους καθηγητές; — Ναι, τους ξέρω καλά.
+  example_en: Do you know the professors? — Yes, I know them well.
+  grammatical_info:
+    part_of_speech: pronoun (personal direct-object plural)
+    clitic_forms: τους (masc), τις (fem), τα (neut)
+  keg_communicative_function: Referring to plural persons or objects as direct objects

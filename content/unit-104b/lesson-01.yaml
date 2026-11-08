@@ -1,719 +1,773 @@
 unit_id: unit-104b
 lesson_id: lesson-01
-title: 'Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος, -η,
-  -ο) & Ρήμα Μιλάω (Pages 69-82)'
-description: 'Expansion & Complementary to Lesson 104: Sentence structures, syntax
-  patterns, possessive pronouns (μου, σου, του, της...), adjective agreement, and
-  conjugations of μιλάω.'
+title: 'Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες
+  (Pages 87-110)'
 entries:
 - id: A1-U104B-001
-  greek: Πώς λένε τον μπαμπά και τη μαμά σου;
-  phonetic_hint: pos LEH-neh ton bahm-BAH keh tee mah-MAH soo
-  english: What are your dad's and your mom's names?
-  notes: 'Klik A1 p. 69. Grammar: accusative direct objects ''τον μπαμπά'' and ''τη
-    μαμά'' + weak possessive ''σου''.'
+  greek: Μου αρέσει πολύ η κλασική μουσική.
+  phonetic_hint: moo ah-REH-see poh-LEE ee klah-see-KEE moo-see-KEE
+  english: I really like classical music.
+  notes: 'Klik A1 p. 88-89. Grammar: ''μου αρέσει'' + singular nominative subject
+    (η κλασική μουσική).'
   gender_or_pos: phrase
-  audio: pos-lene-ton-mpampa--851941.mp3
+  audio: moy-aresei-poly-i-kl-d4d0ee.mp3
   status: verified
-  example_el: — Πώς λένε τον μπαμπά και τη μαμά σου; — Τον μπαμπά μου τον λένε Νίκο
-    και τη μαμά μου Γεωργία.
-  example_en: — What are your dad's and mom's names? — My dad is called Nikos and
-    my mom Georgia.
+  example_el: — Σου αρέσει η όπερα; — Ναι, μου αρέσει πολύ η κλασική μουσική.
+  example_en: — Do you like opera? — Yes, I really like classical music.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about parents' names
+  keg_communicative_function: Expressing personal taste and musical preferences
 - id: A1-U104B-002
-  greek: Ο Νίκος και η Γεωργία είναι οι γονείς μου.
-  phonetic_hint: o NEE-kos keh ee ye-or-YEE-ah EE-neh ee gho-NEES moo
-  english: Nikos and Georgia are my parents.
-  notes: 'Klik A1 p. 71. Grammar: plural nominative masculine ''οι γονείς'' + enclitic
-    possessive ''μου''.'
+  greek: Σου αρέσει ο κινηματογράφος;
+  phonetic_hint: soo ah-REH-see oh kee-nee-mah-toh-GRAH-fos
+  english: Do you like the cinema / movies?
+  notes: 'Klik A1 p. 88-89. Grammar: question with second person pronoun ''σου'' +
+    ''αρέσει'' + singular noun.'
   gender_or_pos: phrase
-  audio: o-nikos-kai-i-georgi-034c00.mp3
+  audio: soy-aresei-o-kinimat-18f9f7.mp3
   status: verified
-  example_el: Αυτοί είναι ο Νίκος και η Γεωργία, είναι οι γονείς μου.
-  example_en: These are Nikos and Georgia, they are my parents.
+  example_el: — Σου αρέσει ο κινηματογράφος; — Ναι, πάω κάθε Παρασκευή.
+  example_en: — Do you like cinema? — Yes, I go every Friday.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing parents
+  keg_communicative_function: Inquiring about someone's hobbies and leisure preferences
 - id: A1-U104B-003
-  greek: Έχεις αδέλφια; — Έχω έναν αδελφό και μία αδελφή.
-  phonetic_hint: EH-khees ah-THEL-fyah? — EH-kho EH-nahn ah-thel-FOH keh MEE-ah ah-thel-FEE
-  english: Do you have siblings? — I have a brother and a sister.
-  notes: 'Klik A1 p. 69, 71. Grammar: verb ''έχω'' + accusative indefinite articles
-    (''έναν'', ''μία'').'
+  greek: Μου αρέσουν τα παλιά βιβλία και τα μουσεία.
+  phonetic_hint: moo ah-REH-soon tah pah-LYAH veev-LEE-ah keh tah moo-SEE-ah
+  english: I like old books and museums.
+  notes: 'Klik A1 p. 89. Grammar: ''μου αρέσουν'' (plural verb form) with plural subjects
+    (τα βιβλία, τα μουσεία).'
   gender_or_pos: phrase
-  audio: echeis-adelfia-echo--7e7d66.mp3
+  audio: moy-aresoyn-ta-palia-7db45b.mp3
   status: verified
-  example_el: — Έχεις αδέλφια; — Ναι, έχω έναν αδελφό και μία αδελφή.
-  example_en: — Do you have siblings? — Yes, I have a brother and a sister.
+  example_el: Στην Αθήνα επισκέπτομαι συχνά την Πλάκα γιατί μου αρέσουν τα παλιά βιβλία
+    και τα μουσεία.
+  example_en: In Athens I often visit Plaka because I like old books and museums.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about and stating siblings
+  keg_communicative_function: Expressing likes with plural direct subjects
 - id: A1-U104B-004
-  greek: Έχω δύο παιδιά, έναν γιο και μία κόρη.
-  phonetic_hint: EH-kho THEE-o peh-THYAH, EH-nahn YOH keh MEE-ah KOH-ree
-  english: I have two children, a son and a daughter.
-  notes: 'Klik A1 p. 71. Grammar: numeral ''δύο'' + neuter plural ''παιδιά'', followed
-    by accusative singulars.'
+  greek: Δεν μου αρέσουν οι ταινίες τρόμου.
+  phonetic_hint: then moo ah-REH-soon ee teh-NEE-es TROH-moo
+  english: I don't like horror movies.
+  notes: 'Klik A1 p. 89. Grammar: negation ''δεν'' + ''μου αρέσουν'' + feminine plural
+    noun phrase ''οι ταινίες τρόμου''.'
   gender_or_pos: phrase
-  audio: echo-dyo-paidia-enan-5ec2d0.mp3
+  audio: den-moy-aresoyn-oi-t-e8da21.mp3
   status: verified
-  example_el: Ο Κώστας έχει δύο παιδιά, έναν γιο και μία κόρη.
-  example_en: Kostas has two children, a son and a daughter.
+  example_el: Προτιμώ τις κωμωδίες επειδή δεν μου αρέσουν οι ταινίες τρόμου.
+  example_en: I prefer comedies because I do not like horror movies.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing children and offspring
+  keg_communicative_function: Expressing dislikes and movie genre preferences
 - id: A1-U104B-005
-  greek: Είμαι παντρεμένος με τη Ζωή και έχουμε μία κόρη.
-  phonetic_hint: EE-meh pan-dre-MEH-nos meh tee zo-EE keh EH-khoo-meh MEE-ah KOH-ree
-  english: I am married to Zoe and we have a daughter.
-  notes: 'Klik A1 p. 71. Grammar: participial adjective ''παντρεμένος'' + preposition
-    ''με'' + accusative name.'
+  greek: Μου αρέσει να κάνω βόλτες στην πόλη.
+  phonetic_hint: moo ah-REH-see nah KAH-noh VOHL-tes steen POH-lee
+  english: I like taking walks in the city.
+  notes: 'Klik A1 p. 89. Grammar: ''μου αρέσει να'' + present subjunctive verb (κάνω)
+    for ongoing/habitual action.'
   gender_or_pos: phrase
-  audio: eimai-pantremenos-me-673e5c.mp3
+  audio: moy-aresei-na-kano-v-d53c85.mp3
   status: verified
-  example_el: — Είσαι παντρεμένος; — Ναι, είμαι παντρεμένος με τη Ζωή και έχουμε μία
-    κόρη.
-  example_en: — Are you married? — Yes, I am married to Zoe and we have a daughter.
+  example_el: Όταν έχει καλό καιρό, μου αρέσει να κάνω βόλτες στην πόλη.
+  example_en: When the weather is good, I like taking walks in the city.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating marital status and marriage partner
+  keg_communicative_function: Expressing enjoyment of activities using subjunctive
+    'να'
 - id: A1-U104B-006
-  greek: Είναι ελεύθερη ή παντρεμένη; — Είναι ελεύθερη.
-  phonetic_hint: EE-neh eh-LEF-theh-ree ee pan-dre-MEH-nee? — EE-neh eh-LEF-theh-ree
-  english: Is she single or married? — She is single.
-  notes: 'Klik A1 p. 71. Grammar: feminine singular adjectives ''ελεύθερη'' / ''παντρεμένη''.'
+  greek: Της αρέσει να μαγειρεύει για τους φίλους της.
+  phonetic_hint: tees ah-REH-see nah mah-yee-REH-vee yah toos FEE-loos tees
+  english: She likes cooking for her friends.
+  notes: 'Klik A1 p. 89. Grammar: weak indirect pronoun ''της'' (her) + ''αρέσει να''
+    + third person singular verb (μαγειρεύει).'
   gender_or_pos: phrase
-  audio: einai-eleytheri-i-pa-76951c.mp3
+  audio: tis-aresei-na-mageir-349898.mp3
   status: verified
-  example_el: — Η αδερφή σου είναι ελεύθερη ή παντρεμένη; — Είναι ελεύθερη.
-  example_en: — Is your sister single or married? — She is single.
+  example_el: Η Ελένη είναι εξαιρετική μαγείρισσα και της αρέσει να μαγειρεύει για
+    τους φίλους της.
+  example_en: Eleni is an excellent cook and she likes cooking for her friends.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about someone's marital status
+  keg_communicative_function: Describing someone else's hobbies and leisure activities
 - id: A1-U104B-007
-  greek: Πού μένουν ο παππούς και η γιαγιά σου;
-  phonetic_hint: poo MEH-noon o pah-POOS keh ee yah-YAH soo
-  english: Where do your grandfather and grandmother live?
-  notes: 'Klik A1 p. 69. Grammar: 3rd person plural verb ''μένουν'' with compound
-    nominative subject.'
+  greek: Δεν μου αρέσει να ξυπνάω πολύ νωρίς.
+  phonetic_hint: then moo ah-REH-see nah ksee-PNAH-oh poh-LEE noh-REES
+  english: I don't like waking up very early.
+  notes: 'Klik A1 p. 89, 98. Grammar: negative ''δεν'' + ''μου αρέσει να'' + contract
+    verb (ξυπνάω) + adverb (νωρίς).'
   gender_or_pos: phrase
-  audio: poy-menoyn-o-pappoys-d9ba63.mp3
+  audio: den-moy-aresei-na-xy-13ad7c.mp3
   status: verified
-  example_el: — Πού μένουν ο παππούς και η γιαγιά σου; — Μένουν στην Κρήτη.
-  example_en: — Where do your grandfather and grandmother live? — They live in Crete.
+  example_el: Τις καθημερινές ξυπνάω στις έξι, αλλά δεν μου αρέσει να ξυπνάω πολύ
+    νωρίς.
+  example_en: On weekdays I wake up at six, but I don't like waking up very early.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking where grandparents reside
+  keg_communicative_function: Expressing reluctance regarding morning habits
 - id: A1-U104B-008
-  greek: Οι παππούδες μου μένουν σε ένα μικρό χωριό.
-  phonetic_hint: ee pah-POO-thes moo MEH-noon seh EH-nah mee-KROH kho-RYOH
-  english: My grandparents live in a small village.
-  notes: 'Klik A1 p. 69, 71. Grammar: collective masculine plural ''οι παππούδες''
-    (grandparents) + locative preposition ''σε''.'
+  greek: Μας αρέσει να ταξιδεύουμε το καλοκαίρι.
+  phonetic_hint: mahs ah-REH-see nah tah-ksee-THEHV-oo-meh toh kah-loh-KEH-ree
+  english: We like traveling in the summer.
+  notes: 'Klik A1 p. 89. Grammar: plural weak pronoun ''μας'' (us) + ''αρέσει να''
+    + first-person plural verb (ταξιδεύουμε).'
   gender_or_pos: phrase
-  audio: oi-pappoydes-moy-men-426f55.mp3
+  audio: mas-aresei-na-taxide-dacd73.mp3
   status: verified
-  example_el: Το καλοκαίρι πηγαίνω στο χωριό, γιατί οι παππούδες μου μένουν σε ένα
-    μικρό χωριό.
-  example_en: In summer I go to the village, because my grandparents live in a small
-    village.
+  example_el: Κάθε χρόνο παίρνουμε άδεια τον Αύγουστο επειδή μας αρέσει να ταξιδεύουμε
+    το καλοκαίρι.
+  example_en: Every year we take leave in August because we like traveling in the
+    summer.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating grandparents' residence
+  keg_communicative_function: Expressing shared group preferences and vacation habits
 - id: A1-U104B-009
-  greek: Μένω με τη Δέσποινα και την οικογένειά της.
-  phonetic_hint: MEH-no meh tee THES-pee-nah keh teen ee-ko-YEH-nee-ah tees
-  english: I live with Despina and her family.
-  notes: 'Klik A1 p. 69. Grammar: preposition ''με'' + accusative feminine + possessive
-    pronoun ''της''.'
+  greek: Βλέπω τον αγώνα ποδοσφαίρου στην τηλεόραση.
+  phonetic_hint: VLEH-poh ton ah-GHO-nah poh-thos-FEH-roo steen tee-leh-OH-rah-see
+  english: I am watching the football match on television.
+  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον αγώνα'' (<
+    ο αγώνας).'
   gender_or_pos: phrase
-  audio: meno-me-ti-despoina--ec5f8e.mp3
+  audio: vlepo-ton-agona-podo-13acf7.mp3
   status: verified
-  example_el: Όταν είμαι στην Αθήνα, μένω με τη Δέσποινα και την οικογένειά της.
-  example_en: When I am in Athens, I stay with Despina and her family.
+  example_el: — Τι κάνεις τώρα; — Βλέπω τον αγώνα ποδοσφαίρου στην τηλεόραση.
+  example_en: — What are you doing now? — I am watching the football match on TV.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing living arrangements with hosts or friends
+  keg_communicative_function: Using masculine accusative singular direct objects
 - id: A1-U104B-010
-  greek: Περνάω τέλεια με την οικογένειά μου.
-  phonetic_hint: per-NAH-o TEH-lee-ah meh teen ee-ko-YEH-nee-ah moo
-  english: I am having a wonderful time with my family.
-  notes: 'Klik A1 p. 70. Idiomatic verb phrase: ''περνάω τέλεια'' / ''περνάω πάρα
-    πολύ καλά''.'
+  greek: Παρακολουθούμε όλους τους αγώνες της ομάδας.
+  phonetic_hint: pah-rah-koh-loo-THOO-meh OH-loos toos ah-GHOH-nes tees oh-MAH-thas
+  english: We watch all the matches of the team.
+  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους αγώνες'' (< οι
+    αγώνες).'
   gender_or_pos: phrase
-  audio: pernao-teleia-me-tin-b37c4a.mp3
+  audio: parakoloythoyme-oloy-e2d214.mp3
   status: verified
-  example_el: Είμαστε σε διακοπές και περνάω τέλεια με την οικογένειά μου.
-  example_en: We are on vacation and I am having a wonderful time with my family.
+  example_el: Είμαστε μεγάλοι φίλαθλοι και παρακολουθούμε όλους τους αγώνες της ομάδας.
+  example_en: We are big sports fans and we watch all the matches of the team.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing satisfaction with family time
+  keg_communicative_function: Using masculine accusative plural direct objects
 - id: A1-U104B-011
-  greek: Το σπίτι μου είναι κοντά στο κέντρο.
-  phonetic_hint: to SPEE-tee moo EE-neh kon-DAH sto KEN-dro
-  english: My house is near the center.
-  notes: 'Klik A1 p. 72. Grammar: 1st person singular possessive clitic ''μου'' directly
-    following paroxytone noun.'
+  greek: Περιμένω τον φίλο μου στον σταθμό.
+  phonetic_hint: peh-ree-MEH-noh ton FEE-loh moo ston stahth-MOH
+  english: I am waiting for my friend at the station.
+  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον φίλο'' (<
+    ο φίλος).'
   gender_or_pos: phrase
-  audio: to-spiti-moy-einai-k-53177b.mp3
+  audio: perimeno-ton-filo-mo-252792.mp3
   status: verified
-  example_el: Το σπίτι μου είναι κοντά στο κέντρο, πέντε λεπτά από το μετρό.
-  example_en: My house is near the center, five minutes from the metro.
+  example_el: Είμαι έξω από το μετρό και περιμένω τον φίλο μου στον σταθμό.
+  example_en: I am outside the metro and waiting for my friend at the station.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating one's home location
+  keg_communicative_function: Indicating meeting locations with accusative singular
+    direct objects
 - id: A1-U104B-012
-  greek: Πώς είναι η δουλειά σου; — Η δουλειά μου είναι πολύ ενδιαφέρουσα.
-  phonetic_hint: pos EE-neh ee thoo-LYAH soo? — ee thoo-LYAH moo EE-neh po-LEE en-dhyah-FEH-roo-sah
-  english: How is your job? — My job is very interesting.
-  notes: 'Klik A1 p. 72, 77. Grammar: 2nd sg possessive ''σου'' and 1st sg ''μου''.'
+  greek: Περιμένουμε τους φίλους μας για δείπνο.
+  phonetic_hint: peh-ree-MEH-noo-meh toos FEE-loos mahs yah THEEP-noh
+  english: We are waiting for our friends for dinner.
+  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους φίλους'' (< οι
+    φίλοι).'
   gender_or_pos: phrase
-  audio: pos-einai-i-doyleia--6b1a3b.mp3
+  audio: perimenoyme-toys-fil-3d3c0d.mp3
   status: verified
-  example_el: — Πώς είναι η δουλειά σου; — Η δουλειά μου είναι πολύ ενδιαφέρουσα αλλά
-    κουραστική.
-  example_en: — How is your work? — My work is very interesting but tiring.
+  example_el: Το τραπέζι είναι έτοιμο και περιμένουμε τους φίλους μας για δείπνο.
+  example_en: The table is ready and we are waiting for our friends for dinner.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about and evaluating someone's occupation
+  keg_communicative_function: Expressing hospitality with accusative plural direct
+    objects
 - id: A1-U104B-013
-  greek: Ο άντρας της είναι γιατρός σε νοσοκομείο.
-  phonetic_hint: o AHN-dras tees EE-neh yah-TROHS seh no-so-ko-MEE-o
-  english: Her husband is a doctor in a hospital.
-  notes: 'Klik A1 p. 72, 76. Grammar: 3rd person singular feminine possessive clitic
-    ''της''.'
+  greek: Ο παππούς καθαρίζει τον κήπο κάθε πρωί.
+  phonetic_hint: oh pah-POOS kah-thah-REE-zee ton KEE-poh KAH-theh proh-EE
+  english: Grandfather cleans the garden every morning.
+  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον κήπο'' (<
+    ο κήπος).'
   gender_or_pos: phrase
-  audio: o-antras-tis-einai-g-bfb817.mp3
+  audio: o-pappoys-katharizei-8a88eb.mp3
   status: verified
-  example_el: Η Μαρία είναι δασκάλα και ο άντρας της είναι γιατρός σε νοσοκομείο.
-  example_en: Maria is a teacher and her husband is a doctor in a hospital.
+  example_el: Ο παππούς αγαπάει τα λουλούδια και καθαρίζει τον κήπο κάθε πρωί.
+  example_en: Grandfather loves flowers and cleans the garden every morning.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing someone's spouse and profession
+  keg_communicative_function: Describing outdoor chores with accusative nouns
 - id: A1-U104B-014
-  greek: Η γυναίκα του είναι καθηγήτρια αγγλικών.
-  phonetic_hint: ee yee-NEH-kah too EE-neh kah-thee-YEE-tree-ah ang-glee-KOHN
-  english: His wife is an English teacher.
-  notes: 'Klik A1 p. 71, 72. Grammar: 3rd person singular masculine possessive clitic
-    ''του''.'
+  greek: Οι γείτονες καθαρίζουν τους κήπους τους την άνοιξη.
+  phonetic_hint: ee YEE-toh-nes kah-thah-REE-zoon toos KEE-poos toos teen AH-neek-see
+  english: The neighbors clean their gardens in spring.
+  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους κήπους'' (< οι
+    κήποι).'
   gender_or_pos: phrase
-  audio: i-gynaika-toy-einai--4808b1.mp3
+  audio: oi-geitones-kathariz-300d3f.mp3
   status: verified
-  example_el: Ο Κώστας είναι μηχανικός και η γυναίκα του είναι καθηγήτρια αγγλικών.
-  example_en: Kostas is an engineer and his wife is an English teacher.
+  example_el: Όταν ανοίγει ο καιρός, οι γείτονες καθαρίζουν τους κήπους τους την άνοιξη.
+  example_en: When the weather warms up, the neighbors clean their gardens in the
+    spring.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing someone's wife and career
+  keg_communicative_function: Describing seasonal activities with masculine plural
+    accusative
 - id: A1-U104B-015
-  greek: Το όνομά του είναι Γιώργος και το όνομά της είναι Μαρία.
-  phonetic_hint: to OH-no-MAH too EE-neh YOR-ghos keh to OH-no-MAH tees EE-neh mah-REE-ah
-  english: His name is Giorgos and her name is Maria.
-  notes: 'Klik A1 p. 72-73. Grammar: proparoxytone double accent rule (''το όνομά
-    του'' / ''το όνομά της'').'
+  greek: Διαβάζω την πρωινή εφημερίδα με τον καφέ μου.
+  phonetic_hint: thyah-VAH-zoh teen proh-ee-NEE eh-fee-meh-REE-thah meh ton kah-FEH
+    moo
+  english: I read the morning newspaper with my coffee.
+  notes: 'Klik A1 p. 93, 95. Grammar: feminine accusative singular ''την πρωινή εφημερίδα''
+    (< η εφημερίδα).'
   gender_or_pos: phrase
-  audio: to-onoma-toy-einai-g-57086a.mp3
+  audio: diavazo-tin-proini-e-8c5e4e.mp3
   status: verified
-  example_el: 'Αυτά είναι τα παιδιά μου: το όνομά του είναι Γιώργος και το όνομά της
-    είναι Μαρία.'
-  example_en: 'These are my children: his name is Giorgos and her name is Maria.'
+  example_el: Κάθε μέρα πριν από τη δουλειά διαβάζω την πρωινή εφημερίδα με τον καφέ
+    μου.
+  example_en: Every day before work I read the morning newspaper with my coffee.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating third-person male and female names
+  keg_communicative_function: Talking about reading habits with feminine accusative
+    singular
 - id: A1-U104B-016
-  greek: Η οικογένειά της μένει στη Θεσσαλονίκη.
-  phonetic_hint: ee ee-ko-YEH-nee-AH tees MEH-nee stee the-sah-lo-NEE-kee
-  english: Her family lives in Thessaloniki.
-  notes: 'Klik A1 p. 69, 72. Grammar: proparoxytone double accent rule on ''οικογένεια''
-    -> ''η οικογένειά της''.'
+  greek: Αγοράζει όλες τις εφημερίδες την Κυριακή.
+  phonetic_hint: ah-ghoh-RAH-zee OH-les tees eh-fee-meh-REE-thes teen kee-ryah-KEE
+  english: He buys all the newspapers on Sunday.
+  notes: 'Klik A1 p. 95. Grammar: feminine accusative plural ''τις εφημερίδες'' (<
+    οι εφημερίδες).'
   gender_or_pos: phrase
-  audio: i-oikogeneia-tis-men-13525f.mp3
+  audio: agorazei-oles-tis-ef-902f73.mp3
   status: verified
-  example_el: Η Ελένη σπουδάζει στην Αθήνα, αλλά η οικογένειά της μένει στη Θεσσαλονίκη.
-  example_en: Eleni studies in Athens, but her family lives in Thessaloniki.
+  example_el: Του αρέσει η ενημέρωση και αγοράζει όλες τις εφημερίδες την Κυριακή.
+  example_en: He likes keeping informed and buys all the newspapers on Sunday.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating family residence with possessive pronoun
+  keg_communicative_function: Expressing habitual purchases using feminine accusative
+    plural
 - id: A1-U104B-017
-  greek: Το διαμέρισμά μας έχει τρία μεγάλα δωμάτια.
-  phonetic_hint: to dhyah-MEH-ree-ZMAH mahs EH-khee TREE-ah meh-GHAH-lah tho-MAH-tyah
-  english: Our apartment has three large rooms.
-  notes: 'Klik A1 p. 72. Grammar: 1st person plural possessive ''μας'' with double
-    accent on ''διαμέρισμα''.'
+  greek: Ανοίγω την πόρτα του σπιτιού.
+  phonetic_hint: ah-NEE-ghoh teen POHR-tah too spee-TYOO
+  english: I open the door of the house.
+  notes: 'Klik A1 p. 95, 102. Grammar: feminine accusative singular ''την πόρτα''
+    (< η πόρτα).'
   gender_or_pos: phrase
-  audio: to-diamerisma-mas-ec-5d6050.mp3
+  audio: anoigo-tin-porta-toy-a46179.mp3
   status: verified
-  example_el: Μένουμε στο κέντρο και το διαμέρισμά μας έχει τρία μεγάλα δωμάτια.
-  example_en: We live downtown and our apartment has three large rooms.
+  example_el: Γυρίζω από τη δουλειά και ανοίγω την πόρτα του σπιτιού.
+  example_en: I return from work and open the door of the house.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing one's shared household and room count
+  keg_communicative_function: Describing immediate household actions with feminine
+    accusative
 - id: A1-U104B-018
-  greek: Πού είναι το σχολείο σας;
-  phonetic_hint: poo EE-neh to sko-LEE-o sahs
-  english: Where is your school?
-  notes: 'Klik A1 p. 72. Grammar: 2nd person plural possessive clitic ''σας''.'
+  greek: Κλείνει τις πόρτες και τα παράθυρα πριν φύγει.
+  phonetic_hint: KLEE-nee tees POHR-tes keh tah pah-RAH-thee-rah preen FEE-yee
+  english: She closes the doors and the windows before leaving.
+  notes: 'Klik A1 p. 95. Grammar: feminine accusative plural ''τις πόρτες'' + neuter
+    plural ''τα παράθυρα''.'
   gender_or_pos: phrase
-  audio: poy-einai-to-scholei-0952a0.mp3
+  audio: kleinei-tis-portes-k-b26197.mp3
   status: verified
-  example_el: — Παιδιά, πού είναι το σχολείο σας; — Είναι κοντά στην πλατεία.
-  example_en: — Children, where is your school? — It is near the square.
+  example_el: Για ασφάλεια κλείνει τις πόρτες και τα παράθυρα πριν φύγει.
+  example_en: For safety she closes the doors and the windows before leaving.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about school location
+  keg_communicative_function: Expressing domestic safety measures with mixed plural
+    accusative objects
 - id: A1-U104B-019
-  greek: Το σπίτι τους είναι παλιό αλλά πολύ όμορφο.
-  phonetic_hint: to SPEE-tee toos EE-neh pah-LYOH ah-LAH po-LEE OH-mor-fo
-  english: Their house is old but very beautiful.
-  notes: 'Klik A1 p. 70, 72. Grammar: 3rd person plural possessive clitic ''τους''.'
+  greek: Πλένω το πιάτο μετά το μεσημεριανό.
+  phonetic_hint: PLEH-noh toh PYAH-toh meh-TAH toh meh-see-meh-ryah-NOH
+  english: I wash the plate after lunch.
+  notes: 'Klik A1 p. 95, 98. Grammar: neuter accusative singular ''το πιάτο'' (< το
+    πιάτο).'
   gender_or_pos: phrase
-  audio: to-spiti-toys-einai--9b399a.mp3
+  audio: pleno-to-piato-meta--ccc199.mp3
   status: verified
-  example_el: Οι φίλοι μας μένουν στην Πλάκα. Το σπίτι τους είναι παλιό αλλά πολύ
-    όμορφο.
-  example_en: Our friends live in Plaka. Their house is old but very beautiful.
+  example_el: Μόλις τελειώνω το φαγητό, πλένω το πιάτο μετά το μεσημεριανό.
+  example_en: As soon as I finish eating, I wash the plate after lunch.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Evaluating someone else's residence
+  keg_communicative_function: Describing after-meal chores with neuter accusative
+    singular
 - id: A1-U104B-020
-  greek: Τα παιδιά τους πηγαίνουν κάθε μέρα στο σχολείο.
-  phonetic_hint: tah peh-THYAH toos pee-YEH-noon KAH-theh MEH-rah sto sko-LEE-o
-  english: Their children go to school every day.
-  notes: 'Klik A1 p. 69, 72. Grammar: 3rd plural possessive clitic ''τους'' + plural
-    verb ''πηγαίνουν''.'
+  greek: Πλένουμε τα πιάτα και τα ποτήρια μαζί.
+  phonetic_hint: PLEH-noo-meh tah PYAH-tah keh tah poh-TEE-ryah mah-ZEE
+  english: We wash the dishes and the glasses together.
+  notes: 'Klik A1 p. 95. Grammar: neuter accusative plural ''τα πιάτα'', ''τα ποτήρια''.'
   gender_or_pos: phrase
-  audio: ta-paidia-toys-pigai-fad77c.mp3
+  audio: plenoyme-ta-piata-ka-81f197.mp3
   status: verified
-  example_el: Ο Νίκος και η Μαρία εργάζονται και τα παιδιά τους πηγαίνουν κάθε μέρα
-    στο σχολείο.
-  example_en: Nikos and Maria work and their children go to school every day.
+  example_el: Μετά το οικογενειακό τραπέζι, πλένουμε τα πιάτα και τα ποτήρια μαζί.
+  example_en: After the family dinner, we wash the dishes and glasses together.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing children's daily routine
+  keg_communicative_function: Describing shared household chores with neuter plural
+    accusative
 - id: A1-U104B-021
-  greek: Ο αδερφός μου είναι ψηλός, αδύνατος και νέος.
-  phonetic_hint: o ah-thel-FOHS moo EE-neh psee-LOHS, ah-THEE-nah-tos keh NEH-os
-  english: My brother is tall, slim, and young.
-  notes: 'Klik A1 p. 74-75. Grammar: masculine singular adjectives in -ος (ψηλός,
-    αδύνατος, νέος).'
+  greek: Αγοράζω ένα νέο βιβλίο κάθε μήνα.
+  phonetic_hint: ah-ghoh-RAH-zoh EH-nah NEH-oh veev-LEE-oh KAH-theh MEE-nah
+  english: I buy a new book every month.
+  notes: 'Klik A1 p. 95. Grammar: neuter indefinite accusative ''ένα νέο βιβλίο''
+    + frequency expression.'
   gender_or_pos: phrase
-  audio: o-aderfos-moy-einai--5f7ae2.mp3
+  audio: agorazo-ena-neo-vivl-6c6ed8.mp3
   status: verified
-  example_el: — Πώς είναι ο Γιώργος; — Ο αδερφός μου είναι ψηλός, αδύνατος και νέος.
-  example_en: — What does Giorgos look like? — My brother is tall, slim, and young.
+  example_el: Μου αρέσει πολύ το διάβασμα και αγοράζω ένα νέο βιβλίο κάθε μήνα.
+  example_en: I love reading and I buy a new book every month.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing a male relative's physical appearance
+  keg_communicative_function: Expressing monthly routines and purchasing habits
 - id: A1-U104B-022
-  greek: Η αδερφή μου είναι ψηλή, αδύνατη και ξανθιά.
-  phonetic_hint: ee ah-thel-FEE moo EE-neh psee-LEE, ah-THEE-nah-tee keh ksan-THYAH
-  english: My sister is tall, slim, and blonde.
-  notes: 'Klik A1 p. 69, 74-75. Grammar: feminine singular adjectives in -η / -ιά.'
+  greek: Διαβάζει πολλά βιβλία τον ελεύθερο χρόνο της.
+  phonetic_hint: thyah-VAH-zee poh-LAH veev-LEE-ah ton eh-LEF-theh-roh KHROH-noh tees
+  english: She reads many books in her free time.
+  notes: 'Klik A1 p. 87, 95. Grammar: neuter accusative plural ''πολλά βιβλία'' +
+    adverbial accusative of time.'
   gender_or_pos: phrase
-  audio: i-aderfi-moy-einai-p-43778a.mp3
+  audio: diavazei-polla-vivli-767da2.mp3
   status: verified
-  example_el: 'Η Μαρία μοιάζει στη μαμά μας: είναι ψηλή, αδύνατη και ξανθιά.'
-  example_en: 'Maria resembles our mom: she is tall, slim, and blonde.'
+  example_el: Η Άννα δεν βλέπει τηλεόραση, αλλά διαβάζει πολλά βιβλία τον ελεύθερο
+    χρόνο της.
+  example_en: Anna doesn't watch TV, but reads many books in her free time.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing a female relative's physical appearance
+  keg_communicative_function: Discussing reading habits and leisure duration
 - id: A1-U104B-023
-  greek: Το μωρό είναι πολύ μικρό και γλυκό.
-  phonetic_hint: to mo-ROH EE-neh po-LEE mee-KROH keh glee-KOH
-  english: The baby is very small and sweet.
-  notes: 'Klik A1 p. 74-75. Grammar: neuter singular adjectives in -ο (μικρό, γλυκό)
-    modifying ''το μωρό''.'
+  greek: Πού πας τώρα; — Πάω στο σούπερ μάρκετ.
+  phonetic_hint: poo pahs TOH-rah? — PAH-oh stoh SOO-pehr MAHR-ket
+  english: Where are you going now? — I am going to the supermarket.
+  notes: 'Klik A1 p. 93, 107. Grammar: verb ''πάω'' (πας 2nd sg. / πάω 1st sg.).'
   gender_or_pos: phrase
-  audio: to-moro-einai-poly-m-740676.mp3
+  audio: poy-pas-tora-pao-sto-6d693b.mp3
   status: verified
-  example_el: Η αδερφή μου γέννησε χθες και το μωρό είναι πολύ μικρό και γλυκό.
-  example_en: My sister gave birth yesterday and the baby is very small and sweet.
+  example_el: — Πού πας τώρα; — Πάω στο σούπερ μάρκετ για ψώνια.
+  example_en: — Where are you going now? — I am going to the supermarket for groceries.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing an infant or young child
+  keg_communicative_function: Asking and answering about current destination
 - id: A1-U104B-024
-  greek: Ο παππούς είναι μεγάλος αλλά πολύ δραστήριος.
-  phonetic_hint: o pah-POOS EE-neh meh-GHAH-los ah-LAH po-LEE drah-STEE-ree-os
-  english: Grandfather is old but very active.
-  notes: Klik A1 p. 70, 74. Adjective 'μεγάλος' (grown/elderly in age) with contrastive
-    conjunction 'αλλά'.
+  greek: Πάμε μια βόλτα στην πλατεία;
+  phonetic_hint: PAH-meh myah VOHL-tah steen plah-TEE-ah
+  english: Shall we go for a walk in the square?
+  notes: 'Klik A1 p. 88, 107. Grammar: verb ''πάμε'' (1st person plural) used as a
+    friendly proposal.'
   gender_or_pos: phrase
-  audio: o-pappoys-einai-mega-c40765.mp3
+  audio: pame-mia-volta-stin--abffea.mp3
   status: verified
-  example_el: 'Πηγαίνει για περπάτημα κάθε πρωί: ο παππούς είναι μεγάλος αλλά πολύ
-    δραστήριος.'
-  example_en: 'He goes for a walk every morning: grandfather is elderly but very active.'
+  example_el: Έχει ωραίο απόγευμα. Πάμε μια βόλτα στην πλατεία;
+  example_en: It's a nice afternoon. Shall we go for a walk in the square?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing an elderly relative's vitality
+  keg_communicative_function: Making social invitations and casual suggestions
 - id: A1-U104B-025
-  greek: Η μητέρα του είναι πολύ νέα και μοντέρνα.
-  phonetic_hint: ee mee-TEH-rah too EE-neh po-LEE NEH-ah keh mon-DEHR-nah
-  english: His mother is very young and modern.
-  notes: 'Klik A1 p. 69, 74. Grammar: feminine singular adjectives ''νέα'' and ''μοντέρνα''
-    modifying ''η μητέρα''.'
+  greek: Τα παιδιά πάνε στο σχολείο με τα πόδια.
+  phonetic_hint: tah peh-THYAH PAH-neh stoh skhoh-LEE-oh meh tah POH-thyah
+  english: The children go to school on foot.
+  notes: 'Klik A1 p. 107. Grammar: verb ''πάνε'' (3rd person plural) + mode of transport
+    ''με τα πόδια''.'
   gender_or_pos: phrase
-  audio: i-mitera-toy-einai-p-851ac2.mp3
+  audio: ta-paidia-pane-sto-s-dfa25c.mp3
   status: verified
-  example_el: Όλοι νομίζουν ότι είναι αδερφή του, επειδή η μητέρα του είναι πολύ νέα
-    και μοντέρνα.
-  example_en: Everyone thinks she is his sister, because his mother is very young
-    and modern.
+  example_el: Το σχολείο είναι κοντά, γι' αυτό τα παιδιά πάνε στο σχολείο με τα πόδια.
+  example_en: The school is near, so the children go to school on foot.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Complimenting and describing a mother's style
+  keg_communicative_function: Describing school commuting routines
 - id: A1-U104B-026
-  greek: Ο Κώστας είναι χοντρός; — Όχι, είναι αδύνατος και αθλητικός.
-  phonetic_hint: o KOH-stas EE-neh khon-DROHS? — OH-khee, EE-neh ah-THEE-nah-tos keh
-    ah-thlee-tee-KOHS
-  english: Is Kostas heavy? — No, he is slim and athletic.
-  notes: 'Klik A1 p. 70, 74. Contrastive adjective antonyms: ''χοντρός'' ↔ ''αδύνατος''.'
+  greek: Ακούω το ραδιόφωνο στο αυτοκίνητο κάθε πρωί.
+  phonetic_hint: ah-KOO-oh toh rah-thyOH-foh-noh stoh ahf-toh-KEE-nee-toh KAH-theh
+    proh-EE
+  english: I listen to the radio in the car every morning.
+  notes: 'Klik A1 p. 93, 107. Grammar: verb ''ακούω'' (1st sg.) + direct object ''το
+    ραδιόφωνο''.'
   gender_or_pos: phrase
-  audio: o-kostas-einai-chont-3e1e40.mp3
+  audio: akoyo-to-radiofono-s-be6685.mp3
   status: verified
-  example_el: — Ο Κώστας είναι χοντρός; — Όχι, είναι αδύνατος και αθλητικός, παίζει
-    μπάσκετ.
-  example_en: — Is Kostas heavy? — No, he is slim and athletic, he plays basketball.
+  example_el: Όταν οδηγώ για το γραφείο, ακούω το ραδιόφωνο στο αυτοκίνητο κάθε πρωί.
+  example_en: When I drive to the office, I listen to the radio in the car every morning.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Clarifying physical build and athletic build
+  keg_communicative_function: Describing morning commute habits and media consumption
 - id: A1-U104B-027
-  greek: Η Μαρία είναι όμορφη κοπέλα με γαλανά μάτια.
-  phonetic_hint: ee mah-REE-ah EE-neh OH-mor-fee ko-PEH-lah meh ghah-lah-NAH MAH-tyah
-  english: Maria is a beautiful young woman with blue eyes.
-  notes: Klik A1 p. 69, 74. Adjective 'όμορφη' modifying 'κοπέλα' + prepositional
-    feature 'με γαλανά μάτια'.
+  greek: Ακούς τις ειδήσεις στις οκτώ το βράδυ;
+  phonetic_hint: ah-KOOS tees ee-THEE-sees stees ohk-TOH toh VRAH-thee
+  english: Do you listen to the news at eight in the evening?
+  notes: 'Klik A1 p. 107. Grammar: verb ''ακούς'' (2nd sg.) + feminine accusative
+    plural ''τις ειδήσεις''.'
   gender_or_pos: phrase
-  audio: i-maria-einai-omorfi-6ecc23.mp3
+  audio: akoys-tis-eidiseis-s-2ac4f5.mp3
   status: verified
-  example_el: Η Μαρία είναι όμορφη κοπέλα με γαλανά μάτια και ξανθά μαλλιά.
-  example_en: Maria is a beautiful girl with blue eyes and blonde hair.
+  example_el: — Ακούς τις ειδήσεις στις οκτώ το βράδυ; — Ναι, πάντα.
+  example_en: — Do you listen to the news at eight in the evening? — Yes, always.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing facial features and eye color
+  keg_communicative_function: Inquiring about news habits and evening schedule
 - id: A1-U104B-028
-  greek: Το σπίτι είναι καινούριο, φωτεινό και άνετο.
-  phonetic_hint: to SPEE-tee EE-neh keh-NOO-ryo, fo-tee-NOH keh AH-ne-to
-  english: The house is new, bright, and comfortable.
-  notes: 'Klik A1 p. 70, 74. Grammar: neuter singular adjectives (καινούριο, φωτεινό,
-    άνετο).'
+  greek: Ακούμε ελληνική μουσική όταν μαγειρεύουμε.
+  phonetic_hint: ah-KOO-meh eh-lee-nee-KEE moo-see-KEE OH-tahn mah-yee-REHV-oo-meh
+  english: We listen to Greek music when we cook.
+  notes: 'Klik A1 p. 107. Grammar: verb ''ακούμε'' (1st pl.) + temporal conjunction
+    ''όταν'' + verb ''μαγειρεύουμε''.'
   gender_or_pos: phrase
-  audio: to-spiti-einai-kaino-ac5939.mp3
+  audio: akoyme-elliniki-moys-ec8de3.mp3
   status: verified
-  example_el: Μας αρέσει πολύ εδώ, γιατί το σπίτι είναι καινούριο, φωτεινό και άνετο.
-  example_en: We really like it here, because the house is new, bright, and comfortable.
+  example_el: Μας αρέσει η παρέα στην κουζίνα και ακούμε ελληνική μουσική όταν μαγειρεύουμε.
+  example_en: We like company in the kitchen and listen to Greek music when we cook.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing housing quality and comfort
+  keg_communicative_function: Relating concurrent leisure activities in the home
 - id: A1-U104B-029
-  greek: Ο καθηγητής μας είναι μέτριος και φοράει γυαλιά.
-  phonetic_hint: o kah-thee-yee-TEES mahs EE-neh MEH-tree-os keh fo-RAH-ee yah-LYAH
-  english: Our teacher is of medium height and wears glasses.
-  notes: Klik A1 p. 74. Adjective 'μέτριος' indicating medium height/build + present
-    verb 'φοράει'.
+  greek: Τι λες; — Λέω ότι έχεις απόλυτο δίκιο.
+  phonetic_hint: tee LEHS? — LEH-oh OH-tee EH-khees ah-POH-lee-toh THEE-kyoh
+  english: What do you say? / What do you mean? — I say that you are totally right.
+  notes: 'Klik A1 p. 93, 107. Grammar: verb ''λέω'' (λες 2nd sg. / λέω 1st sg.) +
+    subordinate conjunction ''ότι''.'
   gender_or_pos: phrase
-  audio: o-kathigitis-mas-ein-b75e7a.mp3
+  audio: ti-les-leo-oti-echei-731acc.mp3
   status: verified
-  example_el: — Ποιος είναι ο καθηγητής σας; — Ο καθηγητής μας είναι μέτριος και φοράει
-    γυαλιά.
-  example_en: — Who is your teacher? — Our teacher is of medium height and wears glasses.
+  example_el: — Τι λες για το σχέδιο; — Λέω ότι έχεις απόλυτο δίκιο.
+  example_en: — What do you think about the plan? — I say you are completely right.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing personal appearance and accessories
+  keg_communicative_function: Expressing opinions, agreement, and verbal interaction
 - id: A1-U104B-030
-  greek: Ο φίλος μου δεν είναι κοντός, είναι ψηλός.
-  phonetic_hint: o FEE-los moo then EE-neh kon-DOHS, EE-neh psee-LOHS
-  english: My friend is not short, he is tall.
-  notes: 'Klik A1 p. 70, 74. Antonym pair: ''κοντός'' ↔ ''ψηλός''.'
+  greek: Πώς το λένε αυτό στα ελληνικά;
+  phonetic_hint: pohs toh LEH-neh ahf-TOH stah eh-lee-nee-KAH
+  english: How do you say this in Greek? / What do they call this in Greek?
+  notes: Klik A1 p. 107. Essential communicative phrase with 3rd plural impersonal
+    'λένε' + object pronoun 'το'.
   gender_or_pos: phrase
-  audio: o-filos-moy-den-eina-6f513b.mp3
+  audio: pos-to-lene-ayto-sta-eca309.mp3
   status: verified
-  example_el: — Είναι κοντός ο Νίκος; — Όχι, ο φίλος μου δεν είναι κοντός, είναι ψηλός.
-  example_en: — Is Nikos short? — No, my friend is not short, he is tall.
+  example_el: Δεν ξέρω τη λέξη. Πώς το λένε αυτό στα ελληνικά;
+  example_en: I don't know the word. How do you say this in Greek?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Correcting misconceptions about someone's height
+  keg_communicative_function: Asking for vocabulary clarification and meta-linguistic
+    support
 - id: A1-U104B-031
-  greek: Είμαι από την Ελλάδα, είμαι Έλληνας και μιλάω ελληνικά.
-  phonetic_hint: EE-meh ah-POH teen eh-LAH-thah, EE-meh EH-lee-nas keh mee-LAH-o eh-lee-nee-KAH
-  english: I am from Greece, I am Greek and I speak Greek.
-  notes: 'Klik A1 p. 76, 78. Triad structure: country (Ελλάδα), demonym (Έλληνας),
-    language (ελληνικά).'
+  greek: Τι λέει η μητέρα σου για το ταξίδι;
+  phonetic_hint: tee LEH-ee ee mee-TEH-rah soo yah toh tahk-SEE-thee
+  english: What is your mother saying about the trip?
+  notes: 'Klik A1 p. 107. Grammar: verb ''λέει'' (3rd sg.) + preposition ''για'' +
+    neuter noun.'
   gender_or_pos: phrase
-  audio: eimai-apo-tin-ellada-f13792.mp3
+  audio: ti-leei-i-mitera-soy-ba6ec7.mp3
   status: verified
-  example_el: Γεια σας! Είμαι από την Ελλάδα, είμαι Έλληνας και μιλάω ελληνικά.
-  example_en: Hello! I am from Greece, I am Greek and I speak Greek.
+  example_el: — Μίλησες μαζί της; Τι λέει η μητέρα σου για το ταξίδι; — Χάρηκε πάρα
+    πολύ.
+  example_en: — Did you speak with her? What does your mother say about the trip?
+    — She was delighted.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating origin, nationality, and native language
+  keg_communicative_function: Reporting family opinions and reactions
 - id: A1-U104B-032
-  greek: Η Kristin είναι από τη Νορβηγία, είναι Νορβηγίδα και μιλάει νορβηγικά.
-  phonetic_hint: ee KREE-steen EE-neh ah-POH tee nor-vee-YEE-ah, EE-neh nor-vee-YEE-thah
-    keh mee-LAH-ee nor-vee-yee-KAH
-  english: Kristin is from Norway, she is Norwegian and speaks Norwegian.
-  notes: 'Klik A1 p. 78. Triad structure: Νορβηγία, Νορβηγίδα (feminine demonym),
-    νορβηγικά (language).'
+  greek: Τι τρως για πρωινό; — Τρώω ψωμί με μέλι.
+  phonetic_hint: tee TROHS yah proh-ee-NOH? — TROH-oh psoh-MEE meh MEH-lee
+  english: What do you eat for breakfast? — I eat bread with honey.
+  notes: 'Klik A1 p. 93, 107. Grammar: irregular verb ''τρώω'' (τρως 2nd sg. / τρώω
+    1st sg.).'
   gender_or_pos: phrase
-  audio: i-kristin-einai-apo--1797d6.mp3
+  audio: ti-tros-gia-proino-t-e6875e.mp3
   status: verified
-  example_el: Η Kristin είναι από τη Νορβηγία, είναι Νορβηγίδα και μιλάει νορβηγικά
-    και αγγλικά.
-  example_en: Kristin is from Norway, she is Norwegian and speaks Norwegian and English.
+  example_el: — Τι τρως για πρωινό; — Τρώω ψωμί με μέλι και πίνω ένα ποτήρι γάλα.
+  example_en: — What do you eat for breakfast? — I eat bread with honey and drink
+    a glass of milk.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing someone's Scandinavian background
+  keg_communicative_function: Discussing breakfast foods and morning eating habits
 - id: A1-U104B-033
-  greek: Ο Waldi είναι από τη Γερμανία, είναι Γερμανός και μιλάει γερμανικά.
-  phonetic_hint: o VAHL-dee EE-neh ah-POH tee yer-mah-NEE-ah, EE-neh yer-mah-NOHS
-    keh mee-LAH-ee yer-mah-nee-KAH
-  english: Waldi is from Germany, he is German and speaks German.
-  notes: 'Klik A1 p. 78. Triad structure: Γερμανία, Γερμανός, γερμανικά.'
+  greek: Το μεσημέρι τρώμε όλοι μαζί στο σπίτι.
+  phonetic_hint: toh meh-see-MEH-ree TROH-meh OH-lee mah-ZEE stoh SPEE-tee
+  english: At noon we all eat together at home.
+  notes: 'Klik A1 p. 98, 107. Grammar: verb ''τρώμε'' (1st person plural) + adverb
+    of manner ''μαζί''.'
   gender_or_pos: phrase
-  audio: o-waldi-einai-apo-ti-1fb6cb.mp3
+  audio: to-mesimeri-trome-ol-379698.mp3
   status: verified
-  example_el: Ο Waldi είναι από τη Γερμανία, είναι Γερμανός και μιλάει γερμανικά.
-  example_en: Waldi is from Germany, he is German and speaks German.
+  example_el: Τις Κυριακές το μεσημέρι τρώμε όλοι μαζί στο σπίτι της γιαγιάς.
+  example_en: On Sunday afternoons we all eat together at grandmother's house.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing German origin and language
+  keg_communicative_function: Describing family mealtime traditions
 - id: A1-U104B-034
-  greek: Η Magique είναι από την Ιταλία, είναι Ιταλίδα και μιλάει ιταλικά.
-  phonetic_hint: ee mah-ZHEEK EE-neh ah-POH teen ee-tah-LEE-ah, EE-neh ee-tah-LEE-thah
-    keh mee-LAH-ee ee-tah-lee-KAH
-  english: Magique is from Italy, she is Italian and speaks Italian.
-  notes: 'Klik A1 p. 78. Triad structure: Ιταλία, Ιταλίδα, ιταλικά.'
+  greek: Τα παιδιά τρώνε φρούτα μετά το σχολείο.
+  phonetic_hint: tah peh-THYAH TROH-neh FROO-tah meh-TAH toh skhoh-LEE-oh
+  english: The children eat fruit after school.
+  notes: 'Klik A1 p. 107. Grammar: verb ''τρώνε'' (3rd person plural) + neuter plural
+    ''φρούτα''.'
   gender_or_pos: phrase
-  audio: i-magique-einai-apo--14002d.mp3
+  audio: ta-paidia-trone-froy-769859.mp3
   status: verified
-  example_el: Η Magique είναι από την Ιταλία, είναι Ιταλίδα και μιλάει ιταλικά.
-  example_en: Magique is from Italy, she is Italian and speaks Italian.
+  example_el: Για κολατσιό τα παιδιά τρώνε φρούτα μετά το σχολείο.
+  example_en: For a snack, the children eat fruit after school.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing Italian origin and language
+  keg_communicative_function: Describing children's dietary and snacking routines
 - id: A1-U104B-035
-  greek: Ο Cobi είναι από την Ισπανία, είναι Ισπανός και μιλάει ισπανικά.
-  phonetic_hint: o KOH-bee EE-neh ah-POH teen ees-pah-NEE-ah, EE-neh ees-pah-NOHS
-    keh mee-LAH-ee ees-pah-nee-KAH
-  english: Cobi is from Spain, he is Spanish and speaks Spanish.
-  notes: 'Klik A1 p. 78. Triad structure: Ισπανία, Ισπανός, ισπανικά.'
+  greek: Τι ώρα κοιμάσαι συνήθως το βράδυ;
+  phonetic_hint: tee OH-rah kee-MAH-seh see-NEE-thos toh VRAH-thee
+  english: What time do you usually sleep at night?
+  notes: 'Klik A1 p. 93, 107. Grammar: mediopassive verb ''κοιμάμαι'' (κοιμάσαι 2nd
+    person singular).'
   gender_or_pos: phrase
-  audio: o-cobi-einai-apo-tin-0b90f7.mp3
+  audio: ti-ora-koimasai-syni-31b7d4.mp3
   status: verified
-  example_el: Ο Cobi είναι από την Ισπανία, είναι Ισπανός και μιλάει ισπανικά.
-  example_en: Cobi is from Spain, he is Spanish and speaks Spanish.
+  example_el: — Τι ώρα κοιμάσαι συνήθως το βράδυ; — Συνήθως κοιμάμαι στις έντεκα.
+  example_en: — What time do you usually go to bed at night? — I usually sleep at
+    eleven.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing Spanish origin and language
+  keg_communicative_function: Inquiring about bedtime routines and sleep habits
 - id: A1-U104B-036
-  greek: Η Alice είναι από τον Καναδά, είναι Καναδέζα και μιλάει αγγλικά και γαλλικά.
-  phonetic_hint: ee AH-lees EE-neh ah-POH ton kah-nah-THAH, EE-neh kah-nah-THEH-zah
-    keh mee-LAH-ee ang-glee-KAH keh ghal-lee-KAH
-  english: Alice is from Canada, she is Canadian and speaks English and French.
-  notes: 'Klik A1 p. 78. Masculine country: ''από τον Καναδά'', feminine demonym:
-    ''Καναδέζα'', bilingual languages.'
+  greek: Ο πατέρας κοιμάται νωρίς επειδή ξυπνάει στις πέντε.
+  phonetic_hint: oh pah-TEH-rahs kee-MAH-teh noh-REES eh-pee-THEE ksee-PNAH-ee stees
+    PEN-deh
+  english: Father goes to sleep early because he wakes up at five.
+  notes: 'Klik A1 p. 98, 107. Grammar: mediopassive 3rd sg. ''κοιμάται'' + causal
+    conjunction ''επειδή''.'
   gender_or_pos: phrase
-  audio: i-alice-einai-apo-to-70b135.mp3
+  audio: o-pateras-koimatai-n-295b15.mp3
   status: verified
-  example_el: Η Alice είναι από τον Καναδά, είναι Καναδέζα και μιλάει αγγλικά και
-    γαλλικά.
-  example_en: Alice is from Canada, she is Canadian and speaks English and French.
+  example_el: Λόγω της δουλειάς του, ο πατέρας κοιμάται νωρίς επειδή ξυπνάει στις
+    πέντε.
+  example_en: Due to his job, father sleeps early because he wakes up at five.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing bilingual Canadian background
+  keg_communicative_function: Explaining the cause behind daily schedules
 - id: A1-U104B-037
-  greek: Ο Bebei είναι από την Κίνα, είναι Κινέζος και μιλάει κινέζικα.
-  phonetic_hint: o BEH-beh-ee EE-neh ah-POH teen KEE-nah, EE-neh kee-NEH-zos keh mee-LAH-ee
-    kee-NEH-zee-kah
-  english: Bebei is from China, he is Chinese and speaks Chinese.
-  notes: 'Klik A1 p. 78. Triad structure: Κίνα, Κινέζος, κινέζικα.'
+  greek: Τις Κυριακές κοιμόμαστε μέχρι αργά το πρωί.
+  phonetic_hint: tees kee-ryah-KEHS kee-MOH-mah-steh MEHKH-ree ahr-GHAH toh proh-EE
+  english: On Sundays we sleep until late in the morning.
+  notes: 'Klik A1 p. 107. Grammar: mediopassive 1st pl. ''κοιμόμαστε'' + preposition
+    ''μέχρι'' + adverb ''αργά''.'
   gender_or_pos: phrase
-  audio: o-bebei-einai-apo-ti-9a0656.mp3
+  audio: tis-kyriakes-koimoma-c37b9d.mp3
   status: verified
-  example_el: Ο Bebei είναι από την Κίνα, είναι Κινέζος και μιλάει κινέζικα.
-  example_en: Bebei is from China, he is Chinese and speaks Chinese.
+  example_el: Δεν έχουμε δουλειά, γι' αυτό τις Κυριακές κοιμόμαστε μέχρι αργά το πρωί.
+  example_en: We don't have work, so on Sundays we sleep until late in the morning.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing Chinese nationality and language
+  keg_communicative_function: Describing weekend rest habits and late rising
 - id: A1-U104B-038
-  greek: Ο Sam είναι από την Αμερική, είναι Αμερικανός και μιλάει αγγλικά.
-  phonetic_hint: o SAHM EE-neh ah-POH teen ah-meh-ree-KEE, EE-neh ah-meh-ree-kah-NOHS
-    keh mee-LAH-ee ang-glee-KAH
-  english: Sam is from America, he is American and speaks English.
-  notes: 'Klik A1 p. 78. Triad structure: Αμερική, Αμερικανός, αγγλικά.'
+  greek: Έρχεσαι μαζί μας στην ταβέρνα το βράδυ;
+  phonetic_hint: EHR-kheh-seh mah-ZEE mahs steen tah-VEHR-nah toh VRAH-thee
+  english: Are you coming with us to the tavern tonight?
+  notes: 'Klik A1 p. 107. Grammar: mediopassive verb ''έρχομαι'' (έρχεσαι 2nd person
+    singular invitation).'
   gender_or_pos: phrase
-  audio: o-sam-einai-apo-tin--011b0c.mp3
+  audio: erchesai-mazi-mas-st-452252.mp3
   status: verified
-  example_el: Ο Sam είναι από την Αμερική, είναι Αμερικανός και μιλάει αγγλικά.
-  example_en: Sam is from America, he is American and speaks English.
+  example_el: Θα πάμε για φαγητό. Έρχεσαι μαζί μας στην ταβέρνα το βράδυ;
+  example_en: We are going for food. Are you coming with us to the tavern tonight?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Introducing American nationality and native language
+  keg_communicative_function: Inviting someone out for dinner using 'έρχομαι'
 - id: A1-U104B-039
-  greek: Εσύ από ποια χώρα είσαι και ποιες γλώσσες μιλάς;
-  phonetic_hint: eh-SEE ah-POH PYAH KHOH-rah EE-seh keh PYES GLOH-ses mee-LAHS
-  english: Which country are you from and what languages do you speak?
-  notes: Klik A1 p. 76, 77. Compound question with interrogative 'ποια χώρα' and 'ποιες
-    γλώσσες'.
+  greek: Ο Νίκος έρχεται στη δουλειά με το μετρό.
+  phonetic_hint: oh NEE-kohs EHR-kheh-teh stee thoo-LYAH meh toh meh-TROH
+  english: Nikos comes to work by metro.
+  notes: 'Klik A1 p. 107. Grammar: mediopassive 3rd sg. ''έρχεται'' + prepositional
+    phrase of transport.'
   gender_or_pos: phrase
-  audio: esy-apo-poia-chora-e-d65d44.mp3
+  audio: o-nikos-erchetai-sti-2429e6.mp3
   status: verified
-  example_el: — Χάρηκα για τη γνωριμία! Εσύ από ποια χώρα είσαι και ποιες γλώσσες
-    μιλάς; — Είμαι από την Ιταλία και μιλάω ιταλικά και αγγλικά.
-  example_en: — Nice to meet you! What country are you from and what languages do
-    you speak? — I am from Italy and I speak Italian and English.
+  example_el: Δεν οδηγεί αυτοκίνητο. Ο Νίκος έρχεται στη δουλειά με το μετρό.
+  example_en: He does not drive a car. Nikos comes to work by metro.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking a new acquaintance about origin and language
-    proficiency
+  keg_communicative_function: Describing daily commute methods using 'έρχομαι'
 - id: A1-U104B-040
-  greek: Ο άντρας της είναι από την Αλβανία και μιλάει άπταιστα ελληνικά.
-  phonetic_hint: o AHN-dras tees EE-neh ah-POH teen ahl-vah-NEE-ah keh mee-LAH-ee
-    AHP-teh-stah eh-lee-nee-KAH
-  english: Her husband is from Albania and speaks fluent Greek.
-  notes: Klik A1 p. 76. Demonstrating fluency adverb 'άπταιστα' + neuter plural language
-    noun.
+  greek: Οι φίλοι μας έρχονται για φαγητό απόψε.
+  phonetic_hint: ee FEE-lee mahs EHR-khon-deh yah fah-yee-TOH ah-POH-pseh
+  english: Our friends are coming over for food tonight.
+  notes: 'Klik A1 p. 107. Grammar: mediopassive 3rd pl. ''έρχονται'' + temporal adverb
+    ''απόψε''.'
   gender_or_pos: phrase
-  audio: o-antras-tis-einai-a-f420de.mp3
+  audio: oi-filoi-mas-erchont-6d8e67.mp3
   status: verified
-  example_el: Μένουν στην Αθήνα εδώ και χρόνια και ο άντρας της μιλάει άπταιστα ελληνικά.
-  example_en: They have lived in Athens for years and her husband speaks fluent Greek.
+  example_el: Πρέπει να καθαρίσω το σπίτι γιατί οι φίλοι μας έρχονται για φαγητό απόψε.
+  example_en: I must clean the house because our friends are coming for food tonight.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing spouse's fluent foreign language ability
+  keg_communicative_function: Announcing evening social gatherings and visits
 - id: A1-U104B-041
-  greek: Μιλάω πολύ καλά ελληνικά, αγγλικά και γερμανικά.
-  phonetic_hint: mee-LAH-o po-LEE kah-LAH eh-lee-nee-KAH, ang-glee-KAH keh yer-mah-nee-KAH
-  english: I speak Greek, English, and German very well.
-  notes: Klik A1 p. 80. Verb 1st person singular 'μιλάω' + degree adverb 'πολύ καλά'.
+  greek: Τι ώρα είναι; — Είναι οκτώ και τέταρτο.
+  phonetic_hint: tee OH-rah EE-neh? — EE-neh ohk-TOH keh TEH-tahr-toh
+  english: What time is it? — It is a quarter past eight.
+  notes: Klik A1 p. 100-101. Standard time expression with 'και τέταρτο' (:15).
   gender_or_pos: phrase
-  audio: milao-poly-kala-elli-59b818.mp3
+  audio: ti-ora-einai-einai-o-849d8b.mp3
   status: verified
-  example_el: Δουλεύω στον τουρισμό και μιλάω πολύ καλά ελληνικά, αγγλικά και γερμανικά.
-  example_en: I work in tourism and speak Greek, English, and German very well.
+  example_el: — Συγγνώμη, τι ώρα είναι; — Είναι οκτώ και τέταρτο.
+  example_en: — Excuse me, what time is it? — It is a quarter past eight.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating high language proficiency in multiple tongues
+  keg_communicative_function: Inquiring about and stating the exact hour and quarter
+    past
 - id: A1-U104B-042
-  greek: Εσύ μιλάς καλά ελληνικά; — Μιλάω μόνο λίγα.
-  phonetic_hint: eh-SEE mee-LAHS kah-LAH eh-lee-nee-KAH? — mee-LAH-o MOH-no LEE-ghah
-  english: Do you speak Greek well? — I speak only a little.
-  notes: Klik A1 p. 80. Verb 2nd person singular 'μιλάς' + quantifier 'λίγα'.
+  greek: Είναι εννέα και μισή το βράδυ.
+  phonetic_hint: EE-neh eh-NEH-ah keh mee-SEE toh VRAH-thee
+  english: It is nine thirty in the evening.
+  notes: Klik A1 p. 100-101. Standard time expression with 'και μισή' (:30) and time-of-day
+    clarification.
   gender_or_pos: phrase
-  audio: esy-milas-kala-ellin-169b43.mp3
+  audio: einai-ennea-kai-misi-04ead8.mp3
   status: verified
-  example_el: — Εσύ μιλάς καλά ελληνικά; — Όχι ακόμα, μιλάω μόνο λίγα.
-  example_en: — Do you speak Greek well? — Not yet, I speak only a little.
+  example_el: Είναι εννέα και μισή το βράδυ και η πόλη είναι ακόμα γεμάτη κόσμο.
+  example_en: It is half past nine in the evening and the city is still full of people.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about Greek skills and modestly stating basic
-    knowledge
+  keg_communicative_function: Stating half-past hours in context
 - id: A1-U104B-043
-  greek: Ο αδερφός μου μιλάει γαλλικά και ισπανικά.
-  phonetic_hint: o ah-thel-FOHS moo mee-LAH-ee ghal-lee-KAH keh ees-pah-nee-KAH
-  english: My brother speaks French and Spanish.
-  notes: Klik A1 p. 80. Verb 3rd person singular 'μιλάει' (Type B1 contract verb).
+  greek: Είναι δέκα παρά είκοσι.
+  phonetic_hint: EE-neh THEH-kah pah-RAH EE-koh-see
+  english: It is twenty to ten.
+  notes: Klik A1 p. 100-101. Prepositional time subtraction with 'παρά' (:40 = 'δέκα
+    παρά είκοσι').
   gender_or_pos: phrase
-  audio: o-aderfos-moy-milaei-3588cf.mp3
+  audio: einai-deka-para-eiko-13f099.mp3
   status: verified
-  example_el: Σπουδάζει φιλολογία και ο αδερφός μου μιλάει γαλλικά και ισπανικά.
-  example_en: He studies literature and my brother speaks French and Spanish.
+  example_el: Βιάσου, είναι δέκα παρά είκοσι και το λεωφορείο περνάει στις δέκα.
+  example_en: Hurry up, it is twenty to ten and the bus passes at ten.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting a sibling's language abilities
+  keg_communicative_function: Stating time before the hour using 'παρά'
 - id: A1-U104B-044
-  greek: Η μητέρα μου μιλάει τρεις ξένες γλώσσες.
-  phonetic_hint: ee mee-TEH-rah moo mee-LAH-ee TREES KSEH-nes GLOH-ses
-  english: My mother speaks three foreign languages.
-  notes: Klik A1 p. 80. Numeral 'τρεις' (feminine accusative) modifying 'ξένες γλώσσες'.
+  greek: Είναι τρεις ακριβώς το μεσημέρι.
+  phonetic_hint: EE-neh trees ah-kree-VOHS toh meh-see-MEH-ree
+  english: It is exactly three in the afternoon.
+  notes: Klik A1 p. 100-101. Precision time indicator 'ακριβώς' (on the dot / sharp).
   gender_or_pos: phrase
-  audio: i-mitera-moy-milaei--f196ad.mp3
+  audio: einai-treis-akrivos--75bd5e.mp3
   status: verified
-  example_el: 'Είναι πολύ μορφωμένη: η μητέρα μου μιλάει τρεις ξένες γλώσσες.'
-  example_en: 'She is very educated: my mother speaks three foreign languages.'
+  example_el: Το ρολόι χτυπάει, είναι τρεις ακριβώς το μεσημέρι.
+  example_en: The clock is chiming, it is exactly three in the afternoon.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Quantifying language proficiency
+  keg_communicative_function: Expressing precise on-the-hour time
 - id: A1-U104B-045
-  greek: Εμείς μιλάμε ελληνικά στο μάθημα και στο σπίτι.
-  phonetic_hint: eh-MEES mee-LAH-meh eh-lee-nee-KAH sto MAH-thee-mah keh sto SPEE-tee
-  english: We speak Greek in class and at home.
-  notes: Klik A1 p. 80. Verb 1st person plural 'μιλάμε'.
+  greek: Τι ώρα αρχίζει η ταινία; — Αρχίζει στις εννέα.
+  phonetic_hint: tee OH-rah ahr-KHEE-zee ee teh-NEE-ah? — ahr-KHEE-zee stees eh-NEH-ah
+  english: What time does the movie start? — It starts at nine.
+  notes: 'Klik A1 p. 100, 102. Grammar: verb ''αρχίζει'' (it starts) + prepositional
+    time ''στις εννέα''.'
   gender_or_pos: phrase
-  audio: emeis-milame-ellinik-47c940.mp3
+  audio: ti-ora-archizei-i-ta-13f1fc.mp3
   status: verified
-  example_el: Για να μάθουμε γρήγορα, εμείς μιλάμε ελληνικά στο μάθημα και στο σπίτι.
-  example_en: In order to learn quickly, we speak Greek in class and at home.
+  example_el: — Τι ώρα αρχίζει η ταινία; — Αρχίζει στις εννέα, ας πάρουμε εισιτήρια.
+  example_en: — What time does the film start? — It starts at nine, let's buy tickets.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing collective language practice
+  keg_communicative_function: Inquiring about cinema and event start times
 - id: A1-U104B-046
-  greek: Εσείς μιλάτε αγγλικά ή γαλλικά στη δουλειά σας;
-  phonetic_hint: eh-SEES mee-LAH-teh ang-glee-KAH ee ghal-lee-KAH stee thoo-LYAH sahs
-  english: Do you speak English or French at your work?
-  notes: Klik A1 p. 80. Verb 2nd person plural / formal 'μιλάτε' + disjunctive conjunction
-    'ή'.
+  greek: Το μάθημα τελειώνει στις δύο και τέταρτο.
+  phonetic_hint: toh MAH-thee-mah teh-lyOH-nee stees THEE-oh keh TEH-tahr-toh
+  english: The lesson finishes at a quarter past two.
+  notes: 'Klik A1 p. 102. Grammar: verb ''τελειώνει'' (it ends / finishes) + time
+    structure.'
   gender_or_pos: phrase
-  audio: eseis-milate-agglika-c06735.mp3
+  audio: to-mathima-teleionei-3681e0.mp3
   status: verified
-  example_el: — Εσείς μιλάτε αγγλικά ή γαλλικά στη δουλειά σας; — Μιλάμε κυρίως αγγλικά.
-  example_en: — Do you speak English or French at your work? — We speak mainly English.
+  example_el: Μην ανησυχείς, το μάθημα τελειώνει στις δύο και τέταρτο και μετά είμαι
+    ελεύθερος.
+  example_en: Don't worry, the lesson finishes at a quarter past two and then I am
+    free.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about workplace communication languages
+  keg_communicative_function: Communicating end times and academic schedules
 - id: A1-U104B-047
-  greek: Οι γονείς μου μιλάνε μόνο ρωσικά.
-  phonetic_hint: ee gho-NEES moo mee-LAH-neh MOH-no ro-see-KAH
-  english: My parents speak only Russian.
-  notes: Klik A1 p. 80. Verb 3rd person plural 'μιλάνε' (or 'μιλούν') + restrictive
-    adverb 'μόνο'.
+  greek: Η τράπεζα ανοίγει στις οκτώ και κλείνει στις δύο.
+  phonetic_hint: ee TRAH-peh-zah ah-NEE-yee stees ohk-TOH keh KLEE-nee stees THEE-oh
+  english: The bank opens at eight and closes at two.
+  notes: 'Klik A1 p. 102. Grammar: contrast verbs ''ανοίγει'' (opens) and ''κλείνει''
+    (closes) with opening hours.'
   gender_or_pos: phrase
-  audio: oi-goneis-moy-milane-583a2f.mp3
+  audio: i-trapeza-anoigei-st-9f0a6e.mp3
   status: verified
-  example_el: Δεν ξέρουν αγγλικά, οι γονείς μου μιλάνε μόνο ρωσικά.
-  example_en: They don't know English, my parents speak only Russian.
+  example_el: Πρέπει να πας νωρίς, επειδή η τράπεζα ανοίγει στις οκτώ και κλείνει
+    στις δύο.
+  example_en: You must go early, because the bank opens at eight and closes at two.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing parents' linguistic limitations
+  keg_communicative_function: Expressing business hours and administrative operational
+    schedules
 - id: A1-U104B-048
-  greek: Δεν μιλάω γερμανικά, αλλά θέλω να μάθω.
-  phonetic_hint: then mee-LAH-o yer-mah-nee-KAH, ah-LAH THEH-lo nah MAH-tho
-  english: I don't speak German, but I want to learn.
-  notes: Klik A1 p. 80. Negated verb 'δεν μιλάω' + modal verb 'θέλω να μάθω'.
+  greek: Ξυπνάω νωρίς, πλένομαι και πίνω έναν ζεστό καφέ.
+  phonetic_hint: ksee-PNAH-oh noh-REES, PLEH-noh-meh keh PEE-noh EH-nahn zehs-TOH
+    kah-FEH
+  english: I wake up early, wash myself, and drink a hot coffee.
+  notes: Klik A1 p. 98-99. Sequence of morning routine actions with mediopassive reflexive
+    'πλένομαι'.
   gender_or_pos: phrase
-  audio: den-milao-germanika--34d0af.mp3
+  audio: xypnao-noris-plenoma-b018c4.mp3
   status: verified
-  example_el: Δεν μιλάω γερμανικά, αλλά θέλω να μάθω επειδή ταξιδεύω στο Βερολίνο.
-  example_en: I don't speak German, but I want to learn because I travel to Berlin.
+  example_el: Κάθε εργάσιμη μέρα ξυπνάω νωρίς, πλένομαι και πίνω έναν ζεστό καφέ.
+  example_en: Every working day I wake up early, wash, and drink a hot coffee.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing lack of knowledge and desire to learn
+  keg_communicative_function: Narrating chronological morning routines
 - id: A1-U104B-049
-  greek: Μιλάτε πιο αργά, παρακαλώ, γιατί είμαι αρχάριος.
-  phonetic_hint: mee-LAH-teh pyo ahr-GHAH, pah-rah-kah-LOH, yah-TEE EE-meh ahr-KHAH-ree-os
-  english: Please speak slower, because I am a beginner.
-  notes: Klik A1 p. 77, 80. Polite imperative / 2nd plural 'μιλάτε' + comparative
-    adverb 'πιο αργά' + explanation 'γιατί'.
+  greek: Φεύγω από το σπίτι στις οκτώ και μισή και γυρίζω στις έξι.
+  phonetic_hint: FEHV-ghoh ah-POH toh SPEE-tee stees ohk-TOH keh mee-SEE keh yee-REE-zoh
+    stees EHK-see
+  english: I leave the house at eight-thirty and return at six.
+  notes: Klik A1 p. 98-99. Pair verbs 'φεύγω από' (leave from) and 'γυρίζω' (return).
   gender_or_pos: phrase
-  audio: milate-pio-arga-para-b2c83a.mp3
+  audio: feygo-apo-to-spiti-s-610255.mp3
   status: verified
-  example_el: Δεν καταλαβαίνω καλά. Μιλάτε πιο αργά, παρακαλώ, γιατί είμαι αρχάριος.
-  example_en: I don't understand well. Please speak slower, because I am a beginner.
+  example_el: 'Έχω πολλή δουλειά σήμερα: φεύγω από το σπίτι στις οκτώ και μισή και
+    γυρίζω στις έξι.'
+  example_en: 'I have lots of work today: I leave home at eight-thirty and return
+    at six.'
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting slower speech in communicative emergencies
+  keg_communicative_function: Describing departure and return times for work
 - id: A1-U104B-050
-  greek: Πώς λέγεται αυτό στη γλώσσα σου;
-  phonetic_hint: pos LEH-ye-teh ahf-TOH stee GLOH-sah soo
-  english: What is this called in your language?
-  notes: Klik A1 p. 77, 79. Passive verb 'λέγεται' (is called / named) + prepositional
-    phrase.
+  greek: Πάντα πίνω καφέ το πρωί, αλλά ποτέ δεν πίνω καφέ το βράδυ.
+  phonetic_hint: PAHN-dah PEE-noh kah-FEH toh proh-EE, ah-LAH poh-TEH then PEE-noh
+    kah-FEH toh VRAH-thee
+  english: I always drink coffee in the morning, but I never drink coffee at night.
+  notes: 'Klik A1 p. 98, 109-110. Frequency contrast: ''πάντα'' (always) versus ''ποτέ
+    δεν'' (never).'
   gender_or_pos: phrase
-  audio: pos-legetai-ayto-sti-e9e8dc.mp3
+  audio: panta-pino-kafe-to-p-1fab99.mp3
   status: verified
-  example_el: — Πώς λέγεται αυτό στη γλώσσα σου; — Στα αγγλικά λέγεται family.
-  example_en: — How is this called in your language? — In English it is called family.
+  example_el: Για να κοιμάμαι εύκολα, πάντα πίνω καφέ το πρωί, αλλά ποτέ δεν πίνω
+    καφέ το βράδυ.
+  example_en: In order to sleep easily, I always drink coffee in the morning, but
+    never drink coffee at night.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about language translation and lexical equivalence
+  keg_communicative_function: Expressing frequency contrasts with 'πάντα' and 'ποτέ'
+- id: A1-U104B-051
+  greek: Πηγαίνω στο γυμναστήριο τρεις φορές την εβδομάδα.
+  phonetic_hint: pee-YEH-noh stoh yeem-nahs-TEE-ree-oh trees foh-REHS teen ehv-thoh-MAH-thah
+  english: I go to the gym three times a week.
+  notes: 'Klik A1 p. 98, 109. Frequency expression: ''τρεις φορές την εβδομάδα'' (three
+    times a week).'
+  gender_or_pos: phrase
+  audio: pigaino-sto-gymnasti-26cb5d.mp3
+  status: verified
+  example_el: Για να διατηρούμαι σε φόρμα, πηγαίνω στο γυμναστήριο τρεις φορές την
+    εβδομάδα.
+  example_en: To stay in shape, I go to the gym three times a week.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating regular frequency of exercise and sporting habits
+- id: A1-U104B-052
+  greek: Συνήθως τρώμε βραδινό στις εννέα, αλλά σπάνια βλέπουμε τηλεόραση.
+  phonetic_hint: see-NEE-thos TROH-meh vrah-thee-NOH stees eh-NEH-ah, ah-LAH SPAH-nyah
+    VLEH-poo-meh tee-leh-OH-rah-see
+  english: We usually eat dinner at nine, but we rarely watch television.
+  notes: 'Klik A1 p. 109-110. Frequency contrast: ''συνήθως'' (usually) versus ''σπάνια''
+    (rarely).'
+  gender_or_pos: phrase
+  audio: synithos-trome-vradi-d71cb7.mp3
+  status: verified
+  example_el: Στην οικογένειά μας συνήθως τρώμε βραδινό στις εννέα, αλλά σπάνια βλέπουμε
+    τηλεόραση.
+  example_en: In our family we usually have dinner at nine, but we rarely watch television.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing recurring lifestyle habits with 'συνήθως'
+    and 'σπάνια'
+description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+  patterns, accusative direct objects, irregular verbs, and time-telling.'

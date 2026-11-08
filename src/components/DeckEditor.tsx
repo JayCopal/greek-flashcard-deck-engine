@@ -543,9 +543,9 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                   Unit: {extractUnitContext(currentUnit.title)}
                 </span>
               )}
-              {(currentUnit?.is_expansion || currentUnit?.id === 'unit-105b' || String(currentUnit?.order).toUpperCase().endsWith('B')) && (
+              {(currentUnit?.is_expansion || currentUnit?.id.endsWith('b') || currentUnit?.id.endsWith('c') || String(currentUnit?.order).toUpperCase().endsWith('B') || String(currentUnit?.order).toUpperCase().endsWith('C')) && (
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
-                  Expansion • Complementary to Lesson {currentUnit?.expansion_of || 'KlikA1-05-A'}
+                  Expansion • Complementary to Lesson {currentUnit?.expansion_of || 'Base Unit'}
                 </span>
               )}
             </div>

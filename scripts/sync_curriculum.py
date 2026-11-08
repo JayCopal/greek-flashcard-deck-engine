@@ -139,6 +139,108 @@ UNIT_METADATA = {
             "  - επιπλωμένο (furnished) / αυτόνομη θέρμανση (independent heating)"
         ),
     },
+    8: {
+        "title": "Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)",
+        "description": "CEFR A1: Describing daily routines, work and study schedule, frequency adverbs (πάντα, συχνά, ποτέ), Type A, B1, and B2 active verbs, and modal connectors (θέλω να).",
+        "lesson_notes": (
+            "Unit 8 Core Grammar Notes:\n"
+            "• Daily Routine Active Verbs:\n"
+            "  - Type A (-ω, -εις, -ει, -ουμε, -ετε, -ουν): αρχίζω, τελειώνω, διαβάζω, γράφω, ακούω, βλέπω, μαγειρεύω, φεύγω, γυρίζω, ψωνίζω.\n"
+            "  - Type B1 (-άω/-ώ, -άς, -άει/-ά, -άμε, -άτε, -άνε/-ούν): ξυπνάω/ξυπνώ, περπατάω/περπατώ, τραγουδάω/τραγουδώ.\n"
+            "  - Type B2 (-ώ, -είς, -εί, -ούμε, -είτε, -ούν): οδηγώ, μπορώ, ζω.\n"
+            "• Strict A1 Active Routine Phrases (Avoiding Mediopassive):\n"
+            "  - παίρνω πρωινό (have breakfast)\n"
+            "  - κάνω μπάνιο / κάνω ντους (take a bath / shower)\n"
+            "  - κάνω γυμναστική (work out / exercise)\n"
+            "  - πάω για ύπνο (go to bed / sleep)\n"
+            "• Adverbs of Frequency & Scale:\n"
+            "  - πάντα (100%) > συνήθως (80%) > συχνά (60%) > μερικές φορές (40%) > σπάνια (10%) > ποτέ (0%).\n"
+            "  - Double Negative Rule with ποτέ: 'Δεν' + verb + 'ποτέ' (e.g. Δεν πίνω ποτέ καφέ το βράδυ).\n"
+            "• Times of the Day & Temporal Markers:\n"
+            "  - το πρωί, το μεσημέρι, το απόγευμα, το βράδυ, τη νύχτα.\n"
+            "  - νωρίς (early) vs. αργά (late).\n"
+            "• Modal Connective Syntax:\n"
+            "  - θέλω να + Present Active Indicative (θέλω να μάθω...)\n"
+            "  - μπορώ να + Present Active Indicative (μπορώ να μιλήσω...)"
+        ),
+    },
+    9: {
+        "title": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "description": "CEFR A1: Asking for and stating the time, days of the week, months, seasons, arranging appointments, and understanding timetable announcements.",
+        "lesson_notes": (
+            "Unit 9 Core Grammar Notes:\n"
+            "• Telling Time (Ώρα):\n"
+            "  - Inquiring: 'Τι ώρα είναι;' (What time is it?) / 'Σε τι ώρα;' (At what time?).\n"
+            "  - Exact hour: 'Είναι μία ακριβώς' (1:00) / 'Είναι δύο ακριβώς' (2:00).\n"
+            "  - Minutes past: 'Είναι τρεις και τέταρτο' (3:15) / 'Είναι τέσσερις και είκοσι' (4:20).\n"
+            "  - Half past: 'Είναι πέντε και μισή' (5:30).\n"
+            "  - Minutes to: 'Είναι έξι παρά είκοσι' (5:40) / 'Είναι επτά παρά τέταρτο' (6:45).\n"
+            "  - Specifying when: 'Στη μία' (at 1:00) vs 'Στις τρεις, στις τέσσερις...' (all other hours).\n"
+            "• Days of the Week (Ημέρες της Εβδομάδας):\n"
+            "  - Feminine (all except Saturday): η Δευτέρα, η Τρίτη, η Τετάρτη, η Πέμπτη, η Παρασκευή, η Κυριακή.\n"
+            "  - Neuter: το Σάββατο, το σαββατοκύριακο.\n"
+            "  - Temporal Accusative (no preposition): 'τη Δευτέρα' (on Monday), 'το Σάββατο' (on Saturday).\n"
+            "• The Four Seasons (Εποχές):\n"
+            "  - η άνοιξη (spring), το καλοκαίρι (summer), το φθινόπωρο (autumn), ο χειμώνας (winter).\n"
+            "  - Temporal Accusative: 'την άνοιξη', 'το καλοκαίρι', 'το φθινόπωρο', 'τον χειμώνα'.\n"
+            "• Months (Μήνες):\n"
+            "  - All months in Modern Greek are masculine (ο Ιανουάριος, ο Απρίλιος, ο Αύγουστος...).\n"
+            "  - Temporal Accusative: 'τον Ιανουάριο' (in January), 'τον Αύγουστο' (in August).\n"
+            "• Time Spans & Scheduling Connectives:\n"
+            "  - από... μέχρι... (from... until...): 'από τις εννέα μέχρι τις πέντε'.\n"
+            "  - πριν από / μετά από + Accusative.\n"
+            "  - κλείνω ραντεβού (make an appointment) / περιμένω (wait for)."
+        ),
+    },
+    10: {
+        "title": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+        "description": "CEFR A1: Asking for and giving directions in town, public transportation (metro, bus, train), ticket purchases, and spatial prepositions.",
+        "lesson_notes": (
+            "Unit 10 Core Grammar Notes:\n"
+            "• Asking for Directions in Town:\n"
+            "  - Inquiring politely: 'Συγγνώμη, πού είναι το/η/ο...;' (Excuse me, where is the...?).\n"
+            "  - 'Πώς πάω στο/στη/στον...;' (How do I get to...?).\n"
+            "  - 'Ψάχνω τον σταθμό / το φαρμακείο...' (I am looking for the station / pharmacy...).\n"
+            "• Giving Directions (Indicative / Polite 2nd Person Plural -ετε):\n"
+            "  - Πηγαίνετε όλο ευθεία. (Go straight ahead.)\n"
+            "  - Στρίβετε δεξιά / αριστερά στο πρώτο φανάρι. (Turn right / left at the first traffic light.)\n"
+            "  - Περνάτε τη διάβαση / τον δρόμο. (Cross the crosswalk / street.)\n"
+            "• Spatial Prepositions & Adverbs (Governing Accusative):\n"
+            "  - κοντά σε + Accusative: 'κοντά στον σταθμό' (near the station).\n"
+            "  - μακριά από + Accusative: 'μακριά από το κέντρο' (far from downtown).\n"
+            "  - απέναντι από + Accusative: 'απέναντι από την τράπεζα' (across from the bank).\n"
+            "  - δίπλα σε + Accusative: 'δίπλα στο ταχυδρομείο' (next to the post office).\n"
+            "• Public Transportation Formulas:\n"
+            "  - Mode of transit with 'με + Definite Accusative': με το μετρό, με το λεωφορείο, με το τρένο, με το ταξί.\n"
+            "  - Walking: 'με τα πόδια' (on foot).\n"
+            "  - Boarding / Alighting: ανεβαίνω στο λεωφορείο (board) / κατεβαίνω στη στάση (get off).\n"
+            "  - Purchasing tickets: ένα απλό εισιτήριο (single) / ένα εισιτήριο μετ' επιστροφής (round-trip)."
+        ),
+    },
+    11: {
+        "title": "Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)",
+        "description": "CEFR A1: Talking about hobbies, sports, cinema, beach and island vacations, describing the weather, and using direct-object clitic pronouns.",
+        "lesson_notes": (
+            "Unit 11 Core Grammar Notes:\n"
+            "• Weather Idioms & Impersonal Expressions:\n"
+            "  - 'Τι καιρό κάνει σήμερα;' (What's the weather like today?).\n"
+            "  - 'Κάνει ζέστη / κάνει κρύο' (It is hot / cold).\n"
+            "  - 'Έχει ήλιο / έχει συννεφιά / έχει αέρα' (It is sunny / cloudy / windy).\n"
+            "  - Impersonal verbs: βρέχει (it rains), χιονίζει (it snows), φυσάει (the wind blows).\n"
+            "  - Degrees of temperature: 'Η θερμοκρασία είναι 28 βαθμοί.'\n"
+            "• Expressing Likes & Preferences ('Μου αρέσει / Μου αρέσουν'):\n"
+            "  - 'Μου αρέσει' + Singular noun or verb: 'Μου αρέσει η θάλασσα' / 'Μου αρέσει να ταξιδεύω'.\n"
+            "  - 'Μου αρέσουν' + Plural noun: 'Μου αρέσουν τα νησιά'.\n"
+            "  - Verb 'προτιμάω / προτιμώ': 'Προτιμώ τη θάλασσα από το βουνό.'\n"
+            "• Weak Direct-Object Clitic Pronouns (Αιτιατική Προσωπικών Αντωνυμιών):\n"
+            "  - Singular: με (me), σε (you), τον (him/it), την (her/it), το (it).\n"
+            "  - Plural: μας (us), σας (you all), τους (them masc), τις (them fem), τα (them neut).\n"
+            "  - Syntactic position: Placed immediately BEFORE the conjugated verb in active indicative:\n"
+            "    * 'Τον βλέπω' (I see him).\n"
+            "    * 'Τις ξέρεις;' (Do you know them?).\n"
+            "    * 'Δεν το θέλω' (I don't want it)."
+        ),
+    },
 }
 
 

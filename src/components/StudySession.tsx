@@ -1335,8 +1335,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
       {/* Bottom Button Rows: Assessment (Row 1) & Navigation (Row 2)              */}
       {/* ========================================================================= */}
       <div 
-        className="space-y-2 sm:space-y-2.5 !mt-[72px]" 
-        style={{ marginTop: '72px' }}
+        className="space-y-5 sm:space-y-[22px] !mt-[48px]" 
+        style={{ marginTop: '48px' }}
       >
         {/* ROW 1: Card Assessment & SRS Rating Controls (Equal Sized 4-Button Row) */}
         <div 

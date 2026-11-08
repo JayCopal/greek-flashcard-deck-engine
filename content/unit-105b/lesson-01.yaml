@@ -1,773 +1,805 @@
 unit_id: unit-105b
 lesson_id: lesson-01
-title: 'Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες
-  (Pages 87-110)'
+title: 'Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)'
+description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+  patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
+  να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective + από),
+  transit navigation, and communicative dialogues.'
+lesson_status: not_started
 entries:
 - id: A1-U105B-001
-  greek: Μου αρέσει πολύ η κλασική μουσική.
-  phonetic_hint: moo ah-REH-see poh-LEE ee klah-see-KEE moo-see-KEE
-  english: I really like classical music.
-  notes: 'Klik A1 p. 88-89. Grammar: ''μου αρέσει'' + singular nominative subject
-    (η κλασική μουσική).'
+  greek: Θέλω να πάω ένα ταξίδι στην Ελλάδα.
+  phonetic_hint: THEH-lo nah PAH-o EH-nah tahk-SEE-thee steen eh-LAH-thah
+  english: I want to go on a trip to Greece.
+  notes: 'Klik A1 p. 111, 115. Grammar: ''θέλω να'' + subjunctive of irregular verb
+    πηγαίνω/πάω.'
   gender_or_pos: phrase
-  audio: moy-aresei-poly-i-kl-d4d0ee.mp3
+  audio: thelo-na-pao-ena-tax-bea078.mp3
   status: verified
-  example_el: — Σου αρέσει η όπερα; — Ναι, μου αρέσει πολύ η κλασική μουσική.
-  example_en: — Do you like opera? — Yes, I really like classical music.
+  example_el: — Τι σχέδια έχεις για το καλοκαίρι; — Θέλω να πάω ένα ταξίδι στην Ελλάδα.
+  example_en: — What plans do you have for the summer? — I want to go on a trip to
+    Greece.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing personal taste and musical preferences
+  keg_communicative_function: Expressing desires for holiday travel
 - id: A1-U105B-002
-  greek: Σου αρέσει ο κινηματογράφος;
-  phonetic_hint: soo ah-REH-see oh kee-nee-mah-toh-GRAH-fos
-  english: Do you like the cinema / movies?
-  notes: 'Klik A1 p. 88-89. Grammar: question with second person pronoun ''σου'' +
-    ''αρέσει'' + singular noun.'
+  greek: Πρέπει να αγοράσουμε τα εισιτήρια σήμερα.
+  phonetic_hint: PREH-pee nah ah-go-RAH-soo-meh tah ee-see-TEE-ree-ah SEE-meh-rah
+  english: We must buy the tickets today.
+  notes: 'Klik A1 p. 111, 115. Grammar: impersonal modal ''πρέπει να'' + Aorist Subjunctive
+    1st person plural (αγοράσουμε).'
   gender_or_pos: phrase
-  audio: soy-aresei-o-kinimat-18f9f7.mp3
+  audio: prepei-na-agorasoyme-000d85.mp3
   status: verified
-  example_el: — Σου αρέσει ο κινηματογράφος; — Ναι, πάω κάθε Παρασκευή.
-  example_en: — Do you like cinema? — Yes, I go every Friday.
+  example_el: — Πότε θα πάρουμε τα εισιτήρια; — Πρέπει να αγοράσουμε τα εισιτήρια
+    σήμερα.
+  example_en: — When shall we get the tickets? — We must buy the tickets today.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about someone's hobbies and leisure preferences
+  keg_communicative_function: Expressing necessity and urgent booking tasks
 - id: A1-U105B-003
-  greek: Μου αρέσουν τα παλιά βιβλία και τα μουσεία.
-  phonetic_hint: moo ah-REH-soon tah pah-LYAH veev-LEE-ah keh tah moo-SEE-ah
-  english: I like old books and museums.
-  notes: 'Klik A1 p. 89. Grammar: ''μου αρέσουν'' (plural verb form) with plural subjects
-    (τα βιβλία, τα μουσεία).'
+  greek: Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο;
+  phonetic_hint: bo-REE-teh nah KLEE-seh-teh EH-nah tho-MAH-tee-o sto thee-ah-THEEK-tee-o
+  english: Can you book a room on the internet?
+  notes: 'Klik A1 p. 111, 115. Grammar: polite question ''μπορείτε να'' (2nd person
+    plural) + Aorist Subjunctive (κλείσετε).'
   gender_or_pos: phrase
-  audio: moy-aresoyn-ta-palia-7db45b.mp3
+  audio: mporeite-na-kleisete-d61191.mp3
   status: verified
-  example_el: Στην Αθήνα επισκέπτομαι συχνά την Πλάκα γιατί μου αρέσουν τα παλιά βιβλία
-    και τα μουσεία.
-  example_en: In Athens I often visit Plaka because I like old books and museums.
+  example_el: — Δεν έχω υπολογιστή. Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο;
+    — Βεβαίως, αμέσως.
+  example_en: — I don't have a computer. Can you book a room on the internet? — Certainly,
+    right away.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing likes with plural direct subjects
+  keg_communicative_function: Making polite requests for accommodation booking
 - id: A1-U105B-004
-  greek: Δεν μου αρέσουν οι ταινίες τρόμου.
-  phonetic_hint: then moo ah-REH-soon ee teh-NEE-es TROH-moo
-  english: I don't like horror movies.
-  notes: 'Klik A1 p. 89. Grammar: negation ''δεν'' + ''μου αρέσουν'' + feminine plural
-    noun phrase ''οι ταινίες τρόμου''.'
+  greek: Λέω να πάμε στο βουνό ή στη θάλασσα;
+  phonetic_hint: LEH-o nah PAH-meh sto voo-NO ee stee THAH-lah-sah
+  english: Shall we go to the mountain or to the sea?
+  notes: 'Klik A1 p. 111, 115. Grammar: ''λέω να'' expressing suggestion or tentative
+    plan + subjunctive 1st plural (πάμε).'
   gender_or_pos: phrase
-  audio: den-moy-aresoyn-oi-t-e8da21.mp3
+  audio: leo-na-pame-sto-voyn-6464e6.mp3
   status: verified
-  example_el: Προτιμώ τις κωμωδίες επειδή δεν μου αρέσουν οι ταινίες τρόμου.
-  example_en: I prefer comedies because I do not like horror movies.
+  example_el: — Λέω να πάμε στο βουνό ή στη θάλασσα; — Προτιμώ να πάμε στη θάλασσα.
+  example_en: — Shall we go to the mountain or to the sea? — I prefer going to the
+    sea.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing dislikes and movie genre preferences
+  keg_communicative_function: Proposing destination options
 - id: A1-U105B-005
-  greek: Μου αρέσει να κάνω βόλτες στην πόλη.
-  phonetic_hint: moo ah-REH-see nah KAH-noh VOHL-tes steen POH-lee
-  english: I like taking walks in the city.
-  notes: 'Klik A1 p. 89. Grammar: ''μου αρέσει να'' + present subjunctive verb (κάνω)
-    for ongoing/habitual action.'
+  greek: Πρέπει να φτιάξω τη βαλίτσα μου απόψε το βράδυ.
+  phonetic_hint: PREH-pee nah FTYAH-kso tee vah-LEET-sah moo ah-PO-pseh to VRAH-thee
+  english: I must pack my suitcase tonight.
+  notes: 'Klik A1 p. 114, 118. Grammar: ''πρέπει να'' + Aorist Subjunctive 1st singular
+    of φτιάχνω (φτιάξω).'
   gender_or_pos: phrase
-  audio: moy-aresei-na-kano-v-d53c85.mp3
+  audio: prepei-na-ftiaxo-ti--ba23cb.mp3
   status: verified
-  example_el: Όταν έχει καλό καιρό, μου αρέσει να κάνω βόλτες στην πόλη.
-  example_en: When the weather is good, I like taking walks in the city.
+  example_el: — Έρχεσαι για καφέ; — Όχι, πρέπει να φτιάξω τη βαλίτσα μου απόψε το
+    βράδυ.
+  example_en: — Are you coming for coffee? — No, I must pack my suitcase tonight.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing enjoyment of activities using subjunctive
-    'να'
+  keg_communicative_function: Stating packing requirements before departure
 - id: A1-U105B-006
-  greek: Της αρέσει να μαγειρεύει για τους φίλους της.
-  phonetic_hint: tees ah-REH-see nah mah-yee-REH-vee yah toos FEE-loos tees
-  english: She likes cooking for her friends.
-  notes: 'Klik A1 p. 89. Grammar: weak indirect pronoun ''της'' (her) + ''αρέσει να''
-    + third person singular verb (μαγειρεύει).'
+  greek: Θέλω να αγοράσω μια καινούργια φωτογραφική μηχανή.
+  phonetic_hint: THEH-lo nah ah-go-RAH-so mee-ah keh-NOOR-gyah foh-toh-grah-fee-KEE
+    mee-khah-NEE
+  english: I want to buy a new camera.
+  notes: 'Klik A1 p. 111, 116. Grammar: ''θέλω να'' + Aorist Subjunctive (αγοράσω)
+    + feminine accusative noun phrase.'
   gender_or_pos: phrase
-  audio: tis-aresei-na-mageir-349898.mp3
+  audio: thelo-na-agoraso-mia-48bf74.mp3
   status: verified
-  example_el: Η Ελένη είναι εξαιρετική μαγείρισσα και της αρέσει να μαγειρεύει για
-    τους φίλους της.
-  example_en: Eleni is an excellent cook and she likes cooking for her friends.
+  example_el: — Τι θέλεις να πάρεις για το ταξίδι; — Θέλω να αγοράσω μια καινούργια
+    φωτογραφική μηχανή.
+  example_en: — What do you want to get for the trip? — I want to buy a new camera.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing someone else's hobbies and leisure activities
+  keg_communicative_function: Expressing intention to purchase travel equipment
 - id: A1-U105B-007
-  greek: Δεν μου αρέσει να ξυπνάω πολύ νωρίς.
-  phonetic_hint: then moo ah-REH-see nah ksee-PNAH-oh poh-LEE noh-REES
-  english: I don't like waking up very early.
-  notes: 'Klik A1 p. 89, 98. Grammar: negative ''δεν'' + ''μου αρέσει να'' + contract
-    verb (ξυπνάω) + adverb (νωρίς).'
+  greek: Μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη;
+  phonetic_hint: bo-RO nah ah-NEEK-so to pah-RAH-thee-ro yah-TEE EH-khee ZEH-stee
+  english: Can I open the window, because it is hot?
+  notes: 'Klik A1 p. 116, 118. Grammar: permission inquiry ''μπορώ να'' + Aorist Subjunctive
+    of ανοίγω (ανοίξω).'
   gender_or_pos: phrase
-  audio: den-moy-aresei-na-xy-13ad7c.mp3
+  audio: mporo-na-anoixo-to-p-b84608.mp3
   status: verified
-  example_el: Τις καθημερινές ξυπνάω στις έξι, αλλά δεν μου αρέσει να ξυπνάω πολύ
-    νωρίς.
-  example_en: On weekdays I wake up at six, but I don't like waking up very early.
+  example_el: — Συγγνώμη, μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη; — Ναι, φυσικά.
+  example_en: — Excuse me, can I open the window, because it is hot? — Yes, of course.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing reluctance regarding morning habits
+  keg_communicative_function: Asking for permission politely in transport or rooms
 - id: A1-U105B-008
-  greek: Μας αρέσει να ταξιδεύουμε το καλοκαίρι.
-  phonetic_hint: mahs ah-REH-see nah tah-ksee-THEHV-oo-meh toh kah-loh-KEH-ree
-  english: We like traveling in the summer.
-  notes: 'Klik A1 p. 89. Grammar: plural weak pronoun ''μας'' (us) + ''αρέσει να''
-    + first-person plural verb (ταξιδεύουμε).'
+  greek: Πρέπει να φύγουμε νωρίς για να μη χάσουμε το πλοίο.
+  phonetic_hint: PREH-pee nah FEE-goo-meh no-REES yah nah mee KHAH-soo-meh to PLEE-o
+  english: We must leave early so we don't miss the ferry.
+  notes: 'Klik A1 p. 116, 117. Grammar: ''πρέπει να φύγουμε'' + negative purpose clause
+    ''για να μη χάσουμε''.'
   gender_or_pos: phrase
-  audio: mas-aresei-na-taxide-dacd73.mp3
+  audio: prepei-na-fygoyme-no-fa7a64.mp3
   status: verified
-  example_el: Κάθε χρόνο παίρνουμε άδεια τον Αύγουστο επειδή μας αρέσει να ταξιδεύουμε
-    το καλοκαίρι.
-  example_en: Every year we take leave in August because we like traveling in the
-    summer.
+  example_el: — Τι ώρα θα ξεκινήσουμε; — Πρέπει να φύγουμε νωρίς για να μη χάσουμε
+    το πλοίο.
+  example_en: — What time shall we set off? — We must leave early so we don't miss
+    the ferry.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing shared group preferences and vacation habits
+  keg_communicative_function: Coordinating timely departure for travel
 - id: A1-U105B-009
-  greek: Βλέπω τον αγώνα ποδοσφαίρου στην τηλεόραση.
-  phonetic_hint: VLEH-poh ton ah-GHO-nah poh-thos-FEH-roo steen tee-leh-OH-rah-see
-  english: I am watching the football match on television.
-  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον αγώνα'' (<
-    ο αγώνας).'
+  greek: Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.
+  phonetic_hint: SEE-meh-rah LEH-o nah mee vgo EH-kso yah-TEE VREH-khee O-lee MEH-rah
+  english: Today I'm thinking of not going out, because it's raining all day.
+  notes: 'Klik A1 p. 116. Grammar: negative subjunctive with ''να μη + βγω'' (dependent
+    form of βγαίνω).'
   gender_or_pos: phrase
-  audio: vlepo-ton-agona-podo-13acf7.mp3
+  audio: simera-leo-na-mi-vgo-e3ef6c.mp3
   status: verified
-  example_el: — Τι κάνεις τώρα; — Βλέπω τον αγώνα ποδοσφαίρου στην τηλεόραση.
-  example_en: — What are you doing now? — I am watching the football match on TV.
+  example_el: — Πάμε μια βόλτα; — Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.
+  example_en: — Shall we go for a walk? — Today I'm thinking of not going out, because
+    it's raining all day.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Using masculine accusative singular direct objects
+  keg_communicative_function: Stating intentions to stay indoors due to bad weather
 - id: A1-U105B-010
-  greek: Παρακολουθούμε όλους τους αγώνες της ομάδας.
-  phonetic_hint: pah-rah-koh-loo-THOO-meh OH-loos toos ah-GHOH-nes tees oh-MAH-thas
-  english: We watch all the matches of the team.
-  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους αγώνες'' (< οι
-    αγώνες).'
+  greek: Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;
+  phonetic_hint: THEH-lees nah FAH-meh seh EH-nah pah-rah-tho-see-ah-KO eh-stee-ah-TO-ree-o
+  english: Do you want us to eat at a traditional restaurant?
+  notes: 'Klik A1 p. 115, 117, 118. Grammar: ''θέλεις να'' + Aorist Subjunctive 1st
+    plural of τρώω (φάμε).'
   gender_or_pos: phrase
-  audio: parakoloythoyme-oloy-e2d214.mp3
+  audio: theleis-na-fame-se-e-f9154f.mp3
   status: verified
-  example_el: Είμαστε μεγάλοι φίλαθλοι και παρακολουθούμε όλους τους αγώνες της ομάδας.
-  example_en: We are big sports fans and we watch all the matches of the team.
+  example_el: — Πού θα πάμε για φαγητό; — Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;
+  example_en: — Where shall we go to eat? — Do you want us to eat at a traditional
+    restaurant?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Using masculine accusative plural direct objects
+  keg_communicative_function: Proposing dining options during travel
 - id: A1-U105B-011
-  greek: Περιμένω τον φίλο μου στον σταθμό.
-  phonetic_hint: peh-ree-MEH-noh ton FEE-loh moo ston stahth-MOH
-  english: I am waiting for my friend at the station.
-  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον φίλο'' (<
-    ο φίλος).'
+  greek: Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν φύγουμε;
+  phonetic_hint: bo-ROO-meh nah PYOO-meh EH-nahn kah-FEH sto lee-MAH-nee preen FEE-goo-meh
+  english: Can we have a coffee at the port before we leave?
+  notes: 'Klik A1 p. 117, 118. Grammar: ''μπορούμε να'' + subjunctive of πίνω (πιούμε)
+    + temporal clause ''πριν φύγουμε''.'
   gender_or_pos: phrase
-  audio: perimeno-ton-filo-mo-252792.mp3
+  audio: mporoyme-na-pioyme-e-1bd574.mp3
   status: verified
-  example_el: Είμαι έξω από το μετρό και περιμένω τον φίλο μου στον σταθμό.
-  example_en: I am outside the metro and waiting for my friend at the station.
+  example_el: — Έχουμε ακόμα μισή ώρα. Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν
+    φύγουμε; — Πολύ καλή ιδέα!
+  example_en: — We still have half an hour. Can we have a coffee at the port before
+    we leave? — Great idea!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Indicating meeting locations with accusative singular
-    direct objects
+  keg_communicative_function: Suggesting a pre-departure coffee break
 - id: A1-U105B-012
-  greek: Περιμένουμε τους φίλους μας για δείπνο.
-  phonetic_hint: peh-ree-MEH-noo-meh toos FEE-loos mahs yah THEEP-noh
-  english: We are waiting for our friends for dinner.
-  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους φίλους'' (< οι
-    φίλοι).'
+  greek: Πρέπει να μάθω μια ξένη γλώσσα για να σπουδάσω στο εξωτερικό.
+  phonetic_hint: PREH-pee nah MAH-tho mee-ah KSEH-nee GLOH-sah yah nah spoo-THAH-so
+    sto ehk-so-teh-ree-KO
+  english: I must learn a foreign language in order to study abroad.
+  notes: 'Klik A1 p. 117, 118. Grammar: ''πρέπει να μάθω'' (dependent of μαθαίνω)
+    + ''για να σπουδάσω'' (dependent of σπουδάζω).'
   gender_or_pos: phrase
-  audio: perimenoyme-toys-fil-3d3c0d.mp3
+  audio: prepei-na-matho-mia--c8aef6.mp3
   status: verified
-  example_el: Το τραπέζι είναι έτοιμο και περιμένουμε τους φίλους μας για δείπνο.
-  example_en: The table is ready and we are waiting for our friends for dinner.
+  example_el: — Γιατί κάνεις εντατικά μαθήματα; — Πρέπει να μάθω μια ξένη γλώσσα για
+    να σπουδάσω στο εξωτερικό.
+  example_en: — Why are you doing intensive lessons? — I must learn a foreign language
+    in order to study abroad.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing hospitality with accusative plural direct
-    objects
+  keg_communicative_function: Explaining educational and language learning goals
 - id: A1-U105B-013
-  greek: Ο παππούς καθαρίζει τον κήπο κάθε πρωί.
-  phonetic_hint: oh pah-POOS kah-thah-REE-zee ton KEE-poh KAH-theh proh-EE
-  english: Grandfather cleans the garden every morning.
-  notes: 'Klik A1 p. 93-94. Grammar: masculine accusative singular ''τον κήπο'' (<
-    ο κήπος).'
+  greek: Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο;
+  phonetic_hint: tee O-rah bo-REE nah EHR-thee to tahk-SEE sto kseh-no-tho-KHEE-o
+  english: What time can the taxi arrive at the hotel?
+  notes: 'Klik A1 p. 117. Grammar: question with ''μπορεί να'' + dependent of irregular
+    verb έρχομαι (έρθει).'
   gender_or_pos: phrase
-  audio: o-pappoys-katharizei-8a88eb.mp3
+  audio: ti-ora-mporei-na-ert-3dcf42.mp3
   status: verified
-  example_el: Ο παππούς αγαπάει τα λουλούδια και καθαρίζει τον κήπο κάθε πρωί.
-  example_en: Grandfather loves flowers and cleans the garden every morning.
+  example_el: — Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο; — Μπορεί να είναι εδώ
+    στις επτά και μισή.
+  example_en: — What time can the taxi arrive at the hotel? — It can be here at seven
+    thirty.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing outdoor chores with accusative nouns
+  keg_communicative_function: Scheduling taxi arrival at accommodation
 - id: A1-U105B-014
-  greek: Οι γείτονες καθαρίζουν τους κήπους τους την άνοιξη.
-  phonetic_hint: ee YEE-toh-nes kah-thah-REE-zoon toos KEE-poos toos teen AH-neek-see
-  english: The neighbors clean their gardens in spring.
-  notes: 'Klik A1 p. 94. Grammar: masculine accusative plural ''τους κήπους'' (< οι
-    κήποι).'
+  greek: Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο κοντά στο κέντρο.
+  phonetic_hint: PREH-pee nah VROO-meh EH-nah ee-ko-no-mee-KO kseh-no-tho-KHEE-o kon-DAH
+    sto KEN-tro
+  english: We must find an economical hotel near the center.
+  notes: 'Klik A1 p. 117. Grammar: ''πρέπει να'' + dependent of irregular verb βρίσκω
+    (βρούμε).'
   gender_or_pos: phrase
-  audio: oi-geitones-kathariz-300d3f.mp3
+  audio: prepei-na-vroyme-ena-52d13b.mp3
   status: verified
-  example_el: Όταν ανοίγει ο καιρός, οι γείτονες καθαρίζουν τους κήπους τους την άνοιξη.
-  example_en: When the weather warms up, the neighbors clean their gardens in the
-    spring.
+  example_el: — Πού θα μείνουμε στην Αθήνα; — Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο
+    κοντά στο κέντρο.
+  example_en: — Where will we stay in Athens? — We must find an economical hotel near
+    the center.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing seasonal activities with masculine plural
-    accusative
+  keg_communicative_function: Prioritizing central and affordable lodging
 - id: A1-U105B-015
-  greek: Διαβάζω την πρωινή εφημερίδα με τον καφέ μου.
-  phonetic_hint: thyah-VAH-zoh teen proh-ee-NEE eh-fee-meh-REE-thah meh ton kah-FEH
-    moo
-  english: I read the morning newspaper with my coffee.
-  notes: 'Klik A1 p. 93, 95. Grammar: feminine accusative singular ''την πρωινή εφημερίδα''
-    (< η εφημερίδα).'
+  greek: Μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός;
+  phonetic_hint: bo-REE-teh nah moo PEE-teh poo EE-neh o see-thee-ro-thro-mee-KOS
+    stahth-MOS
+  english: Can you tell me where the railway station is?
+  notes: 'Klik A1 p. 117, 120. Grammar: polite formula ''μπορείτε να μου πείτε'' (λέω
+    -> πείτε) + indirect question.'
   gender_or_pos: phrase
-  audio: diavazo-tin-proini-e-8c5e4e.mp3
+  audio: mporeite-na-moy-peit-8915b9.mp3
   status: verified
-  example_el: Κάθε μέρα πριν από τη δουλειά διαβάζω την πρωινή εφημερίδα με τον καφέ
-    μου.
-  example_en: Every day before work I read the morning newspaper with my coffee.
+  example_el: — Με συγχωρείτε, μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός;
+    — Βεβαίως, στην επόμενη γωνία.
+  example_en: — Excuse me, can you tell me where the railway station is? — Certainly,
+    around the next corner.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Talking about reading habits with feminine accusative
-    singular
+  keg_communicative_function: Asking for station directions politely
 - id: A1-U105B-016
-  greek: Αγοράζει όλες τις εφημερίδες την Κυριακή.
-  phonetic_hint: ah-ghoh-RAH-zee OH-les tees eh-fee-meh-REE-thes teen kee-ryah-KEE
-  english: He buys all the newspapers on Sunday.
-  notes: 'Klik A1 p. 95. Grammar: feminine accusative plural ''τις εφημερίδες'' (<
-    οι εφημερίδες).'
+  greek: Θέλω να μείνω σε ένα δίκλινο δωμάτιο με πρωινό.
+  phonetic_hint: THEH-lo nah MEE-no seh EH-nah THEE-klee-no tho-MAH-tee-o meh pro-ee-NO
+  english: I want to stay in a double room with breakfast.
+  notes: 'Klik A1 p. 113, 115, 121. Grammar: ''θέλω να μείνω'' (dependent of μένω)
+    + prepositional phrase.'
   gender_or_pos: phrase
-  audio: agorazei-oles-tis-ef-902f73.mp3
+  audio: thelo-na-meino-se-en-046753.mp3
   status: verified
-  example_el: Του αρέσει η ενημέρωση και αγοράζει όλες τις εφημερίδες την Κυριακή.
-  example_en: He likes keeping informed and buys all the newspapers on Sunday.
+  example_el: — Τι είδους δωμάτιο ψάχνετε; — Θέλω να μείνω σε ένα δίκλινο δωμάτιο
+    με πρωινό.
+  example_en: — What kind of room are you looking for? — I want to stay in a double
+    room with breakfast.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing habitual purchases using feminine accusative
-    plural
+  keg_communicative_function: Specifying room type preferences to reception
 - id: A1-U105B-017
-  greek: Ανοίγω την πόρτα του σπιτιού.
-  phonetic_hint: ah-NEE-ghoh teen POHR-tah too spee-TYOO
-  english: I open the door of the house.
-  notes: 'Klik A1 p. 95, 102. Grammar: feminine accusative singular ''την πόρτα''
-    (< η πόρτα).'
+  greek: Πρέπει να προσέχεις τα προσωπικά σου αντικείμενα στον σταθμό.
+  phonetic_hint: PREH-pee nah pro-SEH-khees tah pro-so-pee-KAH soo ahn-dee-KEE-meh-nah
+    ston stahth-MO
+  english: You must watch your personal belongings at the station.
+  notes: 'Klik A1 p. 116. Grammar: ''πρέπει να'' + subjunctive of προσέχω (προσέχεις)
+    + plural accusative direct object.'
   gender_or_pos: phrase
-  audio: anoigo-tin-porta-toy-a46179.mp3
+  audio: prepei-na-prosecheis-4d84b1.mp3
   status: verified
-  example_el: Γυρίζω από τη δουλειά και ανοίγω την πόρτα του σπιτιού.
-  example_en: I return from work and open the door of the house.
+  example_el: — Έχει πάρα πολύ κόσμο εδώ! — Ναι, πρέπει να προσέχεις τα προσωπικά
+    σου αντικείμενα στον σταθμό.
+  example_en: — It is very crowded here! — Yes, you must watch your personal belongings
+    at the station.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing immediate household actions with feminine
-    accusative
+  keg_communicative_function: Giving safety advice in public transit areas
 - id: A1-U105B-018
-  greek: Κλείνει τις πόρτες και τα παράθυρα πριν φύγει.
-  phonetic_hint: KLEE-nee tees POHR-tes keh tah pah-RAH-thee-rah preen FEE-yee
-  english: She closes the doors and the windows before leaving.
-  notes: 'Klik A1 p. 95. Grammar: feminine accusative plural ''τις πόρτες'' + neuter
-    plural ''τα παράθυρα''.'
+  greek: Λέμε να ταξιδέψουμε με το πλοίο αντί για το αεροπλάνο.
+  phonetic_hint: LEH-meh nah tahk-see-THEHP-soo-meh meh to PLEE-o ahn-DEE yah to ah-eh-ro-PLAH-no
+  english: We are thinking of travelling by ferry instead of by airplane.
+  notes: 'Klik A1 p. 113, 115. Grammar: ''λέμε να'' (1st plural) + Aorist Subjunctive
+    of ταξιδεύω (ταξιδέψουμε).'
   gender_or_pos: phrase
-  audio: kleinei-tis-portes-k-b26197.mp3
+  audio: leme-na-taxidepsoyme-5ed422.mp3
   status: verified
-  example_el: Για ασφάλεια κλείνει τις πόρτες και τα παράθυρα πριν φύγει.
-  example_en: For safety she closes the doors and the windows before leaving.
+  example_el: — Πώς θα πάτε στην Κρήτη; — Λέμε να ταξιδέψουμε με το πλοίο αντί για
+    το αεροπλάνο.
+  example_en: — How will you go to Crete? — We are thinking of travelling by ferry
+    instead of by airplane.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing domestic safety measures with mixed plural
-    accusative objects
+  keg_communicative_function: Discussing preferred transit modes
 - id: A1-U105B-019
-  greek: Πλένω το πιάτο μετά το μεσημεριανό.
-  phonetic_hint: PLEH-noh toh PYAH-toh meh-TAH toh meh-see-meh-ryah-NOH
-  english: I wash the plate after lunch.
-  notes: 'Klik A1 p. 95, 98. Grammar: neuter accusative singular ''το πιάτο'' (< το
-    πιάτο).'
+  greek: Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ;
+  phonetic_hint: bo-REES nah moo THOH-sees to ee-see-TEE-ree-o moo seh pah-rah-kah-LO
+  english: Can you give me my ticket, please?
+  notes: 'Klik A1 p. 117. Grammar: ''μπορείς να'' + dependent of irregular verb δίνω
+    (δώσεις) + clitic pronoun μου.'
   gender_or_pos: phrase
-  audio: pleno-to-piato-meta--ccc199.mp3
+  audio: mporeis-na-moy-dosei-cb37fe.mp3
   status: verified
-  example_el: Μόλις τελειώνω το φαγητό, πλένω το πιάτο μετά το μεσημεριανό.
-  example_en: As soon as I finish eating, I wash the plate after lunch.
+  example_el: — Φτάνουμε στον έλεγχο. Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ;
+    — Ορίστε, το έχω εδώ.
+  example_en: — We are arriving at the check-in. Can you give me my ticket, please?
+    — Here you go, I have it right here.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing after-meal chores with neuter accusative
-    singular
+  keg_communicative_function: Requesting documents during travel checks
 - id: A1-U105B-020
-  greek: Πλένουμε τα πιάτα και τα ποτήρια μαζί.
-  phonetic_hint: PLEH-noo-meh tah PYAH-tah keh tah poh-TEE-ryah mah-ZEE
-  english: We wash the dishes and the glasses together.
-  notes: 'Klik A1 p. 95. Grammar: neuter accusative plural ''τα πιάτα'', ''τα ποτήρια''.'
+  greek: Πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.
+  phonetic_hint: PREH-pee nah VAH-loo-meh tah ROO-khah stee vah-LEET-sah TO-rah
+  english: We must put the clothes into the suitcase now.
+  notes: 'Klik A1 p. 117. Grammar: ''πρέπει να'' + dependent of irregular verb βάζω
+    (βάλουμε).'
   gender_or_pos: phrase
-  audio: plenoyme-ta-piata-ka-81f197.mp3
+  audio: prepei-na-valoyme-ta-b2affe.mp3
   status: verified
-  example_el: Μετά το οικογενειακό τραπέζι, πλένουμε τα πιάτα και τα ποτήρια μαζί.
-  example_en: After the family dinner, we wash the dishes and glasses together.
+  example_el: — Η ώρα περνάει! — Ναι, πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.
+  example_en: — Time is flying! — Yes, we must put the clothes into the suitcase now.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing shared household chores with neuter plural
-    accusative
+  keg_communicative_function: Organizing luggage packing
 - id: A1-U105B-021
-  greek: Αγοράζω ένα νέο βιβλίο κάθε μήνα.
-  phonetic_hint: ah-ghoh-RAH-zoh EH-nah NEH-oh veev-LEE-oh KAH-theh MEE-nah
-  english: I buy a new book every month.
-  notes: 'Klik A1 p. 95. Grammar: neuter indefinite accusative ''ένα νέο βιβλίο''
-    + frequency expression.'
+  greek: Το ξενοδοχείο αυτό είναι πιο ακριβό από το άλλο.
+  phonetic_hint: to kseh-no-tho-KHEE-o ahf-TO EE-neh PYO ah-kree-VO ah-PO to AHL-lo
+  english: This hotel is more expensive than the other one.
+  notes: 'Klik A1 p. 129. Grammar: comparative construction ''πιο + επίθετο + από
+    + αιτιατική''.'
   gender_or_pos: phrase
-  audio: agorazo-ena-neo-vivl-6c6ed8.mp3
+  audio: to-xenodocheio-ayto--b062c9.mp3
   status: verified
-  example_el: Μου αρέσει πολύ το διάβασμα και αγοράζω ένα νέο βιβλίο κάθε μήνα.
-  example_en: I love reading and I buy a new book every month.
+  example_el: — Ποιο ξενοδοχείο να επιλέξουμε; — Το ξενοδοχείο αυτό είναι πιο ακριβό
+    από το άλλο, αλλά έχει πισίνα.
+  example_en: — Which hotel shall we choose? — This hotel is more expensive than the
+    other one, but it has a pool.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing monthly routines and purchasing habits
+  keg_communicative_function: Comparing hotel prices
 - id: A1-U105B-022
-  greek: Διαβάζει πολλά βιβλία τον ελεύθερο χρόνο της.
-  phonetic_hint: thyah-VAH-zee poh-LAH veev-LEE-ah ton eh-LEF-theh-roh KHROH-noh tees
-  english: She reads many books in her free time.
-  notes: 'Klik A1 p. 87, 95. Grammar: neuter accusative plural ''πολλά βιβλία'' +
-    adverbial accusative of time.'
+  greek: Η εκδρομή στη Βέροια είναι πιο φθηνή από την εκδρομή στην Αθήνα.
+  phonetic_hint: ee ek-thro-MEE stee VEH-ree-ah EE-neh PYO fthee-NEE ah-PO teen ek-thro-MEE
+    steen ah-THEE-nah
+  english: The excursion to Veroia is cheaper than the excursion to Athens.
+  notes: 'Klik A1 p. 119, 129. Grammar: comparative of feminine adjective: ''πιο φθηνή
+    από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: diavazei-polla-vivli-767da2.mp3
+  audio: i-ekdromi-sti-veroia-d0dcdd.mp3
   status: verified
-  example_el: Η Άννα δεν βλέπει τηλεόραση, αλλά διαβάζει πολλά βιβλία τον ελεύθερο
-    χρόνο της.
-  example_en: Anna doesn't watch TV, but reads many books in her free time.
+  example_el: — Πόσο κάνουν οι εκδρομές; — Η εκδρομή στη Βέροια είναι πιο φθηνή από
+    την εκδρομή στην Αθήνα.
+  example_en: — How much do the excursions cost? — The excursion to Veroia is cheaper
+    than the excursion to Athens.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Discussing reading habits and leisure duration
+  keg_communicative_function: Comparing tour package rates
 - id: A1-U105B-023
-  greek: Πού πας τώρα; — Πάω στο σούπερ μάρκετ.
-  phonetic_hint: poo pahs TOH-rah? — PAH-oh stoh SOO-pehr MAHR-ket
-  english: Where are you going now? — I am going to the supermarket.
-  notes: 'Klik A1 p. 93, 107. Grammar: verb ''πάω'' (πας 2nd sg. / πάω 1st sg.).'
+  greek: Το αεροπλάνο είναι πιο γρήγορο από το τρένο.
+  phonetic_hint: to ah-eh-ro-PLAH-no EE-neh PYO GREE-go-ro ah-PO to TREH-no
+  english: The airplane is faster than the train.
+  notes: 'Klik A1 p. 129, 130. Grammar: comparative ''πιο γρήγορο από'' with neuter
+    nouns.'
   gender_or_pos: phrase
-  audio: poy-pas-tora-pao-sto-6d693b.mp3
+  audio: to-aeroplano-einai-p-5b3c82.mp3
   status: verified
-  example_el: — Πού πας τώρα; — Πάω στο σούπερ μάρκετ για ψώνια.
-  example_en: — Where are you going now? — I am going to the supermarket for groceries.
+  example_el: — Γιατί παίρνεις αεροπλάνο; — Επειδή το αεροπλάνο είναι πιο γρήγορο
+    από το τρένο.
+  example_en: — Why are you taking a plane? — Because the airplane is faster than
+    the train.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking and answering about current destination
+  keg_communicative_function: Comparing travel speed between transit modes
 - id: A1-U105B-024
-  greek: Πάμε μια βόλτα στην πλατεία;
-  phonetic_hint: PAH-meh myah VOHL-tah steen plah-TEE-ah
-  english: Shall we go for a walk in the square?
-  notes: 'Klik A1 p. 88, 107. Grammar: verb ''πάμε'' (1st person plural) used as a
-    friendly proposal.'
+  greek: Το πλοίο είναι πιο αργό από το αεροπλάνο.
+  phonetic_hint: to PLEE-o EE-neh PYO ar-GO ah-PO to ah-eh-ro-PLAH-no
+  english: The ferry is slower than the airplane.
+  notes: 'Klik A1 p. 130. Grammar: comparative of αργός: ''πιο αργό από''.'
   gender_or_pos: phrase
-  audio: pame-mia-volta-stin--abffea.mp3
+  audio: to-ploio-einai-pio-a-87f885.mp3
   status: verified
-  example_el: Έχει ωραίο απόγευμα. Πάμε μια βόλτα στην πλατεία;
-  example_en: It's a nice afternoon. Shall we go for a walk in the square?
+  example_el: — Κάνει πολλές ώρες το ταξίδι; — Ναι, το πλοίο είναι πιο αργό από το
+    αεροπλάνο.
+  example_en: — Does the trip take many hours? — Yes, the ferry is slower than the
+    airplane.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Making social invitations and casual suggestions
+  keg_communicative_function: Contrasting transit durations
 - id: A1-U105B-025
-  greek: Τα παιδιά πάνε στο σχολείο με τα πόδια.
-  phonetic_hint: tah peh-THYAH PAH-neh stoh skhoh-LEE-oh meh tah POH-thyah
-  english: The children go to school on foot.
-  notes: 'Klik A1 p. 107. Grammar: verb ''πάνε'' (3rd person plural) + mode of transport
-    ''με τα πόδια''.'
+  greek: Η Μαρία είναι πιο ψηλή από την Ελένη.
+  phonetic_hint: ee mah-REE-ah EE-neh PYO psee-LEE ah-PO teen eh-LEH-nee
+  english: Maria is taller than Eleni.
+  notes: 'Klik A1 p. 129. Textbook example: comparative degree of ψηλός with feminine
+    proper nouns.'
   gender_or_pos: phrase
-  audio: ta-paidia-pane-sto-s-dfa25c.mp3
+  audio: i-maria-einai-pio-ps-82b10a.mp3
   status: verified
-  example_el: Το σχολείο είναι κοντά, γι' αυτό τα παιδιά πάνε στο σχολείο με τα πόδια.
-  example_en: The school is near, so the children go to school on foot.
+  example_el: — Ποια είναι η πιο ψηλή κοπέλα; — Η Μαρία είναι πιο ψηλή από την Ελένη.
+  example_en: — Who is the taller girl? — Maria is taller than Eleni.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing school commuting routines
+  keg_communicative_function: Comparing physical attributes of individuals
 - id: A1-U105B-026
-  greek: Ακούω το ραδιόφωνο στο αυτοκίνητο κάθε πρωί.
-  phonetic_hint: ah-KOO-oh toh rah-thyOH-foh-noh stoh ahf-toh-KEE-nee-toh KAH-theh
-    proh-EE
-  english: I listen to the radio in the car every morning.
-  notes: 'Klik A1 p. 93, 107. Grammar: verb ''ακούω'' (1st sg.) + direct object ''το
-    ραδιόφωνο''.'
+  greek: Ο Νίκος είναι πιο νέος από τον Κώστα.
+  phonetic_hint: o NEE-kos EE-neh PYO NEH-os ah-PO ton KOH-stah
+  english: Nikos is younger than Kostas.
+  notes: 'Klik A1 p. 129. Textbook example: comparative degree of νέος with masculine
+    proper nouns.'
   gender_or_pos: phrase
-  audio: akoyo-to-radiofono-s-be6685.mp3
+  audio: o-nikos-einai-pio-ne-52acf7.mp3
   status: verified
-  example_el: Όταν οδηγώ για το γραφείο, ακούω το ραδιόφωνο στο αυτοκίνητο κάθε πρωί.
-  example_en: When I drive to the office, I listen to the radio in the car every morning.
+  example_el: — Ποιος είναι μικρότερος σε ηλικία; — Ο Νίκος είναι πιο νέος από τον
+    Κώστα.
+  example_en: — Who is younger in age? — Nikos is younger than Kostas.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing morning commute habits and media consumption
+  keg_communicative_function: Comparing relative age
 - id: A1-U105B-027
-  greek: Ακούς τις ειδήσεις στις οκτώ το βράδυ;
-  phonetic_hint: ah-KOOS tees ee-THEE-sees stees ohk-TOH toh VRAH-thee
-  english: Do you listen to the news at eight in the evening?
-  notes: 'Klik A1 p. 107. Grammar: verb ''ακούς'' (2nd sg.) + feminine accusative
-    plural ''τις ειδήσεις''.'
+  greek: Αυτό το δωμάτιο είναι πιο μεγάλο από το προηγούμενο.
+  phonetic_hint: ahf-TO to tho-MAH-tee-o EE-neh PYO meh-GAH-lo ah-PO to pro-ee-YOO-meh-no
+  english: This room is bigger than the previous one.
+  notes: 'Klik A1 p. 130. Grammar: comparative of μεγάλος: ''πιο μεγάλο από''.'
   gender_or_pos: phrase
-  audio: akoys-tis-eidiseis-s-2ac4f5.mp3
+  audio: ayto-to-domatio-eina-e9e624.mp3
   status: verified
-  example_el: — Ακούς τις ειδήσεις στις οκτώ το βράδυ; — Ναι, πάντα.
-  example_en: — Do you listen to the news at eight in the evening? — Yes, always.
+  example_el: — Σου αρέσει το νέο σου δωμάτιο; — Ναι, αυτό το δωμάτιο είναι πιο μεγάλο
+    από το προηγούμενο.
+  example_en: — Do you like your new room? — Yes, this room is bigger than the previous
+    one.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about news habits and evening schedule
+  keg_communicative_function: Comparing room sizes in accommodations
 - id: A1-U105B-028
-  greek: Ακούμε ελληνική μουσική όταν μαγειρεύουμε.
-  phonetic_hint: ah-KOO-meh eh-lee-nee-KEE moo-see-KEE OH-tahn mah-yee-REHV-oo-meh
-  english: We listen to Greek music when we cook.
-  notes: 'Klik A1 p. 107. Grammar: verb ''ακούμε'' (1st pl.) + temporal conjunction
-    ''όταν'' + verb ''μαγειρεύουμε''.'
+  greek: Η δική σου βαλίτσα είναι πιο βαριά από τη δική μου.
+  phonetic_hint: ee thee-KEE soo vah-LEET-sah EE-neh PYO vah-RYAH ah-PO tee thee-KEE
+    moo
+  english: Your suitcase is heavier than mine.
+  notes: 'Klik A1 p. 130. Grammar: comparative with emphatic possessives (η δική σου
+    / η δική μου).'
   gender_or_pos: phrase
-  audio: akoyme-elliniki-moys-ec8de3.mp3
+  audio: i-diki-soy-valitsa-e-969c80.mp3
   status: verified
-  example_el: Μας αρέσει η παρέα στην κουζίνα και ακούμε ελληνική μουσική όταν μαγειρεύουμε.
-  example_en: We like company in the kitchen and listen to Greek music when we cook.
+  example_el: — Ποια βαλίτσα έχει υπέρβαρο; — Η δική σου βαλίτσα είναι πιο βαριά από
+    τη δική μου.
+  example_en: — Which suitcase is overweight? — Your suitcase is heavier than mine.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Relating concurrent leisure activities in the home
+  keg_communicative_function: Comparing luggage weight
 - id: A1-U105B-029
-  greek: Τι λες; — Λέω ότι έχεις απόλυτο δίκιο.
-  phonetic_hint: tee LEHS? — LEH-oh OH-tee EH-khees ah-POH-lee-toh THEE-kyoh
-  english: What do you say? / What do you mean? — I say that you are totally right.
-  notes: 'Klik A1 p. 93, 107. Grammar: verb ''λέω'' (λες 2nd sg. / λέω 1st sg.) +
-    subordinate conjunction ''ότι''.'
+  greek: Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.
+  phonetic_hint: meh PYO leh-o-fo-REE-o pee-GEH-nees steen kah-lah-mah-RYAH? — meh
+    to leh-o-fo-REE-o PEN-deh
+  english: Which bus do you take to Kalamaria? — With bus number five.
+  notes: 'Klik A1 p. 120, 122. Communicative transit inquiry: ''με ποιο λεωφορείο
+    + πηγαίνεις;''.'
   gender_or_pos: phrase
-  audio: ti-les-leo-oti-echei-731acc.mp3
+  audio: me-poio-leoforeio-pi-1f55df.mp3
   status: verified
-  example_el: — Τι λες για το σχέδιο; — Λέω ότι έχεις απόλυτο δίκιο.
-  example_en: — What do you think about the plan? — I say you are completely right.
+  example_el: — Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.
+  example_en: — Which bus do you take to Kalamaria? — With bus number five.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing opinions, agreement, and verbal interaction
+  keg_communicative_function: Asking for and stating specific bus routes
 - id: A1-U105B-030
-  greek: Πώς το λένε αυτό στα ελληνικά;
-  phonetic_hint: pohs toh LEH-neh ahf-TOH stah eh-lee-nee-KAH
-  english: How do you say this in Greek? / What do they call this in Greek?
-  notes: Klik A1 p. 107. Essential communicative phrase with 3rd plural impersonal
-    'λένε' + object pronoun 'το'.
+  greek: Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.
+  phonetic_hint: KAH-theh PO-so per-NAH-ee to leh-o-fo-REE-o THEH-kah? — per-NAH-ee
+    KAH-theh THEH-kah lep-TAH
+  english: How often does bus ten pass by? — It comes every ten minutes.
+  notes: 'Klik A1 p. 120, 122. Formula for transit frequency: ''κάθε πόσο περνάει...;''.'
   gender_or_pos: phrase
-  audio: pos-to-lene-ayto-sta-eca309.mp3
+  audio: kathe-poso-pernaei-t-2179c4.mp3
   status: verified
-  example_el: Δεν ξέρω τη λέξη. Πώς το λένε αυτό στα ελληνικά;
-  example_en: I don't know the word. How do you say this in Greek?
+  example_el: — Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.
+  example_en: — How often does bus ten pass by? — It comes every ten minutes.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for vocabulary clarification and meta-linguistic
-    support
+  keg_communicative_function: Inquiring about bus service frequency
 - id: A1-U105B-031
-  greek: Τι λέει η μητέρα σου για το ταξίδι;
-  phonetic_hint: tee LEH-ee ee mee-TEH-rah soo yah toh tahk-SEE-thee
-  english: What is your mother saying about the trip?
-  notes: 'Klik A1 p. 107. Grammar: verb ''λέει'' (3rd sg.) + preposition ''για'' +
-    neuter noun.'
+  greek: Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι τις έξι.
+  phonetic_hint: MEHKH-ree tee O-rah EE-seh sto grah-FEE-o SEE-meh-rah? — EE-meh ah-PO
+    tees ehn-NEH-ah MEHKH-ree tees EHK-see
+  english: Until what time are you at the office today? — I am there from nine to
+    six.
+  notes: 'Klik A1 p. 111, 122. Time range formula: ''από τις ... μέχρι τις ...''.'
   gender_or_pos: phrase
-  audio: ti-leei-i-mitera-soy-ba6ec7.mp3
+  audio: mechri-ti-ora-eisai--cf392d.mp3
   status: verified
-  example_el: — Μίλησες μαζί της; Τι λέει η μητέρα σου για το ταξίδι; — Χάρηκε πάρα
-    πολύ.
-  example_en: — Did you speak with her? What does your mother say about the trip?
-    — She was delighted.
+  example_el: — Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι
+    τις έξι.
+  example_en: — Until what time are you at the office today? — I am there from nine
+    to six.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting family opinions and reactions
+  keg_communicative_function: Stating work hours and time intervals
 - id: A1-U105B-032
-  greek: Τι τρως για πρωινό; — Τρώω ψωμί με μέλι.
-  phonetic_hint: tee TROHS yah proh-ee-NOH? — TROH-oh psoh-MEE meh MEH-lee
-  english: What do you eat for breakfast? — I eat bread with honey.
-  notes: 'Klik A1 p. 93, 107. Grammar: irregular verb ''τρώω'' (τρως 2nd sg. / τρώω
-    1st sg.).'
+  greek: Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.
+  phonetic_hint: ah-PO poo per-NAH-ee to tree-AHN-dah EH-nah? — per-NAH-ee ah-PO teen
+    plah-TEE-ah ah-ree-sto-TEH-loos
+  english: Where does bus thirty-one pass from? — It passes through Aristotelous Square.
+  notes: Klik A1 p. 122, 125. Spatial preposition 'από' + accusative for transit routing.
   gender_or_pos: phrase
-  audio: ti-tros-gia-proino-t-e6875e.mp3
+  audio: apo-poy-pernaei-to-t-0f1b53.mp3
   status: verified
-  example_el: — Τι τρως για πρωινό; — Τρώω ψωμί με μέλι και πίνω ένα ποτήρι γάλα.
-  example_en: — What do you eat for breakfast? — I eat bread with honey and drink
-    a glass of milk.
+  example_el: — Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.
+  example_en: — Where does bus thirty-one pass from? — It passes through Aristotelous
+    Square.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Discussing breakfast foods and morning eating habits
+  keg_communicative_function: Asking for landmarks along a bus route
 - id: A1-U105B-033
-  greek: Το μεσημέρι τρώμε όλοι μαζί στο σπίτι.
-  phonetic_hint: toh meh-see-MEH-ree TROH-meh OH-lee mah-ZEE stoh SPEE-tee
-  english: At noon we all eat together at home.
-  notes: 'Klik A1 p. 98, 107. Grammar: verb ''τρώμε'' (1st person plural) + adverb
-    of manner ''μαζί''.'
+  greek: Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις στη στάση Βενιζέλου.
+  phonetic_hint: PRO-tah PER-nees to THEH-kah keh meh-TAH kah-teh-VEH-nees stee STAH-see
+    veh-nee-ZEH-loo
+  english: First you take bus ten and then you get off at the Venizelou stop.
+  notes: 'Klik A1 p. 125. Sequential navigation instructions: ''πρώτα ... και μετά
+    ...''.'
   gender_or_pos: phrase
-  audio: to-mesimeri-trome-ol-379698.mp3
+  audio: prota-pairneis-to-de-7fcdff.mp3
   status: verified
-  example_el: Τις Κυριακές το μεσημέρι τρώμε όλοι μαζί στο σπίτι της γιαγιάς.
-  example_en: On Sunday afternoons we all eat together at grandmother's house.
+  example_el: — Πώς θα πάω στο κέντρο; — Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις
+    στη στάση Βενιζέλου.
+  example_en: — How do I get downtown? — First you take bus ten and then you get off
+    at the Venizelou stop.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing family mealtime traditions
+  keg_communicative_function: Giving multi-step transit directions
 - id: A1-U105B-034
-  greek: Τα παιδιά τρώνε φρούτα μετά το σχολείο.
-  phonetic_hint: tah peh-THYAH TROH-neh FROO-tah meh-TAH toh skhoh-LEE-oh
-  english: The children eat fruit after school.
-  notes: 'Klik A1 p. 107. Grammar: verb ''τρώνε'' (3rd person plural) + neuter plural
-    ''φρούτα''.'
+  greek: Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία στάση.
+  phonetic_hint: seh PYA STAH-see PREH-pee nah kah-TEH-vo yah to ah-eh-ro-THRO-mee-o?
+    — steen teh-lef-TEH-ah STAH-see
+  english: At which stop do I need to get off for the airport? — At the last stop.
+  notes: 'Klik A1 p. 121, 122, 125. Transit question: ''σε ποια στάση πρέπει να κατέβω...;''.'
   gender_or_pos: phrase
-  audio: ta-paidia-trone-froy-769859.mp3
+  audio: se-poia-stasi-prepei-35da59.mp3
   status: verified
-  example_el: Για κολατσιό τα παιδιά τρώνε φρούτα μετά το σχολείο.
-  example_en: For a snack, the children eat fruit after school.
+  example_el: — Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία
+    στάση.
+  example_en: — At which stop do I need to get off for the airport? — At the last
+    stop.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing children's dietary and snacking routines
+  keg_communicative_function: Confirming the correct stop to disembark
 - id: A1-U105B-035
-  greek: Τι ώρα κοιμάσαι συνήθως το βράδυ;
-  phonetic_hint: tee OH-rah kee-MAH-seh see-NEE-thos toh VRAH-thee
-  english: What time do you usually sleep at night?
-  notes: 'Klik A1 p. 93, 107. Grammar: mediopassive verb ''κοιμάμαι'' (κοιμάσαι 2nd
-    person singular).'
+  greek: Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε το εισιτήριο.
+  phonetic_hint: ah-neh-VEH-noo-meh sto leh-o-fo-REE-o keh eh-pee-kee-RO-noo-meh to
+    ee-see-TEE-ree-o
+  english: We get on the bus and validate the ticket.
+  notes: 'Klik A1 p. 121, 122. Transit verbs: ανεβαίνω + στο + λεωφορείο.'
   gender_or_pos: phrase
-  audio: ti-ora-koimasai-syni-31b7d4.mp3
+  audio: anevainoyme-sto-leof-019888.mp3
   status: verified
-  example_el: — Τι ώρα κοιμάσαι συνήθως το βράδυ; — Συνήθως κοιμάμαι στις έντεκα.
-  example_en: — What time do you usually go to bed at night? — I usually sleep at
-    eleven.
+  example_el: — Τι κάνουμε όταν μπαίνουμε; — Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε
+    το εισιτήριο.
+  example_en: — What do we do when we board? — We get on the bus and validate the
+    ticket.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about bedtime routines and sleep habits
+  keg_communicative_function: Describing standard boarding and ticketing procedures
 - id: A1-U105B-036
-  greek: Ο πατέρας κοιμάται νωρίς επειδή ξυπνάει στις πέντε.
-  phonetic_hint: oh pah-TEH-rahs kee-MAH-teh noh-REES eh-pee-THEE ksee-PNAH-ee stees
-    PEN-deh
-  english: Father goes to sleep early because he wakes up at five.
-  notes: 'Klik A1 p. 98, 107. Grammar: mediopassive 3rd sg. ''κοιμάται'' + causal
-    conjunction ''επειδή''.'
+  greek: Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.
+  phonetic_hint: PO-see O-rah KAH-nee to leh-o-fo-REE-o yah teen kah-VAH-lah? — KAH-nee
+    peh-REE-poo THEE-o O-res
+  english: How long does the bus take to Kavala? — It takes about two hours.
+  notes: 'Klik A1 p. 121, 123. Duration formula with transit vehicle: ''κάνει + χρόνο''.'
   gender_or_pos: phrase
-  audio: o-pateras-koimatai-n-295b15.mp3
+  audio: posi-ora-kanei-to-le-fe9c00.mp3
   status: verified
-  example_el: Λόγω της δουλειάς του, ο πατέρας κοιμάται νωρίς επειδή ξυπνάει στις
-    πέντε.
-  example_en: Due to his job, father sleeps early because he wakes up at five.
+  example_el: — Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.
+  example_en: — How long does the bus take to Kavala? — It takes about two hours.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Explaining the cause behind daily schedules
+  keg_communicative_function: Inquiring about journey duration
 - id: A1-U105B-037
-  greek: Τις Κυριακές κοιμόμαστε μέχρι αργά το πρωί.
-  phonetic_hint: tees kee-ryah-KEHS kee-MOH-mah-steh MEHKH-ree ahr-GHAH toh proh-EE
-  english: On Sundays we sleep until late in the morning.
-  notes: 'Klik A1 p. 107. Grammar: mediopassive 1st pl. ''κοιμόμαστε'' + preposition
-    ''μέχρι'' + adverb ''αργά''.'
+  greek: Γεια σας, θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για τρεις νύχτες.
+  phonetic_hint: YAH sahs, thah EE-theh-lah nah KLEE-so EH-nah THEE-klee-no tho-MAH-tee-o
+    yah trees NEEKH-tes
+  english: Hello, I would like to book a double room for three nights.
+  notes: 'Klik A1 p. 115, 121. Standard polite reservation opening: ''θα ήθελα να
+    κλείσω...''.'
   gender_or_pos: phrase
-  audio: tis-kyriakes-koimoma-c37b9d.mp3
+  audio: geia-sas-tha-ithela--fd36fe.mp3
   status: verified
-  example_el: Δεν έχουμε δουλειά, γι' αυτό τις Κυριακές κοιμόμαστε μέχρι αργά το πρωί.
-  example_en: We don't have work, so on Sundays we sleep until late in the morning.
+  example_el: — Ξενοδοχείο «Αστήρ», εμπρός! — Γεια σας, θα ήθελα να κλείσω ένα δίκλινο
+    δωμάτιο για τρεις νύχτες.
+  example_en: — Hotel Aster, hello! — Hello, I would like to book a double room for
+    three nights.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing weekend rest habits and late rising
+  keg_communicative_function: Opening a hotel room reservation dialogue
 - id: A1-U105B-038
-  greek: Έρχεσαι μαζί μας στην ταβέρνα το βράδυ;
-  phonetic_hint: EHR-kheh-seh mah-ZEE mahs steen tah-VEHR-nah toh VRAH-thee
-  english: Are you coming with us to the tavern tonight?
-  notes: 'Klik A1 p. 107. Grammar: mediopassive verb ''έρχομαι'' (έρχεσαι 2nd person
-    singular invitation).'
+  greek: Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα ευρώ.
+  phonetic_hint: PO-so koh-STEE-zee to mo-NO-klee-no tho-MAH-tee-o meh pro-ee-NO?
+    — koh-STEE-zee ehv-tho-MEEN-dah ev-RO
+  english: How much does the single room with breakfast cost? — It costs seventy euros.
+  notes: Klik A1 p. 115, 121. Price inquiry formula with impersonal verb 'κοστίζει'.
   gender_or_pos: phrase
-  audio: erchesai-mazi-mas-st-452252.mp3
+  audio: poso-kostizei-to-mon-15df4b.mp3
   status: verified
-  example_el: Θα πάμε για φαγητό. Έρχεσαι μαζί μας στην ταβέρνα το βράδυ;
-  example_en: We are going for food. Are you coming with us to the tavern tonight?
+  example_el: — Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα
+    ευρώ τη βραδιά.
+  example_en: — How much does the single room with breakfast cost? — It costs seventy
+    euros per night.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inviting someone out for dinner using 'έρχομαι'
+  keg_communicative_function: Inquiring about nightly accommodation rates
 - id: A1-U105B-039
-  greek: Ο Νίκος έρχεται στη δουλειά με το μετρό.
-  phonetic_hint: oh NEE-kohs EHR-kheh-teh stee thoo-LYAH meh toh meh-TROH
-  english: Nikos comes to work by metro.
-  notes: 'Klik A1 p. 107. Grammar: mediopassive 3rd sg. ''έρχεται'' + prepositional
-    phrase of transport.'
+  greek: Η εκδρομή στην Καστοριά είναι τρεις μέρες και κάνει διακόσια τριάντα πέντε
+    ευρώ.
+  phonetic_hint: ee ek-thro-MEE steen kah-sto-RYAH EE-neh trees MEH-res keh KAH-nee
+    thee-ah-KO-see-ah tree-AHN-dah PEN-deh ev-RO
+  english: The excursion to Kastoria is three days and costs two hundred thirty-five
+    euros.
+  notes: 'Klik A1 p. 119. Cardinal numbers in hundreds: διακόσια (200) + τριάντα πέντε
+    (35).'
   gender_or_pos: phrase
-  audio: o-nikos-erchetai-sti-2429e6.mp3
+  audio: i-ekdromi-stin-kasto-53660d.mp3
   status: verified
-  example_el: Δεν οδηγεί αυτοκίνητο. Ο Νίκος έρχεται στη δουλειά με το μετρό.
-  example_en: He does not drive a car. Nikos comes to work by metro.
+  example_el: — Πόσο κοστίζει το πακέτο; — Η εκδρομή στην Καστοριά είναι τρεις μέρες
+    και κάνει διακόσια τριάντα πέντε ευρώ.
+  example_en: — How much is the package? — The excursion to Kastoria is three days
+    and costs two hundred thirty-five euros.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing daily commute methods using 'έρχομαι'
+  keg_communicative_function: Quoting package tour duration and cost
 - id: A1-U105B-040
-  greek: Οι φίλοι μας έρχονται για φαγητό απόψε.
-  phonetic_hint: ee FEE-lee mahs EHR-khon-deh yah fah-yee-TOH ah-POH-pseh
-  english: Our friends are coming over for food tonight.
-  notes: 'Klik A1 p. 107. Grammar: mediopassive 3rd pl. ''έρχονται'' + temporal adverb
-    ''απόψε''.'
+  greek: Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες και κοστίζει τετρακόσια εβδομήντα
+    ευρώ.
+  phonetic_hint: ee ek-thro-MEE steen ah-THEE-nah thee-ar-KEE PEN-deh MEH-res keh
+    koh-STEE-zee teh-trah-KO-see-ah ehv-tho-MEEN-dah ev-RO
+  english: The excursion to Athens lasts five days and costs four hundred seventy
+    euros.
+  notes: 'Klik A1 p. 119. Cardinal numbers in hundreds: τετρακόσια (400) + εβδομήντα
+    (70).'
   gender_or_pos: phrase
-  audio: oi-filoi-mas-erchont-6d8e67.mp3
+  audio: i-ekdromi-stin-athin-a397ab.mp3
   status: verified
-  example_el: Πρέπει να καθαρίσω το σπίτι γιατί οι φίλοι μας έρχονται για φαγητό απόψε.
-  example_en: I must clean the house because our friends are coming for food tonight.
+  example_el: — Πόσο διαρκεί το ταξίδι; — Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες
+    και κοστίζει τετρακόσια εβδομήντα ευρώ.
+  example_en: — How long does the trip last? — The excursion to Athens lasts five
+    days and costs four hundred seventy euros.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Announcing evening social gatherings and visits
+  keg_communicative_function: Providing tour duration and hundred-level pricing
 - id: A1-U105B-041
-  greek: Τι ώρα είναι; — Είναι οκτώ και τέταρτο.
-  phonetic_hint: tee OH-rah EE-neh? — EE-neh ohk-TOH keh TEH-tahr-toh
-  english: What time is it? — It is a quarter past eight.
-  notes: Klik A1 p. 100-101. Standard time expression with 'και τέταρτο' (:15).
+  greek: Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ.
+  phonetic_hint: PO-so KAH-noon THEE-o ee-see-TEE-ree-ah meh eh-pee-stro-FEE? — KAH-noon
+    eh-kah-TON THEH-kah ev-RO
+  english: How much are two return tickets? — They cost one hundred ten euros.
+  notes: 'Klik A1 p. 119. Price query in plural: ''πόσο κάνουν...;'' with number 110
+    (εκατόν δέκα).'
   gender_or_pos: phrase
-  audio: ti-ora-einai-einai-o-849d8b.mp3
+  audio: poso-kanoyn-dyo-eisi-3fd4b0.mp3
   status: verified
-  example_el: — Συγγνώμη, τι ώρα είναι; — Είναι οκτώ και τέταρτο.
-  example_en: — Excuse me, what time is it? — It is a quarter past eight.
+  example_el: — Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ
+    συνολικά.
+  example_en: — How much are two return tickets? — They cost one hundred ten euros
+    in total.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about and stating the exact hour and quarter
-    past
+  keg_communicative_function: Inquiring about round-trip ticket costs
 - id: A1-U105B-042
-  greek: Είναι εννέα και μισή το βράδυ.
-  phonetic_hint: EE-neh eh-NEH-ah keh mee-SEE toh VRAH-thee
-  english: It is nine thirty in the evening.
-  notes: Klik A1 p. 100-101. Standard time expression with 'και μισή' (:30) and time-of-day
-    clarification.
+  greek: Το ξενοδοχείο προσφέρει πρωινό και δωρεάν σύνδεση στο διαδίκτυο.
+  phonetic_hint: to kseh-no-tho-KHEE-o pros-FEH-ree pro-ee-NO keh tho-reh-AHN SEEN-theh-see
+    sto thee-ah-THEEK-tee-o
+  english: The hotel offers breakfast and free internet connection.
+  notes: Klik A1 p. 115, 121. Describing hotel amenities and complementary services.
   gender_or_pos: phrase
-  audio: einai-ennea-kai-misi-04ead8.mp3
+  audio: to-xenodocheio-prosf-b84557.mp3
   status: verified
-  example_el: Είναι εννέα και μισή το βράδυ και η πόλη είναι ακόμα γεμάτη κόσμο.
-  example_en: It is half past nine in the evening and the city is still full of people.
+  example_el: — Τι περιλαμβάνεται στην τιμή; — Το ξενοδοχείο προσφέρει πρωινό και
+    δωρεάν σύνδεση στο διαδίκτυο.
+  example_en: — What is included in the price? — The hotel offers breakfast and free
+    internet connection.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating half-past hours in context
+  keg_communicative_function: Describing included hotel amenities
 - id: A1-U105B-043
-  greek: Είναι δέκα παρά είκοσι.
-  phonetic_hint: EE-neh THEH-kah pah-RAH EE-koh-see
-  english: It is twenty to ten.
-  notes: Klik A1 p. 100-101. Prepositional time subtraction with 'παρά' (:40 = 'δέκα
-    παρά είκοσι').
+  greek: Εάν βρέχει και χιονίζει, το ταξίδι μας δεν αρχίζει.
+  phonetic_hint: eh-AHN VREH-khee keh khyo-NEE-zee, to tahk-SEE-thee mahs then ar-KHEE-zee
+  english: If it rains and snows, our journey does not begin.
+  notes: Klik A1 p. 127. Textbook travel rhyme with weather verbs (βρέχει, χιονίζει).
   gender_or_pos: phrase
-  audio: einai-deka-para-eiko-13f099.mp3
+  audio: ean-vrechei-kai-chio-815120.mp3
   status: verified
-  example_el: Βιάσου, είναι δέκα παρά είκοσι και το λεωφορείο περνάει στις δέκα.
-  example_en: Hurry up, it is twenty to ten and the bus passes at ten.
+  example_el: — Θα ξεκινήσουμε με αυτή την κακοκαιρία; — Εάν βρέχει και χιονίζει,
+    το ταξίδι μας δεν αρχίζει!
+  example_en: — Shall we set off in this bad weather? — If it rains and snows, our
+    journey does not begin!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating time before the hour using 'παρά'
+  keg_communicative_function: Reciting cultural travel rhymes regarding weather
 - id: A1-U105B-044
-  greek: Είναι τρεις ακριβώς το μεσημέρι.
-  phonetic_hint: EE-neh trees ah-kree-VOHS toh meh-see-MEH-ree
-  english: It is exactly three in the afternoon.
-  notes: Klik A1 p. 100-101. Precision time indicator 'ακριβώς' (on the dot / sharp).
+  greek: Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.
+  phonetic_hint: tee keh-RO KAH-nee SEE-meh-rah? — EH-khee seen-neh-FYAH ah-LAH then
+    VREH-khee
+  english: What is the weather like today? — It is cloudy but it isn't raining.
+  notes: Klik A1 p. 127. Core weather question and response formula.
   gender_or_pos: phrase
-  audio: einai-treis-akrivos--75bd5e.mp3
+  audio: ti-kairo-kanei-simer-e9aa69.mp3
   status: verified
-  example_el: Το ρολόι χτυπάει, είναι τρεις ακριβώς το μεσημέρι.
-  example_en: The clock is chiming, it is exactly three in the afternoon.
+  example_el: — Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.
+  example_en: — What is the weather like today? — It is cloudy but it isn't raining.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing precise on-the-hour time
+  keg_communicative_function: Asking for and reporting current weather conditions
 - id: A1-U105B-045
-  greek: Τι ώρα αρχίζει η ταινία; — Αρχίζει στις εννέα.
-  phonetic_hint: tee OH-rah ahr-KHEE-zee ee teh-NEE-ah? — ahr-KHEE-zee stees eh-NEH-ah
-  english: What time does the movie start? — It starts at nine.
-  notes: 'Klik A1 p. 100, 102. Grammar: verb ''αρχίζει'' (it starts) + prepositional
-    time ''στις εννέα''.'
+  greek: Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.
+  phonetic_hint: poo THEH-lees nah PAH-meh thee-ah-ko-PES? — THEH-lo nah PAH-meh stee
+    sahn-do-REE-nee meh to PLEE-o
+  english: Where do you want us to go on vacation? — I want us to go to Santorini
+    by ferry.
+  notes: Klik A1 p. 113, 121. Communicative Q&A turn for planning summer holidays.
   gender_or_pos: phrase
-  audio: ti-ora-archizei-i-ta-13f1fc.mp3
+  audio: poy-theleis-na-pame--feeecc.mp3
   status: verified
-  example_el: — Τι ώρα αρχίζει η ταινία; — Αρχίζει στις εννέα, ας πάρουμε εισιτήρια.
-  example_en: — What time does the film start? — It starts at nine, let's buy tickets.
+  example_el: — Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.
+  example_en: — Where do you want us to go on vacation? — I want us to go to Santorini
+    by ferry.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about cinema and event start times
+  keg_communicative_function: Discussing holiday destinations and transport options
 - id: A1-U105B-046
-  greek: Το μάθημα τελειώνει στις δύο και τέταρτο.
-  phonetic_hint: toh MAH-thee-mah teh-lyOH-nee stees THEE-oh keh TEH-tahr-toh
-  english: The lesson finishes at a quarter past two.
-  notes: 'Klik A1 p. 102. Grammar: verb ''τελειώνει'' (it ends / finishes) + time
-    structure.'
+  greek: Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον καιρό.
+  phonetic_hint: PAH-meh EH-nah tahk-SEE-thee? — O-khee, thee-stee-KHOS EH-kho PAH-rah
+    po-LEE thoo-LYAH ahf-TON don keh-RO
+  english: Shall we go on a trip? — No, unfortunately I have too much work at this
+    time.
+  notes: Klik A1 p. 111, 113. Colloquial invitation and polite refusal with explanation.
   gender_or_pos: phrase
-  audio: to-mathima-teleionei-3681e0.mp3
+  audio: pame-ena-taxidi-ochi-7d59aa.mp3
   status: verified
-  example_el: Μην ανησυχείς, το μάθημα τελειώνει στις δύο και τέταρτο και μετά είμαι
-    ελεύθερος.
-  example_en: Don't worry, the lesson finishes at a quarter past two and then I am
-    free.
+  example_el: — Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον
+    καιρό.
+  example_en: — Shall we go on a trip? — No, unfortunately I have too much work at
+    this time.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Communicating end times and academic schedules
+  keg_communicative_function: Declining an invitation due to professional workload
 - id: A1-U105B-047
-  greek: Η τράπεζα ανοίγει στις οκτώ και κλείνει στις δύο.
-  phonetic_hint: ee TRAH-peh-zah ah-NEE-yee stees ohk-TOH keh KLEE-nee stees THEE-oh
-  english: The bank opens at eight and closes at two.
-  notes: 'Klik A1 p. 102. Grammar: contrast verbs ''ανοίγει'' (opens) and ''κλείνει''
-    (closes) with opening hours.'
+  greek: Την πρώτη μέρα φτάνουμε στην Καβάλα και το απόγευμα έχουμε ελεύθερο χρόνο.
+  phonetic_hint: teen PRO-tee MEH-rah FTAH-noo-meh steen kah-VAH-lah keh to ah-PO-yev-mah
+    EH-khoo-meh eh-LEF-theh-ro KHRO-no
+  english: On the first day we arrive in Kavala and in the afternoon we have free
+    time.
+  notes: Klik A1 p. 123. Itinerary narrative with ordinal number (πρώτη μέρα) and
+    accusative time adjunct.
   gender_or_pos: phrase
-  audio: i-trapeza-anoigei-st-9f0a6e.mp3
+  audio: tin-proti-mera-ftano-6e8da4.mp3
   status: verified
-  example_el: Πρέπει να πας νωρίς, επειδή η τράπεζα ανοίγει στις οκτώ και κλείνει
-    στις δύο.
-  example_en: You must go early, because the bank opens at eight and closes at two.
+  example_el: — Ποιο είναι το πρόγραμμα; — Την πρώτη μέρα φτάνουμε στην Καβάλα και
+    το απόγευμα έχουμε ελεύθερο χρόνο.
+  example_en: — What is the schedule? — On the first day we arrive in Kavala and in
+    the afternoon we have free time.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing business hours and administrative operational
-    schedules
+  keg_communicative_function: Narrating day-one itinerary stages
 - id: A1-U105B-048
-  greek: Ξυπνάω νωρίς, πλένομαι και πίνω έναν ζεστό καφέ.
-  phonetic_hint: ksee-PNAH-oh noh-REES, PLEH-noh-meh keh PEE-noh EH-nahn zehs-TOH
-    kah-FEH
-  english: I wake up early, wash myself, and drink a hot coffee.
-  notes: Klik A1 p. 98-99. Sequence of morning routine actions with mediopassive reflexive
-    'πλένομαι'.
+  greek: Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε μια βόλτα στην πόλη.
+  phonetic_hint: tee THEHF-teh-ree MEH-rah TRO-meh pro-ee-NO stees ok-TO keh KAH-noo-meh
+    mee-ah VOL-tah steen PO-lee
+  english: On the second day we eat breakfast at eight and take a walk in the city.
+  notes: Klik A1 p. 123. Itinerary narrative with ordinal number (δεύτερη μέρα) and
+    clock time.
   gender_or_pos: phrase
-  audio: xypnao-noris-plenoma-b018c4.mp3
+  audio: ti-deyteri-mera-trom-13785b.mp3
   status: verified
-  example_el: Κάθε εργάσιμη μέρα ξυπνάω νωρίς, πλένομαι και πίνω έναν ζεστό καφέ.
-  example_en: Every working day I wake up early, wash, and drink a hot coffee.
+  example_el: — Τι κάνουμε μετά; — Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε
+    μια βόλτα στην πόλη.
+  example_en: — What do we do next? — On the second day we eat breakfast at eight
+    and take a walk in the city.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Narrating chronological morning routines
+  keg_communicative_function: Describing sightseeing schedules and meals
 - id: A1-U105B-049
-  greek: Φεύγω από το σπίτι στις οκτώ και μισή και γυρίζω στις έξι.
-  phonetic_hint: FEHV-ghoh ah-POH toh SPEE-tee stees ohk-TOH keh mee-SEE keh yee-REE-zoh
-    stees EHK-see
-  english: I leave the house at eight-thirty and return at six.
-  notes: Klik A1 p. 98-99. Pair verbs 'φεύγω από' (leave from) and 'γυρίζω' (return).
+  greek: Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.
+  phonetic_hint: o PRO-tos nee-kee-TEES too thee-ah-go-nees-MOO ker-THEE-zee EH-nah
+    tahk-SEE-thee steen ah-meh-ree-KEE
+  english: The first winner of the competition wins a trip to America.
+  notes: 'Klik A1 p. 127. Textbook example: ordinal number + genitive of possession
+    (του διαγωνισμού).'
   gender_or_pos: phrase
-  audio: feygo-apo-to-spiti-s-610255.mp3
+  audio: o-protos-nikitis-toy-d30972.mp3
   status: verified
-  example_el: 'Έχω πολλή δουλειά σήμερα: φεύγω από το σπίτι στις οκτώ και μισή και
-    γυρίζω στις έξι.'
-  example_en: 'I have lots of work today: I leave home at eight-thirty and return
-    at six.'
+  example_el: — Ποιο είναι το μεγάλο έπαθλο; — Ο πρώτος νικητής του διαγωνισμού κερδίζει
+    ένα ταξίδι στην Αμερική.
+  example_en: — What is the grand prize? — The first winner of the competition wins
+    a trip to America.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing departure and return times for work
+  keg_communicative_function: Announcing competition prizes and ordinal ranks
 - id: A1-U105B-050
-  greek: Πάντα πίνω καφέ το πρωί, αλλά ποτέ δεν πίνω καφέ το βράδυ.
-  phonetic_hint: PAHN-dah PEE-noh kah-FEH toh proh-EE, ah-LAH poh-TEH then PEE-noh
-    kah-FEH toh VRAH-thee
-  english: I always drink coffee in the morning, but I never drink coffee at night.
-  notes: 'Klik A1 p. 98, 109-110. Frequency contrast: ''πάντα'' (always) versus ''ποτέ
-    δεν'' (never).'
+  greek: Περιμένω την απάντησή σου στο γράμμα μου! Πολλά φιλιά.
+  phonetic_hint: peh-ree-MEH-no teen ah-PAHN-dee-see soo sto GRAH-mah moo! po-LAH
+    fee-LYAH
+  english: I am waiting for your reply to my letter! Lots of kisses.
+  notes: Klik A1 p. 111, 132. Traditional letter/email closing formula among friends.
   gender_or_pos: phrase
-  audio: panta-pino-kafe-to-p-1fab99.mp3
+  audio: perimeno-tin-apantis-8cd3e0.mp3
   status: verified
-  example_el: Για να κοιμάμαι εύκολα, πάντα πίνω καφέ το πρωί, αλλά ποτέ δεν πίνω
-    καφέ το βράδυ.
-  example_en: In order to sleep easily, I always drink coffee in the morning, but
-    never drink coffee at night.
+  example_el: '— Πώς κλείνεις το γράμμα σου; — Γράφω: «Περιμένω την απάντησή σου στο
+    γράμμα μου! Πολλά φιλιά».'
+  example_en: '— How do you conclude your letter? — I write: ''I am waiting for your
+    reply to my letter! Lots of kisses.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing frequency contrasts with 'πάντα' and 'ποτέ'
-- id: A1-U105B-051
-  greek: Πηγαίνω στο γυμναστήριο τρεις φορές την εβδομάδα.
-  phonetic_hint: pee-YEH-noh stoh yeem-nahs-TEE-ree-oh trees foh-REHS teen ehv-thoh-MAH-thah
-  english: I go to the gym three times a week.
-  notes: 'Klik A1 p. 98, 109. Frequency expression: ''τρεις φορές την εβδομάδα'' (three
-    times a week).'
-  gender_or_pos: phrase
-  audio: pigaino-sto-gymnasti-26cb5d.mp3
-  status: verified
-  example_el: Για να διατηρούμαι σε φόρμα, πηγαίνω στο γυμναστήριο τρεις φορές την
-    εβδομάδα.
-  example_en: To stay in shape, I go to the gym three times a week.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Stating regular frequency of exercise and sporting habits
-- id: A1-U105B-052
-  greek: Συνήθως τρώμε βραδινό στις εννέα, αλλά σπάνια βλέπουμε τηλεόραση.
-  phonetic_hint: see-NEE-thos TROH-meh vrah-thee-NOH stees eh-NEH-ah, ah-LAH SPAH-nyah
-    VLEH-poo-meh tee-leh-OH-rah-see
-  english: We usually eat dinner at nine, but we rarely watch television.
-  notes: 'Klik A1 p. 109-110. Frequency contrast: ''συνήθως'' (usually) versus ''σπάνια''
-    (rarely).'
-  gender_or_pos: phrase
-  audio: synithos-trome-vradi-d71cb7.mp3
-  status: verified
-  example_el: Στην οικογένειά μας συνήθως τρώμε βραδινό στις εννέα, αλλά σπάνια βλέπουμε
-    τηλεόραση.
-  example_en: In our family we usually have dinner at nine, but we rarely watch television.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Expressing recurring lifestyle habits with 'συνήθως'
-    and 'σπάνια'
-description: 'Expansion & Complementary to Lesson 105: Sentence structures, syntax
-  patterns, accusative direct objects, irregular verbs, and time-telling.'
+  keg_communicative_function: Closing personal correspondence warmly

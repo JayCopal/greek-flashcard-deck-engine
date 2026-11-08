@@ -1,805 +1,789 @@
 unit_id: unit-106b
 lesson_id: lesson-01
-title: 'Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)'
-description: 'Expansion & Complementary to Lesson 106: Sentence structures, syntax
-  patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
-  να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective + από),
-  transit navigation, and communicative dialogues.'
+title: 'Ενότητα 6: Προτάσεις & Γραμματική — Σπίτι μου, σπιτάκι μου (Pages 133-150)'
+description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+  patterns, imperative mood (προστακτική: κάνε/κάντε, άκου/ακούστε, μη + υποτακτική),
+  spatial prepositions (μέσα, έξω, πάνω, κάτω, μπροστά, πίσω, δεξιά, αριστερά), adjective
+  agreement, colors, real estate ads, and housing dialogues.'
 lesson_status: not_started
 entries:
 - id: A1-U106B-001
-  greek: Θέλω να πάω ένα ταξίδι στην Ελλάδα.
-  phonetic_hint: THEH-lo nah PAH-o EH-nah tahk-SEE-thee steen eh-LAH-thah
-  english: I want to go on a trip to Greece.
-  notes: 'Klik A1 p. 111, 115. Grammar: ''θέλω να'' + subjunctive of irregular verb
-    πηγαίνω/πάω.'
+  greek: Άνοιξε το παράθυρο, σε παρακαλώ, γιατί έχει πολλή ζέστη.
+  phonetic_hint: AH-neek-seh to pah-RAH-thee-ro, seh pah-rah-kah-LO, yah-TEE EH-khee
+    po-LEE ZEH-stee
+  english: Open the window, please, because it is very hot.
+  notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (άνοιξε) of
+    verb ανοίγω.'
   gender_or_pos: phrase
-  audio: thelo-na-pao-ena-tax-bea078.mp3
+  audio: anoixe-to-parathyro--e6777d.mp3
   status: verified
-  example_el: — Τι σχέδια έχεις για το καλοκαίρι; — Θέλω να πάω ένα ταξίδι στην Ελλάδα.
-  example_en: — What plans do you have for the summer? — I want to go on a trip to
-    Greece.
+  example_el: — Έχει πολλή ζέστη εδώ μέσα! — Άνοιξε το παράθυρο, σε παρακαλώ, να μπει
+    αέρας.
+  example_en: — It is very hot in here! — Open the window, please, to let some air
+    in.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing desires for holiday travel
+  keg_communicative_function: Requesting room ventilation using the imperative
 - id: A1-U106B-002
-  greek: Πρέπει να αγοράσουμε τα εισιτήρια σήμερα.
-  phonetic_hint: PREH-pee nah ah-go-RAH-soo-meh tah ee-see-TEE-ree-ah SEE-meh-rah
-  english: We must buy the tickets today.
-  notes: 'Klik A1 p. 111, 115. Grammar: impersonal modal ''πρέπει να'' + Aorist Subjunctive
-    1st person plural (αγοράσουμε).'
+  greek: Κλείσε την πόρτα όταν βγεις έξω.
+  phonetic_hint: KLEE-seh teen POR-tah O-tahn vgees EH-kso
+  english: Close the door when you go out.
+  notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (κλείσε) of
+    verb κλείνω.'
   gender_or_pos: phrase
-  audio: prepei-na-agorasoyme-000d85.mp3
+  audio: kleise-tin-porta-ota-54f8b1.mp3
   status: verified
-  example_el: — Πότε θα πάρουμε τα εισιτήρια; — Πρέπει να αγοράσουμε τα εισιτήρια
-    σήμερα.
-  example_en: — When shall we get the tickets? — We must buy the tickets today.
+  example_el: — Φεύγω για το σούπερ μάρκετ! — Εντάξει, κλείσε την πόρτα όταν βγεις
+    έξω.
+  example_en: — I am leaving for the supermarket! — Okay, close the door when you
+    go out.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing necessity and urgent booking tasks
+  keg_communicative_function: Giving home security instructions upon exiting
 - id: A1-U106B-003
-  greek: Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο;
-  phonetic_hint: bo-REE-teh nah KLEE-seh-teh EH-nah tho-MAH-tee-o sto thee-ah-THEEK-tee-o
-  english: Can you book a room on the internet?
-  notes: 'Klik A1 p. 111, 115. Grammar: polite question ''μπορείτε να'' (2nd person
-    plural) + Aorist Subjunctive (κλείσετε).'
+  greek: Καθάρισε το δωμάτιό σου πριν έρθουν οι καλεσμένοι.
+  phonetic_hint: kah-THAH-ree-seh to tho-MAH-tee-O soo preen EHR-thoon ee kah-leh-ZMEH-nee
+  english: Clean your room before the guests arrive.
+  notes: 'Klik A1 p. 144, 146, 148. Grammar: affirmative imperative singular (καθάρισε)
+    of καθαρίζω.'
   gender_or_pos: phrase
-  audio: mporeite-na-kleisete-d61191.mp3
+  audio: katharise-to-domatio-357bc9.mp3
   status: verified
-  example_el: — Δεν έχω υπολογιστή. Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο;
-    — Βεβαίως, αμέσως.
-  example_en: — I don't have a computer. Can you book a room on the internet? — Certainly,
-    right away.
+  example_el: — Έρχονται οι φίλοι μας σε λίγο! — Καθάρισε το δωμάτιό σου πριν έρθουν
+    οι καλεσμένοι.
+  example_en: — Our friends are coming in a little while! — Clean your room before
+    the guests arrive.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Making polite requests for accommodation booking
+  keg_communicative_function: Instructing family members to tidy bedrooms
 - id: A1-U106B-004
-  greek: Λέω να πάμε στο βουνό ή στη θάλασσα;
-  phonetic_hint: LEH-o nah PAH-meh sto voo-NO ee stee THAH-lah-sah
-  english: Shall we go to the mountain or to the sea?
-  notes: 'Klik A1 p. 111, 115. Grammar: ''λέω να'' expressing suggestion or tentative
-    plan + subjunctive 1st plural (πάμε).'
+  greek: Βάλε τα ρούχα σου μέσα στην ντουλάπα.
+  phonetic_hint: VAH-leh tah ROO-khah soo MEH-sah steen doo-LAH-pah
+  english: Put your clothes inside the wardrobe.
+  notes: 'Klik A1 p. 146, 147. Grammar: irregular imperative singular (βάλε) of βάζω
+    + spatial preposition ''μέσα σε''.'
   gender_or_pos: phrase
-  audio: leo-na-pame-sto-voyn-6464e6.mp3
+  audio: vale-ta-roycha-soy-m-77c7c0.mp3
   status: verified
-  example_el: — Λέω να πάμε στο βουνό ή στη θάλασσα; — Προτιμώ να πάμε στη θάλασσα.
-  example_en: — Shall we go to the mountain or to the sea? — I prefer going to the
-    sea.
+  example_el: — Πού να αφήσω τα καινούργια ρούχα; — Βάλε τα ρούχα σου μέσα στην ντουλάπα.
+  example_en: — Where should I leave the new clothes? — Put your clothes inside the
+    wardrobe.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Proposing destination options
+  keg_communicative_function: Instructing where to store clothing
 - id: A1-U106B-005
-  greek: Πρέπει να φτιάξω τη βαλίτσα μου απόψε το βράδυ.
-  phonetic_hint: PREH-pee nah FTYAH-kso tee vah-LEET-sah moo ah-PO-pseh to VRAH-thee
-  english: I must pack my suitcase tonight.
-  notes: 'Klik A1 p. 114, 118. Grammar: ''πρέπει να'' + Aorist Subjunctive 1st singular
-    of φτιάχνω (φτιάξω).'
+  greek: Πλύνε τα πιάτα μετά το μεσημεριανό φαγητό.
+  phonetic_hint: PLEE-neh tah PYA-tah meh-TAH to meh-see-meh-ree-ah-NO fah-yee-TO
+  english: Wash the dishes after lunch.
+  notes: 'Klik A1 p. 146, 148. Grammar: irregular imperative singular (πλύνε) of πλένω.'
   gender_or_pos: phrase
-  audio: prepei-na-ftiaxo-ti--ba23cb.mp3
+  audio: plyne-ta-piata-meta--f57fa1.mp3
   status: verified
-  example_el: — Έρχεσαι για καφέ; — Όχι, πρέπει να φτιάξω τη βαλίτσα μου απόψε το
-    βράδυ.
-  example_en: — Are you coming for coffee? — No, I must pack my suitcase tonight.
+  example_el: — Τελειώσαμε το φαγητό. — Ωραία, πλύνε τα πιάτα μετά το μεσημεριανό
+    φαγητό.
+  example_en: — We finished eating. — Great, wash the dishes after lunch.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating packing requirements before departure
+  keg_communicative_function: Assigning post-meal kitchen chores
 - id: A1-U106B-006
-  greek: Θέλω να αγοράσω μια καινούργια φωτογραφική μηχανή.
-  phonetic_hint: THEH-lo nah ah-go-RAH-so mee-ah keh-NOOR-gyah foh-toh-grah-fee-KEE
-    mee-khah-NEE
-  english: I want to buy a new camera.
-  notes: 'Klik A1 p. 111, 116. Grammar: ''θέλω να'' + Aorist Subjunctive (αγοράσω)
-    + feminine accusative noun phrase.'
+  greek: Άναψε το φως στο διάδρομο, γιατί είναι σκοτεινά.
+  phonetic_hint: AH-nah-pseh to fos sto thee-AH-thro-mo, yah-TEE EE-neh sko-tee-NAH
+  english: Turn on the light in the hallway, because it is dark.
+  notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (άναψε) of ανάβω.'
   gender_or_pos: phrase
-  audio: thelo-na-agoraso-mia-48bf74.mp3
+  audio: anapse-to-fos-sto-di-da3c47.mp3
   status: verified
-  example_el: — Τι θέλεις να πάρεις για το ταξίδι; — Θέλω να αγοράσω μια καινούργια
-    φωτογραφική μηχανή.
-  example_en: — What do you want to get for the trip? — I want to buy a new camera.
+  example_el: — Δεν βλέπω τίποτα εδώ! — Άναψε το φως στο διάδρομο, γιατί είναι σκοτεινά.
+  example_en: — I cannot see anything here! — Turn on the light in the hallway, because
+    it is dark.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing intention to purchase travel equipment
+  keg_communicative_function: Requesting hallway illumination
 - id: A1-U106B-007
-  greek: Μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη;
-  phonetic_hint: bo-RO nah ah-NEEK-so to pah-RAH-thee-ro yah-TEE EH-khee ZEH-stee
-  english: Can I open the window, because it is hot?
-  notes: 'Klik A1 p. 116, 118. Grammar: permission inquiry ''μπορώ να'' + Aorist Subjunctive
-    of ανοίγω (ανοίξω).'
+  greek: Σβήσε το καλοριφέρ πριν φύγεις από το σπίτι.
+  phonetic_hint: ZVEE-seh to kah-lo-ree-FEHR preen FEE-yees ah-PO to SPEE-tee
+  english: Turn off the radiator before you leave the house.
+  notes: 'Klik A1 p. 140, 146. Grammar: affirmative imperative singular (σβήσε) of
+    σβήνω.'
   gender_or_pos: phrase
-  audio: mporo-na-anoixo-to-p-b84608.mp3
+  audio: svise-to-kalorifer-p-f3043b.mp3
   status: verified
-  example_el: — Συγγνώμη, μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη; — Ναι, φυσικά.
-  example_en: — Excuse me, can I open the window, because it is hot? — Yes, of course.
+  example_el: — Ετοιμάζομαι να φύγω! — Μην ξεχάσεις, σβήσε το καλοριφέρ πριν φύγεις
+    από το σπίτι.
+  example_en: — I am getting ready to leave! — Don't forget, turn off the radiator
+    before you leave the house.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for permission politely in transport or rooms
+  keg_communicative_function: Instructing on heating management and energy saving
 - id: A1-U106B-008
-  greek: Πρέπει να φύγουμε νωρίς για να μη χάσουμε το πλοίο.
-  phonetic_hint: PREH-pee nah FEE-goo-meh no-REES yah nah mee KHAH-soo-meh to PLEE-o
-  english: We must leave early so we don't miss the ferry.
-  notes: 'Klik A1 p. 116, 117. Grammar: ''πρέπει να φύγουμε'' + negative purpose clause
-    ''για να μη χάσουμε''.'
+  greek: Φέρε μου ένα ποτήρι δροσερό νερό από την κουζίνα.
+  phonetic_hint: FEH-reh moo EH-nah po-TEE-ree thro-seh-RO neh-RO ah-PO teen koo-ZEE-nah
+  english: Bring me a glass of cool water from the kitchen.
+  notes: 'Klik A1 p. 146, 147. Grammar: irregular imperative singular (φέρε) of φέρνω
+    + weak pronoun μου.'
   gender_or_pos: phrase
-  audio: prepei-na-fygoyme-no-fa7a64.mp3
+  audio: fere-moy-ena-potiri--27f157.mp3
   status: verified
-  example_el: — Τι ώρα θα ξεκινήσουμε; — Πρέπει να φύγουμε νωρίς για να μη χάσουμε
-    το πλοίο.
-  example_en: — What time shall we set off? — We must leave early so we don't miss
-    the ferry.
+  example_el: — Διψάω πολύ! — Φέρε μου ένα ποτήρι δροσερό νερό από την κουζίνα.
+  example_en: — I am very thirsty! — Bring me a glass of cool water from the kitchen.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Coordinating timely departure for travel
+  keg_communicative_function: Requesting a drink politely at home
 - id: A1-U106B-009
-  greek: Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.
-  phonetic_hint: SEE-meh-rah LEH-o nah mee vgo EH-kso yah-TEE VREH-khee O-lee MEH-rah
-  english: Today I'm thinking of not going out, because it's raining all day.
-  notes: 'Klik A1 p. 116. Grammar: negative subjunctive with ''να μη + βγω'' (dependent
-    form of βγαίνω).'
+  greek: Κάθισε αναπαυτικά στον καναπέ και ξεκουράσου.
+  phonetic_hint: KAH-thee-seh ah-nah-pahf-tee-KAH ston kah-nah-PEH keh kseh-koo-RAH-soo
+  english: Sit comfortably on the sofa and relax.
+  notes: 'Klik A1 p. 147. Grammar: imperative of κάθομαι (κάθισε/κάτσε) and mediopassive
+    imperative (ξεκουράσου).'
   gender_or_pos: phrase
-  audio: simera-leo-na-mi-vgo-e3ef6c.mp3
+  audio: kathise-anapaytika-s-08f872.mp3
   status: verified
-  example_el: — Πάμε μια βόλτα; — Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.
-  example_en: — Shall we go for a walk? — Today I'm thinking of not going out, because
-    it's raining all day.
+  example_el: — Είμαι κουρασμένος από τη δουλειά. — Κάθισε αναπαυτικά στον καναπέ
+    και ξεκουράσου.
+  example_en: — I am tired from work. — Sit comfortably on the sofa and relax.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating intentions to stay indoors due to bad weather
+  keg_communicative_function: Offering comfortable seating and hospitality
 - id: A1-U106B-010
-  greek: Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;
-  phonetic_hint: THEH-lees nah FAH-meh seh EH-nah pah-rah-tho-see-ah-KO eh-stee-ah-TO-ree-o
-  english: Do you want us to eat at a traditional restaurant?
-  notes: 'Klik A1 p. 115, 117, 118. Grammar: ''θέλεις να'' + Aorist Subjunctive 1st
-    plural of τρώω (φάμε).'
+  greek: Περάστε μέσα στο σαλόνι και καθίστε στην πολυθρόνα.
+  phonetic_hint: peh-RAH-steh MEH-sah sto sah-LO-nee keh kah-THEE-steh steen po-lee-THRO-nah
+  english: Come inside the living room and sit on the armchair.
+  notes: 'Klik A1 p. 146, 147. Grammar: polite/plural imperative (περάστε, καθίστε)
+    of περνάω and κάθομαι.'
   gender_or_pos: phrase
-  audio: theleis-na-fame-se-e-f9154f.mp3
+  audio: peraste-mesa-sto-sal-d88426.mp3
   status: verified
-  example_el: — Πού θα πάμε για φαγητό; — Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;
-  example_en: — Where shall we go to eat? — Do you want us to eat at a traditional
-    restaurant?
+  example_el: — Καλώς ήρθατε! Περάστε μέσα στο σαλόνι και καθίστε στην πολυθρόνα.
+    — Ευχαριστούμε πολύ!
+  example_en: — Welcome! Come inside the living room and sit on the armchair. — Thank
+    you very much!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Proposing dining options during travel
+  keg_communicative_function: Welcoming guests politely into the living room
 - id: A1-U106B-011
-  greek: Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν φύγουμε;
-  phonetic_hint: bo-ROO-meh nah PYOO-meh EH-nahn kah-FEH sto lee-MAH-nee preen FEE-goo-meh
-  english: Can we have a coffee at the port before we leave?
-  notes: 'Klik A1 p. 117, 118. Grammar: ''μπορούμε να'' + subjunctive of πίνω (πιούμε)
-    + temporal clause ''πριν φύγουμε''.'
+  greek: Δείτε αυτό το όμορφο διαμέρισμα στο κέντρο της πόλης.
+  phonetic_hint: THEE-teh ahf-TO to O-mor-fo thee-ah-MEH-ree-zmah sto KEN-tro tees
+    PO-lees
+  english: See this beautiful apartment in the city center.
+  notes: 'Klik A1 p. 147, 148. Grammar: irregular plural imperative (δείτε) of βλέπω.'
   gender_or_pos: phrase
-  audio: mporoyme-na-pioyme-e-1bd574.mp3
+  audio: deite-ayto-to-omorfo-93f0bf.mp3
   status: verified
-  example_el: — Έχουμε ακόμα μισή ώρα. Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν
-    φύγουμε; — Πολύ καλή ιδέα!
-  example_en: — We still have half an hour. Can we have a coffee at the port before
-    we leave? — Great idea!
+  example_el: — Ψάχνετε σπίτι; Δείτε αυτό το όμορφο διαμέρισμα στο κέντρο της πόλης.
+    — Φαίνεται εξαιρετικό!
+  example_en: — Are you looking for a home? See this beautiful apartment in the city
+    center. — It looks great!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Suggesting a pre-departure coffee break
+  keg_communicative_function: Drawing attention to real estate listings
 - id: A1-U106B-012
-  greek: Πρέπει να μάθω μια ξένη γλώσσα για να σπουδάσω στο εξωτερικό.
-  phonetic_hint: PREH-pee nah MAH-tho mee-ah KSEH-nee GLOH-sah yah nah spoo-THAH-so
-    sto ehk-so-teh-ree-KO
-  english: I must learn a foreign language in order to study abroad.
-  notes: 'Klik A1 p. 117, 118. Grammar: ''πρέπει να μάθω'' (dependent of μαθαίνω)
-    + ''για να σπουδάσω'' (dependent of σπουδάζω).'
+  greek: Στείλε μου τη διεύθυνση του σπιτιού με μήνυμα.
+  phonetic_hint: STEE-leh moo tee thee-EF-theen-see too spee-TYOO meh MEE-nee-mah
+  english: Send me the address of the house by text message.
+  notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (στείλε) of
+    στέλνω.'
   gender_or_pos: phrase
-  audio: prepei-na-matho-mia--c8aef6.mp3
+  audio: steile-moy-ti-dieyth-20469a.mp3
   status: verified
-  example_el: — Γιατί κάνεις εντατικά μαθήματα; — Πρέπει να μάθω μια ξένη γλώσσα για
-    να σπουδάσω στο εξωτερικό.
-  example_en: — Why are you doing intensive lessons? — I must learn a foreign language
-    in order to study abroad.
+  example_el: — Δεν θυμάμαι πού μένεις! — Στείλε μου τη διεύθυνση του σπιτιού με μήνυμα.
+  example_en: — I don't remember where you live! — Send me the address of the house
+    by text message.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Explaining educational and language learning goals
+  keg_communicative_function: Requesting location details via text message
 - id: A1-U106B-013
-  greek: Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο;
-  phonetic_hint: tee O-rah bo-REE nah EHR-thee to tahk-SEE sto kseh-no-tho-KHEE-o
-  english: What time can the taxi arrive at the hotel?
-  notes: 'Klik A1 p. 117. Grammar: question with ''μπορεί να'' + dependent of irregular
-    verb έρχομαι (έρθει).'
+  greek: Άκουσε αυτή την ωραία μουσική στο ραδιόφωνο.
+  phonetic_hint: AH-koo-seh ahf-TEEN teen o-REH-ah moo-see-KEE sto rah-thee-O-fo-no
+  english: Listen to this nice music on the radio.
+  notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (άκουσε / άκου)
+    of ακούω.'
   gender_or_pos: phrase
-  audio: ti-ora-mporei-na-ert-3dcf42.mp3
+  audio: akoyse-ayti-tin-orai-ca87b7.mp3
   status: verified
-  example_el: — Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο; — Μπορεί να είναι εδώ
-    στις επτά και μισή.
-  example_en: — What time can the taxi arrive at the hotel? — It can be here at seven
-    thirty.
+  example_el: — Τι ακούς; — Άκουσε αυτή την ωραία μουσική στο ραδιόφωνο.
+  example_en: — What are you listening to? — Listen to this nice music on the radio.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Scheduling taxi arrival at accommodation
+  keg_communicative_function: Inviting someone to listen to home radio
 - id: A1-U106B-014
-  greek: Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο κοντά στο κέντρο.
-  phonetic_hint: PREH-pee nah VROO-meh EH-nah ee-ko-no-mee-KO kseh-no-tho-KHEE-o kon-DAH
-    sto KEN-tro
-  english: We must find an economical hotel near the center.
-  notes: 'Klik A1 p. 117. Grammar: ''πρέπει να'' + dependent of irregular verb βρίσκω
-    (βρούμε).'
+  greek: Πρόσεξε τα σκαλοπάτια στην είσοδο της πολυκατοικίας.
+  phonetic_hint: PRO-seh-kseh tah skah-lo-PAH-tyah steen EE-so-tho tees po-lee-kah-tee-KEE-ahs
+  english: Watch the steps at the entrance of the apartment building.
+  notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (πρόσεξε) of προσέχω.'
   gender_or_pos: phrase
-  audio: prepei-na-vroyme-ena-52d13b.mp3
+  audio: prosexe-ta-skalopati-933c7e.mp3
   status: verified
-  example_el: — Πού θα μείνουμε στην Αθήνα; — Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο
-    κοντά στο κέντρο.
-  example_en: — Where will we stay in Athens? — We must find an economical hotel near
-    the center.
+  example_el: — Έχει γλίστρα από τη βροχή! — Πρόσεξε τα σκαλοπάτια στην είσοδο της
+    πολυκατοικίας.
+  example_en: — It is slippery from the rain! — Watch the steps at the entrance of
+    the apartment building.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Prioritizing central and affordable lodging
+  keg_communicative_function: Warning about physical steps at an entrance
 - id: A1-U106B-015
-  greek: Μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός;
-  phonetic_hint: bo-REE-teh nah moo PEE-teh poo EE-neh o see-thee-ro-thro-mee-KOS
-    stahth-MOS
-  english: Can you tell me where the railway station is?
-  notes: 'Klik A1 p. 117, 120. Grammar: polite formula ''μπορείτε να μου πείτε'' (λέω
-    -> πείτε) + indirect question.'
+  greek: Ελάτε να δείτε το καινούργιο μας σπίτι το Σάββατο!
+  phonetic_hint: eh-LAH-teh nah THEE-teh to keh-NOOR-gyo mahs SPEE-tee to SAH-vah-to
+  english: Come see our new house on Saturday!
+  notes: 'Klik A1 p. 147. Grammar: irregular plural imperative (ελάτε) of έρχομαι
+    + subjunctive (να δείτε).'
   gender_or_pos: phrase
-  audio: mporeite-na-moy-peit-8915b9.mp3
+  audio: elate-na-deite-to-ka-241296.mp3
   status: verified
-  example_el: — Με συγχωρείτε, μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός;
-    — Βεβαίως, στην επόμενη γωνία.
-  example_en: — Excuse me, can you tell me where the railway station is? — Certainly,
-    around the next corner.
+  example_el: — Τελειώσαμε τη μετακόμιση! Ελάτε να δείτε το καινούργιο μας σπίτι το
+    Σάββατο! — Με μεγάλη χαρά!
+  example_en: — We finished moving! Come see our new house on Saturday! — With great
+    pleasure!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for station directions politely
+  keg_communicative_function: Inviting friends to a housewarming visit
 - id: A1-U106B-016
-  greek: Θέλω να μείνω σε ένα δίκλινο δωμάτιο με πρωινό.
-  phonetic_hint: THEH-lo nah MEE-no seh EH-nah THEE-klee-no tho-MAH-tee-o meh pro-ee-NO
-  english: I want to stay in a double room with breakfast.
-  notes: 'Klik A1 p. 113, 115, 121. Grammar: ''θέλω να μείνω'' (dependent of μένω)
-    + prepositional phrase.'
+  greek: Μην ανοίγεις το παράθυρο, γιατί φυσάει δυνατά έξω.
+  phonetic_hint: meen ah-NEE-yees to pah-RAH-thee-ro, yah-TEE fee-SAH-ee thee-nah-TAH
+    EH-kso
+  english: Don't open the window, because it's blowing hard outside.
+  notes: 'Klik A1 p. 146. Grammar: negative prohibition ''μην + ενεστωτική υποτακτική''
+    (μην ανοίγεις).'
   gender_or_pos: phrase
-  audio: thelo-na-meino-se-en-046753.mp3
+  audio: min-anoigeis-to-para-34c5e2.mp3
   status: verified
-  example_el: — Τι είδους δωμάτιο ψάχνετε; — Θέλω να μείνω σε ένα δίκλινο δωμάτιο
-    με πρωινό.
-  example_en: — What kind of room are you looking for? — I want to stay in a double
-    room with breakfast.
+  example_el: — Θέλω λίγο αέρα. — Μην ανοίγεις το παράθυρο, γιατί φυσάει δυνατά έξω.
+  example_en: — I want some air. — Don't open the window, because it's blowing hard
+    outside.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Specifying room type preferences to reception
+  keg_communicative_function: Instructing someone not to open windows due to wind
 - id: A1-U106B-017
-  greek: Πρέπει να προσέχεις τα προσωπικά σου αντικείμενα στον σταθμό.
-  phonetic_hint: PREH-pee nah pro-SEH-khees tah pro-so-pee-KAH soo ahn-dee-KEE-meh-nah
-    ston stahth-MO
-  english: You must watch your personal belongings at the station.
-  notes: 'Klik A1 p. 116. Grammar: ''πρέπει να'' + subjunctive of προσέχω (προσέχεις)
-    + plural accusative direct object.'
+  greek: Μη βάζεις τα βρεγμένα παπούτσια πάνω στο χαλί.
+  phonetic_hint: mee VAH-zees tah vrehg-MEH-nah pah-POOT-syah PAH-no sto khah-LEE
+  english: Don't put the wet shoes on the carpet.
+  notes: 'Klik A1 p. 146, 147. Grammar: negative prohibition ''μη + βάζεις'' + locative
+    ''πάνω στο''.'
   gender_or_pos: phrase
-  audio: prepei-na-prosecheis-4d84b1.mp3
+  audio: mi-vazeis-ta-vregmen-1d1b85.mp3
   status: verified
-  example_el: — Έχει πάρα πολύ κόσμο εδώ! — Ναι, πρέπει να προσέχεις τα προσωπικά
-    σου αντικείμενα στον σταθμό.
-  example_en: — It is very crowded here! — Yes, you must watch your personal belongings
-    at the station.
+  example_el: — Έβρεχε έξω! — Μη βάζεις τα βρεγμένα παπούτσια πάνω στο χαλί, άφησέ
+    τα στο χολ.
+  example_en: — It was raining outside! — Don't put the wet shoes on the carpet, leave
+    them in the hall.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving safety advice in public transit areas
+  keg_communicative_function: Prohibiting placing wet footwear on rugs
 - id: A1-U106B-018
-  greek: Λέμε να ταξιδέψουμε με το πλοίο αντί για το αεροπλάνο.
-  phonetic_hint: LEH-meh nah tahk-see-THEHP-soo-meh meh to PLEE-o ahn-DEE yah to ah-eh-ro-PLAH-no
-  english: We are thinking of travelling by ferry instead of by airplane.
-  notes: 'Klik A1 p. 113, 115. Grammar: ''λέμε να'' (1st plural) + Aorist Subjunctive
-    of ταξιδεύω (ταξιδέψουμε).'
+  greek: Μην αφήνετε τα φώτα αναμμένα όταν φεύγετε από το δωμάτιο.
+  phonetic_hint: meen ah-FEE-neh-teh tah FO-tah ah-nah-MEH-nah O-tahn FEE-yeh-teh
+    ah-PO to tho-MAH-tee-o
+  english: Don't leave the lights turned on when you leave the room.
+  notes: 'Klik A1 p. 146. Grammar: plural prohibition ''μην αφήνετε'' (αφήνω) + participle
+    αναμμένα.'
   gender_or_pos: phrase
-  audio: leme-na-taxidepsoyme-5ed422.mp3
+  audio: min-afinete-ta-fota--367fb6.mp3
   status: verified
-  example_el: — Πώς θα πάτε στην Κρήτη; — Λέμε να ταξιδέψουμε με το πλοίο αντί για
-    το αεροπλάνο.
-  example_en: — How will you go to Crete? — We are thinking of travelling by ferry
-    instead of by airplane.
+  example_el: '— Πρέπει να κάνουμε οικονομία στο ρεύμα: μην αφήνετε τα φώτα αναμμένα
+    όταν φεύγετε.'
+  example_en: '— We need to save electricity: don''t leave the lights turned on when
+    you leave.'
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Discussing preferred transit modes
+  keg_communicative_function: Instructing household members to switch off unused lights
 - id: A1-U106B-019
-  greek: Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ;
-  phonetic_hint: bo-REES nah moo THOH-sees to ee-see-TEE-ree-o moo seh pah-rah-kah-LO
-  english: Can you give me my ticket, please?
-  notes: 'Klik A1 p. 117. Grammar: ''μπορείς να'' + dependent of irregular verb δίνω
-    (δώσεις) + clitic pronoun μου.'
+  greek: Μη μιλάτε τόσο δυνατά, γιατί το παιδί κοιμάται.
+  phonetic_hint: mee mee-LAH-teh TO-so thee-nah-TAH, yah-TEE to peh-THEE kee-MAH-teh
+  english: Don't speak so loudly, because the child is sleeping.
+  notes: 'Klik A1 p. 146. Grammar: plural negative prohibition ''μη μιλάτε'' of Type
+    B1 verb μιλάω.'
   gender_or_pos: phrase
-  audio: mporeis-na-moy-dosei-cb37fe.mp3
+  audio: mi-milate-toso-dynat-7110be.mp3
   status: verified
-  example_el: — Φτάνουμε στον έλεγχο. Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ;
-    — Ορίστε, το έχω εδώ.
-  example_en: — We are arriving at the check-in. Can you give me my ticket, please?
-    — Here you go, I have it right here.
+  example_el: — Ησυχία, παρακαλώ! Μη μιλάτε τόσο δυνατά, γιατί το παιδί κοιμάται.
+  example_en: — Quiet, please! Don't speak so loudly, because the child is sleeping.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting documents during travel checks
+  keg_communicative_function: Asking for quiet while children are asleep
 - id: A1-U106B-020
-  greek: Πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.
-  phonetic_hint: PREH-pee nah VAH-loo-meh tah ROO-khah stee vah-LEET-sah TO-rah
-  english: We must put the clothes into the suitcase now.
-  notes: 'Klik A1 p. 117. Grammar: ''πρέπει να'' + dependent of irregular verb βάζω
-    (βάλουμε).'
+  greek: Μη φεύγεις ακόμα, κάτσε να πιούμε έναν καφέ.
+  phonetic_hint: mee FEE-yees ah-KO-mah, KAHT-seh nah PYOO-meh EH-nahn kah-FEH
+  english: Don't leave yet, sit down so we can have a coffee.
+  notes: 'Klik A1 p. 147. Grammar: negative prohibition ''μη φεύγεις'' + colloquial
+    imperative ''κάτσε'' (κάθισε).'
   gender_or_pos: phrase
-  audio: prepei-na-valoyme-ta-b2affe.mp3
+  audio: mi-feygeis-akoma-kat-dce9bb.mp3
   status: verified
-  example_el: — Η ώρα περνάει! — Ναι, πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.
-  example_en: — Time is flying! — Yes, we must put the clothes into the suitcase now.
+  example_el: — Πρέπει να πάω σπίτι. — Μη φεύγεις ακόμα, κάτσε να πιούμε έναν καφέ
+    μαζί.
+  example_en: — I must go home. — Don't leave yet, sit down so we can have a coffee
+    together.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Organizing luggage packing
+  keg_communicative_function: Persuading a visiting guest to stay longer
 - id: A1-U106B-021
-  greek: Το ξενοδοχείο αυτό είναι πιο ακριβό από το άλλο.
-  phonetic_hint: to kseh-no-tho-KHEE-o ahf-TO EE-neh PYO ah-kree-VO ah-PO to AHL-lo
-  english: This hotel is more expensive than the other one.
-  notes: 'Klik A1 p. 129. Grammar: comparative construction ''πιο + επίθετο + από
-    + αιτιατική''.'
+  greek: Μην πετάς τα σκουπίδια κάτω, ρίξ' τα στον κάδο.
+  phonetic_hint: meen peh-TAHS tah skoo-PEE-thyah KAH-to, REEKS tah ston KAH-tho
+  english: Don't throw the trash on the ground, throw it in the bin.
+  notes: 'Klik A1 p. 146. Grammar: negative prohibition ''μην πετάς'' + imperative
+    ''ρίξε (ρίξ'')''.'
   gender_or_pos: phrase
-  audio: to-xenodocheio-ayto--b062c9.mp3
+  audio: min-petas-ta-skoypid-d57ac9.mp3
   status: verified
-  example_el: — Ποιο ξενοδοχείο να επιλέξουμε; — Το ξενοδοχείο αυτό είναι πιο ακριβό
-    από το άλλο, αλλά έχει πισίνα.
-  example_en: — Which hotel shall we choose? — This hotel is more expensive than the
-    other one, but it has a pool.
+  example_el: — Πού να το πετάξω; — Μην πετάς τα σκουπίδια κάτω, ρίξ' τα στον κάδο.
+  example_en: — Where should I throw it? — Don't throw the trash on the ground, throw
+    it in the bin.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing hotel prices
+  keg_communicative_function: Instructing on proper waste disposal
 - id: A1-U106B-022
-  greek: Η εκδρομή στη Βέροια είναι πιο φθηνή από την εκδρομή στην Αθήνα.
-  phonetic_hint: ee ek-thro-MEE stee VEH-ree-ah EE-neh PYO fthee-NEE ah-PO teen ek-thro-MEE
-    steen ah-THEE-nah
-  english: The excursion to Veroia is cheaper than the excursion to Athens.
-  notes: 'Klik A1 p. 119, 129. Grammar: comparative of feminine adjective: ''πιο φθηνή
-    από + αιτιατική''.'
+  greek: Μην ανησυχείς για τη μετακόμιση, θα σε βοηθήσουμε όλοι.
+  phonetic_hint: meen ah-nee-see-KHEES yah tee meh-tah-KO-mee-see, thah seh vo-ee-THEE-soo-meh
+    O-lee
+  english: Don't worry about the move, we will all help you.
+  notes: 'Klik A1 p. 146. Grammar: negative prohibition with verb ανησυχώ (μην ανησυχείς).'
   gender_or_pos: phrase
-  audio: i-ekdromi-sti-veroia-d0dcdd.mp3
+  audio: min-anisycheis-gia-t-cef394.mp3
   status: verified
-  example_el: — Πόσο κάνουν οι εκδρομές; — Η εκδρομή στη Βέροια είναι πιο φθηνή από
-    την εκδρομή στην Αθήνα.
-  example_en: — How much do the excursions cost? — The excursion to Veroia is cheaper
-    than the excursion to Athens.
+  example_el: — Έχω πάρα πολλά πράγματα να πακετάρω! — Μην ανησυχείς για τη μετακόμιση,
+    θα σε βοηθήσουμε όλοι.
+  example_en: — I have so many things to pack! — Don't worry about the move, we will
+    all help you.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing tour package rates
+  keg_communicative_function: Reassuring a friend during home relocation
 - id: A1-U106B-023
-  greek: Το αεροπλάνο είναι πιο γρήγορο από το τρένο.
-  phonetic_hint: to ah-eh-ro-PLAH-no EE-neh PYO GREE-go-ro ah-PO to TREH-no
-  english: The airplane is faster than the train.
-  notes: 'Klik A1 p. 129, 130. Grammar: comparative ''πιο γρήγορο από'' with neuter
-    nouns.'
+  greek: Το λεξικό είναι πάνω στο γραφείο, δίπλα στον υπολογιστή.
+  phonetic_hint: to lehk-see-KO EE-neh PAH-no sto grah-FEE-o, THEE-plah ston ee-po-lo-yee-STEE
+  english: The dictionary is on the desk, next to the computer.
+  notes: 'Klik A1 p. 142, 143. Spatial phrases: ''πάνω στο'' + ''δίπλα στον''.'
   gender_or_pos: phrase
-  audio: to-aeroplano-einai-p-5b3c82.mp3
+  audio: to-lexiko-einai-pano-33764c.mp3
   status: verified
-  example_el: — Γιατί παίρνεις αεροπλάνο; — Επειδή το αεροπλάνο είναι πιο γρήγορο
-    από το τρένο.
-  example_en: — Why are you taking a plane? — Because the airplane is faster than
-    the train.
+  example_el: — Πού είναι το ελληνικό λεξικό; — Το λεξικό είναι πάνω στο γραφείο,
+    δίπλα στον υπολογιστή.
+  example_en: — Where is the Greek dictionary? — The dictionary is on the desk, next
+    to the computer.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing travel speed between transit modes
+  keg_communicative_function: Describing desktop spatial location
 - id: A1-U106B-024
-  greek: Το πλοίο είναι πιο αργό από το αεροπλάνο.
-  phonetic_hint: to PLEE-o EE-neh PYO ar-GO ah-PO to ah-eh-ro-PLAH-no
-  english: The ferry is slower than the airplane.
-  notes: 'Klik A1 p. 130. Grammar: comparative of αργός: ''πιο αργό από''.'
+  greek: Οι παντόφλες σου είναι κάτω από το κρεβάτι.
+  phonetic_hint: ee pahn-TOF-les soo EE-neh KAH-to ah-PO to kreh-VAH-tee
+  english: Your slippers are under the bed.
+  notes: 'Klik A1 p. 142, 143. Spatial preposition: ''κάτω από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: to-ploio-einai-pio-a-87f885.mp3
+  audio: oi-pantofles-soy-ein-ff132c.mp3
   status: verified
-  example_el: — Κάνει πολλές ώρες το ταξίδι; — Ναι, το πλοίο είναι πιο αργό από το
-    αεροπλάνο.
-  example_en: — Does the trip take many hours? — Yes, the ferry is slower than the
-    airplane.
+  example_el: — Ψάχνω τις παντόφλες μου! — Οι παντόφλες σου είναι κάτω από το κρεβάτι.
+  example_en: — I am looking for my slippers! — Your slippers are under the bed.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Contrasting transit durations
+  keg_communicative_function: Locating bedroom items under furniture
 - id: A1-U106B-025
-  greek: Η Μαρία είναι πιο ψηλή από την Ελένη.
-  phonetic_hint: ee mah-REE-ah EE-neh PYO psee-LEE ah-PO teen eh-LEH-nee
-  english: Maria is taller than Eleni.
-  notes: 'Klik A1 p. 129. Textbook example: comparative degree of ψηλός with feminine
-    proper nouns.'
+  greek: Η φωτογραφική μηχανή είναι μέσα στο πρώτο συρτάρι.
+  phonetic_hint: ee foh-toh-grah-fee-KEE mee-khah-NEE EE-neh MEH-sah sto PRO-to seer-TAH-ree
+  english: The camera is inside the first drawer.
+  notes: Klik A1 p. 142, 143. Spatial preposition 'μέσα σε' + ordinal number πρώτο.
   gender_or_pos: phrase
-  audio: i-maria-einai-pio-ps-82b10a.mp3
+  audio: i-fotografiki-michan-ca7094.mp3
   status: verified
-  example_el: — Ποια είναι η πιο ψηλή κοπέλα; — Η Μαρία είναι πιο ψηλή από την Ελένη.
-  example_en: — Who is the taller girl? — Maria is taller than Eleni.
+  example_el: — Πού έβαλες την κάμερα; — Η φωτογραφική μηχανή είναι μέσα στο πρώτο
+    συρτάρι.
+  example_en: — Where did you put the camera? — The camera is inside the first drawer.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing physical attributes of individuals
+  keg_communicative_function: Indicating items stored inside drawers
 - id: A1-U106B-026
-  greek: Ο Νίκος είναι πιο νέος από τον Κώστα.
-  phonetic_hint: o NEE-kos EE-neh PYO NEH-os ah-PO ton KOH-stah
-  english: Nikos is younger than Kostas.
-  notes: 'Klik A1 p. 129. Textbook example: comparative degree of νέος with masculine
-    proper nouns.'
+  greek: Τα παιδιά παίζουν έξω στην αυλή με τον σκύλο.
+  phonetic_hint: tah peh-THYAH PEH-zoon EH-kso steen ahv-LEE meh ton SKEE-lo
+  english: The children are playing outside in the yard with the dog.
+  notes: Klik A1 p. 139, 142. Locative adverb 'έξω' + prepositional phrase 'στην αυλή'.
   gender_or_pos: phrase
-  audio: o-nikos-einai-pio-ne-52acf7.mp3
+  audio: ta-paidia-paizoyn-ex-36d44c.mp3
   status: verified
-  example_el: — Ποιος είναι μικρότερος σε ηλικία; — Ο Νίκος είναι πιο νέος από τον
-    Κώστα.
-  example_en: — Who is younger in age? — Nikos is younger than Kostas.
+  example_el: — Πού είναι τα παιδιά; — Τα παιδιά παίζουν έξω στην αυλή με τον σκύλο.
+  example_en: — Where are the children? — The children are playing outside in the
+    yard with the dog.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing relative age
+  keg_communicative_function: Stating locations of household members outside
 - id: A1-U106B-027
-  greek: Αυτό το δωμάτιο είναι πιο μεγάλο από το προηγούμενο.
-  phonetic_hint: ahf-TO to tho-MAH-tee-o EE-neh PYO meh-GAH-lo ah-PO to pro-ee-YOO-meh-no
-  english: This room is bigger than the previous one.
-  notes: 'Klik A1 p. 130. Grammar: comparative of μεγάλος: ''πιο μεγάλο από''.'
+  greek: Ο καναπές βρίσκεται απέναντι από την τηλεόραση.
+  phonetic_hint: o kah-nah-PES VREES-keh-teh ah-PEH-nahn-dee ah-PO teen tee-leh-O-rah-see
+  english: The sofa is situated opposite the television.
+  notes: 'Klik A1 p. 142, 143. Locative preposition: ''απέναντι από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: ayto-to-domatio-eina-e9e624.mp3
+  audio: o-kanapes-vrisketai--328cb5.mp3
   status: verified
-  example_el: — Σου αρέσει το νέο σου δωμάτιο; — Ναι, αυτό το δωμάτιο είναι πιο μεγάλο
-    από το προηγούμενο.
-  example_en: — Do you like your new room? — Yes, this room is bigger than the previous
-    one.
+  example_el: — Πώς έχετε βάλει τα έπιπλα; — Ο καναπές βρίσκεται απέναντι από την
+    τηλεόραση.
+  example_en: — How have you arranged the furniture? — The sofa is situated opposite
+    the television.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing room sizes in accommodations
+  keg_communicative_function: Describing relative positioning across a room
 - id: A1-U106B-028
-  greek: Η δική σου βαλίτσα είναι πιο βαριά από τη δική μου.
-  phonetic_hint: ee thee-KEE soo vah-LEET-sah EE-neh PYO vah-RYAH ah-PO tee thee-KEE
-    moo
-  english: Your suitcase is heavier than mine.
-  notes: 'Klik A1 p. 130. Grammar: comparative with emphatic possessives (η δική σου
-    / η δική μου).'
+  greek: Η μεγάλη βιβλιοθήκη είναι δίπλα στην πόρτα του γραφείου.
+  phonetic_hint: ee meh-GAH-lee veev-lee-o-THEE-kee EE-neh THEE-plah steen POR-tah
+    too grah-FEE-oo
+  english: The large bookcase is beside the door of the study.
+  notes: Klik A1 p. 142, 143. Locative phrase 'δίπλα σε' + genitive of specification
+    (του γραφείου).
   gender_or_pos: phrase
-  audio: i-diki-soy-valitsa-e-969c80.mp3
+  audio: i-megali-vivliothiki-536ca6.mp3
   status: verified
-  example_el: — Ποια βαλίτσα έχει υπέρβαρο; — Η δική σου βαλίτσα είναι πιο βαριά από
-    τη δική μου.
-  example_en: — Which suitcase is overweight? — Your suitcase is heavier than mine.
+  example_el: — Πού να τοποθετήσουμε τα ράφια; — Η μεγάλη βιβλιοθήκη είναι δίπλα στην
+    πόρτα του γραφείου.
+  example_en: — Where shall we place the shelving? — The large bookcase is beside
+    the door of the study.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Comparing luggage weight
+  keg_communicative_function: Specifying adjacent furniture placement
 - id: A1-U106B-029
-  greek: Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.
-  phonetic_hint: meh PYO leh-o-fo-REE-o pee-GEH-nees steen kah-lah-mah-RYAH? — meh
-    to leh-o-fo-REE-o PEN-deh
-  english: Which bus do you take to Kalamaria? — With bus number five.
-  notes: 'Klik A1 p. 120, 122. Communicative transit inquiry: ''με ποιο λεωφορείο
-    + πηγαίνεις;''.'
+  greek: Το φωτιστικό δαπέδου είναι αριστερά από την πολυθρόνα.
+  phonetic_hint: to foh-tee-stee-KO thah-PEH-thoo EE-neh ah-ree-steh-RAH ah-PO teen
+    po-lee-THRO-nah
+  english: The floor lamp is to the left of the armchair.
+  notes: 'Klik A1 p. 142, 143, 145. Directional phrase: ''αριστερά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: me-poio-leoforeio-pi-1f55df.mp3
+  audio: to-fotistiko-dapedoy-a74670.mp3
   status: verified
-  example_el: — Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.
-  example_en: — Which bus do you take to Kalamaria? — With bus number five.
+  example_el: — Πού είναι το φωτιστικό; — Το φωτιστικό δαπέδου είναι αριστερά από
+    την πολυθρόνα.
+  example_en: — Where is the lamp? — The floor lamp is to the left of the armchair.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for and stating specific bus routes
+  keg_communicative_function: Specifying directional placement to the left
 - id: A1-U106B-030
-  greek: Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.
-  phonetic_hint: KAH-theh PO-so per-NAH-ee to leh-o-fo-REE-o THEH-kah? — per-NAH-ee
-    KAH-theh THEH-kah lep-TAH
-  english: How often does bus ten pass by? — It comes every ten minutes.
-  notes: 'Klik A1 p. 120, 122. Formula for transit frequency: ''κάθε πόσο περνάει...;''.'
+  greek: Το τζάκι είναι δεξιά από τον γωνιακό καναπέ.
+  phonetic_hint: to DZAH-kee EE-neh thehk-see-AH ah-PO ton go-nee-ah-KO kah-nah-PEH
+  english: The fireplace is to the right of the corner sofa.
+  notes: 'Klik A1 p. 142, 145. Directional phrase: ''δεξιά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: kathe-poso-pernaei-t-2179c4.mp3
+  audio: to-tzaki-einai-dexia-b7b1c6.mp3
   status: verified
-  example_el: — Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.
-  example_en: — How often does bus ten pass by? — It comes every ten minutes.
+  example_el: — Πού βρίσκεται το τζάκι; — Το τζάκι είναι δεξιά από τον γωνιακό καναπέ.
+  example_en: — Where is the fireplace located? — The fireplace is to the right of
+    the corner sofa.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about bus service frequency
+  keg_communicative_function: Specifying directional placement to the right
 - id: A1-U106B-031
-  greek: Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι τις έξι.
-  phonetic_hint: MEHKH-ree tee O-rah EE-seh sto grah-FEE-o SEE-meh-rah? — EE-meh ah-PO
-    tees ehn-NEH-ah MEHKH-ree tees EHK-see
-  english: Until what time are you at the office today? — I am there from nine to
-    six.
-  notes: 'Klik A1 p. 111, 122. Time range formula: ''από τις ... μέχρι τις ...''.'
+  greek: Στη μέση του σαλονιού υπάρχει ένα χαμηλό ξύλινο τραπεζάκι.
+  phonetic_hint: stee MEH-see too sah-lo-NYOO ee-PAHR-khee EH-nah khah-mee-LO KSEE-lee-no
+    trah-peh-ZAH-kee
+  english: In the middle of the living room there is a low wooden coffee table.
+  notes: 'Klik A1 p. 142, 143. Locative phrase: ''στη μέση + γενική''.'
   gender_or_pos: phrase
-  audio: mechri-ti-ora-eisai--cf392d.mp3
+  audio: sti-mesi-toy-salonio-798981.mp3
   status: verified
-  example_el: — Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι
-    τις έξι.
-  example_en: — Until what time are you at the office today? — I am there from nine
-    to six.
+  example_el: — Τι έχετε στο κέντρο; — Στη μέση του σαλονιού υπάρχει ένα χαμηλό ξύλινο
+    τραπεζάκι.
+  example_en: — What do you have in the center? — In the middle of the living room
+    there is a low wooden coffee table.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Stating work hours and time intervals
+  keg_communicative_function: Describing central room features
 - id: A1-U106B-032
-  greek: Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.
-  phonetic_hint: ah-PO poo per-NAH-ee to tree-AHN-dah EH-nah? — per-NAH-ee ah-PO teen
-    plah-TEE-ah ah-ree-sto-TEH-loos
-  english: Where does bus thirty-one pass from? — It passes through Aristotelous Square.
-  notes: Klik A1 p. 122, 125. Spatial preposition 'από' + accusative for transit routing.
+  greek: Υπάρχει ένας όμορφος κήπος πίσω από το σπίτι.
+  phonetic_hint: ee-PAHR-khee EH-nahs O-mor-fos KEE-pos PEE-so ah-PO to SPEE-tee
+  english: There is a beautiful garden behind the house.
+  notes: 'Klik A1 p. 133, 137, 145. Spatial phrase: ''πίσω από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: apo-poy-pernaei-to-t-0f1b53.mp3
+  audio: yparchei-enas-omorfo-965348.mp3
   status: verified
-  example_el: — Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.
-  example_en: — Where does bus thirty-one pass from? — It passes through Aristotelous
-    Square.
+  example_el: — Έχει εξωτερικό χώρο; — Ναι, υπάρχει ένας όμορφος κήπος πίσω από το
+    σπίτι.
+  example_en: — Does it have outdoor space? — Yes, there is a beautiful garden behind
+    the house.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for landmarks along a bus route
+  keg_communicative_function: Locating yards and gardens behind properties
 - id: A1-U106B-033
-  greek: Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις στη στάση Βενιζέλου.
-  phonetic_hint: PRO-tah PER-nees to THEH-kah keh meh-TAH kah-teh-VEH-nees stee STAH-see
-    veh-nee-ZEH-loo
-  english: First you take bus ten and then you get off at the Venizelou stop.
-  notes: 'Klik A1 p. 125. Sequential navigation instructions: ''πρώτα ... και μετά
-    ...''.'
+  greek: Μπροστά από την πολυκατοικία υπάρχει μια στάση λεωφορείου.
+  phonetic_hint: bro-STAH ah-PO teen po-lee-kah-tee-KEE-ah ee-PAHR-khee mee-ah STAH-see
+    leh-o-fo-REE-oo
+  english: In front of the apartment building there is a bus stop.
+  notes: 'Klik A1 p. 140, 145. Spatial phrase: ''μπροστά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: prota-pairneis-to-de-7fcdff.mp3
+  audio: mprosta-apo-tin-poly-9eeafa.mp3
   status: verified
-  example_el: — Πώς θα πάω στο κέντρο; — Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις
-    στη στάση Βενιζέλου.
-  example_en: — How do I get downtown? — First you take bus ten and then you get off
-    at the Venizelou stop.
+  example_el: — Είναι εύκολη η συγκοινωνία; — Ναι, μπροστά από την πολυκατοικία υπάρχει
+    μια στάση λεωφορείου.
+  example_en: — Is transit convenient? — Yes, in front of the apartment building there
+    is a bus stop.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving multi-step transit directions
+  keg_communicative_function: Describing transport amenities directly in front of
+    a building
 - id: A1-U106B-034
-  greek: Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία στάση.
-  phonetic_hint: seh PYA STAH-see PREH-pee nah kah-TEH-vo yah to ah-eh-ro-THRO-mee-o?
-    — steen teh-lef-TEH-ah STAH-see
-  english: At which stop do I need to get off for the airport? — At the last stop.
-  notes: 'Klik A1 p. 121, 122, 125. Transit question: ''σε ποια στάση πρέπει να κατέβω...;''.'
+  greek: Ενοικιάζεται φωτεινό διαμέρισμα εκατό τετραγωνικών μέτρων στον τρίτο όροφο.
+  phonetic_hint: eh-nee-KYAH-zeh-teh foh-tee-NO thee-ah-MEH-ree-zmah eh-kah-TO teh-trah-go-nee-KON
+    MEH-tron ston TREE-to O-ro-fo
+  english: 'For rent: a bright one-hundred-square-meter apartment on the third floor.'
+  notes: Klik A1 p. 133, 136. Real estate classified ad formula with passive verb
+    'ενοικιάζεται'.
   gender_or_pos: phrase
-  audio: se-poia-stasi-prepei-35da59.mp3
+  audio: enoikiazetai-foteino-fe745c.mp3
   status: verified
-  example_el: — Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία
-    στάση.
-  example_en: — At which stop do I need to get off for the airport? — At the last
-    stop.
+  example_el: '— Είδα μια αγγελία: Ενοικιάζεται φωτεινό διαμέρισμα εκατό τετραγωνικών
+    μέτρων στον τρίτο όροφο.'
+  example_en: '— I saw an ad: For rent: a bright one-hundred-square-meter apartment
+    on the third floor.'
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Confirming the correct stop to disembark
+  keg_communicative_function: Reading and writing rental classified ads
 - id: A1-U106B-035
-  greek: Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε το εισιτήριο.
-  phonetic_hint: ah-neh-VEH-noo-meh sto leh-o-fo-REE-o keh eh-pee-kee-RO-noo-meh to
-    ee-see-TEE-ree-o
-  english: We get on the bus and validate the ticket.
-  notes: 'Klik A1 p. 121, 122. Transit verbs: ανεβαίνω + στο + λεωφορείο.'
+  greek: Πωλείται μονοκατοικία διακοσίων πενήντα τ.μ. με μεγάλο κήπο.
+  phonetic_hint: po-LEE-teh mo-no-kah-tee-KEE-ah thee-ah-ko-SEE-on pen-EEN-dah tah-mee
+    meh meh-GAH-lo KEE-po
+  english: 'For sale: a detached house of 250 sq.m. with a large garden.'
+  notes: Klik A1 p. 133, 136. Real estate sales formula with passive verb 'πωλείται'
+    and abbreviation τ.μ.
   gender_or_pos: phrase
-  audio: anevainoyme-sto-leof-019888.mp3
+  audio: poleitai-monokatoiki-cdb8f3.mp3
   status: verified
-  example_el: — Τι κάνουμε όταν μπαίνουμε; — Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε
-    το εισιτήριο.
-  example_en: — What do we do when we board? — We get on the bus and validate the
-    ticket.
+  example_el: — Τι λέει η αγγελία; — Πωλείται μονοκατοικία διακοσίων πενήντα τ.μ.
+    με μεγάλο κήπο.
+  example_en: '— What does the listing say? — For sale: a detached house of 250 sq.m.
+    with a large garden.'
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing standard boarding and ticketing procedures
+  keg_communicative_function: Advertising property for sale
 - id: A1-U106B-036
-  greek: Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.
-  phonetic_hint: PO-see O-rah KAH-nee to leh-o-fo-REE-o yah teen kah-VAH-lah? — KAH-nee
-    peh-REE-poo THEE-o O-res
-  english: How long does the bus take to Kavala? — It takes about two hours.
-  notes: 'Klik A1 p. 121, 123. Duration formula with transit vehicle: ''κάνει + χρόνο''.'
+  greek: Πόσο είναι το μηνιαίο ενοίκιο για αυτό το διαμέρισμα;
+  phonetic_hint: PO-so EE-neh to mee-nee-EH-o eh-NEE-kee-o yah ahf-TO to thee-ah-MEH-ree-zmah
+  english: How much is the monthly rent for this apartment?
+  notes: Klik A1 p. 133, 140. Formula for inquiring about rental price.
   gender_or_pos: phrase
-  audio: posi-ora-kanei-to-le-fe9c00.mp3
+  audio: poso-einai-to-miniai-0a3614.mp3
   status: verified
-  example_el: — Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.
-  example_en: — How long does the bus take to Kavala? — It takes about two hours.
+  example_el: — Καλημέρα σας, παίρνω για την αγγελία. Πόσο είναι το μηνιαίο ενοίκιο
+    για αυτό το διαμέρισμα;
+  example_en: — Good morning, I am calling about the ad. How much is the monthly rent
+    for this apartment?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about journey duration
+  keg_communicative_function: Inquiring about monthly rental rates
 - id: A1-U106B-037
-  greek: Γεια σας, θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για τρεις νύχτες.
-  phonetic_hint: YAH sahs, thah EE-theh-lah nah KLEE-so EH-nah THEE-klee-no tho-MAH-tee-o
-    yah trees NEEKH-tes
-  english: Hello, I would like to book a double room for three nights.
-  notes: 'Klik A1 p. 115, 121. Standard polite reservation opening: ''θα ήθελα να
-    κλείσω...''.'
+  greek: Το ενοίκιο είναι τετρακόσια πενήντα ευρώ τον μήνα χωρίς τα κοινόχρηστα.
+  phonetic_hint: to eh-NEE-kee-o EE-neh teh-trah-KO-see-ah pen-EEN-dah ev-RO ton MEE-nah
+    kho-REES tah kee-NO-khree-stah
+  english: The rent is four hundred fifty euros per month without building fees.
+  notes: Klik A1 p. 140, 141. Quoting rent excluding building maintenance fees (χωρίς
+    τα κοινόχρηστα).
   gender_or_pos: phrase
-  audio: geia-sas-tha-ithela--fd36fe.mp3
+  audio: to-enoikio-einai-tet-965f06.mp3
   status: verified
-  example_el: — Ξενοδοχείο «Αστήρ», εμπρός! — Γεια σας, θα ήθελα να κλείσω ένα δίκλινο
-    δωμάτιο για τρεις νύχτες.
-  example_en: — Hotel Aster, hello! — Hello, I would like to book a double room for
-    three nights.
+  example_el: — Πόσο ζητάει ο ιδιοκτήτης; — Το ενοίκιο είναι τετρακόσια πενήντα ευρώ
+    τον μήνα χωρίς τα κοινόχρηστα.
+  example_en: — How much is the landlord asking? — The rent is four hundred fifty
+    euros per month without building fees.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Opening a hotel room reservation dialogue
+  keg_communicative_function: Stating rental rates and fee exclusions
 - id: A1-U106B-038
-  greek: Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα ευρώ.
-  phonetic_hint: PO-so koh-STEE-zee to mo-NO-klee-no tho-MAH-tee-o meh pro-ee-NO?
-    — koh-STEE-zee ehv-tho-MEEN-dah ev-RO
-  english: How much does the single room with breakfast cost? — It costs seventy euros.
-  notes: Klik A1 p. 115, 121. Price inquiry formula with impersonal verb 'κοστίζει'.
+  greek: Πόσο πληρώνετε για τα κοινόχρηστα τον χειμώνα;
+  phonetic_hint: PO-so plee-RO-neh-teh yah tah kee-NO-khree-stah ton khee-MO-nah
+  english: How much do you pay for building fees in the winter?
+  notes: Klik A1 p. 140. Inquiring about seasonal shared utility costs.
   gender_or_pos: phrase
-  audio: poso-kostizei-to-mon-15df4b.mp3
+  audio: poso-plironete-gia-t-62f5be.mp3
   status: verified
-  example_el: — Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα
-    ευρώ τη βραδιά.
-  example_en: — How much does the single room with breakfast cost? — It costs seventy
-    euros per night.
+  example_el: — Πόσο πληρώνετε για τα κοινόχρηστα τον χειμώνα; — Πληρώνουμε περίπου
+    ογδόντα ευρώ μαζί με τη θέρμανση.
+  example_en: — How much do you pay for building fees in the winter? — We pay around
+    eighty euros including heating.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about nightly accommodation rates
+  keg_communicative_function: Asking about seasonal maintenance expenses
 - id: A1-U106B-039
-  greek: Η εκδρομή στην Καστοριά είναι τρεις μέρες και κάνει διακόσια τριάντα πέντε
-    ευρώ.
-  phonetic_hint: ee ek-thro-MEE steen kah-sto-RYAH EE-neh trees MEH-res keh KAH-nee
-    thee-ah-KO-see-ah tree-AHN-dah PEN-deh ev-RO
-  english: The excursion to Kastoria is three days and costs two hundred thirty-five
-    euros.
-  notes: 'Klik A1 p. 119. Cardinal numbers in hundreds: διακόσια (200) + τριάντα πέντε
-    (35).'
+  greek: Το σπίτι διαθέτει δύο υπνοδωμάτια, σαλόνι, κουζίνα και δύο μπάνια.
+  phonetic_hint: to SPEE-tee thee-ah-THEH-tee THEE-o eep-no-tho-MAH-tee-ah, sah-LO-nee,
+    koo-ZEE-nah keh THEE-o BAH-nyah
+  english: The house features two bedrooms, a living room, a kitchen, and two bathrooms.
+  notes: Klik A1 p. 133, 141. Enumeration of house layout features with verb 'διαθέτει'.
   gender_or_pos: phrase
-  audio: i-ekdromi-stin-kasto-53660d.mp3
+  audio: to-spiti-diathetei-d-653862.mp3
   status: verified
-  example_el: — Πόσο κοστίζει το πακέτο; — Η εκδρομή στην Καστοριά είναι τρεις μέρες
-    και κάνει διακόσια τριάντα πέντε ευρώ.
-  example_en: — How much is the package? — The excursion to Kastoria is three days
-    and costs two hundred thirty-five euros.
+  example_el: — Πώς είναι η διαρρύθμιση; — Το σπίτι διαθέτει δύο υπνοδωμάτια, σαλόνι,
+    κουζίνα και δύο μπάνια.
+  example_en: — How is the layout? — The house features two bedrooms, a living room,
+    a kitchen, and two bathrooms.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Quoting package tour duration and cost
+  keg_communicative_function: Describing apartment layout and room breakdown
 - id: A1-U106B-040
-  greek: Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες και κοστίζει τετρακόσια εβδομήντα
-    ευρώ.
-  phonetic_hint: ee ek-thro-MEE steen ah-THEE-nah thee-ar-KEE PEN-deh MEH-res keh
-    koh-STEE-zee teh-trah-KO-see-ah ehv-tho-MEEN-dah ev-RO
-  english: The excursion to Athens lasts five days and costs four hundred seventy
-    euros.
-  notes: 'Klik A1 p. 119. Cardinal numbers in hundreds: τετρακόσια (400) + εβδομήντα
-    (70).'
+  greek: Σε ποιον όροφο βρίσκεται το διαμέρισμα; — Βρίσκεται στον δεύτερο όροφο.
+  phonetic_hint: seh PEE-on O-ro-fo VREES-keh-teh to thee-ah-MEH-ree-zmah? — VREES-keh-teh
+    ston THEHF-teh-ro O-ro-fo
+  english: On which floor is the apartment located? — It is on the second floor.
+  notes: 'Klik A1 p. 133, 141. Ordinal number question and answer: ''στον δεύτερο
+    όροφο''.'
   gender_or_pos: phrase
-  audio: i-ekdromi-stin-athin-a397ab.mp3
+  audio: se-poion-orofo-vrisk-360299.mp3
   status: verified
-  example_el: — Πόσο διαρκεί το ταξίδι; — Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες
-    και κοστίζει τετρακόσια εβδομήντα ευρώ.
-  example_en: — How long does the trip last? — The excursion to Athens lasts five
-    days and costs four hundred seventy euros.
+  example_el: — Σε ποιον όροφο βρίσκεται το διαμέρισμα; — Βρίσκεται στον δεύτερο όροφο.
+  example_en: — On which floor is the apartment located? — It is on the second floor.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Providing tour duration and hundred-level pricing
+  keg_communicative_function: Asking and answering about floor levels
 - id: A1-U106B-041
-  greek: Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ.
-  phonetic_hint: PO-so KAH-noon THEE-o ee-see-TEE-ree-ah meh eh-pee-stro-FEE? — KAH-noon
-    eh-kah-TON THEH-kah ev-RO
-  english: How much are two return tickets? — They cost one hundred ten euros.
-  notes: 'Klik A1 p. 119. Price query in plural: ''πόσο κάνουν...;'' with number 110
-    (εκατόν δέκα).'
+  greek: Η πολυκατοικία είναι καινούργια και διαθέτει σύγχρονο ασανσέρ.
+  phonetic_hint: ee po-lee-kah-tee-KEE-ah EE-neh keh-NOOR-gyah keh thee-ah-THEH-tee
+    SEEN-khro-no ah-sahn-SEHR
+  english: The apartment building is new and features a modern elevator.
+  notes: Klik A1 p. 134, 137. Building description with feminine and neuter adjectives.
   gender_or_pos: phrase
-  audio: poso-kanoyn-dyo-eisi-3fd4b0.mp3
+  audio: i-polykatoikia-einai-2292e9.mp3
   status: verified
-  example_el: — Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ
-    συνολικά.
-  example_en: — How much are two return tickets? — They cost one hundred ten euros
-    in total.
+  example_el: — Έχει ασανσέρ η οικοδομή; — Ναι, η πολυκατοικία είναι καινούργια και
+    διαθέτει σύγχρονο ασανσέρ.
+  example_en: — Does the building have an elevator? — Yes, the building is new and
+    features a modern elevator.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about round-trip ticket costs
+  keg_communicative_function: Confirming elevator availability in buildings
 - id: A1-U106B-042
-  greek: Το ξενοδοχείο προσφέρει πρωινό και δωρεάν σύνδεση στο διαδίκτυο.
-  phonetic_hint: to kseh-no-tho-KHEE-o pros-FEH-ree pro-ee-NO keh tho-reh-AHN SEEN-theh-see
-    sto thee-ah-THEEK-tee-o
-  english: The hotel offers breakfast and free internet connection.
-  notes: Klik A1 p. 115, 121. Describing hotel amenities and complementary services.
+  greek: Τι είδους θέρμανση έχει το σπίτι; — Έχει αυτόνομη θέρμανση με φυσικό αέριο.
+  phonetic_hint: tee EE-thoos THER-mahn-see EH-khee to SPEE-tee? — EH-khee ahf-TO-no-mee
+    THER-mahn-see meh fee-see-KO ah-EH-ree-o
+  english: What kind of heating does the house have? — It has autonomous natural gas
+    heating.
+  notes: 'Klik A1 p. 140, 141. Standard heating system question and answer: ''φυσικό
+    αέριο''.'
   gender_or_pos: phrase
-  audio: to-xenodocheio-prosf-b84557.mp3
+  audio: ti-eidoys-thermansi--6a1cd6.mp3
   status: verified
-  example_el: — Τι περιλαμβάνεται στην τιμή; — Το ξενοδοχείο προσφέρει πρωινό και
-    δωρεάν σύνδεση στο διαδίκτυο.
-  example_en: — What is included in the price? — The hotel offers breakfast and free
-    internet connection.
+  example_el: — Τι είδους θέρμανση έχει το σπίτι; — Έχει αυτόνομη θέρμανση με φυσικό
+    αέριο.
+  example_en: — What kind of heating does the house have? — It has autonomous natural
+    gas heating.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing included hotel amenities
+  keg_communicative_function: Inquiring about heating utilities
 - id: A1-U106B-043
-  greek: Εάν βρέχει και χιονίζει, το ταξίδι μας δεν αρχίζει.
-  phonetic_hint: eh-AHN VREH-khee keh khyo-NEE-zee, to tahk-SEE-thee mahs then ar-KHEE-zee
-  english: If it rains and snows, our journey does not begin.
-  notes: Klik A1 p. 127. Textbook travel rhyme with weather verbs (βρέχει, χιονίζει).
+  greek: Το διαμέρισμα είναι πλήρως επιπλωμένο και έχει όλες τις ηλεκτρικές συσκευές.
+  phonetic_hint: to thee-ah-MEH-ree-zmah EE-neh PLEE-ros eh-pee-plo-MEH-no keh EH-khee
+    O-les tees ee-lek-tree-KES see-skeh-VES
+  english: The apartment is fully furnished and has all electrical appliances.
+  notes: 'Klik A1 p. 135, 141. Participle used as adjective: επιπλωμένο (furnished).'
   gender_or_pos: phrase
-  audio: ean-vrechei-kai-chio-815120.mp3
+  audio: to-diamerisma-einai--c1aa30.mp3
   status: verified
-  example_el: — Θα ξεκινήσουμε με αυτή την κακοκαιρία; — Εάν βρέχει και χιονίζει,
-    το ταξίδι μας δεν αρχίζει!
-  example_en: — Shall we set off in this bad weather? — If it rains and snows, our
-    journey does not begin!
+  example_el: — Χρειάζεται να αγοράσω έπιπλα; — Όχι, το διαμέρισμα είναι πλήρως επιπλωμένο
+    και έχει όλες τις ηλεκτρικές συσκευές.
+  example_en: — Do I need to buy furniture? — No, the apartment is fully furnished
+    and has all electrical appliances.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reciting cultural travel rhymes regarding weather
+  keg_communicative_function: Confirming fully furnished rental specifications
 - id: A1-U106B-044
-  greek: Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.
-  phonetic_hint: tee keh-RO KAH-nee SEE-meh-rah? — EH-khee seen-neh-FYAH ah-LAH then
-    VREH-khee
-  english: What is the weather like today? — It is cloudy but it isn't raining.
-  notes: Klik A1 p. 127. Core weather question and response formula.
+  greek: Μένω σε μια πολύ ήσυχη γειτονιά με πολλούς καλούς γείτονες.
+  phonetic_hint: MEH-no seh mee-ah po-LEE EE-see-khee yee-to-NYAH meh po-LEES kah-LEES
+    YEE-to-nes
+  english: I live in a very quiet neighborhood with many good neighbors.
+  notes: 'Klik A1 p. 133, 137. Accusative plural of masculine noun: ''πολλούς καλούς
+    γείτονες''.'
   gender_or_pos: phrase
-  audio: ti-kairo-kanei-simer-e9aa69.mp3
+  audio: meno-se-mia-poly-isy-5ccfa6.mp3
   status: verified
-  example_el: — Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.
-  example_en: — What is the weather like today? — It is cloudy but it isn't raining.
+  example_el: — Σου αρέσει εκεί που μένεις; — Ναι, μένω σε μια πολύ ήσυχη γειτονιά
+    με πολλούς καλούς γείτονες.
+  example_en: — Do you like where you live? — Yes, I live in a very quiet neighborhood
+    with many good neighbors.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for and reporting current weather conditions
+  keg_communicative_function: Describing neighborhood atmosphere and neighbor relations
 - id: A1-U106B-045
-  greek: Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.
-  phonetic_hint: poo THEH-lees nah PAH-meh thee-ah-ko-PES? — THEH-lo nah PAH-meh stee
-    sahn-do-REE-nee meh to PLEE-o
-  english: Where do you want us to go on vacation? — I want us to go to Santorini
-    by ferry.
-  notes: Klik A1 p. 113, 121. Communicative Q&A turn for planning summer holidays.
+  greek: Το σπίτι μας είναι κοντά στο πανεπιστήμιο και στον σταθμό του μετρό.
+  phonetic_hint: to SPEE-tee mahs EE-neh kon-DAH sto pah-neh-pee-STEE-mee-o keh ston
+    stahth-MO too meh-TRO
+  english: Our house is near the university and the metro station.
+  notes: 'Klik A1 p. 135, 140. Locative preposition: ''κοντά σε'' + accusative.'
   gender_or_pos: phrase
-  audio: poy-theleis-na-pame--feeecc.mp3
+  audio: to-spiti-mas-einai-k-2ab9e5.mp3
   status: verified
-  example_el: — Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.
-  example_en: — Where do you want us to go on vacation? — I want us to go to Santorini
-    by ferry.
+  example_el: — Βρίσκετε εύκολα συγκοινωνία; — Ναι, το σπίτι μας είναι κοντά στο πανεπιστήμιο
+    και στον σταθμό του μετρό.
+  example_en: — Is transit easy to find? — Yes, our house is near the university and
+    the metro station.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Discussing holiday destinations and transport options
+  keg_communicative_function: Describing convenient proximity to university and metro
 - id: A1-U106B-046
-  greek: Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον καιρό.
-  phonetic_hint: PAH-meh EH-nah tahk-SEE-thee? — O-khee, thee-stee-KHOS EH-kho PAH-rah
-    po-LEE thoo-LYAH ahf-TON don keh-RO
-  english: Shall we go on a trip? — No, unfortunately I have too much work at this
-    time.
-  notes: Klik A1 p. 111, 113. Colloquial invitation and polite refusal with explanation.
+  greek: Τι χρώμα είναι οι τοίχοι στο υπνοδωμάτιο; — Είναι ανοιχτό πράσινο.
+  phonetic_hint: tee KHRO-mah EE-neh ee TEE-khee sto eep-no-tho-MAH-tee-o? — EE-neh
+    ah-neekh-TO PRAH-see-no
+  english: What color are the walls in the bedroom? — They are light green.
+  notes: 'Klik A1 p. 135, 141. Color inquiry formula: ''τι χρώμα είναι...;'' with
+    adjective πράσινο.'
   gender_or_pos: phrase
-  audio: pame-ena-taxidi-ochi-7d59aa.mp3
+  audio: ti-chroma-einai-oi-t-6b4f45.mp3
   status: verified
-  example_el: — Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον
-    καιρό.
-  example_en: — Shall we go on a trip? — No, unfortunately I have too much work at
-    this time.
+  example_el: — Τι χρώμα είναι οι τοίχοι στο υπνοδωμάτιο; — Είναι ανοιχτό πράσινο.
+  example_en: — What color are the walls in the bedroom? — They are light green.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Declining an invitation due to professional workload
+  keg_communicative_function: Inquiring about and stating wall paint colors
 - id: A1-U106B-047
-  greek: Την πρώτη μέρα φτάνουμε στην Καβάλα και το απόγευμα έχουμε ελεύθερο χρόνο.
-  phonetic_hint: teen PRO-tee MEH-rah FTAH-noo-meh steen kah-VAH-lah keh to ah-PO-yev-mah
-    EH-khoo-meh eh-LEF-theh-ro KHRO-no
-  english: On the first day we arrive in Kavala and in the afternoon we have free
-    time.
-  notes: Klik A1 p. 123. Itinerary narrative with ordinal number (πρώτη μέρα) and
-    accusative time adjunct.
+  greek: Αγοράσαμε έναν άνετο γκρι καναπέ και ένα κόκκινο χαλί για το σαλόνι.
+  phonetic_hint: ah-go-RAH-sah-meh EH-nahn AH-neh-to gkree kah-nah-PEH keh EH-nah
+    KOK-kee-no khah-LEE yah to sah-LO-nee
+  english: We bought a comfortable gray sofa and a red carpet for the living room.
+  notes: Klik A1 p. 135, 141, 144. Contrast of indeclinable color 'γκρι' and declinable
+    'κόκκινο'.
   gender_or_pos: phrase
-  audio: tin-proti-mera-ftano-6e8da4.mp3
+  audio: agorasame-enan-aneto-750ef5.mp3
   status: verified
-  example_el: — Ποιο είναι το πρόγραμμα; — Την πρώτη μέρα φτάνουμε στην Καβάλα και
-    το απόγευμα έχουμε ελεύθερο χρόνο.
-  example_en: — What is the schedule? — On the first day we arrive in Kavala and in
-    the afternoon we have free time.
+  example_el: — Πώς διακοσμήσατε τον χώρο; — Αγοράσαμε έναν άνετο γκρι καναπέ και
+    ένα κόκκινο χαλί για το σαλόνι.
+  example_en: — How did you decorate the space? — We bought a comfortable gray sofa
+    and a red carpet for the living room.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Narrating day-one itinerary stages
+  keg_communicative_function: Describing furniture purchases and color schemes
 - id: A1-U106B-048
-  greek: Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε μια βόλτα στην πόλη.
-  phonetic_hint: tee THEHF-teh-ree MEH-rah TRO-meh pro-ee-NO stees ok-TO keh KAH-noo-meh
-    mee-ah VOL-tah steen PO-lee
-  english: On the second day we eat breakfast at eight and take a walk in the city.
-  notes: Klik A1 p. 123. Itinerary narrative with ordinal number (δεύτερη μέρα) and
-    clock time.
+  greek: Οι κουρτίνες στην κουζίνα είναι κίτρινες και τα ντουλάπια είναι λευκά.
+  phonetic_hint: ee koor-TEE-nes steen koo-ZEE-nah EE-neh KEE-tree-nes keh tah doo-LAH-pyah
+    EE-neh lef-KAH
+  english: The curtains in the kitchen are yellow and the cupboards are white.
+  notes: Klik A1 p. 135, 141. Adjective color agreement across feminine plural (κίτρινες)
+    and neuter plural (λευκά).
   gender_or_pos: phrase
-  audio: ti-deyteri-mera-trom-13785b.mp3
+  audio: oi-koyrtines-stin-ko-d6f40b.mp3
   status: verified
-  example_el: — Τι κάνουμε μετά; — Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε
-    μια βόλτα στην πόλη.
-  example_en: — What do we do next? — On the second day we eat breakfast at eight
-    and take a walk in the city.
+  example_el: — Πώς είναι η κουζίνα σας; — Οι κουρτίνες στην κουζίνα είναι κίτρινες
+    και τα ντουλάπια είναι λευκά.
+  example_en: — How is your kitchen? — The curtains in the kitchen are yellow and
+    the cupboards are white.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing sightseeing schedules and meals
+  keg_communicative_function: Describing kitchen decoration and color coordination
 - id: A1-U106B-049
-  greek: Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.
-  phonetic_hint: o PRO-tos nee-kee-TEES too thee-ah-go-nees-MOO ker-THEE-zee EH-nah
-    tahk-SEE-thee steen ah-meh-ree-KEE
-  english: The first winner of the competition wins a trip to America.
-  notes: 'Klik A1 p. 127. Textbook example: ordinal number + genitive of possession
-    (του διαγωνισμού).'
+  greek: Το μπαλκόνι είναι πολύ μεγάλο και έχει υπέροχη θέα στο πάρκο.
+  phonetic_hint: to bahl-KO-nee EE-neh po-LEE meh-GAH-lo keh EH-khee ee-PEH-ro-khee
+    THEH-ah sto PAHR-ko
+  english: The balcony is very big and has a wonderful view of the park.
+  notes: 'Klik A1 p. 134, 140. Expressing scenic balcony view: ''θέα σε / στο''.'
   gender_or_pos: phrase
-  audio: o-protos-nikitis-toy-d30972.mp3
+  audio: to-mpalkoni-einai-po-30e88e.mp3
   status: verified
-  example_el: — Ποιο είναι το μεγάλο έπαθλο; — Ο πρώτος νικητής του διαγωνισμού κερδίζει
-    ένα ταξίδι στην Αμερική.
-  example_en: — What is the grand prize? — The first winner of the competition wins
-    a trip to America.
+  example_el: — Έχει ωραία θέα το διαμέρισμα; — Ναι, το μπαλκόνι είναι πολύ μεγάλο
+    και έχει υπέροχη θέα στο πάρκο.
+  example_en: — Does the apartment have a nice view? — Yes, the balcony is very big
+    and has a wonderful view of the park.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Announcing competition prizes and ordinal ranks
+  keg_communicative_function: Praising balcony views and outdoor amenities
 - id: A1-U106B-050
-  greek: Περιμένω την απάντησή σου στο γράμμα μου! Πολλά φιλιά.
-  phonetic_hint: peh-ree-MEH-no teen ah-PAHN-dee-see soo sto GRAH-mah moo! po-LAH
-    fee-LYAH
-  english: I am waiting for your reply to my letter! Lots of kisses.
-  notes: Klik A1 p. 111, 132. Traditional letter/email closing formula among friends.
+  greek: Σπίτι μου, σπιτάκι μου και σπιτοκαλυβάκι μου!
+  phonetic_hint: SPEE-tee moo, spee-TAH-kee moo keh spee-to-kah-lee-VAH-kee moo
+  english: Home sweet home, my little house and little haven!
+  notes: 'Klik A1 p. 133. Traditional Greek cultural proverb and unit title: expressing
+    affection for one''s own home.'
   gender_or_pos: phrase
-  audio: perimeno-tin-apantis-8cd3e0.mp3
+  audio: spiti-moy-spitaki-mo-753c57.mp3
   status: verified
-  example_el: '— Πώς κλείνεις το γράμμα σου; — Γράφω: «Περιμένω την απάντησή σου στο
-    γράμμα μου! Πολλά φιλιά».'
-  example_en: '— How do you conclude your letter? — I write: ''I am waiting for your
-    reply to my letter! Lots of kisses.'''
+  example_el: — Επιτέλους γυρίσαμε από το ταξίδι! — Σπίτι μου, σπιτάκι μου και σπιτοκαλυβάκι
+    μου!
+  example_en: — We are finally back from the trip! — Home sweet home, my little house
+    and little haven!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Closing personal correspondence warmly
+  keg_communicative_function: Expressing emotional comfort and belonging at home

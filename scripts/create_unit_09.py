@@ -1,0 +1,826 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 9: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and KEG A1 Standards.
+"""
+import sys
+import json
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-09"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+JSON_PATH = CONTENT_DIR / "keg_a1_units_09.json"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u9 = [
+    # 1. Time Concepts & Telling Time Fractions
+    {
+        "id": "A1-U09-001",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η ώρα",
+        "back_primary": "hour / time / o'clock",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ώρες",
+            "accusative_singular": "την ώρα"
+        },
+        "keg_communicative_function": "Asking for and stating the time",
+        "example_el": "Τι ώρα είναι τώρα, παρακαλώ;",
+        "example_en": "What time is it now, please?",
+        "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι ώρες). Ubiquitous question: 'Τι ώρα είναι;'."
+    },
+    {
+        "id": "A1-U09-002",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το λεπτό",
+        "back_primary": "minute (time) / cent (currency)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα λεπτά",
+            "accusative_singular": "το λεπτό"
+        },
+        "keg_communicative_function": "Specifying exact minutes for schedules and transport",
+        "example_el": "Το λεωφορείο φτάνει σε δέκα λεπτά.",
+        "example_en": "The bus arrives in ten minutes.",
+        "notes_or_mnemonics": "Oxytone neuter in -ό (plural: τα λεπτά). Also means cent: ένα ευρώ και είκοσι λεπτά."
+    },
+    {
+        "id": "A1-U09-003",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το τέταρτο",
+        "back_primary": "quarter of an hour (15 minutes) / fourth",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα τέταρτα",
+            "accusative_singular": "το τέταρτο"
+        },
+        "keg_communicative_function": "Stating quarter past and quarter to the hour",
+        "example_el": "Είναι τρεις και τέταρτο.",
+        "example_en": "It is a quarter past three (3:15).",
+        "notes_or_mnemonics": "Formula: 'και τέταρτο' = quarter past / 'παρά τέταρτο' = quarter to."
+    },
+    {
+        "id": "A1-U09-004",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "και μισή",
+        "back_primary": "half past (the hour) / thirty minutes past",
+        "grammatical_info": {
+            "part_of_speech": "phrase (time formula)"
+        },
+        "keg_communicative_function": "Stating half-past hours in timetable announcements",
+        "example_el": "Το ιατρείο ανοίγει στις οκτώ και μισή.",
+        "example_en": "The doctor's office opens at half past eight (8:30).",
+        "notes_or_mnemonics": "Feminine agreement with 'ώρα': 'και μισή' (short for και μισή ώρα)."
+    },
+    {
+        "id": "A1-U09-005",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "preposition",
+        "front": "παρά",
+        "back_primary": "to (the hour) / minus / before",
+        "grammatical_info": {
+            "part_of_speech": "preposition (temporal)"
+        },
+        "keg_communicative_function": "Stating minutes before the upcoming hour",
+        "example_el": "Είναι πέντε παρά είκοσι.",
+        "example_en": "It is twenty to five (4:40).",
+        "notes_or_mnemonics": "Formula: Upcoming Hour + παρά + minutes: 'έξι παρά δέκα' (ten to six)."
+    },
+    {
+        "id": "A1-U09-006",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "adverb",
+        "front": "ακριβώς",
+        "back_primary": "exactly / sharp / precisely (on the hour)",
+        "grammatical_info": {
+            "part_of_speech": "adverb of precision"
+        },
+        "keg_communicative_function": "Stating sharp appointments and exact timetable arrivals",
+        "example_el": "Το τρένο φεύγει στις έντεκα ακριβώς.",
+        "example_en": "The train leaves at eleven o'clock sharp.",
+        "notes_or_mnemonics": "Oxytone adverb. Used also to agree strongly: 'Ακριβώς!' (Exactly!)."
+    },
+    {
+        "id": "A1-U09-007",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "στις μία / στις δύο / στις τρεις",
+        "back_primary": "at one / at two / at three (o'clock)",
+        "grammatical_info": {
+            "part_of_speech": "phrase (time formula)",
+            "construction": "σε + feminine accusative article + cardinal numeral"
+        },
+        "keg_communicative_function": "Specifying at what time an event or appointment occurs",
+        "example_el": "Συναντιόμαστε στις έξι το απόγευμα.",
+        "example_en": "We meet at six in the afternoon.",
+        "notes_or_mnemonics": "'Στη μία' (singular feminine for 1:00) vs 'στις δύο, στις τρεις...' (plural feminine for all other hours)."
+    },
+    {
+        "id": "A1-U09-008",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το ραντεβού",
+        "back_primary": "appointment / meeting / date",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter indeclinable)",
+            "plural": "τα ραντεβού",
+            "accusative_singular": "το ραντεβού"
+        },
+        "keg_communicative_function": "Scheduling medical, personal, or business meetings",
+        "example_el": "Έχω ραντεβού με τον γιατρό στις τέσσερις.",
+        "example_en": "I have an appointment with the doctor at four.",
+        "notes_or_mnemonics": "French loanword: indeclinable neuter noun (το ραντεβού, τα ραντεβού). Collocation: 'κλείνω ραντεβού'."
+    },
+    {
+        "id": "A1-U09-009",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το ρολόι",
+        "back_primary": "clock / watch",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ρολόγια",
+            "accusative_singular": "το ρολόι"
+        },
+        "keg_communicative_function": "Referring to timepieces and clocks",
+        "example_el": "Το ρολόι μου δείχνει δώδεκα και μισή.",
+        "example_en": "My watch shows half past twelve.",
+        "notes_or_mnemonics": "Oxytone neuter in -όι (plural: τα ρολόγια). Refers to wristwatches and wall clocks."
+    },
+
+    # 2. Days of the Week & Weekly Cycles
+    {
+        "id": "A1-U09-010",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η εβδομάδα",
+        "back_primary": "week",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εβδομάδες",
+            "accusative_singular": "την εβδομάδα"
+        },
+        "keg_communicative_function": "Talking about weekly routines and frequency",
+        "example_el": "Έχουμε μάθημα δύο φορές την εβδομάδα.",
+        "example_en": "We have class twice a week.",
+        "notes_or_mnemonics": "Paroxytone feminine in -α with plural in -ες (οι εβδομάδες). From επτά (seven)."
+    },
+    {
+        "id": "A1-U09-011",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το σαββατοκύριακο",
+        "back_primary": "weekend",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα σαββατοκύριακα",
+            "accusative_singular": "το σαββατοκύριακο"
+        },
+        "keg_communicative_function": "Arranging weekend social outings or trips",
+        "example_el": "Το σαββατοκύριακο πάμε εκδρομή στη θάλασσα.",
+        "example_en": "On the weekend we go on a trip to the sea.",
+        "notes_or_mnemonics": "Compound from Σάββατο (Saturday) + Κυριακή (Sunday). Proparoxytone neuter in -ο."
+    },
+    {
+        "id": "A1-U09-012",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Δευτέρα",
+        "back_primary": "Monday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Δευτέρες",
+            "accusative_singular": "τη Δευτέρα"
+        },
+        "keg_communicative_function": "Scheduling activities on Monday",
+        "example_el": "Τη Δευτέρα αρχίζει το νέο σεμινάριο.",
+        "example_en": "On Monday the new seminar starts.",
+        "notes_or_mnemonics": "Capitalized day name. 'Τη Δευτέρα' (Accusative without preposition) = On Monday."
+    },
+    {
+        "id": "A1-U09-013",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Τρίτη",
+        "back_primary": "Tuesday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Τρίτες",
+            "accusative_singular": "την Τρίτη"
+        },
+        "keg_communicative_function": "Scheduling activities on Tuesday",
+        "example_el": "Την Τρίτη το πρωί έχω μάθημα ελληνικών.",
+        "example_en": "On Tuesday morning I have a Greek class.",
+        "notes_or_mnemonics": "Accusative keeps -ν before τ: 'την Τρίτη'."
+    },
+    {
+        "id": "A1-U09-014",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Τετάρτη",
+        "back_primary": "Wednesday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Τετάρτες",
+            "accusative_singular": "την Τετάρτη"
+        },
+        "keg_communicative_function": "Scheduling activities on Wednesday",
+        "example_el": "Την Τετάρτη το απόγευμα τα μαγαζιά είναι κλειστά.",
+        "example_en": "On Wednesday afternoon the shops are closed.",
+        "notes_or_mnemonics": "Traditional Greek shop hours: closed Wednesday and Monday afternoons."
+    },
+    {
+        "id": "A1-U09-015",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Πέμπτη",
+        "back_primary": "Thursday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Πέμπτες",
+            "accusative_singular": "την Πέμπτη"
+        },
+        "keg_communicative_function": "Scheduling activities on Thursday",
+        "example_el": "Την Πέμπτη έχουμε συνάντηση στο γραφείο.",
+        "example_en": "On Thursday we have a meeting at the office.",
+        "notes_or_mnemonics": "Accusative keeps -ν before π: 'την Πέμπτη'."
+    },
+    {
+        "id": "A1-U09-016",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Παρασκευή",
+        "back_primary": "Friday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Παρασκευές",
+            "accusative_singular": "την Παρασκευή"
+        },
+        "keg_communicative_function": "Scheduling activities on Friday before the weekend",
+        "example_el": "Την Παρασκευή το βράδυ πάμε σε μία ταβέρνα.",
+        "example_en": "On Friday evening we go to a taverna.",
+        "notes_or_mnemonics": "Oxytone feminine in -ή. Accusative keeps -ν before π: 'την Παρασκευή'."
+    },
+    {
+        "id": "A1-U09-017",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το Σάββατο",
+        "back_primary": "Saturday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (neuter)",
+            "plural": "τα Σάββατα",
+            "accusative_singular": "το Σάββατο"
+        },
+        "keg_communicative_function": "Scheduling Saturday leisure activities and shopping",
+        "example_el": "Το Σάββατο πηγαίνουμε στη λαϊκή αγορά.",
+        "example_en": "On Saturday we go to the farmers' market.",
+        "notes_or_mnemonics": "The ONLY neuter day of the week in Greek: 'το Σάββατο' (all others are feminine)."
+    },
+    {
+        "id": "A1-U09-018",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η Κυριακή",
+        "back_primary": "Sunday",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (feminine)",
+            "plural": "οι Κυριακές",
+            "accusative_singular": "την Κυριακή"
+        },
+        "keg_communicative_function": "Talking about Sunday family dinners and rest days",
+        "example_el": "Την Κυριακή ξεκουραζόμαστε όλη μέρα.",
+        "example_en": "On Sunday we rest all day.",
+        "notes_or_mnemonics": "From Κύριος (Lord's day). Oxytone feminine in -ή (accusative: την Κυριακή)."
+    },
+
+    # 3. Seasons & Weather Climate Cycle
+    {
+        "id": "A1-U09-019",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η εποχή",
+        "back_primary": "season / era / time of year",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εποχές",
+            "accusative_singular": "την εποχή"
+        },
+        "keg_communicative_function": "Talking about the four seasons of the year",
+        "example_el": "Ποια είναι η αγαπημένη σου εποχή;",
+        "example_en": "Which is your favorite season?",
+        "notes_or_mnemonics": "Oxytone feminine in -ή (plural: οι εποχές)."
+    },
+    {
+        "id": "A1-U09-020",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "η άνοιξη",
+        "back_primary": "spring (season)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ανοίξεις",
+            "accusative_singular": "την άνοιξη"
+        },
+        "keg_communicative_function": "Describing springtime weather and holidays (Easter)",
+        "example_el": "Την άνοιξη ο καιρός είναι ζεστός και ευχάριστος.",
+        "example_en": "In spring the weather is warm and pleasant.",
+        "notes_or_mnemonics": "Proparoxytone feminine in -η. Temporal accusative: 'την άνοιξη' = in spring."
+    },
+    {
+        "id": "A1-U09-021",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το καλοκαίρι",
+        "back_primary": "summer",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα καλοκαίρια",
+            "accusative_singular": "το καλοκαίρι"
+        },
+        "keg_communicative_function": "Talking about summer holidays and island trips",
+        "example_el": "Το καλοκαίρι πηγαίνουμε διακοπές στα νησιά.",
+        "example_en": "In summer we go on vacation to the islands.",
+        "notes_or_mnemonics": "Compound from καλός + καιρός (good weather). Temporal usage: 'το καλοκαίρι' = in summer."
+    },
+    {
+        "id": "A1-U09-022",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το φθινόπωρο",
+        "back_primary": "autumn / fall",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα φθινόπωρα",
+            "accusative_singular": "το φθινόπωρο"
+        },
+        "keg_communicative_function": "Talking about autumn weather and return to school",
+        "example_el": "Το φθινόπωρο αρχίζουν τα σχολεία και τα πανεπιστήμια.",
+        "example_en": "In autumn schools and universities begin.",
+        "notes_or_mnemonics": "Proparoxytone neuter in -ο. Temporal usage: 'το φθινόπωρο' = in autumn."
+    },
+    {
+        "id": "A1-U09-023",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο χειμώνας",
+        "back_primary": "winter",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι χειμώνες",
+            "accusative_singular": "τον χειμώνα"
+        },
+        "keg_communicative_function": "Describing cold winter weather and mountain trips",
+        "example_el": "Τον χειμώνα κάνει κρύο και βρέχει συχνά.",
+        "example_en": "In winter it is cold and it rains often.",
+        "notes_or_mnemonics": "Paroxytone masculine in -ας. Temporal accusative: 'τον χειμώνα' = in winter."
+    },
+
+    # 4. Months of the Year & Calendar Vocabulary
+    {
+        "id": "A1-U09-024",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο μήνας",
+        "back_primary": "month",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι μήνες",
+            "accusative_singular": "τον μήνα"
+        },
+        "keg_communicative_function": "Talking about months and yearly calendar periods",
+        "example_el": "Ο χρόνος έχει δώδεκα μήνες.",
+        "example_en": "The year has twelve months.",
+        "notes_or_mnemonics": "Paroxytone masculine in -ας (plural: οι μήνες). Phrase: 'τον μήνα' = per month."
+    },
+    {
+        "id": "A1-U09-025",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το έτος / ο χρόνος",
+        "back_primary": "year",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter / masculine)",
+            "plural": "τα έτη / οι χρόνοι",
+            "accusative_singular": "το έτος / τον χρόνο"
+        },
+        "keg_communicative_function": "Stating age, dates, and years on forms",
+        "example_el": "Καλή χρονιά και ευτυχισμένο το νέο έτος!",
+        "example_en": "Happy New Year and a blessed new year!",
+        "notes_or_mnemonics": "Both 'ο χρόνος' (informal/daily) and 'το έτος' (formal/official forms) are standard."
+    },
+    {
+        "id": "A1-U09-026",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "το ημερολόγιο",
+        "back_primary": "calendar / diary",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ημερολόγια",
+            "accusative_singular": "το ημερολόγιο"
+        },
+        "keg_communicative_function": "Consulting dates and booking appointments on a calendar",
+        "example_el": "Κοιτάζω το ημερολόγιο για να βρω ελεύθερη μέρα.",
+        "example_en": "I look at the calendar to find a free day.",
+        "notes_or_mnemonics": "Proparoxytone neuter in -ιο (plural: τα ημερολόγια). From ημέρα (day) + λέγω (record)."
+    },
+    {
+        "id": "A1-U09-027",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο Ιανουάριος / ο Γενάρης",
+        "back_primary": "January",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (masculine)",
+            "accusative_singular": "τον Ιανουάριο / τον Γενάρη"
+        },
+        "keg_communicative_function": "Referring to January and New Year dates",
+        "example_el": "Τον Ιανουάριο γιορτάζουμε την Πρωτοχρονιά.",
+        "example_en": "In January we celebrate New Year's Day.",
+        "notes_or_mnemonics": "All month names in Greek are masculine. Temporal usage: 'τον Ιανουάριο' = in January."
+    },
+    {
+        "id": "A1-U09-028",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο Απρίλιος / ο Απρίλης",
+        "back_primary": "April",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (masculine)",
+            "accusative_singular": "τον Απρίλιο / τον Απρίλη"
+        },
+        "keg_communicative_function": "Specifying spring dates and Greek Easter season",
+        "example_el": "Το Πάσχα πέφτει συνήθως τον Απρίλιο.",
+        "example_en": "Easter usually falls in April.",
+        "notes_or_mnemonics": "Both formal '-ιος' and colloquial '-ης' forms are standard."
+    },
+    {
+        "id": "A1-U09-029",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο Ιούλιος / ο Ιούλης",
+        "back_primary": "July",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (masculine)",
+            "accusative_singular": "τον Ιούλιο / τον Ιούλη"
+        },
+        "keg_communicative_function": "Planning mid-summer holiday dates",
+        "example_el": "Τον Ιούλιο πάμε διακοπές στη Νάξο.",
+        "example_en": "In July we go on vacation to Naxos.",
+        "notes_or_mnemonics": "Proparoxytone masculine: ο Ιούλιος."
+    },
+    {
+        "id": "A1-U09-030",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο Αύγουστος",
+        "back_primary": "August",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (masculine)",
+            "accusative_singular": "τον Αύγουστο"
+        },
+        "keg_communicative_function": "Describing peak summer holiday periods in Greece",
+        "example_el": "Τον Αύγουστο η Αθήνα είναι άδεια.",
+        "example_en": "In August Athens is empty.",
+        "notes_or_mnemonics": "Proparoxytone masculine. Major Greek holiday month (Dekapentavgoustos / 15th August)."
+    },
+    {
+        "id": "A1-U09-031",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "vocabulary",
+        "front": "ο Δεκέμβριος / ο Δεκέμβρης",
+        "back_primary": "December",
+        "grammatical_info": {
+            "part_of_speech": "proper noun (masculine)",
+            "accusative_singular": "τον Δεκέμβριο / τον Δεκέμβρη"
+        },
+        "keg_communicative_function": "Specifying Christmas and end-of-year dates",
+        "example_el": "Τα Χριστούγεννα είναι στις είκοσι πέντε Δεκεμβρίου.",
+        "example_en": "Christmas is on the twenty-fifth of December.",
+        "notes_or_mnemonics": "Genitive in dates: 'στις 25 Δεκεμβρίου'."
+    },
+
+    # 5. Temporal Prepositions & Scheduling Connectives
+    {
+        "id": "A1-U09-032",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "πριν από",
+        "back_primary": "before / prior to / ago (+ Accusative)",
+        "grammatical_info": {
+            "part_of_speech": "phrase (temporal preposition)",
+            "governs_case": "accusative with article (πριν από το...)"
+        },
+        "keg_communicative_function": "Indicating prior sequence or time elapsed",
+        "example_el": "Φτάνω στο γραφείο πριν από τις εννέα.",
+        "example_en": "I arrive at the office before nine o'clock.",
+        "notes_or_mnemonics": "Direct antonym of 'μετά από'."
+    },
+    {
+        "id": "A1-U09-033",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "μετά από",
+        "back_primary": "after / following / in (+ Accusative)",
+        "grammatical_info": {
+            "part_of_speech": "phrase (temporal preposition)",
+            "governs_case": "accusative with article (μετά από τη...)"
+        },
+        "keg_communicative_function": "Indicating following sequence in daily schedules",
+        "example_el": "Μετά από το μάθημα πάμε για καφέ.",
+        "example_en": "After class we go for coffee.",
+        "notes_or_mnemonics": "Can also be used with standalone accusative without 'από': 'μετά το μάθημα'."
+    },
+    {
+        "id": "A1-U09-034",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "από... μέχρι...",
+        "back_primary": "from... until... / from... to...",
+        "grammatical_info": {
+            "part_of_speech": "phrase (time range formula)",
+            "syntax": "από + Accusative ... μέχρι + Accusative"
+        },
+        "keg_communicative_function": "Stating business opening hours and timetable spans",
+        "example_el": "Το κατάστημα είναι ανοιχτό από τις εννέα μέχρι τις εννέα.",
+        "example_en": "The store is open from nine until nine.",
+        "notes_or_mnemonics": "Archetypal opening hours formula in KEG Listening Part 3 announcements."
+    },
+    {
+        "id": "A1-U09-035",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "adverb",
+        "front": "σήμερα",
+        "back_primary": "today",
+        "grammatical_info": {
+            "part_of_speech": "adverb of time"
+        },
+        "keg_communicative_function": "Stating current day events and immediate plans",
+        "example_el": "Σήμερα είναι Δευτέρα και έχω πολλή δουλειά.",
+        "example_en": "Today is Monday and I have a lot of work.",
+        "notes_or_mnemonics": "Paroxytone adverb of time."
+    },
+    {
+        "id": "A1-U09-036",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "adverb",
+        "front": "αύριο",
+        "back_primary": "tomorrow",
+        "grammatical_info": {
+            "part_of_speech": "adverb of time"
+        },
+        "keg_communicative_function": "Arranging next day meetings and schedules",
+        "example_el": "Τα λέμε αύριο το πρωί στο γραφείο!",
+        "example_en": "See you tomorrow morning at the office!",
+        "notes_or_mnemonics": "Proparoxytone adverb of time."
+    },
+    {
+        "id": "A1-U09-037",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "adverb",
+        "front": "χθες",
+        "back_primary": "yesterday",
+        "grammatical_info": {
+            "part_of_speech": "adverb of time"
+        },
+        "keg_communicative_function": "Setting temporal reference to the previous day",
+        "example_el": "Χθες ήταν Κυριακή και ξεκουράστηκα.",
+        "example_en": "Yesterday was Sunday and I rested.",
+        "notes_or_mnemonics": "Monosyllabic adverb. Also written as 'χτες'."
+    },
+    {
+        "id": "A1-U09-038",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "adverb",
+        "front": "τώρα",
+        "back_primary": "now / right now",
+        "grammatical_info": {
+            "part_of_speech": "adverb of time"
+        },
+        "keg_communicative_function": "Expressing actions occurring at the immediate moment",
+        "example_el": "Τώρα δεν μπορώ, είμαι σε ραντεβού.",
+        "example_en": "Now I cannot, I am in a meeting.",
+        "notes_or_mnemonics": "Paroxytone adverb of time."
+    },
+
+    # 6. Scheduling & Meeting Verbs (Present Active Indicative)
+    {
+        "id": "A1-U09-039",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "phrase",
+        "front": "κλείνω ραντεβού",
+        "back_primary": "to make an appointment / to book a meeting",
+        "grammatical_info": {
+            "part_of_speech": "phrase (verb expression)",
+            "verb_type": "A",
+            "third_person_singular": "αυτός / αυτή / αυτό κλείνει ραντεβού",
+            "first_person_plural": "εμείς κλείνουμε ραντεβού",
+            "verb_involved": "κλείνω (Type A)"
+        },
+        "keg_communicative_function": "Booking a time with a doctor, dentist, or hairdresser",
+        "example_el": "Κλείνω ραντεβού με τον γιατρό για αύριο.",
+        "example_en": "I make an appointment with the doctor for tomorrow.",
+        "notes_or_mnemonics": "Verb 'κλείνω' (literally: to close/book) + ραντεβού. In A1: κλείνω ραντεβού."
+    },
+    {
+        "id": "A1-U09-040",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "verb",
+        "front": "περιμένω",
+        "back_primary": "to wait for / to expect / I wait",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "A",
+            "third_person_singular": "αυτός / αυτή / αυτό περιμένει",
+            "first_person_plural": "εμείς περιμένουμε"
+        },
+        "keg_communicative_function": "Expressing waiting for people, public transport, or appointments",
+        "example_el": "Σε περιμένω έξω από τον σταθμό του μετρό.",
+        "example_en": "I am waiting for you outside the metro station.",
+        "notes_or_mnemonics": "Type A active verb: περιμένω, περιμένεις, περιμένει, περιμένουμε, περιμένετε, περιμένουν."
+    },
+    {
+        "id": "A1-U09-041",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "verb",
+        "front": "συναντάω / συναντώ",
+        "back_primary": "to meet / to encounter / I meet",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "B1",
+            "third_person_singular": "αυτός / αυτή / αυτό συναντάει (συναντά)",
+            "first_person_plural": "εμείς συναντάμε"
+        },
+        "keg_communicative_function": "Arranging to meet friends or colleagues at a specified time",
+        "example_el": "Συναντάμε τους φίλους μας στην πλατεία στις οκτώ.",
+        "example_en": "We meet our friends in the square at eight.",
+        "notes_or_mnemonics": "Type B1 contracted verb: συναντάω/-ώ, συναντάς, συναντάει/-ά, συναντάμε, συναντάτε, συναντάνε."
+    },
+    {
+        "id": "A1-U09-042",
+        "unit_number": 9,
+        "unit_theme": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "card_type": "verb",
+        "front": "προλαβαίνω",
+        "back_primary": "to make it in time / to catch (a bus/train) / I catch",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "A",
+            "third_person_singular": "αυτός / αυτή / αυτό προλαβαίνει",
+            "first_person_plural": "εμείς προλαβαίνουμε"
+        },
+        "keg_communicative_function": "Talking about being on time or catching public transit",
+        "example_el": "Τρέχουμε για να προλάβουμε το τελευταίο λεωφορείο.",
+        "example_en": "We run in order to catch the last bus.",
+        "notes_or_mnemonics": "Type A verb ending in -αίνω: προλαβαίνω, προλαβαίνεις, προλαβαίνει, προλαβαίνουμε."
+    }
+]
+
+# 1. Write content/keg_a1_units_09.json
+with open(JSON_PATH, "w", encoding="utf-8") as f:
+    json.dump(cards_u9, f, ensure_ascii=False, indent=2)
+print(f"[OK] Wrote {len(cards_u9)} cards to {JSON_PATH.name}")
+
+# 2. Build entries for content/unit-09/lesson-01.yaml
+lesson_entries = []
+for c in cards_u9:
+    entry = {
+        "id": c["id"],
+        "greek": c["front"],
+        "phonetic_hint": "",
+        "english": c["back_primary"],
+        "notes": c.get("notes_or_mnemonics", ""),
+        "gender_or_pos": c["grammatical_info"].get("part_of_speech", "phrase"),
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": c.get("example_el", ""),
+        "example_en": c.get("example_en", ""),
+        "grammatical_info": c.get("grammatical_info", {}),
+        "keg_communicative_function": c.get("keg_communicative_function", "")
+    }
+    lesson_entries.append(entry)
+
+lesson_notes_u9 = (
+    "Unit 9 Core Grammar Notes:\n\n"
+    "• Telling Time (Ώρα):\n"
+    "  - Inquiring: 'Τι ώρα είναι;' (What time is it?) / 'Σε τι ώρα;' (At what time?).\n"
+    "  - Exact hour: 'Είναι μία ακριβώς' (1:00) / 'Είναι δύο ακριβώς' (2:00).\n"
+    "  - Minutes past: 'Είναι τρεις και τέταρτο' (3:15) / 'Είναι τέσσερις και είκοσι' (4:20).\n"
+    "  - Half past: 'Είναι πέντε και μισή' (5:30).\n"
+    "  - Minutes to: 'Είναι έξι παρά είκοσι' (5:40) / 'Είναι επτά παρά τέταρτο' (6:45).\n"
+    "  - Specifying when: 'Στη μία' (at 1:00) vs 'Στις τρεις, στις τέσσερις...' (all other hours).\n\n"
+    "• Days of the Week (Ημέρες της Εβδομάδας):\n"
+    "  - Feminine (all except Saturday): η Δευτέρα, η Τρίτη, η Τετάρτη, η Πέμπτη, η Παρασκευή, η Κυριακή.\n"
+    "  - Neuter: το Σάββατο, το σαββατοκύριακο.\n"
+    "  - Temporal Accusative (no preposition): 'τη Δευτέρα' (on Monday), 'το Σάββατο' (on Saturday).\n\n"
+    "• The Four Seasons (Εποχές):\n"
+    "  - η άνοιξη (spring), το καλοκαίρι (summer), το φθινόπωρο (autumn), ο χειμώνας (winter).\n"
+    "  - Temporal Accusative: 'την άνοιξη', 'το καλοκαίρι', 'το φθινόπωρο', 'τον χειμώνα'.\n\n"
+    "• Months (Μήνες):\n"
+    "  - All months in Modern Greek are masculine (ο Ιανουάριος, ο Απρίλιος, ο Αύγουστος...).\n"
+    "  - Temporal Accusative: 'τον Ιανουάριο' (in January), 'τον Αύγουστο' (in August).\n\n"
+    "• Time Spans & Scheduling Connectives:\n"
+    "  - από... μέχρι... (from... until...): 'από τις εννέα μέχρι τις πέντε'.\n"
+    "  - πριν από / μετά από + Accusative.\n"
+    "  - κλείνω ραντεβού (make an appointment) / περιμένω (wait for)."
+)
+
+yaml_payload = {
+    "unit_id": "unit-09",
+    "lesson_id": "lesson-01",
+    "title": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+    "description": "CEFR A1: Asking for and stating the time, days of the week, months, seasons, arranging appointments, and understanding timetable announcements.",
+    "lesson_status": "not_started",
+    "lesson_notes": lesson_notes_u9,
+    "entries": lesson_entries
+}
+
+with open(YAML_PATH, "w", encoding="utf-8") as f:
+    yaml.dump(yaml_payload, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+print(f"[OK] Wrote {len(lesson_entries)} entries to {YAML_PATH.relative_to(BASE_DIR)}")
+
+# 3. Update content/manifest.yaml if unit-09 is not already in manifest
+with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+    manifest = yaml.safe_load(f) or {}
+
+existing_unit_ids = [u["id"] for u in manifest.get("units", [])]
+if "unit-09" not in existing_unit_ids:
+    units = manifest.get("units", [])
+    insert_idx = len(units)
+    for idx, u in enumerate(units):
+        if u["id"] == "unit-08":
+            insert_idx = idx + 1
+            break
+    units.insert(insert_idx, {
+        "id": "unit-09",
+        "title": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)",
+        "order": "OG-09-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-09/lesson-01.yaml",
+                "title": "Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)"
+            }
+        ]
+    })
+    manifest["units"] = units
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print(f"[OK] Added unit-09 to {MANIFEST_PATH.name} right after unit-08 (order: OG-09-A)")
+else:
+    print(f"[INFO] unit-09 already exists in {MANIFEST_PATH.name}")
+
+print("\nUnit 9 creation complete!")

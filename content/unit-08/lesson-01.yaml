@@ -1,0 +1,666 @@
+unit_id: unit-08
+lesson_id: lesson-01
+title: Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)
+description: 'CEFR A1: Describing daily routines, work and study schedule, frequency
+  adverbs (πάντα, συχνά, ποτέ), Type A, B1, and B2 active verbs, and modal connectors
+  (θέλω να).'
+lesson_status: not_started
+lesson_notes: "Unit 8 Core Grammar Notes:\n\n• Daily Routine Active Verbs:\n  - Type\
+  \ A (-ω, -εις, -ει, -ουμε, -ετε, -ουν): αρχίζω, τελειώνω, διαβάζω, γράφω, ακούω,\
+  \ βλέπω, μαγειρεύω, φεύγω, γυρίζω, ψωνίζω.\n  - Type B1 (-άω/-ώ, -άς, -άει/-ά, -άμε,\
+  \ -άτε, -άνε/-ούν): ξυπνάω/ξυπνώ, περπατάω/περπατώ, τραγουδάω/τραγουδώ.\n  - Type\
+  \ B2 (-ώ, -είς, -εί, -ούμε, -είτε, -ούν): οδηγώ, μπορώ, ζω.\n\n• Strict A1 Active\
+  \ Routine Phrases (Avoiding Mediopassive):\n  - παίρνω πρωινό (have breakfast)\n\
+  \  - κάνω μπάνιο / κάνω ντους (take a bath / shower)\n  - κάνω γυμναστική (work\
+  \ out / exercise)\n  - πάω για ύπνο (go to bed / sleep)\n\n• Adverbs of Frequency\
+  \ & Scale:\n  - πάντα (100%) > συνήθως (80%) > συχνά (60%) > μερικές φορές (40%)\
+  \ > σπάνια (10%) > ποτέ (0%).\n  - Double Negative Rule with ποτέ: 'Δεν' + verb\
+  \ + 'ποτέ' (e.g. Δεν πίνω ποτέ καφέ το βράδυ).\n\n• Times of the Day & Temporal\
+  \ Markers:\n  - το πρωί, το μεσημέρι, το απόγευμα, το βράδυ, τη νύχτα.\n  - νωρίς\
+  \ (early) vs. αργά (late).\n\n• Modal Connective Syntax:\n  - θέλω να + Present\
+  \ Active Indicative (θέλω να μάθω...)\n  - μπορώ να + Present Active Indicative\
+  \ (μπορώ να μιλήσω...)"
+entries:
+- id: A1-U08-001
+  greek: το πρόγραμμα
+  phonetic_hint: ''
+  english: schedule / daily routine / program
+  notes: Neuter noun in -μα with plural in -ματα (τα προγράμματα).
+  gender_or_pos: noun (neuter)
+  audio: to-programma-3710e8.mp3
+  status: verified
+  example_el: Το καθημερινό μου πρόγραμμα είναι πολύ γεμάτο.
+  example_en: My daily schedule is very full.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα προγράμματα
+    accusative_singular: το πρόγραμμα
+  keg_communicative_function: Describing daily schedule and daily time management
+- id: A1-U08-002
+  greek: η συνήθεια
+  phonetic_hint: ''
+  english: habit / routine / custom
+  notes: Proparoxytone feminine in -εια with plural in -ειες (οι συνήθειες).
+  gender_or_pos: noun (feminine)
+  audio: i-synitheia-3848f1.mp3
+  status: verified
+  example_el: Έχω τη συνήθεια να πίνω καφέ κάθε πρωί.
+  example_en: I have the habit of drinking coffee every morning.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συνήθειες
+    accusative_singular: τη συνήθεια
+  keg_communicative_function: Talking about personal habits and daily customs
+- id: A1-U08-003
+  greek: το πρωί
+  phonetic_hint: ''
+  english: morning / in the morning
+  notes: Neuter noun in -ί. Functions adverbially with or without article ('το πρωί'
+    = in the morning).
+  gender_or_pos: noun (neuter) / adverbial
+  audio: to-proi-51be40.mp3
+  status: verified
+  example_el: Το πρωί ξυπνάω στις επτά και παίρνω πρωινό.
+  example_en: In the morning I wake up at seven and have breakfast.
+  grammatical_info:
+    part_of_speech: noun (neuter) / adverbial
+    plural: τα πρωινά
+    accusative_singular: το πρωί
+  keg_communicative_function: Specifying morning time frames for routines
+- id: A1-U08-004
+  greek: το μεσημέρι
+  phonetic_hint: ''
+  english: noon / midday / in the middle of the day
+  notes: 'Compound from μέσος (middle) + ημέρα (day). Neuter in -ι (plural: τα μεσημέρια).'
+  gender_or_pos: noun (neuter)
+  audio: to-mesimeri-71fa69.mp3
+  status: verified
+  example_el: Το μεσημέρι τρώμε μεσημεριανό με την οικογένεια.
+  example_en: At noon we eat lunch with the family.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μεσημέρια
+    accusative_singular: το μεσημέρι
+  keg_communicative_function: Specifying midday lunch time and work breaks
+- id: A1-U08-005
+  greek: το απόγευμα
+  phonetic_hint: ''
+  english: afternoon / in the afternoon
+  notes: 'Compound from από + γεύμα (after-meal time). Neuter in -μα (plural: τα απογεύματα).'
+  gender_or_pos: noun (neuter)
+  audio: to-apogeyma-243af9.mp3
+  status: verified
+  example_el: Το απόγευμα διαβάζω ελληνικά και ακούω μουσική.
+  example_en: In the afternoon I study Greek and listen to music.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα απογεύματα
+    accusative_singular: το απόγευμα
+  keg_communicative_function: Talking about late afternoon activities and study hours
+- id: A1-U08-006
+  greek: το βράδυ
+  phonetic_hint: ''
+  english: evening / night / at night
+  notes: Irregular neuter noun ending in -υ with plural in -ια (τα βράδια).
+  gender_or_pos: noun (neuter)
+  audio: to-vrady-087ef0.mp3
+  status: verified
+  example_el: Το βράδυ βγαίνω για φαγητό με φίλους.
+  example_en: In the evening I go out for dinner with friends.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βράδια
+    accusative_singular: το βράδυ
+  keg_communicative_function: Describing evening relaxation, dinner, and social outings
+- id: A1-U08-007
+  greek: η νύχτα
+  phonetic_hint: ''
+  english: night / nighttime
+  notes: Feminine in -α with plural in -ες (οι νύχτες). 'Τη νύχτα' = during the night.
+  gender_or_pos: noun (feminine)
+  audio: i-nychta-71af09.mp3
+  status: verified
+  example_el: Τη νύχτα η πόλη είναι πολύ ήσυχη.
+  example_en: At night the city is very quiet.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι νύχτες
+    accusative_singular: τη νύχτα
+  keg_communicative_function: Specifying late night hours or sleep periods
+- id: A1-U08-008
+  greek: το πρωινό
+  phonetic_hint: ''
+  english: breakfast
+  notes: Substantivized neuter adjective (το πρωινό = breakfast, τα πρωινά = breakfasts
+    / hotel breakfasts).
+  gender_or_pos: noun (neuter)
+  audio: to-proino-6a2fed.mp3
+  status: verified
+  example_el: Για πρωινό τρώω φρυγανιές με μέλι και πίνω τσάι.
+  example_en: For breakfast I eat rusks with honey and drink tea.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πρωινά
+    accusative_singular: το πρωινό
+  keg_communicative_function: Describing the first meal of the day
+- id: A1-U08-009
+  greek: το μεσημεριανό
+  phonetic_hint: ''
+  english: lunch / midday meal
+  notes: Neuter in -ό. In Greek culture, lunch is traditionally the main cooked meal
+    of the day.
+  gender_or_pos: noun (neuter)
+  audio: to-mesimeriano-cba8f4.mp3
+  status: verified
+  example_el: Το μεσημεριανό στην Ελλάδα είναι συνήθως στις τρεις.
+  example_en: Lunch in Greece is usually at three o'clock.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μεσημεριανά
+    accusative_singular: το μεσημεριανό
+  keg_communicative_function: Describing the main midday meal in Greece
+- id: A1-U08-010
+  greek: το βραδινό
+  phonetic_hint: ''
+  english: dinner / supper / evening meal
+  notes: Substantivized neuter adjective (το βραδινό = dinner).
+  gender_or_pos: noun (neuter)
+  audio: to-vradino-99df55.mp3
+  status: verified
+  example_el: Τρώμε ελαφρύ βραδινό στις εννέα.
+  example_en: We eat a light dinner at nine.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βραδινά
+    accusative_singular: το βραδινό
+  keg_communicative_function: Describing the evening meal
+- id: A1-U08-011
+  greek: το διάλειμμα
+  phonetic_hint: ''
+  english: break / recess / pause
+  notes: 'Spelled with double μ (μμ). Plural: τα διαλείμματα.'
+  gender_or_pos: noun (neuter)
+  audio: to-dialeimma-916e08.mp3
+  status: verified
+  example_el: Στη δουλειά κάνουμε ένα μικρό διάλειμμα για καφέ.
+  example_en: At work we take a short break for coffee.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα διαλείμματα
+    accusative_singular: το διάλειμμα
+  keg_communicative_function: Talking about study pauses or coffee breaks at work
+- id: A1-U08-012
+  greek: το μάθημα
+  phonetic_hint: ''
+  english: lesson / class / lecture
+  notes: Neuter in -μα with plural in -ματα (τα μαθήματα).
+  gender_or_pos: noun (neuter)
+  audio: to-mathima-6a1c3d.mp3
+  status: verified
+  example_el: Το μάθημα των ελληνικών αρχίζει στις πέντε.
+  example_en: The Greek lesson starts at five.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μαθήματα
+    accusative_singular: το μάθημα
+  keg_communicative_function: Talking about school, language classes, and university
+    lectures
+- id: A1-U08-013
+  greek: αρχίζω
+  phonetic_hint: ''
+  english: to begin / to start / I begin
+  notes: 'Standard Type A verb: αρχίζω, αρχίζεις, αρχίζει, αρχίζουμε, αρχίζετε, αρχίζουν.'
+  gender_or_pos: verb
+  audio: archizo-e47358.mp3
+  status: verified
+  example_el: Η δουλειά μου αρχίζει στις οκτώ το πρωί.
+  example_en: My work starts at eight in the morning.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό αρχίζει
+    first_person_plural: εμείς αρχίζουμε
+  keg_communicative_function: Stating starting times for work, classes, or films
+- id: A1-U08-014
+  greek: τελειώνω
+  phonetic_hint: ''
+  english: to finish / to end / I finish
+  notes: Direct antonym of 'αρχίζω'. Type A verb with diphthong -ει-.
+  gender_or_pos: verb
+  audio: teleiono-1c3f80.mp3
+  status: verified
+  example_el: Τελειώνω το μάθημα στις δύο το μεσημέρι.
+  example_en: I finish the class at two in the afternoon.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό τελειώνει
+    first_person_plural: εμείς τελειώνουμε
+  keg_communicative_function: Stating finishing times for daily activities
+- id: A1-U08-015
+  greek: διαβάζω
+  phonetic_hint: ''
+  english: to read / to study / I study
+  notes: Type A verb. Means both 'to read' (διαβάζω εφημερίδα) and 'to study for class'
+    (διαβάζω για το μάθημα).
+  gender_or_pos: verb
+  audio: diavazo-7487a6.mp3
+  status: verified
+  example_el: Κάθε βράδυ διαβάζω ένα βιβλίο πριν τον ύπνο.
+  example_en: Every night I read a book before sleep.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό διαβάζει
+    first_person_plural: εμείς διαβάζουμε
+  keg_communicative_function: Describing reading books, newspapers, or doing homework
+- id: A1-U08-016
+  greek: ακούω
+  phonetic_hint: ''
+  english: to listen to / to hear / I listen
+  notes: 'Type A verb with vowel stem: ακούω, ακούς, ακούει, ακούμε, ακούτε, ακούν(ε).'
+  gender_or_pos: verb
+  audio: akoyo-38930c.mp3
+  status: verified
+  example_el: Ακούω ραδιόφωνο όταν οδηγώ.
+  example_en: I listen to the radio when I drive.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ακούει
+    first_person_plural: εμείς ακούμε
+  keg_communicative_function: Talking about listening to music, radio, or podcasts
+- id: A1-U08-017
+  greek: βλέπω
+  phonetic_hint: ''
+  english: to watch / to see / I watch
+  notes: 'Type A active verb: βλέπω, βλέπεις, βλέπει, βλέπουμε, βλέπετε, βλέπουν.'
+  gender_or_pos: verb
+  audio: vlepo-b9ac52.mp3
+  status: verified
+  example_el: Τα απογεύματα βλέπω μία ελληνική σειρά.
+  example_en: In the afternoons I watch a Greek TV series.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό βλέπει
+    first_person_plural: εμείς βλέπουμε
+  keg_communicative_function: Talking about watching television, movies, or seeing
+    friends
+- id: A1-U08-018
+  greek: μαγειρεύω
+  phonetic_hint: ''
+  english: to cook / to prepare food / I cook
+  notes: 'Type A verb with suffix -εύω: μαγειρεύω, μαγειρεύεις, μαγειρεύει, μαγειρεύουμε.'
+  gender_or_pos: verb
+  audio: mageireyo-4ecd48.mp3
+  status: verified
+  example_el: Μαγειρεύω ελληνικά φαγητά για τους φίλους μου.
+  example_en: I cook Greek dishes for my friends.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό μαγειρεύει
+    first_person_plural: εμείς μαγειρεύουμε
+  keg_communicative_function: Describing cooking habits at home
+- id: A1-U08-019
+  greek: φεύγω
+  phonetic_hint: ''
+  english: to leave / to depart / I leave
+  notes: 'Type A verb. Governs ''από + Accusative'' for departure point: φεύγω από
+    τη δουλειά.'
+  gender_or_pos: verb
+  audio: feygo-eafdc5.mp3
+  status: verified
+  example_el: Φεύγω από το σπίτι στις επτά και μισή.
+  example_en: I leave the house at half past seven.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό φεύγει
+    first_person_plural: εμείς φεύγουμε
+  keg_communicative_function: Stating departure times from home or work
+- id: A1-U08-020
+  greek: γυρίζω
+  phonetic_hint: ''
+  english: to return / to come back / to turn
+  notes: 'Type A verb. Synonym of ''επιστρέφω''. Formula: γυρίζω στο σπίτι (return
+    home).'
+  gender_or_pos: verb
+  audio: gyrizo-e16863.mp3
+  status: verified
+  example_el: Γυρίζω στο σπίτι κατά τις έξι το απόγευμα.
+  example_en: I return home around six in the afternoon.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό γυρίζει
+    first_person_plural: εμείς γυρίζουμε
+  keg_communicative_function: Describing returning home after work or study
+- id: A1-U08-021
+  greek: ψωνίζω
+  phonetic_hint: ''
+  english: to shop / to buy groceries / I shop
+  notes: 'Type A verb: ψωνίζω, ψωνίζεις, ψωνίζει. Derived from ''τα ψώνια'' (purchases/shopping).'
+  gender_or_pos: verb
+  audio: psonizo-efd79c.mp3
+  status: verified
+  example_el: Ψωνίζω τρόφιμα από τη λαϊκή κάθε Τρίτη.
+  example_en: I shop for groceries at the street market every Tuesday.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ψωνίζει
+    first_person_plural: εμείς ψωνίζουμε
+  keg_communicative_function: Talking about regular grocery or weekly shopping
+- id: A1-U08-022
+  greek: ξυπνάω / ξυπνώ
+  phonetic_hint: ''
+  english: to wake up / I wake up
+  notes: 'Contracted Type B1 verb: ξυπνάω/-ώ, ξυπνάς, ξυπνάει/-ά, ξυπνάμε, ξυπνάτε,
+    ξυπνάνε/-ούν.'
+  gender_or_pos: verb
+  audio: xypnao-xypno-b9d656.mp3
+  status: verified
+  example_el: Τις καθημερινές ξυπνάω πολύ νωρίς.
+  example_en: On weekdays I wake up very early.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό ξυπνάει (ξυπνά)
+    first_person_plural: εμείς ξυπνάμε
+  keg_communicative_function: Describing the start of the morning routine
+- id: A1-U08-023
+  greek: περπατάω / περπατώ
+  phonetic_hint: ''
+  english: to walk / I walk
+  notes: 'Type B1 verb: περπατάω, περπατάς, περπατάει, περπατάμε, περπατάτε, περπατάνε.'
+  gender_or_pos: verb
+  audio: perpatao-perpato-9b2fc3.mp3
+  status: verified
+  example_el: Περπατάω σαράντα λεπτά στο πάρκο κάθε απόγευμα.
+  example_en: I walk for forty minutes in the park every afternoon.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό περπατάει (περπατά)
+    first_person_plural: εμείς περπατάμε
+  keg_communicative_function: Describing walking to work, school, or for exercise
+- id: A1-U08-024
+  greek: τραγουδάω / τραγουδώ
+  phonetic_hint: ''
+  english: to sing / I sing
+  notes: Type B1 contracted active verb.
+  gender_or_pos: verb
+  audio: tragoydao-tragoydo-5e5c57.mp3
+  status: verified
+  example_el: Τραγουδάμε ελληνικά τραγούδια στο μάθημα.
+  example_en: We sing Greek songs in class.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό τραγουδάει (τραγουδά)
+    first_person_plural: εμείς τραγουδάμε
+  keg_communicative_function: Talking about leisure and musical hobbies
+- id: A1-U08-025
+  greek: οδηγώ
+  phonetic_hint: ''
+  english: to drive / I drive
+  notes: 'Type B2 verb: οδηγώ, οδηγείς, οδηγεί, οδηγούμε, οδηγείτε, οδηγούν.'
+  gender_or_pos: verb
+  audio: odigo-c6bbab.mp3
+  status: verified
+  example_el: Οδηγώ προσεκτικά όταν έχει κίνηση στους δρόμους.
+  example_en: I drive carefully when there is traffic on the roads.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B2
+    third_person_singular: αυτός / αυτή / αυτό οδηγεί
+    first_person_plural: εμείς οδηγούμε
+  keg_communicative_function: Talking about commuting by car
+- id: A1-U08-026
+  greek: ζω
+  phonetic_hint: ''
+  english: to live / to reside / I live
+  notes: 'Monosyllabic Type B2 verb: ζω, ζεις, ζει, ζούμε, ζείτε, ζουν.'
+  gender_or_pos: verb
+  audio: zo-09cee0.mp3
+  status: verified
+  example_el: Ζω στην Αθήνα εδώ και δύο χρόνια.
+  example_en: I live in Athens for two years now.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B2
+    third_person_singular: αυτός / αυτή / αυτό ζει
+    first_person_plural: εμείς ζούμε
+  keg_communicative_function: Talking about lifestyle and city of residence
+- id: A1-U08-027
+  greek: μπορώ
+  phonetic_hint: ''
+  english: to be able to / can / I can
+  notes: 'Key modal auxiliary: μπορώ, μπορείς, μπορεί, μπορούμε, μπορείτε, μπορούν.
+    Triggers ''να + verb''.'
+  gender_or_pos: verb
+  audio: mporo-a18c77.mp3
+  status: verified
+  example_el: Μπορώ να μιλήσω λίγο ελληνικά τώρα.
+  example_en: I can speak a little Greek now.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B2
+    third_person_singular: αυτός / αυτή / αυτό μπορεί
+    first_person_plural: εμείς μπορούμε
+  keg_communicative_function: Expressing ability or making polite requests with 'μπορώ
+    να...'
+- id: A1-U08-028
+  greek: παίρνω πρωινό
+  phonetic_hint: ''
+  english: to have breakfast
+  notes: Standard active colloquial formula for eating breakfast in Greek.
+  gender_or_pos: phrase (routine)
+  audio: pairno-proino-8bbf7f.mp3
+  status: verified
+  example_el: Παίρνω πρωινό στην κουζίνα πριν φύγω για τη δουλειά.
+  example_en: I have breakfast in the kitchen before I leave for work.
+  grammatical_info:
+    part_of_speech: phrase (routine)
+    verb_involved: παίρνω (Type A)
+  keg_communicative_function: Describing morning eating routine
+- id: A1-U08-029
+  greek: κάνω μπάνιο / κάνω ντους
+  phonetic_hint: ''
+  english: to take a bath / to take a shower
+  notes: Active periphrastic alternative to the mediopassive verb (πλένομαι), preferred
+    in CEFR A1 standards.
+  gender_or_pos: phrase (routine)
+  audio: kano-mpanio-kano-nto-4d4a1e.mp3
+  status: verified
+  example_el: Κάνω ένα γρήγορο ντους κάθε πρωί.
+  example_en: I take a quick shower every morning.
+  grammatical_info:
+    part_of_speech: phrase (routine)
+    verb_involved: κάνω (Type A)
+  keg_communicative_function: Describing personal hygiene routine actively
+- id: A1-U08-030
+  greek: κάνω γυμναστική
+  phonetic_hint: ''
+  english: to exercise / to work out
+  notes: 'Universal daily expression: κάνω γυμναστική (to do gymnastics/fitness).'
+  gender_or_pos: phrase (routine)
+  audio: kano-gymnastiki-5bdb64.mp3
+  status: verified
+  example_el: Κάνω γυμναστική τρεις φορές την εβδομάδα.
+  example_en: I work out three times a week.
+  grammatical_info:
+    part_of_speech: phrase (routine)
+    verb_involved: κάνω (Type A)
+  keg_communicative_function: Describing health and fitness routines
+- id: A1-U08-031
+  greek: κάνω διάλειμμα
+  phonetic_hint: ''
+  english: to take a break
+  notes: 'Formula: ''κάνω διάλειμμα''.'
+  gender_or_pos: phrase (routine)
+  audio: kano-dialeimma-7cdde8.mp3
+  status: verified
+  example_el: Κάνουμε διάλειμμα για δέκα λεπτά.
+  example_en: We are taking a break for ten minutes.
+  grammatical_info:
+    part_of_speech: phrase (routine)
+    verb_involved: κάνω (Type A)
+  keg_communicative_function: Describing pauses during work or study
+- id: A1-U08-032
+  greek: πάω για ύπνο
+  phonetic_hint: ''
+  english: to go to sleep / to go to bed
+  notes: 'Active equivalent for going to bed (literally: ''I go for sleep'').'
+  gender_or_pos: phrase (routine)
+  audio: pao-gia-ypno-14b845.mp3
+  status: verified
+  example_el: Πάω για ύπνο στις έντεκα το βράδυ.
+  example_en: I go to bed at eleven in the evening.
+  grammatical_info:
+    part_of_speech: phrase (routine)
+    verb_involved: πάω / πηγαίνω (irregular)
+  keg_communicative_function: Describing bedtime routine
+- id: A1-U08-033
+  greek: πάντα
+  phonetic_hint: ''
+  english: always
+  notes: Paroxytone adverb. Contrasted with 'ποτέ' (never).
+  gender_or_pos: adverb (frequency)
+  audio: panta-7368c4.mp3
+  status: verified
+  example_el: Πίνω πάντα έναν καφέ πριν φύγω.
+  example_en: I always drink a coffee before I leave.
+  grammatical_info:
+    part_of_speech: adverb (frequency)
+    scale: 100% frequency
+  keg_communicative_function: Expressing actions that occur consistently without exception
+- id: A1-U08-034
+  greek: συνήθως
+  phonetic_hint: ''
+  english: usually / typically / normally
+  notes: Proparoxytone adverb with accent on υ (συνήθως).
+  gender_or_pos: adverb (frequency)
+  audio: synithos-a042eb.mp3
+  status: verified
+  example_el: Συνήθως τρώω μεσημεριανό στο σπίτι.
+  example_en: I usually eat lunch at home.
+  grammatical_info:
+    part_of_speech: adverb (frequency)
+    scale: ~80% frequency
+  keg_communicative_function: Expressing habitual routine actions
+- id: A1-U08-035
+  greek: συχνά
+  phonetic_hint: ''
+  english: often / frequently
+  notes: Oxytone adverb. Direct antonym of 'σπάνια' (rarely).
+  gender_or_pos: adverb (frequency)
+  audio: sychna-5e9df0.mp3
+  status: verified
+  example_el: Πηγαίνουμε συχνά στον κινηματογράφο το Σάββατο.
+  example_en: We often go to the cinema on Saturday.
+  grammatical_info:
+    part_of_speech: adverb (frequency)
+    scale: ~60% frequency
+  keg_communicative_function: Expressing high recurrence of an action
+- id: A1-U08-036
+  greek: μερικές φορές
+  phonetic_hint: ''
+  english: sometimes / occasionally
+  notes: 'Adverbial phrase: μερικές (some) + φορές (times).'
+  gender_or_pos: phrase (frequency)
+  audio: merikes-fores-353c67.mp3
+  status: verified
+  example_el: Μερικές φορές δουλεύω από το σπίτι.
+  example_en: Sometimes I work from home.
+  grammatical_info:
+    part_of_speech: phrase (frequency)
+    scale: ~40% frequency
+  keg_communicative_function: Expressing intermediate or occasional activities
+- id: A1-U08-037
+  greek: σπάνια
+  phonetic_hint: ''
+  english: rarely / seldom
+  notes: Paroxytone adverb. Opposite of 'συχνά'.
+  gender_or_pos: adverb (frequency)
+  audio: spania-f5a558.mp3
+  status: verified
+  example_el: Τρώμε σπάνια γλυκά.
+  example_en: We rarely eat sweets.
+  grammatical_info:
+    part_of_speech: adverb (frequency)
+    scale: ~10% frequency
+  keg_communicative_function: Expressing activities done with very low frequency
+- id: A1-U08-038
+  greek: ποτέ
+  phonetic_hint: ''
+  english: never (with negation 'δεν')
+  notes: 'Crucial syntax rule: Modern Greek requires a double negative (''δεν... ποτέ'').'
+  gender_or_pos: adverb (frequency)
+  audio: pote-d728cb.mp3
+  status: verified
+  example_el: Δεν πίνω ποτέ καφέ το βράδυ.
+  example_en: I never drink coffee in the evening.
+  grammatical_info:
+    part_of_speech: adverb (frequency)
+    syntax: 'requires double negative: δεν + verb + ποτέ'
+  keg_communicative_function: Expressing zero recurrence of an action
+- id: A1-U08-039
+  greek: κάθε μέρα
+  phonetic_hint: ''
+  english: every day / daily
+  notes: '''Κάθε'' is an indeclinable distributive adjective (''κάθε μέρα'', ''κάθε
+    πρωί'', ''κάθε εβδομάδα'').'
+  gender_or_pos: phrase (temporal frequency)
+  audio: kathe-mera-e1cd7e.mp3
+  status: verified
+  example_el: Κάθε μέρα μαθαίνω πέντε νέες λέξεις.
+  example_en: Every day I learn five new words.
+  grammatical_info:
+    part_of_speech: phrase (temporal frequency)
+  keg_communicative_function: Describing activities that happen on a daily basis
+- id: A1-U08-040
+  greek: νωρίς
+  phonetic_hint: ''
+  english: early
+  notes: Oxytone adverb. Direct antonym of 'αργά'.
+  gender_or_pos: adverb of time
+  audio: noris-7071c5.mp3
+  status: verified
+  example_el: Ξυπνάω νωρίς το πρωί.
+  example_en: I wake up early in the morning.
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Indicating timing early in the day or before expected
+    time
+- id: A1-U08-041
+  greek: αργά
+  phonetic_hint: ''
+  english: late
+  notes: Oxytone adverb. Opposite of 'νωρίς'.
+  gender_or_pos: adverb of time
+  audio: arga-d7484e.mp3
+  status: verified
+  example_el: Γυρίζω αργά από το γραφείο.
+  example_en: I return late from the office.
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Indicating timing late in the day or after schedule
+- id: A1-U08-042
+  greek: θέλω να
+  phonetic_hint: ''
+  english: I want to (+ Present Active Indicative)
+  notes: 'Crucial A1 syntax bridge: ''θέλω να'' followed by present indicative in
+    A1 to express intent.'
+  gender_or_pos: phrase (modal connective syntax)
+  audio: thelo-na-f8fef9.mp3
+  status: verified
+  example_el: Θέλω να μάθω καλά ελληνικά.
+  example_en: I want to learn Greek well.
+  grammatical_info:
+    part_of_speech: phrase (modal connective syntax)
+    construction: θέλω να + present active indicative
+  keg_communicative_function: Expressing desires, intentions, and personal goals for
+    the day

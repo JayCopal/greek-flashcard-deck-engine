@@ -1,855 +1,864 @@
 unit_id: unit-107c
 lesson_id: lesson-01
-title: 'Ενότητα 6: Διάλογοι & Εξετάσεις — Σπίτι, Ενοικίαση & Οδηγίες (A1 Synthesis
-  101-107)'
+title: 'Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis
+  101-108)'
 description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on
-  home life, apartment search, rental negotiations, giving polite instructions and
-  household commands (imperative), and neighborhood living using vocabulary from Lessons
-  101 to 107.
+  department store shopping, clothing sizes, fitting rooms, sales, simple future tense
+  plans, invitations, birthdays, and holiday wishes using vocabulary from Lessons
+  100 to 107.
 lesson_status: not_started
 entries:
 - id: A1-U107C-001
-  greek: — Γεια σας, είναι για την αγγελία του σπιτιού. — Ναι, μάλιστα, είναι ελεύθερο
-    το διαμέρισμα.
-  phonetic_hint: YAH sahs, EE-neh yah teen ahng-geh-LEE-ah too spee-TYOO. — Neh, MAH-lee-stah,
-    EE-neh eh-LEF-the-ro to thee-ah-MEH-ree-zmah.
-  english: — Hello, this is regarding the house advertisement. — Yes, certainly, the
-    apartment is available.
-  notes: Review Unit 107. Real estate telephone inquiry responding to a classified
-    ad ('αγγελία').
+  greek: — Γεια σας, μπορούμε να σας βοηθήσουμε; — Ναι, παρακαλώ, ψάχνω ένα ζεστό
+    παλτό για τον χειμώνα.
+  phonetic_hint: — YAH sahs, bo-ROO-meh nah sahs voy-THEE-soo-meh? — Neh, pah-rah-kah-LOH,
+    PSAH-khno EH-nah zeh-STOH pahl-TOH yah ton khee-MOH-nah.
+  english: — Hello, can we help you? — Yes, please, I am looking for a warm coat for
+    the winter.
+  notes: Review Unit 108. Customer service dialogue at a clothing department store.
   gender_or_pos: phrase
-  audio: geia-sas-einai-gia-t-cd0ca5.mp3
+  audio: geia-sas-mporoyme-na-b3d760.mp3
   status: verified
-  example_el: — Είδα την αγγελία σας. Είναι ελεύθερο το σπίτι; — Ναι, είναι ελεύθερο.
-  example_en: — I saw your advertisement. Is the house available? — Yes, it is available.
+  example_el: — Τι ακριβώς ψάχνετε; — Ψάχνω ένα μαύρο σακάκι για τη δουλειά.
+  example_en: — What exactly are you looking for? — I am looking for a black blazer
+    for work.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about classified housing advertisements and
-    property availability
+  keg_communicative_function: Asking for customer assistance and browsing seasonal
+    clothing in a department store
 - id: A1-U107C-002
-  greek: — Σε ποιον όροφο βρίσκεται το διαμέρισμα; — Βρίσκεται στον δεύτερο όροφο.
-  phonetic_hint: seh PYO-n OH-ro-fo VREES-keh-teh to thee-ah-MEH-ree-zmah? — VREES-keh-teh
-    ston THEHF-teh-ro OH-ro-fo.
-  english: — On which floor is the apartment located? — It is located on the second
-    floor.
-  notes: Review Units 103 & 107. Specifying building floors using masculine accusative
-    ordinal numbers.
+  greek: — Ποιο πουκάμισο προτιμάς, αυτό εδώ ή εκείνο στη βιτρίνα; — Προτιμώ εκείνο
+    το λευκό πουκάμισο.
+  phonetic_hint: — PYO poo-KAH-mee-soh proh-tee-MAHS, af-TOH eh-THOH ee eh-KEE-noh
+    stee vee-TREE-nah? — Proh-tee-MOH eh-KEE-noh toh lef-KOH poo-KAH-mee-soh.
+  english: — Which shirt do you prefer, this one here or that one in the shop window?
+    — I prefer that white shirt.
+  notes: Review Unit 108. Demonstrative pronouns 'αυτός, αυτή, αυτό' (this) vs 'εκείνος,
+    εκείνη, εκείνο' (that).
   gender_or_pos: phrase
-  audio: se-poion-orofo-vrisk-0dbfd0.mp3
+  audio: poio-poykamiso-proti-c0a86e.mp3
   status: verified
-  example_el: — Σε ποιον όροφο μένετε; — Μένουμε στον τρίτο όροφο της πολυκατοικίας.
-  example_en: — On which floor do you live? — We live on the third floor of the apartment
-    building.
+  example_el: — Σου αρέσει εκείνη η φούστα; — Ναι, μου αρέσει πολύ το χρώμα της.
+  example_en: — Do you like that skirt? — Yes, I really like its color.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking and answering about apartment floor levels in
-    multi-story buildings
+  keg_communicative_function: Expressing preferences using demonstrative pronouns
+    for clothing displays
 - id: A1-U107C-003
-  greek: — Πόσα δωμάτια έχει το σπίτι; — Έχει δύο υπνοδωμάτια, σαλόνι, κουζίνα και
-    δύο μπάνια.
-  phonetic_hint: POH-sah tho-MAH-tyah EH-khee to SPEE-tee? — EH-khee THEE-o eep-no-tho-MAH-tyah,
-    sah-LOH-nee, koo-ZEE-nah keh THEE-o MPAH-nyah.
-  english: — How many rooms does the house have? — It has two bedrooms, a living room,
-    a kitchen, and two bathrooms.
-  notes: Review Unit 107. Inquiring about room layout and internal house distribution.
+  greek: — Αυτό το παλτό είναι καλό, αλλά εκείνο είναι πιο ζεστό. — Έχεις δίκιο, εκείνο
+    είναι μάλλινο.
+  phonetic_hint: — af-TOH toh pahl-TOH EE-neh kah-LOH, ah-LAH eh-KEE-noh EE-neh pyoh
+    zeh-STOH. — EH-khees THEE-kyo, eh-KEE-noh EE-neh MAH-lee-noh.
+  english: — This coat is good, but that one is warmer. — You are right, that one
+    is woolen.
+  notes: Review Unit 108. Comparative degree with 'πιο' and clothing materials ('μάλλινος').
   gender_or_pos: phrase
-  audio: posa-domatia-echei-t-3d6a1f.mp3
+  audio: ayto-to-palto-einai--9515b7.mp3
   status: verified
-  example_el: — Είναι μεγάλο το σπίτι; — Ναι, είναι εκατό τετραγωνικών μέτρων με μεγάλα
-    δωμάτια.
-  example_en: — Is the house large? — Yes, it is one hundred square meters with large
-    rooms.
+  example_el: — Ποιο μπουφάν είναι πιο ζεστό; — Εκείνο το μπλε μπουφάν είναι πιο ζεστό.
+  example_en: — Which jacket is warmer? — That blue jacket is warmer.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing apartment layout, room counts, and surface
-    area
+  keg_communicative_function: Comparing clothing items by warmth, quality, and fabric
+    materials
 - id: A1-U107C-004
-  greek: — Είναι φωτεινό και ήσυχο το διαμέρισμα; — Ναι, είναι πολύ φωτεινό και ήσυχο.
-  phonetic_hint: EE-neh fo-tee-NOH keh EE-see-kho to thee-ah-MEH-ree-zmah? — Neh,
-    EE-neh po-LEE fo-tee-NOH keh EE-see-kho.
-  english: — Is the apartment bright and quiet? — Yes, it is very bright and quiet.
-  notes: Review Unit 107. Key housing adjectives 'φωτεινός' and 'ήσυχος' in the neuter
-    nominative.
+  greek: — Τι νούμερο φοράτε σε παντελόνι; — Φοράω συνήθως το σαράντα.
+  phonetic_hint: — tee NOO-meh-roh foh-RAH-teh seh pahn-deh-LOH-nee? — Foh-RAH-oh
+    see-NEE-thohs toh sah-RAHN-dah.
+  english: — What size pants do you wear? — I usually wear size forty.
+  notes: Review Unit 108. Inquiring and stating clothing size ('νούμερο').
   gender_or_pos: phrase
-  audio: einai-foteino-kai-is-bfe3a8.mp3
+  audio: ti-noymero-forate-se-cfecf1.mp3
   status: verified
-  example_el: — Μένεις σε ήσυχη γειτονιά; — Ναι, η γειτονιά μας είναι πολύ ήσυχη.
-  example_en: — Do you live in a quiet neighborhood? — Yes, our neighborhood is very
-    quiet.
+  example_el: — Τι μέγεθος φοράτε σε μπλούζα; — Φοράω το μεσαίο μέγεθος.
+  example_en: — What size blouse do you wear? — I wear medium size.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Assessing living comfort, natural daylight, and acoustic
-    tranquility
+  keg_communicative_function: Inquiring about and stating clothing sizes and measurements
 - id: A1-U107C-005
-  greek: — Έχει μπαλκόνι το σπίτι; — Ναι, το μπαλκόνι είναι πολύ μεγάλο με θέα στο
-    πάρκο.
-  phonetic_hint: EH-khee mpal-KOH-nee to SPEE-tee? — Neh, to mpal-KOH-nee EE-neh po-LEE
-    meh-GHAH-lo meh THEH-ah sto PAHR-ko.
-  english: — Does the house have a balcony? — Yes, the balcony is very large with
-    a view of the park.
-  notes: Review Unit 107. Inquiring about outdoor spaces and park views.
+  greek: — Έχετε αυτό το τζιν σε μαύρο χρώμα; — Ναι, βεβαίως, ορίστε το μαύρο τζιν.
+  phonetic_hint: — EH-kheh-teh af-TOH toh tzeen seh MAH-vroh KHROH-mah? — Neh, veh-VEH-ohs,
+    oh-REES-teh toh MAH-vroh tzeen.
+  english: — Do you have these jeans in black? — Yes, certainly, here are the black
+    jeans.
+  notes: Review Unit 108. Requesting specific clothing items by color.
   gender_or_pos: phrase
-  audio: echei-mpalkoni-to-sp-35ea10.mp3
+  audio: echete-ayto-to-tzin--a5bd35.mp3
   status: verified
-  example_el: — Βλέπει στον κήπο το μπαλκόνι; — Ναι, βλέπει στην αυλή και στον κήπο.
-  example_en: — Does the balcony face the garden? — Yes, it overlooks the courtyard
-    and the garden.
+  example_el: — Έχετε αυτό το φόρεμα σε κόκκινο χρώμα; — Ναι, υπάρχει και σε κόκκινο.
+  example_en: — Do you have this dress in red? — Yes, it is also available in red.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about balconies, outdoor views, and exterior
-    spaces
+  keg_communicative_function: Asking for clothing items in specific colors and variations
 - id: A1-U107C-006
-  greek: — Πού είναι η πολυκατοικία; — Είναι κοντά στο πανεπιστήμιο και στον σταθμό
-    του μετρό.
-  phonetic_hint: poo EE-neh ee po-lee-kah-tee-KEE-ah? — EE-neh kon-DAH sto pah-neh-pee-STEE-mee-o
-    keh ston stahth-MOH too meh-TROH.
-  english: — Where is the apartment building? — It is near the university and the
-    metro station.
-  notes: Review Units 103 & 107. Locating residential properties relative to public
-    transport and campus.
+  greek: — Πόσο κάνει αυτό το πουλόβερ; — Κάνει σαράντα πέντε ευρώ.
+  phonetic_hint: — POH-soh KAH-nee af-TOH toh poo-LOH-vehr? — KAH-nee sah-RAHN-dah
+    PEN-deh ev-ROH.
+  english: — How much is this sweater? — It is forty-five euros.
+  notes: Review Unit 108. Inquiring about prices of garments using 'πόσο κάνει'.
   gender_or_pos: phrase
-  audio: poy-einai-i-polykato-0463f2.mp3
+  audio: poso-kanei-ayto-to-p-815dd4.mp3
   status: verified
-  example_el: — Υπάρχει στάση λεωφορείου μπροστά από την πολυκατοικία; — Ναι, υπάρχει
-    στάση.
-  example_en: — Is there a bus stop in front of the apartment building? — Yes, there
-    is a stop.
+  example_el: — Είναι ακριβό αυτό το κοστούμι; — Όχι, έχει πολύ καλή τιμή.
+  example_en: — Is this suit expensive? — No, it has a very good price.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing property location and access to urban transit
+  keg_communicative_function: Inquiring about garment prices and affordability in
+    retail shops
 - id: A1-U107C-007
-  greek: — Το διαμέρισμα είναι επιπλωμένο; — Ναι, είναι πλήρως επιπλωμένο και έχει
-    όλες τις ηλεκτρικές συσκευές.
-  phonetic_hint: to thee-ah-MEH-ree-zmah EE-neh eh-pee-plo-MEH-no? — Neh, EE-neh PLEE-ros
-    eh-pee-plo-MEH-no keh EH-khee OH-lehs tees ee-lek-tree-KEHS see-skeh-VEHS.
-  english: — Is the apartment furnished? — Yes, it is fully furnished and has all
-    electrical appliances.
-  notes: 'Review Unit 107. Property condition: ''πλήρως επιπλωμένο'' with modern household
-    appliances.'
+  greek: — Αυτά τα γάντια είναι από δέρμα; — Ναι, αυτά είναι από δέρμα, ενώ εκείνα
+    είναι μάλλινα.
+  phonetic_hint: — af-TAH tah GHAHN-dyah EE-neh ah-POH THEHR-mah? — Neh, af-TAH EE-neh
+    ah-POH THEHR-mah, eh-NOH eh-KEE-nah EE-neh MAH-lee-nah.
+  english: — Are these gloves made of leather? — Yes, these are made of leather, whereas
+    those are woolen.
+  notes: Review Unit 108. Identifying clothing accessories and material types ('δέρμα',
+    'μάλλινος').
   gender_or_pos: phrase
-  audio: to-diamerisma-einai--4039ff.mp3
+  audio: ayta-ta-gantia-einai-eff89f.mp3
   status: verified
-  example_el: — Έχει ψυγείο και πλυντήριο; — Ναι, έχει ψυγείο, πλυντήριο ρούχων και
-    ηλεκτρική κουζίνα.
-  example_en: — Does it have a fridge and a washing machine? — Yes, it has a fridge,
-    washing machine, and electric cooker.
+  example_el: — Έχετε ζεστό κασκόλ και σκούφο; — Ναι, είναι όλα στον πρώτο όροφο.
+  example_en: — Do you have a warm scarf and beanie? — Yes, they are all on the first
+    floor.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Checking furnishing status and included household appliances
+  keg_communicative_function: Inquiring about accessories and contrasting material
+    fabrics
 - id: A1-U107C-008
-  greek: — Μπορείτε να δείτε το διαμέρισμα σήμερα; — Βεβαίως, ελάτε το απόγευμα στις
-    έξι.
-  phonetic_hint: bo-REE-teh nah THEE-teh to thee-ah-MEH-ree-zmah SEE-meh-rah? — veh-VEH-os,
-    eh-LAH-teh to ah-POH-yev-mah stees EH-ksee.
-  english: — Can you view the apartment today? — Certainly, come this afternoon at
-    six.
-  notes: Review Units 106 & 107. Arranging property viewings with polite imperative
-    'ελάτε'.
+  greek: — Ψάχνω ένα ζευγάρι παπούτσια για περπάτημα. — Ορίστε, αυτά τα παπούτσια
+    είναι πολύ άνετα.
+  phonetic_hint: — PSAH-khno EH-nah zev-GHAH-ree pah-POO-tsyah yah pehr-PAH-tee-mah.
+    — oh-REES-teh, af-TAH tah pah-POO-tsyah EE-neh poh-LEE AH-neh-tah.
+  english: — I am looking for a pair of walking shoes. — Here you are, these shoes
+    are very comfortable.
+  notes: Review Unit 108. Describing footwear and comfort ('άνετα παπούτσια').
   gender_or_pos: phrase
-  audio: mporeite-na-deite-to-e73b3d.mp3
+  audio: psachno-ena-zeygari--bf3a70.mp3
   status: verified
-  example_el: — Περάστε μέσα στο σπίτι να το δείτε! — Ευχαριστώ, περνάμε αμέσως.
-  example_en: — Step inside the house to see it! — Thank you, we are coming right
-    in.
+  example_el: — Τι νούμερο παπούτσι φοράτε; — Φοράω το σαράντα δύο.
+  example_en: — What shoe size do you wear? — I wear size forty-two.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Scheduling and attending property inspection appointments
+  keg_communicative_function: Buying footwear and evaluating shoe comfort
 - id: A1-U107C-009
-  greek: — Η πολυκατοικία έχει ασανσέρ; — Ναι, η πολυκατοικία είναι καινούργια και
-    διαθέτει σύγχρονο ασανσέρ.
-  phonetic_hint: ee po-lee-kah-tee-KEE-ah EH-khee ah-sahn-SEHR? — Neh, ee po-lee-kah-tee-KEE-ah
-    EE-neh keh-NOOR-gyah keh thee-ah-THEH-tee SEEN-khro-no ah-sahn-SEHR.
-  english: — Does the apartment building have an elevator? — Yes, the building is
-    new and features a modern elevator.
-  notes: Review Unit 107. Inquiring about building infrastructure and elevator facilities.
+  greek: — Εκείνο το κατάστημα στον πεζόδρομο έχει πολύ καλές τιμές. — Ναι, ελάτε
+    να δείτε τη βιτρίνα του!
+  phonetic_hint: — eh-KEE-noh toh kah-TAH-stee-mah ston peh-ZOH-throh-moh EH-khee
+    poh-LEE kah-LES tee-MES. — Neh, eh-LAH-teh nah THEE-teh tee vee-TREE-nah too!
+  english: — That store on the pedestrian street has very good prices. — Yes, come
+    and see its window display!
+  notes: Review Units 103, 107 & 108. Recommending shops on pedestrian walkways and
+    looking at shop windows.
   gender_or_pos: phrase
-  audio: i-polykatoikia-echei-a6f2c3.mp3
+  audio: ekeino-to-katastima--3a3592.mp3
   status: verified
-  example_el: — Πού είναι η σκάλα; — Η σκάλα είναι δίπλα στην είσοδο.
-  example_en: — Where are the stairs? — The staircase is next to the entrance.
+  example_el: — Πού είναι το πολυκατάστημα; — Είναι στο κέντρο της πόλης.
+  example_en: — Where is the department store? — It is in the city center.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Verifying elevator availability and building accessibility
+  keg_communicative_function: Discussing store locations and window shopping recommendations
 - id: A1-U107C-010
-  greek: — Υπάρχει πάρκινγκ στην πολυκατοικία; — Ναι, το σπίτι διαθέτει πάρκινγκ για
-    το αυτοκίνητο.
-  phonetic_hint: ee-PAHR-khee PAHR-keengk steen po-lee-kah-tee-KEE-ah? — Neh, to SPEE-tee
-    thee-ah-THEH-tee PAHR-keengk yah to af-to-KEE-nee-to.
-  english: — Is there parking in the apartment building? — Yes, the house features
-    parking for the car.
-  notes: Review Unit 107. Asking about dedicated vehicle parking spots in apartment
-    blocks.
+  greek: — Αύριο θα πάω στην αγορά για ψώνια. — Θέλεις να έρθω μαζί σου; — Ναι, με
+    χαρά!
+  phonetic_hint: — AHV-ree-oh thah PAH-oh steen ah-ghoh-RAH yah PSOH-nyah. — THEH-lees
+    nah EHR-thoh mah-ZEE soo? — Neh, meh khah-RAH!
+  english: — Tomorrow I will go to the market for shopping. — Do you want me to come
+    with you? — Yes, with pleasure!
+  notes: Review Unit 108. Simple Future tense ('θα πάω') and inviting a companion
+    to go shopping.
   gender_or_pos: phrase
-  audio: yparchei-parkingk-st-2cd93d.mp3
+  audio: ayrio-tha-pao-stin-a-b90dc3.mp3
   status: verified
-  example_el: — Έχει χώρο για το αυτοκίνητο; — Ναι, έχει πάρκινγκ.
-  example_en: — Does it have space for the car? — Yes, it has parking.
+  example_el: — Τι θα πάρεις στην αγορά; — Θα αγοράσω ρούχα και δώρα για τη γιορτή.
+  example_en: — What will you get at the market? — I will buy clothes and gifts for
+    the celebration.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Confirming parking space availability for tenant vehicles
+  keg_communicative_function: Planning a shopping trip using the simple future and
+    inviting a friend
 - id: A1-U107C-011
-  greek: — Πόσο είναι το μηνιαίο ενοίκιο; — Το ενοίκιο είναι τετρακόσια πενήντα ευρώ
-    τον μήνα.
-  phonetic_hint: POH-so EE-neh to mee-nee-EH-o eh-NEE-kee-o? — To eh-NEE-kee-o EE-neh
-    teh-trah-KOH-syah peh-NEEN-dah ev-ROH ton MEE-nah.
-  english: — How much is the monthly rent? — The rent is four hundred fifty euros
-    per month.
-  notes: Review Unit 107. Inquiring about rental rates using compound numbers and
-    time accusative 'τον μήνα'.
+  greek: — Μπορώ να δοκιμάσω αυτό το σακάκι; — Βεβαίως, το δοκιμαστήριο είναι στο
+    βάθος αριστερά.
+  phonetic_hint: — boh-ROH nah thoh-kee-MAH-soh af-TOH toh sah-KAH-kee? — veh-VEH-ohs,
+    toh thoh-kee-mah-STEE-ree-oh EE-neh stoh VAH-thos ah-ree-steh-RAH.
+  english: — May I try on this blazer? — Certainly, the fitting room is at the back
+    on the left.
+  notes: Review Unit 108. Requesting to try on clothes ('δοκιμάζω') and locating the
+    fitting rooms ('δοκιμαστήριο').
   gender_or_pos: phrase
-  audio: poso-einai-to-miniai-0ddd41.mp3
+  audio: mporo-na-dokimaso-ay-09520d.mp3
   status: verified
-  example_el: — Πόσο είναι το ενοίκιο για το διαμέρισμα; — Είναι τετρακόσια ευρώ χωρίς
-    τα κοινόχρηστα.
-  example_en: — How much is the rent for the apartment? — It is four hundred euros
-    without building fees.
+  example_el: — Συγγνώμη, πού είναι τα δοκιμαστήρια; — Είναι πίσω από τις μπλούζες.
+  example_en: — Excuse me, where are the fitting rooms? — They are behind the tops.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about monthly rental costs and lease conditions
+  keg_communicative_function: Asking permission to try on clothes and locating fitting
+    rooms
 - id: A1-U107C-012
-  greek: — Πόσο είναι τα κοινόχρηστα τον μήνα; — Είναι περίπου είκοσι πέντε ευρώ.
-  phonetic_hint: POH-so EE-neh tah kee-NOH-khree-stah ton MEE-nah? — EE-neh peh-REE-poo
-    EE-ko-see PEN-deh ev-ROH.
-  english: — How much are the building fees per month? — They are approximately twenty-five
-    euros.
-  notes: Review Unit 107. Shared building maintenance expenses ('κοινόχρηστα').
+  greek: — Πώς σας φαίνεται το φόρεμα; — Σας πηγαίνει πάρα πολύ αυτό το χρώμα!
+  phonetic_hint: — pohs sahs FEH-neh-teh toh FOH-reh-mah? — sahs pee-YEH-nee PAH-rah
+    poh-LEE af-TOH toh KHROH-mah!
+  english: — How does the dress look to you? — This color suits you very much!
+  notes: Review Unit 108. Giving compliments on fit and color ('σας πηγαίνει').
   gender_or_pos: phrase
-  audio: poso-einai-ta-koinoc-3082da.mp3
+  audio: pos-sas-fainetai-to--aa7d6d.mp3
   status: verified
-  example_el: — Πόσο πληρώνετε για τα κοινόχρηστα τον χειμώνα; — Πληρώνουμε σαράντα
-    ευρώ.
-  example_en: — How much do you pay for building fees in the winter? — We pay forty
-    euros.
+  example_el: — Σου ταιριάζει πολύ αυτό το πουκάμισο! — Ευχαριστώ, μου αρέσει κι εμένα.
+  example_en: — This shirt suits you very well! — Thank you, I like it too.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Calculating shared residential maintenance and utility
-    charges
+  keg_communicative_function: Complimenting appearance and evaluating how clothes
+    look on someone
 - id: A1-U107C-013
-  greek: — Τι είδους θέρμανση έχει το σπίτι; — Έχει αυτόνομη θέρμανση με φυσικό αέριο.
-  phonetic_hint: tee EE-thoos THEHR-mahn-see EH-khee to SPEE-tee? — EH-khee ahf-TOH-no-mee
-    THEHR-mahn-see meh fee-see-KOH ah-EH-ree-o.
-  english: — What kind of heating does the house have? — It has autonomous natural
-    gas heating.
-  notes: Review Unit 107. Inquiring about home heating systems and natural gas connections.
+  greek: — Αυτό το τζιν μου είναι πολύ στενό στη μέση. — Δοκιμάστε ένα νούμερο μεγαλύτερο!
+  phonetic_hint: — af-TOH toh tzeen moo EE-neh poh-LEE steh-NOH stee MEH-see. — thoh-kee-MAH-steh
+    EH-nah NOO-meh-roh meh-ghah-LEE-teh-roh!
+  english: — These jeans are too tight on my waist. — Try one size larger!
+  notes: Review Unit 108. Describing clothes that are too tight ('στενός') and suggesting
+    larger sizes.
   gender_or_pos: phrase
-  audio: ti-eidoys-thermansi--064c9b.mp3
+  audio: ayto-to-tzin-moy-ein-ea8c98.mp3
   status: verified
-  example_el: — Ανάβει το καλοριφέρ τον χειμώνα; — Ναι, έχουμε ζέστη με αυτόνομη θέρμανση.
-  example_en: — Does the radiator turn on in the winter? — Yes, we have heat with
-    autonomous heating.
+  example_el: — Είναι στενό το παντελόνι; — Ναι, μου είναι λίγο στενό.
+  example_en: — Are the pants tight? — Yes, they are a little tight on me.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about home heating types and autonomous climate
-    control
+  keg_communicative_function: Expressing that clothes are too tight and recommending
+    sizing up
 - id: A1-U107C-014
-  greek: — Έχει κλιματιστικό στο σαλόνι; — Ναι, έχει κλιματιστικό για το καλοκαίρι.
-  phonetic_hint: EH-khee klee-mah-tee-stee-KOH sto sah-LOH-nee? — Neh, EH-khee klee-mah-tee-stee-KOH
-    yah to kah-lo-KEH-ree.
-  english: — Is there an air conditioner in the living room? — Yes, there is an air
-    conditioner for the summer.
-  notes: Review Unit 107. Air conditioning facilities for cooling during summer heatwaves.
+  greek: — Αυτή η μπλούζα σας είναι πολύ φαρδιά. — Ναι, φέρε μου ένα μικρότερο νούμερο,
+    παρακαλώ.
+  phonetic_hint: — af-TEE ee BLOO-zah sahs EE-neh poh-LEE fahr-THYAH. — Neh, FEH-reh
+    moo EH-nah mee-KROH-teh-roh NOO-meh-roh, pah-rah-kah-LOH.
+  english: — This top is too loose on you. — Yes, bring me a smaller size, please.
+  notes: Review Unit 108. Describing clothes that are too loose ('φαρδύς') and requesting
+    a smaller size.
   gender_or_pos: phrase
-  audio: echei-klimatistiko-s-59a092.mp3
+  audio: ayti-i-mployza-sas-e-bae04a.mp3
   status: verified
-  example_el: — Ανάβουμε το κλιματιστικό όταν έχει ζέστη; — Ναι, το ανάβουμε κάθε
-    μεσημέρι.
-  example_en: — Do we turn on the air conditioner when it's hot? — Yes, we turn it
-    on every afternoon.
+  example_el: — Σας κάνει η μπλούζα; — Όχι, μου είναι πολύ φαρδιά.
+  example_en: — Does the top fit you? — No, it is too loose on me.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Checking air conditioning availability for summer climate
-    control
+  keg_communicative_function: Reporting loose garments and requesting smaller sizes
 - id: A1-U107C-015
-  greek: — Πού είναι ο θερμοσίφωνας; — Ο θερμοσίφωνας είναι μέσα στο μπάνιο.
-  phonetic_hint: poo EE-neh o thehr-mo-SEE-fo-nahs? — O thehr-mo-SEE-fo-nahs EE-neh
-    MEH-sah sto MPAH-nyo.
-  english: — Where is the water heater? — The water heater is inside the bathroom.
-  notes: Review Unit 107. Hot water boiler placement in residential bathrooms.
+  greek: — Το μήκος είναι καλό, αλλά τα μανίκια είναι πολύ μακριά. — Ναι, τα μανίκια
+    είναι μακριά.
+  phonetic_hint: — toh MEE-kos EE-neh kah-LOH, ah-LAH tah mah-NEE-kyah EE-neh poh-LEE
+    mah-KRYAH. — Neh, tah mah-NEE-kyah EE-neh mah-KRYAH.
+  english: — The length is good, but the sleeves are too long. — Yes, the sleeves
+    are long.
+  notes: 'Review Unit 108. Discussing clothing fit details: length (''μήκος'') and
+    sleeves (''μανίκια'').'
   gender_or_pos: phrase
-  audio: poy-einai-o-thermosi-e70c99.mp3
+  audio: to-mikos-einai-kalo--d773a1.mp3
   status: verified
-  example_el: — Άναψε τον θερμοσίφωνα, σε παρακαλώ! — Τον ανάβω αμέσως για να κάνεις
-    μπάνιο.
-  example_en: — Turn on the water heater, please! — I'll turn it on right away so
-    you can bathe.
+  example_el: — Είναι μακριά τα μανίκια; — Ναι, είναι λίγο μακριά.
+  example_en: — Are the sleeves long? — Yes, they are a bit long.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Locating hot water boilers and operating domestic water
-    heating
+  keg_communicative_function: Evaluating clothing dimensions and sleeve length
 - id: A1-U107C-016
-  greek: — Είναι ακριβό το ενοίκιο; — Όχι, είναι πολύ οικονομικό για αυτή τη γειτονιά.
-  phonetic_hint: EE-neh ah-kree-VOH to eh-NEE-kee-o? — OH-khee, EE-neh po-LEE ee-ko-no-mee-KOH
-    yah ahf-TEE tee yee-to-NYAH.
-  english: — Is the rent expensive? — No, it is very economical for this neighborhood.
-  notes: Review Units 106 & 107. Comparing rent affordability within a specific city
-    area.
+  greek: — Σας κάνει το σακάκι ή θέλετε άλλο σχέδιο; — Μου κάνει τέλεια και είναι
+    άνετο.
+  phonetic_hint: — sahs KAH-nee toh sah-KAH-kee ee THEH-leh-teh AH-loh SKHEH-thyoh?
+    — moo KAH-nee TEH-lyah keh EE-neh AH-neh-toh.
+  english: — Does the jacket fit you or do you want another design? — It fits me perfectly
+    and is comfortable.
+  notes: Review Unit 108. Expressing perfect fit using 'μου κάνει τέλεια'.
   gender_or_pos: phrase
-  audio: einai-akrivo-to-enoi-747ac3.mp3
+  audio: sas-kanei-to-sakaki--0e1fd6.mp3
   status: verified
-  example_el: — Πόσα χρήματα πληρώνετε κάθε μήνα; — Πληρώνουμε τετρακόσια ευρώ.
-  example_en: — How much money do you pay each month? — We pay four hundred euros.
+  example_el: — Θα το πάρεις αυτό το σακάκι; — Ναι, θα το αγοράσω.
+  example_en: — Will you take this jacket? — Yes, I will buy it.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Evaluating rental affordability and monthly housing
-    budget
+  keg_communicative_function: Confirming proper fit and garment comfort
 - id: A1-U107C-017
-  greek: — Πότε είναι ελεύθερο το σπίτι; — Είναι ελεύθερο από την επόμενη εβδομάδα.
-  phonetic_hint: POH-teh EE-neh eh-LEF-the-ro to SPEE-tee? — EE-neh eh-LEF-the-ro
-    ah-POH teen eh-POH-meh-nee ehv-tho-MAH-thah.
-  english: — When is the house available? — It is available starting next week.
-  notes: Review Units 103 & 107. Availability dates and move-in timeline.
-  gender_or_pos: phrase
-  audio: pote-einai-eleythero-c04aae.mp3
-  status: verified
-  example_el: — Μπορούμε να μείνουμε από τη Δευτέρα; — Ναι, είναι καθαρό και έτοιμο.
-  example_en: — Can we stay starting Monday? — Yes, it is clean and ready.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Confirming lease commencement dates and move-in readiness
-- id: A1-U107C-018
-  greek: — Πώς είναι οι γείτονες στην πολυκατοικία; — Είναι πολύ καλοί γείτονες.
-  phonetic_hint: POS EE-neh ee YEE-to-nehs steen po-lee-kah-tee-KEE-ah? — EE-neh po-LEE
-    kah-LEE YEE-to-nehs.
-  english: — What are the neighbors in the building like? — They are very good neighbors.
-  notes: Review Unit 107. Inquiring about building co-residents ('γείτονες').
-  gender_or_pos: phrase
-  audio: pos-einai-oi-geitone-512799.mp3
-  status: verified
-  example_el: — Μένει ο ιδιοκτήτης στην πολυκατοικία; — Ναι, μένει στον πρώτο όροφο.
-  example_en: — Does the landlord live in the apartment building? — Yes, he lives
-    on the first floor.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking about neighbors, building community, and landlord
-    presence
-- id: A1-U107C-019
-  greek: — Περάστε μέσα στο σαλόνι, παρακαλώ! — Ευχαριστώ πολύ, το σπίτι σας είναι
+  greek: — Αυτό το παλτό ταιριάζει πολύ με τις μπότες σας. — Ναι, είναι πάρα πολύ
     όμορφο!
-  phonetic_hint: peh-RAH-steh MEH-sah sto sah-LOH-nee, pah-rah-kah-LOH! — Ef-khah-ree-STOH
-    po-LEE, to SPEE-tee sahs EE-neh OH-mor-fo!
-  english: — Step inside into the living room, please! — Thank you very much, your
-    home is beautiful!
-  notes: Review Unit 107. Welcoming guests with polite imperative 'περάστε' and expressing
-    appreciation.
+  phonetic_hint: — af-TOH toh pahl-TOH teh-ree-AH-zee poh-LEE meh tees BOH-tes sahs.
+    — Neh, EE-neh PAH-rah poh-LEE OH-mor-foh!
+  english: — This coat matches your boots very well. — Yes, it is very beautiful!
+  notes: Review Unit 108. Coordinating clothing items with 'ταιριάζει με' (matches
+    with).
   gender_or_pos: phrase
-  audio: peraste-mesa-sto-sal-253756.mp3
+  audio: ayto-to-palto-tairia-268d29.mp3
   status: verified
-  example_el: — Περάστε μέσα στο καθιστικό και καθίστε στην πολυθρόνα! — Ευχαριστώ!
-  example_en: — Step into the lounge and sit in the armchair! — Thank you!
+  example_el: — Ταιριάζει το πουκάμισο με τη ζώνη; — Ναι, έχουν ακριβώς το ίδιο χρώμα.
+  example_en: — Does the shirt match the belt? — Yes, they have exactly the same color.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Welcoming visitors hospitably into residential living
-    areas
+  keg_communicative_function: Coordinating apparel items and matching colors
+- id: A1-U107C-018
+  greek: — Θέλω να δοκιμάσω και εκείνη την πράσινη ζακέτα. — Ορίστε, πάρτε την στο
+    δοκιμαστήριο.
+  phonetic_hint: — THEH-loh nah thoh-kee-MAH-soh keh eh-KEE-nee teen PRAH-see-nee
+    zah-KEH-tah. — oh-REES-teh, PAHR-teh teen stoh thoh-kee-mah-STEE-ree-oh.
+  english: — I want to try on that green cardigan as well. — Here you are, take it
+    into the fitting room.
+  notes: Review Unit 108. Expressing desires with 'θέλω να δοκιμάσω' and selecting
+    specific knitwear ('ζακέτα').
+  gender_or_pos: phrase
+  audio: thelo-na-dokimaso-ka-495638.mp3
+  status: verified
+  example_el: — Σας αρέσει η ζακέτα; — Ναι, είναι πολύ ζεστή και όμορφη.
+  example_en: — Do you like the cardigan? — Yes, it is very warm and nice.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Selecting additional garments to test in the fitting
+    room
+- id: A1-U107C-019
+  greek: — Αυτό το τζιν μου είναι πολύ στενό. — Δοκιμάστε το νούμερο σαράντα ένα.
+  phonetic_hint: — af-TOH toh tzeen moo EE-neh poh-LEE steh-NOH. — thoh-kee-MAH-steh
+    toh NOO-meh-roh sah-RAHN-dah EH-nah.
+  english: — These jeans are too tight on me. — Try size forty-one.
+  notes: Review Unit 108. Specifying cardinal numbers for clothing sizes in retail
+    interactions.
+  gender_or_pos: phrase
+  audio: ayto-to-tzin-moy-ein-a92a4d.mp3
+  status: verified
+  example_el: — Σου είναι στενό το παντελόνι; — Ναι, μου είναι λίγο στενό.
+  example_en: — Are the pants tight on you? — Yes, they are a little tight on me.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating sizing difficulties and testing specific alternative
+    sizes
 - id: A1-U107C-020
-  greek: — Πού είναι το καθιστικό; — Είναι εδώ δεξιά, δίπλα στο μεγάλο μπαλκόνι.
-  phonetic_hint: poo EE-neh to kah-thee-stee-KOH? — EE-neh eh-THOH thehk-SYAH, THEEP-lah
-    sto meh-GHAH-lo mpal-KOH-nee.
-  english: — Where is the sitting room? — It is right here on the right, next to the
-    big balcony.
-  notes: Review Unit 107. Locating sitting spaces relative to balconies with spatial
-    adverb 'δεξιά'.
+  greek: — Αυτή η γραβάτα πηγαίνει με το κοστούμι μου; — Ναι, ταιριάζει πολύ με το
+    λευκό πουκάμισο.
+  phonetic_hint: — af-TEE ee ghrah-VAH-tah pee-YEH-nee meh toh koh-STOO-mee moo? —
+    Neh, teh-ree-AH-zee poh-LEE meh toh lef-KOH poo-KAH-mee-soh.
+  english: — Does this tie go with my suit? — Yes, it matches the white shirt very
+    well.
+  notes: 'Review Unit 108. Formal wear vocabulary: ''κοστούμι'' (suit), ''γραβάτα''
+    (tie), ''πουκάμισο'' (shirt).'
   gender_or_pos: phrase
-  audio: poy-einai-to-kathist-2d78a5.mp3
+  audio: ayti-i-gravata-pigai-01e246.mp3
   status: verified
-  example_el: — Το καθιστικό είναι πολύ φωτεινό! — Ναι, έχει μεγάλο παράθυρο.
-  example_en: — The sitting room is very bright! — Yes, it has a large window.
+  example_el: — Ποια γραβάτα φοράς; — Φοράω τη μπλε γραβάτα.
+  example_en: — Which tie are you wearing? — I am wearing the blue tie.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Directing guests to sitting areas and highlighting natural
-    light
+  keg_communicative_function: Asking for advice on formal attire and color coordination
 - id: A1-U107C-021
-  greek: — Πού βρίσκεται ο καναπές; — Ο καναπές βρίσκεται απέναντι από την τηλεόραση.
-  phonetic_hint: poo VREES-keh-teh o kah-nah-PEHS? — O kah-nah-PEHS VREES-keh-teh
-    ah-PEH-nahn-dee ah-POH teen tee-leh-OH-rah-see.
-  english: — Where is the sofa located? — The sofa is located across from the television.
-  notes: Review Unit 107. Locating living room furniture with spatial preposition
-    'απέναντι από'.
+  greek: — Πόσο κοστίζει αυτό το ζευγάρι παπούτσια; — Κοστίζει ογδόντα ευρώ.
+  phonetic_hint: — POH-soh koh-STEE-zee af-TOH toh zev-GHAH-ree pah-POO-tsyah? — Koh-STEE-zee
+    ogh-THOHN-dah ev-ROH.
+  english: — How much does this pair of shoes cost? — It costs eighty euros.
+  notes: Review Unit 108. Using the verb 'κοστίζω' (to cost) alongside numbers in
+    tens ('ογδόντα').
   gender_or_pos: phrase
-  audio: poy-vrisketai-o-kana-b7fad3.mp3
+  audio: poso-kostizei-ayto-t-929078.mp3
   status: verified
-  example_el: — Στη μέση του σαλονιού υπάρχει ένα χαμηλό ξύλινο τραπεζάκι. — Και ένα
-    όμορφο χαλί.
-  example_en: — In the middle of the living room there is a low wooden coffee table.
-    — And a beautiful rug.
+  example_el: — Πόσο κάνουν οι μπότες; — Κάνουν ενενήντα ευρώ.
+  example_en: — How much are the boots? — They are ninety euros.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing living room furniture arrangements and interior
-    layout
+  keg_communicative_function: Asking the cost of shoes and understanding numerical
+    prices
 - id: A1-U107C-022
-  greek: — Πού είναι η κουζίνα; — Η κουζίνα είναι δίπλα στην είσοδο, αριστερά.
-  phonetic_hint: poo EE-neh ee koo-ZEE-nah? — Ee koo-ZEE-nah EE-neh THEEP-lah steen
-    EE-so-tho, ah-ree-steh-RAH.
-  english: — Where is the kitchen? — The kitchen is next to the entrance, on the left.
-  notes: Review Unit 107. Locating kitchen facilities relative to the apartment entrance.
+  greek: — Στις εκπτώσεις όλα τα είδη έχουν έκπτωση είκοσι τοις εκατό; — Ναι, όλα
+    τα ρούχα έχουν έκπτωση.
+  phonetic_hint: — stees ehk-PTOH-sees OH-lah tah EE-thee EH-khoon EHK-ptoh-see EE-koh-see
+    tees eh-kah-TOH? — Neh, OH-lah tah ROO-khah EH-khoon EHK-ptoh-see.
+  english: — During sales do all items have a twenty percent discount? — Yes, all
+    clothes have a discount.
+  notes: 'Review Unit 108. Seasonal sales vocabulary: ''εκπτώσεις'' (sales) and percentages
+    (''τοις εκατό'').'
   gender_or_pos: phrase
-  audio: poy-einai-i-koyzina--369d29.mp3
+  audio: stis-ekptoseis-ola-t-e839c4.mp3
   status: verified
-  example_el: — Οι κουρτίνες στην κουζίνα είναι κίτρινες; — Ναι, και τα ντουλάπια
-    είναι λευκά.
-  example_en: — Are the curtains in the kitchen yellow? — Yes, and the cabinets are
-    white.
+  example_el: — Έχει έκπτωση αυτό το μπουφάν; — Ναι, έχει τριάντα τοις εκατό έκπτωση.
+  example_en: — Does this jacket have a discount? — Yes, it has a thirty percent discount.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing kitchen location, cabinets, and decorative
-    colors
+  keg_communicative_function: Inquiring about sale percentages and promotional discounts
 - id: A1-U107C-023
-  greek: — Πού είναι το υπνοδωμάτιο; — Είναι δίπλα στο μπάνιο.
-  phonetic_hint: poo EE-neh to eep-no-tho-MAH-tee-o? — EE-neh THEEP-lah sto MPAH-nyo.
-  english: — Where is the bedroom? — It is next to the bathroom.
-  notes: Review Unit 107. Locating resting rooms using preposition 'δίπλα σε'.
+  greek: — Πού είναι το ταμείο, παρακαλώ; — Το ταμείο είναι εκεί, δίπλα στην είσοδο.
+  phonetic_hint: — POU EE-neh toh tah-MEE-oh, pah-rah-kah-LOH? — Toh tah-MEE-oh EE-neh
+    eh-KEE, THEE-plah steen EE-soh-thoh.
+  english: — Where is the checkout counter, please? — The checkout counter is there,
+    next to the entrance.
+  notes: Review Unit 108. Locating the checkout counter ('ταμείο') in retail shops.
   gender_or_pos: phrase
-  audio: poy-einai-to-ypnodom-3d16bf.mp3
+  audio: poy-einai-to-tameio--7ff442.mp3
   status: verified
-  example_el: — Τι χρώμα είναι οι τοίχοι στο υπνοδωμάτιο; — Είναι ανοιχτό πράσινο.
-  example_en: — What color are the walls in the bedroom? — They are light green.
+  example_el: — Εκείνοι οι πελάτες περιμένουν στην ουρά για το ταμείο. — Ναι, έχει
+    κόσμο σήμερα.
+  example_en: — Those customers are waiting in line for the checkout. — Yes, it is
+    crowded today.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Identifying bedroom locations and wall paint color schemes
+  keg_communicative_function: Inquiring about cashier location and waiting in line
 - id: A1-U107C-024
-  greek: — Τι έχει δίπλα στο κρεβάτι; — Έχει δύο κομοδίνα με φωτιστικά.
-  phonetic_hint: tee EH-khee THEEP-lah sto kreh-VAH-tee? — EH-khee THEE-o ko-mo-THEE-nah
-    meh fo-tee-stee-KAH.
-  english: — What is next to the bed? — There are two nightstands with bedside lamps.
-  notes: 'Review Unit 107. Bedroom furniture: ''κομοδίνα'' and ''φωτιστικά''.'
+  greek: — Πληρώνετε με μετρητά ή προτιμάτε κάρτα; — Θα πληρώσω με πιστωτική κάρτα.
+  phonetic_hint: — plee-ROH-neh-teh meh meh-tree-TAH ee proh-tee-MAH-teh KAHR-tah?
+    — Thah plee-ROH-soh meh pee-stoh-tee-KEE KAHR-tah.
+  english: — Are you paying in cash or do you prefer card? — I will pay with a credit
+    card.
+  notes: 'Review Unit 108. Payment methods: ''μετρητά'' (cash) vs ''πιστωτική κάρτα''
+    (credit card) and Future ''θα πληρώσω''.'
   gender_or_pos: phrase
-  audio: ti-echei-dipla-sto-k-cf2e17.mp3
+  audio: plironete-me-metrita-ec5ea0.mp3
   status: verified
-  example_el: — Βάλε το βιβλίο σου πάνω στο κομοδίνο. — Το βάζω εκεί τώρα.
-  example_en: — Put your book on top of the nightstand. — I am putting it there now.
+  example_el: — Μπορώ να πληρώσω με μετρητά; — Βεβαίως, ορίστε τα ρέστα σας.
+  example_en: — Can I pay in cash? — Certainly, here is your change.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing bedside furniture items and small bedroom
-    fixtures
+  keg_communicative_function: Selecting and communicating payment methods at the register
 - id: A1-U107C-025
-  greek: — Το μπάνιο έχει μπανιέρα; — Ναι, έχει μια μεγάλη μπανιέρα και έναν νιπτήρα.
-  phonetic_hint: to MPAH-nyo EH-khee mpah-NYEH-rah? — Neh, EH-khee myah meh-GHAH-lee
-    mpah-NYEH-rah keh EH-nahn neep-TEE-rah.
-  english: — Does the bathroom have a bathtub? — Yes, it has a large bathtub and a
-    washbasin.
-  notes: 'Review Unit 107. Sanitary fixtures: ''μπανιέρα'', ''νιπτήρας'', ''βρύση''.'
+  greek: — Ορίστε τα ρέστα σας και η απόδειξη αγοράς. — Ευχαριστώ πολύ, καλή σας μέρα!
+  phonetic_hint: — oh-REES-teh tah REH-stah sahs keh ee ah-POH-theek-see ah-ghoh-RAHS.
+    — Ef-khah-ree-STOH poh-LEE, kah-LEE sahs MEH-rah!
+  english: — Here is your change and the purchase receipt. — Thank you very much,
+    have a nice day!
+  notes: Review Unit 108. Receiving change ('ρέστα') and receipt ('απόδειξη') at checkout.
   gender_or_pos: phrase
-  audio: to-mpanio-echei-mpan-10fd47.mp3
+  audio: oriste-ta-resta-sas--a9c682.mp3
   status: verified
-  example_el: — Ο καθρέφτης είναι πάνω από τον νιπτήρα; — Ναι, ακριβώς πάνω από τη
-    βρύση.
-  example_en: — Is the mirror above the washbasin? — Yes, right above the faucet.
+  example_el: — Θέλετε τσάντα για τα ψώνια σας; — Ναι, παρακαλώ, τα βάζω στην τσάντα
+    μου.
+  example_en: — Do you want a bag for your shopping? — Yes, please, I'll put them
+    in my bag.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing bathroom fixtures, bathtubs, mirrors, and
-    washbasins
+  keg_communicative_function: Concluding a retail transaction, receiving receipts
+    and change
 - id: A1-U107C-026
-  greek: — Πού είναι το πλυντήριο ρούχων; — Είναι μέσα στο μπάνιο, πίσω από την πόρτα.
-  phonetic_hint: poo EE-neh to pleen-TEE-ree-o ROO-khohn? — EE-neh MEH-sah sto MPAH-nyo,
-    PEE-so ah-POH teen POHR-tah.
-  english: — Where is the washing machine? — It is inside the bathroom, behind the
-    door.
-  notes: Review Unit 107. Laundry appliance location using spatial preposition 'πίσω
-    από'.
+  greek: — Κρατήστε την απόδειξη σε περίπτωση που θέλετε αλλαγή. — Πόσο χρόνο έχω
+    για την αλλαγή; — Έχετε δεκαπέντε μέρες.
+  phonetic_hint: — krah-TEE-steh teen ah-POH-theek-see seh peh-REE-ptoh-see poo THEH-leh-teh
+    ah-lah-YEE. — POH-soh KHROH-noh EH-khoh yah teen ah-lah-YEE? — EH-kheh-teh theh-kah-PEN-deh
+    MEH-res.
+  english: — Keep the receipt in case you want an exchange. — How much time do I have
+    for an exchange? — You have fifteen days.
+  notes: 'Review Unit 108. Store exchange policy: ''αλλαγή'' (exchange) and return
+    window.'
   gender_or_pos: phrase
-  audio: poy-einai-to-plyntir-5ab78d.mp3
+  audio: kratiste-tin-apodeix-26d127.mp3
   status: verified
-  example_el: — Πλύνε τα ρούχα σου σήμερα στο πλυντήριο! — Ναι, τα πλένω αμέσως.
-  example_en: — Wash your clothes in the washing machine today! — Yes, I am washing
-    them right away.
+  example_el: — Μπορώ να κάνω αλλαγή; — Ναι, με την απόδειξη αγοράς.
+  example_en: — Can I make an exchange? — Yes, with the purchase receipt.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Locating laundry appliances and organizing washing chores
+  keg_communicative_function: Discussing store return and exchange policies
 - id: A1-U107C-027
-  greek: — Έχει τζάκι το σαλόνι; — Ναι, το τζάκι είναι δεξιά από τον γωνιακό καναπέ.
-  phonetic_hint: EH-khee TZAH-kee to sah-LOH-nee? — Neh, to TZAH-kee EE-neh thehk-SYAH
-    ah-POH ton gho-nee-ah-KOH kah-nah-PEH.
-  english: — Does the living room have a fireplace? — Yes, the fireplace is to the
-    right of the corner sofa.
-  notes: 'Review Unit 107. Fireplace fixture: ''το τζάκι'' with corner furniture.'
+  greek: — Θα πάρω αυτό το πουκάμισο και εκείνο το παντελόνι. — Πολύ ωραία, περάστε
+    στο ταμείο.
+  phonetic_hint: — thah PAH-roh af-TOH toh poo-KAH-mee-soh keh eh-KEE-noh toh pahn-deh-LOH-nee.
+    — Poh-LEE oh-REH-ah, peh-RAH-steh stoh tah-MEE-oh.
+  english: — I will take this shirt and those pants. — Very well, proceed to the register.
+  notes: Review Unit 108. Stating buying decisions with 'θα πάρω' and demonstrative
+    contrast.
   gender_or_pos: phrase
-  audio: echei-tzaki-to-salon-8dab90.mp3
+  audio: tha-paro-ayto-to-poy-50f73d.mp3
   status: verified
-  example_el: — Ανάβουμε το τζάκι όταν κάνει κρύο; — Ναι, ανάβουμε το τζάκι τον χειμώνα.
-  example_en: — Do we light the fireplace when it's cold? — Yes, we light the fireplace
-    in the winter.
+  example_el: — Τι αγοράζει η Μαρία στην αγορά; — Αγοράζει δύο μπλούζες και ένα τζιν.
+  example_en: — What is Maria buying at the market? — She is buying two tops and a
+    pair of jeans.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing fireplace features and heating coziness in
-    living rooms
+  keg_communicative_function: Deciding on purchases and proceeding to checkout
 - id: A1-U107C-028
-  greek: — Πού είναι η βιβλιοθήκη; — Η μεγάλη βιβλιοθήκη είναι δίπλα στην πόρτα του
-    γραφείου.
-  phonetic_hint: poo EE-neh ee veev-lee-o-THEE-kee? — Ee meh-GHAH-lee veev-lee-o-THEE-kee
-    EE-neh THEEP-lah steen POHR-tah too ghrah-FEE-oo.
-  english: — Where is the bookcase? — The large bookcase is beside the door of the
-    study.
-  notes: 'Review Unit 107. Study furniture: ''βιβλιοθήκη'', ''γραφείο'', ''πόρτα''.'
+  greek: — Με γεια τα καινούρια σου ρούχα! — Σε ευχαριστώ πάρα πολύ, μου αρέσουν πολύ!
+  phonetic_hint: — meh YAH tah keh-NOOR-yah soo ROO-khah! — Seh ef-khah-ree-STOH PAH-rah
+    poh-LEE, moo ah-REH-soon poh-LEE!
+  english: — Wear your new clothes in good health! — Thank you very much, I like them
+    a lot!
+  notes: 'Review Unit 108. Greek idiomatic social congratulation for new belongings:
+    ''Με γεια!''.'
   gender_or_pos: phrase
-  audio: poy-einai-i-vivlioth-4fad7e.mp3
+  audio: me-geia-ta-kainoyria-35ff9c.mp3
   status: verified
-  example_el: — Το λεξικό είναι πάνω στο γραφείο; — Ναι, είναι πάνω στο γραφείο.
-  example_en: — Is the dictionary on top of the desk? — Yes, it is on the desk.
+  example_el: — Με γεια το νέο σου παλτό! — Ευχαριστώ, είναι πολύ ζεστό.
+  example_en: — Wear your new coat in good health! — Thank you, it is very warm.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Locating bookcases, study desks, and reading materials
+  keg_communicative_function: Exchanging traditional congratulations ('με γεια') for
+    new purchases
 - id: A1-U107C-029
-  greek: — Άνοιξε το παράθυρο, σε παρακαλώ, γιατί έχει πολλή ζέστη. — Αμέσως, το ανοίγω
-    τώρα.
-  phonetic_hint: AH-neek-seh to pah-RAH-thee-ro, seh pah-rah-kah-LOH, yah-TEE EH-khee
-    po-LEE ZEHS-tee. — ah-MEH-sos, to ah-NEE-gho TOH-rah.
-  english: — Open the window, please, because it is very hot. — Right away, I am opening
-    it now.
-  notes: Review Unit 107b. Singular Aorist Imperative 'άνοιξε' for immediate room
-    ventilation.
+  greek: — Τι θα κάνεις το Σαββατοκύριακο; — Το Σάββατο θα πάω για ψώνια και την Κυριακή
+    θα ξεκουραστώ.
+  phonetic_hint: — tee thah KAH-nees toh sah-vah-toh-KEE-ryah-koh? — Toh SAH-vah-toh
+    thah PAH-oh yah PSOH-nyah keh teen kee-ryah-KEE thah kseh-koo-rah-STOH.
+  english: — What will you do over the weekend? — On Saturday I will go shopping and
+    on Sunday I will rest.
+  notes: 'Review Unit 108. Simple Future: ''θα κάνεις'', ''θα πάω'', ''θα ξεκουραστώ''.'
   gender_or_pos: phrase
-  audio: anoixe-to-parathyro--4b5988.mp3
+  audio: ti-tha-kaneis-to-sav-13b6f6.mp3
   status: verified
-  example_el: — Κάνει πολλή ζέστη εδώ μέσα! — Άνοιξε και την πόρτα να μπει αέρας.
-  example_en: — It is very hot in here! — Open the door too to let in fresh air.
+  example_el: — Θα βγεις έξω απόψε; — Όχι, απόψε θα μείνω στο σπίτι.
+  example_en: — Will you go out tonight? — No, tonight I will stay at home.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving polite imperative instructions to ventilate rooms
+  keg_communicative_function: Asking about and describing weekend plans using the
+    simple future
 - id: A1-U107C-030
-  greek: — Κλείσε την πόρτα όταν βγεις έξω! — Εντάξει, την κλείνω αμέσως.
-  phonetic_hint: KLEE-seh teen POHR-tah OH-tahn vyees EH-kso! — ehn-DAHK-see, teen
-    KLEE-no ah-MEH-sos.
-  english: — Close the door when you go outside! — Alright, I am closing it immediately.
-  notes: Review Unit 107b. Singular Aorist Imperative 'κλείσε' upon departing.
+  greek: — Το βράδυ θα φάμε σε μια παραδοσιακή ταβέρνα. — Τέλεια ιδέα! Τι ώρα θα πάμε;
+  phonetic_hint: — toh VRAH-thee thah FAH-meh seh myah pah-rah-thoh-syah-KEE tah-VEHR-nah.
+    — TEH-lyah ee-THEH-ah! tee OH-rah thah PAH-meh?
+  english: — Tonight we will eat at a traditional tavern. — Great idea! What time
+    will we go?
+  notes: 'Review Unit 108. Simple Future in first-person plural: ''θα φάμε'' (we will
+    eat), ''θα πάμε'' (we will go).'
   gender_or_pos: phrase
-  audio: kleise-tin-porta-ota-31208a.mp3
+  audio: to-vrady-tha-fame-se-96b7d9.mp3
   status: verified
-  example_el: — Κλείσε τα παράθυρα το βράδυ! — Ναι, τα κλείνω πάντα.
-  example_en: — Close the windows at night! — Yes, I always close them.
+  example_el: — Θα φάμε ψάρι; — Ναι, θα φάμε ψάρι και σαλάτα.
+  example_en: — Will we eat fish? — Yes, we will eat fish and salad.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Instructing housemates to shut doors and windows for
-    safety
+  keg_communicative_function: Planning social dining outings and setting meetup times
+    in the future
 - id: A1-U107C-031
-  greek: — Άναψε το φως στο διάδρομο, γιατί είναι σκοτεινά. — Το ανάβω αμέσως.
-  phonetic_hint: AH-nahp-seh to fos sto thee-AH-thro-mo, yah-TEE EE-neh sko-tee-NAH.
-    — To ah-NAH-vo ah-MEH-sos.
-  english: — Turn on the light in the hallway, because it is dark. — I am turning
-    it on right away.
-  notes: Review Unit 107b. Imperative 'άναψε' for illumination.
+  greek: — Την επόμενη εβδομάδα θα αγοράσω καινούρια παπούτσια. — Θέλεις να πάμε μαζί
+    στο πολυκατάστημα;
+  phonetic_hint: — teen eh-POH-meh-nee ehv-thoh-MAH-thah thah ah-ghoh-RAH-soh keh-NOOR-yah
+    pah-POO-tsyah. — THEH-lees nah PAH-meh mah-ZEE stoh poh-lee-kah-TAH-stee-mah?
+  english: — Next week I will buy new shoes. — Do you want us to go together to the
+    department store?
+  notes: Review Unit 108. Time expressions with 'την επόμενη εβδομάδα' and Future
+    'θα αγοράσω'.
   gender_or_pos: phrase
-  audio: anapse-to-fos-sto-di-e907e5.mp3
+  audio: tin-epomeni-evdomada-f978fc.mp3
   status: verified
-  example_el: — Άναψε το φωτιστικό δαπέδου, σε παρακαλώ. — Ναι, το ανάβω για το διάβασμα.
-  example_en: — Turn on the floor lamp, please. — Yes, I am turning it on for studying.
+  example_el: — Πότε θα πας για ψώνια; — Θα πάω το Σάββατο το πρωί.
+  example_en: — When will you go shopping? — I will go on Saturday morning.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting hallway lighting and room illumination
+  keg_communicative_function: Scheduling future purchases and shopping companionship
 - id: A1-U107C-032
-  greek: — Σβήσε το καλοριφέρ πριν φύγεις από το σπίτι! — Μην ανησυχείς, το κλείνω
-    τώρα.
-  phonetic_hint: ZVEE-seh to kah-lo-ree-FEHR PREEN FEE-yees ah-POH to SPEE-tee! —
-    Meen ah-nee-see-KHEES, to KLEE-no TOH-rah.
-  english: — Turn off the radiator before you leave the house! — Don't worry, I am
-    shutting it off now.
-  notes: Review Unit 107b. Imperative 'σβήσε' to save heating energy.
+  greek: — Θα μείνουμε στο σπίτι γιατί κάνει πολύ κρύο. — Ναι, ανάβουμε το τζάκι και
+    μένουμε μέσα.
+  phonetic_hint: — thah MEE-noo-meh stoh SPEE-tee yah-TEE KAH-nee poh-LEE KREE-oh.
+    — Neh, ah-NAH-voo-meh toh TZAH-kee keh MEH-noo-meh MEH-sah.
+  english: — We will stay at home because it is very cold. — Yes, let's light the
+    fireplace and stay inside.
+  notes: Review Unit 108. Future 'θα μείνουμε' (we will stay) with weather reason
+    ('κάνει πολύ κρύο').
   gender_or_pos: phrase
-  audio: svise-to-kalorifer-p-f25429.mp3
+  audio: tha-meinoyme-sto-spi-37efe0.mp3
   status: verified
-  example_el: — Κλείσε τα φώτα πριν φύγεις! — Ναι, τα κλείνουμε όλα.
-  example_en: — Turn off the lights before you leave! — Yes, we turn them all off.
+  example_el: — Βρέχει έξω; — Ναι, βρέχει και κάνει κρύο, μένουμε στο σπίτι.
+  example_en: — Is it raining outside? — Yes, it is raining and cold, we are staying
+    home.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Instructing housemates to shut down heating and save
-    electricity
+  keg_communicative_function: Justifying plans to stay indoors based on cold weather
 - id: A1-U107C-033
-  greek: — Κάθισε αναπαυτικά στον καναπέ και ξεκουράσου! — Ευχαριστώ, είμαι πολύ κουρασμένος.
-  phonetic_hint: KAH-thee-seh ah-nah-pahf-tee-KAH ston kah-nah-PEH keh kseh-koo-RAH-soo!
-    — Ef-khah-ree-STOH, EE-meh po-LEE koo-rahz-MEH-nos.
-  english: — Sit down comfortably on the sofa and relax! — Thank you, I am very tired.
-  notes: Review Unit 107b. Hospitality imperatives 'κάθισε' and reflexive 'ξεκουράσου'.
+  greek: — Σε λίγο θα πιούμε έναν ζεστό καφέ. — Ωραία, θα φτιάξω καφέ για όλους μας
+    στην κουζίνα.
+  phonetic_hint: — seh LEE-ghoh thah PYOO-meh EH-nahn zeh-STOH kah-FEH. — oh-REH-ah,
+    thah FTYAH-ksoh kah-FEH yah OH-loos mahs steen koo-ZEE-nah.
+  english: — In a little while we will drink a hot coffee. — Great, I will make coffee
+    for all of us in the kitchen.
+  notes: 'Review Unit 108. Future tense: ''θα πιούμε'' (we will drink), ''θα φτιάξω''
+    (I will make/prepare).'
   gender_or_pos: phrase
-  audio: kathise-anapaytika-s-f13a6c.mp3
+  audio: se-ligo-tha-pioyme-e-62d93a.mp3
   status: verified
-  example_el: — Καθίστε στην πολυθρόνα, παρακαλώ! — Ευχαριστώ πάρα πολύ.
-  example_en: — Please sit in the armchair! — Thank you very much.
+  example_el: — Θα πιούμε καφέ; — Ναι, παρακαλώ, έναν ζεστό καφέ.
+  example_en: — Shall we drink coffee? — Yes, please, a hot coffee.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Offering comfortable seating and inviting guests to
-    unwind
+  keg_communicative_function: Proposing and preparing hot beverages for a group
 - id: A1-U107C-034
-  greek: — Φέρε μου ένα ποτήρι δροσερό νερό από την κουζίνα! — Ορίστε, κρύο νερό από
-    το ψυγείο.
-  phonetic_hint: FEH-reh moo EH-nah po-TEE-ree thro-seh-ROH neh-ROH ah-POH teen koo-ZEE-nah!
-    — o-REES-teh, KREE-o neh-ROH ah-POH to psee-YEE-o.
-  english: — Bring me a glass of cool water from the kitchen! — Here you are, cold
-    water from the fridge.
-  notes: Review Unit 107b. Irregular imperative 'φέρε' for bringing items.
+  greek: — Αύριο το πρωί θα δω τη φίλη μου στο κέντρο. — Πού θα πάτε; — Στην πλατεία
+    Αριστοτέλους.
+  phonetic_hint: — AHV-ree-oh toh proh-EE thah thoh tee FEE-lee moo stoh KEN-droh.
+    — POU thah PAH-teh? — Steen plah-TEE-ah ah-ree-stoh-TEH-loos.
+  english: — Tomorrow morning I will see my friend downtown. — Where will you go?
+    — To Aristotelous Square.
+  notes: Review Unit 108. Future 'θα δω' (I will see) and naming prominent meeting
+    spots in Thessaloniki.
   gender_or_pos: phrase
-  audio: fere-moy-ena-potiri--da9d5f.mp3
+  audio: ayrio-to-proi-tha-do-bf984d.mp3
   status: verified
-  example_el: — Φέρε μου ένα ποτήρι νερό, σε παρακαλώ. — Ορίστε το νερό σου.
-  example_en: — Bring me a glass of water, please. — Here is your water.
+  example_el: — Τι ώρα θα πάτε; — Στις έντεκα το πρωί.
+  example_en: — What time will you go? — At eleven in the morning.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting and serving water from the refrigerator
+  keg_communicative_function: Arranging to meet a friend at a central city square
 - id: A1-U107C-035
-  greek: — Πλύνε τα πιάτα μετά το μεσημεριανό φαγητό! — Ναι, πλένω τα πιάτα και τα
-    ποτήρια τώρα.
-  phonetic_hint: PLEE-neh tah PYA-tah meh-TAH to meh-see-meh-ree-ah-NOH fah-yee-TOH!
-    — Neh, PLEH-no tah PYA-tah keh tah po-TEE-ryah TOH-rah.
-  english: — Wash the dishes after lunch! — Yes, I am washing the plates and glasses
-    now.
-  notes: Review Unit 107b. Domestic chore imperative 'πλύνε τα πιάτα'.
+  greek: — Του χρόνου θα ταξιδέψουμε στην Ελλάδα για διακοπές. — Σε ποια πόλη θα πάτε;
+    — Θα πάμε στα Χανιά.
+  phonetic_hint: — too KHROH-noo thah tah-ksee-THEH-psoo-meh steen eh-LAH-thah yah
+    thee-ah-koh-PES. — Seh PYA POH-lee thah PAH-teh? — Thah PAH-meh stah khah-NYAH.
+  english: — Next year we will travel to Greece for vacation. — Which city will you
+    go to? — We will go to Chania.
+  notes: Review Unit 108. Future 'θα ταξιδέψουμε' (we will travel) and holiday destination
+    inquiries.
   gender_or_pos: phrase
-  audio: plyne-ta-piata-meta--ced0d1.mp3
+  audio: toy-chronoy-tha-taxi-5f0bb2.mp3
   status: verified
-  example_el: — Πλύνε τα πιάτα στην κουζίνα! — Τα πλένω αμέσως.
-  example_en: — Wash the dishes in the kitchen! — I am washing them right away.
+  example_el: — Πώς θα πάτε; — Θα πάρουμε το πλοίο από τον Πειραιά.
+  example_en: — How will you get there? — We will take the ferry from Piraeus.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Delegating and confirming kitchen dishwashing responsibilities
+  keg_communicative_function: Discussing future holiday travel plans and destinations
+    in Greece
 - id: A1-U107C-036
-  greek: — Καθάρισε το δωμάτιό σου πριν έρθουν οι καλεσμένοι! — Ναι, καθαρίζω και
-    τακτοποιώ τα ρούχα μου.
-  phonetic_hint: kah-THAH-ree-seh to tho-MAH-tee-OH soo PREEN EHR-thoon ee kah-leh-ZMEH-nee!
-    — Neh, kah-thah-REE-zo keh tak-to-py-OH tah ROO-khah moo.
-  english: — Clean your room before the guests arrive! — Yes, I am cleaning and tidying
-    my clothes.
-  notes: Review Unit 107b. Domestic imperatives 'καθάρισε' and 'τακτοποιώ' prior to
-    guest visits.
+  greek: — Τι φοράς στη γιορτή; — Φοράω το μαύρο μου κοστούμι με λευκό πουκάμισο.
+  phonetic_hint: — tee foh-RAHS stee yohr-TEE? — Foh-RAH-oh toh MAH-vroh moo koh-STOO-mee
+    meh lef-KOH poo-KAH-mee-soh.
+  english: — What are you wearing to the celebration? — I am wearing my black suit
+    with a white shirt.
+  notes: Review Unit 108. Describing formal party outfits with colors and garment
+    names.
   gender_or_pos: phrase
-  audio: katharise-to-domatio-4c8a58.mp3
+  audio: ti-foras-sti-giorti--df08b6.mp3
   status: verified
-  example_el: — Τακτοποιώ τα ρούχα μου στην ντουλάπα. — Πολύ ωραία.
-  example_en: — I am organizing my clothes in the wardrobe. — Very good.
+  example_el: — Η Μαρία τι φοράει; — Φοράει ένα όμορφο κόκκινο φόρεμα.
+  example_en: — What is Maria wearing? — She is wearing a beautiful red dress.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Directing domestic tidying and wardrobe organization
-    before visits
+  keg_communicative_function: Describing what one is wearing for a party or festive
+    occasion
 - id: A1-U107C-037
-  greek: — Βάλε τα ρούχα σου μέσα στην ντουλάπα! — Τα βάζω αμέσως στο συρτάρι.
-  phonetic_hint: VAH-leh tah ROO-khah soo MEH-sah steen noo-LAH-pah! — Tah VAH-zo
-    ah-MEH-sos sto seer-TAH-ree.
-  english: — Put your clothes inside the wardrobe! — I am putting them into the drawer
-    right away.
-  notes: Review Unit 107b. Irregular imperative 'βάλε' with internal preposition 'μέσα
-    σε'.
+  greek: — Το Σάββατο έχω τα γενέθλιά μου και κάνω πάρτι στο σπίτι. — Χρόνια πολλά!
+    Να είσαι πάντα καλά!
+  phonetic_hint: — toh SAH-vah-toh EH-khoh tah yeh-NEH-thlyah moo keh KAH-noh PAHR-tee
+    stoh SPEE-tee. — KHROH-nyah poh-LAH! Nah EE-seh PAHN-dah kah-LAH!
+  english: — On Saturday is my birthday and I am throwing a party at home. — Happy
+    birthday! May you always be well!
+  notes: 'Review Unit 108. Birthday vocabulary: ''γενέθλια'' (birthday), ''κάνω πάρτι''
+    (throw a party), and wishing ''Χρόνια πολλά!''.'
   gender_or_pos: phrase
-  audio: vale-ta-roycha-soy-m-02e689.mp3
+  audio: to-savvato-echo-ta-g-3e2ca7.mp3
   status: verified
-  example_el: — Βάλε τα παπούτσια σου στην είσοδο. — Εντάξει, τα βάζω εκεί.
-  example_en: — Put your shoes at the entrance. — Alright, I am putting them there.
+  example_el: — Χρόνια πολλά για τα γενέθλιά σου! — Σε ευχαριστώ πάρα πολύ!
+  example_en: — Happy birthday on your birthday! — Thank you very much!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Instructing housemates to store clothing in wardrobes
-    and drawers
+  keg_communicative_function: Announcing a birthday party and exchanging birthday
+    congratulations
 - id: A1-U107C-038
-  greek: — Βάλε τις παντόφλες σου, γιατί το πάτωμα είναι κρύο! — Ναι, τις φοράω αμέσως.
-  phonetic_hint: VAH-leh tees pahn-TOH-flehs soo, yah-TEE to PAH-to-mah EE-neh KREE-o!
-    — Neh, tees fo-RAH-o ah-MEH-sos.
-  english: — Put on your slippers, because the floor is cold! — Yes, I am putting
-    them on right away.
-  notes: 'Review Unit 107b. Home footwear etiquette: ''παντόφλες'' and ''πάτωμα''.'
+  greek: — Θέλεις να έρθεις μαζί με την παρέα σου στη γιορτή μας; — Με μεγάλη μου
+    χαρά να έρθω!
+  phonetic_hint: — THEH-lees nah EHR-thees mah-ZEE meh teen pah-REH-ah soo stee yohr-TEE
+    mahs? — Meh meh-GHAH-lee moo khah-RAH nah EHR-thoh!
+  english: — Do you want to come along with your group of friends to our celebration?
+    — With great pleasure I'd love to come!
+  notes: Review Unit 108. Extending party invitations to a group ('παρέα') and enthusiastic
+    acceptance.
   gender_or_pos: phrase
-  audio: vale-tis-pantofles-s-db01b4.mp3
+  audio: theleis-na-ertheis-m-00e278.mp3
   status: verified
-  example_el: — Οι παντόφλες σου είναι κάτω από το κρεβάτι. — Ευχαριστώ, τις φοράω.
-  example_en: — Your slippers are under the bed. — Thank you, I am putting them on.
+  example_el: — Θα έρθεις στο πάρτι; — Ναι, βέβαια, θα έρθω με την αδελφή μου.
+  example_en: — Will you come to the party? — Yes, of course, I will come with my
+    sister.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reminding family members to wear indoor slippers on
-    cold floors
+  keg_communicative_function: Extending and accepting party invitations warmly
 - id: A1-U107C-039
-  greek: — Μη μιλάτε τόσο δυνατά, γιατί κοιμάται το παιδί! — Συγγνώμη, κάνουμε ησυχία
-    αμέσως.
-  phonetic_hint: mee mee-LAH-teh TOH-so thee-nah-TAH, yah-TEE kee-MAH-teh to peh-THEE!
-    — seeg-NOH-mee, KAH-noo-meh ee-see-KHEE-ah ah-MEH-sos.
-  english: — Don't speak so loudly, because the child is sleeping! — Sorry, we'll
-    be quiet immediately.
-  notes: Review Unit 107b. Negative prohibition 'μη μιλάτε' and keeping quiet ('κάνουμε
-    ησυχία').
+  greek: — Τι ώρα αρχίζει το πάρτι το βράδυ; — Αρχίζει στις εννέα, θα έχουμε μουσική
+    και φαγητό.
+  phonetic_hint: — tee OH-rah ahr-KHEE-zee toh PAHR-tee toh VRAH-thee? — Ahr-KHEE-zee
+    stees eh-NEH-ah, thah EH-khoo-meh moo-see-KEE keh fah-yee-TOH.
+  english: — What time does the party start tonight? — It starts at nine, we will
+    have music and food.
+  notes: Review Unit 108. Inquiring about party start times and describing party amenities.
   gender_or_pos: phrase
-  audio: mi-milate-toso-dynat-af2572.mp3
+  audio: ti-ora-archizei-to-p-553d61.mp3
   status: verified
-  example_el: — Κοιμάται το μωρό στο δωμάτιο; — Ναι, κάνουμε ησυχία.
-  example_en: — Is the baby sleeping in the room? — Yes, we are keeping quiet.
+  example_el: — Θα έχει πολλούς καλεσμένους; — Ναι, θα έρθουν όλοι οι φίλοι μας.
+  example_en: — Will there be many guests? — Yes, all our friends will come.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Enforcing household quiet hours and requesting lower
-    speaking volume
+  keg_communicative_function: Asking party schedule times and describing party entertainment
 - id: A1-U107C-040
-  greek: — Μην ανοίγεις το παράθυρο, γιατί κάνει κρύο έξω! — Εντάξει, το κλείνω αμέσως.
-  phonetic_hint: meen ah-NEE-yees to pah-RAH-thee-ro, yah-TEE KAH-nee KREE-o EH-kso!
-    — ehn-DAHK-see, to KLEE-no ah-MEH-sos.
-  english: — Don't open the window, because it's cold outside! — Alright, I am closing
-    it immediately.
-  notes: Review Unit 107b. Prohibition with 'μην ανοίγεις' during cold weather.
+  greek: — Θέλω να αγοράσω ένα όμορφο δώρο για τον Νίκο. — Πάρε του ένα καλό βιβλίο
+    ή ένα πουκάμισο.
+  phonetic_hint: — THEH-loh nah ah-ghoh-RAH-soh EH-nah OH-mor-foh THOH-roh yah ton
+    NEE-koh. — PAH-reh too EH-nah kah-LOH vee-VLEE-oh ee EH-nah poo-KAH-mee-soh.
+  english: — I want to buy a nice gift for Nikos. — Get him a good book or a shirt.
+  notes: Review Unit 108. Gift giving ('δώρο') and making suggestions with imperative
+    'πάρε του'.
   gender_or_pos: phrase
-  audio: min-anoigeis-to-para-15eadf.mp3
+  audio: thelo-na-agoraso-ena-fc7c55.mp3
   status: verified
-  example_el: — Βρέχει έξω; — Ναι, κλείσε καλά τα παράθυρα.
-  example_en: — Is it raining outside? — Yes, close the windows tightly.
+  example_el: — Τι δώρο θα του πάρουμε; — Θα του πάρουμε μια δερμάτινη τσάντα.
+  example_en: — What gift will we get him? — We will get him a leather bag.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Prohibiting open windows during low outdoor temperatures
+  keg_communicative_function: Discussing and suggesting gifts for friends and celebrations
 - id: A1-U107C-041
-  greek: — Μη βάζεις τα βρεγμένα παπούτσια πάνω στο χαλί! — Συγγνώμη, τα βγάζω στην
-    είσοδο.
-  phonetic_hint: mee VAH-zees tah vrehg-MEH-nah pah-POO-tsyah PAH-no sto khah-LEE!
-    — seeg-NOH-mee, tah VGAH-zo steen EE-so-tho.
-  english: — Don't put wet shoes on the carpet! — Sorry, I am taking them off at the
-    entrance.
-  notes: Review Unit 107b. Domestic rule prohibiting wet footwear on rugs.
+  greek: — Θα πάρω γλυκά για το πάρτι. — Τι γλυκά θα πάρεις; — Θα πάρω σοκολάτες και
+    γλυκά.
+  phonetic_hint: — thah PAH-roh ghlee-KAH yah toh PAHR-tee. — tee ghlee-KAH thah PAH-rees?
+    — Thah PAH-roh soh-koh-LAH-tes keh ghlee-KAH.
+  english: — I will bring sweets for the party. — What sweets will you get? — I will
+    get chocolates and sweets.
+  notes: 'Review Unit 108. Party food vocabulary: ''γλυκά'' (sweets, desserts), ''σοκολάτες''
+    (chocolates).'
   gender_or_pos: phrase
-  audio: mi-vazeis-ta-vregmen-952a84.mp3
+  audio: tha-paro-glyka-gia-t-8be777.mp3
   status: verified
-  example_el: — Το χαλί είναι καινούργιο και καθαρό; — Ναι, είναι καθαρό.
-  example_en: — Is the rug new and clean? — Yes, it is clean.
+  example_el: — Έχει γλυκά στο τραπέζι; — Ναι, έχει πολλά νόστιμα γλυκά.
+  example_en: — Are there sweets on the table? — Yes, there are many delicious sweets.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Enforcing cleanliness rules regarding wet shoes on carpets
+  keg_communicative_function: Planning party refreshments and confectionery
 - id: A1-U107C-042
-  greek: — Μην πετάς τα σκουπίδια κάτω, βάλε τα στον κάδο! — Ναι, τα βάζω μέσα στον
-    κάδο.
-  phonetic_hint: meen peh-TAHS tah skoo-PEE-thyah KAH-to, VAH-leh tah ston KAH-tho!
-    — Neh, tah VAH-zo MEH-sah ston KAH-tho.
-  english: — Don't throw rubbish on the floor, put it in the bin! — Yes, I am putting
-    it inside the bin.
-  notes: Review Unit 107b. Waste disposal rule with 'μην πετάς' and 'βάλε στον κάδο'.
+  greek: — Στολίζουμε το σπίτι για τη γιορτή; — Ναι, βάζουμε πολύχρωμα φωτάκια και
+    στολίδια.
+  phonetic_hint: — stoh-LEE-zoo-meh toh SPEE-tee yah tee yohr-TEE? — Neh, VAH-zoo-meh
+    poh-LEE-khroh-mah foh-TAH-kyah keh stoh-LEE-thyah.
+  english: — Shall we decorate the house for the party? — Yes, let's put up colorful
+    lights and decorations.
+  notes: 'Review Unit 108. Decorating vocabulary: ''στολίζω'' (decorate), ''φωτάκια''
+    (lights), ''στολίδια'' (ornaments).'
   gender_or_pos: phrase
-  audio: min-petas-ta-skoypid-81738a.mp3
+  audio: stolizoyme-to-spiti--80d2ae.mp3
   status: verified
-  example_el: — Πού βάζουμε τα σκουπίδια; — Έξω στην αυλή, μέσα στον κάδο.
-  example_en: — Where do we put the garbage? — Outside in the yard, inside the bin.
+  example_el: — Ποιος στολίζει το τραπέζι; — Εμείς στολίζουμε το τραπέζι με λουλούδια.
+  example_en: — Who is decorating the table? — We are decorating the table with flowers.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Directing proper household waste disposal into rubbish
-    bins
+  keg_communicative_function: Decorating a home for celebrations and social gatherings
 - id: A1-U107C-043
-  greek: — Μη φεύγεις ακόμα, κάθισε να πιούμε έναν καφέ! — Ευχαριστώ, μένω για λίγο.
-  phonetic_hint: mee FEHV-yees ah-KOH-mah, KAH-thee-seh nah PYOOH-meh EH-nahn kah-FEH!
-    — Ef-khah-ree-STOH, MEH-no yah LEE-gho.
-  english: — Don't leave yet, sit down so we can drink a coffee! — Thank you, I will
-    stay for a while.
-  notes: Review Unit 107b. Friendly persuasion with negative imperative 'μη φεύγεις'.
+  greek: — Σας ευχαριστώ πολύ για την πρόσκληση! — Παρακαλώ, χάρηκα πολύ που είστε
+    εδώ μαζί μας!
+  phonetic_hint: — sahs ef-khah-ree-STOH poh-LEE yah teen PROHS-klee-see! — Pah-rah-kah-LOH,
+    KHAH-ree-kah poh-LEE poo EE-steh eh-THOH mah-ZEE mahs!
+  english: — Thank you very much for the invitation! — You're welcome, I'm delighted
+    you are here with us!
+  notes: Review Unit 108. Expressing gratitude for hospitality and invitations ('πρόσκληση').
   gender_or_pos: phrase
-  audio: mi-feygeis-akoma-kat-be5bd0.mp3
+  audio: sas-eycharisto-poly--a36fdd.mp3
   status: verified
-  example_el: — Έχεις χρόνο για έναν καφέ; — Ναι, έχω ελεύθερο χρόνο.
-  example_en: — Do you have time for a coffee? — Yes, I have free time.
+  example_el: — Περνάμε πολύ όμορφα στο πάρτι με πολλή μουσική! — Κι εμείς χαρήκαμε
+    πολύ!
+  example_en: — We are having a wonderful time at the party with lots of music! —
+    We are very glad too!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Persuading guests to prolong their stay and share coffee
+  keg_communicative_function: Thanking a host for an invitation and expressing hospitality
 - id: A1-U107C-044
-  greek: — Μην ανησυχείς για τα κοινόχρηστα, τα πληρώνω εγώ! — Σε ευχαριστώ πάρα πολύ.
-  phonetic_hint: meen ah-nee-see-KHEES yah tah kee-NOH-khree-stah, tah plee-ROH-no
-    eh-GHOH! — Seh ef-khah-ree-STOH PAH-rah po-LEE.
-  english: — Don't worry about the building fees, I will pay them! — Thank you very
-    much.
-  notes: Review Unit 107b. Reassuring phrase 'μην ανησυχείς' regarding shared utility
-    payments.
+  greek: — Πότε είναι η γιορτή σου; — Η ονομαστική μου γιορτή είναι τον χειμώνα.
+  phonetic_hint: — POH-teh EE-neh ee yohr-TEE soo? — Ee oh-noh-mah-stee-KEE moo yohr-TEE
+    EE-neh ton khee-MOH-nah.
+  english: — When is your celebration? — My name day is in the winter.
+  notes: Review Unit 108. Greek cultural tradition of the name day ('ονομαστική γιορτή').
   gender_or_pos: phrase
-  audio: min-anisycheis-gia-t-1f8c29.mp3
+  audio: pote-einai-i-giorti--276fa7.mp3
   status: verified
-  example_el: — Πληρώνετε τα κοινόχρηστα κάθε μήνα; — Ναι, τα πληρώνουμε μαζί.
-  example_en: — Do you pay the building fees every month? — Yes, we pay them together.
+  example_el: — Κάνεις πάρτι για τη γιορτή σου; — Ναι, καλώ όλους τους φίλους μου
+    στο σπίτι.
+  example_en: — Are you having a party for your name day? — Yes, I am inviting all
+    my friends to my home.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reassuring roommates and settling shared maintenance
-    expenses
+  keg_communicative_function: Discussing name days and annual celebrations
 - id: A1-U107C-045
-  greek: — Πώς σου φαίνεται το καινούργιο μας σπίτι; — Μου αρέσει πάρα πολύ, είναι
-    ζεστό και άνετο.
-  phonetic_hint: POS soo FEH-neh-teh to keh-NOOR-gyo mahs SPEE-tee? — Moo ah-REH-see
-    PAH-rah po-LEE, EE-neh zeh-STOH keh AH-neh-to.
-  english: — How do you like our new home? — I like it very much, it is warm and comfortable.
-  notes: Review Units 104 & 107. Asking for and offering an impression of a newly
-    occupied residence.
+  greek: — Καλά Χριστούγεννα και καλή χρονιά σε όλη την οικογένεια! — Επίσης, χρόνια
+    πολλά με υγεία και αγάπη!
+  phonetic_hint: — kah-LAH khree-STOO-yeh-nah keh kah-LEE khroh-NYAH seh OH-lee teen
+    ee-koh-YEH-nyah! — Eh-PEE-sees, KHROH-nyah poh-LAH meh ee-YEE-ah keh ah-GHAH-pee!
+  english: — Merry Christmas and Happy New Year to the whole family! — Likewise, happy
+    holidays with health and love!
+  notes: Review Unit 108. Traditional Greek Christmas and New Year wishes ('Καλά Χριστούγεννα',
+    'Καλή χρονιά').
   gender_or_pos: phrase
-  audio: pos-soy-fainetai-to--ed1550.mp3
+  audio: kala-christoygenna-k-598e7f.mp3
   status: verified
-  example_el: — Είναι όμορφο το διαμέρισμα; — Ναι, είναι ένα πολύ όμορφο σπίτι.
-  example_en: — Is the apartment beautiful? — Yes, it is a very beautiful house.
+  example_el: — Στολίζετε το χριστουγεννιάτικο δέντρο; — Ναι, το στολίζουμε με μπάλες
+    και φωτάκια.
+  example_en: — Do you decorate the Christmas tree? — Yes, we decorate it with baubles
+    and lights.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for impressions and evaluating the comfort of
-    a new residence
+  keg_communicative_function: Exchanging Christmas and New Year holiday wishes and
+    blessings
 - id: A1-U107C-046
-  greek: — Πρόσεξε τα σκαλοπάτια, γιατί είναι βρεγμένα! — Ευχαριστώ, προσέχεις κι
-    εσύ;
-  phonetic_hint: PROH-sek-seh tah skah-lo-PAH-tyah, yah-TEE EE-neh vrehg-MEH-nah!
-    — Ef-khah-ree-STOH, pro-SEH-khees kee eh-SEE?
-  english: — Watch the stairs, because they are wet! — Thank you, are you watching
-    out too?
-  notes: Review Unit 107b. Cautionary imperative 'πρόσεξε' on wet building steps.
+  greek: — Χρόνια πολλά για την ονομαστική σου γιορτή! — Σε ευχαριστώ πολύ, να είσαι
+    πάντα καλά!
+  phonetic_hint: — KHROH-nyah poh-LAH yah teen oh-noh-mah-stee-KEE soo yohr-TEE! —
+    Seh ef-khah-ree-STOH poh-LEE, nah EE-seh PAHN-dah kah-LAH!
+  english: — Happy Name Day! — Thank you very much, may you always be well!
+  notes: Review Unit 108. Congratulating someone on their name day ('Χρόνια πολλά
+    για την ονομαστική σου γιορτή').
   gender_or_pos: phrase
-  audio: prosexe-ta-skalopati-a09357.mp3
+  audio: chronia-polla-gia-ti-1be17c.mp3
   status: verified
-  example_el: — Πρόσεξε στην είσοδο! — Ναι, ευχαριστώ, πρόσεξε κι εσύ!
-  example_en: — Watch out at the entrance! — Yes, thank you, you watch out too!
+  example_el: — Να χαίρεσαι το όνομά σου! — Ευχαριστώ για τις ευχές σου!
+  example_en: — May you rejoice in your name! — Thank you for your wishes!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Warning housemates about slippery steps and physical
-    hazards
+  keg_communicative_function: Offering and replying to traditional Greek name day
+    blessings
 - id: A1-U107C-047
-  greek: — Στείλε μου τη διεύθυνση και τον όροφο του σπιτιού! — Σου στέλνω μήνυμα
-    στο κινητό σου τώρα.
-  phonetic_hint: STEE-leh moo tee thee-EH-fthin-see keh ton OH-ro-fo too spee-TYOO!
-    — Soo STEHL-no MEE-nee-mah sto kee-nee-TOH soo TOH-rah.
-  english: — Send me the address and the floor of the house! — I am sending you a
-    text on your mobile now.
-  notes: Review Units 103 & 107. Imperative 'στείλε' to exchange address and floor
-    details.
+  greek: — Καλό Πάσχα και καλή Ανάσταση με υγεία! — Επίσης, καλό Πάσχα σε σας και
+    στην οικογένειά σας!
+  phonetic_hint: — kah-LOH PAH-skhah keh kah-LEE ah-NAH-stah-see meh ee-YEE-ah! —
+    Eh-PEE-sees, kah-LOH PAH-skhah seh sahs keh steen ee-koh-YEH-nyah sahs!
+  english: — Happy Easter and joyful Resurrection with good health! — Likewise, Happy
+    Easter to you and your family!
+  notes: 'Review Unit 108. Traditional Easter holiday greetings: ''Καλό Πάσχα και
+    καλή Ανάσταση''.'
   gender_or_pos: phrase
-  audio: steile-moy-ti-dieyth-efc107.mp3
+  audio: kalo-pascha-kai-kali-c4816d.mp3
   status: verified
-  example_el: — Ποια είναι η διεύθυνσή σας; — Οδός Ερμού δέκα, στον δεύτερο όροφο.
-  example_en: — What is your address? — Ten Ermou Street, on the second floor.
+  example_el: — Πού θα κάνετε Πάσχα φέτος; — Θα πάμε στο χωριό με τους γονείς μας.
+  example_en: — Where will you spend Easter this year? — We will go to the village
+    with our parents.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting and sending residence address details via
-    mobile message
+  keg_communicative_function: Exchanging traditional Easter greetings and resurrection
+    wishes
 - id: A1-U107C-048
-  greek: — Ποιο δωμάτιο σου αρέσει πιο πολύ; — Το σαλόνι, επειδή έχει μεγάλο μπαλκόνι
-    και ήλιο.
-  phonetic_hint: PYO tho-MAH-tee-o soo ah-REH-see PYO po-LEE? — To sah-LOH-nee, eh-pee-THEE
-    EH-khee meh-GHAH-lo mpal-KOH-nee keh EE-lyo.
-  english: — Which room do you like the most? — The living room, because it has a
-    large balcony and sunlight.
-  notes: Review Units 105 & 107. Stating room preferences with comparative 'πιο πολύ'.
+  greek: — Και του χρόνου με υγεία, να είμαστε πάντα όλοι καλά! — Και του χρόνου,
+    να είμαστε πάντα μαζί!
+  phonetic_hint: — keh too KHROH-noo meh ee-YEE-ah, nah EE-mah-steh PAHN-dah OH-lee
+    kah-LAH! — Keh too KHROH-noo, nah EE-mah-steh PAHN-dah mah-ZEE!
+  english: — And to next year in good health, may we all always be well! — And to
+    next year, may we always be together!
+  notes: 'Review Unit 108. Traditional recurring holiday toast and wish: ''Και του
+    χρόνου!''.'
   gender_or_pos: phrase
-  audio: poio-domatio-soy-are-6dffed.mp3
+  audio: kai-toy-chronoy-me-y-124c04.mp3
   status: verified
-  example_el: — Πού πίνετε τον καφέ σας το πρωί; — Στο μπαλκόνι, κάθε πρωί.
-  example_en: — Where do you drink your coffee in the morning? — On the balcony, every
-    morning.
+  example_el: — Καλή χρονιά σε όλους! — Χρόνια πολλά με υγεία!
+  example_en: — Happy New Year to everyone! — Many happy returns with health!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Explaining preferred rooms in a home and describing
-    sunny spaces
+  keg_communicative_function: Making traditional annual wishes ('και του χρόνου')
+    at family gatherings
 - id: A1-U107C-049
-  greek: — Τα παιδιά παίζουν έξω στην αυλή με τον σκύλο; — Ναι, παίζουν έξω στον κήπο.
-  phonetic_hint: tah peh-THYAH PEH-zoon EH-kso steen ahv-LEE meh ton SKEE-lo? — Neh,
-    PEH-zoon EH-kso ston KEE-po.
-  english: — Are the children playing outside in the yard with the dog? — Yes, they
-    are playing outside in the garden.
-  notes: Review Unit 107. Describing outdoor play in courtyards ('αυλή') and gardens
-    ('κήπος').
+  greek: — Πού θα πάτε για τις διακοπές των Χριστουγέννων; — Θα πάμε στο βουνό για
+    το χιόνι.
+  phonetic_hint: — POU thah PAH-teh yah tees thee-ah-koh-PES ton khree-stoo-YEH-non?
+    — Thah PAH-meh stoh voo-NOH yah toh KHYOH-nee.
+  english: — Where will you go for the Christmas holidays? — We will go to the mountain
+    for the snow.
+  notes: Review Unit 108. Discussing winter holiday trips with 'διακοπές των Χριστουγέννων'
+    and 'χιόνι'.
   gender_or_pos: phrase
-  audio: ta-paidia-paizoyn-ex-98eae7.mp3
+  audio: poy-tha-pate-gia-tis-206224.mp3
   status: verified
-  example_el: — Έχει μεγάλο κήπο η μονοκατοικία; — Ναι, έχει έναν όμορφο κήπο πίσω
-    από το σπίτι.
-  example_en: — Does the detached house have a large garden? — Yes, it has a beautiful
-    garden behind the house.
+  example_el: — Έχει χιόνι στο βουνό; — Ναι, χιονίζει συνέχεια και είναι πολύ όμορφα.
+  example_en: — Is there snow on the mountain? — Yes, it is snowing constantly and
+    it is very beautiful.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing outdoor family activities in yards and gardens
+  keg_communicative_function: Discussing Christmas holiday destinations and seasonal
+    mountain trips
 - id: A1-U107C-050
-  greek: — Σπίτι μου, σπιτάκι μου και σπιτοκαλυβάκι μου! — Ναι, είναι το πιο όμορφο
-    σπίτι!
-  phonetic_hint: SPEE-tee moo, spee-TAH-kee moo keh spee-to-kah-lee-VAH-kee moo! —
-    Neh, EE-neh to PYO OH-mor-fo SPEE-tee!
-  english: — Home sweet home, my little house and little haven! — Yes, it is the most
-    beautiful home!
-  notes: Review Unit 107b. Traditional Greek cultural proverb celebrating the joy
-    and comfort of one's home.
+  greek: — Σας ευχαριστώ πολύ για όλα! — Παρακαλώ, χάρηκα πολύ, καλή συνέχεια και
+    καλές γιορτές!
+  phonetic_hint: — sahs ef-khah-ree-STOH poh-LEE yah OH-lah! — Pah-rah-kah-LOH, KHAH-ree-kah
+    poh-LEE, kah-LEE soo-NEH-khee-ah keh kah-LES yohr-TES!
+  english: — Thank you very much for everything! — You're welcome, it was a pleasure,
+    have a great time and happy holidays!
+  notes: 'Review Unit 108. Comprehensive parting wishes: ''καλή συνέχεια'' (all the
+    best / have a good continuation) and ''καλές γιορτές'' (happy holidays).'
   gender_or_pos: phrase
-  audio: spiti-moy-spitaki-mo-23dbe5.mp3
+  audio: sas-eycharisto-poly--fe4f0d.mp3
   status: verified
-  example_el: — Χάρηκα πολύ για το νέο μας σπίτι! — Καλωσόρισες στο σπίτι μας!
-  example_en: — I am very glad about our new house! — Welcome to our home!
+  example_el: — Καλές γιορτές σε όλους! — Ευχαριστούμε, καλές γιορτές και καλό ταξίδι!
+  example_en: — Happy holidays to everyone! — Thank you, happy holidays and safe travels!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reciting cultural home proverbs and expressing contentment
-    in one's abode
+  keg_communicative_function: Offering parting greetings and general holiday wishes
+    at festive occasions

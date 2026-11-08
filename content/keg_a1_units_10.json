@@ -1,0 +1,710 @@
+[
+  {
+    "id": "A1-U10-001",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "ο δρόμος",
+    "back_primary": "street / road",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι δρόμοι",
+      "accusative_singular": "τον δρόμο"
+    },
+    "keg_communicative_function": "Describing streets and asking for location",
+    "example_el": "Αυτός ο δρόμος έχει πολλή κίνηση.",
+    "example_en": "This street has a lot of traffic.",
+    "notes_or_mnemonics": "Masculine noun in -ος with plural in -οι (οι δρόμοι)."
+  },
+  {
+    "id": "A1-U10-002",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η οδός",
+    "back_primary": "street (in addresses)",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι οδοί",
+      "accusative_singular": "την οδό"
+    },
+    "keg_communicative_function": "Reading and giving formal street addresses",
+    "example_el": "Το ξενοδοχείο είναι στην οδό Ερμού αριθμός 15.",
+    "example_en": "The hotel is at 15 Ermou Street.",
+    "notes_or_mnemonics": "Feminine noun in -ος (archaic feminine declension). Always used on street sign plaques."
+  },
+  {
+    "id": "A1-U10-003",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η πλατεία",
+    "back_primary": "square / town square / plaza",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι πλατείες",
+      "accusative_singular": "την πλατεία"
+    },
+    "keg_communicative_function": "Identifying public central locations and meeting points",
+    "example_el": "Συναντιόμαστε συχνά στην πλατεία Συντάγματος.",
+    "example_en": "We often meet at Syntagma Square.",
+    "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι πλατείες)."
+  },
+  {
+    "id": "A1-U10-004",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η γωνία",
+    "back_primary": "corner",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι γωνίες",
+      "accusative_singular": "τη γωνία"
+    },
+    "keg_communicative_function": "Giving precise directional instructions",
+    "example_el": "Το περίπτερο είναι ακριβώς στη γωνία.",
+    "example_en": "The kiosk is right on the corner.",
+    "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι γωνίες)."
+  },
+  {
+    "id": "A1-U10-005",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το φανάρι",
+    "back_primary": "traffic light",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα φανάρια",
+      "accusative_singular": "το φανάρι"
+    },
+    "keg_communicative_function": "Referencing landmarks for navigation",
+    "example_el": "Στο πρώτο φανάρι στρίβετε δεξιά.",
+    "example_en": "At the first traffic light, turn right.",
+    "notes_or_mnemonics": "Neuter in -ι with plural in -ια (τα φανάρια). Literally: lantern / lamp."
+  },
+  {
+    "id": "A1-U10-006",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το πεζοδρόμιο",
+    "back_primary": "sidewalk / pavement",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πεζοδρόμια",
+      "accusative_singular": "το πεζοδρόμιο"
+    },
+    "keg_communicative_function": "Pedestrian navigation and safety",
+    "example_el": "Περπατάμε πάντα στο πεζοδρόμιο.",
+    "example_en": "We always walk on the sidewalk.",
+    "notes_or_mnemonics": "Neuter compound: πεζός (pedestrian) + δρόμος (road)."
+  },
+  {
+    "id": "A1-U10-007",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η διάβαση",
+    "back_primary": "crosswalk / pedestrian crossing",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι διαβάσεις",
+      "accusative_singular": "τη διάβαση"
+    },
+    "keg_communicative_function": "Pedestrian safety and following directions",
+    "example_el": "Περνάμε τον δρόμο από τη διάβαση.",
+    "example_en": "We cross the street at the pedestrian crossing.",
+    "notes_or_mnemonics": "Feminine noun in -ση with plural in -σεις (οι διαβάσεις)."
+  },
+  {
+    "id": "A1-U10-008",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το κέντρο",
+    "back_primary": "city center / downtown / center",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα κέντρα",
+      "accusative_singular": "το κέντρο"
+    },
+    "keg_communicative_function": "Stating destination and general area in the city",
+    "example_el": "Το διαμέρισμά μου είναι κοντά στο κέντρο της πόλης.",
+    "example_en": "My apartment is near the city center.",
+    "notes_or_mnemonics": "Neuter noun in -ο with plural in -α (τα κέντρα)."
+  },
+  {
+    "id": "A1-U10-009",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η τράπεζα",
+    "back_primary": "bank",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι τράπεζες",
+      "accusative_singular": "την τράπεζα"
+    },
+    "keg_communicative_function": "Locating banking services and financial transactions",
+    "example_el": "Η τράπεζα ανοίγει στις οκτώ το πρωί.",
+    "example_en": "The bank opens at eight in the morning.",
+    "notes_or_mnemonics": "Feminine noun in -α with plural in -ες (οι τράπεζες)."
+  },
+  {
+    "id": "A1-U10-010",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το ταχυδρομείο",
+    "back_primary": "post office",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ταχυδρομεία",
+      "accusative_singular": "το ταχυδρομείο"
+    },
+    "keg_communicative_function": "Asking for postal services and mailing letters",
+    "example_el": "Πού είναι το κεντρικό ταχυδρομείο, παρακαλώ;",
+    "example_en": "Where is the central post office, please?",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα ταχυδρομεία)."
+  },
+  {
+    "id": "A1-U10-011",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το φαρμακείο",
+    "back_primary": "pharmacy / chemist's",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα φαρμακεία",
+      "accusative_singular": "το φαρμακείο"
+    },
+    "keg_communicative_function": "Locating pharmacies and health facilities",
+    "example_el": "Υπάρχει ένα διανυκτερεύον φαρμακείο εδώ κοντά;",
+    "example_en": "Is there an on-duty pharmacy nearby?",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα φαρμακεία). Marked by a green cross in Greece."
+  },
+  {
+    "id": "A1-U10-012",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το νοσοκομείο",
+    "back_primary": "hospital",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα νοσοκομεία",
+      "accusative_singular": "το νοσοκομείο"
+    },
+    "keg_communicative_function": "Locating medical emergency care in town",
+    "example_el": "Το γενικό νοσοκομείο είναι έξω από την πόλη.",
+    "example_en": "The general hospital is outside the city.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα νοσοκομεία)."
+  },
+  {
+    "id": "A1-U10-013",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το μουσείο",
+    "back_primary": "museum",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μουσεία",
+      "accusative_singular": "το μουσείο"
+    },
+    "keg_communicative_function": "Locating cultural landmarks and tourist sights",
+    "example_el": "Το Αρχαιολογικό Μουσείο είναι κλειστό τη Δευτέρα.",
+    "example_en": "The Archaeological Museum is closed on Monday.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα μουσεία)."
+  },
+  {
+    "id": "A1-U10-014",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το ξενοδοχείο",
+    "back_primary": "hotel",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ξενοδοχεία",
+      "accusative_singular": "το ξενοδοχείο"
+    },
+    "keg_communicative_function": "Finding accommodation and lodging in the city",
+    "example_el": "Μένουμε σε ένα όμορφο ξενοδοχείο κοντά στην παραλία.",
+    "example_en": "We are staying at a beautiful hotel near the beach.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα ξενοδοχεία)."
+  },
+  {
+    "id": "A1-U10-015",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το περίπτερο",
+    "back_primary": "kiosk",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα περίπτερα",
+      "accusative_singular": "το περίπτερο"
+    },
+    "keg_communicative_function": "Buying daily necessities, tickets, or bottles of water in town",
+    "example_el": "Αγοράζω εισιτήρια και νερό από το περίπτερο.",
+    "example_en": "I buy tickets and water from the kiosk.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα περίπτερα). Greek cultural staple found on nearly every corner."
+  },
+  {
+    "id": "A1-U10-016",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το αστυνομικό τμήμα",
+    "back_primary": "police station",
+    "grammatical_info": {
+      "part_of_speech": "phrase (noun expression)",
+      "plural": "τα αστυνομικά τμήματα",
+      "accusative_singular": "το αστυνομικό τμήμα"
+    },
+    "keg_communicative_function": "Seeking emergency assistance and reporting lost items",
+    "example_el": "Το αστυνομικό τμήμα είναι απέναντι από την τράπεζα.",
+    "example_en": "The police station is across from the bank.",
+    "notes_or_mnemonics": "Noun phrase: adjective αστυνομικός + τμήμα (department/station)."
+  },
+  {
+    "id": "A1-U10-017",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το μετρό",
+    "back_primary": "metro / subway / underground",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα μετρό",
+      "accusative_singular": "το μετρό"
+    },
+    "keg_communicative_function": "Using underground rapid transit",
+    "example_el": "Πηγαίνω στη δουλειά με το μετρό κάθε πρωί.",
+    "example_en": "I go to work by metro every morning.",
+    "notes_or_mnemonics": "Indeclinable neuter loanword (το μετρό). Means of transport: με + Definite Accusative."
+  },
+  {
+    "id": "A1-U10-018",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το λεωφορείο",
+    "back_primary": "bus",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα λεωφορεία",
+      "accusative_singular": "το λεωφορείο"
+    },
+    "keg_communicative_function": "Taking public bus transit",
+    "example_el": "Το λεωφορείο περνάει κάθε είκοσι λεπτά.",
+    "example_en": "The bus passes every twenty minutes.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα λεωφορεία)."
+  },
+  {
+    "id": "A1-U10-019",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το τρένο",
+    "back_primary": "train",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα τρένα",
+      "accusative_singular": "το τρένο"
+    },
+    "keg_communicative_function": "Intercity and regional railway travel",
+    "example_el": "Το τρένο για τη Θεσσαλονίκη φεύγει στις δέκα.",
+    "example_en": "The train for Thessaloniki leaves at ten.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα τρένα). Also spelled τραίνο."
+  },
+  {
+    "id": "A1-U10-020",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το τραμ",
+    "back_primary": "tram / streetcar",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα τραμ",
+      "accusative_singular": "το τραμ"
+    },
+    "keg_communicative_function": "Using coastal and city tramways",
+    "example_el": "Παίρνουμε το τραμ για να πάμε στην παραλία.",
+    "example_en": "We take the tram to go to the beach.",
+    "notes_or_mnemonics": "Indeclinable neuter loanword (το τραμ)."
+  },
+  {
+    "id": "A1-U10-021",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το ταξί",
+    "back_primary": "taxi / cab",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα ταξί",
+      "accusative_singular": "το ταξί"
+    },
+    "keg_communicative_function": "Hailing and using taxi services",
+    "example_el": "Παίρνω ένα ταξί γιατί βιάζομαι πολύ.",
+    "example_en": "I take a taxi because I am in a big hurry.",
+    "notes_or_mnemonics": "Indeclinable neuter noun (το ταξί / τα ταξί)."
+  },
+  {
+    "id": "A1-U10-022",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το πλοίο",
+    "back_primary": "ship / boat / ferry",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα πλοία",
+      "accusative_singular": "το πλοίο"
+    },
+    "keg_communicative_function": "Island and maritime ferry transport",
+    "example_el": "Το πλοίο για την Κρήτη φεύγει από το λιμάνι του Πειραιά.",
+    "example_en": "The ferry for Crete departs from the port of Piraeus.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα πλοία)."
+  },
+  {
+    "id": "A1-U10-023",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το αεροπλάνο",
+    "back_primary": "airplane / plane",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα αεροπλάνα",
+      "accusative_singular": "το αεροπλάνο"
+    },
+    "keg_communicative_function": "Air travel and airport itineraries",
+    "example_el": "Ταξιδεύουμε με το αεροπλάνο στις έντεκα το βράδυ.",
+    "example_en": "We travel by plane at eleven tonight.",
+    "notes_or_mnemonics": "Neuter in -ο with plural in -α (τα αεροπλάνα)."
+  },
+  {
+    "id": "A1-U10-024",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "ο σταθμός",
+    "back_primary": "station (metro / railway / central station)",
+    "grammatical_info": {
+      "part_of_speech": "noun (masculine)",
+      "plural": "οι σταθμοί",
+      "accusative_singular": "τον σταθμό"
+    },
+    "keg_communicative_function": "Finding train stations or metro hubs",
+    "example_el": "Ο σταθμός του μετρό είναι πολύ κοντά εδώ.",
+    "example_en": "The metro station is very close to here.",
+    "notes_or_mnemonics": "Masculine in -ος with plural in -οι (οι σταθμοί). Oxytone."
+  },
+  {
+    "id": "A1-U10-025",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η στάση",
+    "back_primary": "stop (bus / tram stop)",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι στάσεις",
+      "accusative_singular": "τη στάση"
+    },
+    "keg_communicative_function": "Inquiring about and waiting at bus or tram stops",
+    "example_el": "Περιμένω στη στάση του λεωφορείου.",
+    "example_en": "I am waiting at the bus stop.",
+    "notes_or_mnemonics": "Feminine in -ση with plural in -σεις (οι στάσεις)."
+  },
+  {
+    "id": "A1-U10-026",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το εισιτήριο",
+    "back_primary": "ticket (transit / museum)",
+    "grammatical_info": {
+      "part_of_speech": "noun (neuter)",
+      "plural": "τα εισιτήρια",
+      "accusative_singular": "το εισιτήριο"
+    },
+    "keg_communicative_function": "Purchasing transportation tickets",
+    "example_el": "Ένα εισιτήριο για το μετρό, παρακαλώ.",
+    "example_en": "One metro ticket, please.",
+    "notes_or_mnemonics": "Proparoxytone neuter in -ιο with plural in -ια (τα εισιτήρια)."
+  },
+  {
+    "id": "A1-U10-027",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το απλό εισιτήριο",
+    "back_primary": "single ticket / one-way ticket",
+    "grammatical_info": {
+      "part_of_speech": "phrase (noun expression)",
+      "plural": "τα απλά εισιτήρια",
+      "accusative_singular": "το απλό εισιτήριο"
+    },
+    "keg_communicative_function": "Specifying single-trip ticket purchases at ticket windows or vending machines",
+    "example_el": "Θέλω ένα απλό εισιτήριο για το λεωφορείο.",
+    "example_en": "I want a single ticket for the bus.",
+    "notes_or_mnemonics": "Adjective απλός, -ή, -ό + εισιτήριο."
+  },
+  {
+    "id": "A1-U10-028",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "το εισιτήριο μετ' επιστροφής",
+    "back_primary": "round-trip ticket / return ticket",
+    "grammatical_info": {
+      "part_of_speech": "phrase (noun expression)",
+      "plural": "τα εισιτήρια μετ' επιστροφής",
+      "accusative_singular": "το εισιτήριο μετ' επιστροφής"
+    },
+    "keg_communicative_function": "Booking return transportation tickets",
+    "example_el": "Παίρνω ένα εισιτήριο μετ' επιστροφής για την Πάτρα.",
+    "example_en": "I take a return ticket for Patras.",
+    "notes_or_mnemonics": "Fixed phrase: μετ' επιστροφής (with return, elision of μετά before vowel)."
+  },
+  {
+    "id": "A1-U10-029",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η γραμμή",
+    "back_primary": "line (metro / bus line)",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι γραμμές",
+      "accusative_singular": "τη γραμμή"
+    },
+    "keg_communicative_function": "Navigating subway networks and transit routes",
+    "example_el": "Παίρνουμε την κόκκινη γραμμή για την Ακρόπολη.",
+    "example_en": "We take the red line for the Acropolis.",
+    "notes_or_mnemonics": "Feminine oxytone in -ή with plural in -ές (οι γραμμές)."
+  },
+  {
+    "id": "A1-U10-030",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "η αποβάθρα",
+    "back_primary": "platform (rail / metro)",
+    "grammatical_info": {
+      "part_of_speech": "noun (feminine)",
+      "plural": "οι αποβάθρες",
+      "accusative_singular": "την αποβάθρα"
+    },
+    "keg_communicative_function": "Finding the correct platform in railway or metro stations",
+    "example_el": "Το τρένο μας φτάνει στην αποβάθρα δύο.",
+    "example_en": "Our train arrives at platform two.",
+    "notes_or_mnemonics": "Feminine in -α with plural in -ες (οι αποβάθρες)."
+  },
+  {
+    "id": "A1-U10-031",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "ευθεία",
+    "back_primary": "straight ahead / straight",
+    "grammatical_info": {
+      "part_of_speech": "adverb"
+    },
+    "keg_communicative_function": "Giving and following straightforward directional guidance",
+    "example_el": "Πηγαίνετε όλο ευθεία για διακόσια μέτρα.",
+    "example_en": "Go straight ahead for two hundred meters.",
+    "notes_or_mnemonics": "Adverb of direction. Common pairing: 'όλο ευθεία' (straight on)."
+  },
+  {
+    "id": "A1-U10-032",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "δεξιά",
+    "back_primary": "on the right / to the right",
+    "grammatical_info": {
+      "part_of_speech": "adverb"
+    },
+    "keg_communicative_function": "Giving and following rightward turns and positions",
+    "example_el": "Στρίβετε δεξιά στο φανάρι.",
+    "example_en": "You turn right at the traffic light.",
+    "notes_or_mnemonics": "Adverb of place/direction. Opposed to αριστερά."
+  },
+  {
+    "id": "A1-U10-033",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "αριστερά",
+    "back_primary": "on the left / to the left",
+    "grammatical_info": {
+      "part_of_speech": "adverb"
+    },
+    "keg_communicative_function": "Giving and following leftward turns and positions",
+    "example_el": "Η τράπεζα είναι αριστερά σας.",
+    "example_en": "The bank is on your left.",
+    "notes_or_mnemonics": "Adverb of place/direction. Opposed to δεξιά."
+  },
+  {
+    "id": "A1-U10-034",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "κοντά σε",
+    "back_primary": "near / close to",
+    "grammatical_info": {
+      "part_of_speech": "prepositional phrase",
+      "governs": "Accusative with contracted article (στο, στη, στον)"
+    },
+    "keg_communicative_function": "Expressing proximity in urban geography",
+    "example_el": "Το ξενοδοχείο είναι πολύ κοντά στον σταθμό.",
+    "example_en": "The hotel is very close to the station.",
+    "notes_or_mnemonics": "Prepositional compound governing 'σε + Accusative'."
+  },
+  {
+    "id": "A1-U10-035",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "μακριά από",
+    "back_primary": "far from / distant from",
+    "grammatical_info": {
+      "part_of_speech": "prepositional phrase",
+      "governs": "Accusative with contracted article (από το, από τη, από τον)"
+    },
+    "keg_communicative_function": "Expressing long distance from reference points",
+    "example_el": "Το αεροδρόμιο είναι μακριά από το κέντρο της Αθήνας.",
+    "example_en": "The airport is far from downtown Athens.",
+    "notes_or_mnemonics": "Prepositional compound governing 'από + Accusative'."
+  },
+  {
+    "id": "A1-U10-036",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "απέναντι από",
+    "back_primary": "across from / opposite to",
+    "grammatical_info": {
+      "part_of_speech": "prepositional phrase",
+      "governs": "Accusative with article (από το, από την, από τον)"
+    },
+    "keg_communicative_function": "Indicating facing locations across streets or plazas",
+    "example_el": "Το φαρμακείο είναι ακριβώς απέναντι από την εκκλησία.",
+    "example_en": "The pharmacy is right across from the church.",
+    "notes_or_mnemonics": "Prepositional compound governing 'από + Accusative'."
+  },
+  {
+    "id": "A1-U10-037",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "vocabulary",
+    "front": "με τα πόδια",
+    "back_primary": "on foot / by walking",
+    "grammatical_info": {
+      "part_of_speech": "phrase (adverbial expression)"
+    },
+    "keg_communicative_function": "Describing walking as a mode of urban transit",
+    "example_el": "Πηγαίνω στο πανεπιστήμιο με τα πόδια.",
+    "example_en": "I go to the university on foot.",
+    "notes_or_mnemonics": "Fixed idiom: preposition με + plural neuter article τα + πόδια (feet)."
+  },
+  {
+    "id": "A1-U10-038",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "verb",
+    "front": "στρίβω",
+    "back_primary": "to turn / I turn",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό στρίβει",
+      "first_person_plural": "εμείς στρίβουμε"
+    },
+    "keg_communicative_function": "Instructing someone to change direction while driving or walking",
+    "example_el": "Στρίβετε αριστερά στο πρώτο στενό.",
+    "example_en": "You turn left at the first alley/side street.",
+    "notes_or_mnemonics": "Type A regular verb: στρίβω, στρίβεις, στρίβει, στρίβουμε, στρίβετε, στρίβουν."
+  },
+  {
+    "id": "A1-U10-039",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "verb",
+    "front": "περνάω / περνώ",
+    "back_primary": "to cross (a street) / to pass by / I cross",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "B1",
+      "third_person_singular": "αυτός / αυτή / αυτό περνάει (περνά)",
+      "first_person_plural": "εμείς περνάμε"
+    },
+    "keg_communicative_function": "Crossing avenues and navigating traffic intersections",
+    "example_el": "Περνάμε τον δρόμο με πράσινο φανάρι.",
+    "example_en": "We cross the street on a green light.",
+    "notes_or_mnemonics": "Type B1 active verb: περνάω, περνάς, περνάει, περνάμε, περνάτε, περνάνε."
+  },
+  {
+    "id": "A1-U10-040",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "verb",
+    "front": "κατεβαίνω",
+    "back_primary": "to get off (bus/train) / to descend / I get off",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό κατεβαίνει",
+      "first_person_plural": "εμείς κατεβαίνουμε"
+    },
+    "keg_communicative_function": "Alighting from transit vehicles at the right stop",
+    "example_el": "Κατεβαίνουμε στην επόμενη στάση.",
+    "example_en": "We get off at the next stop.",
+    "notes_or_mnemonics": "Type A verb: κατεβαίνω, κατεβαίνεις, κατεβαίνει, κατεβαίνουμε, κατεβαίνετε, κατεβαίνουν."
+  },
+  {
+    "id": "A1-U10-041",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "verb",
+    "front": "ανεβαίνω",
+    "back_primary": "to get on (bus/train) / to board / to ascend / I get on",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό ανεβαίνει",
+      "first_person_plural": "εμείς ανεβαίνουμε"
+    },
+    "keg_communicative_function": "Boarding transit vehicles",
+    "example_el": "Ανεβαίνω στο λεωφορείο από την μπροστινή πόρτα.",
+    "example_en": "I get on the bus through the front door.",
+    "notes_or_mnemonics": "Type A verb: ανεβαίνω, ανεβαίνεις, ανεβαίνει, ανεβαίνουμε, ανεβαίνετε, ανεβαίνουν."
+  },
+  {
+    "id": "A1-U10-042",
+    "unit_number": 10,
+    "unit_theme": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+    "card_type": "verb",
+    "front": "ψάχνω",
+    "back_primary": "to look for / to search for / I look for",
+    "grammatical_info": {
+      "part_of_speech": "verb",
+      "verb_type": "A",
+      "third_person_singular": "αυτός / αυτή / αυτό ψάχνει",
+      "first_person_plural": "εμείς ψάχνουμε"
+    },
+    "keg_communicative_function": "Asking passersby for help finding places or addresses",
+    "example_el": "Συγγνώμη, ψάχνω τον σταθμό των τρένων.",
+    "example_en": "Excuse me, I am looking for the train station.",
+    "notes_or_mnemonics": "Type A active verb governing direct object in Accusative (ψάχνω + Accusative)."
+  }
+]

@@ -1,988 +1,992 @@
 unit_id: unit-107
 lesson_id: lesson-01
-title: 'Ενότητα 6: Σπίτι μου, σπιτάκι μου — Βασικό Λεξιλόγιο (Pages 133-150)'
-description: 'CEFR A1: Housing and property types, rooms and structural components,
-  furniture and appliances, real estate terminology, and housekeeping verbs from Klik
-  A1 (Pages 133-150).'
+title: 'Ενότητα 7: Γιορτές! Ώρα για ψώνια — Βασικό Λεξιλόγιο (Pages 151-174)'
+description: 'CEFR A1: Holidays and festive celebrations (Christmas, New Year, Easter,
+  birthdays, name days), clothing items, footwear, accessories, department store retail
+  vocabulary, and shopping verbs from Klik A1 (Pages 151-174).'
 lesson_status: not_started
-lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 6: Σπίτι μου, σπιτάκι μου (Σελίδες 133-150):\n\
-  • Τύποι Κατοικίας & Κτίρια (Housing & Property Types):\n  - το σπίτι, το διαμέρισμα,\
-  \ η πολυκατοικία, η μονοκατοικία, το κτίριο.\n• Χώροι & Δωμάτια του Σπιτιού (Rooms\
-  \ & Spaces):\n  - το δωμάτιο, το υπνοδωμάτιο, το σαλόνι, το καθιστικό, η κουζίνα,\
-  \ το μπάνιο.\n  - ο διάδρομος, το χολ, το μπαλκόνι, η αυλή, ο κήπος, το πάρκινγκ.\n\
-  • Δομικά Στοιχεία & Υποδομές (Building Components):\n  - ο όροφος, το ισόγειο, η\
-  \ είσοδος, το ασανσέρ, η σκάλα, η πόρτα, το παράθυρο.\n  - ο τοίχος, το πάτωμα,\
-  \ το ταβάνι, το τζάκι.\n• Έπιπλα & Οικιακός Εξοπλισμός (Furniture & Furnishings):\n\
-  \  - το έπιπλο, ο καναπές, η πολυθρόνα, το τραπέζι, το τραπεζάκι, η καρέκλα.\n \
-  \ - το γραφείο, η βιβλιοθήκη, το κρεβάτι, το κομοδίνο, η ντουλάπα, το συρτάρι.\n\
-  • Ηλεκτρικές Συσκευές & Εγκαταστάσεις (Appliances & Utilities):\n  - το ψυγείο,\
-  \ η ηλεκτρική κουζίνα, το πλυντήριο ρούχων, ο νιπτήρας, η μπανιέρα, η βρύση.\n \
-  \ - το καλοριφέρ, το κλιματιστικό, ο θερμοσίφωνας, η τηλεόραση, το φωτιστικό, το\
-  \ χαλί, η κουρτίνα, ο καθρέφτης.\n• Ενοικίαση & Γειτονιά (Real Estate & Neighborhood):\n\
-  \  - το ενοίκιο, τα κοινόχρηστα, η αγγελία, η γειτονιά, ο γείτονας.\n• Επίθετα &\
-  \ Ρήματα Κατοικίας (Adjectives & Housekeeping Verbs):\n  - φωτεινός, ήσυχος, καθαρίζω,\
-  \ τακτοποιώ, ανάβω."
+lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 7: Γιορτές! Ώρα για ψώνια (Σελίδες 151-174):\n\
+  • Γιορτές & Εκδηλώσεις (Holidays & Celebrations):\n  - η γιορτή, τα Χριστούγεννα,\
+  \ η Πρωτοχρονιά, το Πάσχα, τα γενέθλια, η ονομαστική γιορτή.\n  - το πάρτι, η πρόσκληση,\
+  \ το δώρο, το στολίδι, το χριστουγεννιάτικο δέντρο, τα φωτάκια.\n• Ρούχα & Ενδύματα\
+  \ (Clothes & Garments):\n  - τα ψώνια, το ρούχο, το φόρεμα, η φούστα, το παντελόνι,\
+  \ το τζιν, το πουκάμισο.\n  - το μπλουζάκι, η μπλούζα, το κοστούμι, το σακάκι, το\
+  \ παλτό, το μπουφάν, η ζακέτα.\n  - το πουλόβερ, η φόρμα, οι πιτζάμες, το μαγιό.\n\
+  • Υποδήματα & Αξεσουάρ (Footwear & Accessories):\n  - το παπούτσι, το ζευγάρι, οι\
+  \ μπότες, τα πέδιλα, οι σαγιονάρες, οι κάλτσες, το καλσόν.\n  - το καπέλο, ο σκούφος,\
+  \ τα γάντια, το κασκόλ, η γραβάτα, η ζώνη, η τσάντα, η ομπρέλα.\n• Στο Κατάστημα\
+  \ & Αγορές (Department Store & Retail):\n  - το πολυκατάστημα, το μαγαζί, η βιτρίνα,\
+  \ το ταμείο, το δοκιμαστήριο.\n  - η έκπτωση, η απόδειξη, το νούμερο, το μέγεθος,\
+  \ τα μετρητά, η κάρτα.\n• Ρήματα & Αντωνυμίες (Core Verbs & Demonstratives):\n \
+  \ - ψωνίζω, δοκιμάζω, ταιριάζω, φοράω, στολίζω, γιορτάζω, καλώ.\n  - εκείνος, εκείνη,\
+  \ εκείνο."
 entries:
 - id: A1-U107-001
-  greek: το σπίτι
-  phonetic_hint: to SPEE-tee
-  english: house / home
-  notes: Klik A1 p. 133. Neuter noun in -ι with plural in -ια. Core thematic noun
-    of Unit 6.
-  gender_or_pos: noun (neuter)
-  audio: to-spiti-b7d111.mp3
+  greek: η γιορτή
+  phonetic_hint: ee yor-TEE
+  english: holiday / celebration / feast day
+  notes: Klik A1 p. 155, 157. Feminine noun in -ή with plural in -ές. Core thematic
+    word of Unit 7.
+  gender_or_pos: noun (feminine)
+  audio: i-giorti-3385ed.mp3
   status: verified
-  example_el: Το σπίτι μας έχει τέσσερα δωμάτια και μεγάλο κήπο.
-  example_en: Our house has four rooms and a large garden.
+  example_el: Οι γιορτές των Χριστουγέννων είναι οι αγαπημένες μου.
+  example_en: The Christmas holidays are my favorite.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σπίτια
-    accusative_singular: το σπίτι
-  keg_communicative_function: Identifying residential houses
+    part_of_speech: noun (feminine)
+    plural: οι γιορτές
+    accusative_singular: τη γιορτή
+  keg_communicative_function: Discussing holidays and festive seasons
 - id: A1-U107-002
-  greek: το διαμέρισμα
-  phonetic_hint: to thee-ah-MEH-ree-zmah
-  english: apartment / flat
-  notes: Klik A1 p. 133. Neuter noun in -μα with plural in -ματα.
+  greek: τα Χριστούγεννα
+  phonetic_hint: tah khree-STOO-yeh-nah
+  english: Christmas
+  notes: Klik A1 p. 155, 156, 157. Neuter noun used only in plural (plurale tantum).
   gender_or_pos: noun (neuter)
-  audio: to-diamerisma-44a98d.mp3
+  audio: ta-christoygenna-9f3158.mp3
   status: verified
-  example_el: Νοικιάζω ένα φωτεινό διαμέρισμα στον τρίτο όροφο.
-  example_en: I rent a bright apartment on the third floor.
+  example_el: Τα Χριστούγεννα μαζεύεται όλη η οικογένεια γύρω από το τραπέζι.
+  example_en: At Christmas the whole family gathers around the table.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα διαμερίσματα
-    accusative_singular: το διαμέρισμα
-  keg_communicative_function: Discussing apartment living
+    plural: τα Χριστούγεννα
+    accusative_singular: τα Χριστούγεννα
+  keg_communicative_function: Naming the Christmas holiday
 - id: A1-U107-003
-  greek: η πολυκατοικία
-  phonetic_hint: ee po-lee-kah-tee-KEE-ah
-  english: apartment building / block of flats
-  notes: Klik A1 p. 133. Feminine noun in -α with plural in -ες.
+  greek: η Πρωτοχρονιά
+  phonetic_hint: ee pro-toh-khro-NYAH
+  english: New Year's Day
+  notes: 'Klik A1 p. 157, 170. Feminine compound noun: πρώτος + χρονιά.'
   gender_or_pos: noun (feminine)
-  audio: i-polykatoikia-351c6a.mp3
+  audio: i-protochronia-f47ecf.mp3
   status: verified
-  example_el: Η πολυκατοικία μας έχει έξι ορόφους και καινούργιο ασανσέρ.
-  example_en: Our apartment building has six floors and a new elevator.
+  example_el: Την Πρωτοχρονιά ανταλλάσσουμε δώρα και ευχές.
+  example_en: On New Year's Day we exchange gifts and wishes.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι πολυκατοικίες
-    accusative_singular: την πολυκατοικία
-  keg_communicative_function: Describing apartment buildings
+    plural: οι Πρωτοχρονιές
+    accusative_singular: την Πρωτοχρονιά
+  keg_communicative_function: Naming the New Year holiday
 - id: A1-U107-004
-  greek: η μονοκατοικία
-  phonetic_hint: ee mo-no-kah-tee-KEE-ah
-  english: detached house / single-family house
-  notes: Klik A1 p. 133. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-monokatoikia-472881.mp3
+  greek: το Πάσχα
+  phonetic_hint: to PAH-skhah
+  english: Easter
+  notes: Klik A1 p. 157. Indeclinable neuter noun.
+  gender_or_pos: noun (neuter)
+  audio: to-pascha-890b60.mp3
   status: verified
-  example_el: Προτιμούν να μένουν σε μονοκατοικία έξω από την πόλη.
-  example_en: They prefer to live in a detached house outside the city.
+  example_el: Το Πάσχα σουβλίζουμε αρνί και τρώμε τσουρέκι.
+  example_en: At Easter we roast lamb on a spit and eat sweet bread.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι μονοκατοικίες
-    accusative_singular: τη μονοκατοικία
-  keg_communicative_function: Contrasting detached houses with apartments
+    part_of_speech: noun (neuter)
+    plural: τα Πάσχα
+    accusative_singular: το Πάσχα
+  keg_communicative_function: Naming the Easter holiday
 - id: A1-U107-005
-  greek: το κτίριο
-  phonetic_hint: to KTEE-ree-o
-  english: building
-  notes: Klik A1 p. 133, 137. Neuter noun in -ιο with plural in -ια.
+  greek: τα γενέθλια
+  phonetic_hint: tah yeh-NEHTH-lee-ah
+  english: birthday
+  notes: Klik A1 p. 174. Neuter noun used only in plural (plurale tantum).
   gender_or_pos: noun (neuter)
-  audio: to-ktirio-267fb1.mp3
+  audio: ta-genethlia-d8825b.mp3
   status: verified
-  example_el: Αυτό το κτίριο είναι πολύ παλιό αλλά διατηρητέο.
-  example_en: This building is very old but listed as historic.
+  example_el: Κάνω ένα μεγάλο πάρτι για τα γενέθλιά μου το Σάββατο.
+  example_en: I am having a big party for my birthday on Saturday.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα κτίρια
-    accusative_singular: το κτίριο
-  keg_communicative_function: Identifying buildings and architectural structures
+    plural: τα γενέθλια
+    accusative_singular: τα γενέθλια
+  keg_communicative_function: Talking about birthdays
 - id: A1-U107-006
-  greek: το δωμάτιο
-  phonetic_hint: to tho-MAH-tee-o
-  english: room
-  notes: Klik A1 p. 133, 135. Neuter noun in -ιο with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-domatio-f088e7.mp3
-  status: verified
-  example_el: Το σπίτι έχει τρία υπνοδωμάτια και ένα μεγάλο δωμάτιο για γραφείο.
-  example_en: The house has three bedrooms and a large room for an office.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα δωμάτια
-    accusative_singular: το δωμάτιο
-  keg_communicative_function: Counting and specifying rooms in a house
-- id: A1-U107-007
-  greek: το υπνοδωμάτιο
-  phonetic_hint: to eep-no-tho-MAH-tee-o
-  english: bedroom
-  notes: 'Klik A1 p. 133, 141. Compound neuter noun: ύπνος + δωμάτιο.'
-  gender_or_pos: noun (neuter)
-  audio: to-ypnodomatio-7fccb5.mp3
-  status: verified
-  example_el: Το κύριο υπνοδωμάτιο έχει δικό του μπαλκόνι.
-  example_en: The master bedroom has its own balcony.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα υπνοδωμάτια
-    accusative_singular: το υπνοδωμάτιο
-  keg_communicative_function: Specifying bedrooms in floorplans
-- id: A1-U107-008
-  greek: το σαλόνι
-  phonetic_hint: to sah-LO-nee
-  english: living room
-  notes: Klik A1 p. 133, 134, 141. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-saloni-9b4a14.mp3
-  status: verified
-  example_el: Πίνουμε τον καφέ μας στο σαλόνι με τους φίλους μας.
-  example_en: We drink our coffee in the living room with our friends.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σαλόνια
-    accusative_singular: το σαλόνι
-  keg_communicative_function: Describing the living room area
-- id: A1-U107-009
-  greek: το καθιστικό
-  phonetic_hint: to kah-thee-stee-KO
-  english: sitting room / lounge
-  notes: Klik A1 p. 133, 142. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-kathistiko-275b8d.mp3
-  status: verified
-  example_el: Το καθιστικό είναι φωτεινό και έχει τζάκι.
-  example_en: The sitting room is bright and has a fireplace.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα καθιστικά
-    accusative_singular: το καθιστικό
-  keg_communicative_function: Naming family sitting areas
-- id: A1-U107-010
-  greek: η κουζίνα
-  phonetic_hint: ee koo-ZEE-nah
-  english: kitchen
-  notes: Klik A1 p. 133, 134, 141. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-koyzina-f8029f.mp3
-  status: verified
-  example_el: Μαγειρεύω καθημερινά στην κουζίνα νόστιμα φαγητά.
-  example_en: I cook delicious meals daily in the kitchen.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κουζίνες
-    accusative_singular: την κουζίνα
-  keg_communicative_function: Identifying kitchen spaces
-- id: A1-U107-011
-  greek: το μπάνιο
-  phonetic_hint: to BAH-nyo
-  english: bathroom
-  notes: Klik A1 p. 133, 134, 141. Neuter noun in -ιο with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-mpanio-e4e21b.mp3
-  status: verified
-  example_el: Το διαμέρισμα έχει δύο μπάνια, ένα μεγάλο και ένα μικρό.
-  example_en: The apartment has two bathrooms, a large one and a small one.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μπάνια
-    accusative_singular: το μπάνιο
-  keg_communicative_function: Describing bathroom facilities
-- id: A1-U107-012
-  greek: ο διάδρομος
-  phonetic_hint: o thee-AH-thro-mos
-  english: corridor / hallway
-  notes: Klik A1 p. 141. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-diadromos-9d982f.mp3
-  status: verified
-  example_el: Ο διάδρομος ενώνει το σαλόνι με τα υπνοδωμάτια.
-  example_en: The corridor connects the living room to the bedrooms.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι διάδρομοι
-    accusative_singular: τον διάδρομο
-  keg_communicative_function: Locating hallways and corridors
-- id: A1-U107-013
-  greek: το χολ
-  phonetic_hint: to khol
-  english: entrance hall / foyer / hall
-  notes: Klik A1 p. 141. Indeclinable neuter loan noun.
-  gender_or_pos: noun (neuter)
-  audio: to-chol-0095be.mp3
-  status: verified
-  example_el: Αφήνουμε τα παλτά μας στην κρεμάστρα στο χολ.
-  example_en: We leave our coats on the rack in the entrance hall.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα χολ
-    accusative_singular: το χολ
-  keg_communicative_function: Identifying home entrance hallways
-- id: A1-U107-014
-  greek: το μπαλκόνι
-  phonetic_hint: to bahl-KO-nee
-  english: balcony
-  notes: Klik A1 p. 134, 142. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-mpalkoni-63b14b.mp3
-  status: verified
-  example_el: Καθόμαστε στο μπαλκόνι τα καλοκαιρινά βράδια.
-  example_en: We sit on the balcony on summer evenings.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μπαλκόνια
-    accusative_singular: το μπαλκόνι
-  keg_communicative_function: Describing outdoor balcony spaces
-- id: A1-U107-015
-  greek: η αυλή
-  phonetic_hint: ee ahv-LEE
-  english: courtyard / yard
-  notes: Klik A1 p. 133, 137, 139. Feminine noun in -η with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-ayli-923b2f.mp3
-  status: verified
-  example_el: Η μονοκατοικία έχει μια μεγάλη πλακόστρωτη αυλή.
-  example_en: The detached house has a large paved courtyard.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι αυλές
-    accusative_singular: την αυλή
-  keg_communicative_function: Describing courtyards and enclosed outdoor areas
-- id: A1-U107-016
-  greek: ο κήπος
-  phonetic_hint: o KEE-pos
-  english: garden
-  notes: Klik A1 p. 133, 134, 137, 142. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-kipos-f5cfad.mp3
-  status: verified
-  example_el: Φυτεύουμε όμορφα λουλούδια και δέντρα στον κήπο.
-  example_en: We plant beautiful flowers and trees in the garden.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι κήποι
-    accusative_singular: τον κήπο
-  keg_communicative_function: Describing house gardens and yards
-- id: A1-U107-017
-  greek: το πάρκινγκ
-  phonetic_hint: to PAHR-keeng
-  english: parking space / car park
-  notes: Klik A1 p. 134. Indeclinable neuter loan noun.
-  gender_or_pos: noun (neuter)
-  audio: to-parkingk-721feb.mp3
-  status: verified
-  example_el: Το διαμέρισμα διαθέτει ιδιωτικό πάρκινγκ στην πιλοτή.
-  example_en: The apartment features private parking in the covered ground area.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πάρκινγκ
-    accusative_singular: το πάρκινγκ
-  keg_communicative_function: Specifying vehicle parking facilities
-- id: A1-U107-018
-  greek: ο όροφος
-  phonetic_hint: o O-ro-fos
-  english: floor / story
-  notes: Klik A1 p. 133, 138, 141. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-orofos-f6f7f8.mp3
-  status: verified
-  example_el: Το διαμέρισμα βρίσκεται στον δεύτερο όροφο.
-  example_en: The apartment is located on the second floor.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι όροφοι
-    accusative_singular: τον όροφο
-  keg_communicative_function: Indicating building storeys
-- id: A1-U107-019
-  greek: το ισόγειο
-  phonetic_hint: to ee-SO-yee-o
-  english: ground floor
-  notes: Klik A1 p. 133. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-isogeio-75f059.mp3
-  status: verified
-  example_el: Στο ισόγειο της πολυκατοικίας υπάρχει ένα φαρμακείο.
-  example_en: On the ground floor of the apartment building there is a pharmacy.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ισόγεια
-    accusative_singular: το ισόγειο
-  keg_communicative_function: Identifying ground floor levels
-- id: A1-U107-020
-  greek: η είσοδος
-  phonetic_hint: ee EE-so-thos
-  english: entrance
-  notes: Klik A1 p. 134, 142, 145. Feminine noun in -ος with plural in -οι.
-  gender_or_pos: noun (feminine)
-  audio: i-eisodos-8c7f0b.mp3
-  status: verified
-  example_el: Η κεντρική είσοδος της πολυκατοικίας είναι πάντα κλειδωμένη.
-  example_en: The main entrance of the apartment building is always locked.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι είσοδοι
-    accusative_singular: την είσοδο
-  keg_communicative_function: Locating entrances
-- id: A1-U107-021
-  greek: το ασανσέρ
-  phonetic_hint: to ah-sahn-SEHR
-  english: elevator / lift
-  notes: Klik A1 p. 134. Indeclinable neuter loan noun.
-  gender_or_pos: noun (neuter)
-  audio: to-asanser-33aacc.mp3
-  status: verified
-  example_el: Παίρνουμε το ασανσέρ για να ανέβουμε στον πέμπτο όροφο.
-  example_en: We take the elevator to go up to the fifth floor.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ασανσέρ
-    accusative_singular: το ασανσέρ
-  keg_communicative_function: Navigating elevators
-- id: A1-U107-022
-  greek: η σκάλα
-  phonetic_hint: ee SKAH-lah
-  english: stairs / staircase
-  notes: Klik A1 p. 133, 145. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-skala-077424.mp3
-  status: verified
-  example_el: Ανεβαίνω με τις σκάλες για να γυμνάζομαι.
-  example_en: I go up by the stairs to exercise.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι σκάλες
-    accusative_singular: τη σκάλα
-  keg_communicative_function: Describing stairways
-- id: A1-U107-023
-  greek: η πόρτα
-  phonetic_hint: ee POR-tah
-  english: door
-  notes: Klik A1 p. 141, 142, 146. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-porta-2f3e68.mp3
-  status: verified
-  example_el: Κλείσε την πόρτα του δωματίου, σε παρακαλώ.
-  example_en: Close the room door, please.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι πόρτες
-    accusative_singular: την πόρτα
-  keg_communicative_function: Identifying and operating doors
-- id: A1-U107-024
-  greek: το παράθυρο
-  phonetic_hint: to pah-RAH-thee-ro
-  english: window
-  notes: Klik A1 p. 141, 142, 146. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-parathyro-4687bb.mp3
-  status: verified
-  example_el: Ανοίγω το παράθυρο για να μπει καθαρός αέρας.
-  example_en: I open the window to let fresh air in.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παράθυρα
-    accusative_singular: το παράθυρο
-  keg_communicative_function: Operating windows
-- id: A1-U107-025
-  greek: ο τοίχος
-  phonetic_hint: o TEE-khos
-  english: wall
-  notes: Klik A1 p. 141, 145. Masculine noun in -ος with plural in -οι.
-  gender_or_pos: noun (masculine)
-  audio: o-toichos-af0737.mp3
-  status: verified
-  example_el: Κρεμάμε έναν ωραίο πίνακα στον τοίχο του σαλονιού.
-  example_en: We hang a nice painting on the living room wall.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι τοίχοι
-    accusative_singular: τον τοίχο
-  keg_communicative_function: Describing walls and wall hangings
-- id: A1-U107-026
-  greek: το πάτωμα
-  phonetic_hint: to PAH-to-mah
-  english: floor / flooring
-  notes: Klik A1 p. 141. Neuter noun in -μα with plural in -ματα.
-  gender_or_pos: noun (neuter)
-  audio: to-patoma-a001f1.mp3
-  status: verified
-  example_el: Το ξύλινο πάτωμα στο υπνοδωμάτιο είναι ζεστό.
-  example_en: The wooden floor in the bedroom is warm.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πατώματα
-    accusative_singular: το πάτωμα
-  keg_communicative_function: Referring to floors and floor surfaces
-- id: A1-U107-027
-  greek: το ταβάνι
-  phonetic_hint: to tah-VAH-nee
-  english: ceiling
-  notes: Klik A1 p. 141. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-tavani-4e506b.mp3
-  status: verified
-  example_el: Το ταβάνι του παλιού σπιτιού είναι πολύ ψηλό.
-  example_en: The ceiling of the old house is very high.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ταβάνια
-    accusative_singular: το ταβάνι
-  keg_communicative_function: Describing ceilings
-- id: A1-U107-028
-  greek: το τζάκι
-  phonetic_hint: to DZAH-kee
-  english: fireplace
-  notes: Klik A1 p. 134, 140. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-tzaki-13ee60.mp3
-  status: verified
-  example_el: Ανάβουμε το τζάκι τα κρύα βράδια του χειμώνα.
-  example_en: We light the fireplace on cold winter evenings.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τζάκια
-    accusative_singular: το τζάκι
-  keg_communicative_function: Talking about fireplaces
-- id: A1-U107-029
-  greek: το έπιπλο
-  phonetic_hint: to EH-pee-plo
-  english: piece of furniture / furniture
-  notes: Klik A1 p. 141, 149. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-epiplo-f6a0a7.mp3
-  status: verified
-  example_el: Αγοράσαμε καινούργια έπιπλα για το καινούριο μας σπίτι.
-  example_en: We bought new furniture for our new home.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα έπιπλα
-    accusative_singular: το έπιπλο
-  keg_communicative_function: Discussing furniture generally
-- id: A1-U107-030
-  greek: ο καναπές
-  phonetic_hint: o kah-nah-PES
-  english: sofa / couch
-  notes: Klik A1 p. 141, 142. Masculine noun in -ές with plural in -έδες.
-  gender_or_pos: noun (masculine)
-  audio: o-kanapes-6eb76c.mp3
-  status: verified
-  example_el: Ο καναπές στο σαλόνι είναι μεγάλος και άνετος.
-  example_en: The sofa in the living room is large and comfortable.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι καναπέδες
-    accusative_singular: τον καναπέ
-  keg_communicative_function: Identifying sofas and seating
-- id: A1-U107-031
-  greek: η πολυθρόνα
-  phonetic_hint: ee po-lee-THRO-nah
-  english: armchair
-  notes: Klik A1 p. 141, 142. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-polythrona-3b7628.mp3
-  status: verified
-  example_el: Κάθομαι στην αναπαυτική πολυθρόνα και διαβάζω εφημερίδα.
-  example_en: I sit in the comfortable armchair and read a newspaper.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι πολυθρόνες
-    accusative_singular: την πολυθρόνα
-  keg_communicative_function: Describing armchairs
-- id: A1-U107-032
-  greek: το τραπέζι
-  phonetic_hint: to trah-PEH-zee
-  english: table
-  notes: Klik A1 p. 141, 142. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-trapezi-4c842a.mp3
-  status: verified
-  example_el: Όλη η οικογένεια τρώει μαζί γύρω από το μεγάλο τραπέζι.
-  example_en: The whole family eats together around the large table.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τραπέζια
-    accusative_singular: το τραπέζι
-  keg_communicative_function: Describing dining and work tables
-- id: A1-U107-033
-  greek: το τραπεζάκι
-  phonetic_hint: to trah-peh-ZAH-kee
-  english: coffee table / small table
-  notes: Klik A1 p. 141, 143. Diminutive neuter noun in -άκι.
-  gender_or_pos: noun (neuter)
-  audio: to-trapezaki-424f47.mp3
-  status: verified
-  example_el: Έχουμε ένα χαμηλό τραπεζάκι σαλονιού μπροστά από τον καναπέ.
-  example_en: We have a low coffee table in front of the sofa.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τραπεζάκια
-    accusative_singular: το τραπεζάκι
-  keg_communicative_function: Identifying coffee tables and small side tables
-- id: A1-U107-034
-  greek: η καρέκλα
-  phonetic_hint: ee kah-REH-klah
-  english: chair
-  notes: Klik A1 p. 138, 141, 142. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-karekla-438e54.mp3
-  status: verified
-  example_el: Η τραπεζαρία διαθέτει έξι ξύλινες καρέκλες.
-  example_en: The dining area features six wooden chairs.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι καρέκλες
-    accusative_singular: την καρέκλα
-  keg_communicative_function: Counting and describing chairs
-- id: A1-U107-035
-  greek: το γραφείο
-  phonetic_hint: to grah-FEE-o
-  english: desk / study
-  notes: Klik A1 p. 141, 142. Neuter noun in -ιο with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-grafeio-323cf7.mp3
-  status: verified
-  example_el: Μελετάω τα μαθήματά μου πάνω στο γραφείο.
-  example_en: I study my lessons at the desk.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα γραφεία
-    accusative_singular: το γραφείο
-  keg_communicative_function: Identifying study desks
-- id: A1-U107-036
-  greek: η βιβλιοθήκη
-  phonetic_hint: ee veev-lee-o-THEE-kee
-  english: bookcase / bookshelf / library
-  notes: Klik A1 p. 141, 142, 144. Feminine noun in -η with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-vivliothiki-0b978a.mp3
-  status: verified
-  example_el: Η βιβλιοθήκη στο σαλόνι είναι γεμάτη με ελληνικά βιβλία.
-  example_en: The bookcase in the living room is full of Greek books.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι βιβλιοθήκες
-    accusative_singular: τη βιβλιοθήκη
-  keg_communicative_function: Describing bookshelves and storage for books
-- id: A1-U107-037
-  greek: το κρεβάτι
-  phonetic_hint: to kreh-VAH-tee
-  english: bed
-  notes: Klik A1 p. 141, 142. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-krevati-7cc70b.mp3
-  status: verified
-  example_el: Το υπνοδωμάτιο έχει ένα άνετο διπλό κρεβάτι.
-  example_en: The bedroom has a comfortable double bed.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κρεβάτια
-    accusative_singular: το κρεβάτι
-  keg_communicative_function: Describing beds in bedrooms
-- id: A1-U107-038
-  greek: το κομοδίνο
-  phonetic_hint: to ko-mo-THEE-no
-  english: bedside table / nightstand
-  notes: Klik A1 p. 141. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-komodino-ad2e45.mp3
-  status: verified
-  example_el: Έχω ένα μικρό φωτιστικό πάνω στο κομοδίνο μου.
-  example_en: I have a small lamp on my bedside table.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κομοδίνα
-    accusative_singular: το κομοδίνο
-  keg_communicative_function: Identifying nightstands
-- id: A1-U107-039
-  greek: η ντουλάπα
-  phonetic_hint: ee doo-LAH-pah
-  english: wardrobe / closet
-  notes: Klik A1 p. 134, 141, 143. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-ntoylapa-df8185.mp3
-  status: verified
-  example_el: Κρεμάω όλα τα ρούχα μου μέσα στη ντουλάπα.
-  example_en: I hang all my clothes inside the wardrobe.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ντουλάπες
-    accusative_singular: τη ντουλάπα
-  keg_communicative_function: Describing clothing closets and wardrobes
-- id: A1-U107-040
-  greek: το συρτάρι
-  phonetic_hint: to seer-TAH-ree
-  english: drawer
-  notes: Klik A1 p. 142. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-syrtari-b87540.mp3
-  status: verified
-  example_el: Βάζω τα κλειδιά και τα έγγραφα μέσα στο συρτάρι.
-  example_en: I put the keys and the documents inside the drawer.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα συρτάρια
-    accusative_singular: το συρτάρι
-  keg_communicative_function: Locating items in drawers
-- id: A1-U107-041
-  greek: το ψυγείο
-  phonetic_hint: to psee-YEE-o
-  english: refrigerator / fridge
-  notes: Klik A1 p. 141, 142. Neuter noun in -ιο with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-psygeio-6f8f89.mp3
-  status: verified
-  example_el: Βάζω το γάλα και τα φρούτα μέσα στο ψυγείο.
-  example_en: I put the milk and the fruit inside the fridge.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ψυγεία
-    accusative_singular: το ψυγείο
-  keg_communicative_function: Naming kitchen refrigeration appliances
-- id: A1-U107-042
-  greek: η ηλεκτρική κουζίνα
-  phonetic_hint: ee ee-lek-tree-KEE koo-ZEE-nah
-  english: electric stove / cooker
-  notes: 'Klik A1 p. 141, 142. Feminine noun phrase: επίθετο + ουσιαστικό.'
+  greek: η ονομαστική γιορτή
+  phonetic_hint: ee o-no-mah-stee-KEE yor-TEE
+  english: name day
+  notes: 'Klik A1 p. 157, 174. Feminine noun phrase: επίθετο + ουσιαστικό.'
   gender_or_pos: noun phrase (feminine)
-  audio: i-ilektriki-koyzina-1865a3.mp3
+  audio: i-onomastiki-giorti-ae383c.mp3
   status: verified
-  example_el: Η καινούργια ηλεκτρική κουζίνα έχει κεραμικές εστίες.
-  example_en: The new electric cooker has ceramic hobs.
+  example_el: Στην Ελλάδα η ονομαστική γιορτή είναι πολύ σημαντική.
+  example_en: In Greece the name day is very important.
   grammatical_info:
     part_of_speech: noun phrase (feminine)
-    plural: οι ηλεκτρικές κουζίνες
-    accusative_singular: την ηλεκτρική κουζίνα
-  keg_communicative_function: Identifying kitchen stoves and cooking ranges
-- id: A1-U107-043
-  greek: το πλυντήριο ρούχων
-  phonetic_hint: to pleen-TEE-ree-o ROO-khon
-  english: washing machine
-  notes: 'Klik A1 p. 141, 142. Neuter noun phrase: ουσιαστικό + γενική πληθυντικού.'
-  gender_or_pos: noun phrase (neuter)
-  audio: to-plyntirio-roychon-ee18b1.mp3
+    plural: οι ονομαστικές γιορτές
+    accusative_singular: την ονομαστική γιορτή
+  keg_communicative_function: Discussing cultural name day traditions
+- id: A1-U107-007
+  greek: το πάρτι
+  phonetic_hint: to PAHR-tee
+  english: party
+  notes: Klik A1 p. 158, 174. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-parti-7725f9.mp3
   status: verified
-  example_el: Βάζω τα άπλυτα ρούχα στο πλυντήριο ρούχων κάθε Σάββατο.
-  example_en: I put the dirty clothes into the washing machine every Saturday.
+  example_el: Σε προσκαλώ στο πάρτι που κάνω στο σπίτι μου.
+  example_en: I invite you to the party I am having at my house.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πάρτι
+    accusative_singular: το πάρτι
+  keg_communicative_function: Inviting people to social parties
+- id: A1-U107-008
+  greek: η πρόσκληση
+  phonetic_hint: ee PRO-sklee-see
+  english: invitation
+  notes: Klik A1 p. 174. Feminine noun in -ση with plural in -σεις.
+  gender_or_pos: noun (feminine)
+  audio: i-prosklisi-271aa1.mp3
+  status: verified
+  example_el: Έλαβα μια όμορφη πρόσκληση για τα γενέθλια της Ελένης.
+  example_en: I received a lovely invitation for Eleni's birthday.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προσκλήσεις
+    accusative_singular: την πρόσκληση
+  keg_communicative_function: Writing and receiving event invitations
+- id: A1-U107-009
+  greek: το δώρο
+  phonetic_hint: to THO-ro
+  english: gift / present
+  notes: Klik A1 p. 155, 156, 170. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-doro-b619ab.mp3
+  status: verified
+  example_el: Αγοράζω ένα όμορφο δώρο για τη μητέρα μου.
+  example_en: I buy a beautiful gift for my mother.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δώρα
+    accusative_singular: το δώρο
+  keg_communicative_function: Buying and offering gifts
+- id: A1-U107-010
+  greek: το στολίδι
+  phonetic_hint: to sto-LEE-thee
+  english: ornament / decoration
+  notes: Klik A1 p. 155, 156. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-stolidi-08d1d2.mp3
+  status: verified
+  example_el: Βάζουμε πολύχρωμα στολίδια στο χριστουγεννιάτικο δέντρο.
+  example_en: We put colorful ornaments on the Christmas tree.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα στολίδια
+    accusative_singular: το στολίδι
+  keg_communicative_function: Describing festive decorations
+- id: A1-U107-011
+  greek: το χριστουγεννιάτικο δέντρο
+  phonetic_hint: to khree-stoo-yeh-NYAH-tee-ko THEN-dro
+  english: Christmas tree
+  notes: Klik A1 p. 155, 156. Compound noun phrase with neuter adjective and noun.
+  gender_or_pos: noun phrase (neuter)
+  audio: to-christoygenniatik-aa8ebd.mp3
+  status: verified
+  example_el: Στολίζουμε το χριστουγεννιάτικο δέντρο με φωτάκια και μπάλες.
+  example_en: We decorate the Christmas tree with lights and baubles.
   grammatical_info:
     part_of_speech: noun phrase (neuter)
-    plural: τα πλυντήρια ρούχων
-    accusative_singular: το πλυντήριο ρούχων
-  keg_communicative_function: Naming clothes washing appliances
+    plural: τα χριστουγεννιάτικα δέντρα
+    accusative_singular: το χριστουγεννιάτικο δέντρο
+  keg_communicative_function: Referring to Christmas trees
+- id: A1-U107-012
+  greek: τα φωτάκια
+  phonetic_hint: tah foh-TAH-kyah
+  english: fairy lights / string lights
+  notes: Klik A1 p. 155. Diminutive neuter plural of φως (light).
+  gender_or_pos: noun (neuter)
+  audio: ta-fotakia-dd5f2c.mp3
+  status: verified
+  example_el: Ανάβουμε τα φωτάκια στο μπαλκόνι κάθε βράδυ.
+  example_en: We turn on the fairy lights on the balcony every evening.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φωτάκια
+    accusative_singular: τα φωτάκια
+  keg_communicative_function: Describing decorative lighting
+- id: A1-U107-013
+  greek: τα ψώνια
+  phonetic_hint: tah PSO-nyah
+  english: shopping / purchases / groceries
+  notes: Klik A1 p. 155, 163. Neuter noun used predominantly in plural.
+  gender_or_pos: noun (neuter)
+  audio: ta-psonia-87763a.mp3
+  status: verified
+  example_el: Πηγαίνω στο κέντρο για ψώνια το απόγευμα.
+  example_en: I am going downtown for shopping in the afternoon.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψώνια
+    accusative_singular: τα ψώνια
+  keg_communicative_function: Talking about shopping excursions
+- id: A1-U107-014
+  greek: το ρούχο
+  phonetic_hint: to ROO-kho
+  english: garment / piece of clothing
+  notes: Klik A1 p. 163, 165. Neuter noun in -ο with plural in -α (τα ρούχα).
+  gender_or_pos: noun (neuter)
+  audio: to-roycho-fd4a0e.mp3
+  status: verified
+  example_el: Αυτό το ρούχο είναι από εξαιρετικό βαμβάκι.
+  example_en: This garment is made of excellent cotton.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρούχα
+    accusative_singular: το ρούχο
+  keg_communicative_function: Describing clothing items
+- id: A1-U107-015
+  greek: το φόρεμα
+  phonetic_hint: to FO-reh-mah
+  english: dress
+  notes: Klik A1 p. 164, 165, 169. Neuter noun in -μα with plural in -ματα.
+  gender_or_pos: noun (neuter)
+  audio: to-forema-8cee6a.mp3
+  status: verified
+  example_el: Η Ελένη φοράει ένα κομψό μαύρο φόρεμα στο πάρτι.
+  example_en: Eleni wears an elegant black dress to the party.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φορέματα
+    accusative_singular: το φόρεμα
+  keg_communicative_function: Naming and describing dresses
+- id: A1-U107-016
+  greek: η φούστα
+  phonetic_hint: ee FOO-stah
+  english: skirt
+  notes: Klik A1 p. 166, 168. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-foysta-48c289.mp3
+  status: verified
+  example_el: Αυτή η ροζ φούστα ταιριάζει με το λευκό σου πουκάμισο.
+  example_en: This pink skirt matches your white shirt.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φούστες
+    accusative_singular: τη φούστα
+  keg_communicative_function: Describing skirts
+- id: A1-U107-017
+  greek: το παντελόνι
+  phonetic_hint: to pahn-deh-LO-nee
+  english: trousers / pants
+  notes: Klik A1 p. 165, 166. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-panteloni-acf681.mp3
+  status: verified
+  example_el: Δοκιμάζω ένα γκρι παντελόνι στο δοκιμαστήριο.
+  example_en: I try on grey trousers in the fitting room.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παντελόνια
+    accusative_singular: το παντελόνι
+  keg_communicative_function: Selecting and trying on trousers
+- id: A1-U107-018
+  greek: το τζιν
+  phonetic_hint: to dzeen
+  english: jeans / denim trousers
+  notes: Klik A1 p. 165. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-tzin-a96eed.mp3
+  status: verified
+  example_el: Φοράω το αγαπημένο μου μπλε τζιν κάθε μέρα.
+  example_en: I wear my favorite blue jeans every day.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τζιν
+    accusative_singular: το τζιν
+  keg_communicative_function: Referring to denim jeans
+- id: A1-U107-019
+  greek: το πουκάμισο
+  phonetic_hint: to poo-KAH-mee-so
+  english: shirt
+  notes: Klik A1 p. 166. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-poykamiso-55710a.mp3
+  status: verified
+  example_el: Ο Νίκος φοράει ένα καθαρό λευκό πουκάμισο στο γραφείο.
+  example_en: Nikos wears a clean white shirt to the office.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πουκάμισα
+    accusative_singular: το πουκάμισο
+  keg_communicative_function: Describing men's and women's shirts
+- id: A1-U107-020
+  greek: το μπλουζάκι
+  phonetic_hint: to bloo-ZAH-kee
+  english: T-shirt / short-sleeved top
+  notes: Klik A1 p. 165. Diminutive neuter noun in -άκι.
+  gender_or_pos: noun (neuter)
+  audio: to-mployzaki-bec975.mp3
+  status: verified
+  example_el: Το καλοκαίρι προτιμώ βαμβακερά μπλουζάκια.
+  example_en: In the summer I prefer cotton T-shirts.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπλουζάκια
+    accusative_singular: το μπλουζάκι
+  keg_communicative_function: Describing casual T-shirts
+- id: A1-U107-021
+  greek: η μπλούζα
+  phonetic_hint: ee BLOO-zah
+  english: blouse / top / sweater
+  notes: Klik A1 p. 165, 169. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mployza-33b1a4.mp3
+  status: verified
+  example_el: Αυτή η μάλλινη μπλούζα είναι πολύ ζεστή για τον χειμώνα.
+  example_en: This wool blouse is very warm for the winter.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπλούζες
+    accusative_singular: την μπλούζα
+  keg_communicative_function: Identifying blouses and sweaters
+- id: A1-U107-022
+  greek: το κοστούμι
+  phonetic_hint: to ko-STOO-mee
+  english: suit
+  notes: Klik A1 p. 165. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-kostoymi-1600a1.mp3
+  status: verified
+  example_el: Χρειάζεται ένα επίσημο κοστούμι για τη συνέντευξη.
+  example_en: He needs a formal suit for the interview.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κοστούμια
+    accusative_singular: το κοστούμι
+  keg_communicative_function: Describing formal suits
+- id: A1-U107-023
+  greek: το σακάκι
+  phonetic_hint: to sah-KAH-kee
+  english: jacket / blazer
+  notes: Klik A1 p. 165. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-sakaki-9babc8.mp3
+  status: verified
+  example_el: Το μαύρο σακάκι ταιριάζει με όλα τα παντελόνια μου.
+  example_en: The black blazer matches all my trousers.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σακάκια
+    accusative_singular: το σακάκι
+  keg_communicative_function: Identifying suit jackets and blazers
+- id: A1-U107-024
+  greek: το παλτό
+  phonetic_hint: to pahl-TO
+  english: coat / overcoat
+  notes: 'Klik A1 p. 165. Neuter noun with stress on ultima, plural: τα παλτά.'
+  gender_or_pos: noun (neuter)
+  audio: to-palto-9b3255.mp3
+  status: verified
+  example_el: Φοράω ζεστό παλτό γιατί έξω χιονίζει.
+  example_en: I wear a warm coat because it is snowing outside.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παλτά
+    accusative_singular: το παλτό
+  keg_communicative_function: Naming winter overcoats
+- id: A1-U107-025
+  greek: το μπουφάν
+  phonetic_hint: to boo-FAHN
+  english: jacket / winter jacket / parka
+  notes: Klik A1 p. 168. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-mpoyfan-625498.mp3
+  status: verified
+  example_el: Πάρε το μπουφάν σου γιατί έχει κρύο και αέρα.
+  example_en: Take your jacket because it is cold and windy.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπουφάν
+    accusative_singular: το μπουφάν
+  keg_communicative_function: Referring to casual jackets and windbreakers
+- id: A1-U107-026
+  greek: η ζακέτα
+  phonetic_hint: ee zah-KEH-tah
+  english: cardigan / light zippered jacket
+  notes: Klik A1 p. 166. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-zaketa-5f2216.mp3
+  status: verified
+  example_el: Βάζω μια πλεκτή ζακέτα όταν δροσίζει το βράδυ.
+  example_en: I put on a knitted cardigan when it gets cool in the evening.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ζακέτες
+    accusative_singular: τη ζακέτα
+  keg_communicative_function: Describing light cardigans and knitwear
+- id: A1-U107-027
+  greek: το πουλόβερ
+  phonetic_hint: to poo-LO-ver
+  english: sweater / jumper / pullover
+  notes: Klik A1 p. 165. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-poylover-0928c8.mp3
+  status: verified
+  example_el: Αυτό το μάλλινο πουλόβερ είναι πολύ μαλακό και ζεστό.
+  example_en: This wool sweater is very soft and warm.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πουλόβερ
+    accusative_singular: το πουλόβερ
+  keg_communicative_function: Describing warm pullovers
+- id: A1-U107-028
+  greek: η φόρμα
+  phonetic_hint: ee FOR-mah
+  english: tracksuit / sweatpants
+  notes: Klik A1 p. 168. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-forma-23c87f.mp3
+  status: verified
+  example_el: Φοράω αθλητική φόρμα όταν πηγαίνω για τρέξιμο.
+  example_en: I wear a tracksuit when I go for a run.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φόρμες
+    accusative_singular: τη φόρμα
+  keg_communicative_function: Describing athletic sportswear
+- id: A1-U107-029
+  greek: οι πιτζάμες
+  phonetic_hint: ee pee-DZAH-mes
+  english: pajamas
+  notes: Klik A1 p. 167. Feminine noun used predominantly in plural.
+  gender_or_pos: noun (feminine)
+  audio: oi-pitzames-0d36b6.mp3
+  status: verified
+  example_el: Βάζω τις πιτζάμες μου πριν πάω για ύπνο.
+  example_en: I put on my pajamas before going to sleep.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πιτζάμες
+    accusative_singular: τις πιτζάμες
+  keg_communicative_function: Naming sleepwear
+- id: A1-U107-030
+  greek: το μαγιό
+  phonetic_hint: to mah-YO
+  english: swimsuit / bathing suit / trunks
+  notes: Klik A1 p. 165. Indeclinable neuter noun with stress on ultima.
+  gender_or_pos: noun (neuter)
+  audio: to-magio-89837c.mp3
+  status: verified
+  example_el: Παίρνω το μαγιό μου και πάμε στην παραλία για μπάνιο.
+  example_en: I take my swimsuit and we go to the beach for a swim.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μαγιό
+    accusative_singular: το μαγιό
+  keg_communicative_function: Naming swimwear
+- id: A1-U107-031
+  greek: το παπούτσι
+  phonetic_hint: to pah-POOT-see
+  english: shoe
+  notes: Klik A1 p. 163, 166. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-papoytsi-5119b0.mp3
+  status: verified
+  example_el: Αγοράζω ένα καινούργιο ζευγάρι παπούτσια για το σχολείο.
+  example_en: I buy a new pair of shoes for school.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παπούτσια
+    accusative_singular: το παπούτσι
+  keg_communicative_function: Selecting and purchasing footwear
+- id: A1-U107-032
+  greek: το ζευγάρι
+  phonetic_hint: to zev-GAH-ree
+  english: pair / couple
+  notes: Klik A1 p. 163, 172. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-zeygari-6aa581.mp3
+  status: verified
+  example_el: Χρειάζομαι ένα ζευγάρι μαύρα παπούτσια και δύο ζευγάρια κάλτσες.
+  example_en: I need a pair of black shoes and two pairs of socks.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ζευγάρια
+    accusative_singular: το ζευγάρι
+  keg_communicative_function: Quantifying items by the pair
+- id: A1-U107-033
+  greek: οι μπότες
+  phonetic_hint: ee BO-tes
+  english: boots
+  notes: Klik A1 p. 166. Feminine noun used predominantly in plural.
+  gender_or_pos: noun (feminine)
+  audio: oi-mpotes-653b12.mp3
+  status: verified
+  example_el: Φοράω δερμάτινες μπότες όταν βρέχει ή χιονίζει.
+  example_en: I wear leather boots when it rains or snows.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπότες
+    accusative_singular: τις μπότες
+  keg_communicative_function: Describing winter boots
+- id: A1-U107-034
+  greek: τα πέδιλα
+  phonetic_hint: tah PEH-thee-lah
+  english: sandals / open summer shoes
+  notes: Klik A1 p. 165. Neuter noun used predominantly in plural.
+  gender_or_pos: noun (neuter)
+  audio: ta-pedila-6f446a.mp3
+  status: verified
+  example_el: Το καλοκαίρι φοράμε ανοιχτά πέδιλα στη ζέστη.
+  example_en: In the summer we wear open sandals in the heat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πέδιλα
+    accusative_singular: τα πέδιλα
+  keg_communicative_function: Describing summer sandals
+- id: A1-U107-035
+  greek: οι σαγιονάρες
+  phonetic_hint: ee sah-yo-NAH-res
+  english: flip-flops / thong sandals
+  notes: Klik A1 p. 166. Feminine noun used predominantly in plural.
+  gender_or_pos: noun (feminine)
+  audio: oi-sagionares-a737b8.mp3
+  status: verified
+  example_el: Βάζω τις σαγιονάρες μου για να πάω στην παραλία.
+  example_en: I put on my flip-flops to go to the beach.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σαγιονάρες
+    accusative_singular: τις σαγιονάρες
+  keg_communicative_function: Describing beach footwear
+- id: A1-U107-036
+  greek: οι κάλτσες
+  phonetic_hint: ee KAHL-tses
+  english: socks
+  notes: Klik A1 p. 165. Feminine noun used predominantly in plural.
+  gender_or_pos: noun (feminine)
+  audio: oi-kaltses-2c40db.mp3
+  status: verified
+  example_el: Αγοράζω ζεστές μάλλινες κάλτσες για τον χειμώνα.
+  example_en: I buy warm wool socks for the winter.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κάλτσες
+    accusative_singular: τις κάλτσες
+  keg_communicative_function: Describing socks
+- id: A1-U107-037
+  greek: το καλσόν
+  phonetic_hint: to kahl-SON
+  english: tights / pantyhose
+  notes: Klik A1 p. 165. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-kalson-49dc01.mp3
+  status: verified
+  example_el: Φοράει μαύρο καλσόν με τη φούστα της.
+  example_en: She wears black tights with her skirt.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καλσόν
+    accusative_singular: το καλσόν
+  keg_communicative_function: Naming hosiery and tights
+- id: A1-U107-038
+  greek: το καπέλο
+  phonetic_hint: to kah-PEH-lo
+  english: hat
+  notes: Klik A1 p. 165. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-kapelo-5c8657.mp3
+  status: verified
+  example_el: Φοράω ψάθινο καπέλο στον ήλιο για προστασία.
+  example_en: I wear a straw hat in the sun for protection.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καπέλα
+    accusative_singular: το καπέλο
+  keg_communicative_function: Describing headwear
+- id: A1-U107-039
+  greek: ο σκούφος
+  phonetic_hint: o SKOO-fos
+  english: winter beanie / woolly hat
+  notes: Klik A1 p. 168. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-skoyfos-ccc5af.mp3
+  status: verified
+  example_el: Βάζει τον μάλλινο σκούφο του όταν κάνει πολύ κρύο.
+  example_en: He puts on his woolly beanie when it is very cold.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι σκούφοι
+    accusative_singular: τον σκούφο
+  keg_communicative_function: Naming winter beanies
+- id: A1-U107-040
+  greek: τα γάντια
+  phonetic_hint: tah GAHN-dyah
+  english: gloves
+  notes: Klik A1 p. 165, 168. Neuter noun used predominantly in plural.
+  gender_or_pos: noun (neuter)
+  audio: ta-gantia-9ac9aa.mp3
+  status: verified
+  example_el: Φοράω δερμάτινα γάντια για να μην κρυώνουν τα χέρια μου.
+  example_en: I wear leather gloves so my hands don't get cold.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γάντια
+    accusative_singular: τα γάντια
+  keg_communicative_function: Describing hand protection and gloves
+- id: A1-U107-041
+  greek: το κασκόλ
+  phonetic_hint: to kah-SKOL
+  english: scarf / winter muffler
+  notes: Klik A1 p. 165. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-kaskol-7da8c0.mp3
+  status: verified
+  example_el: Τυλίγω το ζεστό κασκόλ γύρω από τον λαιμό μου.
+  example_en: I wrap the warm scarf around my neck.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κασκόλ
+    accusative_singular: το κασκόλ
+  keg_communicative_function: Describing winter scarves
+- id: A1-U107-042
+  greek: η γραβάτα
+  phonetic_hint: ee grah-VAH-tah
+  english: necktie / tie
+  notes: Klik A1 p. 165. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-gravata-5b56de.mp3
+  status: verified
+  example_el: Φοράει σκούρα μεταξωτή γραβάτα με το κοστούμι του.
+  example_en: He wears a dark silk necktie with his suit.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γραβάτες
+    accusative_singular: τη γραβάτα
+  keg_communicative_function: Describing neckties
+- id: A1-U107-043
+  greek: η ζώνη
+  phonetic_hint: ee ZO-nee
+  english: belt
+  notes: Klik A1 p. 165. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-zoni-59fcf3.mp3
+  status: verified
+  example_el: Αυτή η δερμάτινη ζώνη ταιριάζει με το παντελόνι.
+  example_en: This leather belt matches the trousers.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ζώνες
+    accusative_singular: τη ζώνη
+  keg_communicative_function: Describing clothing belts
 - id: A1-U107-044
-  greek: ο νιπτήρας
-  phonetic_hint: o neep-TEE-rahs
-  english: washbasin / bathroom sink
-  notes: Klik A1 p. 141. Masculine noun in -ας with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-niptiras-8fb357.mp3
+  greek: η τσάντα
+  phonetic_hint: ee TSAHN-dah
+  english: bag / handbag
+  notes: Klik A1 p. 166. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-tsanta-cce576.mp3
   status: verified
-  example_el: Πλένω τα χέρια μου και το πρόσωπό μου στον νιπτήρα.
-  example_en: I wash my hands and face in the washbasin.
+  example_el: Κρατάει μια κομψή καφέ δερμάτινη τσάντα.
+  example_en: She holds an elegant brown leather handbag.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι νιπτήρες
-    accusative_singular: τον νιπτήρα
-  keg_communicative_function: Describing bathroom basins
+    part_of_speech: noun (feminine)
+    plural: οι τσάντες
+    accusative_singular: την τσάντα
+  keg_communicative_function: Describing handbags and accessory bags
 - id: A1-U107-045
-  greek: η μπανιέρα
-  phonetic_hint: ee bah-NYEH-rah
-  english: bathtub
-  notes: Klik A1 p. 141, 142. Feminine noun in -α with plural in -ες.
+  greek: η ομπρέλα
+  phonetic_hint: ee om-BREH-lah
+  english: umbrella
+  notes: Klik A1 p. 165. Feminine noun in -α with plural in -ες.
   gender_or_pos: noun (feminine)
-  audio: i-mpaniera-5a85ad.mp3
+  audio: i-omprela-abe32d.mp3
   status: verified
-  example_el: Κάνω ένα ζεστό χαλαρωτικό αφρόλουτρο στην μπανιέρα.
-  example_en: I take a warm relaxing bubble bath in the bathtub.
+  example_el: Πάρε την ομπρέλα μαζί σου γιατί θα βρέξει.
+  example_en: Take the umbrella with you because it will rain.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι μπανιέρες
-    accusative_singular: την μπανιέρα
-  keg_communicative_function: Describing bathtubs in bathrooms
+    plural: οι ομπρέλες
+    accusative_singular: την ομπρέλα
+  keg_communicative_function: Naming umbrellas for rain protection
 - id: A1-U107-046
-  greek: η βρύση
-  phonetic_hint: ee VREE-see
-  english: tap / faucet
-  notes: Klik A1 p. 141, 142. Feminine noun in -η with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-vrysi-6f7af7.mp3
+  greek: το πολυκατάστημα
+  phonetic_hint: to po-lee-kah-TAH-stee-mah
+  english: department store
+  notes: 'Klik A1 p. 165. Compound neuter noun: πολύ + κατάστημα.'
+  gender_or_pos: noun (neuter)
+  audio: to-polykatastima-9455fe.mp3
   status: verified
-  example_el: Κλείσε καλά τη βρύση για να μην τρέχει νερό.
-  example_en: Turn off the tap tightly so water doesn't drip.
+  example_el: Στο πολυκατάστημα βρίσκεις ρούχα, παπούτσια και καλλυντικά.
+  example_en: In the department store you find clothes, shoes, and cosmetics.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι βρύσες
-    accusative_singular: τη βρύση
-  keg_communicative_function: Operating water faucets
+    part_of_speech: noun (neuter)
+    plural: τα πολυκαταστήματα
+    accusative_singular: το πολυκατάστημα
+  keg_communicative_function: Identifying department stores
 - id: A1-U107-047
-  greek: το καλοριφέρ
-  phonetic_hint: to kah-lo-ree-FEHR
-  english: radiator / central heating
-  notes: Klik A1 p. 140. Indeclinable neuter loan noun.
+  greek: το μαγαζί
+  phonetic_hint: to mah-gah-ZEE
+  english: shop / store
+  notes: Klik A1 p. 165, 170. Neuter noun in -ί with plural in -ιά.
   gender_or_pos: noun (neuter)
-  audio: to-kalorifer-e581e6.mp3
+  audio: to-magazi-41f2a5.mp3
   status: verified
-  example_el: Τον χειμώνα ανάβουμε το καλοριφέρ για να ζεσταθεί το σπίτι.
-  example_en: In winter we turn on the radiator to warm up the house.
+  example_el: Αυτό το μαγαζί έχει πολύ καλές τιμές και προσφορές.
+  example_en: This shop has very good prices and special offers.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα καλοριφέρ
-    accusative_singular: το καλοριφέρ
-  keg_communicative_function: Operating radiators and central heating
+    plural: τα μαγαζιά
+    accusative_singular: το μαγαζί
+  keg_communicative_function: Naming retail shops
 - id: A1-U107-048
-  greek: το κλιματιστικό
-  phonetic_hint: to klee-mah-tee-stee-KO
-  english: air conditioner / A/C
-  notes: Klik A1 p. 140. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-klimatistiko-d51e8d.mp3
+  greek: η βιτρίνα
+  phonetic_hint: ee vee-TREE-nah
+  english: shop window / display window
+  notes: Klik A1 p. 168, 169. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-vitrina-137fb3.mp3
   status: verified
-  example_el: Ανάβω το κλιματιστικό γιατί έχει αφόρητη ζέστη.
-  example_en: I turn on the air conditioner because it is unbearably hot.
+  example_el: Κοιτάζω τα όμορφα ρούχα στη βιτρίνα του καταστήματος.
+  example_en: I look at the beautiful clothes in the shop window.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κλιματιστικά
-    accusative_singular: το κλιματιστικό
-  keg_communicative_function: Operating climate control and air conditioning
+    part_of_speech: noun (feminine)
+    plural: οι βιτρίνες
+    accusative_singular: τη βιτρίνα
+  keg_communicative_function: Window shopping and describing store displays
 - id: A1-U107-049
-  greek: ο θερμοσίφωνας
-  phonetic_hint: o ther-mo-SEE-fo-nahs
-  english: water heater / boiler
-  notes: Klik A1 p. 140. Masculine noun in -ας with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-thermosifonas-4ad6f0.mp3
+  greek: το ταμείο
+  phonetic_hint: to tah-MEE-o
+  english: cash desk / cash register / checkout
+  notes: Klik A1 p. 164, 165. Neuter noun in -ιο with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-tameio-e3cb06.mp3
   status: verified
-  example_el: Ανάβω τον θερμοσίφωνα για να έχουμε ζεστό νερό.
-  example_en: I turn on the water heater so we have hot water.
+  example_el: Πληρώνω τα ρούχα στο ταμείο με την κάρτα μου.
+  example_en: I pay for the clothes at the cash desk with my card.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι θερμοσίφωνες
-    accusative_singular: τον θερμοσίφωνα
-  keg_communicative_function: Managing water heating
+    part_of_speech: noun (neuter)
+    plural: τα ταμεία
+    accusative_singular: το ταμείο
+  keg_communicative_function: Locating store checkouts and payment desks
 - id: A1-U107-050
-  greek: η τηλεόραση
-  phonetic_hint: ee tee-leh-O-rah-see
-  english: television / TV
-  notes: Klik A1 p. 141, 143. Feminine noun in -ση with plural in -σεις.
-  gender_or_pos: noun (feminine)
-  audio: i-tileorasi-8e21f7.mp3
+  greek: το δοκιμαστήριο
+  phonetic_hint: to tho-kee-mah-STEE-ree-o
+  english: fitting room / changing room
+  notes: Klik A1 p. 163, 164. Neuter noun in -ιο with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-dokimastirio-efbb21.mp3
   status: verified
-  example_el: Βλέπουμε μια ταινία στην τηλεόραση μετά το βραδινό.
-  example_en: We watch a movie on the television after dinner.
+  example_el: Πού είναι το δοκιμαστήριο για να δοκιμάσω αυτό το φόρεμα;
+  example_en: Where is the fitting room so I can try on this dress?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι τηλεοράσεις
-    accusative_singular: την τηλεόραση
-  keg_communicative_function: Naming television sets
+    part_of_speech: noun (neuter)
+    plural: τα δοκιμαστήρια
+    accusative_singular: το δοκιμαστήριο
+  keg_communicative_function: Locating fitting rooms in stores
 - id: A1-U107-051
-  greek: το φωτιστικό
-  phonetic_hint: to foh-tee-stee-KO
-  english: light fixture / lamp
-  notes: Klik A1 p. 143. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-fotistiko-b106db.mp3
+  greek: η έκπτωση
+  phonetic_hint: ee EHK-pto-see
+  english: discount / sale
+  notes: Klik A1 p. 163, 164. Feminine noun in -ση with plural in -σεις.
+  gender_or_pos: noun (feminine)
+  audio: i-ekptosi-ccd8ef.mp3
   status: verified
-  example_el: Το μοντέρνο φωτιστικό δίνει ζεστό φως στο σαλόνι.
-  example_en: The modern light fixture casts a warm light in the living room.
+  example_el: Στις χειμερινές εκπτώσεις βρίσκεις εξαιρετικές τιμές.
+  example_en: In the winter sales you find great prices.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα φωτιστικά
-    accusative_singular: το φωτιστικό
-  keg_communicative_function: Describing lamps and light fixtures
+    part_of_speech: noun (feminine)
+    plural: οι εκπτώσεις
+    accusative_singular: την έκπτωση
+  keg_communicative_function: Inquiring about store discounts and seasonal sales
 - id: A1-U107-052
-  greek: το χαλί
-  phonetic_hint: to khah-LEE
-  english: carpet / rug
-  notes: Klik A1 p. 144. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-chali-c80887.mp3
+  greek: η απόδειξη
+  phonetic_hint: ee ah-PO-theek-see
+  english: receipt
+  notes: Klik A1 p. 164. Feminine noun in -ξη with plural in -ξεις.
+  gender_or_pos: noun (feminine)
+  audio: i-apodeixi-8d4ab6.mp3
   status: verified
-  example_el: Στρώνουμε ζεστά χαλιά στο σπίτι το φθινόπωρο.
-  example_en: We lay warm carpets in the house in the autumn.
+  example_el: Κρατήστε την απόδειξη σε περίπτωση που θέλετε αλλαγή.
+  example_en: Keep the receipt in case you want an exchange.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα χαλιά
-    accusative_singular: το χαλί
-  keg_communicative_function: Talking about carpets and rugs
+    part_of_speech: noun (feminine)
+    plural: οι αποδείξεις
+    accusative_singular: την απόδειξη
+  keg_communicative_function: Requesting and keeping retail receipts
 - id: A1-U107-053
-  greek: η κουρτίνα
-  phonetic_hint: ee koor-TEE-nah
-  english: curtain
-  notes: Klik A1 p. 141. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-koyrtina-336f51.mp3
+  greek: το νούμερο
+  phonetic_hint: to NOO-meh-ro
+  english: clothing or shoe size / number
+  notes: Klik A1 p. 163, 164. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-noymero-1fed44.mp3
   status: verified
-  example_el: Ανοίγω τις κουρτίνες για να μπει το πρωινό φως.
-  example_en: I open the curtains to let the morning light in.
+  example_el: Τι νούμερο παπούτσι φοράτε; — Φοράω το τριάντα οκτώ.
+  example_en: What shoe size do you wear? — I wear size thirty-eight.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κουρτίνες
-    accusative_singular: την κουρτίνα
-  keg_communicative_function: Operating window curtains
+    part_of_speech: noun (neuter)
+    plural: τα νούμερα
+    accusative_singular: το νούμερο
+  keg_communicative_function: Specifying shoe and apparel sizes
 - id: A1-U107-054
-  greek: ο καθρέφτης
-  phonetic_hint: o kah-THREHF-tees
-  english: mirror
-  notes: Klik A1 p. 144. Masculine noun in -ης with plural in -ες.
-  gender_or_pos: noun (masculine)
-  audio: o-kathreftis-6e14e5.mp3
+  greek: το μέγεθος
+  phonetic_hint: to MEH-yeh-thos
+  english: size
+  notes: Klik A1 p. 164. Neuter noun in -ος with plural in -η.
+  gender_or_pos: noun (neuter)
+  audio: to-megethos-77d489.mp3
   status: verified
-  example_el: Υπάρχει ένας μεγάλος καθρέφτης πάνω από τον νιπτήρα στο μπάνιο.
-  example_en: There is a large mirror above the sink in the bathroom.
+  example_el: Αυτό το πουκάμισο είναι σε μεγάλο μέγεθος.
+  example_en: This shirt is in a large size.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι καθρέφτες
-    accusative_singular: τον καθρέφτη
-  keg_communicative_function: Describing mirrors in home decor
+    part_of_speech: noun (neuter)
+    plural: τα μεγέθη
+    accusative_singular: το μέγεθος
+  keg_communicative_function: Describing size specifications
 - id: A1-U107-055
-  greek: το ενοίκιο
-  phonetic_hint: to eh-NEE-kee-o
-  english: rent
-  notes: Klik A1 p. 133, 140. Neuter noun in -ιο with plural in -ια.
+  greek: τα μετρητά
+  phonetic_hint: tah meh-tree-TAH
+  english: cash
+  notes: Klik A1 p. 164. Neuter adjective used as plural noun (πληρωμή σε μετρητά).
   gender_or_pos: noun (neuter)
-  audio: to-enoikio-b77ed7.mp3
+  audio: ta-metrita-4b1de5.mp3
   status: verified
-  example_el: Πληρώνω το ενοίκιο του διαμερίσματος στην αρχή κάθε μήνα.
-  example_en: I pay the apartment rent at the beginning of each month.
+  example_el: Δεν έχω κάρτα μαζί μου, θα πληρώσω με μετρητά.
+  example_en: I don't have a card with me, I will pay with cash.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα ενοίκια
-    accusative_singular: το ενοίκιο
-  keg_communicative_function: Discussing rental payments
+    plural: τα μετρητά
+    accusative_singular: τα μετρητά
+  keg_communicative_function: Selecting cash payment
 - id: A1-U107-056
-  greek: τα κοινόχρηστα
-  phonetic_hint: tah kee-NO-khree-stah
-  english: building maintenance fees / shared expenses
-  notes: Klik A1 p. 140, 141. Neuter noun used only in plural (plurale tantum).
-  gender_or_pos: noun (neuter)
-  audio: ta-koinochrista-c9743f.mp3
+  greek: η κάρτα
+  phonetic_hint: ee KAHR-tah
+  english: credit / debit card
+  notes: Klik A1 p. 164. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-karta-7ebb5d.mp3
   status: verified
-  example_el: Τα κοινόχρηστα της πολυκατοικίας περιλαμβάνουν τη θέρμανση και τον καθαρισμό.
-  example_en: Building maintenance fees include heating and cleaning.
+  example_el: Δέχεστε πιστωτική κάρτα στο ταμείο;
+  example_en: Do you accept credit cards at the checkout?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κοινόχρηστα
-    accusative_singular: τα κοινόχρηστα
-  keg_communicative_function: Inquiring about building shared expenses
+    part_of_speech: noun (feminine)
+    plural: οι κάρτες
+    accusative_singular: την κάρτα
+  keg_communicative_function: Selecting card payment
 - id: A1-U107-057
-  greek: η αγγελία
-  phonetic_hint: ee ahg-yeh-LEE-ah
-  english: advertisement / classified ad
-  notes: Klik A1 p. 133, 134, 136. Feminine noun in -α with plural in -ες.
-  gender_or_pos: noun (feminine)
-  audio: i-aggelia-0c9d55.mp3
-  status: verified
-  example_el: Διαβάζω τις μικρές αγγελίες στην εφημερίδα για να βρω σπίτι.
-  example_en: I read the classified ads in the newspaper to find a house.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι αγγελίες
-    accusative_singular: την αγγελία
-  keg_communicative_function: Reading and placing property classified ads
-- id: A1-U107-058
-  greek: η γειτονιά
-  phonetic_hint: ee yee-to-NYAH
-  english: neighborhood
-  notes: Klik A1 p. 133, 137, 140. Feminine noun in -ιά with plural in -ιές.
-  gender_or_pos: noun (feminine)
-  audio: i-geitonia-48f987.mp3
-  status: verified
-  example_el: Η γειτονιά μας είναι πολύ ήσυχη και έχει πολλά δέντρα.
-  example_en: Our neighborhood is very quiet and has many trees.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γειτονιές
-    accusative_singular: τη γειτονιά
-  keg_communicative_function: Describing local neighborhoods
-- id: A1-U107-059
-  greek: ο γείτονας
-  phonetic_hint: o YEE-to-nahs
-  english: neighbor
-  notes: 'Klik A1 p. 137, 139. Masculine noun in -ας with plural in -ες. Fem: η γειτόνισσα.'
-  gender_or_pos: noun (masculine)
-  audio: o-geitonas-05416f.mp3
-  status: verified
-  example_el: Ο διπλανός γείτονας είναι πολύ ευγενικός και εξυπηρετικός.
-  example_en: The next-door neighbor is very polite and helpful.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι γείτονες
-    accusative_singular: τον γείτονα
-  keg_communicative_function: Talking about neighbors
-- id: A1-U107-060
-  greek: φωτεινός
-  phonetic_hint: foh-tee-NOS
-  english: bright / luminous
-  notes: Klik A1 p. 133, 137. Adjective in -ός, -ή, -ό.
-  gender_or_pos: adjective
-  audio: foteinos-98b3ee.mp3
-  status: verified
-  example_el: Το σαλόνι είναι ιδιαίτερα φωτεινό χάρη στα μεγάλα παράθυρα.
-  example_en: The living room is especially bright thanks to the large windows.
-  grammatical_info:
-    part_of_speech: adjective
-    forms: φωτεινός, -ή, -ό
-  keg_communicative_function: Describing lighting qualities of rooms
-- id: A1-U107-061
-  greek: ήσυχος
-  phonetic_hint: EE-see-khos
-  english: quiet / peaceful
-  notes: Klik A1 p. 133, 137. Adjective in -ος, -η, -ο.
-  gender_or_pos: adjective
-  audio: isychos-896455.mp3
-  status: verified
-  example_el: Ψάχνουμε ένα ήσυχο διαμέρισμα μακριά από τον θόρυβο των δρόμων.
-  example_en: We are looking for a quiet apartment away from street noise.
-  grammatical_info:
-    part_of_speech: adjective
-    forms: ήσυχος, -η, -ο
-  keg_communicative_function: Evaluating residential tranquility
-- id: A1-U107-062
-  greek: καθαρίζω
-  phonetic_hint: kah-thah-REE-zo
-  english: I clean
-  notes: 'Klik A1 p. 144, 146. Type A regular verb. Imperative: καθάρισε! / καθαρίστε!'
+  greek: ψωνίζω
+  phonetic_hint: pso-NEE-zo
+  english: I shop / buy / make purchases
+  notes: 'Klik A1 p. 163. Type A regular verb. Future: θα ψωνίσω.'
   gender_or_pos: verb
-  audio: katharizo-d39b36.mp3
+  audio: psonizo-efd79c.mp3
   status: verified
-  example_el: Καθαρίζω το σπίτι κάθε Σάββατο πρωί.
-  example_en: I clean the house every Saturday morning.
+  example_el: Μου αρέσει να ψωνίζω ρούχα όταν έχει εκπτώσεις.
+  example_en: I like to shop for clothes when there are sales.
   grammatical_info:
     part_of_speech: verb
     verb_type: Type A (active regular)
-    third_person_singular: καθαρίζει
-    first_person_plural: καθαρίζουμε
-  keg_communicative_function: Talking about home cleaning routines
-- id: A1-U107-063
-  greek: τακτοποιώ
-  phonetic_hint: tahk-to-pee-O
-  english: I tidy up / arrange / organize
-  notes: 'Klik A1 p. 146, 148. Type B2 contract verb (-ώ, -είς, -εί). Imperative:
-    τακτοποίησε! / τακτοποιήστε!'
+    third_person_singular: ψωνίζει
+    first_person_plural: ψωνίζουμε
+  keg_communicative_function: Describing shopping habits
+- id: A1-U107-058
+  greek: δοκιμάζω
+  phonetic_hint: tho-kee-MAH-zo
+  english: I try on / test / taste
+  notes: 'Klik A1 p. 163, 164. Type A regular verb. Future: θα δοκιμάσω.'
   gender_or_pos: verb
-  audio: taktopoio-6f3b99.mp3
+  audio: dokimazo-ec85e5.mp3
   status: verified
-  example_el: Τακτοποιώ τα ρούχα και τα βιβλία στο δωμάτιό μου.
-  example_en: I tidy up the clothes and the books in my room.
+  example_el: Δοκιμάζω το πουκάμισο πριν το αγοράσω.
+  example_en: I try on the shirt before buying it.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: δοκιμάζει
+    first_person_plural: δοκιμάζουμε
+  keg_communicative_function: Trying on apparel in stores
+- id: A1-U107-059
+  greek: ταιριάζω
+  phonetic_hint: teh-RYAH-zo
+  english: I match / fit / suit
+  notes: 'Klik A1 p. 166. Type A regular verb. Often used impersonally: ταιριάζει
+    με...'
+  gender_or_pos: verb
+  audio: tairiazo-3a6716.mp3
+  status: verified
+  example_el: Αυτή η μπλούζα ταιριάζει πολύ ωραία με το τζιν σου.
+  example_en: This top matches your jeans very nicely.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: ταιριάζει
+    first_person_plural: ταιριάζουμε
+  keg_communicative_function: Evaluating aesthetic color and outfit matching
+- id: A1-U107-060
+  greek: φοράω
+  phonetic_hint: fo-RAH-o
+  english: I wear
+  notes: 'Klik A1 p. 163, 165, 167. Type B1 contract verb (-άω / -ώ). Future: θα φορέσω.'
+  gender_or_pos: verb
+  audio: forao-53bb67.mp3
+  status: verified
+  example_el: Τι φοράς όταν βγαίνεις έξω το βράδυ;
+  example_en: What do you wear when you go out in the evening?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type B1 (contract)
+    third_person_singular: φοράει
+    first_person_plural: φοράμε
+  keg_communicative_function: Stating what clothes someone wears
+- id: A1-U107-061
+  greek: στολίζω
+  phonetic_hint: sto-LEE-zo
+  english: I decorate / trim / garnish
+  notes: 'Klik A1 p. 155, 156. Type A regular verb. Future: θα στολίσω.'
+  gender_or_pos: verb
+  audio: stolizo-e31339.mp3
+  status: verified
+  example_el: Στολίζουμε το σπίτι για τις γιορτές των Χριστουγέννων.
+  example_en: We decorate the house for the Christmas holidays.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: στολίζει
+    first_person_plural: στολίζουμε
+  keg_communicative_function: Describing holiday home decorating
+- id: A1-U107-062
+  greek: γιορτάζω
+  phonetic_hint: yor-TAH-zo
+  english: I celebrate
+  notes: 'Klik A1 p. 155, 157. Type A regular verb. Future: θα γιορτάσω.'
+  gender_or_pos: verb
+  audio: giortazo-4d299e.mp3
+  status: verified
+  example_el: Γιορτάζω τα γενέθλιά μου μαζί με τους καλούς μου φίλους.
+  example_en: I celebrate my birthday together with my good friends.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: γιορτάζει
+    first_person_plural: γιορτάζουμε
+  keg_communicative_function: Talking about celebrating personal milestones
+- id: A1-U107-063
+  greek: καλώ
+  phonetic_hint: kah-LO
+  english: I invite / call
+  notes: 'Klik A1 p. 170. Type B2 contract verb (-ώ, -είς, -εί). Future: θα καλέσω.'
+  gender_or_pos: verb
+  audio: kalo-cafd73.mp3
+  status: verified
+  example_el: Καλώ όλους τους συμφοιτητές μου στο πάρτι.
+  example_en: I invite all my fellow students to the party.
   grammatical_info:
     part_of_speech: verb
     verb_type: Type B2 (contract)
-    third_person_singular: τακτοποιεί
-    first_person_plural: τακτοποιούμε
-  keg_communicative_function: Tidying up rooms and belongings
+    third_person_singular: καλεί
+    first_person_plural: καλούμε
+  keg_communicative_function: Inviting guests to events
 - id: A1-U107-064
-  greek: ανάβω
-  phonetic_hint: ah-NAH-vo
-  english: I turn on / switch on / light
-  notes: 'Klik A1 p. 146. Type A verb. Dependent/Imperative stem: άναψε! / ανάψτε!'
-  gender_or_pos: verb
-  audio: anavo-40cd5c.mp3
+  greek: εκείνος
+  phonetic_hint: eh-KEE-nos
+  english: that / that one over there
+  notes: 'Klik A1 p. 169. Demonstrative pronoun pointing to distant items: εκείνος,
+    εκείνη, εκείνο.'
+  gender_or_pos: pronoun
+  audio: ekeinos-6b8308.mp3
   status: verified
-  example_el: Ανάβω το φως μόλις μπαίνω στο σπίτι.
-  example_en: I turn on the light as soon as I enter the house.
+  example_el: Μου αρέσει εκείνο το παλτό που είναι στη βιτρίνα.
+  example_en: I like that coat over there that is in the shop window.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: ανάβει
-    first_person_plural: ανάβουμε
-  keg_communicative_function: Operating household lights and appliances
+    part_of_speech: pronoun (demonstrative)
+    forms: εκείνος, εκείνη, εκείνο
+  keg_communicative_function: Pointing out distant items and demonstrative reference

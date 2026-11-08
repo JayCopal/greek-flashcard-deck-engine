@@ -1,857 +1,922 @@
 unit_id: unit-102
 lesson_id: lesson-01
-title: 'Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages 43-54)'
-description: 'CEFR A1: Greetings by time of day, formal and informal introductions,
-  personal pronouns, the present tense of ''είμαι'', vocative address, and social
-  etiquette from Klik A1 (pages 43-54).'
+title: 'Ενότητα 2: Πού μένεις; — Πόλεις, Διευθύνσεις, Αριθμοί 0-10 & Προθέσεις (Pages
+  55-68)'
+description: 'CEFR A1: Talking about place of residence and origin, filling out contact
+  forms, cardinal numbers 0-10, spatial prepositions, urban landmarks, and core Type
+  A verbs from Klik A1 (pages 55-68).'
 lesson_status: not_started
-lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 1: Γεια χαρά! (Σελίδες 43-54):\n• Χαιρετισμοί\
-  \ & Χρόνος (Greetings by Time):\n  - Πρωί: Καλημέρα! (Good morning!)\n  - Απόγευμα\
-  \ & Βράδυ: Καλησπέρα! (Good evening!)\n  - Αποχαιρετισμός: Αντίο!, Γεια σου/σας!,\
-  \ Τα λέμε!, Καλό βράδυ!, Καληνύχτα!\n• Συστάσεις (Introductions):\n  - «Με λένε\
-  \ + Αιτιατική / όνομα» (π.χ. Με λένε Κώστα / Σοφία).\n  - «Είμαι ο / η + Ονομαστική»\
-  \ (π.χ. Είμαι ο Νίκος / Είμαι η Μαρία).\n  - «Από εδώ ο φίλος μου / η φίλη μου...»\
-  \ (This is my friend...).\n  - Απάντηση: «Χαίρω πολύ!», «Κι εγώ!», «Επίσης!».\n\
-  • Κλητική Πτώση (Vocative in Direct Address):\n  - Αρσενικά σε -ος: κύριε Παπαδόπουλε!,\
-  \ Νίκο!\n  - Αρσενικά σε -ης: Δημήτρη!, Άρη!\n  - Αρσενικά σε -ας: Κώστα!\n  - Θηλυκά\
-  \ παραμένουν ίδια: Άννα!, Ελένη!\n• Προσωπικές Αντωνυμίες & Ρήμα «είμαι» (Present):\n\
-  \  - εγώ είμαι, εσύ είσαι, αυτός/αυτή/αυτό είναι\n  - εμείς είμαστε, εσείς είστε,\
-  \ αυτοί/αυτές/αυτά είναι\n• Άρνηση (Negation):\n  - «Όχι, δεν είμαι ο Γιάννης.»\
-  \ (No, I am not Giannis)."
+lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 2: Πού μένεις; (Σελίδες 55-68):\n• Κατοικία\
+  \ & Καταγωγή (Residence & Origin):\n  - «Πού μένεις;» → «Μένω στην Αθήνα, στην οδό\
+  \ Ερμού 10.»\n  - «Από πού είσαι;» → «Είμαι από τη Θεσσαλονίκη / από τον Βόλο.»\n\
+  • Πτώσεις με προθέσεις (Accusative with Prepositions):\n  - σε + αιτιατική (στο\
+  \ / στη / στον / στην):\n    • στον Βόλο (αρσενικό)\n    • στη(ν) Αθήνα / Θεσσαλονίκη\
+  \ (θηλυκό)\n    • στο κέντρο / σπίτι (ουδέτερο)\n  - από + αιτιατική (από τον /\
+  \ από τη / από το):\n    • από τον Βόλο, από τη Θεσσαλονίκη, από το Παγκράτι\n•\
+  \ Αριθμοί 0 - 10 (Cardinal Numbers):\n  - 0: μηδέν, 1: ένας/μία/ένα, 2: δύο, 3:\
+  \ τρεις/τρία, 4: τέσσερις/τέσσερα,\n  - 5: πέντε, 6: έξι, 7: επτά (εφτά), 8: οκτώ\
+  \ (οχτώ), 9: εννέα (εννιά), 10: δέκα.\n• Τοπικοί προσδιορισμοί & Προθέσεις χώρου\
+  \ (Spatial Expressions):\n  - κοντά σε (near to) ↔ μακριά από (far from)\n  - απέναντι\
+  \ από (across from / opposite)\n  - δίπλα σε (next to / beside)\n  - μπροστά από\
+  \ (in front of) ↔ πίσω από (behind)\n  - πάνω σε (on / on top of)\n• Βασικά Ρήματα\
+  \ Α' Συζυγίας (Type A Verbs in Present Tense):\n  - μένω, σπουδάζω, αρχίζω, πίνω,\
+  \ κάνω, ξέρω, καταλαβαίνω."
 entries:
 - id: A1-U102-001
-  greek: Γεια!
-  phonetic_hint: yeh
-  english: Hello! / Hi! / Bye!
-  notes: Klik A1 p. 43. Universal casual greeting and farewell among friends and peers.
+  greek: Πού μένεις;
+  phonetic_hint: poo MEH-nees
+  english: Where do you live? (informal)
+  notes: Klik A1 p. 55 (Unit title). Core question inquiring about residence using
+    μένω.
   gender_or_pos: phrase
-  audio: geia-18e19c.mp3
+  audio: poy-meneis-c7b92a.mp3
   status: verified
-  example_el: Γεια! Τι κάνεις;
-  example_en: Hi! How are you?
+  example_el: — Πού μένεις τώρα; — Μένω στην Αθήνα.
+  example_en: — Where do you live now? — I live in Athens.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Casual informal greeting and farewell
+  keg_communicative_function: Asking someone where they live
 - id: A1-U102-002
-  greek: Γεια σου!
-  phonetic_hint: YAH-soo
-  english: Hello! / Hi! / Bye! (informal singular)
-  notes: Klik A1 p. 43. Literally 'Health to you'. Used addressing one person informally.
+  greek: Πού μένετε;
+  phonetic_hint: poo MEH-neh-teh
+  english: Where do you live? (formal or plural)
+  notes: Klik A1 p. 55, 62. Polite/plural form of 'πού μένεις'.
   gender_or_pos: phrase
-  audio: geia-soy-0d6bcf.mp3
+  audio: poy-menete-2693ba.mp3
   status: verified
-  example_el: Γεια σου, Νίκη! Είσαι καλά;
-  example_en: Hello, Niki! Are you well?
+  example_el: Καλησπέρα σας, πού μένετε στην Ελλάδα;
+  example_en: Good evening, where do you live in Greece?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Greeting a single friend or peer informally
+  keg_communicative_function: Asking for address or residence formally
 - id: A1-U102-003
-  greek: Γεια σας!
-  phonetic_hint: YAH-sahs
-  english: Hello! / Goodbye! (formal singular or plural)
-  notes: Klik A1 p. 43. Used when greeting multiple people or one person with polite
-    distance.
+  greek: Από πού είσαι;
+  phonetic_hint: ah-PO poo EE-seh
+  english: Where are you from? (informal)
+  notes: Klik A1 p. 56, 63. Core question inquiring about hometown, region, or nationality.
   gender_or_pos: phrase
-  audio: geia-sas-b30b5d.mp3
+  audio: apo-poy-eisai-c1e47a.mp3
   status: verified
-  example_el: Γεια σας, κύριε Παπαδόπουλε! Πώς είστε;
-  example_en: Hello, Mr. Papadopoulos! How are you?
+  example_el: — Από πού είσαι; — Είμαι από τη Θεσσαλονίκη.
+  example_en: — Where are you from? — I am from Thessaloniki.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Polite or group greeting and farewell
+  keg_communicative_function: Inquiring about someone's geographical origin
 - id: A1-U102-004
-  greek: Γεια χαρά!
-  phonetic_hint: yah hah-RAH
-  english: Hi there! / Cheers! / Goodbye!
-  notes: 'Klik A1 p. 43 (Unit title). Upbeat, cheerful greeting: ''health and joy''.'
+  greek: Από πού είστε;
+  phonetic_hint: ah-PO poo EES-teh
+  english: Where are you from? (formal or plural)
+  notes: Klik A1 p. 56. Formal or plural question of origin.
   gender_or_pos: phrase
-  audio: geia-chara-a40cc0.mp3
+  audio: apo-poy-eiste-6fe125.mp3
   status: verified
-  example_el: Γεια χαρά σε όλους!
-  example_en: Hi there to everyone!
+  example_el: Χαίρετε, από πού είστε;
+  example_en: Greetings, where are you from?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Cheerful friendly greeting
+  keg_communicative_function: Asking about someone's origin politely
 - id: A1-U102-005
-  greek: Καλημέρα!
-  phonetic_hint: kah-lee-MEH-rah
-  english: Good morning! / Good day!
-  notes: Klik A1 p. 43, 45. Standard daytime greeting from morning until midday.
+  greek: Σε ποια πόλη μένεις;
+  phonetic_hint: seh PYAH POH-lee MEH-nees
+  english: In which city do you live?
+  notes: Klik A1 p. 55. Preposition σε + interrogative ποια + feminine noun πόλη.
   gender_or_pos: phrase
-  audio: kalimera-cfff47.mp3
+  audio: se-poia-poli-meneis-89bdae.mp3
   status: verified
-  example_el: Καλημέρα, παιδιά! Πώς είστε σήμερα;
-  example_en: Good morning, children! How are you today?
+  example_el: Σε ποια πόλη μένεις στην Ιταλία;
+  example_en: In which city do you live in Italy?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Greeting in the morning hours
+  keg_communicative_function: Specifying city of residence
 - id: A1-U102-006
-  greek: Καλησπέρα!
-  phonetic_hint: kah-lee-SPEH-rah
-  english: Good evening!
-  notes: Klik A1 p. 44, 49, 54. Greeting used from late afternoon until night.
+  greek: Σε ποια χώρα μένεις;
+  phonetic_hint: seh PYAH KHOH-rah MEH-nees
+  english: In which country do you live?
+  notes: Klik A1 p. 55. Inquiring about country of residence.
   gender_or_pos: phrase
-  audio: kalispera-2837ba.mp3
+  audio: se-poia-chora-meneis-e3f1ff.mp3
   status: verified
-  example_el: Καλησπέρα σας, κυρία Ελένη.
-  example_en: Good evening, Mrs. Eleni.
+  example_el: Σε ποια χώρα μένεις τώρα;
+  example_en: In which country do you live now?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Greeting in late afternoon and evening
+  keg_communicative_function: Specifying country of residence
 - id: A1-U102-007
-  greek: Καληνύχτα!
-  phonetic_hint: kah-lee-NEEKH-tah
-  english: Good night!
-  notes: Klik A1 p. 49, 54. Exclusively a departure farewell before sleep or leaving
-    late at night.
+  greek: στο κέντρο
+  phonetic_hint: stoh KEN-dro
+  english: in the city center / downtown
+  notes: 'Klik A1 p. 58, 62, 67. Prepositional phrase: σε + το κέντρο = στο κέντρο.'
   gender_or_pos: phrase
-  audio: kalinychta-d886fe.mp3
+  audio: sto-kentro-4ed671.mp3
   status: verified
-  example_el: Καληνύχτα και όνειρα γλυκά!
-  example_en: Good night and sweet dreams!
+  example_el: Μένω στο κέντρο της πόλης, κοντά στην πλατεία.
+  example_en: I live in the city center, near the square.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Parting at night before bed
+  keg_communicative_function: Locating an apartment in the downtown area
 - id: A1-U102-008
-  greek: Καλό βράδυ!
-  phonetic_hint: kah-LO VRAH-thee
-  english: Have a good evening!
-  notes: Klik A1 p. 49, 54. Farewell wish used when parting in the evening.
+  greek: Δεν καταλαβαίνω.
+  phonetic_hint: then kah-tah-lah-VEH-no
+  english: I do not understand.
+  notes: Klik A1 p. 56. Essential communication survival phrase. Negation δεν + καταλαβαίνω.
   gender_or_pos: phrase
-  audio: kalo-vrady-aaf294.mp3
+  audio: den-katalavaino-3ab653.mp3
   status: verified
-  example_el: Ευχαριστώ πολύ για τη φιλοξενία, καλό βράδυ!
-  example_en: Thank you very much for the hospitality, have a good evening!
+  example_el: Συγγνώμη, δεν καταλαβαίνω, μιλάτε πιο αργά;
+  example_en: Excuse me, I don't understand, could you speak more slowly?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Wishing someone a pleasant evening upon parting
+  keg_communicative_function: Signaling lack of comprehension
 - id: A1-U102-009
-  greek: Αντίο!
-  phonetic_hint: ahn-DEE-o
-  english: Goodbye! / Farewell!
-  notes: Klik A1 p. 49, 54. Formal or definitive farewell parting word.
+  greek: Τι σημαίνει;
+  phonetic_hint: tee see-MEH-nee
+  english: What does it mean?
+  notes: Klik A1 p. 56. Essential language learning query.
   gender_or_pos: phrase
-  audio: antio-2d20f4.mp3
+  audio: ti-simainei-6a75be.mp3
   status: verified
-  example_el: Αντίο, κύριε καθηγητά, τα λέμε αύριο.
-  example_en: Goodbye, professor, see you tomorrow.
+  example_el: Τι σημαίνει αυτή η λέξη στα ελληνικά;
+  example_en: What does this word mean in Greek?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Saying goodbye upon departure
+  keg_communicative_function: Asking for clarification of a word's meaning
 - id: A1-U102-010
-  greek: Τα λέμε!
-  phonetic_hint: tah LEH-meh
-  english: See you! / Talk soon!
-  notes: 'Klik A1 p. 49, 54. Extremely common colloquial farewell. Literally: ''We
-    speak (to each other)''.'
-  gender_or_pos: phrase
-  audio: ta-leme-b94936.mp3
+  greek: η διεύθυνση
+  phonetic_hint: ee thee-EF-theen-see
+  english: address (street address)
+  notes: 'Klik A1 p. 56, 57. Feminine in -ση (plural: οι διευθύνσεις).'
+  gender_or_pos: noun (feminine)
+  audio: i-dieythynsi-306cae.mp3
   status: verified
-  example_el: Έφυγα τώρα, τα λέμε αργότερα!
-  example_en: I'm off now, see you later!
+  example_el: Ποια είναι η διεύθυνση του σπιτιού σου;
+  example_en: What is your home address?
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Informal parting among friends
+    part_of_speech: noun (feminine)
+    plural: οι διευθύνσεις
+    accusative_singular: τη διεύθυνση
+  keg_communicative_function: Inquiring about or filling out an address
 - id: A1-U102-011
-  greek: Πώς σε λένε;
-  phonetic_hint: pos seh LEH-neh
-  english: What is your name? (informal)
-  notes: 'Klik A1 p. 43, 44. Standard informal question. Lit: ''How do they call you?''.'
-  gender_or_pos: phrase
-  audio: pos-se-lene-dcea99.mp3
+  greek: η οδός
+  phonetic_hint: ee o-THOS
+  english: street / road
+  notes: 'Klik A1 p. 56, 57. Classical feminine in -ος: η οδός, της οδού, οι οδοί.'
+  gender_or_pos: noun (feminine)
+  audio: i-odos-ab501d.mp3
   status: verified
-  example_el: Γεια σου! Είμαι ο Γιώργος. Πώς σε λένε;
-  example_en: Hi! I am Giorgos. What is your name?
+  example_el: Μένω στην οδό Ερμού, στον αριθμό δέκα.
+  example_en: I live on Ermou Street, at number ten.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking someone's name informally
+    part_of_speech: noun (feminine)
+    plural: οι οδοί
+    accusative_singular: την οδό
+  keg_communicative_function: Naming a specific street in addresses
 - id: A1-U102-012
-  greek: Πώς σας λένε;
-  phonetic_hint: pos sahs LEH-neh
-  english: What is your name? (formal / polite plural)
-  notes: Klik A1 p. 48. Polite question used when meeting an adult, teacher, or group.
-  gender_or_pos: phrase
-  audio: pos-sas-lene-01261f.mp3
+  greek: ο αριθμός
+  phonetic_hint: o ah-reeth-MOS
+  english: number / street number
+  notes: 'Klik A1 p. 56, 57. Masculine in -ός (plural: οι αριθμοί).'
+  gender_or_pos: noun (masculine)
+  audio: o-arithmos-a6ae85.mp3
   status: verified
-  example_el: Χαίρετε! Πώς σας λένε, παρακαλώ;
-  example_en: Greetings! What is your name, please?
+  example_el: Ποιος είναι ο αριθμός του τηλεφώνου σου;
+  example_en: What is your telephone number?
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking someone's name politely or formally
+    part_of_speech: noun (masculine)
+    plural: οι αριθμοί
+    accusative_singular: τον αριθμό
+  keg_communicative_function: Stating house numbers or phone digits
 - id: A1-U102-013
-  greek: Με λένε...
-  phonetic_hint: meh LEH-neh
-  english: My name is... / They call me...
-  notes: 'Klik A1 p. 43, 47. Followed by accusative or bare name: ''Με λένε Σοφία
-    / Κώστα''.'
-  gender_or_pos: phrase
-  audio: me-lene-d0f819.mp3
+  greek: η πόλη
+  phonetic_hint: ee POH-lee
+  english: city / town
+  notes: 'Klik A1 p. 55, 57. Feminine in -η with plural in -εις: οι πόλεις.'
+  gender_or_pos: noun (feminine)
+  audio: i-poli-192d8a.mp3
   status: verified
-  example_el: Με λένε Μαρία και είμαι φοιτήτρια.
-  example_en: My name is Maria and I am a student.
+  example_el: Η Θεσσαλονίκη είναι μια όμορφη πόλη.
+  example_en: Thessaloniki is a beautiful city.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Introducing oneself by name
+    part_of_speech: noun (feminine)
+    plural: οι πόλεις
+    accusative_singular: την πόλη
+  keg_communicative_function: Naming urban settlements
 - id: A1-U102-014
-  greek: Ποιος είσαι;
-  phonetic_hint: pyos EE-seh
-  english: Who are you? (masculine singular)
-  notes: Klik A1 p. 45. Inquiring about masculine identity.
-  gender_or_pos: phrase
-  audio: poios-eisai-e52a23.mp3
+  greek: η χώρα
+  phonetic_hint: ee KHOH-rah
+  english: country / nation
+  notes: Klik A1 p. 55, 57. Feminine noun in -α with plural in -ες (οι χώρες).
+  gender_or_pos: noun (feminine)
+  audio: i-chora-8102dc.mp3
   status: verified
-  example_el: Εσύ ποιος είσαι; Δεν σε γνωρίζω.
-  example_en: Who are you? I don't know you.
+  example_el: Η Ελλάδα είναι μια πανέμορφη χώρα.
+  example_en: Greece is a very beautiful country.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking for identity directly
+    part_of_speech: noun (feminine)
+    plural: οι χώρες
+    accusative_singular: τη χώρα
+  keg_communicative_function: Discussing countries of the world
 - id: A1-U102-015
-  greek: Ποια είσαι;
-  phonetic_hint: pyah EE-seh
-  english: Who are you? (feminine singular)
-  notes: Klik A1 p. 45. Feminine form of interrogative pronoun ποιος.
-  gender_or_pos: phrase
-  audio: poia-eisai-5ea07c.mp3
+  greek: ο ταχυδρομικός κώδικας
+  phonetic_hint: o tah-khee-throh-mee-KOS KOH-thee-kahs
+  english: postal code / ZIP code
+  notes: Klik A1 p. 56. Often abbreviated in Greek as Τ.Κ. (τα-κα).
+  gender_or_pos: noun phrase (masculine)
+  audio: o-tachydromikos-kodi-3d3996.mp3
   status: verified
-  example_el: Γεια σου! Ποια είσαι εσύ;
-  example_en: Hello! Who are you?
+  example_el: Ποιος είναι ο ταχυδρομικός κώδικας της περιοχής;
+  example_en: What is the postal code of the area?
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking a female speaker for her identity
+    part_of_speech: noun phrase (masculine)
+    plural: οι ταχυδρομικοί κώδικες
+    accusative_singular: τον ταχυδρομικό κώδικα
+  keg_communicative_function: Providing postal address details
 - id: A1-U102-016
-  greek: Χαίρω πολύ!
-  phonetic_hint: KHEH-ro po-LEE
-  english: Pleased to meet you! / Nice to meet you!
-  notes: Klik A1 p. 48, 49, 52. Standard polite response upon first meeting someone.
-  gender_or_pos: phrase
-  audio: chairo-poly-f659a0.mp3
+  greek: το κινητό
+  phonetic_hint: to kee-nee-TOH
+  english: mobile phone / cell phone
+  notes: Klik A1 p. 57, 68. Short for 'το κινητό τηλέφωνο'. Starts with 69 in Greece.
+  gender_or_pos: noun (neuter)
+  audio: to-kinito-08f2c5.mp3
   status: verified
-  example_el: — Είμαι η Αλεξάνδρα. — Χαίρω πολύ!
-  example_en: — I am Alexandra. — Pleased to meet you!
+  example_el: Το κινητό μου είναι 6977003456.
+  example_en: My cell phone number is 6977003456.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Acknowledging an introduction politely
+    part_of_speech: noun (neuter)
+    plural: τα κινητά
+    accusative_singular: το κινητό
+  keg_communicative_function: Exchanging mobile numbers
 - id: A1-U102-017
-  greek: Επίσης!
-  phonetic_hint: eh-PEE-sees
-  english: Likewise! / As well! / Same to you!
-  notes: Klik A1 p. 48, 50, 53. Adverb used as an elliptical reciprocal reply.
-  gender_or_pos: adverb
-  audio: episis-a20cdf.mp3
+  greek: μηδέν
+  phonetic_hint: mee-THEN
+  english: zero (0)
+  notes: Klik A1 p. 60. Indeclinable cardinal numeral.
+  gender_or_pos: numeral
+  audio: miden-d2b310.mp3
   status: verified
-  example_el: — Χάρηκα πολύ για τη γνωριμία! — Επίσης!
-  example_en: — Nice to meet you! — Likewise!
+  example_el: Η θερμοκρασία είναι στους μηδέν βαθμούς.
+  example_en: The temperature is at zero degrees.
   grammatical_info:
-    part_of_speech: adverb
-  keg_communicative_function: Expressing reciprocal politeness
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Reading numbers and digits
 - id: A1-U102-018
-  greek: Κι εγώ!
-  phonetic_hint: kee eh-GHOH
-  english: Me too! / Likewise!
-  notes: Klik A1 p. 46, 48, 52. Contraction of 'και εγώ'. Informal reciprocal response.
-  gender_or_pos: phrase
-  audio: ki-ego-85b91c.mp3
+  greek: ένας, μία, ένα
+  phonetic_hint: EH-nahs, MEE-ah, EH-nah
+  english: one (1 - m / f / n)
+  notes: 'Klik A1 p. 60. Declinable numeral for 1: ένας άντρας, μία γυναίκα, ένα παιδί.'
+  gender_or_pos: numeral
+  audio: enas-mia-ena-3aae6b.mp3
   status: verified
-  example_el: — Χαίρω πολύ, Σωτήρη! — Κι εγώ!
-  example_en: — Nice to meet you, Sotiris! — Me too!
+  example_el: Θέλω έναν καφέ και ένα μπουκάλι νερό.
+  example_en: I want one coffee and one bottle of water.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Reciprocating an introduction informally
+    part_of_speech: cardinal numeral (declinable)
+    masculine: ένας
+    feminine: μία / μια
+    neuter: ένα
+  keg_communicative_function: Counting and specifying single items
 - id: A1-U102-019
-  greek: Από εδώ...
-  phonetic_hint: ah-PO eh-THOH
-  english: This is... (introducing a person)
-  notes: 'Klik A1 p. 48, 52, 54. Key phrase for introducing a third person. Lit: ''From
-    here...''.'
-  gender_or_pos: phrase
-  audio: apo-edo-b97640.mp3
+  greek: δύο
+  phonetic_hint: THEE-o
+  english: two (2)
+  notes: Klik A1 p. 60. Indeclinable cardinal numeral for 2.
+  gender_or_pos: numeral
+  audio: dyo-8929c0.mp3
   status: verified
-  example_el: Από εδώ ο φίλος μου, ο Μιχάλης.
-  example_en: This is my friend, Michalis.
+  example_el: Δύο εισιτήρια για το μετρό, παρακαλώ.
+  example_en: Two tickets for the metro, please.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Introducing a third person to others
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Counting items and ordering pairs
 - id: A1-U102-020
-  greek: Καλωσόρισες!
-  phonetic_hint: kah-loh-SOH-ree-ses
-  english: Welcome! (informal singular)
-  notes: Klik A1 p. 53. Welcoming one person informally.
-  gender_or_pos: phrase
-  audio: kalosorises-5dbf63.mp3
+  greek: τρία
+  phonetic_hint: TREE-ah
+  english: three (3)
+  notes: 'Klik A1 p. 60. Declinable numeral: τρεις (m/f), τρία (n).'
+  gender_or_pos: numeral
+  audio: tria-532eae.mp3
   status: verified
-  example_el: Καλωσόρισες στο σπίτι μας, Πέτρο!
-  example_en: Welcome to our home, Petros!
+  example_el: Έχω τρία αδέρφια στην Ελλάδα.
+  example_en: I have three siblings in Greece.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Welcoming a guest informally
+    part_of_speech: cardinal numeral
+    masculine_feminine: τρεις
+    neuter: τρία
+  keg_communicative_function: Counting items
 - id: A1-U102-021
-  greek: Καλωσορίσατε!
-  phonetic_hint: kah-loh-soh-REE-sah-teh
-  english: Welcome! (formal singular or plural)
-  notes: Klik A1 p. 53. Welcoming a group or addressing an individual politely.
-  gender_or_pos: phrase
-  audio: kalosorisate-f675fc.mp3
+  greek: τέσσερα
+  phonetic_hint: TES-seh-rah
+  english: four (4)
+  notes: 'Klik A1 p. 60. Declinable numeral: τέσσερις (m/f), τέσσερα (n).'
+  gender_or_pos: numeral
+  audio: tessera-80d26b.mp3
   status: verified
-  example_el: Καλωσορίσατε στην Ελλάδα!
-  example_en: Welcome to Greece!
+  example_el: Το τραπέζι είναι για τέσσερα άτομα.
+  example_en: The table is for four people.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Welcoming visitors politely or in groups
+    part_of_speech: cardinal numeral
+    masculine_feminine: τέσσερις
+    neuter: τέσσερα
+  keg_communicative_function: Counting items and group sizes
 - id: A1-U102-022
-  greek: Τι κάνεις;
-  phonetic_hint: tee KAH-nees
-  english: How are you? / What are you doing? (informal)
-  notes: Klik A1 p. 48, 49, 54. Primary conversational check-in among friends.
-  gender_or_pos: phrase
-  audio: ti-kaneis-108950.mp3
+  greek: πέντε
+  phonetic_hint: PEN-deh
+  english: five (5)
+  notes: Klik A1 p. 60. Indeclinable cardinal numeral.
+  gender_or_pos: numeral
+  audio: pente-a427d4.mp3
   status: verified
-  example_el: Γεια σου, Άννα! Τι κάνεις; Είσαι καλά;
-  example_en: Hello, Anna! How are you? Are you well?
+  example_el: Το μάθημα τελειώνει στις πέντε το απόγευμα.
+  example_en: The lesson finishes at five in the afternoon.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking about health and state informally
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Counting items and stating time
 - id: A1-U102-023
-  greek: Τι κάνετε;
-  phonetic_hint: tee KAH-neh-teh
-  english: How are you? (formal singular or plural)
-  notes: Klik A1 p. 49, 53, 54. Polite plural form of 'τι κάνεις'.
-  gender_or_pos: phrase
-  audio: ti-kanete-5dd3c8.mp3
+  greek: έξι
+  phonetic_hint: EK-see
+  english: six (6)
+  notes: Klik A1 p. 60. Indeclinable cardinal numeral.
+  gender_or_pos: numeral
+  audio: exi-b010e4.mp3
   status: verified
-  example_el: Καλημέρα σας, κύριε καθηγητά! Τι κάνετε;
-  example_en: Good morning, professor! How are you?
+  example_el: Αγοράζω έξι αυγά από το σούπερ μάρκετ.
+  example_en: I buy six eggs from the supermarket.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking how someone is doing formally
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Counting items
 - id: A1-U102-024
-  greek: Πώς είσαι;
-  phonetic_hint: pos EE-seh
-  english: How are you doing? (informal)
-  notes: Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person singular of είμαι.
-  gender_or_pos: phrase
-  audio: pos-eisai-900dcd.mp3
+  greek: επτά
+  phonetic_hint: ep-TAH
+  english: seven (7)
+  notes: Klik A1 p. 60. Also spelled and pronounced 'εφτά'.
+  gender_or_pos: numeral
+  audio: epta-45ea23.mp3
   status: verified
-  example_el: Πώς είσαι σήμερα; Νιώθεις καλύτερα;
-  example_en: How are you today? Do you feel better?
+  example_el: Η εβδομάδα έχει επτά ημέρες.
+  example_en: The week has seven days.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Inquiring about someone's condition
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Counting days and quantities
 - id: A1-U102-025
-  greek: Πώς είστε;
-  phonetic_hint: pos EES-teh
-  english: How are you doing? (formal or plural)
-  notes: Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person plural/polite of είμαι.
-  gender_or_pos: phrase
-  audio: pos-eiste-826858.mp3
+  greek: οκτώ
+  phonetic_hint: ok-TOH
+  english: eight (8)
+  notes: Klik A1 p. 60. Also spelled and pronounced 'οχτώ'.
+  gender_or_pos: numeral
+  audio: okto-2a5536.mp3
   status: verified
-  example_el: Γεια σας, παιδιά! Πώς είστε όλοι;
-  example_en: Hello, guys! How are you all doing?
+  example_el: Ξυπνάω στις οκτώ το πρωί κάθε μέρα.
+  example_en: I wake up at eight in the morning every day.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Inquiring about well-being in formal or group contexts
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Stating quantities and clock hours
 - id: A1-U102-026
-  greek: Είσαι καλά;
-  phonetic_hint: EE-seh kah-LAH
-  english: Are you well? / Are you okay?
-  notes: Klik A1 p. 51. Direct question checking someone's health or state.
-  gender_or_pos: phrase
-  audio: eisai-kala-3a253f.mp3
+  greek: εννέα
+  phonetic_hint: en-NEH-ah
+  english: nine (9)
+  notes: Klik A1 p. 60. Also colloquially 'εννιά'.
+  gender_or_pos: numeral
+  audio: ennea-e87db2.mp3
   status: verified
-  example_el: — Είσαι καλά; — Ναι, πολύ καλά είμαι.
-  example_en: — Are you okay? — Yes, I am very well.
+  example_el: Το λεωφορείο περνάει στις εννέα.
+  example_en: The bus passes at nine.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Checking if someone is okay
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Reading digits and bus timetables
 - id: A1-U102-027
-  greek: Πολύ καλά, ευχαριστώ!
-  phonetic_hint: po-LEE kah-LAH ef-hah-ree-STOH
-  english: Very well, thank you!
-  notes: Klik A1 p. 48, 49, 52, 54. Standard polite reply to 'τι κάνεις'.
-  gender_or_pos: phrase
-  audio: poly-kala-eycharisto-5bff8a.mp3
+  greek: δέκα
+  phonetic_hint: THEH-kah
+  english: ten (10)
+  notes: Klik A1 p. 60. Foundation of the decimal system.
+  gender_or_pos: numeral
+  audio: deka-f12a18.mp3
   status: verified
-  example_el: — Τι κάνεις; — Πολύ καλά, ευχαριστώ! Εσύ;
-  example_en: — How are you? — Very well, thank you! And you?
+  example_el: Στην τάξη είμαστε δέκα μαθητές.
+  example_en: In the classroom we are ten students.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Answering an inquiry about condition politely
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Counting up to ten
 - id: A1-U102-028
-  greek: Μια χαρά!
-  phonetic_hint: myah hah-RAH
-  english: Great! / Just fine! / Wonderful!
-  notes: 'Klik A1 p. 49, 51, 52, 54. Very common Greek upbeat reply. Lit: ''A joy!''.'
+  greek: Πόσο κάνει;
+  phonetic_hint: POH-soh KAH-nee
+  english: How much does it make? / How much is it?
+  notes: Klik A1 p. 60. Used for math calculations (2 + 2 = 4) and prices.
   gender_or_pos: phrase
-  audio: mia-chara-c37e9a.mp3
+  audio: poso-kanei-d7d8f9.mp3
   status: verified
-  example_el: Όλα πάνε μια χαρά με τα μαθήματα.
-  example_en: Everything is going great with the lessons.
+  example_el: — Πόσο κάνει πέντε συν πέντε; — Κάνει δέκα.
+  example_en: — How much is five plus five? — It makes ten.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing positive state enthusiastically
+  keg_communicative_function: Asking arithmetic sums and costs
 - id: A1-U102-029
-  greek: Όλα καλά!
-  phonetic_hint: OH-lah kah-LAH
-  english: All good! / Everything is fine!
-  notes: 'Klik A1 p. 49, 54. Colloquial reassurance: ''Everything is good''.'
-  gender_or_pos: phrase
-  audio: ola-kala-23a44f.mp3
+  greek: κοντά σε
+  phonetic_hint: kon-DAH seh
+  english: near to / close to
+  notes: 'Klik A1 p. 63, 67. Prepositional phrase: κοντά στο σπίτι, κοντά στην πλατεία.'
+  gender_or_pos: preposition
+  audio: konta-se-398a48.mp3
   status: verified
-  example_el: — Όλα καλά στη δουλειά; — Ναι, όλα καλά!
-  example_en: — Everything good at work? — Yes, all good!
+  example_el: Το σπίτι μου είναι κοντά στον σταθμό του μετρό.
+  example_en: My house is close to the metro station.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Confirming everything is running smoothly
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Expressing proximity in space
 - id: A1-U102-030
-  greek: Έτσι κι έτσι.
-  phonetic_hint: ET-see kee ET-see
-  english: So-so. / Not bad, not great.
-  notes: Klik A1 p. 49, 54. Neutral reply indicating moderate condition.
-  gender_or_pos: phrase
-  audio: etsi-ki-etsi-d6fce1.mp3
+  greek: μακριά από
+  phonetic_hint: mah-kree-AH ah-PO
+  english: far from
+  notes: Klik A1 p. 62, 67. Opposite of κοντά σε.
+  gender_or_pos: preposition
+  audio: makria-apo-619ee0.mp3
   status: verified
-  example_el: — Πώς πάνε τα πράγματα; — Έτσι κι έτσι.
-  example_en: — How are things going? — So-so.
+  example_el: Το αεροδρόμιο είναι μακριά από το κέντρο.
+  example_en: The airport is far from the city center.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Expressing mediocre condition
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Expressing distance in space
 - id: A1-U102-031
-  greek: Όχι καλά.
-  phonetic_hint: OH-khee kah-LAH
-  english: Not well. / Not good.
-  notes: Klik A1 p. 49, 54. Honest negative response to well-being inquiry.
-  gender_or_pos: phrase
-  audio: ochi-kala-f8885f.mp3
+  greek: απέναντι από
+  phonetic_hint: ah-PEH-nahn-dee ah-PO
+  english: opposite / across from
+  notes: Klik A1 p. 63. Key spatial locator across a street or square.
+  gender_or_pos: preposition
+  audio: apenanti-apo-240ccc.mp3
   status: verified
-  example_el: Σήμερα δεν είμαι καλά, πονάει το κεφάλι μου.
-  example_en: Today I am not well, my head hurts.
+  example_el: Η καφετέρια είναι ακριβώς απέναντι από το μουσείο.
+  example_en: The cafe is directly across from the museum.
   grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Expressing negative well-being
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Locating places directly opposite each other
 - id: A1-U102-032
-  greek: Εσύ;
-  phonetic_hint: eh-SEE
-  english: And you? (informal singular)
-  notes: Klik A1 p. 48, 49, 50, 54. Conversational rebound asking the other person.
-  gender_or_pos: pronoun
-  audio: esy-4598c2.mp3
+  greek: δίπλα σε
+  phonetic_hint: THEEP-lah seh
+  english: next to / beside
+  notes: 'Klik A1 p. 63. Followed by accusative: δίπλα στο σπίτι, δίπλα στη στάση.'
+  gender_or_pos: preposition
+  audio: dipla-se-bb57f9.mp3
   status: verified
-  example_el: Εγώ είμαι καλά. Εσύ;
-  example_en: I am fine. And you?
+  example_el: Η στάση του λεωφορείου είναι δίπλα στο φαρμακείο.
+  example_en: The bus stop is next to the pharmacy.
   grammatical_info:
-    part_of_speech: personal pronoun
-  keg_communicative_function: Bouncing a social inquiry back to the speaker
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Describing adjacent locations
 - id: A1-U102-033
-  greek: Εσείς;
-  phonetic_hint: eh-SEES
-  english: And you? (formal or plural)
-  notes: Klik A1 p. 48, 54. Polite or plural rebound pronoun.
-  gender_or_pos: pronoun
-  audio: eseis-b2a9c2.mp3
+  greek: μπροστά από
+  phonetic_hint: broh-STAH ah-PO
+  english: in front of
+  notes: Klik A1 p. 63. Spatial preposition phrase.
+  gender_or_pos: preposition
+  audio: mprosta-apo-45e815.mp3
   status: verified
-  example_el: Ευχαριστώ, είμαι πολύ καλά. Εσείς;
-  example_en: Thank you, I am very well. And you?
+  example_el: Το πάρκο είναι μπροστά από το νοσοκομείο.
+  example_en: The park is in front of the hospital.
   grammatical_info:
-    part_of_speech: personal pronoun
-  keg_communicative_function: Bouncing an inquiry back formally
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Locating an object in front of another
 - id: A1-U102-034
-  greek: εγώ
-  phonetic_hint: eh-GHOH
-  english: I (personal pronoun)
-  notes: Klik A1 p. 51. 1st person singular. Used for emphasis or contrast since verbs
-    show person.
-  gender_or_pos: pronoun
-  audio: ego-98e697.mp3
+  greek: πίσω από
+  phonetic_hint: PEE-soh ah-PO
+  english: behind
+  notes: Klik A1 p. 63, 64. Opposite of μπροστά από.
+  gender_or_pos: preposition
+  audio: piso-apo-cece97.mp3
   status: verified
-  example_el: Εγώ είμαι ο Ανδρέας.
-  example_en: I am Andreas.
+  example_el: Το γυμναστήριο είναι πίσω από το σχολείο.
+  example_en: The gym is behind the school.
   grammatical_info:
-    part_of_speech: personal pronoun
-    grammatical_person: 1st person singular
-  keg_communicative_function: Emphasizing oneself as subject
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Locating an object behind another
 - id: A1-U102-035
-  greek: εσύ
-  phonetic_hint: eh-SEE
-  english: you (informal singular pronoun)
-  notes: Klik A1 p. 51. 2nd person singular subject personal pronoun.
-  gender_or_pos: pronoun
-  audio: esy-96c0ba.mp3
+  greek: πάνω σε
+  phonetic_hint: PAH-no seh
+  english: on / on top of
+  notes: 'Klik A1 p. 65. Followed by accusative: πάνω στο τραπέζι, πάνω στην πλατεία.'
+  gender_or_pos: preposition
+  audio: pano-se-f61ef0.mp3
   status: verified
-  example_el: Εσύ είσαι ο Πέτρος;
-  example_en: Are you Petros?
+  example_el: Το ξενοδοχείο είναι πάνω στην πλατεία Αριστοτέλους.
+  example_en: The hotel is right on Aristotelous Square.
   grammatical_info:
-    part_of_speech: personal pronoun
-    grammatical_person: 2nd person singular
-  keg_communicative_function: Addressing someone directly as subject
+    part_of_speech: prepositional phrase
+  keg_communicative_function: Locating buildings situated directly on a street or
+    square
 - id: A1-U102-036
-  greek: αυτός
-  phonetic_hint: af-TOS
-  english: he / this one (masculine)
-  notes: Klik A1 p. 51. 3rd person singular masculine. Diphthong αυ pronounced [af].
-  gender_or_pos: pronoun
-  audio: aytos-9a3230.mp3
+  greek: το σπίτι
+  phonetic_hint: to SPEE-tee
+  english: house / home
+  notes: 'Klik A1 p. 63, 65, 67. Neuter in -ι (plural: τα σπίτια).'
+  gender_or_pos: noun (neuter)
+  audio: to-spiti-b7d111.mp3
   status: verified
-  example_el: Αυτός είναι ο καινούριος συνάδελφος.
-  example_en: He is the new colleague.
+  example_el: Πάω στο σπίτι να ξεκουραστώ.
+  example_en: I am going home to rest.
   grammatical_info:
-    part_of_speech: personal pronoun (masculine)
-    grammatical_person: 3rd person singular masculine
-  keg_communicative_function: Referring to a male person
+    part_of_speech: noun (neuter)
+    plural: τα σπίτια
+    accusative_singular: το σπίτι
+  keg_communicative_function: Describing one's home
 - id: A1-U102-037
-  greek: αυτή
-  phonetic_hint: af-TEE
-  english: she / this one (feminine)
-  notes: Klik A1 p. 51. 3rd person singular feminine pronoun. Diphthong αυ pronounced
-    [af].
-  gender_or_pos: pronoun
-  audio: ayti-2d323d.mp3
+  greek: η πλατεία
+  phonetic_hint: ee plah-TEE-ah
+  english: square / town plaza
+  notes: 'Klik A1 p. 64, 65, 67. Feminine in -α (plural: οι πλατείες). Central meeting
+    spot.'
+  gender_or_pos: noun (feminine)
+  audio: i-plateia-d3778b.mp3
   status: verified
-  example_el: Αυτή είναι η κυρία Ελένη.
-  example_en: She is Mrs. Eleni.
+  example_el: Συναντιόμαστε στην πλατεία Συντάγματος.
+  example_en: We are meeting at Syntagma Square.
   grammatical_info:
-    part_of_speech: personal pronoun (feminine)
-    grammatical_person: 3rd person singular feminine
-  keg_communicative_function: Referring to a female person
+    part_of_speech: noun (feminine)
+    plural: οι πλατείες
+    accusative_singular: την πλατεία
+  keg_communicative_function: Arranging a meeting point in town
 - id: A1-U102-038
-  greek: αυτό
-  phonetic_hint: af-TOH
-  english: it / this (neuter)
-  notes: Klik A1 p. 51. 3rd person singular neuter pronoun.
-  gender_or_pos: pronoun
-  audio: ayto-89e896.mp3
+  greek: ο δρόμος
+  phonetic_hint: o THROH-mos
+  english: street / road
+  notes: 'Klik A1 p. 64. Common masculine noun for road or street (plural: οι δρόμοι).'
+  gender_or_pos: noun (masculine)
+  audio: o-dromos-0a4ccb.mp3
   status: verified
-  example_el: Αυτό είναι το σχολείο της γειτονιάς.
-  example_en: This is the neighborhood school.
+  example_el: Ο δρόμος έχει πολλή κίνηση το πρωί.
+  example_en: The street has a lot of traffic in the morning.
   grammatical_info:
-    part_of_speech: personal pronoun (neuter)
-    grammatical_person: 3rd person singular neuter
-  keg_communicative_function: Pointing out or identifying neuter objects and places
+    part_of_speech: noun (masculine)
+    plural: οι δρόμοι
+    accusative_singular: τον δρόμο
+  keg_communicative_function: Describing streets and routes
 - id: A1-U102-039
-  greek: εμείς
-  phonetic_hint: eh-MEES
-  english: we (personal pronoun)
-  notes: Klik A1 p. 51, 52. 1st person plural subject pronoun. Digraph ει [i].
-  gender_or_pos: pronoun
-  audio: emeis-2dfd81.mp3
+  greek: η στάση
+  phonetic_hint: ee STAH-see
+  english: stop (bus / tram stop)
+  notes: 'Klik A1 p. 63. Feminine in -ση: η στάση του λεωφορείου.'
+  gender_or_pos: noun (feminine)
+  audio: i-stasi-cea227.mp3
   status: verified
-  example_el: Εμείς είμαστε μαθητές στο πρώτο επίπεδο.
-  example_en: We are students in the first level.
+  example_el: Περιμένω το λεωφορείο στη στάση.
+  example_en: I am waiting for the bus at the stop.
   grammatical_info:
-    part_of_speech: personal pronoun
-    grammatical_person: 1st person plural
-  keg_communicative_function: Speaking as a group
+    part_of_speech: noun (feminine)
+    plural: οι στάσεις
+    accusative_singular: τη στάση
+  keg_communicative_function: Using local public transport
 - id: A1-U102-040
-  greek: εσείς
-  phonetic_hint: eh-SEES
-  english: you (plural or polite singular pronoun)
-  notes: Klik A1 p. 51. 2nd person plural subject pronoun, also polite singular address.
-  gender_or_pos: pronoun
-  audio: eseis-f7b073.mp3
+  greek: ο σταθμός
+  phonetic_hint: o stahth-MOS
+  english: station (train / metro / bus terminal)
+  notes: 'Klik A1 p. 64, 67. Oxytone masculine: ο σταθμός του τρένου / μετρό.'
+  gender_or_pos: noun (masculine)
+  audio: o-stathmos-b0a9a8.mp3
   status: verified
-  example_el: Εσείς είστε ο κύριος Σταύρος;
-  example_en: Are you Mr. Stavros?
+  example_el: Ο κεντρικός σταθμός είναι πολύ κοντά.
+  example_en: The central station is very close.
   grammatical_info:
-    part_of_speech: personal pronoun
-    grammatical_person: 2nd person plural / formal
-  keg_communicative_function: Addressing groups or individuals politely
+    part_of_speech: noun (masculine)
+    plural: οι σταθμοί
+    accusative_singular: τον σταθμό
+  keg_communicative_function: Navigating transportation hubs
 - id: A1-U102-041
-  greek: αυτοί
-  phonetic_hint: af-TEE
-  english: they (masculine plural pronoun)
-  notes: Klik A1 p. 51. 3rd person plural masculine (or mixed gender group). Digraph
-    οι [i].
-  gender_or_pos: pronoun
-  audio: aytoi-45c6fc.mp3
+  greek: το μετρό
+  phonetic_hint: to meh-TROH
+  english: metro / subway
+  notes: Klik A1 p. 63, 67. Neuter indeclinable loanword with oxytone stress.
+  gender_or_pos: noun (neuter indeclinable)
+  audio: to-metro-181f50.mp3
   status: verified
-  example_el: Αυτοί είναι ο Κώστας και ο Δημήτρης.
-  example_en: They are Kostas and Dimitris.
+  example_el: Παίρνω το μετρό για να πάω στο κέντρο.
+  example_en: I take the metro to go downtown.
   grammatical_info:
-    part_of_speech: personal pronoun (masculine plural)
-    grammatical_person: 3rd person plural masculine
-  keg_communicative_function: Referring to multiple male individuals
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα μετρό
+    accusative_singular: το μετρό
+  keg_communicative_function: Using subway transport
 - id: A1-U102-042
-  greek: αυτές
-  phonetic_hint: af-TES
-  english: they (feminine plural pronoun)
-  notes: Klik A1 p. 51. 3rd person plural feminine pronoun.
-  gender_or_pos: pronoun
-  audio: aytes-4fba96.mp3
+  greek: το ταχυδρομείο
+  phonetic_hint: to tah-khee-throh-MEE-o
+  english: post office
+  notes: 'Klik A1 p. 64, 65. Neuter noun in -είο (plural: τα ταχυδρομεία).'
+  gender_or_pos: noun (neuter)
+  audio: to-tachydromeio-4f5b5b.mp3
   status: verified
-  example_el: Αυτές είναι η Άννα και η Μαρία.
-  example_en: They are Anna and Maria.
+  example_el: Στέλνω ένα δέμα από το ταχυδρομείο.
+  example_en: I send a parcel from the post office.
   grammatical_info:
-    part_of_speech: personal pronoun (feminine plural)
-    grammatical_person: 3rd person plural feminine
-  keg_communicative_function: Referring to a group of female individuals
+    part_of_speech: noun (neuter)
+    plural: τα ταχυδρομεία
+    accusative_singular: το ταχυδρομείο
+  keg_communicative_function: Visiting postal service branches
 - id: A1-U102-043
-  greek: αυτά
-  phonetic_hint: af-TAH
-  english: they / these (neuter plural pronoun)
-  notes: Klik A1 p. 51. 3rd person plural neuter pronoun.
-  gender_or_pos: pronoun
-  audio: ayta-57de23.mp3
+  greek: το νοσοκομείο
+  phonetic_hint: to noh-soh-koh-MEE-o
+  english: hospital
+  notes: 'Klik A1 p. 63, 64, 65, 67. Neuter noun in -είο (plural: τα νοσοκομεία).'
+  gender_or_pos: noun (neuter)
+  audio: to-nosokomeio-47505b.mp3
   status: verified
-  example_el: Αυτά είναι τα παιδιά της γειτονιάς.
-  example_en: These are the children of the neighborhood.
+  example_el: Ο γιατρός δουλεύει στο πανεπιστημιακό νοσοκομείο.
+  example_en: The doctor works at the university hospital.
   grammatical_info:
-    part_of_speech: personal pronoun (neuter plural)
-    grammatical_person: 3rd person plural neuter
-  keg_communicative_function: Referring to neuter plural entities
+    part_of_speech: noun (neuter)
+    plural: τα νοσοκομεία
+    accusative_singular: το νοσοκομείο
+  keg_communicative_function: Locating healthcare facilities
 - id: A1-U102-044
-  greek: είμαι
-  phonetic_hint: EE-meh
-  english: to be / I am
-  notes: 'Klik A1 p. 43, 51. Core irregular copular verb: είμαι, είσαι, είναι, είμαστε,
-    είστε, είναι.'
-  gender_or_pos: verb
-  audio: eimai-8863b2.mp3
+  greek: το φαρμακείο
+  phonetic_hint: to fahr-mah-KEE-o
+  english: pharmacy / chemist
+  notes: 'Klik A1 p. 67. Neuter in -είο (plural: τα φαρμακεία). Identified by a green
+    cross.'
+  gender_or_pos: noun (neuter)
+  audio: to-farmakeio-569253.mp3
   status: verified
-  example_el: Είμαι ο Δημήτρης και είμαι από την Ελλάδα.
-  example_en: I am Dimitris and I am from Greece.
+  example_el: Αγοράζω παυσίπονα από το διπλανό φαρμακείο.
+  example_en: I buy painkillers from the neighboring pharmacy.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: irregular copular
-    third_person_singular: είναι
-    first_person_plural: είμαστε
-  keg_communicative_function: Stating identity, origin, and state
+    part_of_speech: noun (neuter)
+    plural: τα φαρμακεία
+    accusative_singular: το φαρμακείο
+  keg_communicative_function: Finding pharmacies and purchasing medicines
 - id: A1-U102-045
-  greek: είσαι
-  phonetic_hint: EE-seh
-  english: you are (2nd person singular)
-  notes: Klik A1 p. 51. Used for singular informal address.
-  gender_or_pos: verb
-  audio: eisai-8af023.mp3
+  greek: το μουσείο
+  phonetic_hint: to moo-SEE-o
+  english: museum
+  notes: 'Klik A1 p. 63, 64, 65, 67. Neuter in -είο (plural: τα μουσεία).'
+  gender_or_pos: noun (neuter)
+  audio: to-moyseio-6221c2.mp3
   status: verified
-  example_el: Είσαι έτοιμος για το μάθημα;
-  example_en: Are you ready for the lesson?
+  example_el: Επισκεπτόμαστε το Μουσείο της Ακρόπολης.
+  example_en: We are visiting the Acropolis Museum.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: irregular copular
-    third_person_singular: είναι
-    first_person_plural: είμαστε
-  keg_communicative_function: Addressing someone directly about their state
+    part_of_speech: noun (neuter)
+    plural: τα μουσεία
+    accusative_singular: το μουσείο
+  keg_communicative_function: Sightseeing and visiting cultural museums
 - id: A1-U102-046
-  greek: είναι
-  phonetic_hint: EE-neh
-  english: is / are (3rd person singular and plural)
-  notes: Klik A1 p. 51. Identical form for 3rd person singular and 3rd person plural.
-  gender_or_pos: verb
-  audio: einai-7a92e5.mp3
+  greek: το ξενοδοχείο
+  phonetic_hint: to kseh-noh-thoh-KHEE-o
+  english: hotel
+  notes: 'Klik A1 p. 64, 65, 67. Neuter in -είο (plural: τα ξενοδοχεία).'
+  gender_or_pos: noun (neuter)
+  audio: to-xenodocheio-2248f1.mp3
   status: verified
-  example_el: Αυτός είναι ο δάσκαλος και αυτοί είναι οι μαθητές.
-  example_en: He is the teacher and they are the students.
+  example_el: Μένουμε σε ένα καθαρό ξενοδοχείο κοντά στη θάλασσα.
+  example_en: We stay at a clean hotel near the sea.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: irregular copular
-    third_person_singular: είναι
-    first_person_plural: είμαστε
-  keg_communicative_function: Stating facts and introducing others
+    part_of_speech: noun (neuter)
+    plural: τα ξενοδοχεία
+    accusative_singular: το ξενοδοχείο
+  keg_communicative_function: Arranging hotel accommodation
 - id: A1-U102-047
-  greek: είμαστε
-  phonetic_hint: EE-mahs-teh
-  english: we are (1st person plural)
-  notes: Klik A1 p. 51, 52. 1st person plural copula.
-  gender_or_pos: verb
-  audio: eimaste-373ae6.mp3
+  greek: το γυμναστήριο
+  phonetic_hint: to yeem-nah-STEE-ree-o
+  english: gym / fitness center
+  notes: 'Klik A1 p. 63, 67. Neuter in -ιο (plural: τα γυμναστήρια).'
+  gender_or_pos: noun (neuter)
+  audio: to-gymnastirio-2bad52.mp3
   status: verified
-  example_el: Είμαστε φίλοι εδώ και πολλά χρόνια.
-  example_en: We are friends for many years.
+  example_el: Πηγαίνω στο γυμναστήριο τρεις φορές την εβδομάδα.
+  example_en: I go to the gym three times a week.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: irregular copular
-    third_person_singular: είναι
-    first_person_plural: είμαστε
-  keg_communicative_function: Stating joint group identity
+    part_of_speech: noun (neuter)
+    plural: τα γυμναστήρια
+    accusative_singular: το γυμναστήριο
+  keg_communicative_function: Discussing fitness and workout facilities
 - id: A1-U102-048
-  greek: είστε
-  phonetic_hint: EES-teh
-  english: you are (2nd person plural or polite singular)
-  notes: Klik A1 p. 51. 2nd person plural and formal singular copula.
-  gender_or_pos: verb
-  audio: eiste-f50c12.mp3
+  greek: η βιβλιοθήκη
+  phonetic_hint: ee veev-lee-oh-THEE-kee
+  english: library / bookcase
+  notes: 'Klik A1 p. 67. Feminine in -η (plural: οι βιβλιοθήκες).'
+  gender_or_pos: noun (feminine)
+  audio: i-vivliothiki-0b978a.mp3
   status: verified
-  example_el: Εσείς είστε η κυρία καθηγήτρια;
-  example_en: Are you the professor?
+  example_el: Διαβάζω ήσυχα στην πανεπιστημιακή βιβλιοθήκη.
+  example_en: I study quietly in the university library.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βιβλιοθήκες
+    accusative_singular: τη βιβλιοθήκη
+  keg_communicative_function: Locating study spaces and libraries
+- id: A1-U102-049
+  greek: η εκκλησία
+  phonetic_hint: ee ek-klee-SEE-ah
+  english: church
+  notes: 'Klik A1 p. 67. Feminine in -ία (plural: οι εκκλησίες). Prominent Greek urban
+    landmark.'
+  gender_or_pos: noun (feminine)
+  audio: i-ekklisia-8cb0fb.mp3
+  status: verified
+  example_el: Η παλιά εκκλησία είναι πάνω στον λόφο.
+  example_en: The old church is up on the hill.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εκκλησίες
+    accusative_singular: την εκκλησία
+  keg_communicative_function: Identifying cultural and religious landmarks
+- id: A1-U102-050
+  greek: η καφετέρια
+  phonetic_hint: ee kah-feh-TEH-ree-ah
+  english: cafeteria / cafe
+  notes: 'Klik A1 p. 62, 63, 65. Feminine in -ια (plural: οι καφετέριες).'
+  gender_or_pos: noun (feminine)
+  audio: i-kafeteria-36a64b.mp3
+  status: verified
+  example_el: Πίνουμε καφέ στην καφετέρια της πλατείας.
+  example_en: We drink coffee at the cafe on the square.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καφετέριες
+    accusative_singular: την καφετέρια
+  keg_communicative_function: Meeting friends for coffee
+- id: A1-U102-051
+  greek: μένω
+  phonetic_hint: MEH-no
+  english: to live / to reside / to stay
+  notes: 'Klik A1 p. 55, 66. Type A regular active verb: μένω, μένεις, μένει, μένουμε,
+    μένετε, μένουν.'
+  gender_or_pos: verb
+  audio: meno-7ee031.mp3
+  status: verified
+  example_el: Μένω σε ένα φωτεινό διαμέρισμα στον τρίτο όροφο.
+  example_en: I live in a bright apartment on the third floor.
   grammatical_info:
     part_of_speech: verb
-    verb_type: irregular copular
-    third_person_singular: είναι
-    first_person_plural: είμαστε
-  keg_communicative_function: Addressing individuals politely or groups
-- id: A1-U102-049
-  greek: ναι
-  phonetic_hint: neh
-  english: 'yes'
-  notes: Klik A1 p. 51, 52, 54. Affirmative particle. Digraph αι [e].
-  gender_or_pos: phrase
-  audio: nai-628209.mp3
-  status: verified
-  example_el: Ναι, εγώ είμαι ο Κώστας.
-  example_en: Yes, I am Kostas.
-  grammatical_info:
-    part_of_speech: particle (affirmative)
-  keg_communicative_function: Expressing affirmation
-- id: A1-U102-050
-  greek: όχι
-  phonetic_hint: OH-khee
-  english: 'no'
-  notes: Klik A1 p. 51, 52, 54. Negative particle. Voiceless velar/palatal fricative
-    χ [ç].
-  gender_or_pos: phrase
-  audio: ochi-f33bfc.mp3
-  status: verified
-  example_el: Όχι, δεν είμαι ο Γιάννης.
-  example_en: No, I am not Giannis.
-  grammatical_info:
-    part_of_speech: particle (negative)
-  keg_communicative_function: Expressing negation
-- id: A1-U102-051
-  greek: δεν
-  phonetic_hint: then
-  english: not / do not (verbal negation)
-  notes: Klik A1 p. 51, 52, 53. Verbal negation particle placed immediately before
-    the verb.
-  gender_or_pos: particle (negative)
-  audio: den-822836.mp3
-  status: verified
-  example_el: Δεν είμαι από την Αθήνα, είμαι από τη Θεσσαλονίκη.
-  example_en: I am not from Athens, I am from Thessaloniki.
-  grammatical_info:
-    part_of_speech: negative particle
-  keg_communicative_function: Negating a verb statement
+    verb_type: Type A (active regular)
+    third_person_singular: μένει
+    first_person_plural: μένουμε
+  keg_communicative_function: Stating place of residence
 - id: A1-U102-052
-  greek: ο φίλος
-  phonetic_hint: o FEE-los
-  english: friend (male)
-  notes: 'Klik A1 p. 48, 52. Masculine noun in -ος. Plural: οι φίλοι.'
-  gender_or_pos: noun (masculine)
-  audio: o-filos-568da6.mp3
+  greek: σπουδάζω
+  phonetic_hint: spoo-THAH-zo
+  english: to study (at university / college)
+  notes: 'Klik A1 p. 62, 65, 66. Type A active regular verb: σπουδάζω, σπουδάζεις,
+    σπουδάζει.'
+  gender_or_pos: verb
+  audio: spoydazo-55e049.mp3
   status: verified
-  example_el: Από εδώ ο φίλος μου, ο Αλέξης.
-  example_en: This is my friend, Alexis.
+  example_el: Ο αδερφός μου σπουδάζει ιατρική στην Κρήτη.
+  example_en: My brother studies medicine in Crete.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι φίλοι
-    accusative_singular: τον φίλο
-  keg_communicative_function: Introducing a male friend
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: σπουδάζει
+    first_person_plural: σπουδάζουμε
+  keg_communicative_function: Talking about university studies and majors
 - id: A1-U102-053
-  greek: η φίλη
-  phonetic_hint: ee FEE-lee
-  english: friend (female)
-  notes: 'Klik A1 p. 48, 52, 54. Feminine noun in -η. Plural: οι φίλες.'
-  gender_or_pos: noun (feminine)
-  audio: i-fili-01b48a.mp3
+  greek: αρχίζω
+  phonetic_hint: ahr-KHEE-zo
+  english: to begin / to start
+  notes: 'Klik A1 p. 66. Type A regular verb: αρχίζω, αρχίζεις, αρχίζει.'
+  gender_or_pos: verb
+  audio: archizo-e47358.mp3
   status: verified
-  example_el: Από εδώ η καλή μου φίλη, η Αλεξάνδρα.
-  example_en: This is my good friend, Alexandra.
+  example_el: Φέτος αρχίζω μαθήματα νέων ελληνικών.
+  example_en: This year I am starting Modern Greek lessons.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι φίλες
-    accusative_singular: τη φίλη
-  keg_communicative_function: Introducing a female friend
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: αρχίζει
+    first_person_plural: αρχίζουμε
+  keg_communicative_function: Talking about commencement of activities
 - id: A1-U102-054
-  greek: ο δάσκαλος
-  phonetic_hint: o THAHS-kah-los
-  english: teacher / schoolteacher (male)
-  notes: 'Klik A1 p. 48, 54. Masculine proparoxytone in -ος (vocative: δάσκαλε).'
-  gender_or_pos: noun (masculine)
-  audio: o-daskalos-218684.mp3
+  greek: πίνω
+  phonetic_hint: PEE-no
+  english: to drink
+  notes: 'Klik A1 p. 66. Type A regular verb: πίνω, πίνεις, πίνει, πίνουμε, πίνετε,
+    πίνουν.'
+  gender_or_pos: verb
+  audio: pino-d8d6fd.mp3
   status: verified
-  example_el: Ο δάσκαλος μπαίνει στην τάξη και λέει καλημέρα.
-  example_en: The teacher enters the classroom and says good morning.
+  example_el: Πίνουμε έναν ελληνικό καφέ το πρωί.
+  example_en: We drink a Greek coffee in the morning.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι δάσκαλοι
-    accusative_singular: τον δάσκαλο
-  keg_communicative_function: Identifying a male instructor
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: πίνει
+    first_person_plural: πίνουμε
+  keg_communicative_function: Ordering and describing beverage consumption
 - id: A1-U102-055
-  greek: η δασκάλα
-  phonetic_hint: ee thahs-KAH-lah
-  english: teacher / schoolteacher (female)
-  notes: 'Klik A1 p. 48, 54. Feminine paroxytone in -α (plural: οι δασκάλες).'
-  gender_or_pos: noun (feminine)
-  audio: i-daskala-a57b1d.mp3
+  greek: κάνω
+  phonetic_hint: KAH-no
+  english: to do / to make
+  notes: 'Klik A1 p. 62, 66. High-frequency verb: κάνω ψώνια, κάνω μάθημα, τι κάνεις.'
+  gender_or_pos: verb
+  audio: kano-f19aca.mp3
   status: verified
-  example_el: Η δασκάλα μας είναι πολύ ευγενική.
-  example_en: Our teacher is very polite.
+  example_el: Τι κάνεις σήμερα το απόγευμα;
+  example_en: What are you doing this afternoon?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι δασκάλες
-    accusative_singular: τη δασκάλα
-  keg_communicative_function: Identifying a female instructor
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: κάνει
+    first_person_plural: κάνουμε
+  keg_communicative_function: Asking and describing daily activities
 - id: A1-U102-056
-  greek: ο συμμαθητής
-  phonetic_hint: o see-mah-thee-TEES
-  english: classmate (male)
-  notes: 'Klik A1 p. 43, 53. Masculine oxytone in -ής (plural: οι συμμαθητές).'
-  gender_or_pos: noun (masculine)
-  audio: o-symmathitis-558f9d.mp3
+  greek: ξέρω
+  phonetic_hint: KSEH-ro
+  english: to know
+  notes: 'Klik A1 p. 67. Type A verb: ξέρω, ξέρεις, ξέρει. Practicing initial cluster
+    ξ [ks].'
+  gender_or_pos: verb
+  audio: xero-6fa5a4.mp3
   status: verified
-  example_el: Ο συμμαθητής μου κάθεται δίπλα μου.
-  example_en: My classmate sits next to me.
+  example_el: Ξέρεις πού είναι το ταχυδρομείο;
+  example_en: Do you know where the post office is?
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: ξέρει
+    first_person_plural: ξέρουμε
+  keg_communicative_function: Asking for knowledge and directions
+- id: A1-U102-057
+  greek: καταλαβαίνω
+  phonetic_hint: kah-tah-lah-VEH-no
+  english: to understand / to comprehend
+  notes: 'Klik A1 p. 56. Type A regular verb: καταλαβαίνω, καταλαβαίνεις, καταλαβαίνει.'
+  gender_or_pos: verb
+  audio: katalavaino-c8a582.mp3
+  status: verified
+  example_el: Καταλαβαίνω ελληνικά αλλά μιλάω λίγο.
+  example_en: I understand Greek but I speak only a little.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: καταλαβαίνει
+    first_person_plural: καταλαβαίνουμε
+  keg_communicative_function: Expressing language comprehension ability
+- id: A1-U102-058
+  greek: οι γονείς
+  phonetic_hint: ee goh-NEES
+  english: parents
+  notes: 'Klik A1 p. 62, 67. Masculine plural noun: οι γονείς (singular: ο γονέας).'
+  gender_or_pos: noun (masculine plural)
+  audio: oi-goneis-d1c011.mp3
+  status: verified
+  example_el: Μένω μαζί με τους γονείς μου στην Αθήνα.
+  example_en: I live together with my parents in Athens.
+  grammatical_info:
+    part_of_speech: noun (masculine plural)
+    plural: οι γονείς
+    accusative_singular: τον γονέα
+  keg_communicative_function: Describing family living arrangements
+- id: A1-U102-059
+  greek: ο μπαμπάς
+  phonetic_hint: o bahm-BAHS
+  english: dad / father
+  notes: 'Klik A1 p. 62. Masculine in -άς (plural: οι μπαμπάδες). Informal family
+    noun.'
+  gender_or_pos: noun (masculine)
+  audio: o-mpampas-67d8ba.mp3
+  status: verified
+  example_el: Ο μπαμπάς μου δουλεύει ως μηχανικός.
+  example_en: My dad works as an engineer.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι συμμαθητές
-    accusative_singular: τον συμμαθητή
-  keg_communicative_function: Identifying fellow male students
-- id: A1-U102-057
-  greek: η συμμαθήτρια
-  phonetic_hint: ee see-mah-THEE-tree-ah
-  english: classmate (female)
-  notes: 'Klik A1 p. 53. Feminine noun in -τρια (plural: οι συμμαθήτριες).'
+    plural: οι μπαμπάδες
+    accusative_singular: τον μπαμπά
+  keg_communicative_function: Talking about family members
+- id: A1-U102-060
+  greek: η μαμά
+  phonetic_hint: ee mah-MAH
+  english: mom / mother
+  notes: 'Klik A1 p. 62. Feminine in -ά (plural: οι μαμάδες). Informal family noun.'
   gender_or_pos: noun (feminine)
-  audio: i-symmathitria-fe4a35.mp3
+  audio: i-mama-dd09d8.mp3
   status: verified
-  example_el: Κάνω την άσκηση μαζί με τη συμμαθήτριά μου.
-  example_en: I do the exercise together with my classmate.
+  example_el: Η μαμά μου είναι δασκάλα στο σχολείο.
+  example_en: My mom is a teacher at the school.
   grammatical_info:
     part_of_speech: noun (feminine)
-    plural: οι συμμαθήτριες
-    accusative_singular: τη συμμαθήτρια
-  keg_communicative_function: Identifying fellow female students
-- id: A1-U102-058
-  greek: το παιδί
-  phonetic_hint: to peh-THEE
-  english: child / kid
-  notes: 'Klik A1 p. 48, 51. Digraph αι [e]. Vocative plural: ''παιδιά!'' (guys! /
-    children!).'
-  gender_or_pos: noun (neuter)
-  audio: to-paidi-4ddee0.mp3
+    plural: οι μαμάδες
+    accusative_singular: τη μαμά
+  keg_communicative_function: Talking about family members
+- id: A1-U102-061
+  greek: ο φοιτητής
+  phonetic_hint: o fee-tee-TEES
+  english: university student (male)
+  notes: 'Klik A1 p. 65. Masculine oxytone in -ής (plural: οι φοιτητές).'
+  gender_or_pos: noun (masculine)
+  audio: o-foititis-585c37.mp3
   status: verified
-  example_el: Καλημέρα, παιδιά! Ανοίξτε τα βιβλία σας.
-  example_en: Good morning, children! Open your books.
+  example_el: Ο φοιτητής διαβάζει στη βιβλιοθήκη του πανεπιστημίου.
+  example_en: The university student is studying in the university library.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παιδιά
-    accusative_singular: το παιδί
-  keg_communicative_function: Addressing groups of learners or children
-- id: A1-U102-059
-  greek: το κορίτσι
-  phonetic_hint: to koh-REET-see
-  english: girl
-  notes: Klik A1 p. 51. Neuter noun in -ι with plural in -ια. Practicing affricate
-    τσ [ts].
-  gender_or_pos: noun (neuter)
-  audio: to-koritsi-92f6c1.mp3
+    part_of_speech: noun (masculine)
+    plural: οι φοιτητές
+    accusative_singular: τον φοιτητή
+  keg_communicative_function: Describing academic occupation
+- id: A1-U102-062
+  greek: η φοιτήτρια
+  phonetic_hint: ee fee-TEE-tree-ah
+  english: university student (female)
+  notes: 'Klik A1 p. 65. Feminine noun in -τρια (plural: οι φοιτήτριες).'
+  gender_or_pos: noun (feminine)
+  audio: i-foititria-7ade48.mp3
   status: verified
-  example_el: Αυτά τα κορίτσια μαθαίνουν ελληνικά.
-  example_en: These girls are learning Greek.
+  example_el: Η Ελένη είναι φοιτήτρια νομικής.
+  example_en: Eleni is a law student.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κορίτσια
-    accusative_singular: το κορίτσι
-  keg_communicative_function: Identifying young females
-- id: A1-U102-060
-  greek: το αγόρι
-  phonetic_hint: to ah-GHOH-ree
-  english: boy
-  notes: Klik A1 p. 51. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-agori-321941.mp3
-  status: verified
-  example_el: Το αγόρι παίζει ποδόσφαιρο στην αυλή.
-  example_en: The boy is playing soccer in the courtyard.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αγόρια
-    accusative_singular: το αγόρι
-  keg_communicative_function: Identifying young males
+    part_of_speech: noun (feminine)
+    plural: οι φοιτήτριες
+    accusative_singular: τη φοιτήτρια
+  keg_communicative_function: Describing academic occupation

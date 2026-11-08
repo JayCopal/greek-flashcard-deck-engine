@@ -96,12 +96,14 @@ function parseLessonInfo(unit: Unit, primaryLesson?: Lesson): ParsedLessonInfo {
   const isTextbook = code.group.toLowerCase().startsWith('klik') || 
     String(unit.order).toUpperCase().startsWith('10') || 
     Number(unit.order) >= 100 ||
-    unit.id.startsWith('unit-10');
+    unit.id.startsWith('unit-1');
   const isExpansion = Boolean(
     unit.is_expansion || 
     code.suffix !== 'A' || 
-    unit.id === 'unit-105b' || 
-    String(unit.order).toUpperCase().endsWith('B')
+    unit.id.endsWith('b') || 
+    unit.id.endsWith('c') || 
+    String(unit.order).toUpperCase().endsWith('B') ||
+    String(unit.order).toUpperCase().endsWith('C')
   );
   const expansionTarget = unit.expansion_of || (isExpansion ? `${code.group}-${String(code.orderNum).padStart(2, '0')}-A` : undefined);
 

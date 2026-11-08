@@ -1,721 +1,755 @@
 unit_id: unit-111b
 lesson_id: lesson-01
-title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'
-description: 'Grammar paradigms, communicative syntax, and real-world clinical expressions
-  from Unit 10 of Klik sta Ellinika A1: relative clauses with the invariant pronoun
-  ''που'', interrogative pronouns across cases (ποιος/ποιανού/σε ποιον/ποιον), emphatic
-  possessive pronouns (ο δικός μου, κλπ.), symptom and pain expressions (πονάει/πονάνε,
-  έχω δέκατα, κρυωμένος), doctor consultation dialogues and examination commands,
-  pharmacy dosage directions (τρεις φορές την ημέρα, με/χωρίς συνταγή), and cultural
-  health wishes (Περαστικά!, Σιδερένιος!, Καλή ανάρρωση!).'
+title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Γραμματική & Εκφράσεις
+  (Pages 233-255)'
+description: 'Grammar paradigms, administrative syntax, and capstone exam dialogues
+  from Unit 11 and the final review of Klik sta Ellinika A1: ditransitive verbs with
+  indirect objects (σε ποιον / σε ποια / σε ποιους), weak indirect pronouns (μου,
+  σου, του, της, μας, σας, τους), direct speech quotation reporting (λέει/είπε, ρωτάει/ρώτησε,
+  απαντάει/απάντησε), bank counter consultations and ATM transaction dialogues, post
+  office shipping options (απλό vs συστημένο, επείγον), utility bill settlement and
+  public queuing etiquette (ΔΕΗ, ΟΤΕ, νούμερο προτεραιότητας), and CEFR A1 certification
+  capstone oral and written communicative tasks.'
 lesson_status: not_started
 entries:
 - id: A1-U111B-001
-  greek: Ξέρω έναν γιατρό που είναι πολύ καλός.
-  phonetic_hint: KSEH-ro EH-nan yee-ah-TRO poo EE-neh po-LEE kah-LOS
-  english: I know a doctor who is very good.
-  notes: Klik A1 p. 222. The invariant relative pronoun 'που' connects clauses without
-    repeating the masculine noun in the nominative.
+  greek: Σε ποιον στέλνεις αυτό το ηλεκτρονικό μήνυμα; — Στον διευθυντή μου.
+  phonetic_hint: seh pyon STEL-nees ahf-TO to ee-lek-tro-nee-KO MEE-nee-mah — ston
+    dhyef-theen-DEE moo
+  english: To whom are you sending this email? — To my manager.
+  notes: Klik A1 p. 236, 237. Prepositional phrase 'σε ποιον' inquiring about the
+    indirect object recipient (masculine singular).
   gender_or_pos: phrase
-  audio: xero-enan-giatro-poy-792f5d.mp3
+  audio: se-poion-stelneis-ay-926601.mp3
   status: verified
-  example_el: Ξέρω έναν γιατρό που είναι πολύ καλός στα καρδιολογικά θέματα.
-  example_en: I know a doctor who is very good with cardiological issues.
+  example_el: Σε ποιον στέλνεις αυτό το ηλεκτρονικό μήνυμα; — Στον διευθυντή μου για
+    να εγκρίνει την άδεια.
+  example_en: To whom are you sending this email? — To my manager so that he approves
+    the leave.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Using relative clauses to specify people
+  keg_communicative_function: Inquiring about recipient with 'σε ποιον'
 - id: A1-U111B-002
-  greek: Πήρα ένα φάρμακο που με βοήθησε αμέσως.
-  phonetic_hint: PEE-rah EH-nah FAHR-mah-ko poo meh vo-EE-thee-seh ah-MEH-sos
-  english: I took a medicine that helped me immediately.
-  notes: Klik A1 p. 222. The invariant relative pronoun 'που' replaces a neuter noun
-    as subject in the relative clause.
+  greek: Σε ποιον δίνεις τα χρήματα για τον λογαριασμό; — Στον ταμία.
+  phonetic_hint: seh pyon DHEE-nees tah KHREE-mah-tah yah ton lo-ghah-ree-ahz-MO —
+    ston tah-MEE-ah
+  english: To whom are you giving the money for the bill? — To the teller.
+  notes: Klik A1 p. 236, 237. Verb 'δίνω' taking direct object (τα χρήματα) and indirect
+    object (στον ταμία).
   gender_or_pos: phrase
-  audio: pira-ena-farmako-poy-ab9f23.mp3
+  audio: se-poion-dineis-ta-c-030a36.mp3
   status: verified
-  example_el: Πήρα ένα φάρμακο που με βοήθησε αμέσως να κοιμηθώ.
-  example_en: I took a medicine that helped me immediately to fall asleep.
+  example_el: Σε ποιον δίνεις τα χρήματα για τον λογαριασμό; — Στον ταμία στο γκισέ
+    της τράπεζας.
+  example_en: To whom are you giving the money for the bill? — To the teller at the
+    bank counter.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing remedies with relative clauses
+  keg_communicative_function: Indicating payment recipient
 - id: A1-U111B-003
-  greek: Η γυναίκα που μιλάει με τον γιατρό είναι η μητέρα μου.
-  phonetic_hint: ee yee-NEH-kah poo mee-LAH-ee meh ton yee-ah-TRO EE-neh ee mee-TEH-rah
+  greek: Σε ποια αγοράζεις αυτό το ωραίο δώρο; — Στην αδερφή μου.
+  phonetic_hint: seh pyah ah-yo-RAH-zees ahf-TO to o-REH-o DHO-ro — steen ah-dher-FEE
     moo
-  english: The woman who is speaking with the doctor is my mother.
-  notes: Klik A1 p. 222. 'Που' acts as an invariant relative pronoun replacing a feminine
-    singular subject.
+  english: For whom are you buying this nice gift? — For my sister.
+  notes: Klik A1 p. 236, 237. Prepositional phrase 'σε ποια' asking for feminine recipient
+    with 'αγοράζω'.
   gender_or_pos: phrase
-  audio: i-gynaika-poy-milaei-bf1293.mp3
+  audio: se-poia-agorazeis-ay-c264f0.mp3
   status: verified
-  example_el: Η γυναίκα που μιλάει με τον γιατρό είναι η μητέρα μου και περιμένει
-    τα αποτελέσματα.
-  example_en: The woman who is speaking with the doctor is my mother and is waiting
-    for the results.
+  example_el: Σε ποια αγοράζεις αυτό το ωραίο δώρο; — Στην αδερφή μου που έχει γενέθλια
+    αύριο.
+  example_en: For whom are you buying this nice gift? — For my sister whose birthday
+    is tomorrow.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Identifying individuals using relative clauses
+  keg_communicative_function: Asking for feminine gift recipient
 - id: A1-U111B-004
-  greek: Το σιρόπι που μου έδωσε ο φαρμακοποιός έχει ωραία γεύση.
-  phonetic_hint: to see-RO-pee poo moo EH-dho-seh o fahr-mah-ko-pee-OS EH-khee o-REH-ah
-    YEV-see
-  english: The syrup that the pharmacist gave me has a pleasant taste.
-  notes: Klik A1 p. 222. 'Που' functions as direct object in the relative clause without
-    needing inflection.
+  greek: Σε ποιους είπες τα ευχάριστα νέα για τη δουλειά; — Στους φίλους μου.
+  phonetic_hint: seh pyoos EE-pes tah ef-KHAH-ree-stah NEH-ah yah tee dhoo-LYAH —
+    stoos FEE-loos moo
+  english: To whom did you tell the pleasant news about the job? — To my friends.
+  notes: Klik A1 p. 236, 237. Plural interrogative 'σε ποιους' answered with masculine
+    plural 'στους φίλους μου'.
   gender_or_pos: phrase
-  audio: to-siropi-poy-moy-ed-52e89f.mp3
+  audio: se-poioys-eipes-ta-e-99af72.mp3
   status: verified
-  example_el: Το σιρόπι που μου έδωσε ο φαρμακοποιός έχει ωραία γεύση πορτοκάλι.
-  example_en: The syrup that the pharmacist gave me has a nice orange flavor.
+  example_el: Σε ποιους είπες τα ευχάριστα νέα για τη δουλειά; — Στους φίλους μου
+    και στους συγγενείς μου.
+  example_en: To whom did you tell the great news about the job? — To my friends and
+    relatives.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing medical products using relative clauses
+  keg_communicative_function: Relaying news to plural recipients
 - id: A1-U111B-005
-  greek: Οι ασθενείς που περιμένουν έχουν ραντεβού;
-  phonetic_hint: ee ah-stheh-NEES poo peh-ree-MEH-noon EH-khoon rahn-deh-VOO
-  english: Do the patients who are waiting have an appointment?
-  notes: Klik A1 p. 222. Relative pronoun 'που' modifying a plural masculine subject.
+  greek: Γράφω μια επίσημη επιστολή στην τράπεζα για το δάνειο.
+  phonetic_hint: GHRAH-fo myah eh-PEE-see-mee eh-pee-sto-LEE steen TRAH-peh-zah yah
+    to DHAH-nee-o
+  english: I am writing an official letter to the bank about the loan.
+  notes: Klik A1 p. 236, 237. Verb 'γράφω' followed by feminine direct object and
+    prepositional recipient 'στην τράπεζα'.
   gender_or_pos: phrase
-  audio: oi-astheneis-poy-per-e35af0.mp3
+  audio: grafo-mia-episimi-ep-4a091c.mp3
   status: verified
-  example_el: Οι ασθενείς που περιμένουν στην αίθουσα έχουν ραντεβού για εξετάσεις.
-  example_en: The patients who are waiting in the room have an appointment for examinations.
+  example_el: Γράφω μια επίσημη επιστολή στην τράπεζα για το στεγαστικό δάνειο.
+  example_en: I am writing an official letter to the bank regarding the home mortgage
+    loan.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about clinical waiting lists with relative clauses
+  keg_communicative_function: Addressing written requests to organizations
 - id: A1-U111B-006
-  greek: Πού είναι τα χάπια που αγόρασες χθες από το φαρμακείο;
-  phonetic_hint: poo EE-neh tah KHAH-pyah poo ah-YO-rah-ses khthes ah-PO to fahr-mah-KEE-o
-  english: Where are the pills that you bought yesterday from the pharmacy?
-  notes: Klik A1 p. 222-223. Contrasting accented interrogative adverb 'πού' (where)
-    with unaccented relative pronoun 'που' (that/which).
+  greek: Στέλνω ένα συστημένο δέμα στους γονείς μου στην Κρήτη.
+  phonetic_hint: STEL-no EH-nah see-stee-MEH-no DHEH-mah stoos gho-NEES moo steen
+    KREE-tee
+  english: I am sending a registered parcel to my parents in Crete.
+  notes: Klik A1 p. 236, 238. Ditransitive construction combining postal terminology
+    with indirect object.
   gender_or_pos: phrase
-  audio: poy-einai-ta-chapia--d0f67e.mp3
+  audio: stelno-ena-systimeno-9e3407.mp3
   status: verified
-  example_el: Πού είναι τα χάπια που αγόρασες χθες από το φαρμακείο για τον πυρετό;
-  example_en: Where are the pills that you bought yesterday from the pharmacy for
-    fever?
+  example_el: Στέλνω ένα συστημένο δέμα στους γονείς μου στην Κρήτη με το ταχυδρομείο.
+  example_en: I am sending a registered package to my parents in Crete via the post
+    office.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about medicine location using 'πού' and 'που'
+  keg_communicative_function: Describing postal shipments
 - id: A1-U111B-007
-  greek: Ο γιατρός που με εξέτασε ήταν πολύ προσεκτικός.
-  phonetic_hint: o yee-ah-TROS poo meh ek-SEH-tah-seh EE-tan po-LEE pro-sek-tee-KOS
-  english: The doctor who examined me was very thorough.
-  notes: Klik A1 p. 222, 226. Demonstrating 'που' followed by weak object pronoun
-    and past tense verb.
+  greek: Τι έδωσες στον ταχυδρόμο; — Του έδωσα την υπογραφή μου.
+  phonetic_hint: tee EH-dho-ses ston tah-khee-DHRO-mo — too EH-dho-sah teen ee-po-ghrah-FEE
+    moo
+  english: What did you give to the mailman? — I gave him my signature.
+  notes: Klik A1 p. 237. Alternation between full prepositional phrase ('στον ταχυδρόμο')
+    and weak clitic ('του έδωσα').
   gender_or_pos: phrase
-  audio: o-giatros-poy-me-exe-e1bb3f.mp3
+  audio: ti-edoses-ston-tachy-718f63.mp3
   status: verified
-  example_el: Ο γιατρός που με εξέτασε ήταν πολύ προσεκτικός και μου εξήγησε τα πάντα.
-  example_en: The doctor who examined me was very thorough and explained everything
-    to me.
+  example_el: Τι έδωσες στον ταχυδρόμο; — Του έδωσα την υπογραφή μου για το πακέτο.
+  example_en: What did you give to the postman? — I gave him my signature for the
+    package.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Evaluating healthcare professionals
+  keg_communicative_function: Answering what was given to service workers
 - id: A1-U111B-008
-  greek: Το νοσοκομείο που πήγε ο Νίκος είναι στο κέντρο.
-  phonetic_hint: to no-so-ko-MEE-o poo PEE-yeh o NEE-kos EE-neh sto KEN-dro
-  english: The hospital that Nikos went to is in the city center.
-  notes: Klik A1 p. 222. Invariant 'που' standing for place destination in informal
-    speech.
+  greek: Δείχνω την αστυνομική ταυτότητά μου στον υπάλληλο.
+  phonetic_hint: DHEEKH-no teen ah-stee-no-mee-KEE taf-TO-tee-tah moo ston ee-PAH-lee-lo
+  english: I show my police ID card to the employee.
+  notes: Klik A1 p. 236, 240. Verb 'δείχνω' (I show) + accusative item + prepositional
+    recipient.
   gender_or_pos: phrase
-  audio: to-nosokomeio-poy-pi-60459d.mp3
+  audio: deichno-tin-astynomi-34ab08.mp3
   status: verified
-  example_el: Το νοσοκομείο που πήγε ο Νίκος είναι στο κέντρο της Αθήνας.
-  example_en: The hospital that Nikos went to is in the center of Athens.
+  example_el: Δείχνω την αστυνομική ταυτότητά μου στον υπάλληλο για να επαληθεύσει
+    τα στοιχεία μου.
+  example_en: I show my police ID card to the clerk to verify my details.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Locating medical facilities
+  keg_communicative_function: Presenting ID documents to officials
 - id: A1-U111B-009
-  greek: Ποιος είναι άρρωστος και δεν μπορεί να έρθει σήμερα;
-  phonetic_hint: pyos EE-neh AH-ro-stos keh dhen bo-REE nah ER-thee SEE-meh-rah
-  english: Who is sick and cannot come today?
-  notes: Klik A1 p. 222. Masculine singular nominative interrogative pronoun 'ποιος'.
+  greek: Μου δίνετε το στιλό σας για ένα λεπτό, παρακαλώ;
+  phonetic_hint: moo DHEE-neh-teh to stee-LO sahs yah EH-nah lep-TO pah-rah-kah-LO
+  english: Could you give me your pen for a minute, please?
+  notes: Klik A1 p. 237. First-person weak indirect clitic 'μου' placed immediately
+    before the finite verb.
   gender_or_pos: phrase
-  audio: poios-einai-arrostos-e4dd55.mp3
+  audio: moy-dinete-to-stilo--21d092.mp3
   status: verified
-  example_el: Ποιος είναι άρρωστος και δεν μπορεί να έρθει σήμερα στη δουλειά;
-  example_en: Who is sick and cannot come to work today?
+  example_el: Μου δίνετε το στιλό σας για ένα λεπτό, παρακαλώ, να υπογράψω;
+  example_en: Could you please give me your pen for a minute so I can sign?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring who is unwell
+  keg_communicative_function: Politely borrowing writing materials
 - id: A1-U111B-010
-  greek: Ποια είναι η γιατρός σας στο νοσοκομείο;
-  phonetic_hint: pyah EE-neh ee yee-ah-TROS sahs sto no-so-ko-MEE-o
-  english: Who is your doctor at the hospital?
-  notes: Klik A1 p. 222. Feminine singular nominative interrogative pronoun 'ποια'.
+  greek: Σου στέλνω τον σύνδεσμο της ιστοσελίδας στο κινητό σου.
+  phonetic_hint: soo STEL-no ton SEEN-dhez-mo tees ees-to-seh-LEE-dhahs sto kee-nee-TO
+    soo
+  english: I am sending you the website link to your mobile phone.
+  notes: Klik A1 p. 233, 237. Second-person informal clitic 'σου'.
   gender_or_pos: phrase
-  audio: poia-einai-i-giatros-25e3b5.mp3
+  audio: soy-stelno-ton-synde-73155c.mp3
   status: verified
-  example_el: Ποια είναι η γιατρός σας στο νοσοκομείο, η κυρία Παπαδοπούλου;
-  example_en: Who is your doctor at the hospital, Mrs. Papadopoulou?
+  example_el: Σου στέλνω τον σύνδεσμο της ιστοσελίδας στο κινητό σου για να δεις την
+    αίτηση.
+  example_en: I am sending you the link to the website on your mobile to see the form.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for female doctor identity
+  keg_communicative_function: Sharing links with friends
 - id: A1-U111B-011
-  greek: Ποιο φάρμακο παίρνεις όταν έχεις πονοκέφαλο;
-  phonetic_hint: pyo FAHR-mah-ko PEHR-nees O-tahn EH-khees po-no-KEH-fah-lo
-  english: Which medicine do you take when you have a headache?
-  notes: Klik A1 p. 222. Neuter singular interrogative 'ποιο' modifying 'φάρμακο'.
+  greek: Του έδωσα τον κωδικό για να μπει στον λογαριασμό.
+  phonetic_hint: too EH-dho-sah ton ko-dhee-KO yah nah bee ston lo-ghah-ree-ahz-MO
+  english: I gave him the code to log into the account.
+  notes: Klik A1 p. 233, 237. Third-person masculine weak pronoun 'του' (to him).
   gender_or_pos: phrase
-  audio: poio-farmako-pairnei-a6927e.mp3
+  audio: toy-edosa-ton-kodiko-61a178.mp3
   status: verified
-  example_el: Ποιο φάρμακο παίρνεις συνήθως όταν έχεις πονοκέφαλο;
-  example_en: Which medicine do you usually take when you have a headache?
+  example_el: Του έδωσα τον κωδικό για να μπει στον λογαριασμό και να κάνει την πληρωμή.
+  example_en: I gave him the code to enter the account and make the payment.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about specific medication
+  keg_communicative_function: Giving credentials to a third person
 - id: A1-U111B-012
-  greek: Ποιανού είναι αυτό το βιβλιάριο υγείας;
-  phonetic_hint: pyah-NOO EE-neh ahf-TO to veev-lee-AH-ree-o ee-YEE-ahs
-  english: Whose health booklet is this?
-  notes: Klik A1 p. 222. Genitive interrogative 'ποιανού' (whose?) asking for masculine
-    or neuter owner.
+  greek: Της είπα ότι η τράπεζα κλείνει στις δύο και μισή.
+  phonetic_hint: tees EE-pah O-tee ee TRAH-peh-zah KLEE-nee stees DHEE-o keh mee-SEE
+  english: I told her that the bank closes at two thirty.
+  notes: Klik A1 p. 237. Third-person feminine weak pronoun 'της' (to her) before
+    'είπα'.
   gender_or_pos: phrase
-  audio: poianoy-einai-ayto-t-df6f66.mp3
+  audio: tis-eipa-oti-i-trape-e22410.mp3
   status: verified
-  example_el: Ποιανού είναι αυτό το βιβλιάριο υγείας που βρήκαμε στη ρεσεψιόν;
-  example_en: Whose health booklet is this that we found at reception?
+  example_el: Της είπα ότι η τράπεζα κλείνει στις δύο και μισή και πρέπει να βιαστούμε.
+  example_en: I told her that the bank closes at two thirty and we need to hurry.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about ownership of medical records
+  keg_communicative_function: Informing a female acquaintance
 - id: A1-U111B-013
-  greek: Ποιανής είναι αυτή η ιατρική συνταγή;
-  phonetic_hint: pyah-NEES EE-neh ahf-TEE ee ee-ah-tree-KEE seen-dah-YEE
-  english: Whose medical prescription is this?
-  notes: Klik A1 p. 222. Feminine genitive interrogative pronoun 'ποιανής' (whose?).
+  greek: Μας έστειλαν την απόδειξη πληρωμής με ηλεκτρονικό μήνυμα.
+  phonetic_hint: mahs EH-stee-lahn teen ah-PO-dheek-see plee-ro-MEES meh ee-lek-tro-nee-KO
+    MEE-nee-mah
+  english: They sent us the payment receipt by email.
+  notes: Klik A1 p. 234, 237. First-person plural clitic 'μας' (to us).
   gender_or_pos: phrase
-  audio: poianis-einai-ayti-i-19b5e0.mp3
+  audio: mas-esteilan-tin-apo-05353d.mp3
   status: verified
-  example_el: Ποιανής είναι αυτή η ιατρική συνταγή, της κυρίας Ελένης;
-  example_en: Whose medical prescription is this, Mrs. Eleni's?
+  example_el: Μας έστειλαν την απόδειξη πληρωμής με ηλεκτρονικό μήνυμα αμέσως μετά
+    την αγορά.
+  example_en: They sent us the payment receipt by email immediately after the purchase.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about prescription ownership
+  keg_communicative_function: Confirming receipt of confirmation
 - id: A1-U111B-014
-  greek: Ποιανών είναι αυτά τα φάρμακα στο τραπέζι;
-  phonetic_hint: pyah-NON EE-neh ahf-TAH tah FAHR-mah-kah sto trah-PEH-zee
-  english: Whose medicines are these on the table?
-  notes: Klik A1 p. 222. Genitive plural interrogative pronoun 'ποιανών' (whose?).
+  greek: Σας παραδίδω το διαβατήριό σας ανανεωμένο.
+  phonetic_hint: sahs pah-rah-DHEE-dho to dhyah-vah-TEE-ree-o sahs ah-nah-neh-o-MEH-no
+  english: I hand you your renewed passport.
+  notes: Klik A1 p. 237, 240. Polite second-person plural clitic 'σας' (to you).
   gender_or_pos: phrase
-  audio: poianon-einai-ayta-t-82e53e.mp3
+  audio: sas-paradido-to-diav-dc60bd.mp3
   status: verified
-  example_el: Ποιανών είναι αυτά τα φάρμακα στο τραπέζι της κουζίνας;
-  example_en: Whose medicines are these on the kitchen table?
+  example_el: Ορίστε, κύριε Παπαδόπουλε, σας παραδίδω το διαβατήριό σας ανανεωμένο.
+  example_en: Here you are, Mr. Papadopoulos, I hand you your renewed passport.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking about plural owners of medicine
+  keg_communicative_function: Handing official documents to clients
 - id: A1-U111B-015
-  greek: Σε ποιον γιατρό πηγαίνεις όταν είσαι άρρωστος;
-  phonetic_hint: seh pyon yee-ah-TRO pee-YEH-nees O-tahn EE-seh AH-ro-stos
-  english: To which doctor do you go when you are sick?
-  notes: Klik A1 p. 222. Prepositional phrase 'σε ποιον' inquiring about the medical
-    specialist.
+  greek: Τους εξήγησα πώς να συμπληρώσουν την αίτηση.
+  phonetic_hint: toos ek-SEE-yee-sah pos nah seem-blee-RO-soon teen EH-tee-see
+  english: I explained to them how to fill out the application.
+  notes: Klik A1 p. 234, 237. Third-person plural clitic 'τους' (to them).
   gender_or_pos: phrase
-  audio: se-poion-giatro-piga-6b8b2a.mp3
+  audio: toys-exigisa-pos-na--f12d65.mp3
   status: verified
-  example_el: Σε ποιον γιατρό πηγαίνεις όταν είσαι άρρωστος, στον οικογενειακό;
-  example_en: Which doctor do you go to when you are sick, to the family doctor?
+  example_el: Τους εξήγησα προσεκτικά πώς να συμπληρώσουν την αίτηση στα ελληνικά.
+  example_en: I explained to them carefully how to fill out the application in Greek.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking for medical recommendations
+  keg_communicative_function: Helping others with administrative paperwork
 - id: A1-U111B-016
-  greek: Ποιον γιατρό είδες στα επείγοντα περιστατικά;
-  phonetic_hint: pyon yee-ah-TRO EE-dhes stah eh-PEE-ghon-dah peh-ree-stah-tee-KAH
-  english: Which doctor did you see in the emergency department?
-  notes: Klik A1 p. 222. Accusative masculine interrogative 'ποιον' functioning as
-    direct object.
+  greek: Μου είπε ο ταμίας ότι δεν έχω αρκετό υπόλοιπο.
+  phonetic_hint: moo EE-peh o tah-MEE-ahs O-tee dhen EH-kho ahr-keh-TO ee-PO-lee-po
+  english: The cashier told me that I do not have sufficient balance.
+  notes: Klik A1 p. 234, 237. Clitic pronoun 'μου' preceding verb with post-verbal
+    subject 'ο ταμίας'.
   gender_or_pos: phrase
-  audio: poion-giatro-eides-s-d44d4c.mp3
+  audio: moy-eipe-o-tamias-ot-0113ff.mp3
   status: verified
-  example_el: Ποιον γιατρό είδες στα επείγοντα περιστατικά χθες το βράδυ;
-  example_en: Which doctor did you see in the emergency room yesterday evening?
+  example_el: Μου είπε ο ταμίας ότι δεν έχω αρκετό υπόλοιπο για να κάνω ανάληψη.
+  example_en: The teller told me that I don't have enough balance to make a withdrawal.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about hospital visits
+  keg_communicative_function: Reporting account balance feedback
 - id: A1-U111B-017
-  greek: Αυτό το ψηφιακό θερμόμετρο είναι το δικό μου.
-  phonetic_hint: ahf-TO to psee-fee-ah-KO ther-MO-meh-tro EE-neh to dhee-KO moo
-  english: This digital thermometer is mine.
-  notes: Klik A1 p. 222. Emphatic possessive pronoun 'το δικό μου' (neuter singular
-    nominative).
+  greek: 'Ο υπάλληλος είπε: «Για τα γράμματα θα περιμένετε εδώ».'
+  phonetic_hint: o ee-PAH-lee-los EE-peh «yah tah GHRAH-mah-tah thah peh-ree-MEH-neh-teh
+    eh-DHO»
+  english: 'The clerk said: ''For letters you will wait here.'''
+  notes: Klik A1 p. 241, 242. Greek quotation marks («...») framing direct speech
+    after 'είπε:'.
   gender_or_pos: phrase
-  audio: ayto-to-psifiako-the-6737b2.mp3
+  audio: o-ypallilos-eipe-gia-5c5e50.mp3
   status: verified
-  example_el: Αυτό το ψηφιακό θερμόμετρο είναι το δικό μου, το άλλο είναι δικό σου.
-  example_en: This digital thermometer is mine, the other one is yours.
+  example_el: 'Ο υπάλληλος είπε: «Για τα γράμματα θα περιμένετε εδώ στη σειρά σας».'
+  example_en: 'The employee said: ''For letters you will wait here in your line.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Claiming ownership with emphatic possessives
+  keg_communicative_function: Reporting employee instructions directly
 - id: A1-U111B-018
-  greek: Η δική μου γιατρός μού είπε να ξεκουραστώ.
-  phonetic_hint: ee dhee-KEE moo yee-ah-TROS moo EE-peh nah kseh-koo-rah-STO
-  english: My own doctor told me to rest.
-  notes: Klik A1 p. 222. Emphatic possessive 'η δική μου' (feminine singular nominative).
+  greek: 'Η πελάτισσα ρώτησε: «Πόσο κοστίζουν τα γραμματόσημα;».'
+  phonetic_hint: ee peh-LAH-tees-sah RO-tee-seh «PO-so ko-STEE-zoon tah ghrah-mah-TO-see-mah»
+  english: 'The customer asked: ''How much do the stamps cost?'''
+  notes: 'Klik A1 p. 241, 242. Reporting questions directly with ''ρώτησε: «...;»''.'
   gender_or_pos: phrase
-  audio: i-diki-moy-giatros-m-313f4e.mp3
+  audio: i-pelatissa-rotise-p-ce4403.mp3
   status: verified
-  example_el: Η δική μου γιατρός μού είπε να ξεκουραστώ για μερικές ημέρες.
-  example_en: My own doctor told me to rest for a few days.
+  example_el: 'Η πελάτισσα ρώτησε: «Πόσο κοστίζουν τα γραμματόσημα για την Ευρώπη;».'
+  example_en: 'The customer asked: ''How much do stamps for Europe cost?'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Citing one's personal physician
+  keg_communicative_function: Quoting customer questions directly
 - id: A1-U111B-019
-  greek: Το δικό σου παιδί έχει πυρετό ή μόνο βήχα;
-  phonetic_hint: to dhee-KO soo peh-DHEE EH-khee pee-reh-TO ee MO-no VEE-khah
-  english: Does your child have a fever or only a cough?
-  notes: Klik A1 p. 222. Emphatic possessive 'το δικό σου' (second-person singular).
+  greek: 'Ο αστυνομικός ρώτησε: «Ποιο είναι το όχημα που ενεπλάκη;».'
+  phonetic_hint: o ah-stee-no-mee-KOS RO-tee-seh «pyo EE-neh to O-khee-mah poo eh-neh-PLAH-kee»
+  english: 'The police officer asked: ''Which is the vehicle that was involved?'''
+  notes: Klik A1 p. 241. Quoting formal police questioning.
   gender_or_pos: phrase
-  audio: to-diko-soy-paidi-ec-005004.mp3
+  audio: o-astynomikos-rotise-7187e6.mp3
   status: verified
-  example_el: Το δικό σου παιδί έχει πυρετό ή μόνο βήχα και συνάχι;
-  example_en: Does your child have a fever or only a cough and runny nose?
+  example_el: 'Ο αστυνομικός ρώτησε: «Ποιο είναι το όχημα που ενεπλάκη στο τροχαίο;».'
+  example_en: 'The police officer asked: ''Which is the vehicle involved in the crash?'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Inquiring about another's family health
+  keg_communicative_function: Reporting police inquiries
 - id: A1-U111B-020
-  greek: Είναι δικό του το σιρόπι ή της αδερφής του;
-  phonetic_hint: EE-neh dhee-KO too to see-RO-pee ee tees ah-dher-FEES too
-  english: Is the syrup his or his sister's?
-  notes: Klik A1 p. 222. Emphatic possessive predicate 'δικό του' (third-person singular
-    masculine).
+  greek: 'Ο οδηγός απάντησε: «Δεν είδα το κόκκινο φανάρι».'
+  phonetic_hint: o o-dhee-GHOS ah-PAHN-dee-seh «dhen EE-dhah to KOK-kee-no fah-NAH-ree»
+  english: 'The driver answered: ''I did not see the red light.'''
+  notes: Klik A1 p. 241, 242. Direct speech reporting with 'απάντησε'.
   gender_or_pos: phrase
-  audio: einai-diko-toy-to-si-d76f46.mp3
+  audio: o-odigos-apantise-de-99cf30.mp3
   status: verified
-  example_el: Είναι δικό του το σιρόπι ή το πήρε για την αδερφή του;
-  example_en: Is the syrup his or did he get it for his sister?
+  example_el: 'Ο οδηγός απάντησε: «Δεν είδα το κόκκινο φανάρι γιατί είχε ομίχλη».'
+  example_en: 'The driver answered: ''I didn''t see the red light because it was foggy.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Clarifying medicine recipient
+  keg_communicative_function: Reporting testimony directly
 - id: A1-U111B-021
-  greek: Η δική της πίεση είναι απολύτως φυσιολογική.
-  phonetic_hint: ee dhee-KEE tees PEE-eh-see EE-neh ah-po-LEE-tos fee-see-o-lo-yee-KEE
-  english: Her blood pressure is completely normal.
-  notes: Klik A1 p. 222. Emphatic possessive 'η δική της' (third-person singular feminine).
+  greek: 'Η ταμίας είπε: «Περάστε στο ταμείο νούμερο δύο, παρακαλώ».'
+  phonetic_hint: ee tah-MEE-ahs EE-peh «peh-RAHS-teh sto tah-MEE-o NOO-meh-ro DHEE-o
+    pah-rah-kah-LO»
+  english: 'The teller said: ''Proceed to counter number two, please.'''
+  notes: Klik A1 p. 235, 241. Quoting bank staff calling the next client.
   gender_or_pos: phrase
-  audio: i-diki-tis-piesi-ein-d66ac4.mp3
+  audio: i-tamias-eipe-perast-3bb8df.mp3
   status: verified
-  example_el: Η δική της πίεση είναι απολύτως φυσιολογική, δώδεκα με οκτώ.
-  example_en: Her blood pressure is completely normal, twelve over eight.
+  example_el: 'Η ταμίας είπε: «Περάστε στο ταμείο νούμερο δύο, παρακαλώ, για την ανάληψη».'
+  example_en: 'The teller said: ''Proceed to counter number two, please, for the withdrawal.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting clinical readings
+  keg_communicative_function: Calling next customer to counter
 - id: A1-U111B-022
-  greek: Τα δικά μας φάρμακα είναι μέσα στο ντουλάπι.
-  phonetic_hint: tah dhee-KAH mahs FAHR-mah-kah EE-neh MEH-sah sto dhoo-LAH-pee
-  english: Our medicines are inside the cabinet.
-  notes: Klik A1 p. 222. Emphatic possessive 'τα δικά μας' (first-person plural neuter).
+  greek: 'Ο Νίκος ρώτησε: «Μπορώ να ανοίξω λογαριασμό από το διαδίκτυο;».'
+  phonetic_hint: o NEE-kos RO-tee-seh «bo-RO nah ah-NEEK-so lo-ghah-ree-ahz-MO ah-PO
+    to dhyah-DHEEK-tee-o»
+  english: 'Nikos asked: ''Can I open an account from the internet?'''
+  notes: Klik A1 p. 233, 241. Quoting an online banking eligibility question.
   gender_or_pos: phrase
-  audio: ta-dika-mas-farmaka--4ad048.mp3
+  audio: o-nikos-rotise-mporo-216208.mp3
   status: verified
-  example_el: Τα δικά μας φάρμακα είναι μέσα στο ψηλό ντουλάπι του μπάνιου.
-  example_en: Our medicines are inside the high cabinet in the bathroom.
+  example_el: 'Ο Νίκος ρώτησε: «Μπορώ να ανοίξω λογαριασμό από το διαδίκτυο χωρίς
+    να πάω στο κατάστημα;».'
+  example_en: 'Nikos asked: ''Can I open an account online without going to the branch?'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Indicating household medicine storage
+  keg_communicative_function: Quoting digital service inquiries
 - id: A1-U111B-023
-  greek: Ποιανού είναι αυτές οι βιταμίνες; — Είναι οι δικές σας;
-  phonetic_hint: pyah-NOO EE-neh ahf-TES ee vee-tah-MEE-nes — EE-neh ee dhee-KES sahs
-  english: Whose vitamins are these? — Are they yours?
-  notes: Klik A1 p. 222. Contrast between genitive question 'ποιανού' and plural polite
-    possessive 'οι δικές σας'.
+  greek: 'Ο διευθυντής είπε: «Η αίτησή σας εγκρίθηκε σήμερα το πρωί».'
+  phonetic_hint: o dhyef-theen-DEES EE-peh «ee EH-tee-see sahs eng-GREE-thee-keh SEE-meh-rah
+    to pro-EE»
+  english: 'The manager said: ''Your application was approved this morning.'''
+  notes: Klik A1 p. 241. Reporting administrative approval.
   gender_or_pos: phrase
-  audio: poianoy-einai-aytes--6509af.mp3
+  audio: o-dieythyntis-eipe-i-90fdb7.mp3
   status: verified
-  example_el: Ποιανού είναι αυτές οι βιταμίνες στο γραφείο; — Είναι οι δικές σας,
-    κυρία Μαρία;
-  example_en: Whose vitamins are these on the desk? — Are they yours, Mrs. Maria?
+  example_el: 'Ο διευθυντής είπε: «Η αίτησή σας εγκρίθηκε σήμερα το πρωί και μπορείτε
+    να υπογράψετε».'
+  example_en: 'The manager said: ''Your application was approved this morning and
+    you can sign.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Clarifying ownership politely
+  keg_communicative_function: Reporting administrative status
 - id: A1-U111B-024
-  greek: Οι δικοί τους γιατροί συνέστησαν άμεση θεραπεία.
-  phonetic_hint: ee dhee-KEE toos yee-ah-TREE see-NEH-stee-sahn AH-meh-see theh-rah-PEE-ah
-  english: Their doctors recommended immediate treatment.
-  notes: Klik A1 p. 222. Emphatic possessive 'οι δικοί τους' (third-person plural
-    masculine).
+  greek: 'Η κυρία Ελένη είπε: «Θέλω να στείλω αυτό το δέμα επείγον».'
+  phonetic_hint: ee kee-REE-ah eh-LEH-nee EE-peh «THEH-lo nah STEE-lo ahf-TO to DHEH-mah
+    eh-PEE-ghon»
+  english: 'Mrs. Eleni said: ''I want to send this parcel express.'''
+  notes: Klik A1 p. 238, 241. Direct postal instruction quote.
   gender_or_pos: phrase
-  audio: oi-dikoi-toys-giatro-98d5c1.mp3
+  audio: i-kyria-eleni-eipe-t-ec9286.mp3
   status: verified
-  example_el: Οι δικοί τους γιατροί συνέστησαν άμεση θεραπεία στο νοσοκομείο.
-  example_en: Their doctors recommended immediate treatment at the hospital.
+  example_el: 'Η κυρία Ελένη είπε: «Θέλω να στείλω αυτό το δέμα επείγον στην Αγγλία».'
+  example_en: 'Mrs. Eleni said: ''I want to send this parcel express to England.'''
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Relaying third-party medical advice
+  keg_communicative_function: Quoting customer shipping choice
 - id: A1-U111B-025
-  greek: Τι έχεις; Δεν σε βλέπω καλά σήμερα.
-  phonetic_hint: tee EH-khees dhen seh VLEH-po kah-LAH SEE-meh-rah
-  english: What's wrong? You don't look well today.
-  notes: Klik A1 p. 220. Standard informal Greek inquiry when noticing symptoms in
-    a friend.
+  greek: Καλημέρα σας, θα ήθελα να ανοίξω έναν λογαριασμό ταμιευτηρίου.
+  phonetic_hint: kah-lee-MEH-rah sahs thah EE-theh-lah nah ah-NEEK-so EH-nahn lo-ghah-ree-ahz-MO
+    tah-mee-ef-tee-REE-oo
+  english: Good morning, I would like to open a savings account.
+  notes: Klik A1 p. 234. Polite conditional formula 'θα ήθελα να + subjunctive'.
   gender_or_pos: phrase
-  audio: ti-echeis-den-se-vle-b086c6.mp3
+  audio: kalimera-sas-tha-ith-2a5d19.mp3
   status: verified
-  example_el: Τι έχεις; Δεν σε βλέπω καλά σήμερα, είσαι χλωμός.
-  example_en: What's wrong? You don't look well today, you are pale.
+  example_el: Καλημέρα σας, θα ήθελα να ανοίξω έναν λογαριασμό ταμιευτηρίου στην τράπεζά
+    σας.
+  example_en: Good morning, I would like to open a savings account in your bank.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Asking how someone feels
+  keg_communicative_function: Polite bank account opening request
 - id: A1-U111B-026
-  greek: Δεν αισθάνομαι καλά, έχω ζάλη και ναυτία.
-  phonetic_hint: dhen eh-STHAH-no-meh kah-LAH EH-kho ZAH-lee keh nahf-TEE-ah
-  english: I don't feel well, I have dizziness and nausea.
-  notes: Klik A1 p. 220, 224. Common response expressing systemic malaise.
+  greek: Συμπληρώστε αυτή την αίτηση και υπογράψτε στο κάτω μέρος.
+  phonetic_hint: seem-blee-RO-steh ahf-TEEN teen EH-tee-see keh ee-po-GHRAHP-steh
+    sto KAH-to MEH-ros
+  english: Fill out this application and sign at the bottom.
+  notes: 'Klik A1 p. 234, 235. Formal imperative forms: ''συμπληρώστε'' and ''υπογράψτε''.'
   gender_or_pos: phrase
-  audio: den-aisthanomai-kala-aa78c1.mp3
+  audio: sympliroste-ayti-tin-d78728.mp3
   status: verified
-  example_el: Δεν αισθάνομαι καθόλου καλά, έχω ζάλη και ναυτία από το πρωί.
-  example_en: I don't feel well at all, I have dizziness and nausea since this morning.
+  example_el: Συμπληρώστε αυτή την αίτηση με τα στοιχεία σας και υπογράψτε στο κάτω
+    μέρος.
+  example_en: Fill out this application with your details and sign at the bottom.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing malaise and nausea
+  keg_communicative_function: Giving administrative completion instructions
 - id: A1-U111B-027
-  greek: Πονάει πολύ το κεφάλι μου και ο λαιμός μου.
-  phonetic_hint: po-NAH-ee po-LEE to keh-FAH-lee moo keh o leh-MOS moo
-  english: My head and my throat hurt very much.
-  notes: Klik A1 p. 220, 224. 'Πονάει' (3rd sing.) used impersonally or with singular
-    subjects.
+  greek: Χρειάζομαι την ταυτότητά σας και ένα αποδεικτικό του ΑΦΜ σας.
+  phonetic_hint: khree-AH-zo-meh teen taf-TO-tee-tah sahs keh EH-nah ah-po-dheek-tee-KO
+    too ah-fee-MEE sahs
+  english: I need your ID card and a proof of your tax identification number.
+  notes: Klik A1 p. 234, 236. Standard customer due diligence requirements in Greek
+    banks.
   gender_or_pos: phrase
-  audio: ponaei-poly-to-kefal-12c988.mp3
+  audio: chreiazomai-tin-tayt-813a41.mp3
   status: verified
-  example_el: Πονάει πολύ το κεφάλι μου και ο λαιμός μου και δεν μπορώ να καταπιώ.
-  example_en: My head and my throat hurt very much and I cannot swallow.
+  example_el: Χρειάζομαι την ταυτότητά σας και ένα αποδεικτικό του ΑΦΜ σας για να
+    ολοκληρώσω την εγγραφή.
+  example_en: I need your ID card and proof of your tax number to complete registration.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting localized pain
+  keg_communicative_function: Requesting official identification documents
 - id: A1-U111B-028
-  greek: Πονάνε τα πόδια μου και η μέση μου από την κούραση.
-  phonetic_hint: po-NAH-neh tah PO-dhya moo keh ee MEH-see moo ah-PO teen KOO-rah-see
-  english: My legs and my lower back hurt from exhaustion.
-  notes: Klik A1 p. 224. 'Πονάνε' (3rd pl.) agreeing with plural body parts 'τα πόδια'.
+  greek: Θέλω να κάνω μια κατάθεση τριακοσίων ευρώ στον λογαριασμό μου.
+  phonetic_hint: THEH-lo nah KAH-no myah kah-TAH-theh-see tree-ah-ko-SEE-on ev-RO
+    ston lo-ghah-ree-ahz-MO moo
+  english: I want to make a deposit of three hundred euros into my account.
+  notes: Klik A1 p. 234, 235, 245. High-frequency banking counter transaction statement.
   gender_or_pos: phrase
-  audio: ponane-ta-podia-moy--8ea517.mp3
+  audio: thelo-na-kano-mia-ka-89a05f.mp3
   status: verified
-  example_el: Πονάνε τα πόδια μου και η μέση μου μετά από τόση ορθοστασία.
-  example_en: My legs and my lower back hurt after standing for so long.
+  example_el: Θέλω να κάνω μια κατάθεση τριακοσίων ευρώ στον λογαριασμό μου με μετρητά.
+  example_en: I want to make a cash deposit of three hundred euros into my account.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing musculoskeletal pain
+  keg_communicative_function: Depositing funds at bank counter
 - id: A1-U111B-029
-  greek: Έχω δέκατα, το θερμόμετρο δείχνει τριάντα επτά και πέντε.
-  phonetic_hint: EH-kho DHEH-kah-tah to ther-MO-meh-tro DHEEKH-nee tree-AHN-dah ep-TAH
-    keh PEN-deh
-  english: I have a slight fever, the thermometer shows thirty-seven point five.
-  notes: Klik A1 p. 220. Idiomatic 'έχω δέκατα' = low-grade fever (37.1°C to 37.9°C).
+  greek: Θέλω να κάνω μια ανάληψη εκατόν πενήντα ευρώ από το ταμείο.
+  phonetic_hint: THEH-lo nah KAH-no myah ah-NAH-leep-see eh-kah-TON peh-NEEN-dah ev-RO
+    ah-PO to tah-MEE-o
+  english: I want to make a withdrawal of one hundred fifty euros from the counter.
+  notes: Klik A1 p. 235, 245. Specifying cash withdrawal sum.
   gender_or_pos: phrase
-  audio: echo-dekata-to-therm-7c6bf8.mp3
+  audio: thelo-na-kano-mia-an-3abba1.mp3
   status: verified
-  example_el: Έχω δέκατα, το θερμόμετρο δείχνει τριάντα επτά και πέντε και νιώθω αδυναμία.
-  example_en: I have a slight fever, the thermometer shows thirty-seven point five
-    and I feel weak.
+  example_el: Θέλω να κάνω μια ανάληψη εκατόν πενήντα ευρώ από το ταμείο, ορίστε το
+    βιβλιάριό μου.
+  example_en: I want to withdraw 150 euros from the counter, here is my passbook.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting body temperature reading
+  keg_communicative_function: Withdrawing cash at bank desk
 - id: A1-U111B-030
-  greek: Έχω υψηλό πυρετό, σχεδόν τριάντα εννέα, και τρέμω.
-  phonetic_hint: EH-kho eep-see-LO pee-reh-TO skheh-DHON tree-AHN-dah eh-NEH-ah keh
-    TREH-mo
-  english: I have a high fever, almost thirty-nine, and I am shivering.
-  notes: Klik A1 p. 220. Expressing acute illness with high temperature.
+  greek: Βάλτε την κάρτα σας στη σχισμή και πληκτρολογήστε το PIN σας.
+  phonetic_hint: VAHL-teh teen KAHR-tah sahs stee skheez-MEE keh pleek-tro-lo-YEE-steh
+    to peen sahs
+  english: Insert your card into the slot and type in your PIN.
+  notes: Klik A1 p. 235. Step-by-step instructions for ATM operation.
   gender_or_pos: phrase
-  audio: echo-ypsilo-pyreto-s-a2bf72.mp3
+  audio: valte-tin-karta-sas--5a7269.mp3
   status: verified
-  example_el: Έχω υψηλό πυρετό, σχεδόν τριάντα εννέα, και τρέμω από το κρύο.
-  example_en: I have a high fever, almost thirty-nine, and I am shivering with chills.
+  example_el: Βάλτε την κάρτα σας στη σχισμή και πληκτρολογήστε το PIN σας προσεκτικά.
+  example_en: Insert your card into the slot and key in your PIN carefully.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Describing severe febrile symptoms
+  keg_communicative_function: Following ATM step-by-step instructions
 - id: A1-U111B-031
-  greek: Έχω έντονο βήχα και συνάχι εδώ και δύο μέρες.
-  phonetic_hint: EH-kho EN-do-no VEE-khah keh see-NAH-khee eh-DHO keh DHEE-o MEH-res
-  english: I have a bad cough and a runny nose for two days now.
-  notes: Klik A1 p. 220. Time expression 'εδώ και δύο μέρες' paired with present symptoms.
+  greek: Επιλέξτε το ποσό που θέλετε και μην ξεχάσετε την κάρτα σας.
+  phonetic_hint: eh-pee-LEHK-steh to po-SO poo THEH-leh-teh keh meen kseh-KHAH-seh-teh
+    teen KAHR-tah sahs
+  english: Select the amount you want and do not forget your card.
+  notes: Klik A1 p. 235. ATM final safety reminder.
   gender_or_pos: phrase
-  audio: echo-entono-vicha-ka-f0f3f9.mp3
+  audio: epilexte-to-poso-poy-b1d30f.mp3
   status: verified
-  example_el: Έχω έντονο βήχα και συνάχι εδώ και δύο μέρες και δεν μπορώ να αναπνεύσω.
-  example_en: I have a bad cough and a runny nose for two days now and I cannot breathe.
+  example_el: Επιλέξτε το ποσό που θέλετε στην οθόνη και μην ξεχάσετε την κάρτα σας.
+  example_en: Select the amount you want on screen and don't forget your card.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Reporting respiratory symptom duration
+  keg_communicative_function: Completing cash withdrawal at ATM
 - id: A1-U111B-032
-  greek: Είμαι πολύ κρυωμένος και δεν έχω καθόλου όρεξη για φαγητό.
-  phonetic_hint: EE-meh po-LEE kree-o-MEH-nos keh dhen EH-kho kah-THO-loo O-rek-see
-    yah fah-yee-TO
-  english: I have a bad cold and I have no appetite for food at all.
-  notes: Klik A1 p. 220. Participle 'κρυωμένος' used as predicate adjective for having
-    a cold.
+  greek: Ποιο είναι το διαθέσιμο υπόλοιπο του τραπεζικού λογαριασμού μου;
+  phonetic_hint: pyo EE-neh to dhyah-THEH-see-mo ee-PO-lee-po too trah-peh-zee-KOO
+    lo-ghah-ree-ahz-MOO moo
+  english: What is the available balance of my bank account?
+  notes: Klik A1 p. 234. Inquiring about funds available for withdrawal.
   gender_or_pos: phrase
-  audio: eimai-poly-kryomenos-d44f32.mp3
+  audio: poio-einai-to-diathe-1f8dd6.mp3
   status: verified
-  example_el: Είμαι πολύ κρυωμένος και δεν έχω καθόλου όρεξη για φαγητό σήμερα.
-  example_en: I have a bad cold and I have no appetite for food at all today.
+  example_el: Μπορείτε να μου πείτε ποιο είναι το διαθέσιμο υπόλοιπο του τραπεζικού
+    λογαριασμού μου;
+  example_en: Could you tell me what the available balance of my bank account is?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Expressing cold symptoms and loss of appetite
+  keg_communicative_function: Inquiring about available funds
 - id: A1-U111B-033
-  greek: Κρύωσα χθες στο γραφείο γιατί είχε πολύ δυνατό κλιματισμό.
-  phonetic_hint: KREE-o-sah khthes sto grah-FEE-o yah-TEE EE-kheh po-LEE dhee-nah-TO
-    klee-mah-tees-MO
-  english: I caught a cold yesterday at the office because the air conditioning was
-    very strong.
-  notes: Klik A1 p. 220, 230. Aorist verb 'κρύωσα' indicating the moment of catching
-    a chill.
+  greek: Θέλω να στείλω αυτό το γράμμα στην Ισπανία.
+  phonetic_hint: THEH-lo nah STEE-lo ahf-TO to GHRAH-mah steen ees-pah-NEE-ah
+  english: I want to send this letter to Spain.
+  notes: Klik A1 p. 238. Standard opening request at the post office desk.
   gender_or_pos: phrase
-  audio: kryosa-chthes-sto-gr-7cb9f2.mp3
+  audio: thelo-na-steilo-ayto-9f641f.mp3
   status: verified
-  example_el: Κρύωσα χθες στο γραφείο γιατί είχε πολύ δυνατό κλιματισμό όλη μέρα.
-  example_en: I caught a chill yesterday at the office because the air conditioning
-    was very strong all day.
+  example_el: Γεια σας, θέλω να στείλω αυτό το γράμμα στην Ισπανία αεροπορικώς.
+  example_en: Hello, I want to send this letter to Spain by airmail.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Explaining the cause of catching a cold
+  keg_communicative_function: Requesting international mail service
 - id: A1-U111B-034
-  greek: Πού πονάτε ακριβώς και από πότε άρχισαν τα συμπτώματα;
-  phonetic_hint: poo po-NAH-teh ah-kree-VOS keh ah-PO PO-teh AHR-khee-sahn tah seem-BTO-mah-tah
-  english: Where exactly do you feel pain and when did the symptoms start?
-  notes: Klik A1 p. 220, 226. Standard opening questions by a Greek clinician in the
-    formal plural.
+  greek: Θέλετε να το στείλετε απλό ή συστημένο;
+  phonetic_hint: THEH-leh-teh nah to STEE-leh-teh ah-PLO ee see-stee-MEH-no
+  english: Do you want to send it regular or registered?
+  notes: 'Klik A1 p. 238, 239. Classic postal option: ''απλό'' (standard) vs ''συστημένο''
+    (tracked).'
   gender_or_pos: phrase
-  audio: poy-ponate-akrivos-k-30ca8a.mp3
+  audio: thelete-na-to-steile-9c7d2b.mp3
   status: verified
-  example_el: Πείτε μου, παρακαλώ, πού πονάτε ακριβώς και από πότε άρχισαν τα συμπτώματα;
-  example_en: Tell me, please, where exactly do you hurt and since when did the symptoms
-    start?
+  example_el: Θέλετε να το στείλετε απλό ή συστημένο με αριθμό παρακολούθησης;
+  example_en: Do you want to send it regular or registered with a tracking number?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Doctor's clinical anamnesis
+  keg_communicative_function: Clarifying postal shipping options
 - id: A1-U111B-035
-  greek: Ανοίξτε το στόμα σας και βγάλτε τη γλώσσα, παρακαλώ.
-  phonetic_hint: ah-NEEKS-teh to STO-mah sahs keh VGHAL-teh tee GHLOS-sah pah-rah-kah-LO
-  english: Open your mouth and stick out your tongue, please.
-  notes: 'Klik A1 p. 220, 225. Clinical imperative commands: ''ανοίξτε'' and ''βγάλτε''.'
+  greek: Πόσο κοστίζει για να πάει επείγον με ταχυμεταφορά;
+  phonetic_hint: PO-so ko-STEE-zee yah nah PAH-ee eh-PEE-ghon meh tah-khee-meh-tah-fo-RAH
+  english: How much does it cost to go express by courier?
+  notes: Klik A1 p. 238. Question on priority delivery tariff.
   gender_or_pos: phrase
-  audio: anoixte-to-stoma-sas-6ecae0.mp3
+  audio: poso-kostizei-gia-na-b06a7b.mp3
   status: verified
-  example_el: Καθίστε στην καρέκλα, ανοίξτε το στόμα σας και βγάλτε τη γλώσσα, παρακαλώ.
-  example_en: Sit on the chair, open your mouth and stick out your tongue, please.
+  example_el: Πόσο κοστίζει για να πάει επείγον με ταχυμεταφορά ώστε να φτάσει αύριο;
+  example_en: How much does it cost for express courier delivery so that it arrives
+    tomorrow?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving physical examination instructions
+  keg_communicative_function: Inquiring about express postal shipping
 - id: A1-U111B-036
-  greek: Πάρτε μια βαθιά ανάσα και κρατήστε την αναπνοή σας.
-  phonetic_hint: PAHR-teh myah vah-THYAH ah-NAH-sah keh krah-TEES-teh teen ah-nah-pno-EE
-    sahs
-  english: Take a deep breath and hold your breath.
-  notes: Klik A1 p. 225. Chest auscultation instructions in the formal imperative.
+  greek: Κολλήστε αυτό το γραμματόσημο επάνω δεξιά στον φάκελο.
+  phonetic_hint: ko-LEE-steh ahf-TO to ghrah-mah-TO-see-mo eh-PAH-no dhehk-see-AH
+    ston FAH-keh-lo
+  english: Stick this stamp on the top right of the envelope.
+  notes: Klik A1 p. 238, 239. Imperative 'κολλήστε' with spatial prepositional phrase.
   gender_or_pos: phrase
-  audio: parte-mia-vathia-ana-c1c73c.mp3
+  audio: kolliste-ayto-to-gra-a5dcec.mp3
   status: verified
-  example_el: Πάρτε μια βαθιά ανάσα και κρατήστε την αναπνοή σας για δύο δευτερόλεπτα.
-  example_en: Take a deep breath and hold your breath for two seconds.
+  example_el: Κολλήστε αυτό το γραμματόσημο επάνω δεξιά στον φάκελο και ρίξτε τον
+    στο κουτί.
+  example_en: Stick this stamp on the top right of the envelope and drop it in the
+    box.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Guiding respiratory examination
+  keg_communicative_function: Instructing where to affix postage stamps
 - id: A1-U111B-037
-  greek: Μην ανησυχείτε, είναι μια απλή ίωση που περνάει σε λίγες μέρες.
-  phonetic_hint: meen ah-nee-see-KHEE-teh EE-neh myah ah-PLEE EE-o-see poo per-NAH-ee
-    seh LEE-yes MEH-res
-  english: Don't worry, it is a simple viral infection that passes in a few days.
-  notes: 'Klik A1 p. 220. Negative imperative reassurance: ''μην ανησυχείτε''.'
+  greek: Έχω ένα ειδοποιητήριο για ένα δέμα από το εξωτερικό.
+  phonetic_hint: EH-kho EH-nah ee-dho-pee-ee-TEE-ree-o yah EH-nah DHEH-mah ah-PO to
+    ek-so-teh-ree-KO
+  english: I have a notification slip for a parcel from abroad.
+  notes: Klik A1 p. 238, 239. Collecting undelivered mail using the courier/postal
+    notice.
   gender_or_pos: phrase
-  audio: min-anisycheite-eina-0592f4.mp3
+  audio: echo-ena-eidopoiitir-0b37d6.mp3
   status: verified
-  example_el: Μην ανησυχείτε καθόλου, είναι μια απλή ίωση που περνάει σε λίγες μέρες.
-  example_en: Don't worry at all, it's a simple virus that clears up in a few days.
+  example_el: Έχω ένα ειδοποιητήριο για ένα δέμα από το εξωτερικό, ορίστε το χαρτί.
+  example_en: I have a collection notice for a parcel from abroad, here is the slip.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Offering clinical reassurance
+  keg_communicative_function: Presenting package delivery notifications
 - id: A1-U111B-038
-  greek: Πρέπει να μείνετε στο κρεβάτι και να ξεκουραστείτε καλά.
-  phonetic_hint: PREH-pee nah MEE-neh-teh sto kreh-VAH-tee keh nah kseh-koo-rah-STEE-teh
-    kah-LAH
-  english: You must stay in bed and get plenty of rest.
-  notes: Klik A1 p. 220. Modal construction 'πρέπει να + subjunctive' for medical
-    instructions.
+  greek: Υπογράψτε εδώ στην οθόνη για να παραλάβετε το πακέτο.
+  phonetic_hint: ee-po-GHRAHP-steh eh-DHO steen o-THO-nee yah nah pah-rah-LAH-veh-teh
+    to pah-KEH-to
+  english: Sign here on the screen to receive the package.
+  notes: Klik A1 p. 238. Modern digital signature directive during parcel delivery.
   gender_or_pos: phrase
-  audio: prepei-na-meinete-st-ce9f7d.mp3
+  audio: ypograpste-edo-stin--797e5e.mp3
   status: verified
-  example_el: Πρέπει να μείνετε στο κρεβάτι για τρεις μέρες και να ξεκουραστείτε καλά.
-  example_en: You must stay in bed for three days and rest well.
+  example_el: Υπογράψτε εδώ στην οθόνη με το ηλεκτρονικό στιλό για να παραλάβετε το
+    πακέτο.
+  example_en: Sign here on the screen with the stylus to receive the parcel.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Prescribing bed rest
+  keg_communicative_function: Signing for package delivery
 - id: A1-U111B-039
-  greek: Πιείτε πολλά ζεστά υγρά, τσάι του βουνού και χαμομήλι.
-  phonetic_hint: PYEE-teh po-LAH zes-TAH ee-GHRAH TSAH-ee too voo-NOO keh khah-mo-MEE-lee
-  english: Drink plenty of warm liquids, mountain tea and chamomile.
-  notes: Klik A1 p. 220. Imperative advice for hydration and herbal remedies.
+  greek: Σε πόσες μέρες θα φτάσει η επιστολή στον προορισμό της;
+  phonetic_hint: seh PO-ses MEH-res thah FTAH-see ee eh-pee-sto-LEE ston pro-o-reez-MO
+    tees
+  english: In how many days will the letter reach its destination?
+  notes: 'Klik A1 p. 238. Future duration inquiry: ''σε πόσες μέρες...''.'
   gender_or_pos: phrase
-  audio: pieite-polla-zesta-y-e97a25.mp3
+  audio: se-poses-meres-tha-f-29dce8.mp3
   status: verified
-  example_el: Πιείτε πολλά ζεστά υγρά, τσάι του βουνού και χαμομήλι με μέλι.
-  example_en: Drink plenty of warm fluids, mountain tea and chamomile with honey.
+  example_el: Σε πόσες μέρες θα φτάσει η επιστολή στον προορισμό της στην Αμερική;
+  example_en: In how many days will the letter reach its destination in America?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Recommending home remedies
+  keg_communicative_function: Inquiring about postal delivery timeframe
 - id: A1-U111B-040
-  greek: Θα σας γράψω μια αντιβίωση και μερικά παυσίπονα.
-  phonetic_hint: thah sahs GHRAHP-so myah ahn-dee-VEE-o-see keh meh-ree-KAH pahf-SEE-po-nah
-  english: I will prescribe you an antibiotic and some painkillers.
-  notes: Klik A1 p. 220, 226. Future tense 'θα σας γράψω' meaning 'I will prescribe
-    for you'.
+  greek: Ήρθα να πληρώσω τον λογαριασμό της ΔΕΗ και του ΟΤΕ.
+  phonetic_hint: EER-thah nah plee-RO-so ton lo-ghah-ree-ahz-MO tees dheh-EE keh too
+    oh-teh-EH
+  english: I came to pay the electricity and phone bills.
+  notes: Klik A1 p. 240. Stating purpose of visit to bank or post office counter.
   gender_or_pos: phrase
-  audio: tha-sas-grapso-mia-a-c0f680.mp3
+  audio: irtha-na-pliroso-ton-e2036b.mp3
   status: verified
-  example_el: Θα σας γράψω μια αντιβίωση για πέντε μέρες και μερικά παυσίπονα.
-  example_en: I will prescribe you an antibiotic for five days and some painkillers.
+  example_el: Ήρθα να πληρώσω τον λογαριασμό της ΔΕΗ και του ΟΤΕ προτού λήξουν.
+  example_en: I came to pay the electricity and telephone bills before they expire.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Issuing a medical prescription
+  keg_communicative_function: Paying public utility accounts
 - id: A1-U111B-041
-  greek: Γεια σας, χρειάζομαι κάτι αποτελεσματικό για τον πονόλαιμο.
-  phonetic_hint: YAH sahs khree-AH-zo-meh KAH-tee ah-po-teh-lez-mah-tee-KO yah ton
-    po-NO-leh-mo
-  english: Hello, I need something effective for a sore throat.
-  notes: Klik A1 p. 221. Standard pharmacy opening line requesting symptom relief.
+  greek: Ο λογαριασμός είναι εμπρόθεσμος ή έχει λήξει η προθεσμία;
+  phonetic_hint: o lo-ghah-ree-ahz-MOS EE-neh em-BRO-thez-mos ee EH-khee LEEK-see
+    ee pro-thez-MEE-ah
+  english: Is the bill on time or has the due date expired?
+  notes: Klik A1 p. 240. Distinguishing on-time payment ('εμπρόθεσμος') from overdue
+    ('ληξιπρόθεσμος').
   gender_or_pos: phrase
-  audio: geia-sas-chreiazomai-40fec4.mp3
+  audio: o-logariasmos-einai--80d4e9.mp3
   status: verified
-  example_el: Γεια σας, χρειάζομαι κάτι αποτελεσματικό για τον πονόλαιμο και τον βήχα.
-  example_en: Hello, I need something effective for a sore throat and cough.
+  example_el: Ο λογαριασμός είναι εμπρόθεσμος ή έχει λήξει η προθεσμία πληρωμής;
+  example_en: Is the bill within due date or has the payment deadline expired?
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting over-the-counter remedies
+  keg_communicative_function: Checking bill due date status
 - id: A1-U111B-042
-  greek: Έχετε ιατρική συνταγή ή θέλετε φάρμακο χωρίς συνταγή;
-  phonetic_hint: EH-kheh-teh ee-ah-tree-KEE seen-dah-YEE ee THEH-leh-teh FAHR-mah-ko
-    kho-REES seen-dah-YEE
-  english: Do you have a medical prescription or do you want medicine without a prescription?
-  notes: Klik A1 p. 221. Distinguishing prescription ('με συνταγή') from OTC ('χωρίς
-    συνταγή') drugs.
+  greek: Πάρτε ένα νούμερο προτεραιότητας και περιμένετε τη σειρά σας.
+  phonetic_hint: PAHR-teh EH-nah NOO-meh-ro pro-teh-reh-O-tee-tahs keh peh-ree-MEH-neh-teh
+    tee seh-RAH sahs
+  english: Take a priority ticket number and wait for your turn.
+  notes: Klik A1 p. 233, 240. Universal procedure in Greek banks and public agencies.
   gender_or_pos: phrase
-  audio: echete-iatriki-synta-40a05c.mp3
+  audio: parte-ena-noymero-pr-ba5218.mp3
   status: verified
-  example_el: Έχετε ιατρική συνταγή από τον γιατρό ή θέλετε φάρμακο χωρίς συνταγή;
-  example_en: Do you have a doctor's prescription or do you want an over-the-counter
-    medicine?
+  example_el: Πάρτε ένα νούμερο προτεραιότητας από την είσοδο και περιμένετε τη σειρά
+    σας στην αίθουσα.
+  example_en: Take a queue ticket from the entrance and wait for your turn in the
+    hall.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Pharmacist clarification of prescription status
+  keg_communicative_function: Managing queue sequence
 - id: A1-U111B-043
-  greek: Να παίρνετε ένα χάπι κάθε οκτώ ώρες μετά το φαγητό.
-  phonetic_hint: nah PEHR-neh-teh EH-nah KHAH-pee KAH-theh ok-TO O-res meh-TAH to
-    fah-yee-TO
-  english: Take one pill every eight hours after meals.
-  notes: Klik A1 p. 221. Subjunctive directive 'να παίρνετε' specifying dosage intervals.
+  greek: Με συγχωρείτε, είστε στην ουρά ή περιμένετε κάποιον;
+  phonetic_hint: meh seen-kho-REE-teh EE-steh steen oo-RAH ee peh-ree-MEH-neh-teh
+    KAH-pyon
+  english: Excuse me, are you in the line or waiting for someone?
+  notes: Klik A1 p. 233, 242. Essential polite line inquiry in Greek queues.
   gender_or_pos: phrase
-  audio: na-pairnete-ena-chap-7294e0.mp3
+  audio: me-sygchoreite-eiste-7a0067.mp3
   status: verified
-  example_el: Να παίρνετε ένα χάπι κάθε οκτώ ώρες μετά το φαγητό με ένα γεμάτο ποτήρι
-    νερό.
-  example_en: Take one pill every eight hours after meals with a full glass of water.
+  example_el: Με συγχωρείτε, είστε στην ουρά ή περιμένετε κάποιον; — Όχι, είμαι στην
+    ουρά.
+  example_en: Excuse me, are you in the line or waiting for someone? — No, I am in
+    line.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving dosage instructions
+  keg_communicative_function: Confirming queue position politely
 - id: A1-U111B-044
-  greek: Αυτό το σιρόπι είναι ένα κουταλάκι τρεις φορές την ημέρα.
-  phonetic_hint: ahf-TO to see-RO-pee EE-neh EH-nah koo-tah-LAH-kee trees fo-RES teen
-    ee-MEH-rah
-  english: This syrup is one spoonful three times a day.
-  notes: 'Klik A1 p. 221. Standard frequency phrase: ''τρεις φορές την ημέρα''.'
+  greek: Ορίστε τα χρήματα ακριβώς, δεν χρειάζομαι ρέστα.
+  phonetic_hint: o-REE-steh tah KHREE-mah-tah ah-kree-VOS dhen khree-AH-zo-meh REH-stah
+  english: Here is the exact amount, I do not need change.
+  notes: 'Klik A1 p. 235. Phrase for paying with exact change: ''τα χρήματα ακριβώς''.'
   gender_or_pos: phrase
-  audio: ayto-to-siropi-einai-c15b10.mp3
+  audio: oriste-ta-chrimata-a-80ad0d.mp3
   status: verified
-  example_el: Αυτό το σιρόπι είναι ένα κουταλάκι τρεις φορές την ημέρα πριν από τον
-    ύπνο.
-  example_en: This syrup is one teaspoon three times a day before sleep.
+  example_el: Ορίστε τα χρήματα ακριβώς, είκοσι πέντε ευρώ, δεν χρειάζομαι ρέστα.
+  example_en: Here is the exact money, twenty-five euros, I don't need change.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Directing liquid medication frequency
+  keg_communicative_function: Paying exact cash without change
 - id: A1-U111B-045
-  greek: Βάλτε αυτή την καταπραϋντική αλοιφή δύο φορές την ημέρα στην πληγή.
-  phonetic_hint: VAHL-teh ahf-TEEN teen kah-tah-prah-een-dhee-KEE ah-lee-FEE DHEE-o
-    fo-RES teen ee-MEH-rah steen plee-YEE
-  english: Apply this soothing ointment twice a day to the wound.
-  notes: Klik A1 p. 221. Imperative 'βάλτε' (put/apply) with topical skin remedy.
+  greek: Κρατήστε το απόκομμα της πληρωμής ως επίσημη απόδειξη.
+  phonetic_hint: krah-TEES-teh to ah-PO-ko-mah tees plee-ro-MEES os eh-PEE-see-mee
+    ah-PO-dheek-see
+  english: Keep the payment stub as an official receipt.
+  notes: Klik A1 p. 240. Clerk advice on keeping utility payment proof.
   gender_or_pos: phrase
-  audio: valte-ayti-tin-katap-a1ccb5.mp3
+  audio: kratiste-to-apokomma-6fbdff.mp3
   status: verified
-  example_el: Βάλτε αυτή την καταπραϋντική αλοιφή δύο φορές την ημέρα στην πληγή και
-    καλύψτε την με επίδεσμο.
-  example_en: Apply this soothing ointment twice a day to the wound and cover it with
-    a bandage.
+  example_el: Κρατήστε το απόκομμα της πληρωμής ως επίσημη απόδειξη για το αρχείο
+    σας.
+  example_en: Keep the payment receipt stub as proof for your records.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Explaining topical medication application
+  keg_communicative_function: Retaining official transaction proof
 - id: A1-U111B-046
-  greek: Μπορείτε να μου μετρήσετε την αρτηριακή πίεση, παρακαλώ;
-  phonetic_hint: bo-REE-teh nah moo meh-TREE-seh-teh teen ahr-tee-ree-ah-KEE PEE-eh-see
-    pah-rah-kah-LO
-  english: Could you measure my blood pressure, please?
-  notes: 'Klik A1 p. 221, 230. Courteous request in Greek pharmacies: ''μπορείτε να
-    μου μετρήσετε...''.'
+  greek: Σε προσκαλώ στο πάρτι των γενεθλίων μου το Σάββατο στις επτά.
+  phonetic_hint: seh pros-kah-LO sto PAHR-tee ton yeh-neh-THLEE-on moo to SAH-vah-to
+    stees ep-TAH
+  english: I invite you to my birthday party on Saturday at seven.
+  notes: Klik A1 p. 249. Official A1 exam prompt on social invitations.
   gender_or_pos: phrase
-  audio: mporeite-na-moy-metr-729623.mp3
+  audio: se-proskalo-sto-part-7442bd.mp3
   status: verified
-  example_el: Μπορείτε να μου μετρήσετε την αρτηριακή πίεση, παρακαλώ; Νιώθω μια μικρή
-    ζάλη.
-  example_en: Could you measure my blood pressure, please? I feel a slight dizziness.
+  example_el: Σε προσκαλώ στο πάρτι των γενεθλίων μου το Σάββατο στις επτά στο σπίτι
+    μου στο κέντρο.
+  example_en: I invite you to my birthday party on Saturday at seven at my home in
+    the center.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Requesting blood pressure measurement in pharmacy
+  keg_communicative_function: Inviting friends to social events
 - id: A1-U111B-047
-  greek: Περαστικά σου! Ελπίζω να γίνεις γρήγορα καλά!
-  phonetic_hint: peh-rah-stee-KAH soo el-PEE-zo nah YEE-nees GHREE-gho-rah kah-LAH
-  english: Get well soon! I hope you recover quickly!
-  notes: Klik A1 p. 219, 228. 'Περαστικά!' is the hallmark Greek recovery wish (may
-    it pass!).
+  greek: Αν δεν μπορείς να έρθεις, τηλεφώνησέ μου ή στείλε μου μήνυμα.
+  phonetic_hint: ahn dhen bo-REES nah ER-thees tee-leh-FO-nee-SEH moo ee STEE-leh
+    moo MEE-nee-mah
+  english: If you cannot come, call me or send me a text message.
+  notes: Klik A1 p. 249. Real condition with 'αν' followed by imperatives with clitics.
   gender_or_pos: phrase
-  audio: perastika-soy-elpizo-90d739.mp3
+  audio: an-den-mporeis-na-er-14b7b4.mp3
   status: verified
-  example_el: Περαστικά σου! Ελπίζω να γίνεις γρήγορα καλά και να τα πούμε από κοντά.
-  example_en: Get well soon! I hope you recover quickly and we talk in person.
+  example_el: Αν δεν μπορείς να έρθεις, τηλεφώνησέ μου εγκαίρως ή στείλε μου μήνυμα.
+  example_en: If you cannot come, call me in good time or send me a message.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Wishing someone a speedy recovery
+  keg_communicative_function: Giving RSVP conditional instructions
 - id: A1-U111B-048
-  greek: Σιδερένιος! Χαίρομαι πολύ που γύρισες γερός στη δουλειά!
-  phonetic_hint: see-dheh-REH-nyos KHEH-ro-meh po-LEE poo YEE-ree-ses yeh-ROS stee
-    dhoo-LYAH
-  english: May you be strong as iron! I'm so glad you returned healthy to work!
-  notes: Klik A1 p. 228. 'Σιδερένιος' (masc.) / 'Σιδερένια' (fem.) is a cultural greeting
-    wished to someone recovering from illness or medical procedure.
+  greek: Τι καιρό κάνει στην Ελλάδα το καλοκαίρι; — Κάνει πολλή ζέστη και έχει ήλιο.
+  phonetic_hint: tee keh-RO KAH-nee steen eh-LAH-dhah to kah-lo-KEH-ree — KAH-nee
+    po-LEE ZES-tee keh EH-khee EE-lyo
+  english: What is the weather like in Greece in the summer? — It is very hot and
+    sunny.
+  notes: Klik A1 p. 251, 252. A1 oral synthesis question describing climate.
   gender_or_pos: phrase
-  audio: siderenios-chairomai-3628e2.mp3
+  audio: ti-kairo-kanei-stin--50b5d9.mp3
   status: verified
-  example_el: Σιδερένιος! Χαίρομαι πολύ που γύρισες γερός και δυνατός στη δουλειά
-    μετά την εγχείρηση!
-  example_en: May you be strong as iron! I am so glad you came back healthy and strong
-    to work after the operation!
+  example_el: Τι καιρό κάνει στην Ελλάδα το καλοκαίρι; — Κάνει πολλή ζέστη και έχει
+    ήλιο όλη μέρα.
+  example_en: What is the weather like in Greece during summer? — It is very hot and
+    sunny all day.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Welcoming someone back after illness
+  keg_communicative_function: Describing summer weather patterns
 - id: A1-U111B-049
-  greek: Καλή ανάρρωση και γρήγορη επιστροφή στα μαθήματα!
-  phonetic_hint: kah-LEE ah-NAHR-o-see keh GHREE-gho-ree eh-pee-stro-FEE stah mah-THEE-mah-tah
-  english: Good recovery and a speedy return to classes!
-  notes: Klik A1 p. 228. Formal written or spoken expression 'Καλή ανάρρωση'.
+  greek: Θα ήθελα να κλείσω ένα τραπέζι για δύο άτομα για απόψε το βράδυ.
+  phonetic_hint: thah EE-theh-lah nah KLEE-so EH-nah trah-PEH-zee yah DHEE-o AH-to-mah
+    yah ah-PO-bseh to VRAH-dhee
+  english: I would like to book a table for two people for tonight.
+  notes: Klik A1 p. 252, 254. Core communicative task for reserving at a restaurant.
   gender_or_pos: phrase
-  audio: kali-anarrosi-kai-gr-b7ad13.mp3
+  audio: tha-ithela-na-kleiso-59eeb3.mp3
   status: verified
-  example_el: Σας ευχόμαστε καλή ανάρρωση και γρήγορη επιστροφή στα μαθήματα!
-  example_en: We wish you a good recovery and a speedy return to classes!
+  example_el: Καλησπέρα σας, θα ήθελα να κλείσω ένα τραπέζι για δύο άτομα για απόψε
+    το βράδυ στις εννέα.
+  example_en: Good evening, I would like to book a table for two people for tonight
+    at nine.
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Offering formal recovery wishes
+  keg_communicative_function: Booking a restaurant table
 - id: A1-U111B-050
-  greek: Να προσέχεις τον εαυτό σου και να μην κουράζεσαι!
-  phonetic_hint: nah pro-SEH-khees ton eh-ahf-TO soo keh nah meen koo-RAH-zeh-seh
-  english: Take care of yourself and don't tire yourself out!
-  notes: 'Klik A1 p. 228, 231. Affectionate caretaking formula: ''Να προσέχεις τον
-    εαυτό σου''.'
+  greek: Χαίρομαι πολύ που σε ξαναβλέπω μετά από τόσα χρόνια!
+  phonetic_hint: KHEH-ro-meh po-LEE poo seh ksah-nah-VLEH-po meh-TAH ah-PO TO-sah
+    KHRO-nyah
+  english: I am so glad to see you again after so many years!
+  notes: Klik A1 p. 254. Capstone social dialogue roleplay celebrating reunion.
   gender_or_pos: phrase
-  audio: na-prosecheis-ton-ea-512fd0.mp3
+  audio: chairomai-poly-poy-s-c4e53c.mp3
   status: verified
-  example_el: Τώρα που ανάρρωσες, να προσέχεις τον εαυτό σου και να μην κουράζεσαι.
-  example_en: Now that you recovered, take care of yourself and don't overexert yourself.
+  example_el: Χαίρομαι πάρα πολύ που σε ξαναβλέπω μετά από τόσα χρόνια, είσαι μια
+    χαρά!
+  example_en: I am so glad to see you again after so many years, you look great!
   grammatical_info:
     part_of_speech: phrase
-  keg_communicative_function: Giving caring advice during convalescence
+  keg_communicative_function: Expressing joy at meeting an old acquaintance

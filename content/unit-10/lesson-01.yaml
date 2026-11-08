@@ -1,0 +1,656 @@
+unit_id: unit-10
+lesson_id: lesson-01
+title: Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)
+description: 'CEFR A1: Asking for and giving directions in town, public transportation
+  (metro, bus, train), ticket purchases, and spatial prepositions.'
+lesson_status: not_started
+lesson_notes: "Unit 10 Core Grammar Notes:\n\n• Asking for Directions in Town:\n \
+  \ - Inquiring politely: 'Συγγνώμη, πού είναι το/η/ο...;' (Excuse me, where is the...?).\n\
+  \  - 'Πώς πάω στο/στη/στον...;' (How do I get to...?).\n  - 'Ψάχνω τον σταθμό /\
+  \ το φαρμακείο...' (I am looking for the station / pharmacy...).\n\n• Giving Directions\
+  \ (Indicative / Polite 2nd Person Plural -ετε):\n  - Πηγαίνετε όλο ευθεία. (Go straight\
+  \ ahead.)\n  - Στρίβετε δεξιά / αριστερά στο πρώτο φανάρι. (Turn right / left at\
+  \ the first traffic light.)\n  - Περνάτε τη διάβαση / τον δρόμο. (Cross the crosswalk\
+  \ / street.)\n\n• Spatial Prepositions & Adverbs (Governing Accusative):\n  - κοντά\
+  \ σε + Accusative: 'κοντά στον σταθμό' (near the station).\n  - μακριά από + Accusative:\
+  \ 'μακριά από το κέντρο' (far from downtown).\n  - απέναντι από + Accusative: 'απέναντι\
+  \ από την τράπεζα' (across from the bank).\n  - δίπλα σε + Accusative: 'δίπλα στο\
+  \ ταχυδρομείο' (next to the post office).\n\n• Public Transportation Formulas:\n\
+  \  - Mode of transit with 'με + Definite Accusative': με το μετρό, με το λεωφορείο,\
+  \ με το τρένο, με το ταξί.\n  - Walking: 'με τα πόδια' (on foot).\n  - Boarding\
+  \ / Alighting: ανεβαίνω στο λεωφορείο (board) / κατεβαίνω στη στάση (get off).\n\
+  \  - Purchasing tickets: ένα απλό εισιτήριο (single) / ένα εισιτήριο μετ' επιστροφής\
+  \ (round-trip)."
+entries:
+- id: A1-U10-001
+  greek: ο δρόμος
+  phonetic_hint: ''
+  english: street / road
+  notes: Masculine noun in -ος with plural in -οι (οι δρόμοι).
+  gender_or_pos: noun (masculine)
+  audio: o-dromos-0a4ccb.mp3
+  status: verified
+  example_el: Αυτός ο δρόμος έχει πολλή κίνηση.
+  example_en: This street has a lot of traffic.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι δρόμοι
+    accusative_singular: τον δρόμο
+  keg_communicative_function: Describing streets and asking for location
+- id: A1-U10-002
+  greek: η οδός
+  phonetic_hint: ''
+  english: street (in addresses)
+  notes: Feminine noun in -ος (archaic feminine declension). Always used on street
+    sign plaques.
+  gender_or_pos: noun (feminine)
+  audio: i-odos-ab501d.mp3
+  status: verified
+  example_el: Το ξενοδοχείο είναι στην οδό Ερμού αριθμός 15.
+  example_en: The hotel is at 15 Ermou Street.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι οδοί
+    accusative_singular: την οδό
+  keg_communicative_function: Reading and giving formal street addresses
+- id: A1-U10-003
+  greek: η πλατεία
+  phonetic_hint: ''
+  english: square / town square / plaza
+  notes: Feminine in -α with plural in -ες (οι πλατείες).
+  gender_or_pos: noun (feminine)
+  audio: i-plateia-d3778b.mp3
+  status: verified
+  example_el: Συναντιόμαστε συχνά στην πλατεία Συντάγματος.
+  example_en: We often meet at Syntagma Square.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πλατείες
+    accusative_singular: την πλατεία
+  keg_communicative_function: Identifying public central locations and meeting points
+- id: A1-U10-004
+  greek: η γωνία
+  phonetic_hint: ''
+  english: corner
+  notes: Feminine in -α with plural in -ες (οι γωνίες).
+  gender_or_pos: noun (feminine)
+  audio: i-gonia-08943f.mp3
+  status: verified
+  example_el: Το περίπτερο είναι ακριβώς στη γωνία.
+  example_en: The kiosk is right on the corner.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γωνίες
+    accusative_singular: τη γωνία
+  keg_communicative_function: Giving precise directional instructions
+- id: A1-U10-005
+  greek: το φανάρι
+  phonetic_hint: ''
+  english: traffic light
+  notes: 'Neuter in -ι with plural in -ια (τα φανάρια). Literally: lantern / lamp.'
+  gender_or_pos: noun (neuter)
+  audio: to-fanari-c98a15.mp3
+  status: verified
+  example_el: Στο πρώτο φανάρι στρίβετε δεξιά.
+  example_en: At the first traffic light, turn right.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φανάρια
+    accusative_singular: το φανάρι
+  keg_communicative_function: Referencing landmarks for navigation
+- id: A1-U10-006
+  greek: το πεζοδρόμιο
+  phonetic_hint: ''
+  english: sidewalk / pavement
+  notes: 'Neuter compound: πεζός (pedestrian) + δρόμος (road).'
+  gender_or_pos: noun (neuter)
+  audio: to-pezodromio-89cedc.mp3
+  status: verified
+  example_el: Περπατάμε πάντα στο πεζοδρόμιο.
+  example_en: We always walk on the sidewalk.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πεζοδρόμια
+    accusative_singular: το πεζοδρόμιο
+  keg_communicative_function: Pedestrian navigation and safety
+- id: A1-U10-007
+  greek: η διάβαση
+  phonetic_hint: ''
+  english: crosswalk / pedestrian crossing
+  notes: Feminine noun in -ση with plural in -σεις (οι διαβάσεις).
+  gender_or_pos: noun (feminine)
+  audio: i-diavasi-2e55de.mp3
+  status: verified
+  example_el: Περνάμε τον δρόμο από τη διάβαση.
+  example_en: We cross the street at the pedestrian crossing.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διαβάσεις
+    accusative_singular: τη διάβαση
+  keg_communicative_function: Pedestrian safety and following directions
+- id: A1-U10-008
+  greek: το κέντρο
+  phonetic_hint: ''
+  english: city center / downtown / center
+  notes: Neuter noun in -ο with plural in -α (τα κέντρα).
+  gender_or_pos: noun (neuter)
+  audio: to-kentro-70fc2e.mp3
+  status: verified
+  example_el: Το διαμέρισμά μου είναι κοντά στο κέντρο της πόλης.
+  example_en: My apartment is near the city center.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κέντρα
+    accusative_singular: το κέντρο
+  keg_communicative_function: Stating destination and general area in the city
+- id: A1-U10-009
+  greek: η τράπεζα
+  phonetic_hint: ''
+  english: bank
+  notes: Feminine noun in -α with plural in -ες (οι τράπεζες).
+  gender_or_pos: noun (feminine)
+  audio: i-trapeza-9b3e70.mp3
+  status: verified
+  example_el: Η τράπεζα ανοίγει στις οκτώ το πρωί.
+  example_en: The bank opens at eight in the morning.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τράπεζες
+    accusative_singular: την τράπεζα
+  keg_communicative_function: Locating banking services and financial transactions
+- id: A1-U10-010
+  greek: το ταχυδρομείο
+  phonetic_hint: ''
+  english: post office
+  notes: Neuter in -ο with plural in -α (τα ταχυδρομεία).
+  gender_or_pos: noun (neuter)
+  audio: to-tachydromeio-4f5b5b.mp3
+  status: verified
+  example_el: Πού είναι το κεντρικό ταχυδρομείο, παρακαλώ;
+  example_en: Where is the central post office, please?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταχυδρομεία
+    accusative_singular: το ταχυδρομείο
+  keg_communicative_function: Asking for postal services and mailing letters
+- id: A1-U10-011
+  greek: το φαρμακείο
+  phonetic_hint: ''
+  english: pharmacy / chemist's
+  notes: Neuter in -ο with plural in -α (τα φαρμακεία). Marked by a green cross in
+    Greece.
+  gender_or_pos: noun (neuter)
+  audio: to-farmakeio-569253.mp3
+  status: verified
+  example_el: Υπάρχει ένα διανυκτερεύον φαρμακείο εδώ κοντά;
+  example_en: Is there an on-duty pharmacy nearby?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φαρμακεία
+    accusative_singular: το φαρμακείο
+  keg_communicative_function: Locating pharmacies and health facilities
+- id: A1-U10-012
+  greek: το νοσοκομείο
+  phonetic_hint: ''
+  english: hospital
+  notes: Neuter in -ο with plural in -α (τα νοσοκομεία).
+  gender_or_pos: noun (neuter)
+  audio: to-nosokomeio-47505b.mp3
+  status: verified
+  example_el: Το γενικό νοσοκομείο είναι έξω από την πόλη.
+  example_en: The general hospital is outside the city.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νοσοκομεία
+    accusative_singular: το νοσοκομείο
+  keg_communicative_function: Locating medical emergency care in town
+- id: A1-U10-013
+  greek: το μουσείο
+  phonetic_hint: ''
+  english: museum
+  notes: Neuter in -ο with plural in -α (τα μουσεία).
+  gender_or_pos: noun (neuter)
+  audio: to-moyseio-6221c2.mp3
+  status: verified
+  example_el: Το Αρχαιολογικό Μουσείο είναι κλειστό τη Δευτέρα.
+  example_en: The Archaeological Museum is closed on Monday.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μουσεία
+    accusative_singular: το μουσείο
+  keg_communicative_function: Locating cultural landmarks and tourist sights
+- id: A1-U10-014
+  greek: το ξενοδοχείο
+  phonetic_hint: ''
+  english: hotel
+  notes: Neuter in -ο with plural in -α (τα ξενοδοχεία).
+  gender_or_pos: noun (neuter)
+  audio: to-xenodocheio-2248f1.mp3
+  status: verified
+  example_el: Μένουμε σε ένα όμορφο ξενοδοχείο κοντά στην παραλία.
+  example_en: We are staying at a beautiful hotel near the beach.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ξενοδοχεία
+    accusative_singular: το ξενοδοχείο
+  keg_communicative_function: Finding accommodation and lodging in the city
+- id: A1-U10-015
+  greek: το περίπτερο
+  phonetic_hint: ''
+  english: kiosk
+  notes: Neuter in -ο with plural in -α (τα περίπτερα). Greek cultural staple found
+    on nearly every corner.
+  gender_or_pos: noun (neuter)
+  audio: to-periptero-916ec9.mp3
+  status: verified
+  example_el: Αγοράζω εισιτήρια και νερό από το περίπτερο.
+  example_en: I buy tickets and water from the kiosk.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα περίπτερα
+    accusative_singular: το περίπτερο
+  keg_communicative_function: Buying daily necessities, tickets, or bottles of water
+    in town
+- id: A1-U10-016
+  greek: το αστυνομικό τμήμα
+  phonetic_hint: ''
+  english: police station
+  notes: 'Noun phrase: adjective αστυνομικός + τμήμα (department/station).'
+  gender_or_pos: phrase (noun expression)
+  audio: to-astynomiko-tmima-dbe01d.mp3
+  status: verified
+  example_el: Το αστυνομικό τμήμα είναι απέναντι από την τράπεζα.
+  example_en: The police station is across from the bank.
+  grammatical_info:
+    part_of_speech: phrase (noun expression)
+    plural: τα αστυνομικά τμήματα
+    accusative_singular: το αστυνομικό τμήμα
+  keg_communicative_function: Seeking emergency assistance and reporting lost items
+- id: A1-U10-017
+  greek: το μετρό
+  phonetic_hint: ''
+  english: metro / subway / underground
+  notes: 'Indeclinable neuter loanword (το μετρό). Means of transport: με + Definite
+    Accusative.'
+  gender_or_pos: noun (neuter)
+  audio: to-metro-181f50.mp3
+  status: verified
+  example_el: Πηγαίνω στη δουλειά με το μετρό κάθε πρωί.
+  example_en: I go to work by metro every morning.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μετρό
+    accusative_singular: το μετρό
+  keg_communicative_function: Using underground rapid transit
+- id: A1-U10-018
+  greek: το λεωφορείο
+  phonetic_hint: ''
+  english: bus
+  notes: Neuter in -ο with plural in -α (τα λεωφορεία).
+  gender_or_pos: noun (neuter)
+  audio: to-leoforeio-9dcf03.mp3
+  status: verified
+  example_el: Το λεωφορείο περνάει κάθε είκοσι λεπτά.
+  example_en: The bus passes every twenty minutes.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λεωφορεία
+    accusative_singular: το λεωφορείο
+  keg_communicative_function: Taking public bus transit
+- id: A1-U10-019
+  greek: το τρένο
+  phonetic_hint: ''
+  english: train
+  notes: Neuter in -ο with plural in -α (τα τρένα). Also spelled τραίνο.
+  gender_or_pos: noun (neuter)
+  audio: to-treno-c58be7.mp3
+  status: verified
+  example_el: Το τρένο για τη Θεσσαλονίκη φεύγει στις δέκα.
+  example_en: The train for Thessaloniki leaves at ten.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τρένα
+    accusative_singular: το τρένο
+  keg_communicative_function: Intercity and regional railway travel
+- id: A1-U10-020
+  greek: το τραμ
+  phonetic_hint: ''
+  english: tram / streetcar
+  notes: Indeclinable neuter loanword (το τραμ).
+  gender_or_pos: noun (neuter)
+  audio: to-tram-768d7e.mp3
+  status: verified
+  example_el: Παίρνουμε το τραμ για να πάμε στην παραλία.
+  example_en: We take the tram to go to the beach.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τραμ
+    accusative_singular: το τραμ
+  keg_communicative_function: Using coastal and city tramways
+- id: A1-U10-021
+  greek: το ταξί
+  phonetic_hint: ''
+  english: taxi / cab
+  notes: Indeclinable neuter noun (το ταξί / τα ταξί).
+  gender_or_pos: noun (neuter)
+  audio: to-taxi-ac62a9.mp3
+  status: verified
+  example_el: Παίρνω ένα ταξί γιατί βιάζομαι πολύ.
+  example_en: I take a taxi because I am in a big hurry.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταξί
+    accusative_singular: το ταξί
+  keg_communicative_function: Hailing and using taxi services
+- id: A1-U10-022
+  greek: το πλοίο
+  phonetic_hint: ''
+  english: ship / boat / ferry
+  notes: Neuter in -ο with plural in -α (τα πλοία).
+  gender_or_pos: noun (neuter)
+  audio: to-ploio-c2a3ee.mp3
+  status: verified
+  example_el: Το πλοίο για την Κρήτη φεύγει από το λιμάνι του Πειραιά.
+  example_en: The ferry for Crete departs from the port of Piraeus.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πλοία
+    accusative_singular: το πλοίο
+  keg_communicative_function: Island and maritime ferry transport
+- id: A1-U10-023
+  greek: το αεροπλάνο
+  phonetic_hint: ''
+  english: airplane / plane
+  notes: Neuter in -ο with plural in -α (τα αεροπλάνα).
+  gender_or_pos: noun (neuter)
+  audio: to-aeroplano-ee1c24.mp3
+  status: verified
+  example_el: Ταξιδεύουμε με το αεροπλάνο στις έντεκα το βράδυ.
+  example_en: We travel by plane at eleven tonight.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αεροπλάνα
+    accusative_singular: το αεροπλάνο
+  keg_communicative_function: Air travel and airport itineraries
+- id: A1-U10-024
+  greek: ο σταθμός
+  phonetic_hint: ''
+  english: station (metro / railway / central station)
+  notes: Masculine in -ος with plural in -οι (οι σταθμοί). Oxytone.
+  gender_or_pos: noun (masculine)
+  audio: o-stathmos-b0a9a8.mp3
+  status: verified
+  example_el: Ο σταθμός του μετρό είναι πολύ κοντά εδώ.
+  example_en: The metro station is very close to here.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι σταθμοί
+    accusative_singular: τον σταθμό
+  keg_communicative_function: Finding train stations or metro hubs
+- id: A1-U10-025
+  greek: η στάση
+  phonetic_hint: ''
+  english: stop (bus / tram stop)
+  notes: Feminine in -ση with plural in -σεις (οι στάσεις).
+  gender_or_pos: noun (feminine)
+  audio: i-stasi-cea227.mp3
+  status: verified
+  example_el: Περιμένω στη στάση του λεωφορείου.
+  example_en: I am waiting at the bus stop.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι στάσεις
+    accusative_singular: τη στάση
+  keg_communicative_function: Inquiring about and waiting at bus or tram stops
+- id: A1-U10-026
+  greek: το εισιτήριο
+  phonetic_hint: ''
+  english: ticket (transit / museum)
+  notes: Proparoxytone neuter in -ιο with plural in -ια (τα εισιτήρια).
+  gender_or_pos: noun (neuter)
+  audio: to-eisitirio-667f52.mp3
+  status: verified
+  example_el: Ένα εισιτήριο για το μετρό, παρακαλώ.
+  example_en: One metro ticket, please.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα εισιτήρια
+    accusative_singular: το εισιτήριο
+  keg_communicative_function: Purchasing transportation tickets
+- id: A1-U10-027
+  greek: το απλό εισιτήριο
+  phonetic_hint: ''
+  english: single ticket / one-way ticket
+  notes: Adjective απλός, -ή, -ό + εισιτήριο.
+  gender_or_pos: phrase (noun expression)
+  audio: to-aplo-eisitirio-ae036c.mp3
+  status: verified
+  example_el: Θέλω ένα απλό εισιτήριο για το λεωφορείο.
+  example_en: I want a single ticket for the bus.
+  grammatical_info:
+    part_of_speech: phrase (noun expression)
+    plural: τα απλά εισιτήρια
+    accusative_singular: το απλό εισιτήριο
+  keg_communicative_function: Specifying single-trip ticket purchases at ticket windows
+    or vending machines
+- id: A1-U10-028
+  greek: το εισιτήριο μετ' επιστροφής
+  phonetic_hint: ''
+  english: round-trip ticket / return ticket
+  notes: 'Fixed phrase: μετ'' επιστροφής (with return, elision of μετά before vowel).'
+  gender_or_pos: phrase (noun expression)
+  audio: to-eisitirio-met-epi-cf3a39.mp3
+  status: verified
+  example_el: Παίρνω ένα εισιτήριο μετ' επιστροφής για την Πάτρα.
+  example_en: I take a return ticket for Patras.
+  grammatical_info:
+    part_of_speech: phrase (noun expression)
+    plural: τα εισιτήρια μετ' επιστροφής
+    accusative_singular: το εισιτήριο μετ' επιστροφής
+  keg_communicative_function: Booking return transportation tickets
+- id: A1-U10-029
+  greek: η γραμμή
+  phonetic_hint: ''
+  english: line (metro / bus line)
+  notes: Feminine oxytone in -ή with plural in -ές (οι γραμμές).
+  gender_or_pos: noun (feminine)
+  audio: i-grammi-86397e.mp3
+  status: verified
+  example_el: Παίρνουμε την κόκκινη γραμμή για την Ακρόπολη.
+  example_en: We take the red line for the Acropolis.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γραμμές
+    accusative_singular: τη γραμμή
+  keg_communicative_function: Navigating subway networks and transit routes
+- id: A1-U10-030
+  greek: η αποβάθρα
+  phonetic_hint: ''
+  english: platform (rail / metro)
+  notes: Feminine in -α with plural in -ες (οι αποβάθρες).
+  gender_or_pos: noun (feminine)
+  audio: i-apovathra-444597.mp3
+  status: verified
+  example_el: Το τρένο μας φτάνει στην αποβάθρα δύο.
+  example_en: Our train arrives at platform two.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αποβάθρες
+    accusative_singular: την αποβάθρα
+  keg_communicative_function: Finding the correct platform in railway or metro stations
+- id: A1-U10-031
+  greek: ευθεία
+  phonetic_hint: ''
+  english: straight ahead / straight
+  notes: 'Adverb of direction. Common pairing: ''όλο ευθεία'' (straight on).'
+  gender_or_pos: adverb
+  audio: eytheia-32d21d.mp3
+  status: verified
+  example_el: Πηγαίνετε όλο ευθεία για διακόσια μέτρα.
+  example_en: Go straight ahead for two hundred meters.
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Giving and following straightforward directional guidance
+- id: A1-U10-032
+  greek: δεξιά
+  phonetic_hint: ''
+  english: on the right / to the right
+  notes: Adverb of place/direction. Opposed to αριστερά.
+  gender_or_pos: adverb
+  audio: dexia-d8d3cc.mp3
+  status: verified
+  example_el: Στρίβετε δεξιά στο φανάρι.
+  example_en: You turn right at the traffic light.
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Giving and following rightward turns and positions
+- id: A1-U10-033
+  greek: αριστερά
+  phonetic_hint: ''
+  english: on the left / to the left
+  notes: Adverb of place/direction. Opposed to δεξιά.
+  gender_or_pos: adverb
+  audio: aristera-4ed9ab.mp3
+  status: verified
+  example_el: Η τράπεζα είναι αριστερά σας.
+  example_en: The bank is on your left.
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Giving and following leftward turns and positions
+- id: A1-U10-034
+  greek: κοντά σε
+  phonetic_hint: ''
+  english: near / close to
+  notes: Prepositional compound governing 'σε + Accusative'.
+  gender_or_pos: prepositional phrase
+  audio: konta-se-398a48.mp3
+  status: verified
+  example_el: Το ξενοδοχείο είναι πολύ κοντά στον σταθμό.
+  example_en: The hotel is very close to the station.
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    governs: Accusative with contracted article (στο, στη, στον)
+  keg_communicative_function: Expressing proximity in urban geography
+- id: A1-U10-035
+  greek: μακριά από
+  phonetic_hint: ''
+  english: far from / distant from
+  notes: Prepositional compound governing 'από + Accusative'.
+  gender_or_pos: prepositional phrase
+  audio: makria-apo-619ee0.mp3
+  status: verified
+  example_el: Το αεροδρόμιο είναι μακριά από το κέντρο της Αθήνας.
+  example_en: The airport is far from downtown Athens.
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    governs: Accusative with contracted article (από το, από τη, από τον)
+  keg_communicative_function: Expressing long distance from reference points
+- id: A1-U10-036
+  greek: απέναντι από
+  phonetic_hint: ''
+  english: across from / opposite to
+  notes: Prepositional compound governing 'από + Accusative'.
+  gender_or_pos: prepositional phrase
+  audio: apenanti-apo-240ccc.mp3
+  status: verified
+  example_el: Το φαρμακείο είναι ακριβώς απέναντι από την εκκλησία.
+  example_en: The pharmacy is right across from the church.
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    governs: Accusative with article (από το, από την, από τον)
+  keg_communicative_function: Indicating facing locations across streets or plazas
+- id: A1-U10-037
+  greek: με τα πόδια
+  phonetic_hint: ''
+  english: on foot / by walking
+  notes: 'Fixed idiom: preposition με + plural neuter article τα + πόδια (feet).'
+  gender_or_pos: phrase (adverbial expression)
+  audio: me-ta-podia-f67b57.mp3
+  status: verified
+  example_el: Πηγαίνω στο πανεπιστήμιο με τα πόδια.
+  example_en: I go to the university on foot.
+  grammatical_info:
+    part_of_speech: phrase (adverbial expression)
+  keg_communicative_function: Describing walking as a mode of urban transit
+- id: A1-U10-038
+  greek: στρίβω
+  phonetic_hint: ''
+  english: to turn / I turn
+  notes: 'Type A regular verb: στρίβω, στρίβεις, στρίβει, στρίβουμε, στρίβετε, στρίβουν.'
+  gender_or_pos: verb
+  audio: strivo-3a5b78.mp3
+  status: verified
+  example_el: Στρίβετε αριστερά στο πρώτο στενό.
+  example_en: You turn left at the first alley/side street.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό στρίβει
+    first_person_plural: εμείς στρίβουμε
+  keg_communicative_function: Instructing someone to change direction while driving
+    or walking
+- id: A1-U10-039
+  greek: περνάω / περνώ
+  phonetic_hint: ''
+  english: to cross (a street) / to pass by / I cross
+  notes: 'Type B1 active verb: περνάω, περνάς, περνάει, περνάμε, περνάτε, περνάνε.'
+  gender_or_pos: verb
+  audio: pernao-perno-5f3294.mp3
+  status: verified
+  example_el: Περνάμε τον δρόμο με πράσινο φανάρι.
+  example_en: We cross the street on a green light.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό περνάει (περνά)
+    first_person_plural: εμείς περνάμε
+  keg_communicative_function: Crossing avenues and navigating traffic intersections
+- id: A1-U10-040
+  greek: κατεβαίνω
+  phonetic_hint: ''
+  english: to get off (bus/train) / to descend / I get off
+  notes: 'Type A verb: κατεβαίνω, κατεβαίνεις, κατεβαίνει, κατεβαίνουμε, κατεβαίνετε,
+    κατεβαίνουν.'
+  gender_or_pos: verb
+  audio: katevaino-012890.mp3
+  status: verified
+  example_el: Κατεβαίνουμε στην επόμενη στάση.
+  example_en: We get off at the next stop.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό κατεβαίνει
+    first_person_plural: εμείς κατεβαίνουμε
+  keg_communicative_function: Alighting from transit vehicles at the right stop
+- id: A1-U10-041
+  greek: ανεβαίνω
+  phonetic_hint: ''
+  english: to get on (bus/train) / to board / to ascend / I get on
+  notes: 'Type A verb: ανεβαίνω, ανεβαίνεις, ανεβαίνει, ανεβαίνουμε, ανεβαίνετε, ανεβαίνουν.'
+  gender_or_pos: verb
+  audio: anevaino-a0277e.mp3
+  status: verified
+  example_el: Ανεβαίνω στο λεωφορείο από την μπροστινή πόρτα.
+  example_en: I get on the bus through the front door.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ανεβαίνει
+    first_person_plural: εμείς ανεβαίνουμε
+  keg_communicative_function: Boarding transit vehicles
+- id: A1-U10-042
+  greek: ψάχνω
+  phonetic_hint: ''
+  english: to look for / to search for / I look for
+  notes: Type A active verb governing direct object in Accusative (ψάχνω + Accusative).
+  gender_or_pos: verb
+  audio: psachno-dc7f86.mp3
+  status: verified
+  example_el: Συγγνώμη, ψάχνω τον σταθμό των τρένων.
+  example_en: Excuse me, I am looking for the train station.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό ψάχνει
+    first_person_plural: εμείς ψάχνουμε
+  keg_communicative_function: Asking passersby for help finding places or addresses

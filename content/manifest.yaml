@@ -60,34 +60,93 @@ units:
   - id: lesson-01
     file: unit-07/lesson-01.yaml
     title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
-- id: unit-101
+- id: unit-08
+  title: Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)
+  order: OG-08-A
+  lessons:
+  - id: lesson-01
+    file: unit-08/lesson-01.yaml
+    title: Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)
+- id: unit-09
+  title: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
+  order: OG-09-A
+  lessons:
+  - id: lesson-01
+    file: unit-09/lesson-01.yaml
+    title: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
+- id: unit-10
+  title: Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)
+  order: OG-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-10/lesson-01.yaml
+    title: Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)
+- id: unit-11
+  title: Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)
+  order: OG-11-A
+  lessons:
+  - id: lesson-01
+    file: unit-11/lesson-01.yaml
+    title: Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)
+- id: unit-12
+  title: Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)
+  order: OG-12-A
+  lessons:
+  - id: lesson-01
+    file: unit-12/lesson-01.yaml
+    title: Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)
+- id: unit-100
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-41 (Εισαγωγική Ενότητα - Ήχοι, Γράμματα
     & Πρώτες Λέξεις)'
+  order: KlikA1-00-A
+  lessons:
+  - id: lesson-01
+    file: unit-100/lesson-01.yaml
+    title: 'Εισαγωγική Ενότητα: Ήχοι, Αλφάβητο & Βασικό Λεξιλόγιο (Pages 25-41)'
+- id: unit-101
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 43-54 (Ενότητα 1: Γεια χαρά! - Χαιρετισμοί
+    & Γνωριμία)'
   order: KlikA1-01-A
   lessons:
   - id: lesson-01
     file: unit-101/lesson-01.yaml
-    title: 'Εισαγωγική Ενότητα: Ήχοι, Αλφάβητο & Βασικό Λεξιλόγιο (Pages 25-41)'
+    title: 'Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages
+      43-54)'
 - id: unit-102
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 43-54 (Ενότητα 1: Γεια χαρά! - Χαιρετισμοί
-    & Γνωριμία)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Κατοικία,
+    Πόλεις & Αριθμοί)'
   order: KlikA1-02-A
   lessons:
   - id: lesson-01
     file: unit-102/lesson-01.yaml
-    title: 'Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages
-      43-54)'
+    title: 'Ενότητα 2: Πού μένεις; — Πόλεις, Διευθύνσεις, Αριθμοί 0-10 & Προθέσεις
+      (Pages 55-68)'
+- id: unit-102b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Γραμματική
+    & Προτάσεις)'
+  order: KlikA1-02-B
+  is_expansion: true
+  expansion_of: KlikA1-02-A
+  lessons:
+  - id: lesson-01
+    file: unit-102b/lesson-01.yaml
+    title: 'Ενότητα 2: Προτάσεις & Γραμματική — Κατοικία, Προθέσεις (σε/από), Ρήματα
+      σε -ω & Τοπικοί Προσδιορισμοί (Pages 55-68)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, locative prepositions merged with accusative articles (στον/στη/στο,
+      από τον/τη/το), Type A verb conjugations (-ω), and spatial expressions (κοντά,
+      δίπλα, απέναντι).'
 - id: unit-103
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Κατοικία,
-    Πόλεις & Αριθμοί)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Συγγένεια,
+    Περιγραφή & Εθνικότητες)'
   order: KlikA1-03-A
   lessons:
   - id: lesson-01
     file: unit-103/lesson-01.yaml
-    title: 'Ενότητα 2: Πού μένεις; — Πόλεις, Διευθύνσεις, Αριθμοί 0-10 & Προθέσεις
-      (Pages 55-68)'
+    title: 'Ενότητα 3: Η οικογένειά μου — Μέλη Οικογένειας, Επίθετα, Χώρες, Γλώσσες
+      & Ρήμα Μιλάω (Pages 69-82)'
 - id: unit-103b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Γραμματική
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Γραμματική
     & Προτάσεις)'
   order: KlikA1-03-B
   is_expansion: true
@@ -95,102 +154,115 @@ units:
   lessons:
   - id: lesson-01
     file: unit-103b/lesson-01.yaml
-    title: 'Ενότητα 2: Προτάσεις & Γραμματική — Κατοικία, Προθέσεις (σε/από), Ρήματα
-      σε -ω & Τοπικοί Προσδιορισμοί (Pages 55-68)'
-    description: 'Expansion & Complementary to Lesson 103: Sentence structures, syntax
-      patterns, locative prepositions merged with accusative articles (στον/στη/στο,
-      από τον/τη/το), Type A verb conjugations (-ω), and spatial expressions (κοντά,
-      δίπλα, απέναντι).'
+    title: 'Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος,
+      -η, -ο) & Ρήμα Μιλάω (Pages 69-82)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, possessive pronouns (μου, σου, του, της...), adjective agreement,
+      and conjugations of μιλάω.'
 - id: unit-104
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Συγγένεια,
-    Περιγραφή & Εθνικότητες)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
+    - Καθημερινότητα, Ελεύθερος Χρόνος, Ώρα & Ρήματα)'
   order: KlikA1-04-A
   lessons:
   - id: lesson-01
     file: unit-104/lesson-01.yaml
-    title: 'Ενότητα 3: Η οικογένειά μου — Μέλη Οικογένειας, Επίθετα, Χώρες, Γλώσσες
-      & Ρήμα Μιλάω (Pages 69-82)'
+    title: 'Ενότητα 4: Από το πρωί μέχρι το βράδυ — Καθημερινότητα, Ώρα, Μήνες & Ρήματα
+      (Pages 87-110)'
 - id: unit-104b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Γραμματική
-    & Προτάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
+    - Γραμματική & Προτάσεις)'
   order: KlikA1-04-B
-  is_expansion: true
-  expansion_of: KlikA1-04-A
   lessons:
   - id: lesson-01
     file: unit-104b/lesson-01.yaml
-    title: 'Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος,
-      -η, -ο) & Ρήμα Μιλάω (Pages 69-82)'
-    description: 'Expansion & Complementary to Lesson 104: Sentence structures, syntax
-      patterns, possessive pronouns (μου, σου, του, της...), adjective agreement,
-      and conjugations of μιλάω.'
+    title: 'Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες
+      (Pages 87-110)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, accusative direct objects, irregular verbs, and time-telling.'
+  is_expansion: true
+  expansion_of: KlikA1-04-A
 - id: unit-105
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
-    - Καθημερινότητα, Ελεύθερος Χρόνος, Ώρα & Ρήματα)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Λεξιλόγιο)'
   order: KlikA1-05-A
   lessons:
   - id: lesson-01
     file: unit-105/lesson-01.yaml
-    title: 'Ενότητα 4: Από το πρωί μέχρι το βράδυ — Καθημερινότητα, Ώρα, Μήνες & Ρήματα
-      (Pages 87-110)'
+    title: 'Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)'
 - id: unit-105b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
-    - Γραμματική & Προτάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Γραμματική
+    & Προτάσεις)'
   order: KlikA1-05-B
+  is_expansion: true
+  expansion_of: KlikA1-05-A
   lessons:
   - id: lesson-01
     file: unit-105b/lesson-01.yaml
-    title: 'Ενότητα 4: Προτάσεις & Γραμματική — Καθημερινότητα, Αιτιατική, Ώρα & Συζυγίες
-      (Pages 87-110)'
-    description: 'Expansion & Complementary to Lesson 105: Sentence structures, syntax
-      patterns, accusative direct objects, irregular verbs, and time-telling.'
+    title: 'Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
+      να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective
+      + από), transit navigation, and communicative dialogues.'
+- id: unit-105c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-134 (Ενότητες 1-5: Συνομιλίες, Διάλογοι
+    & Εξετάσεις)'
+  order: KlikA1-05-C
   is_expansion: true
   expansion_of: KlikA1-05-A
+  lessons:
+  - id: lesson-01
+    file: unit-105c/lesson-01.yaml
+    title: 'Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)'
+    description: 'Cumulative conversational, dialogue, and CEFR A1 oral exam practice
+      synthesizing vocabulary and structures from Units 100 to 105: personal presentations,
+      origin and family inquiries, city directions and transport, daily routines and
+      times, booking hotels and buying tickets, and realistic spoken interactions.'
 - id: unit-106
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Λεξιλόγιο)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Λεξιλόγιο)'
   order: KlikA1-06-A
   lessons:
   - id: lesson-01
     file: unit-106/lesson-01.yaml
-    title: 'Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)'
+    title: 'Ενότητα 6: Σπίτι μου, σπιτάκι μου — Βασικό Λεξιλόγιο (Pages 133-150)'
 - id: unit-106b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Γραμματική
-    & Προτάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Γραμματική & Προτάσεις)'
   order: KlikA1-06-B
   is_expansion: true
   expansion_of: KlikA1-06-A
   lessons:
   - id: lesson-01
     file: unit-106b/lesson-01.yaml
-    title: 'Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)'
-    description: 'Expansion & Complementary to Lesson 106: Sentence structures, syntax
-      patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
-      να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective
-      + από), transit navigation, and communicative dialogues.'
+    title: 'Ενότητα 6: Προτάσεις & Γραμματική — Σπίτι μου, σπιτάκι μου (Pages 133-150)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, imperative mood (προστακτική: κάνε/κάντε, άκου/ακούστε, μη + υποτακτική),
+      spatial prepositions (μέσα, έξω, πάνω, κάτω, μπροστά, πίσω, δεξιά, αριστερά),
+      adjective agreement, colors, real estate ads, and housing dialogues.'
 - id: unit-106c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-134 (Ενότητες 1-5: Συνομιλίες, Διάλογοι
-    & Εξετάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Διάλογοι, Εξετάσεις & Συνομιλίες)'
   order: KlikA1-06-C
   is_expansion: true
   expansion_of: KlikA1-06-A
   lessons:
   - id: lesson-01
     file: unit-106c/lesson-01.yaml
-    title: 'Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)'
-    description: 'Cumulative conversational, dialogue, and CEFR A1 oral exam practice
-      synthesizing vocabulary and structures from Units 101 to 106: personal presentations,
-      origin and family inquiries, city directions and transport, daily routines and
-      times, booking hotels and buying tickets, and realistic spoken interactions.'
+    title: 'Ενότητα 6: Διάλογοι & Εξετάσεις — Σπίτι, Ενοικίαση & Οδηγίες (A1 Synthesis
+      101-107)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
+      on home life, apartment search, rental negotiations, giving polite instructions
+      and household commands (imperative), and neighborhood living using vocabulary
+      from Lessons 100 to 106.
 - id: unit-107
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
     - Λεξιλόγιο)'
   order: KlikA1-07-A
   lessons:
   - id: lesson-01
     file: unit-107/lesson-01.yaml
-    title: 'Ενότητα 6: Σπίτι μου, σπιτάκι μου — Βασικό Λεξιλόγιο (Pages 133-150)'
+    title: 'Ενότητα 7: Γιορτές! Ώρα για ψώνια — Βασικό Λεξιλόγιο (Pages 151-174)'
 - id: unit-107b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
     - Γραμματική & Προτάσεις)'
   order: KlikA1-07-B
   is_expansion: true
@@ -198,13 +270,14 @@ units:
   lessons:
   - id: lesson-01
     file: unit-107b/lesson-01.yaml
-    title: 'Ενότητα 6: Προτάσεις & Γραμματική — Σπίτι μου, σπιτάκι μου (Pages 133-150)'
-    description: 'Expansion & Complementary to Lesson 107: Sentence structures, syntax
-      patterns, imperative mood (προστακτική: κάνε/κάντε, άκου/ακούστε, μη + υποτακτική),
-      spatial prepositions (μέσα, έξω, πάνω, κάτω, μπροστά, πίσω, δεξιά, αριστερά),
-      adjective agreement, colors, real estate ads, and housing dialogues.'
+    title: 'Ενότητα 7: Προτάσεις & Γραμματική — Γιορτές! Ώρα για ψώνια (Pages 151-174)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, Simple Future tense (θα + στιγμιαίος κορμός), weak direct object pronouns
+      in accusative (με, σε, τον, την, το, μας, σας, τους, τις, τα), demonstrative
+      contrast (αυτός vs εκείνος), retail shopping, sizing, fitting rooms, discounts,
+      cashier transactions, and holiday wishes.'
 - id: unit-107c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-168 (Ενότητα 7: Ψώνια, ρούχα & γιορτές
     - Διάλογοι, Εξετάσεις & Συνομιλίες)'
   order: KlikA1-07-C
   is_expansion: true
@@ -212,94 +285,56 @@ units:
   lessons:
   - id: lesson-01
     file: unit-107c/lesson-01.yaml
-    title: 'Ενότητα 6: Διάλογοι & Εξετάσεις — Σπίτι, Ενοικίαση & Οδηγίες (A1 Synthesis
-      101-107)'
+    title: 'Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis
+      101-108)'
     description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
-      on home life, apartment search, rental negotiations, giving polite instructions
-      and household commands (imperative), and neighborhood living using vocabulary
-      from Lessons 101 to 107.
+      on department store shopping, clothing sizes, fitting rooms, sales, simple future
+      tense plans, invitations, birthdays, and holiday wishes using vocabulary from
+      Lessons 100 to 107.
 - id: unit-108
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
-    - Λεξιλόγιο)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
+    μας! - Λεξιλόγιο)'
   order: KlikA1-08-A
   lessons:
   - id: lesson-01
     file: unit-108/lesson-01.yaml
-    title: 'Ενότητα 7: Γιορτές! Ώρα για ψώνια — Βασικό Λεξιλόγιο (Pages 151-174)'
+    title: 'Ενότητα 8: Από τον μανάβη στο πιάτο μας! — Βασικό Λεξιλόγιο (Pages 175-194)'
 - id: unit-108b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
-    - Γραμματική & Προτάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
+    μας! - Γραμματική & Προτάσεις)'
   order: KlikA1-08-B
   is_expansion: true
   expansion_of: KlikA1-08-A
   lessons:
   - id: lesson-01
     file: unit-108b/lesson-01.yaml
-    title: 'Ενότητα 7: Προτάσεις & Γραμματική — Γιορτές! Ώρα για ψώνια (Pages 151-174)'
-    description: 'Expansion & Complementary to Lesson 108: Sentence structures, syntax
-      patterns, Simple Future tense (θα + στιγμιαίος κορμός), weak direct object pronouns
-      in accusative (με, σε, τον, την, το, μας, σας, τους, τις, τα), demonstrative
-      contrast (αυτός vs εκείνος), retail shopping, sizing, fitting rooms, discounts,
-      cashier transactions, and holiday wishes.'
-- id: unit-108c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-168 (Ενότητα 7: Ψώνια, ρούχα & γιορτές
-    - Διάλογοι, Εξετάσεις & Συνομιλίες)'
-  order: KlikA1-08-C
-  is_expansion: true
-  expansion_of: KlikA1-08-A
-  lessons:
-  - id: lesson-01
-    file: unit-108c/lesson-01.yaml
-    title: 'Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis
-      101-108)'
-    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
-      on department store shopping, clothing sizes, fitting rooms, sales, simple future
-      tense plans, invitations, birthdays, and holiday wishes using vocabulary from
-      Lessons 101 to 108.
+    title: 'Ενότητα 8: Προτάσεις & Γραμματική — Από τον μανάβη στο πιάτο μας! (Pages
+      175-194)'
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
+      patterns, Indefinite pronouns and quantifiers (κανένας/καμία/κανένα, τίποτα,
+      κάποιος, κάτι, κάθε, μερικοί), strong personal pronouns after prepositions (με,
+      για, από, σε, χωρίς), quantifiers (πολύς, πολλή, πολύ vs πόσος, πόση, πόσο),
+      supermarket and produce vendor shopping dialogues, taverna and restaurant ordering
+      interactions, and cooking recipe imperatives (κόψτε, βάλτε, ανακατέψτε, ψήστε).'
 - id: unit-109
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
-    μας! - Λεξιλόγιο)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
+    - Λεξιλόγιο)'
   order: KlikA1-09-A
   lessons:
   - id: lesson-01
     file: unit-109/lesson-01.yaml
-    title: 'Ενότητα 8: Από τον μανάβη στο πιάτο μας! — Βασικό Λεξιλόγιο (Pages 175-194)'
+    title: 'Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)'
 - id: unit-109b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
-    μας! - Γραμματική & Προτάσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
+    - Γραμματική & Προτάσεις)'
   order: KlikA1-09-B
   is_expansion: true
   expansion_of: KlikA1-09-A
   lessons:
   - id: lesson-01
     file: unit-109b/lesson-01.yaml
-    title: 'Ενότητα 8: Προτάσεις & Γραμματική — Από τον μανάβη στο πιάτο μας! (Pages
-      175-194)'
-    description: 'Expansion & Complementary to Lesson 109: Sentence structures, syntax
-      patterns, Indefinite pronouns and quantifiers (κανένας/καμία/κανένα, τίποτα,
-      κάποιος, κάτι, κάθε, μερικοί), strong personal pronouns after prepositions (με,
-      για, από, σε, χωρίς), quantifiers (πολύς, πολλή, πολύ vs πόσος, πόση, πόσο),
-      supermarket and produce vendor shopping dialogues, taverna and restaurant ordering
-      interactions, and cooking recipe imperatives (κόψτε, βάλτε, ανακατέψτε, ψήστε).'
-- id: unit-110
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
-    - Λεξιλόγιο)'
-  order: KlikA1-10-A
-  lessons:
-  - id: lesson-01
-    file: unit-110/lesson-01.yaml
-    title: 'Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)'
-- id: unit-110b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
-    - Γραμματική & Προτάσεις)'
-  order: KlikA1-10-B
-  is_expansion: true
-  expansion_of: KlikA1-10-A
-  lessons:
-  - id: lesson-01
-    file: unit-110b/lesson-01.yaml
     title: 'Ενότητα 9: Προτάσεις & Γραμματική — Σπουδάζεις ή δουλεύεις; (Pages 195-218)'
-    description: 'Expansion & Complementary to Lesson 110: Sentence structures, syntax
+    description: 'Expansion & Complementary to Lesson 100: Sentence structures, syntax
       patterns, Simple Past / Aorist tense of regular verbs (διάβασα, έγραψα, άκουσα,
       μαγείρεψα, δούλεψα, τελείωσα, πλήρωσα) and irregular high-frequency verbs (πήγα,
       ήρθα, είδα, βρήκα, πήρα, έστειλα, έφυγα, έφαγα, ήπια, είπα, έκανα, κατάλαβα,
@@ -308,29 +343,40 @@ units:
       professional employment and work inquiries (job interviews, work schedules,
       salary, vacation leave), and educational institution course enrollments and
       schedules.'
-- id: unit-111
+- id: unit-110
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Λεξιλόγιο)'
+  order: KlikA1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-110/lesson-01.yaml
+    title: 'Ενότητα 10: Περαστικά! — Βασικό Λεξιλόγιο (Pages 219-232)'
+- id: unit-110b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Γραμματική
+    & Εκφράσεις)'
+  order: KlikA1-10-B
+  is_expansion: true
+  expansion_of: KlikA1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-110b/lesson-01.yaml
+    title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'
+- id: unit-111
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
+    & Τελική Επανάληψη - Λεξιλόγιο)'
   order: KlikA1-11-A
   lessons:
   - id: lesson-01
     file: unit-111/lesson-01.yaml
-    title: 'Ενότητα 10: Περαστικά! — Βασικό Λεξιλόγιο (Pages 219-232)'
+    title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Βασικό Λεξιλόγιο
+      (Pages 233-255)'
 - id: unit-111b
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Γραμματική
-    & Εκφράσεις)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
+    & Τελική Επανάληψη - Γραμματική & Εκφράσεις)'
   order: KlikA1-11-B
   is_expansion: true
   expansion_of: KlikA1-11-A
   lessons:
   - id: lesson-01
     file: unit-111b/lesson-01.yaml
-    title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'
-- id: unit-112
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
-    & Τελική Επανάληψη - Λεξιλόγιο)'
-  order: KlikA1-12-A
-  lessons:
-  - id: lesson-01
-    file: unit-112/lesson-01.yaml
-    title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Βασικό Λεξιλόγιο
-      (Pages 233-255)'
+    title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Γραμματική &
+      Εκφράσεις (Pages 233-255)'

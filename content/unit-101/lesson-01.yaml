@@ -1,1923 +1,857 @@
 unit_id: unit-101
 lesson_id: lesson-01
-title: 'Εισαγωγική Ενότητα: Ήχοι, Αλφάβητο & Βασικό Λεξιλόγιο (Pages 25-41)'
-description: 'CEFR A1: Phonetic patterns, alphabet letter combinations, and foundational
-  vocabulary from Klik A1 (pages 25-41).'
+title: 'Ενότητα 1: Γεια χαρά! — Χαιρετισμοί, Συστάσεις & Το Ρήμα Είμαι (Pages 43-54)'
+description: 'CEFR A1: Greetings by time of day, formal and informal introductions,
+  personal pronouns, the present tense of ''είμαι'', vocative address, and social
+  etiquette from Klik A1 (pages 43-54).'
 lesson_status: not_started
-lesson_notes: "Κλικ στα Ελληνικά Α1 — Εισαγωγική Ενότητα (Σελίδες 25-41):\n• Φωνηεντικά\
-  \ δίψηφα (Vowel Digraphs):\n  - ει, οι, υι, η, ι, υ → [i]\n  - αι, ε → [e]\n  -\
-  \ ου → [u]\n• Συνδυασμοί αυ, ευ (Combinations with υ):\n  - Pronounced [af], [ef]\
-  \ before voiceless consonants (θ, κ, ξ, π, σ, τ, φ, χ, ψ).\n  - Pronounced [av],\
-  \ [ev] before vowels and voiced consonants (β, γ, δ, ζ, λ, μ, ν, ρ).\n• Σύμφωνα\
-  \ & συμφωνικά δίψηφα (Consonants & Consonant Digraphs):\n  - μπ → [b] at the start\
-  \ of a word, [mb]/[b] internally.\n  - ντ → [d] at the start of a word, [nd]/[d]\
-  \ internally.\n  - γκ / γγ → [g] at the start of a word, [ŋg]/[g] internally.\n\
-  \  - τσ → [ts], τζ → [dz].\n• Διακριτικά σημεία (Diacritics):\n  - Διαλυτικά (dialytika\
-  \ ¨): Separate vowels in digraphs (π.χ. το προϊόν, το καΐκι)."
+lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 1: Γεια χαρά! (Σελίδες 43-54):\n• Χαιρετισμοί\
+  \ & Χρόνος (Greetings by Time):\n  - Πρωί: Καλημέρα! (Good morning!)\n  - Απόγευμα\
+  \ & Βράδυ: Καλησπέρα! (Good evening!)\n  - Αποχαιρετισμός: Αντίο!, Γεια σου/σας!,\
+  \ Τα λέμε!, Καλό βράδυ!, Καληνύχτα!\n• Συστάσεις (Introductions):\n  - «Με λένε\
+  \ + Αιτιατική / όνομα» (π.χ. Με λένε Κώστα / Σοφία).\n  - «Είμαι ο / η + Ονομαστική»\
+  \ (π.χ. Είμαι ο Νίκος / Είμαι η Μαρία).\n  - «Από εδώ ο φίλος μου / η φίλη μου...»\
+  \ (This is my friend...).\n  - Απάντηση: «Χαίρω πολύ!», «Κι εγώ!», «Επίσης!».\n\
+  • Κλητική Πτώση (Vocative in Direct Address):\n  - Αρσενικά σε -ος: κύριε Παπαδόπουλε!,\
+  \ Νίκο!\n  - Αρσενικά σε -ης: Δημήτρη!, Άρη!\n  - Αρσενικά σε -ας: Κώστα!\n  - Θηλυκά\
+  \ παραμένουν ίδια: Άννα!, Ελένη!\n• Προσωπικές Αντωνυμίες & Ρήμα «είμαι» (Present):\n\
+  \  - εγώ είμαι, εσύ είσαι, αυτός/αυτή/αυτό είναι\n  - εμείς είμαστε, εσείς είστε,\
+  \ αυτοί/αυτές/αυτά είναι\n• Άρνηση (Negation):\n  - «Όχι, δεν είμαι ο Γιάννης.»\
+  \ (No, I am not Giannis)."
 entries:
 - id: A1-U101-001
-  greek: το αεροπλάνο
-  phonetic_hint: ''
-  english: airplane / plane
-  notes: 'Klik A1 p. 25. Neuter noun in -ο with plural in -α. Compound word: αέρας
-    (air) + πλάνο.'
-  gender_or_pos: noun (neuter)
-  audio: to-aeroplano-ee1c24.mp3
+  greek: Γεια!
+  phonetic_hint: yeh
+  english: Hello! / Hi! / Bye!
+  notes: Klik A1 p. 43. Universal casual greeting and farewell among friends and peers.
+  gender_or_pos: phrase
+  audio: geia-18e19c.mp3
   status: verified
-  example_el: Το αεροπλάνο φτάνει στην Αθήνα στις πέντε.
-  example_en: The airplane arrives in Athens at five o'clock.
+  example_el: Γεια! Τι κάνεις;
+  example_en: Hi! How are you?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αεροπλάνα
-    accusative_singular: το αεροπλάνο
-  keg_communicative_function: Identifying modes of transport and travel vocabulary
+    part_of_speech: phrase
+  keg_communicative_function: Casual informal greeting and farewell
 - id: A1-U101-002
-  greek: το βάζο
-  phonetic_hint: ''
-  english: vase
-  notes: Klik A1 p. 25. Common household neuter noun. Practicing voiced fricative
-    [v] (β).
-  gender_or_pos: noun (neuter)
-  audio: to-vazo-6d400c.mp3
+  greek: Γεια σου!
+  phonetic_hint: YAH-soo
+  english: Hello! / Hi! / Bye! (informal singular)
+  notes: Klik A1 p. 43. Literally 'Health to you'. Used addressing one person informally.
+  gender_or_pos: phrase
+  audio: geia-soy-0d6bcf.mp3
   status: verified
-  example_el: Έχει όμορφα λουλούδια στο βάζο.
-  example_en: There are beautiful flowers in the vase.
+  example_el: Γεια σου, Νίκη! Είσαι καλά;
+  example_en: Hello, Niki! Are you well?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βάζα
-    accusative_singular: το βάζο
-  keg_communicative_function: Describing home decor and everyday objects
+    part_of_speech: phrase
+  keg_communicative_function: Greeting a single friend or peer informally
 - id: A1-U101-003
-  greek: η βάρκα
-  phonetic_hint: ''
-  english: small boat / rowboat
-  notes: Klik A1 p. 25. Feminine noun in -α with stress on the first syllable.
-  gender_or_pos: noun (feminine)
-  audio: i-varka-2e9a3e.mp3
+  greek: Γεια σας!
+  phonetic_hint: YAH-sahs
+  english: Hello! / Goodbye! (formal singular or plural)
+  notes: Klik A1 p. 43. Used when greeting multiple people or one person with polite
+    distance.
+  gender_or_pos: phrase
+  audio: geia-sas-b30b5d.mp3
   status: verified
-  example_el: Η βάρκα είναι στο μικρό λιμάνι.
-  example_en: The boat is in the small harbor.
+  example_el: Γεια σας, κύριε Παπαδόπουλε! Πώς είστε;
+  example_en: Hello, Mr. Papadopoulos! How are you?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι βάρκες
-    accusative_singular: τη βάρκα
-  keg_communicative_function: Describing sea transport and maritime settings
+    part_of_speech: phrase
+  keg_communicative_function: Polite or group greeting and farewell
 - id: A1-U101-004
-  greek: το ζάρι
-  phonetic_hint: ''
-  english: die / dice
-  notes: Klik A1 p. 25. Neuter noun in -ι with plural in -ια. Practicing voiced dental
-    fricative [z] (ζ).
-  gender_or_pos: noun (neuter)
-  audio: to-zari-da6ac8.mp3
+  greek: Γεια χαρά!
+  phonetic_hint: yah hah-RAH
+  english: Hi there! / Cheers! / Goodbye!
+  notes: 'Klik A1 p. 43 (Unit title). Upbeat, cheerful greeting: ''health and joy''.'
+  gender_or_pos: phrase
+  audio: geia-chara-a40cc0.mp3
   status: verified
-  example_el: Ρίχνω το ζάρι στο παιχνίδι.
-  example_en: I roll the die in the game.
+  example_el: Γεια χαρά σε όλους!
+  example_en: Hi there to everyone!
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ζάρια
-    accusative_singular: το ζάρι
-  keg_communicative_function: Discussing board games and recreation
+    part_of_speech: phrase
+  keg_communicative_function: Cheerful friendly greeting
 - id: A1-U101-005
-  greek: το λεμόνι
-  phonetic_hint: ''
-  english: lemon
-  notes: Klik A1 p. 25. Neuter noun in -ι with plural in -ια. Core staple fruit in
-    Greek cooking.
-  gender_or_pos: noun (neuter)
-  audio: to-lemoni-f189da.mp3
+  greek: Καλημέρα!
+  phonetic_hint: kah-lee-MEH-rah
+  english: Good morning! / Good day!
+  notes: Klik A1 p. 43, 45. Standard daytime greeting from morning until midday.
+  gender_or_pos: phrase
+  audio: kalimera-cfff47.mp3
   status: verified
-  example_el: Θέλω λίγο λεμόνι στη σαλάτα.
-  example_en: I want a little lemon on the salad.
+  example_el: Καλημέρα, παιδιά! Πώς είστε σήμερα;
+  example_en: Good morning, children! How are you today?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λεμόνια
-    accusative_singular: το λεμόνι
-  keg_communicative_function: Ordering and describing fresh foods
+    part_of_speech: phrase
+  keg_communicative_function: Greeting in the morning hours
 - id: A1-U101-006
-  greek: το μαγαζί
-  phonetic_hint: ''
-  english: shop / store
-  notes: 'Klik A1 p. 25. Neuter noun in -ί with oxytone stress (plural: τα μαγαζιά).'
-  gender_or_pos: noun (neuter)
-  audio: to-magazi-41f2a5.mp3
+  greek: Καλησπέρα!
+  phonetic_hint: kah-lee-SPEH-rah
+  english: Good evening!
+  notes: Klik A1 p. 44, 49, 54. Greeting used from late afternoon until night.
+  gender_or_pos: phrase
+  audio: kalispera-2837ba.mp3
   status: verified
-  example_el: Το μαγαζί είναι ανοιχτό σήμερα.
-  example_en: The store is open today.
+  example_el: Καλησπέρα σας, κυρία Ελένη.
+  example_en: Good evening, Mrs. Eleni.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μαγαζιά
-    accusative_singular: το μαγαζί
-  keg_communicative_function: Navigating commercial shops and town facilities
+    part_of_speech: phrase
+  keg_communicative_function: Greeting in late afternoon and evening
 - id: A1-U101-007
-  greek: η μπίρα
-  phonetic_hint: ''
-  english: beer
-  notes: Klik A1 p. 25. Also spelled μπύρα. Practicing the initial voiced stop [b]
-    (μπ).
-  gender_or_pos: noun (feminine)
-  audio: i-mpira-9895ed.mp3
+  greek: Καληνύχτα!
+  phonetic_hint: kah-lee-NEEKH-tah
+  english: Good night!
+  notes: Klik A1 p. 49, 54. Exclusively a departure farewell before sleep or leaving
+    late at night.
+  gender_or_pos: phrase
+  audio: kalinychta-d886fe.mp3
   status: verified
-  example_el: Μία κρύα μπίρα, παρακαλώ.
-  example_en: One cold beer, please.
+  example_el: Καληνύχτα και όνειρα γλυκά!
+  example_en: Good night and sweet dreams!
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι μπίρες
-    accusative_singular: την μπίρα
-  keg_communicative_function: Ordering drinks at a cafe or taverna
+    part_of_speech: phrase
+  keg_communicative_function: Parting at night before bed
 - id: A1-U101-008
-  greek: η κιθάρα
-  phonetic_hint: ''
-  english: guitar
-  notes: Klik A1 p. 25. Feminine noun in -α with stress on the penult.
-  gender_or_pos: noun (feminine)
-  audio: i-kithara-29af23.mp3
+  greek: Καλό βράδυ!
+  phonetic_hint: kah-LO VRAH-thee
+  english: Have a good evening!
+  notes: Klik A1 p. 49, 54. Farewell wish used when parting in the evening.
+  gender_or_pos: phrase
+  audio: kalo-vrady-aaf294.mp3
   status: verified
-  example_el: Ο Νίκος παίζει κιθάρα πολύ καλά.
-  example_en: Nikos plays guitar very well.
+  example_el: Ευχαριστώ πολύ για τη φιλοξενία, καλό βράδυ!
+  example_en: Thank you very much for the hospitality, have a good evening!
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι κιθάρες
-    accusative_singular: την κιθάρα
-  keg_communicative_function: Discussing hobbies and musical instruments
+    part_of_speech: phrase
+  keg_communicative_function: Wishing someone a pleasant evening upon parting
 - id: A1-U101-009
-  greek: ο καναπές
-  phonetic_hint: ''
-  english: sofa / couch
-  notes: Klik A1 p. 25. Masculine noun in -ές with plural adding -δες (οι καναπέδες).
-  gender_or_pos: noun (masculine)
-  audio: o-kanapes-6eb76c.mp3
+  greek: Αντίο!
+  phonetic_hint: ahn-DEE-o
+  english: Goodbye! / Farewell!
+  notes: Klik A1 p. 49, 54. Formal or definitive farewell parting word.
+  gender_or_pos: phrase
+  audio: antio-2d20f4.mp3
   status: verified
-  example_el: Ο καναπές στο σαλόνι είναι άνετος.
-  example_en: The sofa in the living room is comfortable.
+  example_el: Αντίο, κύριε καθηγητά, τα λέμε αύριο.
+  example_en: Goodbye, professor, see you tomorrow.
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι καναπέδες
-    accusative_singular: τον καναπέ
-  keg_communicative_function: Describing home furniture
+    part_of_speech: phrase
+  keg_communicative_function: Saying goodbye upon departure
 - id: A1-U101-010
-  greek: το κασκόλ
-  phonetic_hint: ''
-  english: scarf
-  notes: Klik A1 p. 25. Neuter indeclinable loanword (το κασκόλ, τα κασκόλ).
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-kaskol-7da8c0.mp3
+  greek: Τα λέμε!
+  phonetic_hint: tah LEH-meh
+  english: See you! / Talk soon!
+  notes: 'Klik A1 p. 49, 54. Extremely common colloquial farewell. Literally: ''We
+    speak (to each other)''.'
+  gender_or_pos: phrase
+  audio: ta-leme-b94936.mp3
   status: verified
-  example_el: Φοράω ζεστό κασκόλ τον χειμώνα.
-  example_en: I wear a warm scarf in the winter.
+  example_el: Έφυγα τώρα, τα λέμε αργότερα!
+  example_en: I'm off now, see you later!
   grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα κασκόλ
-    accusative_singular: το κασκόλ
-  keg_communicative_function: Describing clothing and winter accessories
+    part_of_speech: phrase
+  keg_communicative_function: Informal parting among friends
 - id: A1-U101-011
-  greek: το ντουλάπι
-  phonetic_hint: ''
-  english: cupboard / cabinet
-  notes: Klik A1 p. 25. Practicing the initial voiced dental stop [d] (ντ).
-  gender_or_pos: noun (neuter)
-  audio: to-ntoylapi-683574.mp3
+  greek: Πώς σε λένε;
+  phonetic_hint: pos seh LEH-neh
+  english: What is your name? (informal)
+  notes: 'Klik A1 p. 43, 44. Standard informal question. Lit: ''How do they call you?''.'
+  gender_or_pos: phrase
+  audio: pos-se-lene-dcea99.mp3
   status: verified
-  example_el: Τα ποτήρια είναι μέσα στο ντουλάπι.
-  example_en: The glasses are inside the cupboard.
+  example_el: Γεια σου! Είμαι ο Γιώργος. Πώς σε λένε;
+  example_en: Hi! I am Giorgos. What is your name?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ντουλάπια
-    accusative_singular: το ντουλάπι
-  keg_communicative_function: Locating objects in the kitchen or house
+    part_of_speech: phrase
+  keg_communicative_function: Asking someone's name informally
 - id: A1-U101-012
-  greek: το πιάνο
-  phonetic_hint: ''
-  english: piano
-  notes: Klik A1 p. 25. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-piano-f154cb.mp3
+  greek: Πώς σας λένε;
+  phonetic_hint: pos sahs LEH-neh
+  english: What is your name? (formal / polite plural)
+  notes: Klik A1 p. 48. Polite question used when meeting an adult, teacher, or group.
+  gender_or_pos: phrase
+  audio: pos-sas-lene-01261f.mp3
   status: verified
-  example_el: Η Μαρία μαθαίνει πιάνο.
-  example_en: Maria is learning piano.
+  example_el: Χαίρετε! Πώς σας λένε, παρακαλώ;
+  example_en: Greetings! What is your name, please?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πιάνα
-    accusative_singular: το πιάνο
-  keg_communicative_function: Talking about musical skills and hobbies
+    part_of_speech: phrase
+  keg_communicative_function: Asking someone's name politely or formally
 - id: A1-U101-013
-  greek: το θέατρο
-  phonetic_hint: ''
-  english: theater / theatre
-  notes: Klik A1 p. 25. Neuter noun in -ο with initial voiceless dental fricative
-    [θ].
-  gender_or_pos: noun (neuter)
-  audio: to-theatro-49289c.mp3
+  greek: Με λένε...
+  phonetic_hint: meh LEH-neh
+  english: My name is... / They call me...
+  notes: 'Klik A1 p. 43, 47. Followed by accusative or bare name: ''Με λένε Σοφία
+    / Κώστα''.'
+  gender_or_pos: phrase
+  audio: me-lene-d0f819.mp3
   status: verified
-  example_el: Πάμε στο θέατρο απόψε;
-  example_en: Shall we go to the theater tonight?
+  example_el: Με λένε Μαρία και είμαι φοιτήτρια.
+  example_en: My name is Maria and I am a student.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα θέατρα
-    accusative_singular: το θέατρο
-  keg_communicative_function: Suggesting cultural outings and leisure activities
+    part_of_speech: phrase
+  keg_communicative_function: Introducing oneself by name
 - id: A1-U101-014
-  greek: η τσάντα
-  phonetic_hint: ''
-  english: bag / handbag
-  notes: Klik A1 p. 25. Practicing the affricate [ts] (τσ). Feminine in -α.
-  gender_or_pos: noun (feminine)
-  audio: i-tsanta-cce576.mp3
+  greek: Ποιος είσαι;
+  phonetic_hint: pyos EE-seh
+  english: Who are you? (masculine singular)
+  notes: Klik A1 p. 45. Inquiring about masculine identity.
+  gender_or_pos: phrase
+  audio: poios-eisai-e52a23.mp3
   status: verified
-  example_el: Η τσάντα μου είναι πάνω στο τραπέζι.
-  example_en: My bag is on the table.
+  example_el: Εσύ ποιος είσαι; Δεν σε γνωρίζω.
+  example_en: Who are you? I don't know you.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι τσάντες
-    accusative_singular: την τσάντα
-  keg_communicative_function: Identifying personal belongings
+    part_of_speech: phrase
+  keg_communicative_function: Asking for identity directly
 - id: A1-U101-015
-  greek: ο μανάβης
-  phonetic_hint: ''
-  english: greengrocer
-  notes: 'Klik A1 p. 25. Masculine profession noun in -ης (plural: οι μανάβηδες).'
-  gender_or_pos: noun (masculine)
-  audio: o-manavis-e17ac3.mp3
+  greek: Ποια είσαι;
+  phonetic_hint: pyah EE-seh
+  english: Who are you? (feminine singular)
+  notes: Klik A1 p. 45. Feminine form of interrogative pronoun ποιος.
+  gender_or_pos: phrase
+  audio: poia-eisai-5ea07c.mp3
   status: verified
-  example_el: Αγοράζω φρούτα από τον μανάβη της γειτονιάς.
-  example_en: I buy fruit from the neighborhood greengrocer.
+  example_el: Γεια σου! Ποια είσαι εσύ;
+  example_en: Hello! Who are you?
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι μανάβηδες
-    accusative_singular: τον μανάβη
-  keg_communicative_function: Identifying local vendors and professions
+    part_of_speech: phrase
+  keg_communicative_function: Asking a female speaker for her identity
 - id: A1-U101-016
-  greek: το δελφίνι
-  phonetic_hint: ''
-  english: dolphin
-  notes: Klik A1 p. 26. Neuter noun in -ι with plural in -ια. Practicing [δ] and [f]
-    (φ).
-  gender_or_pos: noun (neuter)
-  audio: to-delfini-ad0f57.mp3
+  greek: Χαίρω πολύ!
+  phonetic_hint: KHEH-ro po-LEE
+  english: Pleased to meet you! / Nice to meet you!
+  notes: Klik A1 p. 48, 49, 52. Standard polite response upon first meeting someone.
+  gender_or_pos: phrase
+  audio: chairo-poly-f659a0.mp3
   status: verified
-  example_el: Είδαμε ένα δελφίνι στο Αιγαίο.
-  example_en: We saw a dolphin in the Aegean.
+  example_el: — Είμαι η Αλεξάνδρα. — Χαίρω πολύ!
+  example_en: — I am Alexandra. — Pleased to meet you!
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα δελφίνια
-    accusative_singular: το δελφίνι
-  keg_communicative_function: Describing wildlife and sea animals
+    part_of_speech: phrase
+  keg_communicative_function: Acknowledging an introduction politely
 - id: A1-U101-017
-  greek: η ετικέτα
-  phonetic_hint: ''
-  english: label / price tag
-  notes: Klik A1 p. 26. Feminine noun in -α with stress on the penult.
-  gender_or_pos: noun (feminine)
-  audio: i-etiketa-46bf71.mp3
+  greek: Επίσης!
+  phonetic_hint: eh-PEE-sees
+  english: Likewise! / As well! / Same to you!
+  notes: Klik A1 p. 48, 50, 53. Adverb used as an elliptical reciprocal reply.
+  gender_or_pos: adverb
+  audio: episis-a20cdf.mp3
   status: verified
-  example_el: Κοίταξε την τιμή στην ετικέτα.
-  example_en: Check the price on the label.
+  example_el: — Χάρηκα πολύ για τη γνωριμία! — Επίσης!
+  example_en: — Nice to meet you! — Likewise!
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ετικέτες
-    accusative_singular: την ετικέτα
-  keg_communicative_function: Checking product information while shopping
+    part_of_speech: adverb
+  keg_communicative_function: Expressing reciprocal politeness
 - id: A1-U101-018
-  greek: η σαλάτα
-  phonetic_hint: ''
-  english: salad
-  notes: Klik A1 p. 26. Core food vocabulary. Greek salad is 'η χωριάτικη σαλάτα'.
-  gender_or_pos: noun (feminine)
-  audio: i-salata-036af9.mp3
+  greek: Κι εγώ!
+  phonetic_hint: kee eh-GHOH
+  english: Me too! / Likewise!
+  notes: Klik A1 p. 46, 48, 52. Contraction of 'και εγώ'. Informal reciprocal response.
+  gender_or_pos: phrase
+  audio: ki-ego-85b91c.mp3
   status: verified
-  example_el: Παραγγέλνουμε μια ελληνική σαλάτα.
-  example_en: We are ordering a Greek salad.
+  example_el: — Χαίρω πολύ, Σωτήρη! — Κι εγώ!
+  example_en: — Nice to meet you, Sotiris! — Me too!
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι σαλάτες
-    accusative_singular: τη σαλάτα
-  keg_communicative_function: Ordering traditional dishes at restaurants
+    part_of_speech: phrase
+  keg_communicative_function: Reciprocating an introduction informally
 - id: A1-U101-019
-  greek: το ταξί
-  phonetic_hint: ''
-  english: taxi / cab
-  notes: Klik A1 p. 26. Neuter indeclinable loanword with oxytone stress (ταξί).
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-taxi-ac62a9.mp3
+  greek: Από εδώ...
+  phonetic_hint: ah-PO eh-THOH
+  english: This is... (introducing a person)
+  notes: 'Klik A1 p. 48, 52, 54. Key phrase for introducing a third person. Lit: ''From
+    here...''.'
+  gender_or_pos: phrase
+  audio: apo-edo-b97640.mp3
   status: verified
-  example_el: Παίρνουμε ταξί για το αεροδρόμιο.
-  example_en: We take a taxi to the airport.
+  example_el: Από εδώ ο φίλος μου, ο Μιχάλης.
+  example_en: This is my friend, Michalis.
   grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα ταξί
-    accusative_singular: το ταξί
-  keg_communicative_function: Arranging transportation around the city
+    part_of_speech: phrase
+  keg_communicative_function: Introducing a third person to others
 - id: A1-U101-020
-  greek: το τρένο
-  phonetic_hint: ''
-  english: train
-  notes: Klik A1 p. 26. Neuter noun in -ο with plural in -α. Also spelled τραίνο.
-  gender_or_pos: noun (neuter)
-  audio: to-treno-c58be7.mp3
+  greek: Καλωσόρισες!
+  phonetic_hint: kah-loh-SOH-ree-ses
+  english: Welcome! (informal singular)
+  notes: Klik A1 p. 53. Welcoming one person informally.
+  gender_or_pos: phrase
+  audio: kalosorises-5dbf63.mp3
   status: verified
-  example_el: Το τρένο φεύγει στις δέκα το πρωί.
-  example_en: The train leaves at ten in the morning.
+  example_el: Καλωσόρισες στο σπίτι μας, Πέτρο!
+  example_en: Welcome to our home, Petros!
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τρένα
-    accusative_singular: το τρένο
-  keg_communicative_function: Talking about train travel and schedules
+    part_of_speech: phrase
+  keg_communicative_function: Welcoming a guest informally
 - id: A1-U101-021
-  greek: η φωτογραφία
-  phonetic_hint: ''
-  english: photograph / photo
-  notes: Klik A1 p. 26. Feminine noun in -ία with plural in -ίες.
-  gender_or_pos: noun (feminine)
-  audio: i-fotografia-c2a41e.mp3
+  greek: Καλωσορίσατε!
+  phonetic_hint: kah-loh-soh-REE-sah-teh
+  english: Welcome! (formal singular or plural)
+  notes: Klik A1 p. 53. Welcoming a group or addressing an individual politely.
+  gender_or_pos: phrase
+  audio: kalosorisate-f675fc.mp3
   status: verified
-  example_el: Βγάζω μια φωτογραφία στο μουσείο.
-  example_en: I take a photograph at the museum.
+  example_el: Καλωσορίσατε στην Ελλάδα!
+  example_en: Welcome to Greece!
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι φωτογραφίες
-    accusative_singular: τη φωτογραφία
-  keg_communicative_function: Talking about sightseeing and memories
+    part_of_speech: phrase
+  keg_communicative_function: Welcoming visitors politely or in groups
 - id: A1-U101-022
-  greek: το βερίκοκο
-  phonetic_hint: ''
-  english: apricot
-  notes: 'Klik A1 p. 26. Neuter proparoxytone in -ο with stress shifting in genitive:
-    του βερίκοκου.'
-  gender_or_pos: noun (neuter)
-  audio: to-verikoko-a33759.mp3
+  greek: Τι κάνεις;
+  phonetic_hint: tee KAH-nees
+  english: How are you? / What are you doing? (informal)
+  notes: Klik A1 p. 48, 49, 54. Primary conversational check-in among friends.
+  gender_or_pos: phrase
+  audio: ti-kaneis-108950.mp3
   status: verified
-  example_el: Το καλοκαίρι τρώμε γλυκά βερίκοκα.
-  example_en: In the summer we eat sweet apricots.
+  example_el: Γεια σου, Άννα! Τι κάνεις; Είσαι καλά;
+  example_en: Hello, Anna! How are you? Are you well?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βερίκοκα
-    accusative_singular: το βερίκοκο
-  keg_communicative_function: Naming seasonal fruits
+    part_of_speech: phrase
+  keg_communicative_function: Asking about health and state informally
 - id: A1-U101-023
-  greek: το ασανσέρ
-  phonetic_hint: ''
-  english: elevator / lift
-  notes: Klik A1 p. 26. Neuter indeclinable French loanword.
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-asanser-33aacc.mp3
+  greek: Τι κάνετε;
+  phonetic_hint: tee KAH-neh-teh
+  english: How are you? (formal singular or plural)
+  notes: Klik A1 p. 49, 53, 54. Polite plural form of 'τι κάνεις'.
+  gender_or_pos: phrase
+  audio: ti-kanete-5dd3c8.mp3
   status: verified
-  example_el: Το ασανσέρ ανεβαίνει στον πέμπτο όροφο.
-  example_en: The elevator goes up to the fifth floor.
+  example_el: Καλημέρα σας, κύριε καθηγητά! Τι κάνετε;
+  example_en: Good morning, professor! How are you?
   grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα ασανσέρ
-    accusative_singular: το ασανσέρ
-  keg_communicative_function: Navigating buildings and hotels
+    part_of_speech: phrase
+  keg_communicative_function: Asking how someone is doing formally
 - id: A1-U101-024
-  greek: η αφίσα
-  phonetic_hint: ''
-  english: poster
-  notes: Klik A1 p. 26. Feminine noun in -α with stress on the penult.
-  gender_or_pos: noun (feminine)
-  audio: i-afisa-242bc3.mp3
+  greek: Πώς είσαι;
+  phonetic_hint: pos EE-seh
+  english: How are you doing? (informal)
+  notes: Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person singular of είμαι.
+  gender_or_pos: phrase
+  audio: pos-eisai-900dcd.mp3
   status: verified
-  example_el: Έχει μια αφίσα της συναυλίας στον τοίχο.
-  example_en: There is a concert poster on the wall.
+  example_el: Πώς είσαι σήμερα; Νιώθεις καλύτερα;
+  example_en: How are you today? Do you feel better?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι αφίσες
-    accusative_singular: την αφίσα
-  keg_communicative_function: Identifying announcements and cultural posters
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about someone's condition
 - id: A1-U101-025
-  greek: το κρουασάν
-  phonetic_hint: ''
-  english: croissant
-  notes: Klik A1 p. 26. Neuter indeclinable bakery item.
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-kroyasan-e73509.mp3
+  greek: Πώς είστε;
+  phonetic_hint: pos EES-teh
+  english: How are you doing? (formal or plural)
+  notes: Klik A1 p. 48, 52. Interrogative 'πώς' + 2nd person plural/polite of είμαι.
+  gender_or_pos: phrase
+  audio: pos-eiste-826858.mp3
   status: verified
-  example_el: Θέλω έναν καφέ και ένα κρουασάν σοκολάτας.
-  example_en: I want a coffee and a chocolate croissant.
+  example_el: Γεια σας, παιδιά! Πώς είστε όλοι;
+  example_en: Hello, guys! How are you all doing?
   grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα κρουασάν
-    accusative_singular: το κρουασάν
-  keg_communicative_function: Ordering breakfast items at bakeries and cafes
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about well-being in formal or group contexts
 - id: A1-U101-026
-  greek: το μαγιό
-  phonetic_hint: ''
-  english: swimsuit / bathing suit
-  notes: Klik A1 p. 26. Neuter indeclinable loanword (το μαγιό, τα μαγιό).
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-magio-89837c.mp3
+  greek: Είσαι καλά;
+  phonetic_hint: EE-seh kah-LAH
+  english: Are you well? / Are you okay?
+  notes: Klik A1 p. 51. Direct question checking someone's health or state.
+  gender_or_pos: phrase
+  audio: eisai-kala-3a253f.mp3
   status: verified
-  example_el: Βάζω το μαγιό μου στην τσάντα για τη θάλασσα.
-  example_en: I put my swimsuit in the bag for the beach.
+  example_el: — Είσαι καλά; — Ναι, πολύ καλά είμαι.
+  example_en: — Are you okay? — Yes, I am very well.
   grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα μαγιό
-    accusative_singular: το μαγιό
-  keg_communicative_function: Talking about summer holidays and beachwear
+    part_of_speech: phrase
+  keg_communicative_function: Checking if someone is okay
 - id: A1-U101-027
-  greek: η ντομάτα
-  phonetic_hint: ''
-  english: tomato
-  notes: Klik A1 p. 27. Practicing [d] (ντ) and [α]. Essential Greek grocery staple.
-  gender_or_pos: noun (feminine)
-  audio: i-ntomata-d5f72a.mp3
+  greek: Πολύ καλά, ευχαριστώ!
+  phonetic_hint: po-LEE kah-LAH ef-hah-ree-STOH
+  english: Very well, thank you!
+  notes: Klik A1 p. 48, 49, 52, 54. Standard polite reply to 'τι κάνεις'.
+  gender_or_pos: phrase
+  audio: poly-kala-eycharisto-5bff8a.mp3
   status: verified
-  example_el: Αγοράζω ένα κιλό κόκκινες ντομάτες.
-  example_en: I buy one kilo of red tomatoes.
+  example_el: — Τι κάνεις; — Πολύ καλά, ευχαριστώ! Εσύ;
+  example_en: — How are you? — Very well, thank you! And you?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ντομάτες
-    accusative_singular: την ντομάτα
-  keg_communicative_function: Buying groceries at the market
+    part_of_speech: phrase
+  keg_communicative_function: Answering an inquiry about condition politely
 - id: A1-U101-028
-  greek: η ελιά
-  phonetic_hint: ''
-  english: olive / olive tree
-  notes: 'Klik A1 p. 27. Feminine oxytone in -ιά (plural: οι ελιές). Symbol of Greece.'
-  gender_or_pos: noun (feminine)
-  audio: i-elia-793602.mp3
+  greek: Μια χαρά!
+  phonetic_hint: myah hah-RAH
+  english: Great! / Just fine! / Wonderful!
+  notes: 'Klik A1 p. 49, 51, 52, 54. Very common Greek upbeat reply. Lit: ''A joy!''.'
+  gender_or_pos: phrase
+  audio: mia-chara-c37e9a.mp3
   status: verified
-  example_el: Μου αρέσουν πολύ οι μαύρες ελιές Καλαμάτας.
-  example_en: I really like black Kalamata olives.
+  example_el: Όλα πάνε μια χαρά με τα μαθήματα.
+  example_en: Everything is going great with the lessons.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ελιές
-    accusative_singular: την ελιά
-  keg_communicative_function: Discussing traditional Greek foods and appetizers
+    part_of_speech: phrase
+  keg_communicative_function: Expressing positive state enthusiastically
 - id: A1-U101-029
-  greek: το κρεμμύδι
-  phonetic_hint: ''
-  english: onion
-  notes: Klik A1 p. 27. Neuter noun in -ι with plural in -ια. Double μμ pronounced
-    as single [m].
-  gender_or_pos: noun (neuter)
-  audio: to-kremmydi-ad7dd2.mp3
+  greek: Όλα καλά!
+  phonetic_hint: OH-lah kah-LAH
+  english: All good! / Everything is fine!
+  notes: 'Klik A1 p. 49, 54. Colloquial reassurance: ''Everything is good''.'
+  gender_or_pos: phrase
+  audio: ola-kala-23a44f.mp3
   status: verified
-  example_el: Βάζουμε ψιλοκομμένο κρεμμύδι στη σαλάτα.
-  example_en: We put finely chopped onion in the salad.
+  example_el: — Όλα καλά στη δουλειά; — Ναι, όλα καλά!
+  example_en: — Everything good at work? — Yes, all good!
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα κρεμμύδια
-    accusative_singular: το κρεμμύδι
-  keg_communicative_function: Describing cooking ingredients
+    part_of_speech: phrase
+  keg_communicative_function: Confirming everything is running smoothly
 - id: A1-U101-030
-  greek: το αγγούρι
-  phonetic_hint: ''
-  english: cucumber
-  notes: Klik A1 p. 27. Practicing the voiced velar nasal combination γγ [ŋg]/[g].
-  gender_or_pos: noun (neuter)
-  audio: to-aggoyri-984078.mp3
+  greek: Έτσι κι έτσι.
+  phonetic_hint: ET-see kee ET-see
+  english: So-so. / Not bad, not great.
+  notes: Klik A1 p. 49, 54. Neutral reply indicating moderate condition.
+  gender_or_pos: phrase
+  audio: etsi-ki-etsi-d6fce1.mp3
   status: verified
-  example_el: Κόβω το φρέσκο αγγούρι σε φέτες.
-  example_en: I slice the fresh cucumber into pieces.
+  example_el: — Πώς πάνε τα πράγματα; — Έτσι κι έτσι.
+  example_en: — How are things going? — So-so.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αγγούρια
-    accusative_singular: το αγγούρι
-  keg_communicative_function: Describing fresh produce
+    part_of_speech: phrase
+  keg_communicative_function: Expressing mediocre condition
 - id: A1-U101-031
-  greek: το λάδι
-  phonetic_hint: ''
-  english: olive oil / oil
-  notes: Klik A1 p. 27 (corrected from OCR 'γάδι'). Essential Greek culinary foundation.
-  gender_or_pos: noun (neuter)
-  audio: to-ladi-45ee5b.mp3
+  greek: Όχι καλά.
+  phonetic_hint: OH-khee kah-LAH
+  english: Not well. / Not good.
+  notes: Klik A1 p. 49, 54. Honest negative response to well-being inquiry.
+  gender_or_pos: phrase
+  audio: ochi-kala-f8885f.mp3
   status: verified
-  example_el: Το ελληνικό παρθένο ελαιόλαδο είναι εξαιρετικό.
-  example_en: Greek virgin olive oil is outstanding.
+  example_el: Σήμερα δεν είμαι καλά, πονάει το κεφάλι μου.
+  example_en: Today I am not well, my head hurts.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λάδια
-    accusative_singular: το λάδι
-  keg_communicative_function: Describing culinary staples
+    part_of_speech: phrase
+  keg_communicative_function: Expressing negative well-being
 - id: A1-U101-032
-  greek: το τυρί
-  phonetic_hint: ''
-  english: cheese
-  notes: 'Klik A1 p. 27. Oxytone neuter in -ί (plural: τα τυριά).'
-  gender_or_pos: noun (neuter)
-  audio: to-tyri-60f7f3.mp3
+  greek: Εσύ;
+  phonetic_hint: eh-SEE
+  english: And you? (informal singular)
+  notes: Klik A1 p. 48, 49, 50, 54. Conversational rebound asking the other person.
+  gender_or_pos: pronoun
+  audio: esy-4598c2.mp3
   status: verified
-  example_el: Η φέτα είναι το πιο διάσημο ελληνικό τυρί.
-  example_en: Feta is the most famous Greek cheese.
+  example_el: Εγώ είμαι καλά. Εσύ;
+  example_en: I am fine. And you?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τυριά
-    accusative_singular: το τυρί
-  keg_communicative_function: Ordering dairy and cheeses
+    part_of_speech: personal pronoun
+  keg_communicative_function: Bouncing a social inquiry back to the speaker
 - id: A1-U101-033
-  greek: η πιπεριά
-  phonetic_hint: ''
-  english: pepper / bell pepper
-  notes: 'Klik A1 p. 27. Oxytone feminine in -ιά (plural: οι πιπεριές).'
-  gender_or_pos: noun (feminine)
-  audio: i-piperia-c2273a.mp3
+  greek: Εσείς;
+  phonetic_hint: eh-SEES
+  english: And you? (formal or plural)
+  notes: Klik A1 p. 48, 54. Polite or plural rebound pronoun.
+  gender_or_pos: pronoun
+  audio: eseis-b2a9c2.mp3
   status: verified
-  example_el: Προσθέτω μια πράσινη πιπεριά στο φαγητό.
-  example_en: I add a green bell pepper to the dish.
+  example_el: Ευχαριστώ, είμαι πολύ καλά. Εσείς;
+  example_en: Thank you, I am very well. And you?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι πιπεριές
-    accusative_singular: την πιπεριά
-  keg_communicative_function: Selecting produce at the grocery store
+    part_of_speech: personal pronoun
+  keg_communicative_function: Bouncing an inquiry back formally
 - id: A1-U101-034
-  greek: το λάχανο
-  phonetic_hint: ''
-  english: cabbage
-  notes: Klik A1 p. 27. Neuter proparoxytone in -ο with stress on the antepenult.
-  gender_or_pos: noun (neuter)
-  audio: to-lachano-de05f4.mp3
+  greek: εγώ
+  phonetic_hint: eh-GHOH
+  english: I (personal pronoun)
+  notes: Klik A1 p. 51. 1st person singular. Used for emphasis or contrast since verbs
+    show person.
+  gender_or_pos: pronoun
+  audio: ego-98e697.mp3
   status: verified
-  example_el: Φτιάχνουμε σαλάτα με λάχανο και καρότο.
-  example_en: We make a salad with cabbage and carrot.
+  example_el: Εγώ είμαι ο Ανδρέας.
+  example_en: I am Andreas.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λάχανα
-    accusative_singular: το λάχανο
-  keg_communicative_function: Describing vegetables and winter salads
+    part_of_speech: personal pronoun
+    grammatical_person: 1st person singular
+  keg_communicative_function: Emphasizing oneself as subject
 - id: A1-U101-035
-  greek: το παιχνίδι
-  phonetic_hint: ''
-  english: game / toy
-  notes: Klik A1 p. 27. Practicing digraph αι [e] and neuter ending -ίδι.
-  gender_or_pos: noun (neuter)
-  audio: to-paichnidi-9080d3.mp3
+  greek: εσύ
+  phonetic_hint: eh-SEE
+  english: you (informal singular pronoun)
+  notes: Klik A1 p. 51. 2nd person singular subject personal pronoun.
+  gender_or_pos: pronoun
+  audio: esy-96c0ba.mp3
   status: verified
-  example_el: Τα παιδιά παίζουν ένα διασκεδαστικό παιχνίδι.
-  example_en: The children are playing an entertaining game.
+  example_el: Εσύ είσαι ο Πέτρος;
+  example_en: Are you Petros?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παιχνίδια
-    accusative_singular: το παιχνίδι
-  keg_communicative_function: Discussing leisure, games, and play
+    part_of_speech: personal pronoun
+    grammatical_person: 2nd person singular
+  keg_communicative_function: Addressing someone directly as subject
 - id: A1-U101-036
-  greek: το διάβασμα
-  phonetic_hint: ''
-  english: reading / studying
-  notes: 'Klik A1 p. 27. Neuter noun in -μα (plural: τα διαβάσματα). Verbal noun from
-    διαβάζω.'
-  gender_or_pos: noun (neuter)
-  audio: to-diavasma-388f86.mp3
+  greek: αυτός
+  phonetic_hint: af-TOS
+  english: he / this one (masculine)
+  notes: Klik A1 p. 51. 3rd person singular masculine. Diphthong αυ pronounced [af].
+  gender_or_pos: pronoun
+  audio: aytos-9a3230.mp3
   status: verified
-  example_el: Έχω πολύ διάβασμα για το μάθημα των ελληνικών.
-  example_en: I have a lot of studying for the Greek lesson.
+  example_el: Αυτός είναι ο καινούριος συνάδελφος.
+  example_en: He is the new colleague.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα διαβάσματα
-    accusative_singular: το διάβασμα
-  keg_communicative_function: Talking about daily study habits and education
+    part_of_speech: personal pronoun (masculine)
+    grammatical_person: 3rd person singular masculine
+  keg_communicative_function: Referring to a male person
 - id: A1-U101-037
-  greek: η ταινία
-  phonetic_hint: ''
-  english: movie / film
-  notes: Klik A1 p. 27. Feminine in -ία with digraph αι [e].
-  gender_or_pos: noun (feminine)
-  audio: i-tainia-ee4cf1.mp3
+  greek: αυτή
+  phonetic_hint: af-TEE
+  english: she / this one (feminine)
+  notes: Klik A1 p. 51. 3rd person singular feminine pronoun. Diphthong αυ pronounced
+    [af].
+  gender_or_pos: pronoun
+  audio: ayti-2d323d.mp3
   status: verified
-  example_el: Βλέπουμε μια ενδιαφέρουσα ταινία στον κινηματογράφο.
-  example_en: We are watching an interesting movie at the cinema.
+  example_el: Αυτή είναι η κυρία Ελένη.
+  example_en: She is Mrs. Eleni.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ταινίες
-    accusative_singular: την ταινία
-  keg_communicative_function: Discussing entertainment and films
+    part_of_speech: personal pronoun (feminine)
+    grammatical_person: 3rd person singular feminine
+  keg_communicative_function: Referring to a female person
 - id: A1-U101-038
-  greek: το ποδόσφαιρο
-  phonetic_hint: ''
-  english: soccer / football
-  notes: 'Klik A1 p. 27. Compound noun: πόδι (foot) + σφαίρα (sphere/ball). Digraph
-    αι [e].'
-  gender_or_pos: noun (neuter)
-  audio: to-podosfairo-2aae48.mp3
+  greek: αυτό
+  phonetic_hint: af-TOH
+  english: it / this (neuter)
+  notes: Klik A1 p. 51. 3rd person singular neuter pronoun.
+  gender_or_pos: pronoun
+  audio: ayto-89e896.mp3
   status: verified
-  example_el: Ο γιος μου παίζει ποδόσφαιρο κάθε Σάββατο.
-  example_en: My son plays soccer every Saturday.
+  example_el: Αυτό είναι το σχολείο της γειτονιάς.
+  example_en: This is the neighborhood school.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ποδόσφαιρα
-    accusative_singular: το ποδόσφαιρο
-  keg_communicative_function: Talking about sports and team games
+    part_of_speech: personal pronoun (neuter)
+    grammatical_person: 3rd person singular neuter
+  keg_communicative_function: Pointing out or identifying neuter objects and places
 - id: A1-U101-039
-  greek: η βόλτα
-  phonetic_hint: ''
-  english: walk / stroll
-  notes: 'Klik A1 p. 27. Essential Greek social activity: ''πάω βόλτα'' (I go for
-    a stroll).'
-  gender_or_pos: noun (feminine)
-  audio: i-volta-3578d3.mp3
+  greek: εμείς
+  phonetic_hint: eh-MEES
+  english: we (personal pronoun)
+  notes: Klik A1 p. 51, 52. 1st person plural subject pronoun. Digraph ει [i].
+  gender_or_pos: pronoun
+  audio: emeis-2dfd81.mp3
   status: verified
-  example_el: Πάμε μια βόλτα στην παραλία;
-  example_en: Shall we go for a walk along the beach?
+  example_el: Εμείς είμαστε μαθητές στο πρώτο επίπεδο.
+  example_en: We are students in the first level.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι βόλτες
-    accusative_singular: τη βόλτα
-  keg_communicative_function: Suggesting recreational walks and outdoor meetups
+    part_of_speech: personal pronoun
+    grammatical_person: 1st person plural
+  keg_communicative_function: Speaking as a group
 - id: A1-U101-040
-  greek: η τηλεόραση
-  phonetic_hint: ''
-  english: television / TV
-  notes: Klik A1 p. 27. Feminine noun in -ση with plural in -σεις (οι τηλεοράσεις).
-  gender_or_pos: noun (feminine)
-  audio: i-tileorasi-8e21f7.mp3
+  greek: εσείς
+  phonetic_hint: eh-SEES
+  english: you (plural or polite singular pronoun)
+  notes: Klik A1 p. 51. 2nd person plural subject pronoun, also polite singular address.
+  gender_or_pos: pronoun
+  audio: eseis-f7b073.mp3
   status: verified
-  example_el: Βλέπω τις ειδήσεις στην τηλεόραση.
-  example_en: I watch the news on television.
+  example_el: Εσείς είστε ο κύριος Σταύρος;
+  example_en: Are you Mr. Stavros?
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι τηλεοράσεις
-    accusative_singular: την τηλεόραση
-  keg_communicative_function: Describing home media and daily habits
+    part_of_speech: personal pronoun
+    grammatical_person: 2nd person plural / formal
+  keg_communicative_function: Addressing groups or individuals politely
 - id: A1-U101-041
-  greek: το ταξίδι
-  phonetic_hint: ''
-  english: trip / journey / travel
-  notes: Klik A1 p. 27. Neuter noun in -ι with plural in -ια. Related to ταξιδεύω.
-  gender_or_pos: noun (neuter)
-  audio: to-taxidi-a1fbbd.mp3
+  greek: αυτοί
+  phonetic_hint: af-TEE
+  english: they (masculine plural pronoun)
+  notes: Klik A1 p. 51. 3rd person plural masculine (or mixed gender group). Digraph
+    οι [i].
+  gender_or_pos: pronoun
+  audio: aytoi-45c6fc.mp3
   status: verified
-  example_el: Καλό ταξίδι και καλή διασκέδαση!
-  example_en: Have a good trip and have fun!
+  example_el: Αυτοί είναι ο Κώστας και ο Δημήτρης.
+  example_en: They are Kostas and Dimitris.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ταξίδια
-    accusative_singular: το ταξίδι
-  keg_communicative_function: Wishing someone a good trip and discussing travel
+    part_of_speech: personal pronoun (masculine plural)
+    grammatical_person: 3rd person plural masculine
+  keg_communicative_function: Referring to multiple male individuals
 - id: A1-U101-042
-  greek: η Δευτέρα
-  phonetic_hint: ''
-  english: Monday
-  notes: Klik A1 p. 28. Diphthong ευ pronounced [ev] before dental τ [t].
-  gender_or_pos: noun (feminine)
-  audio: i-deytera-9aa042.mp3
+  greek: αυτές
+  phonetic_hint: af-TES
+  english: they (feminine plural pronoun)
+  notes: Klik A1 p. 51. 3rd person plural feminine pronoun.
+  gender_or_pos: pronoun
+  audio: aytes-4fba96.mp3
   status: verified
-  example_el: Τη Δευτέρα αρχίζει η νέα σχολική χρονιά.
-  example_en: On Monday the new school year begins.
+  example_el: Αυτές είναι η Άννα και η Μαρία.
+  example_en: They are Anna and Maria.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι Δευτέρες
-    accusative_singular: τη Δευτέρα
-  keg_communicative_function: Specifying days and scheduling weekly routines
+    part_of_speech: personal pronoun (feminine plural)
+    grammatical_person: 3rd person plural feminine
+  keg_communicative_function: Referring to a group of female individuals
 - id: A1-U101-043
-  greek: το φθινόπωρο
-  phonetic_hint: ''
-  english: autumn / fall
-  notes: Klik A1 p. 28. Practicing consonant cluster φθ [fθ] and letter combinations
-    for [i] (ι, οι).
-  gender_or_pos: noun (neuter)
-  audio: to-fthinoporo-f166f4.mp3
+  greek: αυτά
+  phonetic_hint: af-TAH
+  english: they / these (neuter plural pronoun)
+  notes: Klik A1 p. 51. 3rd person plural neuter pronoun.
+  gender_or_pos: pronoun
+  audio: ayta-57de23.mp3
   status: verified
-  example_el: Το φθινόπωρο τα φύλλα των δέντρων πέφτουν.
-  example_en: In autumn the leaves of the trees fall.
+  example_el: Αυτά είναι τα παιδιά της γειτονιάς.
+  example_en: These are the children of the neighborhood.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα φθινόπωρα
-    accusative_singular: το φθινόπωρο
-  keg_communicative_function: Talking about the four seasons and weather
+    part_of_speech: personal pronoun (neuter plural)
+    grammatical_person: 3rd person plural neuter
+  keg_communicative_function: Referring to neuter plural entities
 - id: A1-U101-044
-  greek: το Σάββατο
-  phonetic_hint: ''
-  english: Saturday
-  notes: Klik A1 p. 28. Neuter noun in -ο with proparoxytone stress (τα Σάββατα).
-  gender_or_pos: noun (neuter)
-  audio: to-savvato-0b0609.mp3
+  greek: είμαι
+  phonetic_hint: EE-meh
+  english: to be / I am
+  notes: 'Klik A1 p. 43, 51. Core irregular copular verb: είμαι, είσαι, είναι, είμαστε,
+    είστε, είναι.'
+  gender_or_pos: verb
+  audio: eimai-8863b2.mp3
   status: verified
-  example_el: Το Σάββατο πηγαίνουμε για ψώνια στη λαϊκή.
-  example_en: On Saturday we go shopping at the farmers' market.
+  example_el: Είμαι ο Δημήτρης και είμαι από την Ελλάδα.
+  example_en: I am Dimitris and I am from Greece.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα Σάββατα
-    accusative_singular: το Σάββατο
-  keg_communicative_function: Arranging weekend appointments
+    part_of_speech: verb
+    verb_type: irregular copular
+    third_person_singular: είναι
+    first_person_plural: είμαστε
+  keg_communicative_function: Stating identity, origin, and state
 - id: A1-U101-045
-  greek: ο χειμώνας
-  phonetic_hint: ''
-  english: winter
-  notes: Klik A1 p. 28. Digraph ει [i]. Masculine noun in -ας (οι χειμώνες).
-  gender_or_pos: noun (masculine)
-  audio: o-cheimonas-927c67.mp3
+  greek: είσαι
+  phonetic_hint: EE-seh
+  english: you are (2nd person singular)
+  notes: Klik A1 p. 51. Used for singular informal address.
+  gender_or_pos: verb
+  audio: eisai-8af023.mp3
   status: verified
-  example_el: Τον χειμώνα κάνει κρύο και χιονίζει στα βουνά.
-  example_en: In winter it is cold and snows in the mountains.
+  example_el: Είσαι έτοιμος για το μάθημα;
+  example_en: Are you ready for the lesson?
   grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι χειμώνες
-    accusative_singular: τον χειμώνα
-  keg_communicative_function: Discussing winter climate and seasonal changes
+    part_of_speech: verb
+    verb_type: irregular copular
+    third_person_singular: είναι
+    first_person_plural: είμαστε
+  keg_communicative_function: Addressing someone directly about their state
 - id: A1-U101-046
-  greek: το καλοκαίρι
-  phonetic_hint: ''
-  english: summer
-  notes: Klik A1 p. 28. Digraph αι [e]. Neuter in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-kalokairi-69518e.mp3
+  greek: είναι
+  phonetic_hint: EE-neh
+  english: is / are (3rd person singular and plural)
+  notes: Klik A1 p. 51. Identical form for 3rd person singular and 3rd person plural.
+  gender_or_pos: verb
+  audio: einai-7a92e5.mp3
   status: verified
-  example_el: Το καλοκαίρι πάμε διακοπές στα νησιά.
-  example_en: In summer we go on vacation to the islands.
+  example_el: Αυτός είναι ο δάσκαλος και αυτοί είναι οι μαθητές.
+  example_en: He is the teacher and they are the students.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα καλοκαίρια
-    accusative_singular: το καλοκαίρι
-  keg_communicative_function: Talking about summer holidays and beach activities
+    part_of_speech: verb
+    verb_type: irregular copular
+    third_person_singular: είναι
+    first_person_plural: είμαστε
+  keg_communicative_function: Stating facts and introducing others
 - id: A1-U101-047
-  greek: η άνοιξη
-  phonetic_hint: ''
-  english: spring
-  notes: Klik A1 p. 28. Feminine noun with digraph οι [i] and proparoxytone stress.
-  gender_or_pos: noun (feminine)
-  audio: i-anoixi-9d9c98.mp3
+  greek: είμαστε
+  phonetic_hint: EE-mahs-teh
+  english: we are (1st person plural)
+  notes: Klik A1 p. 51, 52. 1st person plural copula.
+  gender_or_pos: verb
+  audio: eimaste-373ae6.mp3
   status: verified
-  example_el: Την άνοιξη ο καιρός είναι ζεστός και ανθίζουν τα λουλούδια.
-  example_en: In spring the weather is warm and the flowers bloom.
+  example_el: Είμαστε φίλοι εδώ και πολλά χρόνια.
+  example_en: We are friends for many years.
   grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ανοίξεις
-    accusative_singular: την άνοιξη
-  keg_communicative_function: Describing springtime weather
+    part_of_speech: verb
+    verb_type: irregular copular
+    third_person_singular: είναι
+    first_person_plural: είμαστε
+  keg_communicative_function: Stating joint group identity
 - id: A1-U101-048
-  greek: το γάλα
-  phonetic_hint: ''
-  english: milk
-  notes: 'Klik A1 p. 28. Irregular neuter noun: το γάλα, του γάλακτος, τα γάλατα.'
-  gender_or_pos: noun (neuter)
-  audio: to-gala-5a7807.mp3
+  greek: είστε
+  phonetic_hint: EES-teh
+  english: you are (2nd person plural or polite singular)
+  notes: Klik A1 p. 51. 2nd person plural and formal singular copula.
+  gender_or_pos: verb
+  audio: eiste-f50c12.mp3
   status: verified
-  example_el: Πίνω ένα ποτήρι γάλα κάθε πρωί.
-  example_en: I drink a glass of milk every morning.
+  example_el: Εσείς είστε η κυρία καθηγήτρια;
+  example_en: Are you the professor?
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα γάλατα
-    accusative_singular: το γάλα
-  keg_communicative_function: Ordering breakfast beverages
+    part_of_speech: verb
+    verb_type: irregular copular
+    third_person_singular: είναι
+    first_person_plural: είμαστε
+  keg_communicative_function: Addressing individuals politely or groups
 - id: A1-U101-049
-  greek: το παγωτό
-  phonetic_hint: ''
-  english: ice cream
-  notes: 'Klik A1 p. 28. Oxytone neuter in -ό (plural: τα παγωτά).'
-  gender_or_pos: noun (neuter)
-  audio: to-pagoto-293237.mp3
+  greek: ναι
+  phonetic_hint: neh
+  english: 'yes'
+  notes: Klik A1 p. 51, 52, 54. Affirmative particle. Digraph αι [e].
+  gender_or_pos: phrase
+  audio: nai-628209.mp3
   status: verified
-  example_el: Τα παιδιά θέλουν παγωτό σοκολάτα.
-  example_en: The children want chocolate ice cream.
+  example_el: Ναι, εγώ είμαι ο Κώστας.
+  example_en: Yes, I am Kostas.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παγωτά
-    accusative_singular: το παγωτό
-  keg_communicative_function: Ordering desserts and snacks
+    part_of_speech: particle (affirmative)
+  keg_communicative_function: Expressing affirmation
 - id: A1-U101-050
-  greek: το μέλι
-  phonetic_hint: ''
-  english: honey
-  notes: Klik A1 p. 28. Neuter noun in -ι. Famous Greek thyme honey is 'μέλι θυμαρίσιο'.
-  gender_or_pos: noun (neuter)
-  audio: to-meli-346e14.mp3
+  greek: όχι
+  phonetic_hint: OH-khee
+  english: 'no'
+  notes: Klik A1 p. 51, 52, 54. Negative particle. Voiceless velar/palatal fricative
+    χ [ç].
+  gender_or_pos: phrase
+  audio: ochi-f33bfc.mp3
   status: verified
-  example_el: Τρώω γιαούρτι με μέλι και καρύδια.
-  example_en: I eat yogurt with honey and walnuts.
+  example_el: Όχι, δεν είμαι ο Γιάννης.
+  example_en: No, I am not Giannis.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μέλια
-    accusative_singular: το μέλι
-  keg_communicative_function: Describing traditional breakfast sweets
+    part_of_speech: particle (negative)
+  keg_communicative_function: Expressing negation
 - id: A1-U101-051
-  greek: το νερό
-  phonetic_hint: ''
-  english: water
-  notes: 'Klik A1 p. 28. Essential noun: ''ένα ποτήρι νερό'' (a glass of water).'
-  gender_or_pos: noun (neuter)
-  audio: to-nero-743b44.mp3
+  greek: δεν
+  phonetic_hint: then
+  english: not / do not (verbal negation)
+  notes: Klik A1 p. 51, 52, 53. Verbal negation particle placed immediately before
+    the verb.
+  gender_or_pos: particle (negative)
+  audio: den-822836.mp3
   status: verified
-  example_el: Μπορώ να έχω ένα μπουκάλι νερό, παρακαλώ;
-  example_en: May I have a bottle of water, please?
+  example_el: Δεν είμαι από την Αθήνα, είμαι από τη Θεσσαλονίκη.
+  example_en: I am not from Athens, I am from Thessaloniki.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα νερά
-    accusative_singular: το νερό
-  keg_communicative_function: Requesting drinking water at any venue
+    part_of_speech: negative particle
+  keg_communicative_function: Negating a verb statement
 - id: A1-U101-052
-  greek: το ψωμί
-  phonetic_hint: ''
-  english: bread
-  notes: 'Klik A1 p. 28. Oxytone neuter in -ί (plural: τα ψωμιά).'
-  gender_or_pos: noun (neuter)
-  audio: to-psomi-abf6f9.mp3
+  greek: ο φίλος
+  phonetic_hint: o FEE-los
+  english: friend (male)
+  notes: 'Klik A1 p. 48, 52. Masculine noun in -ος. Plural: οι φίλοι.'
+  gender_or_pos: noun (masculine)
+  audio: o-filos-568da6.mp3
   status: verified
-  example_el: Αγοράζουμε φρέσκο ψωμί από τον φούρνο.
-  example_en: We buy fresh bread from the bakery.
+  example_el: Από εδώ ο φίλος μου, ο Αλέξης.
+  example_en: This is my friend, Alexis.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ψωμιά
-    accusative_singular: το ψωμί
-  keg_communicative_function: Buying bread and ordering table settings
+    part_of_speech: noun (masculine)
+    plural: οι φίλοι
+    accusative_singular: τον φίλο
+  keg_communicative_function: Introducing a male friend
 - id: A1-U101-053
-  greek: το μήλο
-  phonetic_hint: ''
-  english: apple
-  notes: Klik A1 p. 28. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-milo-8bba30.mp3
+  greek: η φίλη
+  phonetic_hint: ee FEE-lee
+  english: friend (female)
+  notes: 'Klik A1 p. 48, 52, 54. Feminine noun in -η. Plural: οι φίλες.'
+  gender_or_pos: noun (feminine)
+  audio: i-fili-01b48a.mp3
   status: verified
-  example_el: Ένα μήλο την ημέρα τον γιατρό τον κάνει πέρα.
-  example_en: An apple a day keeps the doctor away.
+  example_el: Από εδώ η καλή μου φίλη, η Αλεξάνδρα.
+  example_en: This is my good friend, Alexandra.
   grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μήλα
-    accusative_singular: το μήλο
-  keg_communicative_function: Naming common fruits
+    part_of_speech: noun (feminine)
+    plural: οι φίλες
+    accusative_singular: τη φίλη
+  keg_communicative_function: Introducing a female friend
 - id: A1-U101-054
-  greek: το πορτοκάλι
-  phonetic_hint: ''
-  english: orange
-  notes: Klik A1 p. 28. Neuter noun in -ι with plural in -ια. Related to η πορτοκαλάδα.
-  gender_or_pos: noun (neuter)
-  audio: to-portokali-82af5a.mp3
-  status: verified
-  example_el: Πίνω φρέσκο χυμό πορτοκάλι κάθε πρωί.
-  example_en: I drink fresh orange juice every morning.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πορτοκάλια
-    accusative_singular: το πορτοκάλι
-  keg_communicative_function: Ordering fresh juices and fruit
-- id: A1-U101-055
-  greek: τα μακαρόνια
-  phonetic_hint: ''
-  english: pasta / spaghetti
-  notes: 'Klik A1 p. 28. Usually encountered in the plural: τα μακαρόνια.'
-  gender_or_pos: noun (neuter plural)
-  audio: ta-makaronia-72b9ef.mp3
-  status: verified
-  example_el: Μαγειρεύουμε μακαρόνια με σάλτσα ντομάτας.
-  example_en: We are cooking pasta with tomato sauce.
-  grammatical_info:
-    part_of_speech: noun (neuter plural)
-    plural: τα μακαρόνια
-    accusative_singular: τα μακαρόνια
-  keg_communicative_function: Ordering staple main courses
-- id: A1-U101-056
-  greek: το ούζο
-  phonetic_hint: ''
-  english: ouzo
-  notes: Klik A1 p. 29. Practicing digraph ου [u]. Iconic Greek aniseed spirit.
-  gender_or_pos: noun (neuter)
-  audio: to-oyzo-90cafc.mp3
-  status: verified
-  example_el: Πίνουμε ούζο με μεζέ δίπλα στο κύμα.
-  example_en: We drink ouzo with meze by the waves.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ούζα
-    accusative_singular: το ούζο
-  keg_communicative_function: Ordering traditional beverages and appetizers
-- id: A1-U101-057
-  greek: το σπανάκι
-  phonetic_hint: ''
-  english: spinach
-  notes: Klik A1 p. 29. Key ingredient in traditional σπανακόπιτα.
-  gender_or_pos: noun (neuter)
-  audio: to-spanaki-980952.mp3
-  status: verified
-  example_el: Αγοράζω φρέσκο σπανάκι για την πίτα.
-  example_en: I buy fresh spinach for the pie.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σπανάκια
-    accusative_singular: το σπανάκι
-  keg_communicative_function: Buying greens and vegetables
-- id: A1-U101-058
-  greek: το καρπούζι
-  phonetic_hint: ''
-  english: watermelon
-  notes: Klik A1 p. 29. Digraph ου [u]. Quintessential Greek summer fruit.
-  gender_or_pos: noun (neuter)
-  audio: to-karpoyzi-8198a4.mp3
-  status: verified
-  example_el: Το δροσερό καρπούζι είναι υπέροχο το καλοκαίρι.
-  example_en: Chilled watermelon is wonderful in summer.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα καρπούζια
-    accusative_singular: το καρπούζι
-  keg_communicative_function: Ordering seasonal desserts
-- id: A1-U101-059
-  greek: το φρούτο
-  phonetic_hint: ''
-  english: fruit
-  notes: 'Klik A1 p. 29. Digraph ου [u]. Plural: τα φρούτα.'
-  gender_or_pos: noun (neuter)
-  audio: to-froyto-7524f7.mp3
-  status: verified
-  example_el: Τρώω φρέσκα φρούτα εποχής κάθε μέρα.
-  example_en: I eat fresh seasonal fruit every day.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα φρούτα
-    accusative_singular: το φρούτο
-  keg_communicative_function: Talking about healthy diet and fruits
-- id: A1-U101-060
-  greek: ο καιρός
-  phonetic_hint: ''
-  english: weather / time
-  notes: Klik A1 p. 30. Digraph αι [e]. 'Τι καιρό κάνει;' (What is the weather like?).
-  gender_or_pos: noun (masculine)
-  audio: o-kairos-7c6f51.mp3
-  status: verified
-  example_el: Σήμερα ο καιρός είναι πολύ ζεστός και ηλιόλουστος.
-  example_en: Today the weather is very warm and sunny.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι καιροί
-    accusative_singular: τον καιρό
-  keg_communicative_function: Inquiring about and describing the weather
-- id: A1-U101-061
-  greek: το προϊόν
-  phonetic_hint: ''
-  english: product
-  notes: 'Klik A1 p. 30. Demonstrates dialytika (ϊ): separates vowels ο and ϊ, avoiding
-    diphthong.'
-  gender_or_pos: noun (neuter)
-  audio: to-proion-fb3971.mp3
-  status: verified
-  example_el: Αυτό είναι ένα παραδοσιακό ελληνικό προϊόν.
-  example_en: This is a traditional Greek product.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα προϊόντα
-    accusative_singular: το προϊόν
-  keg_communicative_function: Discussing local products and commerce
-- id: A1-U101-062
-  greek: το καΐκι
-  phonetic_hint: ''
-  english: traditional boat / caique
-  notes: 'Klik A1 p. 30. Dialytika with tonos (ΐ): separates vowels and carries word
-    stress.'
-  gender_or_pos: noun (neuter)
-  audio: to-kaiki-d49284.mp3
-  status: verified
-  example_el: Το ξύλινο καΐκι φεύγει για το νησάκι.
-  example_en: The wooden caique is departing for the small islet.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα καΐκια
-    accusative_singular: το καΐκι
-  keg_communicative_function: Describing traditional island boats
-- id: A1-U101-063
-  greek: το φόρεμα
-  phonetic_hint: ''
-  english: dress
-  notes: 'Klik A1 p. 31. Neuter in -μα with plural adding -τα: τα φορέματα.'
-  gender_or_pos: noun (neuter)
-  audio: to-forema-8cee6a.mp3
-  status: verified
-  example_el: Η Άννα φοράει ένα κομψό καλοκαιρινό φόρεμα.
-  example_en: Anna is wearing an elegant summer dress.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα φορέματα
-    accusative_singular: το φόρεμα
-  keg_communicative_function: Describing outfits and clothing
-- id: A1-U101-064
-  greek: η μπλούζα
-  phonetic_hint: ''
-  english: blouse / top / t-shirt
-  notes: Klik A1 p. 31. Practicing voiced bilabial stop [b] (μπ).
-  gender_or_pos: noun (feminine)
-  audio: i-mployza-33b1a4.mp3
-  status: verified
-  example_el: Αυτή η άσπρη μπλούζα σου πάει πολύ.
-  example_en: This white top suits you very well.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι μπλούζες
-    accusative_singular: την μπλούζα
-  keg_communicative_function: Complimenting and choosing clothes
-- id: A1-U101-065
-  greek: το μπουφάν
-  phonetic_hint: ''
-  english: jacket / winter jacket
-  notes: Klik A1 p. 31. Digraphs μπ [b] and ου [u]. Neuter indeclinable loanword.
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-mpoyfan-625498.mp3
-  status: verified
-  example_el: Πάρε το μπουφάν σου, έχει κρύο έξω.
-  example_en: Take your jacket, it is cold outside.
-  grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα μπουφάν
-    accusative_singular: το μπουφάν
-  keg_communicative_function: Advising someone on weather and outer clothing
-- id: A1-U101-066
-  greek: το πουκάμισο
-  phonetic_hint: ''
-  english: shirt (button-up)
-  notes: Klik A1 p. 31. Practicing voiceless bilabial stop [p] (π).
-  gender_or_pos: noun (neuter)
-  audio: to-poykamiso-55710a.mp3
-  status: verified
-  example_el: Ο Νίκος φοράει καθαρό γαλάζιο πουκάμισο.
-  example_en: Nikos is wearing a clean light-blue shirt.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πουκάμισα
-    accusative_singular: το πουκάμισο
-  keg_communicative_function: Describing formal or daily attire
-- id: A1-U101-067
-  greek: το παπούτσι
-  phonetic_hint: ''
-  english: shoe
-  notes: 'Klik A1 p. 31. Commonly used in plural: τα παπούτσια.'
-  gender_or_pos: noun (neuter)
-  audio: to-papoytsi-5119b0.mp3
-  status: verified
-  example_el: Αυτά τα καινούρια παπούτσια είναι πολύ άνετα.
-  example_en: These new shoes are very comfortable.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παπούτσια
-    accusative_singular: το παπούτσι
-  keg_communicative_function: Shopping for footwear
-- id: A1-U101-068
-  greek: η ομπρέλα
-  phonetic_hint: ''
-  english: umbrella
-  notes: Klik A1 p. 31. Internal μπ pronounced [mb] or [b].
-  gender_or_pos: noun (feminine)
-  audio: i-omprela-abe32d.mp3
-  status: verified
-  example_el: Βρέχει καταρρακτωδώς, άνοιξε την ομπρέλα σου.
-  example_en: It is pouring rain, open your umbrella.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ομπρέλες
-    accusative_singular: την ομπρέλα
-  keg_communicative_function: Dealing with rainy weather
-- id: A1-U101-069
-  greek: το παντελόνι
-  phonetic_hint: ''
-  english: trousers / pants
-  notes: 'Klik A1 p. 31. Neuter noun in -ι (plural: τα παντελόνια).'
-  gender_or_pos: noun (neuter)
-  audio: to-panteloni-acf681.mp3
-  status: verified
-  example_el: Αγοράζω ένα μαύρο παντελόνι για τη δουλειά.
-  example_en: I buy black trousers for work.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα παντελόνια
-    accusative_singular: το παντελόνι
-  keg_communicative_function: Shopping for clothing
-- id: A1-U101-070
-  greek: η πετσέτα
-  phonetic_hint: ''
-  english: towel / napkin
-  notes: 'Klik A1 p. 31. Feminine noun in -α (plural: οι πετσέτες).'
-  gender_or_pos: noun (feminine)
-  audio: i-petseta-2d4d85.mp3
-  status: verified
-  example_el: Παίρνω μια καθαρή πετσέτα για το μπάνιο.
-  example_en: I take a clean towel for the bath.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι πετσέτες
-    accusative_singular: την πετσέτα
-  keg_communicative_function: Talking about bathroom and beach items
-- id: A1-U101-071
-  greek: το παλτό
-  phonetic_hint: ''
-  english: coat / overcoat
-  notes: Klik A1 p. 32. Neuter indeclinable loanword (το παλτό, τα παλτό).
-  gender_or_pos: noun (neuter indeclinable)
-  audio: to-palto-9b3255.mp3
-  status: verified
-  example_el: Φοράει βαρύ παλτό γιατί κάνει πολύ κρύο.
-  example_en: She wears a heavy coat because it is very cold.
-  grammatical_info:
-    part_of_speech: noun (neuter indeclinable)
-    plural: τα παλτό
-    accusative_singular: το παλτό
-  keg_communicative_function: Selecting winter clothing
-- id: A1-U101-072
-  greek: το πορτοφόλι
-  phonetic_hint: ''
-  english: wallet / purse
-  notes: 'Klik A1 p. 32. Neuter noun in -ι (plural: τα πορτοφόλια).'
-  gender_or_pos: noun (neuter)
-  audio: to-portofoli-3ff41a.mp3
-  status: verified
-  example_el: Ξέχασα το πορτοφόλι μου στο σπίτι.
-  example_en: I forgot my wallet at home.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πορτοφόλια
-    accusative_singular: το πορτοφόλι
-  keg_communicative_function: Managing personal belongings and money
-- id: A1-U101-073
-  greek: η φούστα
-  phonetic_hint: ''
-  english: skirt
-  notes: Klik A1 p. 32. Feminine noun in -α with stress on the first syllable.
-  gender_or_pos: noun (feminine)
-  audio: i-foysta-48c289.mp3
-  status: verified
-  example_el: Αυτή η μπλε φούστα είναι πολύ ωραία.
-  example_en: This blue skirt is very pretty.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι φούστες
-    accusative_singular: τη φούστα
-  keg_communicative_function: Describing clothing styles
-- id: A1-U101-074
-  greek: το τηλέφωνο
-  phonetic_hint: ''
-  english: telephone / phone number
-  notes: Klik A1 p. 32. Neuter proparoxytone in -ο with initial τ and voiceless fricative
-    φ [f].
-  gender_or_pos: noun (neuter)
-  audio: to-tilefono-41ccca.mp3
-  status: verified
-  example_el: Ποιο είναι το τηλέφωνό σου;
-  example_en: What is your telephone number?
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τηλέφωνα
-    accusative_singular: το τηλέφωνο
-  keg_communicative_function: Exchanging telephone contact details
-- id: A1-U101-075
-  greek: τα γενέθλια
-  phonetic_hint: ''
-  english: birthday
-  notes: Klik A1 p. 32. Practicing voiceless dental fricative θ [θ]. Neuter plural
-    noun.
-  gender_or_pos: noun (neuter plural)
-  audio: ta-genethlia-d8825b.mp3
-  status: verified
-  example_el: Χρόνια πολλά για τα γενέθλιά σου!
-  example_en: Happy birthday! (Many years to you!)
-  grammatical_info:
-    part_of_speech: noun (neuter plural)
-    plural: τα γενέθλια
-    accusative_singular: τα γενέθλια
-  keg_communicative_function: Wishing happy birthday and celebrating milestones
-- id: A1-U101-076
-  greek: η εφημερίδα
-  phonetic_hint: ''
-  english: newspaper
-  notes: Klik A1 p. 33. Feminine noun in -α with voiced dental fricative δ [ð].
-  gender_or_pos: noun (feminine)
-  audio: i-efimerida-6e7f8b.mp3
-  status: verified
-  example_el: Διαβάζω την πρωινή εφημερίδα με τον καφέ μου.
-  example_en: I read the morning newspaper with my coffee.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι εφημερίδες
-    accusative_singular: την εφημερίδα
-  keg_communicative_function: Buying reading material at the kiosk (περίπτερο)
-- id: A1-U101-077
-  greek: η πορτοκαλάδα
-  phonetic_hint: ''
-  english: orangeade / orange soda
-  notes: 'Klik A1 p. 33. Classic Greek beverage: ''με ανθρακικό'' (fizzy) or ''χωρίς''
-    (still).'
-  gender_or_pos: noun (feminine)
-  audio: i-portokalada-8d215e.mp3
-  status: verified
-  example_el: Θα ήθελα μία δροσερή πορτοκαλάδα, παρακαλώ.
-  example_en: I would like a chilled orangeade, please.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι πορτοκαλάδες
-    accusative_singular: την πορτοκαλάδα
-  keg_communicative_function: Ordering beverages at a cafe or kiosk
-- id: A1-U101-078
-  greek: η σοκολάτα
-  phonetic_hint: ''
-  english: chocolate
-  notes: 'Klik A1 p. 33. Feminine in -α. Plural: οι σοκολάτες.'
-  gender_or_pos: noun (feminine)
-  audio: i-sokolata-bdbaf2.mp3
-  status: verified
-  example_el: Μου αρέσει η μαύρη σοκολάτα με αμύγδαλα.
-  example_en: I like dark chocolate with almonds.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι σοκολάτες
-    accusative_singular: τη σοκολάτα
-  keg_communicative_function: Buying sweets and confectioneries
-- id: A1-U101-079
-  greek: το περιοδικό
-  phonetic_hint: ''
-  english: magazine
-  notes: 'Klik A1 p. 33. Oxytone neuter in -ό (plural: τα περιοδικά).'
-  gender_or_pos: noun (neuter)
-  audio: to-periodiko-c8a360.mp3
-  status: verified
-  example_el: Αγοράζω ένα εβδομαδιαίο περιοδικό από το περίπτερο.
-  example_en: I buy a weekly magazine from the kiosk.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα περιοδικά
-    accusative_singular: το περιοδικό
-  keg_communicative_function: Buying reading materials
-- id: A1-U101-080
-  greek: η θάλασσα
-  phonetic_hint: ''
-  english: sea
-  notes: 'Klik A1 p. 33. Feminine proparoxytone in -α (plural: οι θάλασσες).'
-  gender_or_pos: noun (feminine)
-  audio: i-thalassa-4f3dcd.mp3
-  status: verified
-  example_el: Κολυμπάμε στην καθαρή θάλασσα το πρωί.
-  example_en: We swim in the clear sea in the morning.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι θάλασσες
-    accusative_singular: τη θάλασσα
-  keg_communicative_function: Describing nature and coastal destinations
-- id: A1-U101-081
-  greek: το βουνό
-  phonetic_hint: ''
-  english: mountain
-  notes: 'Klik A1 p. 33. Oxytone neuter in -ό (plural: τα βουνά).'
-  gender_or_pos: noun (neuter)
-  audio: to-voyno-bdef81.mp3
-  status: verified
-  example_el: Ο Όλυμπος είναι το ψηλότερο βουνό της Ελλάδας.
-  example_en: Mount Olympus is the highest mountain in Greece.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βουνά
-    accusative_singular: το βουνό
-  keg_communicative_function: Describing geographical landscapes
-- id: A1-U101-082
-  greek: ο κινηματογράφος
-  phonetic_hint: ''
-  english: cinema / movie theater
-  notes: Klik A1 p. 33. Often abbreviated informally as 'το σινεμά'.
-  gender_or_pos: noun (masculine)
-  audio: o-kinimatografos-27522d.mp3
-  status: verified
-  example_el: Ο θερινός κινηματογράφος είναι μαγικός το καλοκαίρι.
-  example_en: The open-air cinema is magical in summer.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι κινηματογράφοι
-    accusative_singular: τον κινηματογράφο
-  keg_communicative_function: Planning evening entertainment
-- id: A1-U101-083
-  greek: το χωριό
-  phonetic_hint: ''
-  english: village
-  notes: 'Klik A1 p. 33. Oxytone neuter in -ό (plural: τα χωριά).'
-  gender_or_pos: noun (neuter)
-  audio: to-chorio-ef5297.mp3
-  status: verified
-  example_el: Το καλοκαίρι πάμε στο χωριό του παππού.
-  example_en: In summer we go to my grandfather's village.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα χωριά
-    accusative_singular: το χωριό
-  keg_communicative_function: Talking about origin and rural Greece
-- id: A1-U101-084
-  greek: η ταβέρνα
-  phonetic_hint: ''
-  english: taverna / traditional restaurant
-  notes: Klik A1 p. 33. Core Greek dining establishment.
-  gender_or_pos: noun (feminine)
-  audio: i-taverna-c7c81a.mp3
-  status: verified
-  example_el: Τρώμε φρέσκο ψάρι στην παραδοσιακή ταβέρνα.
-  example_en: We eat fresh fish at the traditional taverna.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι ταβέρνες
-    accusative_singular: την ταβέρνα
-  keg_communicative_function: Eating out and cultural dining
-- id: A1-U101-085
-  greek: το βιολί
-  phonetic_hint: ''
-  english: violin
-  notes: 'Klik A1 p. 34. Oxytone neuter in -ί (plural: τα βιολιά).'
-  gender_or_pos: noun (neuter)
-  audio: to-violi-99cd85.mp3
-  status: verified
-  example_el: Ο μουσικός παίζει παραδοσιακό νησιώτικο βιολί.
-  example_en: The musician plays traditional island violin.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βιολιά
-    accusative_singular: το βιολί
-  keg_communicative_function: Talking about traditional Greek music
-- id: A1-U101-086
-  greek: η γάτα
-  phonetic_hint: ''
-  english: cat
-  notes: 'Klik A1 p. 34. Practicing voiced velar fricative γ [ɣ]. Plural: οι γάτες.'
-  gender_or_pos: noun (feminine)
-  audio: i-gata-2e0e92.mp3
-  status: verified
-  example_el: Η άσπρη γάτα κοιμάται στον ήλιο.
-  example_en: The white cat is sleeping in the sun.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γάτες
-    accusative_singular: τη γάτα
-  keg_communicative_function: Talking about domestic pets
-- id: A1-U101-087
-  greek: η καρέκλα
-  phonetic_hint: ''
-  english: chair
-  notes: Klik A1 p. 35. Feminine noun in -α with stress on the penult.
-  gender_or_pos: noun (feminine)
-  audio: i-karekla-438e54.mp3
-  status: verified
-  example_el: Κάθισε σε αυτή την άνετη καρέκλα.
-  example_en: Sit down in this comfortable chair.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι καρέκλες
-    accusative_singular: την καρέκλα
-  keg_communicative_function: Classroom and household furniture
-- id: A1-U101-088
-  greek: το μολύβι
-  phonetic_hint: ''
-  english: pencil
-  notes: Klik A1 p. 35. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-molyvi-5ebe39.mp3
-  status: verified
-  example_el: Γράφω την άσκηση με μολύβι.
-  example_en: I write the exercise in pencil.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μολύβια
-    accusative_singular: το μολύβι
-  keg_communicative_function: Classroom instructions and stationery
-- id: A1-U101-089
-  greek: ο χάρτης
-  phonetic_hint: ''
-  english: map
-  notes: Klik A1 p. 35. Practicing voiceless velar fricative χ [x]. Masculine in -ης.
-  gender_or_pos: noun (masculine)
-  audio: o-chartis-5e3927.mp3
-  status: verified
-  example_el: Κοιτάζουμε τον χάρτη της Ελλάδας.
-  example_en: We look at the map of Greece.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι χάρτες
-    accusative_singular: τον χάρτη
-  keg_communicative_function: Reading geographical maps and directions
-- id: A1-U101-090
-  greek: το χιόνι
-  phonetic_hint: ''
-  english: snow
-  notes: Klik A1 p. 35. Neuter noun in -ι. Pronounced with palatal [ç].
-  gender_or_pos: noun (neuter)
-  audio: to-chioni-d54bfa.mp3
-  status: verified
-  example_el: Το χιόνι καλύπτει τις στέγες των σπιτιών.
-  example_en: The snow covers the roofs of the houses.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα χιόνια
-    accusative_singular: το χιόνι
-  keg_communicative_function: Describing winter weather conditions
-- id: A1-U101-091
-  greek: το αβγό
-  phonetic_hint: ''
-  english: egg
-  notes: Klik A1 p. 35. Also spelled αυγό. Oxytone neuter in -ό (τα αβγά).
-  gender_or_pos: noun (neuter)
-  audio: to-avgo-b4ae51.mp3
-  status: verified
-  example_el: Τρώω ένα βραστό αβγό για πρωινό.
-  example_en: I eat a boiled egg for breakfast.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αβγά
-    accusative_singular: το αβγό
-  keg_communicative_function: Ordering breakfast foods
-- id: A1-U101-092
-  greek: ο σκύλος
-  phonetic_hint: ''
-  english: dog
-  notes: 'Klik A1 p. 35. Practicing voiceless velar stop κ [k]. Plural: οι σκύλοι
-    / τα σκυλιά.'
-  gender_or_pos: noun (masculine)
-  audio: o-skylos-c10d36.mp3
-  status: verified
-  example_el: Ο σκύλος τρέχει χαρούμενος στο πάρκο.
-  example_en: The dog is running happily in the park.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι σκύλοι
-    accusative_singular: τον σκύλο
-  keg_communicative_function: Talking about pets and animals
-- id: A1-U101-093
-  greek: το μαρούλι
-  phonetic_hint: ''
-  english: lettuce
-  notes: Klik A1 p. 36. Neuter noun in -ι with plural in -ια.
-  gender_or_pos: noun (neuter)
-  audio: to-maroyli-b24021.mp3
-  status: verified
-  example_el: Φτιάχνω μια πράσινη σαλάτα με τραγανό μαρούλι.
-  example_en: I make a green salad with crisp lettuce.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μαρούλια
-    accusative_singular: το μαρούλι
-  keg_communicative_function: Selecting salad greens at market
-- id: A1-U101-094
-  greek: το γιαούρτι
-  phonetic_hint: ''
-  english: yogurt / Greek strained yogurt
-  notes: Klik A1 p. 37. Practicing voiceless alveolar fricative [s] (σ).
-  gender_or_pos: noun (neuter)
-  audio: to-giaoyrti-c2948d.mp3
-  status: verified
-  example_el: Το στραγγιστό ελληνικό γιαούρτι είναι πεντανόστιμο.
-  example_en: Strained Greek yogurt is delicious.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα γιαούρτια
-    accusative_singular: το γιαούρτι
-  keg_communicative_function: Ordering dairy and desserts
-- id: A1-U101-095
-  greek: το σουβλάκι
-  phonetic_hint: ''
-  english: souvlaki / skewer
-  notes: Klik A1 p. 37. Practicing σ [s] and diminutive neuter suffix -άκι.
-  gender_or_pos: noun (neuter)
-  audio: to-soyvlaki-1bd780.mp3
-  status: verified
-  example_el: Παραγγέλνουμε δύο σουβλάκια με πίτα και τζατζίκι.
-  example_en: We order two souvlakia with pita and tzatziki.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σουβλάκια
-    accusative_singular: το σουβλάκι
-  keg_communicative_function: Ordering Greek fast food and street food
-- id: A1-U101-096
-  greek: το λιμάνι
-  phonetic_hint: ''
-  english: port / harbor
-  notes: 'Klik A1 p. 38. Practicing lateral alveolar [l] (λ). Plural: τα λιμάνια.'
-  gender_or_pos: noun (neuter)
-  audio: to-limani-847c04.mp3
-  status: verified
-  example_el: Το πλοίο φτάνει στο λιμάνι του Πειραιά.
-  example_en: The ship arrives at the port of Piraeus.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λιμάνια
-    accusative_singular: το λιμάνι
-  keg_communicative_function: Navigating ferry ports and seaside terminals
-- id: A1-U101-097
-  greek: το δέντρο
-  phonetic_hint: ''
-  english: tree
-  notes: 'Klik A1 p. 38. Digraph ντ internally [nd]/[d]. Plural: τα δέντρα.'
-  gender_or_pos: noun (neuter)
-  audio: to-dentro-2fb8a9.mp3
-  status: verified
-  example_el: Καθόμαστε κάτω από τη σκιά του μεγάλου δέντρου.
-  example_en: We sit under the shade of the big tree.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα δέντρα
-    accusative_singular: το δέντρο
-  keg_communicative_function: Describing outdoor environments and nature
-- id: A1-U101-098
-  greek: η λίμνη
-  phonetic_hint: ''
-  english: lake
-  notes: Klik A1 p. 38. Feminine noun in -η with plural in -ες (οι λίμνες).
-  gender_or_pos: noun (feminine)
-  audio: i-limni-b9a00b.mp3
-  status: verified
-  example_el: Κάνουμε βόλτα γύρω από την όμορφη λίμνη.
-  example_en: We take a walk around the beautiful lake.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι λίμνες
-    accusative_singular: τη λίμνη
-  keg_communicative_function: Describing natural landmarks
-- id: A1-U101-099
-  greek: το πάρκο
-  phonetic_hint: ''
-  english: park
-  notes: Klik A1 p. 38. Neuter noun in -ο with plural in -α.
-  gender_or_pos: noun (neuter)
-  audio: to-parko-7ba727.mp3
-  status: verified
-  example_el: Τα παιδιά παίζουν στο πάρκο της γειτονιάς.
-  example_en: The children are playing in the neighborhood park.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα πάρκα
-    accusative_singular: το πάρκο
-  keg_communicative_function: Leisure activities in public town spaces
-- id: A1-U101-100
-  greek: η γλώσσα
-  phonetic_hint: ''
-  english: language / tongue
-  notes: 'Klik A1 p. 39. Feminine noun in -α with double σσ: οι γλώσσες.'
-  gender_or_pos: noun (feminine)
-  audio: i-glossa-d5ff10.mp3
-  status: verified
-  example_el: Μαθαίνω την ελληνική γλώσσα με ενθουσιασμό.
-  example_en: I am learning the Greek language with enthusiasm.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι γλώσσες
-    accusative_singular: τη γλώσσα
-  keg_communicative_function: Talking about languages and communication
-- id: A1-U101-101
-  greek: η διεύθυνση
-  phonetic_hint: ''
-  english: address (street / email)
-  notes: Klik A1 p. 39. Feminine noun in -ση with plural in -σεις.
-  gender_or_pos: noun (feminine)
-  audio: i-dieythynsi-306cae.mp3
-  status: verified
-  example_el: Ποια είναι η διεύθυνση του ξενοδοχείου σας;
-  example_en: What is the address of your hotel?
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι διευθύνσεις
-    accusative_singular: τη διεύθυνση
-  keg_communicative_function: Asking for and providing address information
-- id: A1-U101-102
-  greek: το ψάρι
-  phonetic_hint: ''
-  english: fish
-  notes: Klik A1 p. 40. Practicing voiceless affricate/cluster [ps] (ψ).
-  gender_or_pos: noun (neuter)
-  audio: to-psari-9bbcbf.mp3
-  status: verified
-  example_el: Τρώμε ψητό ψάρι στην ψαροταβέρνα.
-  example_en: We eat grilled fish at the fish taverna.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα ψάρια
-    accusative_singular: το ψάρι
-  keg_communicative_function: Ordering seafood and fresh fish
-- id: A1-U101-103
-  greek: το αναψυκτικό
-  phonetic_hint: ''
-  english: soft drink / soda
-  notes: 'Klik A1 p. 40. Practicing cluster [ps] (ψ). Plural: τα αναψυκτικά.'
-  gender_or_pos: noun (neuter)
-  audio: to-anapsyktiko-ecc564.mp3
-  status: verified
-  example_el: Προτιμώ ένα κρύο αναψυκτικό χωρίς ζάχαρη.
-  example_en: I prefer a cold sugar-free soft drink.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αναψυκτικά
-    accusative_singular: το αναψυκτικό
-  keg_communicative_function: Ordering non-alcoholic drinks
-- id: A1-U101-104
-  greek: ταξιδεύω
-  phonetic_hint: ''
-  english: to travel
-  notes: Klik A1 p. 40. Type A regular active verb. Practicing ξ [ks] and ευ [ev].
-  gender_or_pos: verb
-  audio: taxideyo-6e1522.mp3
-  status: verified
-  example_el: Ταξιδεύω συχνά στην Ελλάδα για διακοπές.
-  example_en: I travel often to Greece for vacation.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: ταξιδεύει
-    first_person_plural: ταξιδεύουμε
-  keg_communicative_function: Describing travel habits and journeys
-- id: A1-U101-105
-  greek: ξυπνάω
-  phonetic_hint: ''
-  english: to wake up
-  notes: Klik A1 p. 40. Type B1 contract verb (ξυπνάω / ξυπνώ). Practicing ξ [ks].
-  gender_or_pos: verb
-  audio: xypnao-0c3bea.mp3
-  status: verified
-  example_el: Κάθε μέρα ξυπνάω στις επτά το πρωί.
-  example_en: Every day I wake up at seven in the morning.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type B1
-    third_person_singular: ξυπνάει
-    first_person_plural: ξυπνάμε
-  keg_communicative_function: Describing morning routines
-- id: A1-U101-106
-  greek: τρώω
-  phonetic_hint: ''
-  english: to eat
-  notes: 'Klik A1 p. 40. Common irregular verb: τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε.'
-  gender_or_pos: verb
-  audio: troo-2a4d34.mp3
-  status: verified
-  example_el: Τρώμε μεσημεριανό με την οικογένεια στις δύο.
-  example_en: We eat lunch with the family at two o'clock.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: irregular
-    third_person_singular: τρώει
-    first_person_plural: τρώμε
-  keg_communicative_function: Talking about meals and daily dining habits
-- id: A1-U101-107
-  greek: δουλεύω
-  phonetic_hint: ''
-  english: to work
-  notes: 'Klik A1 p. 40. Type A active regular verb: δουλεύω, δουλεύεις, δουλεύει.'
-  gender_or_pos: verb
-  audio: doyleyo-2bcff8.mp3
-  status: verified
-  example_el: Δουλεύω σε μια εταιρεία στο κέντρο της πόλης.
-  example_en: I work at a company in the city center.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: δουλεύει
-    first_person_plural: δουλεύουμε
-  keg_communicative_function: Stating professional occupation and workplace
-- id: A1-U101-108
-  greek: ξοδεύω
-  phonetic_hint: ''
-  english: to spend (money / energy)
-  notes: Klik A1 p. 40. Type A active regular verb. Practicing cluster ξ [ks] and
-    ευ [ev].
-  gender_or_pos: verb
-  audio: xodeyo-533363.mp3
-  status: verified
-  example_el: Δεν ξοδεύω πολλά χρήματα όταν κάνω ψώνια.
-  example_en: I do not spend a lot of money when I shop.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: ξοδεύει
-    first_person_plural: ξοδεύουμε
-  keg_communicative_function: Discussing spending habits and shopping
-- id: A1-U101-109
-  greek: τα χρήματα
-  phonetic_hint: ''
-  english: money
-  notes: Klik A1 p. 40. Neuter plural noun (το χρήμα, τα χρήματα). Often colloquial
-    'τα λεφτά'.
-  gender_or_pos: noun (neuter plural)
-  audio: ta-chrimata-d6f374.mp3
-  status: verified
-  example_el: Πόσα χρήματα χρειάζεσαι για το ταξίδι;
-  example_en: How much money do you need for the trip?
-  grammatical_info:
-    part_of_speech: noun (neuter plural)
-    plural: τα χρήματα
-    accusative_singular: τα χρήματα
-  keg_communicative_function: Managing finances and purchasing goods
-- id: A1-U101-110
-  greek: η χελώνα
-  phonetic_hint: ''
-  english: turtle / tortoise
-  notes: 'Klik A1 p. 41. Practicing voiceless velar fricative χ [x]. Plural: οι χελώνες.'
-  gender_or_pos: noun (feminine)
-  audio: i-chelona-18ddce.mp3
-  status: verified
-  example_el: Η θαλάσσια χελώνα Καρέτα-Καρέτα ζει στην Ελλάδα.
-  example_en: The loggerhead sea turtle Caretta-Caretta lives in Greece.
-  grammatical_info:
-    part_of_speech: noun (feminine)
-    plural: οι χελώνες
-    accusative_singular: τη χελώνα
-  keg_communicative_function: Naming native animals and wildlife
-- id: A1-U101-111
-  greek: το μπουκάλι
-  phonetic_hint: ''
-  english: bottle
-  notes: Klik A1 p. 41. Neuter noun in -ι with plural in -ια. Digraphs μπ [b] and
-    ου [u].
-  gender_or_pos: noun (neuter)
-  audio: to-mpoykali-ae0c15.mp3
-  status: verified
-  example_el: Ανοίγουμε ένα μπουκάλι καλό κρασί στο δείπνο.
-  example_en: We open a bottle of good wine at dinner.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μπουκάλια
-    accusative_singular: το μπουκάλι
-  keg_communicative_function: Ordering bottled drinks and table service
-- id: A1-U101-112
-  greek: το τραπέζι
-  phonetic_hint: ''
-  english: table
-  notes: Klik A1 p. 41. Neuter noun in -ι with plural in -ια. Related to 'κάνω τραπέζι'
-    (host a meal).
-  gender_or_pos: noun (neuter)
-  audio: to-trapezi-4c842a.mp3
-  status: verified
-  example_el: Ένα τραπέζι για τέσσερα άτομα έξω, παρακαλώ.
-  example_en: A table for four outside, please.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα τραπέζια
-    accusative_singular: το τραπέζι
-  keg_communicative_function: Reserving or asking for a table at a taverna
-- id: A1-U101-113
-  greek: το λουλούδι
-  phonetic_hint: ''
-  english: flower / flowers
-  notes: Klik A1 p. 25. Neuter noun in -ι with plural in -ια (τα λουλούδια). Diminutive
-    formation from ancient Greek λούλουδον.
-  gender_or_pos: noun (neuter)
-  audio: to-loyloydi-8dc813.mp3
-  status: verified
-  example_el: Έχει όμορφα λουλούδια στο βάζο.
-  example_en: There are beautiful flowers in the vase.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα λουλούδια
-    accusative_singular: το λουλούδι
-  keg_communicative_function: Naming flowers, nature, and household decorations
-- id: A1-U101-114
-  greek: το επώνυμο
-  phonetic_hint: ''
-  english: surname / last name
-  notes: Klik A1 p. 38-39. Essential personal registration noun. Proparoxytone in
-    -ο; takes an enclitic accent before possessives (το επώνυμό μου).
-  gender_or_pos: noun (neuter)
-  audio: to-eponymo-1420da.mp3
-  status: verified
-  example_el: Ποιο είναι το επώνυμό σας, παρακαλώ;
-  example_en: What is your last name, please?
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα επώνυμα
-    accusative_singular: το επώνυμο
-  keg_communicative_function: Providing and asking for last name and identification
-- id: A1-U101-115
-  greek: το αλάτι
-  phonetic_hint: ''
-  english: salt
-  notes: Klik A1 p. 25-28. Neuter noun in -ι with imparisyllabic genitive and plural
-    (του αλατιού, τα αλάτια).
-  gender_or_pos: noun (neuter)
-  audio: to-alati-c3f11d.mp3
-  status: verified
-  example_el: Μπορώ να έχω λίγο αλάτι, παρακαλώ;
-  example_en: Could I have some salt, please?
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα αλάτια
-    accusative_singular: το αλάτι
-  keg_communicative_function: Requesting seasonings and essential dining ingredients
-- id: A1-U101-116
   greek: ο δάσκαλος
-  phonetic_hint: ''
+  phonetic_hint: o THAHS-kah-los
   english: teacher / schoolteacher (male)
-  notes: 'Klik A1 p. 30. Proparoxytone masculine noun in -ος with vocative singular
-    δάσκαλε (female counterpart: η δασκάλα).'
+  notes: 'Klik A1 p. 48, 54. Masculine proparoxytone in -ος (vocative: δάσκαλε).'
   gender_or_pos: noun (masculine)
   audio: o-daskalos-218684.mp3
   status: verified
-  example_el: Ο δάσκαλος εξηγεί το μάθημα στην τάξη.
-  example_en: The teacher explains the lesson in the classroom.
+  example_el: Ο δάσκαλος μπαίνει στην τάξη και λέει καλημέρα.
+  example_en: The teacher enters the classroom and says good morning.
   grammatical_info:
     part_of_speech: noun (masculine)
     plural: οι δάσκαλοι
     accusative_singular: τον δάσκαλο
-  keg_communicative_function: Identifying teaching professionals and classroom roles
-- id: A1-U101-117
-  greek: ο μαθητής
-  phonetic_hint: ''
-  english: student / school pupil (male)
-  notes: 'Klik A1 p. 30. Masculine oxytone in -ης (plural: οι μαθητές). Female counterpart:
-    η μαθήτρια. Compare with university student: ο φοιτητής.'
-  gender_or_pos: noun (masculine)
-  audio: o-mathitis-fd2beb.mp3
+  keg_communicative_function: Identifying a male instructor
+- id: A1-U101-055
+  greek: η δασκάλα
+  phonetic_hint: ee thahs-KAH-lah
+  english: teacher / schoolteacher (female)
+  notes: 'Klik A1 p. 48, 54. Feminine paroxytone in -α (plural: οι δασκάλες).'
+  gender_or_pos: noun (feminine)
+  audio: i-daskala-a57b1d.mp3
   status: verified
-  example_el: Ο μαθητής ανοίγει το βιβλίο των Ελληνικών.
-  example_en: The student opens the Greek book.
+  example_el: Η δασκάλα μας είναι πολύ ευγενική.
+  example_en: Our teacher is very polite.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δασκάλες
+    accusative_singular: τη δασκάλα
+  keg_communicative_function: Identifying a female instructor
+- id: A1-U101-056
+  greek: ο συμμαθητής
+  phonetic_hint: o see-mah-thee-TEES
+  english: classmate (male)
+  notes: 'Klik A1 p. 43, 53. Masculine oxytone in -ής (plural: οι συμμαθητές).'
+  gender_or_pos: noun (masculine)
+  audio: o-symmathitis-558f9d.mp3
+  status: verified
+  example_el: Ο συμμαθητής μου κάθεται δίπλα μου.
+  example_en: My classmate sits next to me.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι μαθητές
-    accusative_singular: τον μαθητή
-  keg_communicative_function: Identifying students and academic learners
-- id: A1-U101-118
-  greek: το παράδειγμα
-  phonetic_hint: ''
-  english: example
-  notes: Klik A1 p. 25-41. Core textbook instructional vocabulary. Frequently used
-    in the phrase 'για παράδειγμα' (for example). Neuter noun in -μα.
-  gender_or_pos: noun (neuter)
-  audio: to-paradeigma-9d7614.mp3
+    plural: οι συμμαθητές
+    accusative_singular: τον συμμαθητή
+  keg_communicative_function: Identifying fellow male students
+- id: A1-U101-057
+  greek: η συμμαθήτρια
+  phonetic_hint: ee see-mah-THEE-tree-ah
+  english: classmate (female)
+  notes: 'Klik A1 p. 53. Feminine noun in -τρια (plural: οι συμμαθήτριες).'
+  gender_or_pos: noun (feminine)
+  audio: i-symmathitria-fe4a35.mp3
   status: verified
-  example_el: Διαβάζουμε το παράδειγμα στην άσκηση.
-  example_en: We read the example in the exercise.
+  example_el: Κάνω την άσκηση μαζί με τη συμμαθήτριά μου.
+  example_en: I do the exercise together with my classmate.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συμμαθήτριες
+    accusative_singular: τη συμμαθήτρια
+  keg_communicative_function: Identifying fellow female students
+- id: A1-U101-058
+  greek: το παιδί
+  phonetic_hint: to peh-THEE
+  english: child / kid
+  notes: 'Klik A1 p. 48, 51. Digraph αι [e]. Vocative plural: ''παιδιά!'' (guys! /
+    children!).'
+  gender_or_pos: noun (neuter)
+  audio: to-paidi-4ddee0.mp3
+  status: verified
+  example_el: Καλημέρα, παιδιά! Ανοίξτε τα βιβλία σας.
+  example_en: Good morning, children! Open your books.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα παραδείγματα
-    accusative_singular: το παράδειγμα
-  keg_communicative_function: Understanding exercise examples and learning guidelines
-- id: A1-U101-119
-  greek: διαβάζω
-  phonetic_hint: ''
-  english: to read / to study
-  notes: 'Klik A1 p. 25-41. Fundamental Type A active regular verb: διαβάζω, διαβάζεις,
-    διαβάζει, διαβάζουμε, διαβάζετε, διαβάζουν. Related to το διάβασμα.'
-  gender_or_pos: verb
-  audio: diavazo-7487a6.mp3
-  status: verified
-  example_el: Διαβάζω ένα ενδιαφέρον βιβλίο στα ελληνικά.
-  example_en: I am reading an interesting book in Greek.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: διαβάζει
-    first_person_plural: διαβάζουμε
-  keg_communicative_function: Expressing reading, studying, and literacy habits
-- id: A1-U101-120
-  greek: γράφω
-  phonetic_hint: ''
-  english: to write / to spell
-  notes: 'Klik A1 p. 25-41. Model Type A active regular verb: γράφω, γράφεις, γράφει,
-    γράφουμε, γράφετε, γράφουν. Past simple stem: έγραψα.'
-  gender_or_pos: verb
-  audio: grafo-ee0d8a.mp3
-  status: verified
-  example_el: Γράφω μια νέα λέξη στο τετράδιο.
-  example_en: I write a new word in the notebook.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: γράφει
-    first_person_plural: γράφουμε
-  keg_communicative_function: Expressing writing and spelling activities
-- id: A1-U101-121
-  greek: βλέπω
-  phonetic_hint: ''
-  english: to see / to watch
-  notes: 'Klik A1 p. 25-41. Common Type A active regular verb: βλέπω, βλέπεις, βλέπει,
-    βλέπουμε, βλέπετε, βλέπουν.'
-  gender_or_pos: verb
-  audio: vlepo-b9ac52.mp3
-  status: verified
-  example_el: Βλέπω μια ωραία ελληνική ταινία απόψε.
-  example_en: I am watching a nice Greek movie tonight.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: βλέπει
-    first_person_plural: βλέπουμε
-  keg_communicative_function: Expressing visual perception and watching activities
-- id: A1-U101-122
-  greek: ακούω
-  phonetic_hint: ''
-  english: to hear / to listen to
-  notes: 'Klik A1 p. 25-41. Common irregular active verb: ακούω, ακούς, ακούει, ακούμε,
-    ακούτε, ακούν(ε). Key verb for audio exercises.'
-  gender_or_pos: verb
-  audio: akoyo-38930c.mp3
-  status: verified
-  example_el: Ακούω τον διάλογο στο μάθημα.
-  example_en: I listen to the dialogue in the lesson.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (irregular active)
-    third_person_singular: ακούει
-    first_person_plural: ακούμε
-  keg_communicative_function: Expressing auditory perception and listening to audio
-    exercises
-- id: A1-U101-123
-  greek: μυρίζω
-  phonetic_hint: ''
-  english: to smell / to scent
-  notes: 'Klik A1 p. 25-41. Type A active regular verb in -ίζω: μυρίζω, μυρίζεις,
-    μυρίζει, μυρίζουμε, μυρίζετε, μυρίζουν. Used for fragrances and scents.'
-  gender_or_pos: verb
-  audio: myrizo-a43ce4.mp3
-  status: verified
-  example_el: Τα λουλούδια μυρίζουν υπέροχα στην άνοιξη.
-  example_en: The flowers smell wonderful in spring.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active regular)
-    third_person_singular: μυρίζει
-    first_person_plural: μυρίζουμε
-  keg_communicative_function: Expressing olfactory perception and describing scents
-- id: A1-U101-124
-  greek: το έξυπνο κινητό
-  phonetic_hint: ''
-  english: smartphone / smart mobile phone
-  notes: 'Klik A1 p. 25-41. Modern Greek compound noun: έξυπνο (smart) + κινητό (mobile).
-    Commonly called ''το smartphone'' or simply ''το κινητό''.'
+    plural: τα παιδιά
+    accusative_singular: το παιδί
+  keg_communicative_function: Addressing groups of learners or children
+- id: A1-U101-059
+  greek: το κορίτσι
+  phonetic_hint: to koh-REET-see
+  english: girl
+  notes: Klik A1 p. 51. Neuter noun in -ι with plural in -ια. Practicing affricate
+    τσ [ts].
   gender_or_pos: noun (neuter)
-  audio: to-exypno-kinito-e9284b.mp3
+  audio: to-koritsi-92f6c1.mp3
   status: verified
-  example_el: Έχω ένα καινούργιο έξυπνο κινητό με καλή κάμερα.
-  example_en: I have a new smartphone with a good camera.
+  example_el: Αυτά τα κορίτσια μαθαίνουν ελληνικά.
+  example_en: These girls are learning Greek.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα έξυπνα κινητά
-    accusative_singular: το έξυπνο κινητό
-  keg_communicative_function: Discussing personal digital devices and smart technology
+    plural: τα κορίτσια
+    accusative_singular: το κορίτσι
+  keg_communicative_function: Identifying young females
+- id: A1-U101-060
+  greek: το αγόρι
+  phonetic_hint: to ah-GHOH-ree
+  english: boy
+  notes: Klik A1 p. 51. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-agori-321941.mp3
+  status: verified
+  example_el: Το αγόρι παίζει ποδόσφαιρο στην αυλή.
+  example_en: The boy is playing soccer in the courtyard.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αγόρια
+    accusative_singular: το αγόρι
+  keg_communicative_function: Identifying young males

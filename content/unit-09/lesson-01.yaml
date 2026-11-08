@@ -1,0 +1,655 @@
+unit_id: unit-09
+lesson_id: lesson-01
+title: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
+description: 'CEFR A1: Asking for and stating the time, days of the week, months,
+  seasons, arranging appointments, and understanding timetable announcements.'
+lesson_status: not_started
+lesson_notes: "Unit 9 Core Grammar Notes:\n\n• Telling Time (Ώρα):\n  - Inquiring:\
+  \ 'Τι ώρα είναι;' (What time is it?) / 'Σε τι ώρα;' (At what time?).\n  - Exact\
+  \ hour: 'Είναι μία ακριβώς' (1:00) / 'Είναι δύο ακριβώς' (2:00).\n  - Minutes past:\
+  \ 'Είναι τρεις και τέταρτο' (3:15) / 'Είναι τέσσερις και είκοσι' (4:20).\n  - Half\
+  \ past: 'Είναι πέντε και μισή' (5:30).\n  - Minutes to: 'Είναι έξι παρά είκοσι'\
+  \ (5:40) / 'Είναι επτά παρά τέταρτο' (6:45).\n  - Specifying when: 'Στη μία' (at\
+  \ 1:00) vs 'Στις τρεις, στις τέσσερις...' (all other hours).\n\n• Days of the Week\
+  \ (Ημέρες της Εβδομάδας):\n  - Feminine (all except Saturday): η Δευτέρα, η Τρίτη,\
+  \ η Τετάρτη, η Πέμπτη, η Παρασκευή, η Κυριακή.\n  - Neuter: το Σάββατο, το σαββατοκύριακο.\n\
+  \  - Temporal Accusative (no preposition): 'τη Δευτέρα' (on Monday), 'το Σάββατο'\
+  \ (on Saturday).\n\n• The Four Seasons (Εποχές):\n  - η άνοιξη (spring), το καλοκαίρι\
+  \ (summer), το φθινόπωρο (autumn), ο χειμώνας (winter).\n  - Temporal Accusative:\
+  \ 'την άνοιξη', 'το καλοκαίρι', 'το φθινόπωρο', 'τον χειμώνα'.\n\n• Months (Μήνες):\n\
+  \  - All months in Modern Greek are masculine (ο Ιανουάριος, ο Απρίλιος, ο Αύγουστος...).\n\
+  \  - Temporal Accusative: 'τον Ιανουάριο' (in January), 'τον Αύγουστο' (in August).\n\
+  \n• Time Spans & Scheduling Connectives:\n  - από... μέχρι... (from... until...):\
+  \ 'από τις εννέα μέχρι τις πέντε'.\n  - πριν από / μετά από + Accusative.\n  - κλείνω\
+  \ ραντεβού (make an appointment) / περιμένω (wait for)."
+entries:
+- id: A1-U09-001
+  greek: η ώρα
+  phonetic_hint: ''
+  english: hour / time / o'clock
+  notes: 'Feminine in -α with plural in -ες (οι ώρες). Ubiquitous question: ''Τι ώρα
+    είναι;''.'
+  gender_or_pos: noun (feminine)
+  audio: i-ora-f4377d.mp3
+  status: verified
+  example_el: Τι ώρα είναι τώρα, παρακαλώ;
+  example_en: What time is it now, please?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ώρες
+    accusative_singular: την ώρα
+  keg_communicative_function: Asking for and stating the time
+- id: A1-U09-002
+  greek: το λεπτό
+  phonetic_hint: ''
+  english: minute (time) / cent (currency)
+  notes: 'Oxytone neuter in -ό (plural: τα λεπτά). Also means cent: ένα ευρώ και είκοσι
+    λεπτά.'
+  gender_or_pos: noun (neuter)
+  audio: to-lepto-6fd1bf.mp3
+  status: verified
+  example_el: Το λεωφορείο φτάνει σε δέκα λεπτά.
+  example_en: The bus arrives in ten minutes.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λεπτά
+    accusative_singular: το λεπτό
+  keg_communicative_function: Specifying exact minutes for schedules and transport
+- id: A1-U09-003
+  greek: το τέταρτο
+  phonetic_hint: ''
+  english: quarter of an hour (15 minutes) / fourth
+  notes: 'Formula: ''και τέταρτο'' = quarter past / ''παρά τέταρτο'' = quarter to.'
+  gender_or_pos: noun (neuter)
+  audio: to-tetarto-2579d6.mp3
+  status: verified
+  example_el: Είναι τρεις και τέταρτο.
+  example_en: It is a quarter past three (3:15).
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τέταρτα
+    accusative_singular: το τέταρτο
+  keg_communicative_function: Stating quarter past and quarter to the hour
+- id: A1-U09-004
+  greek: και μισή
+  phonetic_hint: ''
+  english: half past (the hour) / thirty minutes past
+  notes: 'Feminine agreement with ''ώρα'': ''και μισή'' (short for και μισή ώρα).'
+  gender_or_pos: phrase (time formula)
+  audio: kai-misi-050330.mp3
+  status: verified
+  example_el: Το ιατρείο ανοίγει στις οκτώ και μισή.
+  example_en: The doctor's office opens at half past eight (8:30).
+  grammatical_info:
+    part_of_speech: phrase (time formula)
+  keg_communicative_function: Stating half-past hours in timetable announcements
+- id: A1-U09-005
+  greek: παρά
+  phonetic_hint: ''
+  english: to (the hour) / minus / before
+  notes: 'Formula: Upcoming Hour + παρά + minutes: ''έξι παρά δέκα'' (ten to six).'
+  gender_or_pos: preposition (temporal)
+  audio: para-96fcd4.mp3
+  status: verified
+  example_el: Είναι πέντε παρά είκοσι.
+  example_en: It is twenty to five (4:40).
+  grammatical_info:
+    part_of_speech: preposition (temporal)
+  keg_communicative_function: Stating minutes before the upcoming hour
+- id: A1-U09-006
+  greek: ακριβώς
+  phonetic_hint: ''
+  english: exactly / sharp / precisely (on the hour)
+  notes: 'Oxytone adverb. Used also to agree strongly: ''Ακριβώς!'' (Exactly!).'
+  gender_or_pos: adverb of precision
+  audio: akrivos-cc3383.mp3
+  status: verified
+  example_el: Το τρένο φεύγει στις έντεκα ακριβώς.
+  example_en: The train leaves at eleven o'clock sharp.
+  grammatical_info:
+    part_of_speech: adverb of precision
+  keg_communicative_function: Stating sharp appointments and exact timetable arrivals
+- id: A1-U09-007
+  greek: στις μία / στις δύο / στις τρεις
+  phonetic_hint: ''
+  english: at one / at two / at three (o'clock)
+  notes: '''Στη μία'' (singular feminine for 1:00) vs ''στις δύο, στις τρεις...''
+    (plural feminine for all other hours).'
+  gender_or_pos: phrase (time formula)
+  audio: stis-mia-stis-dyo-st-6164aa.mp3
+  status: verified
+  example_el: Συναντιόμαστε στις έξι το απόγευμα.
+  example_en: We meet at six in the afternoon.
+  grammatical_info:
+    part_of_speech: phrase (time formula)
+    construction: σε + feminine accusative article + cardinal numeral
+  keg_communicative_function: Specifying at what time an event or appointment occurs
+- id: A1-U09-008
+  greek: το ραντεβού
+  phonetic_hint: ''
+  english: appointment / meeting / date
+  notes: 'French loanword: indeclinable neuter noun (το ραντεβού, τα ραντεβού). Collocation:
+    ''κλείνω ραντεβού''.'
+  gender_or_pos: noun (neuter indeclinable)
+  audio: to-rantevoy-3ff428.mp3
+  status: verified
+  example_el: Έχω ραντεβού με τον γιατρό στις τέσσερις.
+  example_en: I have an appointment with the doctor at four.
+  grammatical_info:
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα ραντεβού
+    accusative_singular: το ραντεβού
+  keg_communicative_function: Scheduling medical, personal, or business meetings
+- id: A1-U09-009
+  greek: το ρολόι
+  phonetic_hint: ''
+  english: clock / watch
+  notes: 'Oxytone neuter in -όι (plural: τα ρολόγια). Refers to wristwatches and wall
+    clocks.'
+  gender_or_pos: noun (neuter)
+  audio: to-roloi-cc6910.mp3
+  status: verified
+  example_el: Το ρολόι μου δείχνει δώδεκα και μισή.
+  example_en: My watch shows half past twelve.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρολόγια
+    accusative_singular: το ρολόι
+  keg_communicative_function: Referring to timepieces and clocks
+- id: A1-U09-010
+  greek: η εβδομάδα
+  phonetic_hint: ''
+  english: week
+  notes: Paroxytone feminine in -α with plural in -ες (οι εβδομάδες). From επτά (seven).
+  gender_or_pos: noun (feminine)
+  audio: i-evdomada-8c2d2c.mp3
+  status: verified
+  example_el: Έχουμε μάθημα δύο φορές την εβδομάδα.
+  example_en: We have class twice a week.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εβδομάδες
+    accusative_singular: την εβδομάδα
+  keg_communicative_function: Talking about weekly routines and frequency
+- id: A1-U09-011
+  greek: το σαββατοκύριακο
+  phonetic_hint: ''
+  english: weekend
+  notes: Compound from Σάββατο (Saturday) + Κυριακή (Sunday). Proparoxytone neuter
+    in -ο.
+  gender_or_pos: noun (neuter)
+  audio: to-savvatokyriako-022b49.mp3
+  status: verified
+  example_el: Το σαββατοκύριακο πάμε εκδρομή στη θάλασσα.
+  example_en: On the weekend we go on a trip to the sea.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σαββατοκύριακα
+    accusative_singular: το σαββατοκύριακο
+  keg_communicative_function: Arranging weekend social outings or trips
+- id: A1-U09-012
+  greek: η Δευτέρα
+  phonetic_hint: ''
+  english: Monday
+  notes: Capitalized day name. 'Τη Δευτέρα' (Accusative without preposition) = On
+    Monday.
+  gender_or_pos: proper noun (feminine)
+  audio: i-deytera-9aa042.mp3
+  status: verified
+  example_el: Τη Δευτέρα αρχίζει το νέο σεμινάριο.
+  example_en: On Monday the new seminar starts.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Δευτέρες
+    accusative_singular: τη Δευτέρα
+  keg_communicative_function: Scheduling activities on Monday
+- id: A1-U09-013
+  greek: η Τρίτη
+  phonetic_hint: ''
+  english: Tuesday
+  notes: 'Accusative keeps -ν before τ: ''την Τρίτη''.'
+  gender_or_pos: proper noun (feminine)
+  audio: i-triti-0e1a92.mp3
+  status: verified
+  example_el: Την Τρίτη το πρωί έχω μάθημα ελληνικών.
+  example_en: On Tuesday morning I have a Greek class.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Τρίτες
+    accusative_singular: την Τρίτη
+  keg_communicative_function: Scheduling activities on Tuesday
+- id: A1-U09-014
+  greek: η Τετάρτη
+  phonetic_hint: ''
+  english: Wednesday
+  notes: 'Traditional Greek shop hours: closed Wednesday and Monday afternoons.'
+  gender_or_pos: proper noun (feminine)
+  audio: i-tetarti-31e367.mp3
+  status: verified
+  example_el: Την Τετάρτη το απόγευμα τα μαγαζιά είναι κλειστά.
+  example_en: On Wednesday afternoon the shops are closed.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Τετάρτες
+    accusative_singular: την Τετάρτη
+  keg_communicative_function: Scheduling activities on Wednesday
+- id: A1-U09-015
+  greek: η Πέμπτη
+  phonetic_hint: ''
+  english: Thursday
+  notes: 'Accusative keeps -ν before π: ''την Πέμπτη''.'
+  gender_or_pos: proper noun (feminine)
+  audio: i-pempti-d540fb.mp3
+  status: verified
+  example_el: Την Πέμπτη έχουμε συνάντηση στο γραφείο.
+  example_en: On Thursday we have a meeting at the office.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Πέμπτες
+    accusative_singular: την Πέμπτη
+  keg_communicative_function: Scheduling activities on Thursday
+- id: A1-U09-016
+  greek: η Παρασκευή
+  phonetic_hint: ''
+  english: Friday
+  notes: 'Oxytone feminine in -ή. Accusative keeps -ν before π: ''την Παρασκευή''.'
+  gender_or_pos: proper noun (feminine)
+  audio: i-paraskeyi-28f365.mp3
+  status: verified
+  example_el: Την Παρασκευή το βράδυ πάμε σε μία ταβέρνα.
+  example_en: On Friday evening we go to a taverna.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Παρασκευές
+    accusative_singular: την Παρασκευή
+  keg_communicative_function: Scheduling activities on Friday before the weekend
+- id: A1-U09-017
+  greek: το Σάββατο
+  phonetic_hint: ''
+  english: Saturday
+  notes: 'The ONLY neuter day of the week in Greek: ''το Σάββατο'' (all others are
+    feminine).'
+  gender_or_pos: proper noun (neuter)
+  audio: to-savvato-0b0609.mp3
+  status: verified
+  example_el: Το Σάββατο πηγαίνουμε στη λαϊκή αγορά.
+  example_en: On Saturday we go to the farmers' market.
+  grammatical_info:
+    part_of_speech: proper noun (neuter)
+    plural: τα Σάββατα
+    accusative_singular: το Σάββατο
+  keg_communicative_function: Scheduling Saturday leisure activities and shopping
+- id: A1-U09-018
+  greek: η Κυριακή
+  phonetic_hint: ''
+  english: Sunday
+  notes: 'From Κύριος (Lord''s day). Oxytone feminine in -ή (accusative: την Κυριακή).'
+  gender_or_pos: proper noun (feminine)
+  audio: i-kyriaki-1912c2.mp3
+  status: verified
+  example_el: Την Κυριακή ξεκουραζόμαστε όλη μέρα.
+  example_en: On Sunday we rest all day.
+  grammatical_info:
+    part_of_speech: proper noun (feminine)
+    plural: οι Κυριακές
+    accusative_singular: την Κυριακή
+  keg_communicative_function: Talking about Sunday family dinners and rest days
+- id: A1-U09-019
+  greek: η εποχή
+  phonetic_hint: ''
+  english: season / era / time of year
+  notes: 'Oxytone feminine in -ή (plural: οι εποχές).'
+  gender_or_pos: noun (feminine)
+  audio: i-epochi-23b542.mp3
+  status: verified
+  example_el: Ποια είναι η αγαπημένη σου εποχή;
+  example_en: Which is your favorite season?
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εποχές
+    accusative_singular: την εποχή
+  keg_communicative_function: Talking about the four seasons of the year
+- id: A1-U09-020
+  greek: η άνοιξη
+  phonetic_hint: ''
+  english: spring (season)
+  notes: 'Proparoxytone feminine in -η. Temporal accusative: ''την άνοιξη'' = in spring.'
+  gender_or_pos: noun (feminine)
+  audio: i-anoixi-9d9c98.mp3
+  status: verified
+  example_el: Την άνοιξη ο καιρός είναι ζεστός και ευχάριστος.
+  example_en: In spring the weather is warm and pleasant.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ανοίξεις
+    accusative_singular: την άνοιξη
+  keg_communicative_function: Describing springtime weather and holidays (Easter)
+- id: A1-U09-021
+  greek: το καλοκαίρι
+  phonetic_hint: ''
+  english: summer
+  notes: 'Compound from καλός + καιρός (good weather). Temporal usage: ''το καλοκαίρι''
+    = in summer.'
+  gender_or_pos: noun (neuter)
+  audio: to-kalokairi-69518e.mp3
+  status: verified
+  example_el: Το καλοκαίρι πηγαίνουμε διακοπές στα νησιά.
+  example_en: In summer we go on vacation to the islands.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καλοκαίρια
+    accusative_singular: το καλοκαίρι
+  keg_communicative_function: Talking about summer holidays and island trips
+- id: A1-U09-022
+  greek: το φθινόπωρο
+  phonetic_hint: ''
+  english: autumn / fall
+  notes: 'Proparoxytone neuter in -ο. Temporal usage: ''το φθινόπωρο'' = in autumn.'
+  gender_or_pos: noun (neuter)
+  audio: to-fthinoporo-f166f4.mp3
+  status: verified
+  example_el: Το φθινόπωρο αρχίζουν τα σχολεία και τα πανεπιστήμια.
+  example_en: In autumn schools and universities begin.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φθινόπωρα
+    accusative_singular: το φθινόπωρο
+  keg_communicative_function: Talking about autumn weather and return to school
+- id: A1-U09-023
+  greek: ο χειμώνας
+  phonetic_hint: ''
+  english: winter
+  notes: 'Paroxytone masculine in -ας. Temporal accusative: ''τον χειμώνα'' = in winter.'
+  gender_or_pos: noun (masculine)
+  audio: o-cheimonas-927c67.mp3
+  status: verified
+  example_el: Τον χειμώνα κάνει κρύο και βρέχει συχνά.
+  example_en: In winter it is cold and it rains often.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι χειμώνες
+    accusative_singular: τον χειμώνα
+  keg_communicative_function: Describing cold winter weather and mountain trips
+- id: A1-U09-024
+  greek: ο μήνας
+  phonetic_hint: ''
+  english: month
+  notes: 'Paroxytone masculine in -ας (plural: οι μήνες). Phrase: ''τον μήνα'' = per
+    month.'
+  gender_or_pos: noun (masculine)
+  audio: o-minas-0aa528.mp3
+  status: verified
+  example_el: Ο χρόνος έχει δώδεκα μήνες.
+  example_en: The year has twelve months.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μήνες
+    accusative_singular: τον μήνα
+  keg_communicative_function: Talking about months and yearly calendar periods
+- id: A1-U09-025
+  greek: το έτος / ο χρόνος
+  phonetic_hint: ''
+  english: year
+  notes: Both 'ο χρόνος' (informal/daily) and 'το έτος' (formal/official forms) are
+    standard.
+  gender_or_pos: noun (neuter / masculine)
+  audio: to-etos-o-chronos-f4e450.mp3
+  status: verified
+  example_el: Καλή χρονιά και ευτυχισμένο το νέο έτος!
+  example_en: Happy New Year and a blessed new year!
+  grammatical_info:
+    part_of_speech: noun (neuter / masculine)
+    plural: τα έτη / οι χρόνοι
+    accusative_singular: το έτος / τον χρόνο
+  keg_communicative_function: Stating age, dates, and years on forms
+- id: A1-U09-026
+  greek: το ημερολόγιο
+  phonetic_hint: ''
+  english: calendar / diary
+  notes: 'Proparoxytone neuter in -ιο (plural: τα ημερολόγια). From ημέρα (day) +
+    λέγω (record).'
+  gender_or_pos: noun (neuter)
+  audio: to-imerologio-ab0353.mp3
+  status: verified
+  example_el: Κοιτάζω το ημερολόγιο για να βρω ελεύθερη μέρα.
+  example_en: I look at the calendar to find a free day.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ημερολόγια
+    accusative_singular: το ημερολόγιο
+  keg_communicative_function: Consulting dates and booking appointments on a calendar
+- id: A1-U09-027
+  greek: ο Ιανουάριος / ο Γενάρης
+  phonetic_hint: ''
+  english: January
+  notes: 'All month names in Greek are masculine. Temporal usage: ''τον Ιανουάριο''
+    = in January.'
+  gender_or_pos: proper noun (masculine)
+  audio: o-ianoyarios-o-genar-69b8f3.mp3
+  status: verified
+  example_el: Τον Ιανουάριο γιορτάζουμε την Πρωτοχρονιά.
+  example_en: In January we celebrate New Year's Day.
+  grammatical_info:
+    part_of_speech: proper noun (masculine)
+    accusative_singular: τον Ιανουάριο / τον Γενάρη
+  keg_communicative_function: Referring to January and New Year dates
+- id: A1-U09-028
+  greek: ο Απρίλιος / ο Απρίλης
+  phonetic_hint: ''
+  english: April
+  notes: Both formal '-ιος' and colloquial '-ης' forms are standard.
+  gender_or_pos: proper noun (masculine)
+  audio: o-aprilios-o-aprilis-c87d1e.mp3
+  status: verified
+  example_el: Το Πάσχα πέφτει συνήθως τον Απρίλιο.
+  example_en: Easter usually falls in April.
+  grammatical_info:
+    part_of_speech: proper noun (masculine)
+    accusative_singular: τον Απρίλιο / τον Απρίλη
+  keg_communicative_function: Specifying spring dates and Greek Easter season
+- id: A1-U09-029
+  greek: ο Ιούλιος / ο Ιούλης
+  phonetic_hint: ''
+  english: July
+  notes: 'Proparoxytone masculine: ο Ιούλιος.'
+  gender_or_pos: proper noun (masculine)
+  audio: o-ioylios-o-ioylis-c635a7.mp3
+  status: verified
+  example_el: Τον Ιούλιο πάμε διακοπές στη Νάξο.
+  example_en: In July we go on vacation to Naxos.
+  grammatical_info:
+    part_of_speech: proper noun (masculine)
+    accusative_singular: τον Ιούλιο / τον Ιούλη
+  keg_communicative_function: Planning mid-summer holiday dates
+- id: A1-U09-030
+  greek: ο Αύγουστος
+  phonetic_hint: ''
+  english: August
+  notes: Proparoxytone masculine. Major Greek holiday month (Dekapentavgoustos / 15th
+    August).
+  gender_or_pos: proper noun (masculine)
+  audio: o-aygoystos-9a6b63.mp3
+  status: verified
+  example_el: Τον Αύγουστο η Αθήνα είναι άδεια.
+  example_en: In August Athens is empty.
+  grammatical_info:
+    part_of_speech: proper noun (masculine)
+    accusative_singular: τον Αύγουστο
+  keg_communicative_function: Describing peak summer holiday periods in Greece
+- id: A1-U09-031
+  greek: ο Δεκέμβριος / ο Δεκέμβρης
+  phonetic_hint: ''
+  english: December
+  notes: 'Genitive in dates: ''στις 25 Δεκεμβρίου''.'
+  gender_or_pos: proper noun (masculine)
+  audio: o-dekemvrios-o-dekem-20588f.mp3
+  status: verified
+  example_el: Τα Χριστούγεννα είναι στις είκοσι πέντε Δεκεμβρίου.
+  example_en: Christmas is on the twenty-fifth of December.
+  grammatical_info:
+    part_of_speech: proper noun (masculine)
+    accusative_singular: τον Δεκέμβριο / τον Δεκέμβρη
+  keg_communicative_function: Specifying Christmas and end-of-year dates
+- id: A1-U09-032
+  greek: πριν από
+  phonetic_hint: ''
+  english: before / prior to / ago (+ Accusative)
+  notes: Direct antonym of 'μετά από'.
+  gender_or_pos: phrase (temporal preposition)
+  audio: prin-apo-c87c63.mp3
+  status: verified
+  example_el: Φτάνω στο γραφείο πριν από τις εννέα.
+  example_en: I arrive at the office before nine o'clock.
+  grammatical_info:
+    part_of_speech: phrase (temporal preposition)
+    governs_case: accusative with article (πριν από το...)
+  keg_communicative_function: Indicating prior sequence or time elapsed
+- id: A1-U09-033
+  greek: μετά από
+  phonetic_hint: ''
+  english: after / following / in (+ Accusative)
+  notes: 'Can also be used with standalone accusative without ''από'': ''μετά το μάθημα''.'
+  gender_or_pos: phrase (temporal preposition)
+  audio: meta-apo-7be474.mp3
+  status: verified
+  example_el: Μετά από το μάθημα πάμε για καφέ.
+  example_en: After class we go for coffee.
+  grammatical_info:
+    part_of_speech: phrase (temporal preposition)
+    governs_case: accusative with article (μετά από τη...)
+  keg_communicative_function: Indicating following sequence in daily schedules
+- id: A1-U09-034
+  greek: από... μέχρι...
+  phonetic_hint: ''
+  english: from... until... / from... to...
+  notes: Archetypal opening hours formula in KEG Listening Part 3 announcements.
+  gender_or_pos: phrase (time range formula)
+  audio: apo-mechri-26195f.mp3
+  status: verified
+  example_el: Το κατάστημα είναι ανοιχτό από τις εννέα μέχρι τις εννέα.
+  example_en: The store is open from nine until nine.
+  grammatical_info:
+    part_of_speech: phrase (time range formula)
+    syntax: από + Accusative ... μέχρι + Accusative
+  keg_communicative_function: Stating business opening hours and timetable spans
+- id: A1-U09-035
+  greek: σήμερα
+  phonetic_hint: ''
+  english: today
+  notes: Paroxytone adverb of time.
+  gender_or_pos: adverb of time
+  audio: simera-51cf7b.mp3
+  status: verified
+  example_el: Σήμερα είναι Δευτέρα και έχω πολλή δουλειά.
+  example_en: Today is Monday and I have a lot of work.
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Stating current day events and immediate plans
+- id: A1-U09-036
+  greek: αύριο
+  phonetic_hint: ''
+  english: tomorrow
+  notes: Proparoxytone adverb of time.
+  gender_or_pos: adverb of time
+  audio: ayrio-67c841.mp3
+  status: verified
+  example_el: Τα λέμε αύριο το πρωί στο γραφείο!
+  example_en: See you tomorrow morning at the office!
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Arranging next day meetings and schedules
+- id: A1-U09-037
+  greek: χθες
+  phonetic_hint: ''
+  english: yesterday
+  notes: Monosyllabic adverb. Also written as 'χτες'.
+  gender_or_pos: adverb of time
+  audio: chthes-6c18aa.mp3
+  status: verified
+  example_el: Χθες ήταν Κυριακή και ξεκουράστηκα.
+  example_en: Yesterday was Sunday and I rested.
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Setting temporal reference to the previous day
+- id: A1-U09-038
+  greek: τώρα
+  phonetic_hint: ''
+  english: now / right now
+  notes: Paroxytone adverb of time.
+  gender_or_pos: adverb of time
+  audio: tora-4a5837.mp3
+  status: verified
+  example_el: Τώρα δεν μπορώ, είμαι σε ραντεβού.
+  example_en: Now I cannot, I am in a meeting.
+  grammatical_info:
+    part_of_speech: adverb of time
+  keg_communicative_function: Expressing actions occurring at the immediate moment
+- id: A1-U09-039
+  greek: κλείνω ραντεβού
+  phonetic_hint: ''
+  english: to make an appointment / to book a meeting
+  notes: 'Verb ''κλείνω'' (literally: to close/book) + ραντεβού. In A1: κλείνω ραντεβού.'
+  gender_or_pos: phrase (verb expression)
+  audio: kleino-rantevoy-bd45e9.mp3
+  status: verified
+  example_el: Κλείνω ραντεβού με τον γιατρό για αύριο.
+  example_en: I make an appointment with the doctor for tomorrow.
+  grammatical_info:
+    part_of_speech: phrase (verb expression)
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό κλείνει ραντεβού
+    first_person_plural: εμείς κλείνουμε ραντεβού
+    verb_involved: κλείνω (Type A)
+  keg_communicative_function: Booking a time with a doctor, dentist, or hairdresser
+- id: A1-U09-040
+  greek: περιμένω
+  phonetic_hint: ''
+  english: to wait for / to expect / I wait
+  notes: 'Type A active verb: περιμένω, περιμένεις, περιμένει, περιμένουμε, περιμένετε,
+    περιμένουν.'
+  gender_or_pos: verb
+  audio: perimeno-05f51f.mp3
+  status: verified
+  example_el: Σε περιμένω έξω από τον σταθμό του μετρό.
+  example_en: I am waiting for you outside the metro station.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό περιμένει
+    first_person_plural: εμείς περιμένουμε
+  keg_communicative_function: Expressing waiting for people, public transport, or
+    appointments
+- id: A1-U09-041
+  greek: συναντάω / συναντώ
+  phonetic_hint: ''
+  english: to meet / to encounter / I meet
+  notes: 'Type B1 contracted verb: συναντάω/-ώ, συναντάς, συναντάει/-ά, συναντάμε,
+    συναντάτε, συναντάνε.'
+  gender_or_pos: verb
+  audio: synantao-synanto-572b36.mp3
+  status: verified
+  example_el: Συναντάμε τους φίλους μας στην πλατεία στις οκτώ.
+  example_en: We meet our friends in the square at eight.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: B1
+    third_person_singular: αυτός / αυτή / αυτό συναντάει (συναντά)
+    first_person_plural: εμείς συναντάμε
+  keg_communicative_function: Arranging to meet friends or colleagues at a specified
+    time
+- id: A1-U09-042
+  greek: προλαβαίνω
+  phonetic_hint: ''
+  english: to make it in time / to catch (a bus/train) / I catch
+  notes: 'Type A verb ending in -αίνω: προλαβαίνω, προλαβαίνεις, προλαβαίνει, προλαβαίνουμε.'
+  gender_or_pos: verb
+  audio: prolavaino-d34fda.mp3
+  status: verified
+  example_el: Τρέχουμε για να προλάβουμε το τελευταίο λεωφορείο.
+  example_en: We run in order to catch the last bus.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: A
+    third_person_singular: αυτός / αυτή / αυτό προλαβαίνει
+    first_person_plural: εμείς προλαβαίνουμε
+  keg_communicative_function: Talking about being on time or catching public transit

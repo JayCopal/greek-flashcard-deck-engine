@@ -1,975 +1,970 @@
 unit_id: unit-105
 lesson_id: lesson-01
-title: 'Ενότητα 4: Από το πρωί μέχρι το βράδυ — Καθημερινότητα, Ώρα, Μήνες & Ρήματα
-  (Pages 87-110)'
-description: 'CEFR A1: Daily routines, leisure activities, months of the year, seasons
-  and weather, numbers 11-100, telling time, and core irregular & mediopassive verbs
-  (πηγαίνω/πάω, ακούω, λέω, κοιμάμαι, έρχομαι) from Klik A1 (pages 87-110).'
+title: 'Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)'
+description: 'CEFR A1: Travel and transportation vocabulary, accommodation and room
+  bookings, transit stations and infrastructure, vacation planning, cardinal numbers
+  100-1,000, and ordinal numbers 1st-10th from Klik A1 (Pages 111-134).'
 lesson_status: not_started
-lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 4: Από το πρωί μέχρι το βράδυ (Σελίδες\
-  \ 87-110):\n• Ελεύθερος Χρόνος & Δραστηριότητες (Leisure & Hobbies):\n  - μου αρέσει\
-  \ + ενικός / μου αρέσουν + πληθυντικός (π.χ. μου αρέσει η μουσική, μου αρέσουν τα\
-  \ μουσεία).\n  - Collocations: ακούω μουσική, παίζω ποδόσφαιρο, βλέπω αγώνες, διαβάζω\
-  \ βιβλία.\n• Χρονικοί Προσδιορισμοί & Καθημερινότητα (Time Frames & Routines):\n\
-  \  - το πρωί, το μεσημέρι, το απόγευμα, το βράδυ, το σαββατοκύριακο.\n  - Επιρρήματα\
-  \ συχνότητας: νωρίς ↔ αργά, πάντα ↔ ποτέ, κάθε μέρα.\n• Μήνες του Έτους & Καιρός\
-  \ (Months & Weather):\n  - Ιανουάριος, Φεβρουάριος, Μάρτιος, Απρίλιος, Μάιος, Ιούνιος,\
-  \ Ιούλιος, Αύγουστος, Σεπτέμβριος, Οκτώβριος, Νοέμβριος, Δεκέμβριος.\n  - Καιρικές\
-  \ εκφράσεις: Έχει καλό καιρό, Κάνει ζέστη / κρύο, βρέχει, χιονίζει.\n• Αριθμοί 11\
-  \ - 100 (Numbers 11-100):\n  - 11: έντεκα, 12: δώδεκα, 15: δεκαπέντε, 20: είκοσι,\
-  \ 30: τριάντα, 40: σαράντα, 50: πενήντα, 60: εξήντα, 70: εβδομήντα, 80: ογδόντα,\
-  \ 90: ενενήντα, 100: εκατό.\n• Έκφραση της Ώρας (Telling Time):\n  - Τι ώρα είναι;\
-  \ → Είναι επτά ακριβώς / οκτώ και τέταρτο / δύο και μισή / εννέα παρά τέταρτο.\n\
-  \  - Ρήματα λειτουργίας: ανοίγει ↔ κλείνει, αρχίζει ↔ τελειώνει.\n• Ανώμαλα & Μέσα\
-  \ Ρήματα (Irregular & Mediopassive Verbs):\n  - πηγαίνω / πάω (πάω, πας, πάει, πάμε,\
-  \ πάτε, πάνε)\n  - ακούω (ακούω, ακούς, ακούει, ακούμε, ακούτε, ακούνε)\n  - λέω\
-  \ (λέω, λες, λέει, λέμε, λέτε, λένε)\n  - κοιμάμαι (κοιμάμαι, κοιμάσαι, κοιμάται,\
-  \ κοιμόμαστε, κοιμάστε, κοιμούνται)\n  - έρχομαι (έρχομαι, έρχεσαι, έρχεται, ερχόμαστε,\
-  \ έρχεστε, έρχονται)\n  - ξεκουράζομαι (ξεκουράζομαι, ξεκουράζεσαι, ξεκουράζεται,\
-  \ ξεκουραζόμαστε)."
+lesson_notes: "Κλικ στα Ελληνικά Α1 — Ενότητα 5: Ετοιμάζω ταξίδι! (Σελίδες 111-134):\n\
+  • Ταξίδια & Διακοπές (Travel & Vacation Basics):\n  - το ταξίδι, οι διακοπές, η\
+  \ εκδρομή, το εισιτήριο, το ταξιδιωτικό γραφείο.\n  - Εξοπλισμός: η βαλίτσα, η φωτογραφική\
+  \ μηχανή, τα ρούχα.\n• Μεταφορικά Μέσα & Υποδομές (Transit & Infrastructure):\n\
+  \  - το αεροπλάνο, το πλοίο, το καράβι, το τρένο, το λεωφορείο, το ταξί, το μετρό.\n\
+  \  - το αεροδρόμιο, το λιμάνι, ο σταθμός, η στάση, η καθυστέρηση.\n• Διαμονή & Φιλοξενία\
+  \ (Accommodation & Hospitality):\n  - το ξενοδοχείο, το δωμάτιο, το μονόκλινο, το\
+  \ δίκλινο, το κάμπινγκ.\n  - το κρεβάτι (μονό / διπλό), το πρωινό, το μεσημεριανό,\
+  \ το βραδινό, η διαμονή, η διατροφή, η τιμή.\n• Γεωγραφικοί Προορισμοί (Destinations\
+  \ & Nature):\n  - το βουνό, η θάλασσα, το νησί, το χωριό, το εξωτερικό, το διαδίκτυο.\n\
+  • Βασικά Ρήματα Ενότητας 5 (Verbs):\n  - ταξιδεύω, ετοιμάζω, κλείνω, αποφασίζω,\
+  \ οργανώνω, ανεβαίνω, κατεβαίνω.\n• Επίθετα & Σύγκριση (Adjectives & Comparatives):\n\
+  \  - ακριβός, φθηνός, γρήγορος, αργός, τελευταίος.\n• Αριθμοί: Εκατοντάδες & Τακτικά\
+  \ (Hundreds & Ordinals):\n  - εκατό (100), διακόσια (200), πεντακόσια (500), χίλια\
+  \ (1.000).\n  - πρώτος, δεύτερος, τρίτος..."
 entries:
 - id: A1-U105-001
-  greek: ο ελεύθερος χρόνος
-  phonetic_hint: o eh-LEF-theh-ros KHROH-nos
-  english: free time / spare time / leisure time
-  notes: 'Klik A1 p. 87. Noun phrase. Often used in accusative: ''στον ελεύθερο χρόνο
-    μου''.'
-  gender_or_pos: noun phrase (masculine)
-  audio: o-eleytheros-chronos-fbdb07.mp3
-  status: verified
-  example_el: Τι κάνεις στον ελεύθερο χρόνο σου;
-  example_en: What do you do in your free time?
-  grammatical_info:
-    part_of_speech: noun phrase (masculine)
-    plural: οι ελεύθεροι χρόνοι
-    accusative_singular: τον ελεύθερο χρόνο
-  keg_communicative_function: Discussing hobbies and leisure time activities
-- id: A1-U105-002
-  greek: μου αρέσει
-  phonetic_hint: moo ah-REH-see
-  english: I like (singular subject)
-  notes: 'Klik A1 p. 89. Impersonal verb with weak indirect pronoun: ''μου αρέσει
-    η μουσική / το θέατρο''.'
-  gender_or_pos: phrase
-  audio: moy-aresei-c71e29.mp3
-  status: verified
-  example_el: Μου αρέσει πολύ η ελληνική μουσική.
-  example_en: I really like Greek music.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Expressing likes and personal preferences
-- id: A1-U105-003
-  greek: μου αρέσουν
-  phonetic_hint: moo ah-REH-soon
-  english: I like (plural subject)
-  notes: 'Klik A1 p. 89. Used before plural nouns: ''μου αρέσουν τα μουσεία / οι ταινίες''.'
-  gender_or_pos: phrase
-  audio: moy-aresoyn-d226e3.mp3
-  status: verified
-  example_el: Μου αρέσουν τα παλιά βιβλία και τα μουσεία.
-  example_en: I like old books and museums.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Expressing preferences for plural items
-- id: A1-U105-004
-  greek: ακούω μουσική
-  phonetic_hint: ah-KOO-o moo-see-KEE
-  english: to listen to music
-  notes: Klik A1 p. 89, 93. High-frequency collocated activity phrase.
-  gender_or_pos: phrase
-  audio: akoyo-moysiki-84aa65.mp3
-  status: verified
-  example_el: Κάθε απόγευμα χαλαρώνω και ακούω μουσική.
-  example_en: Every afternoon I relax and listen to music.
-  grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Describing relaxing leisure habits
-- id: A1-U105-005
-  greek: παίζω ποδόσφαιρο
-  phonetic_hint: PEH-zo poh-THOS-feh-ro
-  english: to play soccer / football
-  notes: Klik A1 p. 87, 89. Verb παίζω + sport noun.
-  gender_or_pos: phrase
-  audio: paizo-podosfairo-a961c6.mp3
-  status: verified
-  example_el: Τα παιδιά παίζουν ποδόσφαιρο στο γήπεδο.
-  example_en: The children play soccer on the field.
-  grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Discussing athletic sports and games
-- id: A1-U105-006
-  greek: ο αγώνας
-  phonetic_hint: o ah-GHOH-nahs
-  english: match / game / contest
-  notes: 'Klik A1 p. 89, 95. Masculine in -ας (plural: οι αγώνες): ο αγώνας μπάσκετ.'
-  gender_or_pos: noun (masculine)
-  audio: o-agonas-cb0b1c.mp3
-  status: verified
-  example_el: Απόψε βλέπουμε τον μεγάλο αγώνα στην τηλεόραση.
-  example_en: Tonight we are watching the big match on television.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι αγώνες
-    accusative_singular: τον αγώνα
-  keg_communicative_function: Talking about sports matches
-- id: A1-U105-007
-  greek: ο ηλεκτρονικός υπολογιστής
-  phonetic_hint: o ee-lek-troh-nee-KOS ee-poh-loh-yee-STEES
-  english: computer / electronic computer
-  notes: Klik A1 p. 87, 89, 95. Often shortened in conversation to 'ο υπολογιστής'.
-  gender_or_pos: noun phrase (masculine)
-  audio: o-ilektronikos-ypolo-e5702a.mp3
-  status: verified
-  example_el: Δουλεύω όλη μέρα στον ηλεκτρονικό υπολογιστή.
-  example_en: I work all day on the computer.
-  grammatical_info:
-    part_of_speech: noun phrase (masculine)
-    plural: οι ηλεκτρονικοί υπολογιστές
-    accusative_singular: τον ηλεκτρονικό υπολογιστή
-  keg_communicative_function: Referring to computer equipment and digital work
-- id: A1-U105-008
-  greek: το βιβλίο
-  phonetic_hint: to veev-LEE-o
-  english: book
-  notes: 'Klik A1 p. 87, 95. Neuter in -ίο (plural: τα βιβλία).'
+  greek: το ταξίδι
+  phonetic_hint: to tahk-SEE-thee
+  english: trip / journey / travel
+  notes: Klik A1 p. 111. Neuter noun in -ι with plural in -ια. Stress on penult.
   gender_or_pos: noun (neuter)
-  audio: to-vivlio-abc110.mp3
+  audio: to-taxidi-a1fbbd.mp3
   status: verified
-  example_el: Διαβάζω ένα πολύ ενδιαφέρον βιβλίο.
-  example_en: I am reading a very interesting book.
+  example_el: Θέλω να πάω ένα ωραίο ταξίδι στην Ελλάδα.
+  example_en: I want to go on a nice trip to Greece.
   grammatical_info:
     part_of_speech: noun (neuter)
-    plural: τα βιβλία
-    accusative_singular: το βιβλίο
-  keg_communicative_function: Talking about reading materials
-- id: A1-U105-009
-  greek: το πρωί
-  phonetic_hint: to proh-EE
-  english: in the morning / morning
-  notes: 'Klik A1 p. 87, 97. Temporal adverbial: ''το πρωί'' (in the morning).'
-  gender_or_pos: noun (neuter)
-  audio: to-proi-51be40.mp3
+    plural: τα ταξίδια
+    accusative_singular: το ταξίδι
+  keg_communicative_function: Naming travel and journeys
+- id: A1-U105-002
+  greek: οι διακοπές
+  phonetic_hint: ee thee-ah-ko-PES
+  english: vacation / holidays
+  notes: Klik A1 p. 113. Feminine noun used predominantly in plural (plurale tantum).
+  gender_or_pos: noun (feminine)
+  audio: oi-diakopes-000025.mp3
   status: verified
-  example_el: Το πρωί πίνω πάντα ζεστό καφέ.
-  example_en: In the morning I always drink hot coffee.
+  example_el: Σε μία εβδομάδα αρχίζουν οι καλοκαιρινές διακοπές μου.
+  example_en: In one week my summer vacation starts.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διακοπές
+    accusative_singular: τις διακοπές
+  keg_communicative_function: Discussing vacation and holiday plans
+- id: A1-U105-003
+  greek: η εκδρομή
+  phonetic_hint: ee ek-thro-MEE
+  english: excursion / day trip / outing
+  notes: Klik A1 p. 119. Feminine noun in -η with plural in -ες. Stress on ultima.
+  gender_or_pos: noun (feminine)
+  audio: i-ekdromi-21513c.mp3
+  status: verified
+  example_el: Η τετραήμερη εκδρομή στην Καστοριά κοστίζει διακόσια ευρώ.
+  example_en: The four-day excursion to Kastoria costs two hundred euros.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εκδρομές
+    accusative_singular: την εκδρομή
+  keg_communicative_function: Talking about excursions and organized tours
+- id: A1-U105-004
+  greek: το εισιτήριο
+  phonetic_hint: to ee-see-TEE-ree-o
+  english: ticket
+  notes: Klik A1 p. 111. Neuter noun in -ιο with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-eisitirio-667f52.mp3
+  status: verified
+  example_el: Πρέπει να αγοράσουμε τα εισιτήρια του πλοίου εγκαίρως.
+  example_en: We must buy the ferry tickets in good time.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα εισιτήρια
+    accusative_singular: το εισιτήριο
+  keg_communicative_function: Purchasing travel tickets
+- id: A1-U105-005
+  greek: το ταξιδιωτικό γραφείο
+  phonetic_hint: to tahk-see-thee-oh-tee-KO grah-FEE-o
+  english: travel agency
+  notes: Klik A1 p. 111, 120. Compound noun phrase with neuter adjective and noun.
+  gender_or_pos: noun phrase (neuter)
+  audio: to-taxidiotiko-grafe-a8566e.mp3
+  status: verified
+  example_el: Κλείνουμε τις διακοπές μας μέσω ενός ταξιδιωτικού γραφείου.
+  example_en: We book our vacation through a travel agency.
+  grammatical_info:
+    part_of_speech: noun phrase (neuter)
+    plural: τα ταξιδιωτικά γραφεία
+    accusative_singular: το ταξιδιωτικό γραφείο
+  keg_communicative_function: Identifying travel agencies and booking services
+- id: A1-U105-006
+  greek: η βαλίτσα
+  phonetic_hint: ee vah-LEET-sah
+  english: suitcase / luggage
+  notes: Klik A1 p. 111, 114, 118, 130. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-valitsa-96c34e.mp3
+  status: verified
+  example_el: Πρέπει να φτιάξω τη βαλίτσα μου για το ταξίδι.
+  example_en: I need to pack my suitcase for the trip.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βαλίτσες
+    accusative_singular: τη βαλίτσα
+  keg_communicative_function: Talking about packing luggage
+- id: A1-U105-007
+  greek: η φωτογραφική μηχανή
+  phonetic_hint: ee foh-toh-grah-fee-KEE mee-khah-NEE
+  english: camera / photographic camera
+  notes: 'Klik A1 p. 111, 127. Feminine noun phrase: επίθετο + ουσιαστικό.'
+  gender_or_pos: noun phrase (feminine)
+  audio: i-fotografiki-michan-cc48f2.mp3
+  status: verified
+  example_el: Παίρνω τη φωτογραφική μηχανή μου για να βγάλω φωτογραφίες.
+  example_en: I take my camera to take photos.
+  grammatical_info:
+    part_of_speech: noun phrase (feminine)
+    plural: οι φωτογραφικές μηχανές
+    accusative_singular: τη φωτογραφική μηχανή
+  keg_communicative_function: Naming photography equipment
+- id: A1-U105-008
+  greek: τα ρούχα
+  phonetic_hint: tah ROO-khah
+  english: clothes / clothing
+  notes: Klik A1 p. 127. Neuter noun used predominantly in plural.
+  gender_or_pos: noun (neuter)
+  audio: ta-roycha-69858e.mp3
+  status: verified
+  example_el: Βάζω ζεστά ρούχα στη βαλίτσα μου γιατί κάνει κρύο.
+  example_en: I pack warm clothes in my suitcase because it is cold.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρούχα
+    accusative_singular: τα ρούχα
+  keg_communicative_function: Packing clothing for travel
+- id: A1-U105-009
+  greek: το μεταφορικό μέσο
+  phonetic_hint: to meh-tah-fo-ree-KO MEH-so
+  english: means of transport
+  notes: 'Klik A1 p. 121. Neuter noun phrase: επίθετο + ουσιαστικό.'
+  gender_or_pos: noun phrase (neuter)
+  audio: to-metaforiko-meso-bb234a.mp3
+  status: verified
+  example_el: Το αεροπλάνο είναι το πιο γρήγορο μεταφορικό μέσο.
+  example_en: The airplane is the fastest means of transport.
+  grammatical_info:
+    part_of_speech: noun phrase (neuter)
+    plural: τα μεταφορικά μέσα
+    accusative_singular: το μεταφορικό μέσο
+  keg_communicative_function: Categorizing transportation methods
+- id: A1-U105-010
+  greek: το αεροπλάνο
+  phonetic_hint: to ah-eh-ro-PLAH-no
+  english: airplane / plane
+  notes: Klik A1 p. 113, 114, 121. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-aeroplano-ee1c24.mp3
+  status: verified
+  example_el: Ταξιδεύω για τη Ρόδο με το αεροπλάνο.
+  example_en: I am traveling to Rhodes by airplane.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αεροπλάνα
+    accusative_singular: το αεροπλάνο
+  keg_communicative_function: Specifying air transportation
+- id: A1-U105-011
+  greek: το πλοίο
+  phonetic_hint: to PLEE-o
+  english: ship / boat / ferry
+  notes: Klik A1 p. 113, 124, 131. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-ploio-c2a3ee.mp3
+  status: verified
+  example_el: Το πλοίο για τη Μήλο φεύγει στις επτά το πρωί.
+  example_en: The ferry to Milos departs at seven in the morning.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πλοία
+    accusative_singular: το πλοίο
+  keg_communicative_function: Specifying maritime transit
+- id: A1-U105-012
+  greek: το καράβι
+  phonetic_hint: to kah-RAH-vee
+  english: ship / vessel / boat
+  notes: Klik A1 p. 131. Common colloquial neuter noun in -ι for sea vessels.
+  gender_or_pos: noun (neuter)
+  audio: to-karavi-2dd1d2.mp3
+  status: verified
+  example_el: Πάρε πλοίο και καράβι και επισκέψου όλα τα νησιά.
+  example_en: Take a boat and a ship and visit all the islands.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καράβια
+    accusative_singular: το καράβι
+  keg_communicative_function: Naming maritime vessels
+- id: A1-U105-013
+  greek: το τρένο
+  phonetic_hint: to TREH-no
+  english: train
+  notes: Klik A1 p. 113, 121. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-treno-c58be7.mp3
+  status: verified
+  example_el: Το ταξίδι με το τρένο είναι άνετο και οικονομικό.
+  example_en: The trip by train is comfortable and economical.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τρένα
+    accusative_singular: το τρένο
+  keg_communicative_function: Specifying rail transportation
+- id: A1-U105-014
+  greek: το λεωφορείο
+  phonetic_hint: to leh-o-fo-REE-o
+  english: bus
+  notes: Klik A1 p. 120-125. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-leoforeio-9dcf03.mp3
+  status: verified
+  example_el: Ποιο λεωφορείο πηγαίνει στην πλατεία Αριστοτέλους;
+  example_en: Which bus goes to Aristotelous Square?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λεωφορεία
+    accusative_singular: το λεωφορείο
+  keg_communicative_function: Navigating urban and regional bus transit
+- id: A1-U105-015
+  greek: το ταξί
+  phonetic_hint: to tahk-SEE
+  english: taxi / cab
+  notes: Klik A1 p. 113. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-taxi-ac62a9.mp3
+  status: verified
+  example_el: Παίρνω ένα ταξί για να πάω γρήγορα στον σταθμό.
+  example_en: I take a taxi to get to the station quickly.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταξί
+    accusative_singular: το ταξί
+  keg_communicative_function: Using taxi transport
+- id: A1-U105-016
+  greek: το μετρό
+  phonetic_hint: to meh-TRO
+  english: metro / subway
+  notes: Klik A1 p. 120, 121. Indeclinable neuter noun with stress on ultima.
+  gender_or_pos: noun (neuter)
+  audio: to-metro-181f50.mp3
+  status: verified
+  example_el: Στην Αθήνα μετακινούμαι κυρίως με το μετρό.
+  example_en: In Athens I commute mainly by metro.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μετρό
+    accusative_singular: το μετρό
+  keg_communicative_function: Navigating underground public transit
+- id: A1-U105-017
+  greek: το αεροδρόμιο
+  phonetic_hint: to ah-eh-ro-THRO-mee-o
+  english: airport
+  notes: 'Klik A1 p. 122, 125. Neuter compound noun: αέρας + δρόμος.'
+  gender_or_pos: noun (neuter)
+  audio: to-aerodromio-c8faeb.mp3
+  status: verified
+  example_el: Το λεωφορείο εβδομήντα δύο πηγαίνει κατευθείαν στο αεροδρόμιο.
+  example_en: Bus seventy-two goes directly to the airport.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αεροδρόμια
+    accusative_singular: το αεροδρόμιο
+  keg_communicative_function: Locating airport infrastructure
+- id: A1-U105-018
+  greek: το λιμάνι
+  phonetic_hint: to lee-MAH-nee
+  english: port / harbor
+  notes: Klik A1 p. 124, 131. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-limani-847c04.mp3
+  status: verified
+  example_el: Όταν φτάσεις στο λιμάνι του Πειραιά, πάρε με τηλέφωνο.
+  example_en: When you arrive at the port of Piraeus, call me.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λιμάνια
+    accusative_singular: το λιμάνι
+  keg_communicative_function: Locating marine ports
+- id: A1-U105-019
+  greek: ο σταθμός
+  phonetic_hint: o stahth-MOS
+  english: station / terminal
+  notes: Klik A1 p. 122, 125. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-stathmos-b0a9a8.mp3
+  status: verified
+  example_el: Ο σιδηροδρομικός σταθμός είναι κοντά στο κέντρο της πόλης.
+  example_en: The railway station is near the city center.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι σταθμοί
+    accusative_singular: τον σταθμό
+  keg_communicative_function: Identifying transit stations
+- id: A1-U105-020
+  greek: η στάση
+  phonetic_hint: ee STAH-see
+  english: bus stop / transit stop
+  notes: Klik A1 p. 121, 122, 125. Feminine noun in -ση with plural in -σεις.
+  gender_or_pos: noun (feminine)
+  audio: i-stasi-cea227.mp3
+  status: verified
+  example_el: Κατεβαίνεις στην επόμενη στάση του λεωφορείου.
+  example_en: You get off at the next bus stop.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι στάσεις
+    accusative_singular: τη στάση
+  keg_communicative_function: Asking for and identifying bus stops
+- id: A1-U105-021
+  greek: η καθυστέρηση
+  phonetic_hint: ee kah-thee-STEH-ree-see
+  english: delay
+  notes: Klik A1 p. 124. Feminine abstract noun in -ση.
+  gender_or_pos: noun (feminine)
+  audio: i-kathysterisi-d56d3f.mp3
+  status: verified
+  example_el: Η πτήση για τη Ρώμη έχει μία ώρα καθυστέρηση.
+  example_en: The flight to Rome has a one-hour delay.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καθυστερήσεις
+    accusative_singular: την καθυστέρηση
+  keg_communicative_function: Inquiring about travel delays
+- id: A1-U105-022
+  greek: το ξενοδοχείο
+  phonetic_hint: to kseh-no-tho-KHEE-o
+  english: hotel
+  notes: Klik A1 p. 111-115, 121. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-xenodocheio-2248f1.mp3
+  status: verified
+  example_el: Μένουμε σε ένα πολύ ωραίο ξενοδοχείο δίπλα στη θάλασσα.
+  example_en: We are staying at a very nice hotel next to the sea.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ξενοδοχεία
+    accusative_singular: το ξενοδοχείο
+  keg_communicative_function: Booking and discussing hotel accommodation
+- id: A1-U105-023
+  greek: το δωμάτιο
+  phonetic_hint: to tho-MAH-tee-o
+  english: room
+  notes: Klik A1 p. 112, 113, 121. Neuter noun in -ιο with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-domatio-f088e7.mp3
+  status: verified
+  example_el: Ψάχνω ένα καθαρό και ήσυχο δωμάτιο με θέα.
+  example_en: I am looking for a clean and quiet room with a view.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δωμάτια
+    accusative_singular: το δωμάτιο
+  keg_communicative_function: Requesting hotel rooms
+- id: A1-U105-024
+  greek: το μονόκλινο
+  phonetic_hint: to mo-NO-klee-no
+  english: single room
+  notes: 'Klik A1 p. 121. Neuter noun in -ο (from μονόκλινο δωμάτιο). Plural: τα μονόκλινα.'
+  gender_or_pos: noun (neuter)
+  audio: to-monoklino-45b330.mp3
+  status: verified
+  example_el: Θέλω να κλείσω ένα μονόκλινο για δύο βράδια.
+  example_en: I want to book a single room for two nights.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μονόκλινα
+    accusative_singular: το μονόκλινο
+  keg_communicative_function: Reserving single room accommodation
+- id: A1-U105-025
+  greek: το δίκλινο
+  phonetic_hint: to THEE-klee-no
+  english: double room
+  notes: 'Klik A1 p. 121. Neuter noun in -ο (from δίκλινο δωμάτιο). Plural: τα δίκλινα.'
+  gender_or_pos: noun (neuter)
+  audio: to-diklino-d8e08a.mp3
+  status: verified
+  example_el: Πόσο κοστίζει το δίκλινο δωμάτιο με πρωινό;
+  example_en: How much does the double room with breakfast cost?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δίκλινα
+    accusative_singular: το δίκλινο
+  keg_communicative_function: Reserving double room accommodation
+- id: A1-U105-026
+  greek: το κάμπινγκ
+  phonetic_hint: to KAHM-peeng
+  english: camping / campsite
+  notes: Klik A1 p. 113. Indeclinable neuter loan noun.
+  gender_or_pos: noun (neuter)
+  audio: to-kampingk-aab6f8.mp3
+  status: verified
+  example_el: Το καλοκαίρι προτιμώ να μένω σε κάμπινγκ στο νησί.
+  example_en: In the summer I prefer staying at a campsite on the island.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κάμπινγκ
+    accusative_singular: το κάμπινγκ
+  keg_communicative_function: Specifying outdoor accommodation
+- id: A1-U105-027
+  greek: το μονό κρεβάτι
+  phonetic_hint: to mo-NO kreh-VAH-tee
+  english: single bed
+  notes: 'Klik A1 p. 121, 122. Neuter noun phrase: επίθετο + ουσιαστικό.'
+  gender_or_pos: noun phrase (neuter)
+  audio: to-mono-krevati-364b39.mp3
+  status: verified
+  example_el: Το μονόκλινο δωμάτιο διαθέτει ένα μονό κρεβάτι.
+  example_en: The single room features a single bed.
+  grammatical_info:
+    part_of_speech: noun phrase (neuter)
+    plural: τα μονά κρεβάτια
+    accusative_singular: το μονό κρεβάτι
+  keg_communicative_function: Describing bed types in rooms
+- id: A1-U105-028
+  greek: το διπλό κρεβάτι
+  phonetic_hint: to thee-PLO kreh-VAH-tee
+  english: double bed
+  notes: 'Klik A1 p. 121, 122. Neuter noun phrase: επίθετο + ουσιαστικό.'
+  gender_or_pos: noun phrase (neuter)
+  audio: to-diplo-krevati-c826e6.mp3
+  status: verified
+  example_el: Το δωμάτιο έχει ένα άνετο διπλό κρεβάτι.
+  example_en: The room has a comfortable double bed.
+  grammatical_info:
+    part_of_speech: noun phrase (neuter)
+    plural: τα διπλά κρεβάτια
+    accusative_singular: το διπλό κρεβάτι
+  keg_communicative_function: Describing double bed configurations
+- id: A1-U105-029
+  greek: το πρωινό
+  phonetic_hint: to pro-ee-NO
+  english: breakfast
+  notes: 'Klik A1 p. 113, 121, 123. Neuter noun (from πρωινό γεύμα). Plural: τα πρωινά.'
+  gender_or_pos: noun (neuter)
+  audio: to-proino-6a2fed.mp3
+  status: verified
+  example_el: Σερβίρουν πρωινό από τις επτά μέχρι τις δέκα το πρωί.
+  example_en: They serve breakfast from seven to ten in the morning.
   grammatical_info:
     part_of_speech: noun (neuter)
     plural: τα πρωινά
-    accusative_singular: το πρωί
-  keg_communicative_function: Specifying morning time frame
-- id: A1-U105-010
-  greek: το μεσημέρι
-  phonetic_hint: to meh-see-MEH-ree
-  english: at noon / midday / lunchtime
-  notes: Klik A1 p. 97, 99. Period from around 12:00 to 15:00 in Greece.
-  gender_or_pos: noun (neuter)
-  audio: to-mesimeri-71fa69.mp3
-  status: verified
-  example_el: Το μεσημέρι τρώμε με την οικογένεια στο σπίτι.
-  example_en: At noon we eat with the family at home.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα μεσημέρια
-    accusative_singular: το μεσημέρι
-  keg_communicative_function: Specifying midday schedule
-- id: A1-U105-011
-  greek: το απόγευμα
-  phonetic_hint: to ah-POH-yev-mah
-  english: in the afternoon / afternoon
-  notes: Klik A1 p. 97, 99. Period from 16:00 to dusk (around 20:00).
-  gender_or_pos: noun (neuter)
-  audio: to-apogeyma-243af9.mp3
-  status: verified
-  example_el: Το απόγευμα πάμε μια βόλτα στην παραλία.
-  example_en: In the afternoon we go for a walk on the beach.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα απογεύματα
-    accusative_singular: το απόγευμα
-  keg_communicative_function: Specifying afternoon schedule
-- id: A1-U105-012
-  greek: το βράδυ
-  phonetic_hint: to VRAH-thee
-  english: in the evening / at night
-  notes: Klik A1 p. 87, 97. Neuter noun used adverbially.
-  gender_or_pos: noun (neuter)
-  audio: to-vrady-087ef0.mp3
-  status: verified
-  example_el: Το βράδυ βλέπουμε μια ταινία στον κινηματογράφο.
-  example_en: At night we watch a movie at the cinema.
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα βράδια
-    accusative_singular: το βράδυ
-  keg_communicative_function: Specifying evening schedule
-- id: A1-U105-013
-  greek: νωρίς
-  phonetic_hint: noh-REES
-  english: early
-  notes: 'Klik A1 p. 98, 101. Adverb of time. Opposite: αργά.'
-  gender_or_pos: adverb
-  audio: noris-7071c5.mp3
-  status: verified
-  example_el: Ξυπνάω πολύ νωρίς τις καθημερινές.
-  example_en: I wake up very early on weekdays.
-  grammatical_info:
-    part_of_speech: adverb of time
-  keg_communicative_function: Indicating earliness in daily habits
-- id: A1-U105-014
-  greek: αργά
-  phonetic_hint: ahr-YAH
-  english: late
-  notes: 'Klik A1 p. 98, 108. Adverb of time. Opposite: νωρίς.'
-  gender_or_pos: adverb
-  audio: arga-d7484e.mp3
-  status: verified
-  example_el: Κοιμάμαι αργά το Σαββατοκύριακο.
-  example_en: I sleep late on the weekend.
-  grammatical_info:
-    part_of_speech: adverb of time
-  keg_communicative_function: Indicating lateness in daily routine
-- id: A1-U105-015
-  greek: πάντα
-  phonetic_hint: PAHN-dah
-  english: always
-  notes: 'Klik A1 p. 98, 108. Frequency adverb. Opposite: ποτέ.'
-  gender_or_pos: adverb
-  audio: panta-7368c4.mp3
-  status: verified
-  example_el: Τρώω πάντα πρωινό πριν από τη δουλειά.
-  example_en: I always eat breakfast before work.
-  grammatical_info:
-    part_of_speech: frequency adverb
-  keg_communicative_function: Expressing constant habits
-- id: A1-U105-016
-  greek: ποτέ
-  phonetic_hint: poh-TEH
-  english: never / ever
-  notes: 'Klik A1 p. 98, 108. Used with δεν for negation: ''δεν πίνω ποτέ καφέ''.'
-  gender_or_pos: adverb
-  audio: pote-d728cb.mp3
-  status: verified
-  example_el: Δεν πίνω ποτέ καφέ αργά το βράδυ.
-  example_en: I never drink coffee late at night.
-  grammatical_info:
-    part_of_speech: frequency adverb
-  keg_communicative_function: Expressing absence of habit
-- id: A1-U105-017
-  greek: κάθε μέρα
-  phonetic_hint: KAH-theh MEH-rah
-  english: every day / daily
-  notes: Klik A1 p. 88, 98. Indefinite pronoun κάθε + accusative noun μέρα.
-  gender_or_pos: phrase
-  audio: kathe-mera-e1cd7e.mp3
-  status: verified
-  example_el: Κάνω γυμναστική κάθε μέρα για μισή ώρα.
-  example_en: I exercise every day for half an hour.
-  grammatical_info:
-    part_of_speech: adverbial phrase
-  keg_communicative_function: Describing regular daily routines
-- id: A1-U105-018
-  greek: το σαββατοκύριακο
-  phonetic_hint: to sah-vah-toh-KEE-ree-ah-koh
-  english: the weekend
-  notes: 'Klik A1 p. 110. Compound neuter noun: Σάββατο + Κυριακή (plural: τα σαββατοκύριακα).'
-  gender_or_pos: noun (neuter)
-  audio: to-savvatokyriako-022b49.mp3
-  status: verified
-  example_el: Τι θα κάνεις το σαββατοκύριακο;
-  example_en: What will you do over the weekend?
-  grammatical_info:
-    part_of_speech: noun (neuter)
-    plural: τα σαββατοκύριακα
-    accusative_singular: το σαββατοκύριακο
-  keg_communicative_function: Talking about weekend plans
-- id: A1-U105-019
-  greek: ο Ιανουάριος
-  phonetic_hint: o ee-ah-noo-AH-ree-os
-  english: January
-  notes: Klik A1 p. 90. 1st month. Also colloquially 'ο Γενάρης'.
-  gender_or_pos: noun (masculine)
-  audio: o-ianoyarios-81fd9d.mp3
-  status: verified
-  example_el: Ο Ιανουάριος είναι ο πρώτος μήνας του χρόνου.
-  example_en: January is the first month of the year.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Ιανουάριοι
-    accusative_singular: τον Ιανουάριο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-020
-  greek: ο Φεβρουάριος
-  phonetic_hint: o fev-roo-AH-ree-os
-  english: February
-  notes: Klik A1 p. 90. 2nd month. Also colloquially 'ο Φλεβάρης'.
-  gender_or_pos: noun (masculine)
-  audio: o-fevroyarios-1e24ae.mp3
-  status: verified
-  example_el: Τον Φεβρουάριο κάνει πολύ κρύο και συχνά χιονίζει.
-  example_en: In February it is very cold and often snows.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Φεβρουάριοι
-    accusative_singular: τον Φεβρουάριο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-021
-  greek: ο Μάρτιος
-  phonetic_hint: o MAHR-tee-os
-  english: March
-  notes: Klik A1 p. 90. 3rd month; start of spring. Also 'ο Μάρτης'.
-  gender_or_pos: noun (masculine)
-  audio: o-martios-76f471.mp3
-  status: verified
-  example_el: Ο Μάρτιος φέρνει την άνοιξη.
-  example_en: March brings the spring.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Μάρτιοι
-    accusative_singular: τον Μάρτιο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-022
-  greek: ο Απρίλιος
-  phonetic_hint: o ah-PREE-lee-os
-  english: April
-  notes: Klik A1 p. 90, 91. 4th month. Greek Easter month. Also 'ο Απρίλης'.
-  gender_or_pos: noun (masculine)
-  audio: o-aprilios-c020b6.mp3
-  status: verified
-  example_el: Τον Απρίλιο γιορτάζουμε το Πάσχα στην Ελλάδα.
-  example_en: In April we celebrate Easter in Greece.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Απρίλιοι
-    accusative_singular: τον Απρίλιο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-023
-  greek: ο Μάιος
-  phonetic_hint: o MAH-ee-os
-  english: May
-  notes: Klik A1 p. 90. 5th month. Also 'ο Μάης'. Diaeresis on ϊ if written unaccented.
-  gender_or_pos: noun (masculine)
-  audio: o-maios-c7c917.mp3
-  status: verified
-  example_el: Τον Μάιο ο καιρός είναι ζεστός και ανθίζουν τα λουλούδια.
-  example_en: In May the weather is warm and flowers bloom.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Μάιοι
-    accusative_singular: τον Μάιο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-024
-  greek: ο Ιούνιος
-  phonetic_hint: o ee-OO-nee-os
-  english: June
-  notes: Klik A1 p. 90. 6th month; start of summer. Also 'ο Ιούνης'.
-  gender_or_pos: noun (masculine)
-  audio: o-ioynios-4b9879.mp3
-  status: verified
-  example_el: Τον Ιούνιο κλείνουν τα σχολεία για καλοκαίρι.
-  example_en: In June schools close for summer.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Ιούνιοι
-    accusative_singular: τον Ιούνιο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-025
-  greek: ο Ιούλιος
-  phonetic_hint: o ee-OO-lee-os
-  english: July
-  notes: Klik A1 p. 90. 7th month. Peak holiday period. Also 'ο Ιούλης'.
-  gender_or_pos: noun (masculine)
-  audio: o-ioylios-7ff93a.mp3
-  status: verified
-  example_el: Τον Ιούλιο πάμε διακοπές στα νησιά.
-  example_en: In July we go on holiday to the islands.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Ιούλιοι
-    accusative_singular: τον Ιούλιο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-026
-  greek: ο Αύγουστος
-  phonetic_hint: o AHV-yoos-tos
-  english: August
-  notes: Klik A1 p. 90. 8th month. Diphthong αυ pronounced [av]. Also 'ο Αύγουστος'.
-  gender_or_pos: noun (masculine)
-  audio: o-aygoystos-9a6b63.mp3
-  status: verified
-  example_el: Τον Αύγουστο όλοι κάνουν μπάνιο στη θάλασσα.
-  example_en: In August everyone swims in the sea.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Αύγουστοι
-    accusative_singular: τον Αύγουστο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-027
-  greek: ο Σεπτέμβριος
-  phonetic_hint: o sep-TEM-vree-os
-  english: September
-  notes: Klik A1 p. 90. 9th month; start of autumn and new school year. Also 'ο Σεπτέμβρης'.
-  gender_or_pos: noun (masculine)
-  audio: o-septemvrios-a40772.mp3
-  status: verified
-  example_el: Τον Σεπτέμβριο αρχίζει το νέο σχολικό έτος.
-  example_en: In September the new school year begins.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Σεπτέμβριοι
-    accusative_singular: τον Σεπτέμβριο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-028
-  greek: ο Οκτώβριος
-  phonetic_hint: o ok-TOH-vree-os
-  english: October
-  notes: Klik A1 p. 90. 10th month. Also 'ο Οκτώβρης'. National holiday on Oct 28th.
-  gender_or_pos: noun (masculine)
-  audio: o-oktovrios-98a9f7.mp3
-  status: verified
-  example_el: Τον Οκτώβριο τα φύλλα των δέντρων κιτρινίζουν.
-  example_en: In October the tree leaves turn yellow.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Οκτώβριοι
-    accusative_singular: τον Οκτώβριο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-029
-  greek: ο Νοέμβριος
-  phonetic_hint: o noh-EM-vree-os
-  english: November
-  notes: Klik A1 p. 90. 11th month. Also 'ο Νοέμβρης'.
-  gender_or_pos: noun (masculine)
-  audio: o-noemvrios-9e37eb.mp3
-  status: verified
-  example_el: Τον Νοέμβριο αρχίζουν τα πρώτα κρύα του χειμώνα.
-  example_en: In November the first cold of winter begins.
-  grammatical_info:
-    part_of_speech: noun (masculine)
-    plural: οι Νοέμβριοι
-    accusative_singular: τον Νοέμβριο
-  keg_communicative_function: Naming calendar months
+    accusative_singular: το πρωινό
+  keg_communicative_function: Inquiring about hotel breakfast service
 - id: A1-U105-030
-  greek: ο Δεκέμβριος
-  phonetic_hint: o theh-KEM-vree-os
-  english: December
-  notes: Klik A1 p. 90. 12th month; Christmas month. Also 'ο Δεκέμβρης'.
-  gender_or_pos: noun (masculine)
-  audio: o-dekemvrios-33983b.mp3
+  greek: το μεσημεριανό
+  phonetic_hint: to meh-see-meh-ree-ah-NO
+  english: lunch
+  notes: 'Klik A1 p. 113, 123. Neuter noun. Plural: τα μεσημεριανά.'
+  gender_or_pos: noun (neuter)
+  audio: to-mesimeriano-cba8f4.mp3
   status: verified
-  example_el: Τον Δεκέμβριο γιορτάζουμε τα Χριστούγεννα.
-  example_en: In December we celebrate Christmas.
+  example_el: Τρώμε μεσημεριανό σε μια παραθαλάσσια ταβέρνα.
+  example_en: We eat lunch at a seaside tavern.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μεσημεριανά
+    accusative_singular: το μεσημεριανό
+  keg_communicative_function: Talking about lunchtime dining
+- id: A1-U105-031
+  greek: το βραδινό
+  phonetic_hint: to vrah-thee-NO
+  english: dinner / supper
+  notes: 'Klik A1 p. 113, 123. Neuter noun. Plural: τα βραδινά.'
+  gender_or_pos: noun (neuter)
+  audio: to-vradino-99df55.mp3
+  status: verified
+  example_el: Το βραδινό στο ξενοδοχείο αρχίζει στις οκτώ.
+  example_en: Dinner at the hotel starts at eight.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βραδινά
+    accusative_singular: το βραδινό
+  keg_communicative_function: Talking about evening dining
+- id: A1-U105-032
+  greek: η διαμονή
+  phonetic_hint: ee thee-ah-mo-NEE
+  english: stay / accommodation
+  notes: Klik A1 p. 113, 132. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-diamoni-56c5f1.mp3
+  status: verified
+  example_el: Η διαμονή μας στην Αθήνα ήταν εξαιρετική.
+  example_en: Our stay in Athens was excellent.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διαμονές
+    accusative_singular: τη διαμονή
+  keg_communicative_function: Describing accommodation experiences
+- id: A1-U105-033
+  greek: η διατροφή
+  phonetic_hint: ee thee-ah-tro-FEE
+  english: board / meals / nutrition
+  notes: Klik A1 p. 113. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-diatrofi-23d037.mp3
+  status: verified
+  example_el: Το πακέτο της εκδρομής περιλαμβάνει διαμονή και διατροφή.
+  example_en: The tour package includes accommodation and meals.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διατροφές
+    accusative_singular: τη διατροφή
+  keg_communicative_function: Specifying meal arrangements in tour packages
+- id: A1-U105-034
+  greek: η τιμή
+  phonetic_hint: ee tee-MEE
+  english: price / rate
+  notes: Klik A1 p. 112, 123. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-timi-c23e55.mp3
+  status: verified
+  example_el: Ρωτάω στο τουριστικό γραφείο για τις τιμές των εισιτηρίων.
+  example_en: I ask at the tourist office about ticket prices.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τιμές
+    accusative_singular: την τιμή
+  keg_communicative_function: Asking about prices and rates
+- id: A1-U105-035
+  greek: το βουνό
+  phonetic_hint: to voo-NO
+  english: mountain
+  notes: Klik A1 p. 111, 113. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-voyno-bdef81.mp3
+  status: verified
+  example_el: Τον χειμώνα προτιμάμε διακοπές στο βουνό για σκι.
+  example_en: In winter we prefer mountain vacations for skiing.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βουνά
+    accusative_singular: το βουνό
+  keg_communicative_function: Talking about mountain destinations
+- id: A1-U105-036
+  greek: η θάλασσα
+  phonetic_hint: ee THAH-lah-sah
+  english: sea
+  notes: Klik A1 p. 111, 113, 131. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-thalassa-4f3dcd.mp3
+  status: verified
+  example_el: Το καλοκαίρι κολυμπάμε κάθε μέρα στη θάλασσα.
+  example_en: In the summer we swim every day in the sea.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θάλασσες
+    accusative_singular: τη θάλασσα
+  keg_communicative_function: Talking about seaside destinations
+- id: A1-U105-037
+  greek: το νησί
+  phonetic_hint: to nee-SEE
+  english: island
+  notes: Klik A1 p. 131. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-nisi-52295e.mp3
+  status: verified
+  example_el: Η Σαντορίνη είναι ένα από τα πιο όμορφα νησιά της Ελλάδας.
+  example_en: Santorini is one of the most beautiful islands of Greece.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νησιά
+    accusative_singular: το νησί
+  keg_communicative_function: Describing island destinations
+- id: A1-U105-038
+  greek: το χωριό
+  phonetic_hint: to kho-ree-O
+  english: village
+  notes: Klik A1 p. 127. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-chorio-ef5297.mp3
+  status: verified
+  example_el: Μένουμε σε ένα γραφικό χωριό στο Πήλιο.
+  example_en: We stay in a picturesque village in Pelion.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χωριά
+    accusative_singular: το χωριό
+  keg_communicative_function: Describing rural and village travel
+- id: A1-U105-039
+  greek: το εξωτερικό
+  phonetic_hint: to ehk-so-teh-ree-KO
+  english: abroad / foreign countries
+  notes: Klik A1 p. 113, 115, 118. Neuter noun (singular usually with definite article).
+  gender_or_pos: noun (neuter)
+  audio: to-exoteriko-8224ab.mp3
+  status: verified
+  example_el: Θέλει να σπουδάσει και να ταξιδέψει στο εξωτερικό.
+  example_en: He wants to study and travel abroad.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα εξωτερικά
+    accusative_singular: το εξωτερικό
+  keg_communicative_function: Talking about international travel
+- id: A1-U105-040
+  greek: το διαδίκτυο
+  phonetic_hint: to thee-ah-THEEK-tee-o
+  english: internet
+  notes: 'Klik A1 p. 111, 116. Neuter compound noun: διά + δίκτυο.'
+  gender_or_pos: noun (neuter)
+  audio: to-diadiktyo-d31213.mp3
+  status: verified
+  example_el: Κλείνω τα εισιτήρια και τα δωμάτια μέσω διαδικτύου.
+  example_en: I book tickets and rooms via the internet.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα διαδίκτυα
+    accusative_singular: το διαδίκτυο
+  keg_communicative_function: Discussing online bookings and digital resources
+- id: A1-U105-041
+  greek: η βόλτα
+  phonetic_hint: ee VOL-tah
+  english: walk / stroll / outing
+  notes: Klik A1 p. 123. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-volta-3578d3.mp3
+  status: verified
+  example_el: Το απόγευμα κάνουμε μια βόλτα στην παλιά πόλη.
+  example_en: In the afternoon we take a stroll in the old town.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βόλτες
+    accusative_singular: τη βόλτα
+  keg_communicative_function: Describing sightseeing walks and outings
+- id: A1-U105-042
+  greek: η ξεκούραση
+  phonetic_hint: ee kseh-KOO-rah-see
+  english: rest / relaxation
+  notes: Klik A1 p. 123. Feminine noun in -ση with plural in -σεις.
+  gender_or_pos: noun (feminine)
+  audio: i-xekoyrasi-44b1d7.mp3
+  status: verified
+  example_el: Χρειαζόμαστε λίγη ξεκούραση μετά από το πολύωρο ταξίδι.
+  example_en: We need some rest after the long journey.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ξεκουράσεις
+    accusative_singular: την ξεκούραση
+  keg_communicative_function: Talking about rest and leisure
+- id: A1-U105-043
+  greek: το πρόγραμμα
+  phonetic_hint: to PRO-grah-mah
+  english: schedule / itinerary / program
+  notes: Klik A1 p. 123. Neuter noun in -μα with plural in -ματα.
+  gender_or_pos: noun (neuter)
+  audio: to-programma-3710e8.mp3
+  status: verified
+  example_el: Διαβάζουμε το ημερήσιο πρόγραμμα της εκδρομής.
+  example_en: We read the daily program of the excursion.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα προγράμματα
+    accusative_singular: το πρόγραμμα
+  keg_communicative_function: Following a tour itinerary
+- id: A1-U105-044
+  greek: η πληροφορία
+  phonetic_hint: ee plee-ro-fo-REE-ah
+  english: information / info
+  notes: 'Klik A1 p. 123, 131. Feminine noun in -α; often used in plural: οι πληροφορίες.'
+  gender_or_pos: noun (feminine)
+  audio: i-pliroforia-7f99c6.mp3
+  status: verified
+  example_el: Ζητάω πληροφορίες για τα δρομολόγια των λεωφορείων.
+  example_en: I ask for information regarding bus timetables.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πληροφορίες
+    accusative_singular: την πληροφορία
+  keg_communicative_function: Requesting travel information
+- id: A1-U105-045
+  greek: ο διαγωνισμός
+  phonetic_hint: o thee-ah-go-nees-MOS
+  english: contest / competition / lottery
+  notes: Klik A1 p. 127. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-diagonismos-76ff84.mp3
+  status: verified
+  example_el: Στον διαγωνισμό κερδίζεις ένα ταξίδι για δύο άτομα.
+  example_en: In the contest you win a trip for two people.
   grammatical_info:
     part_of_speech: noun (masculine)
-    plural: οι Δεκέμβριοι
-    accusative_singular: τον Δεκέμβριο
-  keg_communicative_function: Naming calendar months
-- id: A1-U105-031
-  greek: Τι καιρό κάνει σήμερα;
-  phonetic_hint: tee keh-ROH KAH-nee SEE-meh-rah
-  english: What is the weather like today?
-  notes: Klik A1 p. 90. Fixed meteorological idiom with verb κάνει.
-  gender_or_pos: phrase
-  audio: ti-kairo-kanei-simer-1bc624.mp3
-  status: verified
-  example_el: — Τι καιρό κάνει σήμερα; — Έχει πολύ καλό καιρό.
-  example_en: — What is the weather like today? — The weather is very nice.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Inquiring about current weather
-- id: A1-U105-032
-  greek: Έχει καλό καιρό.
-  phonetic_hint: EH-khee kah-LOH keh-ROH
-  english: The weather is nice / It is fine weather.
-  notes: 'Klik A1 p. 90. Impersonal expression: έχει καλό καιρό.'
-  gender_or_pos: phrase
-  audio: echei-kalo-kairo-b91739.mp3
-  status: verified
-  example_el: Σήμερα έχει καλό καιρό και πάμε βόλτα.
-  example_en: Today the weather is nice and we are going for a walk.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Describing pleasant weather
-- id: A1-U105-033
-  greek: Κάνει ζέστη.
-  phonetic_hint: KAH-nee ZES-tee
-  english: It is hot / warm.
-  notes: 'Klik A1 p. 90. Idiom: κάνει ζέστη. Opposite: κάνει κρύο.'
-  gender_or_pos: phrase
-  audio: kanei-zesti-287a0e.mp3
-  status: verified
-  example_el: Το καλοκαίρι στην Αθήνα κάνει πολλή ζέστη.
-  example_en: In summer it is very hot in Athens.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Describing high temperature
-- id: A1-U105-034
-  greek: Κάνει κρύο.
-  phonetic_hint: KAH-nee KREE-o
-  english: It is cold.
-  notes: 'Klik A1 p. 90. Idiom: κάνει κρύο.'
-  gender_or_pos: phrase
-  audio: kanei-kryo-215766.mp3
-  status: verified
-  example_el: Τον χειμώνα στα βουνά κάνει πολύ κρύο.
-  example_en: In winter it is very cold in the mountains.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Describing cold conditions
-- id: A1-U105-035
-  greek: βρέχει
-  phonetic_hint: VREH-khee
-  english: it is raining / it rains
-  notes: Klik A1 p. 90. Impersonal weather verb.
-  gender_or_pos: verb
-  audio: vrechei-406c0c.mp3
-  status: verified
-  example_el: Πάρε την ομπρέλα σου γιατί έξω βρέχει.
-  example_en: Take your umbrella because it is raining outside.
-  grammatical_info:
-    part_of_speech: impersonal verb
-    verb_type: impersonal
-    third_person_singular: βρέχει
-    first_person_plural: '-'
-  keg_communicative_function: Describing rainy weather
-- id: A1-U105-036
-  greek: χιονίζει
-  phonetic_hint: khyoh-NEE-zee
-  english: it is snowing / it snows
-  notes: Klik A1 p. 90. Impersonal weather verb from το χιόνι.
-  gender_or_pos: verb
-  audio: chionizei-f8436c.mp3
-  status: verified
-  example_el: Τον Ιανουάριο χιονίζει συχνά στα βόρεια.
-  example_en: In January it often snows in the north.
-  grammatical_info:
-    part_of_speech: impersonal verb
-    verb_type: impersonal
-    third_person_singular: χιονίζει
-    first_person_plural: '-'
-  keg_communicative_function: Describing snowy conditions
-- id: A1-U105-037
-  greek: έντεκα
-  phonetic_hint: EN-deh-kah
-  english: eleven (11)
-  notes: Klik A1 p. 92. Cardinal number 11.
-  gender_or_pos: numeral
-  audio: enteka-9bcef2.mp3
-  status: verified
-  example_el: Το μάθημα αρχίζει στις έντεκα το πρωί.
-  example_en: The lesson starts at eleven in the morning.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting and stating clock hours
-- id: A1-U105-038
-  greek: δώδεκα
-  phonetic_hint: THOH-theh-kah
-  english: twelve (12)
-  notes: Klik A1 p. 92. Cardinal number 12 (a dozen).
-  gender_or_pos: numeral
-  audio: dodeka-826950.mp3
-  status: verified
-  example_el: Ο χρόνος έχει δώδεκα μήνες.
-  example_en: The year has twelve months.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting items and stating noon/midnight
-- id: A1-U105-039
-  greek: δεκαπέντε
-  phonetic_hint: theh-kah-PEN-deh
-  english: fifteen (15)
-  notes: 'Klik A1 p. 92. Compound: δέκα + πέντε.'
-  gender_or_pos: numeral
-  audio: dekapente-777e18.mp3
-  status: verified
-  example_el: Σε δεκαπέντε λεπτά φεύγει το λεωφορείο.
-  example_en: In fifteen minutes the bus leaves.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting quantities and telling minutes
-- id: A1-U105-040
-  greek: είκοσι
-  phonetic_hint: EE-koh-see
-  english: twenty (20)
-  notes: Klik A1 p. 92. Tens numeral 20.
-  gender_or_pos: numeral
-  audio: eikosi-1f90c9.mp3
-  status: verified
-  example_el: Το εισιτήριο κοστίζει είκοσι ευρώ.
-  example_en: The ticket costs twenty euros.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Expressing prices and ages
-- id: A1-U105-041
-  greek: τριάντα
-  phonetic_hint: tree-AHN-dah
-  english: thirty (30)
-  notes: Klik A1 p. 92. Tens numeral 30.
-  gender_or_pos: numeral
-  audio: trianta-e925c1.mp3
-  status: verified
-  example_el: Ο μήνας έχει τριάντα μέρες.
-  example_en: The month has thirty days.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Expressing calendar days and quantities
-- id: A1-U105-042
-  greek: σαράντα
-  phonetic_hint: sah-RAHN-dah
-  english: forty (40)
-  notes: Klik A1 p. 92. Tens numeral 40.
-  gender_or_pos: numeral
-  audio: saranta-5bab8f.mp3
-  status: verified
-  example_el: Είναι σαράντα χρονών.
-  example_en: He is forty years old.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Expressing quantities and age
-- id: A1-U105-043
-  greek: πενήντα
-  phonetic_hint: peh-NEEN-dah
-  english: fifty (50)
-  notes: Klik A1 p. 92. Tens numeral 50.
-  gender_or_pos: numeral
-  audio: peninta-39a3f2.mp3
-  status: verified
-  example_el: Ένα χαρτονόμισμα των πενήντα ευρώ.
-  example_en: A fifty-euro banknote.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Handling money and prices
-- id: A1-U105-044
-  greek: εξήντα
-  phonetic_hint: ek-SEEN-dah
-  english: sixty (60)
-  notes: Klik A1 p. 92. Tens numeral 60.
-  gender_or_pos: numeral
-  audio: exinta-cd7017.mp3
-  status: verified
-  example_el: Μία ώρα έχει εξήντα λεπτά.
-  example_en: One hour has sixty minutes.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting minutes and age
-- id: A1-U105-045
-  greek: εβδομήντα
-  phonetic_hint: ev-thoh-MEEN-dah
-  english: seventy (70)
-  notes: Klik A1 p. 92. Tens numeral 70.
-  gender_or_pos: numeral
-  audio: evdominta-bf7e78.mp3
-  status: verified
-  example_el: Ο παππούς είναι εβδομήντα πέντε ετών.
-  example_en: Grandfather is seventy-five years old.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Stating age and large sums
+    plural: οι διαγωνισμοί
+    accusative_singular: τον διαγωνισμό
+  keg_communicative_function: Discussing travel contests and lotteries
 - id: A1-U105-046
-  greek: ογδόντα
-  phonetic_hint: oy-THOHN-dah
-  english: eighty (80)
-  notes: Klik A1 p. 92. Tens numeral 80. Also spelled ογδονήντα.
-  gender_or_pos: numeral
-  audio: ogdonta-827bd7.mp3
+  greek: ο νικητής
+  phonetic_hint: o nee-kee-TEES
+  english: winner
+  notes: 'Klik A1 p. 127. Masculine noun in -ης with plural in -ες. Fem: η νικήτρια.'
+  gender_or_pos: noun (masculine)
+  audio: o-nikitis-befe8e.mp3
   status: verified
-  example_el: Ογδόντα μαθητές συμμετέχουν στην εκδρομή.
-  example_en: Eighty students are participating in the excursion.
+  example_el: Ο πρώτος νικητής κερδίζει δύο αεροπορικά εισιτήρια.
+  example_en: The first winner wins two plane tickets.
   grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting larger populations
+    part_of_speech: noun (masculine)
+    plural: οι νικητές
+    accusative_singular: τον νικητή
+  keg_communicative_function: Announcing contest winners
 - id: A1-U105-047
-  greek: ενενήντα
-  phonetic_hint: eh-neh-NEEN-dah
-  english: ninety (90)
-  notes: Klik A1 p. 92. Tens numeral 90.
-  gender_or_pos: numeral
-  audio: eneninta-53d606.mp3
-  status: verified
-  example_el: Το βιβλίο έχει ενενήντα σελίδες.
-  example_en: The book has ninety pages.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Counting pages and scores
-- id: A1-U105-048
-  greek: εκατό
-  phonetic_hint: eh-kah-TOH
-  english: one hundred (100)
-  notes: Klik A1 p. 92. Hundred numeral 100. Changes to εκατόν when followed by another
-    number.
-  gender_or_pos: numeral
-  audio: ekato-22f5ee.mp3
-  status: verified
-  example_el: Εκατό παιδιά απάντησαν στο ερωτηματολόγιο.
-  example_en: One hundred children answered the questionnaire.
-  grammatical_info:
-    part_of_speech: cardinal numeral (indeclinable)
-  keg_communicative_function: Expressing one hundred and percentages
-- id: A1-U105-049
-  greek: Τι ώρα είναι;
-  phonetic_hint: tee OH-rah EE-neh
-  english: What time is it?
-  notes: Klik A1 p. 100. Core question to ask for the current time. Also 'Τι ώρα έχεις;'.
-  gender_or_pos: phrase
-  audio: ti-ora-einai-03e41d.mp3
-  status: verified
-  example_el: — Συγγνώμη, τι ώρα είναι; — Είναι τρεις και τέταρτο.
-  example_en: — Excuse me, what time is it? — It is a quarter past three.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Asking for the current time
-- id: A1-U105-050
-  greek: ακριβώς
-  phonetic_hint: ah-kree-VOS
-  english: exactly / on the hour / sharp
-  notes: 'Klik A1 p. 100. Used in time: ''Είναι επτά ακριβώς'' (It is exactly seven
-    o''clock).'
-  gender_or_pos: adverb
-  audio: akrivos-cc3383.mp3
-  status: verified
-  example_el: Το τρένο φεύγει στις οκτώ ακριβώς.
-  example_en: The train departs at eight sharp.
-  grammatical_info:
-    part_of_speech: adverb
-  keg_communicative_function: Specifying precise timing
-- id: A1-U105-051
-  greek: και τέταρτο
-  phonetic_hint: keh TEH-tahr-toh
-  english: and a quarter / quarter past
-  notes: Klik A1 p. 100. Time expression for 15 minutes past the hour.
-  gender_or_pos: phrase
-  audio: kai-tetarto-44f85d.mp3
-  status: verified
-  example_el: Είναι οκτώ και τέταρτο το πρωί.
-  example_en: It is a quarter past eight in the morning.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Stating fifteen minutes past the hour
-- id: A1-U105-052
-  greek: και μισή
-  phonetic_hint: keh mee-SEE
-  english: half past
-  notes: 'Klik A1 p. 100. Time expression for half past the hour: ''τρεις και μισή''.'
-  gender_or_pos: phrase
-  audio: kai-misi-050330.mp3
-  status: verified
-  example_el: Συναντιόμαστε στις δύο και μισή το μεσημέρι.
-  example_en: We are meeting at half past two in the afternoon.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Stating thirty minutes past the hour
-- id: A1-U105-053
-  greek: παρά τέταρτο
-  phonetic_hint: pah-RAH TEH-tahr-toh
-  english: quarter to
-  notes: Klik A1 p. 100. Time expression for 15 minutes to the next hour.
-  gender_or_pos: phrase
-  audio: para-tetarto-c09c19.mp3
-  status: verified
-  example_el: Η ταινία αρχίζει στις εννέα παρά τέταρτο.
-  example_en: The film starts at a quarter to nine.
-  grammatical_info:
-    part_of_speech: phrase
-  keg_communicative_function: Stating fifteen minutes before the hour
-- id: A1-U105-054
-  greek: ανοίγω
-  phonetic_hint: ah-NEE-gho
-  english: to open
-  notes: 'Klik A1 p. 101. Type A regular verb: ανοίγω, ανοίγεις, ανοίγει. Opposite:
-    κλείνω.'
+  greek: ταξιδεύω
+  phonetic_hint: tahk-see-THEH-vo
+  english: I travel
+  notes: 'Klik A1 p. 111, 113, 115. Type A active regular verb. Dependent stem: να
+    ταξιδέψω.'
   gender_or_pos: verb
-  audio: anoigo-c2c5f6.mp3
+  audio: taxideyo-6e1522.mp3
   status: verified
-  example_el: Η τράπεζα ανοίγει στις οκτώ το πρωί.
-  example_en: The bank opens at eight in the morning.
+  example_el: Ταξιδεύουμε στην Ελλάδα κάθε καλοκαίρι.
+  example_en: We travel to Greece every summer.
   grammatical_info:
     part_of_speech: verb
     verb_type: Type A (active regular)
-    third_person_singular: ανοίγει
-    first_person_plural: ανοίγουμε
-  keg_communicative_function: Stating opening hours of shops and offices
-- id: A1-U105-055
+    third_person_singular: ταξιδεύει
+    first_person_plural: ταξιδεύουμε
+  keg_communicative_function: Stating travel habits
+- id: A1-U105-048
+  greek: ετοιμάζω
+  phonetic_hint: eh-tee-MAH-zo
+  english: I prepare / pack / get ready
+  notes: 'Klik A1 p. 111, 114, 116. Type A active regular verb. Dependent stem: να
+    ετοιμάσω.'
+  gender_or_pos: verb
+  audio: etoimazo-be6f8e.mp3
+  status: verified
+  example_el: Ετοιμάζω τη βαλίτσα μου για τις διακοπές.
+  example_en: I am packing my suitcase for vacation.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: ετοιμάζει
+    first_person_plural: ετοιμάζουμε
+  keg_communicative_function: Preparing and packing for trips
+- id: A1-U105-049
   greek: κλείνω
   phonetic_hint: KLEE-no
-  english: to close / to shut
-  notes: 'Klik A1 p. 101. Type A regular verb: κλείνω, κλείνεις, κλείνει. Opposite:
-    ανοίγω.'
+  english: I book / reserve / close
+  notes: 'Klik A1 p. 111, 112, 117. Type A regular verb. Dependent stem: να κλείσω.'
   gender_or_pos: verb
   audio: kleino-0fb43e.mp3
   status: verified
-  example_el: Το μουσείο κλείνει στις τρεις το μεσημέρι.
-  example_en: The museum closes at three in the afternoon.
+  example_el: Κλείνουμε δύο δωμάτια στο ξενοδοχείο μέσω διαδικτύου.
+  example_en: We book two rooms at the hotel via the internet.
   grammatical_info:
     part_of_speech: verb
     verb_type: Type A (active regular)
     third_person_singular: κλείνει
     first_person_plural: κλείνουμε
-  keg_communicative_function: Stating closing hours of public services
-- id: A1-U105-056
-  greek: τελειώνω
-  phonetic_hint: teh-lee-OH-no
-  english: to finish / to end
-  notes: 'Klik A1 p. 101. Type A regular verb: τελειώνω, τελειώνεις, τελειώνει. Opposite:
-    αρχίζω.'
+  keg_communicative_function: Booking travel accommodations
+- id: A1-U105-050
+  greek: αποφασίζω
+  phonetic_hint: ah-po-fah-SEE-zo
+  english: I decide
+  notes: 'Klik A1 p. 113, 114, 128. Type A regular verb. Dependent stem: να αποφασίσω.'
   gender_or_pos: verb
-  audio: teleiono-1c3f80.mp3
+  audio: apofasizo-d4aabb.mp3
   status: verified
-  example_el: Το μάθημα τελειώνει στις δύο.
-  example_en: The lesson finishes at two.
+  example_el: Πρέπει να αποφασίσουμε πού θα πάμε φέτος διακοπές.
+  example_en: We must decide where we will go on vacation this year.
   grammatical_info:
     part_of_speech: verb
     verb_type: Type A (active regular)
-    third_person_singular: τελειώνει
-    first_person_plural: τελειώνουμε
-  keg_communicative_function: Stating when an event or class finishes
+    third_person_singular: αποφασίζει
+    first_person_plural: αποφασίζουμε
+  keg_communicative_function: Making decisions on destinations
+- id: A1-U105-051
+  greek: οργανώνω
+  phonetic_hint: or-gah-NO-no
+  english: I organize / plan
+  notes: 'Klik A1 p. 113. Type A regular verb. Dependent stem: να οργανώσω.'
+  gender_or_pos: verb
+  audio: organono-05d288.mp3
+  status: verified
+  example_el: Οργανώνω ένα ταξίδι στην Ιταλία με τους φίλους μου.
+  example_en: I am organizing a trip to Italy with my friends.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active regular)
+    third_person_singular: οργανώνει
+    first_person_plural: οργανώνουμε
+  keg_communicative_function: Planning and organizing itineraries
+- id: A1-U105-052
+  greek: ανεβαίνω
+  phonetic_hint: ah-neh-VEH-no
+  english: I get on / board / climb
+  notes: 'Klik A1 p. 122. Type A irregular verb. Dependent stem: να ανέβω.'
+  gender_or_pos: verb
+  audio: anevaino-a0277e.mp3
+  status: verified
+  example_el: Ανεβαίνω στο λεωφορείο από την μπροστινή πόρτα.
+  example_en: I get on the bus through the front door.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active irregular)
+    third_person_singular: ανεβαίνει
+    first_person_plural: ανεβαίνουμε
+  keg_communicative_function: Boarding public transportation
+- id: A1-U105-053
+  greek: κατεβαίνω
+  phonetic_hint: kah-teh-VEH-no
+  english: I get off / alight / descend
+  notes: 'Klik A1 p. 121, 122, 125. Type A irregular verb. Dependent stem: να κατέβω.'
+  gender_or_pos: verb
+  audio: katevaino-012890.mp3
+  status: verified
+  example_el: Κατεβαίνουμε στην επόμενη στάση για το μουσείο.
+  example_en: We get off at the next stop for the museum.
+  grammatical_info:
+    part_of_speech: verb
+    verb_type: Type A (active irregular)
+    third_person_singular: κατεβαίνει
+    first_person_plural: κατεβαίνουμε
+  keg_communicative_function: Alighting from public transportation
+- id: A1-U105-054
+  greek: ακριβός
+  phonetic_hint: ah-kree-VOS
+  english: expensive
+  notes: 'Klik A1 p. 112, 114, 129. Adjective in -ός, -ή, -ό. Comparative: πιο ακριβός
+    από...'
+  gender_or_pos: adjective
+  audio: akrivos-7c165b.mp3
+  status: verified
+  example_el: Αυτό το ξενοδοχείο είναι πολύ ακριβό για εμάς.
+  example_en: This hotel is too expensive for us.
+  grammatical_info:
+    part_of_speech: adjective
+    forms: ακριβός, -ή, -ό
+  keg_communicative_function: Evaluating costs and prices
+- id: A1-U105-055
+  greek: φθηνός
+  phonetic_hint: fthee-NOS
+  english: cheap / inexpensive
+  notes: 'Klik A1 p. 118, 129. Adjective in -ός, -ή, -ό. Comparative: πιο φθηνός από...'
+  gender_or_pos: adjective
+  audio: fthinos-d66437.mp3
+  status: verified
+  example_el: Βρίσκουμε ένα φθηνό δωμάτιο κοντά στον σταθμό.
+  example_en: We find a cheap room near the station.
+  grammatical_info:
+    part_of_speech: adjective
+    forms: φθηνός, -ή, -ό
+  keg_communicative_function: Evaluating economical options
+- id: A1-U105-056
+  greek: γρήγορος
+  phonetic_hint: GREE-go-ros
+  english: fast / quick
+  notes: 'Klik A1 p. 130, 132. Adjective in -ος, -η, -ο. Comparative: πιο γρήγορος
+    από...'
+  gender_or_pos: adjective
+  audio: grigoros-1f73e7.mp3
+  status: verified
+  example_el: Το αεροπλάνο είναι ένα πολύ γρήγορο μέσο.
+  example_en: The airplane is a very fast means of transport.
+  grammatical_info:
+    part_of_speech: adjective
+    forms: γρήγορος, -η, -ο
+  keg_communicative_function: Describing speed and transit velocity
 - id: A1-U105-057
-  greek: πηγαίνω
-  phonetic_hint: pee-YEH-no
-  english: to go / to be going
-  notes: 'Klik A1 p. 93. High-frequency verb: πηγαίνω / πάω (πάω, πας, πάει, πάμε,
-    πάτε, πάνε).'
-  gender_or_pos: verb
-  audio: pigaino-e5be18.mp3
+  greek: αργός
+  phonetic_hint: ar-GOS
+  english: slow
+  notes: 'Klik A1 p. 130. Adjective in -ός, -ή, -ό. Comparative: πιο αργός από...'
+  gender_or_pos: adjective
+  audio: argos-3c1dfd.mp3
   status: verified
-  example_el: Κάθε πρωί πηγαίνω στη δουλειά με το μετρό.
-  example_en: Every morning I go to work by metro.
+  example_el: Το πλοίο είναι πιο αργό από το αεροπλάνο αλλά είναι ευχάριστο.
+  example_en: The ship is slower than the plane but it is pleasant.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (active irregular / contract)
-    third_person_singular: πηγαίνει / πάει
-    first_person_plural: πηγαίνουμε / πάμε
-  keg_communicative_function: Describing regular transit and destinations
+    part_of_speech: adjective
+    forms: αργός, -ή, -ό
+  keg_communicative_function: Describing slow pace or travel duration
 - id: A1-U105-058
-  greek: ακούω
-  phonetic_hint: ah-KOO-o
-  english: to hear / to listen to
-  notes: 'Klik A1 p. 93. Conjugation: ακούω, ακούς, ακούει, ακούμε, ακούτε, ακούν(ε).'
-  gender_or_pos: verb
-  audio: akoyo-38930c.mp3
+  greek: τελευταίος
+  phonetic_hint: teh-lef-TEH-os
+  english: last / final
+  notes: Klik A1 p. 121. Adjective in -ος, -α, -ο.
+  gender_or_pos: adjective
+  audio: teleytaios-fe2165.mp3
   status: verified
-  example_el: Ακούς αυτόν τον παράξενο ήχο;
-  example_en: Do you hear that strange sound?
+  example_el: Κατεβαίνουμε στην τελευταία στάση της διαδρομής.
+  example_en: We get off at the last stop of the route.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (irregular active)
-    third_person_singular: ακούει
-    first_person_plural: ακούμε
-  keg_communicative_function: Expressing hearing and listening
+    part_of_speech: adjective
+    forms: τελευταίος, -α, -ο
+  keg_communicative_function: Identifying final terminal stops
 - id: A1-U105-059
-  greek: λέω
-  phonetic_hint: LEH-o
-  english: to say / to tell
-  notes: 'Klik A1 p. 93. Conjugation: λέω, λες, λέει, λέμε, λέτε, λένε.'
-  gender_or_pos: verb
-  audio: leo-5cb2e9.mp3
+  greek: εκατό
+  phonetic_hint: eh-kah-TO
+  english: one hundred / 100
+  notes: Klik A1 p. 119. Cardinal numeral (indeclinable). Becomes εκατόν before vowels
+    and composite numbers.
+  gender_or_pos: numeral
+  audio: ekato-22f5ee.mp3
   status: verified
-  example_el: Τι λες για έναν καφέ στην πλατεία;
-  example_en: What do you say to having a coffee on the square?
+  example_el: Το δωμάτιο κοστίζει ακριβώς εκατό ευρώ τη βραδιά.
+  example_en: The room costs exactly one hundred euros per night.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: Type A (irregular active)
-    third_person_singular: λέει
-    first_person_plural: λέμε
-  keg_communicative_function: Making proposals and expressing speech
+    part_of_speech: cardinal numeral (indeclinable)
+  keg_communicative_function: Stating prices in hundreds
 - id: A1-U105-060
-  greek: κοιμάμαι
-  phonetic_hint: kee-MAH-meh
-  english: to sleep / to be sleeping
-  notes: 'Klik A1 p. 107. Mediopassive verb: κοιμάμαι, κοιμάσαι, κοιμάται, κοιμόμαστε,
-    κοιμάστε, κοιμούνται.'
-  gender_or_pos: verb
-  audio: koimamai-fd5b5d.mp3
+  greek: διακόσια
+  phonetic_hint: thee-ah-KO-see-ah
+  english: two hundred / 200
+  notes: 'Klik A1 p. 119. Declinable cardinal numeral: διακόσιοι, διακόσιες, διακόσια.'
+  gender_or_pos: numeral
+  audio: diakosia-0592e0.mp3
   status: verified
-  example_el: Κοιμάμαι οκτώ ώρες κάθε βράδυ.
-  example_en: I sleep eight hours every night.
+  example_el: Το αεροπορικό εισιτήριο κοστίζει διακόσια ευρώ.
+  example_en: The plane ticket costs two hundred euros.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: mediopassive contract
-    third_person_singular: κοιμάται
-    first_person_plural: κοιμόμαστε
-  keg_communicative_function: Describing sleep habits and bedtime
+    part_of_speech: cardinal numeral
+    forms: διακόσιοι, διακόσιες, διακόσια
+  keg_communicative_function: Stating prices and large numbers
 - id: A1-U105-061
-  greek: έρχομαι
-  phonetic_hint: ER-khoh-meh
-  english: to come / to arrive
-  notes: 'Klik A1 p. 107. Mediopassive verb: έρχομαι, έρχεσαι, έρχεται, ερχόμαστε,
-    έρχεστε, έρχονται.'
-  gender_or_pos: verb
-  audio: erchomai-0ae01f.mp3
+  greek: πεντακόσια
+  phonetic_hint: pen-dah-KO-see-ah
+  english: five hundred / 500
+  notes: 'Klik A1 p. 119. Declinable cardinal numeral: πεντακόσιοι, πεντακόσιες, πεντακόσια.'
+  gender_or_pos: numeral
+  audio: pentakosia-6b0ee6.mp3
   status: verified
-  example_el: Έρχομαι στο γραφείο σε δέκα λεπτά.
-  example_en: I am coming to the office in ten minutes.
+  example_el: Η εκδρομή πέντε ημερών κοστίζει πεντακόσια ευρώ.
+  example_en: The five-day tour costs five hundred euros.
   grammatical_info:
-    part_of_speech: verb
-    verb_type: mediopassive deponent
-    third_person_singular: έρχεται
-    first_person_plural: ερχόμαστε
-  keg_communicative_function: Talking about arrival and coming to a venue
+    part_of_speech: cardinal numeral
+    forms: πεντακόσιοι, πεντακόσιες, πεντακόσια
+  keg_communicative_function: Quoting excursion package costs
 - id: A1-U105-062
-  greek: φτιάχνω καφέ
-  phonetic_hint: FTYAHKH-no kah-FEH
-  english: to make coffee
-  notes: Klik A1 p. 98. Verb φτιάχνω (to make/prepare) + direct object accusative
-    καφέ.
-  gender_or_pos: phrase
-  audio: ftiachno-kafe-dab3d4.mp3
+  greek: χίλια
+  phonetic_hint: KHEE-lee-ah
+  english: one thousand / 1.000
+  notes: 'Klik A1 p. 119, 131. Declinable cardinal numeral: χίλιοι, χίλιες, χίλια.'
+  gender_or_pos: numeral
+  audio: chilia-51fa4a.mp3
   status: verified
-  example_el: Κάθε πρωί φτιάχνω έναν ζεστό ελληνικό καφέ.
-  example_en: Every morning I make a hot Greek coffee.
+  example_el: Το συνολικό πακέτο διακοπών κοστίζει χίλια ευρώ.
+  example_en: The total holiday package costs one thousand euros.
   grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Describing morning coffee preparation
+    part_of_speech: cardinal numeral
+    forms: χίλιοι, χίλιες, χίλια
+  keg_communicative_function: Counting to one thousand
 - id: A1-U105-063
-  greek: πλένω τα πιάτα
-  phonetic_hint: PLEH-no tah PYAH-tah
-  english: to wash the dishes
-  notes: 'Klik A1 p. 98, 104. Household chore collocation: verb πλένω + τα πιάτα.'
-  gender_or_pos: phrase
-  audio: pleno-ta-piata-f108a7.mp3
+  greek: πρώτος
+  phonetic_hint: PRO-tos
+  english: first / 1st
+  notes: 'Klik A1 p. 127, 128. Ordinal adjective: πρώτος, πρώτη, πρώτο. Abbreviated
+    as 1ος.'
+  gender_or_pos: adjective (ordinal)
+  audio: protos-0c3fef.mp3
   status: verified
-  example_el: Μετά το φαγητό πλένω τα πιάτα στην κουζίνα.
-  example_en: After the meal I wash the dishes in the kitchen.
+  example_el: Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.
+  example_en: The first winner of the competition wins a trip to America.
   grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Discussing household chores
-- id: A1-U105-064
-  greek: καθαρίζω το σπίτι
-  phonetic_hint: kah-thah-REE-zo to SPEE-tee
-  english: to clean the house
-  notes: Klik A1 p. 104, 109. Verb καθαρίζω + accusative object το σπίτι.
-  gender_or_pos: phrase
-  audio: katharizo-to-spiti-fbb222.mp3
-  status: verified
-  example_el: Το Σάββατο καθαρίζω το σπίτι και βάζω πλυντήριο.
-  example_en: On Saturday I clean the house and do laundry.
-  grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Discussing cleaning and home maintenance
-- id: A1-U105-065
-  greek: γυρίζω στο σπίτι
-  phonetic_hint: yee-REE-zo stoh SPEE-tee
-  english: to return home / to come back home
-  notes: 'Klik A1 p. 99, 107. Collocation: verb γυρίζω (to return) + prepositional
-    phrase στο σπίτι.'
-  gender_or_pos: phrase
-  audio: gyrizo-sto-spiti-5a4d91.mp3
-  status: verified
-  example_el: Γυρίζω στο σπίτι κατά τις επτά το απόγευμα.
-  example_en: I return home around seven in the evening.
-  grammatical_info:
-    part_of_speech: verb phrase
-  keg_communicative_function: Describing coming back home after work
-- id: A1-U105-066
-  greek: ξεκουράζομαι
-  phonetic_hint: kseh-koo-RAH-zoh-meh
-  english: to rest / to relax
-  notes: 'Klik A1 p. 109. Mediopassive verb: ξεκουράζομαι, ξεκουράζεσαι, ξεκουράζεται.'
-  gender_or_pos: verb
-  audio: xekoyrazomai-30dbd1.mp3
-  status: verified
-  example_el: Το μεσημέρι ξεκουράζομαι στον καναπέ για λίγη ώρα.
-  example_en: At noon I rest on the sofa for a little while.
-  grammatical_info:
-    part_of_speech: verb
-    verb_type: mediopassive
-    third_person_singular: ξεκουράζεται
-    first_person_plural: ξεκουραζόμαστε
-  keg_communicative_function: Expressing rest and relaxation
+    part_of_speech: adjective (ordinal)
+    forms: πρώτος, -η, -ο
+  keg_communicative_function: Using ordinal rankings and itinerary stages
