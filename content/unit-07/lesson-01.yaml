@@ -681,3 +681,32 @@ entries:
     neuter: επιπλωμένο
     plural: επιπλωμένοι, επιπλωμένες, επιπλωμένα
   keg_communicative_function: Identifying furnished accommodation in listings
+- id: A1-U07-044
+  greek: ενοικιάζεται
+  phonetic_hint: ''
+  english: for rent / to let
+  notes: 3rd person singular passive verb used universally on real estate signs and
+    classified ads.
+  gender_or_pos: verb (lexicalized sign formula)
+  audio: enoikiazetai-977d81.mp3
+  status: verified
+  example_el: Ενοικιάζεται διαμέρισμα στον δεύτερο όροφο.
+  example_en: Apartment for rent on the second floor.
+  grammatical_info:
+    part_of_speech: phrase (advertisement formula)
+    plural: ενοικιάζονται
+  keg_communicative_function: Reading and understanding accommodation rental advertisements
+- id: A1-U07-045
+  greek: πωλείται
+  phonetic_hint: ''
+  english: for sale
+  notes: Formal 3rd person passive verb used on property and commercial sale signs.
+  gender_or_pos: verb (lexicalized sign formula)
+  audio: poleitai-e1dd75.mp3
+  status: verified
+  example_el: Πωλείται σπίτι με κήπο κοντά στη θάλασσα.
+  example_en: House for sale with garden near the sea.
+  grammatical_info:
+    part_of_speech: phrase (advertisement formula)
+    plural: πωλούνται
+  keg_communicative_function: Reading real estate and commercial sale notices

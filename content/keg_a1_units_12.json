@@ -335,8 +335,8 @@
       "accusative_singular": "τη γρίπη"
     },
     "keg_communicative_function": "Reporting influenza infection",
-    "example_el": "Έμεινα στο κρεβάτι γιατί έχω γρίπη.",
-    "example_en": "I stayed in bed because I have the flu.",
+    "example_el": "Μένω στο κρεβάτι γιατί έχω γρίπη.",
+    "example_en": "I am staying in bed because I have the flu.",
     "notes_or_mnemonics": "Feminine paroxytone in -η (η γρίπη)."
   },
   {
@@ -657,8 +657,8 @@
       "part_of_speech": "phrase (exclamation / emergency formula)"
     },
     "keg_communicative_function": "Shouting for assistance in critical situations",
-    "example_el": "Βοήθεια! Κάποιος έπεσε στον δρόμο!",
-    "example_en": "Help! Someone fell on the street!",
+    "example_el": "Βοήθεια! Χρειάζομαι έναν γιατρό αμέσως!",
+    "example_en": "Help! I need a doctor immediately!",
     "notes_or_mnemonics": "Noun η βοήθεια (help) used as an urgent exclamatory formula."
   },
   {
@@ -687,8 +687,8 @@
       "part_of_speech": "phrase (social wishing formula)"
     },
     "keg_communicative_function": "Wishing a swift recovery to sick friends or colleagues",
-    "example_el": "Έμαθα ότι έχεις γρίπη. Περαστικά σου!",
-    "example_en": "I heard that you have the flu. Get well soon!",
+    "example_el": "Ακούω ότι είσαι άρρωστος. Περαστικά σου!",
+    "example_en": "I hear that you are sick. Get well soon!",
     "notes_or_mnemonics": "Neuter plural adjective used as a greeting formula. Literally: 'may they pass'."
   },
   {

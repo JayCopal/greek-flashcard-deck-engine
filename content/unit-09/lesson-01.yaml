@@ -566,8 +566,8 @@ entries:
   gender_or_pos: adverb of time
   audio: chthes-6c18aa.mp3
   status: verified
-  example_el: Χθες ήταν Κυριακή και ξεκουράστηκα.
-  example_en: Yesterday was Sunday and I rested.
+  example_el: Σήμερα είναι Δευτέρα, άρα χθες είναι Κυριακή.
+  example_en: Today is Monday, so yesterday is Sunday.
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Setting temporal reference to the previous day

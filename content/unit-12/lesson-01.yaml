@@ -315,8 +315,8 @@ entries:
   gender_or_pos: noun (feminine)
   audio: i-gripi-5d12af.mp3
   status: verified
-  example_el: Έμεινα στο κρεβάτι γιατί έχω γρίπη.
-  example_en: I stayed in bed because I have the flu.
+  example_el: Μένω στο κρεβάτι γιατί έχω γρίπη.
+  example_en: I am staying in bed because I have the flu.
   grammatical_info:
     part_of_speech: noun (feminine)
     plural: οι γρίπες
@@ -604,8 +604,8 @@ entries:
   gender_or_pos: phrase (exclamation / emergency formula)
   audio: voitheia-e0c366.mp3
   status: verified
-  example_el: Βοήθεια! Κάποιος έπεσε στον δρόμο!
-  example_en: Help! Someone fell on the street!
+  example_el: Βοήθεια! Χρειάζομαι έναν γιατρό αμέσως!
+  example_en: Help! I need a doctor immediately!
   grammatical_info:
     part_of_speech: phrase (exclamation / emergency formula)
   keg_communicative_function: Shouting for assistance in critical situations
@@ -631,8 +631,8 @@ entries:
   gender_or_pos: phrase (social wishing formula)
   audio: perastika-bc0e90.mp3
   status: verified
-  example_el: Έμαθα ότι έχεις γρίπη. Περαστικά σου!
-  example_en: I heard that you have the flu. Get well soon!
+  example_el: Ακούω ότι είσαι άρρωστος. Περαστικά σου!
+  example_en: I hear that you are sick. Get well soon!
   grammatical_info:
     part_of_speech: phrase (social wishing formula)
   keg_communicative_function: Wishing a swift recovery to sick friends or colleagues

@@ -1061,7 +1061,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
                   {/* On-demand 3-Step Production Hint for English -> Greek */}
                   <div className="mt-1 flex flex-col items-center gap-1.5 select-none w-full">
-                    {hintStep === 0 ? (
+                    {hintStep === 0 || !productionHint ? (
                       <button
                         type="button"
                         onClick={(e) => {

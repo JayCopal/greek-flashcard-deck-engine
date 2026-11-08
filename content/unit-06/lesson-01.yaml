@@ -635,3 +635,35 @@ entries:
     neuter: ακριβό
     plural: ακριβοί, ακριβές, ακριβά
   keg_communicative_function: Evaluating merchandise prices and comparing store costs
+- id: A1-U06-041
+  greek: φθηνός, -ή, -ό / φτηνός, -ή, -ό
+  phonetic_hint: ''
+  english: cheap / inexpensive
+  notes: Adjective in -ός, -ή, -ό. Direct opposite of 'ακριβός' (expensive).
+  gender_or_pos: adjective
+  audio: fthinos-i-o-ftinos-i-445298.mp3
+  status: verified
+  example_el: Αυτά τα μήλα είναι πολύ φθηνά σήμερα.
+  example_en: These apples are very cheap today.
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: φθηνός (φτηνός)
+    feminine: φθηνή (φτηνή)
+    neuter: φθηνό (φτηνό)
+    plural: φθηνοί, φθηνές, φθηνά
+  keg_communicative_function: Comparing merchandise prices and identifying bargains
+- id: A1-U06-042
+  greek: το ευρώ
+  phonetic_hint: ''
+  english: euro (currency)
+  notes: Indeclinable neuter noun (το ευρώ / τα ευρώ). Official currency of Greece.
+  gender_or_pos: noun (neuter)
+  audio: to-eyro-57329a.mp3
+  status: verified
+  example_el: Το ψωμί κοστίζει ένα ευρώ και είκοσι λεπτά.
+  example_en: The bread costs one euro and twenty cents.
+  grammatical_info:
+    part_of_speech: noun (neuter indeclinable)
+    plural: τα ευρώ
+    accusative_singular: το ευρώ
+  keg_communicative_function: Stating exact monetary prices and payment amounts
