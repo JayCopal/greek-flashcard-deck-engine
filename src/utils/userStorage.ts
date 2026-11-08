@@ -311,6 +311,8 @@ export function resetUserProgress(userId?: string): void {
   notifyProgressChanged();
 }
 
+export type TextSizePreference = 'normal' | 'large' | 'xlarge';
+
 /**
  * User study session preferences (remembered filters & UX settings)
  */
@@ -323,6 +325,7 @@ export interface UserStudyPreferences {
   highlightTonos?: boolean;
   hapticFeedback?: boolean;
   themePreference?: 'slate' | 'oled';
+  textSizePreference?: TextSizePreference;
   dailyGoal?: number;
 }
 
@@ -335,6 +338,7 @@ export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
   highlightTonos: true,
   hapticFeedback: true,
   themePreference: 'slate',
+  textSizePreference: 'large',
   dailyGoal: 20,
 };
 
@@ -354,6 +358,10 @@ export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
         highlightTonos: parsed.highlightTonos !== undefined ? Boolean(parsed.highlightTonos) : true,
         hapticFeedback: parsed.hapticFeedback !== undefined ? Boolean(parsed.hapticFeedback) : true,
         themePreference: parsed.themePreference === 'oled' ? 'oled' : 'slate',
+        textSizePreference:
+          parsed.textSizePreference === 'normal' || parsed.textSizePreference === 'xlarge'
+            ? parsed.textSizePreference
+            : 'large',
         dailyGoal: typeof parsed.dailyGoal === 'number' ? parsed.dailyGoal : 20,
       };
     }

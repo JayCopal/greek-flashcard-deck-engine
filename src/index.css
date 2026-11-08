@@ -10,6 +10,34 @@
   }
 }
 
+/* Global Typography Scaling */
+/* Normal (100% base size), Large / Default (+25% base size), Extra Large (+50% base size) */
+html.text-scale-normal {
+  font-size: 100%;
+}
+
+html.text-scale-large,
+html:not(.text-scale-normal):not(.text-scale-xlarge) {
+  font-size: 125%;
+}
+
+html.text-scale-xlarge {
+  font-size: 150%;
+}
+
+/* Ensure arbitrary small pixel utility classes scale proportionally with root rem */
+.text-\[9px\] {
+  font-size: 0.5625rem !important;
+}
+
+.text-\[10px\] {
+  font-size: 0.625rem !important;
+}
+
+.text-\[11px\] {
+  font-size: 0.6875rem !important;
+}
+
 /* 3D Flashcard Flip Effects */
 .perspective-1000 {
   perspective: 1000px;

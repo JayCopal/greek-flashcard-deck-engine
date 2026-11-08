@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DeckData, CardEntry } from './types/schema';
-import { getUserStudyPreferences, initializePersistenceEngine } from './utils/userStorage';
+import { getUserStudyPreferences, initializePersistenceEngine, TextSizePreference } from './utils/userStorage';
 import { Dashboard } from './components/Dashboard';
 import { Practice } from './components/Practice';
 import { OverviewStats } from './components/OverviewStats';
@@ -49,21 +49,31 @@ export function App() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstalled, setIsInstalled] = useState(false);
 
-  // Theme preference
+  // Theme & text size preferences
   const [themePreference, setThemePreference] = useState<'slate' | 'oled'>(
     () => getUserStudyPreferences().themePreference || 'slate'
   );
+  const [textSizePreference, setTextSizePreference] = useState<TextSizePreference>(
+    () => getUserStudyPreferences().textSizePreference || 'large'
+  );
 
   useEffect(() => {
-    const updateTheme = () => {
+    const root = document.documentElement;
+    root.classList.remove('text-scale-normal', 'text-scale-large', 'text-scale-xlarge');
+    root.classList.add(`text-scale-${textSizePreference}`);
+  }, [textSizePreference]);
+
+  useEffect(() => {
+    const updateThemeAndPrefs = () => {
       const prefs = getUserStudyPreferences();
       setThemePreference(prefs.themePreference || 'slate');
+      setTextSizePreference(prefs.textSizePreference || 'large');
     };
-    window.addEventListener('greek_deck_user_change', updateTheme);
-    window.addEventListener('greek_deck_prefs_change', updateTheme);
+    window.addEventListener('greek_deck_user_change', updateThemeAndPrefs);
+    window.addEventListener('greek_deck_prefs_change', updateThemeAndPrefs);
     return () => {
-      window.removeEventListener('greek_deck_user_change', updateTheme);
-      window.removeEventListener('greek_deck_prefs_change', updateTheme);
+      window.removeEventListener('greek_deck_user_change', updateThemeAndPrefs);
+      window.removeEventListener('greek_deck_prefs_change', updateThemeAndPrefs);
     };
   }, []);
 

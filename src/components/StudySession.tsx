@@ -719,75 +719,103 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const renderExamples = (card: CardEntry) => {
     if (!card.example_el && !card.example2_el) return null;
     return (
-      <div className="space-y-2 max-w-lg w-full mx-auto select-text">
+      <div className="space-y-2 max-w-lg w-full mx-auto select-none">
         {card.example_el && (
-          <div className="text-left bg-slate-800/80 p-2 sm:p-2.5 rounded-xl border border-slate-700/70 shadow-sm flex items-start justify-between gap-2.5">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (card.example_audio) {
+                playSentenceAudio(card.example_audio);
+              }
+            }}
+            className={`w-full text-left p-2.5 sm:p-3 rounded-xl border transition-all flex items-start justify-between gap-3 group relative cursor-pointer active:scale-[0.99] shadow-sm ${
+              playingSentenceAudio === card.example_audio
+                ? 'bg-teal-950/60 border-teal-400 ring-2 ring-teal-400/40 shadow-teal-900/40'
+                : 'bg-slate-800/80 hover:bg-slate-800/95 border-slate-700/70 hover:border-teal-500/60 hover:shadow-md'
+            }`}
+            title={
+              card.example_audio
+                ? playingSentenceAudio === card.example_audio
+                  ? 'Click to pause sentence audio'
+                  : 'Click to play sentence audio'
+                : undefined
+            }
+          >
             <div className="flex-1 min-w-0">
-              <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium leading-relaxed">
+              <div className="font-serif text-teal-300 group-hover:text-teal-200 text-xs sm:text-sm font-medium leading-relaxed transition-colors">
                 {card.example_el}
               </div>
               {card.example_en && (
-                <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">
+                <div className="text-slate-400 group-hover:text-slate-300 text-[11px] sm:text-xs mt-0.5 transition-colors">
                   {card.example_en}
                 </div>
               )}
             </div>
             {card.example_audio && (
-              <button
-                type="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  playSentenceAudio(card.example_audio!);
-                }}
-                className={`p-1.5 rounded-lg border transition-all shrink-0 mt-0.5 ${
+              <div
+                className={`p-1.5 sm:p-2 rounded-lg border transition-all shrink-0 mt-0.5 flex items-center justify-center ${
                   playingSentenceAudio === card.example_audio
-                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50'
-                    : 'bg-teal-950/70 hover:bg-teal-900/90 text-teal-300 border-teal-700/60 hover:text-white'
+                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50 animate-pulse'
+                    : 'bg-teal-950/70 group-hover:bg-teal-900/90 text-teal-300 border-teal-700/60 group-hover:text-white group-hover:border-teal-500/60'
                 }`}
-                title="Play Sentence 1 audio"
               >
-                <Volume2 className="w-3.5 h-3.5" />
-              </button>
+                <Volume2 className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
+              </div>
             )}
-          </div>
+          </button>
         )}
         {card.example2_el && (
-          <div className="text-left bg-slate-800/80 p-2 sm:p-2.5 rounded-xl border border-slate-700/70 shadow-sm flex items-start justify-between gap-2.5">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (card.example2_audio) {
+                playSentenceAudio(card.example2_audio);
+              }
+            }}
+            className={`w-full text-left p-2.5 sm:p-3 rounded-xl border transition-all flex items-start justify-between gap-3 group relative cursor-pointer active:scale-[0.99] shadow-sm ${
+              playingSentenceAudio === card.example2_audio
+                ? 'bg-teal-950/60 border-teal-400 ring-2 ring-teal-400/40 shadow-teal-900/40'
+                : 'bg-slate-800/80 hover:bg-slate-800/95 border-slate-700/70 hover:border-teal-500/60 hover:shadow-md'
+            }`}
+            title={
+              card.example2_audio
+                ? playingSentenceAudio === card.example2_audio
+                  ? 'Click to pause sentence audio'
+                  : 'Click to play sentence audio'
+                : undefined
+            }
+          >
             <div className="flex-1 min-w-0">
-              <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium leading-relaxed">
+              <div className="font-serif text-teal-300 group-hover:text-teal-200 text-xs sm:text-sm font-medium leading-relaxed transition-colors">
                 {card.example2_el}
               </div>
               {card.example2_en && (
-                <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">
+                <div className="text-slate-400 group-hover:text-slate-300 text-[11px] sm:text-xs mt-0.5 transition-colors">
                   {card.example2_en}
                 </div>
               )}
             </div>
             {card.example2_audio && (
-              <button
-                type="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  playSentenceAudio(card.example2_audio!);
-                }}
-                className={`p-1.5 rounded-lg border transition-all shrink-0 mt-0.5 ${
+              <div
+                className={`p-1.5 sm:p-2 rounded-lg border transition-all shrink-0 mt-0.5 flex items-center justify-center ${
                   playingSentenceAudio === card.example2_audio
-                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50'
-                    : 'bg-teal-950/70 hover:bg-teal-900/90 text-teal-300 border-teal-700/60 hover:text-white'
+                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50 animate-pulse'
+                    : 'bg-teal-950/70 group-hover:bg-teal-900/90 text-teal-300 border-teal-700/60 group-hover:text-white group-hover:border-teal-500/60'
                 }`}
-                title="Play Sentence 2 audio"
               >
-                <Volume2 className="w-3.5 h-3.5" />
-              </button>
+                <Volume2 className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
+              </div>
             )}
-          </div>
+          </button>
         )}
       </div>
     );
   };
 
   return (
-    <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 pb-20">
+    <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 pb-14">
       {/* Centralized Native Audio Element (Single-source to prevent double playback) */}
       <audio
         ref={audioRef}
@@ -1096,12 +1124,12 @@ export const StudySession: React.FC<StudySessionProps> = ({
           onClick={handleFlip}
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className={`relative w-full h-[430px] sm:h-[475px] min-h-[430px] sm:min-h-[475px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
+          className={`relative w-full h-[442px] sm:h-[487px] min-h-[442px] sm:min-h-[487px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
             isFlipped ? 'rotate-y-180' : ''
           }`}
         >
           {/* ================= CARD FRONT ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-5 sm:p-7 flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30 overflow-hidden">
+          <div className="absolute inset-0 w-full h-full rounded-3xl p-[14px] sm:p-[22px] flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30 overflow-hidden">
             {/* Top Bar on Front: Word Info (Gender / POS) on Left, Rating Badge on Right */}
             <div className="h-8 shrink-0 flex items-center justify-between gap-3 w-full select-none">
               {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
@@ -1318,7 +1346,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           </div>
 
           {/* ================= CARD BACK (REVEAL) ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-5 sm:p-7 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30 overflow-hidden">
+          <div className="absolute inset-0 w-full h-full rounded-3xl p-[14px] sm:p-[22px] flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30 overflow-hidden">
             {/* Top Bar on Back: Word Info (Gender / POS) on Left, Rating Badge on Right */}
             <div className="h-8 shrink-0 flex items-center justify-between gap-3 w-full select-none">
               {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}

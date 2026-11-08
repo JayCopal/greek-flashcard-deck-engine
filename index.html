@@ -16,6 +16,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var activeId = localStorage.getItem('greek_deck_active_user');
+          var key = activeId ? 'greek_deck_study_prefs_' + activeId : null;
+          var raw = key ? localStorage.getItem(key) : null;
+          var prefs = raw ? JSON.parse(raw) : null;
+          var size = (prefs && prefs.textSizePreference) || 'large';
+          document.documentElement.classList.remove('text-scale-normal', 'text-scale-large', 'text-scale-xlarge');
+          document.documentElement.classList.add('text-scale-' + size);
+        } catch (e) {
+          document.documentElement.classList.add('text-scale-large');
+        }
+      })();
+    </script>
   </head>
   <body class="bg-slate-900 text-slate-100 min-h-screen antialiased selection:bg-sky-500 selection:text-white">
     <div id="root"></div>

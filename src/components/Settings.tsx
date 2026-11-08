@@ -629,6 +629,64 @@ export const Settings: React.FC<SettingsProps> = ({
             </div>
           </div>
 
+          {/* Text Size / Scaling Preference */}
+          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-slate-200 flex items-center gap-1.5">
+                <Type className="w-3.5 h-3.5 text-sky-400" />
+                Text Size
+              </span>
+              <span className="text-[11px] font-bold text-sky-300">
+                {studyPrefs.textSizePreference === 'normal'
+                  ? 'Standard (100%)'
+                  : studyPrefs.textSizePreference === 'xlarge'
+                  ? 'Extra Large (+50%)'
+                  : '+25% (Default)'}
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-400 leading-relaxed">
+              Scale all text across the PWA for enhanced readability. Default is 25% larger.
+            </p>
+            <div className="grid grid-cols-3 gap-2 pt-1">
+              <button
+                type="button"
+                onClick={() => updatePreference({ textSizePreference: 'normal' })}
+                className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all flex flex-col items-center justify-center gap-0.5 ${
+                  studyPrefs.textSizePreference === 'normal'
+                    ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
+                    : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
+                }`}
+              >
+                <span>100%</span>
+                <span className="text-[10px] opacity-75 font-normal">Standard</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => updatePreference({ textSizePreference: 'large' })}
+                className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all flex flex-col items-center justify-center gap-0.5 ${
+                  studyPrefs.textSizePreference === 'large' || !studyPrefs.textSizePreference
+                    ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
+                    : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
+                }`}
+              >
+                <span>+25%</span>
+                <span className="text-[10px] opacity-75 font-normal">Default</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => updatePreference({ textSizePreference: 'xlarge' })}
+                className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all flex flex-col items-center justify-center gap-0.5 ${
+                  studyPrefs.textSizePreference === 'xlarge'
+                    ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
+                    : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
+                }`}
+              >
+                <span>+50%</span>
+                <span className="text-[10px] opacity-75 font-normal">Largest</span>
+              </button>
+            </div>
+          </div>
+
           {/* Default Audio Playback Speed */}
           <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
             <div className="flex items-center justify-between">
