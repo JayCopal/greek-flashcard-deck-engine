@@ -1239,7 +1239,7 @@ if "unit-00" not in existing_unit_ids:
     unit_00_entry = {
         "id": "unit-00",
         "title": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
-        "order": "OG-00-A",
+        "order": "A1-00-A",
         "lessons": [
             {
                 "id": "lesson-01",

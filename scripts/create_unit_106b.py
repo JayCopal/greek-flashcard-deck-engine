@@ -1,0 +1,900 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 106 B from Klik A1 (Pages 111-134):
+Ενότητα 5: Ετοιμάζω ταξίδι! - Γραμματική & Προτάσεις
+Focuses on full sentences, grammar structures, modal verbs with Aorist Subjunctive
+(θέλω/μπορώ/πρέπει/λέω να + εξαρτημένος τύπος), comparative degrees of adjectives
+(πιο + επίθετο + από + αιτιατική), public transit navigation and schedules,
+hotel reservations and pricing, and travel communication.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-106b"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u106b = [
+    # =========================================================================
+    # 1. Modal Verbs with Dependent Aorist Subjunctive (θέλω/μπορώ/πρέπει/λέω να)
+    #    (pp. 115-118)
+    # =========================================================================
+    {
+        "id": "A1-U106B-001",
+        "greek": "Θέλω να πάω ένα ταξίδι στην Ελλάδα.",
+        "phonetic_hint": "THEH-lo nah PAH-o EH-nah tahk-SEE-thee steen eh-LAH-thah",
+        "english": "I want to go on a trip to Greece.",
+        "notes": "Klik A1 p. 111, 115. Grammar: 'θέλω να' + subjunctive of irregular verb πηγαίνω/πάω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σχέδια έχεις για το καλοκαίρι; — Θέλω να πάω ένα ταξίδι στην Ελλάδα.",
+        "example_en": "— What plans do you have for the summer? — I want to go on a trip to Greece.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing desires for holiday travel"
+    },
+    {
+        "id": "A1-U106B-002",
+        "greek": "Πρέπει να αγοράσουμε τα εισιτήρια σήμερα.",
+        "phonetic_hint": "PREH-pee nah ah-go-RAH-soo-meh tah ee-see-TEE-ree-ah SEE-meh-rah",
+        "english": "We must buy the tickets today.",
+        "notes": "Klik A1 p. 111, 115. Grammar: impersonal modal 'πρέπει να' + Aorist Subjunctive 1st person plural (αγοράσουμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε θα πάρουμε τα εισιτήρια; — Πρέπει να αγοράσουμε τα εισιτήρια σήμερα.",
+        "example_en": "— When shall we get the tickets? — We must buy the tickets today.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing necessity and urgent booking tasks"
+    },
+    {
+        "id": "A1-U106B-003",
+        "greek": "Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο;",
+        "phonetic_hint": "bo-REE-teh nah KLEE-seh-teh EH-nah tho-MAH-tee-o sto thee-ah-THEEK-tee-o",
+        "english": "Can you book a room on the internet?",
+        "notes": "Klik A1 p. 111, 115. Grammar: polite question 'μπορείτε να' (2nd person plural) + Aorist Subjunctive (κλείσετε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Δεν έχω υπολογιστή. Μπορείτε να κλείσετε ένα δωμάτιο στο διαδίκτυο; — Βεβαίως, αμέσως.",
+        "example_en": "— I don't have a computer. Can you book a room on the internet? — Certainly, right away.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Making polite requests for accommodation booking"
+    },
+    {
+        "id": "A1-U106B-004",
+        "greek": "Λέω να πάμε στο βουνό ή στη θάλασσα;",
+        "phonetic_hint": "LEH-o nah PAH-meh sto voo-NO ee stee THAH-lah-sah",
+        "english": "Shall we go to the mountain or to the sea?",
+        "notes": "Klik A1 p. 111, 115. Grammar: 'λέω να' expressing suggestion or tentative plan + subjunctive 1st plural (πάμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Λέω να πάμε στο βουνό ή στη θάλασσα; — Προτιμώ να πάμε στη θάλασσα.",
+        "example_en": "— Shall we go to the mountain or to the sea? — I prefer going to the sea.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Proposing destination options"
+    },
+    {
+        "id": "A1-U106B-005",
+        "greek": "Πρέπει να φτιάξω τη βαλίτσα μου απόψε το βράδυ.",
+        "phonetic_hint": "PREH-pee nah FTYAH-kso tee vah-LEET-sah moo ah-PO-pseh to VRAH-thee",
+        "english": "I must pack my suitcase tonight.",
+        "notes": "Klik A1 p. 114, 118. Grammar: 'πρέπει να' + Aorist Subjunctive 1st singular of φτιάχνω (φτιάξω).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έρχεσαι για καφέ; — Όχι, πρέπει να φτιάξω τη βαλίτσα μου απόψε το βράδυ.",
+        "example_en": "— Are you coming for coffee? — No, I must pack my suitcase tonight.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating packing requirements before departure"
+    },
+    {
+        "id": "A1-U106B-006",
+        "greek": "Θέλω να αγοράσω μια καινούργια φωτογραφική μηχανή.",
+        "phonetic_hint": "THEH-lo nah ah-go-RAH-so mee-ah keh-NOOR-gyah foh-toh-grah-fee-KEE mee-khah-NEE",
+        "english": "I want to buy a new camera.",
+        "notes": "Klik A1 p. 111, 116. Grammar: 'θέλω να' + Aorist Subjunctive (αγοράσω) + feminine accusative noun phrase.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι θέλεις να πάρεις για το ταξίδι; — Θέλω να αγοράσω μια καινούργια φωτογραφική μηχανή.",
+        "example_en": "— What do you want to get for the trip? — I want to buy a new camera.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing intention to purchase travel equipment"
+    },
+    {
+        "id": "A1-U106B-007",
+        "greek": "Μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη;",
+        "phonetic_hint": "bo-RO nah ah-NEEK-so to pah-RAH-thee-ro yah-TEE EH-khee ZEH-stee",
+        "english": "Can I open the window, because it is hot?",
+        "notes": "Klik A1 p. 116, 118. Grammar: permission inquiry 'μπορώ να' + Aorist Subjunctive of ανοίγω (ανοίξω).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Συγγνώμη, μπορώ να ανοίξω το παράθυρο, γιατί έχει ζέστη; — Ναι, φυσικά.",
+        "example_en": "— Excuse me, can I open the window, because it is hot? — Yes, of course.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for permission politely in transport or rooms"
+    },
+    {
+        "id": "A1-U106B-008",
+        "greek": "Πρέπει να φύγουμε νωρίς για να μη χάσουμε το πλοίο.",
+        "phonetic_hint": "PREH-pee nah FEE-goo-meh no-REES yah nah mee KHAH-soo-meh to PLEE-o",
+        "english": "We must leave early so we don't miss the ferry.",
+        "notes": "Klik A1 p. 116, 117. Grammar: 'πρέπει να φύγουμε' + negative purpose clause 'για να μη χάσουμε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι ώρα θα ξεκινήσουμε; — Πρέπει να φύγουμε νωρίς για να μη χάσουμε το πλοίο.",
+        "example_en": "— What time shall we set off? — We must leave early so we don't miss the ferry.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Coordinating timely departure for travel"
+    },
+    {
+        "id": "A1-U106B-009",
+        "greek": "Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.",
+        "phonetic_hint": "SEE-meh-rah LEH-o nah mee vgo EH-kso yah-TEE VREH-khee O-lee MEH-rah",
+        "english": "Today I'm thinking of not going out, because it's raining all day.",
+        "notes": "Klik A1 p. 116. Grammar: negative subjunctive with 'να μη + βγω' (dependent form of βγαίνω).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πάμε μια βόλτα; — Σήμερα λέω να μη βγω έξω, γιατί βρέχει όλη μέρα.",
+        "example_en": "— Shall we go for a walk? — Today I'm thinking of not going out, because it's raining all day.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating intentions to stay indoors due to bad weather"
+    },
+    {
+        "id": "A1-U106B-010",
+        "greek": "Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;",
+        "phonetic_hint": "THEH-lees nah FAH-meh seh EH-nah pah-rah-tho-see-ah-KO eh-stee-ah-TO-ree-o",
+        "english": "Do you want us to eat at a traditional restaurant?",
+        "notes": "Klik A1 p. 115, 117, 118. Grammar: 'θέλεις να' + Aorist Subjunctive 1st plural of τρώω (φάμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού θα πάμε για φαγητό; — Θέλεις να φάμε σε ένα παραδοσιακό εστιατόριο;",
+        "example_en": "— Where shall we go to eat? — Do you want us to eat at a traditional restaurant?",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Proposing dining options during travel"
+    },
+    {
+        "id": "A1-U106B-011",
+        "greek": "Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν φύγουμε;",
+        "phonetic_hint": "bo-ROO-meh nah PYOO-meh EH-nahn kah-FEH sto lee-MAH-nee preen FEE-goo-meh",
+        "english": "Can we have a coffee at the port before we leave?",
+        "notes": "Klik A1 p. 117, 118. Grammar: 'μπορούμε να' + subjunctive of πίνω (πιούμε) + temporal clause 'πριν φύγουμε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχουμε ακόμα μισή ώρα. Μπορούμε να πιούμε έναν καφέ στο λιμάνι πριν φύγουμε; — Πολύ καλή ιδέα!",
+        "example_en": "— We still have half an hour. Can we have a coffee at the port before we leave? — Great idea!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Suggesting a pre-departure coffee break"
+    },
+    {
+        "id": "A1-U106B-012",
+        "greek": "Πρέπει να μάθω μια ξένη γλώσσα για να σπουδάσω στο εξωτερικό.",
+        "phonetic_hint": "PREH-pee nah MAH-tho mee-ah KSEH-nee GLOH-sah yah nah spoo-THAH-so sto ehk-so-teh-ree-KO",
+        "english": "I must learn a foreign language in order to study abroad.",
+        "notes": "Klik A1 p. 117, 118. Grammar: 'πρέπει να μάθω' (dependent of μαθαίνω) + 'για να σπουδάσω' (dependent of σπουδάζω).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γιατί κάνεις εντατικά μαθήματα; — Πρέπει να μάθω μια ξένη γλώσσα για να σπουδάσω στο εξωτερικό.",
+        "example_en": "— Why are you doing intensive lessons? — I must learn a foreign language in order to study abroad.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining educational and language learning goals"
+    },
+    {
+        "id": "A1-U106B-013",
+        "greek": "Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο;",
+        "phonetic_hint": "tee O-rah bo-REE nah EHR-thee to tahk-SEE sto kseh-no-tho-KHEE-o",
+        "english": "What time can the taxi arrive at the hotel?",
+        "notes": "Klik A1 p. 117. Grammar: question with 'μπορεί να' + dependent of irregular verb έρχομαι (έρθει).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι ώρα μπορεί να έρθει το ταξί στο ξενοδοχείο; — Μπορεί να είναι εδώ στις επτά και μισή.",
+        "example_en": "— What time can the taxi arrive at the hotel? — It can be here at seven thirty.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Scheduling taxi arrival at accommodation"
+    },
+    {
+        "id": "A1-U106B-014",
+        "greek": "Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο κοντά στο κέντρο.",
+        "phonetic_hint": "PREH-pee nah VROO-meh EH-nah ee-ko-no-mee-KO kseh-no-tho-KHEE-o kon-DAH sto KEN-tro",
+        "english": "We must find an economical hotel near the center.",
+        "notes": "Klik A1 p. 117. Grammar: 'πρέπει να' + dependent of irregular verb βρίσκω (βρούμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού θα μείνουμε στην Αθήνα; — Πρέπει να βρούμε ένα οικονομικό ξενοδοχείο κοντά στο κέντρο.",
+        "example_en": "— Where will we stay in Athens? — We must find an economical hotel near the center.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Prioritizing central and affordable lodging"
+    },
+    {
+        "id": "A1-U106B-015",
+        "greek": "Μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός;",
+        "phonetic_hint": "bo-REE-teh nah moo PEE-teh poo EE-neh o see-thee-ro-thro-mee-KOS stahth-MOS",
+        "english": "Can you tell me where the railway station is?",
+        "notes": "Klik A1 p. 117, 120. Grammar: polite formula 'μπορείτε να μου πείτε' (λέω -> πείτε) + indirect question.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Με συγχωρείτε, μπορείτε να μου πείτε πού είναι ο σιδηροδρομικός σταθμός; — Βεβαίως, στην επόμενη γωνία.",
+        "example_en": "— Excuse me, can you tell me where the railway station is? — Certainly, around the next corner.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for station directions politely"
+    },
+    {
+        "id": "A1-U106B-016",
+        "greek": "Θέλω να μείνω σε ένα δίκλινο δωμάτιο με πρωινό.",
+        "phonetic_hint": "THEH-lo nah MEE-no seh EH-nah THEE-klee-no tho-MAH-tee-o meh pro-ee-NO",
+        "english": "I want to stay in a double room with breakfast.",
+        "notes": "Klik A1 p. 113, 115, 121. Grammar: 'θέλω να μείνω' (dependent of μένω) + prepositional phrase.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι είδους δωμάτιο ψάχνετε; — Θέλω να μείνω σε ένα δίκλινο δωμάτιο με πρωινό.",
+        "example_en": "— What kind of room are you looking for? — I want to stay in a double room with breakfast.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Specifying room type preferences to reception"
+    },
+    {
+        "id": "A1-U106B-017",
+        "greek": "Πρέπει να προσέχεις τα προσωπικά σου αντικείμενα στον σταθμό.",
+        "phonetic_hint": "PREH-pee nah pro-SEH-khees tah pro-so-pee-KAH soo ahn-dee-KEE-meh-nah ston stahth-MO",
+        "english": "You must watch your personal belongings at the station.",
+        "notes": "Klik A1 p. 116. Grammar: 'πρέπει να' + subjunctive of προσέχω (προσέχεις) + plural accusative direct object.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχει πάρα πολύ κόσμο εδώ! — Ναι, πρέπει να προσέχεις τα προσωπικά σου αντικείμενα στον σταθμό.",
+        "example_en": "— It is very crowded here! — Yes, you must watch your personal belongings at the station.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Giving safety advice in public transit areas"
+    },
+    {
+        "id": "A1-U106B-018",
+        "greek": "Λέμε να ταξιδέψουμε με το πλοίο αντί για το αεροπλάνο.",
+        "phonetic_hint": "LEH-meh nah tahk-see-THEHP-soo-meh meh to PLEE-o ahn-DEE yah to ah-eh-ro-PLAH-no",
+        "english": "We are thinking of travelling by ferry instead of by airplane.",
+        "notes": "Klik A1 p. 113, 115. Grammar: 'λέμε να' (1st plural) + Aorist Subjunctive of ταξιδεύω (ταξιδέψουμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς θα πάτε στην Κρήτη; — Λέμε να ταξιδέψουμε με το πλοίο αντί για το αεροπλάνο.",
+        "example_en": "— How will you go to Crete? — We are thinking of travelling by ferry instead of by airplane.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing preferred transit modes"
+    },
+    {
+        "id": "A1-U106B-019",
+        "greek": "Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ;",
+        "phonetic_hint": "bo-REES nah moo THOH-sees to ee-see-TEE-ree-o moo seh pah-rah-kah-LO",
+        "english": "Can you give me my ticket, please?",
+        "notes": "Klik A1 p. 117. Grammar: 'μπορείς να' + dependent of irregular verb δίνω (δώσεις) + clitic pronoun μου.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Φτάνουμε στον έλεγχο. Μπορείς να μου δώσεις το εισιτήριό μου, σε παρακαλώ; — Ορίστε, το έχω εδώ.",
+        "example_en": "— We are arriving at the check-in. Can you give me my ticket, please? — Here you go, I have it right here.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Requesting documents during travel checks"
+    },
+    {
+        "id": "A1-U106B-020",
+        "greek": "Πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.",
+        "phonetic_hint": "PREH-pee nah VAH-loo-meh tah ROO-khah stee vah-LEET-sah TO-rah",
+        "english": "We must put the clothes into the suitcase now.",
+        "notes": "Klik A1 p. 117. Grammar: 'πρέπει να' + dependent of irregular verb βάζω (βάλουμε).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Η ώρα περνάει! — Ναι, πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα.",
+        "example_en": "— Time is flying! — Yes, we must put the clothes into the suitcase now.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Organizing luggage packing"
+    },
+
+    # =========================================================================
+    # 2. Comparative Degree of Adjectives (πιο + επίθετο + από + αιτιατική)
+    #    (pp. 129-130)
+    # =========================================================================
+    {
+        "id": "A1-U106B-021",
+        "greek": "Το ξενοδοχείο αυτό είναι πιο ακριβό από το άλλο.",
+        "phonetic_hint": "to kseh-no-tho-KHEE-o ahf-TO EE-neh PYO ah-kree-VO ah-PO to AHL-lo",
+        "english": "This hotel is more expensive than the other one.",
+        "notes": "Klik A1 p. 129. Grammar: comparative construction 'πιο + επίθετο + από + αιτιατική'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιο ξενοδοχείο να επιλέξουμε; — Το ξενοδοχείο αυτό είναι πιο ακριβό από το άλλο, αλλά έχει πισίνα.",
+        "example_en": "— Which hotel shall we choose? — This hotel is more expensive than the other one, but it has a pool.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing hotel prices"
+    },
+    {
+        "id": "A1-U106B-022",
+        "greek": "Η εκδρομή στη Βέροια είναι πιο φθηνή από την εκδρομή στην Αθήνα.",
+        "phonetic_hint": "ee ek-thro-MEE stee VEH-ree-ah EE-neh PYO fthee-NEE ah-PO teen ek-thro-MEE steen ah-THEE-nah",
+        "english": "The excursion to Veroia is cheaper than the excursion to Athens.",
+        "notes": "Klik A1 p. 119, 129. Grammar: comparative of feminine adjective: 'πιο φθηνή από + αιτιατική'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνουν οι εκδρομές; — Η εκδρομή στη Βέροια είναι πιο φθηνή από την εκδρομή στην Αθήνα.",
+        "example_en": "— How much do the excursions cost? — The excursion to Veroia is cheaper than the excursion to Athens.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing tour package rates"
+    },
+    {
+        "id": "A1-U106B-023",
+        "greek": "Το αεροπλάνο είναι πιο γρήγορο από το τρένο.",
+        "phonetic_hint": "to ah-eh-ro-PLAH-no EE-neh PYO GREE-go-ro ah-PO to TREH-no",
+        "english": "The airplane is faster than the train.",
+        "notes": "Klik A1 p. 129, 130. Grammar: comparative 'πιο γρήγορο από' with neuter nouns.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γιατί παίρνεις αεροπλάνο; — Επειδή το αεροπλάνο είναι πιο γρήγορο από το τρένο.",
+        "example_en": "— Why are you taking a plane? — Because the airplane is faster than the train.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing travel speed between transit modes"
+    },
+    {
+        "id": "A1-U106B-024",
+        "greek": "Το πλοίο είναι πιο αργό από το αεροπλάνο.",
+        "phonetic_hint": "to PLEE-o EE-neh PYO ar-GO ah-PO to ah-eh-ro-PLAH-no",
+        "english": "The ferry is slower than the airplane.",
+        "notes": "Klik A1 p. 130. Grammar: comparative of αργός: 'πιο αργό από'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Κάνει πολλές ώρες το ταξίδι; — Ναι, το πλοίο είναι πιο αργό από το αεροπλάνο.",
+        "example_en": "— Does the trip take many hours? — Yes, the ferry is slower than the airplane.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Contrasting transit durations"
+    },
+    {
+        "id": "A1-U106B-025",
+        "greek": "Η Μαρία είναι πιο ψηλή από την Ελένη.",
+        "phonetic_hint": "ee mah-REE-ah EE-neh PYO psee-LEE ah-PO teen eh-LEH-nee",
+        "english": "Maria is taller than Eleni.",
+        "notes": "Klik A1 p. 129. Textbook example: comparative degree of ψηλός with feminine proper nouns.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποια είναι η πιο ψηλή κοπέλα; — Η Μαρία είναι πιο ψηλή από την Ελένη.",
+        "example_en": "— Who is the taller girl? — Maria is taller than Eleni.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing physical attributes of individuals"
+    },
+    {
+        "id": "A1-U106B-026",
+        "greek": "Ο Νίκος είναι πιο νέος από τον Κώστα.",
+        "phonetic_hint": "o NEE-kos EE-neh PYO NEH-os ah-PO ton KOH-stah",
+        "english": "Nikos is younger than Kostas.",
+        "notes": "Klik A1 p. 129. Textbook example: comparative degree of νέος with masculine proper nouns.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιος είναι μικρότερος σε ηλικία; — Ο Νίκος είναι πιο νέος από τον Κώστα.",
+        "example_en": "— Who is younger in age? — Nikos is younger than Kostas.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing relative age"
+    },
+    {
+        "id": "A1-U106B-027",
+        "greek": "Αυτό το δωμάτιο είναι πιο μεγάλο από το προηγούμενο.",
+        "phonetic_hint": "ahf-TO to tho-MAH-tee-o EE-neh PYO meh-GAH-lo ah-PO to pro-ee-YOO-meh-no",
+        "english": "This room is bigger than the previous one.",
+        "notes": "Klik A1 p. 130. Grammar: comparative of μεγάλος: 'πιο μεγάλο από'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσει το νέο σου δωμάτιο; — Ναι, αυτό το δωμάτιο είναι πιο μεγάλο από το προηγούμενο.",
+        "example_en": "— Do you like your new room? — Yes, this room is bigger than the previous one.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing room sizes in accommodations"
+    },
+    {
+        "id": "A1-U106B-028",
+        "greek": "Η δική σου βαλίτσα είναι πιο βαριά από τη δική μου.",
+        "phonetic_hint": "ee thee-KEE soo vah-LEET-sah EE-neh PYO vah-RYAH ah-PO tee thee-KEE moo",
+        "english": "Your suitcase is heavier than mine.",
+        "notes": "Klik A1 p. 130. Grammar: comparative with emphatic possessives (η δική σου / η δική μου).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποια βαλίτσα έχει υπέρβαρο; — Η δική σου βαλίτσα είναι πιο βαριά από τη δική μου.",
+        "example_en": "— Which suitcase is overweight? — Your suitcase is heavier than mine.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing luggage weight"
+    },
+
+    # =========================================================================
+    # 3. Public Transit Directions, Bus Lines & Schedules (pp. 120-125)
+    # =========================================================================
+    {
+        "id": "A1-U106B-029",
+        "greek": "Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.",
+        "phonetic_hint": "meh PYO leh-o-fo-REE-o pee-GEH-nees steen kah-lah-mah-RYAH? — meh to leh-o-fo-REE-o PEN-deh",
+        "english": "Which bus do you take to Kalamaria? — With bus number five.",
+        "notes": "Klik A1 p. 120, 122. Communicative transit inquiry: 'με ποιο λεωφορείο + πηγαίνεις;'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Με ποιο λεωφορείο πηγαίνεις στην Καλαμαριά; — Με το λεωφορείο πέντε.",
+        "example_en": "— Which bus do you take to Kalamaria? — With bus number five.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for and stating specific bus routes"
+    },
+    {
+        "id": "A1-U106B-030",
+        "greek": "Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.",
+        "phonetic_hint": "KAH-theh PO-so per-NAH-ee to leh-o-fo-REE-o THEH-kah? — per-NAH-ee KAH-theh THEH-kah lep-TAH",
+        "english": "How often does bus ten pass by? — It comes every ten minutes.",
+        "notes": "Klik A1 p. 120, 122. Formula for transit frequency: 'κάθε πόσο περνάει...;'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Κάθε πόσο περνάει το λεωφορείο δέκα; — Περνάει κάθε δέκα λεπτά.",
+        "example_en": "— How often does bus ten pass by? — It comes every ten minutes.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about bus service frequency"
+    },
+    {
+        "id": "A1-U106B-031",
+        "greek": "Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι τις έξι.",
+        "phonetic_hint": "MEHKH-ree tee O-rah EE-seh sto grah-FEE-o SEE-meh-rah? — EE-meh ah-PO tees ehn-NEH-ah MEHKH-ree tees EHK-see",
+        "english": "Until what time are you at the office today? — I am there from nine to six.",
+        "notes": "Klik A1 p. 111, 122. Time range formula: 'από τις ... μέχρι τις ...'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μέχρι τι ώρα είσαι στο γραφείο σήμερα; — Είμαι από τις εννέα μέχρι τις έξι.",
+        "example_en": "— Until what time are you at the office today? — I am there from nine to six.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating work hours and time intervals"
+    },
+    {
+        "id": "A1-U106B-032",
+        "greek": "Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.",
+        "phonetic_hint": "ah-PO poo per-NAH-ee to tree-AHN-dah EH-nah? — per-NAH-ee ah-PO teen plah-TEE-ah ah-ree-sto-TEH-loos",
+        "english": "Where does bus thirty-one pass from? — It passes through Aristotelous Square.",
+        "notes": "Klik A1 p. 122, 125. Spatial preposition 'από' + accusative for transit routing.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Από πού περνάει το τριάντα ένα; — Περνάει από την πλατεία Αριστοτέλους.",
+        "example_en": "— Where does bus thirty-one pass from? — It passes through Aristotelous Square.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for landmarks along a bus route"
+    },
+    {
+        "id": "A1-U106B-033",
+        "greek": "Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις στη στάση Βενιζέλου.",
+        "phonetic_hint": "PRO-tah PER-nees to THEH-kah keh meh-TAH kah-teh-VEH-nees stee STAH-see veh-nee-ZEH-loo",
+        "english": "First you take bus ten and then you get off at the Venizelou stop.",
+        "notes": "Klik A1 p. 125. Sequential navigation instructions: 'πρώτα ... και μετά ...'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς θα πάω στο κέντρο; — Πρώτα παίρνεις το δέκα και μετά κατεβαίνεις στη στάση Βενιζέλου.",
+        "example_en": "— How do I get downtown? — First you take bus ten and then you get off at the Venizelou stop.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Giving multi-step transit directions"
+    },
+    {
+        "id": "A1-U106B-034",
+        "greek": "Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία στάση.",
+        "phonetic_hint": "seh PYA STAH-see PREH-pee nah kah-TEH-vo yah to ah-eh-ro-THRO-mee-o? — steen teh-lef-TEH-ah STAH-see",
+        "english": "At which stop do I need to get off for the airport? — At the last stop.",
+        "notes": "Klik A1 p. 121, 122, 125. Transit question: 'σε ποια στάση πρέπει να κατέβω...;'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία στάση.",
+        "example_en": "— At which stop do I need to get off for the airport? — At the last stop.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Confirming the correct stop to disembark"
+    },
+    {
+        "id": "A1-U106B-035",
+        "greek": "Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε το εισιτήριο.",
+        "phonetic_hint": "ah-neh-VEH-noo-meh sto leh-o-fo-REE-o keh eh-pee-kee-RO-noo-meh to ee-see-TEE-ree-o",
+        "english": "We get on the bus and validate the ticket.",
+        "notes": "Klik A1 p. 121, 122. Transit verbs: ανεβαίνω + στο + λεωφορείο.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι κάνουμε όταν μπαίνουμε; — Ανεβαίνουμε στο λεωφορείο και επικυρώνουμε το εισιτήριο.",
+        "example_en": "— What do we do when we board? — We get on the bus and validate the ticket.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing standard boarding and ticketing procedures"
+    },
+    {
+        "id": "A1-U106B-036",
+        "greek": "Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.",
+        "phonetic_hint": "PO-see O-rah KAH-nee to leh-o-fo-REE-o yah teen kah-VAH-lah? — KAH-nee peh-REE-poo THEE-o O-res",
+        "english": "How long does the bus take to Kavala? — It takes about two hours.",
+        "notes": "Klik A1 p. 121, 123. Duration formula with transit vehicle: 'κάνει + χρόνο'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόση ώρα κάνει το λεωφορείο για την Καβάλα; — Κάνει περίπου δύο ώρες.",
+        "example_en": "— How long does the bus take to Kavala? — It takes about two hours.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about journey duration"
+    },
+
+    # =========================================================================
+    # 4. Hotel Booking, Prices in Hundreds & Package Rates (pp. 119-123)
+    # =========================================================================
+    {
+        "id": "A1-U106B-037",
+        "greek": "Γεια σας, θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για τρεις νύχτες.",
+        "phonetic_hint": "YAH sahs, thah EE-theh-lah nah KLEE-so EH-nah THEE-klee-no tho-MAH-tee-o yah trees NEEKH-tes",
+        "english": "Hello, I would like to book a double room for three nights.",
+        "notes": "Klik A1 p. 115, 121. Standard polite reservation opening: 'θα ήθελα να κλείσω...'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ξενοδοχείο «Αστήρ», εμπρός! — Γεια σας, θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για τρεις νύχτες.",
+        "example_en": "— Hotel Aster, hello! — Hello, I would like to book a double room for three nights.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Opening a hotel room reservation dialogue"
+    },
+    {
+        "id": "A1-U106B-038",
+        "greek": "Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα ευρώ.",
+        "phonetic_hint": "PO-so koh-STEE-zee to mo-NO-klee-no tho-MAH-tee-o meh pro-ee-NO? — koh-STEE-zee ehv-tho-MEEN-dah ev-RO",
+        "english": "How much does the single room with breakfast cost? — It costs seventy euros.",
+        "notes": "Klik A1 p. 115, 121. Price inquiry formula with impersonal verb 'κοστίζει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κοστίζει το μονόκλινο δωμάτιο με πρωινό; — Κοστίζει εβδομήντα ευρώ τη βραδιά.",
+        "example_en": "— How much does the single room with breakfast cost? — It costs seventy euros per night.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about nightly accommodation rates"
+    },
+    {
+        "id": "A1-U106B-039",
+        "greek": "Η εκδρομή στην Καστοριά είναι τρεις μέρες και κάνει διακόσια τριάντα πέντε ευρώ.",
+        "phonetic_hint": "ee ek-thro-MEE steen kah-sto-RYAH EE-neh trees MEH-res keh KAH-nee thee-ah-KO-see-ah tree-AHN-dah PEN-deh ev-RO",
+        "english": "The excursion to Kastoria is three days and costs two hundred thirty-five euros.",
+        "notes": "Klik A1 p. 119. Cardinal numbers in hundreds: διακόσια (200) + τριάντα πέντε (35).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κοστίζει το πακέτο; — Η εκδρομή στην Καστοριά είναι τρεις μέρες και κάνει διακόσια τριάντα πέντε ευρώ.",
+        "example_en": "— How much is the package? — The excursion to Kastoria is three days and costs two hundred thirty-five euros.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Quoting package tour duration and cost"
+    },
+    {
+        "id": "A1-U106B-040",
+        "greek": "Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες και κοστίζει τετρακόσια εβδομήντα ευρώ.",
+        "phonetic_hint": "ee ek-thro-MEE steen ah-THEE-nah thee-ar-KEE PEN-deh MEH-res keh koh-STEE-zee teh-trah-KO-see-ah ehv-tho-MEEN-dah ev-RO",
+        "english": "The excursion to Athens lasts five days and costs four hundred seventy euros.",
+        "notes": "Klik A1 p. 119. Cardinal numbers in hundreds: τετρακόσια (400) + εβδομήντα (70).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο διαρκεί το ταξίδι; — Η εκδρομή στην Αθήνα διαρκεί πέντε μέρες και κοστίζει τετρακόσια εβδομήντα ευρώ.",
+        "example_en": "— How long does the trip last? — The excursion to Athens lasts five days and costs four hundred seventy euros.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Providing tour duration and hundred-level pricing"
+    },
+    {
+        "id": "A1-U106B-041",
+        "greek": "Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ.",
+        "phonetic_hint": "PO-so KAH-noon THEE-o ee-see-TEE-ree-ah meh eh-pee-stro-FEE? — KAH-noon eh-kah-TON THEH-kah ev-RO",
+        "english": "How much are two return tickets? — They cost one hundred ten euros.",
+        "notes": "Klik A1 p. 119. Price query in plural: 'πόσο κάνουν...;' with number 110 (εκατόν δέκα).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνουν δύο εισιτήρια με επιστροφή; — Κάνουν εκατόν δέκα ευρώ συνολικά.",
+        "example_en": "— How much are two return tickets? — They cost one hundred ten euros in total.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about round-trip ticket costs"
+    },
+    {
+        "id": "A1-U106B-042",
+        "greek": "Το ξενοδοχείο προσφέρει πρωινό και δωρεάν σύνδεση στο διαδίκτυο.",
+        "phonetic_hint": "to kseh-no-tho-KHEE-o pros-FEH-ree pro-ee-NO keh tho-reh-AHN SEEN-theh-see sto thee-ah-THEEK-tee-o",
+        "english": "The hotel offers breakfast and free internet connection.",
+        "notes": "Klik A1 p. 115, 121. Describing hotel amenities and complementary services.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι περιλαμβάνεται στην τιμή; — Το ξενοδοχείο προσφέρει πρωινό και δωρεάν σύνδεση στο διαδίκτυο.",
+        "example_en": "— What is included in the price? — The hotel offers breakfast and free internet connection.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing included hotel amenities"
+    },
+
+    # =========================================================================
+    # 5. Travel Dialogues, Weather & Itinerary Sequences (pp. 123-132)
+    # =========================================================================
+    {
+        "id": "A1-U106B-043",
+        "greek": "Εάν βρέχει και χιονίζει, το ταξίδι μας δεν αρχίζει.",
+        "phonetic_hint": "eh-AHN VREH-khee keh khyo-NEE-zee, to tahk-SEE-thee mahs then ar-KHEE-zee",
+        "english": "If it rains and snows, our journey does not begin.",
+        "notes": "Klik A1 p. 127. Textbook travel rhyme with weather verbs (βρέχει, χιονίζει).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θα ξεκινήσουμε με αυτή την κακοκαιρία; — Εάν βρέχει και χιονίζει, το ταξίδι μας δεν αρχίζει!",
+        "example_en": "— Shall we set off in this bad weather? — If it rains and snows, our journey does not begin!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reciting cultural travel rhymes regarding weather"
+    },
+    {
+        "id": "A1-U106B-044",
+        "greek": "Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.",
+        "phonetic_hint": "tee keh-RO KAH-nee SEE-meh-rah? — EH-khee seen-neh-FYAH ah-LAH then VREH-khee",
+        "english": "What is the weather like today? — It is cloudy but it isn't raining.",
+        "notes": "Klik A1 p. 127. Core weather question and response formula.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι καιρό κάνει σήμερα; — Έχει συννεφιά αλλά δεν βρέχει.",
+        "example_en": "— What is the weather like today? — It is cloudy but it isn't raining.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for and reporting current weather conditions"
+    },
+    {
+        "id": "A1-U106B-045",
+        "greek": "Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.",
+        "phonetic_hint": "poo THEH-lees nah PAH-meh thee-ah-ko-PES? — THEH-lo nah PAH-meh stee sahn-do-REE-nee meh to PLEE-o",
+        "english": "Where do you want us to go on vacation? — I want us to go to Santorini by ferry.",
+        "notes": "Klik A1 p. 113, 121. Communicative Q&A turn for planning summer holidays.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού θέλεις να πάμε διακοπές; — Θέλω να πάμε στη Σαντορίνη με το πλοίο.",
+        "example_en": "— Where do you want us to go on vacation? — I want us to go to Santorini by ferry.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing holiday destinations and transport options"
+    },
+    {
+        "id": "A1-U106B-046",
+        "greek": "Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον καιρό.",
+        "phonetic_hint": "PAH-meh EH-nah tahk-SEE-thee? — O-khee, thee-stee-KHOS EH-kho PAH-rah po-LEE thoo-LYAH ahf-TON don keh-RO",
+        "english": "Shall we go on a trip? — No, unfortunately I have too much work at this time.",
+        "notes": "Klik A1 p. 111, 113. Colloquial invitation and polite refusal with explanation.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πάμε ένα ταξίδι; — Όχι, δυστυχώς έχω πάρα πολλή δουλειά αυτόν τον καιρό.",
+        "example_en": "— Shall we go on a trip? — No, unfortunately I have too much work at this time.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Declining an invitation due to professional workload"
+    },
+    {
+        "id": "A1-U106B-047",
+        "greek": "Την πρώτη μέρα φτάνουμε στην Καβάλα και το απόγευμα έχουμε ελεύθερο χρόνο.",
+        "phonetic_hint": "teen PRO-tee MEH-rah FTAH-noo-meh steen kah-VAH-lah keh to ah-PO-yev-mah EH-khoo-meh eh-LEF-theh-ro KHRO-no",
+        "english": "On the first day we arrive in Kavala and in the afternoon we have free time.",
+        "notes": "Klik A1 p. 123. Itinerary narrative with ordinal number (πρώτη μέρα) and accusative time adjunct.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιο είναι το πρόγραμμα; — Την πρώτη μέρα φτάνουμε στην Καβάλα και το απόγευμα έχουμε ελεύθερο χρόνο.",
+        "example_en": "— What is the schedule? — On the first day we arrive in Kavala and in the afternoon we have free time.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Narrating day-one itinerary stages"
+    },
+    {
+        "id": "A1-U106B-048",
+        "greek": "Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε μια βόλτα στην πόλη.",
+        "phonetic_hint": "tee THEHF-teh-ree MEH-rah TRO-meh pro-ee-NO stees ok-TO keh KAH-noo-meh mee-ah VOL-tah steen PO-lee",
+        "english": "On the second day we eat breakfast at eight and take a walk in the city.",
+        "notes": "Klik A1 p. 123. Itinerary narrative with ordinal number (δεύτερη μέρα) and clock time.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι κάνουμε μετά; — Τη δεύτερη μέρα τρώμε πρωινό στις οκτώ και κάνουμε μια βόλτα στην πόλη.",
+        "example_en": "— What do we do next? — On the second day we eat breakfast at eight and take a walk in the city.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing sightseeing schedules and meals"
+    },
+    {
+        "id": "A1-U106B-049",
+        "greek": "Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.",
+        "phonetic_hint": "o PRO-tos nee-kee-TEES too thee-ah-go-nees-MOO ker-THEE-zee EH-nah tahk-SEE-thee steen ah-meh-ree-KEE",
+        "english": "The first winner of the competition wins a trip to America.",
+        "notes": "Klik A1 p. 127. Textbook example: ordinal number + genitive of possession (του διαγωνισμού).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιο είναι το μεγάλο έπαθλο; — Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.",
+        "example_en": "— What is the grand prize? — The first winner of the competition wins a trip to America.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Announcing competition prizes and ordinal ranks"
+    },
+    {
+        "id": "A1-U106B-050",
+        "greek": "Περιμένω την απάντησή σου στο γράμμα μου! Πολλά φιλιά.",
+        "phonetic_hint": "peh-ree-MEH-no teen ah-PAHN-dee-see soo sto GRAH-mah moo! po-LAH fee-LYAH",
+        "english": "I am waiting for your reply to my letter! Lots of kisses.",
+        "notes": "Klik A1 p. 111, 132. Traditional letter/email closing formula among friends.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς κλείνεις το γράμμα σου; — Γράφω: «Περιμένω την απάντησή σου στο γράμμα μου! Πολλά φιλιά».",
+        "example_en": "— How do you conclude your letter? — I write: 'I am waiting for your reply to my letter! Lots of kisses.'",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Closing personal correspondence warmly"
+    }
+]
+
+lesson_u106b = {
+    "unit_id": "unit-106b",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)",
+    "description": "Expansion & Complementary to Lesson 106: Sentence structures, syntax patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective + από), transit navigation, and communicative dialogues.",
+    "lesson_status": "not_started",
+    "entries": cards_u106b
+}
+
+def main():
+    print(f"Writing {len(cards_u106b)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u106b, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-106b"), None)
+    unit_106b_entry = {
+        "id": "unit-106b",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Γραμματική & Προτάσεις)",
+        "order": "KlikA1-06-B",
+        "is_expansion": True,
+        "expansion_of": "KlikA1-06-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-106b/lesson-01.yaml",
+                "title": "Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)",
+                "description": "Expansion & Complementary to Lesson 106: Sentence structures, syntax patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective + από), transit navigation, and communicative dialogues."
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-106b in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_106b_entry
+    else:
+        print("Appending unit-106b to manifest.yaml...")
+        units.append(unit_106b_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-106b!")
+
+if __name__ == "__main__":
+    main()

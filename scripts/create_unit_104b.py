@@ -1,0 +1,902 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 104 B from Klik A1 (Pages 69-82):
+Ενότητα 3: Η οικογένειά μου - Γραμματική & Προτάσεις
+Focuses on full sentences, syntax patterns, family descriptions,
+possessive clitics (μου, σου, του, της...), adjective agreement in -ος, -η, -ο,
+countries, demonyms, languages, and contract verb conjugations (μιλάω).
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-104b"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u104b = [
+    # =========================================================================
+    # 1. Family Inquiries, Kinship & Introductions (pp. 69-71)
+    # =========================================================================
+    {
+        "id": "A1-U104B-001",
+        "greek": "Πώς λένε τον μπαμπά και τη μαμά σου;",
+        "phonetic_hint": "pos LEH-neh ton bahm-BAH keh tee mah-MAH soo",
+        "english": "What are your dad's and your mom's names?",
+        "notes": "Klik A1 p. 69. Grammar: accusative direct objects 'τον μπαμπά' and 'τη μαμά' + weak possessive 'σου'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς λένε τον μπαμπά και τη μαμά σου; — Τον μπαμπά μου τον λένε Νίκο και τη μαμά μου Γεωργία.",
+        "example_en": "— What are your dad's and mom's names? — My dad is called Nikos and my mom Georgia.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about parents' names"
+    },
+    {
+        "id": "A1-U104B-002",
+        "greek": "Ο Νίκος και η Γεωργία είναι οι γονείς μου.",
+        "phonetic_hint": "o NEE-kos keh ee ye-or-YEE-ah EE-neh ee gho-NEES moo",
+        "english": "Nikos and Georgia are my parents.",
+        "notes": "Klik A1 p. 71. Grammar: plural nominative masculine 'οι γονείς' + enclitic possessive 'μου'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτοί είναι ο Νίκος και η Γεωργία, είναι οι γονείς μου.",
+        "example_en": "These are Nikos and Georgia, they are my parents.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing parents"
+    },
+    {
+        "id": "A1-U104B-003",
+        "greek": "Έχεις αδέλφια; — Έχω έναν αδελφό και μία αδελφή.",
+        "phonetic_hint": "EH-khees ah-THEL-fyah? — EH-kho EH-nahn ah-thel-FOH keh MEE-ah ah-thel-FEE",
+        "english": "Do you have siblings? — I have a brother and a sister.",
+        "notes": "Klik A1 p. 69, 71. Grammar: verb 'έχω' + accusative indefinite articles ('έναν', 'μία').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχεις αδέλφια; — Ναι, έχω έναν αδελφό και μία αδελφή.",
+        "example_en": "— Do you have siblings? — Yes, I have a brother and a sister.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about and stating siblings"
+    },
+    {
+        "id": "A1-U104B-004",
+        "greek": "Έχω δύο παιδιά, έναν γιο και μία κόρη.",
+        "phonetic_hint": "EH-kho THEE-o peh-THYAH, EH-nahn YOH keh MEE-ah KOH-ree",
+        "english": "I have two children, a son and a daughter.",
+        "notes": "Klik A1 p. 71. Grammar: numeral 'δύο' + neuter plural 'παιδιά', followed by accusative singulars.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Κώστας έχει δύο παιδιά, έναν γιο και μία κόρη.",
+        "example_en": "Kostas has two children, a son and a daughter.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing children and offspring"
+    },
+    {
+        "id": "A1-U104B-005",
+        "greek": "Είμαι παντρεμένος με τη Ζωή και έχουμε μία κόρη.",
+        "phonetic_hint": "EE-meh pan-dre-MEH-nos meh tee zo-EE keh EH-khoo-meh MEE-ah KOH-ree",
+        "english": "I am married to Zoe and we have a daughter.",
+        "notes": "Klik A1 p. 71. Grammar: participial adjective 'παντρεμένος' + preposition 'με' + accusative name.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είσαι παντρεμένος; — Ναι, είμαι παντρεμένος με τη Ζωή και έχουμε μία κόρη.",
+        "example_en": "— Are you married? — Yes, I am married to Zoe and we have a daughter.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating marital status and marriage partner"
+    },
+    {
+        "id": "A1-U104B-006",
+        "greek": "Είναι ελεύθερη ή παντρεμένη; — Είναι ελεύθερη.",
+        "phonetic_hint": "EE-neh eh-LEF-theh-ree ee pan-dre-MEH-nee? — EE-neh eh-LEF-theh-ree",
+        "english": "Is she single or married? — She is single.",
+        "notes": "Klik A1 p. 71. Grammar: feminine singular adjectives 'ελεύθερη' / 'παντρεμένη'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Η αδερφή σου είναι ελεύθερη ή παντρεμένη; — Είναι ελεύθερη.",
+        "example_en": "— Is your sister single or married? — She is single.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about someone's marital status"
+    },
+    {
+        "id": "A1-U104B-007",
+        "greek": "Πού μένουν ο παππούς και η γιαγιά σου;",
+        "phonetic_hint": "poo MEH-noon o pah-POOS keh ee yah-YAH soo",
+        "english": "Where do your grandfather and grandmother live?",
+        "notes": "Klik A1 p. 69. Grammar: 3rd person plural verb 'μένουν' with compound nominative subject.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού μένουν ο παππούς και η γιαγιά σου; — Μένουν στην Κρήτη.",
+        "example_en": "— Where do your grandfather and grandmother live? — They live in Crete.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking where grandparents reside"
+    },
+    {
+        "id": "A1-U104B-008",
+        "greek": "Οι παππούδες μου μένουν σε ένα μικρό χωριό.",
+        "phonetic_hint": "ee pah-POO-thes moo MEH-noon seh EH-nah mee-KROH kho-RYOH",
+        "english": "My grandparents live in a small village.",
+        "notes": "Klik A1 p. 69, 71. Grammar: collective masculine plural 'οι παππούδες' (grandparents) + locative preposition 'σε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το καλοκαίρι πηγαίνω στο χωριό, γιατί οι παππούδες μου μένουν σε ένα μικρό χωριό.",
+        "example_en": "In summer I go to the village, because my grandparents live in a small village.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating grandparents' residence"
+    },
+    {
+        "id": "A1-U104B-009",
+        "greek": "Μένω με τη Δέσποινα και την οικογένειά της.",
+        "phonetic_hint": "MEH-no meh tee THES-pee-nah keh teen ee-ko-YEH-nee-ah tees",
+        "english": "I live with Despina and her family.",
+        "notes": "Klik A1 p. 69. Grammar: preposition 'με' + accusative feminine + possessive pronoun 'της'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Όταν είμαι στην Αθήνα, μένω με τη Δέσποινα και την οικογένειά της.",
+        "example_en": "When I am in Athens, I stay with Despina and her family.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing living arrangements with hosts or friends"
+    },
+    {
+        "id": "A1-U104B-010",
+        "greek": "Περνάω τέλεια με την οικογένειά μου.",
+        "phonetic_hint": "per-NAH-o TEH-lee-ah meh teen ee-ko-YEH-nee-ah moo",
+        "english": "I am having a wonderful time with my family.",
+        "notes": "Klik A1 p. 70. Idiomatic verb phrase: 'περνάω τέλεια' / 'περνάω πάρα πολύ καλά'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είμαστε σε διακοπές και περνάω τέλεια με την οικογένειά μου.",
+        "example_en": "We are on vacation and I am having a wonderful time with my family.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing satisfaction with family time"
+    },
+
+    # =========================================================================
+    # 2. Weak Possessive Clitics & Clitic Placement (pp. 72-73)
+    # =========================================================================
+    {
+        "id": "A1-U104B-011",
+        "greek": "Το σπίτι μου είναι κοντά στο κέντρο.",
+        "phonetic_hint": "to SPEE-tee moo EE-neh kon-DAH sto KEN-dro",
+        "english": "My house is near the center.",
+        "notes": "Klik A1 p. 72. Grammar: 1st person singular possessive clitic 'μου' directly following paroxytone noun.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το σπίτι μου είναι κοντά στο κέντρο, πέντε λεπτά από το μετρό.",
+        "example_en": "My house is near the center, five minutes from the metro.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating one's home location"
+    },
+    {
+        "id": "A1-U104B-012",
+        "greek": "Πώς είναι η δουλειά σου; — Η δουλειά μου είναι πολύ ενδιαφέρουσα.",
+        "phonetic_hint": "pos EE-neh ee thoo-LYAH soo? — ee thoo-LYAH moo EE-neh po-LEE en-dhyah-FEH-roo-sah",
+        "english": "How is your job? — My job is very interesting.",
+        "notes": "Klik A1 p. 72, 77. Grammar: 2nd sg possessive 'σου' and 1st sg 'μου'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς είναι η δουλειά σου; — Η δουλειά μου είναι πολύ ενδιαφέρουσα αλλά κουραστική.",
+        "example_en": "— How is your work? — My work is very interesting but tiring.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about and evaluating someone's occupation"
+    },
+    {
+        "id": "A1-U104B-013",
+        "greek": "Ο άντρας της είναι γιατρός σε νοσοκομείο.",
+        "phonetic_hint": "o AHN-dras tees EE-neh yah-TROHS seh no-so-ko-MEE-o",
+        "english": "Her husband is a doctor in a hospital.",
+        "notes": "Klik A1 p. 72, 76. Grammar: 3rd person singular feminine possessive clitic 'της'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Μαρία είναι δασκάλα και ο άντρας της είναι γιατρός σε νοσοκομείο.",
+        "example_en": "Maria is a teacher and her husband is a doctor in a hospital.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing someone's spouse and profession"
+    },
+    {
+        "id": "A1-U104B-014",
+        "greek": "Η γυναίκα του είναι καθηγήτρια αγγλικών.",
+        "phonetic_hint": "ee yee-NEH-kah too EE-neh kah-thee-YEE-tree-ah ang-glee-KOHN",
+        "english": "His wife is an English teacher.",
+        "notes": "Klik A1 p. 71, 72. Grammar: 3rd person singular masculine possessive clitic 'του'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Κώστας είναι μηχανικός και η γυναίκα του είναι καθηγήτρια αγγλικών.",
+        "example_en": "Kostas is an engineer and his wife is an English teacher.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing someone's wife and career"
+    },
+    {
+        "id": "A1-U104B-015",
+        "greek": "Το όνομά του είναι Γιώργος και το όνομά της είναι Μαρία.",
+        "phonetic_hint": "to OH-no-MAH too EE-neh YOR-ghos keh to OH-no-MAH tees EE-neh mah-REE-ah",
+        "english": "His name is Giorgos and her name is Maria.",
+        "notes": "Klik A1 p. 72-73. Grammar: proparoxytone double accent rule ('το όνομά του' / 'το όνομά της').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτά είναι τα παιδιά μου: το όνομά του είναι Γιώργος και το όνομά της είναι Μαρία.",
+        "example_en": "These are my children: his name is Giorgos and her name is Maria.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating third-person male and female names"
+    },
+    {
+        "id": "A1-U104B-016",
+        "greek": "Η οικογένειά της μένει στη Θεσσαλονίκη.",
+        "phonetic_hint": "ee ee-ko-YEH-nee-AH tees MEH-nee stee the-sah-lo-NEE-kee",
+        "english": "Her family lives in Thessaloniki.",
+        "notes": "Klik A1 p. 69, 72. Grammar: proparoxytone double accent rule on 'οικογένεια' -> 'η οικογένειά της'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Ελένη σπουδάζει στην Αθήνα, αλλά η οικογένειά της μένει στη Θεσσαλονίκη.",
+        "example_en": "Eleni studies in Athens, but her family lives in Thessaloniki.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating family residence with possessive pronoun"
+    },
+    {
+        "id": "A1-U104B-017",
+        "greek": "Το διαμέρισμά μας έχει τρία μεγάλα δωμάτια.",
+        "phonetic_hint": "to dhyah-MEH-ree-ZMAH mahs EH-khee TREE-ah meh-GHAH-lah tho-MAH-tyah",
+        "english": "Our apartment has three large rooms.",
+        "notes": "Klik A1 p. 72. Grammar: 1st person plural possessive 'μας' with double accent on 'διαμέρισμα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μένουμε στο κέντρο και το διαμέρισμά μας έχει τρία μεγάλα δωμάτια.",
+        "example_en": "We live downtown and our apartment has three large rooms.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing one's shared household and room count"
+    },
+    {
+        "id": "A1-U104B-018",
+        "greek": "Πού είναι το σχολείο σας;",
+        "phonetic_hint": "poo EE-neh to sko-LEE-o sahs",
+        "english": "Where is your school?",
+        "notes": "Klik A1 p. 72. Grammar: 2nd person plural possessive clitic 'σας'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Παιδιά, πού είναι το σχολείο σας; — Είναι κοντά στην πλατεία.",
+        "example_en": "— Children, where is your school? — It is near the square.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking about school location"
+    },
+    {
+        "id": "A1-U104B-019",
+        "greek": "Το σπίτι τους είναι παλιό αλλά πολύ όμορφο.",
+        "phonetic_hint": "to SPEE-tee toos EE-neh pah-LYOH ah-LAH po-LEE OH-mor-fo",
+        "english": "Their house is old but very beautiful.",
+        "notes": "Klik A1 p. 70, 72. Grammar: 3rd person plural possessive clitic 'τους'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Οι φίλοι μας μένουν στην Πλάκα. Το σπίτι τους είναι παλιό αλλά πολύ όμορφο.",
+        "example_en": "Our friends live in Plaka. Their house is old but very beautiful.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Evaluating someone else's residence"
+    },
+    {
+        "id": "A1-U104B-020",
+        "greek": "Τα παιδιά τους πηγαίνουν κάθε μέρα στο σχολείο.",
+        "phonetic_hint": "tah peh-THYAH toos pee-YEH-noon KAH-theh MEH-rah sto sko-LEE-o",
+        "english": "Their children go to school every day.",
+        "notes": "Klik A1 p. 69, 72. Grammar: 3rd plural possessive clitic 'τους' + plural verb 'πηγαίνουν'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Νίκος και η Μαρία εργάζονται και τα παιδιά τους πηγαίνουν κάθε μέρα στο σχολείο.",
+        "example_en": "Nikos and Maria work and their children go to school every day.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing children's daily routine"
+    },
+
+    # =========================================================================
+    # 3. Adjectives Agreement (-ος, -η, -ο) & Physical Descriptions (pp. 74-75)
+    # =========================================================================
+    {
+        "id": "A1-U104B-021",
+        "greek": "Ο αδερφός μου είναι ψηλός, αδύνατος και νέος.",
+        "phonetic_hint": "o ah-thel-FOHS moo EE-neh psee-LOHS, ah-THEE-nah-tos keh NEH-os",
+        "english": "My brother is tall, slim, and young.",
+        "notes": "Klik A1 p. 74-75. Grammar: masculine singular adjectives in -ος (ψηλός, αδύνατος, νέος).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς είναι ο Γιώργος; — Ο αδερφός μου είναι ψηλός, αδύνατος και νέος.",
+        "example_en": "— What does Giorgos look like? — My brother is tall, slim, and young.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing a male relative's physical appearance"
+    },
+    {
+        "id": "A1-U104B-022",
+        "greek": "Η αδερφή μου είναι ψηλή, αδύνατη και ξανθιά.",
+        "phonetic_hint": "ee ah-thel-FEE moo EE-neh psee-LEE, ah-THEE-nah-tee keh ksan-THYAH",
+        "english": "My sister is tall, slim, and blonde.",
+        "notes": "Klik A1 p. 69, 74-75. Grammar: feminine singular adjectives in -η / -ιά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Μαρία μοιάζει στη μαμά μας: είναι ψηλή, αδύνατη και ξανθιά.",
+        "example_en": "Maria resembles our mom: she is tall, slim, and blonde.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing a female relative's physical appearance"
+    },
+    {
+        "id": "A1-U104B-023",
+        "greek": "Το μωρό είναι πολύ μικρό και γλυκό.",
+        "phonetic_hint": "to mo-ROH EE-neh po-LEE mee-KROH keh glee-KOH",
+        "english": "The baby is very small and sweet.",
+        "notes": "Klik A1 p. 74-75. Grammar: neuter singular adjectives in -ο (μικρό, γλυκό) modifying 'το μωρό'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η αδερφή μου γέννησε χθες και το μωρό είναι πολύ μικρό και γλυκό.",
+        "example_en": "My sister gave birth yesterday and the baby is very small and sweet.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing an infant or young child"
+    },
+    {
+        "id": "A1-U104B-024",
+        "greek": "Ο παππούς είναι μεγάλος αλλά πολύ δραστήριος.",
+        "phonetic_hint": "o pah-POOS EE-neh meh-GHAH-los ah-LAH po-LEE drah-STEE-ree-os",
+        "english": "Grandfather is old but very active.",
+        "notes": "Klik A1 p. 70, 74. Adjective 'μεγάλος' (grown/elderly in age) with contrastive conjunction 'αλλά'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πηγαίνει για περπάτημα κάθε πρωί: ο παππούς είναι μεγάλος αλλά πολύ δραστήριος.",
+        "example_en": "He goes for a walk every morning: grandfather is elderly but very active.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing an elderly relative's vitality"
+    },
+    {
+        "id": "A1-U104B-025",
+        "greek": "Η μητέρα του είναι πολύ νέα και μοντέρνα.",
+        "phonetic_hint": "ee mee-TEH-rah too EE-neh po-LEE NEH-ah keh mon-DEHR-nah",
+        "english": "His mother is very young and modern.",
+        "notes": "Klik A1 p. 69, 74. Grammar: feminine singular adjectives 'νέα' and 'μοντέρνα' modifying 'η μητέρα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Όλοι νομίζουν ότι είναι αδερφή του, επειδή η μητέρα του είναι πολύ νέα και μοντέρνα.",
+        "example_en": "Everyone thinks she is his sister, because his mother is very young and modern.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Complimenting and describing a mother's style"
+    },
+    {
+        "id": "A1-U104B-026",
+        "greek": "Ο Κώστας είναι χοντρός; — Όχι, είναι αδύνατος και αθλητικός.",
+        "phonetic_hint": "o KOH-stas EE-neh khon-DROHS? — OH-khee, EE-neh ah-THEE-nah-tos keh ah-thlee-tee-KOHS",
+        "english": "Is Kostas heavy? — No, he is slim and athletic.",
+        "notes": "Klik A1 p. 70, 74. Contrastive adjective antonyms: 'χοντρός' ↔ 'αδύνατος'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ο Κώστας είναι χοντρός; — Όχι, είναι αδύνατος και αθλητικός, παίζει μπάσκετ.",
+        "example_en": "— Is Kostas heavy? — No, he is slim and athletic, he plays basketball.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Clarifying physical build and athletic build"
+    },
+    {
+        "id": "A1-U104B-027",
+        "greek": "Η Μαρία είναι όμορφη κοπέλα με γαλανά μάτια.",
+        "phonetic_hint": "ee mah-REE-ah EE-neh OH-mor-fee ko-PEH-lah meh ghah-lah-NAH MAH-tyah",
+        "english": "Maria is a beautiful young woman with blue eyes.",
+        "notes": "Klik A1 p. 69, 74. Adjective 'όμορφη' modifying 'κοπέλα' + prepositional feature 'με γαλανά μάτια'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Μαρία είναι όμορφη κοπέλα με γαλανά μάτια και ξανθά μαλλιά.",
+        "example_en": "Maria is a beautiful girl with blue eyes and blonde hair.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing facial features and eye color"
+    },
+    {
+        "id": "A1-U104B-028",
+        "greek": "Το σπίτι είναι καινούριο, φωτεινό και άνετο.",
+        "phonetic_hint": "to SPEE-tee EE-neh keh-NOO-ryo, fo-tee-NOH keh AH-ne-to",
+        "english": "The house is new, bright, and comfortable.",
+        "notes": "Klik A1 p. 70, 74. Grammar: neuter singular adjectives (καινούριο, φωτεινό, άνετο).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μας αρέσει πολύ εδώ, γιατί το σπίτι είναι καινούριο, φωτεινό και άνετο.",
+        "example_en": "We really like it here, because the house is new, bright, and comfortable.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing housing quality and comfort"
+    },
+    {
+        "id": "A1-U104B-029",
+        "greek": "Ο καθηγητής μας είναι μέτριος και φοράει γυαλιά.",
+        "phonetic_hint": "o kah-thee-yee-TEES mahs EE-neh MEH-tree-os keh fo-RAH-ee yah-LYAH",
+        "english": "Our teacher is of medium height and wears glasses.",
+        "notes": "Klik A1 p. 74. Adjective 'μέτριος' indicating medium height/build + present verb 'φοράει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιος είναι ο καθηγητής σας; — Ο καθηγητής μας είναι μέτριος και φοράει γυαλιά.",
+        "example_en": "— Who is your teacher? — Our teacher is of medium height and wears glasses.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing personal appearance and accessories"
+    },
+    {
+        "id": "A1-U104B-030",
+        "greek": "Ο φίλος μου δεν είναι κοντός, είναι ψηλός.",
+        "phonetic_hint": "o FEE-los moo then EE-neh kon-DOHS, EE-neh psee-LOHS",
+        "english": "My friend is not short, he is tall.",
+        "notes": "Klik A1 p. 70, 74. Antonym pair: 'κοντός' ↔ 'ψηλός'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι κοντός ο Νίκος; — Όχι, ο φίλος μου δεν είναι κοντός, είναι ψηλός.",
+        "example_en": "— Is Nikos short? — No, my friend is not short, he is tall.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Correcting misconceptions about someone's height"
+    },
+
+    # =========================================================================
+    # 4. Countries, Nationalities & Spoken Languages (pp. 76-79)
+    # =========================================================================
+    {
+        "id": "A1-U104B-031",
+        "greek": "Είμαι από την Ελλάδα, είμαι Έλληνας και μιλάω ελληνικά.",
+        "phonetic_hint": "EE-meh ah-POH teen eh-LAH-thah, EE-meh EH-lee-nas keh mee-LAH-o eh-lee-nee-KAH",
+        "english": "I am from Greece, I am Greek and I speak Greek.",
+        "notes": "Klik A1 p. 76, 78. Triad structure: country (Ελλάδα), demonym (Έλληνας), language (ελληνικά).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γεια σας! Είμαι από την Ελλάδα, είμαι Έλληνας και μιλάω ελληνικά.",
+        "example_en": "Hello! I am from Greece, I am Greek and I speak Greek.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating origin, nationality, and native language"
+    },
+    {
+        "id": "A1-U104B-032",
+        "greek": "Η Kristin είναι από τη Νορβηγία, είναι Νορβηγίδα και μιλάει νορβηγικά.",
+        "phonetic_hint": "ee KREE-steen EE-neh ah-POH tee nor-vee-YEE-ah, EE-neh nor-vee-YEE-thah keh mee-LAH-ee nor-vee-yee-KAH",
+        "english": "Kristin is from Norway, she is Norwegian and speaks Norwegian.",
+        "notes": "Klik A1 p. 78. Triad structure: Νορβηγία, Νορβηγίδα (feminine demonym), νορβηγικά (language).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Kristin είναι από τη Νορβηγία, είναι Νορβηγίδα και μιλάει νορβηγικά και αγγλικά.",
+        "example_en": "Kristin is from Norway, she is Norwegian and speaks Norwegian and English.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing someone's Scandinavian background"
+    },
+    {
+        "id": "A1-U104B-033",
+        "greek": "Ο Waldi είναι από τη Γερμανία, είναι Γερμανός και μιλάει γερμανικά.",
+        "phonetic_hint": "o VAHL-dee EE-neh ah-POH tee yer-mah-NEE-ah, EE-neh yer-mah-NOHS keh mee-LAH-ee yer-mah-nee-KAH",
+        "english": "Waldi is from Germany, he is German and speaks German.",
+        "notes": "Klik A1 p. 78. Triad structure: Γερμανία, Γερμανός, γερμανικά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Waldi είναι από τη Γερμανία, είναι Γερμανός και μιλάει γερμανικά.",
+        "example_en": "Waldi is from Germany, he is German and speaks German.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing German origin and language"
+    },
+    {
+        "id": "A1-U104B-034",
+        "greek": "Η Magique είναι από την Ιταλία, είναι Ιταλίδα και μιλάει ιταλικά.",
+        "phonetic_hint": "ee mah-ZHEEK EE-neh ah-POH teen ee-tah-LEE-ah, EE-neh ee-tah-LEE-thah keh mee-LAH-ee ee-tah-lee-KAH",
+        "english": "Magique is from Italy, she is Italian and speaks Italian.",
+        "notes": "Klik A1 p. 78. Triad structure: Ιταλία, Ιταλίδα, ιταλικά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Magique είναι από την Ιταλία, είναι Ιταλίδα και μιλάει ιταλικά.",
+        "example_en": "Magique is from Italy, she is Italian and speaks Italian.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing Italian origin and language"
+    },
+    {
+        "id": "A1-U104B-035",
+        "greek": "Ο Cobi είναι από την Ισπανία, είναι Ισπανός και μιλάει ισπανικά.",
+        "phonetic_hint": "o KOH-bee EE-neh ah-POH teen ees-pah-NEE-ah, EE-neh ees-pah-NOHS keh mee-LAH-ee ees-pah-nee-KAH",
+        "english": "Cobi is from Spain, he is Spanish and speaks Spanish.",
+        "notes": "Klik A1 p. 78. Triad structure: Ισπανία, Ισπανός, ισπανικά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Cobi είναι από την Ισπανία, είναι Ισπανός και μιλάει ισπανικά.",
+        "example_en": "Cobi is from Spain, he is Spanish and speaks Spanish.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing Spanish origin and language"
+    },
+    {
+        "id": "A1-U104B-036",
+        "greek": "Η Alice είναι από τον Καναδά, είναι Καναδέζα και μιλάει αγγλικά και γαλλικά.",
+        "phonetic_hint": "ee AH-lees EE-neh ah-POH ton kah-nah-THAH, EE-neh kah-nah-THEH-zah keh mee-LAH-ee ang-glee-KAH keh ghal-lee-KAH",
+        "english": "Alice is from Canada, she is Canadian and speaks English and French.",
+        "notes": "Klik A1 p. 78. Masculine country: 'από τον Καναδά', feminine demonym: 'Καναδέζα', bilingual languages.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Alice είναι από τον Καναδά, είναι Καναδέζα και μιλάει αγγλικά και γαλλικά.",
+        "example_en": "Alice is from Canada, she is Canadian and speaks English and French.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing bilingual Canadian background"
+    },
+    {
+        "id": "A1-U104B-037",
+        "greek": "Ο Bebei είναι από την Κίνα, είναι Κινέζος και μιλάει κινέζικα.",
+        "phonetic_hint": "o BEH-beh-ee EE-neh ah-POH teen KEE-nah, EE-neh kee-NEH-zos keh mee-LAH-ee kee-NEH-zee-kah",
+        "english": "Bebei is from China, he is Chinese and speaks Chinese.",
+        "notes": "Klik A1 p. 78. Triad structure: Κίνα, Κινέζος, κινέζικα.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Bebei είναι από την Κίνα, είναι Κινέζος και μιλάει κινέζικα.",
+        "example_en": "Bebei is from China, he is Chinese and speaks Chinese.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing Chinese nationality and language"
+    },
+    {
+        "id": "A1-U104B-038",
+        "greek": "Ο Sam είναι από την Αμερική, είναι Αμερικανός και μιλάει αγγλικά.",
+        "phonetic_hint": "o SAHM EE-neh ah-POH teen ah-meh-ree-KEE, EE-neh ah-meh-ree-kah-NOHS keh mee-LAH-ee ang-glee-KAH",
+        "english": "Sam is from America, he is American and speaks English.",
+        "notes": "Klik A1 p. 78. Triad structure: Αμερική, Αμερικανός, αγγλικά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο Sam είναι από την Αμερική, είναι Αμερικανός και μιλάει αγγλικά.",
+        "example_en": "Sam is from America, he is American and speaks English.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing American nationality and native language"
+    },
+    {
+        "id": "A1-U104B-039",
+        "greek": "Εσύ από ποια χώρα είσαι και ποιες γλώσσες μιλάς;",
+        "phonetic_hint": "eh-SEE ah-POH PYAH KHOH-rah EE-seh keh PYES GLOH-ses mee-LAHS",
+        "english": "Which country are you from and what languages do you speak?",
+        "notes": "Klik A1 p. 76, 77. Compound question with interrogative 'ποια χώρα' and 'ποιες γλώσσες'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Χάρηκα για τη γνωριμία! Εσύ από ποια χώρα είσαι και ποιες γλώσσες μιλάς; — Είμαι από την Ιταλία και μιλάω ιταλικά και αγγλικά.",
+        "example_en": "— Nice to meet you! What country are you from and what languages do you speak? — I am from Italy and I speak Italian and English.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking a new acquaintance about origin and language proficiency"
+    },
+    {
+        "id": "A1-U104B-040",
+        "greek": "Ο άντρας της είναι από την Αλβανία και μιλάει άπταιστα ελληνικά.",
+        "phonetic_hint": "o AHN-dras tees EE-neh ah-POH teen ahl-vah-NEE-ah keh mee-LAH-ee AHP-teh-stah eh-lee-nee-KAH",
+        "english": "Her husband is from Albania and speaks fluent Greek.",
+        "notes": "Klik A1 p. 76. Demonstrating fluency adverb 'άπταιστα' + neuter plural language noun.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μένουν στην Αθήνα εδώ και χρόνια και ο άντρας της μιλάει άπταιστα ελληνικά.",
+        "example_en": "They have lived in Athens for years and her husband speaks fluent Greek.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing spouse's fluent foreign language ability"
+    },
+
+    # =========================================================================
+    # 5. Full Conjugation & Usage of Contract Verb "Μιλάω / Μιλώ" (pp. 80-82)
+    # =========================================================================
+    {
+        "id": "A1-U104B-041",
+        "greek": "Μιλάω πολύ καλά ελληνικά, αγγλικά και γερμανικά.",
+        "phonetic_hint": "mee-LAH-o po-LEE kah-LAH eh-lee-nee-KAH, ang-glee-KAH keh yer-mah-nee-KAH",
+        "english": "I speak Greek, English, and German very well.",
+        "notes": "Klik A1 p. 80. Verb 1st person singular 'μιλάω' + degree adverb 'πολύ καλά'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δουλεύω στον τουρισμό και μιλάω πολύ καλά ελληνικά, αγγλικά και γερμανικά.",
+        "example_en": "I work in tourism and speak Greek, English, and German very well.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating high language proficiency in multiple tongues"
+    },
+    {
+        "id": "A1-U104B-042",
+        "greek": "Εσύ μιλάς καλά ελληνικά; — Μιλάω μόνο λίγα.",
+        "phonetic_hint": "eh-SEE mee-LAHS kah-LAH eh-lee-nee-KAH? — mee-LAH-o MOH-no LEE-ghah",
+        "english": "Do you speak Greek well? — I speak only a little.",
+        "notes": "Klik A1 p. 80. Verb 2nd person singular 'μιλάς' + quantifier 'λίγα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Εσύ μιλάς καλά ελληνικά; — Όχι ακόμα, μιλάω μόνο λίγα.",
+        "example_en": "— Do you speak Greek well? — Not yet, I speak only a little.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about Greek skills and modestly stating basic knowledge"
+    },
+    {
+        "id": "A1-U104B-043",
+        "greek": "Ο αδερφός μου μιλάει γαλλικά και ισπανικά.",
+        "phonetic_hint": "o ah-thel-FOHS moo mee-LAH-ee ghal-lee-KAH keh ees-pah-nee-KAH",
+        "english": "My brother speaks French and Spanish.",
+        "notes": "Klik A1 p. 80. Verb 3rd person singular 'μιλάει' (Type B1 contract verb).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σπουδάζει φιλολογία και ο αδερφός μου μιλάει γαλλικά και ισπανικά.",
+        "example_en": "He studies literature and my brother speaks French and Spanish.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting a sibling's language abilities"
+    },
+    {
+        "id": "A1-U104B-044",
+        "greek": "Η μητέρα μου μιλάει τρεις ξένες γλώσσες.",
+        "phonetic_hint": "ee mee-TEH-rah moo mee-LAH-ee TREES KSEH-nes GLOH-ses",
+        "english": "My mother speaks three foreign languages.",
+        "notes": "Klik A1 p. 80. Numeral 'τρεις' (feminine accusative) modifying 'ξένες γλώσσες'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είναι πολύ μορφωμένη: η μητέρα μου μιλάει τρεις ξένες γλώσσες.",
+        "example_en": "She is very educated: my mother speaks three foreign languages.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Quantifying language proficiency"
+    },
+    {
+        "id": "A1-U104B-045",
+        "greek": "Εμείς μιλάμε ελληνικά στο μάθημα και στο σπίτι.",
+        "phonetic_hint": "eh-MEES mee-LAH-meh eh-lee-nee-KAH sto MAH-thee-mah keh sto SPEE-tee",
+        "english": "We speak Greek in class and at home.",
+        "notes": "Klik A1 p. 80. Verb 1st person plural 'μιλάμε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Για να μάθουμε γρήγορα, εμείς μιλάμε ελληνικά στο μάθημα και στο σπίτι.",
+        "example_en": "In order to learn quickly, we speak Greek in class and at home.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing collective language practice"
+    },
+    {
+        "id": "A1-U104B-046",
+        "greek": "Εσείς μιλάτε αγγλικά ή γαλλικά στη δουλειά σας;",
+        "phonetic_hint": "eh-SEES mee-LAH-teh ang-glee-KAH ee ghal-lee-KAH stee thoo-LYAH sahs",
+        "english": "Do you speak English or French at your work?",
+        "notes": "Klik A1 p. 80. Verb 2nd person plural / formal 'μιλάτε' + disjunctive conjunction 'ή'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Εσείς μιλάτε αγγλικά ή γαλλικά στη δουλειά σας; — Μιλάμε κυρίως αγγλικά.",
+        "example_en": "— Do you speak English or French at your work? — We speak mainly English.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking about workplace communication languages"
+    },
+    {
+        "id": "A1-U104B-047",
+        "greek": "Οι γονείς μου μιλάνε μόνο ρωσικά.",
+        "phonetic_hint": "ee gho-NEES moo mee-LAH-neh MOH-no ro-see-KAH",
+        "english": "My parents speak only Russian.",
+        "notes": "Klik A1 p. 80. Verb 3rd person plural 'μιλάνε' (or 'μιλούν') + restrictive adverb 'μόνο'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δεν ξέρουν αγγλικά, οι γονείς μου μιλάνε μόνο ρωσικά.",
+        "example_en": "They don't know English, my parents speak only Russian.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing parents' linguistic limitations"
+    },
+    {
+        "id": "A1-U104B-048",
+        "greek": "Δεν μιλάω γερμανικά, αλλά θέλω να μάθω.",
+        "phonetic_hint": "then mee-LAH-o yer-mah-nee-KAH, ah-LAH THEH-lo nah MAH-tho",
+        "english": "I don't speak German, but I want to learn.",
+        "notes": "Klik A1 p. 80. Negated verb 'δεν μιλάω' + modal verb 'θέλω να μάθω'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δεν μιλάω γερμανικά, αλλά θέλω να μάθω επειδή ταξιδεύω στο Βερολίνο.",
+        "example_en": "I don't speak German, but I want to learn because I travel to Berlin.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing lack of knowledge and desire to learn"
+    },
+    {
+        "id": "A1-U104B-049",
+        "greek": "Μιλάτε πιο αργά, παρακαλώ, γιατί είμαι αρχάριος.",
+        "phonetic_hint": "mee-LAH-teh pyo ahr-GHAH, pah-rah-kah-LOH, yah-TEE EE-meh ahr-KHAH-ree-os",
+        "english": "Please speak slower, because I am a beginner.",
+        "notes": "Klik A1 p. 77, 80. Polite imperative / 2nd plural 'μιλάτε' + comparative adverb 'πιο αργά' + explanation 'γιατί'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δεν καταλαβαίνω καλά. Μιλάτε πιο αργά, παρακαλώ, γιατί είμαι αρχάριος.",
+        "example_en": "I don't understand well. Please speak slower, because I am a beginner.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Requesting slower speech in communicative emergencies"
+    },
+    {
+        "id": "A1-U104B-050",
+        "greek": "Πώς λέγεται αυτό στη γλώσσα σου;",
+        "phonetic_hint": "pos LEH-ye-teh ahf-TOH stee GLOH-sah soo",
+        "english": "What is this called in your language?",
+        "notes": "Klik A1 p. 77, 79. Passive verb 'λέγεται' (is called / named) + prepositional phrase.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς λέγεται αυτό στη γλώσσα σου; — Στα αγγλικά λέγεται family.",
+        "example_en": "— How is this called in your language? — In English it is called family.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about language translation and lexical equivalence"
+    }
+]
+
+lesson_u104b = {
+    "unit_id": "unit-104b",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος, -η, -ο) & Ρήμα Μιλάω (Pages 69-82)",
+    "description": "Expansion & Complementary to Lesson 104: Sentence structures, syntax patterns, possessive pronouns (μου, σου, του, της...), adjective agreement, and conjugations of μιλάω.",
+    "entries": cards_u104b
+}
+
+def main():
+    print(f"Writing {len(cards_u104b)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u104b, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-104b"), None)
+    unit_104b_entry = {
+        "id": "unit-104b",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Γραμματική & Προτάσεις)",
+        "order": "KlikA1-04-B",
+        "is_expansion": True,
+        "expansion_of": "KlikA1-04-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-104b/lesson-01.yaml",
+                "title": "Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος, -η, -ο) & Ρήμα Μιλάω (Pages 69-82)",
+                "description": "Expansion & Complementary to Lesson 104: Sentence structures, syntax patterns, possessive pronouns (μου, σου, του, της...), adjective agreement, and conjugations of μιλάω."
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-104b in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_104b_entry
+    else:
+        # Insert immediately after unit-104 if found, otherwise append
+        u104_idx = next((i for i, u in enumerate(units) if u.get("id") == "unit-104"), None)
+        if u104_idx is not None:
+            print(f"Inserting unit-104b immediately after unit-104 (at index {u104_idx + 1})...")
+            units.insert(u104_idx + 1, unit_104b_entry)
+        else:
+            print("Appending unit-104b to manifest.yaml...")
+            units.append(unit_104b_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-104b!")
+
+if __name__ == "__main__":
+    main()

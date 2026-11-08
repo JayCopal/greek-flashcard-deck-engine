@@ -46,12 +46,9 @@ def export():
     # 2. Prepare dist-pwa directory
     # Copy from dist to dist-pwa if dist exists
     dist_dir = BASE_DIR / "dist"
+    DIST_PWA.mkdir(parents=True, exist_ok=True)
     if dist_dir.exists():
-        if DIST_PWA.exists():
-            shutil.rmtree(DIST_PWA)
-        shutil.copytree(dist_dir, DIST_PWA)
-    else:
-        DIST_PWA.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(dist_dir, DIST_PWA, dirs_exist_ok=True)
 
     data_dir = DIST_PWA / "data"
     audio_dir = DIST_PWA / "audio"

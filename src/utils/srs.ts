@@ -1,11 +1,26 @@
 import { CardSRSData, SRSRating, CardEntry } from '../types/schema';
-import { getSRSStorageKey, notifyProgressChanged } from './userStorage';
+import { getSRSStorageKey, notifyProgressChanged, recordDailyCardReview } from './userStorage';
 
 export function getAllSRSData(userId?: string): Record<string, CardSRSData> {
   const key = getSRSStorageKey(userId);
   try {
     const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : {};
+    if (!raw) return {};
+    const parsed: Record<string, CardSRSData> = JSON.parse(raw);
+    // Sanitize data to guarantee mutual exclusivity between Learned and Ignored
+    let modified = false;
+    for (const cardId of Object.keys(parsed)) {
+      const item = parsed[cardId];
+      if (item.isLearned && item.isExcluded) {
+        // Cannot be both: prioritize Learned and clear Excluded
+        item.isExcluded = false;
+        modified = true;
+      }
+    }
+    if (modified) {
+      localStorage.setItem(key, JSON.stringify(parsed));
+    }
+    return parsed;
   } catch {
     return {};
   }
@@ -48,6 +63,10 @@ export function toggleCardLearned(cardId: string, userId?: string): boolean {
   };
 
   current.isLearned = !current.isLearned;
+  if (current.isLearned) {
+    // Strictly separate: marking as Learned removes it from Ignored
+    current.isExcluded = false;
+  }
   if (!current.lastReviewed) {
     current.lastReviewed = new Date().toISOString();
   }
@@ -68,6 +87,10 @@ export function setCardLearned(cardId: string, learned: boolean, userId?: string
   };
 
   current.isLearned = learned;
+  if (learned) {
+    // Strictly separate: marking as Learned removes it from Ignored
+    current.isExcluded = false;
+  }
   if (!current.lastReviewed) {
     current.lastReviewed = new Date().toISOString();
   }
@@ -87,6 +110,10 @@ export function toggleCardExcluded(cardId: string, userId?: string): boolean {
   };
 
   current.isExcluded = !current.isExcluded;
+  if (current.isExcluded) {
+    // Strictly separate: marking as Ignored removes it from Learned
+    current.isLearned = false;
+  }
   all[cardId] = current;
   saveAllSRSData(all, userId);
   return current.isExcluded;
@@ -104,6 +131,10 @@ export function setCardExcluded(cardId: string, excluded: boolean, userId?: stri
   };
 
   current.isExcluded = excluded;
+  if (excluded) {
+    // Strictly separate: marking as Ignored removes it from Learned
+    current.isLearned = false;
+  }
   all[cardId] = current;
   saveAllSRSData(all, userId);
 }
@@ -118,6 +149,11 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
     repetition: 0,
     easeFactor: 2.5,
   };
+
+  // If a card is explicitly assessed with an SRS rating, un-ignore it
+  if (current.isExcluded) {
+    current.isExcluded = false;
+  }
 
   let { intervalDays, repetition, easeFactor } = current;
 
@@ -165,6 +201,7 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
 
   all[cardId] = updated;
   saveAllSRSData(all, userId);
+  recordDailyCardReview(userId);
   return updated;
 }
 

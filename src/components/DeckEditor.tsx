@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { DeckData, Lesson, CardEntry, ChirpVoice, LessonStatus, SRSRating } from '../types/schema';
 import { formatLessonLabel, parseLessonCode, extractUnitContext } from '../utils/unitNaming';
 import { AudioPlayer } from './AudioPlayer';
@@ -30,16 +30,20 @@ import {
   ArrowLeft,
   FileText,
   CheckCircle,
-  Clock,
   CircleDot,
   Award,
-  Ban
+  Ban,
+  Search,
+  LayoutGrid,
+  List
 } from 'lucide-react';
 
 interface DeckEditorProps {
   deck: DeckData;
   initialUnitId?: string;
   initialLessonId?: string;
+  isOfflineMode?: boolean;
+  isPwa?: boolean;
   onBackToDashboard: () => void;
   onRefresh: () => void;
 }
@@ -55,9 +59,16 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
   deck,
   initialUnitId,
   initialLessonId,
+  isOfflineMode,
+  isPwa,
   onBackToDashboard,
   onRefresh,
 }) => {
+  const isPwaMode = Boolean(
+    isPwa || 
+    isOfflineMode || 
+    (typeof window !== 'undefined' && window.matchMedia('(display-mode: standalone)').matches)
+  );
   const { units } = deck;
 
   // Selected Unit and Lesson
@@ -93,6 +104,23 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
   const [newCardPhonetic, setNewCardPhonetic] = useState('');
   const [newCardNotes, setNewCardNotes] = useState('');
   const [newCardPos, setNewCardPos] = useState('phrase');
+
+  // In-lesson search and compact view states
+  const [searchEntryQuery, setSearchEntryQuery] = useState('');
+  const [viewMode, setViewMode] = useState<'cards' | 'table'>('cards');
+
+  const filteredEntries = useMemo(() => {
+    const entries = currentLesson?.entries || [];
+    if (!searchEntryQuery.trim()) return entries;
+    const q = searchEntryQuery.toLowerCase().trim();
+    return entries.filter((entry) => (
+      entry.greek.toLowerCase().includes(q) ||
+      entry.english.toLowerCase().includes(q) ||
+      (entry.phonetic_hint && entry.phonetic_hint.toLowerCase().includes(q)) ||
+      (entry.gender_or_pos && entry.gender_or_pos.toLowerCase().includes(q)) ||
+      (entry.notes && entry.notes.toLowerCase().includes(q))
+    ));
+  }, [currentLesson?.entries, searchEntryQuery]);
 
   // Active user & SRS state
   const [activeUser, setActiveUser] = useState(getActiveUser());
@@ -451,28 +479,30 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             </select>
           </div>
 
-          {/* Native Voice Selector */}
-          <div>
-            <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5 flex items-center justify-between">
-              <span>Voice</span>
-              <span className="text-[10px] text-sky-400 font-medium">Native Audio</span>
-            </label>
-            <select
-              value={selectedVoice}
-              onChange={(e) => setSelectedVoice(e.target.value)}
-              className="w-full bg-slate-800 text-white border border-slate-700 rounded-xl px-3 py-2 text-sm focus:outline-none focus:border-sky-500 transition-colors font-medium"
-            >
-              {voices.map((v) => (
-                <option key={v.id} value={v.id}>
-                  {v.name}
-                </option>
-              ))}
-            </select>
-          </div>
+          {/* Native Voice Selector (hidden in PWA / offline inspect mode) */}
+          {!isPwaMode && (
+            <div>
+              <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5 flex items-center justify-between">
+                <span>Voice</span>
+                <span className="text-[10px] text-sky-400 font-medium">Native Audio</span>
+              </label>
+              <select
+                value={selectedVoice}
+                onChange={(e) => setSelectedVoice(e.target.value)}
+                className="w-full bg-slate-800 text-white border border-slate-700 rounded-xl px-3 py-2 text-sm focus:outline-none focus:border-sky-500 transition-colors font-medium"
+              >
+                {voices.map((v) => (
+                  <option key={v.id} value={v.id}>
+                    {v.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
         </div>
 
         {/* Selected voice description tooltip */}
-        {activeVoiceObj && (
+        {!isPwaMode && activeVoiceObj && (
           <div className="text-xs text-slate-400 px-3 py-2 rounded-lg bg-slate-800/60 border border-slate-700/60 flex items-center justify-between">
             <span>
               <strong className="text-sky-300">{activeVoiceObj.name}:</strong> {activeVoiceObj.description}
@@ -554,13 +584,12 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       onClick={() => handleUpdateLessonStatus('in_progress_1')}
                       className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                         currentStatus === 'in_progress_1' || currentStatus === 'in_progress'
-                          ? 'bg-sky-500/20 text-sky-300 border border-sky-500/40 shadow-sm'
-                          : 'text-slate-400 hover:text-sky-300'
+                          ? 'bg-yellow-500/20 text-yellow-200 border border-yellow-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-yellow-200'
                       }`}
                       title="Mark lesson as In Progress 1"
                     >
-                      <Clock className="w-3 h-3 text-sky-400" />
-                      <span>In Progress 1</span>
+                      <span>🟡 In Progress 1 🟡</span>
                     </button>
 
                     <button
@@ -568,13 +597,12 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       onClick={() => handleUpdateLessonStatus('in_progress_2')}
                       className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                         currentStatus === 'in_progress_2'
-                          ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
-                          : 'text-slate-400 hover:text-amber-300'
+                          ? 'bg-yellow-500/30 text-yellow-300 border border-yellow-400/50 shadow-sm'
+                          : 'text-slate-400 hover:text-yellow-300'
                       }`}
                       title="Mark lesson as In Progress 2"
                     >
-                      <Clock className="w-3 h-3 text-amber-400" />
-                      <span>In Progress 2</span>
+                      <span>🟡 In Progress 2 🟡</span>
                     </button>
 
                     <button
@@ -582,13 +610,38 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       onClick={() => handleUpdateLessonStatus('in_progress_3')}
                       className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                         currentStatus === 'in_progress_3'
-                          ? 'bg-purple-500/20 text-purple-300 border border-purple-500/40 shadow-sm'
-                          : 'text-slate-400 hover:text-purple-300'
+                          ? 'bg-amber-500/25 text-amber-300 border border-amber-500/50 shadow-sm'
+                          : 'text-slate-400 hover:text-amber-300'
                       }`}
                       title="Mark lesson as In Progress 3"
                     >
-                      <Clock className="w-3 h-3 text-purple-400" />
-                      <span>In Progress 3</span>
+                      <span>🟠 In Progress 3 🟠</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('in_progress_4')}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress_4'
+                          ? 'bg-orange-500/25 text-orange-300 border border-orange-500/50 shadow-sm'
+                          : 'text-slate-400 hover:text-orange-300'
+                      }`}
+                      title="Mark lesson as In Progress 4"
+                    >
+                      <span>🟠 In Progress 4 🟠</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleUpdateLessonStatus('in_progress_5')}
+                      className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                        currentStatus === 'in_progress_5'
+                          ? 'bg-orange-500/35 text-orange-400 border border-orange-400/60 font-bold shadow-sm'
+                          : 'text-slate-400 hover:text-orange-400'
+                      }`}
+                      title="Mark lesson as In Progress 5"
+                    >
+                      <span>🟠 In Progress 5 🟠</span>
                     </button>
 
                     <button
@@ -799,12 +852,12 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
       {(() => {
         const allSRS = getAllSRSData(activeUser.id);
         const entries = currentLesson?.entries || [];
-        const learned = entries.filter((e) => allSRS[e.id]?.isLearned).length;
-        const easy = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'easy').length;
-        const good = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'good').length;
-        const hard = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'hard').length;
-        const again = entries.filter((e) => !allSRS[e.id]?.isExcluded && getCardRatingStatus(allSRS[e.id]) === 'again').length;
-        const ignored = entries.filter((e) => allSRS[e.id]?.isExcluded).length;
+        const learned = entries.filter((e) => allSRS[e.id]?.isLearned && !allSRS[e.id]?.isExcluded).length;
+        const easy = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'easy').length;
+        const good = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'good').length;
+        const hard = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'hard').length;
+        const again = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'again').length;
+        const ignored = entries.filter((e) => allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned).length;
 
         return (
           <div ref={progressRef} className="scroll-mt-20 glass-panel p-4 rounded-2xl border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
@@ -828,9 +881,185 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         );
       })()}
 
-      {/* Cards List */}
-      <div className="space-y-4">
-        {currentLesson?.entries.map((entry) => {
+      {/* In-Lesson Filter & View Mode Toolbar */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2">
+        {/* Quick Search */}
+        <div className="relative flex-1 sm:max-w-xs">
+          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+          <input
+            type="text"
+            value={searchEntryQuery}
+            onChange={(e) => setSearchEntryQuery(e.target.value)}
+            placeholder="Search this lesson (Greek, English)..."
+            className="w-full pl-8 pr-7 py-1.5 rounded-xl bg-slate-900 border border-slate-700/80 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
+          />
+          {searchEntryQuery && (
+            <button
+              type="button"
+              onClick={() => setSearchEntryQuery('')}
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+            >
+              <X className="w-3 h-3" />
+            </button>
+          )}
+        </div>
+
+        <div className="flex items-center gap-2.5 self-end sm:self-auto">
+          <span className="text-xs text-slate-400">
+            {filteredEntries.length} {filteredEntries.length === 1 ? 'card' : 'cards'}
+          </span>
+
+          {/* View Mode Toggle: Cards vs Table */}
+          <div className="flex items-center bg-slate-900 p-0.5 rounded-xl border border-slate-800">
+            <button
+              type="button"
+              onClick={() => setViewMode('cards')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                viewMode === 'cards'
+                  ? 'bg-sky-500 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+              title="Card View"
+            >
+              <LayoutGrid className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Cards</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode('table')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                viewMode === 'table'
+                  ? 'bg-sky-500 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+              title="Compact Table View"
+            >
+              <List className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Table</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {filteredEntries.length === 0 ? (
+        <div className="glass-panel p-8 rounded-2xl text-center space-y-2 border-slate-800">
+          <p className="text-sm font-semibold text-white">No cards match your search</p>
+          <p className="text-xs text-slate-400">Try adjusting your search terms or clearing the filter.</p>
+          <button
+            type="button"
+            onClick={() => setSearchEntryQuery('')}
+            className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs text-sky-400 border border-slate-700 mt-1 transition-colors"
+          >
+            Clear Search
+          </button>
+        </div>
+      ) : viewMode === 'table' ? (
+        /* Compact Table / List View */
+        <div className="glass-panel rounded-2xl overflow-hidden border border-slate-800 shadow-xl">
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs border-collapse">
+              <thead>
+                <tr className="border-b border-slate-800 bg-slate-900/90 text-slate-400 font-semibold uppercase tracking-wider text-[10px]">
+                  <th className="py-2.5 px-3">Status</th>
+                  <th className="py-2.5 px-3">Greek</th>
+                  <th className="py-2.5 px-3">English</th>
+                  <th className="py-2.5 px-3 hidden sm:table-cell">Phonetic</th>
+                  <th className="py-2.5 px-3">Audio</th>
+                  <th className="py-2.5 px-3">Rating</th>
+                  <th className="py-2.5 px-3 text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-800/60">
+                {filteredEntries.map((entry) => {
+                  const cardSrs = getCardSRS(entry.id, activeUser.id);
+                  const cardRating = getCardRatingStatus(cardSrs);
+                  return (
+                    <tr 
+                      key={entry.id} 
+                      className={`hover:bg-slate-800/40 transition-colors ${
+                        cardSrs.isExcluded ? 'opacity-60 bg-rose-950/10' : ''
+                      }`}
+                    >
+                      <td className="py-2.5 px-3 whitespace-nowrap">
+                        {cardSrs.isLearned ? (
+                          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-teal-500/20 text-teal-300 border border-teal-500/30">
+                            <CheckCircle className="w-3 h-3 text-teal-400" />
+                            <span className="hidden md:inline">Learned</span>
+                          </span>
+                        ) : cardSrs.isExcluded ? (
+                          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                            <Ban className="w-3 h-3 text-rose-400" />
+                            <span className="hidden md:inline">Ignored</span>
+                          </span>
+                        ) : (
+                          <span className="inline-block w-2 h-2 rounded-full bg-slate-600 ml-1" />
+                        )}
+                      </td>
+                      <td className="py-2.5 px-3 font-semibold text-white">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="font-serif text-sm">{entry.greek}</span>
+                          {entry.gender_or_pos && (
+                            <span className="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-sky-300 border border-slate-700/80">
+                              {entry.gender_or_pos}
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="py-2.5 px-3 text-slate-300">{entry.english}</td>
+                      <td className="py-2.5 px-3 text-slate-400 font-mono text-[11px] hidden sm:table-cell">
+                        {entry.phonetic_hint ? `/${entry.phonetic_hint}/` : '—'}
+                      </td>
+                      <td className="py-2.5 px-3 whitespace-nowrap">
+                        {entry.audio ? (
+                          <AudioPlayer
+                            src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`}audio/${entry.audio}`}
+                            mini
+                          />
+                        ) : (
+                          <span className="text-[10px] text-slate-500 italic">No audio</span>
+                        )}
+                      </td>
+                      <td className="py-2.5 px-3 whitespace-nowrap">
+                        {cardRating !== 'new' ? (
+                          <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase ${
+                            cardRating === 'again'
+                              ? 'bg-rose-950/80 text-rose-300 border-rose-700/60'
+                              : cardRating === 'hard'
+                              ? 'bg-amber-950/80 text-amber-300 border-amber-700/60'
+                              : cardRating === 'good'
+                              ? 'bg-sky-950/80 text-sky-300 border-sky-700/60'
+                              : 'bg-emerald-950/80 text-emerald-300 border-emerald-700/60'
+                          }`}>
+                            {cardRating}
+                          </span>
+                        ) : (
+                          <span className="text-slate-500 text-[10px]">New</span>
+                        )}
+                      </td>
+                      <td className="py-2.5 px-3 text-right whitespace-nowrap">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setViewMode('cards');
+                            startEditing(entry);
+                          }}
+                          className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 inline-flex items-center"
+                          title="Edit card"
+                        >
+                          <Edit3 className="w-3 h-3" />
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ) : (
+        /* Cards List */
+        <div className="space-y-4">
+          {filteredEntries.map((entry) => {
           const isPreviewing = activePreview?.entryId === entry.id;
           const isEditing = editingEntryId === entry.id;
           const isLoadingTts = loadingTtsId === entry.id;
@@ -1026,8 +1255,8 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       />
                     )}
 
-                    {/* TTS Generation Button */}
-                    {!isPreviewing && (
+                    {/* TTS Generation Button (Hidden in PWA / offline inspect mode) */}
+                    {!isPreviewing && !isPwaMode && (
                       <button
                         onClick={() => handleGenerateTTS(entry)}
                         disabled={isLoadingTts}
@@ -1163,7 +1392,8 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             </div>
           );
         })}
-      </div>
+        </div>
+      )}
     </div>
   );
 };

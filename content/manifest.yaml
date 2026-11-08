@@ -5,7 +5,7 @@ created_at: '2026-10-25'
 units:
 - id: unit-00
   title: Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)
-  order: OG-00-A
+  order: A1-00-A
   lessons:
   - id: lesson-01
     file: unit-00/lesson-01.yaml
@@ -13,49 +13,49 @@ units:
       Rubrics)'
 - id: unit-01
   title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
-  order: OG-01-A
+  order: A1-01-A
   lessons:
   - id: lesson-01
     file: unit-01/lesson-01.yaml
     title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
 - id: unit-02
   title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
-  order: OG-02-A
+  order: A1-02-A
   lessons:
   - id: lesson-01
     file: unit-02/lesson-01.yaml
     title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
 - id: unit-03
   title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
-  order: OG-03-A
+  order: A1-03-A
   lessons:
   - id: lesson-01
     file: unit-03/lesson-01.yaml
     title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
 - id: unit-04
   title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
-  order: OG-04-A
+  order: A1-04-A
   lessons:
   - id: lesson-01
     file: unit-04/lesson-01.yaml
     title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
 - id: unit-05
   title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
-  order: OG-05-A
+  order: A1-05-A
   lessons:
   - id: lesson-01
     file: unit-05/lesson-01.yaml
     title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
 - id: unit-06
   title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
-  order: OG-06-A
+  order: A1-06-A
   lessons:
   - id: lesson-01
     file: unit-06/lesson-01.yaml
     title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
 - id: unit-07
   title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
-  order: OG-07-A
+  order: A1-07-A
   lessons:
   - id: lesson-01
     file: unit-07/lesson-01.yaml
@@ -86,6 +86,21 @@ units:
     file: unit-103/lesson-01.yaml
     title: 'Ενότητα 2: Πού μένεις; — Πόλεις, Διευθύνσεις, Αριθμοί 0-10 & Προθέσεις
       (Pages 55-68)'
+- id: unit-103b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 55-68 (Ενότητα 2: Πού μένεις; - Γραμματική
+    & Προτάσεις)'
+  order: KlikA1-03-B
+  is_expansion: true
+  expansion_of: KlikA1-03-A
+  lessons:
+  - id: lesson-01
+    file: unit-103b/lesson-01.yaml
+    title: 'Ενότητα 2: Προτάσεις & Γραμματική — Κατοικία, Προθέσεις (σε/από), Ρήματα
+      σε -ω & Τοπικοί Προσδιορισμοί (Pages 55-68)'
+    description: 'Expansion & Complementary to Lesson 103: Sentence structures, syntax
+      patterns, locative prepositions merged with accusative articles (στον/στη/στο,
+      από τον/τη/το), Type A verb conjugations (-ω), and spatial expressions (κοντά,
+      δίπλα, απέναντι).'
 - id: unit-104
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Συγγένεια,
     Περιγραφή & Εθνικότητες)'
@@ -95,6 +110,20 @@ units:
     file: unit-104/lesson-01.yaml
     title: 'Ενότητα 3: Η οικογένειά μου — Μέλη Οικογένειας, Επίθετα, Χώρες, Γλώσσες
       & Ρήμα Μιλάω (Pages 69-82)'
+- id: unit-104b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 69-82 (Ενότητα 3: Η οικογένειά μου - Γραμματική
+    & Προτάσεις)'
+  order: KlikA1-04-B
+  is_expansion: true
+  expansion_of: KlikA1-04-A
+  lessons:
+  - id: lesson-01
+    file: unit-104b/lesson-01.yaml
+    title: 'Ενότητα 3: Προτάσεις & Γραμματική — Οικογένεια, Κτητικά, Επίθετα (-ος,
+      -η, -ο) & Ρήμα Μιλάω (Pages 69-82)'
+    description: 'Expansion & Complementary to Lesson 104: Sentence structures, syntax
+      patterns, possessive pronouns (μου, σου, του, της...), adjective agreement,
+      and conjugations of μιλάω.'
 - id: unit-105
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 87-110 (Ενότητα 4: Από το πρωί μέχρι το βράδυ
     - Καθημερινότητα, Ελεύθερος Χρόνος, Ώρα & Ρήματα)'
@@ -117,3 +146,46 @@ units:
       patterns, accusative direct objects, irregular verbs, and time-telling.'
   is_expansion: true
   expansion_of: KlikA1-05-A
+- id: unit-106
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Λεξιλόγιο)'
+  order: KlikA1-06-A
+  lessons:
+  - id: lesson-01
+    file: unit-106/lesson-01.yaml
+    title: 'Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)'
+- id: unit-106b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Γραμματική
+    & Προτάσεις)'
+  order: KlikA1-06-B
+  is_expansion: true
+  expansion_of: KlikA1-06-A
+  lessons:
+  - id: lesson-01
+    file: unit-106b/lesson-01.yaml
+    title: 'Ενότητα 5: Προτάσεις & Γραμματική — Ετοιμάζω ταξίδι! (Pages 111-134)'
+    description: 'Expansion & Complementary to Lesson 106: Sentence structures, syntax
+      patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
+      να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective
+      + από), transit navigation, and communicative dialogues.'
+- id: unit-107
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Λεξιλόγιο)'
+  order: KlikA1-07-A
+  lessons:
+  - id: lesson-01
+    file: unit-107/lesson-01.yaml
+    title: 'Ενότητα 6: Σπίτι μου, σπιτάκι μου — Βασικό Λεξιλόγιο (Pages 133-150)'
+- id: unit-107b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Γραμματική & Προτάσεις)'
+  order: KlikA1-07-B
+  is_expansion: true
+  expansion_of: KlikA1-07-A
+  lessons:
+  - id: lesson-01
+    file: unit-107b/lesson-01.yaml
+    title: 'Ενότητα 6: Προτάσεις & Γραμματική — Σπίτι μου, σπιτάκι μου (Pages 133-150)'
+    description: 'Expansion & Complementary to Lesson 107: Sentence structures, syntax
+      patterns, imperative mood (προστακτική: κάνε/κάντε, άκου/ακούστε, μη + υποτακτική),
+      spatial prepositions (μέσα, έξω, πάνω, κάτω, μπροστά, πίσω, δεξιά, αριστερά),
+      adjective agreement, colors, real estate ads, and housing dialogues.'

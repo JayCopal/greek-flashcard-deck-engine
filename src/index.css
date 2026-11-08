@@ -40,3 +40,18 @@
   background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);
   border: 1px solid rgba(56, 189, 248, 0.15);
 }
+
+/* OLED Pure Black Theme overrides */
+.oled-theme {
+  background-color: #000000 !important;
+}
+
+.oled-theme .glass-panel {
+  background: rgba(0, 0, 0, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.oled-theme .glass-card {
+  background: #020202 !important;
+  border-color: rgba(56, 189, 248, 0.25) !important;
+}

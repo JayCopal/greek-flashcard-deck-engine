@@ -20,6 +20,8 @@ export type LessonStatus =
   | 'in_progress_1' 
   | 'in_progress_2' 
   | 'in_progress_3' 
+  | 'in_progress_4' 
+  | 'in_progress_5' 
   | 'learned'
   | 'in_progress'; // Legacy compatibility
 

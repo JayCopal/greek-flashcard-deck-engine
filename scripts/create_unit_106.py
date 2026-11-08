@@ -1,0 +1,1251 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 106 from Klik A1 (Pages 111-134):
+Ενότητα 5: Ετοιμάζω ταξίδι! - Βασικό Λεξιλόγιο
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and the klik-a1-deck-builder skill.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-106"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u106 = [
+    # =========================================================================
+    # 1. Travel & Vacations Basics (pp. 111-114)
+    # =========================================================================
+    {
+        "id": "A1-U106-001",
+        "greek": "το ταξίδι",
+        "phonetic_hint": "to tahk-SEE-thee",
+        "english": "trip / journey / travel",
+        "notes": "Klik A1 p. 111. Neuter noun in -ι with plural in -ια. Stress on penult.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να πάω ένα ωραίο ταξίδι στην Ελλάδα.",
+        "example_en": "I want to go on a nice trip to Greece.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ταξίδια",
+            "accusative_singular": "το ταξίδι"
+        },
+        "keg_communicative_function": "Naming travel and journeys"
+    },
+    {
+        "id": "A1-U106-002",
+        "greek": "οι διακοπές",
+        "phonetic_hint": "ee thee-ah-ko-PES",
+        "english": "vacation / holidays",
+        "notes": "Klik A1 p. 113. Feminine noun used predominantly in plural (plurale tantum).",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σε μία εβδομάδα αρχίζουν οι καλοκαιρινές διακοπές μου.",
+        "example_en": "In one week my summer vacation starts.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι διακοπές",
+            "accusative_singular": "τις διακοπές"
+        },
+        "keg_communicative_function": "Discussing vacation and holiday plans"
+    },
+    {
+        "id": "A1-U106-003",
+        "greek": "η εκδρομή",
+        "phonetic_hint": "ee ek-thro-MEE",
+        "english": "excursion / day trip / outing",
+        "notes": "Klik A1 p. 119. Feminine noun in -η with plural in -ες. Stress on ultima.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η τετραήμερη εκδρομή στην Καστοριά κοστίζει διακόσια ευρώ.",
+        "example_en": "The four-day excursion to Kastoria costs two hundred euros.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εκδρομές",
+            "accusative_singular": "την εκδρομή"
+        },
+        "keg_communicative_function": "Talking about excursions and organized tours"
+    },
+    {
+        "id": "A1-U106-004",
+        "greek": "το εισιτήριο",
+        "phonetic_hint": "to ee-see-TEE-ree-o",
+        "english": "ticket",
+        "notes": "Klik A1 p. 111. Neuter noun in -ιο with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να αγοράσουμε τα εισιτήρια του πλοίου εγκαίρως.",
+        "example_en": "We must buy the ferry tickets in good time.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα εισιτήρια",
+            "accusative_singular": "το εισιτήριο"
+        },
+        "keg_communicative_function": "Purchasing travel tickets"
+    },
+    {
+        "id": "A1-U106-005",
+        "greek": "το ταξιδιωτικό γραφείο",
+        "phonetic_hint": "to tahk-see-thee-oh-tee-KO grah-FEE-o",
+        "english": "travel agency",
+        "notes": "Klik A1 p. 111, 120. Compound noun phrase with neuter adjective and noun.",
+        "gender_or_pos": "noun phrase (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κλείνουμε τις διακοπές μας μέσω ενός ταξιδιωτικού γραφείου.",
+        "example_en": "We book our vacation through a travel agency.",
+        "grammatical_info": {
+            "part_of_speech": "noun phrase (neuter)",
+            "plural": "τα ταξιδιωτικά γραφεία",
+            "accusative_singular": "το ταξιδιωτικό γραφείο"
+        },
+        "keg_communicative_function": "Identifying travel agencies and booking services"
+    },
+    {
+        "id": "A1-U106-006",
+        "greek": "η βαλίτσα",
+        "phonetic_hint": "ee vah-LEET-sah",
+        "english": "suitcase / luggage",
+        "notes": "Klik A1 p. 111, 114, 118, 130. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να φτιάξω τη βαλίτσα μου για το ταξίδι.",
+        "example_en": "I need to pack my suitcase for the trip.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι βαλίτσες",
+            "accusative_singular": "τη βαλίτσα"
+        },
+        "keg_communicative_function": "Talking about packing luggage"
+    },
+    {
+        "id": "A1-U106-007",
+        "greek": "η φωτογραφική μηχανή",
+        "phonetic_hint": "ee foh-toh-grah-fee-KEE mee-khah-NEE",
+        "english": "camera / photographic camera",
+        "notes": "Klik A1 p. 111, 127. Feminine noun phrase: επίθετο + ουσιαστικό.",
+        "gender_or_pos": "noun phrase (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παίρνω τη φωτογραφική μηχανή μου για να βγάλω φωτογραφίες.",
+        "example_en": "I take my camera to take photos.",
+        "grammatical_info": {
+            "part_of_speech": "noun phrase (feminine)",
+            "plural": "οι φωτογραφικές μηχανές",
+            "accusative_singular": "τη φωτογραφική μηχανή"
+        },
+        "keg_communicative_function": "Naming photography equipment"
+    },
+    {
+        "id": "A1-U106-008",
+        "greek": "τα ρούχα",
+        "phonetic_hint": "tah ROO-khah",
+        "english": "clothes / clothing",
+        "notes": "Klik A1 p. 127. Neuter noun used predominantly in plural.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Βάζω ζεστά ρούχα στη βαλίτσα μου γιατί κάνει κρύο.",
+        "example_en": "I pack warm clothes in my suitcase because it is cold.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ρούχα",
+            "accusative_singular": "τα ρούχα"
+        },
+        "keg_communicative_function": "Packing clothing for travel"
+    },
+
+    # =========================================================================
+    # 2. Means of Transport & Infrastructure (pp. 113, 120-125)
+    # =========================================================================
+    {
+        "id": "A1-U106-009",
+        "greek": "το μεταφορικό μέσο",
+        "phonetic_hint": "to meh-tah-fo-ree-KO MEH-so",
+        "english": "means of transport",
+        "notes": "Klik A1 p. 121. Neuter noun phrase: επίθετο + ουσιαστικό.",
+        "gender_or_pos": "noun phrase (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το αεροπλάνο είναι το πιο γρήγορο μεταφορικό μέσο.",
+        "example_en": "The airplane is the fastest means of transport.",
+        "grammatical_info": {
+            "part_of_speech": "noun phrase (neuter)",
+            "plural": "τα μεταφορικά μέσα",
+            "accusative_singular": "το μεταφορικό μέσο"
+        },
+        "keg_communicative_function": "Categorizing transportation methods"
+    },
+    {
+        "id": "A1-U106-010",
+        "greek": "το αεροπλάνο",
+        "phonetic_hint": "to ah-eh-ro-PLAH-no",
+        "english": "airplane / plane",
+        "notes": "Klik A1 p. 113, 114, 121. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ταξιδεύω για τη Ρόδο με το αεροπλάνο.",
+        "example_en": "I am traveling to Rhodes by airplane.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα αεροπλάνα",
+            "accusative_singular": "το αεροπλάνο"
+        },
+        "keg_communicative_function": "Specifying air transportation"
+    },
+    {
+        "id": "A1-U106-011",
+        "greek": "το πλοίο",
+        "phonetic_hint": "to PLEE-o",
+        "english": "ship / boat / ferry",
+        "notes": "Klik A1 p. 113, 124, 131. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το πλοίο για τη Μήλο φεύγει στις επτά το πρωί.",
+        "example_en": "The ferry to Milos departs at seven in the morning.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πλοία",
+            "accusative_singular": "το πλοίο"
+        },
+        "keg_communicative_function": "Specifying maritime transit"
+    },
+    {
+        "id": "A1-U106-012",
+        "greek": "το καράβι",
+        "phonetic_hint": "to kah-RAH-vee",
+        "english": "ship / vessel / boat",
+        "notes": "Klik A1 p. 131. Common colloquial neuter noun in -ι for sea vessels.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πάρε πλοίο και καράβι και επισκέψου όλα τα νησιά.",
+        "example_en": "Take a boat and a ship and visit all the islands.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα καράβια",
+            "accusative_singular": "το καράβι"
+        },
+        "keg_communicative_function": "Naming maritime vessels"
+    },
+    {
+        "id": "A1-U106-013",
+        "greek": "το τρένο",
+        "phonetic_hint": "to TREH-no",
+        "english": "train",
+        "notes": "Klik A1 p. 113, 121. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το ταξίδι με το τρένο είναι άνετο και οικονομικό.",
+        "example_en": "The trip by train is comfortable and economical.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα τρένα",
+            "accusative_singular": "το τρένο"
+        },
+        "keg_communicative_function": "Specifying rail transportation"
+    },
+    {
+        "id": "A1-U106-014",
+        "greek": "το λεωφορείο",
+        "phonetic_hint": "to leh-o-fo-REE-o",
+        "english": "bus",
+        "notes": "Klik A1 p. 120-125. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιο λεωφορείο πηγαίνει στην πλατεία Αριστοτέλους;",
+        "example_en": "Which bus goes to Aristotelous Square?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα λεωφορεία",
+            "accusative_singular": "το λεωφορείο"
+        },
+        "keg_communicative_function": "Navigating urban and regional bus transit"
+    },
+    {
+        "id": "A1-U106-015",
+        "greek": "το ταξί",
+        "phonetic_hint": "to tahk-SEE",
+        "english": "taxi / cab",
+        "notes": "Klik A1 p. 113. Indeclinable neuter loan noun.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παίρνω ένα ταξί για να πάω γρήγορα στον σταθμό.",
+        "example_en": "I take a taxi to get to the station quickly.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ταξί",
+            "accusative_singular": "το ταξί"
+        },
+        "keg_communicative_function": "Using taxi transport"
+    },
+    {
+        "id": "A1-U106-016",
+        "greek": "το μετρό",
+        "phonetic_hint": "to meh-TRO",
+        "english": "metro / subway",
+        "notes": "Klik A1 p. 120, 121. Indeclinable neuter noun with stress on ultima.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στην Αθήνα μετακινούμαι κυρίως με το μετρό.",
+        "example_en": "In Athens I commute mainly by metro.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μετρό",
+            "accusative_singular": "το μετρό"
+        },
+        "keg_communicative_function": "Navigating underground public transit"
+    },
+    {
+        "id": "A1-U106-017",
+        "greek": "το αεροδρόμιο",
+        "phonetic_hint": "to ah-eh-ro-THRO-mee-o",
+        "english": "airport",
+        "notes": "Klik A1 p. 122, 125. Neuter compound noun: αέρας + δρόμος.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το λεωφορείο εβδομήντα δύο πηγαίνει κατευθείαν στο αεροδρόμιο.",
+        "example_en": "Bus seventy-two goes directly to the airport.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα αεροδρόμια",
+            "accusative_singular": "το αεροδρόμιο"
+        },
+        "keg_communicative_function": "Locating airport infrastructure"
+    },
+    {
+        "id": "A1-U106-018",
+        "greek": "το λιμάνι",
+        "phonetic_hint": "to lee-MAH-nee",
+        "english": "port / harbor",
+        "notes": "Klik A1 p. 124, 131. Neuter noun in -ι with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Όταν φτάσεις στο λιμάνι του Πειραιά, πάρε με τηλέφωνο.",
+        "example_en": "When you arrive at the port of Piraeus, call me.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα λιμάνια",
+            "accusative_singular": "το λιμάνι"
+        },
+        "keg_communicative_function": "Locating marine ports"
+    },
+    {
+        "id": "A1-U106-019",
+        "greek": "ο σταθμός",
+        "phonetic_hint": "o stahth-MOS",
+        "english": "station / terminal",
+        "notes": "Klik A1 p. 122, 125. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο σιδηροδρομικός σταθμός είναι κοντά στο κέντρο της πόλης.",
+        "example_en": "The railway station is near the city center.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι σταθμοί",
+            "accusative_singular": "τον σταθμό"
+        },
+        "keg_communicative_function": "Identifying transit stations"
+    },
+    {
+        "id": "A1-U106-020",
+        "greek": "η στάση",
+        "phonetic_hint": "ee STAH-see",
+        "english": "bus stop / transit stop",
+        "notes": "Klik A1 p. 121, 122, 125. Feminine noun in -ση with plural in -σεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κατεβαίνεις στην επόμενη στάση του λεωφορείου.",
+        "example_en": "You get off at the next bus stop.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι στάσεις",
+            "accusative_singular": "τη στάση"
+        },
+        "keg_communicative_function": "Asking for and identifying bus stops"
+    },
+    {
+        "id": "A1-U106-021",
+        "greek": "η καθυστέρηση",
+        "phonetic_hint": "ee kah-thee-STEH-ree-see",
+        "english": "delay",
+        "notes": "Klik A1 p. 124. Feminine abstract noun in -ση.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η πτήση για τη Ρώμη έχει μία ώρα καθυστέρηση.",
+        "example_en": "The flight to Rome has a one-hour delay.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι καθυστερήσεις",
+            "accusative_singular": "την καθυστέρηση"
+        },
+        "keg_communicative_function": "Inquiring about travel delays"
+    },
+
+    # =========================================================================
+    # 3. Accommodation & Hospitality (pp. 111-115, 121-123)
+    # =========================================================================
+    {
+        "id": "A1-U106-022",
+        "greek": "το ξενοδοχείο",
+        "phonetic_hint": "to kseh-no-tho-KHEE-o",
+        "english": "hotel",
+        "notes": "Klik A1 p. 111-115, 121. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μένουμε σε ένα πολύ ωραίο ξενοδοχείο δίπλα στη θάλασσα.",
+        "example_en": "We are staying at a very nice hotel next to the sea.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ξενοδοχεία",
+            "accusative_singular": "το ξενοδοχείο"
+        },
+        "keg_communicative_function": "Booking and discussing hotel accommodation"
+    },
+    {
+        "id": "A1-U106-023",
+        "greek": "το δωμάτιο",
+        "phonetic_hint": "to tho-MAH-tee-o",
+        "english": "room",
+        "notes": "Klik A1 p. 112, 113, 121. Neuter noun in -ιο with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ψάχνω ένα καθαρό και ήσυχο δωμάτιο με θέα.",
+        "example_en": "I am looking for a clean and quiet room with a view.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα δωμάτια",
+            "accusative_singular": "το δωμάτιο"
+        },
+        "keg_communicative_function": "Requesting hotel rooms"
+    },
+    {
+        "id": "A1-U106-024",
+        "greek": "το μονόκλινο",
+        "phonetic_hint": "to mo-NO-klee-no",
+        "english": "single room",
+        "notes": "Klik A1 p. 121. Neuter noun in -ο (from μονόκλινο δωμάτιο). Plural: τα μονόκλινα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να κλείσω ένα μονόκλινο για δύο βράδια.",
+        "example_en": "I want to book a single room for two nights.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μονόκλινα",
+            "accusative_singular": "το μονόκλινο"
+        },
+        "keg_communicative_function": "Reserving single room accommodation"
+    },
+    {
+        "id": "A1-U106-025",
+        "greek": "το δίκλινο",
+        "phonetic_hint": "to THEE-klee-no",
+        "english": "double room",
+        "notes": "Klik A1 p. 121. Neuter noun in -ο (from δίκλινο δωμάτιο). Plural: τα δίκλινα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πόσο κοστίζει το δίκλινο δωμάτιο με πρωινό;",
+        "example_en": "How much does the double room with breakfast cost?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα δίκλινα",
+            "accusative_singular": "το δίκλινο"
+        },
+        "keg_communicative_function": "Reserving double room accommodation"
+    },
+    {
+        "id": "A1-U106-026",
+        "greek": "το κάμπινγκ",
+        "phonetic_hint": "to KAHM-peeng",
+        "english": "camping / campsite",
+        "notes": "Klik A1 p. 113. Indeclinable neuter loan noun.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το καλοκαίρι προτιμώ να μένω σε κάμπινγκ στο νησί.",
+        "example_en": "In the summer I prefer staying at a campsite on the island.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα κάμπινγκ",
+            "accusative_singular": "το κάμπινγκ"
+        },
+        "keg_communicative_function": "Specifying outdoor accommodation"
+    },
+    {
+        "id": "A1-U106-027",
+        "greek": "το μονό κρεβάτι",
+        "phonetic_hint": "to mo-NO kreh-VAH-tee",
+        "english": "single bed",
+        "notes": "Klik A1 p. 121, 122. Neuter noun phrase: επίθετο + ουσιαστικό.",
+        "gender_or_pos": "noun phrase (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το μονόκλινο δωμάτιο διαθέτει ένα μονό κρεβάτι.",
+        "example_en": "The single room features a single bed.",
+        "grammatical_info": {
+            "part_of_speech": "noun phrase (neuter)",
+            "plural": "τα μονά κρεβάτια",
+            "accusative_singular": "το μονό κρεβάτι"
+        },
+        "keg_communicative_function": "Describing bed types in rooms"
+    },
+    {
+        "id": "A1-U106-028",
+        "greek": "το διπλό κρεβάτι",
+        "phonetic_hint": "to thee-PLO kreh-VAH-tee",
+        "english": "double bed",
+        "notes": "Klik A1 p. 121, 122. Neuter noun phrase: επίθετο + ουσιαστικό.",
+        "gender_or_pos": "noun phrase (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το δωμάτιο έχει ένα άνετο διπλό κρεβάτι.",
+        "example_en": "The room has a comfortable double bed.",
+        "grammatical_info": {
+            "part_of_speech": "noun phrase (neuter)",
+            "plural": "τα διπλά κρεβάτια",
+            "accusative_singular": "το διπλό κρεβάτι"
+        },
+        "keg_communicative_function": "Describing double bed configurations"
+    },
+    {
+        "id": "A1-U106-029",
+        "greek": "το πρωινό",
+        "phonetic_hint": "to pro-ee-NO",
+        "english": "breakfast",
+        "notes": "Klik A1 p. 113, 121, 123. Neuter noun (from πρωινό γεύμα). Plural: τα πρωινά.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σερβίρουν πρωινό από τις επτά μέχρι τις δέκα το πρωί.",
+        "example_en": "They serve breakfast from seven to ten in the morning.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πρωινά",
+            "accusative_singular": "το πρωινό"
+        },
+        "keg_communicative_function": "Inquiring about hotel breakfast service"
+    },
+    {
+        "id": "A1-U106-030",
+        "greek": "το μεσημεριανό",
+        "phonetic_hint": "to meh-see-meh-ree-ah-NO",
+        "english": "lunch",
+        "notes": "Klik A1 p. 113, 123. Neuter noun. Plural: τα μεσημεριανά.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Τρώμε μεσημεριανό σε μια παραθαλάσσια ταβέρνα.",
+        "example_en": "We eat lunch at a seaside tavern.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μεσημεριανά",
+            "accusative_singular": "το μεσημεριανό"
+        },
+        "keg_communicative_function": "Talking about lunchtime dining"
+    },
+    {
+        "id": "A1-U106-031",
+        "greek": "το βραδινό",
+        "phonetic_hint": "to vrah-thee-NO",
+        "english": "dinner / supper",
+        "notes": "Klik A1 p. 113, 123. Neuter noun. Plural: τα βραδινά.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το βραδινό στο ξενοδοχείο αρχίζει στις οκτώ.",
+        "example_en": "Dinner at the hotel starts at eight.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα βραδινά",
+            "accusative_singular": "το βραδινό"
+        },
+        "keg_communicative_function": "Talking about evening dining"
+    },
+    {
+        "id": "A1-U106-032",
+        "greek": "η διαμονή",
+        "phonetic_hint": "ee thee-ah-mo-NEE",
+        "english": "stay / accommodation",
+        "notes": "Klik A1 p. 113, 132. Feminine noun in -η with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η διαμονή μας στην Αθήνα ήταν εξαιρετική.",
+        "example_en": "Our stay in Athens was excellent.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι διαμονές",
+            "accusative_singular": "τη διαμονή"
+        },
+        "keg_communicative_function": "Describing accommodation experiences"
+    },
+    {
+        "id": "A1-U106-033",
+        "greek": "η διατροφή",
+        "phonetic_hint": "ee thee-ah-tro-FEE",
+        "english": "board / meals / nutrition",
+        "notes": "Klik A1 p. 113. Feminine noun in -η with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το πακέτο της εκδρομής περιλαμβάνει διαμονή και διατροφή.",
+        "example_en": "The tour package includes accommodation and meals.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι διατροφές",
+            "accusative_singular": "τη διατροφή"
+        },
+        "keg_communicative_function": "Specifying meal arrangements in tour packages"
+    },
+    {
+        "id": "A1-U106-034",
+        "greek": "η τιμή",
+        "phonetic_hint": "ee tee-MEE",
+        "english": "price / rate",
+        "notes": "Klik A1 p. 112, 123. Feminine noun in -η with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ρωτάω στο τουριστικό γραφείο για τις τιμές των εισιτηρίων.",
+        "example_en": "I ask at the tourist office about ticket prices.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι τιμές",
+            "accusative_singular": "την τιμή"
+        },
+        "keg_communicative_function": "Asking about prices and rates"
+    },
+
+    # =========================================================================
+    # 4. Geography, Travel Destinations & General Terms (pp. 111, 113, 123, 127)
+    # =========================================================================
+    {
+        "id": "A1-U106-035",
+        "greek": "το βουνό",
+        "phonetic_hint": "to voo-NO",
+        "english": "mountain",
+        "notes": "Klik A1 p. 111, 113. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Τον χειμώνα προτιμάμε διακοπές στο βουνό για σκι.",
+        "example_en": "In winter we prefer mountain vacations for skiing.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα βουνά",
+            "accusative_singular": "το βουνό"
+        },
+        "keg_communicative_function": "Talking about mountain destinations"
+    },
+    {
+        "id": "A1-U106-036",
+        "greek": "η θάλασσα",
+        "phonetic_hint": "ee THAH-lah-sah",
+        "english": "sea",
+        "notes": "Klik A1 p. 111, 113, 131. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το καλοκαίρι κολυμπάμε κάθε μέρα στη θάλασσα.",
+        "example_en": "In the summer we swim every day in the sea.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι θάλασσες",
+            "accusative_singular": "τη θάλασσα"
+        },
+        "keg_communicative_function": "Talking about seaside destinations"
+    },
+    {
+        "id": "A1-U106-037",
+        "greek": "το νησί",
+        "phonetic_hint": "to nee-SEE",
+        "english": "island",
+        "notes": "Klik A1 p. 131. Neuter noun in -ι with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η Σαντορίνη είναι ένα από τα πιο όμορφα νησιά της Ελλάδας.",
+        "example_en": "Santorini is one of the most beautiful islands of Greece.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα νησιά",
+            "accusative_singular": "το νησί"
+        },
+        "keg_communicative_function": "Describing island destinations"
+    },
+    {
+        "id": "A1-U106-038",
+        "greek": "το χωριό",
+        "phonetic_hint": "to kho-ree-O",
+        "english": "village",
+        "notes": "Klik A1 p. 127. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μένουμε σε ένα γραφικό χωριό στο Πήλιο.",
+        "example_en": "We stay in a picturesque village in Pelion.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα χωριά",
+            "accusative_singular": "το χωριό"
+        },
+        "keg_communicative_function": "Describing rural and village travel"
+    },
+    {
+        "id": "A1-U106-039",
+        "greek": "το εξωτερικό",
+        "phonetic_hint": "to ehk-so-teh-ree-KO",
+        "english": "abroad / foreign countries",
+        "notes": "Klik A1 p. 113, 115, 118. Neuter noun (singular usually with definite article).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλει να σπουδάσει και να ταξιδέψει στο εξωτερικό.",
+        "example_en": "He wants to study and travel abroad.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα εξωτερικά",
+            "accusative_singular": "το εξωτερικό"
+        },
+        "keg_communicative_function": "Talking about international travel"
+    },
+    {
+        "id": "A1-U106-040",
+        "greek": "το διαδίκτυο",
+        "phonetic_hint": "to thee-ah-THEEK-tee-o",
+        "english": "internet",
+        "notes": "Klik A1 p. 111, 116. Neuter compound noun: διά + δίκτυο.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κλείνω τα εισιτήρια και τα δωμάτια μέσω διαδικτύου.",
+        "example_en": "I book tickets and rooms via the internet.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα διαδίκτυα",
+            "accusative_singular": "το διαδίκτυο"
+        },
+        "keg_communicative_function": "Discussing online bookings and digital resources"
+    },
+    {
+        "id": "A1-U106-041",
+        "greek": "η βόλτα",
+        "phonetic_hint": "ee VOL-tah",
+        "english": "walk / stroll / outing",
+        "notes": "Klik A1 p. 123. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το απόγευμα κάνουμε μια βόλτα στην παλιά πόλη.",
+        "example_en": "In the afternoon we take a stroll in the old town.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι βόλτες",
+            "accusative_singular": "τη βόλτα"
+        },
+        "keg_communicative_function": "Describing sightseeing walks and outings"
+    },
+    {
+        "id": "A1-U106-042",
+        "greek": "η ξεκούραση",
+        "phonetic_hint": "ee kseh-KOO-rah-see",
+        "english": "rest / relaxation",
+        "notes": "Klik A1 p. 123. Feminine noun in -ση with plural in -σεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Χρειαζόμαστε λίγη ξεκούραση μετά από το πολύωρο ταξίδι.",
+        "example_en": "We need some rest after the long journey.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ξεκουράσεις",
+            "accusative_singular": "την ξεκούραση"
+        },
+        "keg_communicative_function": "Talking about rest and leisure"
+    },
+    {
+        "id": "A1-U106-043",
+        "greek": "το πρόγραμμα",
+        "phonetic_hint": "to PRO-grah-mah",
+        "english": "schedule / itinerary / program",
+        "notes": "Klik A1 p. 123. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Διαβάζουμε το ημερήσιο πρόγραμμα της εκδρομής.",
+        "example_en": "We read the daily program of the excursion.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα προγράμματα",
+            "accusative_singular": "το πρόγραμμα"
+        },
+        "keg_communicative_function": "Following a tour itinerary"
+    },
+    {
+        "id": "A1-U106-044",
+        "greek": "η πληροφορία",
+        "phonetic_hint": "ee plee-ro-fo-REE-ah",
+        "english": "information / info",
+        "notes": "Klik A1 p. 123, 131. Feminine noun in -α; often used in plural: οι πληροφορίες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ζητάω πληροφορίες για τα δρομολόγια των λεωφορείων.",
+        "example_en": "I ask for information regarding bus timetables.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι πληροφορίες",
+            "accusative_singular": "την πληροφορία"
+        },
+        "keg_communicative_function": "Requesting travel information"
+    },
+    {
+        "id": "A1-U106-045",
+        "greek": "ο διαγωνισμός",
+        "phonetic_hint": "o thee-ah-go-nees-MOS",
+        "english": "contest / competition / lottery",
+        "notes": "Klik A1 p. 127. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στον διαγωνισμό κερδίζεις ένα ταξίδι για δύο άτομα.",
+        "example_en": "In the contest you win a trip for two people.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι διαγωνισμοί",
+            "accusative_singular": "τον διαγωνισμό"
+        },
+        "keg_communicative_function": "Discussing travel contests and lotteries"
+    },
+    {
+        "id": "A1-U106-046",
+        "greek": "ο νικητής",
+        "phonetic_hint": "o nee-kee-TEES",
+        "english": "winner",
+        "notes": "Klik A1 p. 127. Masculine noun in -ης with plural in -ες. Fem: η νικήτρια.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο πρώτος νικητής κερδίζει δύο αεροπορικά εισιτήρια.",
+        "example_en": "The first winner wins two plane tickets.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι νικητές",
+            "accusative_singular": "τον νικητή"
+        },
+        "keg_communicative_function": "Announcing contest winners"
+    },
+
+    # =========================================================================
+    # 5. Key Unit 5 Verbs (pp. 111-117, 121-125)
+    # =========================================================================
+    {
+        "id": "A1-U106-047",
+        "greek": "ταξιδεύω",
+        "phonetic_hint": "tahk-see-THEH-vo",
+        "english": "I travel",
+        "notes": "Klik A1 p. 111, 113, 115. Type A active regular verb. Dependent stem: να ταξιδέψω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ταξιδεύουμε στην Ελλάδα κάθε καλοκαίρι.",
+        "example_en": "We travel to Greece every summer.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "ταξιδεύει",
+            "first_person_plural": "ταξιδεύουμε"
+        },
+        "keg_communicative_function": "Stating travel habits"
+    },
+    {
+        "id": "A1-U106-048",
+        "greek": "ετοιμάζω",
+        "phonetic_hint": "eh-tee-MAH-zo",
+        "english": "I prepare / pack / get ready",
+        "notes": "Klik A1 p. 111, 114, 116. Type A active regular verb. Dependent stem: να ετοιμάσω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ετοιμάζω τη βαλίτσα μου για τις διακοπές.",
+        "example_en": "I am packing my suitcase for vacation.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "ετοιμάζει",
+            "first_person_plural": "ετοιμάζουμε"
+        },
+        "keg_communicative_function": "Preparing and packing for trips"
+    },
+    {
+        "id": "A1-U106-049",
+        "greek": "κλείνω",
+        "phonetic_hint": "KLEE-no",
+        "english": "I book / reserve / close",
+        "notes": "Klik A1 p. 111, 112, 117. Type A regular verb. Dependent stem: να κλείσω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κλείνουμε δύο δωμάτια στο ξενοδοχείο μέσω διαδικτύου.",
+        "example_en": "We book two rooms at the hotel via the internet.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "κλείνει",
+            "first_person_plural": "κλείνουμε"
+        },
+        "keg_communicative_function": "Booking travel accommodations"
+    },
+    {
+        "id": "A1-U106-050",
+        "greek": "αποφασίζω",
+        "phonetic_hint": "ah-po-fah-SEE-zo",
+        "english": "I decide",
+        "notes": "Klik A1 p. 113, 114, 128. Type A regular verb. Dependent stem: να αποφασίσω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να αποφασίσουμε πού θα πάμε φέτος διακοπές.",
+        "example_en": "We must decide where we will go on vacation this year.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "αποφασίζει",
+            "first_person_plural": "αποφασίζουμε"
+        },
+        "keg_communicative_function": "Making decisions on destinations"
+    },
+    {
+        "id": "A1-U106-051",
+        "greek": "οργανώνω",
+        "phonetic_hint": "or-gah-NO-no",
+        "english": "I organize / plan",
+        "notes": "Klik A1 p. 113. Type A regular verb. Dependent stem: να οργανώσω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Οργανώνω ένα ταξίδι στην Ιταλία με τους φίλους μου.",
+        "example_en": "I am organizing a trip to Italy with my friends.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "οργανώνει",
+            "first_person_plural": "οργανώνουμε"
+        },
+        "keg_communicative_function": "Planning and organizing itineraries"
+    },
+    {
+        "id": "A1-U106-052",
+        "greek": "ανεβαίνω",
+        "phonetic_hint": "ah-neh-VEH-no",
+        "english": "I get on / board / climb",
+        "notes": "Klik A1 p. 122. Type A irregular verb. Dependent stem: να ανέβω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ανεβαίνω στο λεωφορείο από την μπροστινή πόρτα.",
+        "example_en": "I get on the bus through the front door.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active irregular)",
+            "third_person_singular": "ανεβαίνει",
+            "first_person_plural": "ανεβαίνουμε"
+        },
+        "keg_communicative_function": "Boarding public transportation"
+    },
+    {
+        "id": "A1-U106-053",
+        "greek": "κατεβαίνω",
+        "phonetic_hint": "kah-teh-VEH-no",
+        "english": "I get off / alight / descend",
+        "notes": "Klik A1 p. 121, 122, 125. Type A irregular verb. Dependent stem: να κατέβω.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κατεβαίνουμε στην επόμενη στάση για το μουσείο.",
+        "example_en": "We get off at the next stop for the museum.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active irregular)",
+            "third_person_singular": "κατεβαίνει",
+            "first_person_plural": "κατεβαίνουμε"
+        },
+        "keg_communicative_function": "Alighting from public transportation"
+    },
+
+    # =========================================================================
+    # 6. Descriptive Adjectives for Travel & Comparatives (pp. 113, 121, 129, 130)
+    # =========================================================================
+    {
+        "id": "A1-U106-054",
+        "greek": "ακριβός",
+        "phonetic_hint": "ah-kree-VOS",
+        "english": "expensive",
+        "notes": "Klik A1 p. 112, 114, 129. Adjective in -ός, -ή, -ό. Comparative: πιο ακριβός από...",
+        "gender_or_pos": "adjective",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτό το ξενοδοχείο είναι πολύ ακριβό για εμάς.",
+        "example_en": "This hotel is too expensive for us.",
+        "grammatical_info": {
+            "part_of_speech": "adjective",
+            "forms": "ακριβός, -ή, -ό"
+        },
+        "keg_communicative_function": "Evaluating costs and prices"
+    },
+    {
+        "id": "A1-U106-055",
+        "greek": "φθηνός",
+        "phonetic_hint": "fthee-NOS",
+        "english": "cheap / inexpensive",
+        "notes": "Klik A1 p. 118, 129. Adjective in -ός, -ή, -ό. Comparative: πιο φθηνός από...",
+        "gender_or_pos": "adjective",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Βρίσκουμε ένα φθηνό δωμάτιο κοντά στον σταθμό.",
+        "example_en": "We find a cheap room near the station.",
+        "grammatical_info": {
+            "part_of_speech": "adjective",
+            "forms": "φθηνός, -ή, -ό"
+        },
+        "keg_communicative_function": "Evaluating economical options"
+    },
+    {
+        "id": "A1-U106-056",
+        "greek": "γρήγορος",
+        "phonetic_hint": "GREE-go-ros",
+        "english": "fast / quick",
+        "notes": "Klik A1 p. 130, 132. Adjective in -ος, -η, -ο. Comparative: πιο γρήγορος από...",
+        "gender_or_pos": "adjective",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το αεροπλάνο είναι ένα πολύ γρήγορο μέσο.",
+        "example_en": "The airplane is a very fast means of transport.",
+        "grammatical_info": {
+            "part_of_speech": "adjective",
+            "forms": "γρήγορος, -η, -ο"
+        },
+        "keg_communicative_function": "Describing speed and transit velocity"
+    },
+    {
+        "id": "A1-U106-057",
+        "greek": "αργός",
+        "phonetic_hint": "ar-GOS",
+        "english": "slow",
+        "notes": "Klik A1 p. 130. Adjective in -ός, -ή, -ό. Comparative: πιο αργός από...",
+        "gender_or_pos": "adjective",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το πλοίο είναι πιο αργό από το αεροπλάνο αλλά είναι ευχάριστο.",
+        "example_en": "The ship is slower than the plane but it is pleasant.",
+        "grammatical_info": {
+            "part_of_speech": "adjective",
+            "forms": "αργός, -ή, -ό"
+        },
+        "keg_communicative_function": "Describing slow pace or travel duration"
+    },
+    {
+        "id": "A1-U106-058",
+        "greek": "τελευταίος",
+        "phonetic_hint": "teh-lef-TEH-os",
+        "english": "last / final",
+        "notes": "Klik A1 p. 121. Adjective in -ος, -α, -ο.",
+        "gender_or_pos": "adjective",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κατεβαίνουμε στην τελευταία στάση της διαδρομής.",
+        "example_en": "We get off at the last stop of the route.",
+        "grammatical_info": {
+            "part_of_speech": "adjective",
+            "forms": "τελευταίος, -α, -ο"
+        },
+        "keg_communicative_function": "Identifying final terminal stops"
+    },
+
+    # =========================================================================
+    # 7. Numbers: Hundreds (Cardinal) & Ordinal Numbers (pp. 119, 127-128)
+    # =========================================================================
+    {
+        "id": "A1-U106-059",
+        "greek": "εκατό",
+        "phonetic_hint": "eh-kah-TO",
+        "english": "one hundred / 100",
+        "notes": "Klik A1 p. 119. Cardinal numeral (indeclinable). Becomes εκατόν before vowels and composite numbers.",
+        "gender_or_pos": "numeral",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το δωμάτιο κοστίζει ακριβώς εκατό ευρώ τη βραδιά.",
+        "example_en": "The room costs exactly one hundred euros per night.",
+        "grammatical_info": {
+            "part_of_speech": "cardinal numeral (indeclinable)"
+        },
+        "keg_communicative_function": "Stating prices in hundreds"
+    },
+    {
+        "id": "A1-U106-060",
+        "greek": "διακόσια",
+        "phonetic_hint": "thee-ah-KO-see-ah",
+        "english": "two hundred / 200",
+        "notes": "Klik A1 p. 119. Declinable cardinal numeral: διακόσιοι, διακόσιες, διακόσια.",
+        "gender_or_pos": "numeral",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το αεροπορικό εισιτήριο κοστίζει διακόσια ευρώ.",
+        "example_en": "The plane ticket costs two hundred euros.",
+        "grammatical_info": {
+            "part_of_speech": "cardinal numeral",
+            "forms": "διακόσιοι, διακόσιες, διακόσια"
+        },
+        "keg_communicative_function": "Stating prices and large numbers"
+    },
+    {
+        "id": "A1-U106-061",
+        "greek": "πεντακόσια",
+        "phonetic_hint": "pen-dah-KO-see-ah",
+        "english": "five hundred / 500",
+        "notes": "Klik A1 p. 119. Declinable cardinal numeral: πεντακόσιοι, πεντακόσιες, πεντακόσια.",
+        "gender_or_pos": "numeral",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η εκδρομή πέντε ημερών κοστίζει πεντακόσια ευρώ.",
+        "example_en": "The five-day tour costs five hundred euros.",
+        "grammatical_info": {
+            "part_of_speech": "cardinal numeral",
+            "forms": "πεντακόσιοι, πεντακόσιες, πεντακόσια"
+        },
+        "keg_communicative_function": "Quoting excursion package costs"
+    },
+    {
+        "id": "A1-U106-062",
+        "greek": "χίλια",
+        "phonetic_hint": "KHEE-lee-ah",
+        "english": "one thousand / 1.000",
+        "notes": "Klik A1 p. 119, 131. Declinable cardinal numeral: χίλιοι, χίλιες, χίλια.",
+        "gender_or_pos": "numeral",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το συνολικό πακέτο διακοπών κοστίζει χίλια ευρώ.",
+        "example_en": "The total holiday package costs one thousand euros.",
+        "grammatical_info": {
+            "part_of_speech": "cardinal numeral",
+            "forms": "χίλιοι, χίλιες, χίλια"
+        },
+        "keg_communicative_function": "Counting to one thousand"
+    },
+    {
+        "id": "A1-U106-063",
+        "greek": "πρώτος",
+        "phonetic_hint": "PRO-tos",
+        "english": "first / 1st",
+        "notes": "Klik A1 p. 127, 128. Ordinal adjective: πρώτος, πρώτη, πρώτο. Abbreviated as 1ος.",
+        "gender_or_pos": "adjective (ordinal)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο πρώτος νικητής του διαγωνισμού κερδίζει ένα ταξίδι στην Αμερική.",
+        "example_en": "The first winner of the competition wins a trip to America.",
+        "grammatical_info": {
+            "part_of_speech": "adjective (ordinal)",
+            "forms": "πρώτος, -η, -ο"
+        },
+        "keg_communicative_function": "Using ordinal rankings and itinerary stages"
+    }
+]
+
+lesson_u106 = {
+    "unit_id": "unit-106",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)",
+    "description": "CEFR A1: Travel and transportation vocabulary, accommodation and room bookings, transit stations and infrastructure, vacation planning, cardinal numbers 100-1,000, and ordinal numbers 1st-10th from Klik A1 (Pages 111-134).",
+    "lesson_status": "not_started",
+    "lesson_notes": (
+        "Κλικ στα Ελληνικά Α1 — Ενότητα 5: Ετοιμάζω ταξίδι! (Σελίδες 111-134):\n"
+        "• Ταξίδια & Διακοπές (Travel & Vacation Basics):\n"
+        "  - το ταξίδι, οι διακοπές, η εκδρομή, το εισιτήριο, το ταξιδιωτικό γραφείο.\n"
+        "  - Εξοπλισμός: η βαλίτσα, η φωτογραφική μηχανή, τα ρούχα.\n"
+        "• Μεταφορικά Μέσα & Υποδομές (Transit & Infrastructure):\n"
+        "  - το αεροπλάνο, το πλοίο, το καράβι, το τρένο, το λεωφορείο, το ταξί, το μετρό.\n"
+        "  - το αεροδρόμιο, το λιμάνι, ο σταθμός, η στάση, η καθυστέρηση.\n"
+        "• Διαμονή & Φιλοξενία (Accommodation & Hospitality):\n"
+        "  - το ξενοδοχείο, το δωμάτιο, το μονόκλινο, το δίκλινο, το κάμπινγκ.\n"
+        "  - το κρεβάτι (μονό / διπλό), το πρωινό, το μεσημεριανό, το βραδινό, η διαμονή, η διατροφή, η τιμή.\n"
+        "• Γεωγραφικοί Προορισμοί (Destinations & Nature):\n"
+        "  - το βουνό, η θάλασσα, το νησί, το χωριό, το εξωτερικό, το διαδίκτυο.\n"
+        "• Βασικά Ρήματα Ενότητας 5 (Verbs):\n"
+        "  - ταξιδεύω, ετοιμάζω, κλείνω, αποφασίζω, οργανώνω, ανεβαίνω, κατεβαίνω.\n"
+        "• Επίθετα & Σύγκριση (Adjectives & Comparatives):\n"
+        "  - ακριβός, φθηνός, γρήγορος, αργός, τελευταίος.\n"
+        "• Αριθμοί: Εκατοντάδες & Τακτικά (Hundreds & Ordinals):\n"
+        "  - εκατό (100), διακόσια (200), πεντακόσια (500), χίλια (1.000).\n"
+        "  - πρώτος, δεύτερος, τρίτος..."
+    ),
+    "entries": cards_u106
+}
+
+def main():
+    print(f"Writing {len(cards_u106)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u106, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-106"), None)
+    unit_106_entry = {
+        "id": "unit-106",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 111-134 (Ενότητα 5: Ετοιμάζω ταξίδι! - Λεξιλόγιο)",
+        "order": "KlikA1-06-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-106/lesson-01.yaml",
+                "title": "Ενότητα 5: Ετοιμάζω ταξίδι! — Βασικό Λεξιλόγιο (Pages 111-134)"
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-106 in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_106_entry
+    else:
+        print("Appending unit-106 to manifest.yaml...")
+        units.append(unit_106_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-106!")
+
+if __name__ == "__main__":
+    main()

@@ -1,29 +1,31 @@
 import { useState, useEffect, useMemo } from 'react';
 import { DeckData, Lesson, Unit, LessonStatus } from '../types/schema';
-import { getAllSRSData, isCardDue, getCardRatingStatus } from '../utils/srs';
-import { getUserLessonStatus, setUserLessonStatus, getUserLessonNotes, getActiveUser } from '../utils/userStorage';
+import { getAllSRSData } from '../utils/srs';
+import { 
+  getUserLessonStatus, 
+  setUserLessonStatus, 
+  getUserLessonNotes, 
+  getActiveUser,
+  getLastStudiedLesson,
+  getDailyReviewData,
+  getUserStudyPreferences
+} from '../utils/userStorage';
 import { parseLessonCode, formatLessonLabel, getGroupTitle, extractUnitContext } from '../utils/unitNaming';
 import { 
   BookOpen, 
-  Layers, 
-  CheckCircle2, 
-  Clock, 
-  AlertCircle, 
   Play, 
-  Download, 
-  Sparkles, 
-  Award,
   FileText,
-  CheckCircle,
-  CircleDot,
-  Filter,
   Search,
   Volume2,
   BookMarked,
   X,
-  ExternalLink,
   ChevronRight,
-  Ban
+  Filter,
+  RefreshCw,
+  Flame,
+  Target,
+  Sparkles,
+  ArrowRight
 } from 'lucide-react';
 
 interface DashboardProps {
@@ -42,7 +44,7 @@ interface DashboardProps {
 }
 
 type GroupFilter = 'all' | string;
-type StatusFilter = 'all' | 'not_started' | 'in_progress_1' | 'in_progress_2' | 'in_progress_3' | 'learned';
+type StatusFilter = 'all' | 'not_started' | 'in_progress_1' | 'in_progress_2' | 'in_progress_3' | 'in_progress_4' | 'in_progress_5' | 'learned';
 
 interface ParsedLessonInfo {
   primaryTitle: string;
@@ -56,19 +58,29 @@ interface ParsedLessonInfo {
 }
 
 /**
- * Helper that returns color-coded Tailwind classes for the 5 lesson statuses
+ * Returns color-coded Tailwind classes with increasing intensity of yellow/orange
+ * as lesson mastery progresses from Level 1 to Level 5.
  */
 export function getLessonStatusClasses(status: LessonStatus): string {
   switch (status) {
     case 'learned':
       return 'bg-emerald-950/90 text-emerald-300 border-emerald-600/70 hover:bg-emerald-900';
+    case 'in_progress_5':
+      // Level 5: Deep intense flame orange
+      return 'bg-orange-950 text-orange-400 border-orange-500 font-extrabold shadow-sm shadow-orange-500/20 hover:bg-orange-900';
+    case 'in_progress_4':
+      // Level 4: Bright vibrant orange
+      return 'bg-orange-950/80 text-orange-300 border-orange-500/80 hover:bg-orange-900/80';
     case 'in_progress_3':
-      return 'bg-purple-950/90 text-purple-300 border-purple-600/70 hover:bg-purple-900';
+      // Level 3: Warm golden amber (transitioning into orange)
+      return 'bg-amber-950/80 text-amber-300 border-amber-500/80 hover:bg-amber-900/70';
     case 'in_progress_2':
-      return 'bg-amber-950/90 text-amber-300 border-amber-600/70 hover:bg-amber-900';
+      // Level 2: Medium bright yellow
+      return 'bg-yellow-950/70 text-yellow-300 border-yellow-500/70 hover:bg-yellow-900/60';
     case 'in_progress_1':
     case 'in_progress':
-      return 'bg-sky-950/90 text-sky-300 border-sky-600/70 hover:bg-sky-900';
+      // Level 1: Soft / pale yellow
+      return 'bg-yellow-950/40 text-yellow-200 border-yellow-600/50 hover:bg-yellow-950/60';
     case 'not_started':
     default:
       return 'bg-slate-900/90 text-slate-400 border-slate-700 hover:text-slate-200';
@@ -103,9 +115,7 @@ function parseLessonInfo(unit: Unit, primaryLesson?: Lesson): ParsedLessonInfo {
 
   if (isTextbook) {
     let clean = rawTitle;
-    // Strip trailing or inline (Pages ...) or (Σελίδες ...)
     clean = clean.replace(/\s*\((?:Pages|Σελίδες)[^)]+\)/i, '').trim();
-    // Strip "Κλικ στα Ελληνικά Α1: Σελίδες XX-YY (" or similar prefix
     clean = clean.replace(/^Κλικ στα Ελληνικά [^:]+:\s*(?:Σελίδες\s*[\d\s–-]+)?\s*\(?/i, '').replace(/\)$/, '').trim();
 
     return {
@@ -149,10 +159,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   onStartStudy,
   onRefresh,
 }) => {
-  const [isExporting, setIsExporting] = useState(false);
-  const [exportMessage, setExportMessage] = useState<string | null>(null);
   const [activeUser, setActiveUser] = useState(getActiveUser());
-  const [, setVersion] = useState(0);
+  const [version, setVersion] = useState(0);
 
   // Filter and search states
   const [groupFilter, setGroupFilter] = useState<GroupFilter>('all');
@@ -167,39 +175,20 @@ export const Dashboard: React.FC<DashboardProps> = ({
     };
     window.addEventListener('greek_deck_user_change', handleUpdate);
     window.addEventListener('greek_deck_progress_change', handleUpdate);
+    window.addEventListener('greek_deck_daily_change', handleUpdate);
+    window.addEventListener('greek_deck_last_lesson_change', handleUpdate);
     return () => {
       window.removeEventListener('greek_deck_user_change', handleUpdate);
       window.removeEventListener('greek_deck_progress_change', handleUpdate);
+      window.removeEventListener('greek_deck_daily_change', handleUpdate);
+      window.removeEventListener('greek_deck_last_lesson_change', handleUpdate);
     };
   }, []);
 
-  const { stats, manifest, units } = deck;
-
-  // Gather all cards across all lessons
-  const allCards = useMemo(() => units.flatMap((u) => u.lessons.flatMap((l) => l.entries)), [units]);
+  const { units } = deck;
 
   // Compute SRS statistics for active user
   const srsMap = useMemo(() => getAllSRSData(activeUser.id), [activeUser.id]);
-  const learnedCount = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isLearned).length, [allCards, srsMap]);
-  const excludedCount = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isExcluded).length, [allCards, srsMap]);
-  
-  const dueCards = useMemo(() => {
-    return allCards.filter((c) => {
-      const srs = srsMap[c.id];
-      if (!srs) return true; // new card is due
-      if (srs.isLearned || srs.isExcluded) return false;
-      return isCardDue(srs);
-    });
-  }, [allCards, srsMap]);
-
-  // Filter cards by rating status for active user
-  const againCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'again'), [allCards, srsMap]);
-  const hardCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'hard'), [allCards, srsMap]);
-  const goodCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'good'), [allCards, srsMap]);
-  const easyCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'easy'), [allCards, srsMap]);
-  const newCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && getCardRatingStatus(srsMap[c.id]) === 'new'), [allCards, srsMap]);
-  const learnedCards = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isLearned), [allCards, srsMap]);
-  const ignoredCards = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isExcluded), [allCards, srsMap]);
 
   const getEffectiveLessonStatus = (lesson: Lesson): LessonStatus => {
     return getUserLessonStatus(lesson.unit_id, lesson.lesson_id, lesson.lesson_status, activeUser.id);
@@ -209,7 +198,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     return getUserLessonNotes(lesson.unit_id, lesson.lesson_id, lesson.lesson_notes, activeUser.id);
   };
 
-  // Compute lesson status statistics for active user
+  // Compute lesson status statistics for active user across levels 1 to 5
   const allLessons = useMemo(() => units.flatMap((u) => u.lessons), [units]);
   const lessonsNotStartedCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'not_started').length, [allLessons, activeUser.id]);
   const lessonsInProgress1Count = useMemo(() => allLessons.filter((l) => {
@@ -218,6 +207,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   }).length, [allLessons, activeUser.id]);
   const lessonsInProgress2Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_2').length, [allLessons, activeUser.id]);
   const lessonsInProgress3Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_3').length, [allLessons, activeUser.id]);
+  const lessonsInProgress4Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_4').length, [allLessons, activeUser.id]);
+  const lessonsInProgress5Count = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'in_progress_5').length, [allLessons, activeUser.id]);
   const lessonsLearnedCount = useMemo(() => allLessons.filter((l) => getEffectiveLessonStatus(l) === 'learned').length, [allLessons, activeUser.id]);
 
   const handleQuickLessonStatusChange = async (unitId: string, lessonId: string, newStatus: LessonStatus) => {
@@ -236,25 +227,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
-  const handleExport = async () => {
-    setIsExporting(true);
-    setExportMessage(null);
-    try {
-      const res = await fetch('/api/export', { method: 'POST' });
-      const data = await res.json();
-      if (data.success) {
-        setExportMessage(data.message || 'PWA distribution package generated!');
-      } else {
-        setExportMessage(`Export error: ${data.detail || 'Failed'}`);
-      }
-    } catch {
-      setExportMessage('Export failed. Check backend connection.');
-    } finally {
-      setIsExporting(false);
-    }
-  };
-
-  // Dynamically group curriculum collections (e.g. Original Content [OG], Klik A1 [KlikA1], Klik A2 [KlikA2], etc.)
+  // Dynamically group curriculum collections (e.g. A1 [KlikA1], A2 [KlikA2], etc.)
   const availableGroups = useMemo(() => {
     const groupMap = new Map<string, { id: string; name: string; lessonsCount: number; cardsCount: number }>();
     for (const unit of units) {
@@ -282,7 +255,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     return units.filter((unit) => {
       const code = parseLessonCode(unit.order || unit.id);
       
-      // Group filter (OG, KlikA1, KlikA2, etc.)
+      // Group filter (A1, A2, etc.)
       if (groupFilter !== 'all' && code.group.toLowerCase() !== groupFilter.toLowerCase()) {
         return false;
       }
@@ -324,7 +297,47 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Is viewing default all groups & no search
   const isDefaultView = groupFilter === 'all' && statusFilter === 'all' && !searchQuery.trim();
 
-  // Render a clean, unified Lesson Card with distinct Group, Unit, and Lesson context
+  // Quick Resume Lesson
+  const lastStudied = useMemo(() => getLastStudiedLesson(activeUser.id), [activeUser.id, version]);
+  const resumeUnit = useMemo(() => {
+    if (!lastStudied?.unitId) return null;
+    return units.find((u) => 
+      u.id === lastStudied.unitId || 
+      u.order === lastStudied.unitId || 
+      `unit-${String(u.order).toLowerCase()}` === lastStudied.unitId.toLowerCase()
+    );
+  }, [units, lastStudied]);
+
+  const resumeUnitCards = useMemo(() => {
+    if (!resumeUnit) return [];
+    return resumeUnit.lessons.flatMap((l) => l.entries);
+  }, [resumeUnit]);
+
+  const resumeLesson = useMemo(() => {
+    if (!resumeUnit) return null;
+    if (lastStudied?.lessonId) {
+      const found = resumeUnit.lessons.find((l) => l.lesson_id === lastStudied.lessonId);
+      if (found) return found;
+    }
+    return resumeUnit.lessons[0] || null;
+  }, [resumeUnit, lastStudied]);
+
+  const resumeUnitLearnedCount = useMemo(() => {
+    return resumeUnitCards.filter((c) => srsMap[c.id]?.isLearned).length;
+  }, [resumeUnitCards, srsMap]);
+
+  const resumeUnitLearnedPct = resumeUnitCards.length > 0 
+    ? Math.round((resumeUnitLearnedCount / resumeUnitCards.length) * 100) 
+    : 0;
+
+  // Daily Review & Streak
+  const dailyData = useMemo(() => getDailyReviewData(activeUser.id), [activeUser.id, version]);
+  const studyPrefs = useMemo(() => getUserStudyPreferences(activeUser.id), [activeUser.id, version]);
+  const dailyGoal = studyPrefs.dailyGoal || 20;
+  const isGoalReached = dailyData.count >= dailyGoal;
+  const dailyGoalPct = Math.min(100, Math.round((dailyData.count / dailyGoal) * 100));
+
+  // Render a clean Lesson Card
   const renderLessonCard = (unit: Unit) => {
     const isSingleLesson = unit.lessons.length === 1;
     const primaryLesson = unit.lessons[0];
@@ -389,14 +402,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   <select
                     value={unitEffectiveStatus === 'in_progress' ? 'in_progress_1' : unitEffectiveStatus}
                     onChange={(e) => handleQuickLessonStatusChange(unit.id, primaryLesson.lesson_id, e.target.value as LessonStatus)}
-                    className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-sky-500 ${getLessonStatusClasses(unitEffectiveStatus)}`}
-                    title="Change Lesson Mastery Status"
+                    className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-amber-500 ${getLessonStatusClasses(unitEffectiveStatus)}`}
+                    title="Change Lesson Mastery Status (Levels 1 to 5)"
                   >
-                    <option value="not_started">⚪ Not Started</option>
-                    <option value="in_progress_1">🔵 In Progress 1</option>
-                    <option value="in_progress_2">🟡 In Progress 2</option>
-                    <option value="in_progress_3">🟣 In Progress 3</option>
-                    <option value="learned">🟢 Learned</option>
+                    <option value="not_started">⚪ Not Started ⚪</option>
+                    <option value="in_progress_1">🟡 In Progress 1 🟡</option>
+                    <option value="in_progress_2">🟡 In Progress 2 🟡</option>
+                    <option value="in_progress_3">🟠 In Progress 3 🟠</option>
+                    <option value="in_progress_4">🟠 In Progress 4 🟠</option>
+                    <option value="in_progress_5">🟠 In Progress 5 🟠</option>
+                    <option value="learned">🟢 Learned 🟢</option>
                   </select>
 
                   {notes && (
@@ -415,7 +430,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
           </div>
 
-          {/* Unified Title & Subtitle (No Duplication) */}
+          {/* Unified Title & Subtitle */}
           <div className="mt-1">
             <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight group-hover:text-sky-300 transition-colors leading-snug">
               {parsed.primaryTitle}
@@ -427,7 +442,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             )}
           </div>
 
-          {/* If Unit has multiple lessons, list them neatly without repeating unit box */}
+          {/* If Unit has multiple lessons, list them neatly */}
           {!isSingleLesson && (
             <div className="mt-4 pt-3 border-t border-slate-800/80 space-y-2.5">
               <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
@@ -461,11 +476,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           onChange={(e) => handleQuickLessonStatusChange(unit.id, lesson.lesson_id, e.target.value as LessonStatus)}
                           className={`text-[10px] font-bold px-2 py-1 rounded-md border cursor-pointer ${getLessonStatusClasses(lessonStatus)}`}
                         >
-                          <option value="not_started">⚪ Not Started</option>
-                          <option value="in_progress_1">🔵 In Progress 1</option>
-                          <option value="in_progress_2">🟡 In Progress 2</option>
-                          <option value="in_progress_3">🟣 In Progress 3</option>
-                          <option value="learned">🟢 Learned</option>
+                          <option value="not_started">⚪ Not Started ⚪</option>
+                          <option value="in_progress_1">🟡 In Progress 1 🟡</option>
+                          <option value="in_progress_2">🟡 In Progress 2 🟡</option>
+                          <option value="in_progress_3">🟠 In Progress 3 🟠</option>
+                          <option value="in_progress_4">🟠 In Progress 4 🟠</option>
+                          <option value="in_progress_5">🟠 In Progress 5 🟠</option>
+                          <option value="learned">🟢 Learned 🟢</option>
                         </select>
 
                         {lessonNotes && (
@@ -484,7 +501,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors"
                           title="Open Editor"
                         >
-                          <ExternalLink className="w-3.5 h-3.5" />
+                          <ChevronRight className="w-3.5 h-3.5" />
                         </button>
 
                         <button
@@ -523,7 +540,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </div>
             </div>
 
-            {/* Dual visual progress bar */}
+            {/* Visual progress bar */}
             <div className="w-full h-2 bg-slate-800/90 rounded-full overflow-hidden flex shadow-inner">
               <div 
                 className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
@@ -535,7 +552,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
           {/* Action Buttons */}
           <div className="flex items-center justify-between gap-3 pt-1">
-            {/* Direct Editor Link */}
             {primaryLesson && (
               <button
                 type="button"
@@ -548,7 +564,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </button>
             )}
 
-            {/* Study Lesson Primary Button */}
             <button
               type="button"
               onClick={() => {
@@ -570,547 +585,329 @@ export const Dashboard: React.FC<DashboardProps> = ({
   };
 
   return (
-    <div className="space-y-8 max-w-6xl mx-auto pb-16">
-      {/* Hero Welcome & Deck Banner */}
-      <div className="relative overflow-hidden rounded-3xl p-6 sm:p-8 bg-gradient-to-r from-sky-950/70 via-slate-900 to-indigo-950/70 border border-sky-500/20 shadow-2xl">
-        <div className="absolute top-0 right-0 -mt-12 -mr-12 w-80 h-80 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/15 border border-sky-500/30 text-sky-300 text-xs font-semibold">
-              <Sparkles className="w-3.5 h-3.5 text-sky-400" />
-              <span>Modern Greek (CEFR A1) • Studio Audio & FSRS Engine</span>
+    <div className="space-y-6 max-w-6xl mx-auto pb-16">
+      {/* Landing Page: List of Lessons Header with Search & Controls */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2.5">
+            <BookOpen className="w-5 h-5 text-sky-400" />
+            <span>Curriculum Lessons</span>
+          </h1>
+          <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
+            {units.length} lessons available • Browse curriculum groups and track mastery
+          </p>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2.5">
+          {/* Daily Streak & Goal Card */}
+          <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
+            <div className="flex items-center gap-1 font-bold text-amber-400" title={`${dailyData.streak} day streak`}>
+              <Flame className="w-4 h-4 fill-amber-500 text-amber-500" />
+              <span>{dailyData.streak}d</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              {manifest.deck_title}
-            </h1>
-            <p className="text-slate-400 text-sm max-w-2xl leading-relaxed">
-              Native Greek pronunciation verified with studio-quality audio. Local-first YAML source of truth with FSRS spaced repetition and full offline PWA support.
-            </p>
+            <span className="text-slate-600">|</span>
+            <div className="flex items-center gap-1.5" title={`Daily review goal: ${dailyData.count}/${dailyGoal} cards`}>
+              <Target className={`w-3.5 h-3.5 ${isGoalReached ? 'text-emerald-400' : 'text-sky-400'}`} />
+              <span className={`font-semibold ${isGoalReached ? 'text-emerald-300' : 'text-slate-300'}`}>
+                {dailyData.count}/{dailyGoal}
+              </span>
+              <div className="w-12 h-1.5 bg-slate-800 rounded-full overflow-hidden ml-0.5 hidden sm:block">
+                <div 
+                  className={`h-full transition-all duration-300 ${isGoalReached ? 'bg-emerald-400' : 'bg-sky-500'}`}
+                  style={{ width: `${dailyGoalPct}%` }}
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Quick Study Action Buttons */}
-          <div className="flex flex-wrap items-center gap-3">
-            {dueCards.length > 0 && (
+          {/* Search Input */}
+          <div className="relative flex-1 sm:w-60">
+            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search lessons or vocabulary..."
+              className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-700 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
+            />
+            {searchQuery && (
               <button
-                onClick={() => onStartStudy(dueCards, `${manifest.deck_title} • Due for Review`)}
-                className="relative inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-lg shadow-amber-500/25 transition-all hover:scale-[1.02] active:scale-95"
+                type="button"
+                onClick={() => setSearchQuery('')}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
               >
-                <span className="w-2 h-2 rounded-full bg-slate-950 animate-ping absolute top-2 right-2" />
-                <Clock className="w-4 h-4" /> Review Due ({dueCards.length})
+                <X className="w-3.5 h-3.5" />
               </button>
             )}
-            <button
-              onClick={() => onStartStudy(allCards, manifest.deck_title)}
-              disabled={allCards.length === 0}
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/25 transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50"
-            >
-              <Play className="w-4 h-4 fill-current" /> Study Deck ({allCards.length})
-            </button>
-            <button
-              onClick={handleExport}
-              disabled={isExporting}
-              className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium text-sm transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50"
-            >
-              <Download className="w-4 h-4" />
-              {isExporting ? 'Exporting...' : 'Export PWA'}
-            </button>
           </div>
-        </div>
 
-        {exportMessage && (
-          <div className="mt-4 p-3 rounded-xl bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 text-xs flex items-center justify-between">
-            <span>{exportMessage}</span>
-            <button 
-              onClick={() => setExportMessage(null)}
-              className="text-emerald-400 hover:text-white text-xs underline ml-2"
-            >
-              Dismiss
-            </button>
-          </div>
-        )}
+          {/* Refresh Button */}
+          <button 
+            type="button"
+            onClick={onRefresh}
+            className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700 transition-colors shrink-0 flex items-center gap-1.5"
+            title="Reload curriculum from filesystem"
+          >
+            <RefreshCw className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Refresh</span>
+          </button>
+        </div>
       </div>
 
-      {/* Global Metrics Row */}
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3.5 sm:gap-4">
-        {/* Total Cards */}
-        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-slate-800 hover:border-slate-700 transition-all">
-          <div className="flex items-center justify-between text-slate-400">
-            <span className="text-xs font-semibold uppercase tracking-wider">Total Cards</span>
-            <Layers className="w-4 h-4 text-sky-400" />
-          </div>
-          <div className="mt-3">
-            <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-extrabold text-white">{stats.total_entries}</span>
-              <span className="text-xs text-slate-400">cards</span>
+      {/* Continue Where You Left Off - Quick Resume Hero Card */}
+      {resumeUnit && !searchQuery.trim() && groupFilter === 'all' && statusFilter === 'all' && (
+        <div className="relative overflow-hidden rounded-2xl p-4 sm:p-5 bg-gradient-to-r from-sky-950/70 via-slate-900 to-indigo-950/60 border border-sky-500/30 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-start sm:items-center gap-3.5">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-sky-500/20 border border-sky-400/30 flex items-center justify-center shrink-0 text-sky-400 shadow-inner">
+              <Sparkles className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <p className="text-[11px] text-slate-500 mt-1">{units.length} lessons in deck</p>
-          </div>
-        </div>
-
-        {/* Mastered / Learned Cards */}
-        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-emerald-500/30 hover:border-emerald-500/50 transition-all">
-          <div className="flex items-center justify-between text-emerald-400">
-            <span className="text-xs font-semibold uppercase tracking-wider truncate mr-1">{activeUser.name}'s Learned</span>
-            <Award className="w-4 h-4 shrink-0" />
-          </div>
-          <div className="mt-3">
-            <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-extrabold text-emerald-400">{learnedCount}</span>
-              <span className="text-xs text-emerald-500/90 font-medium">
-                ({stats.total_entries > 0 ? Math.round((learnedCount / stats.total_entries) * 100) : 0}%)
-              </span>
-            </div>
-            <div className="flex items-center gap-1.5 mt-1">
-              {excludedCount > 0 ? (
-                <span className="text-[10px] text-rose-400 font-semibold px-1.5 py-0.2 rounded bg-rose-950/60 border border-rose-800/60" title={`${excludedCount} card(s) marked Don't Learn`}>
-                  {excludedCount} excluded
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-sky-400">
+                  Continue Where You Left Off
                 </span>
-              ) : (
-                <p className="text-[11px] text-emerald-600/90">Active learner progress</p>
-              )}
+                <span className="text-xs text-slate-500">•</span>
+                <span className="text-xs font-bold px-2 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30">
+                  {lastStudied?.lessonLabel || formatLessonLabel(resumeUnit)}
+                </span>
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-white tracking-tight mt-0.5">
+                {lastStudied?.title || resumeUnit.title}
+              </h3>
+              <p className="text-xs text-slate-400 mt-0.5">
+                {resumeUnitCards.length} cards • {resumeUnitLearnedCount} learned ({resumeUnitLearnedPct}%)
+              </p>
             </div>
           </div>
-        </div>
-
-        {/* Verified Audio */}
-        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-teal-500/30 hover:border-teal-500/50 transition-all">
-          <div className="flex items-center justify-between text-teal-400">
-            <span className="text-xs font-semibold uppercase tracking-wider">Audio Coverage</span>
-            <CheckCircle2 className="w-4 h-4" />
-          </div>
-          <div className="mt-3">
-            <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-extrabold text-teal-400">{stats.verified_count}</span>
-              <span className="text-xs text-teal-500/90 font-medium">({stats.coverage_percentage}%)</span>
-            </div>
-            <p className="text-[11px] text-teal-600/90 mt-1">Studio-quality pronunciation</p>
-          </div>
-        </div>
-
-        {/* Pending TTS */}
-        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-amber-500/30 hover:border-amber-500/50 transition-all">
-          <div className="flex items-center justify-between text-amber-400">
-            <span className="text-xs font-semibold uppercase tracking-wider">Pending Audio</span>
-            <Clock className="w-4 h-4" />
-          </div>
-          <div className="mt-3">
-            <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-extrabold text-amber-400">{stats.pending_count}</span>
-              <span className="text-xs text-amber-500/90">to generate</span>
-            </div>
-            <p className="text-[11px] text-amber-600/90 mt-1">Local TTS queue</p>
-          </div>
-        </div>
-
-        {/* Needs Review */}
-        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-rose-500/30 hover:border-rose-500/50 transition-all">
-          <div className="flex items-center justify-between text-rose-400">
-            <span className="text-xs font-semibold uppercase tracking-wider">Needs Review</span>
-            <AlertCircle className="w-4 h-4" />
-          </div>
-          <div className="mt-3">
-            <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-extrabold text-rose-400">{stats.needs_review_count}</span>
-              <span className="text-xs text-rose-500/90">flagged</span>
-            </div>
-            <p className="text-[11px] text-rose-600/90 mt-1">Refinements requested</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Audio Health Coverage Bar */}
-      <div className="glass-panel p-5 rounded-2xl border-slate-800">
-        <div className="flex items-center justify-between mb-2">
-          <div className="flex items-center gap-2">
-            <Volume2 className="w-4 h-4 text-teal-400" />
-            <span className="text-xs sm:text-sm font-semibold text-slate-300">Total Audio Health Coverage</span>
-          </div>
-          <span className="text-xs sm:text-sm font-bold text-sky-400">{stats.coverage_percentage}% verified</span>
-        </div>
-        <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden flex">
-          <div 
-            className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
-            style={{ width: `${stats.coverage_percentage}%` }}
-          />
-          <div 
-            className="h-full bg-amber-500 transition-all duration-500"
-            style={{ width: `${(stats.pending_count / (stats.total_entries || 1)) * 100}%` }}
-          />
-          <div 
-            className="h-full bg-rose-500 transition-all duration-500"
-            style={{ width: `${(stats.needs_review_count / (stats.total_entries || 1)) * 100}%` }}
-          />
-        </div>
-        <div className="flex items-center gap-6 mt-3 text-xs text-slate-400">
-          <div className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-emerald-500" /> Verified ({stats.verified_count})
-          </div>
-          <div className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-amber-500" /> Pending ({stats.pending_count})
-          </div>
-          <div className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-rose-500" /> Needs Review ({stats.needs_review_count})
-          </div>
-        </div>
-      </div>
-
-      {/* Targeted Practice by Card SRS Rating & Status */}
-      <div className="glass-panel p-5 rounded-2xl border-slate-800 space-y-3.5">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-sky-400" />
-            <h2 className="text-xs sm:text-sm font-bold text-white tracking-wide uppercase">
-              Targeted Practice • Review by Card Status
-            </h2>
-          </div>
-          <span className="text-xs text-slate-400">
-            Drill specific SRS ratings, mastered vocabulary, or ignored cards for focused practice
-          </span>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 pt-1">
-          {/* Again Button */}
-          <button
-            type="button"
-            disabled={againCards.length === 0}
-            onClick={() => onStartStudy(againCards, `${manifest.deck_title} • Again Cards`)}
-            className="p-3.5 rounded-xl bg-rose-950/40 hover:bg-rose-950/80 border border-rose-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked Again"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-rose-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="truncate">Again [1]</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-rose-900/60 text-rose-200 border border-rose-800/60 shrink-0">{againCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Repeat Soon
-            </div>
-          </button>
-
-          {/* Hard Button */}
-          <button
-            type="button"
-            disabled={hardCards.length === 0}
-            onClick={() => onStartStudy(hardCards, `${manifest.deck_title} • Hard Cards`)}
-            className="p-3.5 rounded-xl bg-amber-950/40 hover:bg-amber-950/80 border border-amber-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked Hard"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-amber-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="truncate">Hard [2]</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-amber-900/60 text-amber-200 border border-amber-800/60 shrink-0">{hardCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Challenging
-            </div>
-          </button>
-
-          {/* Good Button */}
-          <button
-            type="button"
-            disabled={goodCards.length === 0}
-            onClick={() => onStartStudy(goodCards, `${manifest.deck_title} • Good Cards`)}
-            className="p-3.5 rounded-xl bg-sky-950/40 hover:bg-sky-950/80 border border-sky-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked Good"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-sky-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="truncate">Good [3]</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-sky-900/60 text-sky-200 border border-sky-800/60 shrink-0">{goodCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Remembered
-            </div>
-          </button>
-
-          {/* Easy Button */}
-          <button
-            type="button"
-            disabled={easyCards.length === 0}
-            onClick={() => onStartStudy(easyCards, `${manifest.deck_title} • Easy Cards`)}
-            className="p-3.5 rounded-xl bg-emerald-950/40 hover:bg-emerald-950/80 border border-emerald-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked Easy"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-emerald-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="truncate">Easy [4]</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-900/60 text-emerald-200 border border-emerald-800/60 shrink-0">{easyCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Mastered
-            </div>
-          </button>
-
-          {/* New / Unrated Button */}
-          <button
-            type="button"
-            disabled={newCards.length === 0}
-            onClick={() => onStartStudy(newCards, `${manifest.deck_title} • New Cards`)}
-            className="p-3.5 rounded-xl bg-slate-800/60 hover:bg-slate-800 border border-slate-700 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill unreviewed new cards"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="truncate">New</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-200 border border-slate-600 shrink-0">{newCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Unreviewed
-            </div>
-          </button>
-
-          {/* Already Learnt Button */}
-          <button
-            type="button"
-            disabled={learnedCards.length === 0}
-            onClick={() => onStartStudy(learnedCards, `${manifest.deck_title} • Already Learnt Cards`, undefined, undefined, { hideLearned: false, hideExcluded: false })}
-            className="p-3.5 rounded-xl bg-teal-950/40 hover:bg-teal-950/80 border border-teal-500/30 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked as already learnt"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-teal-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="flex items-center gap-1 min-w-0">
-                <CheckCircle className="w-3.5 h-3.5 shrink-0" />
-                <span className="truncate">Learnt</span>
-              </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-teal-900/60 text-teal-200 border border-teal-800/60 shrink-0">{learnedCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Already Learnt
-            </div>
-          </button>
-
-          {/* Ignored Cards Button */}
-          <button
-            type="button"
-            disabled={ignoredCards.length === 0}
-            onClick={() => onStartStudy(ignoredCards, `${manifest.deck_title} • Ignored Cards`, undefined, undefined, { hideExcluded: false, hideLearned: false })}
-            className="p-3.5 rounded-xl bg-slate-800/60 hover:bg-slate-800 border border-rose-500/40 text-left transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:pointer-events-none group"
-            title="Drill cards marked as ignored"
-          >
-            <div className="text-[10px] xl:text-[11px] font-bold text-rose-400 uppercase tracking-wider flex items-center justify-between gap-1">
-              <span className="flex items-center gap-1 min-w-0">
-                <Ban className="w-3.5 h-3.5 shrink-0 text-rose-400" />
-                <span className="truncate">Ignore</span>
-              </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-rose-950 text-rose-300 border border-rose-800/80 shrink-0">{ignoredCards.length}</span>
-            </div>
-            <div className="text-xs text-slate-300 mt-1.5 font-medium group-hover:text-white truncate">
-              Ignored Cards
-            </div>
-          </button>
-        </div>
-      </div>
-
-      {/* Curriculum Groups & Lessons Section */}
-      <div className="space-y-6">
-        {/* Section Header with Search & Controls */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2.5">
-              <BookOpen className="w-5 h-5 text-sky-400" />
-              <span>Curriculum Groups & Lessons</span>
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
-              Browse curriculum groups, thematic units, and structured lessons
-            </p>
-          </div>
-
-          <div className="flex items-center gap-2.5">
-            {/* Search Input */}
-            <div className="relative flex-1 sm:w-64">
-              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search lessons, units or words..."
-                className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-700 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
-              />
-              {searchQuery && (
-                <button
-                  type="button"
-                  onClick={() => setSearchQuery('')}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                >
-                  <X className="w-3.5 h-3.5" />
-                </button>
-              )}
-            </div>
-
-            {/* Refresh Button */}
-            <button 
-              onClick={onRefresh}
-              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700 transition-colors shrink-0"
-              title="Reload curriculum from filesystem"
-            >
-              Refresh
-            </button>
-          </div>
-        </div>
-
-        {/* Filter Navigation Bar: Group Selection & Status Filtering */}
-        <div className="glass-panel p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-slate-800">
-          {/* Group Filter (Dynamic Groups) */}
-          <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
+          <div className="flex items-center gap-2.5 sm:self-center">
             <button
               type="button"
-              onClick={() => setGroupFilter('all')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                groupFilter === 'all'
-                  ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white'
-              }`}
+              onClick={() => onSelectLesson(resumeUnit.id, resumeLesson?.lesson_id || resumeUnit.lessons[0]?.lesson_id || '')}
+              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs font-semibold transition-all"
             >
-              All Groups ({units.length})
+              Inspect
             </button>
-            {availableGroups.map((group) => {
-              const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
-              const isKlik = group.id.toLowerCase().startsWith('klik');
-              return (
-                <button
-                  key={group.id}
-                  type="button"
-                  onClick={() => setGroupFilter(group.id)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                    isSelected
-                      ? isKlik
-                        ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-                        : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  {group.name} ({group.lessonsCount})
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Status Filter */}
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-xs font-semibold text-slate-400 mr-1 hidden sm:inline flex items-center gap-1">
-              <Filter className="w-3.5 h-3.5 text-slate-400" /> Status:
-            </span>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('all')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                statusFilter === 'all'
-                  ? 'bg-slate-700 text-white shadow-sm'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-white'
-              }`}
-            >
-              All
-            </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('not_started')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'not_started'
-                  ? 'bg-slate-600 text-white shadow-sm'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-white'
-              }`}
-            >
-              <CircleDot className="w-3 h-3 text-slate-400" />
-              <span>Not Started ({lessonsNotStartedCount})</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('in_progress_1')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'in_progress_1'
-                  ? 'bg-sky-500 text-slate-950 font-bold shadow-sm shadow-sky-500/25'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-sky-300'
-              }`}
-            >
-              <Clock className="w-3 h-3 text-sky-400" />
-              <span>In Progress 1 ({lessonsInProgress1Count})</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('in_progress_2')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'in_progress_2'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow-sm shadow-amber-500/25'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-amber-300'
-              }`}
-            >
-              <Clock className="w-3 h-3 text-amber-400" />
-              <span>In Progress 2 ({lessonsInProgress2Count})</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('in_progress_3')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'in_progress_3'
-                  ? 'bg-purple-500 text-slate-950 font-bold shadow-sm shadow-purple-500/25'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-purple-300'
-              }`}
-            >
-              <Clock className="w-3 h-3 text-purple-400" />
-              <span>In Progress 3 ({lessonsInProgress3Count})</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setStatusFilter('learned')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                statusFilter === 'learned'
-                  ? 'bg-emerald-500 text-slate-950 font-bold shadow-sm shadow-emerald-500/25'
-                  : 'bg-slate-800/80 text-slate-400 hover:text-emerald-300'
-              }`}
-            >
-              <CheckCircle className="w-3 h-3 text-emerald-400" />
-              <span>Learned ({lessonsLearnedCount})</span>
-            </button>
-          </div>
-        </div>
-
-        {/* Lessons Presentation List */}
-        {filteredUnits.length === 0 ? (
-          <div className="glass-panel p-12 rounded-3xl text-center space-y-3 border-slate-800">
-            <BookOpen className="w-10 h-10 text-slate-600 mx-auto" />
-            <h3 className="text-base font-bold text-white">No matching lessons found</h3>
-            <p className="text-xs text-slate-400 max-w-sm mx-auto">
-              No lessons matched your active filters or search query. Try clearing filters to see all lessons.
-            </p>
             <button
               type="button"
               onClick={() => {
-                setGroupFilter('all');
-                setStatusFilter('all');
-                setSearchQuery('');
+                const primary = resumeLesson || resumeUnit.lessons[0];
+                const notes = primary ? getEffectiveLessonNotes(primary) : '';
+                onStartStudy(
+                  resumeUnitCards, 
+                  lastStudied?.title || resumeUnit.title, 
+                  notes, 
+                  lastStudied?.lessonLabel || formatLessonLabel(resumeUnit), 
+                  undefined, 
+                  resumeUnit.id, 
+                  primary?.lesson_id
+                );
               }}
-              className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-sky-400 border border-slate-700 transition-colors"
+              className="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 active:scale-95 text-white font-bold text-xs shadow-md shadow-sky-500/25 transition-all flex items-center gap-1.5"
             >
-              Reset Filters
+              <Play className="w-3.5 h-3.5 fill-current" />
+              <span>Resume Study</span>
+              <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
-        ) : isDefaultView ? (
-          /* Structured Sections in default view grouped by Curriculum Group */
-          <div className="space-y-8">
-            {availableGroups.map((group) => {
-              const groupUnits = filteredUnits.filter((u) => parseLessonCode(u.order || u.id).group.toLowerCase() === group.id.toLowerCase());
-              if (groupUnits.length === 0) return null;
-              const isKlik = group.id.toLowerCase().startsWith('klik');
-              return (
-                <div key={group.id} className="space-y-4">
-                  <div className="flex items-center gap-2 pb-1.5 border-b border-slate-800">
-                    <span className={`w-2.5 h-2.5 rounded-full ${isKlik ? 'bg-indigo-400' : 'bg-sky-400'}`} />
-                    <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                      Group: {group.name}
-                    </h3>
-                    <span className="text-xs text-slate-400 font-medium ml-auto">
-                      {groupUnits.length} {groupUnits.length === 1 ? 'lesson' : 'lessons'} ({group.cardsCount} cards)
-                    </span>
-                  </div>
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    {groupUnits.map(renderLessonCard)}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          /* Filtered or Searched Grid View */
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {filteredUnits.map(renderLessonCard)}
-          </div>
-        )}
+        </div>
+      )}
+
+      {/* Filter Navigation Bar: Group Selection & Status Filtering */}
+      <div className="glass-panel p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-slate-800">
+        {/* Group Filter (Dynamic Groups) */}
+        <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
+          <button
+            type="button"
+            onClick={() => setGroupFilter('all')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              groupFilter === 'all'
+                ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            All Groups ({units.length})
+          </button>
+          {availableGroups.map((group) => {
+            const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
+            const isKlik = group.id.toLowerCase().startsWith('klik');
+            return (
+              <button
+                key={group.id}
+                type="button"
+                onClick={() => setGroupFilter(group.id)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  isSelected
+                    ? isKlik
+                      ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+                      : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                {group.name} ({group.lessonsCount})
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Status Filter with Levels 1-5 In Progress and increasing yellow/orange intensity */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="text-xs font-semibold text-slate-400 mr-1 hidden sm:inline flex items-center gap-1">
+            <Filter className="w-3.5 h-3.5 text-slate-400" /> Status:
+          </span>
+          <button
+            type="button"
+            onClick={() => setStatusFilter('all')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+              statusFilter === 'all'
+                ? 'bg-slate-700 text-white shadow-sm'
+                : 'bg-slate-800/80 text-slate-400 hover:text-white'
+            }`}
+          >
+            All
+          </button>
+          <button
+            type="button"
+            onClick={() => setStatusFilter('not_started')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+              statusFilter === 'not_started'
+                ? 'bg-slate-600 text-white shadow-sm'
+                : 'bg-slate-800/80 text-slate-400 hover:text-white'
+            }`}
+          >
+            <span>⚪ Not Started ({lessonsNotStartedCount})</span>
+          </button>
+
+          {/* Level 1: Soft Pale Yellow */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('in_progress_1')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'in_progress_1'
+                ? 'bg-yellow-500/80 text-slate-950 font-bold shadow-sm shadow-yellow-500/25'
+                : 'bg-slate-800/80 text-yellow-200/90 hover:text-yellow-200 hover:bg-yellow-950/40'
+            }`}
+          >
+            <span>🟡 In Progress 1 🟡 ({lessonsInProgress1Count})</span>
+          </button>
+
+          {/* Level 2: Bright Sunny Yellow */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('in_progress_2')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'in_progress_2'
+                ? 'bg-yellow-400 text-slate-950 font-bold shadow-sm shadow-yellow-400/25'
+                : 'bg-slate-800/80 text-yellow-300 hover:text-yellow-200 hover:bg-yellow-950/60'
+            }`}
+          >
+            <span>🟡 In Progress 2 🟡 ({lessonsInProgress2Count})</span>
+          </button>
+
+          {/* Level 3: Warm Golden Amber */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('in_progress_3')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'in_progress_3'
+                ? 'bg-amber-500 text-slate-950 font-bold shadow-sm shadow-amber-500/25'
+                : 'bg-slate-800/80 text-amber-300 hover:text-amber-200 hover:bg-amber-950/60'
+            }`}
+          >
+            <span>🟠 In Progress 3 🟠 ({lessonsInProgress3Count})</span>
+          </button>
+
+          {/* Level 4: Bright Vibrant Orange */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('in_progress_4')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'in_progress_4'
+                ? 'bg-orange-500 text-slate-950 font-bold shadow-sm shadow-orange-500/25'
+                : 'bg-slate-800/80 text-orange-300 hover:text-orange-200 hover:bg-orange-950/60'
+            }`}
+          >
+            <span>🟠 In Progress 4 🟠 ({lessonsInProgress4Count})</span>
+          </button>
+
+          {/* Level 5: Intense Flame Orange */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('in_progress_5')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'in_progress_5'
+                ? 'bg-orange-600 text-white font-extrabold shadow-sm shadow-orange-600/30'
+                : 'bg-slate-800/80 text-orange-400 hover:text-orange-300 hover:bg-orange-950/80'
+            }`}
+          >
+            <span>🟠 In Progress 5 🟠 ({lessonsInProgress5Count})</span>
+          </button>
+
+          {/* Learned */}
+          <button
+            type="button"
+            onClick={() => setStatusFilter('learned')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition-all ${
+              statusFilter === 'learned'
+                ? 'bg-emerald-500 text-slate-950 font-bold shadow-sm shadow-emerald-500/25'
+                : 'bg-slate-800/80 text-slate-400 hover:text-emerald-300'
+            }`}
+          >
+            <span>🟢 Learned ({lessonsLearnedCount})</span>
+          </button>
+        </div>
       </div>
+
+      {/* The Current List of Lessons */}
+      {filteredUnits.length === 0 ? (
+        <div className="glass-panel p-12 rounded-3xl text-center space-y-3 border-slate-800">
+          <BookOpen className="w-10 h-10 text-slate-600 mx-auto" />
+          <h3 className="text-base font-bold text-white">No matching lessons found</h3>
+          <p className="text-xs text-slate-400 max-w-sm mx-auto">
+            No lessons matched your active filters or search query. Try clearing filters to see all lessons.
+          </p>
+          <button
+            type="button"
+            onClick={() => {
+              setGroupFilter('all');
+              setStatusFilter('all');
+              setSearchQuery('');
+            }}
+            className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-sky-400 border border-slate-700 transition-colors"
+          >
+            Reset Filters
+          </button>
+        </div>
+      ) : isDefaultView ? (
+        /* Structured Sections in default view grouped by Curriculum Group */
+        <div className="space-y-8">
+          {availableGroups.map((group) => {
+            const groupUnits = filteredUnits.filter((u) => parseLessonCode(u.order || u.id).group.toLowerCase() === group.id.toLowerCase());
+            if (groupUnits.length === 0) return null;
+            const isKlik = group.id.toLowerCase().startsWith('klik');
+            return (
+              <div key={group.id} className="space-y-4">
+                <div className="flex items-center gap-2 pb-1.5 border-b border-slate-800">
+                  <span className={`w-2.5 h-2.5 rounded-full ${isKlik ? 'bg-indigo-400' : 'bg-sky-400'}`} />
+                  <h3 className="text-base font-bold text-white uppercase tracking-wider">
+                    Group: {group.name}
+                  </h3>
+                  <span className="text-xs text-slate-400 font-medium ml-auto">
+                    {groupUnits.length} {groupUnits.length === 1 ? 'lesson' : 'lessons'} ({group.cardsCount} cards)
+                  </span>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {groupUnits.map(renderLessonCard)}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        /* Filtered or Searched Grid View */
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          {filteredUnits.map(renderLessonCard)}
+        </div>
+      )}
 
       {/* Lesson Notes Modal */}
       {viewingNotesLesson && (
@@ -1129,6 +926,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 </div>
               </div>
               <button
+                type="button"
                 onClick={() => setViewingNotesLesson(null)}
                 className="text-slate-400 hover:text-white text-xs px-2.5 py-1.5 rounded-xl bg-slate-800 border border-slate-700 transition-colors"
               >
@@ -1142,6 +940,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
             <div className="flex justify-end gap-2 pt-2">
               <button
+                type="button"
                 onClick={() => {
                   const target = viewingNotesLesson;
                   setViewingNotesLesson(null);

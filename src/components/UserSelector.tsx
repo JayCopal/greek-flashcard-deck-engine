@@ -155,7 +155,7 @@ export const UserSelector: React.FC = () => {
               {users.map((user) => {
                 const isActive = user.id === activeUser.id;
                 const userSRS = getAllSRSData(user.id);
-                const learnedCount = Object.values(userSRS).filter((c) => c.isLearned).length;
+                const learnedCount = Object.values(userSRS).filter((c) => c.isLearned && !c.isExcluded).length;
 
                 return (
                   <div

@@ -1,7 +1,17 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { CardEntry, SRSRating, LessonStatus } from '../types/schema';
-import { getActiveUser, getActiveUserId, getUserStudyPreferences, setUserStudyPreferences, getUserLessonStatus, setUserLessonStatus } from '../utils/userStorage';
+import { 
+  getActiveUser, 
+  getActiveUserId, 
+  getUserStudyPreferences, 
+  setUserStudyPreferences, 
+  getUserLessonStatus, 
+  setUserLessonStatus,
+  setLastStudiedLesson 
+} from '../utils/userStorage';
 import { parseLessonCode, extractUnitContext } from '../utils/unitNaming';
+import { renderGreekWithTonos } from '../utils/greekTypography';
+import { triggerHaptic } from '../utils/haptics';
 import { 
   getCardSRS, 
   toggleCardLearned, 
@@ -30,7 +40,9 @@ import {
   FileText, 
   Ban, 
   Filter,
-  HelpCircle
+  HelpCircle,
+  Sliders,
+  Settings as SettingsIcon
 } from 'lucide-react';
 
 type StudyDirection = 'greek_to_english' | 'english_to_greek';
@@ -39,6 +51,7 @@ const STATUS_OPTIONS: {
   value: LessonStatus;
   label: string;
   icon: string;
+  endIcon?: string;
   activeClasses: string;
 }[] = [
   {
@@ -50,20 +63,37 @@ const STATUS_OPTIONS: {
   {
     value: 'in_progress_1',
     label: 'In Progress 1',
-    icon: '🔵',
-    activeClasses: 'bg-sky-950 text-sky-200 border-sky-500 ring-2 ring-sky-500/40',
+    icon: '🟡',
+    endIcon: '🟡',
+    activeClasses: 'bg-yellow-950/80 text-yellow-200 border-yellow-500 ring-2 ring-yellow-500/40',
   },
   {
     value: 'in_progress_2',
     label: 'In Progress 2',
     icon: '🟡',
-    activeClasses: 'bg-amber-950 text-amber-200 border-amber-500 ring-2 ring-amber-500/40',
+    endIcon: '🟡',
+    activeClasses: 'bg-yellow-950 text-yellow-300 border-yellow-400 ring-2 ring-yellow-400/50',
   },
   {
     value: 'in_progress_3',
     label: 'In Progress 3',
-    icon: '🟣',
-    activeClasses: 'bg-purple-950 text-purple-200 border-purple-500 ring-2 ring-purple-500/40',
+    icon: '🟠',
+    endIcon: '🟠',
+    activeClasses: 'bg-amber-950 text-amber-300 border-amber-500 ring-2 ring-amber-500/50',
+  },
+  {
+    value: 'in_progress_4',
+    label: 'In Progress 4',
+    icon: '🟠',
+    endIcon: '🟠',
+    activeClasses: 'bg-orange-950 text-orange-300 border-orange-500 ring-2 ring-orange-500/50',
+  },
+  {
+    value: 'in_progress_5',
+    label: 'In Progress 5',
+    icon: '🟠',
+    endIcon: '🟠',
+    activeClasses: 'bg-orange-950 text-orange-400 border-orange-400 ring-2 ring-orange-400/60',
   },
   {
     value: 'learned',
@@ -84,6 +114,7 @@ interface StudySessionProps {
   initialHideLearned?: boolean;
   onExit: () => void;
   onOpenHelp?: () => void;
+  onOpenSettings?: () => void;
 }
 
 export const StudySession: React.FC<StudySessionProps> = ({
@@ -97,6 +128,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
   initialHideLearned,
   onExit,
   onOpenHelp,
+  onOpenSettings,
 }) => {
   const [activeUser, setActiveUser] = useState(getActiveUser());
   const userPrefs = getUserStudyPreferences(activeUser.id);
@@ -152,7 +184,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
       } catch {
         // Offline safe
       }
-      const label = STATUS_OPTIONS.find((o) => o.value === newStatus)?.label || newStatus;
+      const opt = STATUS_OPTIONS.find((o) => o.value === newStatus);
+      const label = opt ? `${opt.icon} ${opt.label}${opt.endIcon ? ` ${opt.endIcon}` : ''}` : newStatus;
       setStatusUpdateMessage(`Lesson status updated to "${label}"!`);
       setTimeout(() => setStatusUpdateMessage(null), 3000);
     }
@@ -170,7 +203,12 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   const isAllIgnored = initialCards.length > 0 && initialCards.every((c) => {
     const s = getAllSRSData(getActiveUserId())[c.id];
-    return s?.isExcluded;
+    return s?.isExcluded && !s?.isLearned;
+  });
+
+  const isAllLearned = initialCards.length > 0 && initialCards.every((c) => {
+    const s = getAllSRSData(getActiveUserId())[c.id];
+    return s?.isLearned && !s?.isExcluded;
   });
 
   const resolvedHideExcluded = initialHideExcluded !== undefined 
@@ -179,16 +217,19 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   const resolvedHideLearned = initialHideLearned !== undefined 
     ? initialHideLearned 
-    : userPrefs.hideLearned;
+    : (isAllLearned ? false : userPrefs.hideLearned);
 
   // Study configuration options
-  const [studyDirection, setStudyDirection] = useState<StudyDirection>('greek_to_english');
+  const [studyDirection, setStudyDirection] = useState<StudyDirection>(userPrefs.studyDirection || 'greek_to_english');
   const [hideLearned, setHideLearned] = useState<boolean>(resolvedHideLearned);
   const [hideExcluded, setHideExcluded] = useState<boolean>(resolvedHideExcluded);
   const [dueOnly, setDueOnly] = useState<boolean>(false);
   const [ratingFilter, setRatingFilter] = useState<RatingFilterOption>('all');
-  const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(true); // Default is ON as requested
+  const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(userPrefs.autoPlayAudio !== undefined ? userPrefs.autoPlayAudio : true);
+  const [playbackSpeed, setPlaybackSpeed] = useState<number>(userPrefs.playbackSpeed || 1.0);
+  const [highlightTonos, setHighlightTonos] = useState<boolean>(userPrefs.highlightTonos !== undefined ? userPrefs.highlightTonos : true);
   const [showNotes, setShowNotes] = useState<boolean>(false);
+  const [showSettingsDrawer, setShowSettingsDrawer] = useState<boolean>(false);
 
   // Active cards filtered by learned/excluded/due/rating status
   const [filteredCards, setFilteredCards] = useState<CardEntry[]>(() =>
@@ -206,6 +247,50 @@ export const StudySession: React.FC<StudySessionProps> = ({
   // Centralized single HTMLAudioElement ref and playback state
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
+
+  // Touch gesture coordinates for mobile swipe
+  const touchStartX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null || touchStartY.current === null) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX.current;
+    const deltaY = e.changedTouches[0].clientY - touchStartY.current;
+    touchStartX.current = null;
+    touchStartY.current = null;
+
+    // Vertical swipe up -> Flip card
+    if (deltaY < -40 && Math.abs(deltaY) > Math.abs(deltaX)) {
+      handleFlip();
+      return;
+    }
+
+    // Horizontal swipe -> Prev/Next
+    if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+      if (deltaX < 0) {
+        handleNext();
+      } else {
+        handlePrevious();
+      }
+    }
+  };
+
+  const cyclePlaybackSpeed = () => {
+    const speeds = [0.75, 1.0, 1.25];
+    const nextIndex = (speeds.indexOf(playbackSpeed) + 1) % speeds.length;
+    const nextSpeed = speeds[nextIndex];
+    setPlaybackSpeed(nextSpeed);
+    setUserStudyPreferences({ playbackSpeed: nextSpeed }, activeUser.id);
+    if (audioRef.current) {
+      audioRef.current.playbackRate = nextSpeed;
+    }
+    triggerHaptic('light');
+  };
 
   // Re-filter cards whenever settings or master list changes
   const applyFilter = useCallback(
@@ -255,7 +340,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
       const match = currentCard.id.match(/U(\d+[A-Za-z]?)/i);
       if (match) return parseLessonCode(`unit-${match[1]}`);
     }
-    return parseLessonCode('OG-01-A');
+    return parseLessonCode('A1-01-A');
   }, [lessonNumber, effectiveUnitId, currentCard]);
 
   const displayLessonLabel = parsedLessonCode.lessonLabel;
@@ -268,9 +353,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   const handleNext = useCallback(() => {
     setIsFlipped(false);
+    triggerHaptic('light');
     if (currentIndex + 1 >= filteredCards.length) {
       // Completed deck from beginning to end!
       setShowCompletionModal(true);
+      triggerHaptic('success');
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
@@ -278,27 +365,44 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
   const handlePrevious = useCallback(() => {
     setIsFlipped(false);
+    triggerHaptic('light');
     setCurrentIndex((prev) => (prev - 1 >= 0 ? prev - 1 : filteredCards.length - 1));
   }, [filteredCards.length]);
 
   const handleFlip = useCallback(() => {
     setIsFlipped((prev) => !prev);
-    // Anytime a card is flipped, play the native audio
+    triggerHaptic('light');
+    // Anytime a card is flipped, play the native audio with selected speed
     if (audioRef.current && audioSrc) {
       audioRef.current.currentTime = 0;
+      audioRef.current.playbackRate = playbackSpeed;
       audioRef.current.play().catch(() => {});
     }
-  }, [audioSrc]);
+  }, [audioSrc, playbackSpeed]);
 
   const handlePlayAudio = useCallback(() => {
     if (!audioRef.current || !audioSrc) return;
     if (audioRef.current.paused) {
       audioRef.current.currentTime = 0;
+      audioRef.current.playbackRate = playbackSpeed;
       audioRef.current.play().catch(() => {});
+      triggerHaptic('light');
     } else {
       audioRef.current.pause();
     }
-  }, [audioSrc]);
+  }, [audioSrc, playbackSpeed]);
+
+  // Track last studied lesson for Quick Resume
+  useEffect(() => {
+    if (effectiveUnitId) {
+      setLastStudiedLesson({
+        unitId: effectiveUnitId,
+        lessonId: lessonId || effectiveUnitId,
+        title,
+        lessonLabel: parsedLessonCode.lessonLabel,
+      }, activeUser.id);
+    }
+  }, [effectiveUnitId, lessonId, title, parsedLessonCode.lessonLabel, activeUser.id]);
 
   // Single-source audio playback controller: stop previous and auto-play new card once
   useEffect(() => {
@@ -370,6 +474,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const handleRateSRS = useCallback(
     (rating: SRSRating) => {
       if (!currentCard) return;
+      triggerHaptic(rating === 'again' ? 'warning' : rating === 'easy' ? 'success' : 'medium');
       recordSRSRating(currentCard.id, rating, activeUser.id);
       if (dueOnly || ratingFilter !== 'all') {
         const updated = filterStudyCards(initialCards, {
@@ -425,6 +530,9 @@ export const StudySession: React.FC<StudySessionProps> = ({
       } else if (e.code === 'KeyX') {
         e.preventDefault();
         handleToggleExcluded(); // 'X': TOGGLE IGNORE
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        onExit(); // ESC: EXIT DRILL TO LANDING PAGE
       }
     };
 
@@ -488,6 +596,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
               >
                 <span>{opt.icon}</span>
                 <span className="font-bold">{opt.label}</span>
+                {opt.endIcon && <span>{opt.endIcon}</span>}
                 {currentUnitStatus === opt.value && (
                   <Check className="w-3.5 h-3.5 ml-auto text-current" />
                 )}
@@ -554,163 +663,69 @@ export const StudySession: React.FC<StudySessionProps> = ({
         onError={() => setIsAudioPlaying(false)}
       />
 
-      {/* Top Header & Settings Bar */}
-      <div className="glass-panel p-4 rounded-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
-        {/* Back and Title */}
-        <div className="flex items-center gap-3">
+      {/* Compact Top Header Bar - Minimal vertical space during study */}
+      <div className="glass-panel px-3.5 py-2 sm:py-2.5 rounded-2xl flex items-center justify-between gap-3">
+        {/* Left: Back button & Title / Card counter */}
+        <div className="flex items-center gap-2.5 min-w-0">
           <button
             onClick={onExit}
-            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700"
-            title="Exit Drill"
+            className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700 shrink-0"
+            title="Exit Drill (Esc)"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-sky-500/15 text-sky-400 border border-sky-500/30">
+          <div className="min-w-0">
+            <div className="flex items-center gap-1.5 flex-nowrap truncate">
+              <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-sky-500/15 text-sky-400 border border-sky-500/30 shrink-0">
                 {displayLessonLabel}
               </span>
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-slate-800 text-slate-300 border border-slate-700">
-                Group: {parsedLessonCode.group}
+              <span className="text-xs text-slate-300 font-semibold truncate hidden sm:inline">
+                {title}
               </span>
               {unitContext && (
-                <span className="text-[10px] font-semibold px-2 py-0.5 rounded-lg bg-slate-900 text-slate-300 border border-slate-800">
-                  Unit: {unitContext}
-                </span>
-              )}
-              {parsedLessonCode.suffix !== 'A' && (
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40">
-                  Expansion
+                <span className="text-[10px] text-slate-400 hidden md:inline">
+                  • {unitContext}
                 </span>
               )}
             </div>
-            <div className="text-xs text-slate-400">
+            <div className="text-[11px] text-slate-400 truncate">
               Card {currentIndex + 1} of {filteredCards.length}
               {ratingFilter !== 'all' && (
                 <span className="text-sky-400 ml-1.5 font-semibold capitalize">
                   [{ratingFilter}]
                 </span>
               )}
-              {totalLearnedCount > 0 && (
-                <span className="text-emerald-400 ml-2 font-medium">
-                  ({totalLearnedCount} learned)
-                </span>
-              )}
-              {totalExcludedCount > 0 && (
-                <span className="text-rose-400 ml-2 font-medium">
-                  ({totalExcludedCount} ignored)
-                </span>
-              )}
             </div>
           </div>
         </div>
 
-        {/* Filter & Direction Controls */}
-        <div className="flex flex-wrap items-center gap-2">
-          {/* Card Status / Rating Filter Dropdown */}
-          <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800 border border-slate-700 text-xs">
-            <Filter className="w-3.5 h-3.5 text-sky-400" />
-            <select
-              value={ratingFilter}
-              onChange={(e) => {
-                const val = e.target.value as RatingFilterOption;
-                setRatingFilter(val);
-                applyFilter(hideLearned, dueOnly, hideExcluded, val);
-              }}
-              className="bg-transparent text-slate-200 text-xs font-semibold focus:outline-none cursor-pointer pr-1"
-              title="Filter drill cards by their SRS rating status"
-            >
-              <option value="all" className="bg-slate-900 text-slate-200">All Ratings</option>
-              <option value="again" className="bg-slate-900 text-rose-300">Again (1)</option>
-              <option value="hard" className="bg-slate-900 text-amber-300">Hard (2)</option>
-              <option value="good" className="bg-slate-900 text-sky-300">Good (3)</option>
-              <option value="easy" className="bg-slate-900 text-emerald-300">Easy (4)</option>
-              <option value="new" className="bg-slate-900 text-slate-300">New / Unrated</option>
-            </select>
-          </div>
-
-          {/* Study Direction Toggle: Greek -> English vs English -> Greek */}
+        {/* Right: Quick Compact Controls */}
+        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+          {/* Study Direction Toggle */}
           <button
             type="button"
             onClick={() => {
-              setStudyDirection((prev) =>
-                prev === 'greek_to_english' ? 'english_to_greek' : 'greek_to_english'
-              );
+              const next = studyDirection === 'greek_to_english' ? 'english_to_greek' : 'greek_to_english';
+              setStudyDirection(next);
+              setUserStudyPreferences({ studyDirection: next }, activeUser.id);
               setIsFlipped(false);
             }}
-            className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-1.5 transition-all"
+            className="px-2 sm:px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-1 transition-all"
             title="Switch prompt direction"
           >
             <ArrowUpDown className="w-3.5 h-3.5 text-sky-400" />
-            <span>
-              {studyDirection === 'greek_to_english' ? 'Greek → English' : 'English → Greek'}
-            </span>
+            <span className="text-[11px] font-mono">{studyDirection === 'greek_to_english' ? 'EL→EN' : 'EN→EL'}</span>
           </button>
 
-          {/* Hide Learned Toggle */}
+          {/* Auto-audio Toggle */}
           <button
             type="button"
             onClick={() => {
-              const nextVal = !hideLearned;
-              setHideLearned(nextVal);
-              setUserStudyPreferences({ hideLearned: nextVal }, activeUser.id);
-              applyFilter(nextVal, dueOnly, hideExcluded, ratingFilter);
+              const next = !autoPlayAudio;
+              setAutoPlayAudio(next);
+              setUserStudyPreferences({ autoPlayAudio: next }, activeUser.id);
             }}
-            className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
-              hideLearned
-                ? 'bg-emerald-950/80 border-emerald-500/40 text-emerald-400'
-                : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
-            }`}
-            title="Hide cards that you've already mastered"
-          >
-            <EyeOff className="w-3.5 h-3.5" />
-            <span>Hide Learned</span>
-          </button>
-
-          {/* Hide Ignored Toggle */}
-          <button
-            type="button"
-            onClick={() => {
-              const nextVal = !hideExcluded;
-              setHideExcluded(nextVal);
-              setUserStudyPreferences({ hideExcluded: nextVal }, activeUser.id);
-              applyFilter(hideLearned, dueOnly, nextVal, ratingFilter);
-            }}
-            className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
-              hideExcluded
-                ? 'bg-rose-950/80 border-rose-500/40 text-rose-400'
-                : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
-            }`}
-            title="Hide cards you've decided to ignore"
-          >
-            <Ban className="w-3.5 h-3.5" />
-            <span>Hide Ignored</span>
-          </button>
-
-          {/* Due Only (SRS) Toggle */}
-          <button
-            type="button"
-            onClick={() => {
-              const nextVal = !dueOnly;
-              setDueOnly(nextVal);
-              applyFilter(hideLearned, nextVal, hideExcluded, ratingFilter);
-            }}
-            className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
-              dueOnly
-                ? 'bg-amber-950/80 border-amber-500/40 text-amber-400'
-                : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
-            }`}
-            title="Filter by Spaced Repetition due date"
-          >
-            <Clock className="w-3.5 h-3.5" />
-            <span>SRS Due Only</span>
-          </button>
-
-          {/* Auto-audio Toggle (default ON) */}
-          <button
-            type="button"
-            onClick={() => setAutoPlayAudio(!autoPlayAudio)}
-            className={`p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
+            className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
               autoPlayAudio
                 ? 'bg-sky-500/20 border-sky-500/40 text-sky-400'
                 : 'bg-slate-800 border-slate-700 text-slate-500 hover:text-slate-300'
@@ -720,12 +735,32 @@ export const StudySession: React.FC<StudySessionProps> = ({
             <Volume2 className="w-4 h-4" />
           </button>
 
+          {/* Playback Speed Cycle Button */}
+          <button
+            type="button"
+            onClick={cyclePlaybackSpeed}
+            className="px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sky-400 hover:text-white text-xs font-bold font-mono transition-all"
+            title="Audio Playback Speed (0.75x, 1.0x, 1.25x)"
+          >
+            {playbackSpeed}x
+          </button>
+
+          {/* Shuffle button */}
+          <button
+            type="button"
+            onClick={handleShuffle}
+            className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all hidden sm:flex items-center"
+            title="Shuffle deck"
+          >
+            <Shuffle className="w-4 h-4" />
+          </button>
+
           {/* Notes Toggle Button if notes exist */}
           {lessonNotes && (
             <button
               type="button"
               onClick={() => setShowNotes(!showNotes)}
-              className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all ${
+              className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
                 showNotes
                   ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
                   : 'bg-slate-800 text-sky-400 border-slate-700 hover:text-white'
@@ -733,34 +768,155 @@ export const StudySession: React.FC<StudySessionProps> = ({
               title="Toggle lesson grammar notes"
             >
               <FileText className="w-3.5 h-3.5" />
-              <span>Notes</span>
+              <span className="hidden sm:inline text-[11px]">Notes</span>
             </button>
           )}
 
-          {/* Shuffle button */}
+          {/* Quick Filters / Session Settings Toggle */}
           <button
             type="button"
-            onClick={handleShuffle}
-            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all"
-            title="Shuffle deck"
+            onClick={() => setShowSettingsDrawer(!showSettingsDrawer)}
+            className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
+              showSettingsDrawer || ratingFilter !== 'all' || dueOnly || !hideLearned || !hideExcluded
+                ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
+            }`}
+            title="Drill Filters & Settings"
           >
-            <Shuffle className="w-4 h-4" />
+            <Sliders className="w-4 h-4" />
           </button>
 
-          {/* Help & Shortcuts button */}
+          {/* Help button */}
           {onOpenHelp && (
             <button
               type="button"
               onClick={onOpenHelp}
-              className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all flex items-center gap-1.5 text-xs font-semibold"
-              title="Help & Keyboard Shortcuts"
+              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all hidden sm:flex items-center"
+              title="Keyboard Shortcuts & Help"
             >
               <HelpCircle className="w-4 h-4 text-sky-400" />
-              <span className="hidden sm:inline">Help</span>
             </button>
           )}
         </div>
       </div>
+
+      {/* Quick Filters Drawer when toggled */}
+      {showSettingsDrawer && (
+        <div className="glass-panel p-3.5 rounded-2xl border-slate-700/80 space-y-3">
+          <div className="flex items-center justify-between pb-2 border-b border-slate-800 text-xs">
+            <span className="font-bold text-white flex items-center gap-1.5">
+              <Filter className="w-3.5 h-3.5 text-sky-400" />
+              <span>Drill Filters & Options</span>
+            </span>
+            {onOpenSettings && (
+              <button
+                onClick={onOpenSettings}
+                className="text-sky-400 hover:text-white text-xs underline flex items-center gap-1"
+              >
+                <SettingsIcon className="w-3 h-3" />
+                <span>Full Settings Tab →</span>
+              </button>
+            )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            {/* Rating Filter */}
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-slate-900 border border-slate-700 text-xs">
+              <span className="text-slate-400 text-[11px]">Rating:</span>
+              <select
+                value={ratingFilter}
+                onChange={(e) => {
+                  const val = e.target.value as RatingFilterOption;
+                  setRatingFilter(val);
+                  applyFilter(hideLearned, dueOnly, hideExcluded, val);
+                }}
+                className="bg-transparent text-slate-200 text-xs font-semibold focus:outline-none cursor-pointer"
+              >
+                <option value="all" className="bg-slate-900 text-slate-200">All Ratings</option>
+                <option value="again" className="bg-slate-900 text-rose-300">Again (1)</option>
+                <option value="hard" className="bg-slate-900 text-amber-300">Hard (2)</option>
+                <option value="good" className="bg-slate-900 text-sky-300">Good (3)</option>
+                <option value="easy" className="bg-slate-900 text-emerald-300">Easy (4)</option>
+                <option value="new" className="bg-slate-900 text-slate-300">New / Unrated</option>
+              </select>
+            </div>
+
+            {/* Hide Learned Toggle */}
+            <button
+              type="button"
+              onClick={() => {
+                const nextVal = !hideLearned;
+                setHideLearned(nextVal);
+                setUserStudyPreferences({ hideLearned: nextVal }, activeUser.id);
+                applyFilter(nextVal, dueOnly, hideExcluded, ratingFilter);
+              }}
+              className={`px-2.5 py-1 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
+                hideLearned
+                  ? 'bg-emerald-950/80 border-emerald-500/40 text-emerald-400'
+                  : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-white'
+              }`}
+            >
+              <EyeOff className="w-3.5 h-3.5" />
+              <span>Hide Learned</span>
+            </button>
+
+            {/* Hide Ignored Toggle */}
+            <button
+              type="button"
+              onClick={() => {
+                const nextVal = !hideExcluded;
+                setHideExcluded(nextVal);
+                setUserStudyPreferences({ hideExcluded: nextVal }, activeUser.id);
+                applyFilter(hideLearned, dueOnly, nextVal, ratingFilter);
+              }}
+              className={`px-2.5 py-1 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
+                hideExcluded
+                  ? 'bg-rose-950/80 border-rose-500/40 text-rose-400'
+                  : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-white'
+              }`}
+            >
+              <Ban className="w-3.5 h-3.5" />
+              <span>Hide Ignored</span>
+            </button>
+
+            {/* Due Only Toggle */}
+            <button
+              type="button"
+              onClick={() => {
+                const nextVal = !dueOnly;
+                setDueOnly(nextVal);
+                applyFilter(hideLearned, nextVal, hideExcluded, ratingFilter);
+              }}
+              className={`px-2.5 py-1 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
+                dueOnly
+                  ? 'bg-amber-950/80 border-amber-500/40 text-amber-400'
+                  : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-white'
+              }`}
+            >
+              <Clock className="w-3.5 h-3.5" />
+              <span>SRS Due Only</span>
+            </button>
+
+            {/* Tonos Stress Highlight Toggle */}
+            <button
+              type="button"
+              onClick={() => {
+                const nextVal = !highlightTonos;
+                setHighlightTonos(nextVal);
+                setUserStudyPreferences({ highlightTonos: nextVal }, activeUser.id);
+              }}
+              className={`px-2.5 py-1 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
+                highlightTonos
+                  ? 'bg-amber-500/20 text-amber-300 border-amber-500/40'
+                  : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-white'
+              }`}
+              title="Highlight stressed vowels with tones"
+            >
+              <span>Tonos: {highlightTonos ? 'ON' : 'OFF'}</span>
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Collapsible Lesson Notes Banner */}
       {showNotes && lessonNotes && (
@@ -795,6 +951,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
       <div className="perspective-1000 py-2">
         <div
           onClick={handleFlip}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
           className={`relative w-full min-h-[380px] sm:min-h-[420px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
             isFlipped ? 'rotate-y-180' : ''
           }`}
@@ -802,12 +960,12 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* ================= CARD FRONT ================= */}
           <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30">
             {/* Top Bar on Front: Ignore on Top Left, Center Badges, Learned on Top Right */}
-            <div className="flex items-center justify-between gap-2 w-full" onClick={(e) => e.stopPropagation()}>
+            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
               {/* Top Left: Ignore Button */}
               <button
                 type="button"
                 onClick={handleToggleExcluded}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm ${
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isExcluded
                     ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
                     : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
@@ -819,15 +977,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[X]</span>
               </button>
 
-              {/* Center Badges: Gender/POS and SRS Rating */}
-              <div className="flex items-center gap-1.5 flex-wrap justify-center">
+              {/* Center Badges: Gender/POS and SRS Rating (Locked height, non-wrapping to prevent shifting below) */}
+              <div className="h-8 flex items-center justify-center gap-1.5 flex-nowrap shrink min-w-0">
                 {currentCard.gender_or_pos && (
-                  <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm">
+                  <span className="text-xs font-semibold px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm truncate max-w-[100px] sm:max-w-[150px] shrink whitespace-nowrap">
                     {currentCard.gender_or_pos}
                   </span>
                 )}
                 {ratingStatus && ratingStatus !== 'new' && (
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm ${
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
                     ratingStatus === 'again'
                       ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
                       : ratingStatus === 'hard'
@@ -836,7 +994,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
                       : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
                   }`}>
-                    {ratingStatus.toUpperCase()}
+                    {ratingStatus}
                   </span>
                 )}
               </div>
@@ -845,7 +1003,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
               <button
                 type="button"
                 onClick={handleToggleLearned}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm ${
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isLearned
                     ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
                     : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
@@ -853,7 +1011,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 title="Mark card as learned (Shortcut: M)"
               >
                 <CheckCircle className="w-3.5 h-3.5 shrink-0" />
-                <span>{srsData?.isLearned ? 'Learned' : 'Learned'}</span>
+                <span>{srsData?.isLearned ? 'Learned' : 'Learn'}</span>
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[M]</span>
               </button>
             </div>
@@ -863,23 +1021,42 @@ export const StudySession: React.FC<StudySessionProps> = ({
               {studyDirection === 'greek_to_english' ? (
                 <>
                   <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide font-serif leading-tight drop-shadow-sm">
-                    {currentCard.greek}
+                    {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
-                  {/* Keep Speaker Sign on the Greek side of the card */}
-                  <div className="inline-block mt-3" onClick={(e) => e.stopPropagation()}>
+                  {/* Keep Speaker Sign & Audio Controls on the Greek side of the card */}
+                  <div className="flex items-center justify-center gap-2 mt-3" onClick={(e) => e.stopPropagation()}>
                     {audioSrc ? (
-                      <button
-                        type="button"
-                        onClick={handlePlayAudio}
-                        title="Play Native Audio (↓)"
-                        className={`p-2.5 rounded-2xl transition-all duration-200 border shadow-md ${
-                          isAudioPlaying
-                            ? 'bg-sky-500 border-sky-400 text-white shadow-sky-500/30 scale-105 ring-2 ring-sky-300/40'
-                            : 'bg-slate-800/90 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border-slate-700'
-                        }`}
-                      >
-                        {isAudioPlaying ? <Pause className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-                      </button>
+                      <>
+                        <button
+                          type="button"
+                          onClick={handlePlayAudio}
+                          title="Play Native Audio (↓)"
+                          className={`px-3.5 py-2.5 rounded-2xl transition-all duration-200 border shadow-md flex items-center gap-2 ${
+                            isAudioPlaying
+                              ? 'bg-sky-500 border-sky-400 text-white shadow-sky-500/30 scale-105 ring-2 ring-sky-300/40'
+                              : 'bg-slate-800/90 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border-slate-700'
+                          }`}
+                        >
+                          {isAudioPlaying ? (
+                            <div className="flex items-center gap-0.5 h-5 px-0.5">
+                              <span className="w-1 bg-white rounded-full animate-bounce h-3" style={{ animationDelay: '0ms' }} />
+                              <span className="w-1 bg-white rounded-full animate-bounce h-5" style={{ animationDelay: '150ms' }} />
+                              <span className="w-1 bg-white rounded-full animate-bounce h-2.5" style={{ animationDelay: '300ms' }} />
+                            </div>
+                          ) : (
+                            <Volume2 className="w-5 h-5" />
+                          )}
+                          <span className="text-xs font-semibold">{isAudioPlaying ? 'Playing' : 'Audio'}</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={cyclePlaybackSpeed}
+                          title={`Audio speed: ${playbackSpeed}x (Click to cycle)`}
+                          className="px-2.5 py-2.5 text-xs font-bold rounded-2xl bg-slate-800/90 hover:bg-slate-700 text-sky-300 hover:text-white border border-slate-700/90 transition-all shadow-sm"
+                        >
+                          {playbackSpeed}x
+                        </button>
+                      </>
                     ) : (
                       <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 italic py-1 px-2.5 rounded-lg bg-slate-800/40 border border-slate-700/50">
                         <VolumeX className="w-3.5 h-3.5 text-slate-500" /> No audio
@@ -904,19 +1081,19 @@ export const StudySession: React.FC<StudySessionProps> = ({
             {/* Subtle Flip Hint Footer */}
             <div className="text-center text-[11px] text-slate-500 font-medium tracking-wide flex items-center justify-center gap-1.5">
               <RotateCw className="w-3 h-3 text-slate-600" />
-              <span>Tap card or press <kbd className="px-1 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700/60 font-mono text-[10px]">↑</kbd> to flip</span>
+              <span>Tap or swipe up to flip • <kbd className="px-1 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700/60 font-mono text-[10px]">↑</kbd></span>
             </div>
           </div>
 
           {/* ================= CARD BACK (REVEAL) ================= */}
           <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30">
             {/* Top Bar on Back: Ignore on Top Left, Center Badges, Learned on Top Right */}
-            <div className="flex items-center justify-between gap-2 w-full" onClick={(e) => e.stopPropagation()}>
+            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
               {/* Top Left: Ignore Button */}
               <button
                 type="button"
                 onClick={handleToggleExcluded}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm ${
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isExcluded
                     ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
                     : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
@@ -928,15 +1105,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[X]</span>
               </button>
 
-              {/* Center Badges */}
-              <div className="flex items-center gap-1.5 flex-wrap justify-center">
+              {/* Center Badges (Locked height, non-wrapping to prevent shifting below) */}
+              <div className="h-8 flex items-center justify-center gap-1.5 flex-nowrap shrink min-w-0">
                 {currentCard.gender_or_pos && (
-                  <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm">
+                  <span className="text-xs font-semibold px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm truncate max-w-[100px] sm:max-w-[150px] shrink whitespace-nowrap">
                     {currentCard.gender_or_pos}
                   </span>
                 )}
                 {ratingStatus && ratingStatus !== 'new' && (
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm ${
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
                     ratingStatus === 'again'
                       ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
                       : ratingStatus === 'hard'
@@ -945,7 +1122,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
                       : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
                   }`}>
-                    {ratingStatus.toUpperCase()}
+                    {ratingStatus}
                   </span>
                 )}
               </div>
@@ -954,7 +1131,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
               <button
                 type="button"
                 onClick={handleToggleLearned}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm ${
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isLearned
                     ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
                     : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
@@ -962,17 +1139,17 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 title="Mark card as learned (Shortcut: M)"
               >
                 <CheckCircle className="w-3.5 h-3.5 shrink-0" />
-                <span>{srsData?.isLearned ? 'Learned' : 'Learned'}</span>
+                <span>{srsData?.isLearned ? 'Learned' : 'Learn'}</span>
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[M]</span>
               </button>
             </div>
 
-            {/* Answer Content - No play button here to preserve vertical space */}
+            {/* Answer Content */}
             <div className="text-center py-3 space-y-3 my-auto">
               {studyDirection === 'greek_to_english' ? (
                 <>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight">
-                    {currentCard.greek}
+                    {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight">
                     {currentCard.english}
@@ -997,8 +1174,25 @@ export const StudySession: React.FC<StudySessionProps> = ({
               ) : (
                 <>
                   <h2 className="text-3xl sm:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight">
-                    {currentCard.greek}
+                    {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
+                  {audioSrc && (
+                    <div className="flex items-center justify-center gap-2 pt-0.5" onClick={(e) => e.stopPropagation()}>
+                      <button
+                        type="button"
+                        onClick={handlePlayAudio}
+                        title="Play Native Audio (↓)"
+                        className={`px-3 py-1.5 rounded-xl transition-all duration-200 border text-xs font-semibold flex items-center gap-1.5 shadow-sm ${
+                          isAudioPlaying
+                            ? 'bg-teal-500 border-teal-400 text-white shadow-teal-500/30 ring-2 ring-teal-300/40'
+                            : 'bg-slate-800/90 text-teal-300 hover:bg-slate-700 hover:text-white border-slate-700'
+                        }`}
+                      >
+                        <Volume2 className="w-3.5 h-3.5" />
+                        <span>{isAudioPlaying ? 'Playing' : 'Audio'}</span>
+                      </button>
+                    </div>
+                  )}
                   <h3 className="text-lg sm:text-xl font-semibold text-slate-300 tracking-tight">
                     {currentCard.english}
                   </h3>
@@ -1200,6 +1394,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   >
                     <span>{opt.icon}</span>
                     <span className="font-bold">{opt.label}</span>
+                    {opt.endIcon && <span>{opt.endIcon}</span>}
                     {currentUnitStatus === opt.value && (
                       <Check className="w-3.5 h-3.5 ml-auto text-current" />
                     )}

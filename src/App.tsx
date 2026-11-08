@@ -1,18 +1,22 @@
 import { useState, useEffect } from 'react';
 import { DeckData, CardEntry } from './types/schema';
+import { getUserStudyPreferences } from './utils/userStorage';
 import { Dashboard } from './components/Dashboard';
+import { Practice } from './components/Practice';
+import { OverviewStats } from './components/OverviewStats';
 import { DeckEditor } from './components/DeckEditor';
 import { StudySession } from './components/StudySession';
 import { Help } from './components/Help';
-import { UserSelector } from './components/UserSelector';
+import { Settings } from './components/Settings';
 import { 
   Layers, 
   BookOpen, 
   Play, 
-  RefreshCw, 
   WifiOff,
-  Download,
-  HelpCircle
+  HelpCircle,
+  Settings as SettingsIcon,
+  Sparkles,
+  Award
 } from 'lucide-react';
 
 interface BeforeInstallPromptEvent extends Event {
@@ -20,7 +24,7 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
-type ActiveTab = 'dashboard' | 'editor' | 'study' | 'help';
+type ActiveTab = 'dashboard' | 'practice' | 'overview' | 'editor' | 'study' | 'settings' | 'help';
 
 export function App() {
   const [deck, setDeck] = useState<DeckData | null>(null);
@@ -44,6 +48,61 @@ export function App() {
   // PWA Install Prompt State
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstalled, setIsInstalled] = useState(false);
+
+  // Theme preference
+  const [themePreference, setThemePreference] = useState<'slate' | 'oled'>(
+    () => getUserStudyPreferences().themePreference || 'slate'
+  );
+
+  useEffect(() => {
+    const updateTheme = () => {
+      const prefs = getUserStudyPreferences();
+      setThemePreference(prefs.themePreference || 'slate');
+    };
+    window.addEventListener('greek_deck_user_change', updateTheme);
+    window.addEventListener('greek_deck_prefs_change', updateTheme);
+    return () => {
+      window.removeEventListener('greek_deck_user_change', updateTheme);
+      window.removeEventListener('greek_deck_prefs_change', updateTheme);
+    };
+  }, []);
+
+  // History & browser/hardware back button handling:
+  // When a user is studying cards, pressing browser/hardware back goes to the landing page, not exiting the app!
+  useEffect(() => {
+    if (!window.history.state || !window.history.state.tab) {
+      window.history.replaceState({ tab: 'dashboard' }, '');
+    }
+
+    const handlePopState = (e: PopStateEvent) => {
+      if (activeTab === 'study') {
+        setActiveTab('dashboard');
+      } else {
+        const targetTab: ActiveTab = e.state?.tab || 'dashboard';
+        setActiveTab(targetTab);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [activeTab]);
+
+  const navigateToTab = (tab: ActiveTab) => {
+    if (tab === activeTab) return;
+    window.history.pushState({ tab }, '');
+    setActiveTab(tab);
+  };
+
+  const handleBackToLanding = () => {
+    if (window.history.state?.tab === 'study') {
+      window.history.back();
+      setTimeout(() => {
+        setActiveTab('dashboard');
+      }, 50);
+    } else {
+      setActiveTab('dashboard');
+    }
+  };
 
   useEffect(() => {
     const handler = (e: Event) => {
@@ -139,7 +198,7 @@ export function App() {
   const handleSelectLessonFromDashboard = (unitId: string, lessonId: string) => {
     setEditorUnitId(unitId);
     setEditorLessonId(lessonId);
-    setActiveTab('editor');
+    navigateToTab('editor');
   };
 
   const handleStartStudy = (
@@ -158,24 +217,28 @@ export function App() {
     setStudyOptions(options);
     setStudyUnitId(unitId);
     setStudyLessonId(lessonId);
+    window.history.pushState({ tab: 'study' }, '');
     setActiveTab('study');
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col w-full max-w-full overflow-x-hidden">
+    <div className={`min-h-screen text-slate-100 flex flex-col w-full max-w-full overflow-x-hidden transition-colors duration-300 ${
+      themePreference === 'oled' ? 'bg-black oled-theme' : 'bg-slate-950'
+    }`}>
       {/* Top Navigation Bar */}
-      <header className="sticky top-0 z-50 glass-panel border-b border-slate-800/80 px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 w-full">
-        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-y-2.5 gap-x-2">
+      <header className={`sticky top-0 z-50 glass-panel border-b border-slate-800/80 px-3 sm:px-6 lg:px-8 ${activeTab === 'study' ? 'py-1.5 sm:py-2' : 'py-2 sm:py-3'} w-full transition-all`}>
+        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-2">
           {/* Logo / Brand */}
           <div 
-            onClick={() => setActiveTab('dashboard')} 
-            className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group order-1 shrink-0"
+            onClick={() => navigateToTab('dashboard')} 
+            className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group order-1 shrink-0"
+            title="Go to Landing Page"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <span className="text-white font-serif font-black text-lg sm:text-xl">Ω</span>
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
+              <span className="text-white font-serif font-black text-base sm:text-lg">Ω</span>
             </div>
             <div>
-              <div className="flex items-center gap-1.5 sm:gap-2">
+              <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-white text-sm sm:text-base tracking-tight">
                   GreekDeck
                 </span>
@@ -183,63 +246,93 @@ export function App() {
                   A1
                 </span>
               </div>
-              <p className="text-[11px] text-slate-400 font-medium hidden sm:block">
-                Local-First Audio Engine & PWA
+              <p className="text-[10px] sm:text-[11px] text-slate-400 font-medium hidden sm:block leading-none mt-0.5">
+                Audio Engine & PWA
               </p>
             </div>
           </div>
 
-          {/* Right Header Area: PWA Install, Learner Profiles & Mode */}
-          <div className="flex items-center gap-1.5 sm:gap-2 order-2 md:order-3 shrink-0">
-            {installPrompt && !isInstalled && (
-              <button
-                onClick={handleInstallClick}
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white text-xs font-bold shadow-md shadow-sky-500/20 transition-all hover:scale-105 active:scale-95"
-                title="Install Progressive Web App on your device"
-              >
-                <Download className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Install App</span>
-              </button>
-            )}
-
-            <UserSelector />
-
+          {/* Right Header Area: Offline Status Pill */}
+          <div className="flex items-center gap-1.5 order-2 md:order-3 shrink-0">
             {isOfflineMode && (
               <span 
-                className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2 sm:px-2.5 py-1.5 rounded-xl border border-teal-800"
+                className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2 sm:px-2.5 py-1 rounded-xl border border-teal-800"
                 title="PWA Offline Mode Active"
               >
                 <WifiOff className="w-3.5 h-3.5" />
-                <span className="hidden md:inline">Offline</span>
+                <span className="hidden sm:inline">Offline</span>
               </span>
             )}
-            <button
-              onClick={handleRefresh}
-              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700"
-              title={isOfflineMode ? "Check for updates and reload deck data" : "Reload YAML from disk"}
-            >
-              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-            </button>
           </div>
 
-          {/* Nav Tabs - Wraps gracefully below on mobile/PWA, centers inline on md+ */}
-          <nav className="flex items-center justify-around sm:justify-start gap-1 sm:gap-2 order-3 md:order-2 w-full md:w-auto pt-1 md:pt-0">
+          {/* Nav Tabs */}
+          <nav className="flex items-center justify-around sm:justify-start gap-1 sm:gap-1.5 order-3 md:order-2 w-full md:w-auto pt-0.5 md:pt-0 overflow-x-auto no-scrollbar">
+            {/* Landing: Lessons */}
             <button
-              onClick={() => setActiveTab('dashboard')}
-              className={`flex-1 md:flex-initial px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              onClick={() => navigateToTab('dashboard')}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
                 activeTab === 'dashboard'
                   ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
+              title="Lessons List (Landing Page)"
             >
               <Layers className="w-4 h-4 shrink-0" />
-              <span>Dashboard</span>
+              <span>Lessons</span>
             </button>
 
+            {/* Targeted Practice */}
             <button
-              onClick={() => setActiveTab('editor')}
+              onClick={() => navigateToTab('practice')}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+                activeTab === 'practice'
+                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
+              title="Targeted Practice & SRS Reviews"
+            >
+              <Sparkles className="w-4 h-4 shrink-0 text-amber-400" />
+              <span>Practice</span>
+            </button>
+
+            {/* Stats & Overview */}
+            <button
+              onClick={() => navigateToTab('overview')}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+                activeTab === 'overview'
+                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
+              title="Deck Statistics & Audio Coverage"
+            >
+              <Award className="w-4 h-4 shrink-0 text-emerald-400" />
+              <span>Stats</span>
+            </button>
+
+            {/* Study Drill */}
+            <button
+              onClick={() => {
+                if (deck) {
+                  const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
+                  handleStartStudy(allCards, deck.manifest.deck_title);
+                }
+              }}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+                activeTab === 'study'
+                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+              }`}
+              title="Start Study Session"
+            >
+              <Play className="w-4 h-4 fill-current shrink-0" />
+              <span>Study</span>
+            </button>
+
+            {/* Deck Editor */}
+            <button
+              onClick={() => navigateToTab('editor')}
               disabled={isOfflineMode}
-              className={`flex-1 md:flex-initial px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
                 activeTab === 'editor'
                   ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
@@ -250,26 +343,24 @@ export function App() {
               <span>Deck Editor</span>
             </button>
 
+            {/* Settings */}
             <button
-              onClick={() => {
-                if (deck) {
-                  const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
-                  handleStartStudy(allCards, deck.manifest.deck_title);
-                }
-              }}
-              className={`flex-1 md:flex-initial px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
-                activeTab === 'study'
+              onClick={() => navigateToTab('settings')}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+                activeTab === 'settings'
                   ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
+              title="Settings & Learner Profiles"
             >
-              <Play className="w-4 h-4 fill-current shrink-0" />
-              <span>Study</span>
+              <SettingsIcon className="w-4 h-4 shrink-0" />
+              <span>Settings</span>
             </button>
 
+            {/* Help */}
             <button
-              onClick={() => setActiveTab('help')}
-              className={`flex-1 md:flex-initial px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              onClick={() => navigateToTab('help')}
+              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
                 activeTab === 'help'
                   ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
@@ -305,6 +396,7 @@ export function App() {
           </div>
         ) : (
           <>
+            {/* Landing page: current list of lessons ONLY */}
             {activeTab === 'dashboard' && (
               <Dashboard
                 deck={deck}
@@ -314,12 +406,30 @@ export function App() {
               />
             )}
 
+            {/* Dedicated Targeted Practice tab */}
+            {activeTab === 'practice' && (
+              <Practice
+                deck={deck}
+                onStartStudy={handleStartStudy}
+              />
+            )}
+
+            {/* Dedicated Overview & Stats tab */}
+            {activeTab === 'overview' && (
+              <OverviewStats
+                deck={deck}
+                onRefresh={handleRefresh}
+              />
+            )}
+
             {activeTab === 'editor' && (
               <DeckEditor
                 deck={deck}
                 initialUnitId={editorUnitId}
                 initialLessonId={editorLessonId}
-                onBackToDashboard={() => setActiveTab('dashboard')}
+                isOfflineMode={isOfflineMode}
+                isPwa={isOfflineMode || isInstalled}
+                onBackToDashboard={() => navigateToTab('dashboard')}
                 onRefresh={handleRefresh}
               />
             )}
@@ -334,14 +444,33 @@ export function App() {
                 lessonId={studyLessonId}
                 initialHideExcluded={studyOptions?.hideExcluded}
                 initialHideLearned={studyOptions?.hideLearned}
-                onExit={() => setActiveTab('dashboard')}
-                onOpenHelp={() => setActiveTab('help')}
+                onExit={handleBackToLanding}
+                onOpenHelp={() => navigateToTab('help')}
+                onOpenSettings={() => navigateToTab('settings')}
+              />
+            )}
+
+            {activeTab === 'settings' && (
+              <Settings
+                isOfflineMode={isOfflineMode}
+                onRefreshDeck={handleRefresh}
+                loadingDeck={loading}
+                installPrompt={installPrompt}
+                isInstalled={isInstalled}
+                onInstallApp={handleInstallClick}
+                onGoToStudy={() => {
+                  if (deck) {
+                    const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
+                    handleStartStudy(allCards, deck.manifest.deck_title);
+                  }
+                }}
+                onGoToDashboard={() => navigateToTab('dashboard')}
               />
             )}
 
             {activeTab === 'help' && (
               <Help
-                onBackToDashboard={() => setActiveTab('dashboard')}
+                onBackToDashboard={() => navigateToTab('dashboard')}
                 onStartStudy={() => {
                   if (deck) {
                     const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
@@ -353,18 +482,8 @@ export function App() {
           </>
         )}
       </main>
-
-      {/* Subtle Footer */}
-      <footer className="border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-        <span>Modern Greek Deck Engine • Multi-User Local Storage • High-Fidelity Native Audio</span>
-        <button
-          onClick={() => setActiveTab('help')}
-          className="text-slate-400 hover:text-sky-400 underline underline-offset-2 transition-colors"
-        >
-          Help & Keyboard Shortcuts
-        </button>
-      </footer>
     </div>
   );
 }
+
 export default App;

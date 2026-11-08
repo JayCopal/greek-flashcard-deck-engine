@@ -62,7 +62,7 @@ class UpdateEntryPayload(BaseModel):
 
 class UpdateLessonPayload(BaseModel):
     lesson_notes: Optional[str] = None
-    lesson_status: Optional[str] = None  # 'not_started' | 'in_progress_1' | 'in_progress_2' | 'in_progress_3' | 'learned'
+    lesson_status: Optional[str] = None  # 'not_started' | 'in_progress_1' .. 'in_progress_5' | 'learned'
     title: Optional[str] = None
     description: Optional[str] = None
 
@@ -305,7 +305,16 @@ def update_lesson(unit_id: str, lesson_id: str, payload: UpdateLessonPayload):
     if payload.lesson_notes is not None:
         lesson_data["lesson_notes"] = payload.lesson_notes.strip()
     if payload.lesson_status is not None:
-        valid_statuses = ["not_started", "in_progress", "in_progress_1", "in_progress_2", "in_progress_3", "learned"]
+        valid_statuses = [
+            "not_started",
+            "in_progress",
+            "in_progress_1",
+            "in_progress_2",
+            "in_progress_3",
+            "in_progress_4",
+            "in_progress_5",
+            "learned",
+        ]
         if payload.lesson_status not in valid_statuses:
             raise HTTPException(status_code=400, detail="Invalid lesson status")
         lesson_data["lesson_status"] = payload.lesson_status

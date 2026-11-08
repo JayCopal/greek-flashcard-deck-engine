@@ -229,16 +229,30 @@ export function resetUserProgress(userId?: string): void {
 }
 
 /**
- * User study session preferences (remembered filters)
+ * User study session preferences (remembered filters & UX settings)
  */
 export interface UserStudyPreferences {
   hideLearned: boolean;
   hideExcluded: boolean;
+  studyDirection?: 'greek_to_english' | 'english_to_greek';
+  autoPlayAudio?: boolean;
+  playbackSpeed?: number;
+  highlightTonos?: boolean;
+  hapticFeedback?: boolean;
+  themePreference?: 'slate' | 'oled';
+  dailyGoal?: number;
 }
 
 export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
   hideLearned: true,
   hideExcluded: true,
+  studyDirection: 'greek_to_english',
+  autoPlayAudio: true,
+  playbackSpeed: 1.0,
+  highlightTonos: true,
+  hapticFeedback: true,
+  themePreference: 'slate',
+  dailyGoal: 20,
 };
 
 export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
@@ -251,6 +265,13 @@ export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
       return {
         hideLearned: parsed.hideLearned !== undefined ? Boolean(parsed.hideLearned) : true,
         hideExcluded: parsed.hideExcluded !== undefined ? Boolean(parsed.hideExcluded) : true,
+        studyDirection: parsed.studyDirection === 'english_to_greek' ? 'english_to_greek' : 'greek_to_english',
+        autoPlayAudio: parsed.autoPlayAudio !== undefined ? Boolean(parsed.autoPlayAudio) : true,
+        playbackSpeed: typeof parsed.playbackSpeed === 'number' ? parsed.playbackSpeed : 1.0,
+        highlightTonos: parsed.highlightTonos !== undefined ? Boolean(parsed.highlightTonos) : true,
+        hapticFeedback: parsed.hapticFeedback !== undefined ? Boolean(parsed.hapticFeedback) : true,
+        themePreference: parsed.themePreference === 'oled' ? 'oled' : 'slate',
+        dailyGoal: typeof parsed.dailyGoal === 'number' ? parsed.dailyGoal : 20,
       };
     }
   } catch (e) {
@@ -272,10 +293,122 @@ export function setUserStudyPreferences(
   };
   try {
     localStorage.setItem(key, JSON.stringify(updated));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('greek_deck_prefs_change', { detail: updated }));
+    }
   } catch (err) {
     console.error('Failed to save study preferences', err);
   }
   return updated;
+}
+
+/**
+ * Daily Goal & Review Tracker
+ */
+export interface DailyReviewData {
+  date: string;
+  count: number;
+  goal: number;
+  streak: number;
+}
+
+export function getTodayKey(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+export function getDailyReviewData(userId?: string): DailyReviewData {
+  const uid = userId || getActiveUserId();
+  const prefs = getUserStudyPreferences(uid);
+  const today = getTodayKey();
+  const key = `greek_deck_daily_reviews_${uid}`;
+  try {
+    const raw = localStorage.getItem(key);
+    if (raw) {
+      const data = JSON.parse(raw);
+      if (data.date === today) {
+        return {
+          date: today,
+          count: Number(data.count) || 0,
+          goal: prefs.dailyGoal || 20,
+          streak: Number(data.streak) || 1,
+        };
+      }
+      // If it's a new day, check if yesterday had reviews to continue streak
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, '0')}-${String(yesterday.getDate()).padStart(2, '0')}`;
+      const streak = data.date === yKey && data.count >= (data.goal || 10) ? (Number(data.streak) || 1) + 1 : 1;
+      return {
+        date: today,
+        count: 0,
+        goal: prefs.dailyGoal || 20,
+        streak,
+      };
+    }
+  } catch {}
+  return {
+    date: today,
+    count: 0,
+    goal: prefs.dailyGoal || 20,
+    streak: 1,
+  };
+}
+
+export function recordDailyCardReview(userId?: string): DailyReviewData {
+  const uid = userId || getActiveUserId();
+  const current = getDailyReviewData(uid);
+  const today = getTodayKey();
+  const updated: DailyReviewData = {
+    ...current,
+    date: today,
+    count: current.count + 1,
+  };
+  try {
+    localStorage.setItem(`greek_deck_daily_reviews_${uid}`, JSON.stringify(updated));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('greek_deck_daily_change', { detail: updated }));
+    }
+  } catch {}
+  return updated;
+}
+
+/**
+ * Last Studied Lesson tracker
+ */
+export interface LastStudiedLesson {
+  unitId: string;
+  lessonId: string;
+  title: string;
+  lessonLabel?: string;
+  timestamp: string;
+}
+
+export function setLastStudiedLesson(
+  lesson: { unitId: string; lessonId: string; title: string; lessonLabel?: string },
+  userId?: string
+): void {
+  const uid = userId || getActiveUserId();
+  const data: LastStudiedLesson = {
+    ...lesson,
+    timestamp: new Date().toISOString(),
+  };
+  try {
+    localStorage.setItem(`greek_deck_last_lesson_${uid}`, JSON.stringify(data));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('greek_deck_last_lesson_change', { detail: data }));
+    }
+  } catch {}
+}
+
+export function getLastStudiedLesson(userId?: string): LastStudiedLesson | null {
+  const uid = userId || getActiveUserId();
+  try {
+    const raw = localStorage.getItem(`greek_deck_last_lesson_${uid}`);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
 }
 
 /**
@@ -297,6 +430,8 @@ const VALID_LESSON_STATUSES: Set<string> = new Set([
   'in_progress_1',
   'in_progress_2',
   'in_progress_3',
+  'in_progress_4',
+  'in_progress_5',
   'learned',
 ]);
 
