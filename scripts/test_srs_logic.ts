@@ -5,6 +5,15 @@ import assert from 'node:assert';
 class LocalStorageMock {
   private store: Record<string, string> = {};
 
+  get length(): number {
+    return Object.keys(this.store).length;
+  }
+
+  key(index: number): string | null {
+    const keys = Object.keys(this.store);
+    return keys[index] ?? null;
+  }
+
   getItem(key: string): string | null {
     return this.store[key] ?? null;
   }
@@ -44,7 +53,10 @@ import {
   setCardExcluded,
   recordSRSRating,
   filterStudyCards,
+  recordCardPresentation,
+  getCardPresentationCount,
 } from '../src/utils/srs.ts';
+import { exportFullProgressBackup, importFullProgressBackup } from '../src/utils/userStorage.ts';
 import { CardEntry } from '../src/types/schema.ts';
 
 console.log('--- STARTING SRS LOGIC & MUTUAL EXCLUSIVITY TESTS ---');
@@ -184,6 +196,54 @@ assert.strictEqual(ignoredDrill.some(c => c.id === 'c-learned'), false, 'Ignored
 assert.strictEqual(ignoredDrill.some(c => c.id === 'c-ignored'), true, 'Ignored drill contains ignored cards');
 console.log('  ✓ Ignored drill contains ignored cards and strictly excludes learned cards');
 
+// TEST 9: Card Presentation Tracking
+console.log('Test 9: Card Presentation Counter tracking');
+const cardP = 'card-presentation-001';
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 0, 'Initially presentation count is 0');
+
+recordCardPresentation(cardP, testUserId);
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 1, 'First presentation increments to 1');
+const p1 = getCardSRS(cardP, testUserId);
+assert.strictEqual(p1.timesPresented, 1);
+assert.ok(p1.lastPresented, 'Timestamp lastPresented must be recorded');
+
+recordCardPresentation(cardP, testUserId);
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 2, 'Second presentation increments to 2');
+
+recordCardPresentation(cardP, testUserId);
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 3, 'Third presentation increments to 3');
+
+// Rating preserves presentation count
+recordSRSRating(cardP, 'good', testUserId);
+const pRated = getCardSRS(cardP, testUserId);
+assert.strictEqual(pRated.timesPresented, 3, 'Rating card preserves existing presentation count');
+assert.strictEqual(pRated.lastRating, 'good');
+
+// Toggling learned preserves presentation count
+toggleCardLearned(cardP, testUserId);
+const pLearned = getCardSRS(cardP, testUserId);
+assert.strictEqual(pLearned.timesPresented, 3, 'Toggling learned preserves presentation count');
+console.log('  ✓ Card presentation count increments accurately and is preserved across ratings');
+
+// TEST 10: JSON Backup & Restore
+console.log('Test 10: JSON Progress Backup Export and Import');
+const backupJson = exportFullProgressBackup();
+assert.ok(backupJson.includes('card-presentation-001'), 'Backup must contain card presentation data');
+const parsedBackup = JSON.parse(backupJson);
+assert.strictEqual(parsedBackup.version, 2);
+assert.ok(parsedBackup.storage, 'Backup must contain storage map');
+
+// Simulate clearing storage and restoring
+mockStorage.clear();
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 0, 'Storage cleared');
+
+await importFullProgressBackup(backupJson);
+assert.strictEqual(getCardPresentationCount(cardP, testUserId), 3, 'Import restored presentation count');
+const restoredCard = getCardSRS(cardP, testUserId);
+assert.strictEqual(restoredCard.timesPresented, 3);
+assert.strictEqual(restoredCard.lastRating, 'good');
+console.log('  ✓ Progress export & restore completely recovers state');
+
 console.log('\n========================================');
-console.log('ALL 8 SRS SUITE TESTS PASSED SUCCESSFULLY!');
+console.log('ALL 10 SRS SUITE TESTS PASSED SUCCESSFULLY!');
 console.log('========================================');

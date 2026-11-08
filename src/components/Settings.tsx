@@ -711,7 +711,164 @@ export const Settings: React.FC<SettingsProps> = ({
         </div>
       </div>
 
-      {/* Section 3: App, PWA & Storage Engine */}
+      {/* Section 3: Storage Resilience, Card History & Backup */}
+      <div className="glass-panel p-6 rounded-2xl border-slate-800 space-y-5">
+        <div className="flex items-center justify-between pb-3 border-b border-slate-800/80">
+          <div className="flex items-center gap-2.5">
+            <div className="w-8 h-8 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+              <Database className="w-4 h-4" />
+            </div>
+            <div>
+              <h2 className="text-base font-bold text-white">Storage Resilience & Progress Backup</h2>
+              <p className="text-xs text-slate-400">Multi-layer persistence (IndexedDB + LocalStorage), card presentation history & backup</p>
+            </div>
+          </div>
+
+          <div className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-[11px] font-semibold text-emerald-300">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Dual-Layer Persistence Active</span>
+          </div>
+        </div>
+
+        {backupMessage && (
+          <div className={`p-3 rounded-xl border text-xs flex items-center justify-between ${
+            backupMessage.type === 'success' 
+              ? 'bg-emerald-950/70 border-emerald-500/40 text-emerald-300' 
+              : 'bg-rose-950/70 border-rose-500/40 text-rose-300'
+          }`}>
+            <span>{backupMessage.text}</span>
+            <button 
+              onClick={() => setBackupMessage(null)}
+              className="text-xs underline ml-2 hover:opacity-80"
+            >
+              Dismiss
+            </button>
+          </div>
+        )}
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Card 1: Browser Storage Persistence */}
+          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col justify-between space-y-3">
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs font-semibold text-white flex items-center gap-1.5">
+                  <HardDrive className="w-3.5 h-3.5 text-sky-400" />
+                  Browser Eviction Shield
+                </span>
+                {isPersisted ? (
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    Immune
+                  </span>
+                ) : (
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                    Best Effort
+                  </span>
+                )}
+              </div>
+              <p className="text-[11px] text-slate-400 leading-relaxed">
+                {isPersisted
+                  ? `Your browser has granted permanent storage. Data will never be purged during cache cleans or disk pressure.${storageEstimate?.usage ? ` (${(storageEstimate.usage / (1024 * 1024)).toFixed(1)} MB used)` : ''}`
+                  : 'Storage is currently standard. Request permanent status so browser updates never evict your cards.'}
+              </p>
+            </div>
+
+            {!isPersisted ? (
+              <button
+                type="button"
+                onClick={handleRequestPersist}
+                className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-xs font-semibold shadow-md shadow-sky-500/20 transition-all"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span>Request Permanent Storage</span>
+              </button>
+            ) : (
+              <div className="text-[11px] text-emerald-400/90 font-medium flex items-center gap-1.5 bg-emerald-950/40 p-2 rounded-lg border border-emerald-800/40">
+                <Check className="w-3.5 h-3.5 shrink-0" />
+                <span>Protected against browser clearing</span>
+              </div>
+            )}
+          </div>
+
+          {/* Card 2: Card Presentation Stats */}
+          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col justify-between space-y-3">
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs font-semibold text-white flex items-center gap-1.5">
+                  <Eye className="w-3.5 h-3.5 text-teal-400" />
+                  Card Presentations
+                </span>
+                <span className="text-[11px] font-bold text-teal-300 px-2 py-0.5 rounded-full bg-teal-500/20 border border-teal-500/30">
+                  {totalPresentations} Views
+                </span>
+              </div>
+              <p className="text-[11px] text-slate-400 leading-relaxed">
+                Tracks every time each flashcard is presented to <span className="text-slate-200 font-semibold">{activeUser?.name}</span>.
+              </p>
+            </div>
+
+            <div className="space-y-1.5 bg-slate-950/60 p-2.5 rounded-xl border border-slate-800 text-[11px]">
+              <div className="flex justify-between text-slate-400">
+                <span>Unique Cards Seen:</span>
+                <span className="font-bold text-white">{cardsPresentedCount} cards</span>
+              </div>
+              <div className="flex justify-between text-slate-400">
+                <span>Total Card Impressions:</span>
+                <span className="font-bold text-teal-400">{totalPresentations} times</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 3: Full JSON Backup & Restore */}
+          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 flex flex-col justify-between space-y-3">
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs font-semibold text-white flex items-center gap-1.5">
+                  <FileCheck className="w-3.5 h-3.5 text-indigo-400" />
+                  JSON Snapshot Backup
+                </span>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                  Export / Import
+                </span>
+              </div>
+              <p className="text-[11px] text-slate-400 leading-relaxed">
+                Export an offline snapshot of all profiles, ratings, and card presentation counters.
+              </p>
+            </div>
+
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={handleExportBackup}
+                className="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all hover:text-white"
+                title="Download full progress backup as JSON"
+              >
+                <Download className="w-3.5 h-3.5 text-sky-400" />
+                <span>Export</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                className="flex-1 inline-flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all hover:text-white"
+                title="Restore progress from a backup JSON file"
+              >
+                <Upload className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Restore</span>
+              </button>
+
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept=".json,application/json"
+                onChange={handleImportBackup}
+                className="hidden"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 4: App, PWA & Storage Engine */}
       <div className="glass-panel p-6 rounded-2xl border-slate-800 space-y-5">
         <div className="flex items-center gap-2.5 pb-3 border-b border-slate-800/80">
           <div className="w-8 h-8 rounded-lg bg-teal-500/15 border border-teal-500/30 flex items-center justify-center text-teal-400">

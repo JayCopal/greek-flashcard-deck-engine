@@ -61,6 +61,12 @@ export const Practice: React.FC<PracticeProps> = ({ deck, onStartStudy }) => {
   const newCards = useMemo(() => allCards.filter((c) => !srsMap[c.id]?.isExcluded && !srsMap[c.id]?.isLearned && getCardRatingStatus(srsMap[c.id]) === 'new'), [allCards, srsMap]);
   const learnedCards = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isLearned && !srsMap[c.id]?.isExcluded), [allCards, srsMap]);
   const ignoredCards = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isExcluded && !srsMap[c.id]?.isLearned), [allCards, srsMap]);
+  const totalPresentations = useMemo(() => {
+    return allCards.reduce((acc, c) => acc + (srsMap[c.id]?.timesPresented || 0), 0);
+  }, [allCards, srsMap]);
+  const cardsPresentedCount = useMemo(() => {
+    return allCards.filter((c) => (srsMap[c.id]?.timesPresented || 0) > 0).length;
+  }, [allCards, srsMap]);
 
   return (
     <div className="space-y-6 max-w-6xl mx-auto pb-16 animate-in fade-in duration-200">
@@ -76,7 +82,7 @@ export const Practice: React.FC<PracticeProps> = ({ deck, onStartStudy }) => {
               Targeted Vocabulary Drills
             </h1>
             <p className="text-slate-400 text-sm max-w-2xl leading-relaxed">
-              Active learner: <span className="text-white font-semibold">{activeUser.name}</span>. Drill cards categorized by memory strength, review cards due for retention, or study the entire curriculum.
+              Active learner: <span className="text-white font-semibold">{activeUser.name}</span> • <span className="text-sky-300 font-semibold">{totalPresentations} presentations</span> ({cardsPresentedCount} of {allCards.length} seen). Drill cards categorized by memory strength, review cards due for retention, or study the entire curriculum.
             </p>
           </div>
 

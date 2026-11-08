@@ -315,11 +315,38 @@ export interface FullProgressBackup {
  * Export full state as JSON string for safe external backup
  */
 export function exportFullProgressBackup(): string {
-  if (!hasWindow()) return '{}';
+  if (typeof localStorage === 'undefined') return '{}';
 
   const backupData: Record<string, string> = {};
-  for (let i = 0; i < localStorage.length; i++) {
-    const k = localStorage.key(i);
+  const keys = new Set<string>();
+
+  // 1. Standard W3C Storage API
+  if (typeof localStorage.length === 'number' && typeof localStorage.key === 'function') {
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k) keys.add(k);
+    }
+  }
+
+  // 2. Direct property enumeration fallback
+  try {
+    for (const k of Object.keys(localStorage)) {
+      if (
+        k &&
+        k !== 'length' &&
+        k !== 'key' &&
+        k !== 'getItem' &&
+        k !== 'setItem' &&
+        k !== 'removeItem' &&
+        k !== 'clear' &&
+        k !== 'store'
+      ) {
+        keys.add(k);
+      }
+    }
+  } catch {}
+
+  for (const k of keys) {
     if (k && (k.startsWith('greek_deck_') || k === LEGACY_SRS_KEY)) {
       const v = localStorage.getItem(k);
       if (v !== null) {
@@ -341,7 +368,7 @@ export function exportFullProgressBackup(): string {
  * Import and restore state from a JSON backup string
  */
 export async function importFullProgressBackup(jsonStr: string): Promise<{ success: boolean; error?: string; restoredKeys?: number }> {
-  if (!hasWindow()) return { success: false, error: 'No browser window available' };
+  if (typeof localStorage === 'undefined') return { success: false, error: 'No storage available' };
 
   try {
     const parsed = JSON.parse(jsonStr);
@@ -352,7 +379,7 @@ export async function importFullProgressBackup(jsonStr: string): Promise<{ succe
 
     let restoredKeys = 0;
     for (const [key, val] of Object.entries(storageMap)) {
-      if (typeof key === 'string' && typeof val === 'string' && key.startsWith('greek_deck_')) {
+      if (typeof key === 'string' && typeof val === 'string' && (key.startsWith('greek_deck_') || key === LEGACY_SRS_KEY)) {
         localStorage.setItem(key, val);
         await setIDBValue(key, val);
         restoredKeys++;
@@ -360,8 +387,10 @@ export async function importFullProgressBackup(jsonStr: string): Promise<{ succe
     }
 
     // Trigger reactivity
-    window.dispatchEvent(new CustomEvent('greek_deck_user_change'));
-    window.dispatchEvent(new CustomEvent('greek_deck_progress_change'));
+    if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+      window.dispatchEvent(new CustomEvent('greek_deck_user_change'));
+      window.dispatchEvent(new CustomEvent('greek_deck_progress_change'));
+    }
 
     return { success: true, restoredKeys };
   } catch (err: any) {

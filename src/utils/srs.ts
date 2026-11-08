@@ -250,7 +250,7 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
   const nextDue = new Date();
   nextDue.setDate(nextDue.getDate() + intervalDays);
 
-  const presentationCount = Math.max(1, (current.timesPresented || 0) + (current.lastReviewed ? 0 : 1));
+  const presentationCount = Math.max(1, current.timesPresented || 0);
 
   const updated: CardSRSData = {
     ...current,
