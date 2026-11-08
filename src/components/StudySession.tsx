@@ -1513,7 +1513,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <button
             type="button"
             onClick={() => handleRateSRS('again')}
-            className={`h-12 sm:h-13 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
+            className={`h-10 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
               ratingStatus === 'again'
                 ? 'bg-rose-600 border-rose-400 text-white shadow-rose-600/30 ring-2 ring-rose-400/50'
                 : 'bg-rose-950/70 hover:bg-rose-900/90 border-rose-500/40 text-rose-300'
@@ -1528,7 +1528,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <button
             type="button"
             onClick={() => handleRateSRS('hard')}
-            className={`h-12 sm:h-13 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
+            className={`h-10 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
               ratingStatus === 'hard'
                 ? 'bg-amber-600 border-amber-400 text-white shadow-amber-600/30 ring-2 ring-amber-400/50'
                 : 'bg-amber-950/70 hover:bg-amber-900/90 border-amber-500/40 text-amber-300'
@@ -1543,7 +1543,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <button
             type="button"
             onClick={() => handleRateSRS('good')}
-            className={`h-12 sm:h-13 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
+            className={`h-10 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
               ratingStatus === 'good'
                 ? 'bg-sky-600 border-sky-400 text-white shadow-sky-600/30 ring-2 ring-sky-400/50'
                 : 'bg-sky-950/70 hover:bg-sky-900/90 border-sky-500/40 text-sky-300'
@@ -1558,7 +1558,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <button
             type="button"
             onClick={() => handleRateSRS('easy')}
-            className={`h-12 sm:h-13 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
+            className={`h-10 w-full rounded-2xl font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-1.5 border shadow-sm ${
               ratingStatus === 'easy'
                 ? 'bg-emerald-600 border-emerald-400 text-white shadow-emerald-600/30 ring-2 ring-emerald-400/50'
                 : 'bg-emerald-950/70 hover:bg-emerald-900/90 border-emerald-500/40 text-emerald-300'
@@ -1579,7 +1579,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* 1. Previous button */}
           <button
             onClick={handlePrevious}
-            className="h-12 sm:h-13 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
+            className="h-10 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
             title="Previous card (← Left Arrow)"
           >
             <ChevronLeft className="w-4 h-4 shrink-0" />
@@ -1590,7 +1590,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           <button
             onClick={handlePlayAudio}
             disabled={!audioSrc}
-            className={`h-12 sm:h-13 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl border font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm ${
+            className={`h-10 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl border font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm ${
               !audioSrc
                 ? 'bg-slate-900/50 text-slate-600 border-slate-800/80 cursor-not-allowed opacity-50'
                 : isAudioPlaying
@@ -1606,7 +1606,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* 3. Flip button (comes third) */}
           <button
             onClick={handleFlip}
-            className="h-12 sm:h-13 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
+            className="h-10 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-slate-800 hover:bg-slate-700 text-sky-400 border border-sky-500/20 font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
             title="Flip Card (↑ Up Arrow)"
           >
             <RotateCw className="w-4 h-4 shrink-0" />
@@ -1616,7 +1616,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* 4. Next button */}
           <button
             onClick={handleNext}
-            className="h-12 sm:h-13 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-[1.02] active:scale-95"
+            className="h-10 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl bg-sky-500 hover:bg-sky-400 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-sky-500/20 transition-all hover:scale-[1.02] active:scale-95"
             title="Next card (→ Right Arrow)"
           >
             <span className="truncate">Next</span>
