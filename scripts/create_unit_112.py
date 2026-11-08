@@ -1,0 +1,1716 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 112 from Klik A1 (Pages 233-255):
+Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη - Βασικό Λεξιλόγιο
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and the klik-a1-deck-builder skill.
+Covers banking, accounts, ATM, cards, transactions, personal info forms,
+post office, mailing, bills (ΔΕΗ, ΟΤΕ), police, queues, customer service, and core verbs.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-112"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u112 = [
+    # =========================================================================
+    # 1. Banks, Accounts & Banking Transactions (pp. 233-236, 245)
+    # =========================================================================
+    {
+        "id": "A1-U112-001",
+        "greek": "η τράπεζα",
+        "phonetic_hint": "ee TRAH-peh-zah",
+        "english": "bank",
+        "notes": "Klik A1 p. 233, 234. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η τράπεζα ανοίγει στις οκτώ το πρωί και κλείνει στις δύο και μισή.",
+        "example_en": "The bank opens at eight in the morning and closes at two thirty.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι τράπεζες",
+            "accusative_singular": "την τράπεζα"
+        },
+        "keg_communicative_function": "Visiting financial institutions"
+    },
+    {
+        "id": "A1-U112-002",
+        "greek": "ο ταμίας",
+        "phonetic_hint": "o tah-MEE-ahs",
+        "english": "teller / cashier (male)",
+        "notes": "Klik A1 p. 234, 235. Masculine noun in -ας with plural in -ες.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο ταμίας μού έδωσε την απόδειξη και τα μετρητά.",
+        "example_en": "The teller gave me the receipt and the cash.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι ταμίες",
+            "accusative_singular": "τον ταμία"
+        },
+        "keg_communicative_function": "Interacting with bank cashiers"
+    },
+    {
+        "id": "A1-U112-003",
+        "greek": "η ταμίας",
+        "phonetic_hint": "ee tah-MEE-ahs",
+        "english": "teller / cashier (female)",
+        "notes": "Klik A1 p. 234, 235. Feminine noun identical in form to masculine, inflected with feminine articles.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η ταμίας εξυπηρετεί τον επόμενο πελάτη στη σειρά.",
+        "example_en": "The female teller is assisting the next customer in line.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ταμίες",
+            "accusative_singular": "την ταμία"
+        },
+        "keg_communicative_function": "Interacting with female banking personnel"
+    },
+    {
+        "id": "A1-U112-004",
+        "greek": "το ταμείο",
+        "phonetic_hint": "to tah-MEE-o",
+        "english": "cash desk / teller counter / checkout",
+        "notes": "Klik A1 p. 235. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Περάστε στο ταμείο νούμερο τρία, παρακαλώ.",
+        "example_en": "Proceed to counter number three, please.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ταμεία",
+            "accusative_singular": "το ταμείο"
+        },
+        "keg_communicative_function": "Navigating bank and store counters"
+    },
+    {
+        "id": "A1-U112-005",
+        "greek": "ο λογαριασμός",
+        "phonetic_hint": "o lo-ghah-ree-ahz-MOS",
+        "english": "account / bill",
+        "notes": "Klik A1 p. 233, 234, 240. Masculine noun in -ος with plural in -οι. Key polysemous word: bank account or utility bill.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να πληρώσω έναν λογαριασμό στο ταμείο.",
+        "example_en": "I want to pay a bill at the counter.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι λογαριασμοί",
+            "accusative_singular": "τον λογαριασμό"
+        },
+        "keg_communicative_function": "Paying bills and checking accounts"
+    },
+    {
+        "id": "A1-U112-006",
+        "greek": "ο τραπεζικός λογαριασμός",
+        "phonetic_hint": "o trah-peh-zee-KOS lo-ghah-ree-ahz-MOS",
+        "english": "bank account",
+        "notes": "Klik A1 p. 233, 234. Compound noun phrase with adjective τραπεζικός.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έχω έναν τραπεζικό λογαριασμό ταμιευτηρίου.",
+        "example_en": "I have a savings bank account.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι τραπεζικοί λογαριασμοί",
+            "accusative_singular": "τον τραπεζικό λογαριασμό"
+        },
+        "keg_communicative_function": "Specifying bank account types"
+    },
+    {
+        "id": "A1-U112-007",
+        "greek": "το άνοιγμα λογαριασμού",
+        "phonetic_hint": "to AH-neeg-mah lo-ghah-ree-ahz-MOO",
+        "english": "opening of an account",
+        "notes": "Klik A1 p. 234. Formal administrative verbal noun with genitive modifier.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Για το άνοιγμα λογαριασμού χρειάζεται η ταυτότητά σας και το εκκαθαριστικό.",
+        "example_en": "For opening an account your ID card and tax assessment are needed.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ανοίγματα λογαριασμών",
+            "accusative_singular": "το άνοιγμα λογαριασμού"
+        },
+        "keg_communicative_function": "Requesting account opening"
+    },
+    {
+        "id": "A1-U112-008",
+        "greek": "η αίτηση",
+        "phonetic_hint": "ee EH-tee-see",
+        "notes": "Klik A1 p. 234, 235, 240. Feminine noun in -ση with plural in -σεις.",
+        "english": "application / written request",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Συμπληρώστε αυτή την αίτηση με κεφαλαία γράμματα.",
+        "example_en": "Fill out this application in capital letters.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι αιτήσεις",
+            "accusative_singular": "την αίτηση"
+        },
+        "keg_communicative_function": "Completing official applications"
+    },
+    {
+        "id": "A1-U112-009",
+        "greek": "η κατάθεση",
+        "phonetic_hint": "ee kah-TAH-theh-see",
+        "english": "deposit (bank deposit)",
+        "notes": "Klik A1 p. 234, 235, 245. Feminine noun in -ση with plural in -σεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να κάνω μια κατάθεση διακοσίων ευρώ στον λογαριασμό μου.",
+        "example_en": "I want to make a deposit of two hundred euros into my account.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι καταθέσεις",
+            "accusative_singular": "την κατάθεση"
+        },
+        "keg_communicative_function": "Making bank deposits"
+    },
+    {
+        "id": "A1-U112-010",
+        "greek": "η ανάληψη",
+        "phonetic_hint": "ee ah-NAH-leep-see",
+        "english": "withdrawal (cash withdrawal)",
+        "notes": "Klik A1 p. 234, 235, 245. Feminine noun in -ψη with plural in -ψεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μπορώ να κάνω ανάληψη μετρητών από το ΑΤΜ;",
+        "example_en": "Can I make a cash withdrawal from the ATM?",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι αναλήψεις",
+            "accusative_singular": "την ανάληψη"
+        },
+        "keg_communicative_function": "Withdrawing money"
+    },
+    {
+        "id": "A1-U112-011",
+        "greek": "το ΑΤΜ",
+        "phonetic_hint": "to ah-teh-EM",
+        "english": "ATM / cash dispenser",
+        "notes": "Klik A1 p. 235. Invariable neuter acronym pronounced letter-by-letter in Greek.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Υπάρχει κάποιο ΑΤΜ κοντά στο ξενοδοχείο;",
+        "example_en": "Is there an ATM near the hotel?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ΑΤΜ",
+            "accusative_singular": "το ΑΤΜ"
+        },
+        "keg_communicative_function": "Locating automated cash machines"
+    },
+    {
+        "id": "A1-U112-012",
+        "greek": "η κάρτα",
+        "phonetic_hint": "ee KAHR-tah",
+        "english": "card",
+        "notes": "Klik A1 p. 233, 235. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ξέχασα την κάρτα μου μέσα στο μηχάνημα.",
+        "example_en": "I forgot my card inside the machine.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι κάρτες",
+            "accusative_singular": "την κάρτα"
+        },
+        "keg_communicative_function": "Handling bank cards"
+    },
+    {
+        "id": "A1-U112-013",
+        "greek": "η πιστωτική κάρτα",
+        "phonetic_hint": "ee pees-to-tee-KEE KAHR-tah",
+        "english": "credit card",
+        "notes": "Klik A1 p. 233, 240. Feminine noun phrase.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δέχεστε πληρωμή με πιστωτική κάρτα;",
+        "example_en": "Do you accept payment by credit card?",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι πιστωτικές κάρτες",
+            "accusative_singular": "την πιστωτική κάρτα"
+        },
+        "keg_communicative_function": "Paying with credit card"
+    },
+    {
+        "id": "A1-U112-014",
+        "greek": "η χρεωστική κάρτα",
+        "phonetic_hint": "ee khreh-o-stee-KEE KAHR-tah",
+        "english": "debit card",
+        "notes": "Klik A1 p. 233, 235. Common Greek retail payment method linked to current account.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πλήρωσα στο σούπερ μάρκετ με τη χρεωστική κάρτα μου.",
+        "example_en": "I paid at the supermarket with my debit card.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι χρεωστικές κάρτες",
+            "accusative_singular": "τη χρεωστική κάρτα"
+        },
+        "keg_communicative_function": "Paying with debit card"
+    },
+    {
+        "id": "A1-U112-015",
+        "greek": "το βιβλιάριο",
+        "phonetic_hint": "to veev-lee-AH-ree-o",
+        "english": "bankbook / passbook",
+        "notes": "Klik A1 p. 235, 240, 245. Neuter noun in -ιο with plural in -ια. Standard record booklet.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δώστε μου το βιβλιάριο και την ταυτότητά σας, παρακαλώ.",
+        "example_en": "Give me your passbook and your ID card, please.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα βιβλιάρια",
+            "accusative_singular": "το βιβλιάριο"
+        },
+        "keg_communicative_function": "Presenting banking passbooks"
+    },
+    {
+        "id": "A1-U112-016",
+        "greek": "ο κωδικός",
+        "phonetic_hint": "o ko-dhee-KOS",
+        "english": "code / password / PIN",
+        "notes": "Klik A1 p. 233, 234. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πληκτρολογήστε τον τετραψήφιο κωδικό σας στο πληκτρολόγιο.",
+        "example_en": "Type your four-digit code on the keypad.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι κωδικοί",
+            "accusative_singular": "τον κωδικό"
+        },
+        "keg_communicative_function": "Managing security codes and credentials"
+    },
+    {
+        "id": "A1-U112-017",
+        "greek": "το PIN",
+        "phonetic_hint": "to peen",
+        "english": "PIN (personal identification number)",
+        "notes": "Klik A1 p. 233, 235. Invariable neuter acronym commonly used at payment terminals and ATMs.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μην αποκαλύπτετε το PIN σας σε κανέναν.",
+        "example_en": "Do not disclose your PIN to anyone.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα PIN",
+            "accusative_singular": "το PIN"
+        },
+        "keg_communicative_function": "Entering security PIN at payment points"
+    },
+    {
+        "id": "A1-U112-018",
+        "greek": "η υπογραφή",
+        "phonetic_hint": "ee ee-po-ghrah-FEE",
+        "english": "signature",
+        "notes": "Klik A1 p. 234, 235. Feminine noun in -η with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Χρειάζεται η υπογραφή σας στο κάτω μέρος της σελίδας.",
+        "example_en": "Your signature is needed at the bottom of the page.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι υπογραφές",
+            "accusative_singular": "την υπογραφή"
+        },
+        "keg_communicative_function": "Signing official bank papers"
+    },
+    {
+        "id": "A1-U112-019",
+        "greek": "το υπόλοιπο",
+        "phonetic_hint": "to ee-PO-lee-po",
+        "english": "account balance / remainder",
+        "notes": "Klik A1 p. 234. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να ελέγξω το υπόλοιπο του τραπεζικού λογαριασμού μου.",
+        "example_en": "I want to check the balance of my bank account.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα υπόλοιπα",
+            "accusative_singular": "το υπόλοιπο"
+        },
+        "keg_communicative_function": "Checking remaining funds"
+    },
+    {
+        "id": "A1-U112-020",
+        "greek": "τα μετρητά",
+        "phonetic_hint": "tah meh-tree-TAH",
+        "english": "cash / liquid money",
+        "notes": "Klik A1 p. 234, 235. Neuter plural noun (pluralia tantum in financial context).",
+        "gender_or_pos": "noun (neuter plural)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Προτιμάτε να πληρώσετε με μετρητά ή με κάρτα;",
+        "example_en": "Do you prefer to pay with cash or with card?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter plural)",
+            "plural": "τα μετρητά",
+            "accusative_singular": "τα μετρητά"
+        },
+        "keg_communicative_function": "Specifying cash payment method"
+    },
+    {
+        "id": "A1-U112-021",
+        "greek": "τα ρέστα",
+        "phonetic_hint": "tah REH-stah",
+        "english": "change (money returned)",
+        "notes": "Klik A1 p. 235. Neuter plural noun used when paying with cash.",
+        "gender_or_pos": "noun (neuter plural)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ορίστε τα ρέστα σας και η απόδειξη.",
+        "example_en": "Here is your change and your receipt.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter plural)",
+            "plural": "τα ρέστα",
+            "accusative_singular": "τα ρέστα"
+        },
+        "keg_communicative_function": "Receiving cash change"
+    },
+    {
+        "id": "A1-U112-022",
+        "greek": "το δάνειο",
+        "phonetic_hint": "to DHAH-nee-o",
+        "english": "loan",
+        "notes": "Klik A1 p. 234. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πήρε ένα στεγαστικό δάνειο από την τράπεζα για να αγοράσει σπίτι.",
+        "example_en": "He took a housing loan from the bank to buy a house.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα δάνεια",
+            "accusative_singular": "το δάνειο"
+        },
+        "keg_communicative_function": "Discussing bank loans"
+    },
+    {
+        "id": "A1-U112-023",
+        "greek": "το επιτόκιο",
+        "phonetic_hint": "to eh-pee-TO-kee-o",
+        "english": "interest rate",
+        "notes": "Klik A1 p. 234. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιο είναι το επιτόκιο για τον λογαριασμό ταμιευτηρίου;",
+        "example_en": "What is the interest rate for the savings account?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα επιτόκια",
+            "accusative_singular": "το επιτόκιο"
+        },
+        "keg_communicative_function": "Inquiring about interest rates"
+    },
+    {
+        "id": "A1-U112-024",
+        "greek": "η προμήθεια",
+        "phonetic_hint": "ee pro-MEE-thee-ah",
+        "english": "commission / bank service fee",
+        "notes": "Klik A1 p. 234, 235. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η τράπεζα κρατάει μια μικρή προμήθεια για τη συναλλαγή.",
+        "example_en": "The bank charges a small commission for the transaction.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι προμήθειες",
+            "accusative_singular": "την προμήθεια"
+        },
+        "keg_communicative_function": "Understanding transaction fees"
+    },
+
+    # =========================================================================
+    # 2. Official Documents & Personal Information Forms (pp. 234, 236, 250)
+    # =========================================================================
+    {
+        "id": "A1-U112-025",
+        "greek": "η ταυτότητα",
+        "phonetic_hint": "ee taf-TO-tee-tah",
+        "english": "identity / ID card",
+        "notes": "Klik A1 p. 234, 235, 236. Feminine noun in -ητα with plural in -ητες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έχετε μαζί σας την ταυτότητά σας;",
+        "example_en": "Do you have your ID card with you?",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ταυτότητες",
+            "accusative_singular": "την ταυτότητα"
+        },
+        "keg_communicative_function": "Presenting personal identification"
+    },
+    {
+        "id": "A1-U112-026",
+        "greek": "η αστυνομική ταυτότητα",
+        "phonetic_hint": "ee ah-stee-no-mee-KEE taf-TO-tee-tah",
+        "english": "national police ID card",
+        "notes": "Klik A1 p. 234, 240. Full formal term for the Greek national ID document.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η αστυνομική ταυτότητα είναι απαραίτητη για κάθε συναλλαγή στο ταμείο.",
+        "example_en": "The police ID card is essential for every transaction at the counter.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι αστυνομικές ταυτότητες",
+            "accusative_singular": "την αστυνομική ταυτότητα"
+        },
+        "keg_communicative_function": "Identifying oneself with national police ID"
+    },
+    {
+        "id": "A1-U112-027",
+        "greek": "το διαβατήριο",
+        "phonetic_hint": "to dhyah-vah-TEE-ree-o",
+        "english": "passport",
+        "notes": "Klik A1 p. 234, 236. Neuter noun in -ιο with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αν είστε αλλοδαπός, χρειάζεται το διαβατήριό σας.",
+        "example_en": "If you are a foreigner, your passport is needed.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα διαβατήρια",
+            "accusative_singular": "το διαβατήριο"
+        },
+        "keg_communicative_function": "Using passport as identification"
+    },
+    {
+        "id": "A1-U112-028",
+        "greek": "το έγγραφο",
+        "phonetic_hint": "to EN-ghrah-fo",
+        "english": "official document / paper",
+        "notes": "Klik A1 p. 235, 236. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να υπογράψετε αυτό το επίσημο έγγραφο.",
+        "example_en": "You must sign this official document.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα έγγραφα",
+            "accusative_singular": "το έγγραφο"
+        },
+        "keg_communicative_function": "Handling administrative paperwork"
+    },
+    {
+        "id": "A1-U112-029",
+        "greek": "το έντυπο",
+        "phonetic_hint": "to EN-dee-po",
+        "english": "printed form / printed leaflet",
+        "notes": "Klik A1 p. 234, 236. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πάρτε το έντυπο από το γκισέ και συμπληρώστε τα στοιχεία σας.",
+        "example_en": "Take the printed form from the desk and fill in your details.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα έντυπα",
+            "accusative_singular": "το έντυπο"
+        },
+        "keg_communicative_function": "Requesting printed registration forms"
+    },
+    {
+        "id": "A1-U112-030",
+        "greek": "τα προσωπικά στοιχεία",
+        "phonetic_hint": "tah pro-so-pee-KAH stee-KHEE-ah",
+        "english": "personal details / personal information",
+        "notes": "Klik A1 p. 234, 236. Essential heading on all Greek public service forms.",
+        "gender_or_pos": "noun (neuter plural)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γράψτε τα προσωπικά σας στοιχεία καθαρά στη φόρμα.",
+        "example_en": "Write your personal details clearly on the form.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter plural)",
+            "plural": "τα προσωπικά στοιχεία",
+            "accusative_singular": "τα προσωπικά στοιχεία"
+        },
+        "keg_communicative_function": "Filling in personal information headings"
+    },
+    {
+        "id": "A1-U112-031",
+        "greek": "το επώνυμο",
+        "phonetic_hint": "to eh-PO-nee-mo",
+        "english": "surname / last name",
+        "notes": "Klik A1 p. 234, 236, 250. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιο είναι το επώνυμό σας, παρακαλώ;",
+        "example_en": "What is your surname, please?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα επώνυμα",
+            "accusative_singular": "το επώνυμο"
+        },
+        "keg_communicative_function": "Stating family name"
+    },
+    {
+        "id": "A1-U112-032",
+        "greek": "το όνομα",
+        "phonetic_hint": "to O-no-mah",
+        "english": "first name / name",
+        "notes": "Klik A1 p. 234, 236, 250. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το όνομά μου είναι Νίκος και το επώνυμό μου Παπαδόπουλος.",
+        "example_en": "My first name is Nikos and my last name is Papadopoulos.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ονόματα",
+            "accusative_singular": "το όνομα"
+        },
+        "keg_communicative_function": "Giving full name"
+    },
+    {
+        "id": "A1-U112-033",
+        "greek": "το φύλο",
+        "phonetic_hint": "to FEE-lo",
+        "english": "gender / sex",
+        "notes": "Klik A1 p. 234, 236. Neuter noun in -ο with plural in -α. In forms: Άρρεν (M) / Θήλυ (F).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στο πεδίο «φύλο» σημειώστε άνδρας ή γυναίκα.",
+        "example_en": "In the 'gender' field indicate male or female.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα φύλα",
+            "accusative_singular": "το φύλο"
+        },
+        "keg_communicative_function": "Indicating gender on official forms"
+    },
+    {
+        "id": "A1-U112-034",
+        "greek": "η ημερομηνία γέννησης",
+        "phonetic_hint": "ee ee-meh-ro-mee-NEE-ah YEN-nee-sees",
+        "english": "date of birth",
+        "notes": "Klik A1 p. 234, 236, 250. Standard date format in Greece is DD/MM/YYYY.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η ημερομηνία γέννησής μου είναι δώδεκα Μαΐου του 1990.",
+        "example_en": "My date of birth is May 12, 1990.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ημερομηνίες γέννησης",
+            "accusative_singular": "την ημερομηνία γέννησης"
+        },
+        "keg_communicative_function": "Giving birth date on records"
+    },
+    {
+        "id": "A1-U112-035",
+        "greek": "ο τόπος γέννησης",
+        "phonetic_hint": "o TO-pos YEN-nee-sees",
+        "english": "place of birth",
+        "notes": "Klik A1 p. 236, 250. Masculine noun with genitive qualifier.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο τόπος γέννησής μου είναι η Θεσσαλονίκη.",
+        "example_en": "My place of birth is Thessaloniki.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι τόποι γέννησης",
+            "accusative_singular": "τον τόπο γέννησης"
+        },
+        "keg_communicative_function": "Stating city or country of birth"
+    },
+    {
+        "id": "A1-U112-036",
+        "greek": "η εθνικότητα",
+        "phonetic_hint": "ee eth-nee-KO-tee-tah",
+        "english": "nationality",
+        "notes": "Klik A1 p. 234, 236. Feminine noun in -ητα with plural in -ητες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποια είναι η εθνικότητά σας; — Είμαι Έλληνας.",
+        "example_en": "What is your nationality? — I am Greek.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εθνικότητες",
+            "accusative_singular": "την εθνικότητα"
+        },
+        "keg_communicative_function": "Declaring nationality on questionnaires"
+    },
+    {
+        "id": "A1-U112-037",
+        "greek": "η υπηκοότητα",
+        "phonetic_hint": "ee ee-pee-ko-O-tee-tah",
+        "english": "citizenship",
+        "notes": "Klik A1 p. 234, 236. Legal term for state citizenship.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έχει ελληνική και καναδική υπηκοότητα.",
+        "example_en": "He has Greek and Canadian citizenship.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι υπηκοότητες",
+            "accusative_singular": "την υπηκοότητα"
+        },
+        "keg_communicative_function": "Stating state citizenship"
+    },
+    {
+        "id": "A1-U112-038",
+        "greek": "η οικογενειακή κατάσταση",
+        "phonetic_hint": "ee ee-ko-yeh-nee-ah-KEE kah-TAH-stah-see",
+        "english": "marital status",
+        "notes": "Klik A1 p. 234, 236, 250. Standard bureaucratic form heading.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στην οικογενειακή κατάσταση γράφουμε αν είμαστε έγγαμοι ή άγαμοι.",
+        "example_en": "Under marital status we write if we are married or single.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι οικογενειακές καταστάσεις",
+            "accusative_singular": "την οικογενειακή κατάσταση"
+        },
+        "keg_communicative_function": "Specifying marital status"
+    },
+    {
+        "id": "A1-U112-039",
+        "greek": "ο άγαμος",
+        "phonetic_hint": "o AH-ghah-mos",
+        "english": "single / unmarried man",
+        "notes": "Klik A1 p. 234, 236. Formal civil registry term for an unmarried male.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είναι άγαμος και ζει μόνος του στην Αθήνα.",
+        "example_en": "He is single and lives by himself in Athens.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι άγαμοι",
+            "accusative_singular": "τον άγαμο"
+        },
+        "keg_communicative_function": "Declaring bachelor/single civil status"
+    },
+    {
+        "id": "A1-U112-040",
+        "greek": "η άγαμη",
+        "phonetic_hint": "ee AH-ghah-mee",
+        "english": "single / unmarried woman",
+        "notes": "Klik A1 p. 234, 236. Formal civil registry term for an unmarried female.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στο έγγραφο σημείωσε ότι είναι άγαμη.",
+        "example_en": "On the document she indicated that she is unmarried.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι άγαμες",
+            "accusative_singular": "την άγαμη"
+        },
+        "keg_communicative_function": "Declaring single female status"
+    },
+    {
+        "id": "A1-U112-041",
+        "greek": "ο έγγαμος",
+        "phonetic_hint": "o ENG-ghah-mos",
+        "english": "married man",
+        "notes": "Klik A1 p. 234, 236, 250. Formal civil status word for married male.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο κύριος Αντωνίου είναι έγγαμος με δύο παιδιά.",
+        "example_en": "Mr. Antoniou is married with two children.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι έγγαμοι",
+            "accusative_singular": "τον έγγαμο"
+        },
+        "keg_communicative_function": "Declaring married status for men"
+    },
+    {
+        "id": "A1-U112-042",
+        "greek": "η έγγαμη",
+        "phonetic_hint": "ee ENG-ghah-mee",
+        "english": "married woman",
+        "notes": "Klik A1 p. 234, 236. Formal civil status word for married female.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η κυρία Μαρία είναι έγγαμη εδώ και δέκα χρόνια.",
+        "example_en": "Mrs. Maria is married for ten years now.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι έγγαμες",
+            "accusative_singular": "την έγγαμη"
+        },
+        "keg_communicative_function": "Declaring married status for women"
+    },
+    {
+        "id": "A1-U112-043",
+        "greek": "ο ΑΦΜ",
+        "phonetic_hint": "o ah-fee-MEE",
+        "english": "tax identification number (AFM)",
+        "notes": "Klik A1 p. 234, 236. Acronym (Αριθμός Φορολογικού Μητρώου) treated as masculine noun. Obligatory for banking in Greece.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιος είναι ο ΑΦΜ σας για να εκδώσουμε το τιμολόγιο;",
+        "example_en": "What is your tax number so that we can issue the invoice?",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι ΑΦΜ",
+            "accusative_singular": "τον ΑΦΜ"
+        },
+        "keg_communicative_function": "Providing tax identification number"
+    },
+    {
+        "id": "A1-U112-044",
+        "greek": "η βεβαίωση",
+        "phonetic_hint": "ee veh-VEH-o-see",
+        "english": "certificate / official attestation",
+        "notes": "Klik A1 p. 234, 236. Feminine noun in -ση with plural in -σεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Χρειάζομαι μια βεβαίωση κατοικίας από την αστυνομία.",
+        "example_en": "I need a residence certificate from the police.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι βεβαιώσεις",
+            "accusative_singular": "τη βεβαίωση"
+        },
+        "keg_communicative_function": "Requesting official attestations"
+    },
+    {
+        "id": "A1-U112-045",
+        "greek": "το αντίγραφο",
+        "phonetic_hint": "to ahn-DEE-ghrah-fo",
+        "english": "copy / duplicate / photocopy",
+        "notes": "Klik A1 p. 234, 236. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παρακαλώ φέρτε ένα φωτοτυπικό αντίγραφο της ταυτότητάς σας.",
+        "example_en": "Please bring a photocopy of your ID card.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα αντίγραφα",
+            "accusative_singular": "το αντίγραφο"
+        },
+        "keg_communicative_function": "Submitting document copies"
+    },
+
+    # =========================================================================
+    # 3. Post Office, Letters & Parcels (pp. 237-239, 242)
+    # =========================================================================
+    {
+        "id": "A1-U112-046",
+        "greek": "το ταχυδρομείο",
+        "phonetic_hint": "to tah-khee-dhro-MEE-o",
+        "english": "post office",
+        "notes": "Klik A1 p. 237, 238, 239. Neuter noun in -ο with plural in -α. Also refers to Greek postal service (ΕΛΤΑ).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πηγαίνω στο ταχυδρομείο για να στείλω ένα δέμα.",
+        "example_en": "I am going to the post office to send a parcel.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ταχυδρομεία",
+            "accusative_singular": "το ταχυδρομείο"
+        },
+        "keg_communicative_function": "Visiting post offices"
+    },
+    {
+        "id": "A1-U112-047",
+        "greek": "ο ταχυδρόμος",
+        "phonetic_hint": "o tah-khee-DHRO-mos",
+        "english": "mail carrier / mailman",
+        "notes": "Klik A1 p. 238, 239. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο ταχυδρόμος φέρνει την αλληλογραφία κάθε πρωί στις έντεκα.",
+        "example_en": "The mailman brings the mail every morning at eleven.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι ταχυδρόμοι",
+            "accusative_singular": "τον ταχυδρόμο"
+        },
+        "keg_communicative_function": "Referring to postal workers"
+    },
+    {
+        "id": "A1-U112-048",
+        "greek": "το γράμμα",
+        "phonetic_hint": "to GHRAH-mah",
+        "english": "letter / postal letter",
+        "notes": "Klik A1 p. 236, 237, 238. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έγραψα ένα γράμμα στη γιαγιά μου στην επαρχία.",
+        "example_en": "I wrote a letter to my grandmother in the countryside.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα γράμματα",
+            "accusative_singular": "το γράμμα"
+        },
+        "keg_communicative_function": "Mailing letters"
+    },
+    {
+        "id": "A1-U112-049",
+        "greek": "η επιστολή",
+        "phonetic_hint": "ee eh-pee-sto-LEE",
+        "english": "formal letter / dispatch",
+        "notes": "Klik A1 p. 237, 238. Feminine noun in -η with plural in -ες. More formal than γράμμα.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έλαβα μια επίσημη επιστολή από το πανεπιστήμιο.",
+        "example_en": "I received an official letter from the university.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι επιστολές",
+            "accusative_singular": "την επιστολή"
+        },
+        "keg_communicative_function": "Sending official correspondence"
+    },
+    {
+        "id": "A1-U112-050",
+        "greek": "το συστημένο γράμμα",
+        "phonetic_hint": "to see-stee-MEH-no GHRAH-mah",
+        "english": "registered letter",
+        "notes": "Klik A1 p. 238, 239. Participle συστημένο + γράμμα (requiring recipient signature).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να πάω στο ταχυδρομείο να παραλάβω ένα συστημένο γράμμα.",
+        "example_en": "I have to go to the post office to pick up a registered letter.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα συστημένα γράμματα",
+            "accusative_singular": "το συστημένο γράμμα"
+        },
+        "keg_communicative_function": "Handling registered mail"
+    },
+    {
+        "id": "A1-U112-051",
+        "greek": "το επείγον γράμμα",
+        "phonetic_hint": "to eh-PEE-ghon GHRAH-mah",
+        "english": "express letter / urgent letter",
+        "notes": "Klik A1 p. 238. Adjective επείγων/επείγουσα/επείγον qualifying fast post.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αν το στείλετε επείγον γράμμα, θα φτάσει αύριο το πρωί.",
+        "example_en": "If you send it as an express letter, it will arrive tomorrow morning.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα επείγοντα γράμματα",
+            "accusative_singular": "το επείγον γράμμα"
+        },
+        "keg_communicative_function": "Sending priority express mail"
+    },
+    {
+        "id": "A1-U112-052",
+        "greek": "το δέμα",
+        "phonetic_hint": "to DHEH-mah",
+        "english": "parcel / package",
+        "notes": "Klik A1 p. 238, 239. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το δέμα ζυγίζει δύο κιλά και έχει βιβλία μέσα.",
+        "example_en": "The parcel weighs two kilograms and has books inside.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα δέματα",
+            "accusative_singular": "το δέμα"
+        },
+        "keg_communicative_function": "Sending parcels and packages"
+    },
+    {
+        "id": "A1-U112-053",
+        "greek": "το πακέτο",
+        "phonetic_hint": "to pah-KEH-to",
+        "english": "packet / package",
+        "notes": "Klik A1 p. 238, 239. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παρέλαβα το πακέτο από τον ταχυδρόμο πριν από λίγο.",
+        "example_en": "I received the package from the mailman a short while ago.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πακέτα",
+            "accusative_singular": "το πακέτο"
+        },
+        "keg_communicative_function": "Receiving deliveries"
+    },
+    {
+        "id": "A1-U112-054",
+        "greek": "το γραμματόσημο",
+        "phonetic_hint": "to ghrah-mah-TO-see-mo",
+        "english": "postage stamp",
+        "notes": "Klik A1 p. 238, 239. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Χρειάζομαι ένα γραμματόσημο για την Ιταλία.",
+        "example_en": "I need a postage stamp for Italy.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα γραμματόσημα",
+            "accusative_singular": "το γραμματόσημο"
+        },
+        "keg_communicative_function": "Buying postage stamps"
+    },
+    {
+        "id": "A1-U112-055",
+        "greek": "ο φάκελος",
+        "phonetic_hint": "o FAH-keh-los",
+        "english": "envelope / folder",
+        "notes": "Klik A1 p. 238, 239. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Βάζω το γράμμα μέσα στον φάκελο και γράφω τη διεύθυνση.",
+        "example_en": "I put the letter inside the envelope and write the address.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι φάκελοι",
+            "accusative_singular": "τον φάκελο"
+        },
+        "keg_communicative_function": "Addressing postal envelopes"
+    },
+    {
+        "id": "A1-U112-056",
+        "greek": "το γραμματοκιβώτιο",
+        "phonetic_hint": "to ghrah-mah-to-kee-VO-tee-o",
+        "english": "mailbox / postbox",
+        "notes": "Klik A1 p. 238, 239. Neuter noun in -ιο with plural in -ια. In Greece, yellow boxes for regular mail.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έριξα το γράμμα στο κίτρινο γραμματοκιβώτιο του δρόμου.",
+        "example_en": "I dropped the letter into the street's yellow postbox.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα γραμματοκιβώτια",
+            "accusative_singular": "το γραμματοκιβώτιο"
+        },
+        "keg_communicative_function": "Posting letters into mailboxes"
+    },
+    {
+        "id": "A1-U112-057",
+        "greek": "ο αποστολέας",
+        "phonetic_hint": "o ah-po-sto-LEH-ahs",
+        "english": "sender",
+        "notes": "Klik A1 p. 238, 239. Masculine noun in -έας with plural in -είς.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γράψτε τα στοιχεία του αποστολέα στο πίσω μέρος του φακέλου.",
+        "example_en": "Write the sender's details on the back of the envelope.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι αποστολείς",
+            "accusative_singular": "τον αποστολέα"
+        },
+        "keg_communicative_function": "Specifying mail sender details"
+    },
+    {
+        "id": "A1-U112-058",
+        "greek": "ο παραλήπτης",
+        "phonetic_hint": "o pah-rah-LEEP-tees",
+        "english": "recipient / addressee",
+        "notes": "Klik A1 p. 238, 239. Masculine noun in -ης with plural in -ες.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιος είναι ο παραλήπτης αυτού του δέματος;",
+        "example_en": "Who is the recipient of this package?",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι παραλήπτες",
+            "accusative_singular": "τον παραλήπτη"
+        },
+        "keg_communicative_function": "Specifying package recipient"
+    },
+    {
+        "id": "A1-U112-059",
+        "greek": "ο ταχυδρομικός κώδικας",
+        "phonetic_hint": "o tah-khee-dhro-mee-KOS KO-dhee-kahs",
+        "english": "postal code / ZIP code",
+        "notes": "Klik A1 p. 234, 238. 5-digit number in Greece (e.g., 104 31). Often abbreviated as Τ.Κ.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιος είναι ο ταχυδρομικός κώδικας της περιοχής σας;",
+        "example_en": "What is the postal code of your area?",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι ταχυδρομικοί κώδικες",
+            "accusative_singular": "τον ταχυδρομικό κώδικα"
+        },
+        "keg_communicative_function": "Providing postal ZIP codes"
+    },
+
+    # =========================================================================
+    # 4. Public Utilities, Bills, Tech & Police (pp. 240, 241, 243)
+    # =========================================================================
+    {
+        "id": "A1-U112-060",
+        "greek": "η ΔΕΗ",
+        "phonetic_hint": "ee dheh-EE",
+        "english": "Public Power Corporation / electricity board",
+        "notes": "Klik A1 p. 240. Feminine acronym (Δημόσια Επιχείρηση Ηλεκτρισμού). Essential utility in Greece.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πρέπει να πληρώσω τον λογαριασμό της ΔΕΗ πριν από το τέλος του μήνα.",
+        "example_en": "I have to pay the electricity bill before the end of the month.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι λογαριασμοί ΔΕΗ",
+            "accusative_singular": "τη ΔΕΗ"
+        },
+        "keg_communicative_function": "Paying power and electric utility bills"
+    },
+    {
+        "id": "A1-U112-061",
+        "greek": "το ρεύμα",
+        "phonetic_hint": "to REHV-mah",
+        "english": "electricity / electrical power",
+        "notes": "Klik A1 p. 240. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κόπηκε το ρεύμα στη γειτονιά για μία ώρα.",
+        "example_en": "The electricity was cut in the neighborhood for an hour.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ρεύματα",
+            "accusative_singular": "το ρεύμα"
+        },
+        "keg_communicative_function": "Discussing electricity supply"
+    },
+    {
+        "id": "A1-U112-062",
+        "greek": "ο ΟΤΕ",
+        "phonetic_hint": "o oh-teh-EH",
+        "english": "Hellenic Telecommunications Organization (OTE)",
+        "notes": "Klik A1 p. 240. Masculine acronym (Οργανισμός Τηλεπικοινωνιών Ελλάδος).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πήγα στον ΟΤΕ για να κάνω νέα σύνδεση σταθερού τηλεφώνου.",
+        "example_en": "I went to OTE to make a new landline telephone connection.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι λογαριασμοί ΟΤΕ",
+            "accusative_singular": "τον ΟΤΕ"
+        },
+        "keg_communicative_function": "Managing telecom contracts"
+    },
+    {
+        "id": "A1-U112-063",
+        "greek": "το διαδίκτυο",
+        "phonetic_hint": "to dhyah-DHEEK-tee-o",
+        "english": "internet",
+        "notes": "Klik A1 p. 233, 234, 243. Standard formal Modern Greek term for the internet.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάνω όλες τις τραπεζικές συναλλαγές μου μέσω του διαδικτύου.",
+        "example_en": "I do all my banking transactions via the internet.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα διαδίκτυα",
+            "accusative_singular": "το διαδίκτυο"
+        },
+        "keg_communicative_function": "Using online internet services"
+    },
+    {
+        "id": "A1-U112-064",
+        "greek": "το ηλεκτρονικό μήνυμα",
+        "phonetic_hint": "to ee-lek-tro-nee-KO MEE-nee-mah",
+        "english": "email / electronic mail",
+        "notes": "Klik A1 p. 233, 234, 249. Neuter compound phrase, commonly synonymous with email.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σας έστειλα ένα ηλεκτρονικό μήνυμα με τις οδηγίες.",
+        "example_en": "I sent you an email with the instructions.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ηλεκτρονικά μηνύματα",
+            "accusative_singular": "το ηλεκτρονικό μήνυμα"
+        },
+        "keg_communicative_function": "Exchanging emails"
+    },
+    {
+        "id": "A1-U112-065",
+        "greek": "η παραγγελία",
+        "phonetic_hint": "ee pah-rahn-geh-LEE-ah",
+        "english": "order (commercial order)",
+        "notes": "Klik A1 p. 233, 243. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η παραγγελία σας από το διαδίκτυο καταχωρίστηκε με επιτυχία.",
+        "example_en": "Your internet order was registered successfully.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι παραγγελίες",
+            "accusative_singular": "την παραγγελία"
+        },
+        "keg_communicative_function": "Placing and tracking online orders"
+    },
+    {
+        "id": "A1-U112-066",
+        "greek": "ο σύνδεσμος",
+        "phonetic_hint": "o SEEN-dhez-mos",
+        "english": "link / hyperlink",
+        "notes": "Klik A1 p. 233. Masculine noun in -ος with plural in -οι. Web link in digital contexts.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάντε κλικ στον σύνδεσμο για να ανοίξετε την ιστοσελίδα.",
+        "example_en": "Click on the link to open the webpage.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι σύνδεσμοι",
+            "accusative_singular": "τον σύνδεσμο"
+        },
+        "keg_communicative_function": "Clicking website hyperlinks"
+    },
+    {
+        "id": "A1-U112-067",
+        "greek": "η αστυνομία",
+        "phonetic_hint": "ee ah-stee-no-MEE-ah",
+        "english": "police",
+        "notes": "Klik A1 p. 237, 240, 241. Feminine collective noun in -α.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλέστε την αστυνομία στον αριθμό 100.",
+        "example_en": "Call the police at the number 100.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι αστυνομίες",
+            "accusative_singular": "την αστυνομία"
+        },
+        "keg_communicative_function": "Contacting law enforcement"
+    },
+    {
+        "id": "A1-U112-068",
+        "greek": "το αστυνομικό τμήμα",
+        "phonetic_hint": "to ah-stee-no-mee-KO TMEE-mah",
+        "english": "police station",
+        "notes": "Klik A1 p. 240, 241. Neuter noun phrase for local police precinct.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πήγα στο αστυνομικό τμήμα για να δηλώσω την απώλεια της ταυτότητάς μου.",
+        "example_en": "I went to the police station to report the loss of my ID card.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα αστυνομικά τμήματα",
+            "accusative_singular": "το αστυνομικό τμήμα"
+        },
+        "keg_communicative_function": "Visiting local police stations"
+    },
+    {
+        "id": "A1-U112-069",
+        "greek": "ο αστυνομικός",
+        "phonetic_hint": "o ah-stee-no-mee-KOS",
+        "english": "police officer",
+        "notes": "Klik A1 p. 240, 241. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο αστυνομικός έλεγξε τα στοιχεία των οδηγών μετά το ατύχημα.",
+        "example_en": "The police officer checked the drivers' details after the accident.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι αστυνομικοί",
+            "accusative_singular": "τον αστυνομικό"
+        },
+        "keg_communicative_function": "Reporting incidents to police officers"
+    },
+    {
+        "id": "A1-U112-070",
+        "greek": "το όχημα",
+        "phonetic_hint": "to O-khee-mah",
+        "english": "vehicle",
+        "notes": "Klik A1 p. 241. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιο είναι το όχημα που ενεπλάκη στο συμβάν;",
+        "example_en": "Which is the vehicle that was involved in the incident?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα οχήματα",
+            "accusative_singular": "το όχημα"
+        },
+        "keg_communicative_function": "Identifying motor vehicles"
+    },
+    {
+        "id": "A1-U112-071",
+        "greek": "ο οδηγός",
+        "phonetic_hint": "o o-dhee-GHOS",
+        "english": "driver",
+        "notes": "Klik A1 p. 240, 241. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο οδηγός του αυτοκινήτου σταμάτησε αμέσως.",
+        "example_en": "The driver of the car stopped immediately.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι οδηγοί",
+            "accusative_singular": "τον οδηγό"
+        },
+        "keg_communicative_function": "Referring to vehicle drivers"
+    },
+    {
+        "id": "A1-U112-072",
+        "greek": "το ατύχημα",
+        "phonetic_hint": "to ah-TEE-khee-mah",
+        "english": "accident",
+        "notes": "Klik A1 p. 240, 241. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ευτυχώς δεν τραυματίστηκε κανένας στο ατύχημα.",
+        "example_en": "Fortunately no one was injured in the accident.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ατυχήματα",
+            "accusative_singular": "το ατύχημα"
+        },
+        "keg_communicative_function": "Reporting traffic accidents"
+    },
+    {
+        "id": "A1-U112-073",
+        "greek": "η σειρά",
+        "phonetic_hint": "ee seh-RAH",
+        "english": "turn / line / queue sequence",
+        "notes": "Klik A1 p. 233, 242. Feminine noun in -α with plural in -ες. Key phrase: «στη σειρά σας!»",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ποιος έχει σειρά τώρα; — Είναι η δική μου σειρά.",
+        "example_en": "Whose turn is it now? — It is my turn.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι σειρές",
+            "accusative_singular": "τη σειρά"
+        },
+        "keg_communicative_function": "Waiting and claiming turn in line"
+    },
+    {
+        "id": "A1-U112-074",
+        "greek": "η ουρά",
+        "phonetic_hint": "ee oo-RAH",
+        "english": "queue / line of people",
+        "notes": "Klik A1 p. 233, 242. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Υπάρχει μεγάλη ουρά έξω από την τράπεζα σήμερα.",
+        "example_en": "There is a long line outside the bank today.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ουρές",
+            "accusative_singular": "την ουρά"
+        },
+        "keg_communicative_function": "Observing customer queues"
+    },
+    {
+        "id": "A1-U112-075",
+        "greek": "το νούμερο",
+        "phonetic_hint": "to NOO-meh-ro",
+        "english": "number / ticket number",
+        "notes": "Klik A1 p. 233, 240. Neuter noun in -ο with plural in -α. Electronic ticketing in Greek public agencies.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πάρτε ένα νούμερο προτεραιότητας από το αυτόματο μηχάνημα.",
+        "example_en": "Take a priority ticket number from the automated machine.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα νούμερα",
+            "accusative_singular": "το νούμερο"
+        },
+        "keg_communicative_function": "Taking queue priority numbers"
+    },
+    {
+        "id": "A1-U112-076",
+        "greek": "η απόδειξη",
+        "phonetic_hint": "ee ah-PO-dheek-see",
+        "english": "receipt / proof of payment",
+        "notes": "Klik A1 p. 234, 235, 249. Feminine noun in -ση with plural in -σεις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κρατήστε την απόδειξη πληρωμής σε περίπτωση που τη χρειαστείτε.",
+        "example_en": "Keep the payment receipt in case you need it.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι αποδείξεις",
+            "accusative_singular": "την απόδειξη"
+        },
+        "keg_communicative_function": "Requesting and keeping receipts"
+    },
+    {
+        "id": "A1-U112-077",
+        "greek": "η συναλλαγή",
+        "phonetic_hint": "ee see-nah-lah-YEE",
+        "english": "transaction",
+        "notes": "Klik A1 p. 234, 235. Feminine noun in -η with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η τραπεζική συναλλαγή ολοκληρώθηκε με επιτυχία.",
+        "example_en": "The banking transaction was completed successfully.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι συναλλαγές",
+            "accusative_singular": "τη συναλλαγή"
+        },
+        "keg_communicative_function": "Completing banking transactions"
+    },
+
+    # =========================================================================
+    # 5. Core Verbs of Service, Transaction & Communication (pp. 233-242)
+    # =========================================================================
+    {
+        "id": "A1-U112-078",
+        "greek": "ανοίγω",
+        "phonetic_hint": "ah-NEE-gho",
+        "english": "to open",
+        "notes": "Klik A1 p. 233, 234. Type A regular verb. Idiomatic for opening accounts.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Θέλω να ανοίξω έναν καινούριο λογαριασμό στην τράπεζα.",
+        "example_en": "I want to open a new account at the bank.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "ανοίγει",
+            "first_person_plural": "ανοίγουμε"
+        },
+        "keg_communicative_function": "Opening bank accounts"
+    },
+    {
+        "id": "A1-U112-079",
+        "greek": "κλείνω",
+        "phonetic_hint": "KLEE-no",
+        "english": "to close / to book",
+        "notes": "Klik A1 p. 233, 242. Type A regular active verb.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η τράπεζα κλείνει νωρίς την Παρασκευή το μεσημέρι.",
+        "example_en": "The bank closes early on Friday afternoon.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "κλείνει",
+            "first_person_plural": "κλείνουμε"
+        },
+        "keg_communicative_function": "Discussing business hours"
+    },
+    {
+        "id": "A1-U112-080",
+        "greek": "συμπληρώνω",
+        "phonetic_hint": "seem-blee-RO-no",
+        "english": "to fill out / complete (a form)",
+        "notes": "Klik A1 p. 234, 236, 240. Type A regular verb.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Συμπληρώνω την αίτηση με τα στοιχεία της ταυτότητάς μου.",
+        "example_en": "I am filling out the application with my ID details.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "συμπληρώνει",
+            "first_person_plural": "συμπληρώνουμε"
+        },
+        "keg_communicative_function": "Completing questionnaires and forms"
+    },
+    {
+        "id": "A1-U112-081",
+        "greek": "καταθέτω",
+        "phonetic_hint": "kah-tah-THEH-to",
+        "english": "to deposit / submit",
+        "notes": "Klik A1 p. 234, 235. Compound verb of θέτω (κατά + θέτω).",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καταθέτω πενήντα ευρώ στον λογαριασμό του γιου μου.",
+        "example_en": "I deposit fifty euros into my son's account.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular compound)",
+            "third_person_singular": "καταθέτει",
+            "first_person_plural": "καταθέτουμε"
+        },
+        "keg_communicative_function": "Depositing money into accounts"
+    },
+    {
+        "id": "A1-U112-082",
+        "greek": "σηκώνω",
+        "phonetic_hint": "see-KO-no",
+        "english": "to withdraw (money) / to lift",
+        "notes": "Klik A1 p. 234, 235. Colloquial standard equivalent to 'κάνω ανάληψη'.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πήγα στο ΑΤΜ και σήκωσα εκατό ευρώ.",
+        "example_en": "I went to the ATM and withdrew one hundred euros.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "σηκώνει",
+            "first_person_plural": "σηκώνουμε"
+        },
+        "keg_communicative_function": "Withdrawing cash from cash machines"
+    },
+    {
+        "id": "A1-U112-083",
+        "greek": "πληρώνω",
+        "phonetic_hint": "plee-RO-no",
+        "english": "to pay",
+        "notes": "Klik A1 p. 233, 235, 240. Type A regular verb.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πληρώνω τους λογαριασμούς μέσω ηλεκτρονικής τραπεζικής.",
+        "example_en": "I pay the bills through online banking.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular)",
+            "third_person_singular": "πληρώνει",
+            "first_person_plural": "πληρώνουμε"
+        },
+        "keg_communicative_function": "Paying for services and bills"
+    },
+    {
+        "id": "A1-U112-084",
+        "greek": "στέλνω",
+        "phonetic_hint": "STEL-no",
+        "english": "to send",
+        "notes": "Klik A1 p. 233, 236, 237, 238. Core communicative verb with direct and indirect object.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στέλνω ένα γράμμα στους φίλους μου στην Κρήτη.",
+        "example_en": "I am sending a letter to my friends in Crete.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active irregular)",
+            "third_person_singular": "στέλνει",
+            "first_person_plural": "στέλνουμε"
+        },
+        "keg_communicative_function": "Sending items and communications"
+    },
+    {
+        "id": "A1-U112-085",
+        "greek": "παραλαμβάνω",
+        "phonetic_hint": "pah-rah-lahm-VAH-no",
+        "english": "to receive / to collect / to pick up",
+        "notes": "Klik A1 p. 238, 239. Compound verb of λαμβάνω (παρά + λαμβάνω).",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πότε μπορώ να παραλάβω το διαβατήριό μου;",
+        "example_en": "When can I pick up my passport?",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular compound)",
+            "third_person_singular": "παραλαμβάνει",
+            "first_person_plural": "παραλαμβάνουμε"
+        },
+        "keg_communicative_function": "Collecting mail and issued documents"
+    },
+    {
+        "id": "A1-U112-086",
+        "greek": "υπογράφω",
+        "phonetic_hint": "ee-po-GHRAH-fo",
+        "english": "to sign",
+        "notes": "Klik A1 p. 234, 235. Compound verb of γράφω (υπό + γράφω).",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Υπογράφω την απόδειξη παραλαβής του δέματος.",
+        "example_en": "I sign the delivery receipt for the package.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active regular compound)",
+            "third_person_singular": "υπογράφει",
+            "first_person_plural": "υπογράφουμε"
+        },
+        "keg_communicative_function": "Signing legal and postal paperwork"
+    },
+    {
+        "id": "A1-U112-087",
+        "greek": "δίνω",
+        "phonetic_hint": "DHEE-no",
+        "english": "to give",
+        "notes": "Klik A1 p. 236, 237. Fundamental ditransitive verb requiring direct and indirect object.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Δίνω τα χρήματα στον ταμία και παίρνω την απόδειξη.",
+        "example_en": "I give the money to the cashier and take the receipt.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active irregular)",
+            "third_person_singular": "δίνει",
+            "first_person_plural": "δίνουμε"
+        },
+        "keg_communicative_function": "Giving money or objects"
+    },
+    {
+        "id": "A1-U112-088",
+        "greek": "παραγγέλνω",
+        "phonetic_hint": "pah-rahn-GEL-no",
+        "english": "to order (goods / food)",
+        "notes": "Klik A1 p. 233, 243. Type A active verb.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παραγγέλνω συχνά βιβλία και ρούχα από το διαδίκτυο.",
+        "example_en": "I often order books and clothes from the internet.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type A (active irregular)",
+            "third_person_singular": "παραγγέλνει",
+            "first_person_plural": "παραγγέλνουμε"
+        },
+        "keg_communicative_function": "Placing retail orders"
+    },
+    {
+        "id": "A1-U112-089",
+        "greek": "εξυπηρετώ",
+        "phonetic_hint": "ek-see-peh-reh-TO",
+        "english": "to serve / to assist (customers)",
+        "notes": "Klik A1 p. 234, 235, 243. Type B2 contracted active verb.",
+        "gender_or_pos": "verb",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο υπάλληλος εξυπηρετεί τους πελάτες με ευγένεια.",
+        "example_en": "The employee serves the customers politely.",
+        "grammatical_info": {
+            "part_of_speech": "verb",
+            "verb_type": "Type B2 (active contracted)",
+            "third_person_singular": "εξυπηρετεί",
+            "first_person_plural": "εξυπηρετούμε"
+        },
+        "keg_communicative_function": "Providing customer service"
+    }
+]
+
+lesson_u112 = {
+    "unit_id": "unit-112",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Βασικό Λεξιλόγιο (Pages 233-255)",
+    "description": (
+        "Core vocabulary from Unit 11 and the Comprehensive Capstone Review of Klik sta Ellinika A1: "
+        "banking institutions and accounts (τράπεζα, ταμίας, ταμείο, λογαριασμός, άνοιγμα λογαριασμού, κατάθεση, ανάληψη, ΑΤΜ), "
+        "payment cards and security (πιστωτική κάρτα, χρεωστική κάρτα, βιβλιάριο, κωδικός, PIN, υπογραφή, υπόλοιπο, μετρητά, ρέστα), "
+        "official paperwork and personal identity forms (ταυτότητα, αστυνομική ταυτότητα, διαβατήριο, έγγραφο, έντυπο, προσωπικά στοιχεία, επώνυμο, όνομα, φύλο, ημερομηνία γέννησης, τόπος γέννησης, εθνικότητα, οικογενειακή κατάσταση, άγαμος, έγγαμος, ΑΦΜ, βεβαίωση, αντίγραφο), "
+        "postal services and dispatch (ταχυδρομείο, ταχυδρόμος, γράμμα, επιστολή, συστημένο γράμμα, επείγον γράμμα, δέμα, πακέτο, γραμματόσημο, φάκελος, γραμματοκιβώτιο, αποστολέας, παραλήπτης, ταχυδρομικός κώδικας), "
+        "public utilities, technology and police (ΔΕΗ, ρεύμα, ΟΤΕ, διαδίκτυο, ηλεκτρονικό μήνυμα, παραγγελία, σύνδεσμος, αστυνομία, αστυνομικό τμήμα, αστυνομικός, όχημα, οδηγός, ατύχημα, σειρά, ουρά, νούμερο, απόδειξη, συναλλαγή), "
+        "and communicative verbs of transaction and assistance (ανοίγω, κλείνω, συμπληρώνω, καταθέτω, σηκώνω, πληρώνω, στέλνω, παραλαμβάνω, υπογράφω, δίνω, παραγγέλνω, εξυπηρετώ)."
+    ),
+    "lesson_status": "not_started",
+    "entries": cards_u112
+}
+
+def main():
+    print(f"Writing {len(cards_u112)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u112, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-112"), None)
+    unit_112_entry = {
+        "id": "unit-112",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη - Λεξιλόγιο)",
+        "order": "KlikA1-12-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-112/lesson-01.yaml",
+                "title": "Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Βασικό Λεξιλόγιο (Pages 233-255)"
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-112 in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_112_entry
+    else:
+        print("Appending unit-112 to manifest.yaml...")
+        units.append(unit_112_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-112!")
+
+if __name__ == "__main__":
+    main()
