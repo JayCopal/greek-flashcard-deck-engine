@@ -60,9 +60,13 @@ export function sanitizeEnglishPrompt(english: string): string {
 }
 
 export interface ProductionHint {
+  step1Mask: string; // e.g. "d*** e***" (1 letter revealed per word)
+  step2Mask: string; // e.g. "de** e***" (2 letters revealed per word)
+  step3Mask: string; // e.g. "den* e***" (3 letters revealed per word)
+  letterClue: string; // backwards compatibility / alias to step1Mask
   articleClue?: string;
-  letterClue: string;
   grammarClue?: string;
+  phoneticHint?: string;
 }
 
 const GREEK_ARTICLES = new Set([
@@ -72,31 +76,42 @@ const GREEK_ARTICLES = new Set([
 ]);
 
 /**
- * Computes a non-spoiling, pedagogical hint for English -> Greek recall.
+ * Masks Greek or mixed text by revealing a fixed number of initial characters
+ * for each word, replacing remaining letters with asterisks (*).
  *
- * Never reveals the full word or full answer. Instead provides:
- * 1. Article clue if the target is a noun with an article (essential for Greek noun learning).
- * 2. First letter and word length (triggers active cognitive retrieval without giving the word away).
- * 3. Grammatical classification (e.g. Type A verb, Neuter noun).
+ * Punctuation, symbols, quotes, dashes, numbers, and whitespace are preserved intact.
+ *
+ * Example:
+ * maskGreekText("- Γεια σας, πού μένετε;", 1) => "- Γ*** σ**, π** μ*****;"
+ * maskGreekText("- Γεια σας, πού μένετε;", 2) => "- Γε** σα*, πο* μέ****;"
+ * maskGreekText("το αεροπλάνο", 1) => "τ* α*********"
+ */
+export function maskGreekText(text: string, revealCount: number): string {
+  if (!text) return '';
+  return text.replace(/\p{L}+/gu, (word) => {
+    const chars = Array.from(word);
+    if (chars.length <= revealCount) {
+      return word;
+    }
+    const revealed = chars.slice(0, revealCount).join('');
+    const masked = '*'.repeat(chars.length - revealCount);
+    return revealed + masked;
+  });
+}
+
+/**
+ * Computes a non-spoiling, pedagogical 3-step hint for English -> Greek recall.
+ *
+ * Step 1: Initial letter of each word (e.g. "d*** e***") + grammar classification.
+ * Step 2: First two letters of each word (e.g. "de** e***").
+ * Step 3: Sounds and guide: Phonetic pronunciation guide (if available) + 3-letter mask.
  */
 export function getProductionHint(card: CardEntry): ProductionHint {
   const rawGreek = (card.greek || '').trim();
   const words = rawGreek.split(/\s+/).filter(Boolean);
 
   let articleClue: string | undefined;
-  let letterClue = '';
   let grammarClue: string | undefined;
-
-  if (words.length > 1 && GREEK_ARTICLES.has(words[0].toLowerCase())) {
-    const article = words[0];
-    const noun = words.slice(1).join(' ');
-    const firstLetter = noun.charAt(0);
-    articleClue = `Article: "${article}"`;
-    letterClue = `Noun starts with "${firstLetter}…" (${noun.length} letters)`;
-  } else if (rawGreek.length > 0) {
-    const firstLetter = rawGreek.charAt(0);
-    letterClue = `Starts with "${firstLetter}…" (${rawGreek.length} letters)`;
-  }
 
   // Grammar classification
   const gram = card.grammatical_info;
@@ -112,9 +127,27 @@ export function getProductionHint(card: CardEntry): ProductionHint {
     grammarClue = card.gender_or_pos;
   }
 
+  // Identify leading article only when card is actually a noun
+  const isNoun = Boolean(
+    card.gender_or_pos?.toLowerCase().includes('noun') ||
+    (typeof gram?.part_of_speech === 'string' && gram.part_of_speech.toLowerCase().includes('noun'))
+  );
+  if (words.length > 1 && GREEK_ARTICLES.has(words[0].toLowerCase()) && isNoun) {
+    articleClue = words[0];
+  }
+
+  const step1Mask = maskGreekText(rawGreek, 1);
+  const step2Mask = maskGreekText(rawGreek, 2);
+  const step3Mask = maskGreekText(rawGreek, 3);
+  const phoneticHint = (card.phonetic_hint || '').trim() || undefined;
+
   return {
+    step1Mask,
+    step2Mask,
+    step3Mask,
+    letterClue: step1Mask,
     articleClue,
-    letterClue,
     grammarClue,
+    phoneticHint,
   };
 }

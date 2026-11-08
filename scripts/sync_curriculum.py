@@ -241,6 +241,31 @@ UNIT_METADATA = {
             "    * 'Δεν το θέλω' (I don't want it)."
         ),
     },
+    12: {
+        "title": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+        "description": "CEFR A1: Parts of the body, symptoms and illnesses, pharmacy purchases, the modal 'πρέπει να', emergency cries, and wishing good recovery.",
+        "lesson_notes": (
+            "Unit 12 Core Grammar Notes:\n"
+            "• Body Parts & Describing Pain:\n"
+            "  - 'Πονάω' (I am hurting): Type B1 verb (πονάω, πονάς, πονάει, πονάμε, πονάτε, πονάνε).\n"
+            "  - Expressing localized pain with weak clitics:\n"
+            "    * Singular: 'Με πονάει το κεφάλι μου' / 'Με πονάει ο λαιμός μου'.\n"
+            "    * Plural: 'Με πονάνε τα μάτια μου' / 'Με πονάνε τα πόδια μου'.\n"
+            "  - Symptoms with 'έχω': έχω πυρετό (fever), έχω συνάχι (cold), έχω πονοκέφαλο (headache), έχω βήχα (cough).\n"
+            "• Visiting the Pharmacy (Στο Φαρμακείο):\n"
+            "  - Asking for remedies: 'Θέλω κάτι για τον πονόλαιμο / για τον πονοκέφαλο, παρακαλώ.'\n"
+            "  - Common items: ασπιρίνη, χάπια, σιρόπι, τσιρότο, γάζα, οινόπνευμα.\n"
+            "  - Prescriptions: 'η ιατρική συνταγή'.\n"
+            "• Modal Necessity Syntax ('Πρέπει να'):\n"
+            "  - Impersonal modal trigger 'πρέπει να' + Present Active Indicative:\n"
+            "    * 'Πρέπει να μείνετε στο κρεβάτι.' (You must stay in bed.)\n"
+            "    * 'Πρέπει να παίρνεις το φάρμακο κάθε οκτώ ώρες.' (You have to take the medicine every eight hours.)\n"
+            "• Urgent Situations & Social Formulas:\n"
+            "  - Emergency cries: 'Βοήθεια!' (Help!), 'Χρειάζομαι γιατρό!' (I need a doctor!), 'Καλέστε ασθενοφόρο!' (Call an ambulance!).\n"
+            "  - Wishing recovery: 'Περαστικά!' (Get well soon!).\n"
+            "  - Toasting health: 'Στην υγειά μας!' / 'Στην υγειά σας!'"
+        ),
+    },
 }
 
 

@@ -1,4 +1,4 @@
-import { sanitizeEnglishPrompt, getProductionHint } from '../src/utils/flashcardPrompt';
+import { sanitizeEnglishPrompt, getProductionHint, maskGreekText } from '../src/utils/flashcardPrompt';
 import { CardEntry } from '../src/types/schema';
 
 // Test Cases for sanitizeEnglishPrompt
@@ -53,7 +53,66 @@ for (const tc of testCases) {
   }
 }
 
-// Test getProductionHint
+// Test maskGreekText
+const maskCases = [
+  {
+    input: 'διαβάζω',
+    reveal: 1,
+    expected: 'δ******',
+  },
+  {
+    input: 'διαβάζω',
+    reveal: 2,
+    expected: 'δι*****',
+  },
+  {
+    input: 'διαβάζω',
+    reveal: 3,
+    expected: 'δια****',
+  },
+  {
+    input: 'το αεροπλάνο',
+    reveal: 1,
+    expected: 'τ* α********',
+  },
+  {
+    input: 'το αεροπλάνο',
+    reveal: 2,
+    expected: 'το αε*******',
+  },
+  {
+    input: 'δεν είναι εδώ',
+    reveal: 1,
+    expected: 'δ** ε**** ε**',
+  },
+  {
+    input: 'δεν είναι εδώ',
+    reveal: 2,
+    expected: 'δε* εί*** εδ*',
+  },
+  {
+    input: '- Γεια σας, πού μένετε;',
+    reveal: 1,
+    expected: '- Γ*** σ**, π** μ*****;',
+  },
+  {
+    input: '- Γεια σας, πού μένετε;',
+    reveal: 2,
+    expected: '- Γε** σα*, πο* μέ****;',
+  },
+];
+
+for (const mc of maskCases) {
+  const actual = maskGreekText(mc.input, mc.reveal);
+  if (actual !== mc.expected) {
+    console.error(`FAIL mask: "${mc.input}" (reveal ${mc.reveal}) => "${actual}", expected "${mc.expected}"`);
+    allPassed = false;
+  } else {
+    console.log(`PASS mask: "${mc.input}" (reveal ${mc.reveal}) => "${actual}"`);
+  }
+}
+
+// Test getProductionHint on Noun
 const card1: CardEntry = {
   id: 'A1-U101-001',
   greek: 'το αεροπλάνο',
@@ -66,7 +125,12 @@ const card1: CardEntry = {
 
 const hint1 = getProductionHint(card1);
 console.log('Hint 1:', hint1);
+if (hint1.step1Mask !== 'τ* α********' || hint1.step2Mask !== 'το αε*******') {
+  console.error('FAIL: hint1 mask mismatch');
+  allPassed = false;
+}
 
+// Test getProductionHint on Verb
 const card2: CardEntry = {
   id: 'A1-U00-001',
   greek: 'διαβάζω',
@@ -79,9 +143,40 @@ const card2: CardEntry = {
 
 const hint2 = getProductionHint(card2);
 console.log('Hint 2:', hint2);
+if (hint2.step1Mask !== 'δ******' || hint2.grammarClue !== 'Verb: Type A') {
+  console.error('FAIL: hint2 mask mismatch');
+  allPassed = false;
+}
+
+// Test getProductionHint on Sentence with Phonetic Hint
+const card3: CardEntry = {
+  id: 'A1-U103-010',
+  greek: '- Γεια σας! Πού μένετε; - Στην Αθήνα.',
+  phonetic_hint: 'YAH sahs! POO MEH-neh-teh? - Steen ah-THEE-nah.',
+  english: '- Hello! Where do you live? - In Athens.',
+  gender_or_pos: 'phrase',
+  audio: null,
+  status: 'verified',
+  grammatical_info: { part_of_speech: 'phrase' }
+};
+
+const hint3 = getProductionHint(card3);
+console.log('Hint 3:', hint3);
+if (hint3.step1Mask !== '- Γ*** σ**! Π** μ*****; - Σ*** Α****.') {
+  console.error(`FAIL: hint3 step1Mask mismatch: got "${hint3.step1Mask}"`);
+  allPassed = false;
+}
+if (hint3.step2Mask !== '- Γε** σα*! Πο* μέ****; - Στ** Αθ***.') {
+  console.error(`FAIL: hint3 step2Mask mismatch: got "${hint3.step2Mask}"`);
+  allPassed = false;
+}
+if (hint3.phoneticHint !== 'YAH sahs! POO MEH-neh-teh? - Steen ah-THEE-nah.') {
+  console.error(`FAIL: hint3 phoneticHint mismatch`);
+  allPassed = false;
+}
 
 if (!allPassed) {
   process.exit(1);
 } else {
-  console.log('All sanitizer tests passed!');
+  console.log('All tests passed successfully!');
 }

@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Script to create Unit 108 C from Klik A1 (Pages 151-168):
-Ενότητα 7: Ψώνια, ρούχα & γιορτές - Διάλογοι, Εξετάσεις & Συνομιλίες
-Focuses on department store shopping, fitting rooms, sizing, sales and discounts,
-payment methods, Simple Future tense plans, invitations, birthdays, and holiday wishes
-using exclusively vocabulary from Lessons 101 to 108.
+Script to create Unit 108c from Klik A1 (Pages 175-194):
+Ενότητα 8: Διάλογοι & Εξετάσεις — Φαγητό, Ταβέρνα, Αγορά & Συνταγές (A1 Synthesis)
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and the klik-a1-deck-builder skill.
+50 conversational and dialogue cards with 100% vocabulary compliance.
 """
 import sys
+import re
+import unicodedata
 import yaml
 from pathlib import Path
 
@@ -20,32 +21,802 @@ UNIT_DIR.mkdir(parents=True, exist_ok=True)
 YAML_PATH = UNIT_DIR / "lesson-01.yaml"
 MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
 
-cards_u108c = [{'id': 'A1-U108C-001', 'greek': '— Γεια σας, μπορούμε να σας βοηθήσουμε; — Ναι, παρακαλώ, ψάχνω ένα ζεστό παλτό για τον χειμώνα.', 'phonetic_hint': '— YAH sahs, bo-ROO-meh nah sahs voy-THEE-soo-meh? — Neh, pah-rah-kah-LOH, PSAH-khno EH-nah zeh-STOH pahl-TOH yah ton khee-MOH-nah.', 'english': '— Hello, can we help you? — Yes, please, I am looking for a warm coat for the winter.', 'notes': 'Review Unit 108. Customer service dialogue at a clothing department store.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι ακριβώς ψάχνετε; — Ψάχνω ένα μαύρο σακάκι για τη δουλειά.', 'example_en': '— What exactly are you looking for? — I am looking for a black blazer for work.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking for customer assistance and browsing seasonal clothing in a department store'}, {'id': 'A1-U108C-002', 'greek': '— Ποιο πουκάμισο προτιμάς, αυτό εδώ ή εκείνο στη βιτρίνα; — Προτιμώ εκείνο το λευκό πουκάμισο.', 'phonetic_hint': '— PYO poo-KAH-mee-soh proh-tee-MAHS, af-TOH eh-THOH ee eh-KEE-noh stee vee-TREE-nah? — Proh-tee-MOH eh-KEE-noh toh lef-KOH poo-KAH-mee-soh.', 'english': '— Which shirt do you prefer, this one here or that one in the shop window? — I prefer that white shirt.', 'notes': "Review Unit 108. Demonstrative pronouns 'αυτός, αυτή, αυτό' (this) vs 'εκείνος, εκείνη, εκείνο' (that).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Σου αρέσει εκείνη η φούστα; — Ναι, μου αρέσει πολύ το χρώμα της.', 'example_en': '— Do you like that skirt? — Yes, I really like its color.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Expressing preferences using demonstrative pronouns for clothing displays'}, {'id': 'A1-U108C-003', 'greek': '— Αυτό το παλτό είναι καλό, αλλά εκείνο είναι πιο ζεστό. — Έχεις δίκιο, εκείνο είναι μάλλινο.', 'phonetic_hint': '— af-TOH toh pahl-TOH EE-neh kah-LOH, ah-LAH eh-KEE-noh EE-neh pyoh zeh-STOH. — EH-khees THEE-kyo, eh-KEE-noh EE-neh MAH-lee-noh.', 'english': '— This coat is good, but that one is warmer. — You are right, that one is woolen.', 'notes': "Review Unit 108. Comparative degree with 'πιο' and clothing materials ('μάλλινος').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Ποιο μπουφάν είναι πιο ζεστό; — Εκείνο το μπλε μπουφάν είναι πιο ζεστό.', 'example_en': '— Which jacket is warmer? — That blue jacket is warmer.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Comparing clothing items by warmth, quality, and fabric materials'}, {'id': 'A1-U108C-004', 'greek': '— Τι νούμερο φοράτε σε παντελόνι; — Φοράω συνήθως το σαράντα.', 'phonetic_hint': '— tee NOO-meh-roh foh-RAH-teh seh pahn-deh-LOH-nee? — Foh-RAH-oh see-NEE-thohs toh sah-RAHN-dah.', 'english': '— What size pants do you wear? — I usually wear size forty.', 'notes': "Review Unit 108. Inquiring and stating clothing size ('νούμερο').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι μέγεθος φοράτε σε μπλούζα; — Φοράω το μεσαίο μέγεθος.', 'example_en': '— What size blouse do you wear? — I wear medium size.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Inquiring about and stating clothing sizes and measurements'}, {'id': 'A1-U108C-005', 'greek': '— Έχετε αυτό το τζιν σε μαύρο χρώμα; — Ναι, βεβαίως, ορίστε το μαύρο τζιν.', 'phonetic_hint': '— EH-kheh-teh af-TOH toh tzeen seh MAH-vroh KHROH-mah? — Neh, veh-VEH-ohs, oh-REES-teh toh MAH-vroh tzeen.', 'english': '— Do you have these jeans in black? — Yes, certainly, here are the black jeans.', 'notes': 'Review Unit 108. Requesting specific clothing items by color.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Έχετε αυτό το φόρεμα σε κόκκινο χρώμα; — Ναι, υπάρχει και σε κόκκινο.', 'example_en': '— Do you have this dress in red? — Yes, it is also available in red.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking for clothing items in specific colors and variations'}, {'id': 'A1-U108C-006', 'greek': '— Πόσο κάνει αυτό το πουλόβερ; — Κάνει σαράντα πέντε ευρώ.', 'phonetic_hint': '— POH-soh KAH-nee af-TOH toh poo-LOH-vehr? — KAH-nee sah-RAHN-dah PEN-deh ev-ROH.', 'english': '— How much is this sweater? — It is forty-five euros.', 'notes': "Review Unit 108. Inquiring about prices of garments using 'πόσο κάνει'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Είναι ακριβό αυτό το κοστούμι; — Όχι, έχει πολύ καλή τιμή.', 'example_en': '— Is this suit expensive? — No, it has a very good price.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Inquiring about garment prices and affordability in retail shops'}, {'id': 'A1-U108C-007', 'greek': '— Αυτά τα γάντια είναι από δέρμα; — Ναι, αυτά είναι από δέρμα, ενώ εκείνα είναι μάλλινα.', 'phonetic_hint': '— af-TAH tah GHAHN-dyah EE-neh ah-POH THEHR-mah? — Neh, af-TAH EE-neh ah-POH THEHR-mah, eh-NOH eh-KEE-nah EE-neh MAH-lee-nah.', 'english': '— Are these gloves made of leather? — Yes, these are made of leather, whereas those are woolen.', 'notes': "Review Unit 108. Identifying clothing accessories and material types ('δέρμα', 'μάλλινος').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Έχετε ζεστό κασκόλ και σκούφο; — Ναι, είναι όλα στον πρώτο όροφο.', 'example_en': '— Do you have a warm scarf and beanie? — Yes, they are all on the first floor.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Inquiring about accessories and contrasting material fabrics'}, {'id': 'A1-U108C-008', 'greek': '— Ψάχνω ένα ζευγάρι παπούτσια για περπάτημα. — Ορίστε, αυτά τα παπούτσια είναι πολύ άνετα.', 'phonetic_hint': '— PSAH-khno EH-nah zev-GHAH-ree pah-POO-tsyah yah pehr-PAH-tee-mah. — oh-REES-teh, af-TAH tah pah-POO-tsyah EE-neh poh-LEE AH-neh-tah.', 'english': '— I am looking for a pair of walking shoes. — Here you are, these shoes are very comfortable.', 'notes': "Review Unit 108. Describing footwear and comfort ('άνετα παπούτσια').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι νούμερο παπούτσι φοράτε; — Φοράω το σαράντα δύο.', 'example_en': '— What shoe size do you wear? — I wear size forty-two.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Buying footwear and evaluating shoe comfort'}, {'id': 'A1-U108C-009', 'greek': '— Εκείνο το κατάστημα στον πεζόδρομο έχει πολύ καλές τιμές. — Ναι, ελάτε να δείτε τη βιτρίνα του!', 'phonetic_hint': '— eh-KEE-noh toh kah-TAH-stee-mah ston peh-ZOH-throh-moh EH-khee poh-LEE kah-LES tee-MES. — Neh, eh-LAH-teh nah THEE-teh tee vee-TREE-nah too!', 'english': '— That store on the pedestrian street has very good prices. — Yes, come and see its window display!', 'notes': 'Review Units 103, 107 & 108. Recommending shops on pedestrian walkways and looking at shop windows.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Πού είναι το πολυκατάστημα; — Είναι στο κέντρο της πόλης.', 'example_en': '— Where is the department store? — It is in the city center.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing store locations and window shopping recommendations'}, {'id': 'A1-U108C-010', 'greek': '— Αύριο θα πάω στην αγορά για ψώνια. — Θέλεις να έρθω μαζί σου; — Ναι, με χαρά!', 'phonetic_hint': '— AHV-ree-oh thah PAH-oh steen ah-ghoh-RAH yah PSOH-nyah. — THEH-lees nah EHR-thoh mah-ZEE soo? — Neh, meh khah-RAH!', 'english': '— Tomorrow I will go to the market for shopping. — Do you want me to come with you? — Yes, with pleasure!', 'notes': "Review Unit 108. Simple Future tense ('θα πάω') and inviting a companion to go shopping.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι θα πάρεις στην αγορά; — Θα αγοράσω ρούχα και δώρα για τη γιορτή.', 'example_en': '— What will you get at the market? — I will buy clothes and gifts for the celebration.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Planning a shopping trip using the simple future and inviting a friend'}, {'id': 'A1-U108C-011', 'greek': '— Μπορώ να δοκιμάσω αυτό το σακάκι; — Βεβαίως, το δοκιμαστήριο είναι στο βάθος αριστερά.', 'phonetic_hint': '— boh-ROH nah thoh-kee-MAH-soh af-TOH toh sah-KAH-kee? — veh-VEH-ohs, toh thoh-kee-mah-STEE-ree-oh EE-neh stoh VAH-thos ah-ree-steh-RAH.', 'english': '— May I try on this blazer? — Certainly, the fitting room is at the back on the left.', 'notes': "Review Unit 108. Requesting to try on clothes ('δοκιμάζω') and locating the fitting rooms ('δοκιμαστήριο').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Συγγνώμη, πού είναι τα δοκιμαστήρια; — Είναι πίσω από τις μπλούζες.', 'example_en': '— Excuse me, where are the fitting rooms? — They are behind the tops.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking permission to try on clothes and locating fitting rooms'}, {'id': 'A1-U108C-012', 'greek': '— Πώς σας φαίνεται το φόρεμα; — Σας πηγαίνει πάρα πολύ αυτό το χρώμα!', 'phonetic_hint': '— pohs sahs FEH-neh-teh toh FOH-reh-mah? — sahs pee-YEH-nee PAH-rah poh-LEE af-TOH toh KHROH-mah!', 'english': '— How does the dress look to you? — This color suits you very much!', 'notes': "Review Unit 108. Giving compliments on fit and color ('σας πηγαίνει').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Σου ταιριάζει πολύ αυτό το πουκάμισο! — Ευχαριστώ, μου αρέσει κι εμένα.', 'example_en': '— This shirt suits you very well! — Thank you, I like it too.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Complimenting appearance and evaluating how clothes look on someone'}, {'id': 'A1-U108C-013', 'greek': '— Αυτό το τζιν μου είναι πολύ στενό στη μέση. — Δοκιμάστε ένα νούμερο μεγαλύτερο!', 'phonetic_hint': '— af-TOH toh tzeen moo EE-neh poh-LEE steh-NOH stee MEH-see. — thoh-kee-MAH-steh EH-nah NOO-meh-roh meh-ghah-LEE-teh-roh!', 'english': '— These jeans are too tight on my waist. — Try one size larger!', 'notes': "Review Unit 108. Describing clothes that are too tight ('στενός') and suggesting larger sizes.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Είναι στενό το παντελόνι; — Ναι, μου είναι λίγο στενό.', 'example_en': '— Are the pants tight? — Yes, they are a little tight on me.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Expressing that clothes are too tight and recommending sizing up'}, {'id': 'A1-U108C-014', 'greek': '— Αυτή η μπλούζα σας είναι πολύ φαρδιά. — Ναι, φέρε μου ένα μικρότερο νούμερο, παρακαλώ.', 'phonetic_hint': '— af-TEE ee BLOO-zah sahs EE-neh poh-LEE fahr-THYAH. — Neh, FEH-reh moo EH-nah mee-KROH-teh-roh NOO-meh-roh, pah-rah-kah-LOH.', 'english': '— This top is too loose on you. — Yes, bring me a smaller size, please.', 'notes': "Review Unit 108. Describing clothes that are too loose ('φαρδύς') and requesting a smaller size.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Σας κάνει η μπλούζα; — Όχι, μου είναι πολύ φαρδιά.', 'example_en': '— Does the top fit you? — No, it is too loose on me.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Reporting loose garments and requesting smaller sizes'}, {'id': 'A1-U108C-015', 'greek': '— Το μήκος είναι καλό, αλλά τα μανίκια είναι πολύ μακριά. — Ναι, τα μανίκια είναι μακριά.', 'phonetic_hint': '— toh MEE-kos EE-neh kah-LOH, ah-LAH tah mah-NEE-kyah EE-neh poh-LEE mah-KRYAH. — Neh, tah mah-NEE-kyah EE-neh mah-KRYAH.', 'english': '— The length is good, but the sleeves are too long. — Yes, the sleeves are long.', 'notes': "Review Unit 108. Discussing clothing fit details: length ('μήκος') and sleeves ('μανίκια').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Είναι μακριά τα μανίκια; — Ναι, είναι λίγο μακριά.', 'example_en': '— Are the sleeves long? — Yes, they are a bit long.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Evaluating clothing dimensions and sleeve length'}, {'id': 'A1-U108C-016', 'greek': '— Σας κάνει το σακάκι ή θέλετε άλλο σχέδιο; — Μου κάνει τέλεια και είναι άνετο.', 'phonetic_hint': '— sahs KAH-nee toh sah-KAH-kee ee THEH-leh-teh AH-loh SKHEH-thyoh? — moo KAH-nee TEH-lyah keh EE-neh AH-neh-toh.', 'english': '— Does the jacket fit you or do you want another design? — It fits me perfectly and is comfortable.', 'notes': "Review Unit 108. Expressing perfect fit using 'μου κάνει τέλεια'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα το πάρεις αυτό το σακάκι; — Ναι, θα το αγοράσω.', 'example_en': '— Will you take this jacket? — Yes, I will buy it.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Confirming proper fit and garment comfort'}, {'id': 'A1-U108C-017', 'greek': '— Αυτό το παλτό ταιριάζει πολύ με τις μπότες σας. — Ναι, είναι πάρα πολύ όμορφο!', 'phonetic_hint': '— af-TOH toh pahl-TOH teh-ree-AH-zee poh-LEE meh tees BOH-tes sahs. — Neh, EE-neh PAH-rah poh-LEE OH-mor-foh!', 'english': '— This coat matches your boots very well. — Yes, it is very beautiful!', 'notes': "Review Unit 108. Coordinating clothing items with 'ταιριάζει με' (matches with).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Ταιριάζει το πουκάμισο με τη ζώνη; — Ναι, έχουν ακριβώς το ίδιο χρώμα.', 'example_en': '— Does the shirt match the belt? — Yes, they have exactly the same color.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Coordinating apparel items and matching colors'}, {'id': 'A1-U108C-018', 'greek': '— Θέλω να δοκιμάσω και εκείνη την πράσινη ζακέτα. — Ορίστε, πάρτε την στο δοκιμαστήριο.', 'phonetic_hint': '— THEH-loh nah thoh-kee-MAH-soh keh eh-KEE-nee teen PRAH-see-nee zah-KEH-tah. — oh-REES-teh, PAHR-teh teen stoh thoh-kee-mah-STEE-ree-oh.', 'english': '— I want to try on that green cardigan as well. — Here you are, take it into the fitting room.', 'notes': "Review Unit 108. Expressing desires with 'θέλω να δοκιμάσω' and selecting specific knitwear ('ζακέτα').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Σας αρέσει η ζακέτα; — Ναι, είναι πολύ ζεστή και όμορφη.', 'example_en': '— Do you like the cardigan? — Yes, it is very warm and nice.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Selecting additional garments to test in the fitting room'}, {'id': 'A1-U108C-019', 'greek': '— Αυτό το τζιν μου είναι πολύ στενό. — Δοκιμάστε το νούμερο σαράντα ένα.', 'phonetic_hint': '— af-TOH toh tzeen moo EE-neh poh-LEE steh-NOH. — thoh-kee-MAH-steh toh NOO-meh-roh sah-RAHN-dah EH-nah.', 'english': '— These jeans are too tight on me. — Try size forty-one.', 'notes': 'Review Unit 108. Specifying cardinal numbers for clothing sizes in retail interactions.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Σου είναι στενό το παντελόνι; — Ναι, μου είναι λίγο στενό.', 'example_en': '— Are the pants tight on you? — Yes, they are a little tight on me.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Stating sizing difficulties and testing specific alternative sizes'}, {'id': 'A1-U108C-020', 'greek': '— Αυτή η γραβάτα πηγαίνει με το κοστούμι μου; — Ναι, ταιριάζει πολύ με το λευκό πουκάμισο.', 'phonetic_hint': '— af-TEE ee ghrah-VAH-tah pee-YEH-nee meh toh koh-STOO-mee moo? — Neh, teh-ree-AH-zee poh-LEE meh toh lef-KOH poo-KAH-mee-soh.', 'english': '— Does this tie go with my suit? — Yes, it matches the white shirt very well.', 'notes': "Review Unit 108. Formal wear vocabulary: 'κοστούμι' (suit), 'γραβάτα' (tie), 'πουκάμισο' (shirt).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Ποια γραβάτα φοράς; — Φοράω τη μπλε γραβάτα.', 'example_en': '— Which tie are you wearing? — I am wearing the blue tie.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking for advice on formal attire and color coordination'}, {'id': 'A1-U108C-021', 'greek': '— Πόσο κοστίζει αυτό το ζευγάρι παπούτσια; — Κοστίζει ογδόντα ευρώ.', 'phonetic_hint': '— POH-soh koh-STEE-zee af-TOH toh zev-GHAH-ree pah-POO-tsyah? — Koh-STEE-zee ogh-THOHN-dah ev-ROH.', 'english': '— How much does this pair of shoes cost? — It costs eighty euros.', 'notes': "Review Unit 108. Using the verb 'κοστίζω' (to cost) alongside numbers in tens ('ογδόντα').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Πόσο κάνουν οι μπότες; — Κάνουν ενενήντα ευρώ.', 'example_en': '— How much are the boots? — They are ninety euros.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking the cost of shoes and understanding numerical prices'}, {'id': 'A1-U108C-022', 'greek': '— Στις εκπτώσεις όλα τα είδη έχουν έκπτωση είκοσι τοις εκατό; — Ναι, όλα τα ρούχα έχουν έκπτωση.', 'phonetic_hint': '— stees ehk-PTOH-sees OH-lah tah EE-thee EH-khoon EHK-ptoh-see EE-koh-see tees eh-kah-TOH? — Neh, OH-lah tah ROO-khah EH-khoon EHK-ptoh-see.', 'english': '— During sales do all items have a twenty percent discount? — Yes, all clothes have a discount.', 'notes': "Review Unit 108. Seasonal sales vocabulary: 'εκπτώσεις' (sales) and percentages ('τοις εκατό').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Έχει έκπτωση αυτό το μπουφάν; — Ναι, έχει τριάντα τοις εκατό έκπτωση.', 'example_en': '— Does this jacket have a discount? — Yes, it has a thirty percent discount.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Inquiring about sale percentages and promotional discounts'}, {'id': 'A1-U108C-023', 'greek': '— Πού είναι το ταμείο, παρακαλώ; — Το ταμείο είναι εκεί, δίπλα στην είσοδο.', 'phonetic_hint': '— POU EE-neh toh tah-MEE-oh, pah-rah-kah-LOH? — Toh tah-MEE-oh EE-neh eh-KEE, THEE-plah steen EE-soh-thoh.', 'english': '— Where is the checkout counter, please? — The checkout counter is there, next to the entrance.', 'notes': "Review Unit 108. Locating the checkout counter ('ταμείο') in retail shops.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Εκείνοι οι πελάτες περιμένουν στην ουρά για το ταμείο. — Ναι, έχει κόσμο σήμερα.', 'example_en': '— Those customers are waiting in line for the checkout. — Yes, it is crowded today.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Inquiring about cashier location and waiting in line'}, {'id': 'A1-U108C-024', 'greek': '— Πληρώνετε με μετρητά ή προτιμάτε κάρτα; — Θα πληρώσω με πιστωτική κάρτα.', 'phonetic_hint': '— plee-ROH-neh-teh meh meh-tree-TAH ee proh-tee-MAH-teh KAHR-tah? — Thah plee-ROH-soh meh pee-stoh-tee-KEE KAHR-tah.', 'english': '— Are you paying in cash or do you prefer card? — I will pay with a credit card.', 'notes': "Review Unit 108. Payment methods: 'μετρητά' (cash) vs 'πιστωτική κάρτα' (credit card) and Future 'θα πληρώσω'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Μπορώ να πληρώσω με μετρητά; — Βεβαίως, ορίστε τα ρέστα σας.', 'example_en': '— Can I pay in cash? — Certainly, here is your change.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Selecting and communicating payment methods at the register'}, {'id': 'A1-U108C-025', 'greek': '— Ορίστε τα ρέστα σας και η απόδειξη αγοράς. — Ευχαριστώ πολύ, καλή σας μέρα!', 'phonetic_hint': '— oh-REES-teh tah REH-stah sahs keh ee ah-POH-theek-see ah-ghoh-RAHS. — Ef-khah-ree-STOH poh-LEE, kah-LEE sahs MEH-rah!', 'english': '— Here is your change and the purchase receipt. — Thank you very much, have a nice day!', 'notes': "Review Unit 108. Receiving change ('ρέστα') and receipt ('απόδειξη') at checkout.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θέλετε τσάντα για τα ψώνια σας; — Ναι, παρακαλώ, τα βάζω στην τσάντα μου.', 'example_en': "— Do you want a bag for your shopping? — Yes, please, I'll put them in my bag.", 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Concluding a retail transaction, receiving receipts and change'}, {'id': 'A1-U108C-026', 'greek': '— Κρατήστε την απόδειξη σε περίπτωση που θέλετε αλλαγή. — Πόσο χρόνο έχω για την αλλαγή; — Έχετε δεκαπέντε μέρες.', 'phonetic_hint': '— krah-TEE-steh teen ah-POH-theek-see seh peh-REE-ptoh-see poo THEH-leh-teh ah-lah-YEE. — POH-soh KHROH-noh EH-khoh yah teen ah-lah-YEE? — EH-kheh-teh theh-kah-PEN-deh MEH-res.', 'english': '— Keep the receipt in case you want an exchange. — How much time do I have for an exchange? — You have fifteen days.', 'notes': "Review Unit 108. Store exchange policy: 'αλλαγή' (exchange) and return window.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Μπορώ να κάνω αλλαγή; — Ναι, με την απόδειξη αγοράς.', 'example_en': '— Can I make an exchange? — Yes, with the purchase receipt.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing store return and exchange policies'}, {'id': 'A1-U108C-027', 'greek': '— Θα πάρω αυτό το πουκάμισο και εκείνο το παντελόνι. — Πολύ ωραία, περάστε στο ταμείο.', 'phonetic_hint': '— thah PAH-roh af-TOH toh poo-KAH-mee-soh keh eh-KEE-noh toh pahn-deh-LOH-nee. — Poh-LEE oh-REH-ah, peh-RAH-steh stoh tah-MEE-oh.', 'english': '— I will take this shirt and those pants. — Very well, proceed to the register.', 'notes': "Review Unit 108. Stating buying decisions with 'θα πάρω' and demonstrative contrast.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι αγοράζει η Μαρία στην αγορά; — Αγοράζει δύο μπλούζες και ένα τζιν.', 'example_en': '— What is Maria buying at the market? — She is buying two tops and a pair of jeans.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Deciding on purchases and proceeding to checkout'}, {'id': 'A1-U108C-028', 'greek': '— Με γεια τα καινούρια σου ρούχα! — Σε ευχαριστώ πάρα πολύ, μου αρέσουν πολύ!', 'phonetic_hint': '— meh YAH tah keh-NOOR-yah soo ROO-khah! — Seh ef-khah-ree-STOH PAH-rah poh-LEE, moo ah-REH-soon poh-LEE!', 'english': '— Wear your new clothes in good health! — Thank you very much, I like them a lot!', 'notes': "Review Unit 108. Greek idiomatic social congratulation for new belongings: 'Με γεια!'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Με γεια το νέο σου παλτό! — Ευχαριστώ, είναι πολύ ζεστό.', 'example_en': '— Wear your new coat in good health! — Thank you, it is very warm.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': "Exchanging traditional congratulations ('με γεια') for new purchases"}, {'id': 'A1-U108C-029', 'greek': '— Τι θα κάνεις το Σαββατοκύριακο; — Το Σάββατο θα πάω για ψώνια και την Κυριακή θα ξεκουραστώ.', 'phonetic_hint': '— tee thah KAH-nees toh sah-vah-toh-KEE-ryah-koh? — Toh SAH-vah-toh thah PAH-oh yah PSOH-nyah keh teen kee-ryah-KEE thah kseh-koo-rah-STOH.', 'english': '— What will you do over the weekend? — On Saturday I will go shopping and on Sunday I will rest.', 'notes': "Review Unit 108. Simple Future: 'θα κάνεις', 'θα πάω', 'θα ξεκουραστώ'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα βγεις έξω απόψε; — Όχι, απόψε θα μείνω στο σπίτι.', 'example_en': '— Will you go out tonight? — No, tonight I will stay at home.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking about and describing weekend plans using the simple future'}, {'id': 'A1-U108C-030', 'greek': '— Το βράδυ θα φάμε σε μια παραδοσιακή ταβέρνα. — Τέλεια ιδέα! Τι ώρα θα πάμε;', 'phonetic_hint': '— toh VRAH-thee thah FAH-meh seh myah pah-rah-thoh-syah-KEE tah-VEHR-nah. — TEH-lyah ee-THEH-ah! tee OH-rah thah PAH-meh?', 'english': '— Tonight we will eat at a traditional tavern. — Great idea! What time will we go?', 'notes': "Review Unit 108. Simple Future in first-person plural: 'θα φάμε' (we will eat), 'θα πάμε' (we will go).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα φάμε ψάρι; — Ναι, θα φάμε ψάρι και σαλάτα.', 'example_en': '— Will we eat fish? — Yes, we will eat fish and salad.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Planning social dining outings and setting meetup times in the future'}, {'id': 'A1-U108C-031', 'greek': '— Την επόμενη εβδομάδα θα αγοράσω καινούρια παπούτσια. — Θέλεις να πάμε μαζί στο πολυκατάστημα;', 'phonetic_hint': '— teen eh-POH-meh-nee ehv-thoh-MAH-thah thah ah-ghoh-RAH-soh keh-NOOR-yah pah-POO-tsyah. — THEH-lees nah PAH-meh mah-ZEE stoh poh-lee-kah-TAH-stee-mah?', 'english': '— Next week I will buy new shoes. — Do you want us to go together to the department store?', 'notes': "Review Unit 108. Time expressions with 'την επόμενη εβδομάδα' and Future 'θα αγοράσω'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Πότε θα πας για ψώνια; — Θα πάω το Σάββατο το πρωί.', 'example_en': '— When will you go shopping? — I will go on Saturday morning.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Scheduling future purchases and shopping companionship'}, {'id': 'A1-U108C-032', 'greek': '— Θα μείνουμε στο σπίτι γιατί κάνει πολύ κρύο. — Ναι, ανάβουμε το τζάκι και μένουμε μέσα.', 'phonetic_hint': '— thah MEE-noo-meh stoh SPEE-tee yah-TEE KAH-nee poh-LEE KREE-oh. — Neh, ah-NAH-voo-meh toh TZAH-kee keh MEH-noo-meh MEH-sah.', 'english': "— We will stay at home because it is very cold. — Yes, let's light the fireplace and stay inside.", 'notes': "Review Unit 108. Future 'θα μείνουμε' (we will stay) with weather reason ('κάνει πολύ κρύο').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Βρέχει έξω; — Ναι, βρέχει και κάνει κρύο, μένουμε στο σπίτι.', 'example_en': '— Is it raining outside? — Yes, it is raining and cold, we are staying home.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Justifying plans to stay indoors based on cold weather'}, {'id': 'A1-U108C-033', 'greek': '— Σε λίγο θα πιούμε έναν ζεστό καφέ. — Ωραία, θα φτιάξω καφέ για όλους μας στην κουζίνα.', 'phonetic_hint': '— seh LEE-ghoh thah PYOO-meh EH-nahn zeh-STOH kah-FEH. — oh-REH-ah, thah FTYAH-ksoh kah-FEH yah OH-loos mahs steen koo-ZEE-nah.', 'english': '— In a little while we will drink a hot coffee. — Great, I will make coffee for all of us in the kitchen.', 'notes': "Review Unit 108. Future tense: 'θα πιούμε' (we will drink), 'θα φτιάξω' (I will make/prepare).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα πιούμε καφέ; — Ναι, παρακαλώ, έναν ζεστό καφέ.', 'example_en': '— Shall we drink coffee? — Yes, please, a hot coffee.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Proposing and preparing hot beverages for a group'}, {'id': 'A1-U108C-034', 'greek': '— Αύριο το πρωί θα δω τη φίλη μου στο κέντρο. — Πού θα πάτε; — Στην πλατεία Αριστοτέλους.', 'phonetic_hint': '— AHV-ree-oh toh proh-EE thah thoh tee FEE-lee moo stoh KEN-droh. — POU thah PAH-teh? — Steen plah-TEE-ah ah-ree-stoh-TEH-loos.', 'english': '— Tomorrow morning I will see my friend downtown. — Where will you go? — To Aristotelous Square.', 'notes': "Review Unit 108. Future 'θα δω' (I will see) and naming prominent meeting spots in Thessaloniki.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι ώρα θα πάτε; — Στις έντεκα το πρωί.', 'example_en': '— What time will you go? — At eleven in the morning.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Arranging to meet a friend at a central city square'}, {'id': 'A1-U108C-035', 'greek': '— Του χρόνου θα ταξιδέψουμε στην Ελλάδα για διακοπές. — Σε ποια πόλη θα πάτε; — Θα πάμε στα Χανιά.', 'phonetic_hint': '— too KHROH-noo thah tah-ksee-THEH-psoo-meh steen eh-LAH-thah yah thee-ah-koh-PES. — Seh PYA POH-lee thah PAH-teh? — Thah PAH-meh stah khah-NYAH.', 'english': '— Next year we will travel to Greece for vacation. — Which city will you go to? — We will go to Chania.', 'notes': "Review Unit 108. Future 'θα ταξιδέψουμε' (we will travel) and holiday destination inquiries.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Πώς θα πάτε; — Θα πάρουμε το πλοίο από τον Πειραιά.', 'example_en': '— How will you get there? — We will take the ferry from Piraeus.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing future holiday travel plans and destinations in Greece'}, {'id': 'A1-U108C-036', 'greek': '— Τι φοράς στη γιορτή; — Φοράω το μαύρο μου κοστούμι με λευκό πουκάμισο.', 'phonetic_hint': '— tee foh-RAHS stee yohr-TEE? — Foh-RAH-oh toh MAH-vroh moo koh-STOO-mee meh lef-KOH poo-KAH-mee-soh.', 'english': '— What are you wearing to the celebration? — I am wearing my black suit with a white shirt.', 'notes': 'Review Unit 108. Describing formal party outfits with colors and garment names.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Η Μαρία τι φοράει; — Φοράει ένα όμορφο κόκκινο φόρεμα.', 'example_en': '— What is Maria wearing? — She is wearing a beautiful red dress.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Describing what one is wearing for a party or festive occasion'}, {'id': 'A1-U108C-037', 'greek': '— Το Σάββατο έχω τα γενέθλιά μου και κάνω πάρτι στο σπίτι. — Χρόνια πολλά! Να είσαι πάντα καλά!', 'phonetic_hint': '— toh SAH-vah-toh EH-khoh tah yeh-NEH-thlyah moo keh KAH-noh PAHR-tee stoh SPEE-tee. — KHROH-nyah poh-LAH! Nah EE-seh PAHN-dah kah-LAH!', 'english': '— On Saturday is my birthday and I am throwing a party at home. — Happy birthday! May you always be well!', 'notes': "Review Unit 108. Birthday vocabulary: 'γενέθλια' (birthday), 'κάνω πάρτι' (throw a party), and wishing 'Χρόνια πολλά!'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Χρόνια πολλά για τα γενέθλιά σου! — Σε ευχαριστώ πάρα πολύ!', 'example_en': '— Happy birthday on your birthday! — Thank you very much!', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Announcing a birthday party and exchanging birthday congratulations'}, {'id': 'A1-U108C-038', 'greek': '— Θέλεις να έρθεις μαζί με την παρέα σου στη γιορτή μας; — Με μεγάλη μου χαρά να έρθω!', 'phonetic_hint': '— THEH-lees nah EHR-thees mah-ZEE meh teen pah-REH-ah soo stee yohr-TEE mahs? — Meh meh-GHAH-lee moo khah-RAH nah EHR-thoh!', 'english': "— Do you want to come along with your group of friends to our celebration? — With great pleasure I'd love to come!", 'notes': "Review Unit 108. Extending party invitations to a group ('παρέα') and enthusiastic acceptance.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα έρθεις στο πάρτι; — Ναι, βέβαια, θα έρθω με την αδελφή μου.', 'example_en': '— Will you come to the party? — Yes, of course, I will come with my sister.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Extending and accepting party invitations warmly'}, {'id': 'A1-U108C-039', 'greek': '— Τι ώρα αρχίζει το πάρτι το βράδυ; — Αρχίζει στις εννέα, θα έχουμε μουσική και φαγητό.', 'phonetic_hint': '— tee OH-rah ahr-KHEE-zee toh PAHR-tee toh VRAH-thee? — Ahr-KHEE-zee stees eh-NEH-ah, thah EH-khoo-meh moo-see-KEE keh fah-yee-TOH.', 'english': '— What time does the party start tonight? — It starts at nine, we will have music and food.', 'notes': 'Review Unit 108. Inquiring about party start times and describing party amenities.', 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Θα έχει πολλούς καλεσμένους; — Ναι, θα έρθουν όλοι οι φίλοι μας.', 'example_en': '— Will there be many guests? — Yes, all our friends will come.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Asking party schedule times and describing party entertainment'}, {'id': 'A1-U108C-040', 'greek': '— Θέλω να αγοράσω ένα όμορφο δώρο για τον Νίκο. — Πάρε του ένα καλό βιβλίο ή ένα πουκάμισο.', 'phonetic_hint': '— THEH-loh nah ah-ghoh-RAH-soh EH-nah OH-mor-foh THOH-roh yah ton NEE-koh. — PAH-reh too EH-nah kah-LOH vee-VLEE-oh ee EH-nah poo-KAH-mee-soh.', 'english': '— I want to buy a nice gift for Nikos. — Get him a good book or a shirt.', 'notes': "Review Unit 108. Gift giving ('δώρο') and making suggestions with imperative 'πάρε του'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Τι δώρο θα του πάρουμε; — Θα του πάρουμε μια δερμάτινη τσάντα.', 'example_en': '— What gift will we get him? — We will get him a leather bag.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing and suggesting gifts for friends and celebrations'}, {'id': 'A1-U108C-041', 'greek': '— Θα πάρω γλυκά για το πάρτι. — Τι γλυκά θα πάρεις; — Θα πάρω σοκολάτες και γλυκά.', 'phonetic_hint': '— thah PAH-roh ghlee-KAH yah toh PAHR-tee. — tee ghlee-KAH thah PAH-rees? — Thah PAH-roh soh-koh-LAH-tes keh ghlee-KAH.', 'english': '— I will bring sweets for the party. — What sweets will you get? — I will get chocolates and sweets.', 'notes': "Review Unit 108. Party food vocabulary: 'γλυκά' (sweets, desserts), 'σοκολάτες' (chocolates).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Έχει γλυκά στο τραπέζι; — Ναι, έχει πολλά νόστιμα γλυκά.', 'example_en': '— Are there sweets on the table? — Yes, there are many delicious sweets.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Planning party refreshments and confectionery'}, {'id': 'A1-U108C-042', 'greek': '— Στολίζουμε το σπίτι για τη γιορτή; — Ναι, βάζουμε πολύχρωμα φωτάκια και στολίδια.', 'phonetic_hint': '— stoh-LEE-zoo-meh toh SPEE-tee yah tee yohr-TEE? — Neh, VAH-zoo-meh poh-LEE-khroh-mah foh-TAH-kyah keh stoh-LEE-thyah.', 'english': "— Shall we decorate the house for the party? — Yes, let's put up colorful lights and decorations.", 'notes': "Review Unit 108. Decorating vocabulary: 'στολίζω' (decorate), 'φωτάκια' (lights), 'στολίδια' (ornaments).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Ποιος στολίζει το τραπέζι; — Εμείς στολίζουμε το τραπέζι με λουλούδια.', 'example_en': '— Who is decorating the table? — We are decorating the table with flowers.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Decorating a home for celebrations and social gatherings'}, {'id': 'A1-U108C-043', 'greek': '— Σας ευχαριστώ πολύ για την πρόσκληση! — Παρακαλώ, χάρηκα πολύ που είστε εδώ μαζί μας!', 'phonetic_hint': '— sahs ef-khah-ree-STOH poh-LEE yah teen PROHS-klee-see! — Pah-rah-kah-LOH, KHAH-ree-kah poh-LEE poo EE-steh eh-THOH mah-ZEE mahs!', 'english': "— Thank you very much for the invitation! — You're welcome, I'm delighted you are here with us!", 'notes': "Review Unit 108. Expressing gratitude for hospitality and invitations ('πρόσκληση').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Περνάμε πολύ όμορφα στο πάρτι με πολλή μουσική! — Κι εμείς χαρήκαμε πολύ!', 'example_en': '— We are having a wonderful time at the party with lots of music! — We are very glad too!', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Thanking a host for an invitation and expressing hospitality'}, {'id': 'A1-U108C-044', 'greek': '— Πότε είναι η γιορτή σου; — Η ονομαστική μου γιορτή είναι τον χειμώνα.', 'phonetic_hint': '— POH-teh EE-neh ee yohr-TEE soo? — Ee oh-noh-mah-stee-KEE moo yohr-TEE EE-neh ton khee-MOH-nah.', 'english': '— When is your celebration? — My name day is in the winter.', 'notes': "Review Unit 108. Greek cultural tradition of the name day ('ονομαστική γιορτή').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Κάνεις πάρτι για τη γιορτή σου; — Ναι, καλώ όλους τους φίλους μου στο σπίτι.', 'example_en': '— Are you having a party for your name day? — Yes, I am inviting all my friends to my home.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing name days and annual celebrations'}, {'id': 'A1-U108C-045', 'greek': '— Καλά Χριστούγεννα και καλή χρονιά σε όλη την οικογένεια! — Επίσης, χρόνια πολλά με υγεία και αγάπη!', 'phonetic_hint': '— kah-LAH khree-STOO-yeh-nah keh kah-LEE khroh-NYAH seh OH-lee teen ee-koh-YEH-nyah! — Eh-PEE-sees, KHROH-nyah poh-LAH meh ee-YEE-ah keh ah-GHAH-pee!', 'english': '— Merry Christmas and Happy New Year to the whole family! — Likewise, happy holidays with health and love!', 'notes': "Review Unit 108. Traditional Greek Christmas and New Year wishes ('Καλά Χριστούγεννα', 'Καλή χρονιά').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Στολίζετε το χριστουγεννιάτικο δέντρο; — Ναι, το στολίζουμε με μπάλες και φωτάκια.', 'example_en': '— Do you decorate the Christmas tree? — Yes, we decorate it with baubles and lights.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Exchanging Christmas and New Year holiday wishes and blessings'}, {'id': 'A1-U108C-046', 'greek': '— Χρόνια πολλά για την ονομαστική σου γιορτή! — Σε ευχαριστώ πολύ, να είσαι πάντα καλά!', 'phonetic_hint': '— KHROH-nyah poh-LAH yah teen oh-noh-mah-stee-KEE soo yohr-TEE! — Seh ef-khah-ree-STOH poh-LEE, nah EE-seh PAHN-dah kah-LAH!', 'english': '— Happy Name Day! — Thank you very much, may you always be well!', 'notes': "Review Unit 108. Congratulating someone on their name day ('Χρόνια πολλά για την ονομαστική σου γιορτή').", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Να χαίρεσαι το όνομά σου! — Ευχαριστώ για τις ευχές σου!', 'example_en': '— May you rejoice in your name! — Thank you for your wishes!', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Offering and replying to traditional Greek name day blessings'}, {'id': 'A1-U108C-047', 'greek': '— Καλό Πάσχα και καλή Ανάσταση με υγεία! — Επίσης, καλό Πάσχα σε σας και στην οικογένειά σας!', 'phonetic_hint': '— kah-LOH PAH-skhah keh kah-LEE ah-NAH-stah-see meh ee-YEE-ah! — Eh-PEE-sees, kah-LOH PAH-skhah seh sahs keh steen ee-koh-YEH-nyah sahs!', 'english': '— Happy Easter and joyful Resurrection with good health! — Likewise, Happy Easter to you and your family!', 'notes': "Review Unit 108. Traditional Easter holiday greetings: 'Καλό Πάσχα και καλή Ανάσταση'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Πού θα κάνετε Πάσχα φέτος; — Θα πάμε στο χωριό με τους γονείς μας.', 'example_en': '— Where will you spend Easter this year? — We will go to the village with our parents.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Exchanging traditional Easter greetings and resurrection wishes'}, {'id': 'A1-U108C-048', 'greek': '— Και του χρόνου με υγεία, να είμαστε πάντα όλοι καλά! — Και του χρόνου, να είμαστε πάντα μαζί!', 'phonetic_hint': '— keh too KHROH-noo meh ee-YEE-ah, nah EE-mah-steh PAHN-dah OH-lee kah-LAH! — Keh too KHROH-noo, nah EE-mah-steh PAHN-dah mah-ZEE!', 'english': '— And to next year in good health, may we all always be well! — And to next year, may we always be together!', 'notes': "Review Unit 108. Traditional recurring holiday toast and wish: 'Και του χρόνου!'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Καλή χρονιά σε όλους! — Χρόνια πολλά με υγεία!', 'example_en': '— Happy New Year to everyone! — Many happy returns with health!', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': "Making traditional annual wishes ('και του χρόνου') at family gatherings"}, {'id': 'A1-U108C-049', 'greek': '— Πού θα πάτε για τις διακοπές των Χριστουγέννων; — Θα πάμε στο βουνό για το χιόνι.', 'phonetic_hint': '— POU thah PAH-teh yah tees thee-ah-koh-PES ton khree-stoo-YEH-non? — Thah PAH-meh stoh voo-NOH yah toh KHYOH-nee.', 'english': '— Where will you go for the Christmas holidays? — We will go to the mountain for the snow.', 'notes': "Review Unit 108. Discussing winter holiday trips with 'διακοπές των Χριστουγέννων' and 'χιόνι'.", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Έχει χιόνι στο βουνό; — Ναι, χιονίζει συνέχεια και είναι πολύ όμορφα.', 'example_en': '— Is there snow on the mountain? — Yes, it is snowing constantly and it is very beautiful.', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Discussing Christmas holiday destinations and seasonal mountain trips'}, {'id': 'A1-U108C-050', 'greek': '— Σας ευχαριστώ πολύ για όλα! — Παρακαλώ, χάρηκα πολύ, καλή συνέχεια και καλές γιορτές!', 'phonetic_hint': '— sahs ef-khah-ree-STOH poh-LEE yah OH-lah! — Pah-rah-kah-LOH, KHAH-ree-kah poh-LEE, kah-LEE soo-NEH-khee-ah keh kah-LES yohr-TES!', 'english': "— Thank you very much for everything! — You're welcome, it was a pleasure, have a great time and happy holidays!", 'notes': "Review Unit 108. Comprehensive parting wishes: 'καλή συνέχεια' (all the best / have a good continuation) and 'καλές γιορτές' (happy holidays).", 'gender_or_pos': 'phrase', 'audio': None, 'status': 'pending_tts', 'example_el': '— Καλές γιορτές σε όλους! — Ευχαριστούμε, καλές γιορτές και καλό ταξίδι!', 'example_en': '— Happy holidays to everyone! — Thank you, happy holidays and safe travels!', 'grammatical_info': {'part_of_speech': 'phrase'}, 'keg_communicative_function': 'Offering parting greetings and general holiday wishes at festive occasions'}]
+allowed_fillers = {
+    "λοιπόν", "εντάξει", "βέβαια", "φυσικά", "συγγνώμη", "ορίστε",
+    "αμέσως", "μήπως", "βεβαίως", "ναι", "όχι"
+}
+
+units_108 = [
+    "unit-100", "unit-101", "unit-102", "unit-102b", "unit-103", "unit-103b",
+    "unit-104", "unit-104b", "unit-105", "unit-105b", "unit-105c",
+    "unit-106", "unit-106b", "unit-106c", "unit-107", "unit-107b", "unit-107c",
+    "unit-108", "unit-108b"
+]
+
+cards_u108c = [
+    # --- 1. Greengrocer & Open-Air Market (001-010) ---
+    {
+        "id": "A1-U108C-001",
+        "greek": "— Καλημέρα σας, τι θα πάρετε σήμερα; — Καλημέρα, θέλω ένα κιλό ντομάτες και μισό κιλό αγγούρια.",
+        "phonetic_hint": "— Kah-lee-MEH-rah sahs, tee thah PAH-reh-teh SEE-meh-rah? — Kah-lee-MEH-rah, THEH-loh EH-nah kee-LOH doh-MAH-tes keh mee-SOH kee-LOH ahng-GOO-ryah.",
+        "english": "— Good morning, what will you have today? — Good morning, I want one kilo of tomatoes and half a kilo of cucumbers.",
+        "notes": "Review Unit 108. Produce market transaction with quantities 'ένα κιλό' and 'μισό κιλό'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι άλλο θέλετε από τον μανάβη; — Θέλω δύο κιλά πατάτες και ένα κιλό κρεμμύδια.",
+        "example_en": "— What else do you want from the greengrocer? — I want two kilos of potatoes and one kilo of onions.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Purchasing produce and stating quantities at the greengrocer"
+    },
+    {
+        "id": "A1-U108C-002",
+        "greek": "— Πόσο κάνουν οι ντομάτες το κιλό; — Κάνουν δύο ευρώ το κιλό, είναι πολύ φρέσκες.",
+        "phonetic_hint": "— POH-soh KAH-noon ee doh-MAH-tes toh kee-LOH? — KAH-noon THEE-oh ev-ROH toh kee-LOH, EE-neh poh-LEE FREH-skes.",
+        "english": "— How much are the tomatoes per kilo? — They are two euros per kilo, they are very fresh.",
+        "notes": "Review Unit 108. Inquiring about price per kilogram ('το κιλό').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνουν τα πορτοκάλια; — Κάνουν ένα ευρώ και πενήντα λεπτά το κιλό.",
+        "example_en": "— How much are the oranges? — They are one euro and fifty cents per kilo.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Asking and answering about food item unit prices"
+    },
+    {
+        "id": "A1-U108C-003",
+        "greek": "— Θέλετε και μερικά φρέσκα φρούτα; — Ναι, βάλτε μου μερικές μπανάνες και τέσσερα μήλα.",
+        "phonetic_hint": "— THEH-leh-teh keh meh-ree-KAH FREH-skah FROO-tah? — Neh, VAHL-teh moo meh-ree-KES bah-NAH-nes keh TEH-seh-rah MEE-lah.",
+        "english": "— Would you also like some fresh fruit? — Yes, put a few bananas and four apples for me.",
+        "notes": "Review Unit 108. Indefinite adjective 'μερικοί, μερικές, μερικά' with fruit nouns.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχετε μήλα σήμερα; — Ναι, έχουμε πολύ νόστιμα μήλα.",
+        "example_en": "— Do you have apples today? — Yes, we have very tasty apples.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting fruit quantities using indefinite determiners"
+    },
+    {
+        "id": "A1-U108C-004",
+        "greek": "— Είναι γλυκά τα ροδάκινα και τα σταφύλια; — Ναι, είναι πολύ γλυκά και νόστιμα!",
+        "phonetic_hint": "— EE-neh glee-KAH tah roh-THAH-kee-nah keh tah stah-FEE-lyah? — Neh, EE-neh poh-LEE glee-KAH keh NOH-stee-mah!",
+        "english": "— Are the peaches and grapes sweet? — Yes, they are very sweet and tasty!",
+        "notes": "Review Unit 108. Adjectives 'γλυκός' and 'νόστιμος'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλεις ένα ροδάκινο ή ένα αχλάδι; — Θέλω ένα γλυκό ροδάκινο, ευχαριστώ.",
+        "example_en": "— Do you want a peach or a pear? — I want a sweet peach, thank you.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring about produce ripeness and taste quality"
+    },
+    {
+        "id": "A1-U108C-005",
+        "greek": "— Χρειάζεστε λεμόνια για τη σαλάτα; — Ναι, παρακαλώ, βάλτε μου ένα κιλό φρέσκα λεμόνια.",
+        "phonetic_hint": "— Khree-AH-zeh-steh leh-MOH-nyah yah tee sah-LAH-tah? — Neh, pah-rah-kah-LOH, VAHL-teh moo EH-nah kee-LOH FREH-skah leh-MOH-nyah.",
+        "english": "— Do you need lemons for the salad? — Yes, please, put one kilo of fresh lemons for me.",
+        "notes": "Review Unit 108. Verb 'χρειάζομαι' with salad ingredients.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχουμε λεμόνια στο σπίτι; — Όχι, δεν έχουμε κανένα λεμόνι στο ψυγείο.",
+        "example_en": "— Do we have lemons at home? — No, we do not have a single lemon in the fridge.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Confirming grocery needs and specifying ingredients"
+    },
+    {
+        "id": "A1-U108C-006",
+        "greek": "— Πού είναι η λαϊκή αγορά σήμερα; — Είναι στον δρόμο κοντά στην πλατεία.",
+        "phonetic_hint": "— POO EE-neh ee lah-ee-KEE ah-goh-RAH SEE-meh-rah? — EE-neh ston THROH-moh kon-DAH steen plah-TEE-ah.",
+        "english": "— Where is the open-air market today? — It is on the street near the square.",
+        "notes": "Review Units 102 & 108. Locating the weekly farmer's market ('λαϊκή αγορά').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε έχει λαϊκή αγορά στη γειτονιά σας; — Έχει κάθε Δευτέρα πρωί.",
+        "example_en": "— When is there an open-air market in your neighborhood? — There is one every Monday morning.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring about location and schedule of local open-air markets"
+    },
+    {
+        "id": "A1-U108C-007",
+        "greek": "— Έχετε φρέσκο μαρούλι και καρότα; — Βεβαίως, ορίστε ένα πολύ φρέσκο μαρούλι και μισό κιλό καρότα.",
+        "phonetic_hint": "— EH-kheh-teh FREH-skoh mah-ROO-lee keh kah-ROH-tah? — Veh-VEH-ohs, oh-REES-teh EH-nah poh-LEE FREH-skoh mah-ROO-lee keh mee-SOH kee-LOH kah-ROH-tah.",
+        "english": "— Do you have fresh lettuce and carrots? — Certainly, here is a very fresh lettuce and half a kilo of carrots.",
+        "notes": "Review Unit 108. Polite vendor response with 'βεβαίως' and 'ορίστε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θα πάρετε και λάχανο σήμερα; — Όχι, σήμερα δεν θέλω λάχανο, ευχαριστώ.",
+        "example_en": "— Will you take cabbage today as well? — No, today I do not want cabbage, thank you.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Checking produce availability and accepting vendor selections"
+    },
+    {
+        "id": "A1-U108C-008",
+        "greek": "— Θέλετε πράσινες ή κόκκινες πιπεριές; — Θέλω δύο πράσινες πιπεριές και ένα κεφάλι σκόρδο.",
+        "phonetic_hint": "— THEH-leh-teh PRAH-see-nes ee KOH-kee-nes pee-peh-RYES? — THEH-loh THEE-oh PRAH-see-nes pee-peh-RYES keh EH-nah keh-FAH-lee SKOR-thoh.",
+        "english": "— Do you want green or red peppers? — I want two green peppers and a bulb of garlic.",
+        "notes": "Review Unit 108. Selecting vegetables by color with 'πιπεριά' and 'σκόρδο'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Βάζεις σκόρδο στη σάλτσα; — Ναι, βάζω πάντα λίγο σκόρδο για γεύση.",
+        "example_en": "— Do you put garlic in the sauce? — Yes, I always add a little garlic for flavor.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Specifying color and variety preferences for vegetables"
+    },
+    {
+        "id": "A1-U108C-009",
+        "greek": "— Πόσο θέλετε να σας βάλω από τις μαύρες ελιές; — Βάλτε μου μισό κιλό, παρακαλώ.",
+        "phonetic_hint": "— POH-soh THEH-leh-teh nah sahs VAH-loh ah-POH tees MAH-vres eh-LYES? — VAHL-teh moo mee-SOH kee-LOH, pah-rah-kah-LOH.",
+        "english": "— How much do you want me to put for you of the black olives? — Put half a kilo for me, please.",
+        "notes": "Review Unit 108. Inquiring quantity with 'πόσο' and specifying 'μισό κιλό'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσουν οι πράσινες ελιές; — Μου αρέσουν πολύ οι πράσινες και οι μαύρες ελιές.",
+        "example_en": "— Do you like green olives? — I like green and black olives very much.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Specifying weight quantities for olives at the produce market"
+    },
+    {
+        "id": "A1-U108C-010",
+        "greek": "— Θέλετε τίποτα άλλο από τη λαϊκή; — Όχι, εντάξει, αυτά είναι όλα για σήμερα.",
+        "phonetic_hint": "— THEH-leh-teh TEE-poh-tah AH-loh ah-POH tee lah-ee-KEE? — OH-khee, en-DAHK-see, ahf-TAH EE-neh OH-lah yah SEE-meh-rah.",
+        "english": "— Do you want anything else from the market? — No, alright, that is everything for today.",
+        "notes": "Review Unit 108. Closing a vendor transaction with 'τίποτα άλλο' and 'εντάξει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι εντάξει τα πράγματα στη σακούλα; — Ναι, είναι όλα μια χαρά.",
+        "example_en": "— Are the items in the bag alright? — Yes, everything is just fine.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Concluding retail purchasing dialogues with vendors"
+    },
+
+    # --- 2. Bakery, Butcher & Supermarket (011-020) ---
+    {
+        "id": "A1-U108C-011",
+        "greek": "— Καλημέρα σας, ένα ζεστό ψωμί και μία τυρόπιτα, παρακαλώ. — Ορίστε, είναι μόλις από τον φούρνο!",
+        "phonetic_hint": "— Kah-lee-MEH-rah sahs, EH-nah zeh-STOH psoh-MEE keh MEE-ah tee-ROH-pee-tah, pah-rah-kah-LOH. — Oh-REES-teh, EE-neh MOH-lees ah-POH ton FOOR-noh!",
+        "english": "— Good morning, a warm bread and a cheese pie, please. — Here you are, they are fresh out of the oven!",
+        "notes": "Review Unit 108. Bakery transaction for daily bread and savory pastry.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι ζεστό το ψωμί; — Ναι, είναι πολύ φρέσκο και πολύ ζεστό.",
+        "example_en": "— Is the bread warm? — Yes, it is very fresh and very warm.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Purchasing bread and traditional pastries at the bakery"
+    },
+    {
+        "id": "A1-U108C-012",
+        "greek": "— Μου δίνετε και δύο κουλούρια; — Βεβαίως, ορίστε δύο πολύ νόστιμα κουλούρια.",
+        "phonetic_hint": "— Moo THEE-neh-teh keh THEE-oh koo-LOO-ryah? — Veh-VEH-ohs, oh-REES-teh THEE-oh poh-LEE NOH-stee-mah koo-LOO-ryah.",
+        "english": "— Could you also give me two bread rings? — Certainly, here are two very tasty bread rings.",
+        "notes": "Review Unit 108. Traditional Greek street bread ring ('κουλούρι').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Παίρνεις κουλούρι κάθε πρωί; — Ναι, παίρνω πάντα ένα κουλούρι για πρωινό.",
+        "example_en": "— Do you get a koulouri every morning? — Yes, I always get a koulouri for breakfast.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting bakery snack items with polite imperative"
+    },
+    {
+        "id": "A1-U108C-013",
+        "greek": "— Γεια σας, τι κρέας έχετε σήμερα στο κρεοπωλείο; — Έχουμε πολύ καλό μοσχάρι, αρνί και φρέσκο κοτόπουλο.",
+        "phonetic_hint": "— YAH sahs, tee KREH-ahs EH-kheh-teh SEE-meh-rah stoh kreh-oh-poh-LEE-oh? — EH-khoo-meh poh-LEE kah-LOH moh-SKHAH-ree, ahr-NEE keh FREH-skoh koh-TOH-poo-loh.",
+        "english": "— Hello, what meat do you have today at the butcher shop? — We have very good beef, lamb, and fresh chicken.",
+        "notes": "Review Unit 108. Inquiring about meat selections at the butcher shop.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θα πάρετε κοτόπουλο ή μοσχάρι; — Θα πάρω ένα μεγάλο κοτόπουλο για τον φούρνο.",
+        "example_en": "— Will you take chicken or beef? — I will take a large chicken for the oven.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring about meat varieties at the butcher shop"
+    },
+    {
+        "id": "A1-U108C-014",
+        "greek": "— Κόψτε μου, παρακαλώ, ένα κιλό μοσχαρίσιο κιμά. — Αμέσως, ορίστε ο κιμάς για τα μπιφτέκια σας.",
+        "phonetic_hint": "— KOH-mpsteh moo, pah-rah-kah-LOH, EH-nah kee-LOH moh-skhah-REE-syoh kee-MAH. — Ah-MEH-sohs, oh-REES-teh oh kee-MAHS yah tah beef-TEH-kyah sahs.",
+        "english": "— Grind one kilo of minced beef for me, please. — Right away, here is the ground meat for your patties.",
+        "notes": "Review Unit 108. Ordering ground beef with preparation instructions.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι θα κάνετε με τον κιμά; — Θα κάνω νόστιμα μπιφτέκια με πατάτες.",
+        "example_en": "— What will you do with the minced meat? — I will make tasty patties with potatoes.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering custom meat cuts and ground meat at the butcher"
+    },
+    {
+        "id": "A1-U108C-015",
+        "greek": "— Θα ήθελα τέσσερις μπριζόλες. — Ορίστε, είναι περίπου ένα κιλό.",
+        "phonetic_hint": "— Thah EE-theh-lah TEH-seh-rees bree-ZOH-les. — Oh-REES-teh, EE-neh peh-REE-poo EH-nah kee-LOH.",
+        "english": "— I would like four chops. — Here you are, they are about one kilo.",
+        "notes": "Review Unit 108. Ordering meat cuts by piece count with weight confirmation.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνουν οι μπριζόλες; — Κάνουν δέκα ευρώ συνολικά.",
+        "example_en": "— How much are the chops? — They are ten euros in total.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering specific meat cut portions and verifying final weight"
+    },
+    {
+        "id": "A1-U108C-016",
+        "greek": "— Είναι φρέσκα τα ψάρια σήμερα; — Ναι, είναι ολόφρεσκα από τη θάλασσα!",
+        "phonetic_hint": "— EE-neh FREH-skah tah PSAH-ryah SEE-meh-rah? — Neh, EE-neh oh-LOH-freh-skah ah-POH tee THAH-lah-sah!",
+        "english": "— Is the fish fresh today? — Yes, it is completely fresh from the sea!",
+        "notes": "Review Unit 108. Freshness inquiry at the fish market with 'ολόφρεσκος'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι ψάρι θέλετε να πάρετε; — Θέλω ένα μεγάλο ψάρι για τον φούρνο.",
+        "example_en": "— What fish do you want to get? — I want a large fish for the oven.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Checking fish freshness and selecting seafood"
+    },
+    {
+        "id": "A1-U108C-017",
+        "greek": "— Πού είναι το γάλα και τα τυριά στο σούπερ μάρκετ; — Είναι στο βάθος, δίπλα στα ψυγεία με τα τυριά.",
+        "phonetic_hint": "— POO EE-neh toh GHAH-lah keh tah tee-RYAH stoh SOO-pehr MAHR-ket? — EE-neh stoh VAH-thos, THEEP-lah stah psee-YEE-ah meh tah tee-RYAH.",
+        "english": "— Where are the milk and cheeses in the supermarket? — They are in the back, next to the refrigerated cheese cases.",
+        "notes": "Review Units 106 & 108. Supermarket aisle navigation for dairy products.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Χρειαζόμαστε γάλα και γιαούρτι; — Ναι, πάρε δύο γάλατα και ένα γιαούρτι.",
+        "example_en": "— Do we need milk and yogurt? — Yes, get two cartons of milk and one yogurt.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Navigating supermarket aisles and locating dairy sections"
+    },
+    {
+        "id": "A1-U108C-018",
+        "greek": "— Θα ήθελα μισό κιλό τυρί φέτα σε άλμη. — Βεβαίως, ορίστε η φέτα, είναι πεντανόστιμο τυρί.",
+        "phonetic_hint": "— Thah EE-theh-lah mee-SOH kee-LOH tee-REE FEH-tah seh AHL-mee. — Veh-VEH-ohs, oh-REES-teh ee FEH-tah, EE-neh pen-dah-NOH-stee-moh tee-REE.",
+        "english": "— I would like half a kilo of feta cheese in brine. — Certainly, here is the feta, it is delicious cheese.",
+        "notes": "Review Unit 108. Traditional Greek cheese counter consultation.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσει η φέτα; — Μου αρέσει πολύ η φέτα σε άλμη.",
+        "example_en": "— Do you like feta? — I like feta in brine very much.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering cheese at the deli counter by texture and brine"
+    },
+    {
+        "id": "A1-U108C-019",
+        "greek": "— Έχουμε ελαιόλαδο, ρύζι και μακαρόνια στο σπίτι; — Έχουμε ρύζι, αλλά χρειαζόμαστε ένα μπουκάλι λάδι και αλεύρι.",
+        "phonetic_hint": "— EH-khoo-meh eh-leh-OH-lah-thoh, REE-zee keh mah-kah-ROH-nyah stoh SPEE-tee? — EH-khoo-meh REE-zee, ah-LAH khree-ah-ZOH-mah-steh EH-nah boo-KAH-lee LAH-thee keh ah-LEF-ree.",
+        "english": "— Do we have olive oil, rice, and pasta at home? — We have rice, but we need a bottle of oil and flour.",
+        "notes": "Review Unit 108. Pantry essentials inventory dialogue.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πάρε και ένα πακέτο μακαρόνια, σε παρακαλώ. — Εντάξει, θα πάρω ένα πακέτο μακαρόνια.",
+        "example_en": "— Get a packet of pasta too, please. — Alright, I will get a packet of pasta.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Coordinating essential pantry grocery purchases"
+    },
+    {
+        "id": "A1-U108C-020",
+        "greek": "— Μου δίνετε και μία σακούλα, παρακαλώ; — Βεβαίως, ορίστε η σακούλα. Είναι είκοσι τρία ευρώ συνολικά.",
+        "phonetic_hint": "— Moo THEE-neh-teh keh MEE-ah sah-KOO-lah, pah-rah-kah-LOH? — Veh-VEH-ohs, oh-REES-teh ee sah-KOO-lah. EE-neh EE-koh-see THREE-ah ev-ROH see-noh-lee-KAH.",
+        "english": "— Could you give me a shopping bag too, please? — Certainly, here is the bag. It is twenty-three euros in total.",
+        "notes": "Review Unit 108. Checkout interaction requesting shopping bag ('σακούλα').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ορίστε είκοσι πέντε ευρώ, κρατήστε τα ρέστα. — Ευχαριστώ πολύ, καλή σας μέρα!",
+        "example_en": "— Here is twenty-five euros, keep the change. — Thank you very much, have a nice day!",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Completing supermarket checkout transactions and tipping"
+    },
+
+    # --- 3. Taverna, Souvlaki & Cafe (021-035) ---
+    {
+        "id": "A1-U108C-021",
+        "greek": "— Καλησπέρα σας, έχετε ένα ελεύθερο τραπέζι για δύο άτομα; — Βεβαίως, περάστε μέσα, ορίστε ένα ωραίο τραπέζι.",
+        "phonetic_hint": "— Kah-lee-SPEH-rah sahs, EH-kheh-teh EH-nah eh-LEF-theh-roh trah-PEH-zee yah THEE-oh AH-toh-mah? — Veh-VEH-ohs, peh-RAH-steh MEH-sah, oh-REES-teh EH-nah oh-REH-oh trah-PEH-zee.",
+        "english": "— Good evening, do you have an available table for two people? — Certainly, come inside, here is a nice table.",
+        "notes": "Review Unit 108. Arriving at a tavern and asking for a table.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλετε τραπέζι μέσα ή έξω; — Θέλουμε έξω στην αυλή, είναι πολύ όμορφα.",
+        "example_en": "— Do you want a table inside or outside? — We want outside in the courtyard, it is very beautiful.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting table seating at a tavern or restaurant"
+    },
+    {
+        "id": "A1-U108C-022",
+        "greek": "— Συγγνώμη, μπορούμε να παραγγείλουμε, παρακαλώ; — Βεβαίως, τι θα πάρετε για ορεκτικό;",
+        "phonetic_hint": "— Seeg-NOH-mee, boh-ROO-meh nah pah-rahng-GEE-loo-meh, pah-rah-kah-LOH? — Veh-VEH-ohs, tee thah PAH-reh-teh yah oh-rek-tee-KOH?",
+        "english": "— Excuse me, may we order, please? — Certainly, what will you have for an appetizer?",
+        "notes": "Review Unit 108. Calling the waiter and initiating the food order.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μπορούμε να παραγγείλουμε τώρα; — Αμέσως, τι θέλετε να πάρετε;",
+        "example_en": "— Can we order now? — Right away, what would you like to have?",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting restaurant menus and indicating readiness to order"
+    },
+    {
+        "id": "A1-U108C-023",
+        "greek": "— Τι θα πάρετε για ορεκτικό; — Για ορεκτικό θα πάρουμε μία χωριάτικη σαλάτα και ένα τζατζίκι.",
+        "phonetic_hint": "— Tee thah PAH-reh-teh yah oh-rek-tee-KOH? — Yah oh-rek-tee-KOH thah PAH-roo-meh MEE-ah khoh-RYAH-tee-kee sah-LAH-tah keh EH-nah dzah-DZEE-kee.",
+        "english": "— What will you have for an appetizer? — For an appetizer we will take a Greek salad and a tzatziki.",
+        "notes": "Review Unit 108. Ordering traditional Greek starters.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλετε τη σαλάτα με φέτα και ελιές; — Ναι, με πολλή φέτα και ελαιόλαδο.",
+        "example_en": "— Do you want the salad with feta and olives? — Yes, with plenty of feta and olive oil.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering appetizers and traditional dips at a taverna"
+    },
+    {
+        "id": "A1-U108C-024",
+        "greek": "— Μας φέρνετε λίγο ψωμί ακόμα και ένα μπουκάλι νερό; — Βεβαίως, αμέσως σας τα φέρω.",
+        "phonetic_hint": "— Mahs FEHR-neh-teh LEE-goh psoh-MEE ah-KOH-mah keh EH-nah boo-KAH-lee neh-ROH? — Veh-VEH-ohs, ah-MEH-sohs sahs tah FEH-roh.",
+        "english": "— Could you bring us a little more bread and a bottle of water? — Certainly, I will bring them to you right away.",
+        "notes": "Review Unit 108. Requesting extra table bread and water.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλετε το νερό παγωμένο ή δροσερό; — Θέλουμε ένα μπουκάλι παγωμένο νερό.",
+        "example_en": "— Do you want the water ice-cold or chilled? — We want a bottle of ice-cold water.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting additional bread and water from waiting staff"
+    },
+    {
+        "id": "A1-U108C-025",
+        "greek": "— Και για κυρίως πιάτο, τι θα πάρετε; — Εγώ θα πάρω δύο σουβλάκια με πατάτες τηγανητές.",
+        "phonetic_hint": "— Keh yah kee-REE-os PYAH-toh, tee thah PAH-reh-teh? — Eh-GHOH thah PAH-roh THEE-oh soov-LAH-kyah meh pah-TAH-tes tee-ghah-nee-TES.",
+        "english": "— And for the main course, what will you have? — I will have two souvlakia with fried potatoes.",
+        "notes": "Review Unit 108. Ordering main dish ('κυρίως πιάτο') and sides.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλεις πίτα με σουβλάκι; — Ναι, θέλω ένα σουβλάκι σε πίτα με ντομάτα και τζατζίκι.",
+        "example_en": "— Do you want pita with souvlaki? — Yes, I want a souvlaki in pita with tomato and tzatziki.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering main meat dishes and street food combinations"
+    },
+    {
+        "id": "A1-U108C-026",
+        "greek": "— Για μένα, μία μερίδα ψητό κοτόπουλο με ρύζι, παρακαλώ. — Πολύ ωραία, και για τη φίλη σας;",
+        "phonetic_hint": "— Yah MEH-nah, MEE-ah meh-REE-thah psee-TOH koh-TOH-poo-loh meh REE-zee, pah-rah-kah-LOH. — Poh-LEE oh-REH-ah, keh yah tee FEE-lee sahs?",
+        "english": "— For me, a portion of roast chicken with rice, please. — Very nice, and for your friend?",
+        "notes": "Review Unit 108. Specifying meal portion ('μερίδα') with sides.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι φαγητό έχει σήμερα; — Έχει νόστιμο ψητό κοτόπουλο και μπιφτέκια.",
+        "example_en": "— What food is there today? — There is tasty roast chicken and patties.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Specifying portion sizes and companion orders"
+    },
+    {
+        "id": "A1-U108C-027",
+        "greek": "— Έχετε φρέσκο ψάρι ψητό; — Ναι, έχουμε πολύ καλό ψάρι ψητό στα κάρβουνα.",
+        "phonetic_hint": "— EH-kheh-teh FREH-skoh PSAH-ree psee-TOH? — Neh, EH-khoo-meh poh-LEE kah-LOH PSAH-ree psee-TOH stah KAHR-voo-nah.",
+        "english": "— Do you have fresh grilled fish? — Yes, we have very good fish grilled over charcoal.",
+        "notes": "Review Unit 108. Grilled fish inquiry in tavernas.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσει το ψάρι; — Ναι, μου αρέσει πάρα πολύ το ψητό ψάρι με λεμόνι.",
+        "example_en": "— Do you like fish? — Yes, I really love grilled fish with lemon.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering seafood and grilled fish specialties"
+    },
+    {
+        "id": "A1-U108C-028",
+        "greek": "— Τι θα πιείτε με το φαγητό; — Θα πιούμε μισό κιλό κόκκινο κρασί και μία μπύρα.",
+        "phonetic_hint": "— Tee thah PYEH-teh meh toh fah-yee-TOH? — Thah PYOO-meh mee-SOH kee-LOH KOH-kee-noh krah-SEE keh MEE-ah MPEE-rah.",
+        "english": "— What will you drink with the meal? — We will drink half a kilo of red wine and a beer.",
+        "notes": "Review Unit 108. Ordering bulk tavern wine ('μισό κιλό κρασί') and beer.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Προτιμάτε λευκό ή κόκκινο κρασί; — Προτιμάμε ένα δροσερό λευκό κρασί.",
+        "example_en": "— Do you prefer white or red wine? — We prefer a chilled white wine.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering beverages and house wine by volume at a taverna"
+    },
+    {
+        "id": "A1-U108C-029",
+        "greek": "— Θέλετε και ένα ούζο; — Ναι, θέλουμε ένα ούζο με κρύο νερό για αρχή.",
+        "phonetic_hint": "— THEH-leh-teh keh EH-nah OO-zoh? — Neh, THEH-loo-meh EH-nah OO-zoh meh KREE-oh neh-ROH yah ahr-KHEE.",
+        "english": "— Would you also like an ouzo? — Yes, we want an ouzo with cold water to start.",
+        "notes": "Review Unit 108. Ordering traditional Greek aperitif with water.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πίνεις ούζο το καλοκαίρι; — Ναι, πίνω πάντα ούζο δίπλα στη θάλασσα.",
+        "example_en": "— Do you drink ouzo in the summer? — Yes, I always drink ouzo beside the sea.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering traditional Greek aperitifs and iced drinks"
+    },
+    {
+        "id": "A1-U108C-030",
+        "greek": "— Πώς σας φαίνεται το φαγητό; — Είναι πεντανόστιμο, συγχαρητήρια στον μάγειρα!",
+        "phonetic_hint": "— POHS sahs FEH-neh-teh toh fah-yee-TOH? — EE-neh pen-dah-NOH-stee-moh, see-khah-ree-TEE-ryah ston MAH-yee-rah!",
+        "english": "— How do you find the food? — It is absolutely delicious, congratulations to the chef!",
+        "notes": "Review Unit 108. Expressing meal satisfaction and compliments.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσει το φαγητό; — Ναι, είναι πολύ νόστιμο φαγητό.",
+        "example_en": "— Do you like the food? — Yes, it is very tasty food.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Complimenting food taste and chef preparation in a restaurant"
+    },
+    {
+        "id": "A1-U108C-031",
+        "greek": "— Θέλετε κάποιο γλυκό για το τέλος; — Ναι, θα πάρουμε ένα γιαούρτι με μέλι και ένα παγωτό.",
+        "phonetic_hint": "— THEH-leh-teh KAH-pyoh glee-KOH yah toh TEH-los? — Neh, thah PAH-roo-meh EH-nah yah-OOR-tee meh MEH-lee keh EH-nah pah-ghoh-TOH.",
+        "english": "— Would you like some dessert for the end? — Yes, we will take a yogurt with honey and an ice cream.",
+        "notes": "Review Unit 108. Ordering traditional desserts ('γιαούρτι με μέλι').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχετε γλυκό σοκολάτα; — Ναι, έχουμε πολύ νόστιμη σοκολάτα και φρούτα.",
+        "example_en": "— Do you have chocolate dessert? — Yes, we have very tasty chocolate and fruit.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Ordering desserts and post-meal refreshments"
+    },
+    {
+        "id": "A1-U108C-032",
+        "greek": "— Μας φέρνετε τον λογαριασμό, παρακαλώ; — Βεβαίως, αμέσως σας φέρω τον λογαριασμό.",
+        "phonetic_hint": "— Mahs FEHR-neh-teh ton loh-ghah-ryahz-MOH, pah-rah-kah-LOH? — Veh-VEH-ohs, ah-MEH-sohs sahs FEH-roh ton loh-ghah-ryahz-MOH.",
+        "english": "— Could you bring us the bill, please? — Certainly, I will bring you the bill right away.",
+        "notes": "Review Unit 108. Asking for the check in a restaurant or cafe.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο είναι ο λογαριασμός; — Είναι τριάντα δύο ευρώ για όλα.",
+        "example_en": "— How much is the bill? — It is thirty-two euros for everything.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Requesting the bill and settling restaurant charges"
+    },
+    {
+        "id": "A1-U108C-033",
+        "greek": "— Μπορώ να πληρώσω με πιστωτική κάρτα; — Ναι, φυσικά, με κάρτα ή με μετρητά.",
+        "phonetic_hint": "— Boh-ROH nah plee-ROH-soh meh pees-toh-tee-KEE KAHR-tah? — Neh, fee-see-KAH, meh KAHR-tah ee meh meh-tree-TAH.",
+        "english": "— Can I pay by credit card? — Yes, of course, by card or with cash.",
+        "notes": "Review Unit 108. Asking about payment methods in dining establishments.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πληρώνουμε μαζί; — Ναι, πληρώνουμε μαζί, παρακαλώ.",
+        "example_en": "— Are we paying together? — Yes, we are paying together, please.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring about payment methods and split payment options"
+    },
+    {
+        "id": "A1-U108C-034",
+        "greek": "— Ορίστε σαράντα ευρώ, κρατήστε τα ρέστα. — Σας ευχαριστούμε πάρα πολύ, καλό σας βράδυ!",
+        "phonetic_hint": "— Oh-REES-teh sah-RAHN-dah ev-ROH, krah-TEE-steh tah REH-stah. — Sahs ef-khah-ree-STOO-meh PAH-rah poh-LEE, kah-LOH sahs VRAH-thee!",
+        "english": "— Here is forty euros, keep the change. — Thank you very much, have a pleasant evening!",
+        "notes": "Review Unit 108. Polite tipping formula 'κρατήστε τα ρέστα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχει ρέστα; — Όχι, είναι ακριβώς τα χρήματα.",
+        "example_en": "— Is there change? — No, it is the exact amount.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Offering tips and polite closing greetings to service staff"
+    },
+    {
+        "id": "A1-U108C-035",
+        "greek": "— Θέλεις έναν καφέ μετά το φαγητό; — Ναι, θα ήθελα έναν ζεστό ελληνικό καφέ με λίγη ζάχαρη.",
+        "phonetic_hint": "— THEH-lees EH-nahn kah-FEH meh-TAH toh fah-yee-TOH? — Neh, thah EE-theh-lah EH-nahn zeh-STOH eh-lee-nee-KOH kah-FEH meh LEE-yee ZAH-khah-ree.",
+        "english": "— Do you want a coffee after the meal? — Yes, I would like a hot Greek coffee with a little sugar.",
+        "notes": "Review Unit 108. Ordering coffee post-meal ('ελληνικός καφές').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς πίνεις τον καφέ σου; — Τον πίνω μέτριο, με λίγη ζάχαρη.",
+        "example_en": "— How do you drink your coffee? — I drink it medium-sweet, with a little sugar.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Specifying coffee preparation preferences after dining"
+    },
+
+    # --- 4. Cooking & Recipes (036-042) ---
+    {
+        "id": "A1-U108C-036",
+        "greek": "— Πώς κάνεις την ελληνική χωριάτικη σαλάτα; — Κόψτε τις ντομάτες, το αγγούρι και το κρεμμύδι σε λεπτές φέτες.",
+        "phonetic_hint": "— POHS KAH-nees teen eh-lee-nee-KEE khoh-RYAH-tee-kee sah-LAH-tah? — KOH-mpsteh tees doh-MAH-tes, toh ahng-GOO-ree keh toh kreh-MEE-thee seh lep-TES FEH-tes.",
+        "english": "— How do you make Greek country salad? — Cut the tomatoes, cucumber, and onion into thin slices.",
+        "notes": "Review Unit 108. Recipe instructions using imperative plural 'κόψτε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι άλλο βάζεις στη σαλάτα; — Βάζω ελιές, φέτα και λίγη ρίγανη.",
+        "example_en": "— What else do you put in the salad? — I add olives, feta, and a little oregano.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Explaining recipe preparation steps and ingredient chopping"
+    },
+    {
+        "id": "A1-U108C-037",
+        "greek": "— Πόσο λάδι και αλάτι να βάλω; — Βάλτε λίγο ελαιόλαδο, αλάτι και ρίγανη στη σαλάτα.",
+        "phonetic_hint": "— POH-soh LAH-thee keh ah-LAH-tee nah VAH-loh? — VAHL-teh LEE-goh eh-leh-OH-lah-thoh, ah-LAH-tee keh REE-ghah-nee steen sah-LAH-tah.",
+        "english": "— How much oil and salt should I add? — Add a little olive oil, salt, and oregano to the salad.",
+        "notes": "Review Unit 108. Recipe measurements with imperative 'βάλτε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μην ρίχνεις πολύ αλάτι στο φαγητό. — Εντάξει, δεν ρίχνω άλλο αλάτι.",
+        "example_en": "— Do not throw too much salt into the food. — Alright, I will not add any more salt.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Giving measuring instructions for culinary seasonings"
+    },
+    {
+        "id": "A1-U108C-038",
+        "greek": "— Και μετά τι κάνουμε; — Ανακατέψτε καλά όλα τα υλικά μέσα στο μεγάλο μπολ.",
+        "phonetic_hint": "— Keh meh-TAH tee KAH-noo-meh? — Ah-nah-kah-TEHP-steh kah-LAH OH-lah tah ee-lee-KAH MEH-sah stoh meh-GHAH-loh bohl.",
+        "english": "— And what do we do after that? — Mix all the ingredients well inside the large bowl.",
+        "notes": "Review Unit 108. Cooking procedural step with imperative 'ανακατέψτε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι καλή η σαλάτα; — Ναι, είναι πολύ καλή και νόστιμη.",
+        "example_en": "— Is the salad good? — Yes, it is very good and tasty.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Instructing how to combine and mix recipe ingredients"
+    },
+    {
+        "id": "A1-U108C-039",
+        "greek": "— Πώς ψήνουμε το κοτόπουλο με τις πατάτες; — Βάλτε το στον φούρνο για σαράντα λεπτά στους εκατόν ογδόντα βαθμούς.",
+        "phonetic_hint": "— POHS PSEE-noo-meh toh koh-TOH-poo-loh meh tees pah-TAH-tes? — VAHL-teh toh ston FOOR-noh yah sah-RAHN-dah lep-TAH stoos eh-kah-TON ohg-THOHN-dah vahth-MOOS.",
+        "english": "— How do we bake the chicken with potatoes? — Put it in the oven for forty minutes at one hundred eighty degrees.",
+        "notes": "Review Unit 108. Oven temperature and baking time instructions.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ψήστε το κρέας στον φούρνο. — Εντάξει, το βάζω στον φούρνο τώρα.",
+        "example_en": "— Bake the meat in the oven. — Alright, I am putting it in the oven now.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Giving oven temperature and cooking time directions"
+    },
+    {
+        "id": "A1-U108C-040",
+        "greek": "— Θέλετε πατάτες τηγανητές; — Ναι, θέλω πατάτες τηγανητές με λίγο αλάτι.",
+        "phonetic_hint": "— THEH-leh-teh pah-TAH-tes tee-ghah-nee-TES? — Neh, THEH-loh pah-TAH-tes tee-ghah-nee-TES meh LEE-goh ah-LAH-tee.",
+        "english": "— Would you like fried potatoes? — Yes, I want fried potatoes with a little salt.",
+        "notes": "Review Unit 108. Frying preference and side dish selection.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσουν οι τηγανητές πατάτες; — Μου αρέσουν πάρα πολύ, είναι πολύ νόστιμο φαγητό.",
+        "example_en": "— Do you like french fries? — I like them very much, they are very tasty food.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Describing frying methods and side dish preferences"
+    },
+    {
+        "id": "A1-U108C-041",
+        "greek": "— Είναι πολύ αλμυρή αυτή η σούπα; — Ναι, έχει πολύ αλάτι, μην ρίχνεις άλλο αλάτι.",
+        "phonetic_hint": "— EE-neh poh-LEE ahl-mee-REE ahf-TEE ee SOO-pah? — Neh, EH-khee poh-LEE ah-LAH-tee, meen REEKH-nees AH-loh ah-LAH-tee.",
+        "english": "— Is this soup very salty? — Yes, it has too much salt, do not add any more salt.",
+        "notes": "Review Unit 108. Taste adjective 'αλμυρός' and seasoning warning.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς είναι η γεύση; — Είναι πολύ καλή, αλλά έχει πολύ λεμόνι.",
+        "example_en": "— How is the taste? — It is very good, but it has a lot of lemon.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Evaluating seasoning levels and advising on taste adjustments"
+    },
+    {
+        "id": "A1-U108C-042",
+        "greek": "— Πώς πίνεις τον ελληνικό καφέ; — Τον πίνω με λίγη ζάχαρη, χωρίς γάλα.",
+        "phonetic_hint": "— POHS PEE-nees ton eh-lee-nee-KOH kah-FEH? — Ton PEE-noh meh LEE-yee ZAH-khah-ree, khoh-REES GHAH-lah.",
+        "english": "— How do you drink Greek coffee? — I drink it with a little sugar, without milk.",
+        "notes": "Review Unit 108. Coffee preparation preference formula.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μην βάζεις πολλή ζάχαρη στον ελληνικό καφέ. — Εντάξει, πίνω πάντα μέτριο καφέ.",
+        "example_en": "— Do not put much sugar in Greek coffee. — Alright, I always drink medium coffee.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Explaining traditional coffee preparation procedures"
+    },
+
+    # --- 5. Dietary Habits & CEFR A1 Oral Exam Tasks (043-050) ---
+    {
+        "id": "A1-U108C-043",
+        "greek": "— Τι τρως συνήθως για πρωινό; — Συνήθως τρώω ψωμί με μέλι ή βούτυρο και πίνω έναν ζεστό καφέ.",
+        "phonetic_hint": "— Tee TROHS see-NEE-thohs yah proh-ee-NOH? — See-NEE-thohs TROH-oh psoh-MEE meh MEH-lee ee VOO-tee-roh keh PEE-noh EH-nahn zeh-STOH kah-FEH.",
+        "english": "— What do you usually eat for breakfast? — Usually I eat bread with honey or butter and drink a hot coffee.",
+        "notes": "Review Unit 108. CEFR A1 oral exam inquiry about daily morning dietary habits.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τρως αυγά το πρωί; — Μερικές φορές τρώω ένα βραστό αυγό με φρέσκο ψωμί.",
+        "example_en": "— Do you eat eggs in the morning? — Sometimes I eat a boiled egg with fresh bread.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Describing regular morning dietary routines in oral exams"
+    },
+    {
+        "id": "A1-U108C-044",
+        "greek": "— Τι περιλαμβάνει η υγιεινή μεσογειακή διατροφή; — Περιλαμβάνει πολλά φρέσκα λαχανικά, φρούτα, ψάρια και ελαιόλαδο.",
+        "phonetic_hint": "— Tee peh-ree-lahm-VAH-nee ee ee-yee-ee-NEE meh-soh-yee-ah-KEE thee-ah-troh-FEE? — Peh-ree-lahm-VAH-nee poh-LAH FREH-skah lah-khah-nee-KAH, FROO-tah, PSAH-ryah keh eh-leh-OH-lah-thoh.",
+        "english": "— What does the healthy Mediterranean diet include? — It includes plenty of fresh vegetables, fruit, fish, and olive oil.",
+        "notes": "Review Unit 108. Describing the Mediterranean diet components.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Κάνεις δίαιτα αυτό τον καιρό; — Ναι, κάνω δίαιτα και τρώω μόνο σαλάτα και φρούτα.",
+        "example_en": "— Are you on a diet lately? — Yes, I am on a diet and eat only salad and fruit.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Discussing healthy nutrition and dietary components"
+    },
+    {
+        "id": "A1-U108C-045",
+        "greek": "— Τρως κρέας στο μεσημεριανό; — Όχι, δεν τρώω κρέας, τρώω μόνο λαχανικά και φρούτα.",
+        "phonetic_hint": "— TROHS KREH-ahs stoh meh-see-meh-ryah-NOH? — OH-khee, then TROH-oh KREH-ahs, TROH-oh MOH-noh lah-khah-nee-KAH keh FROO-tah.",
+        "english": "— Do you eat meat at lunch? — No, I do not eat meat, I only eat vegetables and fruit.",
+        "notes": "Review Unit 108. Declaring dietary food exclusions.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχετε φαγητά χωρίς κρέας στην ταβέρνα; — Ναι, έχουμε πολλές σαλάτες και λαχανικά.",
+        "example_en": "— Do you have dishes without meat at the tavern? — Yes, we have many salads and vegetables.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Declaring dietary restrictions and vegetarian preferences"
+    },
+    {
+        "id": "A1-U108C-046",
+        "greek": "— Υπάρχει κανένα περίπτερο ανοιχτό εδώ κοντά; — Ναι, υπάρχει ένα περίπτερο απέναντι από την εκκλησία.",
+        "phonetic_hint": "— Ee-PAHR-khee kah-NEH-nah peh-REE-pteh-roh ah-neekh-TOH eh-THOH kon-DAH? — Neh, ee-PAHR-khee EH-nah peh-REE-pteh-roh ah-PEH-nahn-dee ah-POH teen ek-klee-SEE-ah.",
+        "english": "— Is there any open kiosk nearby? — Yes, there is a kiosk opposite the church.",
+        "notes": "Review Unit 108. Indefinite pronoun 'κανένας, καμία, κανένα' in neighborhood inquiries.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι έχει το περίπτερο; — Έχει νερό, αναψυκτικά, εφημερίδες και σοκολάτες.",
+        "example_en": "— What does the kiosk have? — It has water, soft drinks, newspapers, and chocolates.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring about kiosks and neighborhood retail convenience"
+    },
+    {
+        "id": "A1-U108C-047",
+        "greek": "— Είναι κανείς στην κουζίνα τώρα; — Όχι, δεν είναι κανείς μέσα, όλοι είναι στο σαλόνι.",
+        "phonetic_hint": "— EE-neh kah-NEES steen koo-ZEE-nah TOH-rah? — OH-khee, then EE-neh kah-NEES MEH-sah, OH-lee EE-neh stoh sah-LOH-nee.",
+        "english": "— Is anyone in the kitchen right now? — No, no one is inside, everyone is in the living room.",
+        "notes": "Review Unit 108. Indefinite pronoun 'κανείς' (anyone / no one).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ήρθε κανείς για το μεσημεριανό φαγητό; — Όχι ακόμα, δεν ήρθε κανένας.",
+        "example_en": "— Did anyone come for lunch? — Not yet, nobody has arrived.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Inquiring and stating absence of persons using 'κανείς'"
+    },
+    {
+        "id": "A1-U108C-048",
+        "greek": "— Θέλεις κάτι ελαφρύ και νόστιμο για βραδινό; — Ναι, θέλω μόνο ένα γιαούρτι με μέλι και καρύδια.",
+        "phonetic_hint": "— THEH-lees KAH-tee eh-lah-FREE keh NOH-stee-moh yah vrah-thee-NOH? — Neh, THEH-loh MOH-noh EH-nah yah-OOR-tee meh MEH-lee keh kah-REE-thyah.",
+        "english": "— Do you want something light and tasty for dinner? — Yes, I only want a yogurt with honey and walnuts.",
+        "notes": "Review Unit 108. Indefinite pronoun 'κάτι' with taste adjectives.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχεις τίποτα άλλο στο ψυγείο; — Όχι, δεν έχω τίποτα άλλο, πρέπει να πάμε για ψώνια.",
+        "example_en": "— Do you have anything else in the fridge? — No, I don't have anything else, we must go shopping.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Expressing desire for light meals using indefinite pronouns"
+    },
+    {
+        "id": "A1-U108C-049",
+        "greek": "— Ποιο είναι το αγαπημένο σου ελληνικό φαγητό; — Το αγαπημένο μου φαγητό είναι το σουβλάκι και η χωριάτικη σαλάτα.",
+        "phonetic_hint": "— PYO EE-neh toh ah-ghah-pee-MEH-noh soo eh-lee-nee-KOH fah-yee-TOH? — Toh ah-ghah-pee-MEH-noh moo fah-yee-TOH EE-neh toh soov-LAH-kee keh ee khoh-RYAH-tee-kee sah-LAH-tah.",
+        "english": "— What is your favorite Greek dish? — My favorite dish is souvlaki and Greek salad.",
+        "notes": "Review Unit 108. CEFR A1 standard exam personal preference question.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σου αρέσει η ελληνική κουζίνα; — Ναι, μου αρέσει πάρα πολύ γιατί έχει φρέσκα υλικά.",
+        "example_en": "— Do you like Greek cuisine? — Yes, I like it very much because it has fresh ingredients.",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Stating personal culinary preferences in A1 oral interviews"
+    },
+    {
+        "id": "A1-U108C-050",
+        "greek": "— Στην υγεία μας, παιδιά! — Στην υγεία σου, να είμαστε πάντα καλά!",
+        "phonetic_hint": "— Steen ee-YEE-ah mahs, peh-THYAH! — Steen ee-YEE-ah soo, nah EE-mah-steh PAHN-dah kah-LAH!",
+        "english": "— Cheers to our health, everyone! — Cheers to your health, may we always be well!",
+        "notes": "Review Unit 108. Traditional table toast ('στην υγεία μας').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Να είμαστε πάντα καλά στο τραπέζι! — Ευχαριστούμε πολύ, επίσης σε όλους!",
+        "example_en": "— May we always be well at the table! — Thank you very much, likewise to everyone!",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Making traditional table toasts and dining wishes at social meals"
+    }
+]
 
 lesson_u108c = {
     "unit_id": "unit-108c",
     "lesson_id": "lesson-01",
-    "title": "Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis 101-108)",
-    "description": "Conversational, dialogue, and CEFR A1 oral exam practice focusing on department store shopping, clothing sizes, fitting rooms, sales, simple future tense plans, invitations, birthdays, and holiday wishes using vocabulary from Lessons 101 to 108.",
+    "title": "Ενότητα 8: Διάλογοι & Εξετάσεις — Φαγητό, Ταβέρνα, Αγορά & Συνταγές (A1 Synthesis)",
+    "description": "Conversational, dialogue, and CEFR A1 oral exam practice focusing on food markets, grocery shopping, ordering in tavernas and cafes, recipes and cooking instructions, dietary preferences, and expressing quantities using vocabulary from Lessons 100 to 108.",
     "lesson_status": "not_started",
     "entries": cards_u108c
 }
 
+def verify_vocabulary():
+    print(f"Loading vocabulary from {len(units_108)} prerequisite units...")
+    known = set()
+    for u in units_108:
+        p = CONTENT_DIR / u / "lesson-01.yaml"
+        if p.exists():
+            data = yaml.safe_load(p.read_text(encoding="utf-8"))
+            for entry in data.get("entries", []):
+                texts = [entry.get("greek", ""), entry.get("example_el", "")]
+                ginfo = entry.get("grammatical_info", {})
+                if isinstance(ginfo, dict):
+                    for val in ginfo.values():
+                        if isinstance(val, str):
+                            texts.append(val)
+                for t in texts:
+                    for w in re.findall(r"[\u0370-\u03ff\u1f00-\u1fff]+", t):
+                        nw = unicodedata.normalize("NFC", w.strip().lower())
+                        nw = re.sub(r"[^\w]", "", nw, flags=re.UNICODE)
+                        if nw:
+                            known.add(nw)
+
+    errs = []
+    for c in cards_u108c:
+        cid = c["id"]
+        for f in ["greek", "example_el"]:
+            t = c[f]
+            words = re.findall(r"[\u0370-\u03ff\u1f00-\u1fff]+", t)
+            un = []
+            for w in words:
+                nw = unicodedata.normalize("NFC", w.strip().lower())
+                nw = re.sub(r"[^\w]", "", nw, flags=re.UNICODE)
+                if nw and nw not in known and nw not in allowed_fillers:
+                    un.append(w)
+            if un:
+                errs.append((cid, f, un))
+    return errs
+
 def main():
+    print("=== Validating Unit 108c Vocabulary Compliance ===")
+    errs = verify_vocabulary()
+    if errs:
+        print(f"CRITICAL: Found {len(errs)} vocabulary errors:")
+        for cid, f, un in errs:
+            print(f"  {cid} {f}: {un}")
+        sys.exit(1)
+    print(f"SUCCESS: All {len(cards_u108c)} cards are 100% compliant with vocabulary from Lessons 100-108!")
+
     print(f"Writing {len(cards_u108c)} cards to {YAML_PATH}...")
     with open(YAML_PATH, "w", encoding="utf-8") as f:
         yaml.dump(lesson_u108c, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
-    print("YAML successfully written.")
+    print("YAML successfully saved!")
 
     # Update manifest.yaml
+    print(f"Checking {MANIFEST_PATH} for unit-108c entry...")
     with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
         manifest = yaml.safe_load(f)
 
     units = manifest.get("units", [])
     existing = next((u for u in units if u.get("id") == "unit-108c"), None)
+
     unit_108c_entry = {
         "id": "unit-108c",
-        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 151-168 (Ενότητα 7: Ψώνια, ρούχα & γιορτές - Διάλογοι, Εξετάσεις & Συνομιλίες)",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο μας! - Διάλογοι, Εξετάσεις & Συνομιλίες)",
         "order": "KlikA1-08-C",
         "is_expansion": True,
         "expansion_of": "KlikA1-08-A",
@@ -53,8 +824,8 @@ def main():
             {
                 "id": "lesson-01",
                 "file": "unit-108c/lesson-01.yaml",
-                "title": "Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis 101-108)",
-                "description": "Conversational, dialogue, and CEFR A1 oral exam practice focusing on department store shopping, clothing sizes, fitting rooms, sales, simple future tense plans, invitations, birthdays, and holiday wishes using vocabulary from Lessons 101 to 108."
+                "title": "Ενότητα 8: Διάλογοι & Εξετάσεις — Φαγητό, Ταβέρνα, Αγορά & Συνταγές (A1 Synthesis)",
+                "description": "Conversational, dialogue, and CEFR A1 oral exam practice focusing on food markets, grocery shopping, ordering in tavernas and cafes, recipes and cooking instructions, dietary preferences, and expressing quantities using vocabulary from Lessons 100 to 108."
             }
         ]
     }
@@ -64,15 +835,14 @@ def main():
         idx = units.index(existing)
         units[idx] = unit_108c_entry
     else:
+        # Find unit-108b
         u108b_idx = next((i for i, u in enumerate(units) if u.get("id") == "unit-108b"), None)
         if u108b_idx is not None:
-            print(f"Inserting unit-108c immediately after unit-108b (index {u108b_idx + 1})...")
+            print(f"Inserting unit-108c directly after unit-108b (index {u108b_idx + 1})...")
             units.insert(u108b_idx + 1, unit_108c_entry)
         else:
             print("Appending unit-108c to manifest.yaml...")
             units.append(unit_108c_entry)
-
-    manifest["units"] = units
 
     with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
         yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)

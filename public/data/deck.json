@@ -6,10 +6,10 @@
     "created_at": "2026-10-25"
   },
   "stats": {
-    "total_units": 35,
-    "total_lessons": 35,
-    "total_entries": 1948,
-    "verified_count": 1948,
+    "total_units": 38,
+    "total_lessons": 38,
+    "total_entries": 2074,
+    "verified_count": 2074,
     "pending_count": 0,
     "needs_review_count": 0,
     "coverage_percentage": 100.0
@@ -8007,6 +8007,2331 @@
                 "first_person_plural": "εμείς προλαβαίνουμε"
               },
               "keg_communicative_function": "Talking about being on time or catching public transit"
+            }
+          ],
+          "total_entries": 42,
+          "verified_entries": 42,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 42,
+      "verified_entries": 42,
+      "coverage_percentage": 100.0
+    },
+    {
+      "id": "unit-10",
+      "title": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+      "order": "OG-10-A",
+      "lessons": [
+        {
+          "unit_id": "unit-10",
+          "lesson_id": "lesson-01",
+          "title": "Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)",
+          "description": "CEFR A1: Asking for and giving directions in town, public transportation (metro, bus, train), ticket purchases, and spatial prepositions.",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 10 Core Grammar Notes:\n\n• Asking for Directions in Town:\n  - Inquiring politely: 'Συγγνώμη, πού είναι το/η/ο...;' (Excuse me, where is the...?).\n  - 'Πώς πάω στο/στη/στον...;' (How do I get to...?).\n  - 'Ψάχνω τον σταθμό / το φαρμακείο...' (I am looking for the station / pharmacy...).\n\n• Giving Directions (Indicative / Polite 2nd Person Plural -ετε):\n  - Πηγαίνετε όλο ευθεία. (Go straight ahead.)\n  - Στρίβετε δεξιά / αριστερά στο πρώτο φανάρι. (Turn right / left at the first traffic light.)\n  - Περνάτε τη διάβαση / τον δρόμο. (Cross the crosswalk / street.)\n\n• Spatial Prepositions & Adverbs (Governing Accusative):\n  - κοντά σε + Accusative: 'κοντά στον σταθμό' (near the station).\n  - μακριά από + Accusative: 'μακριά από το κέντρο' (far from downtown).\n  - απέναντι από + Accusative: 'απέναντι από την τράπεζα' (across from the bank).\n  - δίπλα σε + Accusative: 'δίπλα στο ταχυδρομείο' (next to the post office).\n\n• Public Transportation Formulas:\n  - Mode of transit with 'με + Definite Accusative': με το μετρό, με το λεωφορείο, με το τρένο, με το ταξί.\n  - Walking: 'με τα πόδια' (on foot).\n  - Boarding / Alighting: ανεβαίνω στο λεωφορείο (board) / κατεβαίνω στη στάση (get off).\n  - Purchasing tickets: ένα απλό εισιτήριο (single) / ένα εισιτήριο μετ' επιστροφής (round-trip).",
+          "entries": [
+            {
+              "id": "A1-U10-001",
+              "greek": "ο δρόμος",
+              "phonetic_hint": "",
+              "english": "street / road",
+              "notes": "Masculine noun in -ος with plural in -οι (οι δρόμοι).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-dromos-0a4ccb.mp3",
+              "status": "verified",
+              "example_el": "Αυτός ο δρόμος έχει πολλή κίνηση.",
+              "example_en": "This street has a lot of traffic.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι δρόμοι",
+                "accusative_singular": "τον δρόμο"
+              },
+              "keg_communicative_function": "Describing streets and asking for location"
+            },
+            {
+              "id": "A1-U10-002",
+              "greek": "η οδός",
+              "phonetic_hint": "",
+              "english": "street (in addresses)",
+              "notes": "Feminine noun in -ος (archaic feminine declension). Always used on street sign plaques.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-odos-ab501d.mp3",
+              "status": "verified",
+              "example_el": "Το ξενοδοχείο είναι στην οδό Ερμού αριθμός 15.",
+              "example_en": "The hotel is at 15 Ermou Street.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι οδοί",
+                "accusative_singular": "την οδό"
+              },
+              "keg_communicative_function": "Reading and giving formal street addresses"
+            },
+            {
+              "id": "A1-U10-003",
+              "greek": "η πλατεία",
+              "phonetic_hint": "",
+              "english": "square / town square / plaza",
+              "notes": "Feminine in -α with plural in -ες (οι πλατείες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-plateia-d3778b.mp3",
+              "status": "verified",
+              "example_el": "Συναντιόμαστε συχνά στην πλατεία Συντάγματος.",
+              "example_en": "We often meet at Syntagma Square.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι πλατείες",
+                "accusative_singular": "την πλατεία"
+              },
+              "keg_communicative_function": "Identifying public central locations and meeting points"
+            },
+            {
+              "id": "A1-U10-004",
+              "greek": "η γωνία",
+              "phonetic_hint": "",
+              "english": "corner",
+              "notes": "Feminine in -α with plural in -ες (οι γωνίες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-gonia-08943f.mp3",
+              "status": "verified",
+              "example_el": "Το περίπτερο είναι ακριβώς στη γωνία.",
+              "example_en": "The kiosk is right on the corner.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γωνίες",
+                "accusative_singular": "τη γωνία"
+              },
+              "keg_communicative_function": "Giving precise directional instructions"
+            },
+            {
+              "id": "A1-U10-005",
+              "greek": "το φανάρι",
+              "phonetic_hint": "",
+              "english": "traffic light",
+              "notes": "Neuter in -ι with plural in -ια (τα φανάρια). Literally: lantern / lamp.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-fanari-c98a15.mp3",
+              "status": "verified",
+              "example_el": "Στο πρώτο φανάρι στρίβετε δεξιά.",
+              "example_en": "At the first traffic light, turn right.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα φανάρια",
+                "accusative_singular": "το φανάρι"
+              },
+              "keg_communicative_function": "Referencing landmarks for navigation"
+            },
+            {
+              "id": "A1-U10-006",
+              "greek": "το πεζοδρόμιο",
+              "phonetic_hint": "",
+              "english": "sidewalk / pavement",
+              "notes": "Neuter compound: πεζός (pedestrian) + δρόμος (road).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-pezodromio-89cedc.mp3",
+              "status": "verified",
+              "example_el": "Περπατάμε πάντα στο πεζοδρόμιο.",
+              "example_en": "We always walk on the sidewalk.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα πεζοδρόμια",
+                "accusative_singular": "το πεζοδρόμιο"
+              },
+              "keg_communicative_function": "Pedestrian navigation and safety"
+            },
+            {
+              "id": "A1-U10-007",
+              "greek": "η διάβαση",
+              "phonetic_hint": "",
+              "english": "crosswalk / pedestrian crossing",
+              "notes": "Feminine noun in -ση with plural in -σεις (οι διαβάσεις).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-diavasi-2e55de.mp3",
+              "status": "verified",
+              "example_el": "Περνάμε τον δρόμο από τη διάβαση.",
+              "example_en": "We cross the street at the pedestrian crossing.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι διαβάσεις",
+                "accusative_singular": "τη διάβαση"
+              },
+              "keg_communicative_function": "Pedestrian safety and following directions"
+            },
+            {
+              "id": "A1-U10-008",
+              "greek": "το κέντρο",
+              "phonetic_hint": "",
+              "english": "city center / downtown / center",
+              "notes": "Neuter noun in -ο with plural in -α (τα κέντρα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-kentro-70fc2e.mp3",
+              "status": "verified",
+              "example_el": "Το διαμέρισμά μου είναι κοντά στο κέντρο της πόλης.",
+              "example_en": "My apartment is near the city center.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα κέντρα",
+                "accusative_singular": "το κέντρο"
+              },
+              "keg_communicative_function": "Stating destination and general area in the city"
+            },
+            {
+              "id": "A1-U10-009",
+              "greek": "η τράπεζα",
+              "phonetic_hint": "",
+              "english": "bank",
+              "notes": "Feminine noun in -α with plural in -ες (οι τράπεζες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-trapeza-9b3e70.mp3",
+              "status": "verified",
+              "example_el": "Η τράπεζα ανοίγει στις οκτώ το πρωί.",
+              "example_en": "The bank opens at eight in the morning.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι τράπεζες",
+                "accusative_singular": "την τράπεζα"
+              },
+              "keg_communicative_function": "Locating banking services and financial transactions"
+            },
+            {
+              "id": "A1-U10-010",
+              "greek": "το ταχυδρομείο",
+              "phonetic_hint": "",
+              "english": "post office",
+              "notes": "Neuter in -ο with plural in -α (τα ταχυδρομεία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-tachydromeio-4f5b5b.mp3",
+              "status": "verified",
+              "example_el": "Πού είναι το κεντρικό ταχυδρομείο, παρακαλώ;",
+              "example_en": "Where is the central post office, please?",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ταχυδρομεία",
+                "accusative_singular": "το ταχυδρομείο"
+              },
+              "keg_communicative_function": "Asking for postal services and mailing letters"
+            },
+            {
+              "id": "A1-U10-011",
+              "greek": "το φαρμακείο",
+              "phonetic_hint": "",
+              "english": "pharmacy / chemist's",
+              "notes": "Neuter in -ο with plural in -α (τα φαρμακεία). Marked by a green cross in Greece.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-farmakeio-569253.mp3",
+              "status": "verified",
+              "example_el": "Υπάρχει ένα διανυκτερεύον φαρμακείο εδώ κοντά;",
+              "example_en": "Is there an on-duty pharmacy nearby?",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα φαρμακεία",
+                "accusative_singular": "το φαρμακείο"
+              },
+              "keg_communicative_function": "Locating pharmacies and health facilities"
+            },
+            {
+              "id": "A1-U10-012",
+              "greek": "το νοσοκομείο",
+              "phonetic_hint": "",
+              "english": "hospital",
+              "notes": "Neuter in -ο with plural in -α (τα νοσοκομεία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-nosokomeio-47505b.mp3",
+              "status": "verified",
+              "example_el": "Το γενικό νοσοκομείο είναι έξω από την πόλη.",
+              "example_en": "The general hospital is outside the city.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα νοσοκομεία",
+                "accusative_singular": "το νοσοκομείο"
+              },
+              "keg_communicative_function": "Locating medical emergency care in town"
+            },
+            {
+              "id": "A1-U10-013",
+              "greek": "το μουσείο",
+              "phonetic_hint": "",
+              "english": "museum",
+              "notes": "Neuter in -ο with plural in -α (τα μουσεία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-moyseio-6221c2.mp3",
+              "status": "verified",
+              "example_el": "Το Αρχαιολογικό Μουσείο είναι κλειστό τη Δευτέρα.",
+              "example_en": "The Archaeological Museum is closed on Monday.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα μουσεία",
+                "accusative_singular": "το μουσείο"
+              },
+              "keg_communicative_function": "Locating cultural landmarks and tourist sights"
+            },
+            {
+              "id": "A1-U10-014",
+              "greek": "το ξενοδοχείο",
+              "phonetic_hint": "",
+              "english": "hotel",
+              "notes": "Neuter in -ο with plural in -α (τα ξενοδοχεία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-xenodocheio-2248f1.mp3",
+              "status": "verified",
+              "example_el": "Μένουμε σε ένα όμορφο ξενοδοχείο κοντά στην παραλία.",
+              "example_en": "We are staying at a beautiful hotel near the beach.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ξενοδοχεία",
+                "accusative_singular": "το ξενοδοχείο"
+              },
+              "keg_communicative_function": "Finding accommodation and lodging in the city"
+            },
+            {
+              "id": "A1-U10-015",
+              "greek": "το περίπτερο",
+              "phonetic_hint": "",
+              "english": "kiosk",
+              "notes": "Neuter in -ο with plural in -α (τα περίπτερα). Greek cultural staple found on nearly every corner.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-periptero-916ec9.mp3",
+              "status": "verified",
+              "example_el": "Αγοράζω εισιτήρια και νερό από το περίπτερο.",
+              "example_en": "I buy tickets and water from the kiosk.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα περίπτερα",
+                "accusative_singular": "το περίπτερο"
+              },
+              "keg_communicative_function": "Buying daily necessities, tickets, or bottles of water in town"
+            },
+            {
+              "id": "A1-U10-016",
+              "greek": "το αστυνομικό τμήμα",
+              "phonetic_hint": "",
+              "english": "police station",
+              "notes": "Noun phrase: adjective αστυνομικός + τμήμα (department/station).",
+              "gender_or_pos": "phrase (noun expression)",
+              "audio": "to-astynomiko-tmima-dbe01d.mp3",
+              "status": "verified",
+              "example_el": "Το αστυνομικό τμήμα είναι απέναντι από την τράπεζα.",
+              "example_en": "The police station is across from the bank.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (noun expression)",
+                "plural": "τα αστυνομικά τμήματα",
+                "accusative_singular": "το αστυνομικό τμήμα"
+              },
+              "keg_communicative_function": "Seeking emergency assistance and reporting lost items"
+            },
+            {
+              "id": "A1-U10-017",
+              "greek": "το μετρό",
+              "phonetic_hint": "",
+              "english": "metro / subway / underground",
+              "notes": "Indeclinable neuter loanword (το μετρό). Means of transport: με + Definite Accusative.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-metro-181f50.mp3",
+              "status": "verified",
+              "example_el": "Πηγαίνω στη δουλειά με το μετρό κάθε πρωί.",
+              "example_en": "I go to work by metro every morning.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα μετρό",
+                "accusative_singular": "το μετρό"
+              },
+              "keg_communicative_function": "Using underground rapid transit"
+            },
+            {
+              "id": "A1-U10-018",
+              "greek": "το λεωφορείο",
+              "phonetic_hint": "",
+              "english": "bus",
+              "notes": "Neuter in -ο with plural in -α (τα λεωφορεία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-leoforeio-9dcf03.mp3",
+              "status": "verified",
+              "example_el": "Το λεωφορείο περνάει κάθε είκοσι λεπτά.",
+              "example_en": "The bus passes every twenty minutes.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα λεωφορεία",
+                "accusative_singular": "το λεωφορείο"
+              },
+              "keg_communicative_function": "Taking public bus transit"
+            },
+            {
+              "id": "A1-U10-019",
+              "greek": "το τρένο",
+              "phonetic_hint": "",
+              "english": "train",
+              "notes": "Neuter in -ο with plural in -α (τα τρένα). Also spelled τραίνο.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-treno-c58be7.mp3",
+              "status": "verified",
+              "example_el": "Το τρένο για τη Θεσσαλονίκη φεύγει στις δέκα.",
+              "example_en": "The train for Thessaloniki leaves at ten.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα τρένα",
+                "accusative_singular": "το τρένο"
+              },
+              "keg_communicative_function": "Intercity and regional railway travel"
+            },
+            {
+              "id": "A1-U10-020",
+              "greek": "το τραμ",
+              "phonetic_hint": "",
+              "english": "tram / streetcar",
+              "notes": "Indeclinable neuter loanword (το τραμ).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-tram-768d7e.mp3",
+              "status": "verified",
+              "example_el": "Παίρνουμε το τραμ για να πάμε στην παραλία.",
+              "example_en": "We take the tram to go to the beach.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα τραμ",
+                "accusative_singular": "το τραμ"
+              },
+              "keg_communicative_function": "Using coastal and city tramways"
+            },
+            {
+              "id": "A1-U10-021",
+              "greek": "το ταξί",
+              "phonetic_hint": "",
+              "english": "taxi / cab",
+              "notes": "Indeclinable neuter noun (το ταξί / τα ταξί).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-taxi-ac62a9.mp3",
+              "status": "verified",
+              "example_el": "Παίρνω ένα ταξί γιατί βιάζομαι πολύ.",
+              "example_en": "I take a taxi because I am in a big hurry.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ταξί",
+                "accusative_singular": "το ταξί"
+              },
+              "keg_communicative_function": "Hailing and using taxi services"
+            },
+            {
+              "id": "A1-U10-022",
+              "greek": "το πλοίο",
+              "phonetic_hint": "",
+              "english": "ship / boat / ferry",
+              "notes": "Neuter in -ο with plural in -α (τα πλοία).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-ploio-c2a3ee.mp3",
+              "status": "verified",
+              "example_el": "Το πλοίο για την Κρήτη φεύγει από το λιμάνι του Πειραιά.",
+              "example_en": "The ferry for Crete departs from the port of Piraeus.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα πλοία",
+                "accusative_singular": "το πλοίο"
+              },
+              "keg_communicative_function": "Island and maritime ferry transport"
+            },
+            {
+              "id": "A1-U10-023",
+              "greek": "το αεροπλάνο",
+              "phonetic_hint": "",
+              "english": "airplane / plane",
+              "notes": "Neuter in -ο with plural in -α (τα αεροπλάνα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-aeroplano-ee1c24.mp3",
+              "status": "verified",
+              "example_el": "Ταξιδεύουμε με το αεροπλάνο στις έντεκα το βράδυ.",
+              "example_en": "We travel by plane at eleven tonight.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα αεροπλάνα",
+                "accusative_singular": "το αεροπλάνο"
+              },
+              "keg_communicative_function": "Air travel and airport itineraries"
+            },
+            {
+              "id": "A1-U10-024",
+              "greek": "ο σταθμός",
+              "phonetic_hint": "",
+              "english": "station (metro / railway / central station)",
+              "notes": "Masculine in -ος with plural in -οι (οι σταθμοί). Oxytone.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-stathmos-b0a9a8.mp3",
+              "status": "verified",
+              "example_el": "Ο σταθμός του μετρό είναι πολύ κοντά εδώ.",
+              "example_en": "The metro station is very close to here.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι σταθμοί",
+                "accusative_singular": "τον σταθμό"
+              },
+              "keg_communicative_function": "Finding train stations or metro hubs"
+            },
+            {
+              "id": "A1-U10-025",
+              "greek": "η στάση",
+              "phonetic_hint": "",
+              "english": "stop (bus / tram stop)",
+              "notes": "Feminine in -ση with plural in -σεις (οι στάσεις).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-stasi-cea227.mp3",
+              "status": "verified",
+              "example_el": "Περιμένω στη στάση του λεωφορείου.",
+              "example_en": "I am waiting at the bus stop.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι στάσεις",
+                "accusative_singular": "τη στάση"
+              },
+              "keg_communicative_function": "Inquiring about and waiting at bus or tram stops"
+            },
+            {
+              "id": "A1-U10-026",
+              "greek": "το εισιτήριο",
+              "phonetic_hint": "",
+              "english": "ticket (transit / museum)",
+              "notes": "Proparoxytone neuter in -ιο with plural in -ια (τα εισιτήρια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-eisitirio-667f52.mp3",
+              "status": "verified",
+              "example_el": "Ένα εισιτήριο για το μετρό, παρακαλώ.",
+              "example_en": "One metro ticket, please.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα εισιτήρια",
+                "accusative_singular": "το εισιτήριο"
+              },
+              "keg_communicative_function": "Purchasing transportation tickets"
+            },
+            {
+              "id": "A1-U10-027",
+              "greek": "το απλό εισιτήριο",
+              "phonetic_hint": "",
+              "english": "single ticket / one-way ticket",
+              "notes": "Adjective απλός, -ή, -ό + εισιτήριο.",
+              "gender_or_pos": "phrase (noun expression)",
+              "audio": "to-aplo-eisitirio-ae036c.mp3",
+              "status": "verified",
+              "example_el": "Θέλω ένα απλό εισιτήριο για το λεωφορείο.",
+              "example_en": "I want a single ticket for the bus.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (noun expression)",
+                "plural": "τα απλά εισιτήρια",
+                "accusative_singular": "το απλό εισιτήριο"
+              },
+              "keg_communicative_function": "Specifying single-trip ticket purchases at ticket windows or vending machines"
+            },
+            {
+              "id": "A1-U10-028",
+              "greek": "το εισιτήριο μετ' επιστροφής",
+              "phonetic_hint": "",
+              "english": "round-trip ticket / return ticket",
+              "notes": "Fixed phrase: μετ' επιστροφής (with return, elision of μετά before vowel).",
+              "gender_or_pos": "phrase (noun expression)",
+              "audio": "to-eisitirio-met-epi-cf3a39.mp3",
+              "status": "verified",
+              "example_el": "Παίρνω ένα εισιτήριο μετ' επιστροφής για την Πάτρα.",
+              "example_en": "I take a return ticket for Patras.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (noun expression)",
+                "plural": "τα εισιτήρια μετ' επιστροφής",
+                "accusative_singular": "το εισιτήριο μετ' επιστροφής"
+              },
+              "keg_communicative_function": "Booking return transportation tickets"
+            },
+            {
+              "id": "A1-U10-029",
+              "greek": "η γραμμή",
+              "phonetic_hint": "",
+              "english": "line (metro / bus line)",
+              "notes": "Feminine oxytone in -ή with plural in -ές (οι γραμμές).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-grammi-86397e.mp3",
+              "status": "verified",
+              "example_el": "Παίρνουμε την κόκκινη γραμμή για την Ακρόπολη.",
+              "example_en": "We take the red line for the Acropolis.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γραμμές",
+                "accusative_singular": "τη γραμμή"
+              },
+              "keg_communicative_function": "Navigating subway networks and transit routes"
+            },
+            {
+              "id": "A1-U10-030",
+              "greek": "η αποβάθρα",
+              "phonetic_hint": "",
+              "english": "platform (rail / metro)",
+              "notes": "Feminine in -α with plural in -ες (οι αποβάθρες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-apovathra-444597.mp3",
+              "status": "verified",
+              "example_el": "Το τρένο μας φτάνει στην αποβάθρα δύο.",
+              "example_en": "Our train arrives at platform two.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι αποβάθρες",
+                "accusative_singular": "την αποβάθρα"
+              },
+              "keg_communicative_function": "Finding the correct platform in railway or metro stations"
+            },
+            {
+              "id": "A1-U10-031",
+              "greek": "ευθεία",
+              "phonetic_hint": "",
+              "english": "straight ahead / straight",
+              "notes": "Adverb of direction. Common pairing: 'όλο ευθεία' (straight on).",
+              "gender_or_pos": "adverb",
+              "audio": "eytheia-32d21d.mp3",
+              "status": "verified",
+              "example_el": "Πηγαίνετε όλο ευθεία για διακόσια μέτρα.",
+              "example_en": "Go straight ahead for two hundred meters.",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Giving and following straightforward directional guidance"
+            },
+            {
+              "id": "A1-U10-032",
+              "greek": "δεξιά",
+              "phonetic_hint": "",
+              "english": "on the right / to the right",
+              "notes": "Adverb of place/direction. Opposed to αριστερά.",
+              "gender_or_pos": "adverb",
+              "audio": "dexia-d8d3cc.mp3",
+              "status": "verified",
+              "example_el": "Στρίβετε δεξιά στο φανάρι.",
+              "example_en": "You turn right at the traffic light.",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Giving and following rightward turns and positions"
+            },
+            {
+              "id": "A1-U10-033",
+              "greek": "αριστερά",
+              "phonetic_hint": "",
+              "english": "on the left / to the left",
+              "notes": "Adverb of place/direction. Opposed to δεξιά.",
+              "gender_or_pos": "adverb",
+              "audio": "aristera-4ed9ab.mp3",
+              "status": "verified",
+              "example_el": "Η τράπεζα είναι αριστερά σας.",
+              "example_en": "The bank is on your left.",
+              "grammatical_info": {
+                "part_of_speech": "adverb"
+              },
+              "keg_communicative_function": "Giving and following leftward turns and positions"
+            },
+            {
+              "id": "A1-U10-034",
+              "greek": "κοντά σε",
+              "phonetic_hint": "",
+              "english": "near / close to",
+              "notes": "Prepositional compound governing 'σε + Accusative'.",
+              "gender_or_pos": "prepositional phrase",
+              "audio": "konta-se-398a48.mp3",
+              "status": "verified",
+              "example_el": "Το ξενοδοχείο είναι πολύ κοντά στον σταθμό.",
+              "example_en": "The hotel is very close to the station.",
+              "grammatical_info": {
+                "part_of_speech": "prepositional phrase",
+                "governs": "Accusative with contracted article (στο, στη, στον)"
+              },
+              "keg_communicative_function": "Expressing proximity in urban geography"
+            },
+            {
+              "id": "A1-U10-035",
+              "greek": "μακριά από",
+              "phonetic_hint": "",
+              "english": "far from / distant from",
+              "notes": "Prepositional compound governing 'από + Accusative'.",
+              "gender_or_pos": "prepositional phrase",
+              "audio": "makria-apo-619ee0.mp3",
+              "status": "verified",
+              "example_el": "Το αεροδρόμιο είναι μακριά από το κέντρο της Αθήνας.",
+              "example_en": "The airport is far from downtown Athens.",
+              "grammatical_info": {
+                "part_of_speech": "prepositional phrase",
+                "governs": "Accusative with contracted article (από το, από τη, από τον)"
+              },
+              "keg_communicative_function": "Expressing long distance from reference points"
+            },
+            {
+              "id": "A1-U10-036",
+              "greek": "απέναντι από",
+              "phonetic_hint": "",
+              "english": "across from / opposite to",
+              "notes": "Prepositional compound governing 'από + Accusative'.",
+              "gender_or_pos": "prepositional phrase",
+              "audio": "apenanti-apo-240ccc.mp3",
+              "status": "verified",
+              "example_el": "Το φαρμακείο είναι ακριβώς απέναντι από την εκκλησία.",
+              "example_en": "The pharmacy is right across from the church.",
+              "grammatical_info": {
+                "part_of_speech": "prepositional phrase",
+                "governs": "Accusative with article (από το, από την, από τον)"
+              },
+              "keg_communicative_function": "Indicating facing locations across streets or plazas"
+            },
+            {
+              "id": "A1-U10-037",
+              "greek": "με τα πόδια",
+              "phonetic_hint": "",
+              "english": "on foot / by walking",
+              "notes": "Fixed idiom: preposition με + plural neuter article τα + πόδια (feet).",
+              "gender_or_pos": "phrase (adverbial expression)",
+              "audio": "me-ta-podia-f67b57.mp3",
+              "status": "verified",
+              "example_el": "Πηγαίνω στο πανεπιστήμιο με τα πόδια.",
+              "example_en": "I go to the university on foot.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (adverbial expression)"
+              },
+              "keg_communicative_function": "Describing walking as a mode of urban transit"
+            },
+            {
+              "id": "A1-U10-038",
+              "greek": "στρίβω",
+              "phonetic_hint": "",
+              "english": "to turn / I turn",
+              "notes": "Type A regular verb: στρίβω, στρίβεις, στρίβει, στρίβουμε, στρίβετε, στρίβουν.",
+              "gender_or_pos": "verb",
+              "audio": "strivo-3a5b78.mp3",
+              "status": "verified",
+              "example_el": "Στρίβετε αριστερά στο πρώτο στενό.",
+              "example_en": "You turn left at the first alley/side street.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό στρίβει",
+                "first_person_plural": "εμείς στρίβουμε"
+              },
+              "keg_communicative_function": "Instructing someone to change direction while driving or walking"
+            },
+            {
+              "id": "A1-U10-039",
+              "greek": "περνάω / περνώ",
+              "phonetic_hint": "",
+              "english": "to cross (a street) / to pass by / I cross",
+              "notes": "Type B1 active verb: περνάω, περνάς, περνάει, περνάμε, περνάτε, περνάνε.",
+              "gender_or_pos": "verb",
+              "audio": "pernao-perno-5f3294.mp3",
+              "status": "verified",
+              "example_el": "Περνάμε τον δρόμο με πράσινο φανάρι.",
+              "example_en": "We cross the street on a green light.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1",
+                "third_person_singular": "αυτός / αυτή / αυτό περνάει (περνά)",
+                "first_person_plural": "εμείς περνάμε"
+              },
+              "keg_communicative_function": "Crossing avenues and navigating traffic intersections"
+            },
+            {
+              "id": "A1-U10-040",
+              "greek": "κατεβαίνω",
+              "phonetic_hint": "",
+              "english": "to get off (bus/train) / to descend / I get off",
+              "notes": "Type A verb: κατεβαίνω, κατεβαίνεις, κατεβαίνει, κατεβαίνουμε, κατεβαίνετε, κατεβαίνουν.",
+              "gender_or_pos": "verb",
+              "audio": "katevaino-012890.mp3",
+              "status": "verified",
+              "example_el": "Κατεβαίνουμε στην επόμενη στάση.",
+              "example_en": "We get off at the next stop.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό κατεβαίνει",
+                "first_person_plural": "εμείς κατεβαίνουμε"
+              },
+              "keg_communicative_function": "Alighting from transit vehicles at the right stop"
+            },
+            {
+              "id": "A1-U10-041",
+              "greek": "ανεβαίνω",
+              "phonetic_hint": "",
+              "english": "to get on (bus/train) / to board / to ascend / I get on",
+              "notes": "Type A verb: ανεβαίνω, ανεβαίνεις, ανεβαίνει, ανεβαίνουμε, ανεβαίνετε, ανεβαίνουν.",
+              "gender_or_pos": "verb",
+              "audio": "anevaino-a0277e.mp3",
+              "status": "verified",
+              "example_el": "Ανεβαίνω στο λεωφορείο από την μπροστινή πόρτα.",
+              "example_en": "I get on the bus through the front door.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό ανεβαίνει",
+                "first_person_plural": "εμείς ανεβαίνουμε"
+              },
+              "keg_communicative_function": "Boarding transit vehicles"
+            },
+            {
+              "id": "A1-U10-042",
+              "greek": "ψάχνω",
+              "phonetic_hint": "",
+              "english": "to look for / to search for / I look for",
+              "notes": "Type A active verb governing direct object in Accusative (ψάχνω + Accusative).",
+              "gender_or_pos": "verb",
+              "audio": "psachno-dc7f86.mp3",
+              "status": "verified",
+              "example_el": "Συγγνώμη, ψάχνω τον σταθμό των τρένων.",
+              "example_en": "Excuse me, I am looking for the train station.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό ψάχνει",
+                "first_person_plural": "εμείς ψάχνουμε"
+              },
+              "keg_communicative_function": "Asking passersby for help finding places or addresses"
+            }
+          ],
+          "total_entries": 42,
+          "verified_entries": 42,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 42,
+      "verified_entries": 42,
+      "coverage_percentage": 100.0
+    },
+    {
+      "id": "unit-11",
+      "title": "Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)",
+      "order": "OG-11-A",
+      "lessons": [
+        {
+          "unit_id": "unit-11",
+          "lesson_id": "lesson-01",
+          "title": "Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)",
+          "description": "CEFR A1: Talking about hobbies, sports, cinema, beach and island vacations, describing the weather, and using direct-object clitic pronouns.",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 11 Core Grammar Notes:\n\n• Weather Idioms & Impersonal Expressions:\n  - 'Τι καιρό κάνει σήμερα;' (What's the weather like today?).\n  - 'Κάνει ζέστη / κάνει κρύο' (It is hot / cold).\n  - 'Έχει ήλιο / έχει συννεφιά / έχει αέρα' (It is sunny / cloudy / windy).\n  - Impersonal verbs: βρέχει (it rains), χιονίζει (it snows), φυσάει (the wind blows).\n  - Degrees of temperature: 'Η θερμοκρασία είναι 28 βαθμοί.'\n\n• Expressing Likes & Preferences ('Μου αρέσει / Μου αρέσουν'):\n  - 'Μου αρέσει' + Singular noun or verb: 'Μου αρέσει η θάλασσα' / 'Μου αρέσει να ταξιδεύω'.\n  - 'Μου αρέσουν' + Plural noun: 'Μου αρέσουν τα νησιά'.\n  - Verb 'προτιμάω / προτιμώ': 'Προτιμώ τη θάλασσα από το βουνό.'\n\n• Weak Direct-Object Clitic Pronouns (Αιτιατική Προσωπικών Αντωνυμιών):\n  - Singular: με (me), σε (you), τον (him/it), την (her/it), το (it).\n  - Plural: μας (us), σας (you all), τους (them masc), τις (them fem), τα (them neut).\n  - Syntactic position: Placed immediately BEFORE the conjugated verb in active indicative:\n    * 'Τον βλέπω' (I see him).\n    * 'Τις ξέρεις;' (Do you know them?).\n    * 'Δεν το θέλω' (I don't want it).",
+          "entries": [
+            {
+              "id": "A1-U11-001",
+              "greek": "ο καιρός",
+              "phonetic_hint": "",
+              "english": "weather / time",
+              "notes": "Masculine in -ος with plural in -οι (οι καιροί). Key question: 'Τι καιρό κάνει;' (What is the weather like?).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-kairos-7c6f51.mp3",
+              "status": "verified",
+              "example_el": "Πώς είναι ο καιρός σήμερα στην Αθήνα;",
+              "example_en": "How is the weather today in Athens?",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι καιροί",
+                "accusative_singular": "τον καιρό"
+              },
+              "keg_communicative_function": "Inquiring about and describing the weather"
+            },
+            {
+              "id": "A1-U11-002",
+              "greek": "ο ήλιος",
+              "phonetic_hint": "",
+              "english": "sun",
+              "notes": "Masculine in -ος with plural in -οι (οι ήλιοι).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ilios-b8ba7b.mp3",
+              "status": "verified",
+              "example_el": "Ο ήλιος λάμπει στον ουρανό.",
+              "example_en": "The sun shines in the sky.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι ήλιοι",
+                "accusative_singular": "τον ήλιο"
+              },
+              "keg_communicative_function": "Describing sunny atmospheric conditions"
+            },
+            {
+              "id": "A1-U11-003",
+              "greek": "η βροχή",
+              "phonetic_hint": "",
+              "english": "rain",
+              "notes": "Feminine oxytone in -ή with plural in -ές (οι βροχές).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-vrochi-6244c9.mp3",
+              "status": "verified",
+              "example_el": "Η βροχή είναι πολύ δυνατή σήμερα.",
+              "example_en": "The rain is very heavy today.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι βροχές",
+                "accusative_singular": "τη βροχή"
+              },
+              "keg_communicative_function": "Discussing rainfall and rainy weather"
+            },
+            {
+              "id": "A1-U11-004",
+              "greek": "το χιόνι",
+              "phonetic_hint": "",
+              "english": "snow",
+              "notes": "Neuter in -ι with plural in -ια (τα χιόνια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-chioni-d54bfa.mp3",
+              "status": "verified",
+              "example_el": "Υπάρχει πολύ χιόνι πάνω στα βουνά.",
+              "example_en": "There is a lot of snow up on the mountains.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα χιόνια",
+                "accusative_singular": "το χιόνι"
+              },
+              "keg_communicative_function": "Discussing snowfall and winter conditions"
+            },
+            {
+              "id": "A1-U11-005",
+              "greek": "ο αέρας / ο άνεμος",
+              "phonetic_hint": "",
+              "english": "wind / air",
+              "notes": "Common usage: 'ο αέρας'. Weather forecasts often use 'ο άνεμος'.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-aeras-o-anemos-fc078c.mp3",
+              "status": "verified",
+              "example_el": "Σήμερα έχει πολύ δυνατό αέρα στο νησί.",
+              "example_en": "Today there is very strong wind on the island.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι αέρηδες / οι άνεμοι",
+                "accusative_singular": "τον αέρα / τον άνεμο"
+              },
+              "keg_communicative_function": "Describing windy weather conditions"
+            },
+            {
+              "id": "A1-U11-006",
+              "greek": "το σύννεφο",
+              "phonetic_hint": "",
+              "english": "cloud",
+              "notes": "Proparoxytone neuter in -ο with plural in -α (τα σύννεφα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-synnefo-bce26e.mp3",
+              "status": "verified",
+              "example_el": "Βλέπω μαύρα σύννεφα στον ουρανό.",
+              "example_en": "I see dark clouds in the sky.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα σύννεφα",
+                "accusative_singular": "το σύννεφο"
+              },
+              "keg_communicative_function": "Describing sky conditions"
+            },
+            {
+              "id": "A1-U11-007",
+              "greek": "η συννεφιά",
+              "phonetic_hint": "",
+              "english": "cloudiness / overcast sky",
+              "notes": "Feminine oxytone in -ιά. Frequently paired with verb: 'έχει συννεφιά'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-synnefia-012c77.mp3",
+              "status": "verified",
+              "example_el": "Έχει συννεφιά αλλά δεν βρέχει.",
+              "example_en": "It is overcast, but it is not raining.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι συννεφιές",
+                "accusative_singular": "τη συννεφιά"
+              },
+              "keg_communicative_function": "Reporting cloudy weather"
+            },
+            {
+              "id": "A1-U11-008",
+              "greek": "η θερμοκρασία",
+              "phonetic_hint": "",
+              "english": "temperature",
+              "notes": "Feminine in -α with plural in -ες (οι θερμοκρασίες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-thermokrasia-7df125.mp3",
+              "status": "verified",
+              "example_el": "Η θερμοκρασία είναι είκοσι πέντε βαθμοί Κελσίου.",
+              "example_en": "The temperature is twenty-five degrees Celsius.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι θερμοκρασίες",
+                "accusative_singular": "τη θερμοκρασία"
+              },
+              "keg_communicative_function": "Reading and discussing temperature forecasts"
+            },
+            {
+              "id": "A1-U11-009",
+              "greek": "ο βαθμός",
+              "phonetic_hint": "",
+              "english": "degree (temperature) / grade",
+              "notes": "Masculine oxytone in -ός with plural in -οί (οι βαθμοί).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-vathmos-be1cd4.mp3",
+              "status": "verified",
+              "example_el": "Το καλοκαίρι έχουμε σαράντα βαθμούς.",
+              "example_en": "In the summer we have forty degrees.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι βαθμοί",
+                "accusative_singular": "τον βαθμό"
+              },
+              "keg_communicative_function": "Expressing degrees of temperature"
+            },
+            {
+              "id": "A1-U11-010",
+              "greek": "κάνει ζέστη",
+              "phonetic_hint": "",
+              "english": "it is hot / it is warm (weather)",
+              "notes": "Impersonal idiom: κάνει + noun ζέστη (heat).",
+              "gender_or_pos": "phrase (impersonal weather idiom)",
+              "audio": "kanei-zesti-c920f1.mp3",
+              "status": "verified",
+              "example_el": "Σήμερα κάνει πολλή ζέστη στην Αθήνα.",
+              "example_en": "Today it is very hot in Athens.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (impersonal weather idiom)"
+              },
+              "keg_communicative_function": "Expressing that the weather is warm or hot"
+            },
+            {
+              "id": "A1-U11-011",
+              "greek": "κάνει κρύο",
+              "phonetic_hint": "",
+              "english": "it is cold (weather)",
+              "notes": "Impersonal idiom: κάνει + noun/adjective κρύο (cold).",
+              "gender_or_pos": "phrase (impersonal weather idiom)",
+              "audio": "kanei-kryo-117e0d.mp3",
+              "status": "verified",
+              "example_el": "Τον χειμώνα κάνει αρκετό κρύο.",
+              "example_en": "In the winter it is quite cold.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (impersonal weather idiom)"
+              },
+              "keg_communicative_function": "Expressing cold weather conditions"
+            },
+            {
+              "id": "A1-U11-012",
+              "greek": "έχει ήλιο",
+              "phonetic_hint": "",
+              "english": "it is sunny / the sun is out",
+              "notes": "Impersonal construction: έχει + noun ήλιο.",
+              "gender_or_pos": "phrase (impersonal weather idiom)",
+              "audio": "echei-ilio-f833b7.mp3",
+              "status": "verified",
+              "example_el": "Έχει ωραίο ήλιο σήμερα, πάμε βόλτα;",
+              "example_en": "It is nice and sunny today, shall we go for a walk?",
+              "grammatical_info": {
+                "part_of_speech": "phrase (impersonal weather idiom)"
+              },
+              "keg_communicative_function": "Describing sunny days"
+            },
+            {
+              "id": "A1-U11-013",
+              "greek": "βρέχει",
+              "phonetic_hint": "",
+              "english": "it rains / it is raining",
+              "notes": "Used almost exclusively in the 3rd person singular for weather: βρέχει.",
+              "gender_or_pos": "verb",
+              "audio": "vrechei-406c0c.mp3",
+              "status": "verified",
+              "example_el": "Πάρε ομπρέλα γιατί βρέχει έξω.",
+              "example_en": "Take an umbrella because it is raining outside.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A (impersonal 3rd singular)",
+                "third_person_singular": "βρέχει",
+                "first_person_plural": "βρέχουμε (as personal transitive: we wet)"
+              },
+              "keg_communicative_function": "Reporting rainy conditions"
+            },
+            {
+              "id": "A1-U11-014",
+              "greek": "χιονίζει",
+              "phonetic_hint": "",
+              "english": "it snows / it is snowing",
+              "notes": "Impersonal weather verb from το χιόνι (snow).",
+              "gender_or_pos": "verb",
+              "audio": "chionizei-f8436c.mp3",
+              "status": "verified",
+              "example_el": "Χιονίζει στα βουνά της βόρειας Ελλάδας.",
+              "example_en": "It is snowing in the mountains of northern Greece.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A (impersonal 3rd singular)",
+                "third_person_singular": "χιονίζει",
+                "first_person_plural": "χιονίζουμε"
+              },
+              "keg_communicative_function": "Reporting snow conditions"
+            },
+            {
+              "id": "A1-U11-015",
+              "greek": "φυσάει / φυσά",
+              "phonetic_hint": "",
+              "english": "the wind blows / it is windy",
+              "notes": "Type B1 active verb: φυσάει.",
+              "gender_or_pos": "verb",
+              "audio": "fysaei-fysa-256616.mp3",
+              "status": "verified",
+              "example_el": "Φυσάει πολύ δυνατά κοντά στη θάλασσα.",
+              "example_en": "The wind is blowing very strongly near the sea.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1 (impersonal 3rd singular)",
+                "third_person_singular": "φυσάει / φυσά",
+                "first_person_plural": "φυσάμε"
+              },
+              "keg_communicative_function": "Reporting windy atmospheric phenomena"
+            },
+            {
+              "id": "A1-U11-016",
+              "greek": "ο ελεύθερος χρόνος",
+              "phonetic_hint": "",
+              "english": "free time / leisure time",
+              "notes": "Adjective ελεύθερος (free) + χρόνος (time).",
+              "gender_or_pos": "phrase (noun expression)",
+              "audio": "o-eleytheros-chronos-fbdb07.mp3",
+              "status": "verified",
+              "example_el": "Τι κάνεις στον ελεύθερο χρόνο σου;",
+              "example_en": "What do you do in your free time?",
+              "grammatical_info": {
+                "part_of_speech": "phrase (noun expression)",
+                "plural": "οι ελεύθεροι χρόνοι",
+                "accusative_singular": "τον ελεύθερο χρόνο"
+              },
+              "keg_communicative_function": "Talking about leisure availability and hobbies"
+            },
+            {
+              "id": "A1-U11-017",
+              "greek": "οι διακοπές",
+              "phonetic_hint": "",
+              "english": "vacation / holidays",
+              "notes": "Commonly plural: οι διακοπές (the holidays). Phrase: 'πάω διακοπές'.",
+              "gender_or_pos": "noun (feminine plural)",
+              "audio": "oi-diakopes-000025.mp3",
+              "status": "verified",
+              "example_el": "Το καλοκαίρι πάμε διακοπές στην Κρήτη.",
+              "example_en": "In the summer we go on vacation to Crete.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine plural)",
+                "plural": "οι διακοπές",
+                "accusative_singular": "τη διακοπή (break / interruption)"
+              },
+              "keg_communicative_function": "Discussing vacation plans and holiday periods"
+            },
+            {
+              "id": "A1-U11-018",
+              "greek": "η παραλία",
+              "phonetic_hint": "",
+              "english": "beach / seashore",
+              "notes": "Feminine in -α with plural in -ες (οι παραλίες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-paralia-019ba7.mp3",
+              "status": "verified",
+              "example_el": "Πηγαίνουμε στην παραλία για μπάνιο.",
+              "example_en": "We go to the beach for a swim.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι παραλίες",
+                "accusative_singular": "την παραλία"
+              },
+              "keg_communicative_function": "Talking about seaside outings and summer recreation"
+            },
+            {
+              "id": "A1-U11-019",
+              "greek": "η θάλασσα",
+              "phonetic_hint": "",
+              "english": "sea",
+              "notes": "Feminine proparoxytone in -α with plural in -ες (οι θάλασσες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-thalassa-4f3dcd.mp3",
+              "status": "verified",
+              "example_el": "Το νερό στη θάλασσα είναι πολύ ζεστό.",
+              "example_en": "The water in the sea is very warm.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι θάλασσες",
+                "accusative_singular": "τη θάλασσα"
+              },
+              "keg_communicative_function": "Talking about marine geography and swimming"
+            },
+            {
+              "id": "A1-U11-020",
+              "greek": "το βουνό",
+              "phonetic_hint": "",
+              "english": "mountain",
+              "notes": "Neuter oxytone in -ό with plural in -ά (τα βουνά).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-voyno-bdef81.mp3",
+              "status": "verified",
+              "example_el": "Μου αρέσει να περπατάω στο βουνό.",
+              "example_en": "I like walking on the mountain.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα βουνά",
+                "accusative_singular": "το βουνό"
+              },
+              "keg_communicative_function": "Talking about mountain hiking and nature excursions"
+            },
+            {
+              "id": "A1-U11-021",
+              "greek": "το νησί",
+              "phonetic_hint": "",
+              "english": "island",
+              "notes": "Neuter oxytone in -ί with plural in -ιά (τα νησιά).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-nisi-52295e.mp3",
+              "status": "verified",
+              "example_el": "Η Σαντορίνη είναι ένα διάσημο ελληνικό νησί.",
+              "example_en": "Santorini is a famous Greek island.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα νησιά",
+                "accusative_singular": "το νησί"
+              },
+              "keg_communicative_function": "Talking about Greek islands and travel destinations"
+            },
+            {
+              "id": "A1-U11-022",
+              "greek": "το ταξίδι",
+              "phonetic_hint": "",
+              "english": "trip / journey / travel",
+              "notes": "Neuter in -ι with plural in -ια (τα ταξίδια). Well-known wish: 'Καλό ταξίδι!'.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-taxidi-a1fbbd.mp3",
+              "status": "verified",
+              "example_el": "Καλό ταξίδι και καλή διασκέδαση!",
+              "example_en": "Have a good trip and have fun!",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ταξίδια",
+                "accusative_singular": "το ταξίδι"
+              },
+              "keg_communicative_function": "Discussing journeys and wishing good travels"
+            },
+            {
+              "id": "A1-U11-023",
+              "greek": "η βόλτα",
+              "phonetic_hint": "",
+              "english": "walk / stroll / ride",
+              "notes": "Feminine in -α with plural in -ες (οι βόλτες). Idiom: 'πάω βόλτα / κάνω βόλτα'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-volta-3578d3.mp3",
+              "status": "verified",
+              "example_el": "Πάμε μια βόλτα στην παραλία το απόγευμα;",
+              "example_en": "Shall we go for a walk on the beach this afternoon?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι βόλτες",
+                "accusative_singular": "τη βόλτα"
+              },
+              "keg_communicative_function": "Arranging casual walks and outings"
+            },
+            {
+              "id": "A1-U11-024",
+              "greek": "το ποδόσφαιρο",
+              "phonetic_hint": "",
+              "english": "football / soccer",
+              "notes": "Compound neuter: πόδι (foot) + σφαίρα (ball/sphere).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-podosfairo-2aae48.mp3",
+              "status": "verified",
+              "example_el": "Τα παιδιά παίζουν ποδόσφαιρο στο πάρκο.",
+              "example_en": "The children are playing soccer in the park.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ποδόσφαιρα (rare)",
+                "accusative_singular": "το ποδόσφαιρο"
+              },
+              "keg_communicative_function": "Discussing team sports and athletic hobbies"
+            },
+            {
+              "id": "A1-U11-025",
+              "greek": "το μπάσκετ",
+              "phonetic_hint": "",
+              "english": "basketball",
+              "notes": "Indeclinable neuter loanword (το μπάσκετ).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-mpasket-eb1b2b.mp3",
+              "status": "verified",
+              "example_el": "Παίζω μπάσκετ με τους φίλους μου κάθε Σάββατο.",
+              "example_en": "I play basketball with my friends every Saturday.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα μπάσκετ",
+                "accusative_singular": "το μπάσκετ"
+              },
+              "keg_communicative_function": "Discussing basketball games and hobbies"
+            },
+            {
+              "id": "A1-U11-026",
+              "greek": "το σινεμά",
+              "phonetic_hint": "",
+              "english": "cinema / movies / movie theater",
+              "notes": "Indeclinable neuter loanword (το σινεμά). Synonymous with 'ο κινηματογράφος'.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-sinema-2837b6.mp3",
+              "status": "verified",
+              "example_el": "Πάμε σινεμά απόψε να δούμε μια ελληνική ταινία;",
+              "example_en": "Shall we go to the cinema tonight to see a Greek movie?",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα σινεμά",
+                "accusative_singular": "το σινεμά"
+              },
+              "keg_communicative_function": "Going to movie screenings and entertainment"
+            },
+            {
+              "id": "A1-U11-027",
+              "greek": "το θέατρο",
+              "phonetic_hint": "",
+              "english": "theater / theatre",
+              "notes": "Neuter in -ο with plural in -α (τα θέατρα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-theatro-49289c.mp3",
+              "status": "verified",
+              "example_el": "Μου αρέσει πολύ το αρχαίο ελληνικό θέατρο.",
+              "example_en": "I really like ancient Greek theater.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα θέατρα",
+                "accusative_singular": "το θέατρο"
+              },
+              "keg_communicative_function": "Attending theatrical performances"
+            },
+            {
+              "id": "A1-U11-028",
+              "greek": "η συναυλία",
+              "phonetic_hint": "",
+              "english": "concert",
+              "notes": "Feminine in -α with plural in -ες (οι συναυλίες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-synaylia-69d5fb.mp3",
+              "status": "verified",
+              "example_el": "Έχουμε εισιτήρια για τη συναυλία της Παρασκευής.",
+              "example_en": "We have tickets for Friday's concert.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι συναυλίες",
+                "accusative_singular": "τη συναυλία"
+              },
+              "keg_communicative_function": "Attending musical performances and live shows"
+            },
+            {
+              "id": "A1-U11-029",
+              "greek": "η μουσική",
+              "phonetic_hint": "",
+              "english": "music",
+              "notes": "Feminine oxytone in -ή with plural in -ές (οι μουσικές).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-moysiki-e0dba4.mp3",
+              "status": "verified",
+              "example_el": "Ακούω παραδοσιακή ελληνική μουσική.",
+              "example_en": "I listen to traditional Greek music.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι μουσικές",
+                "accusative_singular": "τη μουσική"
+              },
+              "keg_communicative_function": "Expressing musical taste and listening habits"
+            },
+            {
+              "id": "A1-U11-030",
+              "greek": "η φωτογραφία",
+              "phonetic_hint": "",
+              "english": "photograph / photography",
+              "notes": "Feminine in -α with plural in -ες (οι φωτογραφίες). Phrase: 'βγάζω φωτογραφία' (to take a photo).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-fotografia-c2a41e.mp3",
+              "status": "verified",
+              "example_el": "Βγάζω πολλές φωτογραφίες στις διακοπές μου.",
+              "example_en": "I take lots of photos on my vacation.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι φωτογραφίες",
+                "accusative_singular": "τη φωτογραφία"
+              },
+              "keg_communicative_function": "Taking vacation photos and discussing visual hobbies"
+            },
+            {
+              "id": "A1-U11-031",
+              "greek": "παίζω",
+              "phonetic_hint": "",
+              "english": "to play (sports/games/instruments) / I play",
+              "notes": "Type A regular verb: παίζω, παίζεις, παίζει, παίζουμε, παίζετε, παίζουν.",
+              "gender_or_pos": "verb",
+              "audio": "paizo-eee24f.mp3",
+              "status": "verified",
+              "example_el": "Παίζω κιθάρα και τραγουδάω.",
+              "example_en": "I play guitar and sing.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό παίζει",
+                "first_person_plural": "εμείς παίζουμε"
+              },
+              "keg_communicative_function": "Talking about playing games, sports, and musical instruments"
+            },
+            {
+              "id": "A1-U11-032",
+              "greek": "ταξιδεύω",
+              "phonetic_hint": "",
+              "english": "to travel / I travel",
+              "notes": "Type A regular verb in -εύω: ταξιδεύω, ταξιδεύεις, ταξιδεύει, ταξιδεύουμε, ταξιδεύετε, ταξιδεύουν.",
+              "gender_or_pos": "verb",
+              "audio": "taxideyo-6e1522.mp3",
+              "status": "verified",
+              "example_el": "Ταξιδεύουμε συχνά στο εξωτερικό.",
+              "example_en": "We often travel abroad.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό ταξιδεύει",
+                "first_person_plural": "εμείς ταξιδεύουμε"
+              },
+              "keg_communicative_function": "Describing travel habits and destinations"
+            },
+            {
+              "id": "A1-U11-033",
+              "greek": "κολυμπάω / κολυμπώ",
+              "phonetic_hint": "",
+              "english": "to swim / I swim",
+              "notes": "Type B1 active verb: κολυμπάω, κολυμπάς, κολυμπάει, κολυμπάμε, κολυμπάτε, κολυμπάνε.",
+              "gender_or_pos": "verb",
+              "audio": "kolympao-kolympo-4842c0.mp3",
+              "status": "verified",
+              "example_el": "Κολυμπάω στη θάλασσα κάθε καλοκαίρι.",
+              "example_en": "I swim in the sea every summer.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1",
+                "third_person_singular": "αυτός / αυτή / αυτό κολυμπάει (κολυμπά)",
+                "first_person_plural": "εμείς κολυμπάμε"
+              },
+              "keg_communicative_function": "Describing swimming and aquatic recreation"
+            },
+            {
+              "id": "A1-U11-034",
+              "greek": "χορεύω",
+              "phonetic_hint": "",
+              "english": "to dance / I dance",
+              "notes": "Type A regular verb in -εύω: χορεύω, χορεύεις, χορεύει, χορεύουμε, χορεύετε, χορεύουν.",
+              "gender_or_pos": "verb",
+              "audio": "choreyo-40716f.mp3",
+              "status": "verified",
+              "example_el": "Χορεύουμε συρτάκι στις γιορτές.",
+              "example_en": "We dance syrtaki at celebrations.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό χορεύει",
+                "first_person_plural": "εμείς χορεύουμε"
+              },
+              "keg_communicative_function": "Talking about dancing and festive social gatherings"
+            },
+            {
+              "id": "A1-U11-035",
+              "greek": "ακούω",
+              "phonetic_hint": "",
+              "english": "to listen / to hear / I listen",
+              "notes": "Type A vowel-stem verb: ακούω, ακούς, ακούει, ακούμε, ακούτε, ακούν(ε).",
+              "gender_or_pos": "verb",
+              "audio": "akoyo-38930c.mp3",
+              "status": "verified",
+              "example_el": "Ακούω ραδιόφωνο όταν οδηγώ.",
+              "example_en": "I listen to the radio when I drive.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό ακούει",
+                "first_person_plural": "εμείς ακούμε"
+              },
+              "keg_communicative_function": "Expressing auditory perception and music consumption"
+            },
+            {
+              "id": "A1-U11-036",
+              "greek": "προτιμάω / προτιμώ",
+              "phonetic_hint": "",
+              "english": "to prefer / I prefer",
+              "notes": "Type B1 active verb: προτιμάω, προτιμάς, προτιμάει, προτιμάμε, προτιμάτε, προτιμούν.",
+              "gender_or_pos": "verb",
+              "audio": "protimao-protimo-d59982.mp3",
+              "status": "verified",
+              "example_el": "Προτιμώ τη θάλασσα από το βουνό.",
+              "example_en": "I prefer the sea over the mountain.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1",
+                "third_person_singular": "αυτός / αυτή / αυτό προτιμάει (προτιμά)",
+                "first_person_plural": "εμείς προτιμάμε"
+              },
+              "keg_communicative_function": "Stating preferences between leisure options or choices"
+            },
+            {
+              "id": "A1-U11-037",
+              "greek": "μου αρέσει",
+              "phonetic_hint": "",
+              "english": "I like (singular noun or verb infinitive)",
+              "notes": "Weak indirect object clitic (μου) + 3rd person singular 'αρέσει' + Nominative singular or verb.",
+              "gender_or_pos": "phrase (preference construction)",
+              "audio": "moy-aresei-c71e29.mp3",
+              "status": "verified",
+              "example_el": "Μου αρέσει πολύ το ελληνικό καλοκαίρι.",
+              "example_en": "I like the Greek summer very much.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (preference construction)"
+              },
+              "keg_communicative_function": "Expressing likes and personal tastes with singular objects or actions"
+            },
+            {
+              "id": "A1-U11-038",
+              "greek": "μου αρέσουν",
+              "phonetic_hint": "",
+              "english": "I like (plural nouns)",
+              "notes": "Used exclusively when the liked entity is Nominative plural: 'μου αρέσουν τα νησιά'.",
+              "gender_or_pos": "phrase (preference construction)",
+              "audio": "moy-aresoyn-d226e3.mp3",
+              "status": "verified",
+              "example_el": "Μου αρέσουν τα παλιά ελληνικά τραγούδια.",
+              "example_en": "I like old Greek songs.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (preference construction)"
+              },
+              "keg_communicative_function": "Expressing likes and personal tastes with plural objects"
+            },
+            {
+              "id": "A1-U11-039",
+              "greek": "διασκεδάζω",
+              "phonetic_hint": "",
+              "english": "to have fun / to party / to enjoy oneself / I have fun",
+              "notes": "Type A regular verb in -άζω: διασκεδάζω, διασκεδάζεις, διασκεδάζει, διασκεδάζουμε, διασκεδάζετε, διασκεδάζουν.",
+              "gender_or_pos": "verb",
+              "audio": "diaskedazo-b1a79a.mp3",
+              "status": "verified",
+              "example_el": "Διασκεδάζουμε πολύ στις διακοπές μας.",
+              "example_en": "We have a lot of fun on our vacation.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό διασκεδάζει",
+                "first_person_plural": "εμείς διασκεδάζουμε"
+              },
+              "keg_communicative_function": "Talking about having a good time at outings and events"
+            },
+            {
+              "id": "A1-U11-040",
+              "greek": "χαλαρώνω",
+              "phonetic_hint": "",
+              "english": "to relax / to unwind / I relax",
+              "notes": "Type A active verb: χαλαρώνω, χαλαρώνεις, χαλαρώνει, χαλαρώνουμε, χαλαρώνετε, χαλαρώνουν.",
+              "gender_or_pos": "verb",
+              "audio": "chalarono-d93c33.mp3",
+              "status": "verified",
+              "example_el": "Το σαββατοκύριακο μένω σπίτι και χαλαρώνω.",
+              "example_en": "On the weekend I stay home and relax.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό χαλαρώνει",
+                "first_person_plural": "εμείς χαλαρώνουμε"
+              },
+              "keg_communicative_function": "Expressing unwinding and resting during free time"
+            },
+            {
+              "id": "A1-U11-041",
+              "greek": "τον / την / το",
+              "phonetic_hint": "",
+              "english": "him / her / it (weak direct-object clitics)",
+              "notes": "Placed directly BEFORE the conjugated verb in indicative sentences (τον βλέπω, την ξέρω, το ακούω).",
+              "gender_or_pos": "pronoun (personal direct-object singular)",
+              "audio": "ton-tin-to-49507a.mp3",
+              "status": "verified",
+              "example_el": "Βλέπεις τον Νίκο; — Ναι, τον βλέπω.",
+              "example_en": "Do you see Nikos? — Yes, I see him.",
+              "grammatical_info": {
+                "part_of_speech": "pronoun (personal direct-object singular)",
+                "clitic_forms": "τον (masc), την (fem), το (neut)"
+              },
+              "keg_communicative_function": "Referring to persons or objects as direct objects without repeating nouns"
+            },
+            {
+              "id": "A1-U11-042",
+              "greek": "τους / τις / τα",
+              "phonetic_hint": "",
+              "english": "them (weak direct-object clitics plural)",
+              "notes": "Placed directly BEFORE the conjugated verb in indicative sentences (τους ξέρω, τις βλέπω, τα θέλω).",
+              "gender_or_pos": "pronoun (personal direct-object plural)",
+              "audio": "toys-tis-ta-31fb88.mp3",
+              "status": "verified",
+              "example_el": "Ξέρεις τους καθηγητές; — Ναι, τους ξέρω καλά.",
+              "example_en": "Do you know the professors? — Yes, I know them well.",
+              "grammatical_info": {
+                "part_of_speech": "pronoun (personal direct-object plural)",
+                "clitic_forms": "τους (masc), τις (fem), τα (neut)"
+              },
+              "keg_communicative_function": "Referring to plural persons or objects as direct objects"
+            }
+          ],
+          "total_entries": 42,
+          "verified_entries": 42,
+          "coverage_percentage": 100.0
+        }
+      ],
+      "total_entries": 42,
+      "verified_entries": 42,
+      "coverage_percentage": 100.0
+    },
+    {
+      "id": "unit-12",
+      "title": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+      "order": "OG-12-A",
+      "lessons": [
+        {
+          "unit_id": "unit-12",
+          "lesson_id": "lesson-01",
+          "title": "Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)",
+          "description": "CEFR A1: Parts of the body, symptoms and illnesses, pharmacy purchases, the modal 'πρέπει να', emergency cries, and wishing good recovery.",
+          "lesson_status": "not_started",
+          "lesson_notes": "Unit 12 Core Grammar Notes:\n\n• Body Parts & Describing Pain:\n  - 'Πονάω' (I am hurting): Type B1 verb (πονάω, πονάς, πονάει, πονάμε, πονάτε, πονάνε).\n  - Expressing localized pain with weak clitics:\n    * Singular: 'Με πονάει το κεφάλι μου' / 'Με πονάει ο λαιμός μου'.\n    * Plural: 'Με πονάνε τα μάτια μου' / 'Με πονάνε τα πόδια μου'.\n  - Symptoms with 'έχω': έχω πυρετό (fever), έχω συνάχι (cold), έχω πονοκέφαλο (headache), έχω βήχα (cough).\n\n• Visiting the Pharmacy (Στο Φαρμακείο):\n  - Asking for remedies: 'Θέλω κάτι για τον πονόλαιμο / για τον πονοκέφαλο, παρακαλώ.'\n  - Common items: ασπιρίνη, χάπια, σιρόπι, τσιρότο, γάζα, οινόπνευμα.\n  - Prescriptions: 'η ιατρική συνταγή'.\n\n• Modal Necessity Syntax ('Πρέπει να'):\n  - Impersonal modal trigger 'πρέπει να' + Present Active Indicative:\n    * 'Πρέπει να μείνετε στο κρεβάτι.' (You must stay in bed.)\n    * 'Πρέπει να παίρνεις το φάρμακο κάθε οκτώ ώρες.' (You have to take the medicine every eight hours.)\n\n• Urgent Situations & Social Formulas:\n  - Emergency cries: 'Βοήθεια!' (Help!), 'Χρειάζομαι γιατρό!' (I need a doctor!), 'Καλέστε ασθενοφόρο!' (Call an ambulance!).\n  - Wishing recovery: 'Περαστικά!' (Get well soon!).\n  - Toasting health: 'Στην υγειά μας!' / 'Στην υγειά σας!'",
+          "entries": [
+            {
+              "id": "A1-U12-001",
+              "greek": "το σώμα",
+              "phonetic_hint": "",
+              "english": "body",
+              "notes": "Neuter noun in -μα with plural in -ματα (τα σώματα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-soma-2288d9.mp3",
+              "status": "verified",
+              "example_el": "Η άσκηση κάνει καλό σε όλο το σώμα.",
+              "example_en": "Exercise is good for the whole body.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα σώματα",
+                "accusative_singular": "το σώμα"
+              },
+              "keg_communicative_function": "Naming human body and physical anatomy"
+            },
+            {
+              "id": "A1-U12-002",
+              "greek": "το κεφάλι",
+              "phonetic_hint": "",
+              "english": "head",
+              "notes": "Neuter in -ι with plural in -ια (τα κεφάλια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-kefali-528f3c.mp3",
+              "status": "verified",
+              "example_el": "Πονάει το κεφάλι μου από το πρωί.",
+              "example_en": "My head hurts since morning.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα κεφάλια",
+                "accusative_singular": "το κεφάλι"
+              },
+              "keg_communicative_function": "Describing head pain or injuries"
+            },
+            {
+              "id": "A1-U12-003",
+              "greek": "ο λαιμός",
+              "phonetic_hint": "",
+              "english": "throat / neck",
+              "notes": "Masculine oxytone in -ός with plural in -οί (οι λαιμοί).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-laimos-105150.mp3",
+              "status": "verified",
+              "example_el": "Έχω κόκκινο λαιμό και δεν μπορώ να καταπιώ.",
+              "example_en": "I have a red throat and I cannot swallow.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι λαιμοί",
+                "accusative_singular": "τον λαιμό"
+              },
+              "keg_communicative_function": "Reporting sore throat symptoms"
+            },
+            {
+              "id": "A1-U12-004",
+              "greek": "το στομάχι",
+              "phonetic_hint": "",
+              "english": "stomach",
+              "notes": "Neuter in -ι with plural in -ια (τα στομάχια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-stomachi-aba6c2.mp3",
+              "status": "verified",
+              "example_el": "Με πονάει το στομάχι μου μετά το φαγητό.",
+              "example_en": "My stomach hurts after eating.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα στομάχια",
+                "accusative_singular": "το στομάχι"
+              },
+              "keg_communicative_function": "Describing gastric discomfort and digestive issues"
+            },
+            {
+              "id": "A1-U12-005",
+              "greek": "η κοιλιά",
+              "phonetic_hint": "",
+              "english": "belly / abdomen / stomach",
+              "notes": "Feminine oxytone in -ιά with plural in -ιές (οι κοιλιές).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-koilia-157cde.mp3",
+              "status": "verified",
+              "example_el": "Το παιδί πονάει στην κοιλιά.",
+              "example_en": "The child has pain in the belly.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι κοιλιές",
+                "accusative_singular": "την κοιλιά"
+              },
+              "keg_communicative_function": "Describing abdominal pain"
+            },
+            {
+              "id": "A1-U12-006",
+              "greek": "το μάτι",
+              "phonetic_hint": "",
+              "english": "eye",
+              "notes": "Neuter in -ι with plural in -ια (τα μάτια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-mati-9257a7.mp3",
+              "status": "verified",
+              "example_el": "Τον πονούν τα μάτια του από την οθόνη του υπολογιστή.",
+              "example_en": "His eyes hurt from the computer screen.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα μάτια",
+                "accusative_singular": "το μάτι"
+              },
+              "keg_communicative_function": "Describing ocular symptoms or irritation"
+            },
+            {
+              "id": "A1-U12-007",
+              "greek": "το αυτί",
+              "phonetic_hint": "",
+              "english": "ear",
+              "notes": "Neuter oxytone in -ί with plural in -ιά (τα αυτιά). Also spelled αφτί.",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-ayti-184b88.mp3",
+              "status": "verified",
+              "example_el": "Έχω πρόβλημα με το δεξί μου αυτί.",
+              "example_en": "I have an issue with my right ear.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα αυτιά",
+                "accusative_singular": "το αυτί"
+              },
+              "keg_communicative_function": "Describing earache symptoms to a physician"
+            },
+            {
+              "id": "A1-U12-008",
+              "greek": "η μύτη",
+              "phonetic_hint": "",
+              "english": "nose",
+              "notes": "Feminine in -η with plural in -ες (οι μύτες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-myti-fa7d42.mp3",
+              "status": "verified",
+              "example_el": "Τρέχει η μύτη μου γιατί έχω κρύωμα.",
+              "example_en": "My nose is running because I have a cold.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι μύτες",
+                "accusative_singular": "τη μύτη"
+              },
+              "keg_communicative_function": "Describing nasal symptoms and head colds"
+            },
+            {
+              "id": "A1-U12-009",
+              "greek": "το στόμα",
+              "phonetic_hint": "",
+              "english": "mouth",
+              "notes": "Neuter in -μα with plural in -ματα (τα στόματα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-stoma-e76f70.mp3",
+              "status": "verified",
+              "example_el": "Ανοίξτε το στόμα σας, παρακαλώ.",
+              "example_en": "Open your mouth, please.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα στόματα",
+                "accusative_singular": "το στόμα"
+              },
+              "keg_communicative_function": "Following doctor's examination commands"
+            },
+            {
+              "id": "A1-U12-010",
+              "greek": "το δόντι",
+              "phonetic_hint": "",
+              "english": "tooth",
+              "notes": "Neuter in -ι with plural in -ια (τα δόντια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-donti-893683.mp3",
+              "status": "verified",
+              "example_el": "Πρέπει να πάω στον οδοντίατρο για ένα δόντι.",
+              "example_en": "I must go to the dentist for a tooth.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα δόντια",
+                "accusative_singular": "το δόντι"
+              },
+              "keg_communicative_function": "Explaining dental pain and visiting the dentist"
+            },
+            {
+              "id": "A1-U12-011",
+              "greek": "το χέρι",
+              "phonetic_hint": "",
+              "english": "hand / arm",
+              "notes": "Neuter in -ι with plural in -ια (τα χέρια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-cheri-f10a1c.mp3",
+              "status": "verified",
+              "example_el": "Πλένουμε καλά τα χέρια μας με σαπούνι.",
+              "example_en": "We wash our hands thoroughly with soap.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα χέρια",
+                "accusative_singular": "το χέρι"
+              },
+              "keg_communicative_function": "Describing upper limb discomfort, injuries, or washing hands"
+            },
+            {
+              "id": "A1-U12-012",
+              "greek": "το πόδι",
+              "phonetic_hint": "",
+              "english": "foot / leg",
+              "notes": "Neuter in -ι with plural in -ια (τα πόδια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-podi-efba4b.mp3",
+              "status": "verified",
+              "example_el": "Πονάει το δεξί μου πόδι όταν περπατάω.",
+              "example_en": "My right leg hurts when I walk.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα πόδια",
+                "accusative_singular": "το πόδι"
+              },
+              "keg_communicative_function": "Describing lower limb injuries or walking pain"
+            },
+            {
+              "id": "A1-U12-013",
+              "greek": "η πλάτη",
+              "phonetic_hint": "",
+              "english": "back (anatomy)",
+              "notes": "Feminine in -η with plural in -ες (οι πλάτες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-plati-65e67f.mp3",
+              "status": "verified",
+              "example_el": "Έχω δυνατούς πόνους στην πλάτη.",
+              "example_en": "I have strong pain in my back.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι πλάτες",
+                "accusative_singular": "την πλάτη"
+              },
+              "keg_communicative_function": "Reporting back pain to a practitioner"
+            },
+            {
+              "id": "A1-U12-014",
+              "greek": "η καρδιά",
+              "phonetic_hint": "",
+              "english": "heart",
+              "notes": "Feminine oxytone in -ιά with plural in -ιές (οι καρδιές).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-kardia-fe121a.mp3",
+              "status": "verified",
+              "example_el": "Ο γιατρός ακούει την καρδιά του ασθενούς.",
+              "example_en": "The doctor listens to the patient's heart.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι καρδιές",
+                "accusative_singular": "την καρδιά"
+              },
+              "keg_communicative_function": "Discussing cardiovascular health and heart rate"
+            },
+            {
+              "id": "A1-U12-015",
+              "greek": "ο πυρετός",
+              "phonetic_hint": "",
+              "english": "fever / temperature",
+              "notes": "Masculine in -ός with plural in -οί (οι πυρετοί). Phrase: 'έχω πυρετό'.",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-pyretos-95d8d4.mp3",
+              "status": "verified",
+              "example_el": "Έχω τριάντα οκτώ πυρετό από χθες το βράδυ.",
+              "example_en": "I have a fever of thirty-eight degrees since last night.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πυρετοί",
+                "accusative_singular": "τον πυρετό"
+              },
+              "keg_communicative_function": "Reporting fever symptoms and body temperature"
+            },
+            {
+              "id": "A1-U12-016",
+              "greek": "ο πονοκέφαλος",
+              "phonetic_hint": "",
+              "english": "headache",
+              "notes": "Proparoxytone compound: πόνος (pain) + κεφάλι (head).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ponokefalos-f0102a.mp3",
+              "status": "verified",
+              "example_el": "Έχω έναν τρομερό πονοκέφαλο.",
+              "example_en": "I have a terrible headache.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πονοκέφαλοι",
+                "accusative_singular": "τον πονοκέφαλο"
+              },
+              "keg_communicative_function": "Reporting headaches to medical staff"
+            },
+            {
+              "id": "A1-U12-017",
+              "greek": "ο πονόλαιμος",
+              "phonetic_hint": "",
+              "english": "sore throat",
+              "notes": "Compound noun: πόνος (pain) + λαιμός (throat).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ponolaimos-d21d0f.mp3",
+              "status": "verified",
+              "example_el": "Έχετε καραμέλες για τον πονόλαιμο;",
+              "example_en": "Do you have lozenges for a sore throat?",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πονόλαιμοι",
+                "accusative_singular": "τον πονόλαιμο"
+              },
+              "keg_communicative_function": "Reporting sore throat symptoms"
+            },
+            {
+              "id": "A1-U12-018",
+              "greek": "ο πονόδοντος",
+              "phonetic_hint": "",
+              "english": "toothache",
+              "notes": "Compound noun: πόνος (pain) + δόντι (tooth).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-ponodontos-545163.mp3",
+              "status": "verified",
+              "example_el": "Δεν μπορώ να κοιμηθώ από τον πονόδοντο.",
+              "example_en": "I cannot sleep because of the toothache.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι πονόδοντοι",
+                "accusative_singular": "τον πονόδοντο"
+              },
+              "keg_communicative_function": "Explaining toothache symptoms"
+            },
+            {
+              "id": "A1-U12-019",
+              "greek": "το συνάχι",
+              "phonetic_hint": "",
+              "english": "runny nose / cold / sniffles",
+              "notes": "Neuter in -ι with plural in -ια (τα συνάχια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-synachi-b56f47.mp3",
+              "status": "verified",
+              "example_el": "Έχω συνάχι και βήχα εδώ και δύο μέρες.",
+              "example_en": "I have had a head cold and a cough for two days.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα συνάχια",
+                "accusative_singular": "το συνάχι"
+              },
+              "keg_communicative_function": "Explaining mild viral cold symptoms"
+            },
+            {
+              "id": "A1-U12-020",
+              "greek": "η γρίπη",
+              "phonetic_hint": "",
+              "english": "flu / influenza",
+              "notes": "Feminine paroxytone in -η (η γρίπη).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-gripi-5d12af.mp3",
+              "status": "verified",
+              "example_el": "Έμεινα στο κρεβάτι γιατί έχω γρίπη.",
+              "example_en": "I stayed in bed because I have the flu.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γρίπες",
+                "accusative_singular": "τη γρίπη"
+              },
+              "keg_communicative_function": "Reporting influenza infection"
+            },
+            {
+              "id": "A1-U12-021",
+              "greek": "ο βήχας",
+              "phonetic_hint": "",
+              "english": "cough",
+              "notes": "Masculine in -ας with plural in -ες (οι βήχες).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-vichas-e1bdb0.mp3",
+              "status": "verified",
+              "example_el": "Ο βήχας δεν με αφήνει να μιλήσω.",
+              "example_en": "The cough doesn't let me speak.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι βήχες",
+                "accusative_singular": "τον βήχα"
+              },
+              "keg_communicative_function": "Describing coughing symptoms"
+            },
+            {
+              "id": "A1-U12-022",
+              "greek": "η αλλεργία",
+              "phonetic_hint": "",
+              "english": "allergy",
+              "notes": "Feminine in -α with plural in -ες (οι αλλεργίες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-allergia-fed700.mp3",
+              "status": "verified",
+              "example_el": "Έχω αλλεργία στην πενικιλίνη.",
+              "example_en": "I have an allergy to penicillin.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι αλλεργίες",
+                "accusative_singular": "την αλλεργία"
+              },
+              "keg_communicative_function": "Informing medical personnel of allergies"
+            },
+            {
+              "id": "A1-U12-023",
+              "greek": "άρρωστος, άρρωστη, άρρωστο",
+              "phonetic_hint": "",
+              "english": "sick / ill",
+              "notes": "Adjective in -ος, -η, -ο. Opposite: υγιής (healthy).",
+              "gender_or_pos": "adjective",
+              "audio": "arrostos-arrosti-arr-f15fa3.mp3",
+              "status": "verified",
+              "example_el": "Είμαι άρρωστος και δεν μπορώ να έρθω στο μάθημα.",
+              "example_en": "I am sick and I cannot come to class.",
+              "grammatical_info": {
+                "part_of_speech": "adjective",
+                "masculine": "άρρωστος",
+                "feminine": "άρρωστη",
+                "neuter": "άρρωστο"
+              },
+              "keg_communicative_function": "Stating ill health condition"
+            },
+            {
+              "id": "A1-U12-024",
+              "greek": "κουρασμένος, κουρασμένη, κουρασμένο",
+              "phonetic_hint": "",
+              "english": "tired / exhausted",
+              "notes": "Participle/adjective in -μένος, -μένη, -μένο.",
+              "gender_or_pos": "adjective",
+              "audio": "koyrasmenos-koyrasme-81e48b.mp3",
+              "status": "verified",
+              "example_el": "Είμαι πολύ κουρασμένη από τη δουλειά.",
+              "example_en": "I am very tired from work.",
+              "grammatical_info": {
+                "part_of_speech": "adjective",
+                "masculine": "κουρασμένος",
+                "feminine": "κουρασμένη",
+                "neuter": "κουρασμένο"
+              },
+              "keg_communicative_function": "Expressing fatigue and tiredness"
+            },
+            {
+              "id": "A1-U12-025",
+              "greek": "το φάρμακο",
+              "phonetic_hint": "",
+              "english": "medicine / medication / drug",
+              "notes": "Proparoxytone neuter in -ο with plural in -α (τα φάρμακα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-farmako-34841b.mp3",
+              "status": "verified",
+              "example_el": "Παίρνω αυτό το φάρμακο τρεις φορές την ημέρα.",
+              "example_en": "I take this medication three times a day.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα φάρμακα",
+                "accusative_singular": "το φάρμακο"
+              },
+              "keg_communicative_function": "Asking for medicine at the pharmacy"
+            },
+            {
+              "id": "A1-U12-026",
+              "greek": "το χάπι",
+              "phonetic_hint": "",
+              "english": "pill / tablet",
+              "notes": "Neuter in -ι with plural in -ια (τα χάπια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-chapi-cf9057.mp3",
+              "status": "verified",
+              "example_el": "Πάρτε δύο χάπια μετά το πρωινό.",
+              "example_en": "Take two pills after breakfast.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα χάπια",
+                "accusative_singular": "το χάπι"
+              },
+              "keg_communicative_function": "Buying and dosing pill medications"
+            },
+            {
+              "id": "A1-U12-027",
+              "greek": "η ασπιρίνη",
+              "phonetic_hint": "",
+              "english": "aspirin",
+              "notes": "Feminine paroxytone in -η with plural in -ες (οι ασπιρίνες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-aspirini-b4bc93.mp3",
+              "status": "verified",
+              "example_el": "Θέλω ένα κουτί ασπιρίνες, παρακαλώ.",
+              "example_en": "I want a box of aspirins, please.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι ασπιρίνες",
+                "accusative_singular": "την ασπιρίνη"
+              },
+              "keg_communicative_function": "Requesting over-the-counter pain relief"
+            },
+            {
+              "id": "A1-U12-028",
+              "greek": "το σιρόπι",
+              "phonetic_hint": "",
+              "english": "syrup / cough syrup",
+              "notes": "Neuter in -ι with plural in -ια (τα σιρόπια).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-siropi-bfa271.mp3",
+              "status": "verified",
+              "example_el": "Αυτό το σιρόπι είναι πολύ καλό για τον βήχα.",
+              "example_en": "This syrup is very good for the cough.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα σιρόπια",
+                "accusative_singular": "το σιρόπι"
+              },
+              "keg_communicative_function": "Purchasing cough syrup at a chemist"
+            },
+            {
+              "id": "A1-U12-029",
+              "greek": "το τσιρότο",
+              "phonetic_hint": "",
+              "english": "band-aid / adhesive plaster / patch",
+              "notes": "Neuter in -ο with plural in -α (τα τσιρότα).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-tsiroto-67b36b.mp3",
+              "status": "verified",
+              "example_el": "Χρειάζομαι ένα τσιρότο για το δάχτυλό μου.",
+              "example_en": "I need a band-aid for my finger.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα τσιρότα",
+                "accusative_singular": "το τσιρότο"
+              },
+              "keg_communicative_function": "Purchasing first-aid supplies for minor cuts"
+            },
+            {
+              "id": "A1-U12-030",
+              "greek": "η γάζα",
+              "phonetic_hint": "",
+              "english": "gauze / bandage",
+              "notes": "Feminine in -α with plural in -ες (οι γάζες).",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-gaza-778e19.mp3",
+              "status": "verified",
+              "example_el": "Βάζουμε καθαρή γάζα πάνω στην πληγή.",
+              "example_en": "We put clean gauze over the wound.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι γάζες",
+                "accusative_singular": "τη γάζα"
+              },
+              "keg_communicative_function": "Asking for wound dressing supplies"
+            },
+            {
+              "id": "A1-U12-031",
+              "greek": "το οινόπνευμα",
+              "phonetic_hint": "",
+              "english": "rubbing alcohol / surgical spirit",
+              "notes": "Compound neuter: οίνος (wine) + πνεύμα (spirit).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-oinopneyma-ff4913.mp3",
+              "status": "verified",
+              "example_el": "Καθαρίζουμε το χέρι με λίγο οινόπνευμα.",
+              "example_en": "We clean the hand with some rubbing alcohol.",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα οινοπνεύματα",
+                "accusative_singular": "το οινόπνευμα"
+              },
+              "keg_communicative_function": "Purchasing antiseptic supplies"
+            },
+            {
+              "id": "A1-U12-032",
+              "greek": "η συνταγή",
+              "phonetic_hint": "",
+              "english": "medical prescription / recipe",
+              "notes": "Feminine oxytone in -ή with plural in -ές (οι συνταγές). Same word for cooking recipe.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-syntagi-f62f1d.mp3",
+              "status": "verified",
+              "example_el": "Έχετε συνταγή από γιατρό για αυτό το φάρμακο;",
+              "example_en": "Do you have a doctor's prescription for this medicine?",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι συνταγές",
+                "accusative_singular": "τη συνταγή"
+              },
+              "keg_communicative_function": "Presenting prescriptions to a chemist"
+            },
+            {
+              "id": "A1-U12-033",
+              "greek": "ο φαρμακοποιός",
+              "phonetic_hint": "",
+              "english": "pharmacist / chemist",
+              "notes": "Masculine/feminine in -ος (ο/η φαρμακοποιός).",
+              "gender_or_pos": "noun (masculine)",
+              "audio": "o-farmakopoios-3f7234.mp3",
+              "status": "verified",
+              "example_el": "Ο φαρμακοποιός μού δίνει οδηγίες για τη δοσολογία.",
+              "example_en": "The pharmacist gives me instructions regarding the dosage.",
+              "grammatical_info": {
+                "part_of_speech": "noun (masculine)",
+                "plural": "οι φαρμακοποιοί",
+                "accusative_singular": "τον φαρμακοποιό"
+              },
+              "keg_communicative_function": "Addressing and asking advice from pharmacy professionals"
+            },
+            {
+              "id": "A1-U12-034",
+              "greek": "το ασθενοφόρο",
+              "phonetic_hint": "",
+              "english": "ambulance",
+              "notes": "Compound proparoxytone neuter: ασθενής (patient/sick person) + φέρω (to bear/carry).",
+              "gender_or_pos": "noun (neuter)",
+              "audio": "to-asthenoforo-afd4a5.mp3",
+              "status": "verified",
+              "example_el": "Καλέστε αμέσως ασθενοφόρο!",
+              "example_en": "Call an ambulance immediately!",
+              "grammatical_info": {
+                "part_of_speech": "noun (neuter)",
+                "plural": "τα ασθενοφόρα",
+                "accusative_singular": "το ασθενοφόρο"
+              },
+              "keg_communicative_function": "Calling emergency medical transport"
+            },
+            {
+              "id": "A1-U12-035",
+              "greek": "πονάω / πονώ",
+              "phonetic_hint": "",
+              "english": "to hurt / to ache / to be in pain / I hurt",
+              "notes": "Type B1 active verb: πονάω, πονάς, πονάει, πονάμε, πονάτε, πονάνε.",
+              "gender_or_pos": "verb",
+              "audio": "ponao-pono-1d991c.mp3",
+              "status": "verified",
+              "example_el": "Πονάω πολύ, χρειάζομαι ένα παυσίπονο.",
+              "example_en": "I am in a lot of pain, I need a painkiller.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "B1",
+                "third_person_singular": "αυτός / αυτή / αυτό πονάει (πονά)",
+                "first_person_plural": "εμείς πονάμε"
+              },
+              "keg_communicative_function": "Expressing bodily pain and distress"
+            },
+            {
+              "id": "A1-U12-036",
+              "greek": "πονάει... / πονάνε...",
+              "phonetic_hint": "",
+              "english": "my ... hurts / my ... hurt",
+              "notes": "Weak object pronoun (με / σε / τον / την) + πονάει (+ sing.) or πονάνε (+ plur.).",
+              "gender_or_pos": "phrase (impersonal pain construction)",
+              "audio": "ponaei-ponane-347518.mp3",
+              "status": "verified",
+              "example_el": "Με πονάει ο λαιμός μου και με πονάνε τα μάτια μου.",
+              "example_en": "My throat hurts and my eyes hurt.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (impersonal pain construction)"
+              },
+              "keg_communicative_function": "Specifying singular vs plural body parts in pain"
+            },
+            {
+              "id": "A1-U12-037",
+              "greek": "πρέπει να",
+              "phonetic_hint": "",
+              "english": "must / have to / should (modal obligation)",
+              "notes": "Impersonal modal verb 'πρέπει' + connector 'να' + conjugated verb.",
+              "gender_or_pos": "phrase (modal particle phrase)",
+              "audio": "prepei-na-1843de.mp3",
+              "status": "verified",
+              "example_el": "Πρέπει να πίνετε πολύ νερό και να ξεκουράζεστε.",
+              "example_en": "You must drink a lot of water and rest.",
+              "grammatical_info": {
+                "part_of_speech": "phrase (modal particle phrase)",
+                "syntax": "πρέπει να + Present Active Indicative"
+              },
+              "keg_communicative_function": "Giving and understanding medical instructions or duties"
+            },
+            {
+              "id": "A1-U12-038",
+              "greek": "νιώθω",
+              "phonetic_hint": "",
+              "english": "to feel / I feel",
+              "notes": "Type A regular verb: νιώθω, νιώθεις, νιώθει, νιώθουμε, νιώθετε, νιώθουν.",
+              "gender_or_pos": "verb",
+              "audio": "niotho-f74fd9.mp3",
+              "status": "verified",
+              "example_el": "Σήμερα νιώθω πολύ καλύτερα, ευχαριστώ.",
+              "example_en": "Today I feel much better, thank you.",
+              "grammatical_info": {
+                "part_of_speech": "verb",
+                "verb_type": "A",
+                "third_person_singular": "αυτός / αυτή / αυτό νιώθει",
+                "first_person_plural": "εμείς νιώθουμε"
+              },
+              "keg_communicative_function": "Describing internal physical and emotional sensations"
+            },
+            {
+              "id": "A1-U12-039",
+              "greek": "βοήθεια!",
+              "phonetic_hint": "",
+              "english": "help!",
+              "notes": "Noun η βοήθεια (help) used as an urgent exclamatory formula.",
+              "gender_or_pos": "phrase (exclamation / emergency formula)",
+              "audio": "voitheia-e0c366.mp3",
+              "status": "verified",
+              "example_el": "Βοήθεια! Κάποιος έπεσε στον δρόμο!",
+              "example_en": "Help! Someone fell on the street!",
+              "grammatical_info": {
+                "part_of_speech": "phrase (exclamation / emergency formula)"
+              },
+              "keg_communicative_function": "Shouting for assistance in critical situations"
+            },
+            {
+              "id": "A1-U12-040",
+              "greek": "χρειάζομαι γιατρό!",
+              "phonetic_hint": "",
+              "english": "I need a doctor!",
+              "notes": "Common medical emergency request formula: verb χρειάζομαι + γιατρό.",
+              "gender_or_pos": "phrase (emergency inquiry)",
+              "audio": "chreiazomai-giatro-39c9af.mp3",
+              "status": "verified",
+              "example_el": "Γρήγορα, χρειάζομαι γιατρό αμέσως!",
+              "example_en": "Quickly, I need a doctor immediately!",
+              "grammatical_info": {
+                "part_of_speech": "phrase (emergency inquiry)"
+              },
+              "keg_communicative_function": "Summoning physician assistance urgently"
+            },
+            {
+              "id": "A1-U12-041",
+              "greek": "περαστικά!",
+              "phonetic_hint": "",
+              "english": "get well soon! / may it pass quickly!",
+              "notes": "Neuter plural adjective used as a greeting formula. Literally: 'may they pass'.",
+              "gender_or_pos": "phrase (social wishing formula)",
+              "audio": "perastika-bc0e90.mp3",
+              "status": "verified",
+              "example_el": "Έμαθα ότι έχεις γρίπη. Περαστικά σου!",
+              "example_en": "I heard that you have the flu. Get well soon!",
+              "grammatical_info": {
+                "part_of_speech": "phrase (social wishing formula)"
+              },
+              "keg_communicative_function": "Wishing a swift recovery to sick friends or colleagues"
+            },
+            {
+              "id": "A1-U12-042",
+              "greek": "η υγεία",
+              "phonetic_hint": "",
+              "english": "health",
+              "notes": "Feminine oxytone in -α. In toasts contracted as: 'Στην υγειά μας!' / 'Γεια μας!'.",
+              "gender_or_pos": "noun (feminine)",
+              "audio": "i-ygeia-bc5615.mp3",
+              "status": "verified",
+              "example_el": "Στην υγειά μας! / Η υγεία είναι το πιο σημαντικό πράγμα.",
+              "example_en": "To our health! / Health is the most important thing.",
+              "grammatical_info": {
+                "part_of_speech": "noun (feminine)",
+                "plural": "οι υγείες",
+                "accusative_singular": "την υγεία"
+              },
+              "keg_communicative_function": "Wishing good health, making toasts, and general wellness"
             }
           ],
           "total_entries": 42,
