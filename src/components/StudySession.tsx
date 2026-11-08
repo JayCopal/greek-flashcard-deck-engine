@@ -31,7 +31,6 @@ import {
   Shuffle, 
   ArrowLeft, 
   Volume2, 
-  VolumeX,
   Pause,
   CheckCircle, 
   Check,
@@ -1045,57 +1044,9 @@ export const StudySession: React.FC<StudySessionProps> = ({
             {/* Prompt Content */}
             <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center py-1 sm:py-2 space-y-2.5 sm:space-y-3.5 my-auto w-full overflow-y-auto">
               {studyDirection === 'greek_to_english' ? (
-                <>
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-wide font-serif leading-tight drop-shadow-sm px-2">
-                    {renderGreekWithTonos(currentCard.greek, highlightTonos)}
-                  </h2>
-                  {/* Keep Speaker Sign & Audio Controls on the Greek side of the card */}
-                  <div className="flex items-center justify-center gap-2 mt-1">
-                    {audioSrc ? (
-                      <>
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handlePlayAudio();
-                          }}
-                          title="Play Native Audio (↓)"
-                          className={`px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl transition-all duration-200 border shadow-md flex items-center gap-1.5 ${
-                            isAudioPlaying
-                              ? 'bg-sky-500 border-sky-400 text-white shadow-sky-500/30 scale-105 ring-2 ring-sky-300/40'
-                              : 'bg-slate-800/90 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border-slate-700'
-                          }`}
-                        >
-                          {isAudioPlaying ? (
-                            <div className="flex items-center gap-0.5 h-4 px-0.5">
-                              <span className="w-1 bg-white rounded-full animate-bounce h-2.5" style={{ animationDelay: '0ms' }} />
-                              <span className="w-1 bg-white rounded-full animate-bounce h-4" style={{ animationDelay: '150ms' }} />
-                              <span className="w-1 bg-white rounded-full animate-bounce h-2" style={{ animationDelay: '300ms' }} />
-                            </div>
-                          ) : (
-                            <Volume2 className="w-4 h-4" />
-                          )}
-                          <span className="text-xs font-semibold">{isAudioPlaying ? 'Playing' : 'Audio'}</span>
-                        </button>
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            cyclePlaybackSpeed();
-                          }}
-                          title={`Audio speed: ${playbackSpeed}x (Click to cycle)`}
-                          className="px-2.5 py-1.5 sm:py-2 text-xs font-bold rounded-xl bg-slate-800/90 hover:bg-slate-700 text-sky-300 hover:text-white border border-slate-700/90 transition-all shadow-sm"
-                        >
-                          {playbackSpeed}x
-                        </button>
-                      </>
-                    ) : (
-                      <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 italic py-1 px-2.5 rounded-lg bg-slate-800/40 border border-slate-700/50">
-                        <VolumeX className="w-3.5 h-3.5 text-slate-500" /> No audio
-                      </span>
-                    )}
-                  </div>
-                </>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-wide font-serif leading-tight drop-shadow-sm px-2">
+                  {renderGreekWithTonos(currentCard.greek, highlightTonos)}
+                </h2>
               ) : (
                 <>
                   <div className="space-y-1">
@@ -1293,26 +1244,6 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight px-2">
                     {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
-                  {audioSrc && (
-                    <div className="flex items-center justify-center gap-2 pt-0.5">
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handlePlayAudio();
-                        }}
-                        title="Play Native Audio (↓)"
-                        className={`px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl transition-all duration-200 border text-xs font-semibold flex items-center gap-1.5 shadow-sm ${
-                          isAudioPlaying
-                            ? 'bg-teal-500 border-teal-400 text-white shadow-teal-500/30 ring-2 ring-teal-300/40'
-                            : 'bg-slate-800/90 text-teal-300 hover:bg-slate-700 hover:text-white border-slate-700'
-                        }`}
-                      >
-                        <Volume2 className="w-3.5 h-3.5" />
-                        <span>{isAudioPlaying ? 'Playing' : 'Audio'}</span>
-                      </button>
-                    </div>
-                  )}
                   <h3 className="text-base sm:text-lg font-semibold text-slate-300 tracking-tight px-2">
                     {sanitizeEnglishPrompt(currentCard.english)}
                   </h3>
@@ -1493,12 +1424,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
           {/* 2. Play Audio button (comes second) */}
           <button
             onClick={handlePlayAudio}
+            disabled={!audioSrc}
             className={`h-12 sm:h-13 w-full inline-flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 rounded-2xl border font-semibold text-xs sm:text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm ${
-              isAudioPlaying
+              !audioSrc
+                ? 'bg-slate-900/50 text-slate-600 border-slate-800/80 cursor-not-allowed opacity-50'
+                : isAudioPlaying
                 ? 'bg-sky-500 text-white border-sky-400 shadow-lg shadow-sky-500/30'
                 : 'bg-slate-800 hover:bg-slate-700 text-sky-300 border-slate-700'
             }`}
-            title="Play Audio (↓ Down Arrow)"
+            title={audioSrc ? "Play Audio (↓ Down Arrow)" : "No audio available for this card"}
           >
             {isAudioPlaying ? <Pause className="w-4 h-4 shrink-0" /> : <Volume2 className="w-4 h-4 shrink-0" />}
             <span>[↓]</span>
