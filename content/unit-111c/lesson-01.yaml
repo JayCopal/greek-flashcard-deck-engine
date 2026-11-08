@@ -1,0 +1,893 @@
+unit_id: unit-111c
+lesson_id: lesson-01
+title: 'Ενότητα 11: Διάλογοι & Εξετάσεις — Υπηρεσίες, Τράπεζα, Ταχυδρομείο & A1 Capstone
+  (A1 Synthesis)'
+description: Conversational, dialogue, and CEFR A1 capstone oral exam practice covering
+  banking transactions, ATM usage, postal dispatch, utility bill payments, priority
+  queues, indirect speech, and comprehensive A1 conversational synthesis using vocabulary
+  from Lessons 100 to 111.
+lesson_status: not_started
+entries:
+- id: A1-U111C-001
+  greek: — Καλημέρα σας, πώς μπορώ να σας βοηθήσω; — Καλημέρα, θα ήθελα να ανοίξω
+    έναν τραπεζικό λογαριασμό.
+  phonetic_hint: — Kah-lee-MEH-rah sahs, pos boh-ROH nah sahs voh-ee-THEE-soh? — Kah-lee-MEH-rah,
+    thah EE-theh-lah nah ah-NEEK-soh EH-nahn trah-peh-zee-KOH loh-ghah-ryah-ZMOH.
+  english: — Good morning, how can I help you? — Good morning, I would like to open
+    a bank account.
+  notes: Review Unit 111. Initiating bank account opening with polite conditional
+    'θα ήθελα'.
+  gender_or_pos: phrase
+  audio: kalimera-sas-pos-mpo-ac036b.mp3
+  status: verified
+  example_el: — Τι λογαριασμό θέλετε; — Θα ήθελα να ανοίξω έναν λογαριασμό ταμιευτηρίου.
+  example_en: — What account do you want? — I would like to open a savings account.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Initiating a bank service request to open an account
+- id: A1-U111C-002
+  greek: — Τι έγγραφα χρειάζεται για το άνοιγμα λογαριασμού; — Χρειάζομαι την ταυτότητά
+    σας και ένα αποδεικτικό του ΑΦΜ σας.
+  phonetic_hint: — Tee EHG-ghrah-fah khree-AH-zeh-teh yah toh AH-neeg-mah loh-ghah-ryah-ZMOO?
+    — Khree-AH-zoh-meh teen tahf-TOH-tee-TAH sahs keh EH-nah ah-poh-theek-tee-KOH
+    too ah-fee-MEE sahs.
+  english: — What documents are needed to open an account? — I need your ID card and
+    proof of your tax number.
+  notes: Review Unit 111. Inquiring required banking paperwork.
+  gender_or_pos: phrase
+  audio: ti-eggrafa-chreiazet-bba733.mp3
+  status: verified
+  example_el: — Έχετε διαβατήριο; — Ναι, ορίστε το διαβατήριο και το έντυπο με το
+    ΑΦΜ μου.
+  example_en: — Do you have a passport? — Yes, here is the passport and the form with
+    my tax number.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about and presenting identity documents for
+    bank procedures
+- id: A1-U111C-003
+  greek: — Πού πρέπει να υπογράψω; — Συμπληρώστε αυτή την αίτηση και υπογράψτε στο
+    κάτω μέρος.
+  phonetic_hint: — POO PREH-pee nah ee-poh-GHAHP-soh? — Seem-blee-ROH-steh ahf-TEEN
+    teen EH-tee-see keh ee-poh-GHAHP-steh stoh KAH-toh MEH-ros.
+  english: — Where must I sign? — Fill out this application and sign at the bottom.
+  notes: Review Unit 111. Banking form completion commands.
+  gender_or_pos: phrase
+  audio: poy-prepei-na-ypogra-d4c093.mp3
+  status: verified
+  example_el: — Μου δίνετε το στιλό σας, παρακαλώ; — Βεβαίως, ορίστε το στιλό.
+  example_en: — Could you lend me your pen, please? — Certainly, here is the pen.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Instructing signature placement and borrowing stationary
+- id: A1-U111C-004
+  greek: — Θέλετε να κάνετε κατάθεση ή ανάληψη; — Θέλω να κάνω μια κατάθεση τριακοσίων
+    ευρώ στον λογαριασμό μου.
+  phonetic_hint: — THEH-leh-teh nah KAH-neh-teh kah-TAH-theh-see ee ah-NAH-leep-see?
+    — THEH-loh nah KAH-noh myah kah-TAH-theh-see tree-ah-koh-SEE-on ev-ROH ston loh-ghah-ryah-ZMOH
+    moo.
+  english: — Do you want to make a deposit or withdrawal? — I want to make a deposit
+    of three hundred euros into my account.
+  notes: Review Unit 111. Distinguishing 'κατάθεση' (deposit) from 'ανάληψη' (withdrawal).
+  gender_or_pos: phrase
+  audio: thelete-na-kanete-ka-c7ed0b.mp3
+  status: verified
+  example_el: — Έχετε το βιβλιάριο μαζί σας; — Ναι, ορίστε το βιβλιάριο και τα μετρητά.
+  example_en: — Do you have the bankbook with you? — Yes, here is the bankbook and
+    the cash.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Executing cash deposit transactions at the teller desk
+- id: A1-U111C-005
+  greek: — Πόσα χρήματα θέλετε να πάρετε; — Θέλω να κάνω μια ανάληψη εκατόν πενήντα
+    ευρώ από το ταμείο.
+  phonetic_hint: — POH-sah KHREE-mah-tah THEH-leh-teh nah PAH-reh-teh? — THEH-loh
+    nah KAH-noh myah ah-NAH-leep-see eh-kah-TOHN pen-EEN-dah ev-ROH ah-POH toh tah-MEE-oh.
+  english: — How much money do you want to take? — I want to make a withdrawal of
+    one hundred fifty euros from the counter.
+  notes: Review Unit 111. Specifying withdrawal amount at the counter.
+  gender_or_pos: phrase
+  audio: posa-chrimata-thelet-5afde0.mp3
+  status: verified
+  example_el: — Ορίστε τα μετρητά σας. — Ευχαριστώ πολύ, κρατήστε και την απόδειξη.
+  example_en: — Here is your cash. — Thank you very much, keep the receipt too.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Specifying counter withdrawal amounts and collecting
+    cash
+- id: A1-U111C-006
+  greek: — Ποιο είναι το διαθέσιμο υπόλοιπο του τραπεζικού λογαριασμού μου; — Το υπόλοιπο
+    είναι πεντακόσια σαράντα ευρώ.
+  phonetic_hint: — PEE-oh EE-neh toh thee-ah-THEH-see-moh ee-POH-lee-poh too trah-peh-zee-KOO
+    loh-ghah-ryah-ZMOO moo? — Toh ee-POH-lee-poh EE-neh pen-dah-KOH-syah sah-RAHN-dah
+    ev-ROH.
+  english: — What is the available balance of my bank account? — The balance is five
+    hundred forty euros.
+  notes: Review Unit 111. Inquiring account balance ('διαθέσιμο υπόλοιπο').
+  gender_or_pos: phrase
+  audio: poio-einai-to-diathe-d8cc8a.mp3
+  status: verified
+  example_el: — Υπάρχει κάποια προμήθεια για τη συναλλαγή; — Όχι, δεν υπάρχει καμία
+    προμήθεια.
+  example_en: — Is there any commission fee for the transaction? — No, there is no
+    fee.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about account balances and banking transaction
+    fees
+- id: A1-U111C-007
+  greek: — Πότε θα πάρω τη χρεωστική κάρτα μου; — Ο τραπεζικός λογαριασμός σας θα
+    είναι έτοιμος σε μία εβδομάδα.
+  phonetic_hint: — POH-teh thah PAH-roh tee khreh-oh-stee-KEE KAHR-tah moo? — Oh trah-peh-zee-KOHS
+    loh-ghah-ryah-ZMOHS sahs thah EE-neh EH-tee-mos seh MYAH ev-thoh-MAH-thah.
+  english: — When will I get my debit card? — Your bank account will be ready in one
+    week.
+  notes: Review Unit 111. Card issuance timeline ('χρεωστική κάρτα').
+  gender_or_pos: phrase
+  audio: pote-tha-paro-ti-chr-fd6936.mp3
+  status: verified
+  example_el: — Θα μου στείλετε τον κωδικό PIN; — Ναι, ο κωδικός θα έρθει με μήνυμα
+    στο κινητό σας.
+  example_en: — Will you send me the PIN code? — Yes, the code will arrive by message
+    on your mobile.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about debit card production and PIN dispatch
+- id: A1-U111C-008
+  greek: — Τι ώρα κλείνει η τράπεζα σήμερα; — Η τράπεζα είναι ανοιχτά μέχρι τις δύο
+    και μισή το μεσημέρι.
+  phonetic_hint: — Tee OH-rah KLEE-nee ee TRAH-peh-zah SEE-meh-rah? — Ee TRAH-peh-zah
+    EE-neh ah-neekh-TAH MEKH-ree tees THEE-oh keh mee-SEE toh meh-see-MEH-ree.
+  english: — What time does the bank close today? — The bank is open until two thirty
+    in the afternoon.
+  notes: Review Unit 111. Standard Greek bank operational schedule.
+  gender_or_pos: phrase
+  audio: ti-ora-kleinei-i-tra-d6107c.mp3
+  status: verified
+  example_el: — Είναι ανοιχτά το Σάββατο; — Όχι, το Σάββατο είναι κλειστό.
+  example_en: — Is it open on Saturday? — No, on Saturday it is closed.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Checking commercial bank operating hours and weekend
+    closures
+- id: A1-U111C-009
+  greek: — Σε ποιον δίνεις τα χρήματα για τον λογαριασμό; — Τα δίνω στον ταμία στο
+    τρίτο γκισέ.
+  phonetic_hint: — Seh PEE-on THEE-nees tah KHREE-mah-tah yah ton loh-ghah-ryah-ZMOH?
+    — Tah THEE-noh ston tah-MEE-ah stoh TREE-toh ghee-SEH.
+  english: — To whom are you giving the money for the bill? — I give it to the teller
+    at the third counter.
+  notes: Review Unit 111. Interrogative prepositional phrase 'σε ποιον'.
+  gender_or_pos: phrase
+  audio: se-poion-dineis-ta-c-cecebf.mp3
+  status: verified
+  example_el: — Πού είναι το ταμείο; — Το ταμείο είναι μπροστά σας.
+  example_en: — Where is the cash counter? — The cash counter is in front of you.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Directing customers to specific bank teller windows
+- id: A1-U111C-010
+  greek: — Μπορώ να κάνω αίτηση για ένα μικρό δάνειο; — Βεβαίως, ο υπάλληλος στο γραφείο
+    βοηθάει όλους τους πελάτες.
+  phonetic_hint: — Boh-ROH nah KAH-noh EH-tee-see yah EH-nah mee-KROH THAH-nee-oh?
+    — Veh-VEH-ohs, oh ee-PAH-lee-los stoh ghrah-FEE-oh voh-ee-THAH-ee OH-loos toos
+    peh-LAH-tes.
+  english: — Can I apply for a small loan? — Certainly, the clerk in the office helps
+    all customers.
+  notes: Review Unit 111. Inquiring about personal loan applications ('δάνειο').
+  gender_or_pos: phrase
+  audio: mporo-na-kano-aitisi-a9e690.mp3
+  status: verified
+  example_el: — Ποιο είναι το επιτόκιο; — Ο υπάλληλος σας δίνει όλες τις πληροφορίες.
+  example_en: — What is the interest rate? — The clerk gives you all the information.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about loan terms and interest rate explanations
+- id: A1-U111C-011
+  greek: — Πώς βγάζω χρήματα από το ΑΤΜ; — Βάλτε την κάρτα σας στη σχισμή και πληκτρολογήστε
+    το PIN σας.
+  phonetic_hint: — Pos VHAH-zoh KHREE-mah-tah ah-POH toh ah-tee-EHM? — VHAL-teh teen
+    KAHR-tah sahs steen skhees-MEE keh pleek-troh-loh-YEES-teh toh peen sahs.
+  english: — How do I withdraw money from the ATM? — Insert your card into the slot
+    and type in your PIN.
+  notes: Review Unit 111. Step-by-step ATM withdrawal sequence.
+  gender_or_pos: phrase
+  audio: pos-vgazo-chrimata-a-d79856.mp3
+  status: verified
+  example_el: — Και μετά τι κάνω; — Επιλέξτε το ποσό που θέλετε στην οθόνη.
+  example_en: — And what do I do after that? — Select the amount you want on the screen.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Guiding users through automated teller machine (ATM)
+    operations
+- id: A1-U111C-012
+  greek: — Πήρες τα χρήματα από το μηχάνημα; — Ναι, πήρα τα μετρητά και την απόδειξη.
+  phonetic_hint: — PEE-res tah KHREE-mah-tah ah-POH toh mee-KHAH-nee-mah? — Neh, PEE-rah
+    tah meh-tree-TAH keh teen ah-POH-theek-see.
+  english: — Did you take the money from the machine? — Yes, I took the cash and the
+    receipt.
+  notes: Review Unit 111. Completing ATM transaction.
+  gender_or_pos: phrase
+  audio: pires-ta-chrimata-ap-eb0d33.mp3
+  status: verified
+  example_el: — Μην ξεχάσετε την κάρτα σας! — Ευχαριστώ πάρα πολύ!
+  example_en: — Don't forget your card! — Thank you very much!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Collecting cash and reminders not to leave debit cards
+    in the slot
+- id: A1-U111C-013
+  greek: — Γιατί δεν δουλεύει η κάρτα μου; — Μήπως ο κωδικός PIN ήταν λάθος τρεις
+    φορές;
+  phonetic_hint: — Yah-TEE then thoo-LEH-vee ee KAHR-tah moo? — MEE-pos oh koh-thee-KOHS
+    peen EE-tahn LAH-thos trees foh-RES?
+  english: — Why isn't my card working? — Was the PIN code perhaps wrong three times?
+  notes: Review Unit 111. Card blockage warning upon 3 incorrect PIN entries.
+  gender_or_pos: phrase
+  audio: giati-den-doyleyei-i-50b34f.mp3
+  status: verified
+  example_el: — Είναι η κάρτα μέσα στο ΑΤΜ; — Ναι, πρέπει να πάω στην τράπεζα τη Δευτέρα.
+  example_en: — Is the card inside the ATM? — Yes, I must go to the bank on Monday.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Troubleshooting ATM card retention and incorrect PIN
+    lockouts
+- id: A1-U111C-014
+  greek: — Πού έχει ένα ΑΤΜ εδώ κοντά; — Υπάρχει ένα ΑΤΜ ακριβώς απέναντι από το φαρμακείο.
+  phonetic_hint: — POO EH-khee EH-nah ah-tee-EHM eh-THOH kohn-DAH? — Eep-AHR-khee
+    EH-nah ah-tee-EHM ah-kree-VOHS ah-PEH-nahn-dee ah-POH toh fahr-mah-KEE-oh.
+  english: — Where is there an ATM near here? — There is an ATM right across from
+    the pharmacy.
+  notes: Review Unit 111. Locating neighborhood cash dispensers.
+  gender_or_pos: phrase
+  audio: poy-echei-ena-atm-ed-2901a2.mp3
+  status: verified
+  example_el: — Μπορώ να κάνω ανάληψη; — Ναι, μπορείτε να κάνετε ανάληψη μετρητών.
+  example_en: — Can I make a withdrawal? — Yes, you can make a cash withdrawal.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about nearby ATM locations and card network
+    compatibility
+- id: A1-U111C-015
+  greek: — Μπορώ να πληρώσω με πιστωτική κάρτα; — Βεβαίως, μπορείτε να πληρώσετε με
+    κάρτα ή με μετρητά.
+  phonetic_hint: — Boh-ROH nah plee-ROH-soh meh pees-toh-tee-KEE KAHR-tah? — Veh-VEH-ohs,
+    boh-REE-teh nah plee-ROH-seh-teh meh KAHR-tah ee meh meh-tree-TAH.
+  english: — Can I pay by credit card? — Certainly, you can pay by card or with cash.
+  notes: Review Unit 111. Point of sale card payment inquiry.
+  gender_or_pos: phrase
+  audio: mporo-na-pliroso-me--1e124c.mp3
+  status: verified
+  example_el: — Πού βάζω την κάρτα; — Βάλτε την κάρτα σας εδώ στο μηχάνημα.
+  example_en: — Where do I put the card? — Put your card here into the machine.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about credit card acceptance and contactless
+    payment
+- id: A1-U111C-016
+  greek: — Σου στέλνω τον σύνδεσμο της ιστοσελίδας στο κινητό σου. — Ευχαριστώ, θα
+    ανοίξω αμέσως να δω τον λογαριασμό.
+  phonetic_hint: — Soo STEHL-noh ton SEEN-thez-moh tees ees-toh-seh-LEE-thahs stoh
+    kee-nee-TOH soo. — Ef-khah-ree-STOH, thah ah-NEEK-soh ah-MEH-sohs nah thoh ton
+    loh-ghah-ryah-ZMOH.
+  english: — I am sending you the website link to your mobile. — Thanks, I will open
+    it immediately to see the account.
+  notes: Review Unit 111. Online banking portal access via mobile link.
+  gender_or_pos: phrase
+  audio: soy-stelno-ton-synde-b57cf2.mp3
+  status: verified
+  example_el: — Έχεις κωδικό για το διαδίκτυο; — Ναι, έχω όνομα και κωδικό.
+  example_en: — Do you have a code for the internet? — Yes, I have a name and code.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Sharing links and accessing web banking credentials
+- id: A1-U111C-017
+  greek: — Του έδωσες τον κωδικό για να μπει στον λογαριασμό; — Όχι, δεν δίνω τον
+    κωδικό μου σε κανέναν.
+  phonetic_hint: — Too EH-thoh-ses ton koh-thee-KOH yah nah bee ston loh-ghah-ryah-ZMOH?
+    — OH-khee, then THEE-noh ton koh-thee-KOH moo seh kah-NEH-nahn.
+  english: — Did you give him the code to enter the account? — No, I don't give my
+    code to anyone.
+  notes: Review Unit 111. Cybersecurity and banking PIN confidentiality rules.
+  gender_or_pos: phrase
+  audio: toy-edoses-ton-kodik-0498e0.mp3
+  status: verified
+  example_el: — Μην δίνεις ποτέ τον κωδικό σου σε κανέναν. — Έχεις δίκιο, πρέπει να
+    προσέχεις.
+  example_en: — Never give your code to anyone. — You are right, you must take care.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Emphasizing confidentiality and safety regarding banking
+    credentials
+- id: A1-U111C-018
+  greek: — Μας έστειλαν την απόδειξη πληρωμής με ηλεκτρονικό μήνυμα; — Ναι, την έστειλαν
+    στο email μου πριν από λίγο.
+  phonetic_hint: — Mahs EH-stee-lahn teen ah-POH-theek-see plee-roh-MEES meh ee-lehk-troh-nee-KOH
+    MEE-nee-mah? — Neh, teen EH-stee-lahn stoh ee-meh-eel moo preen ah-POH LEE-ghoh.
+  english: — Did they send us the payment receipt by email? — Yes, they sent it to
+    my email a little while ago.
+  notes: Review Unit 111. Digital receipts via electronic mail ('ηλεκτρονικό μήνυμα').
+  gender_or_pos: phrase
+  audio: mas-esteilan-tin-apo-eec1af.mp3
+  status: verified
+  example_el: — Είναι εντάξει η απόδειξη; — Ναι, έχει ημερομηνία και το ποσό της πληρωμής.
+  example_en: — Is the receipt fine? — Yes, it has the date and payment amount.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Confirming receipt of electronic transaction confirmations
+- id: A1-U111C-019
+  greek: — Γεια σας, θέλω να στείλω αυτό το γράμμα στην Ισπανία. — Θέλετε να το στείλετε
+    απλό ή συστημένο;
+  phonetic_hint: — YAH sahs, THEH-loh nah STEE-loh ahf-TOH toh GHAH-mah steen Ees-pah-NEE-ah.
+    — THEH-leh-teh nah toh STEE-leh-teh ah-PLOH ee see-stee-MEH-noh?
+  english: — Hello, I want to send this letter to Spain. — Do you want to send it
+    regular or registered?
+  notes: 'Review Unit 111. Post office inquiry: regular vs registered mail (''συστημένο'').'
+  gender_or_pos: phrase
+  audio: geia-sas-thelo-na-st-52faca.mp3
+  status: verified
+  example_el: — Ποιο είναι καλύτερο; — Το συστημένο είναι καλύτερο για μια επίσημη
+    επιστολή.
+  example_en: — Which is better? — Registered is better for an official letter.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Mailing an international letter and choosing regular
+    vs registered delivery
+- id: A1-U111C-020
+  greek: — Πόσο κοστίζει για να πάει επείγον με ταχυμεταφορά; — Κοστίζει δώδεκα ευρώ
+    και φτάνει σε δύο μέρες.
+  phonetic_hint: — POH-soh koh-STEE-zee yah nah PAH-ee eh-PEE-ghon meh tah-khee-meh-tah-foh-RAH?
+    — Koh-STEE-zee THOH-theh-kah ev-ROH keh FTAH-nee seh THEE-oh MEH-res.
+  english: — How much does it cost to send express by courier? — It costs twelve euros
+    and arrives in two days.
+  notes: Review Unit 111. Express courier shipping rates ('ταχυμεταφορά').
+  gender_or_pos: phrase
+  audio: poso-kostizei-gia-na-73334c.mp3
+  status: verified
+  example_el: — Σε πόσες μέρες θα φτάσει η επιστολή στον προορισμό της; — Θα φτάσει
+    σε δύο μέρες το πρωί.
+  example_en: — In how many days will the letter reach its destination? — It will
+    arrive in two days in the morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring delivery speed and express postage rates
+- id: A1-U111C-021
+  greek: — Πού βάζω το γραμματόσημο; — Κολλήστε αυτό το γραμματόσημο επάνω δεξιά στον
+    φάκελο.
+  phonetic_hint: — POO VAH-zoh toh ghrah-mah-TOH-see-moh? — Koh-LEE-steh ahf-TOH toh
+    ghrah-mah-TOH-see-moh eh-PAH-noh thehk-SYAH ston FAH-keh-loh.
+  english: — Where do I put the stamp? — Stick this stamp on the top right of the
+    envelope.
+  notes: 'Review Unit 111. Envelope formatting rules: stamp on top right.'
+  gender_or_pos: phrase
+  audio: poy-vazo-to-grammato-061ff3.mp3
+  status: verified
+  example_el: — Πού γράφω τον παραλήπτη; — Γράψτε τα στοιχεία του παραλήπτη στη μέση
+    του φακέλου.
+  example_en: — Where do I write the recipient? — Write the recipient's details in
+    the middle of the envelope.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Instructing proper placement of postage stamps and recipient
+    address
+- id: A1-U111C-022
+  greek: — Έβαλες τον ταχυδρομικό κώδικα στον φάκελο; — Ναι, έγραψα τη διεύθυνση,
+    την πόλη και τον ταχυδρομικό κώδικα.
+  phonetic_hint: — EH-vah-les ton tah-khee-throh-mee-KOH KOH-thee-kah ston FAH-keh-loh?
+    — Neh, EH-ghrah-psah tee thee-EF-theen-see, teen POH-lee keh ton tah-khee-throh-mee-KOH
+    KOH-thee-kah.
+  english: — Did you put the postal code on the envelope? — Yes, I wrote the address,
+    city, and postal code.
+  notes: Review Unit 111. Postal code requirement ('ταχυδρομικός κώδικας').
+  gender_or_pos: phrase
+  audio: evales-ton-tachydrom-a2c71c.mp3
+  status: verified
+  example_el: — Πού είναι ο αποστολέας; — Ο αποστολέας είναι επάνω αριστερά.
+  example_en: — Where is the sender? — The sender is on the top left.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Verifying complete postal address formatting including
+    zip code
+- id: A1-U111C-023
+  greek: — Στέλνω ένα συστημένο δέμα στους γονείς μου στην Κρήτη. — Βάλτε το δέμα
+    επάνω για να δω πόσο ζυγίζει.
+  phonetic_hint: — STEHL-noh EH-nah see-stee-MEH-noh THEH-mah stoos ghoh-NEES moo
+    steen KREE-tee. — VHAL-teh toh THEH-mah eh-PAH-noh yah nah thoh POH-soh zee-YEE-zee.
+  english: — I am sending a registered parcel to my parents in Crete. — Put the parcel
+    up so I can see how much it weighs.
+  notes: Review Unit 111. Parcel weighing procedure at ELTA.
+  gender_or_pos: phrase
+  audio: stelno-ena-systimeno-22ee68.mp3
+  status: verified
+  example_el: — Πόσο ζυγίζει το πακέτο; — Ζυγίζει δύο κιλά.
+  example_en: — How much does the package weigh? — It weighs two kilos.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Shipping domestic parcels and weighing them at the post
+    office scale
+- id: A1-U111C-024
+  greek: — Έχω ένα ειδοποιητήριο για ένα δέμα από το εξωτερικό. — Δείχνω το ειδοποιητήριο
+    και την ταυτότητά μου στον υπάλληλο.
+  phonetic_hint: — EH-khoh EH-nah ee-thoh-pee-ee-TEE-ree-oh yah EH-nah THEH-mah ah-POH
+    toh ek-soh-teh-ree-KOH. — THEEKH-noh toh ee-thoh-pee-ee-TEE-ree-oh keh teen tahf-TOH-tee-TAH
+    moo ston ee-PAH-lee-loh.
+  english: — I have a notification slip for a parcel from abroad. — I show the slip
+    and my ID card to the employee.
+  notes: Review Unit 111. Collecting postal parcels using delivery notification slip
+    ('ειδοποιητήριο').
+  gender_or_pos: phrase
+  audio: echo-ena-eidopoiitir-5ed724.mp3
+  status: verified
+  example_el: — Υπογράψτε εδώ στην οθόνη για να παραλάβετε το πακέτο. — Ορίστε η υπογραφή
+    μου.
+  example_en: — Sign here on the screen to receive the package. — Here is my signature.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Picking up held parcels at the postal counter with notification
+    slip
+- id: A1-U111C-025
+  greek: — Τι έδωσες στον ταχυδρόμο; — Του έδωσα την υπογραφή μου γιατί το γράμμα
+    ήταν συστημένο.
+  phonetic_hint: — Tee EH-thoh-ses ston tah-khee-THROH-moh? — Too EH-thoh-sah teen
+    ee-poh-ghrah-FEE moo yah-TEE toh GHAH-mah EE-tahn see-stee-MEH-noh.
+  english: — What did you give to the mailman? — I gave him my signature because the
+    letter was registered.
+  notes: Review Unit 111. Weak indirect pronoun 'του' with postal delivery.
+  gender_or_pos: phrase
+  audio: ti-edoses-ston-tachy-c968bc.mp3
+  status: verified
+  example_el: — Ήρθε ο ταχυδρόμος σήμερα; — Ναι, ήρθε το πρωί και έδωσε το γράμμα.
+  example_en: — Did the mailman come today? — Yes, he came in the morning and gave
+    the letter.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing home mail delivery and signing for registered
+    items
+- id: A1-U111C-026
+  greek: — Πού έχει ένα γραμματοκιβώτιο εδώ κοντά; — Υπάρχει ένα κίτρινο γραμματοκιβώτιο
+    έξω από το ταχυδρομείο.
+  phonetic_hint: — POO EH-khee EH-nah ghrah-mah-toh-kee-VOH-tee-oh eh-THOH kohn-DAH?
+    — Eep-AHR-khee EH-nah KEE-tree-noh ghrah-mah-toh-kee-VOH-tee-oh EH-ksoh ah-POH
+    toh tah-khee-throh-MEE-oh.
+  english: — Where is there a postbox near here? — There is a yellow postbox outside
+    the post office.
+  notes: Review Unit 111. Characteristic yellow Hellenic Post mailboxes ('κίτρινο
+    γραμματοκιβώτιο').
+  gender_or_pos: phrase
+  audio: poy-echei-ena-gramma-f001e4.mp3
+  status: verified
+  example_el: — Μπορώ να βάλω το γράμμα εκεί; — Ναι, ρίξτε το μέσα στο γραμματοκιβώτιο.
+  example_en: — Can I put the letter there? — Yes, drop it into the postbox.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Locating public postboxes and inquiring about dropping
+    stamped mail
+- id: A1-U111C-027
+  greek: — Πόσα γραμματόσημα χρειάζομαι για τρεις κάρτες; — Χρειάζεστε τρία γραμματόσημα
+    των δύο ευρώ.
+  phonetic_hint: — POH-sah ghrah-mah-TOH-see-mah khree-AH-zoh-meh yah trees KAHR-tes?
+    — Khree-AH-zeh-steh TREE-ah ghrah-mah-TOH-see-mah ton THEE-oh ev-ROH.
+  english: — How many stamps do I need for three cards? — You need three stamps of
+    two euros.
+  notes: Review Unit 111. Postcard stamp denomination purchase.
+  gender_or_pos: phrase
+  audio: posa-grammatosima-ch-b994e8.mp3
+  status: verified
+  example_el: — Πόσο κάνουν συνολικά; — Κάνουν δύο ευρώ και εβδομήντα λεπτά.
+  example_en: — How much are they in total? — They are two euros and seventy cents.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Purchasing postage stamps for postcards and calculating
+    total cost
+- id: A1-U111C-028
+  greek: — Μπορώ να στείλω χρήματα με το ταχυδρομείο; — Βεβαίως, συμπληρώστε αυτή
+    την αίτηση.
+  phonetic_hint: — Boh-ROH nah STEE-loh KHREE-mah-tah meh toh tah-khee-throh-MEE-oh?
+    — Veh-VEH-ohs, seem-blee-ROH-steh ahf-TEEN teen EH-tee-see.
+  english: — Can I send money by post? — Certainly, fill out this application.
+  notes: Review Unit 111. Postal remittances and money orders ('ταχυδρομική επιταγή').
+  gender_or_pos: phrase
+  audio: mporo-na-steilo-chri-269ae6.mp3
+  status: verified
+  example_el: — Σε πόσες μέρες θα φτάσει το ποσό; — Θα φτάσει αύριο το πρωί.
+  example_en: — In how many days will the amount arrive? — It will arrive tomorrow
+    morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Sending postal money transfers and confirming delivery
+    timeframes
+- id: A1-U111C-029
+  greek: — Ήρθα να πληρώσω τον λογαριασμό της ΔΕΗ και του ΟΤΕ. — Περάστε στο ταμείο
+    νούμερο δύο, παρακαλώ.
+  phonetic_hint: — EER-thah nah plee-ROH-soh ton loh-ghah-ryah-ZMOH tees theh-EE keh
+    too oh-teh-EH. — Peh-RAH-steh stoh tah-MEE-oh NOO-meh-roh THEE-oh, pah-rah-kah-LOH.
+  english: — I came to pay the electricity and phone bills. — Please step to counter
+    number two.
+  notes: 'Review Unit 111. Paying state utilities: ΔΕΗ (electric) and ΟΤΕ (telecom).'
+  gender_or_pos: phrase
+  audio: irtha-na-pliroso-ton-01c43d.mp3
+  status: verified
+  example_el: — Πληρώνουμε εδώ όλους τους λογαριασμούς; — Ναι, πληρώνουμε ρεύμα, νερό
+    και τηλέφωνο.
+  example_en: — Do we pay all bills here? — Yes, we pay electricity, water, and telephone.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Paying utility bills (electricity, water, phone) at
+    a payment agency
+- id: A1-U111C-030
+  greek: — Ο λογαριασμός είναι εμπρόθεσμος ή έχει περάσει η προθεσμία; — Είναι εμπρόθεσμος,
+    έχετε χρόνο μέχρι την Παρασκευή.
+  phonetic_hint: — Oh loh-ghah-ryah-ZMOHS EE-neh em-BROH-thez-mos ee EH-khee peh-RAH-see
+    ee proh-thez-MEE-ah? — EE-neh em-BROH-thez-mos, EH-kheh-teh KHROH-noh MEKH-ree
+    teen Pah-rah-skeh-VEE.
+  english: — Is the bill on time or has the deadline passed? — It is on time, you
+    have time until Friday.
+  notes: 'Review Unit 111. Bill validity terms: ''εμπρόθεσμος'' (on time) vs ''λήγει''
+    (expires).'
+  gender_or_pos: phrase
+  audio: o-logariasmos-einai--5e506b.mp3
+  status: verified
+  example_el: — Μπορώ να πληρώσω σήμερα; — Ναι, μπορείτε να πληρώσετε αμέσως στο ταμείο.
+  example_en: — Can I pay today? — Yes, you can pay immediately at the counter.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about bill payment due dates and late payment
+    penalties
+- id: A1-U111C-031
+  greek: — Πάρτε ένα νούμερο προτεραιότητας και περιμένετε τη σειρά σας. — Ευχαριστώ,
+    πήρα το νούμερο σαράντα πέντε.
+  phonetic_hint: — PAHR-teh EH-nah NOO-meh-roh proh-teh-reh-OH-tee-tahs keh peh-ree-MEH-neh-teh
+    tee see-RAH sahs. — Ef-khah-ree-STOH, PEE-rah toh NOO-meh-roh sah-RAHN-dah PEN-deh.
+  english: — Take a priority ticket number and wait for your turn. — Thank you, I
+    took ticket number forty-five.
+  notes: Review Unit 111. Queue priority ticket dispenser ('νούμερο προτεραιότητας').
+  gender_or_pos: phrase
+  audio: parte-ena-noymero-pr-e353cb.mp3
+  status: verified
+  example_el: — Ποιο νούμερο περνάει τώρα; — Τώρα περνάει το νούμερο σαράντα δύο.
+  example_en: — Which number is being called now? — Number forty-two is being called
+    now.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Taking queue priority tickets and monitoring turn sequences
+- id: A1-U111C-032
+  greek: — Με συγχωρείτε, είστε στην ουρά ή περιμένετε κάποιον; — Είμαι στην ουρά,
+    έχω το επόμενο νούμερο.
+  phonetic_hint: — Meh seen-khoh-REE-teh, EE-steh steen oo-RAH ee peh-ree-MEH-neh-teh
+    KAH-pyon? — EE-meh steen oo-RAH, EH-khoh toh eh-POH-meh-noh NOO-meh-roh.
+  english: — Excuse me, are you in line or waiting for someone? — I am in the queue,
+    I have the next number.
+  notes: Review Unit 111. Queue etiquette inquiry ('είστε στην ουρά;').
+  gender_or_pos: phrase
+  audio: me-sygchoreite-eiste-53f87d.mp3
+  status: verified
+  example_el: — Ποιος έχει σειρά τώρα; — Είναι η δική μου σειρά, περνάω στο ταμείο.
+  example_en: — Whose turn is it now? — It is my turn, I am stepping up to the counter.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Checking queue status and clarifying turn sequence in
+    waiting lines
+- id: A1-U111C-033
+  greek: — Ορίστε τα χρήματα ακριβώς, δεν χρειάζομαι ρέστα. — Ευχαριστώ, ορίστε η
+    απόδειξη πληρωμής σας.
+  phonetic_hint: — Oh-REES-teh tah KHREE-mah-tah ah-kree-VOHS, then khree-AH-zoh-meh
+    REH-stah. — Ef-khah-ree-STOH, oh-REES-teh ee ah-POH-theek-see plee-roh-MEES sahs.
+  english: — Here is the exact money, I do not need change. — Thank you, here is your
+    payment receipt.
+  notes: Review Unit 111. Tendering exact cash amount ('τα χρήματα ακριβώς').
+  gender_or_pos: phrase
+  audio: oriste-ta-chrimata-a-647765.mp3
+  status: verified
+  example_el: — Κρατήστε το απόκομμα της πληρωμής ως επίσημη απόδειξη. — Ευχαριστώ
+    πολύ, καλή συνέχεια!
+  example_en: — Keep the payment stub as an official receipt. — Thank you very much,
+    good continuation!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Tendering exact cash payment and receiving official
+    payment stubs
+- id: A1-U111C-034
+  greek: — Πόσο είναι ο λογαριασμός της ΔΕΗ; — Είναι εβδομήντα πέντε ευρώ και είκοσι
+    λεπτά.
+  phonetic_hint: — POH-soh EE-neh oh loh-ghah-ryah-ZMOHS tees theh-EE? — EE-neh ev-thoh-MEEN-dah
+    PEN-deh ev-ROH keh EE-koh-see lep-TAH.
+  english: — How much is the electricity bill? — It is seventy-five euros and twenty
+    cents.
+  notes: Review Unit 111. Specific utility amount statement ('ηλεκτρικό ρεύμα').
+  gender_or_pos: phrase
+  audio: poso-einai-o-logaria-5b4e0b.mp3
+  status: verified
+  example_el: — Μπορώ να πληρώσω με κάρτα; — Ναι, μπορείτε με κάρτα ή με μετρητά.
+  example_en: — Can I pay by card? — Yes, you can by card or cash.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating utility amounts and selecting payment method
+- id: A1-U111C-035
+  greek: — Τι ώρα ανοίγει το ταχυδρομείο το πρωί; — Ανοίγει στις οκτώ το πρωί και
+    κλείνει στις δύο το μεσημέρι.
+  phonetic_hint: — Tee OH-rah ah-NEE-yee toh tah-khee-throh-MEE-oh toh proh-EE? —
+    Ah-NEE-yee stees ohk-TOH toh proh-EE keh KLEE-nee stees THEE-oh toh meh-see-MEH-ree.
+  english: — What time does the post office open in the morning? — It opens at eight
+    in the morning and closes at two in the afternoon.
+  notes: Review Unit 111. Public service opening hours.
+  gender_or_pos: phrase
+  audio: ti-ora-anoigei-to-ta-673a44.mp3
+  status: verified
+  example_el: — Έχει πολλή ουρά το πρωί; — Συνήθως έχει αρκετό κόσμο μετά τις δέκα.
+  example_en: — Is there a big queue in the morning? — Usually there are quite a lot
+    of people after ten.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring post office operating timetables and typical
+    wait times
+- id: A1-U111C-036
+  greek: — Έγινε κάποιο λάθος στην απόδειξη; — Ας ελέγξω τα χρήματα στον υπολογιστή.
+  phonetic_hint: — EH-yee-neh KAH-pyoh LAH-thos steen ah-POH-theek-see? — Ahs eh-LEHNG-ksoh
+    tah KHREE-mah-tah ston ee-poh-loh-yee-STEE.
+  english: — Was there a mistake on the receipt? — Let me check the money on the computer.
+  notes: Review Unit 111. Disputing transaction discrepancies.
+  gender_or_pos: phrase
+  audio: egine-kapoio-lathos--904a08.mp3
+  status: verified
+  example_el: — Είναι όλα εντάξει; — Ναι, είναι όλα μια χαρά.
+  example_en: — Is everything alright? — Yes, everything is just fine.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Addressing and correcting receipt errors and issuing
+    refunds
+- id: A1-U111C-037
+  greek: — Τι σου είπε ο διευθυντής στην τράπεζα; — Μου είπε ότι η αίτησή μου εγκρίθηκε
+    σήμερα το πρωί.
+  phonetic_hint: — Tee soo EE-peh oh thee-ef-theen-TEES steen TRAH-peh-zah? — Moo
+    EE-peh OH-tee ee EH-tee-SEE moo eng-GREE-thee-keh SEE-meh-rah toh proh-EE.
+  english: — What did the manager tell you at the bank? — He told me that my application
+    was approved this morning.
+  notes: Review Unit 111. Reporting speech with indirect declarative 'μου είπε ότι...'.
+  gender_or_pos: phrase
+  audio: ti-soy-eipe-o-dieyth-892fa6.mp3
+  status: verified
+  example_el: — Τι σας είπε ο υπάλληλος; — Μου είπε ότι μπορώ να παραλάβω την κάρτα
+    αύριο.
+  example_en: — What did the clerk tell you? — He told me that I can pick up the card
+    tomorrow.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting statements and inquiries indirectly using
+    'μου είπε ότι' and 'ρώτησα αν'
+- id: A1-U111C-038
+  greek: '— Τι είπε η κυρία Ελένη στο ταχυδρομείο; — Είπε: «Θέλω να στείλω αυτό το
+    δέμα επείγον στην Ιταλία».'
+  phonetic_hint: '— Tee EE-peh ee kee-REE-ah Eh-LEH-nee stoh tah-khee-throh-MEE-oh?
+    — EE-peh: «THEH-loh nah STEE-loh ahf-TOH toh THEH-mah eh-PEE-ghon steen Ee-tah-LEE-ah».'
+  english: '— What did Mrs. Eleni say at the post office? — She said: ''I want to
+    send this parcel express to Italy.'''
+  notes: Review Unit 111. Direct quotation reporting speech.
+  gender_or_pos: phrase
+  audio: ti-eipe-i-kyria-elen-89ea1c.mp3
+  status: verified
+  example_el: — Τι τους είπε ο υπάλληλος; — Τους εξήγησε πώς να συμπληρώσουν την αίτηση.
+  example_en: — What did the clerk tell them? — He explained to them how to fill out
+    the application.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Quoting direct speech verbatim and reporting explanations
+- id: A1-U111C-039
+  greek: — Σε ποιους είπες τα ευχάριστα νέα για τη δουλειά; — Τα είπα στους γονείς
+    μου και στους φίλους μου.
+  phonetic_hint: — Seh PEE-oos EE-pes tah ef-KHAH-ree-stah NEH-ah yah tee thoo-lee-AH?
+    — Tah EE-pah stoos ghoh-NEES moo keh stoos FEE-loos moo.
+  english: — To whom did you tell the pleasant news about the job? — I told them to
+    my parents and to my friends.
+  notes: Review Unit 111. Weak clitic pronoun doubling with direct and indirect objects
+    ('τα είπα στους...').
+  gender_or_pos: phrase
+  audio: se-poioys-eipes-ta-e-dc9e04.mp3
+  status: verified
+  example_el: — Χάρηκε ο πατέρας σου; — Ναι, χάρηκε πάρα πολύ με τα νέα μου!
+  example_en: — Was your father glad? — Yes, he was very glad with my news!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Sharing good news with family and friends using double
+    clitic pronouns
+- id: A1-U111C-040
+  greek: — Σας παραδίδω το διαβατήριό σας ανανεωμένο. — Ευχαριστώ πολύ για όλα.
+  phonetic_hint: — Sahs pah-rah-THEE-thoh toh thee-ah-vah-TEE-ree-OH sahs ah-nah-neh-oh-MEH-noh.
+    — Ef-khah-ree-STOH poh-LEE yah OH-lah.
+  english: — I hand you your renewed passport. — Thank you very much for everything.
+  notes: Review Unit 111. Formal administrative document collection.
+  gender_or_pos: phrase
+  audio: sas-paradido-to-diav-8c944a.mp3
+  status: verified
+  example_el: — Είναι εντάξει τα στοιχεία σας; — Ναι, είναι όλα μια χαρά.
+  example_en: — Are your details alright? — Yes, they are all fine.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Collecting official passport documents and verifying
+    personal details
+- id: A1-U111C-041
+  greek: — Γεια σου, πώς σε λένε και από πού είσαι; — Με λένε Νίκο, είμαι από την
+    Ιταλία αλλά μένω στην Αθήνα.
+  phonetic_hint: — YAH soo, pos seh LEH-neh keh ah-POH POO EE-seh? — Meh LEH-neh NEE-koh,
+    EE-meh ah-POH teen Ee-tah-LEE-ah ah-LAH MEH-noh steen ah-THEE-nah.
+  english: — Hello, what is your name and where are you from? — My name is Nikos,
+    I am from Italy but live in Athens.
+  notes: 'A1 Capstone Exam Task: Self-introduction, nationality, and residence.'
+  gender_or_pos: phrase
+  audio: geia-soy-pos-se-lene-42271c.mp3
+  status: verified
+  example_el: — Πόσο καιρό μένεις στην Ελλάδα; — Μένω στην Ελλάδα εδώ και έναν χρόνο.
+  example_en: — How long have you lived in Greece? — I have lived in Greece for one
+    year.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Introducing self, country of origin,
+    and residence duration'
+- id: A1-U111C-042
+  greek: — Τι δουλειά κάνεις και τι σου αρέσει να κάνεις στον ελεύθερο χρόνο σου;
+    — Είμαι προγραμματιστής και στον ελεύθερο χρόνο μου παίζω κιθάρα.
+  phonetic_hint: — Tee thoo-lee-AH KAH-nees keh tee soo ah-REH-see nah KAH-nees ston
+    eh-LEHF-theh-roh KHROH-noh soo? — EE-meh proh-ghrah-mah-tee-STEES keh ston eh-LEHF-theh-roh
+    KHROH-noh moo PEH-zoh kee-THAH-rah.
+  english: — What job do you do and what do you like to do in your free time? — I
+    am a programmer and in my free time I play guitar.
+  notes: 'A1 Capstone Exam Task: Profession and leisure activities.'
+  gender_or_pos: phrase
+  audio: ti-doyleia-kaneis-ka-fbe769.mp3
+  status: verified
+  example_el: — Σου αρέσει το τρέξιμο; — Ναι, μου αρέσει πολύ το τρέξιμο.
+  example_en: — Do you like running? — Yes, I like running very much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Describing profession, hobbies,
+    and sports preferences'
+- id: A1-U111C-043
+  greek: — Με συγχωρείτε, πώς μπορώ να πάω στο μουσείο της Ακρόπολης; — Πάτε κατευθείαν
+    μπροστά και θα το δείτε απέναντι από το μετρό.
+  phonetic_hint: — Meh seen-khoh-REE-teh, pos boh-ROH nah PAH-oh stoh moo-SEE-oh tees
+    Ah-KROH-poh-lees? — PAH-teh kah-tehf-THEE-ahn broh-STAH keh thah toh THEE-teh
+    ah-PEH-nahn-dee ah-POH toh meh-TROH.
+  english: — Excuse me, how can I get to the Acropolis Museum? — Go straight ahead
+    and you will see it opposite the metro.
+  notes: 'A1 Capstone Exam Task: Asking and giving street directions.'
+  gender_or_pos: phrase
+  audio: me-sygchoreite-pos-m-1fff5e.mp3
+  status: verified
+  example_el: — Είναι μακριά με τα πόδια; — Όχι, είναι μόλις πέντε λεπτά από εδώ.
+  example_en: — Is it far on foot? — No, it is just five minutes from here.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Asking for and providing pedestrian
+    directions'
+- id: A1-U111C-044
+  greek: — Καλησπέρα σας, θα ήθελα να παραγγείλω ένα τραπέζι για δύο άτομα. — Βεβαίως,
+    προτιμάτε μέσα ή έξω στην αυλή;
+  phonetic_hint: — Kah-lee-SPEH-rah sahs, thah EE-theh-lah nah pah-rahng-GHEE-loh
+    EH-nah trah-PEH-zee yah THEE-oh AH-toh-mah. — Veh-VEH-ohs, proh-tee-MAH-teh MEH-sah
+    ee EH-ksoh steen ahv-LEE?
+  english: — Good evening, I would like to reserve a table for two people. — Certainly,
+    do you prefer inside or outside in the yard?
+  notes: 'A1 Capstone Exam Task: Restaurant table reservation.'
+  gender_or_pos: phrase
+  audio: kalispera-sas-tha-it-62e060.mp3
+  status: verified
+  example_el: — Προτιμάμε έξω, παρακαλώ. — Πολύ ωραία, στις οκτώ το βράδυ είναι εντάξει;
+  example_en: — We prefer outside, please. — Very well, is eight in the evening fine?
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Reserving a restaurant table and
+    stating seating preference'
+- id: A1-U111C-045
+  greek: — Τι καιρό κάνει στην πόλη σας τον χειμώνα; — Κάνει αρκετό κρύο, βρέχει συχνά
+    και μερικές φορές χιονίζει.
+  phonetic_hint: — Tee keh-ROH KAH-nee steen POH-lee sahs ton khee-MOH-nah? — KAH-nee
+    ahr-keh-TOH KREE-oh, VREH-khee see-KHNAH keh meh-ree-KES foh-RES khyoh-NEE-zee.
+  english: — What is the weather like in your city in winter? — It is quite cold,
+    it rains often, and sometimes it snows.
+  notes: 'A1 Capstone Exam Task: Describing climate and seasonal weather.'
+  gender_or_pos: phrase
+  audio: ti-kairo-kanei-stin--dcad80.mp3
+  status: verified
+  example_el: — Και το καλοκαίρι; — Το καλοκαίρι κάνει πολλή ζέστη και έχει πάντα
+    ήλιο.
+  example_en: — And in the summer? — In the summer it is very hot and always sunny.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Describing winter and summer weather
+    conditions'
+- id: A1-U111C-046
+  greek: — Σε προσκαλώ στο πάρτι των γενεθλίων μου το Σάββατο στις επτά. — Σε ευχαριστώ
+    πολύ για την πρόσκληση, θα έρθω ευχαρίστως!
+  phonetic_hint: — Seh proh-skah-LOH stoh PAHR-tee ton yeh-neh-THLEE-on moo toh SAH-vah-toh
+    stees ep-TAH. — Seh ef-khah-ree-STOH poh-LEE yah teen PROHS-klee-see, thah EHR-thoh
+    ef-khah-REES-tohs!
+  english: — I invite you to my birthday party on Saturday at seven. — Thank you very
+    much for the invitation, I will gladly come!
+  notes: 'A1 Capstone Exam Task: Extending and accepting social invitations.'
+  gender_or_pos: phrase
+  audio: se-proskalo-sto-part-dbbcc6.mp3
+  status: verified
+  example_el: — Αν δεν μπορείς να έρθεις, τηλεφώνησέ μου. — Μην ανησυχείς, δεν θα
+    το χάσω με τίποτα.
+  example_en: — If you cannot come, call me. — Don't worry, I won't miss it for anything.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Extending birthday invitations and
+    enthusiastically accepting'
+- id: A1-U111C-047
+  greek: — Πόσο κάνει αυτό το μπλε πουλόβερ; — Κοστίζει σαράντα πέντε ευρώ, αλλά σήμερα
+    έχει έκπτωση είκοσι τοις εκατό.
+  phonetic_hint: — POH-soh KAH-nee ahf-TOH toh bleh poo-LOH-vehr? — Koh-STEE-zee sah-RAHN-dah
+    PEN-deh ev-ROH, ah-LAH SEE-meh-rah EH-khee EHK-ptoh-see EE-koh-see tees eh-kah-TOH.
+  english: — How much is this blue sweater? — It costs forty-five euros, but today
+    it has a twenty percent discount.
+  notes: 'A1 Capstone Exam Task: Retail shopping, sizing, and discounts.'
+  gender_or_pos: phrase
+  audio: poso-kanei-ayto-to-m-8c4f0b.mp3
+  status: verified
+  example_el: — Μπορώ να το δοκιμάσω; — Βεβαίως, τα δοκιμαστήρια είναι στο βάθος δεξιά.
+  example_en: — Can I try it on? — Certainly, the fitting rooms are at the back on
+    the right.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Inquiring about clothing prices,
+    discounts, and fitting rooms'
+- id: A1-U111C-048
+  greek: — Τι ώρα ξυπνάει κανείς για τη δουλειά; — Ξυπνάω στις επτά, πίνω καφέ και
+    παίρνω το λεωφορείο για τη δουλειά.
+  phonetic_hint: — Tee OH-rah ksee-PNAH-ee kah-NEES yah tee thoo-lee-AH? — Ksee-PNAH-oh
+    stees ep-TAH, PEE-noh kah-FEH keh PEHR-noh toh leh-oh-foh-REE-oh yah tee thoo-lee-AH.
+  english: — What time does one wake up for work? — I wake up at seven, drink coffee,
+    and take the bus to work.
+  notes: 'A1 Capstone Exam Task: Daily routine narrative and transportation.'
+  gender_or_pos: phrase
+  audio: ti-ora-xypnaei-kanei-67313d.mp3
+  status: verified
+  example_el: — Τι ώρα γύρισες στο σπίτι; — Γύρισα στις έξι το απόγευμα και μαγείρεψα
+    βραδινό.
+  example_en: — What time did you return home? — I returned at six in the evening
+    and cooked dinner.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Narrating morning and evening daily
+    schedules'
+- id: A1-U111C-049
+  greek: — Μπορείτε να το πείτε λίγο πιο αργά, παρακαλώ; — Βεβαίως, θα μιλάω πιο αργά
+    και πιο καθαρά.
+  phonetic_hint: — Boh-REE-teh nah toh PEE-teh LEE-ghoh pyoh ahr-GHAH, pah-rah-kah-LOH?
+    — Veh-VEH-ohs, thah mee-LAH-oh pyoh ahr-GHAH keh pyoh kah-thah-RAH.
+  english: — Could you say it a little slower, please? — Certainly, I will speak more
+    slowly and clearly.
+  notes: 'A1 Capstone Exam Task: Meta-communicative repair strategies (asking to repeat
+    / speak slower).'
+  gender_or_pos: phrase
+  audio: mporeite-na-to-peite-b9e148.mp3
+  status: verified
+  example_el: — Δεν κατάλαβα αυτή τη λέξη. — Σημαίνει ότι πρέπει να περιμένετε στην
+    ουρά.
+  example_en: — I didn't understand this word. — It means that you must wait in the
+    line.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Requesting repetition, slower speech,
+    and vocabulary clarification'
+- id: A1-U111C-050
+  greek: — Χαίρομαι πολύ που σε ξαναβλέπω μετά από τόσα χρόνια! — Κι εγώ χαίρομαι
+    πάρα πολύ, συγχαρητήρια για την επιτυχία σου στις εξετάσεις!
+  phonetic_hint: — KHEH-roh-meh poh-LEE poo seh ksah-nah-VLEH-poh meh-TAH ah-POH TOH-sah
+    KHROH-nyah! — Kee eh-GHOH KHEH-roh-meh PAH-rah poh-LEE, seen-khah-ree-TEE-ree-ah
+    yah teen eh-pee-tee-KHEE-ah soo stees ek-seh-TAH-sees!
+  english: — I am so glad to see you again after so many years! — I am very glad too,
+    congratulations on your success in the exams!
+  notes: 'A1 Capstone Exam Task: Final congratulatory dialogue and exam completion
+    celebration.'
+  gender_or_pos: phrase
+  audio: chairomai-poly-poy-s-c5f9c4.mp3
+  status: verified
+  example_el: — Συγχαρητήρια για το πτυχίο σου στα ελληνικά! — Σε ευχαριστώ πάρα πολύ,
+    καλή συνέχεια σε όλους!
+  example_en: — Congratulations on your Greek degree! — Thank you so much, good continuation
+    to everyone!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: 'CEFR A1 Oral Exam: Celebrating exam success and congratulating
+    fellow candidates'

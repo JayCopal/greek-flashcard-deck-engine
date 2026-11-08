@@ -39,6 +39,10 @@ entries:
     plural: οι ώρες
     accusative_singular: την ώρα
   keg_communicative_function: Asking for and stating the time
+  example_audio: ti-ora-einai-tora-pa-a604f9.mp3
+  example2_el: Είναι μία η ώρα το μεσημέρι.
+  example2_en: It is one o'clock in the afternoon.
+  example2_audio: einai-mia-i-ora-to-m-9d462a.mp3
 - id: A1-U09-002
   greek: το λεπτό
   phonetic_hint: ''
@@ -55,6 +59,10 @@ entries:
     plural: τα λεπτά
     accusative_singular: το λεπτό
   keg_communicative_function: Specifying exact minutes for schedules and transport
+  example_audio: to-leoforeio-ftanei--258d86.mp3
+  example2_el: Περιμένετε ένα λεπτό, παρακαλώ.
+  example2_en: Wait a minute, please.
+  example2_audio: perimenete-ena-lepto-99cdda.mp3
 - id: A1-U09-003
   greek: το τέταρτο
   phonetic_hint: ''
@@ -70,6 +78,10 @@ entries:
     plural: τα τέταρτα
     accusative_singular: το τέταρτο
   keg_communicative_function: Stating quarter past and quarter to the hour
+  example_audio: einai-treis-kai-teta-1d97af.mp3
+  example2_el: Η πτήση αναχωρεί στις έξι και τέταρτο.
+  example2_en: The flight departs at a quarter past six.
+  example2_audio: i-ptisi-anachorei-st-93dbef.mp3
 - id: A1-U09-004
   greek: και μισή
   phonetic_hint: ''
@@ -83,6 +95,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (time formula)
   keg_communicative_function: Stating half-past hours in timetable announcements
+  example_audio: to-iatreio-anoigei-s-6b1847.mp3
+  example2_el: Το μάθημα αρχίζει στις εννέα και μισή.
+  example2_en: The class starts at half past nine.
+  example2_audio: to-mathima-archizei--cd8e33.mp3
 - id: A1-U09-005
   greek: παρά
   phonetic_hint: ''
@@ -96,6 +112,10 @@ entries:
   grammatical_info:
     part_of_speech: preposition (temporal)
   keg_communicative_function: Stating minutes before the upcoming hour
+  example_audio: einai-pente-para-eik-829e17.mp3
+  example2_el: Είναι δέκα παρά δέκα το πρωί.
+  example2_en: It is ten to ten in the morning.
+  example2_audio: einai-deka-para-deka-f47cd3.mp3
 - id: A1-U09-006
   greek: ακριβώς
   phonetic_hint: ''
@@ -109,6 +129,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of precision
   keg_communicative_function: Stating sharp appointments and exact timetable arrivals
+  example_audio: to-treno-feygei-stis-fadb33.mp3
+  example2_el: Συναντιόμαστε στις επτά ακριβώς έξω από το θέατρο.
+  example2_en: We meet at seven sharp outside the theater.
+  example2_audio: synantiomaste-stis-e-af4cbe.mp3
 - id: A1-U09-007
   greek: στις μία / στις δύο / στις τρεις
   phonetic_hint: ''
@@ -124,6 +148,10 @@ entries:
     part_of_speech: phrase (time formula)
     construction: σε + feminine accusative article + cardinal numeral
   keg_communicative_function: Specifying at what time an event or appointment occurs
+  example_audio: synantiomaste-stis-e-71fe6b.mp3
+  example2_el: Το ραντεβού μας είναι στις δύο το μεσημέρι.
+  example2_en: Our appointment is at two in the afternoon.
+  example2_audio: to-rantevoy-mas-eina-c5c585.mp3
 - id: A1-U09-008
   greek: το ραντεβού
   phonetic_hint: ''
@@ -140,6 +168,10 @@ entries:
     plural: τα ραντεβού
     accusative_singular: το ραντεβού
   keg_communicative_function: Scheduling medical, personal, or business meetings
+  example_audio: echo-rantevoy-me-ton-7dc236.mp3
+  example2_el: Έχετε ραντεβού με τη γραμματέα;
+  example2_en: Do you have an appointment with the secretary?
+  example2_audio: echete-rantevoy-me-t-fd1199.mp3
 - id: A1-U09-009
   greek: το ρολόι
   phonetic_hint: ''
@@ -156,6 +188,10 @@ entries:
     plural: τα ρολόγια
     accusative_singular: το ρολόι
   keg_communicative_function: Referring to timepieces and clocks
+  example_audio: to-roloi-moy-deichne-b9939a.mp3
+  example2_el: Αυτό το ρολόι τοίχου είναι παλιό.
+  example2_en: This wall clock is old.
+  example2_audio: ayto-to-roloi-toicho-37144e.mp3
 - id: A1-U09-010
   greek: η εβδομάδα
   phonetic_hint: ''
@@ -171,6 +207,10 @@ entries:
     plural: οι εβδομάδες
     accusative_singular: την εβδομάδα
   keg_communicative_function: Talking about weekly routines and frequency
+  example_audio: echoyme-mathima-dyo--a92f53.mp3
+  example2_el: Πόσες ώρες δουλεύεις την εβδομάδα;
+  example2_en: How many hours do you work a week?
+  example2_audio: poses-ores-doyleyeis-64a318.mp3
 - id: A1-U09-011
   greek: το σαββατοκύριακο
   phonetic_hint: ''
@@ -187,6 +227,10 @@ entries:
     plural: τα σαββατοκύριακα
     accusative_singular: το σαββατοκύριακο
   keg_communicative_function: Arranging weekend social outings or trips
+  example_audio: to-savvatokyriako-pa-4ec0ac.mp3
+  example2_el: Τι κάνεις συνήθως το σαββατοκύριακο;
+  example2_en: What do you usually do on the weekend?
+  example2_audio: ti-kaneis-synithos-t-50287d.mp3
 - id: A1-U09-012
   greek: η Δευτέρα
   phonetic_hint: ''
@@ -203,6 +247,10 @@ entries:
     plural: οι Δευτέρες
     accusative_singular: τη Δευτέρα
   keg_communicative_function: Scheduling activities on Monday
+  example_audio: ti-deytera-archizei--286b73.mp3
+  example2_el: Τη Δευτέρα έχουμε πολλή δουλειά στο γραφείο.
+  example2_en: On Monday we have a lot of work at the office.
+  example2_audio: ti-deytera-echoyme-p-17265d.mp3
 - id: A1-U09-013
   greek: η Τρίτη
   phonetic_hint: ''
@@ -218,6 +266,10 @@ entries:
     plural: οι Τρίτες
     accusative_singular: την Τρίτη
   keg_communicative_function: Scheduling activities on Tuesday
+  example_audio: tin-triti-to-proi-ec-b83b31.mp3
+  example2_el: Την Τρίτη το απόγευμα πηγαίνω για τρέξιμο.
+  example2_en: On Tuesday afternoon I go for a run.
+  example2_audio: tin-triti-to-apogeym-fed5d1.mp3
 - id: A1-U09-014
   greek: η Τετάρτη
   phonetic_hint: ''
@@ -233,6 +285,10 @@ entries:
     plural: οι Τετάρτες
     accusative_singular: την Τετάρτη
   keg_communicative_function: Scheduling activities on Wednesday
+  example_audio: tin-tetarti-to-apoge-65eee5.mp3
+  example2_el: Την Τετάρτη έχω συνάντηση με τον καθηγητή.
+  example2_en: On Wednesday I have a meeting with the professor.
+  example2_audio: tin-tetarti-echo-syn-0f42a7.mp3
 - id: A1-U09-015
   greek: η Πέμπτη
   phonetic_hint: ''
@@ -248,6 +304,10 @@ entries:
     plural: οι Πέμπτες
     accusative_singular: την Πέμπτη
   keg_communicative_function: Scheduling activities on Thursday
+  example_audio: tin-pempti-echoyme-s-37b347.mp3
+  example2_el: Την Πέμπτη το βράδυ τρώμε μαζί με φίλους.
+  example2_en: On Thursday evening we eat together with friends.
+  example2_audio: tin-pempti-to-vrady--c96db0.mp3
 - id: A1-U09-016
   greek: η Παρασκευή
   phonetic_hint: ''
@@ -263,6 +323,10 @@ entries:
     plural: οι Παρασκευές
     accusative_singular: την Παρασκευή
   keg_communicative_function: Scheduling activities on Friday before the weekend
+  example_audio: tin-paraskeyi-to-vra-457bd9.mp3
+  example2_el: Η Παρασκευή είναι η αγαπημένη μου μέρα.
+  example2_en: Friday is my favorite day.
+  example2_audio: i-paraskeyi-einai-i--a1778f.mp3
 - id: A1-U09-017
   greek: το Σάββατο
   phonetic_hint: ''
@@ -279,6 +343,10 @@ entries:
     plural: τα Σάββατα
     accusative_singular: το Σάββατο
   keg_communicative_function: Scheduling Saturday leisure activities and shopping
+  example_audio: to-savvato-pigainoym-a5b994.mp3
+  example2_el: Το Σάββατο το βράδυ πάμε σε μία συναυλία.
+  example2_en: On Saturday evening we go to a concert.
+  example2_audio: to-savvato-to-vrady--fbd1ec.mp3
 - id: A1-U09-018
   greek: η Κυριακή
   phonetic_hint: ''
@@ -294,6 +362,10 @@ entries:
     plural: οι Κυριακές
     accusative_singular: την Κυριακή
   keg_communicative_function: Talking about Sunday family dinners and rest days
+  example_audio: tin-kyriaki-xekoyraz-930a4a.mp3
+  example2_el: Την Κυριακή το πρωί πίνουμε καφέ με την οικογένεια.
+  example2_en: On Sunday morning we drink coffee with the family.
+  example2_audio: tin-kyriaki-to-proi--49ba78.mp3
 - id: A1-U09-019
   greek: η εποχή
   phonetic_hint: ''
@@ -309,6 +381,10 @@ entries:
     plural: οι εποχές
     accusative_singular: την εποχή
   keg_communicative_function: Talking about the four seasons of the year
+  example_audio: poia-einai-i-agapime-28d8e2.mp3
+  example2_el: Στην Ελλάδα κάθε εποχή έχει τις ομορφιές της.
+  example2_en: In Greece every season has its beauties.
+  example2_audio: stin-ellada-kathe-ep-d4af52.mp3
 - id: A1-U09-020
   greek: η άνοιξη
   phonetic_hint: ''
@@ -324,6 +400,10 @@ entries:
     plural: οι ανοίξεις
     accusative_singular: την άνοιξη
   keg_communicative_function: Describing springtime weather and holidays (Easter)
+  example_audio: tin-anoixi-o-kairos--bddb85.mp3
+  example2_el: Την άνοιξη ανθίζουν τα λουλούδια στους κήπους.
+  example2_en: In spring the flowers bloom in the gardens.
+  example2_audio: tin-anoixi-anthizoyn-5ab456.mp3
 - id: A1-U09-021
   greek: το καλοκαίρι
   phonetic_hint: ''
@@ -340,6 +420,10 @@ entries:
     plural: τα καλοκαίρια
     accusative_singular: το καλοκαίρι
   keg_communicative_function: Talking about summer holidays and island trips
+  example_audio: to-kalokairi-pigaino-621a53.mp3
+  example2_el: Το καλοκαίρι κάνει πολλή ζέστη στην Αθήνα.
+  example2_en: In summer it is very hot in Athens.
+  example2_audio: to-kalokairi-kanei-p-1138ec.mp3
 - id: A1-U09-022
   greek: το φθινόπωρο
   phonetic_hint: ''
@@ -355,6 +439,10 @@ entries:
     plural: τα φθινόπωρα
     accusative_singular: το φθινόπωρο
   keg_communicative_function: Talking about autumn weather and return to school
+  example_audio: to-fthinoporo-archiz-8c6433.mp3
+  example2_el: Το φθινόπωρο πέφτουν τα φύλλα από τα δέντρα.
+  example2_en: In autumn the leaves fall from the trees.
+  example2_audio: to-fthinoporo-peftoy-f28798.mp3
 - id: A1-U09-023
   greek: ο χειμώνας
   phonetic_hint: ''
@@ -370,6 +458,10 @@ entries:
     plural: οι χειμώνες
     accusative_singular: τον χειμώνα
   keg_communicative_function: Describing cold winter weather and mountain trips
+  example_audio: ton-cheimona-kanei-k-714204.mp3
+  example2_el: Τον χειμώνα φοράμε ζεστά παλτά και σκούφους.
+  example2_en: In winter we wear warm coats and beanies.
+  example2_audio: ton-cheimona-forame--911540.mp3
 - id: A1-U09-024
   greek: ο μήνας
   phonetic_hint: ''
@@ -386,6 +478,10 @@ entries:
     plural: οι μήνες
     accusative_singular: τον μήνα
   keg_communicative_function: Talking about months and yearly calendar periods
+  example_audio: o-chronos-echei-dode-c2a384.mp3
+  example2_el: Ποιος μήνας είναι ο πιο ζεστός;
+  example2_en: Which month is the warmest?
+  example2_audio: poios-minas-einai-o--05d82b.mp3
 - id: A1-U09-025
   greek: το έτος / ο χρόνος
   phonetic_hint: ''
@@ -402,6 +498,10 @@ entries:
     plural: τα έτη / οι χρόνοι
     accusative_singular: το έτος / τον χρόνο
   keg_communicative_function: Stating age, dates, and years on forms
+  example_audio: kali-chronia-kai-eyt-e8a88a.mp3
+  example2_el: Πόσων χρονών είσαι φέτος;
+  example2_en: How old are you this year?
+  example2_audio: poson-chronon-eisai--4f7b73.mp3
 - id: A1-U09-026
   greek: το ημερολόγιο
   phonetic_hint: ''
@@ -418,6 +518,10 @@ entries:
     plural: τα ημερολόγια
     accusative_singular: το ημερολόγιο
   keg_communicative_function: Consulting dates and booking appointments on a calendar
+  example_audio: koitazo-to-imerologi-94422e.mp3
+  example2_el: Σημειώνω την ημερομηνία στο ημερολόγιό μου.
+  example2_en: I note the date in my calendar.
+  example2_audio: simeiono-tin-imeromi-68a3e1.mp3
 - id: A1-U09-027
   greek: ο Ιανουάριος / ο Γενάρης
   phonetic_hint: ''
@@ -433,6 +537,10 @@ entries:
     part_of_speech: proper noun (masculine)
     accusative_singular: τον Ιανουάριο / τον Γενάρη
   keg_communicative_function: Referring to January and New Year dates
+  example_audio: ton-ianoyario-giorta-421ee4.mp3
+  example2_el: Ο Ιανουάριος είναι ο πρώτος μήνας του χρόνου.
+  example2_en: January is the first month of the year.
+  example2_audio: o-ianoyarios-einai-o-a75050.mp3
 - id: A1-U09-028
   greek: ο Απρίλιος / ο Απρίλης
   phonetic_hint: ''
@@ -447,6 +555,10 @@ entries:
     part_of_speech: proper noun (masculine)
     accusative_singular: τον Απρίλιο / τον Απρίλη
   keg_communicative_function: Specifying spring dates and Greek Easter season
+  example_audio: to-pascha-peftei-syn-bc2537.mp3
+  example2_el: Τον Απρίλιο ο καιρός είναι συνήθως ήπιος.
+  example2_en: In April the weather is usually mild.
+  example2_audio: ton-aprilio-o-kairos-1d67e7.mp3
 - id: A1-U09-029
   greek: ο Ιούλιος / ο Ιούλης
   phonetic_hint: ''
@@ -461,6 +573,10 @@ entries:
     part_of_speech: proper noun (masculine)
     accusative_singular: τον Ιούλιο / τον Ιούλη
   keg_communicative_function: Planning mid-summer holiday dates
+  example_audio: ton-ioylio-pame-diak-4931df.mp3
+  example2_el: Τον Ιούλιο κλείνουν τα σχολεία για καλοκαίρι.
+  example2_en: In July the schools close for summer.
+  example2_audio: ton-ioylio-kleinoyn--c4a03c.mp3
 - id: A1-U09-030
   greek: ο Αύγουστος
   phonetic_hint: ''
@@ -476,6 +592,10 @@ entries:
     part_of_speech: proper noun (masculine)
     accusative_singular: τον Αύγουστο
   keg_communicative_function: Describing peak summer holiday periods in Greece
+  example_audio: ton-aygoysto-i-athin-c20bbb.mp3
+  example2_el: Ο Αύγουστος είναι ο μήνας των διακοπών.
+  example2_en: August is the vacation month.
+  example2_audio: o-aygoystos-einai-o--9b745f.mp3
 - id: A1-U09-031
   greek: ο Δεκέμβριος / ο Δεκέμβρης
   phonetic_hint: ''
@@ -490,6 +610,10 @@ entries:
     part_of_speech: proper noun (masculine)
     accusative_singular: τον Δεκέμβριο / τον Δεκέμβρη
   keg_communicative_function: Specifying Christmas and end-of-year dates
+  example_audio: ta-christoygenna-ein-1b4311.mp3
+  example2_el: Τον Δεκέμβριο στολίζουμε το χριστουγεννιάτικο δέντρο.
+  example2_en: In December we decorate the Christmas tree.
+  example2_audio: ton-dekemvrio-stoliz-98ea27.mp3
 - id: A1-U09-032
   greek: πριν από
   phonetic_hint: ''
@@ -504,6 +628,10 @@ entries:
     part_of_speech: phrase (temporal preposition)
     governs_case: accusative with article (πριν από το...)
   keg_communicative_function: Indicating prior sequence or time elapsed
+  example_audio: ftano-sto-grafeio-pr-e4ed30.mp3
+  example2_el: Πρέπει να φύγω πριν από το μεσημέρι.
+  example2_en: I must leave before noon.
+  example2_audio: prepei-na-fygo-prin--f6ff83.mp3
 - id: A1-U09-033
   greek: μετά από
   phonetic_hint: ''
@@ -518,6 +646,10 @@ entries:
     part_of_speech: phrase (temporal preposition)
     governs_case: accusative with article (μετά από τη...)
   keg_communicative_function: Indicating following sequence in daily schedules
+  example_audio: meta-apo-to-mathima--f046bf.mp3
+  example2_el: Τι κάνεις μετά από τη δουλειά;
+  example2_en: What do you do after work?
+  example2_audio: ti-kaneis-meta-apo-t-b03679.mp3
 - id: A1-U09-034
   greek: από... μέχρι...
   phonetic_hint: ''
@@ -532,6 +664,10 @@ entries:
     part_of_speech: phrase (time range formula)
     syntax: από + Accusative ... μέχρι + Accusative
   keg_communicative_function: Stating business opening hours and timetable spans
+  example_audio: to-katastima-einai-a-af77d6.mp3
+  example2_el: Δουλεύω από τη Δευτέρα μέχρι την Παρασκευή.
+  example2_en: I work from Monday until Friday.
+  example2_audio: doyleyo-apo-ti-deyte-b12d3c.mp3
 - id: A1-U09-035
   greek: σήμερα
   phonetic_hint: ''
@@ -545,6 +681,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Stating current day events and immediate plans
+  example_audio: simera-einai-deytera-4ff8d0.mp3
+  example2_el: Τι μέρα είναι σήμερα;
+  example2_en: What day is today?
+  example2_audio: ti-mera-einai-simera-124b11.mp3
 - id: A1-U09-036
   greek: αύριο
   phonetic_hint: ''
@@ -558,6 +698,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Arranging next day meetings and schedules
+  example_audio: ta-leme-ayrio-to-pro-de5f35.mp3
+  example2_el: Αύριο είναι αργία και τα καταστήματα είναι κλειστά.
+  example2_en: Tomorrow is a public holiday and the shops are closed.
+  example2_audio: ayrio-einai-argia-ka-9e3257.mp3
 - id: A1-U09-037
   greek: χθες
   phonetic_hint: ''
@@ -571,6 +715,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Setting temporal reference to the previous day
+  example_audio: simera-einai-deytera-583e00.mp3
+  example2_el: Χθες είναι Κυριακή και μένω στο σπίτι.
+  example2_en: Yesterday is Sunday and I stay at home.
+  example2_audio: chthes-einai-kyriaki-df7db2.mp3
 - id: A1-U09-038
   greek: τώρα
   phonetic_hint: ''
@@ -584,6 +732,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Expressing actions occurring at the immediate moment
+  example_audio: tora-den-mporo-eimai-eb12a7.mp3
+  example2_el: Τώρα διαβάζουμε για τις εξετάσεις ελληνικών.
+  example2_en: Now we are studying for the Greek exams.
+  example2_audio: tora-diavazoyme-gia--d7f244.mp3
 - id: A1-U09-039
   greek: κλείνω ραντεβού
   phonetic_hint: ''
@@ -601,6 +753,10 @@ entries:
     first_person_plural: εμείς κλείνουμε ραντεβού
     verb_involved: κλείνω (Type A)
   keg_communicative_function: Booking a time with a doctor, dentist, or hairdresser
+  example_audio: kleino-rantevoy-me-t-c9c9a3.mp3
+  example2_el: Κλείνω ραντεβού στον οδοντίατρο για την επόμενη εβδομάδα.
+  example2_en: I make an appointment at the dentist for next week.
+  example2_audio: kleino-rantevoy-ston-2d2dc7.mp3
 - id: A1-U09-040
   greek: περιμένω
   phonetic_hint: ''
@@ -619,6 +775,10 @@ entries:
     first_person_plural: εμείς περιμένουμε
   keg_communicative_function: Expressing waiting for people, public transport, or
     appointments
+  example_audio: se-perimeno-exo-apo--da59a2.mp3
+  example2_el: Περιμένω το λεωφορείο στη στάση.
+  example2_en: I am waiting for the bus at the stop.
+  example2_audio: perimeno-to-leoforei-938c25.mp3
 - id: A1-U09-041
   greek: συναντάω / συναντώ
   phonetic_hint: ''
@@ -637,6 +797,10 @@ entries:
     first_person_plural: εμείς συναντάμε
   keg_communicative_function: Arranging to meet friends or colleagues at a specified
     time
+  example_audio: synantame-toys-filoy-94ae61.mp3
+  example2_el: Συναντώ έναν παλιό μου συμμαθητή στον δρόμο.
+  example2_en: I meet an old classmate of mine on the street.
+  example2_audio: synanto-enan-palio-m-493a8e.mp3
 - id: A1-U09-042
   greek: προλαβαίνω
   phonetic_hint: ''
@@ -653,3 +817,7 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό προλαβαίνει
     first_person_plural: εμείς προλαβαίνουμε
   keg_communicative_function: Talking about being on time or catching public transit
+  example_audio: trechoyme-gia-na-pro-23030b.mp3
+  example2_el: Δεν προλαβαίνω να πάρω πρωινό σήμερα.
+  example2_en: I don't have time to have breakfast today.
+  example2_audio: den-prolavaino-na-pa-e1ce8e.mp3

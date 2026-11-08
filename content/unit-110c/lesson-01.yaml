@@ -1,0 +1,861 @@
+unit_id: unit-110c
+lesson_id: lesson-01
+title: 'Ενότητα 10: Διάλογοι & Εξετάσεις — Υγεία, Συμπτώματα, Γιατρός & Φαρμακείο
+  (A1 Synthesis)'
+description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on
+  symptoms, body parts, medical appointments, clinical instructions, pharmacy prescriptions,
+  medications, hospital facilities, and traditional Greek convalescence wishes using
+  vocabulary from Lessons 100 to 110.
+lesson_status: not_started
+entries:
+- id: A1-U110C-001
+  greek: — Τι έχεις; Δεν σε βλέπω καλά σήμερα. — Δεν αισθάνομαι καλά, έχω έντονο πονοκέφαλο.
+  phonetic_hint: — Tee EH-khees? Then seh VLEH-poh kah-LAH SEE-meh-rah. — Then eh-STHAH-noh-meh
+    kah-LAH, EH-khoh EHN-doh-noh poh-noh-KEH-fah-loh.
+  english: — What's wrong? You don't look well today. — I don't feel well, I have
+    a severe headache.
+  notes: Review Unit 110. Expressing malaise with 'δεν αισθάνομαι καλά' and describing
+    headache.
+  gender_or_pos: phrase
+  audio: ti-echeis-den-se-vle-52a1ae.mp3
+  status: verified
+  example_el: — Πονάει πολύ το κεφάλι σου; — Ναι, πονάει πάρα πολύ από το πρωί.
+  example_en: — Does your head hurt very much? — Yes, it hurts terribly since morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring after someone's wellbeing and describing general
+    physical malaise
+- id: A1-U110C-002
+  greek: — Έχεις πυρετό; — Ναι, έβαλα το θερμόμετρο και έχω τριάντα οκτώ και πέντε.
+  phonetic_hint: — EH-khees pee-reh-TOH? — Neh, EH-vah-lah toh ther-MOH-meh-troh keh
+    EH-khoh tree-AHN-dah ohk-TOH keh PEN-deh.
+  english: — Do you have a fever? — Yes, I used the thermometer and I have thirty-eight
+    point five.
+  notes: Review Unit 110. Stating body temperature in degrees Celsius.
+  gender_or_pos: phrase
+  audio: echeis-pyreto-nai-ev-555857.mp3
+  status: verified
+  example_el: — Έχεις δέκατα ή υψηλό πυρετό; — Έχω υψηλό πυρετό και τρέμω.
+  example_en: — Do you have a slight fever or high fever? — I have a high fever and
+    I am shivering.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting body temperature readings and fever symptoms
+- id: A1-U110C-003
+  greek: — Πού πονάτε ακριβώς; — Πονάει πολύ ο λαιμός μου όταν μιλάω.
+  phonetic_hint: — POO poh-NAH-teh ah-kree-VOHS? — Poh-NAH-ee poh-LEE oh leh-MOHS
+    moo OH-tahn mee-LAH-oh.
+  english: — Where do you feel pain exactly? — My throat hurts very much when I speak.
+  notes: Review Unit 110. Describing sore throat ('πονόλαιμος').
+  gender_or_pos: phrase
+  audio: poy-ponate-akrivos-p-49d62a.mp3
+  status: verified
+  example_el: — Έχετε και βήχα; — Ναι, έχω έντονο βήχα και συνάχι εδώ και δύο μέρες.
+  example_en: — Do you also have a cough? — Yes, I have a bad cough and runny nose
+    for two days now.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Pinpointing location and intensity of physical pain
+- id: A1-U110C-004
+  greek: — Είσαι κρυωμένος; — Ναι, κρύωσα χθες στο γραφείο γιατί είχε πολύ δυνατό
+    κλιματισμό.
+  phonetic_hint: — EE-seh kree-oh-MEH-nos? — Neh, KREE-oh-sah khthes stoh ghrah-FEE-oh
+    yah-TEE EE-kheh poh-LEE thee-nah-TOH klee-mah-tees-MOH.
+  english: — Do you have a cold? — Yes, I caught a cold yesterday at the office because
+    the air conditioning was very strong.
+  notes: Review Unit 110. Attributing cold symptoms to office air conditioning.
+  gender_or_pos: phrase
+  audio: eisai-kryomenos-nai--3fc186.mp3
+  status: verified
+  example_el: — Έχεις όρεξη για φαγητό; — Όχι, δεν έχω καθόλου όρεξη σήμερα.
+  example_en: — Do you have an appetite for food? — No, I have no appetite at all
+    today.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining the onset and environmental causes of a cold
+- id: A1-U110C-005
+  greek: — Τι έχεις στο στομάχι σου; — Έφαγα κάτι βαρύ και έχω στομαχόπονο και ναυτία.
+  phonetic_hint: — Tee EH-khees stoh stoh-MAH-khee soo? — EH-fah-ghah KAH-tee vah-REE
+    keh EH-khoh stoh-mah-KHOH-poh-noh keh nahf-TEE-ah.
+  english: — What is wrong with your stomach? — I ate something heavy and have a stomach
+    ache and nausea.
+  notes: Review Unit 110. Gastric upset symptoms ('στομαχόπονος', 'ναυτία').
+  gender_or_pos: phrase
+  audio: ti-echeis-sto-stomac-ed6940.mp3
+  status: verified
+  example_el: — Έχεις και ζάλη; — Ναι, έχω ζάλη και ναυτία από το πρωί.
+  example_en: — Do you also have dizziness? — Yes, I have dizziness and nausea since
+    morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing digestive discomfort, nausea, and dizziness
+- id: A1-U110C-006
+  greek: — Γιατί δεν τρως τίποτα; — Πονάει πολύ το δόντι μου, έχω έντονο πονόδοντο.
+  phonetic_hint: — Yah-TEE then trohs TEE-poh-tah? — Poh-NAH-ee poh-LEE toh THOHN-dee
+    moo, EH-khoh EHN-doh-noh poh-NOH-thon-doh.
+  english: — Why aren't you eating anything? — My tooth hurts very much, I have a
+    severe toothache.
+  notes: Review Unit 110. Dental pain description ('πονόδοντος').
+  gender_or_pos: phrase
+  audio: giati-den-tros-tipot-2069c6.mp3
+  status: verified
+  example_el: — Πότε θα πας στον οδοντίατρο; — Έχω ραντεβού σήμερα το απόγευμα στις
+    πέντε.
+  example_en: — When will you go to the dentist? — I have an appointment this afternoon
+    at five.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing dental distress and scheduling dentist appointments
+- id: A1-U110C-007
+  greek: — Γιατί είσαι κουρασμένος; — Πονάνε τα πόδια μου και η μέση μου από την κούραση.
+  phonetic_hint: — Yah-TEE EE-seh koo-rah-SMEH-nos? — Poh-NAH-neh tah POH-thyah moo
+    keh ee MEH-see moo ah-POH teen KOO-rah-see.
+  english: — Why are you tired? — My legs and my lower back hurt from exhaustion.
+  notes: Review Unit 110. Joint and limb ache ('πόδια', 'γόνατα').
+  gender_or_pos: phrase
+  audio: giati-eisai-koyrasme-6f9ecc.mp3
+  status: verified
+  example_el: — Πονάει και η πλάτη σου; — Ναι, πονάει η πλάτη και τα γόνατα.
+  example_en: — Does your back hurt too? — Yes, my back and knees hurt.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting musculoskeletal pain and joint soreness
+- id: A1-U110C-008
+  greek: — Τι έχεις στο χέρι σου; — Χτύπησα το δάχτυλο στην πόρτα και πονάει πολύ.
+  phonetic_hint: — Tee EH-khees stoh KHEH-ree soo? — KHTEE-pee-sah toh THAHKH-tee-loh
+    steen POHR-tah keh poh-NAH-ee poh-LEE.
+  english: — What is wrong with your hand? — I hit my finger in the door and it hurts
+    a lot.
+  notes: Review Unit 110. Hand and finger trauma reporting ('χέρι', 'δάχτυλο').
+  gender_or_pos: phrase
+  audio: ti-echeis-sto-cheri--c40164.mp3
+  status: verified
+  example_el: — Πονάει πολύ το δάχτυλο; — Ναι, βάλε λίγο κρύο νερό πάνω στο δάχτυλο.
+  example_en: — Does the finger hurt very much? — Yes, put some cold water on the
+    finger.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing acute injuries and first aid responses
+- id: A1-U110C-009
+  greek: — Είναι δύσκολη η αρρώστια σου; — Όχι, είναι μια απλή ίωση που περνάει σε
+    λίγες μέρες.
+  phonetic_hint: — EE-neh THEE-skoh-lee ee ahr-ROH-styah soo? — OH-khee, EE-neh myah
+    ah-PLEE EE-oh-see poo pehr-NAH-ee seh LEE-ghes MEH-res.
+  english: — Is your illness difficult? — No, it is a simple viral infection that
+    clears up in a few days.
+  notes: Review Unit 110. Classifying common viral illnesses ('απλή ίωση').
+  gender_or_pos: phrase
+  audio: einai-dyskoli-i-arro-753766.mp3
+  status: verified
+  example_el: — Έχεις γρίπη ή κρυολόγημα; — Ο γιατρός είπε ότι είναι μια απλή γρίπη.
+  example_en: — Do you have the flu or a cold? — The doctor said that it is a simple
+    flu.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing medical severity and virus characteristics
+- id: A1-U110C-010
+  greek: — Πώς νιώθεις σήμερα το πρωί; — Είμαι πολύ καλύτερα, ο πυρετός έπεσε και
+    δεν πονάει ο λαιμός μου.
+  phonetic_hint: — Pos NYOH-thees SEE-meh-rah toh proh-EE? — EE-meh poh-LEE kah-LEE-teh-rah,
+    oh pee-reh-TOHS EH-peh-seh keh then poh-NAH-ee oh leh-MOHS moo.
+  english: — How do you feel this morning? — I am much better, the fever dropped and
+    my throat doesn't hurt.
+  notes: Review Unit 110. Describing symptom remission and recovery progress.
+  gender_or_pos: phrase
+  audio: pos-niotheis-simera--fa1089.mp3
+  status: verified
+  example_el: — Έχεις ακόμα συνάχι; — Όχι, το συνάχι πέρασε και νιώθω πολύ καλά.
+  example_en: — Do you still have a runny nose? — No, the runny nose passed and I
+    feel very well.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting morning health progress and symptom alleviation
+- id: A1-U110C-011
+  greek: — Γιατί δεν ήσουν στο μάθημα χθες; — Ήμουν άρρωστος στο κρεβάτι με υψηλό
+    πυρετό και βήχα.
+  phonetic_hint: — Yah-TEE then EE-soon stoh MAH-thee-mah khthes? — EE-moon AHR-roh-stos
+    stoh kreh-VAH-tee meh eep-see-LOH pee-reh-TOH keh VEE-khah.
+  english: — Why were you not in class yesterday? — I was sick in bed with high fever
+    and a cough.
+  notes: Review Unit 110. Explaining absence due to acute illness.
+  gender_or_pos: phrase
+  audio: giati-den-isoyn-sto--55f4a1.mp3
+  status: verified
+  example_el: — Ποιος είναι άρρωστος; — Η Μαρία είναι άρρωστη με βήχα.
+  example_en: — Who is sick? — Maria is sick with a cough.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Justifying absence from school or work due to illness
+- id: A1-U110C-012
+  greek: — Πονάει το στήθος σου όταν παίρνεις ανάσα; — Όχι, πονάει μόνο η πλάτη μου
+    και ο ώμος μου.
+  phonetic_hint: — Poh-NAH-ee toh STEE-thos soo OH-tahn PEHR-nees ah-NAH-sah? — OH-khee,
+    poh-NAH-ee MOH-noh ee PLAH-tee moo keh oh OH-mohs moo.
+  english: — Does your chest hurt when you breathe? — No, only my back and my shoulder
+    hurt.
+  notes: Review Unit 110. Differentiating upper torso pains ('στήθος', 'πλάτη', 'ώμος').
+  gender_or_pos: phrase
+  audio: ponaei-to-stithos-so-16adf4.mp3
+  status: verified
+  example_el: — Πονάει ο ώμος σου; — Ναι, πονάει λίγο μετά από το γυμναστήριο.
+  example_en: — Does your shoulder hurt? — Yes, it hurts a little after the gym.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Clarifying torso symptoms and differentiating muscular
+    pain
+- id: A1-U110C-013
+  greek: — Καλημέρα σας, έχετε ραντεβού με τον γιατρό; — Ναι, έχω ραντεβού με τον
+    παθολόγο στις έντεκα.
+  phonetic_hint: — Kah-lee-MEH-rah sahs, EH-kheh-teh rahn-deh-VOO meh ton yah-TROH?
+    — Neh, EH-khoh rahn-deh-VOO meh ton pah-thoh-LOH-ghoh stees EHN-deh-kah.
+  english: — Good morning, do you have an appointment with the doctor? — Yes, I have
+    an appointment with the internist at eleven.
+  notes: Review Unit 110. Reception desk check-in at a medical clinic.
+  gender_or_pos: phrase
+  audio: kalimera-sas-echete--20148b.mp3
+  status: verified
+  example_el: — Περάστε στην αίθουσα αναμονής, παρακαλώ. — Ευχαριστώ πολύ, θα περιμένω
+    εκεί.
+  example_en: — Please step into the waiting room. — Thank you very much, I will wait
+    there.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Checking in for a medical appointment at reception
+- id: A1-U110C-014
+  greek: — Ποιο είναι το πρόβλημα, κύριε Παπαδόπουλε; — Από χθες έχω έντονο πονόλαιμο
+    και δέκατα.
+  phonetic_hint: — PEE-oh EE-neh toh PROHV-lee-mah, KEE-ree-eh Pah-pah-THOH-poo-leh?
+    — Ah-POH khthes EH-khoh EHN-doh-noh poh-NOH-leh-moh keh THEH-kah-tah.
+  english: — What is the problem, Mr. Papadopoulos? — Since yesterday I have a bad
+    sore throat and low-grade fever.
+  notes: Review Unit 110. Presenting complaint to the examining physician.
+  gender_or_pos: phrase
+  audio: poio-einai-to-provli-a1be50.mp3
+  status: verified
+  example_el: — Από πότε άρχισαν τα συμπτώματα; — Άρχισαν χθες το βράδυ μετά τη δουλειά.
+  example_en: — When did the symptoms start? — They started last night after work.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing onset of primary symptoms to the physician
+- id: A1-U110C-015
+  greek: — Ανοίξτε το στόμα σας και βγάλτε τη γλώσσα, παρακαλώ. — Ορίστε... πονάει
+    πολύ εδώ δεξιά.
+  phonetic_hint: — Ah-NEEK-steh toh STOH-mah sahs keh VGHAL-teh tee GHLOH-sah, pah-rah-kah-LOH.
+    — Oh-REES-teh... poh-NAH-ee poh-LEE eh-KHEE thehk-SYAH.
+  english: — Open your mouth and stick out your tongue, please. — Here you are...
+    it hurts a lot here on the right.
+  notes: Review Unit 110. Standard clinical oral examination command.
+  gender_or_pos: phrase
+  audio: anoixte-to-stoma-sas-56ee96.mp3
+  status: verified
+  example_el: — Ο λαιμός σας έχει πρόβλημα. — Χρειάζεται να πάρω αντιβίωση;
+  example_en: — Your throat has a problem. — Do I need to take an antibiotic?
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Complying with oral clinical examination instructions
+- id: A1-U110C-016
+  greek: — Πάρτε μια βαθιά ανάσα και κρατήστε την αναπνοή σας. — Εντάξει, είναι όλα
+    καλά;
+  phonetic_hint: — PAHR-teh myah vah-THYAH ah-NAH-sah keh krah-TEE-steh teen ah-nah-pnoh-EE
+    sahs. — En-DAH-ksee, EE-neh OH-lah kah-LAH?
+  english: — Take a deep breath and hold your breath. — Alright, is everything fine?
+  notes: Review Unit 110. Stethoscope lung examination instruction.
+  gender_or_pos: phrase
+  audio: parte-mia-vathia-ana-08b722.mp3
+  status: verified
+  example_el: — Μην ανησυχείτε, όλα είναι καθαρά. — Πολύ ωραία, χαίρομαι πολύ.
+  example_en: — Don't worry, everything is clear. — Very nice, I am very glad.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Following chest auscultation instructions and receiving
+    reassurance
+- id: A1-U110C-017
+  greek: — Μπορείτε να μου μετρήσετε την αρτηριακή πίεση; — Βεβαίως, βάλτε το χέρι
+    σας στο τραπέζι.
+  phonetic_hint: — Boh-REE-teh nah moo meh-TREE-seh-teh teen ahr-tee-ree-ah-KEE PEE-eh-see?
+    — Veh-VEH-ohs, VHAL-teh toh KHEH-ree sahs stoh trah-PEH-zee.
+  english: — Could you measure my blood pressure? — Certainly, place your arm on the
+    table.
+  notes: Review Unit 110. Blood pressure measurement request.
+  gender_or_pos: phrase
+  audio: mporeite-na-moy-metr-1804e4.mp3
+  status: verified
+  example_el: — Πόσο είναι η πίεσή μου; — Η πίεσή σας είναι δώδεκα με οκτώ, φυσιολογική.
+  example_en: — How is my blood pressure? — Your blood pressure is twelve over eight,
+    normal.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting blood pressure measurement and hearing numeric
+    results
+- id: A1-U110C-018
+  greek: — Τι πρέπει να κάνω τώρα; — Πρέπει να μείνετε στο κρεβάτι και να ξεκουραστείτε
+    καλά.
+  phonetic_hint: — Tee PREH-pee nah KAH-noh TOH-rah? — PREH-pee nah MEE-neh-teh stoh
+    kreh-VAH-tee keh nah kseh-koo-rah-STEE-teh kah-LAH.
+  english: — What must I do now? — You must stay in bed and get plenty of rest.
+  notes: Review Unit 110. Physician orders for bed rest and recuperation.
+  gender_or_pos: phrase
+  audio: ti-prepei-na-kano-to-9d830d.mp3
+  status: verified
+  example_el: — Μπορώ να πάω στη δουλειά αύριο; — Όχι, πρέπει να μείνετε στο σπίτι.
+  example_en: — Can I go to work tomorrow? — No, you must stay at home.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Receiving lifestyle restrictions and bed rest instructions
+    from doctor
+- id: A1-U110C-019
+  greek: — Τι υγρά μπορώ να πίνω; — Πιείτε πολλά ζεστά υγρά, τσάι του βουνού και χαμομήλι.
+  phonetic_hint: — Tee ee-GHRAH boh-ROH nah PEE-noh? — PEE-teh poh-LAH zes-TAH ee-GHRAH,
+    TSAH-ee too voo-NOO keh khah-moh-MEE-lee.
+  english: — What liquids can I drink? — Drink plenty of warm liquids, mountain tea
+    and chamomile.
+  notes: Review Unit 110. Dietary hydration recommendations for recovery.
+  gender_or_pos: phrase
+  audio: ti-ygra-mporo-na-pin-77b038.mp3
+  status: verified
+  example_el: — Βοηθάει το ζεστό χαμομήλι; — Ναι, βοηθάει πολύ στον λαιμό και στον
+    ύπνο.
+  example_en: — Does warm chamomile help? — Yes, it helps a lot for the throat and
+    for sleep.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Advising herbal remedies and fluid intake during recuperation
+- id: A1-U110C-020
+  greek: — Χρειάζεται να πάρω κάποια φάρμακα; — Θα σας γράψω μια αντιβίωση και μερικά
+    παυσίπονα.
+  phonetic_hint: — Khree-AH-zeh-teh nah PAH-roh KAH-pyah FAHR-mah-kah? — Thah sahs
+    GHAHP-soh myah ahn-tee-VEE-oh-see keh meh-ree-KAH pahf-SEE-poh-nah.
+  english: — Do I need to take some medicines? — I will write you an antibiotic and
+    some painkillers.
+  notes: Review Unit 110. Doctor issuing medical prescription ('ιατρική συνταγή').
+  gender_or_pos: phrase
+  audio: chreiazetai-na-paro--38d78b.mp3
+  status: verified
+  example_el: — Πού θα πάρω τα φάρμακα; — Θα πάρετε τα φάρμακα από το φαρμακείο της
+    γειτονιάς σας.
+  example_en: — Where will I get the medicines? — You will get the medicines from
+    your neighborhood pharmacy.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining medical prescription issuance and pharmacy
+    fulfillment
+- id: A1-U110C-021
+  greek: — Σε ποιον γιατρό πηγαίνεις όταν είσαι άρρωστος; — Πηγαίνω σε έναν παθολόγο
+    στο κέντρο της πόλης.
+  phonetic_hint: — Seh PEE-on yah-TROH pee-GHEH-nees OH-tahn EE-seh AHR-roh-stos?
+    — Pee-GHEH-noh seh EH-nahn pah-thoh-LOH-ghoh stoh KEN-droh tees POH-lees.
+  english: — To which doctor do you go when you are sick? — I go to an internist in
+    the city center.
+  notes: Review Unit 110. Inquiring doctor choice with relative interrogative 'σε
+    ποιον'.
+  gender_or_pos: phrase
+  audio: se-poion-giatro-piga-2d992b.mp3
+  status: verified
+  example_el: — Είναι καλός γιατρός; — Ναι, είναι πολύ προσεκτικός και έμπειρος γιατρός.
+  example_en: — Is he a good doctor? — Yes, he is a very attentive and experienced
+    doctor.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing preferred primary care physicians and medical
+    reputation
+- id: A1-U110C-022
+  greek: — Ποια είναι η γιατρός σας στο νοσοκομείο; — Η γιατρός μου είναι καρδιολόγος
+    στο νοσοκομείο στο κέντρο.
+  phonetic_hint: — PEE-ah EE-neh ee yah-TROHS sahs stoh noh-soh-koh-MEE-oh? — Ee yah-TROHS
+    moo EE-neh kahr-thee-oh-LOH-ghos stoh noh-soh-koh-MEE-oh stoh KEN-droh.
+  english: — Who is your doctor at the hospital? — My doctor is a cardiologist at
+    the hospital in the center.
+  notes: Review Unit 110. Medical specialization ('καρδιολόγος').
+  gender_or_pos: phrase
+  audio: poia-einai-i-giatros-8953a7.mp3
+  status: verified
+  example_el: — Πότε έχετε νέο ραντεβού; — Έχω ραντεβού τον επόμενο μήνα.
+  example_en: — When do you have a new appointment? — I have an appointment next month.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Identifying medical specialists and follow-up consultation
+    dates
+- id: A1-U110C-023
+  greek: — Ποιανού είναι αυτό το βιβλιάριο υγείας; — Είναι το δικό μου βιβλιάριο,
+    το ξέχασα στο γραφείο.
+  phonetic_hint: — PEE-ah-NOO EE-neh ahf-TOH toh vee-vlee-AH-ree-oh ee-YEE-ahs? —
+    EE-neh toh thee-KOH moo vee-vlee-AH-ree-oh, toh KSEH-khah-sah stoh ghrah-FEE-oh.
+  english: — Whose health booklet is this? — It is my booklet, I forgot it at the
+    office.
+  notes: Review Unit 110. Possessive pronoun 'ποιανού' with official health booklet
+    ('βιβλιάριο υγείας').
+  gender_or_pos: phrase
+  audio: poianoy-einai-ayto-t-66c13d.mp3
+  status: verified
+  example_el: — Το χρειάζεσαι για την εξέταση; — Ναι, το ζητάει ο γιατρός στο νοσοκομείο.
+  example_en: — Do you need it for the exam? — Yes, the doctor at the hospital asks
+    for it.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about ownership of health insurance documents
+- id: A1-U110C-024
+  greek: — Ποιανής είναι αυτή η ιατρική συνταγή; — Είναι της Ελένης, πρέπει να πάω
+    στο φαρμακείο.
+  phonetic_hint: — PEE-ah-NEES EE-neh ahf-TEE ee ee-ah-tree-KEE seen-dah-YEE? — EE-neh
+    tees Eh-LEH-nees, PREH-pee nah PAH-oh stoh fahr-mah-KEE-oh.
+  english: — Whose prescription is this? — It is Eleni's, I have to go to the pharmacy.
+  notes: Review Unit 110. Feminine genitive interrogative 'ποιανής'.
+  gender_or_pos: phrase
+  audio: poianis-einai-ayti-i-037f37.mp3
+  status: verified
+  example_el: — Είναι νέα η συνταγή; — Ναι, είναι από σήμερα το πρωί.
+  example_en: — Is the prescription new? — Yes, it is from this morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Clarifying prescription ownership and validity
+- id: A1-U110C-025
+  greek: — Γεια σας, χρειάζομαι κάτι αποτελεσματικό για τον πονόλαιμο. — Ορίστε, αυτό
+    το σιρόπι βοηθάει αμέσως.
+  phonetic_hint: — YAH sahs, khree-AH-zoh-meh KAH-tee ah-poh-teh-lez-mah-tee-KOH yah
+    ton poh-NOH-leh-moh. — Oh-REES-teh, ahf-TOH toh see-ROH-pee voh-ee-THAH-ee ah-MEH-sohs.
+  english: — Hello, I need something effective for a sore throat. — Here, this syrup
+    helps immediately.
+  notes: Review Unit 110. Counter consultation at the pharmacy.
+  gender_or_pos: phrase
+  audio: geia-sas-chreiazomai-92c83a.mp3
+  status: verified
+  example_el: — Πόσο κάνουν αυτά; — Κάνουν οκτώ ευρώ και τα δύο μαζί.
+  example_en: — How much are these? — They are eight euros for both together.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting over-the-counter sore throat remedies at
+    pharmacy
+- id: A1-U110C-026
+  greek: — Έχετε ιατρική συνταγή ή θέλετε φάρμακο χωρίς συνταγή; — Έχω ιατρική συνταγή
+    από τον παθολόγο μου.
+  phonetic_hint: — EH-kheh-teh ee-ah-tree-KEE seen-dah-YEE ee THEH-leh-teh FAHR-mah-koh
+    khoh-REES seen-dah-YEE? — EH-khoh ee-ah-tree-KEE seen-dah-YEE ah-POH ton pah-thoh-LOH-ghoh
+    moo.
+  english: — Do you have a medical prescription or do you want medicine without a
+    prescription? — I have a prescription from my internist.
+  notes: Review Unit 110. Distinguishing OTC vs prescription drugs.
+  gender_or_pos: phrase
+  audio: echete-iatriki-synta-278071.mp3
+  status: verified
+  example_el: — Μου δίνετε τη συνταγή, παρακαλώ; — Ορίστε, εδώ είναι η συνταγή και
+    το βιβλιάριο.
+  example_en: — Would you give me the prescription, please? — Here you are, here is
+    the prescription and the booklet.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Presenting prescriptions to the pharmacist
+- id: A1-U110C-027
+  greek: — Πώς πρέπει να παίρνω αυτά τα χάπια; — Να παίρνετε ένα χάπι κάθε οκτώ ώρες
+    μετά το φαγητό.
+  phonetic_hint: — Pos PREH-pee nah PEHR-noh ahf-TAH tah KHAH-pyah? — Nah pehr-NEH-teh
+    EH-nah KHAH-pee KAH-theh ohk-TOH OH-res meh-TAH toh fah-yee-TOH.
+  english: — How should I take these pills? — Take one pill every eight hours after
+    meals.
+  notes: Review Unit 110. Medication dosage frequency instructions.
+  gender_or_pos: phrase
+  audio: pos-prepei-na-pairno-44f380.mp3
+  status: verified
+  example_el: — Πότε να τα πάρω; — Πάντα μετά από το φαγητό με ένα ποτήρι νερό.
+  example_en: — When should I take them? — Always after meals with a glass of water.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about and understanding medication dosage
+    schedules
+- id: A1-U110C-028
+  greek: — Πόσες μέρες διαρκεί η θεραπεία; — Πρέπει να παίρνετε την αντιβίωση για
+    επτά μέρες.
+  phonetic_hint: — POH-ses MEH-res thee-ahr-KEE ee theh-rah-PEE-ah? — PREH-pee nah
+    pehr-NEH-teh teen ahn-tee-VEE-oh-see yah ep-TAH MEH-res.
+  english: — How many days does the therapy last? — You must take the antibiotic for
+    seven days.
+  notes: Review Unit 110. Adhering to full antibiotic course duration.
+  gender_or_pos: phrase
+  audio: poses-meres-diarkei--9ac257.mp3
+  status: verified
+  example_el: — Ακόμα κι αν νιώθω καλά; — Ναι, πρέπει να πάρετε όλα τα χάπια.
+  example_en: — Even if I feel fine? — Yes, you must take all the pills.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Confirming course completion requirements for prescription
+    drugs
+- id: A1-U110C-029
+  greek: — Πώς παίρνω αυτό το σιρόπι για τον βήχα; — Αυτό το σιρόπι είναι ένα κουταλάκι
+    τρεις φορές την ημέρα.
+  phonetic_hint: — Pos PEHR-noh ahf-TOH toh see-ROH-pee yah ton VEE-khah? — Ahf-TOH
+    toh see-ROH-pee EE-neh EH-nah koo-tah-LAH-kee trees foh-RES teen ee-MEH-rah.
+  english: — How do I take this cough syrup? — This syrup is one teaspoon three times
+    a day.
+  notes: Review Unit 110. Liquid medicine dosage measurement.
+  gender_or_pos: phrase
+  audio: pos-pairno-ayto-to-s-d7b3bd.mp3
+  status: verified
+  example_el: — Έχει ωραία γεύση; — Ναι, το σιρόπι που μου έδωσε ο φαρμακοποιός έχει
+    ωραία γεύση.
+  example_en: — Does it have a good taste? — Yes, the syrup that the pharmacist gave
+    me has a good taste.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining liquid medication dosage administration
+- id: A1-U110C-030
+  greek: — Πώς βάζω αυτή την αλοιφή; — Βάλτε αυτή την καταπραϋντική αλοιφή δύο φορές
+    την ημέρα στην πληγή.
+  phonetic_hint: — Pos VAH-zoh ahf-TEEN teen ah-lee-FEE? — VHAL-teh ahf-TEEN teen
+    kah-tah-prah-een-dee-KEE ah-lee-FEE THEE-oh foh-RES teen ee-MEH-rah steen plee-YEE.
+  english: — How do I apply this ointment? — Apply this soothing ointment twice a
+    day to the wound.
+  notes: Review Unit 110. Topical ointment application instructions.
+  gender_or_pos: phrase
+  audio: pos-vazo-ayti-tin-al-a3f6a8.mp3
+  status: verified
+  example_el: — Πρέπει να βάλω επίδεσμο μετά; — Ναι, βάλτε έναν καθαρό επίδεσμο.
+  example_en: — Should I put a bandage on afterwards? — Yes, put on a clean bandage.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Providing instructions for topical medication and dressings
+- id: A1-U110C-031
+  greek: — Χρειάζεστε σταγόνες για τα μάτια ή για τη μύτη; — Χρειάζομαι σταγόνες για
+    τη μύτη γιατί δεν μπορώ να αναπνεύσω.
+  phonetic_hint: — Khree-AH-zeh-steh stah-GHOh-nes yah tah MAH-tyah ee yah tee MEE-tee?
+    — Khree-AH-zoh-meh stah-GHOh-nes yah tee MEE-tee yah-TEE then boh-ROH nah ah-nah-PNEF-soh.
+  english: — Do you need drops for the eyes or for the nose? — I need nasal drops
+    because I cannot breathe.
+  notes: Review Unit 110. Nasal vs ophthalmic drops ('σταγόνες').
+  gender_or_pos: phrase
+  audio: chreiazeste-stagones-67954a.mp3
+  status: verified
+  example_el: — Πόσες σταγόνες να βάζω; — Βάλτε δύο σταγόνες στη μύτη το πρωί και
+    το βράδυ.
+  example_en: — How many drops should I put? — Put two drops in the nose morning and
+    evening.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Purchasing and administering medicinal drops
+- id: A1-U110C-032
+  greek: — Έχετε τσιρότα για την πληγή; — Ναι, βεβαίως, έχουμε τσιρότα και επίδεσμο.
+  phonetic_hint: — EH-kheh-teh tsee-ROH-tah yah teen plee-YEE? — Neh, veh-VEH-ohs,
+    EH-khoo-meh tsee-ROH-tah keh eh-PEE-thez-moh.
+  english: — Do you have band-aids for the wound? — Yes, certainly, we have band-aids
+    and bandage.
+  notes: Review Unit 110. Purchasing first aid supplies ('τσιρότο', 'βαμβάκι').
+  gender_or_pos: phrase
+  audio: echete-tsirota-gia-t-472234.mp3
+  status: verified
+  example_el: — Μου δίνετε και έναν επίδεσμο, παρακαλώ; — Ορίστε ο επίδεσμος και τα
+    τσιρότα.
+  example_en: — Would you give me a bandage too, please? — Here is the bandage and
+    the band-aids.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Purchasing wound care supplies and first aid items
+- id: A1-U110C-033
+  greek: — Ποιο παυσίπονο είναι καλό για τον πονοκέφαλο; — Πήρα ένα φάρμακο που με
+    βοήθησε αμέσως.
+  phonetic_hint: — PEE-oh pahf-SEE-poh-noh EE-neh kah-LOH yah ton poh-noh-KEH-fah-loh?
+    — PEE-rah EH-nah FAHR-mah-koh poo meh voh-EE-thee-seh ah-MEH-sohs.
+  english: — Which painkiller is good for a headache? — I took a medicine that helped
+    me immediately.
+  notes: Review Unit 110. Analgesic recommendation for acute headaches.
+  gender_or_pos: phrase
+  audio: poio-paysipono-einai-d9e03d.mp3
+  status: verified
+  example_el: — Μπορώ να πάρω ασπιρίνη; — Ναι, πάρτε μια ασπιρίνη με λίγο νερό.
+  example_en: — Can I take aspirin? — Yes, take an aspirin with some water.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Comparing analgesics and discussing gastric contraindications
+- id: A1-U110C-034
+  greek: — Ποιανών είναι αυτά τα φάρμακα στο τραπέζι; — Είναι τα δικά μας φάρμακα,
+    τα αγοράσαμε χθες από το φαρμακείο.
+  phonetic_hint: — PEE-ah-NOHN EE-neh ahf-TAH tah FAHR-mah-kah stoh trah-PEH-zee?
+    — EE-neh tah thee-KAH mahs FAHR-mah-kah, tah ah-ghoh-RAH-sah-meh khthes ah-POH
+    toh fahr-mah-KEE-oh.
+  english: — Whose medicines are these on the table? — They are our medicines, we
+    bought them yesterday from the pharmacy.
+  notes: Review Unit 110. Plural possessive interrogative 'ποιανών' with medication.
+  gender_or_pos: phrase
+  audio: poianon-einai-ayta-t-1c3c79.mp3
+  status: verified
+  example_el: — Πού να τα βάλω; — Βάλτε τα μέσα στο ντουλάπι του μπάνιου.
+  example_en: — Where shall I put them? — Put them inside the bathroom cabinet.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Identifying medicine ownership and proper home storage
+- id: A1-U110C-035
+  greek: — Παίρνεις βιταμίνες τον χειμώνα; — Ναι, παίρνω βιταμίνες κάθε πρωί για την
+    υγεία μου.
+  phonetic_hint: — PEHR-nees vee-tah-MEE-nes ton khee-MOH-nah? — Neh, PEHR-noh vee-tah-MEE-nes
+    KAH-theh proh-EE yah teen ee-YEE-ah moo.
+  english: — Do you take vitamins in winter? — Yes, I take vitamins every morning
+    for my health.
+  notes: Review Unit 110. Daily nutritional supplementation ('βιταμίνη').
+  gender_or_pos: phrase
+  audio: pairneis-vitamines-t-3ed978.mp3
+  status: verified
+  example_el: — Σε βοηθάει καθόλου; — Ναι, με βοηθάει πολύ και δεν κρυώνω συχνά.
+  example_en: — Does it help you at all? — Yes, it helps me a lot and I don't catch
+    colds often.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing dietary supplements and preventive wellness
+    habits
+- id: A1-U110C-036
+  greek: — Είναι ανοιχτό το φαρμακείο τέτοια ώρα; — Όχι, αλλά υπάρχει ένα διανυκτερεύον
+    φαρμακείο στην πλατεία.
+  phonetic_hint: — EE-neh ah-neekh-TOH toh fahr-mah-KEE-oh TEH-tyah OH-rah? — OH-khee,
+    ah-LAH eep-AHR-khee EH-nah thee-ah-neek-teh-REH-von fahr-mah-KEE-oh steen plah-TEE-ah.
+  english: — Is the pharmacy open at this hour? — No, but there is an on-duty overnight
+    pharmacy in the square.
+  notes: Review Unit 110. Locating overnight emergency pharmacy ('διανυκτερεύον φαρμακείο').
+  gender_or_pos: phrase
+  audio: einai-anoichto-to-fa-affa89.mp3
+  status: verified
+  example_el: — Πού είναι το φαρμακείο; — Είναι δίπλα στην τράπεζα στην πλατεία.
+  example_en: — Where is the pharmacy? — It is next to the bank in the square.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Locating after-hours and night-shift pharmacies
+- id: A1-U110C-037
+  greek: — Γρήγορα, πού είναι το ασθενοφόρο; — Έρχεται αμέσως το ασθενοφόρο για το
+    νοσοκομείο.
+  phonetic_hint: — Ghree-GHOh-rah, POO EE-neh toh ah-stheh-noh-FOH-roh? — EHR-kheh-teh
+    ah-MEH-sohs toh ah-stheh-noh-FOH-roh yah toh noh-soh-koh-MEE-oh.
+  english: — Quickly, where is the ambulance? — The ambulance is coming immediately
+    for the hospital.
+  notes: Review Unit 110. Greek national medical emergency hotline (166 - ΕΚΑΒ).
+  gender_or_pos: phrase
+  audio: grigora-poy-einai-to-5c342b.mp3
+  status: verified
+  example_el: — Ποιος πήρε τηλέφωνο για το ασθενοφόρο; — Ο γιατρός πήρε τηλέφωνο αμέσως.
+  example_en: — Who called for the ambulance? — The doctor called immediately.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Calling national emergency medical dispatch (166)
+- id: A1-U110C-038
+  greek: — Πού είναι τα επείγοντα στο νοσοκομείο; — Τα επείγοντα είναι στην είσοδο
+    του νοσοκομείου.
+  phonetic_hint: — POO EE-neh tah eh-PEE-ghon-dah stoh noh-soh-koh-MEE-oh? — Tah eh-PEE-ghon-dah
+    EE-neh steen EE-soh-thoh too noh-soh-koh-MEE-oo.
+  english: — Where is the emergency room at the hospital? — The ER is at the entrance
+    of the hospital.
+  notes: Review Unit 110. Navigating hospital emergency department ('τα επείγοντα').
+  gender_or_pos: phrase
+  audio: poy-einai-ta-epeigon-5cd216.mp3
+  status: verified
+  example_el: — Έχει πολύ κόσμο που περιμένει; — Ναι, οι ασθενείς που περιμένουν έχουν
+    ραντεβού.
+  example_en: — Are there many people waiting? — Yes, the patients who are waiting
+    have an appointment.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Navigating hospital facilities and finding the emergency
+    room
+- id: A1-U110C-039
+  greek: — Σε ποιο νοσοκομείο πήγε ο Νίκος; — Το νοσοκομείο που πήγε ο Νίκος είναι
+    στο κέντρο.
+  phonetic_hint: — Seh PEE-oh noh-soh-koh-MEE-oh PEE-gheh oh NEE-kos? — Toh noh-soh-koh-MEE-oh
+    poo PEE-gheh oh NEE-kos EE-neh stoh KEN-droh.
+  english: — To which hospital did Nikos go? — The hospital that Nikos went to is
+    in the center.
+  notes: Review Unit 110. Explaining emergency hospital admission.
+  gender_or_pos: phrase
+  audio: se-poio-nosokomeio-p-12de0e.mp3
+  status: verified
+  example_el: — Τον εξέτασε ο γιατρός; — Ναι, ο γιατρός που τον εξέτασε ήταν πολύ
+    προσεκτικός.
+  example_en: — Did the doctor examine him? — Yes, the doctor who examined him was
+    very attentive.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing hospital admissions and diagnostic procedures
+- id: A1-U110C-040
+  greek: — Χρειάζεται να κάνει ένεση ο ασθενής; — Ναι, η νοσοκόμα θα του κάνει μια
+    ένεση τώρα.
+  phonetic_hint: — Khree-AH-zeh-teh nah KAH-nee EH-neh-see oh ah-stheh-NEES? — Neh,
+    ee noh-soh-KOH-mah thah too KAH-nee myah EH-neh-see TOH-rah.
+  english: — Does the patient need an injection? — Yes, the nurse will give him an
+    injection now.
+  notes: Review Unit 110. Clinical hospital procedures ('ένεση', 'νοσοκόμα').
+  gender_or_pos: phrase
+  audio: chreiazetai-na-kanei-49d074.mp3
+  status: verified
+  example_el: — Πονάει η ένεση; — Όχι, δεν πονάει καθόλου.
+  example_en: — Does the injection hurt? — No, it doesn't hurt at all.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about clinical procedures and analgesic injections
+- id: A1-U110C-041
+  greek: — Πότε μπορώ να δω τον ασθενή στο νοσοκομείο; — Μπορείτε να έρθετε στις πέντε
+    το απόγευμα.
+  phonetic_hint: — POH-teh boh-ROH nah thoh ton ah-stheh-NEE stoh noh-soh-koh-MEE-oh?
+    — Boh-REE-teh nah EHR-theh-teh stees PEN-deh toh ah-POH-yev-mah.
+  english: — When can I see the patient at the hospital? — You can come at five in
+    the afternoon.
+  notes: Review Unit 110. Hospital visitation schedules ('επισκεπτήριο').
+  gender_or_pos: phrase
+  audio: pote-mporo-na-do-ton-524e7d.mp3
+  status: verified
+  example_el: — Είναι στο δωμάτιο τώρα; — Ναι, είναι στο κρεβάτι και ξεκουράζεται.
+  example_en: — Is he in the room now? — Yes, he is in bed resting.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about hospital visiting hours and room regulations
+- id: A1-U110C-042
+  greek: — Πότε πάει στο σπίτι ο φίλος σας; — Ο γιατρός είπε ότι πάει σπίτι αύριο
+    το μεσημέρι.
+  phonetic_hint: — POH-teh PAH-ee stoh SPEE-tee oh FEE-los sahs? — Oh yah-TROHS EE-peh
+    OH-tee PAH-ee SPEE-tee AHV-ree-oh toh meh-see-MEH-ree.
+  english: — When is your friend going home? — The doctor said that he goes home tomorrow
+    at noon.
+  notes: Review Unit 110. Hospital discharge terminology ('εξιτήριο').
+  gender_or_pos: phrase
+  audio: pote-paei-sto-spiti--42bbce.mp3
+  status: verified
+  example_el: — Είναι καλά τώρα; — Ναι, είναι πολύ καλά και χαρούμενος.
+  example_en: — Is he well now? — Yes, he is very well and happy.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing hospital discharge dates and recovery progress
+- id: A1-U110C-043
+  greek: — Έμαθα ότι είσαι άρρωστος. Περαστικά σου! Ελπίζω να γίνεις γρήγορα καλά!
+    — Σε ευχαριστώ πολύ, είμαι τώρα λίγο καλύτερα.
+  phonetic_hint: — EH-mah-thah OH-tee EE-seh AHR-roh-stos. Peh-rah-stee-KAH soo! El-PEE-zoh
+    nah YEE-nees ghree-GHOh-rah kah-LAH! — Seh ef-khah-ree-STOH poh-LEE, EE-meh TOH-rah
+    LEE-ghoh kah-LEE-teh-rah.
+  english: — I heard that you are sick. Get well soon! I hope you recover quickly!
+    — Thank you very much, I am a little better now.
+  notes: Review Unit 110. Standard illness sympathy expression ('περαστικά σου').
+  gender_or_pos: phrase
+  audio: ematha-oti-eisai-arr-5f73a2.mp3
+  status: verified
+  example_el: — Χρειάζεσαι κάτι από το φαρμακείο; — Όχι, έχω όλα τα φάρμακα, ευχαριστώ
+    πολύ.
+  example_en: — Do you need anything from the pharmacy? — No, I have all the medicines,
+    thank you very much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Offering get-well wishes and expressing sympathetic
+    concern
+- id: A1-U110C-044
+  greek: — Σιδερένιος! Χαίρομαι πολύ που γύρισες γερός στη δουλειά! — Σε ευχαριστώ
+    πολύ, νιώθω πολύ καλά και δυνατός.
+  phonetic_hint: — See-theh-REH-nyos! KHEH-roh-meh poh-LEE poo YEE-ree-ses yeh-ROHS
+    steen thoo-lee-AH! — Seh ef-khah-ree-STOH poh-LEE, NYOH-thoh poh-LEE kah-LAH keh
+    thee-nah-TOHS.
+  english: — Strong as iron! I'm so glad you returned healthy to work! — Thank you
+    very much, I feel very well and strong.
+  notes: Review Unit 110. Traditional Greek post-illness blessing 'σιδερένιος' (made
+    of iron / healthy).
+  gender_or_pos: phrase
+  audio: siderenios-chairomai-c9e719.mp3
+  status: verified
+  example_el: — Πέρασε ο πυρετός; — Ναι, ο πυρετός έπεσε και όλα είναι καλά.
+  example_en: — Has the fever passed? — Yes, the fever dropped and everything is fine.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Greeting a colleague returning from sick leave with
+    traditional idioms
+- id: A1-U110C-045
+  greek: — Καλή ανάρρωση και γρήγορη επιστροφή στα μαθήματα! — Σε ευχαριστώ πολύ,
+    θα ξεκουραστώ στο σπίτι.
+  phonetic_hint: — Kah-LEE ah-NAHR-roh-see keh ghree-GHOh-ree eh-pee-stroh-FEE stah
+    mah-THEE-mah-tah! — Seh ef-khah-ree-STOH poh-LEE, thah kseh-koo-rah-STOH stoh
+    SPEE-tee.
+  english: — Speedy recovery and a quick return to classes! — Thank you very much,
+    I will rest at home.
+  notes: Review Unit 110. Wishing convalescence with 'καλή ανάρρωση'.
+  gender_or_pos: phrase
+  audio: kali-anarrosi-kai-gr-ebfd49.mp3
+  status: verified
+  example_el: — Μην κουράζεσαι με το διάβασμα. — Ναι, θα μείνω στο κρεβάτι μέχρι τη
+    Δευτέρα.
+  example_en: — Don't tire yourself with studying. — Yes, I will stay in bed until
+    Monday.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Wishing a classmate a speedy recovery and advising against
+    rushing back
+- id: A1-U110C-046
+  greek: — Να προσέχεις τον εαυτό σου και να μην κουράζεσαι! — Σε ευχαριστώ πολύ,
+    θα μείνω στο σπίτι σήμερα.
+  phonetic_hint: — Nah proh-SEH-khees ton eh-ahf-TOH soo keh nah meen koo-RAH-zeh-seh!
+    — Seh ef-khah-ree-STOH poh-LEE, thah MEE-noh stoh SPEE-tee SEE-meh-rah.
+  english: — Take care of yourself and don't tire yourself out! — Thank you very much,
+    I will stay home today.
+  notes: Review Unit 110. Caring imperative 'να προσέχεις τον εαυτό σου'.
+  gender_or_pos: phrase
+  audio: na-prosecheis-ton-ea-36e83c.mp3
+  status: verified
+  example_el: — Να φοράς ζεστά ρούχα έξω. — Ναι, κάνει πολύ κρύο σήμερα το πρωί.
+  example_en: — Wear warm clothes outside. — Yes, it is very cold this morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Advising self-care and staying warm during cold weather
+- id: A1-U110C-047
+  greek: — Πώς νιώθεις σήμερα; Είσαι καλύτερα από χθες; — Ναι, είμαι πολύ καλύτερα,
+    δεν έχω πυρετό σήμερα.
+  phonetic_hint: — Pos NYOH-thees SEE-meh-rah? EE-seh kah-LEE-teh-rah ah-POH khthes?
+    — Neh, EE-meh poh-LEE kah-LEE-teh-rah, then EH-khoh pee-reh-TOH SEE-meh-rah.
+  english: — How do you feel today? Are you better than yesterday? — Yes, I am much
+    better, I don't have a fever today.
+  notes: Review Unit 110. Inquiring day-over-day improvement ('καλύτερα από χθες').
+  gender_or_pos: phrase
+  audio: pos-niotheis-simera--4f5ee6.mp3
+  status: verified
+  example_el: — Πέρασε ο πονοκέφαλος; — Ναι, πήρα ένα παυσίπονο και πέρασε.
+  example_en: — Did the headache pass? — Yes, I took a painkiller and it passed.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Assessing day-to-day recovery progress and symptom relief
+- id: A1-U110C-048
+  greek: — Σε ποιο νοσοκομείο είναι η ασθενής; — Είναι στο δημόσιο νοσοκομείο στον
+    τέταρτο όροφο.
+  phonetic_hint: — Seh PEE-oh noh-soh-koh-MEE-oh EE-neh ee ah-stheh-NEES? — EE-neh
+    stoh thee-MOH-see-oh noh-soh-koh-MEE-oh ston TEH-tahr-toh OH-roh-foh.
+  english: — In which hospital is the patient? — She is at the public hospital on
+    the fourth floor.
+  notes: Review Unit 110. Prominent Athens public hospital (Ευαγγελισμός) and floor
+    location.
+  gender_or_pos: phrase
+  audio: se-poio-nosokomeio-e-122b69.mp3
+  status: verified
+  example_el: — Σε ποιο δωμάτιο είναι; — Είναι στο δωμάτιο δώδεκα.
+  example_en: — In which room is she? — She is in room twelve.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Locating a hospitalized patient by facility, floor,
+    and room number
+- id: A1-U110C-049
+  greek: — Έχεις μαζί σου όλα τα φάρμακα; — Ναι, έχω τα χάπια μου, τις βιταμίνες και
+    το σιρόπι στην τσάντα.
+  phonetic_hint: — EH-khees mah-ZEE soo OH-lah tah FAHR-mah-kah? — Neh, EH-khoh tah
+    KHAH-pyah moo, tees vee-tah-MEE-nes keh toh see-ROH-pee steen TSAHN-dah.
+  english: — Do you have all the medicines with you? — Yes, I have my pills, vitamins,
+    and syrup in my bag.
+  notes: Review Unit 110. Verifying portable medicine kit essentials.
+  gender_or_pos: phrase
+  audio: echeis-mazi-soy-ola--1d6024.mp3
+  status: verified
+  example_el: — Μην ξεχάσεις το χάπι το βράδυ. — Όχι, το έβαλα δίπλα στο κρεβάτι.
+  example_en: — Don't forget the pill tonight. — No, I put it next to the bed.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reminding family members about nightly medication schedules
+- id: A1-U110C-050
+  greek: — Στην υγεία σου και καλή επιστροφή στη δουλειά! — Στην υγεία μας, να είμαστε
+    πάντα καλά!
+  phonetic_hint: — Steen ee-YEE-ah soo keh kah-LEE eh-pee-stroh-FEE steen thoo-lee-AH!
+    — Steen ee-YEE-ah mahs, nah EE-mah-steh PAHN-dah kah-LAH!
+  english: — To your health and a good return to work! — To our health, may we always
+    be well!
+  notes: Review Unit 110. Celebration toast for regained health ('στην υγειά μας',
+    'γεροί και υγιείς').
+  gender_or_pos: phrase
+  audio: stin-ygeia-soy-kai-k-aed087.mp3
+  status: verified
+  example_el: — Η υγεία είναι το πιο σημαντικό πράγμα. — Έχεις δίκιο, η υγεία είναι
+    πάνω απ' όλα.
+  example_en: — Health is the most important thing. — You are right, health is above
+    all.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Toasting to good health and valuing physical wellbeing

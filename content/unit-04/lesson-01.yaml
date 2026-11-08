@@ -34,6 +34,10 @@ entries:
     plural: οι οικογένειες
     accusative_singular: την οικογένεια
   keg_communicative_function: Introducing and discussing family composition
+  example_audio: echo-mia-megali-oiko-68de3c.mp3
+  example2_el: Η οικογένειά μου είναι από την Κρήτη.
+  example2_en: My family is from Crete.
+  example2_audio: i-oikogeneia-moy-ein-60cf9d.mp3
 - id: A1-U04-002
   greek: οι γονείς
   phonetic_hint: ''
@@ -49,6 +53,10 @@ entries:
     plural: οι γονείς
     accusative_plural: τους γονείς
   keg_communicative_function: Talking about father and mother collectively
+  example_audio: oi-goneis-moy-menoyn-caf35f.mp3
+  example2_el: Οι γονείς του μένουν σε ένα όμορφο χωριό.
+  example2_en: His parents live in a beautiful village.
+  example2_audio: oi-goneis-toy-menoyn-13e84a.mp3
 - id: A1-U04-003
   greek: ο πατέρας
   phonetic_hint: ''
@@ -65,6 +73,10 @@ entries:
     plural: οι πατέρες
     accusative_singular: τον πατέρα
   keg_communicative_function: Identifying one's father in family descriptions
+  example_audio: o-pateras-moy-einai--bcac92.mp3
+  example2_el: Πώς λένε τον πατέρα σου;
+  example2_en: What is your father's name?
+  example2_audio: pos-lene-ton-patera--ce3973.mp3
 - id: A1-U04-004
   greek: η μητέρα
   phonetic_hint: ''
@@ -80,6 +92,10 @@ entries:
     plural: οι μητέρες
     accusative_singular: τη μητέρα
   keg_communicative_function: Identifying one's mother in family descriptions
+  example_audio: i-mitera-moy-einai-d-60bb1a.mp3
+  example2_el: Η μητέρα της δουλεύει σε νοσοκομείο.
+  example2_en: Her mother works in a hospital.
+  example2_audio: i-mitera-tis-doyleye-96df6b.mp3
 - id: A1-U04-005
   greek: ο μπαμπάς
   phonetic_hint: ''
@@ -95,6 +111,10 @@ entries:
     plural: οι μπαμπάδες
     accusative_singular: τον μπαμπά
   keg_communicative_function: Informal and affectionate reference to father
+  example_audio: o-mpampas-moy-mageir-b05737.mp3
+  example2_el: Ο μπαμπάς μου διαβάζει την εφημερίδα κάθε πρωί.
+  example2_en: My dad reads the newspaper every morning.
+  example2_audio: o-mpampas-moy-diavaz-c073a0.mp3
 - id: A1-U04-006
   greek: η μαμά
   phonetic_hint: ''
@@ -110,6 +130,10 @@ entries:
     plural: οι μαμάδες
     accusative_singular: τη μαμά
   keg_communicative_function: Informal and affectionate reference to mother
+  example_audio: i-mama-moy-einai-pol-5d0440.mp3
+  example2_el: Η μαμά μου μού ετοιμάζει το πρωινό.
+  example2_en: My mom prepares breakfast for me.
+  example2_audio: i-mama-moy-moy-etoim-4b03f6.mp3
 - id: A1-U04-007
   greek: ο γιος
   phonetic_hint: ''
@@ -125,6 +149,10 @@ entries:
     plural: οι γιοι
     accusative_singular: τον γιο
   keg_communicative_function: Describing offspring (male child)
+  example_audio: echoyn-enan-gio-kai--e5e5b4.mp3
+  example2_el: Ο γιος τους πηγαίνει στο δημοτικό σχολείο.
+  example2_en: Their son goes to primary school.
+  example2_audio: o-gios-toys-pigainei-049858.mp3
 - id: A1-U04-008
   greek: η κόρη
   phonetic_hint: ''
@@ -140,6 +168,10 @@ entries:
     plural: οι κόρες
     accusative_singular: την κόρη
   keg_communicative_function: Describing offspring (female child)
+  example_audio: i-kori-toys-spoydaze-2675b1.mp3
+  example2_el: Πόσο χρονών είναι η κόρη σας;
+  example2_en: How old is your daughter?
+  example2_audio: poso-chronon-einai-i-2cb9be.mp3
 - id: A1-U04-009
   greek: ο αδελφός / ο αδερφός
   phonetic_hint: ''
@@ -156,6 +188,10 @@ entries:
     plural: οι αδελφοί / οι αδερφοί
     accusative_singular: τον αδελφό / τον αδερφό
   keg_communicative_function: Identifying male siblings
+  example_audio: o-adelfos-moy-einai--29c5b3.mp3
+  example2_el: Έχεις αδελφό ή αδελφή;
+  example2_en: Do you have a brother or sister?
+  example2_audio: echeis-adelfo-i-adel-dd499d.mp3
 - id: A1-U04-010
   greek: η αδελφή / η αδερφή
   phonetic_hint: ''
@@ -171,6 +207,10 @@ entries:
     plural: οι αδελφές / οι αδερφές
     accusative_singular: την αδελφή / την αδερφή
   keg_communicative_function: Identifying female siblings
+  example_audio: i-adelfi-moy-doyleye-f9294b.mp3
+  example2_el: Η αδελφή μου είναι φοιτήτρια στην Πάτρα.
+  example2_en: My sister is a university student in Patras.
+  example2_audio: i-adelfi-moy-einai-f-874b6e.mp3
 - id: A1-U04-011
   greek: ο παππούς
   phonetic_hint: ''
@@ -186,6 +226,10 @@ entries:
     plural: οι παππούδες
     accusative_singular: τον παππού
   keg_communicative_function: Talking about grandparents and elderly family members
+  example_audio: o-pappoys-moy-einai--d2114e.mp3
+  example2_el: Ο παππούς κάθεται στον καναπέ και ξεκουράζεται.
+  example2_en: Grandfather sits on the couch and rests.
+  example2_audio: o-pappoys-kathetai-s-6f8c2c.mp3
 - id: A1-U04-012
   greek: η γιαγιά
   phonetic_hint: ''
@@ -201,6 +245,10 @@ entries:
     plural: οι γιαγιάδες
     accusative_singular: τη γιαγιά
   keg_communicative_function: Talking about grandmother
+  example_audio: i-giagia-moy-ftiachn-79f8a2.mp3
+  example2_el: Η γιαγιά μένει μαζί μας στο σπίτι.
+  example2_en: Grandmother lives with us at home.
+  example2_audio: i-giagia-menei-mazi--8c8fcb.mp3
 - id: A1-U04-013
   greek: το παιδί
   phonetic_hint: ''
@@ -217,6 +265,10 @@ entries:
     plural: τα παιδιά
     accusative_singular: το παιδί
   keg_communicative_function: Referring to children or family dependents
+  example_audio: echoyn-dyo-paidia-a42f13.mp3
+  example2_el: Τα παιδιά παίζουν στην αυλή του σχολείου.
+  example2_en: The children play in the schoolyard.
+  example2_audio: ta-paidia-paizoyn-st-2c9f0b.mp3
 - id: A1-U04-014
   greek: το μωρό
   phonetic_hint: ''
@@ -232,6 +284,10 @@ entries:
     plural: τα μωρά
     accusative_singular: το μωρό
   keg_communicative_function: Referring to infants and very young children
+  example_audio: to-moro-koimatai-tor-3d2a14.mp3
+  example2_el: Το μωρό πίνει γάλα από το μπουκάλι.
+  example2_en: The baby drinks milk from the bottle.
+  example2_audio: to-moro-pinei-gala-a-4ee318.mp3
 - id: A1-U04-015
   greek: ο άντρας
   phonetic_hint: ''
@@ -248,6 +304,10 @@ entries:
     plural: οι άντρες
     accusative_singular: τον άντρα
   keg_communicative_function: Referring to an adult male or one's husband
+  example_audio: o-antras-tis-einai-a-f48259.mp3
+  example2_el: Ποιος είναι αυτός ο ψηλός άντρας;
+  example2_en: Who is that tall man?
+  example2_audio: poios-einai-aytos-o--3e933f.mp3
 - id: A1-U04-016
   greek: η γυναίκα
   phonetic_hint: ''
@@ -264,6 +324,10 @@ entries:
     plural: οι γυναίκες
     accusative_singular: τη γυναίκα
   keg_communicative_function: Referring to an adult female or one's wife
+  example_audio: i-gynaika-moy-doyley-a9b85d.mp3
+  example2_el: Αυτή η γυναίκα είναι δικηγόρος.
+  example2_en: This woman is a lawyer.
+  example2_audio: ayti-i-gynaika-einai-a96e40.mp3
 - id: A1-U04-017
   greek: ο θείος
   phonetic_hint: ''
@@ -279,6 +343,10 @@ entries:
     plural: οι θείοι
     accusative_singular: τον θείο
   keg_communicative_function: Describing extended family relations
+  example_audio: o-theios-moy-menei-s-92655e.mp3
+  example2_el: Ο θείος μου έχει ένα μικρό μαγαζί.
+  example2_en: My uncle has a small shop.
+  example2_audio: o-theios-moy-echei-e-02e98a.mp3
 - id: A1-U04-018
   greek: η θεία
   phonetic_hint: ''
@@ -294,6 +362,10 @@ entries:
     plural: οι θείες
     accusative_singular: τη θεία
   keg_communicative_function: Describing extended family relations
+  example_audio: i-theia-eleni-echei--a68b51.mp3
+  example2_el: Η θεία Μαρία μαγειρεύει νόστιμα φαγητά.
+  example2_en: Aunt Maria cooks delicious meals.
+  example2_audio: i-theia-maria-mageir-f348c5.mp3
 - id: A1-U04-019
   greek: ο ξάδελφος / ο ξάδερφος
   phonetic_hint: ''
@@ -310,6 +382,10 @@ entries:
     plural: οι ξάδελφοι / οι ξάδερφοι
     accusative_singular: τον ξάδελφο / τον ξάδερφο
   keg_communicative_function: Describing extended family members
+  example_audio: o-xadelfos-moy-spoyd-ac7e21.mp3
+  example2_el: Ο ξάδελφός μου είναι πολύ συμπαθητικός.
+  example2_en: My cousin is very likeable.
+  example2_audio: o-xadelfos-moy-einai-579518.mp3
 - id: A1-U04-020
   greek: η ξαδέλφη / η ξαδέρφη
   phonetic_hint: ''
@@ -325,6 +401,10 @@ entries:
     plural: οι ξαδέλφες / οι ξαδέρφες
     accusative_singular: την ξαδέλφη / την ξαδέρφη
   keg_communicative_function: Describing female cousins
+  example_audio: i-xadelfi-moy-menei--f19a36.mp3
+  example2_el: Πηγαίνω σινεμά με την ξαδέλφη μου.
+  example2_en: I go to the cinema with my cousin.
+  example2_audio: pigaino-sinema-me-ti-9125ea.mp3
 - id: A1-U04-021
   greek: ο άνθρωπος
   phonetic_hint: ''
@@ -340,6 +420,10 @@ entries:
     plural: οι άνθρωποι
     accusative_singular: τον άνθρωπο
   keg_communicative_function: Referring to persons in general
+  example_audio: einai-poly-kalos-ant-bac5cb.mp3
+  example2_el: Πόσοι άνθρωποι μένουν σε αυτό το κτίριο;
+  example2_en: How many people live in this building?
+  example2_audio: posoi-anthropoi-meno-ec43fc.mp3
 - id: A1-U04-022
   greek: παντρεμένος, -η, -ο
   phonetic_hint: ''
@@ -357,6 +441,10 @@ entries:
     neuter: παντρεμένο
     plural: παντρεμένοι, παντρεμένες, παντρεμένα
   keg_communicative_function: Stating marital status on questionnaires and forms
+  example_audio: eiste-pantremenos-i--35e118.mp3
+  example2_el: Είναι παντρεμένος και έχει δύο παιδιά.
+  example2_en: He is married and has two children.
+  example2_audio: einai-pantremenos-ka-a8d989.mp3
 - id: A1-U04-023
   greek: ελεύθερος, -η, -ο
   phonetic_hint: ''
@@ -374,6 +462,10 @@ entries:
     neuter: ελεύθερο
     plural: ελεύθεροι, ελεύθερες, ελεύθερα
   keg_communicative_function: Indicating single marital status
+  example_audio: o-adelfos-moy-einai--415365.mp3
+  example2_el: Είμαι ελεύθερη και μένω μόνη μου.
+  example2_en: I am single and I live alone.
+  example2_audio: eimai-eleytheri-kai--cffde7.mp3
 - id: A1-U04-024
   greek: το πρόσωπο
   phonetic_hint: ''
@@ -390,6 +482,10 @@ entries:
     plural: τα πρόσωπα
     accusative_singular: το πρόσωπο
   keg_communicative_function: Describing facial features and physical appearance
+  example_audio: echei-poly-glyko-pro-a594bf.mp3
+  example2_el: Πλύνετε το πρόσωπό σας με κρύο νερό.
+  example2_en: Wash your face with cold water.
+  example2_audio: plynete-to-prosopo-s-b45ec9.mp3
 - id: A1-U04-025
   greek: τα μαλλιά
   phonetic_hint: ''
@@ -405,6 +501,10 @@ entries:
     plural: τα μαλλιά
     accusative_plural: τα μαλλιά
   keg_communicative_function: Describing hair color and style in physical descriptions
+  example_audio: i-eleni-echei-makria-1a1ba5.mp3
+  example2_el: Ο αδελφός μου έχει κοντά μαύρα μαλλιά.
+  example2_en: My brother has short black hair.
+  example2_audio: o-adelfos-moy-echei--1159a9.mp3
 - id: A1-U04-026
   greek: τα μάτια
   phonetic_hint: ''
@@ -421,6 +521,10 @@ entries:
     plural: τα μάτια
     accusative_plural: τα μάτια
   keg_communicative_function: Describing eye color in person descriptions
+  example_audio: o-gios-moy-echei-mpl-552609.mp3
+  example2_el: Έχει μεγάλα καστανά μάτια.
+  example2_en: She has big brown eyes.
+  example2_audio: echei-megala-kastana-dea564.mp3
 - id: A1-U04-027
   greek: ψηλός, -ή, -ό
   phonetic_hint: ''
@@ -437,6 +541,10 @@ entries:
     neuter: ψηλό
     plural: ψηλοί, ψηλές, ψηλά
   keg_communicative_function: Describing height and stature
+  example_audio: o-pateras-moy-einai--cc2259.mp3
+  example2_el: Ο αδελφός μου είναι πιο ψηλός από μένα.
+  example2_en: My brother is taller than me.
+  example2_audio: o-adelfos-moy-einai--bb4cd9.mp3
 - id: A1-U04-028
   greek: κοντός, -ή, -ό
   phonetic_hint: ''
@@ -453,6 +561,10 @@ entries:
     neuter: κοντό
     plural: κοντοί, κοντές, κοντά
   keg_communicative_function: Describing physical height
+  example_audio: i-adelfi-moy-einai-l-3043b9.mp3
+  example2_el: Φοράει ένα κοντό παντελόνι.
+  example2_en: He is wearing short trousers.
+  example2_audio: foraei-ena-konto-pan-39b83c.mp3
 - id: A1-U04-029
   greek: αδύνατος, -η, -ο
   phonetic_hint: ''
@@ -470,6 +582,10 @@ entries:
     neuter: αδύνατο
     plural: αδύνατοι, αδύνατες, αδύνατα
   keg_communicative_function: Describing slender build or body type
+  example_audio: o-nikos-einai-psilos-45e09d.mp3
+  example2_el: Η κοπέλα είναι αδύνατη και φοράει γυαλιά.
+  example2_en: The girl is slim and wears glasses.
+  example2_audio: i-kopela-einai-adyna-8d65aa.mp3
 - id: A1-U04-030
   greek: χοντρός, -ή, -ό
   phonetic_hint: ''
@@ -486,6 +602,10 @@ entries:
     neuter: χοντρό
     plural: χοντροί, χοντρές, χοντρά
   keg_communicative_function: Describing body build or thick objects
+  example_audio: foraei-ena-chontro-p-26a76b.mp3
+  example2_el: Αυτό το βιβλίο είναι πολύ χοντρό.
+  example2_en: This book is very thick.
+  example2_audio: ayto-to-vivlio-einai-0d461f.mp3
 - id: A1-U04-031
   greek: όμορφος, -η, -ο
   phonetic_hint: ''
@@ -502,6 +622,10 @@ entries:
     neuter: όμορφο
     plural: όμορφοι, όμορφες, όμορφα
   keg_communicative_function: Describing attractive appearance of persons or places
+  example_audio: i-mitera-tis-einai-p-fed087.mp3
+  example2_el: Η πόλη της Θεσσαλονίκης είναι πολύ όμορφη.
+  example2_en: The city of Thessaloniki is very beautiful.
+  example2_audio: i-poli-tis-thessalon-55d30b.mp3
 - id: A1-U04-032
   greek: νέος, -α, -ο
   phonetic_hint: ''
@@ -518,6 +642,10 @@ entries:
     neuter: νέο
     plural: νέοι, νέες, νέα
   keg_communicative_function: Talking about age and novelty
+  example_audio: o-kathigitis-mas-ein-33a648.mp3
+  example2_el: Πολλοί νέοι άνθρωποι ψάχνουν δουλειά.
+  example2_en: Many young people are looking for work.
+  example2_audio: polloi-neoi-anthropo-f089db.mp3
 - id: A1-U04-033
   greek: μεγάλος, -η, -ο
   phonetic_hint: ''
@@ -535,6 +663,10 @@ entries:
     neuter: μεγάλο
     plural: μεγάλοι, μεγάλες, μεγάλα
   keg_communicative_function: Describing older age or large size
+  example_audio: o-pappoys-moy-einai--daec1f.mp3
+  example2_el: Το σπίτι μας έχει ένα μεγάλο σαλόνι.
+  example2_en: Our house has a large living room.
+  example2_audio: to-spiti-mas-echei-e-9efaab.mp3
 - id: A1-U04-034
   greek: καλός, -ή, -ό
   phonetic_hint: ''
@@ -551,6 +683,10 @@ entries:
     neuter: καλό
     plural: καλοί, καλές, καλά
   keg_communicative_function: Expressing positive character and quality evaluation
+  example_audio: einai-poly-kaloi-fil-b23fd2.mp3
+  example2_el: Ο κύριος Νίκος είναι πολύ καλός γείτονας.
+  example2_en: Mr. Nikos is a very good neighbor.
+  example2_audio: o-kyrios-nikos-einai-a0b34c.mp3
 - id: A1-U04-035
   greek: συμπαθητικός, -ή, -ό
   phonetic_hint: ''
@@ -567,6 +703,10 @@ entries:
     neuter: συμπαθητικό
     plural: συμπαθητικοί, συμπαθητικές, συμπαθητικά
   keg_communicative_function: Describing agreeable personality traits
+  example_audio: i-nea-geitonissa-ein-b86ff6.mp3
+  example2_el: Ο νέος καθηγητής είναι ευγενικός και συμπαθητικός.
+  example2_en: The new professor is polite and pleasant.
+  example2_audio: o-neos-kathigitis-ei-312fcd.mp3
 - id: A1-U04-036
   greek: έχω
   phonetic_hint: ''
@@ -584,6 +724,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό έχει
     first_person_plural: εμείς έχουμε
   keg_communicative_function: Expressing family relations, age, and possession
+  example_audio: echo-dyo-adelfia-kai-e510db.mp3
+  example2_el: Έχεις λίγο χρόνο να μιλήσουμε;
+  example2_en: Do you have a little time for us to talk?
+  example2_audio: echeis-ligo-chrono-n-1608d9.mp3
 - id: A1-U04-037
   greek: μου
   phonetic_hint: ''
@@ -600,6 +744,10 @@ entries:
     person_number: 1st person singular
     position: post-nominal enclitic
   keg_communicative_function: Indicating family relations and personal ownership
+  example_audio: ayti-einai-i-mitera--189603.mp3
+  example2_el: Το τηλέφωνό μου είναι στο γραφείο.
+  example2_en: My telephone is in the office.
+  example2_audio: to-tilefono-moy-eina-b9890f.mp3
 - id: A1-U04-038
   greek: σου
   phonetic_hint: ''
@@ -615,6 +763,10 @@ entries:
     person_number: 2nd person singular
     position: post-nominal enclitic
   keg_communicative_function: Inquiring about someone's family or possessions
+  example_audio: pos-lene-ton-adelfo--00f67a.mp3
+  example2_el: Ποιο είναι το όνομά σου;
+  example2_en: What is your name?
+  example2_audio: poio-einai-to-onoma--d1e0c2.mp3
 - id: A1-U04-039
   greek: του / της / του
   phonetic_hint: ''
@@ -631,6 +783,10 @@ entries:
     person_number: 3rd person singular
     forms: του (masculine / neuter), της (feminine)
   keg_communicative_function: Expressing possession relating to a third person
+  example_audio: o-antras-tis-einai-k-b11589.mp3
+  example2_el: Το σπίτι της είναι κοντά στον σταθμό.
+  example2_en: Her house is near the station.
+  example2_audio: to-spiti-tis-einai-k-7b68ab.mp3
 - id: A1-U04-040
   greek: μας / σας / τους
   phonetic_hint: ''
@@ -646,3 +802,7 @@ entries:
     person_number: plural possessives
     forms: μας (1st pl), σας (2nd pl/polite), τους (3rd pl)
   keg_communicative_function: Expressing group possession and polite address
+  example_audio: aytos-einai-o-kathig-0cbb2b.mp3
+  example2_el: Το διαμέρισμά μας είναι στον δεύτερο όροφο.
+  example2_en: Our apartment is on the second floor.
+  example2_audio: to-diamerisma-mas-ei-cdc9a9.mp3

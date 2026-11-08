@@ -34,6 +34,10 @@ entries:
     plural: οι καφέδες
     accusative_singular: τον καφέ
   keg_communicative_function: Ordering beverages at a cafe or traditional kafeneio
+  example_audio: enan-elliniko-kafe-m-5c801c.mp3
+  example2_el: Πίνετε ελληνικό καφέ ή φραπέ;
+  example2_en: Do you drink Greek coffee or frappé?
+  example2_audio: pinete-elliniko-kafe-1d36f0.mp3
 - id: A1-U05-002
   greek: το νερό
   phonetic_hint: ''
@@ -50,6 +54,10 @@ entries:
     plural: τα νερά
     accusative_singular: το νερό
   keg_communicative_function: Asking for water in dining establishments
+  example_audio: ena-mpoykali-nero-pa-f7eff2.mp3
+  example2_el: Ένα μπουκάλι εμφιαλωμένο νερό, παρακαλώ.
+  example2_en: A bottle of bottled water, please.
+  example2_audio: ena-mpoykali-emfialo-471725.mp3
 - id: A1-U05-003
   greek: το τσάι
   phonetic_hint: ''
@@ -66,6 +74,10 @@ entries:
     plural: τα τσάγια
     accusative_singular: το τσάι
   keg_communicative_function: Ordering hot or cold tea
+  example_audio: pino-zesto-tsai-toy--b73df6.mp3
+  example2_el: Θέλω ένα ζεστό τσάι με λεμόνι.
+  example2_en: I want a hot tea with lemon.
+  example2_audio: thelo-ena-zesto-tsai-e561cc.mp3
 - id: A1-U05-004
   greek: ο χυμός
   phonetic_hint: ''
@@ -82,6 +94,10 @@ entries:
     plural: οι χυμοί
     accusative_singular: τον χυμό
   keg_communicative_function: Ordering non-alcoholic fruit beverages
+  example_audio: thelo-enan-fresko-ch-c9c031.mp3
+  example2_el: Έναν φυσικό χυμό πορτοκάλι, παρακαλώ.
+  example2_en: A fresh orange juice, please.
+  example2_audio: enan-fysiko-chymo-po-1573b5.mp3
 - id: A1-U05-005
   greek: η πορτοκαλάδα
   phonetic_hint: ''
@@ -97,6 +113,10 @@ entries:
     plural: οι πορτοκαλάδες
     accusative_singular: την πορτοκαλάδα
   keg_communicative_function: Ordering carbonated fruit soft drinks
+  example_audio: mia-portokalada-me-a-846cf3.mp3
+  example2_el: Θέλετε πορτοκαλάδα με ανθρακικό ή χωρίς;
+  example2_en: Do you want orangeade with carbonation or without?
+  example2_audio: thelete-portokalada--2dcf06.mp3
 - id: A1-U05-006
   greek: η λεμονάδα
   phonetic_hint: ''
@@ -112,6 +132,10 @@ entries:
     plural: οι λεμονάδες
     accusative_singular: τη λεμονάδα
   keg_communicative_function: Ordering soft drinks
+  example_audio: gia-mena-mia-krya-le-0827ef.mp3
+  example2_el: Μία δροσερή λεμονάδα για μένα, παρακαλώ.
+  example2_en: A cool lemonade for me, please.
+  example2_audio: mia-droseri-lemonada-30f601.mp3
 - id: A1-U05-007
   greek: το γάλα
   phonetic_hint: ''
@@ -128,6 +152,10 @@ entries:
     plural: τα γάλατα
     accusative_singular: το γάλα
   keg_communicative_function: Specifying coffee additives or ordering breakfast beverages
+  example_audio: thelete-ton-kafe-me--d52d2c.mp3
+  example2_el: Πίνω έναν καφέ με λίγο γάλα.
+  example2_en: I drink a coffee with a little milk.
+  example2_audio: pino-enan-kafe-me-li-c8b0da.mp3
 - id: A1-U05-008
   greek: η μπίρα / η μπύρα
   phonetic_hint: ''
@@ -144,6 +172,10 @@ entries:
     plural: οι μπίρες / οι μπύρες
     accusative_singular: την μπίρα / την μπύρα
   keg_communicative_function: Ordering alcoholic beverages in tavernas and bars
+  example_audio: ferte-mas-dyo-kryes--d0614d.mp3
+  example2_el: Δύο παγωμένες μπύρες, παρακαλώ.
+  example2_en: Two cold beers, please.
+  example2_audio: dyo-pagomenes-mpyres-a09882.mp3
 - id: A1-U05-009
   greek: το κρασί
   phonetic_hint: ''
@@ -160,6 +192,10 @@ entries:
     plural: τα κρασιά
     accusative_singular: το κρασί
   keg_communicative_function: Ordering wine with meals
+  example_audio: pairnoyme-miso-kilo--9ad0f2.mp3
+  example2_el: Προτιμάτε λευκό ή κόκκινο κρασί;
+  example2_en: Do you prefer white or red wine?
+  example2_audio: protimate-leyko-i-ko-52b24a.mp3
 - id: A1-U05-010
   greek: η ζάχαρη
   phonetic_hint: ''
@@ -176,6 +212,10 @@ entries:
     plural: οι ζάχαρες
     accusative_singular: τη ζάχαρη
   keg_communicative_function: Specifying sweetness level for hot and iced beverages
+  example_audio: pino-ton-kafe-moy-ch-9416d0.mp3
+  example2_el: Πόση ζάχαρη βάζετε στον καφέ σας;
+  example2_en: How much sugar do you put in your coffee?
+  example2_audio: posi-zachari-vazete--8dfde5.mp3
 - id: A1-U05-011
   greek: το φαγητό
   phonetic_hint: ''
@@ -191,6 +231,10 @@ entries:
     plural: τα φαγητά
     accusative_singular: το φαγητό
   keg_communicative_function: Talking about cuisine and meals in general
+  example_audio: to-elliniko-fagito-e-e5c3e7.mp3
+  example2_el: Το φαγητό σε αυτή την ταβέρνα είναι πεντανόστιμο.
+  example2_en: The food in this tavern is delicious.
+  example2_audio: to-fagito-se-ayti-ti-05049a.mp3
 - id: A1-U05-012
   greek: το ψωμί
   phonetic_hint: ''
@@ -207,6 +251,10 @@ entries:
     plural: τα ψωμιά
     accusative_singular: το ψωμί
   keg_communicative_function: Requesting bread basket at the table
+  example_audio: mas-fernete-ligo-pso-f3fcb2.mp3
+  example2_el: Μας φέρνετε λίγο ψωμί ακόμα, παρακαλώ;
+  example2_en: Could you bring us a little more bread, please?
+  example2_audio: mas-fernete-ligo-pso-7d8ad3.mp3
 - id: A1-U05-013
   greek: η σαλάτα
   phonetic_hint: ''
@@ -222,6 +270,10 @@ entries:
     plural: οι σαλάτες
     accusative_singular: τη σαλάτα
   keg_communicative_function: Ordering starters and vegetable salads
+  example_audio: theloyme-mia-prasini-f6b40e.mp3
+  example2_el: Μία πράσινη σαλάτα με ελαιόλαδο, παρακαλώ.
+  example2_en: A green salad with olive oil, please.
+  example2_audio: mia-prasini-salata-m-3fe637.mp3
 - id: A1-U05-014
   greek: η χωριάτικη σαλάτα
   phonetic_hint: ''
@@ -238,6 +290,10 @@ entries:
     plural: οι χωριάτικες σαλάτες
     accusative_singular: τη χωριάτικη σαλάτα
   keg_communicative_function: Ordering Greece's signature traditional salad
+  example_audio: pairnoyme-mia-choria-42b0db.mp3
+  example2_el: Η χωριάτικη σαλάτα έχει ντομάτα, αγγούρι και φέτα.
+  example2_en: The Greek village salad has tomato, cucumber, and feta.
+  example2_audio: i-choriatiki-salata--4d98bd.mp3
 - id: A1-U05-015
   greek: το τυρί
   phonetic_hint: ''
@@ -253,6 +309,10 @@ entries:
     plural: τα τυριά
     accusative_singular: το τυρί
   keg_communicative_function: Ordering dairy appetisers and ingredients
+  example_audio: moy-aresei-poly-to-e-29657a.mp3
+  example2_el: Τρώω ψωμί με τυρί και ντομάτα για πρωινό.
+  example2_en: I eat bread with cheese and tomato for breakfast.
+  example2_audio: troo-psomi-me-tyri-k-4e3149.mp3
 - id: A1-U05-016
   greek: η φέτα
   phonetic_hint: ''
@@ -268,6 +328,10 @@ entries:
     plural: οι φέτες
     accusative_singular: τη φέτα
   keg_communicative_function: Ordering traditional feta cheese dishes
+  example_audio: theloyme-psiti-feta--1c1a20.mp3
+  example2_el: Ένα κομμάτι φέτα με ρίγανη και λάδι, παρακαλώ.
+  example2_en: A piece of feta with oregano and olive oil, please.
+  example2_audio: ena-kommati-feta-me--70c6e0.mp3
 - id: A1-U05-017
   greek: το κρέας
   phonetic_hint: ''
@@ -283,6 +347,10 @@ entries:
     plural: τα κρέατα
     accusative_singular: το κρέας
   keg_communicative_function: Inquiring about main courses or dietary preferences
+  example_audio: den-troo-kreas-eimai-727b09.mp3
+  example2_el: Δεν τρώω κρέας, είμαι χορτοφάγος.
+  example2_en: I don't eat meat, I am a vegetarian.
+  example2_audio: den-troo-kreas-eimai-727b09.mp3
 - id: A1-U05-018
   greek: το κοτόπουλο
   phonetic_hint: ''
@@ -298,6 +366,10 @@ entries:
     plural: τα κοτόπουλα
     accusative_singular: το κοτόπουλο
   keg_communicative_function: Ordering poultry main courses
+  example_audio: gia-kyrios-piato-the-c12a97.mp3
+  example2_el: Θέλω ψητό κοτόπουλο με πατάτες τηγανητές.
+  example2_en: I want grilled chicken with french fries.
+  example2_audio: thelo-psito-kotopoyl-3225f9.mp3
 - id: A1-U05-019
   greek: το ψάρι
   phonetic_hint: ''
@@ -313,6 +385,10 @@ entries:
     plural: τα ψάρια
     accusative_singular: το ψάρι
   keg_communicative_function: Ordering seafood and fresh fish at seaside tavernas
+  example_audio: echete-fresko-psari--803d58.mp3
+  example2_el: Το ψάρι είναι φρέσκο σήμερα;
+  example2_en: Is the fish fresh today?
+  example2_audio: to-psari-einai-fresk-a3cf3a.mp3
 - id: A1-U05-020
   greek: το σουβλάκι
   phonetic_hint: ''
@@ -328,6 +404,10 @@ entries:
     plural: τα σουβλάκια
     accusative_singular: το σουβλάκι
   keg_communicative_function: Ordering iconic Greek street food
+  example_audio: pairnoyme-dyo-soyvla-370b42.mp3
+  example2_el: Δύο σουβλάκια με πίτα και τζατζίκι, παρακαλώ.
+  example2_en: Two souvlakia with pita and tzatziki, please.
+  example2_audio: dyo-soyvlakia-me-pit-780015.mp3
 - id: A1-U05-021
   greek: η πίτα
   phonetic_hint: ''
@@ -343,6 +423,10 @@ entries:
     plural: οι πίτες
     accusative_singular: την πίτα
   keg_communicative_function: Ordering pita wraps or bakery pies (τυρόπιτα, σπανακόπιτα)
+  example_audio: thelo-ena-soyvlaki-s-662874.mp3
+  example2_el: Μία τυρόπιτα και μία σπανακόπιτα από τον φούρνο.
+  example2_en: One cheese pie and one spinach pie from the bakery.
+  example2_audio: mia-tyropita-kai-mia-53beb3.mp3
 - id: A1-U05-022
   greek: οι πατάτες
   phonetic_hint: ''
@@ -359,6 +443,10 @@ entries:
     plural: οι πατάτες
     accusative_plural: τις πατάτες
   keg_communicative_function: Ordering side dishes (τηγανητές πατάτες)
+  example_audio: mia-merida-patates-t-0c5832.mp3
+  example2_el: Μία μερίδα πατάτες τηγανητές για τα παιδιά.
+  example2_en: One portion of french fries for the children.
+  example2_audio: mia-merida-patates-t-84bf12.mp3
 - id: A1-U05-023
   greek: το τοστ
   phonetic_hint: ''
@@ -374,6 +462,10 @@ entries:
     plural: τα τοστ
     accusative_singular: το τοστ
   keg_communicative_function: Ordering quick cafe snacks
+  example_audio: ena-tost-me-galopoyl-e7aedd.mp3
+  example2_el: Ένα τοστ με γαλοπούλα και τυρί, παρακαλώ.
+  example2_en: A toast with turkey and cheese, please.
+  example2_audio: ena-tost-me-galopoyl-652145.mp3
 - id: A1-U05-024
   greek: το γλυκό
   phonetic_hint: ''
@@ -390,6 +482,10 @@ entries:
     plural: τα γλυκά
     accusative_singular: το γλυκό
   keg_communicative_function: Ordering post-meal desserts
+  example_audio: ti-glyko-echete-sime-0d28bf.mp3
+  example2_el: Τι γλυκό έχετε σήμερα;
+  example2_en: What dessert do you have today?
+  example2_audio: ti-glyko-echete-sime-0d28bf.mp3
 - id: A1-U05-025
   greek: το παγωτό
   phonetic_hint: ''
@@ -405,6 +501,10 @@ entries:
     plural: τα παγωτά
     accusative_singular: το παγωτό
   keg_communicative_function: Ordering cold desserts in summer
+  example_audio: thelo-ena-pagoto-sok-b51dff.mp3
+  example2_el: Ένα παγωτό σοκολάτα σε κυπελλάκι, παρακαλώ.
+  example2_en: A chocolate ice cream in a cup, please.
+  example2_audio: ena-pagoto-sokolata--572c37.mp3
 - id: A1-U05-026
   greek: το καφενείο
   phonetic_hint: ''
@@ -420,6 +520,10 @@ entries:
     plural: τα καφενεία
     accusative_singular: το καφενείο
   keg_communicative_function: Referring to historic Greek social meeting venues
+  example_audio: oi-ilikiomenoi-pinoy-3fc576.mp3
+  example2_el: Οι ηλικιωμένοι παίζουν τάβλι στο καφενείο.
+  example2_en: The elderly men play backgammon at the traditional cafe.
+  example2_audio: oi-ilikiomenoi-paizo-f41fc3.mp3
 - id: A1-U05-027
   greek: η καφετέρια
   phonetic_hint: ''
@@ -436,6 +540,10 @@ entries:
     plural: οι καφετέριες
     accusative_singular: την καφετέρια
   keg_communicative_function: Arranging social meetings at contemporary cafes
+  example_audio: synantiomaste-stin-k-f92f4d.mp3
+  example2_el: Συναντιόμαστε στην καφετέρια στην πλατεία.
+  example2_en: We meet at the coffee shop in the square.
+  example2_audio: synantiomaste-stin-k-f92f4d.mp3
 - id: A1-U05-028
   greek: η ταβέρνα
   phonetic_hint: ''
@@ -451,6 +559,10 @@ entries:
     plural: οι ταβέρνες
     accusative_singular: την ταβέρνα
   keg_communicative_function: Choosing dining venues for lunch or dinner
+  example_audio: to-vrady-trome-se-mi-744817.mp3
+  example2_el: Πάμε σε μία παραδοσιακή ταβέρνα δίπλα στη θάλασσα;
+  example2_en: Shall we go to a traditional taverna next to the sea?
+  example2_audio: pame-se-mia-paradosi-016bc7.mp3
 - id: A1-U05-029
   greek: το εστιατόριο
   phonetic_hint: ''
@@ -466,6 +578,10 @@ entries:
     plural: τα εστιατόρια
     accusative_singular: το εστιατόριο
   keg_communicative_function: Referring to restaurants and dining establishments
+  example_audio: ayto-to-estiatorio-e-4ce290.mp3
+  example2_el: Το εστιατόριο ανοίγει στις επτά το απόγευμα.
+  example2_en: The restaurant opens at seven in the evening.
+  example2_audio: to-estiatorio-anoige-05e418.mp3
 - id: A1-U05-030
   greek: το τραπέζι
   phonetic_hint: ''
@@ -482,6 +598,10 @@ entries:
     plural: τα τραπέζια
     accusative_singular: το τραπέζι
   keg_communicative_function: Requesting seating in restaurants and cafes
+  example_audio: ena-trapezi-gia-tess-723ef0.mp3
+  example2_el: Ένα τραπέζι έξω στην αυλή, παρακαλώ.
+  example2_en: A table outside in the yard, please.
+  example2_audio: ena-trapezi-exo-stin-4e46eb.mp3
 - id: A1-U05-031
   greek: ο κατάλογος
   phonetic_hint: ''
@@ -498,6 +618,10 @@ entries:
     plural: οι κατάλογοι
     accusative_singular: τον κατάλογο
   keg_communicative_function: Asking for the food or drink menu
+  example_audio: mas-fernete-ton-kata-95a31b.mp3
+  example2_el: Μας φέρνετε τον κατάλογο να παραγγείλουμε;
+  example2_en: Could you bring us the menu so we can order?
+  example2_audio: mas-fernete-ton-kata-35b176.mp3
 - id: A1-U05-032
   greek: ο λογαριασμός
   phonetic_hint: ''
@@ -514,6 +638,10 @@ entries:
     plural: οι λογαριασμοί
     accusative_singular: τον λογαριασμό
   keg_communicative_function: Asking for the check at the end of a meal
+  example_audio: ton-logariasmo-parak-d39dd7.mp3
+  example2_el: Μαζί ή χωριστά ο λογαριασμός;
+  example2_en: Together or separate is the bill?
+  example2_audio: mazi-i-chorista-o-lo-27befd.mp3
 - id: A1-U05-033
   greek: το φιλοδώρημα
   phonetic_hint: ''
@@ -529,6 +657,10 @@ entries:
     plural: τα φιλοδωρήματα
     accusative_singular: το φιλοδώρημα
   keg_communicative_function: Tipping dining service personnel
+  example_audio: afinoyme-filodorima--186c21.mp3
+  example2_el: Αφήνουμε ένα μικρό φιλοδώρημα στον σερβιτόρο.
+  example2_en: We leave a small tip for the waiter.
+  example2_audio: afinoyme-ena-mikro-f-7154ff.mp3
 - id: A1-U05-034
   greek: θέλω
   phonetic_hint: ''
@@ -546,6 +678,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό θέλει
     first_person_plural: εμείς θέλουμε
   keg_communicative_function: Expressing wishes and placing dining orders
+  example_audio: thelo-ena-potiri-kry-909794.mp3
+  example2_el: Τι θέλετε να πιείτε;
+  example2_en: What do you want to drink?
+  example2_audio: ti-thelete-na-pieite-ab22bf.mp3
 - id: A1-U05-035
   greek: πίνω
   phonetic_hint: ''
@@ -563,6 +699,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό πίνει
     first_person_plural: εμείς πίνουμε
   keg_communicative_function: Talking about beverage consumption habits
+  example_audio: ti-pinete-pino-enan--5ea6b2.mp3
+  example2_el: Πίνω πολύ νερό το καλοκαίρι.
+  example2_en: I drink lots of water in the summer.
+  example2_audio: pino-poly-nero-to-ka-54be85.mp3
 - id: A1-U05-036
   greek: παίρνω
   phonetic_hint: ''
@@ -580,6 +720,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό παίρνει
     first_person_plural: εμείς παίρνουμε
   keg_communicative_function: Standard conversational verb used when placing orders
+  example_audio: ego-pairno-mia-chori-4143d0.mp3
+  example2_el: Τι παίρνετε για πρωινό;
+  example2_en: What do you have for breakfast?
+  example2_audio: ti-pairnete-gia-proi-f136ff.mp3
 - id: A1-U05-037
   greek: τρώω
   phonetic_hint: ''
@@ -597,6 +741,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό τρώει
     first_person_plural: εμείς τρώμε
   keg_communicative_function: Talking about food consumption and dietary habits
+  example_audio: trome-mesimeriano-st-465570.mp3
+  example2_el: Τρώμε μεσημεριανό στις δύο το μεσημέρι.
+  example2_en: We eat lunch at two in the afternoon.
+  example2_audio: trome-mesimeriano-st-65d8f8.mp3
 - id: A1-U05-038
   greek: παραγγέλνω
   phonetic_hint: ''
@@ -614,6 +762,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό παραγγέλνει
     first_person_plural: εμείς παραγγέλνουμε
   keg_communicative_function: Explicitly initiating an order at a restaurant or shop
+  example_audio: eimaste-etoimoi-na-p-9d3700.mp3
+  example2_el: Είστε έτοιμοι να παραγγείλετε;
+  example2_en: Are you ready to order?
+  example2_audio: eiste-etoimoi-na-par-bb3619.mp3
 - id: A1-U05-039
   greek: ορίστε
   phonetic_hint: ''
@@ -628,6 +780,10 @@ entries:
   grammatical_info:
     part_of_speech: polite communicative particle
   keg_communicative_function: Handing something over or responding politely to customers
+  example_audio: enan-kafe-parakalo-o-aace87.mp3
+  example2_el: Ορίστε ο καφές και το νερό σας.
+  example2_en: Here is your coffee and your water.
+  example2_audio: oriste-o-kafes-kai-t-bea97e.mp3
 - id: A1-U05-040
   greek: για μένα
   phonetic_hint: ''
@@ -643,6 +799,10 @@ entries:
     part_of_speech: prepositional phrase
     structure: για + strong personal pronoun in accusative (μένα)
   keg_communicative_function: Specifying one's individual choice in a group order
+  example_audio: gia-mena-mia-mpira-p-5e95b6.mp3
+  example2_el: Για μένα μία χωριάτικη σαλάτα και ένα νερό.
+  example2_en: For me a Greek salad and a water.
+  example2_audio: gia-mena-mia-choriat-5124eb.mp3
 - id: A1-U05-041
   greek: τι θα πάρετε;
   phonetic_hint: ''
@@ -657,6 +817,10 @@ entries:
   grammatical_info:
     part_of_speech: conversational question formula
   keg_communicative_function: Understanding standard waiter inquiry in listening tests
+  example_audio: geia-sas-ti-tha-pare-377a3d.mp3
+  example2_el: Καλησπέρα σας, τι θα πάρετε για φαγητό;
+  example2_en: Good evening, what will you have to eat?
+  example2_audio: kalispera-sas-ti-tha-dac6d0.mp3
 - id: A1-U05-042
   greek: καλή όρεξη
   phonetic_hint: ''
@@ -670,6 +834,10 @@ entries:
   grammatical_info:
     part_of_speech: dining courtesy phrase
   keg_communicative_function: Wishing dining companions a pleasant meal
+  example_audio: to-fagito-eftase-kal-6669a5.mp3
+  example2_el: Σας εύχομαι καλή όρεξη!
+  example2_en: I wish you bon appétit!
+  example2_audio: sas-eychomai-kali-or-41c5c6.mp3
 - id: A1-U05-043
   greek: στην υγειά μας
   phonetic_hint: ''
@@ -683,6 +851,10 @@ entries:
   grammatical_info:
     part_of_speech: social toast formula
   keg_communicative_function: Making toasts when drinking wine or beer
+  example_audio: stin-ygeia-mas-paidi-3bd973.mp3
+  example2_el: Στην υγειά σας και καλή διασκέδαση!
+  example2_en: Cheers to your health and have fun!
+  example2_audio: stin-ygeia-sas-kai-k-a3e24a.mp3
 - id: A1-U05-044
   greek: μέτριος, -α, -ο
   phonetic_hint: ''
@@ -701,6 +873,10 @@ entries:
     plural: μέτριοι, μέτριες, μέτρια
   keg_communicative_function: Specifying sweetness level when ordering Greek coffee
     or frappé
+  example_audio: enan-frape-metrio-me-4eda77.mp3
+  example2_el: Έναν ελληνικό καφέ μέτριο, παρακαλώ.
+  example2_en: A medium-sweet Greek coffee, please.
+  example2_audio: enan-elliniko-kafe-m-5c801c.mp3
 - id: A1-U05-045
   greek: σκέτος, -η, -ο
   phonetic_hint: ''
@@ -718,3 +894,7 @@ entries:
     neuter: σκέτο
     plural: σκέτοι, σκέτες, σκέτα
   keg_communicative_function: Ordering unsweetened coffee or plain food items
+  example_audio: pino-ton-kafe-panta--273c31.mp3
+  example2_el: Πίνω πάντα τον καφέ μου σκέτο, χωρίς ζάχαρη.
+  example2_en: I always drink my coffee plain, without sugar.
+  example2_audio: pino-panta-ton-kafe--25d272.mp3

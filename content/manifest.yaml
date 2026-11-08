@@ -358,6 +358,16 @@ units:
       professional employment and work inquiries (job interviews, work schedules,
       salary, vacation leave), and educational institution course enrollments and
       schedules.'
+- id: unit-109c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  order: KlikA1-09-C
+  is_expansion: true
+  expansion_of: KlikA1-09-A
+  lessons:
+  - id: lesson-01
+    file: unit-109c/lesson-01.yaml
+    title: 'Ενότητα 9: Διάλογοι & Εξετάσεις — Σπουδές, Εργασία, Επαγγέλματα & Αόριστος (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on university studies, courses, stationery, job interviews, professional duties, work schedules, salary negotiations, leave entitlement, and simple past (aorist) narrative interactions using vocabulary from Lessons 100 to 109.
 - id: unit-110
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Λεξιλόγιο)'
   order: KlikA1-10-A
@@ -375,6 +385,16 @@ units:
   - id: lesson-01
     file: unit-110b/lesson-01.yaml
     title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'
+- id: unit-110c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  order: KlikA1-10-C
+  is_expansion: true
+  expansion_of: KlikA1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-110c/lesson-01.yaml
+    title: 'Ενότητα 10: Διάλογοι & Εξετάσεις — Υγεία, Συμπτώματα, Γιατρός & Φαρμακείο (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on symptoms, body parts, medical appointments, clinical instructions, pharmacy prescriptions, medications, hospital facilities, and traditional Greek convalescence wishes using vocabulary from Lessons 100 to 110.
 - id: unit-111
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
     & Τελική Επανάληψη - Λεξιλόγιο)'
@@ -395,3 +415,13 @@ units:
     file: unit-111b/lesson-01.yaml
     title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Γραμματική &
       Εκφράσεις (Pages 233-255)'
+- id: unit-111c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  order: KlikA1-11-C
+  is_expansion: true
+  expansion_of: KlikA1-11-A
+  lessons:
+  - id: lesson-01
+    file: unit-111c/lesson-01.yaml
+    title: 'Ενότητα 11: Διάλογοι & Εξετάσεις — Υπηρεσίες, Τράπεζα, Ταχυδρομείο & A1 Capstone (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 capstone oral exam practice covering banking transactions, ATM usage, postal dispatch, utility bill payments, priority queues, indirect speech, and comprehensive A1 conversational synthesis using vocabulary from Lessons 100 to 111.

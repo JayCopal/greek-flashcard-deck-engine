@@ -33,6 +33,10 @@ entries:
     plural: οι αγορές
     accusative_singular: την αγορά
   keg_communicative_function: Inquiring about and identifying shopping venues
+  example_audio: pao-stin-kentriki-ag-4c7409.mp3
+  example2_el: Η κεντρική αγορά της πόλης έχει τα πάντα.
+  example2_en: The central market of the city has everything.
+  example2_audio: i-kentriki-agora-tis-c21fb6.mp3
 - id: A1-U06-002
   greek: η λαϊκή αγορά
   phonetic_hint: ''
@@ -49,6 +53,10 @@ entries:
     plural: οι λαϊκές αγορές
     accusative_singular: τη λαϊκή αγορά
   keg_communicative_function: Shopping for fresh agricultural produce in Greece
+  example_audio: kathe-savvato-pigain-4db0c0.mp3
+  example2_el: Η λαϊκή αγορά γίνεται κάθε Τετάρτη στη γειτονιά μας.
+  example2_en: The open-air market takes place every Wednesday in our neighborhood.
+  example2_audio: i-laiki-agora-gineta-9d3520.mp3
 - id: A1-U06-003
   greek: το σούπερ μάρκετ
   phonetic_hint: ''
@@ -64,6 +72,10 @@ entries:
     plural: τα σούπερ μάρκετ
     accusative_singular: το σούπερ μάρκετ
   keg_communicative_function: Navigating grocery retail chains
+  example_audio: kano-ta-psonia-tis-e-12d285.mp3
+  example2_el: Πάω στο σούπερ μάρκετ για τα ψώνια της εβδομάδας.
+  example2_en: I am going to the supermarket for the weekly groceries.
+  example2_audio: pao-sto-soyper-marke-320783.mp3
 - id: A1-U06-004
   greek: ο φούρνος
   phonetic_hint: ''
@@ -79,6 +91,10 @@ entries:
     plural: οι φούρνοι
     accusative_singular: τον φούρνο
   keg_communicative_function: Buying bread, bakery goods, and morning pies
+  example_audio: agorazo-fresko-psomi-29c6bd.mp3
+  example2_el: Παίρνω φρέσκο ψωμί κάθε πρωί από τον φούρνο.
+  example2_en: I get fresh bread every morning from the bakery.
+  example2_audio: pairno-fresko-psomi--4e9769.mp3
 - id: A1-U06-005
   greek: το κρεοπωλείο
   phonetic_hint: ''
@@ -94,6 +110,10 @@ entries:
     plural: τα κρεοπωλεία
     accusative_singular: το κρεοπωλείο
   keg_communicative_function: Purchasing fresh meat and poultry
+  example_audio: to-kreopoleio-einai--58aab4.mp3
+  example2_el: Ο κρεοπώλης κόβει το κρέας στο κρεοπωλείο.
+  example2_en: The butcher cuts the meat at the butcher shop.
+  example2_audio: o-kreopolis-kovei-to-2feb9e.mp3
 - id: A1-U06-006
   greek: το μαγαζί
   phonetic_hint: ''
@@ -109,6 +129,10 @@ entries:
     plural: τα μαγαζιά
     accusative_singular: το μαγαζί
   keg_communicative_function: Referring to commercial stores in general
+  example_audio: ta-magazia-kleinoyn--d757ef.mp3
+  example2_el: Αυτό το μαγαζί πουλάει παραδοσιακά προϊόντα.
+  example2_en: This shop sells traditional products.
+  example2_audio: ayto-to-magazi-poyla-9dbbdf.mp3
 - id: A1-U06-007
   greek: το λάδι / το ελαιόλαδο
   phonetic_hint: ''
@@ -125,6 +149,10 @@ entries:
     plural: τα λάδια
     accusative_singular: το λάδι / το ελαιόλαδο
   keg_communicative_function: Purchasing cooking oil and Greek staple products
+  example_audio: chreiazomaste-ena-li-c763bf.mp3
+  example2_el: Το ελληνικό ελαιόλαδο είναι εξαιρετικής ποιότητας.
+  example2_en: Greek olive oil is of excellent quality.
+  example2_audio: to-elliniko-elaiolad-5e93a5.mp3
 - id: A1-U06-008
   greek: το ρύζι
   phonetic_hint: ''
@@ -140,6 +168,10 @@ entries:
     plural: τα ρύζια
     accusative_singular: το ρύζι
   keg_communicative_function: Buying grain staples at the supermarket
+  example_audio: ena-paketo-ryzi-gia--014806.mp3
+  example2_el: Μαγειρεύω κοτόπουλο με ρύζι και λαχανικά.
+  example2_en: I cook chicken with rice and vegetables.
+  example2_audio: mageireyo-kotopoylo--65576c.mp3
 - id: A1-U06-009
   greek: τα μακαρόνια
   phonetic_hint: ''
@@ -155,6 +187,10 @@ entries:
     plural: τα μακαρόνια
     accusative_plural: τα μακαρόνια
   keg_communicative_function: Buying pasta on grocery shopping trips
+  example_audio: agorazo-dyo-paketa-m-aea1ee.mp3
+  example2_el: Τα παιδιά θέλουν μακαρόνια με κιμά και τυρί.
+  example2_en: The children want pasta with minced meat and cheese.
+  example2_audio: ta-paidia-theloyn-ma-54240d.mp3
 - id: A1-U06-010
   greek: τα φρούτα
   phonetic_hint: ''
@@ -170,6 +206,10 @@ entries:
     plural: τα φρούτα
     accusative_plural: τα φρούτα
   keg_communicative_function: Shopping at greengrocers or open markets
+  example_audio: sti-laiki-echei-pant-e3cb77.mp3
+  example2_el: Ποια φρούτα είναι εποχής το καλοκαίρι;
+  example2_en: Which fruits are in season in the summer?
+  example2_audio: poia-froyta-einai-ep-1bbdcc.mp3
 - id: A1-U06-011
   greek: τα λαχανικά
   phonetic_hint: ''
@@ -185,6 +225,10 @@ entries:
     plural: τα λαχανικά
     accusative_plural: τα λαχανικά
   keg_communicative_function: Buying fresh vegetables
+  example_audio: trome-polla-lachanik-f2c930.mp3
+  example2_el: Αγοράζω φρέσκα λαχανικά από τη λαϊκή.
+  example2_en: I buy fresh vegetables from the farmers' market.
+  example2_audio: agorazo-freska-lacha-6364d8.mp3
 - id: A1-U06-012
   greek: η ντομάτα
   phonetic_hint: ''
@@ -201,6 +245,10 @@ entries:
     plural: οι ντομάτες
     accusative_singular: την ντομάτα
   keg_communicative_function: Specifying produce quantities at the market
+  example_audio: valte-moy-dyo-kila-n-5b647f.mp3
+  example2_el: Πόσο κάνουν οι ντομάτες το κιλό;
+  example2_en: How much are tomatoes per kilo?
+  example2_audio: poso-kanoyn-oi-ntoma-4203e8.mp3
 - id: A1-U06-013
   greek: το αγγούρι
   phonetic_hint: ''
@@ -216,6 +264,10 @@ entries:
     plural: τα αγγούρια
     accusative_singular: το αγγούρι
   keg_communicative_function: Buying salad vegetables
+  example_audio: thelo-miso-kilo-aggo-899ffb.mp3
+  example2_el: Βάζω αγγούρι και ντομάτα στη σαλάτα.
+  example2_en: I put cucumber and tomato in the salad.
+  example2_audio: vazo-aggoyri-kai-nto-68e689.mp3
 - id: A1-U06-014
   greek: το κρεμμύδι
   phonetic_hint: ''
@@ -231,6 +283,10 @@ entries:
     plural: τα κρεμμύδια
     accusative_singular: το κρεμμύδι
   keg_communicative_function: Buying staple cooking vegetables
+  example_audio: ena-kilo-xera-kremmy-bc0995.mp3
+  example2_el: Κόβω ένα κρεμμύδι για τη σάλτσα.
+  example2_en: I chop an onion for the sauce.
+  example2_audio: kovo-ena-kremmydi-gi-678491.mp3
 - id: A1-U06-015
   greek: το μήλο
   phonetic_hint: ''
@@ -246,6 +302,10 @@ entries:
     plural: τα μήλα
     accusative_singular: το μήλο
   keg_communicative_function: Inquiring about fruit prices and buying fruit
+  example_audio: poso-echoyn-ta-kokki-6ab4c3.mp3
+  example2_el: Τρώω ένα πράσινο μήλο κάθε απόγευμα.
+  example2_en: I eat a green apple every afternoon.
+  example2_audio: troo-ena-prasino-mil-f5f6d7.mp3
 - id: A1-U06-016
   greek: το πορτοκάλι
   phonetic_hint: ''
@@ -262,6 +322,10 @@ entries:
     plural: τα πορτοκάλια
     accusative_singular: το πορτοκάλι
   keg_communicative_function: Purchasing citrus fruit by weight
+  example_audio: dyo-kila-portokalia--17de54.mp3
+  example2_el: Αυτά τα πορτοκάλια είναι πολύ γλυκά.
+  example2_en: These oranges are very sweet.
+  example2_audio: ayta-ta-portokalia-e-4d37e7.mp3
 - id: A1-U06-017
   greek: το κιλό
   phonetic_hint: ''
@@ -277,6 +341,10 @@ entries:
     plural: τα κιλά
     accusative_singular: το κιλό
   keg_communicative_function: Stating weights when buying food in Greece
+  example_audio: ena-kilo-feta-kai-mi-84bccb.mp3
+  example2_el: Θέλω δύο κιλά πατάτες και ένα κιλό μήλα.
+  example2_en: I want two kilos of potatoes and one kilo of apples.
+  example2_audio: thelo-dyo-kila-patat-c70b93.mp3
 - id: A1-U06-018
   greek: το γραμμάριο
   phonetic_hint: ''
@@ -293,6 +361,10 @@ entries:
     plural: τα γραμμάρια
     accusative_singular: το γραμμάριο
   keg_communicative_function: Ordering sliced deli meats and cheese by weight
+  example_audio: diakosia-grammaria-t-8a4d7f.mp3
+  example2_el: Βάλτε μου τριακόσια γραμμάρια φέτα, παρακαλώ.
+  example2_en: Give me three hundred grams of feta, please.
+  example2_audio: valte-moy-triakosia--cad7d5.mp3
 - id: A1-U06-019
   greek: το λίτρο
   phonetic_hint: ''
@@ -308,6 +380,10 @@ entries:
     plural: τα λίτρα
     accusative_singular: το λίτρο
   keg_communicative_function: Specifying liquid volumes for milk, oil, or wine
+  example_audio: ena-litro-fresko-gal-98f94c.mp3
+  example2_el: Πόσο κάνει ένα λίτρο γάλα στο σούπερ μάρκετ;
+  example2_en: How much is a liter of milk at the supermarket?
+  example2_audio: poso-kanei-ena-litro-66be3e.mp3
 - id: A1-U06-020
   greek: το μπουκάλι
   phonetic_hint: ''
@@ -323,6 +399,10 @@ entries:
     plural: τα μπουκάλια
     accusative_singular: το μπουκάλι
   keg_communicative_function: Ordering bottled drinks and liquids
+  example_audio: dyo-mpoykalia-emfial-b19f0d.mp3
+  example2_el: Ανοίγω ένα μπουκάλι κόκκινο κρασί.
+  example2_en: I open a bottle of red wine.
+  example2_audio: anoigo-ena-mpoykali--931f73.mp3
 - id: A1-U06-021
   greek: το πακέτο
   phonetic_hint: ''
@@ -339,6 +419,10 @@ entries:
     plural: τα πακέτα
     accusative_singular: το πακέτο
   keg_communicative_function: Buying boxed or packaged goods (pasta, coffee, cookies)
+  example_audio: ena-paketo-mpiskota--b3ee2d.mp3
+  example2_el: Πόσο κάνει αυτό το πακέτο καφέ;
+  example2_en: How much is this packet of coffee?
+  example2_audio: poso-kanei-ayto-to-p-2d78cd.mp3
 - id: A1-U06-022
   greek: το κομμάτι
   phonetic_hint: ''
@@ -354,6 +438,10 @@ entries:
     plural: τα κομμάτια
     accusative_singular: το κομμάτι
   keg_communicative_function: Asking for individual portions or pieces
+  example_audio: ena-kommati-tyropita-71f9ac.mp3
+  example2_el: Πόσο κάνει το κομμάτι;
+  example2_en: How much does each piece cost?
+  example2_audio: poso-kanei-to-kommat-c1dbab.mp3
 - id: A1-U06-023
   greek: το ρούχο
   phonetic_hint: ''
@@ -369,6 +457,10 @@ entries:
     plural: τα ρούχα
     accusative_singular: το ρούχο
   keg_communicative_function: Shopping for apparel and garments
+  example_audio: psonizoyme-roycha-st-64ec68.mp3
+  example2_el: Βάζω τα καθαρά ρούχα στη ντουλάπα.
+  example2_en: I put the clean clothes in the wardrobe.
+  example2_audio: vazo-ta-kathara-royc-dcd8f9.mp3
 - id: A1-U06-024
   greek: το παντελόνι
   phonetic_hint: ''
@@ -384,6 +476,10 @@ entries:
     plural: τα παντελόνια
     accusative_singular: το παντελόνι
   keg_communicative_function: Buying trousers or jeans
+  example_audio: dokimazo-ena-mayro-p-1a81f1.mp3
+  example2_el: Ψάχνω ένα τζιν παντελόνι στο νούμερό μου.
+  example2_en: I am looking for a pair of jeans in my size.
+  example2_audio: psachno-ena-tzin-pan-d9d5ff.mp3
 - id: A1-U06-025
   greek: η μπλούζα
   phonetic_hint: ''
@@ -399,6 +495,10 @@ entries:
     plural: οι μπλούζες
     accusative_singular: την μπλούζα
   keg_communicative_function: Buying tops and casual shirts
+  example_audio: moy-aresei-ayti-i-mp-7be69c.mp3
+  example2_el: Αυτή η άσπρη μπλούζα είναι από βαμβάκι.
+  example2_en: This white T-shirt is made of cotton.
+  example2_audio: ayti-i-aspri-mployza-57329d.mp3
 - id: A1-U06-026
   greek: το πουκάμισο
   phonetic_hint: ''
@@ -414,6 +514,10 @@ entries:
     plural: τα πουκάμισα
     accusative_singular: το πουκάμισο
   keg_communicative_function: Shopping for formal or business attire
+  example_audio: psachno-ena-aspro-po-000bc4.mp3
+  example2_el: Σιδερώνω το πουκάμισό μου για τη δουλειά.
+  example2_en: I iron my shirt for work.
+  example2_audio: siderono-to-poykamis-9ba344.mp3
 - id: A1-U06-027
   greek: τα παπούτσια
   phonetic_hint: ''
@@ -429,6 +533,10 @@ entries:
     plural: τα παπούτσια
     accusative_plural: τα παπούτσια
   keg_communicative_function: Buying footwear in shoe stores
+  example_audio: ayta-ta-papoytsia-ei-475c11.mp3
+  example2_el: Χρειάζομαι ένα ζευγάρι αθλητικά παπούτσια.
+  example2_en: I need a pair of athletic shoes.
+  example2_audio: chreiazomai-ena-zeyg-5282de.mp3
 - id: A1-U06-028
   greek: το μέγεθος
   phonetic_hint: ''
@@ -445,6 +553,10 @@ entries:
     plural: τα μεγέθη
     accusative_singular: το μέγεθος
   keg_communicative_function: Asking for clothes size or shoe size
+  example_audio: ti-megethos-forate-f-7f8091.mp3
+  example2_el: Αυτό το πουκάμισο είναι σε μεγάλο μέγεθος;
+  example2_en: Is this shirt available in a large size?
+  example2_audio: ayto-to-poykamiso-ei-c1fea6.mp3
 - id: A1-U06-029
   greek: το χρώμα
   phonetic_hint: ''
@@ -460,6 +572,10 @@ entries:
     plural: τα χρώματα
     accusative_singular: το χρώμα
   keg_communicative_function: Asking for products in specific colors
+  example_audio: echete-ayto-to-forem-471a3f.mp3
+  example2_el: Ποιο χρώμα προτιμάτε, το μπλε ή το μαύρο;
+  example2_en: Which color do you prefer, blue or black?
+  example2_audio: poio-chroma-protimat-196e8c.mp3
 - id: A1-U06-030
   greek: η τιμή
   phonetic_hint: ''
@@ -475,6 +591,10 @@ entries:
     plural: οι τιμές
     accusative_singular: την τιμή
   keg_communicative_function: Reading price tags or asking about costs
+  example_audio: i-timi-einai-poly-ka-8cbb83.mp3
+  example2_el: Ποια είναι η τελική τιμή με την έκπτωση;
+  example2_en: What is the final price with the discount?
+  example2_audio: poia-einai-i-teliki--d5b5d1.mp3
 - id: A1-U06-031
   greek: τα ρέστα
   phonetic_hint: ''
@@ -490,6 +610,10 @@ entries:
     plural: τα ρέστα
     accusative_plural: τα ρέστα
   keg_communicative_function: Handling cash change during transactions
+  example_audio: oriste-ta-resta-sas--5815c3.mp3
+  example2_el: Κρατήστε τα ρέστα, ευχαριστώ πολύ.
+  example2_en: Keep the change, thank you very much.
+  example2_audio: kratiste-ta-resta-ey-564f84.mp3
 - id: A1-U06-032
   greek: η απόδειξη
   phonetic_hint: ''
@@ -506,6 +630,10 @@ entries:
     plural: οι αποδείξεις
     accusative_singular: την απόδειξη
   keg_communicative_function: Requesting or checking shopping receipts
+  example_audio: moy-dinete-tin-apode-7b9062.mp3
+  example2_el: Κρατάω την απόδειξη για την εγγύηση.
+  example2_en: I keep the receipt for the guarantee.
+  example2_audio: kratao-tin-apodeixi--2bcae3.mp3
 - id: A1-U06-033
   greek: τα μετρητά
   phonetic_hint: ''
@@ -521,6 +649,10 @@ entries:
     plural: τα μετρητά
     accusative_plural: τα μετρητά
   keg_communicative_function: Specifying cash payment method at checkout
+  example_audio: plironete-me-metrita-bb87b1.mp3
+  example2_el: Έχω μόνο μετρητά μαζί μου σήμερα.
+  example2_en: I only have cash with me today.
+  example2_audio: echo-mono-metrita-ma-195a5f.mp3
 - id: A1-U06-034
   greek: η κάρτα
   phonetic_hint: ''
@@ -536,6 +668,10 @@ entries:
     plural: οι κάρτες
     accusative_singular: την κάρτα
   keg_communicative_function: Paying by debit or credit card
+  example_audio: mporo-na-pliroso-me--2c137a.mp3
+  example2_el: Δέχεστε πιστωτική κάρτα;
+  example2_en: Do you accept a credit card?
+  example2_audio: decheste-pistotiki-k-b8027a.mp3
 - id: A1-U06-035
   greek: αγοράζω
   phonetic_hint: ''
@@ -553,6 +689,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό αγοράζει
     first_person_plural: εμείς αγοράζουμε
   keg_communicative_function: Talking about purchasing goods and everyday items
+  example_audio: agorazo-froyta-apo-t-211051.mp3
+  example2_el: Τι αγοράζετε συνήθως από τον φούρνο;
+  example2_en: What do you usually buy from the bakery?
+  example2_audio: ti-agorazete-synitho-a97473.mp3
 - id: A1-U06-036
   greek: κοστίζω
   phonetic_hint: ''
@@ -570,6 +710,10 @@ entries:
     third_person_singular: αυτό κοστίζει
     first_person_plural: αυτά κοστίζουν (3rd plural)
   keg_communicative_function: Inquiring about prices and costs of items
+  example_audio: poso-kostizei-ayto-t-8a334d.mp3
+  example2_el: Αυτό το βιβλίο κοστίζει δέκα ευρώ.
+  example2_en: This book costs ten euros.
+  example2_audio: ayto-to-vivlio-kosti-89335d.mp3
 - id: A1-U06-037
   greek: πληρώνω
   phonetic_hint: ''
@@ -587,6 +731,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό πληρώνει
     first_person_plural: εμείς πληρώνουμε
   keg_communicative_function: Executing payment transactions at stores and supermarkets
+  example_audio: plirono-sto-tameio-m-587a21.mp3
+  example2_el: Ποιος πληρώνει τον λογαριασμό σήμερα;
+  example2_en: Who pays the bill today?
+  example2_audio: poios-plironei-ton-l-3b706a.mp3
 - id: A1-U06-038
   greek: ψάχνω
   phonetic_hint: ''
@@ -604,6 +752,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ψάχνει
     first_person_plural: εμείς ψάχνουμε
   keg_communicative_function: Asking shop staff for assistance when locating items
+  example_audio: kalimera-sas-psachno-866715.mp3
+  example2_el: Ψάχνω ένα δώρο για τα γενέθλια του φίλου μου.
+  example2_en: I am looking for a present for my friend's birthday.
+  example2_audio: psachno-ena-doro-gia-e756ad.mp3
 - id: A1-U06-039
   greek: πόσο κάνει; / πόσο έχουν;
   phonetic_hint: ''
@@ -619,6 +771,10 @@ entries:
     part_of_speech: pricing inquiry formula
     forms: πόσο κάνει; (singular) / πόσο έχουν; (plural)
   keg_communicative_function: Asking for prices of singular and plural merchandise
+  example_audio: poso-kanoyn-ayta-ta--e4b0c5.mp3
+  example2_el: Πόσο κάνει αυτό το σακάκι;
+  example2_en: How much is this jacket?
+  example2_audio: poso-kanei-ayto-to-s-0efc23.mp3
 - id: A1-U06-040
   greek: ακριβός, -ή, -ό
   phonetic_hint: ''
@@ -635,6 +791,10 @@ entries:
     neuter: ακριβό
     plural: ακριβοί, ακριβές, ακριβά
   keg_communicative_function: Evaluating merchandise prices and comparing store costs
+  example_audio: ayto-to-palto-einai--72747e.mp3
+  example2_el: Αυτό το εστιατόριο είναι πολύ ακριβό για μας.
+  example2_en: This restaurant is too expensive for us.
+  example2_audio: ayto-to-estiatorio-e-d96cb5.mp3
 - id: A1-U06-041
   greek: φθηνός, -ή, -ό / φτηνός, -ή, -ό
   phonetic_hint: ''
@@ -652,6 +812,10 @@ entries:
     neuter: φθηνό (φτηνό)
     plural: φθηνοί, φθηνές, φθηνά
   keg_communicative_function: Comparing merchandise prices and identifying bargains
+  example_audio: ayta-ta-mila-einai-p-c5f39c.mp3
+  example2_el: Ψάχνω ένα φθηνό δωμάτιο κοντά στο κέντρο.
+  example2_en: I am looking for an inexpensive room near the center.
+  example2_audio: psachno-ena-fthino-d-8f55a8.mp3
 - id: A1-U06-042
   greek: το ευρώ
   phonetic_hint: ''
@@ -667,3 +831,7 @@ entries:
     plural: τα ευρώ
     accusative_singular: το ευρώ
   keg_communicative_function: Stating exact monetary prices and payment amounts
+  example_audio: to-psomi-kostizei-en-2a680a.mp3
+  example2_el: Έχετε ρέστα από είκοσι ευρώ;
+  example2_en: Do you have change for twenty euros?
+  example2_audio: echete-resta-apo-eik-6fd7fd.mp3

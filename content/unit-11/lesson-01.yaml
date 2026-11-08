@@ -36,6 +36,10 @@ entries:
     plural: οι καιροί
     accusative_singular: τον καιρό
   keg_communicative_function: Inquiring about and describing the weather
+  example_audio: pos-einai-o-kairos-s-ac3ee5.mp3
+  example2_el: Τι καιρό κάνει σήμερα στη Θεσσαλονίκη;
+  example2_en: What is the weather like today in Thessaloniki?
+  example2_audio: ti-kairo-kanei-simer-808256.mp3
 - id: A1-U11-002
   greek: ο ήλιος
   phonetic_hint: ''
@@ -51,6 +55,10 @@ entries:
     plural: οι ήλιοι
     accusative_singular: τον ήλιο
   keg_communicative_function: Describing sunny atmospheric conditions
+  example_audio: o-ilios-lampei-ston--e968cf.mp3
+  example2_el: Φοράω γυαλιά ηλίου όταν έχει δυνατό ήλιο.
+  example2_en: I wear sunglasses when there is strong sun.
+  example2_audio: forao-gyalia-ilioy-o-db32d4.mp3
 - id: A1-U11-003
   greek: η βροχή
   phonetic_hint: ''
@@ -66,6 +74,10 @@ entries:
     plural: οι βροχές
     accusative_singular: τη βροχή
   keg_communicative_function: Discussing rainfall and rainy weather
+  example_audio: i-vrochi-einai-poly--3d4e86.mp3
+  example2_el: Μετά τη βροχή ο αέρας είναι καθαρός.
+  example2_en: After the rain the air is clean.
+  example2_audio: meta-ti-vrochi-o-aer-b45ea1.mp3
 - id: A1-U11-004
   greek: το χιόνι
   phonetic_hint: ''
@@ -81,6 +93,10 @@ entries:
     plural: τα χιόνια
     accusative_singular: το χιόνι
   keg_communicative_function: Discussing snowfall and winter conditions
+  example_audio: yparchei-poly-chioni-e6b398.mp3
+  example2_el: Τα παιδιά φτιάχνουν έναν χιονάνθρωπο στο χιόνι.
+  example2_en: The children are making a snowman in the snow.
+  example2_audio: ta-paidia-ftiachnoyn-8bb499.mp3
 - id: A1-U11-005
   greek: ο αέρας / ο άνεμος
   phonetic_hint: ''
@@ -96,6 +112,10 @@ entries:
     plural: οι αέρηδες / οι άνεμοι
     accusative_singular: τον αέρα / τον άνεμο
   keg_communicative_function: Describing windy weather conditions
+  example_audio: simera-echei-poly-dy-94b163.mp3
+  example2_el: Έχει πολύ δυνατό αέρα σήμερα στην παραλία.
+  example2_en: There is very strong wind today at the beach.
+  example2_audio: echei-poly-dynato-ae-beaa89.mp3
 - id: A1-U11-006
   greek: το σύννεφο
   phonetic_hint: ''
@@ -111,6 +131,10 @@ entries:
     plural: τα σύννεφα
     accusative_singular: το σύννεφο
   keg_communicative_function: Describing sky conditions
+  example_audio: vlepo-mayra-synnefa--fccd0c.mp3
+  example2_el: Ο ουρανός είναι γεμάτος άσπρα σύννεφα.
+  example2_en: The sky is full of white clouds.
+  example2_audio: o-oyranos-einai-gema-0382c2.mp3
 - id: A1-U11-007
   greek: η συννεφιά
   phonetic_hint: ''
@@ -126,6 +150,10 @@ entries:
     plural: οι συννεφιές
     accusative_singular: τη συννεφιά
   keg_communicative_function: Reporting cloudy weather
+  example_audio: echei-synnefia-alla--0ca7c8.mp3
+  example2_el: Δεν μου αρέσει η συννεφιά, προτιμώ τον ήλιο.
+  example2_en: I do not like cloudy weather, I prefer the sun.
+  example2_audio: den-moy-aresei-i-syn-160d96.mp3
 - id: A1-U11-008
   greek: η θερμοκρασία
   phonetic_hint: ''
@@ -141,6 +169,10 @@ entries:
     plural: οι θερμοκρασίες
     accusative_singular: τη θερμοκρασία
   keg_communicative_function: Reading and discussing temperature forecasts
+  example_audio: i-thermokrasia-einai-bb2845.mp3
+  example2_el: Η θερμοκρασία πέφτει το βράδυ.
+  example2_en: The temperature drops at night.
+  example2_audio: i-thermokrasia-pefte-5e086f.mp3
 - id: A1-U11-009
   greek: ο βαθμός
   phonetic_hint: ''
@@ -156,6 +188,10 @@ entries:
     plural: οι βαθμοί
     accusative_singular: τον βαθμό
   keg_communicative_function: Expressing degrees of temperature
+  example_audio: to-kalokairi-echoyme-e6b624.mp3
+  example2_el: Σήμερα η θερμοκρασία είναι τριάντα βαθμοί.
+  example2_en: Today the temperature is thirty degrees.
+  example2_audio: simera-i-thermokrasi-a99cac.mp3
 - id: A1-U11-010
   greek: κάνει ζέστη
   phonetic_hint: ''
@@ -169,6 +205,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (impersonal weather idiom)
   keg_communicative_function: Expressing that the weather is warm or hot
+  example_audio: simera-kanei-polli-z-3edb91.mp3
+  example2_el: Το καλοκαίρι κάνει υπερβολική ζέστη.
+  example2_en: In the summer it is excessively hot.
+  example2_audio: to-kalokairi-kanei-y-963d7f.mp3
 - id: A1-U11-011
   greek: κάνει κρύο
   phonetic_hint: ''
@@ -182,6 +222,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (impersonal weather idiom)
   keg_communicative_function: Expressing cold weather conditions
+  example_audio: ton-cheimona-kanei-a-4f03b0.mp3
+  example2_el: Κλείστε την πόρτα γιατί κάνει κρύο.
+  example2_en: Close the door because it is cold.
+  example2_audio: kleiste-tin-porta-gi-9d27e1.mp3
 - id: A1-U11-012
   greek: έχει ήλιο
   phonetic_hint: ''
@@ -195,6 +239,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (impersonal weather idiom)
   keg_communicative_function: Describing sunny days
+  example_audio: echei-oraio-ilio-sim-2110ac.mp3
+  example2_el: Σήμερα έχει λαμπερό ήλιο και καθαρό ουρανό.
+  example2_en: Today there is bright sun and clear sky.
+  example2_audio: simera-echei-lampero-499b6c.mp3
 - id: A1-U11-013
   greek: βρέχει
   phonetic_hint: ''
@@ -211,6 +259,10 @@ entries:
     third_person_singular: βρέχει
     first_person_plural: 'βρέχουμε (as personal transitive: we wet)'
   keg_communicative_function: Reporting rainy conditions
+  example_audio: pare-omprela-giati-v-8dc9b5.mp3
+  example2_el: Βρέχει ασταμάτητα από το πρωί.
+  example2_en: It has been raining non-stop since morning.
+  example2_audio: vrechei-astamatita-a-051fb3.mp3
 - id: A1-U11-014
   greek: χιονίζει
   phonetic_hint: ''
@@ -227,6 +279,10 @@ entries:
     third_person_singular: χιονίζει
     first_person_plural: χιονίζουμε
   keg_communicative_function: Reporting snow conditions
+  example_audio: chionizei-sta-voyna--b67f8f.mp3
+  example2_el: Τον χειμώνα χιονίζει συχνά στα βουνά.
+  example2_en: In the winter it snows frequently in the mountains.
+  example2_audio: ton-cheimona-chioniz-f72bc4.mp3
 - id: A1-U11-015
   greek: φυσάει / φυσά
   phonetic_hint: ''
@@ -243,6 +299,10 @@ entries:
     third_person_singular: φυσάει / φυσά
     first_person_plural: φυσάμε
   keg_communicative_function: Reporting windy atmospheric phenomena
+  example_audio: fysaei-poly-dynata-k-d3c7eb.mp3
+  example2_el: Σήμερα δεν φυσάει καθόλου.
+  example2_en: Today there is no wind at all.
+  example2_audio: simera-den-fysaei-ka-b3604e.mp3
 - id: A1-U11-016
   greek: ο ελεύθερος χρόνος
   phonetic_hint: ''
@@ -258,6 +318,10 @@ entries:
     plural: οι ελεύθεροι χρόνοι
     accusative_singular: τον ελεύθερο χρόνο
   keg_communicative_function: Talking about leisure availability and hobbies
+  example_audio: ti-kaneis-ston-eleyt-abeafb.mp3
+  example2_el: Έχω λίγο ελεύθερο χρόνο τα απογεύματα.
+  example2_en: I have a little free time in the afternoons.
+  example2_audio: echo-ligo-eleythero--3a6bb4.mp3
 - id: A1-U11-017
   greek: οι διακοπές
   phonetic_hint: ''
@@ -273,6 +337,10 @@ entries:
     plural: οι διακοπές
     accusative_singular: τη διακοπή (break / interruption)
   keg_communicative_function: Discussing vacation plans and holiday periods
+  example_audio: to-kalokairi-pame-di-a7ba03.mp3
+  example2_el: Πότε αρχίζουν οι καλοκαιρινές διακοπές;
+  example2_en: When do summer vacations begin?
+  example2_audio: pote-archizoyn-oi-ka-bb788f.mp3
 - id: A1-U11-018
   greek: η παραλία
   phonetic_hint: ''
@@ -288,6 +356,10 @@ entries:
     plural: οι παραλίες
     accusative_singular: την παραλία
   keg_communicative_function: Talking about seaside outings and summer recreation
+  example_audio: pigainoyme-stin-para-ef1ff5.mp3
+  example2_el: Η παραλία είναι γεμάτη ομπρέλες και ξαπλώστρες.
+  example2_en: The beach is full of umbrellas and sunbeds.
+  example2_audio: i-paralia-einai-gema-2b267f.mp3
 - id: A1-U11-019
   greek: η θάλασσα
   phonetic_hint: ''
@@ -303,6 +375,10 @@ entries:
     plural: οι θάλασσες
     accusative_singular: τη θάλασσα
   keg_communicative_function: Talking about marine geography and swimming
+  example_audio: to-nero-sti-thalassa-60c417.mp3
+  example2_el: Μου αρέσει να κοιτάζω τη γαλάζια θάλασσα.
+  example2_en: I like looking at the blue sea.
+  example2_audio: moy-aresei-na-koitaz-45bcec.mp3
 - id: A1-U11-020
   greek: το βουνό
   phonetic_hint: ''
@@ -318,6 +394,10 @@ entries:
     plural: τα βουνά
     accusative_singular: το βουνό
   keg_communicative_function: Talking about mountain hiking and nature excursions
+  example_audio: moy-aresei-na-perpat-d10b14.mp3
+  example2_el: Το σαββατοκύριακο πάμε εκδρομή στο βουνό.
+  example2_en: On the weekend we go on an excursion to the mountain.
+  example2_audio: to-savvatokyriako-pa-4656d0.mp3
 - id: A1-U11-021
   greek: το νησί
   phonetic_hint: ''
@@ -333,6 +413,10 @@ entries:
     plural: τα νησιά
     accusative_singular: το νησί
   keg_communicative_function: Talking about Greek islands and travel destinations
+  example_audio: i-santorini-einai-en-e118b9.mp3
+  example2_el: Πολλά ελληνικά νησιά έχουν γραφικά χωριά.
+  example2_en: Many Greek islands have picturesque villages.
+  example2_audio: polla-ellinika-nisia-726d1a.mp3
 - id: A1-U11-022
   greek: το ταξίδι
   phonetic_hint: ''
@@ -348,6 +432,10 @@ entries:
     plural: τα ταξίδια
     accusative_singular: το ταξίδι
   keg_communicative_function: Discussing journeys and wishing good travels
+  example_audio: kalo-taxidi-kai-kali-8deaed.mp3
+  example2_el: Ετοιμάζω τις βαλίτσες για το ταξίδι.
+  example2_en: I prepare the suitcases for the trip.
+  example2_audio: etoimazo-tis-valitse-e7903a.mp3
 - id: A1-U11-023
   greek: η βόλτα
   phonetic_hint: ''
@@ -364,6 +452,10 @@ entries:
     plural: οι βόλτες
     accusative_singular: τη βόλτα
   keg_communicative_function: Arranging casual walks and outings
+  example_audio: pame-mia-volta-stin--27665e.mp3
+  example2_el: Κάνουμε μία βόλτα στα σοκάκια του νησιού.
+  example2_en: We take a stroll in the alleys of the island.
+  example2_audio: kanoyme-mia-volta-st-d380e2.mp3
 - id: A1-U11-024
   greek: το ποδόσφαιρο
   phonetic_hint: ''
@@ -379,6 +471,10 @@ entries:
     plural: τα ποδόσφαιρα (rare)
     accusative_singular: το ποδόσφαιρο
   keg_communicative_function: Discussing team sports and athletic hobbies
+  example_audio: ta-paidia-paizoyn-po-967f32.mp3
+  example2_el: Βλέπουμε ποδόσφαιρο στην τηλεόραση με φίλους.
+  example2_en: We watch soccer on television with friends.
+  example2_audio: vlepoyme-podosfairo--cf2720.mp3
 - id: A1-U11-025
   greek: το μπάσκετ
   phonetic_hint: ''
@@ -394,6 +490,10 @@ entries:
     plural: τα μπάσκετ
     accusative_singular: το μπάσκετ
   keg_communicative_function: Discussing basketball games and hobbies
+  example_audio: paizo-mpasket-me-toy-7ace42.mp3
+  example2_el: Η ελληνική ομάδα μπάσκετ είναι πολύ καλή.
+  example2_en: The Greek basketball team is very good.
+  example2_audio: i-elliniki-omada-mpa-c648fc.mp3
 - id: A1-U11-026
   greek: το σινεμά
   phonetic_hint: ''
@@ -409,6 +509,10 @@ entries:
     plural: τα σινεμά
     accusative_singular: το σινεμά
   keg_communicative_function: Going to movie screenings and entertainment
+  example_audio: pame-sinema-apopse-n-2af2c3.mp3
+  example2_el: Πάμε συχνά στο θερινό σινεμά το καλοκαίρι.
+  example2_en: We often go to the open-air cinema in the summer.
+  example2_audio: pame-sychna-sto-ther-bbba13.mp3
 - id: A1-U11-027
   greek: το θέατρο
   phonetic_hint: ''
@@ -424,6 +528,10 @@ entries:
     plural: τα θέατρα
     accusative_singular: το θέατρο
   keg_communicative_function: Attending theatrical performances
+  example_audio: moy-aresei-poly-to-a-be6121.mp3
+  example2_el: Απόψε έχουμε εισιτήρια για το θέατρο.
+  example2_en: Tonight we have tickets for the theater.
+  example2_audio: apopse-echoyme-eisit-92c42d.mp3
 - id: A1-U11-028
   greek: η συναυλία
   phonetic_hint: ''
@@ -439,6 +547,10 @@ entries:
     plural: οι συναυλίες
     accusative_singular: τη συναυλία
   keg_communicative_function: Attending musical performances and live shows
+  example_audio: echoyme-eisitiria-gi-97b029.mp3
+  example2_el: Η συναυλία αρχίζει στις εννέα το βράδυ.
+  example2_en: The concert starts at nine in the evening.
+  example2_audio: i-synaylia-archizei--47da38.mp3
 - id: A1-U11-029
   greek: η μουσική
   phonetic_hint: ''
@@ -454,6 +566,10 @@ entries:
     plural: οι μουσικές
     accusative_singular: τη μουσική
   keg_communicative_function: Expressing musical taste and listening habits
+  example_audio: akoyo-paradosiaki-el-760b91.mp3
+  example2_el: Μου αρέσει να ακούω χαλαρωτική μουσική.
+  example2_en: I like listening to relaxing music.
+  example2_audio: moy-aresei-na-akoyo--ccaaee.mp3
 - id: A1-U11-030
   greek: η φωτογραφία
   phonetic_hint: ''
@@ -470,6 +586,10 @@ entries:
     plural: οι φωτογραφίες
     accusative_singular: τη φωτογραφία
   keg_communicative_function: Taking vacation photos and discussing visual hobbies
+  example_audio: vgazo-polles-fotogra-869b1d.mp3
+  example2_el: Μπορείτε να μας βγάλετε μία φωτογραφία, παρακαλώ;
+  example2_en: Could you take a photo of us, please?
+  example2_audio: mporeite-na-mas-vgal-0fee0c.mp3
 - id: A1-U11-031
   greek: παίζω
   phonetic_hint: ''
@@ -486,6 +606,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό παίζει
     first_person_plural: εμείς παίζουμε
   keg_communicative_function: Talking about playing games, sports, and musical instruments
+  example_audio: paizo-kithara-kai-tr-d3d29a.mp3
+  example2_el: Τα παιδιά παίζουν επιτραπέζια παιχνίδια στο σπίτι.
+  example2_en: The children play board games at home.
+  example2_audio: ta-paidia-paizoyn-ep-a33ecd.mp3
 - id: A1-U11-032
   greek: ταξιδεύω
   phonetic_hint: ''
@@ -503,6 +627,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ταξιδεύει
     first_person_plural: εμείς ταξιδεύουμε
   keg_communicative_function: Describing travel habits and destinations
+  example_audio: taxideyoyme-sychna-s-558a45.mp3
+  example2_el: Ταξιδεύω με πλοίο στις Κυκλάδες κάθε χρόνο.
+  example2_en: I travel by ferry to the Cyclades every year.
+  example2_audio: taxideyo-me-ploio-st-747264.mp3
 - id: A1-U11-033
   greek: κολυμπάω / κολυμπώ
   phonetic_hint: ''
@@ -520,6 +648,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό κολυμπάει (κολυμπά)
     first_person_plural: εμείς κολυμπάμε
   keg_communicative_function: Describing swimming and aquatic recreation
+  example_audio: kolympao-sti-thalass-848487.mp3
+  example2_el: Κολυμπάμε κάθε πρωί πριν από τη δουλειά.
+  example2_en: We swim every morning before work.
+  example2_audio: kolympame-kathe-proi-2976eb.mp3
 - id: A1-U11-034
   greek: χορεύω
   phonetic_hint: ''
@@ -537,6 +669,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό χορεύει
     first_person_plural: εμείς χορεύουμε
   keg_communicative_function: Talking about dancing and festive social gatherings
+  example_audio: choreyoyme-syrtaki-s-78796a.mp3
+  example2_el: Χορεύεις ελληνικούς χορούς;
+  example2_en: Do you dance Greek dances?
+  example2_audio: choreyeis-ellinikoys-165cbb.mp3
 - id: A1-U11-035
   greek: ακούω
   phonetic_hint: ''
@@ -553,6 +689,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ακούει
     first_person_plural: εμείς ακούμε
   keg_communicative_function: Expressing auditory perception and music consumption
+  example_audio: akoyo-radiofono-otan-cf5b94.mp3
+  example2_el: Ακούω τα αγαπημένα μου τραγούδια στο τηλέφωνο.
+  example2_en: I listen to my favorite songs on the phone.
+  example2_audio: akoyo-ta-agapimena-m-06cb55.mp3
 - id: A1-U11-036
   greek: προτιμάω / προτιμώ
   phonetic_hint: ''
@@ -570,6 +710,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό προτιμάει (προτιμά)
     first_person_plural: εμείς προτιμάμε
   keg_communicative_function: Stating preferences between leisure options or choices
+  example_audio: protimo-ti-thalassa--bf35fa.mp3
+  example2_el: Προτιμάτε καφέ ή τσάι;
+  example2_en: Do you prefer coffee or tea?
+  example2_audio: protimate-kafe-i-tsa-705508.mp3
 - id: A1-U11-037
   greek: μου αρέσει
   phonetic_hint: ''
@@ -585,6 +729,10 @@ entries:
     part_of_speech: phrase (preference construction)
   keg_communicative_function: Expressing likes and personal tastes with singular objects
     or actions
+  example_audio: moy-aresei-poly-to-e-deb5e2.mp3
+  example2_el: Μου αρέσει πολύ να διαβάζω βιβλία.
+  example2_en: I like reading books very much.
+  example2_audio: moy-aresei-poly-na-d-647ca2.mp3
 - id: A1-U11-038
   greek: μου αρέσουν
   phonetic_hint: ''
@@ -599,6 +747,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (preference construction)
   keg_communicative_function: Expressing likes and personal tastes with plural objects
+  example_audio: moy-aresoyn-ta-palia-3908c5.mp3
+  example2_el: Μου αρέσουν οι παραδοσιακοί χοροί της Ελλάδας.
+  example2_en: I like traditional dances of Greece.
+  example2_audio: moy-aresoyn-oi-parad-959c5e.mp3
 - id: A1-U11-039
   greek: διασκεδάζω
   phonetic_hint: ''
@@ -616,6 +768,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό διασκεδάζει
     first_person_plural: εμείς διασκεδάζουμε
   keg_communicative_function: Talking about having a good time at outings and events
+  example_audio: diaskedazoyme-poly-s-749017.mp3
+  example2_el: Διασκεδάζουμε στα γενέθλια του φίλου μας.
+  example2_en: We have fun at our friend's birthday.
+  example2_audio: diaskedazoyme-sta-ge-27058c.mp3
 - id: A1-U11-040
   greek: χαλαρώνω
   phonetic_hint: ''
@@ -633,6 +789,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό χαλαρώνει
     first_person_plural: εμείς χαλαρώνουμε
   keg_communicative_function: Expressing unwinding and resting during free time
+  example_audio: to-savvatokyriako-me-f6bcf8.mp3
+  example2_el: Ακούω απαλή μουσική για να χαλαρώσω.
+  example2_en: I listen to soft music in order to relax.
+  example2_audio: akoyo-apali-moysiki--224d35.mp3
 - id: A1-U11-041
   greek: τον / την / το
   phonetic_hint: ''
@@ -649,6 +809,10 @@ entries:
     clitic_forms: τον (masc), την (fem), το (neut)
   keg_communicative_function: Referring to persons or objects as direct objects without
     repeating nouns
+  example_audio: vlepeis-ton-niko-nai-c9f879.mp3
+  example2_el: Έχεις το βιβλίο μου; — Ναι, το έχω.
+  example2_en: Do you have my book? — Yes, I have it.
+  example2_audio: echeis-to-vivlio-moy-255ce1.mp3
 - id: A1-U11-042
   greek: τους / τις / τα
   phonetic_hint: ''
@@ -664,3 +828,7 @@ entries:
     part_of_speech: pronoun (personal direct-object plural)
     clitic_forms: τους (masc), τις (fem), τα (neut)
   keg_communicative_function: Referring to plural persons or objects as direct objects
+  example_audio: xereis-toys-kathigit-f47f54.mp3
+  example2_el: Βλέπεις τις φωτογραφίες; — Ναι, τις βλέπω.
+  example2_en: Do you see the photos? — Yes, I see them.
+  example2_audio: vlepeis-tis-fotograf-e1b813.mp3

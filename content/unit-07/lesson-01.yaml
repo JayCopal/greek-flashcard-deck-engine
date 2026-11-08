@@ -36,6 +36,10 @@ entries:
     plural: τα σπίτια
     accusative_singular: το σπίτι
   keg_communicative_function: Describing one's residence and home
+  example_audio: meno-se-ena-palio-al-b60f58.mp3
+  example2_el: Το σπίτι μας έχει τρία υπνοδωμάτια και κήπο.
+  example2_en: Our house has three bedrooms and a garden.
+  example2_audio: to-spiti-mas-echei-t-01eee3.mp3
 - id: A1-U07-002
   greek: το διαμέρισμα
   phonetic_hint: ''
@@ -52,6 +56,10 @@ entries:
     plural: τα διαμερίσματα
     accusative_singular: το διαμέρισμα
   keg_communicative_function: Describing apartment living and reading housing ads
+  example_audio: psachno-ena-diameris-e4602c.mp3
+  example2_el: Το διαμέρισμα είναι στον τρίτο όροφο.
+  example2_en: The apartment is on the third floor.
+  example2_audio: to-diamerisma-einai--622f34.mp3
 - id: A1-U07-003
   greek: η πολυκατοικία
   phonetic_hint: ''
@@ -68,6 +76,10 @@ entries:
     plural: οι πολυκατοικίες
     accusative_singular: την πολυκατοικία
   keg_communicative_function: Identifying building types in urban neighborhoods
+  example_audio: i-polykatoikia-mas-e-b582ad.mp3
+  example2_el: Η πολυκατοικία έχει καινούριο ασανσέρ.
+  example2_en: The apartment building has a new elevator.
+  example2_audio: i-polykatoikia-echei-3c902b.mp3
 - id: A1-U07-004
   greek: το δωμάτιο
   phonetic_hint: ''
@@ -84,6 +96,10 @@ entries:
     plural: τα δωμάτια
     accusative_singular: το δωμάτιο
   keg_communicative_function: Specifying number of rooms or booking hotel rooms
+  example_audio: thelo-ena-diklino-do-dbf5cc.mp3
+  example2_el: Το δωμάτιό μου είναι πάντα καθαρό και τακτοποιημένο.
+  example2_en: My room is always clean and tidy.
+  example2_audio: to-domatio-moy-einai-4d0561.mp3
 - id: A1-U07-005
   greek: το ξενοδοχείο
   phonetic_hint: ''
@@ -99,6 +115,10 @@ entries:
     plural: τα ξενοδοχεία
     accusative_singular: το ξενοδοχείο
   keg_communicative_function: Inquiring about tourist lodging and reservations
+  example_audio: to-xenodocheio-einai-9148ee.mp3
+  example2_el: Πόσο κοστίζει το δωμάτιο στο ξενοδοχείο;
+  example2_en: How much does the room in the hotel cost?
+  example2_audio: poso-kostizei-to-dom-084586.mp3
 - id: A1-U07-006
   greek: ο όροφος
   phonetic_hint: ''
@@ -116,6 +136,10 @@ entries:
     accusative_singular: τον όροφο
   keg_communicative_function: Stating apartment floor level in addresses or housing
     ads
+  example_audio: menoyme-ston-deytero-6c8e13.mp3
+  example2_el: Σε ποιον όροφο είναι το γραφείο σας;
+  example2_en: On which floor is your office?
+  example2_audio: se-poion-orofo-einai-aae53d.mp3
 - id: A1-U07-007
   greek: το ισόγειο
   phonetic_hint: ''
@@ -131,6 +155,10 @@ entries:
     plural: τα ισόγεια
     accusative_singular: το ισόγειο
   keg_communicative_function: Describing ground level premises or apartment floors
+  example_audio: to-farmakeio-einai-s-d9cbd2.mp3
+  example2_el: Το διαμέρισμα στο ισόγειο έχει μικρή αυλή.
+  example2_en: The ground floor apartment has a small courtyard.
+  example2_audio: to-diamerisma-sto-is-659a68.mp3
 - id: A1-U07-008
   greek: το μπαλκόνι
   phonetic_hint: ''
@@ -147,6 +175,10 @@ entries:
     plural: τα μπαλκόνια
     accusative_singular: το μπαλκόνι
   keg_communicative_function: Describing outdoor spaces of an apartment
+  example_audio: to-diamerisma-echei--9ce607.mp3
+  example2_el: Πίνουμε καφέ στο μπαλκόνι κάθε πρωί.
+  example2_en: We drink coffee on the balcony every morning.
+  example2_audio: pinoyme-kafe-sto-mpa-47ba67.mp3
 - id: A1-U07-009
   greek: ο κήπος
   phonetic_hint: ''
@@ -162,6 +194,10 @@ entries:
     plural: οι κήποι
     accusative_singular: τον κήπο
   keg_communicative_function: Describing gardens and outdoor residential areas
+  example_audio: ta-paidia-paizoyn-st-dce780.mp3
+  example2_el: Το σπίτι έχει έναν μεγάλο κήπο με δέντρα.
+  example2_en: The house has a large garden with trees.
+  example2_audio: to-spiti-echei-enan--7a3c2f.mp3
 - id: A1-U07-010
   greek: το σαλόνι
   phonetic_hint: ''
@@ -177,6 +213,10 @@ entries:
     plural: τα σαλόνια
     accusative_singular: το σαλόνι
   keg_communicative_function: Describing the main living and entertaining room
+  example_audio: kathomaste-sto-salon-0e0f57.mp3
+  example2_el: Έχουμε έναν άνετο καναπέ στο σαλόνι.
+  example2_en: We have a comfortable couch in the living room.
+  example2_audio: echoyme-enan-aneto-k-1f8eaf.mp3
 - id: A1-U07-011
   greek: η κουζίνα
   phonetic_hint: ''
@@ -193,6 +233,10 @@ entries:
     plural: οι κουζίνες
     accusative_singular: την κουζίνα
   keg_communicative_function: Referring to the kitchen area or the cooking appliance
+  example_audio: mageireyo-stin-koyzi-e75273.mp3
+  example2_el: Η κουζίνα έχει ψυγείο, φούρνο και τραπέζι.
+  example2_en: The kitchen has a fridge, oven, and table.
+  example2_audio: i-koyzina-echei-psyg-b101c5.mp3
 - id: A1-U07-012
   greek: η κρεβατοκάμαρα
   phonetic_hint: ''
@@ -208,6 +252,10 @@ entries:
     plural: οι κρεβατοκάμαρες
     accusative_singular: την κρεβατοκάμαρα
   keg_communicative_function: Describing sleeping quarters in a home
+  example_audio: i-krevatokamara-eche-04a014.mp3
+  example2_el: Η κρεβατοκάμαρα έχει μία μεγάλη ντουλάπα.
+  example2_en: The bedroom has a large wardrobe.
+  example2_audio: i-krevatokamara-eche-e0312d.mp3
 - id: A1-U07-013
   greek: το μπάνιο
   phonetic_hint: ''
@@ -224,6 +272,10 @@ entries:
     plural: τα μπάνια
     accusative_singular: το μπάνιο
   keg_communicative_function: Inquiring about bathroom facilities in accommodation
+  example_audio: poy-einai-to-mpanio--3962ea.mp3
+  example2_el: Το σπίτι έχει δύο μπάνια.
+  example2_en: The house has two bathrooms.
+  example2_audio: to-spiti-echei-dyo-m-578ced.mp3
 - id: A1-U07-014
   greek: ο διάδρομος
   phonetic_hint: ''
@@ -239,6 +291,10 @@ entries:
     plural: οι διάδρομοι
     accusative_singular: τον διάδρομο
   keg_communicative_function: Giving directions inside an apartment or hotel
+  example_audio: to-mpanio-einai-sto--b02f24.mp3
+  example2_el: Ο διάδρομος είναι μακρύς και φωτεινός.
+  example2_en: The corridor is long and bright.
+  example2_audio: o-diadromos-einai-ma-10ba37.mp3
 - id: A1-U07-015
   greek: η πόρτα
   phonetic_hint: ''
@@ -254,6 +310,10 @@ entries:
     plural: οι πόρτες
     accusative_singular: την πόρτα
   keg_communicative_function: Referring to home entrances and doors
+  example_audio: kleino-tin-porta-toy-04e352.mp3
+  example2_el: Η εξώπορτα της πολυκατοικίας είναι κλειστή.
+  example2_en: The building's front door is closed.
+  example2_audio: i-exoporta-tis-polyk-c2667d.mp3
 - id: A1-U07-016
   greek: το παράθυρο
   phonetic_hint: ''
@@ -269,6 +329,10 @@ entries:
     plural: τα παράθυρα
     accusative_singular: το παράθυρο
   keg_communicative_function: Describing rooms with natural light and ventilation
+  example_audio: anoigo-to-parathyro--269356.mp3
+  example2_el: Κλείνω το παράθυρο γιατί κάνει κρύο.
+  example2_en: I close the window because it is cold.
+  example2_audio: kleino-to-parathyro--c3c2e3.mp3
 - id: A1-U07-017
   greek: το έπιπλο
   phonetic_hint: ''
@@ -285,6 +349,10 @@ entries:
     plural: τα έπιπλα
     accusative_singular: το έπιπλο
   keg_communicative_function: Talking about home furnishings and interior decor
+  example_audio: agorazoyme-nea-epipl-05d175.mp3
+  example2_el: Το διαμέρισμα νοικιάζεται χωρίς έπιπλα.
+  example2_en: The apartment is rented without furniture.
+  example2_audio: to-diamerisma-noikia-4cd5e1.mp3
 - id: A1-U07-018
   greek: το κρεβάτι
   phonetic_hint: ''
@@ -301,6 +369,10 @@ entries:
     plural: τα κρεβάτια
     accusative_singular: το κρεβάτι
   keg_communicative_function: Describing bedroom furniture and hotel room types
+  example_audio: to-krevati-einai-pol-f050f7.mp3
+  example2_el: Στρώνω το κρεβάτι μου κάθε πρωί.
+  example2_en: I make my bed every morning.
+  example2_audio: strono-to-krevati-mo-cd4f06.mp3
 - id: A1-U07-019
   greek: ο καναπές
   phonetic_hint: ''
@@ -316,6 +388,10 @@ entries:
     plural: οι καναπέδες
     accusative_singular: τον καναπέ
   keg_communicative_function: Describing living room seating
+  example_audio: xekoyrazomai-ston-ka-d3d2e0.mp3
+  example2_el: Ο καναπές στο σαλόνι γίνεται κρεβάτι.
+  example2_en: The couch in the living room turns into a bed.
+  example2_audio: o-kanapes-sto-saloni-db808c.mp3
 - id: A1-U07-020
   greek: η πολυθρόνα
   phonetic_hint: ''
@@ -331,6 +407,10 @@ entries:
     plural: οι πολυθρόνες
     accusative_singular: την πολυθρόνα
   keg_communicative_function: Describing comfortable seating in living rooms
+  example_audio: diavazo-ena-vivlio-s-8eeb77.mp3
+  example2_el: Κάθομαι στην αναπαυτική πολυθρόνα.
+  example2_en: I sit in the comfortable armchair.
+  example2_audio: kathomai-stin-anapay-29e709.mp3
 - id: A1-U07-021
   greek: η καρέκλα
   phonetic_hint: ''
@@ -346,6 +426,10 @@ entries:
     plural: οι καρέκλες
     accusative_singular: την καρέκλα
   keg_communicative_function: Asking for chairs or arranging dining seating
+  example_audio: chreiazomaste-alli-m-619004.mp3
+  example2_el: Βάζω την καρέκλα δίπλα στο γραφείο.
+  example2_en: I put the chair next to the desk.
+  example2_audio: vazo-tin-karekla-dip-435924.mp3
 - id: A1-U07-022
   greek: η ντουλάπα
   phonetic_hint: ''
@@ -362,6 +446,10 @@ entries:
     plural: οι ντουλάπες
     accusative_singular: την ντουλάπα
   keg_communicative_function: Describing bedroom storage and closet space
+  example_audio: vazo-ta-roycha-moy-s-4220e2.mp3
+  example2_el: Η ντουλάπα στην κρεβατοκάμαρα είναι μεγάλη.
+  example2_en: The wardrobe in the bedroom is large.
+  example2_audio: i-ntoylapa-stin-krev-fbaa21.mp3
 - id: A1-U07-023
   greek: το ψυγείο
   phonetic_hint: ''
@@ -377,6 +465,10 @@ entries:
     plural: τα ψυγεία
     accusative_singular: το ψυγείο
   keg_communicative_function: Referring to essential kitchen appliances
+  example_audio: vazo-to-gala-kai-to--6e5d03.mp3
+  example2_el: Το ψυγείο είναι γεμάτο φρέσκα τρόφιμα.
+  example2_en: The fridge is full of fresh food.
+  example2_audio: to-psygeio-einai-gem-ddb7be.mp3
 - id: A1-U07-024
   greek: το πλυντήριο
   phonetic_hint: ''
@@ -393,6 +485,10 @@ entries:
     plural: τα πλυντήρια
     accusative_singular: το πλυντήριο
   keg_communicative_function: Describing household appliances in rental listings
+  example_audio: to-diamerisma-diathe-418bbb.mp3
+  example2_el: Βάζω τα ρούχα στο πλυντήριο.
+  example2_en: I put the clothes in the washing machine.
+  example2_audio: vazo-ta-roycha-sto-p-1e4848.mp3
 - id: A1-U07-025
   greek: η τηλεόραση
   phonetic_hint: ''
@@ -408,6 +504,10 @@ entries:
     plural: οι τηλεοράσεις
     accusative_singular: την τηλεόραση
   keg_communicative_function: Describing home entertainment and media devices
+  example_audio: vlepoyme-tis-eidisei-e3de44.mp3
+  example2_el: Δεν ανοίγω την τηλεόραση όταν διαβάζω.
+  example2_en: I do not turn on the television when I study.
+  example2_audio: den-anoigo-tin-tileo-d40483.mp3
 - id: A1-U07-026
   greek: το φωτιστικό
   phonetic_hint: ''
@@ -423,6 +523,10 @@ entries:
     plural: τα φωτιστικά
     accusative_singular: το φωτιστικό
   keg_communicative_function: Describing room lighting and fixtures
+  example_audio: yparchei-ena-fotisti-8982a1.mp3
+  example2_el: Ανάβω το φωτιστικό γιατί σκοτεινιάζει.
+  example2_en: I turn on the lamp because it gets dark.
+  example2_audio: anavo-to-fotistiko-g-fac776.mp3
 - id: A1-U07-027
   greek: το χαλί
   phonetic_hint: ''
@@ -438,6 +542,10 @@ entries:
     plural: τα χαλιά
     accusative_singular: το χαλί
   keg_communicative_function: Describing floor coverings in home decoration
+  example_audio: sto-saloni-echoyme-e-327ee9.mp3
+  example2_el: Καθαρίζω το χαλί με την ηλεκτρική σκούπα.
+  example2_en: I clean the rug with the vacuum cleaner.
+  example2_audio: katharizo-to-chali-m-5f0796.mp3
 - id: A1-U07-028
   greek: μέσα σε
   phonetic_hint: ''
@@ -452,6 +560,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative with article (στο, στη, στον, στα, στις, στους)
   keg_communicative_function: Expressing position inside a space, container, or room
+  example_audio: ta-kleidia-einai-mes-5fbbb5.mp3
+  example2_el: Βάζω τα ρούχα μέσα στη βαλίτσα.
+  example2_en: I put the clothes inside the suitcase.
+  example2_audio: vazo-ta-roycha-mesa--017299.mp3
 - id: A1-U07-029
   greek: έξω από
   phonetic_hint: ''
@@ -466,6 +578,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative (από + τον, την, το, τους, τις, τα)
   keg_communicative_function: Expressing location outside a building or room
+  example_audio: perimeno-exo-apo-tin-d8ec54.mp3
+  example2_el: Συναντιόμαστε έξω από τον κινηματογράφο.
+  example2_en: We meet outside the cinema.
+  example2_audio: synantiomaste-exo-ap-99e6f5.mp3
 - id: A1-U07-030
   greek: πάνω σε
   phonetic_hint: ''
@@ -480,6 +596,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative with article (στο, στη, στον, στα)
   keg_communicative_function: Describing objects resting on surfaces
+  example_audio: to-vivlio-einai-pano-2f1a25.mp3
+  example2_el: Τα κλειδιά είναι πάνω στο κομοδίνο.
+  example2_en: The keys are on the nightstand.
+  example2_audio: ta-kleidia-einai-pan-bcce16.mp3
 - id: A1-U07-031
   greek: κάτω από
   phonetic_hint: ''
@@ -494,6 +614,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative (από + article)
   keg_communicative_function: Describing objects positioned beneath surfaces
+  example_audio: i-gata-koimatai-kato-741b63.mp3
+  example2_el: Τα παπούτσια είναι κάτω από την καρέκλα.
+  example2_en: The shoes are under the chair.
+  example2_audio: ta-papoytsia-einai-k-ee29a8.mp3
 - id: A1-U07-032
   greek: δίπλα σε
   phonetic_hint: ''
@@ -508,6 +632,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative with article (στο, στη, στον, στα)
   keg_communicative_function: Describing adjacent positioning of furniture or buildings
+  example_audio: i-polythrona-einai-d-423ddc.mp3
+  example2_el: Το φαρμακείο είναι δίπλα στον φούρνο.
+  example2_en: The pharmacy is next to the bakery.
+  example2_audio: to-farmakeio-einai-d-112e71.mp3
 - id: A1-U07-033
   greek: απέναντι από
   phonetic_hint: ''
@@ -522,6 +650,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative (από + article)
   keg_communicative_function: Describing facing objects or buildings across the street
+  example_audio: to-soyper-market-ein-7846ea.mp3
+  example2_el: Μένω ακριβώς απέναντι από το σχολείο.
+  example2_en: I live right across from the school.
+  example2_audio: meno-akrivos-apenant-fc108e.mp3
 - id: A1-U07-034
   greek: μπροστά από
   phonetic_hint: ''
@@ -536,6 +668,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative (από + article)
   keg_communicative_function: Describing spatial placement in front of an object
+  example_audio: yparchei-ena-mikro-t-817312.mp3
+  example2_el: Σταματάω μπροστά από την είσοδο.
+  example2_en: I stop in front of the entrance.
+  example2_audio: stamatao-mprosta-apo-c54afe.mp3
 - id: A1-U07-035
   greek: πίσω από
   phonetic_hint: ''
@@ -550,6 +686,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative (από + article)
   keg_communicative_function: Describing position behind an object or building
+  example_audio: o-kipos-einai-piso-a-abeeef.mp3
+  example2_el: Το πάρκινγκ είναι πίσω από το κτίριο.
+  example2_en: The parking is behind the building.
+  example2_audio: to-parkingk-einai-pi-327b7d.mp3
 - id: A1-U07-036
   greek: ανάμεσα σε
   phonetic_hint: ''
@@ -564,6 +704,10 @@ entries:
     part_of_speech: phrase (spatial preposition)
     governs_case: accusative with article (ανάμεσα στο... και στο...)
   keg_communicative_function: Describing intermediate positioning between two objects
+  example_audio: to-komodino-einai-an-23a7ef.mp3
+  example2_el: Η τράπεζα είναι ανάμεσα στο καφέ και το σούπερ μάρκετ.
+  example2_en: The bank is between the cafe and the supermarket.
+  example2_audio: i-trapeza-einai-anam-40f86b.mp3
 - id: A1-U07-037
   greek: το ενοίκιο
   phonetic_hint: ''
@@ -581,6 +725,10 @@ entries:
     accusative_singular: το ενοίκιο
   keg_communicative_function: Asking for and discussing rental prices in classified
     ads
+  example_audio: poso-einai-to-enoiki-566f5f.mp3
+  example2_el: Πληρώνω το ενοίκιο την πρώτη μέρα του μήνα.
+  example2_en: I pay the rent on the first day of the month.
+  example2_audio: plirono-to-enoikio-t-4a2a50.mp3
 - id: A1-U07-038
   greek: το ασανσέρ
   phonetic_hint: ''
@@ -596,6 +744,10 @@ entries:
     plural: τα ασανσέρ
     accusative_singular: το ασανσέρ
   keg_communicative_function: Checking building amenities in real estate listings
+  example_audio: i-polykatoikia-diath-406bc2.mp3
+  example2_el: Παίρνω το ασανσέρ για τον πέμπτο όροφο.
+  example2_en: I take the elevator to the fifth floor.
+  example2_audio: pairno-to-asanser-gi-858ea2.mp3
 - id: A1-U07-039
   greek: η θέρμανση
   phonetic_hint: ''
@@ -612,6 +764,10 @@ entries:
     plural: οι θερμάνσεις
     accusative_singular: τη θέρμανση
   keg_communicative_function: Inquiring about heating systems (αυτόνομη / κεντρική)
+  example_audio: to-spiti-echei-ayton-e15e49.mp3
+  example2_el: Το χειμώνα ανάβουμε τη θέρμανση.
+  example2_en: In winter we turn on the heating.
+  example2_audio: to-cheimona-anavoyme-52f69e.mp3
 - id: A1-U07-040
   greek: νοικιάζω
   phonetic_hint: ''
@@ -629,6 +785,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό νοικιάζει
     first_person_plural: εμείς νοικιάζουμε
   keg_communicative_function: Talking about renting a house or apartment
+  example_audio: noikiazo-ena-dyari-s-e1ccee.mp3
+  example2_el: Ο φίλος μου νοικιάζει ένα μικρό στούντιο.
+  example2_en: My friend is renting a small studio.
+  example2_audio: o-filos-moy-noikiaze-41558d.mp3
 - id: A1-U07-041
   greek: υπάρχει / υπάρχουν
   phonetic_hint: ''
@@ -647,6 +807,10 @@ entries:
     first_person_plural: υπάρχουν (there are - 3rd pl.)
   keg_communicative_function: Expressing existence and availability of rooms, amenities,
     or items
+  example_audio: sto-saloni-yparchoyn-f5351e.mp3
+  example2_el: Υπάρχει ελεύθερο δωμάτιο για απόψε;
+  example2_en: Is there a vacant room for tonight?
+  example2_audio: yparchei-eleythero-d-78d350.mp3
 - id: A1-U07-042
   greek: φωτεινός, -ή, -ό
   phonetic_hint: ''
@@ -664,6 +828,10 @@ entries:
     neuter: φωτεινό
     plural: φωτεινοί, φωτεινές, φωτεινά
   keg_communicative_function: Describing well-lit apartments and rooms
+  example_audio: einai-ena-poly-fotei-0d1ed8.mp3
+  example2_el: Το σαλόνι είναι πολύ φωτεινό το πρωί.
+  example2_en: The living room is very bright in the morning.
+  example2_audio: to-saloni-einai-poly-67ffa1.mp3
 - id: A1-U07-043
   greek: επιπλωμένος, -η, -ο
   phonetic_hint: ''
@@ -681,6 +849,10 @@ entries:
     neuter: επιπλωμένο
     plural: επιπλωμένοι, επιπλωμένες, επιπλωμένα
   keg_communicative_function: Identifying furnished accommodation in listings
+  example_audio: enoikiazetai-epiplom-5d42e7.mp3
+  example2_el: Ψάχνω ένα επιπλωμένο διαμέρισμα με δύο δωμάτια.
+  example2_en: I am looking for a furnished two-room apartment.
+  example2_audio: psachno-ena-epiplome-90e356.mp3
 - id: A1-U07-044
   greek: ενοικιάζεται
   phonetic_hint: ''
@@ -696,6 +868,10 @@ entries:
     part_of_speech: phrase (advertisement formula)
     plural: ενοικιάζονται
   keg_communicative_function: Reading and understanding accommodation rental advertisements
+  example_audio: enoikiazetai-diameri-3d9fca.mp3
+  example2_el: Ενοικιάζεται γκαρσονιέρα πλήρως ανακαινισμένη.
+  example2_en: Studio apartment for rent, fully renovated.
+  example2_audio: enoikiazetai-gkarson-075afe.mp3
 - id: A1-U07-045
   greek: πωλείται
   phonetic_hint: ''
@@ -710,3 +886,7 @@ entries:
     part_of_speech: phrase (advertisement formula)
     plural: πωλούνται
   keg_communicative_function: Reading real estate and commercial sale notices
+  example_audio: poleitai-spiti-me-ki-ac0102.mp3
+  example2_el: Πωλείται διαμέρισμα εκατό τετραγωνικών μέτρων.
+  example2_en: Apartment of one hundred square meters for sale.
+  example2_audio: poleitai-diamerisma--d4b5a6.mp3

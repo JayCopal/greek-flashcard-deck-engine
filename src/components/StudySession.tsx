@@ -253,6 +253,8 @@ export const StudySession: React.FC<StudySessionProps> = ({
   // Centralized single HTMLAudioElement ref and playback state
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
+  const [playingSentenceAudio, setPlayingSentenceAudio] = useState<string | null>(null);
+  const sentenceAudioRef = useRef<HTMLAudioElement | null>(null);
 
   // Touch gesture coordinates for mobile swipe
   const touchStartX = useRef<number | null>(null);
@@ -372,6 +374,26 @@ export const StudySession: React.FC<StudySessionProps> = ({
     : `${import.meta.env.BASE_URL}/`;
   const audioSrc = currentCard?.audio ? `${baseUrl}audio/${currentCard.audio}` : null;
 
+  const playSentenceAudio = useCallback((audioFile: string) => {
+    if (!audioFile) return;
+    const url = `${baseUrl}audio/${audioFile}`;
+    if (sentenceAudioRef.current) {
+      if (playingSentenceAudio === audioFile && !sentenceAudioRef.current.paused) {
+        sentenceAudioRef.current.pause();
+        setPlayingSentenceAudio(null);
+        return;
+      }
+      sentenceAudioRef.current.pause();
+    }
+    const audio = new Audio(url);
+    sentenceAudioRef.current = audio;
+    audio.playbackRate = playbackSpeed;
+    setPlayingSentenceAudio(audioFile);
+    audio.onended = () => setPlayingSentenceAudio(null);
+    audio.onerror = () => setPlayingSentenceAudio(null);
+    audio.play().catch(() => setPlayingSentenceAudio(null));
+  }, [baseUrl, playbackSpeed, playingSentenceAudio]);
+
   const handleNext = useCallback(() => {
     setIsFlipped(false);
     setHintStep(0);
@@ -397,6 +419,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const handleFlip = useCallback(() => {
     setIsFlipped((prev) => !prev);
     triggerHaptic('light');
+    if (sentenceAudioRef.current) {
+      sentenceAudioRef.current.pause();
+    }
+    setPlayingSentenceAudio(null);
     // Anytime a card is flipped, play the native audio with selected speed
     if (audioRef.current && audioSrc) {
       audioRef.current.currentTime = 0;
@@ -435,6 +461,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
+    if (sentenceAudioRef.current) {
+      sentenceAudioRef.current.pause();
+    }
+    setPlayingSentenceAudio(null);
     setIsAudioPlaying(false);
     setHintStep(0);
     setShowNotesPeek(false);
@@ -685,6 +715,76 @@ export const StudySession: React.FC<StudySessionProps> = ({
       </div>
     );
   }
+
+  const renderExamples = (card: CardEntry) => {
+    if (!card.example_el && !card.example2_el) return null;
+    return (
+      <div className="space-y-2 max-w-lg w-full mx-auto select-text">
+        {card.example_el && (
+          <div className="text-left bg-slate-800/80 p-2 sm:p-2.5 rounded-xl border border-slate-700/70 shadow-sm flex items-start justify-between gap-2.5">
+            <div className="flex-1 min-w-0">
+              <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium leading-relaxed">
+                {card.example_el}
+              </div>
+              {card.example_en && (
+                <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">
+                  {card.example_en}
+                </div>
+              )}
+            </div>
+            {card.example_audio && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  playSentenceAudio(card.example_audio!);
+                }}
+                className={`p-1.5 rounded-lg border transition-all shrink-0 mt-0.5 ${
+                  playingSentenceAudio === card.example_audio
+                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50'
+                    : 'bg-teal-950/70 hover:bg-teal-900/90 text-teal-300 border-teal-700/60 hover:text-white'
+                }`}
+                title="Play Sentence 1 audio"
+              >
+                <Volume2 className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
+        )}
+        {card.example2_el && (
+          <div className="text-left bg-slate-800/80 p-2 sm:p-2.5 rounded-xl border border-slate-700/70 shadow-sm flex items-start justify-between gap-2.5">
+            <div className="flex-1 min-w-0">
+              <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium leading-relaxed">
+                {card.example2_el}
+              </div>
+              {card.example2_en && (
+                <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">
+                  {card.example2_en}
+                </div>
+              )}
+            </div>
+            {card.example2_audio && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  playSentenceAudio(card.example2_audio!);
+                }}
+                className={`p-1.5 rounded-lg border transition-all shrink-0 mt-0.5 ${
+                  playingSentenceAudio === card.example2_audio
+                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50'
+                    : 'bg-teal-950/70 hover:bg-teal-900/90 text-teal-300 border-teal-700/60 hover:text-white'
+                }`}
+                title="Play Sentence 2 audio"
+              >
+                <Volume2 className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 pb-20">
@@ -1274,12 +1374,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       /{currentCard.phonetic_hint}/
                     </div>
                   )}
-                  {currentCard.example_el && (
-                    <div className="text-left bg-slate-800/70 p-2.5 rounded-xl border border-slate-700/70 max-w-lg w-full mx-auto shadow-sm">
-                      <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium">{currentCard.example_el}</div>
-                      <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">{currentCard.example_en}</div>
-                    </div>
-                  )}
+                  {renderExamples(currentCard)}
                   {currentCard.notes && (
                     <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
                       {currentCard.notes}
@@ -1319,12 +1414,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       )}
                     </div>
                   )}
-                  {currentCard.example_el && (
-                    <div className="text-left bg-slate-800/70 p-2.5 rounded-xl border border-slate-700/70 max-w-lg w-full mx-auto shadow-sm">
-                      <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium">{currentCard.example_el}</div>
-                      <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">{currentCard.example_en}</div>
-                    </div>
-                  )}
+                  {renderExamples(currentCard)}
                   {currentCard.notes && (
                     <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
                       {currentCard.notes}

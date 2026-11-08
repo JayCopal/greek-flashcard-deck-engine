@@ -31,6 +31,10 @@ entries:
     plural: τα επαγγέλματα
     accusative_singular: το επάγγελμα
   keg_communicative_function: Inquiring about and stating occupational status
+  example_audio: poio-einai-to-epagge-a124eb.mp3
+  example2_el: Συμπληρώστε το επάγγελμά σας στην αίτηση.
+  example2_en: Fill in your profession on the application form.
+  example2_audio: sympliroste-to-epagg-3a8f99.mp3
 - id: A1-U03-002
   greek: ο δάσκαλος
   phonetic_hint: ''
@@ -47,6 +51,10 @@ entries:
     plural: οι δάσκαλοι
     accusative_singular: τον δάσκαλο
   keg_communicative_function: Identifying primary school teaching professionals
+  example_audio: o-daskalos-didaskei--a2a7cc.mp3
+  example2_el: Ο δάσκαλος εξηγεί τον κανόνα στα παιδιά.
+  example2_en: The teacher explains the rule to the children.
+  example2_audio: o-daskalos-exigei-to-5b0249.mp3
 - id: A1-U03-003
   greek: η δασκάλα
   phonetic_hint: ''
@@ -63,6 +71,10 @@ entries:
     plural: οι δασκάλες
     accusative_singular: τη δασκάλα
   keg_communicative_function: Identifying female primary school educators
+  example_audio: i-daskala-einai-poly-0913c7.mp3
+  example2_el: Η δασκάλα διαβάζει το παραμύθι στην τάξη.
+  example2_en: The teacher reads the fairy tale in the classroom.
+  example2_audio: i-daskala-diavazei-t-ab324e.mp3
 - id: A1-U03-004
   greek: ο καθηγητής
   phonetic_hint: ''
@@ -79,6 +91,10 @@ entries:
     plural: οι καθηγητές
     accusative_singular: τον καθηγητή
   keg_communicative_function: Identifying secondary or tertiary academic instructors
+  example_audio: o-kathigitis-didaske-abe6de.mp3
+  example2_el: Ο καθηγητής απαντάει στις ερωτήσεις μας.
+  example2_en: The professor answers our questions.
+  example2_audio: o-kathigitis-apantae-652e82.mp3
 - id: A1-U03-005
   greek: η καθηγήτρια
   phonetic_hint: ''
@@ -94,6 +110,10 @@ entries:
     plural: οι καθηγήτριες
     accusative_singular: την καθηγήτρια
   keg_communicative_function: Identifying female academic instructors
+  example_audio: i-kyria-andreoy-eina-e4d0e4.mp3
+  example2_el: Η καθηγήτρια γράφει στον πίνακα.
+  example2_en: The professor writes on the board.
+  example2_audio: i-kathigitria-grafei-1065ba.mp3
 - id: A1-U03-006
   greek: ο μαθητής
   phonetic_hint: ''
@@ -110,6 +130,10 @@ entries:
     plural: οι μαθητές
     accusative_singular: τον μαθητή
   keg_communicative_function: Identifying male primary or secondary school students
+  example_audio: o-nikos-einai-epimel-2994d3.mp3
+  example2_el: Ο μαθητής γράφει την άσκηση στο τετράδιο.
+  example2_en: The pupil writes the exercise in the notebook.
+  example2_audio: o-mathitis-grafei-ti-54828e.mp3
 - id: A1-U03-007
   greek: η μαθήτρια
   phonetic_hint: ''
@@ -125,6 +149,10 @@ entries:
     plural: οι μαθήτριες
     accusative_singular: τη μαθήτρια
   keg_communicative_function: Identifying female primary or secondary school students
+  example_audio: i-maria-einai-mathit-d4d983.mp3
+  example2_el: Η μαθήτρια ρωτάει τη δασκάλα για το μάθημα.
+  example2_en: The pupil asks the teacher about the lesson.
+  example2_audio: i-mathitria-rotaei-t-9b39e8.mp3
 - id: A1-U03-008
   greek: ο φοιτητής
   phonetic_hint: ''
@@ -140,6 +168,10 @@ entries:
     plural: οι φοιτητές
     accusative_singular: τον φοιτητή
   keg_communicative_function: Stating university student status
+  example_audio: eimai-foititis-iatri-af8ef4.mp3
+  example2_el: Ο φοιτητής διαβάζει στη βιβλιοθήκη.
+  example2_en: The university student studies in the library.
+  example2_audio: o-foititis-diavazei--a89eba.mp3
 - id: A1-U03-009
   greek: η φοιτήτρια
   phonetic_hint: ''
@@ -155,6 +187,10 @@ entries:
     plural: οι φοιτήτριες
     accusative_singular: τη φοιτήτρια
   keg_communicative_function: Stating female university student status
+  example_audio: i-anna-einai-foititr-e91a1a.mp3
+  example2_el: Η φοιτήτρια περνάει όλες τις εξετάσεις.
+  example2_en: The university student passes all the exams.
+  example2_audio: i-foititria-pernaei--476e6f.mp3
 - id: A1-U03-010
   greek: ο γιατρός
   phonetic_hint: ''
@@ -171,6 +207,10 @@ entries:
     plural: οι γιατροί
     accusative_singular: τον γιατρό
   keg_communicative_function: Talking about healthcare professions
+  example_audio: o-giatros-exetazei-t-3037d0.mp3
+  example2_el: Πρέπει να πάω στον γιατρό σήμερα.
+  example2_en: I must go to the doctor today.
+  example2_audio: prepei-na-pao-ston-g-021da2.mp3
 - id: A1-U03-011
   greek: η νοσοκόμα
   phonetic_hint: ''
@@ -186,6 +226,10 @@ entries:
     plural: οι νοσοκόμες
     accusative_singular: τη νοσοκόμα
   keg_communicative_function: Describing nursing staff and hospital personnel
+  example_audio: i-nosokoma-doyleyei--4a172c.mp3
+  example2_el: Η νοσοκόμα βοηθάει τον ασθενή στο κρεβάτι.
+  example2_en: The nurse helps the patient in bed.
+  example2_audio: i-nosokoma-voithaei--93bd0f.mp3
 - id: A1-U03-012
   greek: ο δικηγόρος
   phonetic_hint: ''
@@ -202,6 +246,10 @@ entries:
     plural: οι δικηγόροι
     accusative_singular: τον δικηγόρο
   keg_communicative_function: Describing legal professions
+  example_audio: o-dikigoros-echei-gr-ed18cb.mp3
+  example2_el: Ο δικηγόρος διαβάζει τα επίσημα έγγραφα.
+  example2_en: The lawyer reads the official documents.
+  example2_audio: o-dikigoros-diavazei-bdcfe5.mp3
 - id: A1-U03-013
   greek: ο γραμματέας
   phonetic_hint: ''
@@ -218,6 +266,10 @@ entries:
     plural: οι γραμματείς
     accusative_singular: τον / τη γραμματέα
   keg_communicative_function: Describing office administration roles
+  example_audio: i-grammateas-apantae-d4458f.mp3
+  example2_el: Ο γραμματέας στέλνει ένα email στον πελάτη.
+  example2_en: The secretary sends an email to the client.
+  example2_audio: o-grammateas-stelnei-09dd11.mp3
 - id: A1-U03-014
   greek: ο υπάλληλος
   phonetic_hint: ''
@@ -233,6 +285,10 @@ entries:
     plural: οι υπάλληλοι
     accusative_singular: τον υπάλληλο
   keg_communicative_function: Describing employment in offices, stores, and banks
+  example_audio: einai-ypallilos-se-m-d30f62.mp3
+  example2_el: Ο υπάλληλος δίνει πληροφορίες στο γκισέ.
+  example2_en: The employee gives information at the counter.
+  example2_audio: o-ypallilos-dinei-pl-891e0c.mp3
 - id: A1-U03-015
   greek: ο πωλητής
   phonetic_hint: ''
@@ -248,6 +304,10 @@ entries:
     plural: οι πωλητές
     accusative_singular: τον πωλητή
   keg_communicative_function: Identifying retail commerce staff
+  example_audio: o-politis-exypiretei-416cb9.mp3
+  example2_el: Ο πωλητής λέει την τιμή στον πελάτη.
+  example2_en: The salesman tells the price to the customer.
+  example2_audio: o-politis-leei-tin-t-2ca590.mp3
 - id: A1-U03-016
   greek: η πωλήτρια
   phonetic_hint: ''
@@ -263,6 +323,10 @@ entries:
     plural: οι πωλήτριες
     accusative_singular: την πωλήτρια
   keg_communicative_function: Identifying female retail personnel
+  example_audio: i-politria-doyleyei--07e9c7.mp3
+  example2_el: Η πωλήτρια δείχνει τα ρούχα στη βιτρίνα.
+  example2_en: The saleswoman shows the clothes in the display window.
+  example2_audio: i-politria-deichnei--e0ddf1.mp3
 - id: A1-U03-017
   greek: ο σερβιτόρος
   phonetic_hint: ''
@@ -279,6 +343,10 @@ entries:
     accusative_singular: τον σερβιτόρο
   keg_communicative_function: Addressing and describing dining staff in tavernas and
     cafes
+  example_audio: o-servitoros-fernei--2ed615.mp3
+  example2_el: 'Ο σερβιτόρος ρωτάει: ''Τι θα πιείτε;''.'
+  example2_en: 'The waiter asks: ''What will you drink?''.'
+  example2_audio: o-servitoros-rotaei--e580e1.mp3
 - id: A1-U03-018
   greek: η σερβιτόρα
   phonetic_hint: ''
@@ -294,6 +362,10 @@ entries:
     plural: οι σερβιτόρες
     accusative_singular: τη σερβιτόρα
   keg_communicative_function: Describing dining service staff
+  example_audio: i-servitora-pairnei--d00de0.mp3
+  example2_el: Η σερβιτόρα φέρνει τον λογαριασμό στο τραπέζι.
+  example2_en: The waitress brings the bill to the table.
+  example2_audio: i-servitora-fernei-t-9156e5.mp3
 - id: A1-U03-019
   greek: ο οδηγός
   phonetic_hint: ''
@@ -310,6 +382,10 @@ entries:
     plural: οι οδηγοί
     accusative_singular: τον οδηγό
   keg_communicative_function: Describing transport and transit operators
+  example_audio: o-odigos-toy-leofore-dedc9d.mp3
+  example2_el: Ο οδηγός ταξί σταματάει στο φανάρι.
+  example2_en: The taxi driver stops at the traffic light.
+  example2_audio: o-odigos-taxi-stamat-d53d67.mp3
 - id: A1-U03-020
   greek: ο μάγειρας
   phonetic_hint: ''
@@ -325,6 +401,10 @@ entries:
     plural: οι μάγειρες
     accusative_singular: τον μάγειρα
   keg_communicative_function: Describing culinary and restaurant occupations
+  example_audio: o-mageiras-etoimazei-f8e88f.mp3
+  example2_el: Ο μάγειρας μαγειρεύει φρέσκο ψάρι.
+  example2_en: The chef cooks fresh fish.
+  example2_audio: o-mageiras-mageireye-945e14.mp3
 - id: A1-U03-021
   greek: το γραφείο
   phonetic_hint: ''
@@ -340,6 +420,10 @@ entries:
     plural: τα γραφεία
     accusative_singular: το γραφείο
   keg_communicative_function: Specifying workplace locations
+  example_audio: doyleyo-se-ena-megal-01f9d7.mp3
+  example2_el: Το γραφείο μου είναι στον τρίτο όροφο.
+  example2_en: My office is on the third floor.
+  example2_audio: to-grafeio-moy-einai-96a391.mp3
 - id: A1-U03-022
   greek: το σχολείο
   phonetic_hint: ''
@@ -355,6 +439,10 @@ entries:
     plural: τα σχολεία
     accusative_singular: το σχολείο
   keg_communicative_function: Referring to places of primary and secondary education
+  example_audio: ta-paidia-pane-sto-s-328b41.mp3
+  example2_el: Το σχολείο είναι κλειστό το Σάββατο.
+  example2_en: The school is closed on Saturday.
+  example2_audio: to-scholeio-einai-kl-613155.mp3
 - id: A1-U03-023
   greek: το πανεπιστήμιο
   phonetic_hint: ''
@@ -370,6 +458,10 @@ entries:
     plural: τα πανεπιστήμια
     accusative_singular: το πανεπιστήμιο
   keg_communicative_function: Referring to higher education institutions
+  example_audio: spoydazo-nomika-sto--177cb3.mp3
+  example2_el: Το πανεπιστήμιο έχει πολλούς ξένους φοιτητές.
+  example2_en: The university has many foreign students.
+  example2_audio: to-panepistimio-eche-59681d.mp3
 - id: A1-U03-024
   greek: το νοσοκομείο
   phonetic_hint: ''
@@ -385,6 +477,10 @@ entries:
     plural: τα νοσοκομεία
     accusative_singular: το νοσοκομείο
   keg_communicative_function: Referring to healthcare workplaces and facilities
+  example_audio: o-giatros-einai-tora-b0bd7a.mp3
+  example2_el: Το νοσοκομείο είναι κοντά στον σταθμό.
+  example2_en: The hospital is near the station.
+  example2_audio: to-nosokomeio-einai--e7239e.mp3
 - id: A1-U03-025
   greek: η εταιρεία
   phonetic_hint: ''
@@ -400,6 +496,10 @@ entries:
     plural: οι εταιρείες
     accusative_singular: την εταιρεία
   keg_communicative_function: Describing corporate employment
+  example_audio: doyleyei-se-mia-poly-6debda.mp3
+  example2_el: Η εταιρεία ανοίγει νέο γραφείο στη Θεσσαλονίκη.
+  example2_en: The company opens a new office in Thessaloniki.
+  example2_audio: i-etaireia-anoigei-n-14e203.mp3
 - id: A1-U03-026
   greek: η διεύθυνση
   phonetic_hint: ''
@@ -416,6 +516,10 @@ entries:
     plural: οι διευθύνσεις
     accusative_singular: τη διεύθυνση
   keg_communicative_function: Asking for and writing postal/residential address
+  example_audio: poia-einai-i-dieythy-513e2f.mp3
+  example2_el: Γράψτε τη διεύθυνση κατοικίας σας εδώ.
+  example2_en: Write your home address here.
+  example2_audio: grapste-ti-dieythyns-423ee5.mp3
 - id: A1-U03-027
   greek: η οδός
   phonetic_hint: ''
@@ -432,6 +536,10 @@ entries:
     plural: οι οδοί
     accusative_singular: την οδό
   keg_communicative_function: Specifying street names on contact forms
+  example_audio: meno-stin-odo-stadio-a63200.mp3
+  example2_el: Η οδός Πανεπιστημίου είναι πολύ γνωστή.
+  example2_en: Panepistimiou Street is very well known.
+  example2_audio: i-odos-panepistimioy-dabf8d.mp3
 - id: A1-U03-028
   greek: ο αριθμός
   phonetic_hint: ''
@@ -447,6 +555,10 @@ entries:
     plural: οι αριθμοί
     accusative_singular: τον αριθμό
   keg_communicative_function: Stating house, flat, and phone numbers
+  example_audio: poios-einai-o-arithm-c4359b.mp3
+  example2_el: Σε ποιον αριθμό μένετε;
+  example2_en: At which number do you live?
+  example2_audio: se-poion-arithmo-men-264515.mp3
 - id: A1-U03-029
   greek: το τηλέφωνο
   phonetic_hint: ''
@@ -463,6 +575,10 @@ entries:
     plural: τα τηλέφωνα
     accusative_singular: το τηλέφωνο
   keg_communicative_function: Exchanging personal contact telephone numbers
+  example_audio: poio-einai-to-tilefo-00db6b.mp3
+  example2_el: Ποιο είναι το τηλέφωνο του φαρμακείου;
+  example2_en: What is the pharmacy's phone number?
+  example2_audio: poio-einai-to-tilefo-88db50.mp3
 - id: A1-U03-030
   greek: το κινητό
   phonetic_hint: ''
@@ -478,6 +594,10 @@ entries:
     plural: τα κινητά
     accusative_singular: το κινητό
   keg_communicative_function: Giving and asking for mobile phone numbers
+  example_audio: echeis-to-kinito-tis-f43ed2.mp3
+  example2_el: Στείλε μου μήνυμα στο κινητό μου.
+  example2_en: Send me a message on my mobile phone.
+  example2_audio: steile-moy-minyma-st-85d9f6.mp3
 - id: A1-U03-031
   greek: το ταχυδρομείο
   phonetic_hint: ''
@@ -494,6 +614,10 @@ entries:
     plural: τα ταχυδρομεία
     accusative_singular: το ταχυδρομείο
   keg_communicative_function: Referring to postal services and public buildings
+  example_audio: to-tachydromeio-eina-c81d5f.mp3
+  example2_el: Πού είναι το ταχυδρομείο της γειτονιάς;
+  example2_en: Where is the neighborhood post office?
+  example2_audio: poy-einai-to-tachydr-74b636.mp3
 - id: A1-U03-032
   greek: ο ταχυδρομικός κώδικας
   phonetic_hint: ''
@@ -509,6 +633,10 @@ entries:
     plural: οι ταχυδρομικοί κώδικες
     accusative_singular: τον ταχυδρομικό κώδικα
   keg_communicative_function: Completing postal code entries on registration forms
+  example_audio: o-tachydromikos-kodi-5b9cb4.mp3
+  example2_el: Συμπληρώστε τον ταχυδρομικό κώδικα στο γράμμα.
+  example2_en: Fill in the postal code on the letter.
+  example2_audio: sympliroste-ton-tach-dcb42a.mp3
 - id: A1-U03-033
   greek: δουλεύω
   phonetic_hint: ''
@@ -526,6 +654,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό δουλεύει
     first_person_plural: εμείς δουλεύουμε
   keg_communicative_function: Talking about current work, employment, and workplace
+  example_audio: doyleyo-os-programma-c4ac67.mp3
+  example2_el: Δουλεύω από τις εννέα μέχρι τις πέντε.
+  example2_en: I work from nine to five.
+  example2_audio: doyleyo-apo-tis-enne-e07761.mp3
 - id: A1-U03-034
   greek: σπουδάζω
   phonetic_hint: ''
@@ -543,6 +675,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό σπουδάζει
     first_person_plural: εμείς σπουδάζουμε
   keg_communicative_function: Talking about university majors and fields of study
+  example_audio: spoydazo-architekton-c85557.mp3
+  example2_el: Τι σπουδάζεις στο πανεπιστήμιο;
+  example2_en: What do you study at university?
+  example2_audio: ti-spoydazeis-sto-pa-72e5db.mp3
 - id: A1-U03-035
   greek: μηδέν
   phonetic_hint: ''
@@ -557,6 +693,10 @@ entries:
     part_of_speech: cardinal numeral (indeclinable)
     value: 0
   keg_communicative_function: Dictating and reading phone numbers and postal codes
+  example_audio: to-tilefono-moy-arch-656dd5.mp3
+  example2_el: Δύο μείον δύο κάνει μηδέν.
+  example2_en: Two minus two makes zero.
+  example2_audio: dyo-meion-dyo-kanei--f71802.mp3
 - id: A1-U03-036
   greek: ένας, μία / μια, ένα
   phonetic_hint: ''
@@ -573,6 +713,10 @@ entries:
     forms: ένας (masculine), μία/μια (feminine), ένα (neuter)
     accusative: έναν / ένα (m), μία/μια (f), ένα (n)
   keg_communicative_function: Counting units and serving as the indefinite article
+  example_audio: echo-enan-adelfo-kai-8a832f.mp3
+  example2_el: Θέλω ένα ποτήρι νερό, παρακαλώ.
+  example2_en: I want a glass of water, please.
+  example2_audio: thelo-ena-potiri-ner-0e27e9.mp3
 - id: A1-U03-037
   greek: δέκα
   phonetic_hint: ''
@@ -587,6 +731,10 @@ entries:
     part_of_speech: cardinal numeral (indeclinable)
     value: 10
   keg_communicative_function: Stating quantities, street numbers, and dates
+  example_audio: meno-ston-arithmo-de-36f6a6.mp3
+  example2_el: Το λεωφορείο περνάει σε δέκα λεπτά.
+  example2_en: The bus passes in ten minutes.
+  example2_audio: to-leoforeio-pernaei-365ff4.mp3
 - id: A1-U03-038
   greek: είκοσι
   phonetic_hint: ''
@@ -601,6 +749,10 @@ entries:
     part_of_speech: cardinal numeral (indeclinable)
     value: 20
   keg_communicative_function: Telling age, prices, and contact details
+  example_audio: eimai-eikosi-chronon-996c97.mp3
+  example2_el: Ένα κιλό πορτοκάλια κοστίζει ένα ευρώ και είκοσι λεπτά.
+  example2_en: One kilo of oranges costs one euro and twenty cents.
+  example2_audio: ena-kilo-portokalia--6125fa.mp3
 - id: A1-U03-039
   greek: εκατό
   phonetic_hint: ''
@@ -617,6 +769,10 @@ entries:
     value: 100
     euphonic_variant: εκατόν (before vowels in compounds, e.g. εκατόν ένα)
   keg_communicative_function: Reading three-digit numbers, prices, and street addresses
+  example_audio: to-eisitirio-kanei-e-69bc7a.mp3
+  example2_el: Το ξενοδοχείο έχει εκατό δωμάτια.
+  example2_en: The hotel has one hundred rooms.
+  example2_audio: to-xenodocheio-echei-6f59c7.mp3
 - id: A1-U03-040
   greek: πού
   phonetic_hint: ''
@@ -631,3 +787,7 @@ entries:
   grammatical_info:
     part_of_speech: interrogative adverb
   keg_communicative_function: Asking for workplace, residence, and geographical location
+  example_audio: poy-doyleyete-ae625d.mp3
+  example2_el: Πού είναι η στάση του μετρό;
+  example2_en: Where is the metro stop?
+  example2_audio: poy-einai-i-stasi-to-78f8b6.mp3

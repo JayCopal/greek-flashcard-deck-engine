@@ -11,6 +11,10 @@ export interface CardEntry {
   status: EntryStatus;
   example_el?: string;
   example_en?: string;
+  example_audio?: string | null;
+  example2_el?: string;
+  example2_en?: string;
+  example2_audio?: string | null;
   grammatical_info?: Record<string, any>;
   keg_communicative_function?: string;
 }

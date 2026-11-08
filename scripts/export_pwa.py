@@ -68,17 +68,20 @@ def export():
         json.dump(deck_data, f, ensure_ascii=False, indent=2)
     print(f"==> Synced offline deck data to {public_data_dir / 'deck.json'}")
 
-    # 4. Copy verified audio
+    # 4. Copy verified audio (headword + example sentences)
     copied = 0
+    copied_set = set()
     for unit in deck_data.get("units", []):
         for lesson in unit.get("lessons", []):
             for entry in lesson.get("entries", []):
-                audio_file = entry.get("audio")
-                if audio_file:
-                    src = AUDIO_DIR / audio_file
-                    if src.exists():
-                        shutil.copy2(src, audio_dir / audio_file)
-                        copied += 1
+                for af_key in ["audio", "example_audio", "example2_audio"]:
+                    audio_file = entry.get(af_key)
+                    if audio_file and audio_file not in copied_set:
+                        src = AUDIO_DIR / audio_file
+                        if src.exists():
+                            shutil.copy2(src, audio_dir / audio_file)
+                            copied_set.add(audio_file)
+                            copied += 1
 
     print(f"==> Copied {copied} verified audio files into {audio_dir}")
     print("\n[OK] PWA Export Complete! Folder is ready in: dist-pwa/")

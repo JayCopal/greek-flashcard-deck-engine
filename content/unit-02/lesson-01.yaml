@@ -33,6 +33,10 @@ entries:
     plural: οι χώρες
     accusative_singular: τη χώρα
   keg_communicative_function: Asking for and stating geographic origins
+  example_audio: apo-poia-chora-eisai-1b0b1d.mp3
+  example2_el: Η Ισπανία είναι μία όμορφη ευρωπαϊκή χώρα.
+  example2_en: Spain is a beautiful European country.
+  example2_audio: i-ispania-einai-mia--bbc28c.mp3
 - id: A1-U02-002
   greek: η πόλη
   phonetic_hint: ''
@@ -48,6 +52,10 @@ entries:
     plural: οι πόλεις
     accusative_singular: την πόλη
   keg_communicative_function: Stating one's city of residence or origin
+  example_audio: i-athina-einai-mia-m-502e49.mp3
+  example2_el: Ποια είναι η πρωτεύουσα της χώρας σου;
+  example2_en: What is the capital city of your country?
+  example2_audio: poia-einai-i-proteyo-fa107d.mp3
 - id: A1-U02-003
   greek: το κράτος
   phonetic_hint: ''
@@ -63,6 +71,10 @@ entries:
     plural: τα κράτη
     accusative_singular: το κράτος
   keg_communicative_function: Referring to geopolitical states in official contexts
+  example_audio: i-ellada-einai-krato-6cb26a.mp3
+  example2_el: Πολλά κράτη συμμετέχουν στον διαγωνισμό.
+  example2_en: Many states participate in the competition.
+  example2_audio: polla-krati-symmetec-1fb0d3.mp3
 - id: A1-U02-004
   greek: η εθνικότητα
   phonetic_hint: ''
@@ -79,6 +91,10 @@ entries:
     plural: οι εθνικότητες
     accusative_singular: την εθνικότητα
   keg_communicative_function: Completing official registration cards and forms
+  example_audio: poia-einai-i-ethniko-02d197.mp3
+  example2_el: Έχω ελληνική και καναδική εθνικότητα.
+  example2_en: I have Greek and Canadian nationality.
+  example2_audio: echo-elliniki-kai-ka-c13aad.mp3
 - id: A1-U02-005
   greek: η καταγωγή
   phonetic_hint: ''
@@ -94,6 +110,10 @@ entries:
     plural: οι καταγωγές
     accusative_singular: την καταγωγή
   keg_communicative_function: Discussing ancestral background and cultural roots
+  example_audio: echo-elliniki-katago-6446b7.mp3
+  example2_el: Από πού είναι η καταγωγή της οικογένειάς σου;
+  example2_en: Where is your family's origin from?
+  example2_audio: apo-poy-einai-i-kata-145d62.mp3
 - id: A1-U02-006
   greek: η γλώσσα
   phonetic_hint: ''
@@ -109,6 +129,10 @@ entries:
     plural: οι γλώσσες
     accusative_singular: τη γλώσσα
   keg_communicative_function: Inquiring about linguistic competencies
+  example_audio: poies-glosses-milate-329124.mp3
+  example2_el: Η ελληνική γλώσσα έχει μακρά ιστορία.
+  example2_en: The Greek language has a long history.
+  example2_audio: i-elliniki-glossa-ec-2962b0.mp3
 - id: A1-U02-007
   greek: η μητρική γλώσσα
   phonetic_hint: ''
@@ -124,6 +148,10 @@ entries:
     plural: οι μητρικές γλώσσες
     accusative_singular: τη μητρική γλώσσα
   keg_communicative_function: Identifying one's primary native language
+  example_audio: i-mitriki-moy-glossa-22f836.mp3
+  example2_el: Μιλάω τη μητρική μου γλώσσα στο σπίτι.
+  example2_en: I speak my mother tongue at home.
+  example2_audio: milao-ti-mitriki-moy-660504.mp3
 - id: A1-U02-008
   greek: η Ελλάδα
   phonetic_hint: ''
@@ -140,6 +168,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Ελλάδα
   keg_communicative_function: Naming the target host country
+  example_audio: meno-stin-ellada-tor-ccc76b.mp3
+  example2_el: Κάθε καλοκαίρι ταξιδεύω στην Ελλάδα.
+  example2_en: Every summer I travel to Greece.
+  example2_audio: kathe-kalokairi-taxi-ddfc85.mp3
 - id: A1-U02-009
   greek: η Αγγλία
   phonetic_hint: ''
@@ -155,6 +187,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Αγγλία
   keg_communicative_function: Identifying country of origin
+  example_audio: o-filos-moy-einai-ap-578f90.mp3
+  example2_el: Το Λονδίνο είναι η πρωτεύουσα της Αγγλίας.
+  example2_en: London is the capital of England.
+  example2_audio: to-londino-einai-i-p-8e4753.mp3
 - id: A1-U02-010
   greek: η Κύπρος
   phonetic_hint: ''
@@ -171,6 +207,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Κύπρο
   keg_communicative_function: Naming Greek-speaking countries and regions
+  example_audio: i-kypros-einai-ena-o-943bdb.mp3
+  example2_el: Η Κύπρος έχει υπέροχες παραλίες.
+  example2_en: Cyprus has wonderful beaches.
+  example2_audio: i-kypros-echei-ypero-db9bcf.mp3
 - id: A1-U02-011
   greek: η Γαλλία
   phonetic_hint: ''
@@ -186,6 +226,10 @@ entries:
     plural: — (singular only)
     accusative_singular: τη Γαλλία
   keg_communicative_function: Identifying European origin
+  example_audio: i-kathigitria-einai--31b051.mp3
+  example2_el: Μαθαίνω γαλλικά γιατί θέλω να πάω στη Γαλλία.
+  example2_en: I learn French because I want to go to France.
+  example2_audio: mathaino-gallika-gia-975ad3.mp3
 - id: A1-U02-012
   greek: η Γερμανία
   phonetic_hint: ''
@@ -201,6 +245,10 @@ entries:
     plural: — (singular only)
     accusative_singular: τη Γερμανία
   keg_communicative_function: Identifying European origin
+  example_audio: menoyme-sti-germania-d4d56e.mp3
+  example2_el: Ο αδελφός μου σπουδάζει στη Γερμανία.
+  example2_en: My brother studies in Germany.
+  example2_audio: o-adelfos-moy-spoyda-a5a853.mp3
 - id: A1-U02-013
   greek: η Ιταλία
   phonetic_hint: ''
@@ -216,6 +264,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Ιταλία
   keg_communicative_function: Identifying Mediterranean origin
+  example_audio: taxideyo-sychna-stin-3b580d.mp3
+  example2_el: Η Ρώμη είναι μεγάλη πόλη στην Ιταλία.
+  example2_en: Rome is a big city in Italy.
+  example2_audio: i-romi-einai-megali--0b03f5.mp3
 - id: A1-U02-014
   greek: η Ισπανία
   phonetic_hint: ''
@@ -231,6 +283,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Ισπανία
   keg_communicative_function: Identifying country of origin
+  example_audio: i-maria-einai-apo-ti-e4d97d.mp3
+  example2_el: Η Μαδρίτη και η Βαρκελώνη είναι στην Ισπανία.
+  example2_en: Madrid and Barcelona are in Spain.
+  example2_audio: i-madriti-kai-i-vark-12d742.mp3
 - id: A1-U02-015
   greek: οι Ηνωμένες Πολιτείες
   phonetic_hint: ''
@@ -247,6 +303,10 @@ entries:
     accusative_singular: — (plural only)
     accusative_plural: τις Ηνωμένες Πολιτείες
   keg_communicative_function: Identifying North American origin
+  example_audio: eimai-apo-tis-inomen-679647.mp3
+  example2_el: Έχω συγγενείς στις Ηνωμένες Πολιτείες.
+  example2_en: I have relatives in the United States.
+  example2_audio: echo-syggeneis-stis--798c49.mp3
 - id: A1-U02-016
   greek: η Αυστραλία
   phonetic_hint: ''
@@ -262,6 +322,10 @@ entries:
     plural: — (singular only)
     accusative_singular: την Αυστραλία
   keg_communicative_function: Identifying country of origin and Greek diaspora center
+  example_audio: echo-syggeneis-stin--23e7c7.mp3
+  example2_el: Πολλοί Έλληνες ζουν στην Αυστραλία.
+  example2_en: Many Greeks live in Australia.
+  example2_audio: polloi-ellines-zoyn--c0068f.mp3
 - id: A1-U02-017
   greek: ο Έλληνας
   phonetic_hint: ''
@@ -277,6 +341,10 @@ entries:
     plural: οι Έλληνες
     accusative_singular: τον Έλληνα
   keg_communicative_function: Stating male Greek nationality
+  example_audio: o-nikos-einai-ellina-998471.mp3
+  example2_el: Ο κύριος Γιώργος είναι Έλληνας από την Κρήτη.
+  example2_en: Mr. Giorgos is a Greek man from Crete.
+  example2_audio: o-kyrios-giorgos-ein-36efbe.mp3
 - id: A1-U02-018
   greek: η Ελληνίδα
   phonetic_hint: ''
@@ -292,6 +360,10 @@ entries:
     plural: οι Ελληνίδες
     accusative_singular: την Ελληνίδα
   keg_communicative_function: Stating female Greek nationality
+  example_audio: i-eleni-einai-ellini-ecc0f7.mp3
+  example2_el: Η Μαρία είναι Ελληνίδα και μένει στην Πάτρα.
+  example2_en: Maria is a Greek woman and lives in Patras.
+  example2_audio: i-maria-einai-ellini-f04bfb.mp3
 - id: A1-U02-019
   greek: ο Άγγλος
   phonetic_hint: ''
@@ -307,6 +379,10 @@ entries:
     plural: οι Άγγλοι
     accusative_singular: τον Άγγλο
   keg_communicative_function: Stating male English nationality
+  example_audio: o-tzon-einai-agglos-33c485.mp3
+  example2_el: Ο Άγγλος καθηγητής διδάσκει στο κολέγιο.
+  example2_en: The English teacher teaches at the college.
+  example2_audio: o-agglos-kathigitis--5fbfae.mp3
 - id: A1-U02-020
   greek: η Αγγλίδα
   phonetic_hint: ''
@@ -322,6 +398,10 @@ entries:
     plural: οι Αγγλίδες
     accusative_singular: την Αγγλίδα
   keg_communicative_function: Stating female English nationality
+  example_audio: i-sara-einai-agglida-74d3a1.mp3
+  example2_el: Η κυρία Σμιθ είναι Αγγλίδα τουρίστρια.
+  example2_en: Mrs. Smith is an English tourist.
+  example2_audio: i-kyria-smith-einai--46704a.mp3
 - id: A1-U02-021
   greek: ο Γάλλος
   phonetic_hint: ''
@@ -337,6 +417,10 @@ entries:
     plural: οι Γάλλοι
     accusative_singular: τον Γάλλο
   keg_communicative_function: Stating male French nationality
+  example_audio: o-pier-einai-gallos--b51f36.mp3
+  example2_el: Ο Γάλλος μάγειρας φτιάχνει υπέροχα γλυκά.
+  example2_en: The French chef makes wonderful desserts.
+  example2_audio: o-gallos-mageiras-ft-1ac14a.mp3
 - id: A1-U02-022
   greek: η Γαλλίδα
   phonetic_hint: ''
@@ -352,6 +436,10 @@ entries:
     plural: οι Γαλλίδες
     accusative_singular: τη Γαλλίδα
   keg_communicative_function: Stating female French nationality
+  example_audio: i-mari-einai-gallida-3141bb.mp3
+  example2_el: Η Γαλλίδα φοιτήτρια μαθαίνει νέα ελληνικά.
+  example2_en: The French student learns Modern Greek.
+  example2_audio: i-gallida-foititria--fa24a8.mp3
 - id: A1-U02-023
   greek: ο Γερμανός
   phonetic_hint: ''
@@ -367,6 +455,10 @@ entries:
     plural: οι Γερμανοί
     accusative_singular: τον Γερμανό
   keg_communicative_function: Stating male German nationality
+  example_audio: o-chans-einai-german-19adcc.mp3
+  example2_el: Ο Γερμανός μηχανικός εργάζεται στην Αθήνα.
+  example2_en: The German engineer works in Athens.
+  example2_audio: o-germanos-michaniko-93056c.mp3
 - id: A1-U02-024
   greek: η Γερμανίδα
   phonetic_hint: ''
@@ -382,6 +474,10 @@ entries:
     plural: οι Γερμανίδες
     accusative_singular: τη Γερμανίδα
   keg_communicative_function: Stating female German nationality
+  example_audio: i-ingkrint-einai-ger-5fda03.mp3
+  example2_el: Η Γερμανίδα φίλη μου μιλάει τρεις γλώσσες.
+  example2_en: My German friend speaks three languages.
+  example2_audio: i-germanida-fili-moy-1e403f.mp3
 - id: A1-U02-025
   greek: ο Ιταλός
   phonetic_hint: ''
@@ -397,6 +493,10 @@ entries:
     plural: οι Ιταλοί
     accusative_singular: τον Ιταλό
   keg_communicative_function: Stating male Italian nationality
+  example_audio: o-marko-einai-italos-925398.mp3
+  example2_el: Ο Ιταλός οδηγός γνωρίζει καλά τους δρόμους.
+  example2_en: The Italian driver knows the streets well.
+  example2_audio: o-italos-odigos-gnor-28ee26.mp3
 - id: A1-U02-026
   greek: η Ιταλίδα
   phonetic_hint: ''
@@ -412,6 +512,10 @@ entries:
     plural: οι Ιταλίδες
     accusative_singular: την Ιταλίδα
   keg_communicative_function: Stating female Italian nationality
+  example_audio: i-tzoylia-einai-ital-c96c5c.mp3
+  example2_el: Η Ιταλίδα τραγουδίστρια έχει ωραία φωνή.
+  example2_en: The Italian singer has a nice voice.
+  example2_audio: i-italida-tragoydist-9eda45.mp3
 - id: A1-U02-027
   greek: ο Ισπανός
   phonetic_hint: ''
@@ -427,6 +531,10 @@ entries:
     plural: οι Ισπανοί
     accusative_singular: τον Ισπανό
   keg_communicative_function: Stating male Spanish nationality
+  example_audio: o-karlos-einai-ispan-b2f3f3.mp3
+  example2_el: Ο Ισπανός συμμαθητής μου είναι πολύ φιλικός.
+  example2_en: My Spanish classmate is very friendly.
+  example2_audio: o-ispanos-symmathiti-b5bd32.mp3
 - id: A1-U02-028
   greek: η Ισπανίδα
   phonetic_hint: ''
@@ -442,6 +550,10 @@ entries:
     plural: οι Ισπανίδες
     accusative_singular: την Ισπανίδα
   keg_communicative_function: Stating female Spanish nationality
+  example_audio: i-karmen-einai-ispan-ad9d14.mp3
+  example2_el: Η Ισπανίδα δασκάλα διδάσκει ισπανικά.
+  example2_en: The Spanish teacher teaches Spanish.
+  example2_audio: i-ispanida-daskala-d-8daee6.mp3
 - id: A1-U02-029
   greek: ελληνικός, -ή, -ό
   phonetic_hint: ''
@@ -460,6 +572,10 @@ entries:
     plural: ελληνικοί, ελληνικές, ελληνικά
   keg_communicative_function: Describing objects, concepts, and traditions related
     to Greece
+  example_audio: moy-aresei-o-ellinik-34bbbf.mp3
+  example2_el: Μου αρέσει το ελληνικό γιαούρτι με μέλι.
+  example2_en: I like Greek yogurt with honey.
+  example2_audio: moy-aresei-to-ellini-3a5666.mp3
 - id: A1-U02-030
   greek: τα ελληνικά
   phonetic_hint: ''
@@ -478,6 +594,10 @@ entries:
     accusative_plural: τα ελληνικά
   keg_communicative_function: Referring to the Greek language as a field of study
     or speech
+  example_audio: mathaino-ellinika-st-4fe924.mp3
+  example2_el: Καταλαβαίνω τα ελληνικά αλλά μιλάω λίγο.
+  example2_en: I understand Greek but I speak a little.
+  example2_audio: katalavaino-ta-ellin-27f4a5.mp3
 - id: A1-U02-031
   greek: τα αγγλικά
   phonetic_hint: ''
@@ -494,6 +614,10 @@ entries:
     accusative_singular: — (plural only)
     accusative_plural: τα αγγλικά
   keg_communicative_function: Referring to the English language
+  example_audio: milao-poly-kala-aggl-c6538c.mp3
+  example2_el: Διαβάζω ένα βιβλίο στα αγγλικά.
+  example2_en: I am reading a book in English.
+  example2_audio: diavazo-ena-vivlio-s-509474.mp3
 - id: A1-U02-032
   greek: τα γαλλικά
   phonetic_hint: ''
@@ -510,6 +634,10 @@ entries:
     accusative_singular: — (plural only)
     accusative_plural: τα γαλλικά
   keg_communicative_function: Referring to the French language
+  example_audio: katalavaino-liga-gal-ec2b55.mp3
+  example2_el: Τα γαλλικά είναι μία όμορφη γλώσσα.
+  example2_en: French is a beautiful language.
+  example2_audio: ta-gallika-einai-mia-ddb0a3.mp3
 - id: A1-U02-033
   greek: μένω
   phonetic_hint: ''
@@ -527,6 +655,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό μένει
     first_person_plural: εμείς μένουμε
   keg_communicative_function: Stating address, neighborhood, city, or country of residence
+  example_audio: meno-stin-athina-sti-9dc55c.mp3
+  example2_el: Πού μένεις τώρα στην Αθήνα;
+  example2_en: Where do you live now in Athens?
+  example2_audio: poy-meneis-tora-stin-5931cd.mp3
 - id: A1-U02-034
   greek: μιλάω / μιλώ
   phonetic_hint: ''
@@ -544,6 +676,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό μιλάει (μιλά)
     first_person_plural: εμείς μιλάμε (μιλούμε)
   keg_communicative_function: Expressing language skills and conversational communication
+  example_audio: milao-ellinika-kai-a-f098e7.mp3
+  example2_el: Μιλάτε αργά παρακαλώ, είμαι ξένος.
+  example2_en: Please speak slowly, I am a foreigner.
+  example2_audio: milate-arga-parakalo-e34e24.mp3
 - id: A1-U02-035
   greek: μαθαίνω
   phonetic_hint: ''
@@ -560,6 +696,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό μαθαίνει
     first_person_plural: εμείς μαθαίνουμε
   keg_communicative_function: Talking about learning languages and subjects
+  example_audio: mathainoyme-nea-elli-e86108.mp3
+  example2_el: Μαθαίνω ελληνικά για τις εξετάσεις του ΚΕΓ.
+  example2_en: I am learning Greek for the KEG exams.
+  example2_audio: mathaino-ellinika-gi-4932bf.mp3
 - id: A1-U02-036
   greek: καταλαβαίνω
   phonetic_hint: ''
@@ -576,6 +716,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό καταλαβαίνει
     first_person_plural: εμείς καταλαβαίνουμε
   keg_communicative_function: Expressing comprehension or requesting clarification
+  example_audio: den-katalavaino-para-91338a.mp3
+  example2_el: Δεν καταλαβαίνω αυτή τη λέξη, τι σημαίνει;
+  example2_en: I don't understand this word, what does it mean?
+  example2_audio: den-katalavaino-ayti-29d90a.mp3
 - id: A1-U02-037
   greek: ξέρω
   phonetic_hint: ''
@@ -592,6 +736,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ξέρει
     first_person_plural: εμείς ξέρουμε
   keg_communicative_function: Stating knowledge of facts, information, or languages
+  example_audio: xerete-poy-einai-to--e00ddc.mp3
+  example2_el: Ξέρετε πού είναι η στάση του λεωφορείου;
+  example2_en: Do you know where the bus stop is?
+  example2_audio: xerete-poy-einai-i-s-959f22.mp3
 - id: A1-U02-038
   greek: από
   phonetic_hint: ''
@@ -606,6 +754,10 @@ entries:
     part_of_speech: preposition
     governs_case: accusative
   keg_communicative_function: Expressing origin, provenance, and nationality background
+  example_audio: eimai-apo-tin-kypro-d7d0f1.mp3
+  example2_el: Είμαι από την Κύπρο, εσύ από πού είσαι;
+  example2_en: I am from Cyprus, where are you from?
+  example2_audio: eimai-apo-tin-kypro--616b0b.mp3
 - id: A1-U02-039
   greek: σε
   phonetic_hint: ''
@@ -623,6 +775,10 @@ entries:
     contractions: σε + τον = στον, σε + την = στη(ν), σε + το = στο, σε + τους = στους,
       σε + τις = στις, σε + τα = στα
   keg_communicative_function: Expressing location and residence
+  example_audio: zo-stin-athina-kai-d-d7eb44.mp3
+  example2_el: Μένουμε σε ένα ξενοδοχείο στο κέντρο.
+  example2_en: We are staying at a hotel in the center.
+  example2_audio: menoyme-se-ena-xenod-13ef51.mp3
 - id: A1-U02-040
   greek: λίγο
   phonetic_hint: ''
@@ -636,3 +792,7 @@ entries:
   grammatical_info:
     part_of_speech: adverb
   keg_communicative_function: Expressing basic or emerging language competency
+  example_audio: milao-mono-ligo-elli-063c92.mp3
+  example2_el: Μιλάω λίγο ελληνικά, είμαι αρχάριος.
+  example2_en: I speak a little Greek, I am a beginner.
+  example2_audio: milao-ligo-ellinika--2e40a7.mp3

@@ -1,0 +1,861 @@
+unit_id: unit-109c
+lesson_id: lesson-01
+title: 'Ενότητα 9: Διάλογοι & Εξετάσεις — Σπουδές, Εργασία, Επαγγέλματα & Αόριστος
+  (A1 Synthesis)'
+description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on
+  university studies, courses, stationery, job interviews, professional duties, work
+  schedules, salary negotiations, leave entitlement, and simple past (aorist) narrative
+  interactions using vocabulary from Lessons 100 to 109.
+lesson_status: not_started
+entries:
+- id: A1-U109C-001
+  greek: — Τι σπουδάζεις στο πανεπιστήμιο; — Σπουδάζω αρχιτεκτονική και είμαι στο
+    τρίτο έτος.
+  phonetic_hint: — Tee spoo-THAH-zees stoh pah-neh-pee-STEE-mee-oh? — Spoo-THAH-zoh
+    ahr-khee-tek-toh-nee-KEE keh EE-meh stoh TREE-toh EH-tos.
+  english: — What are you studying at university? — I study architecture and I am
+    in my third year.
+  notes: Review Unit 109. Describing academic field of study ('αρχιτεκτονική') and
+    current year.
+  gender_or_pos: phrase
+  audio: ti-spoydazeis-sto-pa-51da93.mp3
+  status: verified
+  example_el: — Σε ποια σχολή είσαι; — Σπουδάζω αρχιτεκτονική στο Πολυτεχνείο.
+  example_en: — In which faculty are you? — I study architecture at the Polytechnic.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing field of study and university degree status
+- id: A1-U109C-002
+  greek: — Πότε αρχίζουν οι εξετάσεις; — Οι εξετάσεις αρχίζουν τον Ιούνιο και τελειώνουν
+    τον Ιούλιο.
+  phonetic_hint: — POH-teh ahr-KHEE-zoon ee ek-seh-TAH-sees? — Ee ek-seh-TAH-sees
+    ahr-KHEE-zoon ton ee-OO-nee-oh keh teh-lee-OH-noon ton ee-OO-lee-oh.
+  english: — When do exams begin? — The exams begin in June and end in July.
+  notes: Review Unit 109. Academic calendar discussions regarding exam periods.
+  gender_or_pos: phrase
+  audio: pote-archizoyn-oi-ex-7a29f3.mp3
+  status: verified
+  example_el: — Πώς ήταν το τεστ; — Έγραψα πολύ καλά και πήρα καλό βαθμό.
+  example_en: — How was the test? — I wrote very well and got a good grade.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing exam schedules and academic terms
+- id: A1-U109C-003
+  greek: — Πού κάνεις μαθήματα ξένων γλωσσών; — Κάνω μαθήματα ελληνικών σε ένα φροντιστήριο
+    στο κέντρο.
+  phonetic_hint: — POO KAH-nees mah-THEE-mah-tah KSEH-non ghloh-SOHN? — KAH-noh mah-THEE-mah-tah
+    eh-lee-nee-KOHN seh EH-nah frohn-dee-STEE-ree-oh stoh KEN-droh.
+  english: — Where do you take foreign language lessons? — I take Greek lessons at
+    an institute downtown.
+  notes: Review Unit 109. Language courses at a private institute ('φροντιστήριο').
+  gender_or_pos: phrase
+  audio: poy-kaneis-mathimata-e6b2c6.mp3
+  status: verified
+  example_el: — Πότε γίνονται τα μαθήματα; — Γίνονται κάθε Δευτέρα και Παρασκευή το
+    απόγευμα.
+  example_en: — When do classes take place? — They take place every Monday and Friday
+    afternoon.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing private course attendance and language classes
+- id: A1-U109C-004
+  greek: — Πόσα άτομα είναι στην τάξη σας; — Είμαστε περίπου είκοσι φοιτητές στο τμήμα.
+  phonetic_hint: — POH-sah AH-toh-mah EE-neh steen TAH-ksee sahs? — EE-mah-steh peh-REE-poo
+    EE-koh-see fee-tee-TES stoh TMEE-mah.
+  english: — How many people are in your class? — We are about twenty students in
+    the department.
+  notes: Review Unit 109. Inquiring class size with 'πόσα άτομα'.
+  gender_or_pos: phrase
+  audio: posa-atoma-einai-sti-6d53c0.mp3
+  status: verified
+  example_el: — Είναι καλή η καθηγήτρια σας; — Ναι, είναι πολύ καλή και βοηθάει όλους
+    τους μαθητές.
+  example_en: — Is your professor good? — Yes, she is very good and helps all the
+    students.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about class sizes and professors in educational
+    institutions
+- id: A1-U109C-005
+  greek: — Έχεις μαζί σου τετράδιο και στυλό; — Ναι, έχω ένα μπλε τετράδιο, δύο στυλό
+    και μολύβι μέσα στην κασετίνα.
+  phonetic_hint: — EH-khees mah-ZEE soo teh-TRAH-thee-oh keh stee-LOH? — Neh, EH-khoh
+    EH-nah bleh teh-TRAH-thee-oh, THEE-oh stee-LOH keh moh-LEE-vee MEH-sah steen kah-seh-TEE-nah.
+  english: — Do you have a notebook and pen with you? — Yes, I have a blue notebook,
+    two pens, and a pencil in my pencil case.
+  notes: Review Unit 109. Classroom stationery essentials in dialogue.
+  gender_or_pos: phrase
+  audio: echeis-mazi-soy-tetr-6e212a.mp3
+  status: verified
+  example_el: — Μου δίνετε τη γόμα σας, παρακαλώ; — Βεβαίως, ορίστε η γόμα.
+  example_en: — Could you give me your eraser, please? — Certainly, here is the eraser.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting and identifying school stationery items
+- id: A1-U109C-006
+  greek: — Πότε παίρνεις το πτυχίο σου; — Τελειώνω τις σπουδές μου τον επόμενο χρόνο.
+  phonetic_hint: — POH-teh PEHR-nees toh ptee-KHEE-oh soo? — Teh-lee-OH-noh tees spoo-THES
+    moo ton eh-POH-meh-noh KHROH-noh.
+  english: — When do you get your degree? — I finish my studies next year.
+  notes: Review Unit 109. Degree completion with 'πτυχίο' and subjunctive 'να τελειώσω'.
+  gender_or_pos: phrase
+  audio: pote-pairneis-to-pty-394e51.mp3
+  status: verified
+  example_el: — Έχει καλούς βαθμούς στο σχολείο; — Ναι, έχει πάντα πολύ καλούς βαθμούς.
+  example_en: — Does he have good marks at school? — Yes, he always has very good
+    marks.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing university graduation and degree completion
+    timelines
+- id: A1-U109C-007
+  greek: — Παίζεις κάποιο μουσικό όργανο; — Ναι, παίζω κιθάρα και μαθαίνω πιάνο στο
+    ωδείο.
+  phonetic_hint: — PEH-zees KAH-pyoh moo-see-KOH OHR-ghah-noh? — Neh, PEH-zoh kee-THAH-rah
+    keh mah-THEH-noh PYAH-noh stoh oh-THEE-oh.
+  english: — Do you play a musical instrument? — Yes, I play guitar and am learning
+    piano at the conservatory.
+  notes: Review Unit 109. Music education and musical instruments.
+  gender_or_pos: phrase
+  audio: paizeis-kapoio-moysi-129d2b.mp3
+  status: verified
+  example_el: — Σου αρέσει η κλασική μουσική; — Μου αρέσει πολύ η μουσική και το τραγούδι.
+  example_en: — Do you like classical music? — I like music and singing very much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing artistic hobbies and musical instrument practice
+- id: A1-U109C-008
+  greek: — Πότε γίνονται οι εγγραφές στο πανεπιστήμιο; — Οι εγγραφές για το χειμερινό
+    εξάμηνο ξεκινούν τον Σεπτέμβριο.
+  phonetic_hint: — POH-teh YEE-non-deh ee eg-grah-FES stoh pah-neh-pee-STEE-mee-oh?
+    — Ee eg-grah-FES yah toh khee-meh-ree-NOH ek-SAH-mee-noh kseh-kee-NOON ton sep-TEHM-vree-oh.
+  english: — When does university registration take place? — Registrations for the
+    winter semester start in September.
+  notes: Review Unit 109. Administrative dates for university admissions.
+  gender_or_pos: phrase
+  audio: pote-ginontai-oi-egg-97beb6.mp3
+  status: verified
+  example_el: — Έκανες την εγγραφή σου; — Ναι, έκανα την εγγραφή μου σήμερα το πρωί.
+  example_en: — Did you complete your registration? — Yes, I did my registration this
+    morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about university enrollment procedures and
+    semester deadlines
+- id: A1-U109C-009
+  greek: — Προτιμάτε ατομικά μαθήματα ή σε τμήμα; — Προτιμώ ομαδικά μαθήματα γιατί
+    μπορώ να μιλάω με άλλους φοιτητές.
+  phonetic_hint: — Proh-tee-MAH-teh ah-toh-mee-KAH mah-THEE-mah-tah ee seh TMEE-mah?
+    — Proh-tee-MOH oh-mah-thee-KAH mah-THEE-mah-tah yah-TEE boh-ROH nah mee-LAH-oh
+    meh AH-loos fee-tee-TES.
+  english: — Do you prefer individual lessons or in a class? — I prefer group classes
+    because I can speak with other students.
+  notes: Review Unit 109. Educational format preferences with 'ατομικά' vs 'ομαδικά'.
+  gender_or_pos: phrase
+  audio: protimate-atomika-ma-22a68f.mp3
+  status: verified
+  example_el: — Πόσο κοστίζουν τα μαθήματα τον μήνα; — Κάνουν εκατό ευρώ τον μήνα.
+  example_en: — How much do the classes cost per month? — They are one hundred euros
+    per month.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing preferences regarding group vs private instruction
+- id: A1-U109C-010
+  greek: — Πότε κάνετε διάλειμμα στο σχολείο; — Κάνουμε διάλειμμα κάθε δύο ώρες για
+    δεκαπέντε λεπτά.
+  phonetic_hint: — POH-teh KAH-neh-teh thee-AH-leem-mah stoh skhoh-LEE-oh? — KAH-noo-meh
+    thee-AH-leem-mah KAH-theh THEE-oh OH-res yah theh-kah-PEN-deh lep-TAH.
+  english: — When do you take a break at school? — We take a break every two hours
+    for fifteen minutes.
+  notes: Review Unit 109. School schedules and recess ('διάλειμμα').
+  gender_or_pos: phrase
+  audio: pote-kanete-dialeimm-e1e406.mp3
+  status: verified
+  example_el: — Πάμε για έναν καφέ στο διάλειμμα; — Ναι, ευχαρίστως, πάμε έξω στην
+    αυλή.
+  example_en: — Shall we go for a coffee during the break? — Yes, gladly, let's go
+    outside to the yard.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing daily class timetables and intermission breaks
+- id: A1-U109C-011
+  greek: — Τι δουλειά κάνετε; — Είμαι προγραμματιστής σε μια μεγάλη εταιρεία πληροφορικής.
+  phonetic_hint: — Tee thoo-lee-AH KAH-neh-teh? — EE-meh proh-ghrah-mah-tee-STEES
+    seh MEE-ah meh-GHAH-lee eh-teh-REE-ah plee-roh-foh-ree-KEES.
+  english: — What kind of work do you do? — I am a programmer at a large software
+    company.
+  notes: Review Unit 109. Inquiring and stating profession ('προγραμματιστής').
+  gender_or_pos: phrase
+  audio: ti-doyleia-kanete-ei-a77f60.mp3
+  status: verified
+  example_el: — Πού δουλεύει ο αδερφός σου; — Δουλεύει ως λογιστής σε ένα γραφείο.
+  example_en: — Where does your brother work? — He works as an accountant in an office.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring and explaining professional occupation and
+    employment
+- id: A1-U109C-012
+  greek: — Έστειλες το βιογραφικό σου σημείωμα στην εταιρεία; — Ναι, το έστειλα χθες
+    το πρωί με ηλεκτρονικό μήνυμα.
+  phonetic_hint: — EH-stee-les toh vee-oh-ghrah-fee-KOH soo see-MEE-oh-mah steen eh-teh-REE-ah?
+    — Neh, toh EH-stee-lah khthes toh proh-EE meh ee-lek-troh-nee-KOH MEE-nee-mah.
+  english: — Did you send your CV to the company? — Yes, I sent it yesterday morning
+    by email.
+  notes: Review Unit 109. Job applications with 'βιογραφικό σημείωμα' and Aorist 'έστειλα/έστειλες'.
+  gender_or_pos: phrase
+  audio: esteiles-to-viografi-db5de8.mp3
+  status: verified
+  example_el: — Έχεις έτοιμο το βιογραφικό σου; — Ναι, είναι έτοιμο στο γραφείο μου.
+  example_en: — Do you have your CV ready? — Yes, it is ready in my office.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing CV submissions and job application procedures
+- id: A1-U109C-013
+  greek: — Έχετε συνέντευξη για δουλειά αύριο; — Ναι, έχω συνέντευξη στις δέκα το
+    πρωί με τον διευθυντή.
+  phonetic_hint: — EH-kheh-teh see-NEN-def-ksee yah thoo-lee-AH AHF-ree-oh? — Neh,
+    EH-khoh see-NEN-def-ksee stees THEH-kah toh proh-EE meh ton thee-ef-theen-DEE.
+  english: — Do you have a job interview tomorrow? — Yes, I have an interview at ten
+    in the morning with the director.
+  notes: Review Unit 109. Scheduling and attending job interviews ('συνέντευξη').
+  gender_or_pos: phrase
+  audio: echete-synenteyxi-gi-6639f3.mp3
+  status: verified
+  example_el: — Πώς πήγε η συνέντευξη; — Πήγε πολύ καλά, ήταν πολύ ευγενικοί.
+  example_en: — How did the interview go? — It went very well, they were very polite.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing job interview appointments and hiring interactions
+- id: A1-U109C-014
+  greek: — Είσαι έμπειρος σε αυτή τη δουλειά; — Ναι, δούλεψα τρία χρόνια σε ένα δημόσιο
+    νοσοκομείο.
+  phonetic_hint: — EE-seh EM-bee-ros seh ahf-TEE tee thoo-lee-AH? — Neh, THOO-lep-sah
+    THREE-ah KHROH-nyah seh EH-nah thee-MOH-see-oh noh-soh-koh-MEE-oh.
+  english: — Are you experienced in this work? — Yes, I worked three years in a public
+    hospital.
+  notes: Review Unit 109. Adjective 'έμπειρος' and past tense 'δούλεψα'.
+  gender_or_pos: phrase
+  audio: eisai-empeiros-se-ay-035092.mp3
+  status: verified
+  example_el: — Είναι έμπειρος μηχανικός; — Ναι, είναι πολύ έμπειρος μηχανικός.
+  example_en: — Is he an experienced engineer? — Yes, he is a very experienced engineer.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating past professional work experience in employment
+    interviews
+- id: A1-U109C-015
+  greek: — Ποιες ξένες γλώσσες μιλάτε; — Μιλάω πολύ καλά αγγλικά και λίγα ελληνικά.
+  phonetic_hint: — PYES KSEH-nes GLOH-ses mee-LAH-teh? — Mee-LAH-oh poh-LEE kah-LAH
+    ahng-glee-KAH keh LEE-ghah eh-lee-nee-KAH.
+  english: — Which foreign languages do you speak? — I speak English very well and
+    a little Greek.
+  notes: Review Units 103 & 109. Language competency questions in interviews.
+  gender_or_pos: phrase
+  audio: poies-xenes-glosses--8b7e98.mp3
+  status: verified
+  example_el: — Κάνεις μαθήματα ελληνικών για τη δουλειά σου; — Ναι, τα χρειάζομαι
+    για να μιλάω στο γραφείο.
+  example_en: — Do you take Greek lessons for your job? — Yes, I need them to speak
+    at the office.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Declaring language proficiencies and communication abilities
+- id: A1-U109C-016
+  greek: — Είσαι ευχαριστημένος από το νέο γραφείο σου; — Ναι, είναι πολύ φωτεινό
+    και ο συνάδελφος είναι πολύ ευγενικός.
+  phonetic_hint: — EE-seh ef-khah-ree-stee-MEH-nos ah-POH toh NEH-oh ghrah-FEE-oh
+    soo? — Neh, EE-neh poh-LEE foh-tee-NOH keh oh see-NAH-thel-fos EE-neh poh-LEE
+    ef-yeh-nee-KOHS.
+  english: — Are you pleased with your new office? — Yes, it is very bright and my
+    colleague is very polite.
+  notes: Review Unit 109. Workplace satisfaction and colleague relations ('συνάδελφος').
+  gender_or_pos: phrase
+  audio: eisai-eycharistimeno-4887dd.mp3
+  status: verified
+  example_el: — Πώς είναι η δουλειά στο νέο γραφείο; — Είμαι πολύ ευχαριστημένος από
+    το ωράριο.
+  example_en: — How is work at the new office? — I am very pleased with the schedule.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing working environment and workplace relationships
+- id: A1-U109C-017
+  greek: — Δυστυχώς, αυτή την περίοδο είμαι άνεργος. — Μην ανησυχείς, υπάρχουν πολλές
+    αγγελίες για εργασία στην εφημερίδα.
+  phonetic_hint: — Thee-stee-KHOHS, ahf-TEE teen peh-REE-oh-thoh EE-meh AH-nehr-ghos.
+    — Meen ah-nee-see-KHEES, ee-PAHR-khoon poh-LES ahng-geh-LEE-es yah ehr-ghah-SEE-ah
+    steen eh-fee-meh-REE-thah.
+  english: — Unfortunately, at this time I am unemployed. — Don't worry, there are
+    many job ads in the newspaper.
+  notes: Review Unit 109. Stating unemployment ('άνεργος') and browsing job ads.
+  gender_or_pos: phrase
+  audio: dystychos-ayti-tin-p-12f8bc.mp3
+  status: verified
+  example_el: — Ψάχνω για δουλειά στην Αθήνα. — Υπάρχει αγγελία για έναν υπάλληλο
+    γραφείου.
+  example_en: — I am looking for a job in Athens. — There is an advertisement for
+    an office clerk.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing job searching and employment transitions
+- id: A1-U109C-018
+  greek: — Πού δουλεύει η κυρία Μαρία; — Δουλεύει ως γραμματέας σε ένα ιατρείο.
+  phonetic_hint: — POO thoo-LEH-vee ee kee-REE-ah Mah-REE-ah? — Thoo-LEH-vee ohs ghrah-mah-TEH-ahs
+    seh EH-nah ee-ah-TREE-oh.
+  english: — Where does Mrs. Maria work? — She works as a secretary in a doctor's
+    clinic.
+  notes: Review Unit 109. Medical clinic employment with profession 'γραμματέας'.
+  gender_or_pos: phrase
+  audio: poy-doyleyei-i-kyria-e00318.mp3
+  status: verified
+  example_el: — Είναι γιατρός ο κύριος Νίκος; — Όχι, είναι νοσοκόμος στο νοσοκομείο.
+  example_en: — Is Mr. Nikos a doctor? — No, he is a nurse at the hospital.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Identifying healthcare and administrative occupations
+- id: A1-U109C-019
+  greek: — Τι σπουδές έχετε κάνει; — Έχω πτυχίο πληροφορικής και δούλεψα σε γραφείο.
+  phonetic_hint: — Tee spoo-THES EH-kheh-teh KAH-nee? — EH-khoh ptee-KHEE-oh plee-roh-foh-ree-KEES
+    keh THOO-lep-sah seh ghrah-FEE-oh.
+  english: — What studies have you completed? — I have a degree in computer science
+    and worked in an office.
+  notes: Review Unit 109. Stating university degree credentials during interviews.
+  gender_or_pos: phrase
+  audio: ti-spoydes-echete-ka-a2b8b7.mp3
+  status: verified
+  example_el: — Γιατί θέλετε αυτή τη δουλειά; — Γιατί μου αρέσει πάρα πολύ η αρχιτεκτονική.
+  example_en: — Why do you want this job? — Because I like architecture very much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Delivering self-introductory summaries in job interviews
+- id: A1-U109C-020
+  greek: — Πότε αρχίζει η εργασία σας; — Αρχίζω αμέσως, από την επόμενη Δευτέρα.
+  phonetic_hint: — POH-teh ahr-KHEE-zee ee er-ghah-SEE-ah sahs? — Ahr-KHEE-zoh ah-MEH-sohs,
+    ah-POH teen eh-POH-meh-nee thehf-TEH-rah.
+  english: — When does your work begin? — I start immediately, from next Monday.
+  notes: Review Unit 109. Agreeing on job starting dates with 'αρχίζω/αρχίσω'.
+  gender_or_pos: phrase
+  audio: pote-archizei-i-erga-00c407.mp3
+  status: verified
+  example_el: — Μπορείτε να έρθετε αύριο στο γραφείο; — Ναι, μπορώ να έρθω στις εννέα
+    το πρωί.
+  example_en: — Can you come to the office tomorrow? — Yes, I can come at nine in
+    the morning.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Confirming job availability and prospective start dates
+- id: A1-U109C-021
+  greek: — Ποιο είναι το ωράριο εργασίας σας; — Δουλεύω οκτώ ώρες την ημέρα, εννέα
+    το πρωί με πέντε το απόγευμα.
+  phonetic_hint: — PYO EE-neh toh oh-RAH-ree-oh ehr-ghah-SEE-ahs sahs? — Thoo-LEH-voh
+    ohk-TOH OH-res teen ee-MEH-rah, eh-NEH-ah toh proh-EE meh PEN-deh toh ah-POH-yev-mah.
+  english: — What are your working hours? — I work eight hours a day, nine in the
+    morning to five in the afternoon.
+  notes: Review Unit 109. Describing standard office working hours.
+  gender_or_pos: phrase
+  audio: poio-einai-to-orario-ee2d44.mp3
+  status: verified
+  example_el: — Δουλεύεις τα Σαββατοκύριακα; — Όχι, δουλεύω μόνο από Δευτέρα έως Παρασκευή.
+  example_en: — Do you work on weekends? — No, I work only from Monday through Friday.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining work schedules and regular weekly shifts
+- id: A1-U109C-022
+  greek: — Κάνετε συχνά υπερωρίες στο γραφείο; — Μερικές φορές κάνω υπερωρίες όταν
+    έχουμε πολλή δουλειά.
+  phonetic_hint: — KAH-neh-teh see-KHNAH ee-peh-roh-REE-es stoh ghrah-FEE-oh? — Meh-ree-KES
+    foh-RES KAH-noh ee-peh-roh-REE-es OH-tahn EH-khoo-meh poh-LEE thoo-lee-AH.
+  english: — Do you often work overtime at the office? — Sometimes I work overtime
+    when we have a lot of work.
+  notes: Review Unit 109. Overtime work discussions ('υπερωρίες').
+  gender_or_pos: phrase
+  audio: kanete-sychna-yperor-c77d72.mp3
+  status: verified
+  example_el: — Πληρώνεται καλά αυτή η δουλειά; — Ναι, πληρώνεται πολύ καλά κάθε μήνα.
+  example_en: — Does this job pay well? — Yes, it pays very well every month.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about and describing overtime work requirements
+- id: A1-U109C-023
+  greek: — Πόσες μέρες άδεια δικαιούσαι τον χρόνο; — Δικαιούμαι είκοσι πέντε μέρες
+    άδεια τον χρόνο.
+  phonetic_hint: — POH-ses MEH-res AH-thee-ah thee-keh-OO-seh ton KHROH-noh? — Thee-keh-OO-meh
+    EE-koh-see PEN-deh MEH-res AH-thee-ah ton KHROH-noh.
+  english: — How many days of leave are you entitled to per year? — I am entitled
+    to twenty-five days of leave per year.
+  notes: Review Unit 109. Vacation and statutory leave entitlements ('άδεια').
+  gender_or_pos: phrase
+  audio: poses-meres-adeia-di-72c581.mp3
+  status: verified
+  example_el: — Πότε παίρνεις άδεια το καλοκαίρι; — Παίρνω δέκα μέρες άδεια τον Αύγουστο.
+  example_en: — When do you take vacation in the summer? — I take ten days off in
+    August.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating statutory vacation and annual leave entitlements
+- id: A1-U109C-024
+  greek: — Είσαι ευχαριστημένος από τον μισθό σου; — Ναι, ο μισθός είναι μια χαρά,
+    αλλά το σπίτι είναι πολύ ακριβό.
+  phonetic_hint: — EE-seh ef-khah-ree-stee-MEH-nos ah-POH ton mees-THOH soo? — Neh,
+    oh mees-THOHS EE-neh myah khah-RAH, ah-LAH toh SPEE-tee EE-neh poh-LEE ah-kree-VOH.
+  english: — Are you satisfied with your salary? — Yes, the salary is fine, but the
+    apartment is very expensive.
+  notes: Review Unit 109. Compensation and living expenses in the city.
+  gender_or_pos: phrase
+  audio: eisai-eycharistimeno-d9a69e.mp3
+  status: verified
+  example_el: — Έχεις πολλές υπερωρίες στη δουλειά; — Ναι, κάνω υπερωρίες κάθε εβδομάδα.
+  example_en: — Do you have a lot of overtime at work? — Yes, I work overtime every
+    week.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing salary satisfaction and monthly wage payments
+- id: A1-U109C-025
+  greek: — Πού δουλεύει ο πατέρας σου; — Δουλεύει σε ένα μεγάλο εργοστάσιο έξω από
+    την πόλη.
+  phonetic_hint: — POO thoo-LEH-vee oh pah-TEH-rahs soo? — Thoo-LEH-vee seh EH-nah
+    meh-GHAH-loh ehr-ghoh-STAH-see-oh EK-soh ah-POH teen POH-lee.
+  english: — Where does your father work? — He works in a large factory outside the
+    city.
+  notes: Review Unit 109. Industrial workplace with 'εργοστάσιο'.
+  gender_or_pos: phrase
+  audio: poy-doyleyei-o-pater-9e3eb2.mp3
+  status: verified
+  example_el: — Τι φτιάχνει το εργοστάσιο; — Φτιάχνει τρόφιμα και αναψυκτικά.
+  example_en: — What does the factory make? — It makes food and beverages.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing workplaces located in industrial zones
+- id: A1-U109C-026
+  greek: — Έχεις χρόνο για ένα γρήγορο διάλειμμα; — Ναι, πάμε να πάρουμε έναν καφέ
+    και μία τυρόπιτα.
+  phonetic_hint: — EH-khees KHROH-noh yah EH-nah GREE-ghoh-roh thee-AH-leem-mah? —
+    Neh, PAH-meh nah PAH-roo-meh EH-nahn kah-FEH keh MEE-ah tee-ROH-pee-tah.
+  english: — Do you have time for a quick break? — Yes, let's go get a coffee and
+    a cheese pie.
+  notes: Review Unit 109. Workplace coffee break invitations.
+  gender_or_pos: phrase
+  audio: echeis-chrono-gia-en-1715a3.mp3
+  status: verified
+  example_el: — Πόση ώρα διαρκεί το διάλειμμα; — Διαρκεί τριάντα λεπτά το μεσημέρι.
+  example_en: — How long does the break last? — It lasts thirty minutes at midday.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inviting coworkers for quick workplace lunch breaks
+- id: A1-U109C-027
+  greek: — Τι ώρα τελειώνει το ωράριό σου; — Τελειώνω στις πέντε το απόγευμα.
+  phonetic_hint: — Tee OH-rah teh-lee-OH-nee toh oh-RAH-ree-oh soo? — Teh-lee-OH-noh
+    stees PEN-deh toh ah-POH-yev-mah.
+  english: — What time does your schedule end? — I finish at five in the afternoon.
+  notes: Review Unit 109. Leaving work and laboratory duties with 'τελειώνω'.
+  gender_or_pos: phrase
+  audio: ti-ora-teleionei-to--b0b5b3.mp3
+  status: verified
+  example_el: — Φεύγεις νωρίς σήμερα; — Ναι, φεύγω νωρίς γιατί έχω ένα ραντεβού.
+  example_en: — Are you leaving early today? — Yes, I am leaving early because I have
+    an appointment.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating departure times from work and after-hours tasks
+- id: A1-U109C-028
+  greek: — Πώς πας στη δουλειά κάθε πρωί; — Παίρνω το μετρό γιατί είναι πιο γρήγορο
+    από το λεωφορείο.
+  phonetic_hint: — POHS PAHS steen thoo-lee-AH KAH-theh proh-EE? — PEHR-noh toh meh-TROH
+    yah-TEE EE-neh pyoh GREE-ghoh-roh ah-POH toh leh-oh-foh-REE-oh.
+  english: — How do you go to work every morning? — I take the metro because it is
+    faster than the bus.
+  notes: Review Units 105 & 109. Commuting comparison with 'πιο γρήγορο από'.
+  gender_or_pos: phrase
+  audio: pos-pas-sti-doyleia--eb7964.mp3
+  status: verified
+  example_el: — Έχει πολλή κίνηση στον δρόμο το πρωί; — Ναι, έχει πάντα πολλή κίνηση
+    στην πόλη.
+  example_en: — Is there much traffic on the road in the morning? — Yes, there is
+    always heavy traffic in the city.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining daily commute methods and comparative travel
+    speed
+- id: A1-U109C-029
+  greek: — Γιατί είσαι τόσο κουρασμένος; — Έκανα πολλές υπερωρίες και πάω για ύπνο.
+  phonetic_hint: — Yah-TEE EE-seh TOH-soh koo-rah-SMEH-nos? — EH-kah-nah poh-LES ee-peh-roh-REE-es
+    keh PAH-oh yah EEP-noh.
+  english: — Why are you so tired? — I worked a lot of overtime and I am going to
+    sleep.
+  notes: Review Unit 109. Expressing workplace fatigue with 'κουρασμένος'.
+  gender_or_pos: phrase
+  audio: giati-eisai-toso-koy-6b4207.mp3
+  status: verified
+  example_el: — Ήταν δύσκολη η μέρα σήμερα; — Ναι, είχαμε πολλή δουλειά και πολύ διάβασμα.
+  example_en: — Was it a difficult day today? — Yes, we had a lot of work and lots
+    of studying.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing fatigue and seeking rest after long working
+    shifts
+- id: A1-U109C-030
+  greek: — Τι δουλειά κάνει η μητέρα σου; — Η μητέρα μου είναι δασκάλα σε δημοτικό
+    σχολείο.
+  phonetic_hint: — Tee thoo-lee-AH KAH-nee ee mee-TEH-rah soo? — Ee mee-TEH-rah moo
+    EE-neh thah-SKAH-lah seh thee-moh-tee-KOH skhoh-LEE-oh.
+  english: — What work does your mother do? — My mother is a teacher in a primary
+    school.
+  notes: Review Unit 109. Inquiring and stating parent profession with 'δασκάλα'.
+  gender_or_pos: phrase
+  audio: ti-doyleia-kanei-i-m-92bf21.mp3
+  status: verified
+  example_el: — Της αρέσει η δουλειά της; — Ναι, αγαπάει πολύ τα παιδιά και το σχολείο.
+  example_en: — Does she like her job? — Yes, she loves children and the school very
+    much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Identifying family members' professions and career paths
+- id: A1-U109C-031
+  greek: — Τι έκανες χθες το απόγευμα; — Χθες διάβασα όλο το απόγευμα για το μάθημα
+    της ιστορίας.
+  phonetic_hint: — Tee EH-kah-nes khthes toh ah-POH-yev-mah? — Khthes thee-AH-vah-sah
+    OH-loh toh ah-POH-yev-mah yah toh MAH-thee-mah tees ee-stoh-REE-ahs.
+  english: — What did you do yesterday afternoon? — Yesterday I studied all afternoon
+    for the history lesson.
+  notes: Review Unit 109. Past inquiry with 'τι έκανες' and Aorist 'διάβασα'.
+  gender_or_pos: phrase
+  audio: ti-ekanes-chthes-to--1342ac.mp3
+  status: verified
+  example_el: — Έκανες διάβασμα για τις εξετάσεις; — Ναι, διάβασα όλο το Σαββατοκύριακο.
+  example_en: — Did you study for the exams? — Yes, I studied all weekend.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring and reporting on study activities completed
+    yesterday
+- id: A1-U109C-032
+  greek: — Ήσουν πολλές ώρες στο γραφείο χθες; — Ναι, δούλεψα οκτώ ώρες και γύρισα
+    αργά.
+  phonetic_hint: — EE-soon poh-LES OH-res stoh ghrah-FEE-oh khthes? — Neh, THOO-lep-sah
+    ohk-TOH OH-res keh YEE-ree-sah ahr-GHAH.
+  english: — Were you many hours at the office yesterday? — Yes, I worked eight hours
+    and returned late.
+  notes: Review Unit 109. Past narration of work duration with 'δούλεψα' and 'γύρισα'.
+  gender_or_pos: phrase
+  audio: isoyn-polles-ores-st-e83926.mp3
+  status: verified
+  example_el: — Τι ώρα γύρισες χθες; — Γύρισα στις εννέα το βράδυ πολύ κουρασμένος.
+  example_en: — What time did you get back yesterday? — I returned at nine in the
+    evening very tired.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Narrating past work day hours and arrival times
+- id: A1-U109C-033
+  greek: — Τι έκανες χθες το βράδυ; — Χθες το βράδυ μαγείρεψα μια νόστιμη μακαρονάδα
+    με κόκκινο κρασί.
+  phonetic_hint: — Tee EH-kah-nes khthes toh VRAH-thee? — Khthes toh VRAH-thee mah-YEE-rep-sah
+    myah NOH-stee-mee mah-kah-roh-NAH-thah meh KOH-kee-noh krah-SEE.
+  english: — What did you do last night? — Last night I cooked a delicious pasta dish
+    with red wine.
+  notes: Review Unit 109. Past cooking narration with Aorist 'μαγείρεψα'.
+  gender_or_pos: phrase
+  audio: ti-ekanes-chthes-to--36d2cd.mp3
+  status: verified
+  example_el: — Ήρθαν φίλοι για φαγητό; — Ναι, ήρθαν οι φίλοι μας και φάγαμε όλοι
+    μαζί.
+  example_en: — Did friends come over for dinner? — Yes, our friends came and we all
+    ate together.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing past cooking and shared evening meals in
+    the Aorist
+- id: A1-U109C-034
+  greek: — Ήσασταν στην Αθήνα το Σαββατοκύριακο; — Όχι, πήγαμε εκδρομή στο βουνό.
+  phonetic_hint: — EE-sahs-tahn steen ah-THEE-nah toh sah-vah-toh-KEE-ree-ah-koh?
+    — OH-khee, PEE-ghah-meh ek-droh-MEE stoh voo-NOH.
+  english: — Were you in Athens over the weekend? — No, we went on an excursion to
+    the mountain.
+  notes: Review Unit 109. Irregular Aorist 'πήγαμε' with time expression 'προηγούμενο
+    Σαββατοκύριακο'.
+  gender_or_pos: phrase
+  audio: isastan-stin-athina--24c97d.mp3
+  status: verified
+  example_el: — Πώς πέρασες στην εκδρομή; — Ήταν υπέροχα και ο καιρός ήταν πολύ ζεστός.
+  example_en: — How did you spend your time on the excursion? — It was wonderful and
+    the weather was very warm.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Recounting weekend excursions and outdoor activities
+    in the past tense
+- id: A1-U109C-035
+  greek: — Ήταν ο Νίκος στην καφετέρια χθες; — Ναι, τον είδα εκεί και ήπιαμε έναν
+    καφέ μαζί.
+  phonetic_hint: — EE-tahn oh NEE-kos steen kah-feh-TEH-ree-ah khthes? — Neh, ton
+    EE-thah eh-KEE keh EE-pyah-meh EH-nahn kah-FEH mah-ZEE.
+  english: — Was Nikos at the cafe yesterday? — Yes, I saw him there and we drank
+    a coffee together.
+  notes: Review Unit 109. Irregular Aorist forms 'είδα' (I saw) and 'ήπιαμε' (we drank).
+  gender_or_pos: phrase
+  audio: itan-o-nikos-stin-ka-900b51.mp3
+  status: verified
+  example_el: — Τι σου είπε για τις διακοπές; — Μου είπε ότι θα πάει στην Κρήτη το
+    καλοκαίρι.
+  example_en: — What did he tell you about vacation? — He told me that he will go
+    to Crete in summer.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting social meetings and conversations with irregular
+    past verbs
+- id: A1-U109C-036
+  greek: — Βρήκες τα κλειδιά του αυτοκινήτου σου; — Ναι, τα βρήκα μέσα στην τσάντα
+    μου.
+  phonetic_hint: — VREE-kes tah klee-THYAH too ahf-toh-kee-NEE-too soo? — Neh, tah
+    VREE-kah MEH-sah steen TSAHN-dah moo.
+  english: — Did you find your car keys? — Yes, I found them inside my bag.
+  notes: Review Unit 109. Irregular past tense 'βρήκα' (I found).
+  gender_or_pos: phrase
+  audio: vrikes-ta-kleidia-to-51f4c4.mp3
+  status: verified
+  example_el: — Πού ήταν τα κλειδιά; — Ήταν κάτω από την εφημερίδα στο τραπέζι.
+  example_en: — Where were the keys? — They were under the newspaper on the table.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about lost items and confirming their recovery
+    in the past
+- id: A1-U109C-037
+  greek: — Ήσουν μέχρι αργά στο γραφείο χθες; — Όχι, έφυγα νωρίς, στις τέσσερις, γιατί
+    δεν ένιωθα καλά.
+  phonetic_hint: — EE-soon MEKH-ree ahr-GHAH stoh ghrah-FEE-oh khthes? — OH-khee,
+    EH-fee-ghah noh-REES, stees TES-seh-rees, yah-TEE then EH-nyoh-thah kah-LAH.
+  english: — Were you at the office until late yesterday? — No, I left early, at four,
+    because I was not feeling well.
+  notes: Review Unit 109. Irregular past tense 'έφυγα' (I left) with reason.
+  gender_or_pos: phrase
+  audio: isoyn-mechri-arga-st-f324db.mp3
+  status: verified
+  example_el: — Μίλησες με τον διευθυντή; — Ναι, μιλήσαμε στο τηλέφωνο και πήρα άδεια.
+  example_en: — Did you speak with the director? — Yes, we spoke on the phone and
+    I took leave.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting early departures from work and personal reasons
+    in the Aorist
+- id: A1-U109C-038
+  greek: — Πού ήσουν χθες το πρωί όταν σε πήρα τηλέφωνο; — Ήμουν στην τράπεζα και
+    πλήρωσα τον λογαριασμό.
+  phonetic_hint: — POO EE-soon khthes toh proh-EE OH-tahn seh PEE-rah tee-LEH-foh-noh?
+    — EE-moon steen TRAH-peh-zah keh PLEE-roh-sah ton loh-ghah-ryahz-MOH.
+  english: — Where were you yesterday morning when I called you? — I was at the bank
+    and paid the bill.
+  notes: Review Unit 109. Past of είμαι ('ήμουν/ήσουν') and regular Aorist 'πλήρωσα'.
+  gender_or_pos: phrase
+  audio: poy-isoyn-chthes-to--fe5210.mp3
+  status: verified
+  example_el: — Ήσουν πολύ απασχολημένος χθες; — Ναι, είχα πάρα πολλή δουλειά στην
+    πόλη.
+  example_en: — Were you very busy yesterday? — Yes, I had very much work in the city.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining whereabouts and past errands using past tense
+    of 'είμαι' and 'έχω'
+- id: A1-U109C-039
+  greek: — Ήσασταν στην ταβέρνα χθες το μεσημέρι; — Ναι, φάγαμε φρέσκο ψάρι και ήπιαμε
+    λευκό κρασί.
+  phonetic_hint: — EE-sahs-tahn steen tah-VEHR-nah khthes toh meh-see-MEH-ree? — Neh,
+    FAH-ghah-meh FREH-skoh PSAH-ree keh EE-pyah-meh lef-KOH krah-SEE.
+  english: — Were you at the tavern yesterday at noon? — Yes, we ate fresh fish and
+    drank white wine.
+  notes: Review Unit 109. Irregular past tense 'φάγαμε' (we ate) and 'ήπιαμε' (we
+    drank).
+  gender_or_pos: phrase
+  audio: isastan-stin-taverna-1d2caf.mp3
+  status: verified
+  example_el: — Ήταν νόστιμο το φαγητό; — Ναι, ήταν πεντανόστιμο και όλα ήταν πολύ
+    ωραία.
+  example_en: — Was the food delicious? — Yes, it was delicious and everything was
+    very nice.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Narrating past dining experiences using irregular verbs
+    'έφαγα' and 'ήπια'
+- id: A1-U109C-040
+  greek: — Πότε έμαθες να μιλάς ελληνικά; — Πέρυσι έμαθα σε ένα φροντιστήριο στην
+    Αθήνα.
+  phonetic_hint: — POH-teh EH-mah-thes nah mee-LAHS eh-lee-nee-KAH? — PEH-ree-see
+    EH-mah-thah seh EH-nah frohn-dee-STEE-ree-oh steen ah-THEE-nah.
+  english: — When did you learn to speak Greek? — Last year I learned at an institute
+    in Athens.
+  notes: Review Unit 109. Inquiring about past learning milestones with 'άρχισα'.
+  gender_or_pos: phrase
+  audio: pote-emathes-na-mila-72c476.mp3
+  status: verified
+  example_el: — Έμαθες γρήγορα να μιλάς; — Ναι, έμαθα πολλά πράγματα σε λίγο καιρό.
+  example_en: — Did you learn to speak quickly? — Yes, I learned many things in a
+    short time.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing past milestones in language acquisition and
+    learning history
+- id: A1-U109C-041
+  greek: — Τι είπε ο καθηγητής στην τάξη; — Κατάλαβα τα πάντα, μιλάει πάντα πολύ καθαρά.
+  phonetic_hint: — Tee EE-peh oh kah-thee-yee-TEES steen TAH-ksee? — Kah-TAH-lah-vah
+    tah PAHN-dah, mee-LAH-ee PAHN-dah poh-LEE kah-thah-RAH.
+  english: — What did the professor say in class? — I understood everything, he always
+    speaks very clearly.
+  notes: Review Unit 109. Irregular past tense 'κατάλαβα' and 'είπε'.
+  gender_or_pos: phrase
+  audio: ti-eipe-o-kathigitis-540038.mp3
+  status: verified
+  example_el: — Ήταν δύσκολη η άσκηση; — Όχι, ήταν πολύ εύκολη και ενδιαφέρουσα.
+  example_en: — Was the exercise difficult? — No, it was very easy and interesting.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting comprehension of lecture content and teacher
+    speech
+- id: A1-U109C-042
+  greek: — Πού ήσασταν χθες το βράδυ; — Βγήκαμε με την παρέα για ένα ποτό στην Πλάκα.
+  phonetic_hint: — POO EE-sahs-tahn khthes toh VRAH-thee? — VGHEE-kah-meh meh teen
+    pah-REH-ah yah EH-nah poh-TOH steen PLAH-kah.
+  english: — Where were you last night? — We went out with our group of friends for
+    a drink in Plaka.
+  notes: Review Unit 109. Irregular past tense 'βγήκαμε' (we went out).
+  gender_or_pos: phrase
+  audio: poy-isastan-chthes-t-99b58c.mp3
+  status: verified
+  example_el: — Τι ώρα γύρισες στο σπίτι; — Γύρισα στις δώδεκα το βράδυ.
+  example_en: — What time did you return home? — I returned at twelve midnight.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Recounting evening social outings in traditional neighborhoods
+- id: A1-U109C-043
+  greek: — Μπορείτε να μιλάτε λίγο πιο αργά, παρακαλώ; — Βεβαίως, θα μιλάω πιο αργά
+    και πιο καθαρά.
+  phonetic_hint: — Boh-REE-teh nah mee-LAH-teh LEE-goh pyoh ahr-GHAH, pah-rah-kah-LOH?
+    — Veh-VEH-ohs, thah mee-LAH-oh pyoh ahr-GHAH keh pyoh kah-thah-RAH.
+  english: — Could you speak a little more slowly, please? — Certainly, I will speak
+    more slowly and more clearly.
+  notes: Review Unit 109. Crucial CEFR A1 communicative repair strategy in exam settings.
+  gender_or_pos: phrase
+  audio: mporeite-na-milate-l-518f32.mp3
+  status: verified
+  example_el: — Καταλαβαίνετε όταν μιλάω γρήγορα; — Όχι καλά, προτιμώ όταν μιλάτε
+    αργά.
+  example_en: — Do you understand when I speak fast? — Not well, I prefer when you
+    speak slowly.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting clarification and slower speech rate in oral
+    examinations
+- id: A1-U109C-044
+  greek: — Ποιο μάθημα είναι πιο ενδιαφέρον; — Η ζωγραφική είναι πιο ενδιαφέρουσα
+    από τη μουσική.
+  phonetic_hint: — PEE-oh MAH-thee-mah EE-neh pyoh en-thee-ah-FEH-ron? — Ee zoh-ghrah-fee-KEE
+    EE-neh pyoh en-thee-ah-FEH-roo-sah ah-POH tee moo-see-KEE.
+  english: — Which lesson is more interesting? — Painting is more interesting than
+    music.
+  notes: Review Unit 109. Comparative construction 'πιο ... από'.
+  gender_or_pos: phrase
+  audio: poio-mathima-einai-p-2cbf1c.mp3
+  status: verified
+  example_el: — Πώς ήταν η σημερινή εξέταση; — Έγραψα πολύ καλύτερα από την προηγούμενη
+    φορά.
+  example_en: — How was today's examination? — I wrote much better than the previous
+    time.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Making comparative judgments about academic subjects
+    and performance
+- id: A1-U109C-045
+  greek: — Πώς μαθαίνει κανείς πιο εύκολα; — Μαθαίνω πιο εύκολα όταν μιλάω καθημερινά.
+  phonetic_hint: — Pos mah-THEH-nee kah-NEES pyoh EF-koh-lah? — Mah-THEH-noh pyoh
+    EF-koh-lah OH-tahn mee-LAH-oh kah-thee-meh-ree-NAH.
+  english: — How does one learn more easily? — I learn more easily when I speak daily.
+  notes: Review Unit 109. Comparative adverb 'πιο εύκολα' (more easily).
+  gender_or_pos: phrase
+  audio: pos-mathainei-kaneis-a31599.mp3
+  status: verified
+  example_el: — Κάνεις διάβασμα κάθε μέρα; — Ναι, διαβάζω δύο ώρες κάθε μέρα.
+  example_en: — Do you study every day? — Yes, I read two hours every day.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Comparing learning methods and study environments
+- id: A1-U109C-046
+  greek: — Πού δουλεύεις και ποια είναι η δουλειά σου; — Δουλεύω ως λογιστής σε μια
+    εταιρεία πληροφορικής.
+  phonetic_hint: — POO thoo-LEH-vees keh PEE-ah EE-neh ee thoo-lee-AH soo? — Thoo-LEH-voh
+    ohs loh-yee-STEES seh myah eh-teh-REE-ah plee-roh-foh-ree-KEES.
+  english: — Where do you work and what is your job? — I work as an accountant at
+    an IT company.
+  notes: Review Unit 109. CEFR A1 oral exam inquiry about profession and company.
+  gender_or_pos: phrase
+  audio: poy-doyleyeis-kai-po-b67cae.mp3
+  status: verified
+  example_el: — Σου αρέσει η δουλειά σου; — Ναι, είναι μια πολύ ενδιαφέρουσα εργασία.
+  example_en: — Do you like your job? — Yes, it is very interesting work.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing regular occupational responsibilities in
+    oral exams
+- id: A1-U109C-047
+  greek: — Τι ώρα αρχίζει και τι ώρα τελειώνει το ωράριό σου; — Αρχίζει στις εννέα
+    το πρωί και τελειώνει στις πέντε το απόγευμα.
+  phonetic_hint: — Tee OH-rah ahr-KHEE-zee keh tee OH-rah teh-lee-OH-nee toh oh-RAH-ree-oh
+    soo? — Ahr-KHEE-zee stees eh-NEH-ah toh proh-EE keh teh-lee-OH-nee stees PEN-deh
+    toh ah-POH-yev-mah.
+  english: — What time does your shift start and what time does it end? — It starts
+    at nine in the morning and ends at five in the afternoon.
+  notes: Review Unit 109. Expressing work start and end boundaries.
+  gender_or_pos: phrase
+  audio: ti-ora-archizei-kai--4334d7.mp3
+  status: verified
+  example_el: — Δουλεύεις υπερωρίες; — Όχι συχνά, μόνο όταν έχουμε πολλή δουλειά.
+  example_en: — Do you work overtime? — Not often, only when we have a lot of work.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating specific start and end times for daily work
+    shifts
+- id: A1-U109C-048
+  greek: — Τι έκανες το καλοκαίρι; — Το καλοκαίρι πήγαμε διακοπές σε ένα όμορφο νησί.
+  phonetic_hint: — Tee EH-kah-nes toh kah-loh-KEH-ree? — Toh kah-loh-KEH-ree PEE-ghah-meh
+    thee-ah-koh-PES seh EH-nah OH-mor-foh nee-SEE.
+  english: — What did you do in the summer? — In the summer we went on vacation to
+    a beautiful island.
+  notes: Review Unit 109. Past vacation narrative in CEFR A1 oral examination.
+  gender_or_pos: phrase
+  audio: ti-ekanes-to-kalokai-d02168.mp3
+  status: verified
+  example_el: — Πόσες μέρες ήσασταν εκεί; — Ήμασταν δέκα μέρες δίπλα στη θάλασσα.
+  example_en: — How many days were you there? — We were ten days by the sea.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Narrating past holiday travels and stays in CEFR A1
+    interviews
+- id: A1-U109C-049
+  greek: — Γιατί κάνεις μαθήματα ελληνικών; — Θέλω να μάθω ελληνικά γιατί μένω και
+    δουλεύω στην Ελλάδα.
+  phonetic_hint: — Yah-TEE KAH-nees mah-THEE-mah-tah eh-lee-nee-KOHN? — THEH-loh nah
+    MAH-thoh eh-lee-nee-KAH yah-TEE MEH-noh keh thoo-LEH-voh steen eh-LAH-thah.
+  english: — Why do you take Greek lessons? — I want to learn Greek because I live
+    and work in Greece.
+  notes: Review Unit 109. High-frequency A1 candidate motivation statement.
+  gender_or_pos: phrase
+  audio: giati-kaneis-mathima-b85405.mp3
+  status: verified
+  example_el: — Σου αρέσει η ζωή στην Ελλάδα; — Ναι, μου αρέσει πάρα πολύ ο καιρός
+    και η πόλη.
+  example_en: — Do you like life in Greece? — Yes, I like the weather and the city
+    very much.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining personal motivation for language learning
+    in oral exams
+- id: A1-U109C-050
+  greek: — Συγχαρητήρια για το νέο σου πτυχίο! — Σε ευχαριστώ πολύ, χάρηκα πάρα πολύ!
+  phonetic_hint: — Seen-khah-ree-TEE-ryah yah toh NEH-oh soo ptee-KHEE-oh! — Seh ef-khah-ree-STOH
+    poh-LEE, KHAH-ree-kah PAH-rah poh-LEE!
+  english: — Congratulations on your new degree! — Thank you very much, I was very
+    delighted!
+  notes: Review Unit 109. Academic congratulations and polite thank-you response.
+  gender_or_pos: phrase
+  audio: sygcharitiria-gia-to-7e8672.mp3
+  status: verified
+  example_el: — Καλή αρχή στις σπουδές σου! — Ευχαριστώ πολύ, επίσης καλή συνέχεια!
+  example_en: — Good start with your studies! — Thank you very much, good continuation
+    to you too!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Congratulating on academic achievements and exchanging
+    well-wishes

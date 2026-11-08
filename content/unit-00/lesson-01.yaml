@@ -46,6 +46,10 @@ entries:
     imperative_formal: διαβάστε
   keg_communicative_function: Understanding exam reading instructions and exercise
     prompts
+  example_audio: diavaste-to-parakato-cb5b6a.mp3
+  example2_el: Διαβάζουμε τις ερωτήσεις πριν ακούσουμε το κείμενο.
+  example2_en: We read the questions before we listen to the text.
+  example2_audio: diavazoyme-tis-eroti-4fdcfe.mp3
 - id: A1-U00-002
   greek: γράφω
   phonetic_hint: ''
@@ -64,6 +68,10 @@ entries:
     first_person_plural: γράφουμε
     imperative_formal: γράψτε
   keg_communicative_function: Understanding written production tasks and writing instructions
+  example_audio: grapste-ena-syntomo--962276.mp3
+  example2_el: Γράψτε ένα μήνυμα στον φίλο σας για το πάρτι.
+  example2_en: Write a message to your friend about the party.
+  example2_audio: grapste-ena-minyma-s-b78cb7.mp3
 - id: A1-U00-003
   greek: ακούω
   phonetic_hint: ''
@@ -82,6 +90,10 @@ entries:
     first_person_plural: ακούμε
     imperative_formal: ακούστε
   keg_communicative_function: Understanding listening comprehension section instructions
+  example_audio: akoyste-ton-dialogo--e5cbd5.mp3
+  example2_el: Ακούστε την ανακοίνωση στον σταθμό και απαντήστε.
+  example2_en: Listen to the announcement at the station and answer.
+  example2_audio: akoyste-tin-anakoino-e2ca6d.mp3
 - id: A1-U00-004
   greek: κοιτάζω
   phonetic_hint: ''
@@ -101,6 +113,10 @@ entries:
     imperative_formal: κοιτάξτε
   keg_communicative_function: Directing visual attention to diagrams, pictures, or
     tables
+  example_audio: koitaxte-tin-eikona--cdf78d.mp3
+  example2_el: Κοιτάξτε τις φωτογραφίες και βρείτε το σωστό πρόσωπο.
+  example2_en: Look at the photos and find the correct person.
+  example2_audio: koitaxte-tis-fotogra-43defd.mp3
 - id: A1-U00-005
   greek: βλέπω
   phonetic_hint: ''
@@ -119,6 +135,10 @@ entries:
     first_person_plural: βλέπουμε
     imperative_formal: δείτε
   keg_communicative_function: Referring students to visual prompts and examples
+  example_audio: deite-to-paradeigma--2fcd1e.mp3
+  example2_el: Βλέπετε το παράδειγμα στη σελίδα δέκα.
+  example2_en: You see the example on page ten.
+  example2_audio: vlepete-to-paradeigm-f791e9.mp3
 - id: A1-U00-006
   greek: αντιστοιχίζω
   phonetic_hint: ''
@@ -138,6 +158,10 @@ entries:
     first_person_plural: αντιστοιχίζουμε
     imperative_formal: αντιστοιχίστε
   keg_communicative_function: Matching columns, items, or definitions in test sections
+  example_audio: antistoichiste-tis-e-27ec8a.mp3
+  example2_el: Αντιστοιχίστε κάθε εικόνα με τη σωστή λέξη.
+  example2_en: Match each picture with the correct word.
+  example2_audio: antistoichiste-kathe-3c0550.mp3
 - id: A1-U00-007
   greek: συμπληρώνω
   phonetic_hint: ''
@@ -157,6 +181,10 @@ entries:
     imperative_formal: συμπληρώστε
   keg_communicative_function: Completing gap-fill sentences, forms, and vocabulary
     blanks
+  example_audio: sympliroste-ta-kena--68cae7.mp3
+  example2_el: Συμπληρώστε τα στοιχεία σας στην αίτηση.
+  example2_en: Fill in your details on the application form.
+  example2_audio: sympliroste-ta-stoic-5eade3.mp3
 - id: A1-U00-008
   greek: επιλέγω
   phonetic_hint: ''
@@ -175,6 +203,10 @@ entries:
     imperative_formal: επιλέξτε
   keg_communicative_function: Selecting the correct alternative in multiple-choice
     exams
+  example_audio: epilexte-ti-sosti-ap-0fbe3a.mp3
+  example2_el: Επιλέξτε τη σωστή πρόταση για κάθε εικόνα.
+  example2_en: Choose the correct sentence for each image.
+  example2_audio: epilexte-ti-sosti-pr-d5d621.mp3
 - id: A1-U00-009
   greek: διαλέγω
   phonetic_hint: ''
@@ -193,6 +225,10 @@ entries:
     first_person_plural: διαλέγουμε
     imperative_formal: διαλέξτε
   keg_communicative_function: Picking answers or topics in textbook tasks
+  example_audio: dialexte-ena-thema-k-7cad1c.mp3
+  example2_el: Διαλέξτε τη σωστή απάντηση από τις επιλογές.
+  example2_en: Pick the correct answer from the choices.
+  example2_audio: dialexte-ti-sosti-ap-0f6b1d.mp3
 - id: A1-U00-010
   greek: κυκλώνω
   phonetic_hint: ''
@@ -211,6 +247,10 @@ entries:
     first_person_plural: κυκλώνουμε
     imperative_formal: κυκλώστε
   keg_communicative_function: Circling the correct letter or word in exam papers
+  example_audio: kykloste-to-sosto-gr-e230a1.mp3
+  example2_el: Κυκλώστε τον αριθμό που ακούτε στον διάλογο.
+  example2_en: Circle the number you hear in the dialogue.
+  example2_audio: kykloste-ton-arithmo-86ea24.mp3
 - id: A1-U00-011
   greek: υπογραμμίζω
   phonetic_hint: ''
@@ -228,6 +268,10 @@ entries:
     first_person_plural: υπογραμμίζουμε
     imperative_formal: υπογραμμίστε
   keg_communicative_function: Underlining grammatical targets or keywords in text
+  example_audio: ypogrammiste-ola-ta--24ee80.mp3
+  example2_el: Υπογραμμίστε τη σωστή λέξη μέσα στην παρένθεση.
+  example2_en: Underline the correct word inside the parentheses.
+  example2_audio: ypogrammiste-ti-sost-d382c7.mp3
 - id: A1-U00-012
   greek: σημειώνω
   phonetic_hint: ''
@@ -245,6 +289,10 @@ entries:
     first_person_plural: σημειώνουμε
     imperative_formal: σημειώστε
   keg_communicative_function: Marking boxes or choices with symbols (X or checkmark)
+  example_audio: simeioste-me-ena-x-s-85b64e.mp3
+  example2_el: Σημειώστε ένα [X] δίπλα στη σωστή πρόταση.
+  example2_en: Mark an [X] next to the correct sentence.
+  example2_audio: simeioste-ena-x-dipl-b6ad79.mp3
 - id: A1-U00-013
   greek: απαντώ
   phonetic_hint: ''
@@ -263,6 +311,10 @@ entries:
     first_person_plural: απαντάμε
     imperative_formal: απαντήστε
   keg_communicative_function: Responding to questions in oral and written exam sections
+  example_audio: apantiste-stis-eroti-20e95c.mp3
+  example2_el: Απαντήστε σύντομα σε κάθε ερώτηση.
+  example2_en: Answer briefly to each question.
+  example2_audio: apantiste-syntoma-se-afd20e.mp3
 - id: A1-U00-014
   greek: βρίσκω
   phonetic_hint: ''
@@ -281,6 +333,10 @@ entries:
     first_person_plural: βρίσκουμε
     imperative_formal: βρείτε
   keg_communicative_function: Locating information, synonyms, or answers in text
+  example_audio: vreite-sto-keimeno-t-19aa85.mp3
+  example2_el: Βρείτε τις διαφορές ανάμεσα στις δύο εικόνες.
+  example2_en: Find the differences between the two images.
+  example2_audio: vreite-tis-diafores--2a9e96.mp3
 - id: A1-U00-015
   greek: βάζω
   phonetic_hint: ''
@@ -299,6 +355,10 @@ entries:
     first_person_plural: βάζουμε
     imperative_formal: βάλτε
   keg_communicative_function: Ordering scrambled sentences or organizing items
+  example_audio: valte-tis-lexeis-sti-594e89.mp3
+  example2_el: Βάλτε ένα [X] στο τετραγωνάκι δίπλα στο όνομα.
+  example2_en: Put an [X] in the little box next to the name.
+  example2_audio: valte-ena-x-sto-tetr-31894a.mp3
 - id: A1-U00-016
   greek: διαγράφω
   phonetic_hint: ''
@@ -317,6 +377,10 @@ entries:
     first_person_plural: διαγράφουμε
     imperative_formal: διαγράψτε
   keg_communicative_function: Eliminating incorrect choices or intruder words (odd-one-out)
+  example_audio: diagrapste-ti-lexi-p-3bfc83.mp3
+  example2_el: Διαγράψτε το λάθος και γράψτε το σωστό.
+  example2_en: Cross out the mistake and write the correct one.
+  example2_audio: diagrapste-to-lathos-32de32.mp3
 - id: A1-U00-017
   greek: διορθώνω
   phonetic_hint: ''
@@ -336,6 +400,10 @@ entries:
     imperative_formal: διορθώστε
   keg_communicative_function: Correcting errors in sentences and proofreading written
     texts
+  example_audio: diorthoste-ta-lathi--26bab4.mp3
+  example2_el: Διορθώστε την πρόταση σύμφωνα με το παράδειγμα.
+  example2_en: Correct the sentence according to the example.
+  example2_audio: diorthoste-tin-prota-32cb24.mp3
 - id: A1-U00-018
   greek: ξαναδιαβάζω
   phonetic_hint: ''
@@ -353,6 +421,10 @@ entries:
     first_person_plural: ξαναδιαβάζουμε
     imperative_formal: ξαναδιαβάστε
   keg_communicative_function: Reviewing text passages and verifying exam answers
+  example_audio: xanadiavaste-to-keim-19a517.mp3
+  example2_el: Ξαναδιαβάζω το κείμενο για να καταλάβω καλύτερα.
+  example2_en: I re-read the text to understand better.
+  example2_audio: xanadiavazo-to-keime-c17008.mp3
 - id: A1-U00-019
   greek: συνεχίζω
   phonetic_hint: ''
@@ -371,6 +443,10 @@ entries:
     first_person_plural: συνεχίζουμε
     imperative_formal: συνεχίστε
   keg_communicative_function: Continuing patterns, dialogues, or story prompts
+  example_audio: synechiste-ton-dialo-51d845.mp3
+  example2_el: Συνεχίζουμε με το δεύτερο μέρος της εξέτασης.
+  example2_en: We continue with the second part of the exam.
+  example2_audio: synechizoyme-me-to-d-423efa.mp3
 - id: A1-U00-020
   greek: εξηγώ
   phonetic_hint: ''
@@ -390,6 +466,10 @@ entries:
     imperative_formal: εξηγήστε
   keg_communicative_function: Clarifying reasons or answering why questions in oral
     exams
+  example_audio: exigiste-giati-epile-75f6c7.mp3
+  example2_el: Ο καθηγητής εξηγεί τον κανόνα στους μαθητές.
+  example2_en: The professor explains the rule to the students.
+  example2_audio: o-kathigitis-exigei--83cbb4.mp3
 - id: A1-U00-021
   greek: το σωστό
   phonetic_hint: ''
@@ -406,6 +486,10 @@ entries:
     plural: τα σωστά
     accusative_singular: το σωστό
   keg_communicative_function: Identifying true/correct alternatives in test items
+  example_audio: vreite-poio-einai-to-d699e7.mp3
+  example2_el: Σημειώστε μόνο το σωστό στο φύλλο απαντήσεων.
+  example2_en: Mark only the correct one on the answer sheet.
+  example2_audio: simeioste-mono-to-so-6916a7.mp3
 - id: A1-U00-022
   greek: το λάθος
   phonetic_hint: ''
@@ -422,6 +506,10 @@ entries:
     plural: τα λάθη
     accusative_singular: το λάθος
   keg_communicative_function: Detecting false statements, errors, and incorrect answers
+  example_audio: ayti-i-protasi-einai-964bb0.mp3
+  example2_el: Αν κάνετε λάθος, διαγράψτε τη λέξη καθαρά.
+  example2_en: If you make a mistake, cross out the word clearly.
+  example2_audio: an-kanete-lathos-dia-dc8e18.mp3
 - id: A1-U00-023
   greek: Σωστό ή Λάθος (Σ/Λ)
   phonetic_hint: ''
@@ -437,6 +525,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Understanding binary verification tasks in reading &
     listening tests
+  example_audio: simeioste-s-sosto-i--b2112a.mp3
+  example2_el: Διαβάστε τις προτάσεις και γράψτε Σωστό ή Λάθος.
+  example2_en: Read the sentences and write True or False.
+  example2_audio: diavaste-tis-protase-0a4e31.mp3
 - id: A1-U00-024
   greek: η πολλαπλή επιλογή
   phonetic_hint: ''
@@ -453,6 +545,10 @@ entries:
     plural: οι πολλαπλές επιλογές
     accusative_singular: την πολλαπλή επιλογή
   keg_communicative_function: Navigating multiple-choice testing formats and options
+  example_audio: to-grapto-test-apote-148141.mp3
+  example2_el: Στην πολλαπλή επιλογή επιλέγουμε μία μόνο σωστή απάντηση.
+  example2_en: In multiple choice we choose only one correct answer.
+  example2_audio: stin-pollapli-epilog-d615be.mp3
 - id: A1-U00-025
   greek: συμπληρώστε τα κενά
   phonetic_hint: ''
@@ -467,6 +563,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Executing cloze and gap-fill exercise prompts
+  example_audio: sympliroste-ta-kena--494a92.mp3
+  example2_el: Συμπληρώστε τα κενά με τα κατάλληλα άρθρα.
+  example2_en: Fill in the blanks with the appropriate articles.
+  example2_audio: sympliroste-ta-kena--de6bb5.mp3
 - id: A1-U00-026
   greek: αντιστοιχίστε τη στήλη Α με τη στήλη Β
   phonetic_hint: ''
@@ -480,6 +580,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Connecting related entries across two visual columns
+  example_audio: antistoichiste-ti-st-056d3a.mp3
+  example2_el: Αντιστοιχίστε κάθε επάγγελμα με τον κατάλληλο χώρο εργασίας.
+  example2_en: Match each profession with the appropriate workplace.
+  example2_audio: antistoichiste-kathe-bd5074.mp3
 - id: A1-U00-027
   greek: κυκλώστε το σωστό
   phonetic_hint: ''
@@ -494,6 +598,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Executing item selection by drawing a circle around
     choices
+  example_audio: kykloste-to-sosto-gr-5eefe6.mp3
+  example2_el: Κυκλώστε το σωστό για κάθε αριθμημένη ερώτηση.
+  example2_en: Circle the correct one for each numbered question.
+  example2_audio: kykloste-to-sosto-gi-206193.mp3
 - id: A1-U00-028
   greek: βάλτε στη σωστή σειρά
   phonetic_hint: ''
@@ -508,6 +616,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Sequencing scrambled narratives, sentences, or chronological
     events
+  example_audio: valte-sti-sosti-seir-9981dd.mp3
+  example2_el: Βάλτε στη σωστή σειρά τις ημέρες της εβδομάδας.
+  example2_en: Put the days of the week in the correct order.
+  example2_audio: valte-sti-sosti-seir-73ec44.mp3
 - id: A1-U00-029
   greek: απαντήστε στις ερωτήσεις
   phonetic_hint: ''
@@ -523,6 +635,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Directing candidates to open-ended or short-answer question
     sections
+  example_audio: apantiste-stis-eroti-a0e5d2.mp3
+  example2_el: Απαντήστε στις ερωτήσεις με δύο ή τρεις λέξεις.
+  example2_en: Answer the questions with two or three words.
+  example2_audio: apantiste-stis-eroti-128ee4.mp3
 - id: A1-U00-030
   greek: διαλέξτε τη σωστή απάντηση
   phonetic_hint: ''
@@ -537,6 +653,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Executing item selection in multiple choice or gap-fill
     prompts
+  example_audio: dialexte-ti-sosti-ap-2232e4.mp3
+  example2_el: Διαλέξτε τη σωστή απάντηση μετά από κάθε διάλογο.
+  example2_en: Pick the correct answer after each dialogue.
+  example2_audio: dialexte-ti-sosti-ap-3886e6.mp3
 - id: A1-U00-031
   greek: σημειώστε με ένα τικ
   phonetic_hint: ''
@@ -551,6 +671,10 @@ entries:
     part_of_speech: phrase / exam instruction
   keg_communicative_function: Marking boxes on standardized survey or test response
     forms
+  example_audio: simeioste-me-ena-tik-89d427.mp3
+  example2_el: Σημειώστε με ένα τικ αν η δήλωση είναι σωστή.
+  example2_en: Mark with a checkmark if the statement is correct.
+  example2_audio: simeioste-me-ena-tik-8b13f9.mp3
 - id: A1-U00-032
   greek: η εξέταση
   phonetic_hint: ''
@@ -567,6 +691,10 @@ entries:
     plural: οι εξετάσεις
     accusative_singular: την εξέταση
   keg_communicative_function: Discussing official tests, exams, and citizenship certifications
+  example_audio: proetoimazomai-gia-t-252e98.mp3
+  example2_el: Η εξέταση επιπέδου Α1 περιλαμβάνει τέσσερις δεξιότητες.
+  example2_en: The level A1 examination includes four skills.
+  example2_audio: i-exetasi-epipedoy-a-3223d3.mp3
 - id: A1-U00-033
   greek: το τεστ
   phonetic_hint: ''
@@ -583,6 +711,10 @@ entries:
     plural: τα τεστ
     accusative_singular: το τεστ
   keg_communicative_function: Referring to classroom and end-of-unit tests
+  example_audio: sto-telos-kathe-enot-c4e844.mp3
+  example2_el: Το τεστ αρχίζει ακριβώς στις εννέα το πρωί.
+  example2_en: The test starts at nine sharp in the morning.
+  example2_audio: to-test-archizei-akr-7856d2.mp3
 - id: A1-U00-034
   greek: η οδηγία
   phonetic_hint: ''
@@ -599,6 +731,10 @@ entries:
     accusative_singular: την οδηγία
   keg_communicative_function: Reading and understanding rubric directions on test
     papers
+  example_audio: diavaste-prosektika--4132a0.mp3
+  example2_el: Ακολουθήστε τις οδηγίες του επιτηρητή της αίθουσας.
+  example2_en: Follow the instructions of the room proctor.
+  example2_audio: akoloythiste-tis-odi-4a157e.mp3
 - id: A1-U00-035
   greek: η ερώτηση
   phonetic_hint: ''
@@ -614,6 +750,10 @@ entries:
     plural: οι ερωτήσεις
     accusative_singular: την ερώτηση
   keg_communicative_function: Identifying test items and asking clarifying questions
+  example_audio: ayti-i-erotisi-echei-10f89a.mp3
+  example2_el: Αν έχετε κάποια ερώτηση, σηκώστε το χέρι σας.
+  example2_en: If you have any question, raise your hand.
+  example2_audio: an-echete-kapoia-ero-33f715.mp3
 - id: A1-U00-036
   greek: η απάντηση
   phonetic_hint: ''
@@ -630,6 +770,10 @@ entries:
     plural: οι απαντήσεις
     accusative_singular: την απάντηση
   keg_communicative_function: Formulating answers and locating answer keys
+  example_audio: simeioste-tin-teliki-51e6b8.mp3
+  example2_el: Κάθε απάντηση πρέπει να είναι καθαρά γραμμένη.
+  example2_en: Each answer must be clearly written.
+  example2_audio: kathe-apantisi-prepe-a8b8fd.mp3
 - id: A1-U00-037
   greek: το θέμα
   phonetic_hint: ''
@@ -646,6 +790,10 @@ entries:
     plural: τα θέματα
     accusative_singular: το θέμα
   keg_communicative_function: Navigating designated exam sections and essay subjects
+  example_audio: to-thema-1-tis-exeta-3698f3.mp3
+  example2_el: Στο θέμα δύο γράφουμε μία πρόσκληση σε φίλο.
+  example2_en: In task two we write an invitation to a friend.
+  example2_audio: sto-thema-dyo-grafoy-9ab459.mp3
 - id: A1-U00-038
   greek: το παράδειγμα
   phonetic_hint: ''
@@ -662,6 +810,10 @@ entries:
     plural: τα παραδείγματα
     accusative_singular: το παράδειγμα
   keg_communicative_function: Analyzing sample answers before starting an exercise
+  example_audio: koitaxte-to-paradeig-15c611.mp3
+  example2_el: Το παράδειγμα σας δείχνει πώς να απαντήσετε.
+  example2_en: The example shows you how to answer.
+  example2_audio: to-paradeigma-sas-de-db9319.mp3
 - id: A1-U00-039
   greek: το κείμενο
   phonetic_hint: ''
@@ -678,6 +830,10 @@ entries:
     plural: τα κείμενα
     accusative_singular: το κείμενο
   keg_communicative_function: Identifying reading comprehension texts and articles
+  example_audio: to-keimeno-perigrafe-ae09cf.mp3
+  example2_el: Διαβάζουμε το κείμενο δύο φορές με προσοχή.
+  example2_en: We read the text twice with attention.
+  example2_audio: diavazoyme-to-keimen-6a33e2.mp3
 - id: A1-U00-040
   greek: ο διάλογος
   phonetic_hint: ''
@@ -694,6 +850,10 @@ entries:
     plural: οι διάλογοι
     accusative_singular: τον διάλογο
   keg_communicative_function: Following conversational exchanges in audio and textbooks
+  example_audio: akoyste-ton-syntomo--8329be.mp3
+  example2_el: Ο διάλογος γίνεται σε ένα εστιατόριο.
+  example2_en: The dialogue takes place in a restaurant.
+  example2_audio: o-dialogos-ginetai-s-4c15e1.mp3
 - id: A1-U00-041
   greek: η πρόταση
   phonetic_hint: ''
@@ -709,6 +869,10 @@ entries:
     plural: οι προτάσεις
     accusative_singular: την πρόταση
   keg_communicative_function: Constructing and analyzing grammatical sentences
+  example_audio: ftiaxte-mia-olokliro-6f923a.mp3
+  example2_el: Κάθε πρόταση αρχίζει με κεφαλαίο γράμμα.
+  example2_en: Every sentence starts with a capital letter.
+  example2_audio: kathe-protasi-archiz-5c668e.mp3
 - id: A1-U00-042
   greek: η λέξη
   phonetic_hint: ''
@@ -725,6 +889,10 @@ entries:
     plural: οι λέξεις
     accusative_singular: τη λέξη
   keg_communicative_function: Identifying lexical units and checking word limits
+  example_audio: grapste-ena-keimeno--6fbb9f.mp3
+  example2_el: Γράψτε τη σωστή λέξη κάτω από την εικόνα.
+  example2_en: Write the correct word under the picture.
+  example2_audio: grapste-ti-sosti-lex-e1019a.mp3
 - id: A1-U00-043
   greek: το κενό
   phonetic_hint: ''
@@ -740,6 +908,10 @@ entries:
     plural: τα κενά
     accusative_singular: το κενό
   keg_communicative_function: Locating fill-in positions within cloze exercises
+  example_audio: grapste-mia-mono-lex-fe9ba1.mp3
+  example2_el: Μην αφήνετε κανένα κενό χωρίς απάντηση.
+  example2_en: Do not leave any blank without an answer.
+  example2_audio: min-afinete-kanena-k-e33b67.mp3
 - id: A1-U00-044
   greek: η εικόνα
   phonetic_hint: ''
@@ -757,6 +929,10 @@ entries:
     accusative_singular: την εικόνα
   keg_communicative_function: Interpreting visual prompts in oral examinations and
     textbooks
+  example_audio: perigrapste-tin-eiko-3f42fc.mp3
+  example2_el: Κοιτάξτε την εικόνα και απαντήστε στις ερωτήσεις.
+  example2_en: Look at the picture and answer the questions.
+  example2_audio: koitaxte-tin-eikona--56eb67.mp3
 - id: A1-U00-045
   greek: η φωτογραφία
   phonetic_hint: ''
@@ -773,6 +949,10 @@ entries:
     accusative_singular: τη φωτογραφία
   keg_communicative_function: Describing photograph stimulus materials in speaking
     tests
+  example_audio: sti-fotografia-vlepo-884f68.mp3
+  example2_el: Περιγράψτε τη φωτογραφία στον εξεταστή.
+  example2_en: Describe the photograph to the examiner.
+  example2_audio: perigrapste-ti-fotog-81946c.mp3
 - id: A1-U00-046
   greek: ο πίνακας
   phonetic_hint: ''
@@ -789,6 +969,10 @@ entries:
     plural: οι πίνακες
     accusative_singular: τον πίνακα
   keg_communicative_function: Reading and completing data charts and grammar grids
+  example_audio: sympliroste-ton-pina-c95f86.mp3
+  example2_el: Κοιτάξτε τον πίνακα με τις ώρες των δρομολογίων.
+  example2_en: Look at the table with the timetable of itineraries.
+  example2_audio: koitaxte-ton-pinaka--161ea3.mp3
 - id: A1-U00-047
   greek: η στήλη
   phonetic_hint: ''
@@ -804,6 +988,10 @@ entries:
     plural: οι στήλες
     accusative_singular: τη στήλη
   keg_communicative_function: Locating paired elements in matching tasks
+  example_audio: i-proti-stili-periec-710239.mp3
+  example2_el: Συμπληρώστε τη σωστή λέξη στην τρίτη στήλη.
+  example2_en: Fill in the correct word in the third column.
+  example2_audio: sympliroste-ti-sosti-ad1e43.mp3
 - id: A1-U00-048
   greek: η γραμμή
   phonetic_hint: ''
@@ -820,6 +1008,10 @@ entries:
     plural: οι γραμμές
     accusative_singular: τη γραμμή
   keg_communicative_function: Writing on lined exam paper and referencing text rows
+  example_audio: grapste-tin-apantisi-247b4c.mp3
+  example2_el: Μην γράφετε έξω από τη γραμμή.
+  example2_en: Do not write outside the line.
+  example2_audio: min-grafete-exo-apo--2500b5.mp3
 - id: A1-U00-049
   greek: ο βαθμός
   phonetic_hint: ''
@@ -835,6 +1027,10 @@ entries:
     plural: οι βαθμοί
     accusative_singular: τον βαθμό
   keg_communicative_function: Understanding pass marks and grading criteria
+  example_audio: o-vathmos-moy-stis-e-39bed2.mp3
+  example2_el: Η βάση για την επιτυχία είναι ο βαθμός δέκα.
+  example2_en: The passing mark for success is grade ten.
+  example2_audio: i-vasi-gia-tin-epity-e31e61.mp3
 - id: A1-U00-050
   greek: η βαθμολογία
   phonetic_hint: ''
@@ -850,6 +1046,10 @@ entries:
     plural: οι βαθμολογίες
     accusative_singular: τη βαθμολογία
   keg_communicative_function: Understanding exam point values per question
+  example_audio: kathe-sosti-apantisi-57ebcf.mp3
+  example2_el: Η βαθμολογία ανακοινώνεται στην ιστοσελίδα του ΚΕΓ.
+  example2_en: The grades are announced on the KEG website.
+  example2_audio: i-vathmologia-anakoi-c30b0c.mp3
 - id: A1-U00-051
   greek: ο χρόνος
   phonetic_hint: ''
@@ -865,6 +1065,10 @@ entries:
     plural: οι χρόνοι
     accusative_singular: τον χρόνο
   keg_communicative_function: Managing exam time allocation and pace
+  example_audio: o-chronos-gia-to-pro-08523c.mp3
+  example2_el: Έχετε αρκετό χρόνο για να απαντήσετε σε όλα.
+  example2_en: You have enough time to answer everything.
+  example2_audio: echete-arketo-chrono-2f8b6e.mp3
 - id: A1-U00-052
   greek: η σελίδα
   phonetic_hint: ''
@@ -881,6 +1085,10 @@ entries:
     plural: οι σελίδες
     accusative_singular: τη σελίδα
   keg_communicative_function: Navigating textbooks and multi-page exam booklets
+  example_audio: anoixte-to-vivlio-kl-ce13e6.mp3
+  example2_el: Γυρίστε στη σελίδα πέντε του φυλλαδίου.
+  example2_en: Turn to page five of the booklet.
+  example2_audio: gyriste-sti-selida-p-f44654.mp3
 - id: A1-U00-053
   greek: η άσκηση
   phonetic_hint: ''
@@ -897,6 +1105,10 @@ entries:
     plural: οι ασκήσεις
     accusative_singular: την άσκηση
   keg_communicative_function: Identifying practice exercises and homework activities
+  example_audio: kante-tin-askisi-4-g-efddc7.mp3
+  example2_el: Αυτή η άσκηση έχει πέντε ερωτήσεις.
+  example2_en: This exercise has five questions.
+  example2_audio: ayti-i-askisi-echei--a7fb82.mp3
 - id: A1-U00-054
   greek: η κατανόηση γραπτού λόγου
   phonetic_hint: ''
@@ -913,6 +1125,10 @@ entries:
     accusative_singular: την κατανόηση γραπτού λόγου
   keg_communicative_function: Identifying the written reading comprehension section
     of exams
+  example_audio: i-katanoisi-graptoy--02034f.mp3
+  example2_el: Η κατανόηση γραπτού λόγου περιλαμβάνει σύντομες αγγελίες και σημειώματα.
+  example2_en: Reading comprehension includes short classified ads and notes.
+  example2_audio: i-katanoisi-graptoy--2a4082.mp3
 - id: A1-U00-055
   greek: η κατανόηση προφορικού λόγου
   phonetic_hint: ''
@@ -928,6 +1144,10 @@ entries:
     accusative_singular: την κατανόηση προφορικού λόγου
   keg_communicative_function: Identifying the audio listening comprehension section
     of exams
+  example_audio: stin-katanoisi-profo-137caa.mp3
+  example2_el: Στην κατανόηση προφορικού λόγου ακούτε κάθε ηχογράφηση δύο φορές.
+  example2_en: In listening comprehension you hear each recording twice.
+  example2_audio: stin-katanoisi-profo-3eaefa.mp3
 - id: A1-U00-056
   greek: η παραγωγή γραπτού λόγου
   phonetic_hint: ''
@@ -942,6 +1162,10 @@ entries:
     part_of_speech: phrase / exam section
     accusative_singular: την παραγωγή γραπτού λόγου
   keg_communicative_function: Identifying the free writing/essay section of exams
+  example_audio: stin-paragogi-grapto-9d3917.mp3
+  example2_el: Στην παραγωγή γραπτού λόγου προσέχετε την ορθογραφία και τους τόνους.
+  example2_en: In written production pay attention to spelling and stress accents.
+  example2_audio: stin-paragogi-grapto-68d646.mp3
 - id: A1-U00-057
   greek: η παραγωγή προφορικού λόγου
   phonetic_hint: ''
@@ -956,6 +1180,11 @@ entries:
     part_of_speech: phrase / exam section
     accusative_singular: την παραγωγή προφορικού λόγου
   keg_communicative_function: Identifying the speaking interview component with examiners
+  example_audio: i-paragogi-proforiko-cce853.mp3
+  example2_el: Στην παραγωγή προφορικού λόγου μιλάτε για την οικογένεια και τα χόμπι
+    σας.
+  example2_en: In oral production you talk about your family and your hobbies.
+  example2_audio: stin-paragogi-profor-abfc01.mp3
 - id: A1-U00-058
   greek: η πολιτογράφηση
   phonetic_hint: ''
@@ -973,6 +1202,10 @@ entries:
     accusative_singular: την πολιτογράφηση
   keg_communicative_function: Discussing citizenship goals and application requirements
     in Greece/Cyprus
+  example_audio: stochos-moy-einai-na-e471f2.mp3
+  example2_el: Οι εξετάσεις πολιτογράφησης απαιτούν βασική γνώση ελληνικών.
+  example2_en: Citizenship examinations require basic knowledge of Greek.
+  example2_audio: oi-exetaseis-politog-3635f8.mp3
 - id: A1-U00-059
   greek: ο κανόνας
   phonetic_hint: ''
@@ -990,6 +1223,10 @@ entries:
     accusative_singular: τον κανόνα
   keg_communicative_function: Understanding grammatical and structural rules in language
     textbooks
+  example_audio: aytos-einai-enas-vas-2f12fd.mp3
+  example2_el: Μαθαίνουμε τους βασικούς κανόνες γραμματικής στο επίπεδο Α1.
+  example2_en: We learn the basic grammar rules at level A1.
+  example2_audio: mathainoyme-toys-vas-0ca587.mp3
 - id: A1-U00-060
   greek: το ουσιαστικό
   phonetic_hint: ''
@@ -1006,6 +1243,10 @@ entries:
     plural: τα ουσιαστικά
     accusative_singular: το ουσιαστικό
   keg_communicative_function: Identifying parts of speech in grammar charts
+  example_audio: kathe-elliniko-oysia-7ba13b.mp3
+  example2_el: Βάλτε το ουσιαστικό στη σωστή πτώση.
+  example2_en: Put the noun in the correct case.
+  example2_audio: valte-to-oysiastiko--5410e8.mp3
 - id: A1-U00-061
   greek: το ρήμα
   phonetic_hint: ''
@@ -1022,6 +1263,10 @@ entries:
     plural: τα ρήματα
     accusative_singular: το ρήμα
   keg_communicative_function: Recognizing verbs and verb conjugations
+  example_audio: vreite-to-rima-stin--cbf4d2.mp3
+  example2_el: Κλίνουμε το ρήμα στον ενεστώτα.
+  example2_en: We conjugate the verb in the present tense.
+  example2_audio: klinoyme-to-rima-sto-0cc8de.mp3
 - id: A1-U00-062
   greek: το επίθετο
   phonetic_hint: ''
@@ -1038,6 +1283,10 @@ entries:
     plural: τα επίθετα
     accusative_singular: το επίθετο
   keg_communicative_function: Recognizing adjective agreements with nouns
+  example_audio: to-epitheto-prepei-n-e38807.mp3
+  example2_el: Το επίθετο μπαίνει συνήθως πριν από το ουσιαστικό.
+  example2_en: The adjective usually comes before the noun.
+  example2_audio: to-epitheto-mpainei--ce4604.mp3
 - id: A1-U00-063
   greek: το άρθρο
   phonetic_hint: ''
@@ -1054,6 +1303,10 @@ entries:
     plural: τα άρθρα
     accusative_singular: το άρθρο
   keg_communicative_function: Identifying and applying definite and indefinite articles
+  example_audio: valte-to-sosto-orist-6c7fb8.mp3
+  example2_el: Μην ξεχνάτε το άρθρο μπροστά από το ουσιαστικό.
+  example2_en: Do not forget the article in front of the noun.
+  example2_audio: min-xechnate-to-arth-fc761f.mp3
 - id: A1-U00-064
   greek: ο ενικός αριθμός
   phonetic_hint: ''
@@ -1069,6 +1322,10 @@ entries:
     plural: οι ενικοί αριθμοί
     accusative_singular: τον ενικό αριθμό
   keg_communicative_function: Distinguishing singular grammatical forms
+  example_audio: metatrepste-tis-prot-7bb008.mp3
+  example2_el: Η λέξη 'το παιδί' είναι στον ενικό αριθμό.
+  example2_en: The word 'το παιδί' is in the singular number.
+  example2_audio: i-lexi-to-paidi-eina-144ef9.mp3
 - id: A1-U00-065
   greek: ο πληθυντικός αριθμός
   phonetic_hint: ''
@@ -1086,3 +1343,7 @@ entries:
     plural: οι πληθυντικοί αριθμοί
     accusative_singular: τον πληθυντικό αριθμό
   keg_communicative_function: Distinguishing plural grammatical forms and polite address
+  example_audio: sta-ellinika-chrisim-f35868.mp3
+  example2_el: Ποιος είναι ο πληθυντικός αριθμός της λέξης 'ο καφές';
+  example2_en: What is the plural number of the word 'ο καφές'?
+  example2_audio: poios-einai-o-plithy-823d49.mp3

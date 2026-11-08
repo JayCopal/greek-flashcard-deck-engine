@@ -36,6 +36,10 @@ entries:
     plural: τα προγράμματα
     accusative_singular: το πρόγραμμα
   keg_communicative_function: Describing daily schedule and daily time management
+  example_audio: to-kathimerino-moy-p-8d89a7.mp3
+  example2_el: Τι πρόγραμμα έχεις για το σαββατοκύριακο;
+  example2_en: What schedule do you have for the weekend?
+  example2_audio: ti-programma-echeis--dcd445.mp3
 - id: A1-U08-002
   greek: η συνήθεια
   phonetic_hint: ''
@@ -51,6 +55,10 @@ entries:
     plural: οι συνήθειες
     accusative_singular: τη συνήθεια
   keg_communicative_function: Talking about personal habits and daily customs
+  example_audio: echo-ti-synitheia-na-cf0115.mp3
+  example2_el: Είναι καλή συνήθεια να περπατάμε κάθε μέρα.
+  example2_en: It is a good habit to walk every day.
+  example2_audio: einai-kali-synitheia-578456.mp3
 - id: A1-U08-003
   greek: το πρωί
   phonetic_hint: ''
@@ -67,6 +75,10 @@ entries:
     plural: τα πρωινά
     accusative_singular: το πρωί
   keg_communicative_function: Specifying morning time frames for routines
+  example_audio: to-proi-xypnao-stis--87f93e.mp3
+  example2_el: Κάθε πρωί πίνω έναν ζεστό καφέ.
+  example2_en: Every morning I drink a hot coffee.
+  example2_audio: kathe-proi-pino-enan-4160f2.mp3
 - id: A1-U08-004
   greek: το μεσημέρι
   phonetic_hint: ''
@@ -82,6 +94,10 @@ entries:
     plural: τα μεσημέρια
     accusative_singular: το μεσημέρι
   keg_communicative_function: Specifying midday lunch time and work breaks
+  example_audio: to-mesimeri-trome-me-b98551.mp3
+  example2_el: Το μεσημέρι γυρίζω στο σπίτι για φαγητό.
+  example2_en: At noon I return home for food.
+  example2_audio: to-mesimeri-gyrizo-s-e7bd5f.mp3
 - id: A1-U08-005
   greek: το απόγευμα
   phonetic_hint: ''
@@ -97,6 +113,10 @@ entries:
     plural: τα απογεύματα
     accusative_singular: το απόγευμα
   keg_communicative_function: Talking about late afternoon activities and study hours
+  example_audio: to-apogeyma-diavazo--af35e3.mp3
+  example2_el: Το απόγευμα πηγαίνω στο γυμναστήριο.
+  example2_en: In the afternoon I go to the gym.
+  example2_audio: to-apogeyma-pigaino--dd96d9.mp3
 - id: A1-U08-006
   greek: το βράδυ
   phonetic_hint: ''
@@ -112,6 +132,10 @@ entries:
     plural: τα βράδια
     accusative_singular: το βράδυ
   keg_communicative_function: Describing evening relaxation, dinner, and social outings
+  example_audio: to-vrady-vgaino-gia--e489d7.mp3
+  example2_el: Το βράδυ μαγειρεύω κάτι απλό και βλέπω τηλεόραση.
+  example2_en: In the evening I cook something simple and watch television.
+  example2_audio: to-vrady-mageireyo-k-1f59b5.mp3
 - id: A1-U08-007
   greek: η νύχτα
   phonetic_hint: ''
@@ -127,6 +151,10 @@ entries:
     plural: οι νύχτες
     accusative_singular: τη νύχτα
   keg_communicative_function: Specifying late night hours or sleep periods
+  example_audio: ti-nychta-i-poli-ein-07220b.mp3
+  example2_el: Καληνύχτα και καλό ξημέρωμα!
+  example2_en: Good night and have a good dawn!
+  example2_audio: kalinychta-kai-kalo--5eae6c.mp3
 - id: A1-U08-008
   greek: το πρωινό
   phonetic_hint: ''
@@ -143,6 +171,10 @@ entries:
     plural: τα πρωινά
     accusative_singular: το πρωινό
   keg_communicative_function: Describing the first meal of the day
+  example_audio: gia-proino-troo-fryg-cfcbb8.mp3
+  example2_el: Τι τρως συνήθως για πρωινό;
+  example2_en: What do you usually eat for breakfast?
+  example2_audio: ti-tros-synithos-gia-7f01c2.mp3
 - id: A1-U08-009
   greek: το μεσημεριανό
   phonetic_hint: ''
@@ -159,6 +191,10 @@ entries:
     plural: τα μεσημεριανά
     accusative_singular: το μεσημεριανό
   keg_communicative_function: Describing the main midday meal in Greece
+  example_audio: to-mesimeriano-stin--52e050.mp3
+  example2_el: Ετοιμάζω μεσημεριανό για όλη την οικογένεια.
+  example2_en: I prepare lunch for the whole family.
+  example2_audio: etoimazo-mesimeriano-b3bd6b.mp3
 - id: A1-U08-010
   greek: το βραδινό
   phonetic_hint: ''
@@ -174,6 +210,10 @@ entries:
     plural: τα βραδινά
     accusative_singular: το βραδινό
   keg_communicative_function: Describing the evening meal
+  example_audio: trome-elafry-vradino-b3779f.mp3
+  example2_el: Μετά το βραδινό πίνω ένα ζεστό τσάι.
+  example2_en: After dinner I drink a hot tea.
+  example2_audio: meta-to-vradino-pino-f399dc.mp3
 - id: A1-U08-011
   greek: το διάλειμμα
   phonetic_hint: ''
@@ -189,6 +229,10 @@ entries:
     plural: τα διαλείμματα
     accusative_singular: το διάλειμμα
   keg_communicative_function: Talking about study pauses or coffee breaks at work
+  example_audio: sti-doyleia-kanoyme--73b2c5.mp3
+  example2_el: Κάνουμε διάλειμμα δεκαπέντε λεπτών.
+  example2_en: We take a fifteen-minute break.
+  example2_audio: kanoyme-dialeimma-de-8c6b28.mp3
 - id: A1-U08-012
   greek: το μάθημα
   phonetic_hint: ''
@@ -205,6 +249,10 @@ entries:
     accusative_singular: το μάθημα
   keg_communicative_function: Talking about school, language classes, and university
     lectures
+  example_audio: to-mathima-ton-ellin-bd358b.mp3
+  example2_el: Πότε τελειώνει το σημερινό μάθημα;
+  example2_en: When does today's lesson end?
+  example2_audio: pote-teleionei-to-si-908557.mp3
 - id: A1-U08-013
   greek: αρχίζω
   phonetic_hint: ''
@@ -221,6 +269,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό αρχίζει
     first_person_plural: εμείς αρχίζουμε
   keg_communicative_function: Stating starting times for work, classes, or films
+  example_audio: i-doyleia-moy-archiz-179769.mp3
+  example2_el: Η ταινία αρχίζει στις εννέα το βράδυ.
+  example2_en: The film begins at nine in the evening.
+  example2_audio: i-tainia-archizei-st-46024b.mp3
 - id: A1-U08-014
   greek: τελειώνω
   phonetic_hint: ''
@@ -237,6 +289,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό τελειώνει
     first_person_plural: εμείς τελειώνουμε
   keg_communicative_function: Stating finishing times for daily activities
+  example_audio: teleiono-to-mathima--c8fa9b.mp3
+  example2_el: Τελειώνω τη δουλειά στις πέντε το απόγευμα.
+  example2_en: I finish work at five in the afternoon.
+  example2_audio: teleiono-ti-doyleia--7902c0.mp3
 - id: A1-U08-015
   greek: διαβάζω
   phonetic_hint: ''
@@ -254,6 +310,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό διαβάζει
     first_person_plural: εμείς διαβάζουμε
   keg_communicative_function: Describing reading books, newspapers, or doing homework
+  example_audio: kathe-vrady-diavazo--e7ecf7.mp3
+  example2_el: Διαβάζω τα νέα στο διαδίκτυο.
+  example2_en: I read the news on the internet.
+  example2_audio: diavazo-ta-nea-sto-d-3c4ea0.mp3
 - id: A1-U08-016
   greek: ακούω
   phonetic_hint: ''
@@ -270,6 +330,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ακούει
     first_person_plural: εμείς ακούμε
   keg_communicative_function: Talking about listening to music, radio, or podcasts
+  example_audio: akoyo-radiofono-otan-cf5b94.mp3
+  example2_el: Ακούω την καθηγήτρια με προσοχή.
+  example2_en: I listen to the teacher with attention.
+  example2_audio: akoyo-tin-kathigitri-769c8c.mp3
 - id: A1-U08-017
   greek: βλέπω
   phonetic_hint: ''
@@ -287,6 +351,10 @@ entries:
     first_person_plural: εμείς βλέπουμε
   keg_communicative_function: Talking about watching television, movies, or seeing
     friends
+  example_audio: ta-apogeymata-vlepo--fc8127.mp3
+  example2_el: Βλέπω έναν φίλο μου στον δρόμο.
+  example2_en: I see a friend of mine on the street.
+  example2_audio: vlepo-enan-filo-moy--23c3da.mp3
 - id: A1-U08-018
   greek: μαγειρεύω
   phonetic_hint: ''
@@ -303,6 +371,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό μαγειρεύει
     first_person_plural: εμείς μαγειρεύουμε
   keg_communicative_function: Describing cooking habits at home
+  example_audio: mageireyo-ellinika-f-ff348a.mp3
+  example2_el: Ποιος μαγειρεύει σήμερα το μεσημέρι;
+  example2_en: Who is cooking this afternoon?
+  example2_audio: poios-mageireyei-sim-31c812.mp3
 - id: A1-U08-019
   greek: φεύγω
   phonetic_hint: ''
@@ -320,6 +392,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό φεύγει
     first_person_plural: εμείς φεύγουμε
   keg_communicative_function: Stating departure times from home or work
+  example_audio: feygo-apo-to-spiti-s-355021.mp3
+  example2_el: Φεύγετε τώρα για το αεροδρόμιο;
+  example2_en: Are you leaving now for the airport?
+  example2_audio: feygete-tora-gia-to--5cd087.mp3
 - id: A1-U08-020
   greek: γυρίζω
   phonetic_hint: ''
@@ -337,6 +413,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό γυρίζει
     first_person_plural: εμείς γυρίζουμε
   keg_communicative_function: Describing returning home after work or study
+  example_audio: gyrizo-sto-spiti-kat-0f4767.mp3
+  example2_el: Γυρίζουμε στο σπίτι με τα πόδια.
+  example2_en: We return home on foot.
+  example2_audio: gyrizoyme-sto-spiti--65a574.mp3
 - id: A1-U08-021
   greek: ψωνίζω
   phonetic_hint: ''
@@ -353,6 +433,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ψωνίζει
     first_person_plural: εμείς ψωνίζουμε
   keg_communicative_function: Talking about regular grocery or weekly shopping
+  example_audio: psonizo-trofima-apo--86719a.mp3
+  example2_el: Ψωνίζω φρούτα και λαχανικά από το σούπερ μάρκετ.
+  example2_en: I shop for fruits and vegetables from the supermarket.
+  example2_audio: psonizo-froyta-kai-l-76ed96.mp3
 - id: A1-U08-022
   greek: ξυπνάω / ξυπνώ
   phonetic_hint: ''
@@ -370,6 +454,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ξυπνάει (ξυπνά)
     first_person_plural: εμείς ξυπνάμε
   keg_communicative_function: Describing the start of the morning routine
+  example_audio: tis-kathimerines-xyp-0e196f.mp3
+  example2_el: Τι ώρα ξυπνάς τα σαββατοκύριακα;
+  example2_en: What time do you wake up on weekends?
+  example2_audio: ti-ora-xypnas-ta-sav-c4830e.mp3
 - id: A1-U08-023
   greek: περπατάω / περπατώ
   phonetic_hint: ''
@@ -386,6 +474,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό περπατάει (περπατά)
     first_person_plural: εμείς περπατάμε
   keg_communicative_function: Describing walking to work, school, or for exercise
+  example_audio: perpatao-saranta-lep-a0ad22.mp3
+  example2_el: Περπατάμε μέχρι την πλατεία για έναν καφέ.
+  example2_en: We walk up to the square for a coffee.
+  example2_audio: perpatame-mechri-tin-1a35d8.mp3
 - id: A1-U08-024
   greek: τραγουδάω / τραγουδώ
   phonetic_hint: ''
@@ -402,6 +494,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό τραγουδάει (τραγουδά)
     first_person_plural: εμείς τραγουδάμε
   keg_communicative_function: Talking about leisure and musical hobbies
+  example_audio: tragoydame-ellinika--847a9c.mp3
+  example2_el: Η Άννα τραγουδάει πολύ ωραία.
+  example2_en: Anna sings very beautifully.
+  example2_audio: i-anna-tragoydaei-po-8c96d4.mp3
 - id: A1-U08-025
   greek: οδηγώ
   phonetic_hint: ''
@@ -418,6 +514,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό οδηγεί
     first_person_plural: εμείς οδηγούμε
   keg_communicative_function: Talking about commuting by car
+  example_audio: odigo-prosektika-ota-66f80a.mp3
+  example2_el: Δεν οδηγώ αυτοκίνητο στην Αθήνα, παίρνω το μετρό.
+  example2_en: I do not drive a car in Athens, I take the metro.
+  example2_audio: den-odigo-aytokinito-6e713a.mp3
 - id: A1-U08-026
   greek: ζω
   phonetic_hint: ''
@@ -434,6 +534,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ζει
     first_person_plural: εμείς ζούμε
   keg_communicative_function: Talking about lifestyle and city of residence
+  example_audio: zo-stin-athina-edo-k-059a56.mp3
+  example2_el: Ζείτε μόνιμα στην Ελλάδα;
+  example2_en: Do you live permanently in Greece?
+  example2_audio: zeite-monima-stin-el-378bbf.mp3
 - id: A1-U08-027
   greek: μπορώ
   phonetic_hint: ''
@@ -452,6 +556,10 @@ entries:
     first_person_plural: εμείς μπορούμε
   keg_communicative_function: Expressing ability or making polite requests with 'μπορώ
     να...'
+  example_audio: mporo-na-miliso-ligo-086750.mp3
+  example2_el: Μπορείτε να επαναλάβετε την ερώτηση, παρακαλώ;
+  example2_en: Can you repeat the question, please?
+  example2_audio: mporeite-na-epanalav-8c78b4.mp3
 - id: A1-U08-028
   greek: παίρνω πρωινό
   phonetic_hint: ''
@@ -466,6 +574,10 @@ entries:
     part_of_speech: phrase (routine)
     verb_involved: παίρνω (Type A)
   keg_communicative_function: Describing morning eating routine
+  example_audio: pairno-proino-stin-k-466c82.mp3
+  example2_el: Παίρνουμε πρωινό μαζί στο μπαλκόνι.
+  example2_en: We have breakfast together on the balcony.
+  example2_audio: pairnoyme-proino-maz-c7ab3a.mp3
 - id: A1-U08-029
   greek: κάνω μπάνιο / κάνω ντους
   phonetic_hint: ''
@@ -481,6 +593,10 @@ entries:
     part_of_speech: phrase (routine)
     verb_involved: κάνω (Type A)
   keg_communicative_function: Describing personal hygiene routine actively
+  example_audio: kano-ena-grigoro-nto-d493cf.mp3
+  example2_el: Κάνω ένα ζεστό μπάνιο το βράδυ.
+  example2_en: I take a warm bath in the evening.
+  example2_audio: kano-ena-zesto-mpani-cd1987.mp3
 - id: A1-U08-030
   greek: κάνω γυμναστική
   phonetic_hint: ''
@@ -495,6 +611,10 @@ entries:
     part_of_speech: phrase (routine)
     verb_involved: κάνω (Type A)
   keg_communicative_function: Describing health and fitness routines
+  example_audio: kano-gymnastiki-trei-31752e.mp3
+  example2_el: Κάνει γυμναστική κάθε μέρα πριν τη δουλειά.
+  example2_en: He exercises every day before work.
+  example2_audio: kanei-gymnastiki-kat-fac833.mp3
 - id: A1-U08-031
   greek: κάνω διάλειμμα
   phonetic_hint: ''
@@ -509,6 +629,10 @@ entries:
     part_of_speech: phrase (routine)
     verb_involved: κάνω (Type A)
   keg_communicative_function: Describing pauses during work or study
+  example_audio: kanoyme-dialeimma-gi-2663f9.mp3
+  example2_el: Στις δώδεκα κάνουμε διάλειμμα για φαγητό.
+  example2_en: At twelve we take a break for food.
+  example2_audio: stis-dodeka-kanoyme--17efc5.mp3
 - id: A1-U08-032
   greek: πάω για ύπνο
   phonetic_hint: ''
@@ -523,6 +647,10 @@ entries:
     part_of_speech: phrase (routine)
     verb_involved: πάω / πηγαίνω (irregular)
   keg_communicative_function: Describing bedtime routine
+  example_audio: pao-gia-ypno-stis-en-88dc6f.mp3
+  example2_el: Είμαι κουρασμένος και πάω για ύπνο νωρίς.
+  example2_en: I am tired and I am going to bed early.
+  example2_audio: eimai-koyrasmenos-ka-dba533.mp3
 - id: A1-U08-033
   greek: πάντα
   phonetic_hint: ''
@@ -537,6 +665,10 @@ entries:
     part_of_speech: adverb (frequency)
     scale: 100% frequency
   keg_communicative_function: Expressing actions that occur consistently without exception
+  example_audio: pino-panta-enan-kafe-90928c.mp3
+  example2_el: Λέω πάντα την αλήθεια στους φίλους μου.
+  example2_en: I always tell the truth to my friends.
+  example2_audio: leo-panta-tin-alithe-b929c6.mp3
 - id: A1-U08-034
   greek: συνήθως
   phonetic_hint: ''
@@ -551,6 +683,10 @@ entries:
     part_of_speech: adverb (frequency)
     scale: ~80% frequency
   keg_communicative_function: Expressing habitual routine actions
+  example_audio: synithos-troo-mesime-ff96cd.mp3
+  example2_el: Τι κάνετε συνήθως τις Κυριακές;
+  example2_en: What do you usually do on Sundays?
+  example2_audio: ti-kanete-synithos-t-b71aae.mp3
 - id: A1-U08-035
   greek: συχνά
   phonetic_hint: ''
@@ -565,6 +701,10 @@ entries:
     part_of_speech: adverb (frequency)
     scale: ~60% frequency
   keg_communicative_function: Expressing high recurrence of an action
+  example_audio: pigainoyme-sychna-st-634a93.mp3
+  example2_el: Επισκέπτομαι συχνά τους γονείς μου.
+  example2_en: I frequently visit my parents.
+  example2_audio: episkeptomai-sychna--b53021.mp3
 - id: A1-U08-036
   greek: μερικές φορές
   phonetic_hint: ''
@@ -579,6 +719,10 @@ entries:
     part_of_speech: phrase (frequency)
     scale: ~40% frequency
   keg_communicative_function: Expressing intermediate or occasional activities
+  example_audio: merikes-fores-doyley-80e2a3.mp3
+  example2_el: Μερικές φορές πηγαίνουμε σε ελληνικές ταβέρνες.
+  example2_en: Sometimes we go to Greek tavernas.
+  example2_audio: merikes-fores-pigain-bbb89a.mp3
 - id: A1-U08-037
   greek: σπάνια
   phonetic_hint: ''
@@ -593,6 +737,10 @@ entries:
     part_of_speech: adverb (frequency)
     scale: ~10% frequency
   keg_communicative_function: Expressing activities done with very low frequency
+  example_audio: trome-spania-glyka-80b607.mp3
+  example2_el: Βλέπω σπάνια τηλεόραση τις καθημερινές.
+  example2_en: I rarely watch TV on weekdays.
+  example2_audio: vlepo-spania-tileora-e565e7.mp3
 - id: A1-U08-038
   greek: ποτέ
   phonetic_hint: ''
@@ -607,6 +755,10 @@ entries:
     part_of_speech: adverb (frequency)
     syntax: 'requires double negative: δεν + verb + ποτέ'
   keg_communicative_function: Expressing zero recurrence of an action
+  example_audio: den-pino-pote-kafe-t-ba5d48.mp3
+  example2_el: Δεν τρώω ποτέ κρέας το βράδυ.
+  example2_en: I never eat meat in the evening.
+  example2_audio: den-troo-pote-kreas--046e9f.mp3
 - id: A1-U08-039
   greek: κάθε μέρα
   phonetic_hint: ''
@@ -621,6 +773,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (temporal frequency)
   keg_communicative_function: Describing activities that happen on a daily basis
+  example_audio: kathe-mera-mathaino--de318c.mp3
+  example2_el: Πίνω δύο λίτρα νερό κάθε μέρα.
+  example2_en: I drink two liters of water every day.
+  example2_audio: pino-dyo-litra-nero--d79ba6.mp3
 - id: A1-U08-040
   greek: νωρίς
   phonetic_hint: ''
@@ -635,6 +791,10 @@ entries:
     part_of_speech: adverb of time
   keg_communicative_function: Indicating timing early in the day or before expected
     time
+  example_audio: xypnao-noris-to-proi-9a3a89.mp3
+  example2_el: Φτάνω νωρίς στο μάθημα για να βρω θέση.
+  example2_en: I arrive early to class to find a seat.
+  example2_audio: ftano-noris-sto-math-e66494.mp3
 - id: A1-U08-041
   greek: αργά
   phonetic_hint: ''
@@ -648,6 +808,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb of time
   keg_communicative_function: Indicating timing late in the day or after schedule
+  example_audio: gyrizo-arga-apo-to-g-d8d0f4.mp3
+  example2_el: Είναι πολύ αργά, πρέπει να φύγω.
+  example2_en: It is very late, I must leave.
+  example2_audio: einai-poly-arga-prep-9517e6.mp3
 - id: A1-U08-042
   greek: θέλω να
   phonetic_hint: ''
@@ -664,3 +828,7 @@ entries:
     construction: θέλω να + present active indicative
   keg_communicative_function: Expressing desires, intentions, and personal goals for
     the day
+  example_audio: thelo-na-matho-kala--40e8e2.mp3
+  example2_el: Θέλουμε να ταξιδέψουμε στην Ελλάδα το καλοκαίρι.
+  example2_en: We want to travel to Greece in the summer.
+  example2_audio: theloyme-na-taxideps-4cb60d.mp3

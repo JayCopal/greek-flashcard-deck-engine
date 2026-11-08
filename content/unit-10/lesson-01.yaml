@@ -37,6 +37,10 @@ entries:
     plural: οι δρόμοι
     accusative_singular: τον δρόμο
   keg_communicative_function: Describing streets and asking for location
+  example_audio: aytos-o-dromos-echei-1632da.mp3
+  example2_el: Περνάμε τον δρόμο προσεκτικά.
+  example2_en: We cross the street carefully.
+  example2_audio: pername-ton-dromo-pr-04cf9b.mp3
 - id: A1-U10-002
   greek: η οδός
   phonetic_hint: ''
@@ -53,6 +57,10 @@ entries:
     plural: οι οδοί
     accusative_singular: την οδό
   keg_communicative_function: Reading and giving formal street addresses
+  example_audio: to-xenodocheio-einai-1358fe.mp3
+  example2_el: Πού βρίσκεται η οδός Ακαδημίας;
+  example2_en: Where is Akadimias Street located?
+  example2_audio: poy-vrisketai-i-odos-264304.mp3
 - id: A1-U10-003
   greek: η πλατεία
   phonetic_hint: ''
@@ -68,6 +76,10 @@ entries:
     plural: οι πλατείες
     accusative_singular: την πλατεία
   keg_communicative_function: Identifying public central locations and meeting points
+  example_audio: synantiomaste-sychna-ce7ce7.mp3
+  example2_el: Τα παιδιά παίζουν στην κεντρική πλατεία.
+  example2_en: The children play in the central square.
+  example2_audio: ta-paidia-paizoyn-st-f5975c.mp3
 - id: A1-U10-004
   greek: η γωνία
   phonetic_hint: ''
@@ -83,6 +95,10 @@ entries:
     plural: οι γωνίες
     accusative_singular: τη γωνία
   keg_communicative_function: Giving precise directional instructions
+  example_audio: to-periptero-einai-a-9a6767.mp3
+  example2_el: Στρίβουμε δεξιά στην επόμενη γωνία.
+  example2_en: We turn right at the next corner.
+  example2_audio: strivoyme-dexia-stin-a00879.mp3
 - id: A1-U10-005
   greek: το φανάρι
   phonetic_hint: ''
@@ -98,6 +114,10 @@ entries:
     plural: τα φανάρια
     accusative_singular: το φανάρι
   keg_communicative_function: Referencing landmarks for navigation
+  example_audio: sto-proto-fanari-str-9b5a6b.mp3
+  example2_el: Σταματάμε στο κόκκινο φανάρι.
+  example2_en: We stop at the red light.
+  example2_audio: stamatame-sto-kokkin-206741.mp3
 - id: A1-U10-006
   greek: το πεζοδρόμιο
   phonetic_hint: ''
@@ -113,6 +133,10 @@ entries:
     plural: τα πεζοδρόμια
     accusative_singular: το πεζοδρόμιο
   keg_communicative_function: Pedestrian navigation and safety
+  example_audio: perpatame-panta-sto--eb4976.mp3
+  example2_el: Περπατάμε στο φαρδύ πεζοδρόμιο.
+  example2_en: We walk on the wide sidewalk.
+  example2_audio: perpatame-sto-fardy--b8ccf0.mp3
 - id: A1-U10-007
   greek: η διάβαση
   phonetic_hint: ''
@@ -128,6 +152,10 @@ entries:
     plural: οι διαβάσεις
     accusative_singular: τη διάβαση
   keg_communicative_function: Pedestrian safety and following directions
+  example_audio: pername-ton-dromo-ap-8f628a.mp3
+  example2_el: Σταματήστε στη διάβαση πεζών, παρακαλώ.
+  example2_en: Stop at the pedestrian crossing, please.
+  example2_audio: stamatiste-sti-diava-1b4d6b.mp3
 - id: A1-U10-008
   greek: το κέντρο
   phonetic_hint: ''
@@ -143,6 +171,10 @@ entries:
     plural: τα κέντρα
     accusative_singular: το κέντρο
   keg_communicative_function: Stating destination and general area in the city
+  example_audio: to-diamerisma-moy-ei-940309.mp3
+  example2_el: Πάμε για ψώνια στο κέντρο της Αθήνας.
+  example2_en: We go shopping in downtown Athens.
+  example2_audio: pame-gia-psonia-sto--0e5ac2.mp3
 - id: A1-U10-009
   greek: η τράπεζα
   phonetic_hint: ''
@@ -158,6 +190,10 @@ entries:
     plural: οι τράπεζες
     accusative_singular: την τράπεζα
   keg_communicative_function: Locating banking services and financial transactions
+  example_audio: i-trapeza-anoigei-st-f79610.mp3
+  example2_el: Πρέπει να πάω στην τράπεζα για μία συναλλαγή.
+  example2_en: I must go to the bank for a transaction.
+  example2_audio: prepei-na-pao-stin-t-a96079.mp3
 - id: A1-U10-010
   greek: το ταχυδρομείο
   phonetic_hint: ''
@@ -173,6 +209,10 @@ entries:
     plural: τα ταχυδρομεία
     accusative_singular: το ταχυδρομείο
   keg_communicative_function: Asking for postal services and mailing letters
+  example_audio: poy-einai-to-kentrik-1b38e5.mp3
+  example2_el: Στέλνω ένα δέμα από το ταχυδρομείο.
+  example2_en: I send a parcel from the post office.
+  example2_audio: stelno-ena-dema-apo--5bb039.mp3
 - id: A1-U10-011
   greek: το φαρμακείο
   phonetic_hint: ''
@@ -189,6 +229,10 @@ entries:
     plural: τα φαρμακεία
     accusative_singular: το φαρμακείο
   keg_communicative_function: Locating pharmacies and health facilities
+  example_audio: yparchei-ena-dianykt-3c9f0c.mp3
+  example2_el: Αγοράζω παυσίπονα από το φαρμακείο.
+  example2_en: I buy painkillers from the pharmacy.
+  example2_audio: agorazo-paysipona-ap-0e4363.mp3
 - id: A1-U10-012
   greek: το νοσοκομείο
   phonetic_hint: ''
@@ -204,6 +248,10 @@ entries:
     plural: τα νοσοκομεία
     accusative_singular: το νοσοκομείο
   keg_communicative_function: Locating medical emergency care in town
+  example_audio: to-geniko-nosokomeio-8a3463.mp3
+  example2_el: Η αδελφή μου εργάζεται ως νοσοκόμα στο νοσοκομείο.
+  example2_en: My sister works as a nurse in the hospital.
+  example2_audio: i-adelfi-moy-ergazet-d9bcfa.mp3
 - id: A1-U10-013
   greek: το μουσείο
   phonetic_hint: ''
@@ -219,6 +267,10 @@ entries:
     plural: τα μουσεία
     accusative_singular: το μουσείο
   keg_communicative_function: Locating cultural landmarks and tourist sights
+  example_audio: to-archaiologiko-moy-367f30.mp3
+  example2_el: Επισκεπτόμαστε το Μουσείο της Ακρόπολης.
+  example2_en: We visit the Acropolis Museum.
+  example2_audio: episkeptomaste-to-mo-0fae23.mp3
 - id: A1-U10-014
   greek: το ξενοδοχείο
   phonetic_hint: ''
@@ -234,6 +286,10 @@ entries:
     plural: τα ξενοδοχεία
     accusative_singular: το ξενοδοχείο
   keg_communicative_function: Finding accommodation and lodging in the city
+  example_audio: menoyme-se-ena-omorf-67ce1b.mp3
+  example2_el: Το ξενοδοχείο περιλαμβάνει πρωινό στην τιμή.
+  example2_en: The hotel includes breakfast in the price.
+  example2_audio: to-xenodocheio-peril-6169ff.mp3
 - id: A1-U10-015
   greek: το περίπτερο
   phonetic_hint: ''
@@ -251,6 +307,10 @@ entries:
     accusative_singular: το περίπτερο
   keg_communicative_function: Buying daily necessities, tickets, or bottles of water
     in town
+  example_audio: agorazo-eisitiria-ka-228085.mp3
+  example2_el: Αγοράζω εφημερίδα και τσίχλες από το περίπτερο.
+  example2_en: I buy a newspaper and gum from the kiosk.
+  example2_audio: agorazo-efimerida-ka-61bccb.mp3
 - id: A1-U10-016
   greek: το αστυνομικό τμήμα
   phonetic_hint: ''
@@ -266,6 +326,10 @@ entries:
     plural: τα αστυνομικά τμήματα
     accusative_singular: το αστυνομικό τμήμα
   keg_communicative_function: Seeking emergency assistance and reporting lost items
+  example_audio: to-astynomiko-tmima--5a89cc.mp3
+  example2_el: Πού είναι το πλησιέστερο αστυνομικό τμήμα;
+  example2_en: Where is the nearest police station?
+  example2_audio: poy-einai-to-plisies-6fab3e.mp3
 - id: A1-U10-017
   greek: το μετρό
   phonetic_hint: ''
@@ -282,6 +346,10 @@ entries:
     plural: τα μετρό
     accusative_singular: το μετρό
   keg_communicative_function: Using underground rapid transit
+  example_audio: pigaino-sti-doyleia--a8dd2a.mp3
+  example2_el: Το μετρό της Αθήνας είναι γρήγορο και καθαρό.
+  example2_en: The Athens metro is fast and clean.
+  example2_audio: to-metro-tis-athinas-701aa5.mp3
 - id: A1-U10-018
   greek: το λεωφορείο
   phonetic_hint: ''
@@ -297,6 +365,10 @@ entries:
     plural: τα λεωφορεία
     accusative_singular: το λεωφορείο
   keg_communicative_function: Taking public bus transit
+  example_audio: to-leoforeio-pernaei-fc954b.mp3
+  example2_el: Ποιο λεωφορείο πάει στο αεροδρόμιο;
+  example2_en: Which bus goes to the airport?
+  example2_audio: poio-leoforeio-paei--5e9a47.mp3
 - id: A1-U10-019
   greek: το τρένο
   phonetic_hint: ''
@@ -312,6 +384,10 @@ entries:
     plural: τα τρένα
     accusative_singular: το τρένο
   keg_communicative_function: Intercity and regional railway travel
+  example_audio: to-treno-gia-ti-thes-5ebd35.mp3
+  example2_el: Το τρένο φτάνει στην ώρα του.
+  example2_en: The train arrives on time.
+  example2_audio: to-treno-ftanei-stin-36f7f2.mp3
 - id: A1-U10-020
   greek: το τραμ
   phonetic_hint: ''
@@ -327,6 +403,10 @@ entries:
     plural: τα τραμ
     accusative_singular: το τραμ
   keg_communicative_function: Using coastal and city tramways
+  example_audio: pairnoyme-to-tram-gi-3ee8ca.mp3
+  example2_el: Το τραμ περνάει δίπλα από τη θάλασσα.
+  example2_en: The tram passes next to the sea.
+  example2_audio: to-tram-pernaei-dipl-3af3ec.mp3
 - id: A1-U10-021
   greek: το ταξί
   phonetic_hint: ''
@@ -342,6 +422,10 @@ entries:
     plural: τα ταξί
     accusative_singular: το ταξί
   keg_communicative_function: Hailing and using taxi services
+  example_audio: pairno-ena-taxi-giat-2ae8aa.mp3
+  example2_el: Βρίσκουμε εύκολα ταξί στην πιάτσα.
+  example2_en: We easily find a taxi at the taxi rank.
+  example2_audio: vriskoyme-eykola-tax-6ece4e.mp3
 - id: A1-U10-022
   greek: το πλοίο
   phonetic_hint: ''
@@ -357,6 +441,10 @@ entries:
     plural: τα πλοία
     accusative_singular: το πλοίο
   keg_communicative_function: Island and maritime ferry transport
+  example_audio: to-ploio-gia-tin-kri-5b2176.mp3
+  example2_el: Το πλοίο αναχωρεί στις οκτώ το πρωί.
+  example2_en: The ship departs at eight in the morning.
+  example2_audio: to-ploio-anachorei-s-e6eea1.mp3
 - id: A1-U10-023
   greek: το αεροπλάνο
   phonetic_hint: ''
@@ -372,6 +460,10 @@ entries:
     plural: τα αεροπλάνα
     accusative_singular: το αεροπλάνο
   keg_communicative_function: Air travel and airport itineraries
+  example_audio: taxideyoyme-me-to-ae-70dc4a.mp3
+  example2_el: Φοβάμαι να ταξιδέψω με το αεροπλάνο.
+  example2_en: I am afraid of traveling by plane.
+  example2_audio: fovamai-na-taxidepso-662d3d.mp3
 - id: A1-U10-024
   greek: ο σταθμός
   phonetic_hint: ''
@@ -387,6 +479,10 @@ entries:
     plural: οι σταθμοί
     accusative_singular: τον σταθμό
   keg_communicative_function: Finding train stations or metro hubs
+  example_audio: o-stathmos-toy-metro-0348b1.mp3
+  example2_el: Συναντιόμαστε στον κεντρικό σιδηροδρομικό σταθμό.
+  example2_en: We meet at the central railway station.
+  example2_audio: synantiomaste-ston-k-f2ee99.mp3
 - id: A1-U10-025
   greek: η στάση
   phonetic_hint: ''
@@ -402,6 +498,10 @@ entries:
     plural: οι στάσεις
     accusative_singular: τη στάση
   keg_communicative_function: Inquiring about and waiting at bus or tram stops
+  example_audio: perimeno-sti-stasi-t-832eb0.mp3
+  example2_el: Κατεβαίνω στην τρίτη στάση μετά την πλατεία.
+  example2_en: I get off at the third stop after the square.
+  example2_audio: katevaino-stin-triti-8f87e7.mp3
 - id: A1-U10-026
   greek: το εισιτήριο
   phonetic_hint: ''
@@ -417,6 +517,10 @@ entries:
     plural: τα εισιτήρια
     accusative_singular: το εισιτήριο
   keg_communicative_function: Purchasing transportation tickets
+  example_audio: ena-eisitirio-gia-to-2140c6.mp3
+  example2_el: Πόσο κοστίζει το εισιτήριο για το μουσείο;
+  example2_en: How much does the ticket to the museum cost?
+  example2_audio: poso-kostizei-to-eis-d9947a.mp3
 - id: A1-U10-027
   greek: το απλό εισιτήριο
   phonetic_hint: ''
@@ -433,6 +537,10 @@ entries:
     accusative_singular: το απλό εισιτήριο
   keg_communicative_function: Specifying single-trip ticket purchases at ticket windows
     or vending machines
+  example_audio: thelo-ena-aplo-eisit-708ed0.mp3
+  example2_el: Ένα απλό εισιτήριο κοστίζει ένα ευρώ και είκοσι λεπτά.
+  example2_en: A single ticket costs one euro and twenty cents.
+  example2_audio: ena-aplo-eisitirio-k-daa40a.mp3
 - id: A1-U10-028
   greek: το εισιτήριο μετ' επιστροφής
   phonetic_hint: ''
@@ -448,6 +556,10 @@ entries:
     plural: τα εισιτήρια μετ' επιστροφής
     accusative_singular: το εισιτήριο μετ' επιστροφής
   keg_communicative_function: Booking return transportation tickets
+  example_audio: pairno-ena-eisitirio-1cf33f.mp3
+  example2_el: Είναι φθηνότερο να βγάλετε εισιτήριο μετ' επιστροφής.
+  example2_en: It is cheaper to get a return ticket.
+  example2_audio: einai-fthinotero-na--0fcff6.mp3
 - id: A1-U10-029
   greek: η γραμμή
   phonetic_hint: ''
@@ -463,6 +575,10 @@ entries:
     plural: οι γραμμές
     accusative_singular: τη γραμμή
   keg_communicative_function: Navigating subway networks and transit routes
+  example_audio: pairnoyme-tin-kokkin-be6aec.mp3
+  example2_el: Αλλάζουμε γραμμή στον σταθμό Σύνταγμα.
+  example2_en: We change lines at Syntagma station.
+  example2_audio: allazoyme-grammi-sto-36ffe0.mp3
 - id: A1-U10-030
   greek: η αποβάθρα
   phonetic_hint: ''
@@ -478,6 +594,10 @@ entries:
     plural: οι αποβάθρες
     accusative_singular: την αποβάθρα
   keg_communicative_function: Finding the correct platform in railway or metro stations
+  example_audio: to-treno-mas-ftanei--71632e.mp3
+  example2_el: Περιμένουμε το τρένο στην αποβάθρα ένα.
+  example2_en: We are waiting for the train at platform one.
+  example2_audio: perimenoyme-to-treno-bf04c0.mp3
 - id: A1-U10-031
   greek: ευθεία
   phonetic_hint: ''
@@ -491,6 +611,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb
   keg_communicative_function: Giving and following straightforward directional guidance
+  example_audio: pigainete-olo-eythei-04aa7e.mp3
+  example2_el: Συνεχίζετε ευθεία μέχρι να δείτε την εκκλησία.
+  example2_en: Continue straight until you see the church.
+  example2_audio: synechizete-eytheia--7b4d37.mp3
 - id: A1-U10-032
   greek: δεξιά
   phonetic_hint: ''
@@ -504,6 +628,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb
   keg_communicative_function: Giving and following rightward turns and positions
+  example_audio: strivete-dexia-sto-f-831037.mp3
+  example2_el: Το κατάστημα είναι στο δεξί σας χέρι.
+  example2_en: The shop is on your right-hand side.
+  example2_audio: to-katastima-einai-s-13f986.mp3
 - id: A1-U10-033
   greek: αριστερά
   phonetic_hint: ''
@@ -517,6 +645,10 @@ entries:
   grammatical_info:
     part_of_speech: adverb
   keg_communicative_function: Giving and following leftward turns and positions
+  example_audio: i-trapeza-einai-aris-ce6bcf.mp3
+  example2_el: Στρίβω αριστερά στο φανάρι.
+  example2_en: I turn left at the traffic light.
+  example2_audio: strivo-aristera-sto--45e676.mp3
 - id: A1-U10-034
   greek: κοντά σε
   phonetic_hint: ''
@@ -531,6 +663,10 @@ entries:
     part_of_speech: prepositional phrase
     governs: Accusative with contracted article (στο, στη, στον)
   keg_communicative_function: Expressing proximity in urban geography
+  example_audio: to-xenodocheio-einai-bbf203.mp3
+  example2_el: Μένω πολύ κοντά στη δουλειά μου.
+  example2_en: I live very close to my work.
+  example2_audio: meno-poly-konta-sti--931940.mp3
 - id: A1-U10-035
   greek: μακριά από
   phonetic_hint: ''
@@ -545,6 +681,10 @@ entries:
     part_of_speech: prepositional phrase
     governs: Accusative with contracted article (από το, από τη, από τον)
   keg_communicative_function: Expressing long distance from reference points
+  example_audio: to-aerodromio-einai--122082.mp3
+  example2_el: Το σπίτι μου είναι μακριά από τη θάλασσα.
+  example2_en: My house is far from the sea.
+  example2_audio: to-spiti-moy-einai-m-242a5c.mp3
 - id: A1-U10-036
   greek: απέναντι από
   phonetic_hint: ''
@@ -559,6 +699,10 @@ entries:
     part_of_speech: prepositional phrase
     governs: Accusative with article (από το, από την, από τον)
   keg_communicative_function: Indicating facing locations across streets or plazas
+  example_audio: to-farmakeio-einai-a-0d78b5.mp3
+  example2_el: Το καφέ είναι απέναντι από το πάρκο.
+  example2_en: The cafe is across from the park.
+  example2_audio: to-kafe-einai-apenan-750a9e.mp3
 - id: A1-U10-037
   greek: με τα πόδια
   phonetic_hint: ''
@@ -572,6 +716,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (adverbial expression)
   keg_communicative_function: Describing walking as a mode of urban transit
+  example_audio: pigaino-sto-panepist-170e0a.mp3
+  example2_el: Είναι κοντά, πάμε με τα πόδια;
+  example2_en: It's close, shall we go on foot?
+  example2_audio: einai-konta-pame-me--59e7ab.mp3
 - id: A1-U10-038
   greek: στρίβω
   phonetic_hint: ''
@@ -589,6 +737,10 @@ entries:
     first_person_plural: εμείς στρίβουμε
   keg_communicative_function: Instructing someone to change direction while driving
     or walking
+  example_audio: strivete-aristera-st-da1558.mp3
+  example2_el: Στρίβετε δεξιά στην οδό Πανεπιστημίου.
+  example2_en: Turn right onto Panepistimiou Street.
+  example2_audio: strivete-dexia-stin--12ffa0.mp3
 - id: A1-U10-039
   greek: περνάω / περνώ
   phonetic_hint: ''
@@ -605,6 +757,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό περνάει (περνά)
     first_person_plural: εμείς περνάμε
   keg_communicative_function: Crossing avenues and navigating traffic intersections
+  example_audio: pername-ton-dromo-me-ceb0cb.mp3
+  example2_el: Περνάω κάθε μέρα έξω από το σχολείο σας.
+  example2_en: I pass by outside your school every day.
+  example2_audio: pernao-kathe-mera-ex-3ae258.mp3
 - id: A1-U10-040
   greek: κατεβαίνω
   phonetic_hint: ''
@@ -622,6 +778,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό κατεβαίνει
     first_person_plural: εμείς κατεβαίνουμε
   keg_communicative_function: Alighting from transit vehicles at the right stop
+  example_audio: katevainoyme-stin-ep-825067.mp3
+  example2_el: Κατεβαίνω στο κέντρο για δουλειές.
+  example2_en: I go down to the city center for errands.
+  example2_audio: katevaino-sto-kentro-f50b4e.mp3
 - id: A1-U10-041
   greek: ανεβαίνω
   phonetic_hint: ''
@@ -638,6 +798,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ανεβαίνει
     first_person_plural: εμείς ανεβαίνουμε
   keg_communicative_function: Boarding transit vehicles
+  example_audio: anevaino-sto-leofore-fa9e50.mp3
+  example2_el: Ανεβαίνω τις σκάλες με τα πόδια.
+  example2_en: I climb the stairs on foot.
+  example2_audio: anevaino-tis-skales--b9da76.mp3
 - id: A1-U10-042
   greek: ψάχνω
   phonetic_hint: ''
@@ -654,3 +818,7 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό ψάχνει
     first_person_plural: εμείς ψάχνουμε
   keg_communicative_function: Asking passersby for help finding places or addresses
+  example_audio: syggnomi-psachno-ton-2a930c.mp3
+  example2_el: Ψάχνω ένα καλό εστιατόριο στην περιοχή.
+  example2_en: I am looking for a good restaurant in the area.
+  example2_audio: psachno-ena-kalo-est-e4ba8d.mp3

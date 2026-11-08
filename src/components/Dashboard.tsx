@@ -10,7 +10,7 @@ import {
   getDailyReviewData,
   getUserStudyPreferences
 } from '../utils/userStorage';
-import { parseLessonCode, formatLessonLabel, getGroupTitle, extractUnitContext } from '../utils/unitNaming';
+import { parseLessonCode, formatLessonLabel, getGroupTitle, extractUnitContext, getGroupAccentStyles } from '../utils/unitNaming';
 import { 
   BookOpen, 
   Play, 
@@ -21,7 +21,6 @@ import {
   X,
   ChevronRight,
   Filter,
-  RefreshCw,
   Flame,
   Target,
   Sparkles,
@@ -353,17 +352,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
     const unitLearnedPct = unitCards.length > 0 ? Math.round((unitLearnedCount / unitCards.length) * 100) : 0;
     const unitEffectiveStatus = primaryLesson ? getEffectiveLessonStatus(primaryLesson) : 'not_started';
     const notes = primaryLesson ? getEffectiveLessonNotes(primaryLesson) : '';
+    const groupAccent = getGroupAccentStyles(code.group);
 
     return (
       <div 
         key={unit.id}
-        className="lesson-card bg-slate-900/90 rounded-2xl p-5 sm:p-6 border-2 border-slate-600 hover:border-sky-400 transition-all duration-300 shadow-xl shadow-black/30 hover:shadow-sky-500/10 group flex flex-col justify-between"
+        className={`lesson-card bg-slate-900/90 rounded-2xl p-5 sm:p-6 border-2 border-slate-700/80 border-l-[6px] ${groupAccent.borderLeft} ${groupAccent.borderLeftHover} hover:border-y-slate-500 hover:border-r-slate-500 transition-all duration-300 shadow-xl shadow-black/30 ${groupAccent.hoverGlow} group flex flex-col justify-between`}
       >
         <div>
           {/* Line 1: Lesson Name & Progress Status */}
           <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-2.5">
             {/* Lesson Code Pill */}
-            <span className="px-2.5 py-1 rounded-lg text-xs font-black tracking-wider uppercase bg-sky-500/15 text-sky-400 border border-sky-500/30 shadow-sm">
+            <span className={`px-2.5 py-1 rounded-lg text-xs font-black tracking-wider uppercase border shadow-sm ${groupAccent.pillBg}`}>
               {lessonLabel}
             </span>
 
@@ -389,12 +389,12 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {/* Line 2: Group Badge First, Notes Button, Page Numbers */}
           <div className="flex flex-wrap items-center gap-2 mb-3">
             {/* Group Badge */}
-            <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${
-              parsed.isTextbook 
-                ? 'bg-indigo-950/70 text-indigo-300 border-indigo-700/50' 
-                : 'bg-slate-800 text-slate-300 border-slate-700'
-            }`}>
-              {parsed.isTextbook && <BookMarked className="w-3.5 h-3.5 text-indigo-400" />}
+            <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${groupAccent.badgeBg}`}>
+              {parsed.isTextbook ? (
+                <BookMarked className={`w-3.5 h-3.5 ${groupAccent.badgeIconColor}`} />
+              ) : (
+                <BookOpen className={`w-3.5 h-3.5 ${groupAccent.badgeIconColor}`} />
+              )}
               <span>Group: {code.group}</span>
             </span>
 
@@ -421,7 +421,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
           {/* Unified Title & Subtitle */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight group-hover:text-sky-300 transition-colors leading-snug">
+            <h3 className={`text-lg sm:text-xl font-bold text-white tracking-tight ${groupAccent.titleHover} transition-colors leading-snug`}>
               {parsed.primaryTitle}
             </h3>
             {parsed.subtitle && (
@@ -575,74 +575,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   return (
     <div className="space-y-6 max-w-6xl mx-auto pb-16">
-      {/* Landing Page: List of Lessons Header with Search & Controls */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2.5">
-            <BookOpen className="w-5 h-5 text-sky-400" />
-            <span>Curriculum Lessons</span>
-          </h1>
-          <p className="text-xs sm:text-sm text-slate-400 mt-0.5">
-            {units.length} lessons available • Browse curriculum groups and track mastery
-          </p>
-        </div>
-
-        <div className="flex flex-wrap items-center gap-2.5">
-          {/* Daily Streak & Goal Card */}
-          <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
-            <div className="flex items-center gap-1 font-bold text-amber-400" title={`${dailyData.streak} day streak`}>
-              <Flame className="w-4 h-4 fill-amber-500 text-amber-500" />
-              <span>{dailyData.streak}d</span>
-            </div>
-            <span className="text-slate-600">|</span>
-            <div className="flex items-center gap-1.5" title={`Daily review goal: ${dailyData.count}/${dailyGoal} cards`}>
-              <Target className={`w-3.5 h-3.5 ${isGoalReached ? 'text-emerald-400' : 'text-sky-400'}`} />
-              <span className={`font-semibold ${isGoalReached ? 'text-emerald-300' : 'text-slate-300'}`}>
-                {dailyData.count}/{dailyGoal}
-              </span>
-              <div className="w-12 h-1.5 bg-slate-800 rounded-full overflow-hidden ml-0.5 hidden sm:block">
-                <div 
-                  className={`h-full transition-all duration-300 ${isGoalReached ? 'bg-emerald-400' : 'bg-sky-500'}`}
-                  style={{ width: `${dailyGoalPct}%` }}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Search Input */}
-          <div className="relative flex-1 sm:w-60">
-            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search lessons or vocabulary..."
-              className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-700 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
-            />
-            {searchQuery && (
-              <button
-                type="button"
-                onClick={() => setSearchQuery('')}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
-
-          {/* Refresh Button */}
-          <button 
-            type="button"
-            onClick={onRefresh}
-            className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700 transition-colors shrink-0 flex items-center gap-1.5"
-            title="Reload curriculum from filesystem"
-          >
-            <RefreshCw className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Refresh</span>
-          </button>
-        </div>
-      </div>
-
       {/* Continue Where You Left Off - Quick Resume Hero Card */}
       {resumeUnit && !searchQuery.trim() && groupFilter === 'all' && statusFilter === 'all' && (
         <div className="relative overflow-hidden rounded-2xl p-4 sm:p-5 bg-gradient-to-r from-sky-950/70 via-slate-900 to-indigo-950/60 border border-sky-500/30 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -701,45 +633,93 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
       )}
 
-      {/* Filter Navigation Bar: Group Selection & Status Filtering */}
-      <div className="glass-panel bg-slate-900/80 p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border border-slate-700/80">
-        {/* Group Filter (Dynamic Groups) */}
-        <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
-          <button
-            type="button"
-            onClick={() => setGroupFilter('all')}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              groupFilter === 'all'
-                ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            All Groups ({units.length})
-          </button>
-          {availableGroups.map((group) => {
-            const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
-            const isKlik = group.id.toLowerCase().startsWith('klik');
-            return (
-              <button
-                key={group.id}
-                type="button"
-                onClick={() => setGroupFilter(group.id)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                  isSelected
-                    ? isKlik
-                      ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-                      : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                {group.name} ({group.lessonsCount})
-              </button>
-            );
-          })}
+      {/* Filter Navigation Bar: Group Selection, Search/Streak, & Status Filtering */}
+      <div className="glass-panel bg-slate-900/80 p-3.5 sm:p-4 rounded-2xl flex flex-col gap-3.5 border border-slate-700/80">
+        {/* Top Controls Row: Group Filters + Streak & Search */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          {/* Group Filter (Dynamic Groups) */}
+          <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
+            <button
+              type="button"
+              onClick={() => setGroupFilter('all')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                groupFilter === 'all'
+                  ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              All Groups ({units.length})
+            </button>
+            {availableGroups.map((group) => {
+              const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
+              const isKlik = group.id.toLowerCase().startsWith('klik');
+              return (
+                <button
+                  key={group.id}
+                  type="button"
+                  onClick={() => setGroupFilter(group.id)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                    isSelected
+                      ? isKlik
+                        ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+                        : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                      : 'text-slate-400 hover:text-white'
+                  }`}
+                >
+                  {group.name} ({group.lessonsCount})
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Streak & Search Input */}
+          <div className="flex items-center gap-2.5 w-full md:w-auto">
+            {/* Daily Streak & Goal Card */}
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs shrink-0">
+              <div className="flex items-center gap-1 font-bold text-amber-400" title={`${dailyData.streak} day streak`}>
+                <Flame className="w-4 h-4 fill-amber-500 text-amber-500" />
+                <span>{dailyData.streak}d</span>
+              </div>
+              <span className="text-slate-600">|</span>
+              <div className="flex items-center gap-1.5" title={`Daily review goal: ${dailyData.count}/${dailyGoal} cards`}>
+                <Target className={`w-3.5 h-3.5 ${isGoalReached ? 'text-emerald-400' : 'text-sky-400'}`} />
+                <span className={`font-semibold ${isGoalReached ? 'text-emerald-300' : 'text-slate-300'}`}>
+                  {dailyData.count}/{dailyGoal}
+                </span>
+                <div className="w-12 h-1.5 bg-slate-800 rounded-full overflow-hidden ml-0.5 hidden sm:block">
+                  <div 
+                    className={`h-full transition-all duration-300 ${isGoalReached ? 'bg-emerald-400' : 'bg-sky-500'}`}
+                    style={{ width: `${dailyGoalPct}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Search Input */}
+            <div className="relative flex-1 sm:w-60">
+              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search lessons or vocabulary..."
+                className="w-full pl-9 pr-8 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
+              />
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              )}
+            </div>
+          </div>
         </div>
 
         {/* Status Filter with Levels 1-5 In Progress and increasing yellow/orange intensity */}
-        <div className="flex flex-wrap items-center gap-1.5">
+        <div className="flex flex-wrap items-center gap-1.5 pt-2.5 border-t border-slate-800/80">
           <span className="text-xs font-semibold text-slate-400 mr-1 hidden sm:inline flex items-center gap-1">
             <Filter className="w-3.5 h-3.5 text-slate-400" /> Status:
           </span>
@@ -872,11 +852,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {availableGroups.map((group) => {
             const groupUnits = filteredUnits.filter((u) => parseLessonCode(u.order || u.id).group.toLowerCase() === group.id.toLowerCase());
             if (groupUnits.length === 0) return null;
-            const isKlik = group.id.toLowerCase().startsWith('klik');
+            const groupAccent = getGroupAccentStyles(group.id);
             return (
               <div key={group.id} className="space-y-4">
                 <div className="flex items-center gap-2 pb-1.5 border-b border-slate-700/80">
-                  <span className={`w-2.5 h-2.5 rounded-full ${isKlik ? 'bg-indigo-400' : 'bg-sky-400'}`} />
+                  <span className={`w-2.5 h-2.5 rounded-full ${groupAccent.dotColor}`} />
                   <h3 className="text-base font-bold text-white uppercase tracking-wider">
                     Group: {group.name}
                   </h3>

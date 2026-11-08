@@ -36,6 +36,10 @@ entries:
     plural: τα σώματα
     accusative_singular: το σώμα
   keg_communicative_function: Naming human body and physical anatomy
+  example_audio: i-askisi-kanei-kalo--1c5568.mp3
+  example2_el: Το ανθρώπινο σώμα χρειάζεται νερό και άσκηση.
+  example2_en: The human body needs water and exercise.
+  example2_audio: to-anthropino-soma-c-32a233.mp3
 - id: A1-U12-002
   greek: το κεφάλι
   phonetic_hint: ''
@@ -51,6 +55,10 @@ entries:
     plural: τα κεφάλια
     accusative_singular: το κεφάλι
   keg_communicative_function: Describing head pain or injuries
+  example_audio: ponaei-to-kefali-moy-32e2d0.mp3
+  example2_el: Φοράω καπέλο για να προστατεύω το κεφάλι μου.
+  example2_en: I wear a hat to protect my head.
+  example2_audio: forao-kapelo-gia-na--b0fa9f.mp3
 - id: A1-U12-003
   greek: ο λαιμός
   phonetic_hint: ''
@@ -66,6 +74,10 @@ entries:
     plural: οι λαιμοί
     accusative_singular: τον λαιμό
   keg_communicative_function: Reporting sore throat symptoms
+  example_audio: echo-kokkino-laimo-k-22373f.mp3
+  example2_el: Πίνω ζεστό τσάι με μέλι για τον λαιμό.
+  example2_en: I drink warm tea with honey for my throat.
+  example2_audio: pino-zesto-tsai-me-m-f3b036.mp3
 - id: A1-U12-004
   greek: το στομάχι
   phonetic_hint: ''
@@ -81,6 +93,10 @@ entries:
     plural: τα στομάχια
     accusative_singular: το στομάχι
   keg_communicative_function: Describing gastric discomfort and digestive issues
+  example_audio: me-ponaei-to-stomach-b31c7e.mp3
+  example2_el: Με πονάει το στομάχι όταν πίνω πολύ καφέ.
+  example2_en: My stomach hurts when I drink a lot of coffee.
+  example2_audio: me-ponaei-to-stomach-16cdcb.mp3
 - id: A1-U12-005
   greek: η κοιλιά
   phonetic_hint: ''
@@ -96,6 +112,10 @@ entries:
     plural: οι κοιλιές
     accusative_singular: την κοιλιά
   keg_communicative_function: Describing abdominal pain
+  example_audio: to-paidi-ponaei-stin-a8c677.mp3
+  example2_el: Ξαπλώνω γιατί με πονάει η κοιλιά μου.
+  example2_en: I lie down because my belly hurts.
+  example2_audio: xaplono-giati-me-pon-1abdbc.mp3
 - id: A1-U12-006
   greek: το μάτι
   phonetic_hint: ''
@@ -111,6 +131,10 @@ entries:
     plural: τα μάτια
     accusative_singular: το μάτι
   keg_communicative_function: Describing ocular symptoms or irritation
+  example_audio: ton-ponoyn-ta-matia--767658.mp3
+  example2_el: Πλύνετε τα μάτια σας με καθαρό νερό.
+  example2_en: Wash your eyes with clean water.
+  example2_audio: plynete-ta-matia-sas-c479e7.mp3
 - id: A1-U12-007
   greek: το αυτί
   phonetic_hint: ''
@@ -126,6 +150,10 @@ entries:
     plural: τα αυτιά
     accusative_singular: το αυτί
   keg_communicative_function: Describing earache symptoms to a physician
+  example_audio: echo-provlima-me-to--f39955.mp3
+  example2_el: Ο γιατρός εξετάζει το αυτί του παιδιού.
+  example2_en: The doctor examines the child's ear.
+  example2_audio: o-giatros-exetazei-t-b11078.mp3
 - id: A1-U12-008
   greek: η μύτη
   phonetic_hint: ''
@@ -141,6 +169,10 @@ entries:
     plural: οι μύτες
     accusative_singular: τη μύτη
   keg_communicative_function: Describing nasal symptoms and head colds
+  example_audio: trechei-i-myti-moy-g-2996b7.mp3
+  example2_el: Βάζω σταγόνες στη μύτη για το συνάχι.
+  example2_en: I put drops in my nose for the cold.
+  example2_audio: vazo-stagones-sti-my-c78825.mp3
 - id: A1-U12-009
   greek: το στόμα
   phonetic_hint: ''
@@ -156,6 +188,10 @@ entries:
     plural: τα στόματα
     accusative_singular: το στόμα
   keg_communicative_function: Following doctor's examination commands
+  example_audio: anoixte-to-stoma-sas-20b294.mp3
+  example2_el: Βουρτσίζω τα δόντια μου και καθαρίζω το στόμα μου.
+  example2_en: I brush my teeth and clean my mouth.
+  example2_audio: voyrtsizo-ta-dontia--3c6e43.mp3
 - id: A1-U12-010
   greek: το δόντι
   phonetic_hint: ''
@@ -171,6 +207,10 @@ entries:
     plural: τα δόντια
     accusative_singular: το δόντι
   keg_communicative_function: Explaining dental pain and visiting the dentist
+  example_audio: prepei-na-pao-ston-o-037dda.mp3
+  example2_el: Πλένω τα δόντια μου δύο φορές την ημέρα.
+  example2_en: I brush my teeth twice a day.
+  example2_audio: pleno-ta-dontia-moy--daaf80.mp3
 - id: A1-U12-011
   greek: το χέρι
   phonetic_hint: ''
@@ -187,6 +227,10 @@ entries:
     accusative_singular: το χέρι
   keg_communicative_function: Describing upper limb discomfort, injuries, or washing
     hands
+  example_audio: plenoyme-kala-ta-che-f5d55c.mp3
+  example2_el: Δώσε μου το χέρι σου.
+  example2_en: Give me your hand.
+  example2_audio: dose-moy-to-cheri-so-d90cb8.mp3
 - id: A1-U12-012
   greek: το πόδι
   phonetic_hint: ''
@@ -202,6 +246,10 @@ entries:
     plural: τα πόδια
     accusative_singular: το πόδι
   keg_communicative_function: Describing lower limb injuries or walking pain
+  example_audio: ponaei-to-dexi-moy-p-e95f3d.mp3
+  example2_el: Με πονούν τα πόδια μου μετά από πολλή ορθοστασία.
+  example2_en: My legs hurt after a lot of standing.
+  example2_audio: me-ponoyn-ta-podia-m-a23b16.mp3
 - id: A1-U12-013
   greek: η πλάτη
   phonetic_hint: ''
@@ -217,6 +265,10 @@ entries:
     plural: οι πλάτες
     accusative_singular: την πλάτη
   keg_communicative_function: Reporting back pain to a practitioner
+  example_audio: echo-dynatoys-ponoys-71d6dc.mp3
+  example2_el: Κάθομαι ίσια για να μην πονάει η πλάτη μου.
+  example2_en: I sit straight so that my back doesn't hurt.
+  example2_audio: kathomai-isia-gia-na-883c4d.mp3
 - id: A1-U12-014
   greek: η καρδιά
   phonetic_hint: ''
@@ -232,6 +284,10 @@ entries:
     plural: οι καρδιές
     accusative_singular: την καρδιά
   keg_communicative_function: Discussing cardiovascular health and heart rate
+  example_audio: o-giatros-akoyei-tin-87ac6c.mp3
+  example2_el: Το περπάτημα είναι πολύ καλό για την καρδιά.
+  example2_en: Walking is very good for the heart.
+  example2_audio: to-perpatima-einai-p-f2f1c6.mp3
 - id: A1-U12-015
   greek: ο πυρετός
   phonetic_hint: ''
@@ -247,6 +303,10 @@ entries:
     plural: οι πυρετοί
     accusative_singular: τον πυρετό
   keg_communicative_function: Reporting fever symptoms and body temperature
+  example_audio: echo-trianta-okto-py-400fd8.mp3
+  example2_el: Βάζω το θερμόμετρο για να μετρήσω τον πυρετό.
+  example2_en: I put on the thermometer to measure the fever.
+  example2_audio: vazo-to-thermometro--7e194f.mp3
 - id: A1-U12-016
   greek: ο πονοκέφαλος
   phonetic_hint: ''
@@ -262,6 +322,10 @@ entries:
     plural: οι πονοκέφαλοι
     accusative_singular: τον πονοκέφαλο
   keg_communicative_function: Reporting headaches to medical staff
+  example_audio: echo-enan-tromero-po-acda5b.mp3
+  example2_el: Παίρνω ένα χάπι για τον δυνατό πονοκέφαλο.
+  example2_en: I take a pill for the severe headache.
+  example2_audio: pairno-ena-chapi-gia-833eee.mp3
 - id: A1-U12-017
   greek: ο πονόλαιμος
   phonetic_hint: ''
@@ -277,6 +341,10 @@ entries:
     plural: οι πονόλαιμοι
     accusative_singular: τον πονόλαιμο
   keg_communicative_function: Reporting sore throat symptoms
+  example_audio: echete-karameles-gia-ac3e6e.mp3
+  example2_el: Έχω πονόλαιμο και δεν μπορώ να φάω.
+  example2_en: I have a sore throat and I cannot eat.
+  example2_audio: echo-ponolaimo-kai-d-3e9083.mp3
 - id: A1-U12-018
   greek: ο πονόδοντος
   phonetic_hint: ''
@@ -292,6 +360,10 @@ entries:
     plural: οι πονόδοντοι
     accusative_singular: τον πονόδοντο
   keg_communicative_function: Explaining toothache symptoms
+  example_audio: den-mporo-na-koimith-56c43e.mp3
+  example2_el: Ο πονόδοντος είναι ανυπόφορος, πάω στον οδοντίατρο.
+  example2_en: The toothache is unbearable, I go to the dentist.
+  example2_audio: o-ponodontos-einai-a-f24e11.mp3
 - id: A1-U12-019
   greek: το συνάχι
   phonetic_hint: ''
@@ -307,6 +379,10 @@ entries:
     plural: τα συνάχια
     accusative_singular: το συνάχι
   keg_communicative_function: Explaining mild viral cold symptoms
+  example_audio: echo-synachi-kai-vic-3d2a4f.mp3
+  example2_el: Έχω συνάχι και χρειάζομαι χαρτομάντιλα.
+  example2_en: I have a runny nose and I need tissues.
+  example2_audio: echo-synachi-kai-chr-432b8b.mp3
 - id: A1-U12-020
   greek: η γρίπη
   phonetic_hint: ''
@@ -322,6 +398,10 @@ entries:
     plural: οι γρίπες
     accusative_singular: τη γρίπη
   keg_communicative_function: Reporting influenza infection
+  example_audio: meno-sto-krevati-gia-6a669e.mp3
+  example2_el: Πολλοί μαθητές έχουν γρίπη αυτόν τον μήνα.
+  example2_en: Many students have the flu this month.
+  example2_audio: polloi-mathites-echo-7f6219.mp3
 - id: A1-U12-021
   greek: ο βήχας
   phonetic_hint: ''
@@ -337,6 +417,10 @@ entries:
     plural: οι βήχες
     accusative_singular: τον βήχα
   keg_communicative_function: Describing coughing symptoms
+  example_audio: o-vichas-den-me-afin-4c093d.mp3
+  example2_el: Πίνω σιρόπι για να σταματήσει ο βήχας.
+  example2_en: I drink syrup to stop the cough.
+  example2_audio: pino-siropi-gia-na-s-ee90c0.mp3
 - id: A1-U12-022
   greek: η αλλεργία
   phonetic_hint: ''
@@ -352,6 +436,10 @@ entries:
     plural: οι αλλεργίες
     accusative_singular: την αλλεργία
   keg_communicative_function: Informing medical personnel of allergies
+  example_audio: echo-allergia-stin-p-79a925.mp3
+  example2_el: Την άνοιξη έχω έντονη αλλεργία στη γύρη.
+  example2_en: In spring I have severe allergy to pollen.
+  example2_audio: tin-anoixi-echo-ento-5a0833.mp3
 - id: A1-U12-023
   greek: άρρωστος, άρρωστη, άρρωστο
   phonetic_hint: ''
@@ -368,6 +456,10 @@ entries:
     feminine: άρρωστη
     neuter: άρρωστο
   keg_communicative_function: Stating ill health condition
+  example_audio: eimai-arrostos-kai-d-f24c57.mp3
+  example2_el: Το παιδί είναι άρρωστο και μένει στο σπίτι.
+  example2_en: The child is sick and stays home.
+  example2_audio: to-paidi-einai-arros-df7ba7.mp3
 - id: A1-U12-024
   greek: κουρασμένος, κουρασμένη, κουρασμένο
   phonetic_hint: ''
@@ -384,6 +476,10 @@ entries:
     feminine: κουρασμένη
     neuter: κουρασμένο
   keg_communicative_function: Expressing fatigue and tiredness
+  example_audio: eimai-poly-koyrasmen-bce955.mp3
+  example2_el: Είμαστε κουρασμένοι μετά από το ταξίδι.
+  example2_en: We are tired after the trip.
+  example2_audio: eimaste-koyrasmenoi--edfdb4.mp3
 - id: A1-U12-025
   greek: το φάρμακο
   phonetic_hint: ''
@@ -399,6 +495,10 @@ entries:
     plural: τα φάρμακα
     accusative_singular: το φάρμακο
   keg_communicative_function: Asking for medicine at the pharmacy
+  example_audio: pairno-ayto-to-farma-ef0c72.mp3
+  example2_el: Αγοράζω τα φάρμακά μου από το κοντινό φαρμακείο.
+  example2_en: I buy my medications from the nearby pharmacy.
+  example2_audio: agorazo-ta-farmaka-m-030d5c.mp3
 - id: A1-U12-026
   greek: το χάπι
   phonetic_hint: ''
@@ -414,6 +514,10 @@ entries:
     plural: τα χάπια
     accusative_singular: το χάπι
   keg_communicative_function: Buying and dosing pill medications
+  example_audio: parte-dyo-chapia-met-a2f339.mp3
+  example2_el: Πίνω ένα χάπι με ένα ποτήρι νερό.
+  example2_en: I drink a pill with a glass of water.
+  example2_audio: pino-ena-chapi-me-en-3c644f.mp3
 - id: A1-U12-027
   greek: η ασπιρίνη
   phonetic_hint: ''
@@ -429,6 +533,10 @@ entries:
     plural: οι ασπιρίνες
     accusative_singular: την ασπιρίνη
   keg_communicative_function: Requesting over-the-counter pain relief
+  example_audio: thelo-ena-koyti-aspi-7b3f52.mp3
+  example2_el: Παίρνω μία ασπιρίνη για τον πυρετό.
+  example2_en: I take an aspirin for the fever.
+  example2_audio: pairno-mia-aspirini--1e9831.mp3
 - id: A1-U12-028
   greek: το σιρόπι
   phonetic_hint: ''
@@ -444,6 +552,10 @@ entries:
     plural: τα σιρόπια
     accusative_singular: το σιρόπι
   keg_communicative_function: Purchasing cough syrup at a chemist
+  example_audio: ayto-to-siropi-einai-cce40e.mp3
+  example2_el: Πάρτε μία κουταλιά σιρόπι τρεις φορές την ημέρα.
+  example2_en: Take a spoonful of syrup three times a day.
+  example2_audio: parte-mia-koytalia-s-8de3eb.mp3
 - id: A1-U12-029
   greek: το τσιρότο
   phonetic_hint: ''
@@ -459,6 +571,10 @@ entries:
     plural: τα τσιρότα
     accusative_singular: το τσιρότο
   keg_communicative_function: Purchasing first-aid supplies for minor cuts
+  example_audio: chreiazomai-ena-tsir-fc5dd6.mp3
+  example2_el: Βάζω ένα τσιρότο στο μικρό κόψιμο.
+  example2_en: I put a band-aid on the small cut.
+  example2_audio: vazo-ena-tsiroto-sto-9fe3ac.mp3
 - id: A1-U12-030
   greek: η γάζα
   phonetic_hint: ''
@@ -474,6 +590,10 @@ entries:
     plural: οι γάζες
     accusative_singular: τη γάζα
   keg_communicative_function: Asking for wound dressing supplies
+  example_audio: vazoyme-kathari-gaza-b14aac.mp3
+  example2_el: Χρειαζόμαστε αποστειρωμένη γάζα και επίδεσμο.
+  example2_en: We need sterile gauze and a bandage.
+  example2_audio: chreiazomaste-aposte-74d390.mp3
 - id: A1-U12-031
   greek: το οινόπνευμα
   phonetic_hint: ''
@@ -489,6 +609,10 @@ entries:
     plural: τα οινοπνεύματα
     accusative_singular: το οινόπνευμα
   keg_communicative_function: Purchasing antiseptic supplies
+  example_audio: katharizoyme-to-cher-fc4969.mp3
+  example2_el: Το οινόπνευμα καθαρίζει και απολυμαίνει.
+  example2_en: Alcohol cleans and disinfects.
+  example2_audio: to-oinopneyma-kathar-5a1d5e.mp3
 - id: A1-U12-032
   greek: η συνταγή
   phonetic_hint: ''
@@ -505,6 +629,10 @@ entries:
     plural: οι συνταγές
     accusative_singular: τη συνταγή
   keg_communicative_function: Presenting prescriptions to a chemist
+  example_audio: echete-syntagi-apo-g-3acaf5.mp3
+  example2_el: Ο γιατρός μού γράφει μία συνταγή για αντιβίωση.
+  example2_en: The doctor writes me a prescription for antibiotics.
+  example2_audio: o-giatros-moy-grafei-6f3515.mp3
 - id: A1-U12-033
   greek: ο φαρμακοποιός
   phonetic_hint: ''
@@ -520,6 +648,10 @@ entries:
     plural: οι φαρμακοποιοί
     accusative_singular: τον φαρμακοποιό
   keg_communicative_function: Addressing and asking advice from pharmacy professionals
+  example_audio: o-farmakopoios-moy-d-6e1858.mp3
+  example2_el: Ρωτάω τον φαρμακοποιό πώς να παίρνω το φάρμακο.
+  example2_en: I ask the pharmacist how to take the medicine.
+  example2_audio: rotao-ton-farmakopoi-c7f209.mp3
 - id: A1-U12-034
   greek: το ασθενοφόρο
   phonetic_hint: ''
@@ -536,6 +668,10 @@ entries:
     plural: τα ασθενοφόρα
     accusative_singular: το ασθενοφόρο
   keg_communicative_function: Calling emergency medical transport
+  example_audio: kaleste-amesos-asthe-d362b9.mp3
+  example2_el: Το ασθενοφόρο φτάνει σε πέντε λεπτά.
+  example2_en: The ambulance arrives in five minutes.
+  example2_audio: to-asthenoforo-ftane-41789f.mp3
 - id: A1-U12-035
   greek: πονάω / πονώ
   phonetic_hint: ''
@@ -552,6 +688,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό πονάει (πονά)
     first_person_plural: εμείς πονάμε
   keg_communicative_function: Expressing bodily pain and distress
+  example_audio: ponao-poly-chreiazom-2982a6.mp3
+  example2_el: Πού πονάτε ακριβώς, κύριε Παπαδόπουλε;
+  example2_en: Where do you hurt exactly, Mr. Papadopoulos?
+  example2_audio: poy-ponate-akrivos-k-a2c29f.mp3
 - id: A1-U12-036
   greek: πονάει... / πονάνε...
   phonetic_hint: ''
@@ -566,6 +706,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (impersonal pain construction)
   keg_communicative_function: Specifying singular vs plural body parts in pain
+  example_audio: me-ponaei-o-laimos-m-52a00d.mp3
+  example2_el: Με πονάει το αυτί μου από το πρωί.
+  example2_en: My ear hurts since morning.
+  example2_audio: me-ponaei-to-ayti-mo-9a8040.mp3
 - id: A1-U12-037
   greek: πρέπει να
   phonetic_hint: ''
@@ -580,6 +724,10 @@ entries:
     part_of_speech: phrase (modal particle phrase)
     syntax: πρέπει να + Present Active Indicative
   keg_communicative_function: Giving and understanding medical instructions or duties
+  example_audio: prepei-na-pinete-pol-18e2a3.mp3
+  example2_el: Πρέπει να μείνετε στο κρεβάτι για τρεις μέρες.
+  example2_en: You must stay in bed for three days.
+  example2_audio: prepei-na-meinete-st-0fd49b.mp3
 - id: A1-U12-038
   greek: νιώθω
   phonetic_hint: ''
@@ -596,6 +744,10 @@ entries:
     third_person_singular: αυτός / αυτή / αυτό νιώθει
     first_person_plural: εμείς νιώθουμε
   keg_communicative_function: Describing internal physical and emotional sensations
+  example_audio: simera-niotho-poly-k-d34bef.mp3
+  example2_el: Δεν νιώθω καλά σήμερα, ζαλίζομαι.
+  example2_en: I don't feel well today, I am dizzy.
+  example2_audio: den-niotho-kala-sime-b88e9f.mp3
 - id: A1-U12-039
   greek: βοήθεια!
   phonetic_hint: ''
@@ -609,6 +761,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (exclamation / emergency formula)
   keg_communicative_function: Shouting for assistance in critical situations
+  example_audio: voitheia-chreiazomai-422024.mp3
+  example2_el: Βοήθεια, παρακαλώ! Καλέστε έναν γιατρό!
+  example2_en: Help, please! Call a doctor!
+  example2_audio: voitheia-parakalo-ka-643417.mp3
 - id: A1-U12-040
   greek: χρειάζομαι γιατρό!
   phonetic_hint: ''
@@ -622,6 +778,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (emergency inquiry)
   keg_communicative_function: Summoning physician assistance urgently
+  example_audio: grigora-chreiazomai--20dd87.mp3
+  example2_el: Είναι επείγον, χρειάζομαι γιατρό αμέσως!
+  example2_en: It is urgent, I need a doctor immediately!
+  example2_audio: einai-epeigon-chreia-011b57.mp3
 - id: A1-U12-041
   greek: περαστικά!
   phonetic_hint: ''
@@ -636,6 +796,10 @@ entries:
   grammatical_info:
     part_of_speech: phrase (social wishing formula)
   keg_communicative_function: Wishing a swift recovery to sick friends or colleagues
+  example_audio: akoyo-oti-eisai-arro-65420f.mp3
+  example2_el: Εύχομαι γρήγορη ανάρρωση και περαστικά σου!
+  example2_en: I wish you a speedy recovery and get well soon!
+  example2_audio: eychomai-grigori-ana-128d87.mp3
 - id: A1-U12-042
   greek: η υγεία
   phonetic_hint: ''
@@ -652,3 +816,7 @@ entries:
     plural: οι υγείες
     accusative_singular: την υγεία
   keg_communicative_function: Wishing good health, making toasts, and general wellness
+  example_audio: stin-ygeia-mas-i-yge-309dd5.mp3
+  example2_el: Η σωστή διατροφή είναι απαραίτητη για την υγεία.
+  example2_en: Proper nutrition is essential for health.
+  example2_audio: i-sosti-diatrofi-ein-a45fd9.mp3

@@ -259,3 +259,87 @@ export function extractUnitContext(title: string, _order?: string | number): str
 
   return title;
 }
+
+export interface GroupAccentStyles {
+  borderLeft: string;
+  borderLeftHover: string;
+  pillBg: string;
+  badgeBg: string;
+  badgeIconColor: string;
+  dotColor: string;
+  hoverGlow: string;
+  titleHover: string;
+}
+
+/**
+ * Returns consistent, distinctive accent colors for each curriculum group
+ * to visually distinguish lesson cards across groups without interfering with mastery colors.
+ */
+export function getGroupAccentStyles(group: string): GroupAccentStyles {
+  const norm = group.trim().toLowerCase().replace(/[-_]/g, '');
+
+  if (norm.startsWith('klika1') || norm === 'klik1') {
+    return {
+      borderLeft: 'border-l-indigo-500',
+      borderLeftHover: 'hover:border-l-indigo-400',
+      pillBg: 'bg-indigo-500/15 text-indigo-300 border-indigo-500/30',
+      badgeBg: 'bg-indigo-950/70 text-indigo-300 border-indigo-700/50',
+      badgeIconColor: 'text-indigo-400',
+      dotColor: 'bg-indigo-400',
+      hoverGlow: 'hover:shadow-indigo-500/10',
+      titleHover: 'group-hover:text-indigo-300',
+    };
+  }
+
+  if (norm.startsWith('klika2') || norm === 'klik2') {
+    return {
+      borderLeft: 'border-l-purple-500',
+      borderLeftHover: 'hover:border-l-purple-400',
+      pillBg: 'bg-purple-500/15 text-purple-300 border-purple-500/30',
+      badgeBg: 'bg-purple-950/70 text-purple-300 border-purple-700/50',
+      badgeIconColor: 'text-purple-400',
+      dotColor: 'bg-purple-400',
+      hoverGlow: 'hover:shadow-purple-500/10',
+      titleHover: 'group-hover:text-purple-300',
+    };
+  }
+
+  if (norm.startsWith('klikb') || norm.startsWith('klik1b')) {
+    return {
+      borderLeft: 'border-l-violet-500',
+      borderLeftHover: 'hover:border-l-violet-400',
+      pillBg: 'bg-violet-500/15 text-violet-300 border-violet-500/30',
+      badgeBg: 'bg-violet-950/70 text-violet-300 border-violet-700/50',
+      badgeIconColor: 'text-violet-400',
+      dotColor: 'bg-violet-400',
+      hoverGlow: 'hover:shadow-violet-500/10',
+      titleHover: 'group-hover:text-violet-300',
+    };
+  }
+
+  if (norm.startsWith('oga2')) {
+    return {
+      borderLeft: 'border-l-cyan-500',
+      borderLeftHover: 'hover:border-l-cyan-400',
+      pillBg: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30',
+      badgeBg: 'bg-cyan-950/70 text-cyan-300 border-cyan-700/50',
+      badgeIconColor: 'text-cyan-400',
+      dotColor: 'bg-cyan-400',
+      hoverGlow: 'hover:shadow-cyan-500/10',
+      titleHover: 'group-hover:text-cyan-300',
+    };
+  }
+
+  // Default / OG-A1 (Original Curriculum)
+  return {
+    borderLeft: 'border-l-sky-500',
+    borderLeftHover: 'hover:border-l-sky-400',
+    pillBg: 'bg-sky-500/15 text-sky-400 border-sky-500/30',
+    badgeBg: 'bg-sky-950/70 text-sky-300 border-sky-700/50',
+    badgeIconColor: 'text-sky-400',
+    dotColor: 'bg-sky-400',
+    hoverGlow: 'hover:shadow-sky-500/10',
+    titleHover: 'group-hover:text-sky-300',
+  };
+}
+
