@@ -1,0 +1,910 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 106 C from Klik A1 (Pages 25-134):
+Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)
+Focuses on conversational dialogues, oral exam tasks, role-plays, and
+communicative question-answer pairs using exclusively vocabulary from Lessons 101 to 106.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-106c"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u106c = [
+    # =========================================================================
+    # Part 1: Identity, Greetings & Personal Information (Cards 001 - 008)
+    # =========================================================================
+    {
+        "id": "A1-U106C-001",
+        "greek": "— Γεια σας! Πώς σας λένε; — Με λένε Νίκο, χαίρω πολύ.",
+        "phonetic_hint": "YAH sahs! POS sahs LEH-neh? — Meh LEH-neh NEE-ko, CHEH-ro po-LEE.",
+        "english": "— Hello! What is your name? — My name is Nikos, pleased to meet you.",
+        "notes": "Review Units 101-102. CEFR A1 Oral Exam Task 1: Formal introduction using polite 2nd plural 'σας' and introduction formula 'με λένε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Καλημέρα σας, πώς σας λένε; — Με λένε Νίκο. — Χαίρω πολύ, Νίκο!",
+        "example_en": "— Good morning, what is your name? — My name is Nikos. — Pleased to meet you, Nikos!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Introducing oneself and exchanging names in formal or exam situations"
+    },
+    {
+        "id": "A1-U106C-002",
+        "greek": "— Γεια σου, Ελένη! Τι κάνεις; — Είμαι πολύ καλά, ευχαριστώ. Εσύ;",
+        "phonetic_hint": "YAH soo, eh-LEH-nee! Tee KAH-nees? — EE-meh po-LEE kah-LAH, ef-khah-ree-STOH. Eh-SEE?",
+        "english": "— Hi, Eleni! How are you? — I am very well, thank you. And you?",
+        "notes": "Review Unit 102. Informal greeting and wellbeing inquiry between friends or colleagues.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γεια σου, Ελένη! Πώς είσαι; — Μια χαρά! Εσύ τι κάνεις; — Κι εγώ καλά.",
+        "example_en": "— Hi, Eleni! How are you? — Great! What are you doing? — I'm good too.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Greeting friends and inquiring about health and wellbeing"
+    },
+    {
+        "id": "A1-U106C-003",
+        "greek": "— Από πού είστε; — Είμαι από την Ιταλία, είμαι Ιταλός.",
+        "phonetic_hint": "ah-POH poo EE-steh? — EE-meh ah-POH teen ee-tah-LEE-ah, EE-meh ee-tah-LOHS.",
+        "english": "— Where are you from? — I am from Italy, I am Italian.",
+        "notes": "Review Units 102 & 104. Inquiring about national origin and stating nationality with masculine noun/adjective 'Ιταλός'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Από ποια χώρα είστε; — Είμαι από την Ιταλία, από τη Ρώμη.",
+        "example_en": "— Which country are you from? — I am from Italy, from Rome.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about and stating country of origin and nationality"
+    },
+    {
+        "id": "A1-U106C-004",
+        "greek": "— Μιλάτε ελληνικά; — Ναι, μιλάω λίγα ελληνικά και αγγλικά.",
+        "phonetic_hint": "mee-LAH-teh eh-lee-nee-KAH? — Neh, mee-LAH-o LEE-ghah eh-lee-nee-KAH keh ahng-glee-KAH.",
+        "english": "— Do you speak Greek? — Yes, I speak a little Greek and English.",
+        "notes": "Review Unit 104. Stating language abilities with Type B1 verb 'μιλάω' and neuter plural language adverbs.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιες γλώσσες μιλάς; — Μιλάω πολύ καλά αγγλικά και λίγα ελληνικά.",
+        "example_en": "— Which languages do you speak? — I speak English very well and a little Greek.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Communicating foreign language proficiency in an interview"
+    },
+    {
+        "id": "A1-U106C-005",
+        "greek": "— Ποιο είναι το τηλέφωνό σου; — Το τηλέφωνό μου είναι δύο ένα μηδέν.",
+        "phonetic_hint": "PYO EE-neh to tee-LEH-fo-NOH soo? — To tee-LEH-fo-NOH moo EE-neh THEE-o EH-nah mee-THEN.",
+        "english": "— What is your phone number? — My phone number is two one zero.",
+        "notes": "Review Unit 103. Exchanging telephone digits for administrative contacts and registration.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχεις κινητό; — Ναι, το τηλέφωνό μου είναι έξι εννέα επτά.",
+        "example_en": "— Do you have a mobile? — Yes, my phone number is six nine seven.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Exchanging telephone contact details during administrative registration"
+    },
+    {
+        "id": "A1-U106C-006",
+        "greek": "— Πού μένεις; — Μένω στην Αθήνα, στην οδό Ερμού δέκα.",
+        "phonetic_hint": "poo MEH-nees? — MEH-no steen ah-THEE-nah, steen o-THOH ehr-MOO THEH-kah.",
+        "english": "— Where do you live? — I live in Athens, at ten Ermou Street.",
+        "notes": "Review Unit 103. Expressing residential domicile with merged preposition 'στην' and street number.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποια είναι η διεύθυνσή σου; — Μένω στην Αθήνα, κοντά στο κέντρο.",
+        "example_en": "— What is your address? — I live in Athens, near the city center.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating home address and city residence in an interview"
+    },
+    {
+        "id": "A1-U106C-007",
+        "greek": "— Πόσο χρονών είναι ο αδελφός σου; — Είναι τριάντα χρονών.",
+        "phonetic_hint": "POH-so khro-NOHN EE-neh o ah-thel-FOHS soo? — EE-neh tree-AHN-dah khro-NOHN.",
+        "english": "— How old is your brother? — He is thirty years old.",
+        "notes": "Review Units 103-104. Inquiring about and expressing age using 'πόσο χρονών' and cardinal numbers.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο χρονών είναι η κόρη σου; — Η κόρη μου είναι πέντε χρονών.",
+        "example_en": "— How old is your daughter? — My daughter is five years old.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking and stating age in personal profile interviews"
+    },
+    {
+        "id": "A1-U106C-008",
+        "greek": "— Είσαι παντρεμένος ή ελεύθερος; — Είμαι ελεύθερος.",
+        "phonetic_hint": "EE-seh pan-dre-MEH-nos ee eh-LEF-the-ros? — EE-meh eh-LEF-the-ros.",
+        "english": "— Are you married or single? — I am single.",
+        "notes": "Review Unit 104. Marital status contrast using adjectives 'παντρεμένος' / 'ελεύθερος'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Η Μαρία είναι παντρεμένη; — Όχι, είναι ελεύθερη.",
+        "example_en": "— Is Maria married? — No, she is single.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Providing marital status in oral exams or registration forms"
+    },
+
+    # =========================================================================
+    # Part 2: Professions, Studies & Family Relations (Cards 009 - 016)
+    # =========================================================================
+    {
+        "id": "A1-U106C-009",
+        "greek": "— Τι δουλειά κάνεις; — Είμαι γιατρός και δουλεύω σε νοσοκομείο.",
+        "phonetic_hint": "tee thoo-lee-AH KAH-nees? — EE-meh yah-TROHS keh thoo-LEH-vo seh no-so-ko-MEE-o.",
+        "english": "— What do you do for a living? — I am a doctor and work in a hospital.",
+        "notes": "Review Units 103-104. Stating occupation and workplace using 'δουλεύω σε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι δουλειά κάνει η μητέρα σου; — Είναι καθηγήτρια σε σχολείο.",
+        "example_en": "— What does your mother do for a living? — She is a teacher in a school.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing occupation, job title, and place of employment"
+    },
+    {
+        "id": "A1-U106C-010",
+        "greek": "— Τι σπουδάζεις στο πανεπιστήμιο; — Σπουδάζω ιατρική στη Θεσσαλονίκη.",
+        "phonetic_hint": "tee spoo-THAH-zees sto pah-neh-pee-STEE-mee-o? — Spoo-THAH-zo ee-ah-tree-KEE stee the-sah-lo-NEE-kee.",
+        "english": "— What do you study at university? — I study medicine in Thessaloniki.",
+        "notes": "Review Unit 103. Discussing university studies and academic majors.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σπουδάζεις στην Ελλάδα; — Ναι, σπουδάζω νομική στο πανεπιστήμιο.",
+        "example_en": "— Do you study in Greece? — Yes, I study law at the university.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Talking about higher education, fields of study, and student life"
+    },
+    {
+        "id": "A1-U106C-011",
+        "greek": "— Έχεις αδέλφια; — Ναι, έχω έναν αδελφό και μία αδελφή.",
+        "phonetic_hint": "EH-khees ah-THEL-fyah? — Neh, EH-kho EH-nahn ah-thel-FOH keh MEE-ah ah-thel-FEE.",
+        "english": "— Do you have siblings? — Yes, I have a brother and a sister.",
+        "notes": "Review Unit 104. Expressing sibling relationships with accusative numbers 'έναν', 'μία'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έχεις αδέρφια; — Όχι, δεν έχω αδέρφια, είμαι μόνος μου.",
+        "example_en": "— Do you have siblings? — No, I don't have siblings, I am an only child.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing family composition and sibling relationships"
+    },
+    {
+        "id": "A1-U106C-012",
+        "greek": "— Έχεις παιδιά; — Ναι, έχουμε δύο παιδιά, έναν γιο και μία κόρη.",
+        "phonetic_hint": "EH-khees peh-THYAH? — Neh, EH-khoo-meh THEE-o peh-THYAH, EH-nahn YOH keh MEE-ah KOH-ree.",
+        "english": "— Do you have children? — Yes, we have two children, a son and a daughter.",
+        "notes": "Review Unit 104. Inquiring about children and immediate family composition.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσα παιδιά έχεις; — Έχω ένα μικρό παιδί, μία κόρη.",
+        "example_en": "— How many children do you have? — I have a young child, a daughter.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing immediate family members and children"
+    },
+    {
+        "id": "A1-U106C-013",
+        "greek": "— Πού μένουν οι γονείς σου; — Οι γονείς μου μένουν στο χωριό.",
+        "phonetic_hint": "poo MEH-noon ee gho-NEES soo? — Ee gho-NEES moo MEH-noon sto kho-RYOH.",
+        "english": "— Where do your parents live? — My parents live in the village.",
+        "notes": "Review Units 103-104. Describing parents' residence in contrast between village and city.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μένεις με τους γονείς σου; — Όχι, μένω μόνος μου στην πόλη.",
+        "example_en": "— Do you live with your parents? — No, I live alone in the city.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining family domicile and living arrangements"
+    },
+    {
+        "id": "A1-U106C-014",
+        "greek": "— Πού είναι ο παππούς και η γιαγιά σου; — Μένουν στην Κρήτη.",
+        "phonetic_hint": "poo EE-neh o pah-POOS keh ee yah-YAH soo? — MEH-noon steen KREE-tee.",
+        "english": "— Where are your grandfather and grandmother? — They live in Crete.",
+        "notes": "Review Unit 104. Talking about grandparents and regional origins across Greek islands.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ζει ο παππούς σου; — Ναι, ο παππούς μου είναι μεγάλος αλλά καλά.",
+        "example_en": "— Is your grandfather alive? — Yes, my grandfather is old but well.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Talking about extended family and older generations"
+    },
+    {
+        "id": "A1-U106C-015",
+        "greek": "— Πώς είναι ο φίλος σου; — Είναι ψηλός, αδύνατος και αθλητικός.",
+        "phonetic_hint": "POS EE-neh o FEE-los soo? — EE-neh psee-LOHS, ah-THEE-nah-tos keh ah-thlee-tee-KOHS.",
+        "english": "— What is your friend like? — He is tall, slim, and athletic.",
+        "notes": "Review Unit 104. Physical description using masculine adjectives in -ος.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι ψηλός ο αδερφός σου; — Ναι, είναι πολύ ψηλός και νέος.",
+        "example_en": "— Is your brother tall? — Yes, he is very tall and young.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing physical appearance and build of a person"
+    },
+    {
+        "id": "A1-U106C-016",
+        "greek": "— Πώς είναι η αδελφή σου; — Είναι όμορφη κοπέλα με γαλανά μάτια.",
+        "phonetic_hint": "POS EE-neh ee ah-thel-FEE soo? — EE-neh OH-mor-fee ko-PEH-lah meh ghah-lah-NAH MAH-tyah.",
+        "english": "— What is your sister like? — She is a beautiful young woman with blue eyes.",
+        "notes": "Review Unit 104. Physical description of facial features, eye color, and feminine adjectives.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Η αδελφή σου είναι ψηλή; — Ναι, είναι ψηλή, αδύνατη και ξανθιά.",
+        "example_en": "— Is your sister tall? — Yes, she is tall, slim, and blonde.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing face, hair, and eye features in descriptive exam tasks"
+    },
+
+    # =========================================================================
+    # Part 3: City Navigation, Addresses, Housing & Directions (Cards 017 - 024)
+    # =========================================================================
+    {
+        "id": "A1-U106C-017",
+        "greek": "— Συγγνώμη, πού είναι ο σταθμός του μετρό; — Είναι στην επόμενη γωνία, δίπλα στην πλατεία.",
+        "phonetic_hint": "seeg-NOH-mee, poo EE-neh o stahth-MOHS too meh-TROH? — EE-neh steen eh-POH-meh-nee gho-NEE-ah, THEEP-lah steen plah-TEE-ah.",
+        "english": "— Excuse me, where is the metro station? — It is on the next corner, next to the square.",
+        "notes": "Review Units 103 & 106. Asking for directions politely with filler 'συγγνώμη' and locative prepositions.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Συγγνώμη, μήπως ξέρετε πού είναι το μετρό; — Ναι, είναι απέναντι από την πλατεία.",
+        "example_en": "— Excuse me, do you happen to know where the metro is? — Yes, it is across from the square.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking for and giving street directions in the city"
+    },
+    {
+        "id": "A1-U106C-018",
+        "greek": "— Μήπως ξέρεις πού είναι το φαρμακείο; — Ναι, είναι δίπλα στην τράπεζα.",
+        "phonetic_hint": "MEE-pos KSEH-rees poo EE-neh to fahr-mah-KEE-o? — Neh, EE-neh THEEP-lah steen TRAH-peh-zah.",
+        "english": "— Do you happen to know where the pharmacy is? — Yes, it is next to the bank.",
+        "notes": "Review Unit 103. Polite query with filler particle 'μήπως' + 'ξέρεις'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Υπάρχει φαρμακείο εδώ κοντά; — Ναι, είναι ακριβώς απέναντι από το σούπερ μάρκετ.",
+        "example_en": "— Is there a pharmacy nearby? — Yes, it is right across from the supermarket.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about essential services in an urban neighborhood"
+    },
+    {
+        "id": "A1-U106C-019",
+        "greek": "— Είναι μακριά το λιμάνι; — Όχι, είναι πολύ κοντά, πας με τα πόδια.",
+        "phonetic_hint": "EE-neh mah-kree-AH to lee-MAH-nee? — OH-khee, EE-neh po-LEE kon-DAH, pahs meh tah POH-thyah.",
+        "english": "— Is the port far? — No, it is very close, you go on foot.",
+        "notes": "Review Units 103 & 106. Spatial antonyms 'μακριά' vs 'κοντά' and transit idiom 'με τα πόδια'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο μακριά είναι το κέντρο; — Δεν είναι μακριά, είναι δέκα λεπτά με τα πόδια.",
+        "example_en": "— How far is the center? — It isn't far, it is ten minutes on foot.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Evaluating distances and walking times to transit hubs"
+    },
+    {
+        "id": "A1-U106C-020",
+        "greek": "— Μένεις στον δεύτερο όροφο; — Ναι, μένω στον δεύτερο όροφο της πολυκατοικίας.",
+        "phonetic_hint": "MEH-nees ston THEHF-teh-ro OH-ro-fo? — Neh, MEH-no ston THEHF-teh-ro OH-ro-fo tees po-lee-kah-tee-KEE-ahs.",
+        "english": "— Do you live on the second floor? — Yes, I live on the second floor of the apartment building.",
+        "notes": "Review Unit 103. Masculine accusative ordinal numbers 'στον δεύτερο όροφο'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Το γραφείο του είναι στον πρώτο όροφο; — Όχι, είναι στον τρίτο όροφο.",
+        "example_en": "— Is his office on the first floor? — No, it is on the third floor.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Specifying apartment floor numbers in residential buildings"
+    },
+    {
+        "id": "A1-U106C-021",
+        "greek": "— Πώς είναι το καινούριο σου διαμέρισμα; — Είναι μεγάλο, φωτεινό και άνετο.",
+        "phonetic_hint": "POS EE-neh to keh-NOO-ryo soo thee-ah-MEH-ree-zmah? — EE-neh meh-GHAH-lo, fo-tee-NOH keh AH-neh-to.",
+        "english": "— What is your new apartment like? — It is large, bright, and comfortable.",
+        "notes": "Review Units 103-104. Neuter descriptive adjectives agreeing with 'το διαμέρισμα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είναι ήσυχο το σπίτι σου; — Ναι, είναι πολύ ήσυχο και καθαρό.",
+        "example_en": "— Is your house quiet? — Yes, it is very quiet and clean.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing accommodation features and living conditions"
+    },
+    {
+        "id": "A1-U106C-022",
+        "greek": "— Μένεις μόνος σου ή έχεις συγκάτοικο; — Μένω με έναν φίλο μου.",
+        "phonetic_hint": "MEH-nees MOH-nos soo ee EH-khees seen-GAH-tee-ko? — MEH-no meh EH-nahn FEE-lo moo.",
+        "english": "— Do you live alone or do you have a roommate? — I live with a friend of mine.",
+        "notes": "Review Unit 103. Describing flat-sharing arrangements and roommates.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μένεις μόνος σου; — Όχι, μένω με την οικογένειά μου.",
+        "example_en": "— Do you live alone? — No, I live with my family.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining flat-sharing and domestic arrangements"
+    },
+    {
+        "id": "A1-U106C-023",
+        "greek": "— Πού είναι το ταχυδρομείο; — Είναι ανάμεσα στο νοσοκομείο και στην εκκλησία.",
+        "phonetic_hint": "poo EE-neh to tah-khee-thro-MEE-o? — EE-neh ah-NAH-meh-sah sto no-so-ko-MEE-o keh steen eh-klee-SEE-ah.",
+        "english": "— Where is the post office? — It is between the hospital and the church.",
+        "notes": "Review Unit 103. Spatial preposition 'ανάμεσα σε ... και σε ...'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού βρίσκεται η βιβλιοθήκη; — Είναι ανάμεσα στην καφετέρια και στο φαρμακείο.",
+        "example_en": "— Where is the library located? — It is between the cafe and the pharmacy.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Locating public institutions relative to neighborhood landmarks"
+    },
+    {
+        "id": "A1-U106C-024",
+        "greek": "— Ποιος είναι ο ταχυδρομικός κώδικας της περιοχής; — Είναι 546 22.",
+        "phonetic_hint": "PYOS EE-neh o tah-khee-thro-mee-KOHS KOH-thee-kahs tees peh-ree-o-KHEES? — EE-neh 546 22.",
+        "english": "— What is the postal code of the area? — It is 546 22.",
+        "notes": "Review Unit 103. Institutional inquiry about postal codes in official forms.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Συμπληρώνω τον ταχυδρομικό κώδικα στην αίτηση; — Ναι, είναι 105 57.",
+        "example_en": "— Do I fill in the postal code on the application? — Yes, it is 105 57.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Providing postal information for official forms and letters"
+    },
+
+    # =========================================================================
+    # Part 4: Daily Routine, Time & Free Time Activities (Cards 025 - 032)
+    # =========================================================================
+    {
+        "id": "A1-U106C-025",
+        "greek": "— Συγγνώμη, τι ώρα είναι; — Είναι οκτώ και μισή.",
+        "phonetic_hint": "seeg-NOH-mee, tee OH-rah EE-neh? — EE-neh ok-TOH keh mee-SEE.",
+        "english": "— Excuse me, what time is it? — It is half past eight.",
+        "notes": "Review Unit 105. Telling the time on the half-hour with 'και μισή'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι ώρα είναι τώρα; — Είναι εννέα παρά τέταρτο.",
+        "example_en": "— What time is it now? — It is a quarter to nine.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking and telling the exact time of day"
+    },
+    {
+        "id": "A1-U106C-026",
+        "greek": "— Τι ώρα ξυπνάει ο πατέρας σου; — Ξυπνάει στις επτά το πρωί και πίνει καφέ.",
+        "phonetic_hint": "tee OH-rah kseep-NAH-ee o pah-TEH-rahs soo? — Kseep-NAH-ee stees ehp-TAH to pro-EE keh PEE-nee kah-FEH.",
+        "english": "— What time does your father wake up? — He wakes up at seven in the morning and drinks coffee.",
+        "notes": "Review Unit 105. Daily morning sequence with 'ξυπνάει' and 'πίνει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ξυπνάω νωρίς κάθε μέρα, πλένομαι και πίνω έναν ζεστό καφέ.",
+        "example_en": "— I wake up early every day, wash myself, and drink a hot coffee.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Narrating daily morning sequence and personal hygiene"
+    },
+    {
+        "id": "A1-U106C-027",
+        "greek": "— Τι τρως για πρωινό; — Τρώω ψωμί με μέλι και πίνω ζεστό τσάι.",
+        "phonetic_hint": "tee TROHS yah pro-ee-NOH? — TROH-o pso-MEE meh MEH-lee keh PEE-no zeh-STOH TSAH-ee.",
+        "english": "— What do you eat for breakfast? — I eat bread with honey and drink hot tea.",
+        "notes": "Review Unit 105. Dietary vocabulary and breakfast habits with irregular verb 'τρώω'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πίνετε καφέ το πρωί; — Ναι, πίνω πάντα έναν ζεστό καφέ.",
+        "example_en": "— Do you drink coffee in the morning? — Yes, I always drink a hot coffee.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing eating habits and dietary choices in the morning"
+    },
+    {
+        "id": "A1-U106C-028",
+        "greek": "— Πώς πας στη δουλειά σου; — Πηγαίνω πάντα με το μετρό στις οκτώ.",
+        "phonetic_hint": "pos pahs stee thoo-lee-AH soo? — Pee-GHEH-no PAHN-dah meh to meh-TROH stees ok-TOH.",
+        "english": "— How do you go to your work? — I always go by metro at eight.",
+        "notes": "Review Units 105 & 106. Describing commute modes with frequency adverb 'πάντα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Παίρνεις το λεωφορείο για τη σχολή; — Ναι, φεύγω στις οκτώ και μισή.",
+        "example_en": "— Do you take the bus to university? — Yes, I leave at eight-thirty.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining transportation mode and departure times for work"
+    },
+    {
+        "id": "A1-U106C-029",
+        "greek": "— Τι ώρα αρχίζει το μάθημα; — Αρχίζει στις εννέα και τελειώνει στις δύο.",
+        "phonetic_hint": "tee OH-rah ahr-KHEE-zee to MAH-thee-mah? — Ahr-KHEE-zee stees eh-NEH-ah keh teh-lee-OH-nee stees THEE-o.",
+        "english": "— What time does the lesson start? — It starts at nine and ends at two.",
+        "notes": "Review Unit 105. Specifying class timetables with verbs 'αρχίζει' and 'τελειώνει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε ανοίγει η τράπεζα; — Ανοίγει στις οκτώ το πρωί και κλείνει στις δύο το μεσημέρι.",
+        "example_en": "— When does the bank open? — It opens at eight in the morning and closes at two in the afternoon.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Specifying scheduled beginning and ending times of educational activities"
+    },
+    {
+        "id": "A1-U106C-030",
+        "greek": "— Τι κάνεις στον ελεύθερο χρόνο σου; — Μου αρέσει να διαβάζω βιβλία και να ακούω μουσική.",
+        "phonetic_hint": "tee KAH-nees ston eh-LEF-the-ro KHROH-no soo? — Moo ah-REH-see nah thee-ah-VAH-zo veev-LEE-ah keh nah ah-KOO-o moo-see-KEE.",
+        "english": "— What do you do in your free time? — I like reading books and listening to music.",
+        "notes": "Review Unit 105. Hobbies and preferences with 'μου αρέσει να' + present subjunctive.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σου αρέσει να κάνεις τα απογεύματα; — Μου αρέσει να κάνω βόλτες στην πόλη.",
+        "example_en": "— What do you like doing in the afternoons? — I like taking walks in the city.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Talking about hobbies, leisure interests, and pastimes"
+    },
+    {
+        "id": "A1-U106C-031",
+        "greek": "— Παίζει ποδόσφαιρο ο αδερφός σου; — Ναι, παίζει ποδόσφαιρο κάθε Σάββατο.",
+        "phonetic_hint": "PEH-zee po-THOH-sfeh-ro o ah-ther-FOHS soo? — Neh, PEH-zee po-THOH-sfeh-ro KAH-theh SAH-vah-to.",
+        "english": "— Does your brother play soccer? — Yes, he plays soccer every Saturday.",
+        "notes": "Review Unit 105. Sports and weekly frequency with days of the week ('κάθε Σάββατο').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Παίζουν τα παιδιά στο πάρκο; — Ναι, παίζουν ποδόσφαιρο με τους φίλους τους.",
+        "example_en": "— Are the children playing in the park? — Yes, they are playing soccer with their friends.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing sporting habits and weekly recreation schedules"
+    },
+    {
+        "id": "A1-U106C-032",
+        "greek": "— Τι ώρα κοιμάσαι συνήθως το βράδυ; — Κοιμάμαι στις έντεκα το βράδυ.",
+        "phonetic_hint": "tee OH-rah kee-MAH-seh see-NEE-thos to VRAH-thee? — Kee-MAH-meh stees EHN-deh-kah to VRAH-thee.",
+        "english": "— What time do you usually go to sleep at night? — I sleep at eleven at night.",
+        "notes": "Review Unit 105. Nocturnal routine with mediopassive verb 'κοιμάμαι' and adverb 'συνήθως'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ο πατέρας κοιμάται νωρίς; — Ναι, κοιμάται στις δέκα γιατί ξυπνάει νωρίς.",
+        "example_en": "— Does father go to sleep early? — Yes, he sleeps at ten because he wakes up early.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing evening wind-down and nocturnal sleep schedules"
+    },
+
+    # =========================================================================
+    # Part 5: Cafe, Dining & Food Preferences (Cards 033 - 038)
+    # =========================================================================
+    {
+        "id": "A1-U106C-033",
+        "greek": "— Τι πίνετε; — Πίνω έναν ελληνικό καφέ και ένα μπουκάλι νερό.",
+        "phonetic_hint": "tee PEE-neh-teh? — PEE-no EH-nahn eh-lee-nee-KOH kah-FEH keh EH-nah boo-KAH-lee neh-ROH.",
+        "english": "— What are you drinking? — I am drinking a Greek coffee and a bottle of water.",
+        "notes": "Review Units 101 & 103. Ordering traditional coffee and bottled water at a cafeteria.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι πίνετε στην καφετέρια; — Πίνουμε έναν ελληνικό καφέ και ένα παγωμένο τσάι.",
+        "example_en": "— What do you drink at the cafe? — We drink a Greek coffee and an iced tea.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Ordering beverages and specifying drink choices in a cafe"
+    },
+    {
+        "id": "A1-U106C-034",
+        "greek": "— Έρχεσαι μαζί μας στην ταβέρνα; — Ναι! Τι θέλεις να φάμε; — Θέλω να φάμε ψάρι και σαλάτα.",
+        "phonetic_hint": "EHR-kheh-seh mah-ZEE mahs steen tah-VEHR-nah? — Neh! Tee THEH-lees nah FAH-meh? — THEH-lo nah FAH-meh PSAH-ree keh sah-LAH-tah.",
+        "english": "— Are you coming with us to the tavern? — Yes! What do you want us to eat? — I want us to eat fish and salad.",
+        "notes": "Review Units 105 & 106. Tavern invitation and meal choice with 'θέλω να φάμε'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι τρώμε στην ταβέρνα; — Τρώμε ψάρι, σαλάτα και πίνουμε κρασί.",
+        "example_en": "— What are we eating at the tavern? — We are eating fish, salad, and drinking wine.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Planning meals and ordering food dishes at a tavern"
+    },
+    {
+        "id": "A1-U106C-035",
+        "greek": "— Πόσο κάνει το φαγητό στην ταβέρνα; — Κάνει είκοσι ευρώ.",
+        "phonetic_hint": "POH-so KAH-nee to fah-yee-TOH steen tah-VEHR-nah? — KAH-nee EE-ko-see ev-ROH.",
+        "english": "— How much is the food at the tavern? — It is twenty euros.",
+        "notes": "Review Units 103 & 106. Asking total price with 'πόσο κάνει' and euro amounts.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνει το τσάι και το νερό; — Κάνει τρία ευρώ.",
+        "example_en": "— How much is the tea and the water? — It is three euros.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about total bill and food prices at dining establishments"
+    },
+    {
+        "id": "A1-U106C-036",
+        "greek": "— Είναι ακριβό το ξενοδοχείο; — Όχι, είναι πολύ οικονομικό, κοστίζει σαράντα ευρώ.",
+        "phonetic_hint": "EE-neh ah-kree-VOH to kseh-no-tho-KHEE-o? — OH-khee, EE-neh po-LEE ee-ko-no-mee-KOH, ko-STEE-zee sah-RAHN-dah ev-ROH.",
+        "english": "— Is the hotel expensive? — No, it is very economical, it costs forty euros.",
+        "notes": "Review Unit 106. Price comparison using adjectives 'ακριβό' vs 'οικονομικό' and verb 'κοστίζει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού βρίσκεται το οικονομικό ξενοδοχείο; — Βρίσκεται κοντά στον σταθμό.",
+        "example_en": "— Where is the economical hotel located? — It is located near the station.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Assessing hotel room affordability and budget travel options"
+    },
+    {
+        "id": "A1-U106C-037",
+        "greek": "— Πάμε για καφέ το απόγευμα; — Ωραία ιδέα! Πού θέλεις να πάμε;",
+        "phonetic_hint": "PAH-meh yah kah-FEH to ah-POH-yev-mah? — o-REH-ah ee-THEH-ah! poo THEH-lees nah PAH-meh?",
+        "english": "— Shall we go for coffee this afternoon? — Great idea! Where do you want us to go?",
+        "notes": "Review Units 105 & 106. Proposing an informal outing with colloquial acceptance 'ωραία ιδέα'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έρχεσαι μαζί μας στην πλατεία; — Ναι, βέβαια, τα λέμε στην πλατεία!",
+        "example_en": "— Are you coming with us to the square? — Yes, of course, see you at the square!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inviting peers and agreeing on meeting places"
+    },
+    {
+        "id": "A1-U106C-038",
+        "greek": "— Σου αρέσει το ελληνικό φαγητό; — Ναι, μου αρέσει πάρα πολύ το ψάρι.",
+        "phonetic_hint": "soo ah-REH-see to eh-lee-nee-KOH fah-yee-TOH? — Neh, moo ah-REH-see PAH-rah po-LEE to PSAH-ree.",
+        "english": "— Do you like Greek food? — Yes, I really like fish.",
+        "notes": "Review Unit 105. Expressing culinary taste with indirect pronoun 'μου αρέσει'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σου αρέσει να τρως; — Μου αρέσουν οι σαλάτες και τα φρούτα.",
+        "example_en": "— What do you like to eat? — I like salads and fruits.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing food likes, dislikes, and culinary preferences"
+    },
+
+    # =========================================================================
+    # Part 6: Travel Planning, Transportation & Hotel Booking (Cards 039 - 046)
+    # =========================================================================
+    {
+        "id": "A1-U106C-039",
+        "greek": "— Πού θέλεις να πας διακοπές; — Θέλω να πάω ένα ταξίδι στην Κρήτη το καλοκαίρι.",
+        "phonetic_hint": "poo THEH-lees nah pahs thee-ah-ko-PEHS? — THEH-lo nah PAH-o EH-nah tahk-SEE-thee steen KREE-tee to kah-lo-KEH-ree.",
+        "english": "— Where do you want to go on vacation? — I want to go on a trip to Crete in the summer.",
+        "notes": "Review Unit 106. Expressing vacation plans with modal 'θέλω να πάω' and season 'το καλοκαίρι'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σχέδια έχεις για το καλοκαίρι; — Λέμε να ταξιδέψουμε στην Ελλάδα με το πλοίο.",
+        "example_en": "— What plans do you have for the summer? — We are thinking of travelling to Greece by ferry.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing vacation wishes and holiday destinations"
+    },
+    {
+        "id": "A1-U106C-040",
+        "greek": "— Θέλω να αγοράσω ένα εισιτήριο για τη Θεσσαλονίκη. — Με επιστροφή; — Ναι, με επιστροφή, παρακαλώ.",
+        "phonetic_hint": "THEH-lo nah ah-go-RAH-so EH-nah ee-see-TEE-ree-o yah tee the-sah-lo-NEE-kee. — Meh eh-pee-stro-FEE? — Neh, meh eh-pee-stro-FEE, pah-rah-kah-LOH.",
+        "english": "— I want to buy a ticket to Thessaloniki. — Return? — Yes, return, please.",
+        "notes": "Review Unit 106. Ticket counter dialogue specifying return tickets ('με επιστροφή').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσα εισιτήρια θέλεις; — Θέλω δύο εισιτήρια για το τρένο.",
+        "example_en": "— How many tickets do you want? — I want two tickets for the train.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Purchasing transit tickets at a ticket office or window"
+    },
+    {
+        "id": "A1-U106C-041",
+        "greek": "— Πόσο κάνει το εισιτήριο με επιστροφή; — Κάνει σαράντα πέντε ευρώ.",
+        "phonetic_hint": "POH-so KAH-nee to ee-see-TEE-ree-o meh eh-pee-stro-FEE? — KAH-nee sah-RAHN-dah PEN-deh ev-ROH.",
+        "english": "— How much does the return ticket cost? — It costs forty-five euros.",
+        "notes": "Review Unit 106. Inquiring about transit fares using 'πόσο κάνει' and compound numbers.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κάνουν δύο εισιτήρια; — Κάνουν εβδομήντα ευρώ.",
+        "example_en": "— How much are two tickets? — They cost seventy euros.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about and calculating travel costs"
+    },
+    {
+        "id": "A1-U106C-042",
+        "greek": "— Τι ώρα φεύγει το πλοίο για το νησί; — Φεύγει στις εννέα το πρωί από το λιμάνι.",
+        "phonetic_hint": "tee OH-rah FEHV-yee to PLEE-o yah to nee-SEE? — FEHV-yee stees eh-NEH-ah to pro-EE ah-POH to lee-MAH-nee.",
+        "english": "— What time does the ferry leave for the island? — It leaves at nine in the morning from the port.",
+        "notes": "Review Unit 106. Checking departure schedules for ferry boats from maritime ports.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε φεύγει το τρένο για την Αθήνα; — Φεύγει στις δέκα από τον σταθμό.",
+        "example_en": "— When does the train leave for Athens? — It leaves at ten from the station.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about departure schedules and port/station logistics"
+    },
+    {
+        "id": "A1-U106C-043",
+        "greek": "— Θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για τρεις νύχτες. — Βεβαίως, για ποιες μέρες;",
+        "phonetic_hint": "thah EE-theh-lah nah KLEE-so EH-nah THEEK-lee-no tho-MAH-tee-o yah trees NEEKH-tehs. — veh-VEH-os, yah PYEHS MEH-rehs?",
+        "english": "— I would like to book a double room for three nights. — Certainly, for which dates?",
+        "notes": "Review Unit 106. Polite hotel room reservation with 'θα ήθελα να κλείσω' and room typology.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλεις ένα μονόκλινο δωμάτιο; — Όχι, θέλω ένα δίκλινο δωμάτιο με πρωινό.",
+        "example_en": "— Do you want a single room? — No, I want a double room with breakfast.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Making lodging reservations and specifying stay duration"
+    },
+    {
+        "id": "A1-U106C-044",
+        "greek": "— Πόσο κοστίζει το δωμάτιο τη βραδιά; — Κοστίζει εβδομήντα ευρώ με πρωινό και θέα στη θάλασσα.",
+        "phonetic_hint": "POH-so ko-STEE-zee to tho-MAH-tee-o tee vrah-THYAH? — Ko-STEE-zee ehv-tho-MEEN-dah ev-ROH meh pro-ee-NOH keh THEH-ah stee THAH-lah-sah.",
+        "english": "— How much does the room cost per night? — It costs seventy euros with breakfast and sea view.",
+        "notes": "Review Unit 106. Accommodation pricing per night and hotel amenities ('θέα στη θάλασσα').",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Το ξενοδοχείο προσφέρει πρωινό; — Ναι, το πρωινό είναι δωρεάν.",
+        "example_en": "— Does the hotel offer breakfast? — Yes, breakfast is free.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Checking hotel room pricing, views, and included breakfast amenities"
+    },
+    {
+        "id": "A1-U106C-045",
+        "greek": "— Σε ποια στάση πρέπει να κατέβω για το αεροδρόμιο; — Στην τελευταία στάση του λεωφορείου.",
+        "phonetic_hint": "seh PYEH STAH-see PREH-pee nah kah-TEH-vo yah to ah-eh-ro-THROH-mee-o? — Steen teh-lef-TEH-ah STAH-see too leh-o-fo-REE-oo.",
+        "english": "— At which stop do I need to get off for the airport? — At the last stop of the bus.",
+        "notes": "Review Unit 106. Transit navigation using modal 'πρέπει να κατέβω' and feminine ordinal 'τελευταία'.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Με ποιο λεωφορείο πηγαίνω στον σταθμό; — Με το λεωφορείο δέκα.",
+        "example_en": "— Which bus do I take to the station? — With bus number ten.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Navigating urban bus routes and identifying correct destination stops"
+    },
+    {
+        "id": "A1-U106C-046",
+        "greek": "— Πρέπει να βάλουμε τα ρούχα στη βαλίτσα τώρα; — Ναι, πρέπει να φύγουμε νωρίς το πρωί.",
+        "phonetic_hint": "PREH-pee nah VAH-loo-meh tah ROO-khah stee vah-LEET-sah TOH-rah? — Neh, PREH-pee nah FEE-ghoo-meh no-REES to pro-EE.",
+        "english": "— Must we put the clothes into the suitcase now? — Yes, we must leave early in the morning.",
+        "notes": "Review Unit 106. Travel packing preparations with modal 'πρέπει να' + dependent aorist subjunctive.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πρέπει να φτιάξω τη βαλίτσα μου απόψε το βράδυ; — Ναι, το πλοίο φεύγει νωρίς.",
+        "example_en": "— Must I pack my suitcase tonight? — Yes, the ferry leaves early.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing travel preparation and suitcase packing"
+    },
+
+    # =========================================================================
+    # Part 7: Weather, Comparisons & Communicative Strategies (Cards 047 - 050)
+    # =========================================================================
+    {
+        "id": "A1-U106C-047",
+        "greek": "— Τι καιρό κάνει σήμερα; — Κάνει ζέστη και έχει ήλιο, δεν βρέχει.",
+        "phonetic_hint": "tee keh-ROH KAH-nee SEE-meh-rah? — KAH-nee ZEHS-tee keh EH-khee EE-lyo, then VREH-khee.",
+        "english": "— What is the weather like today? — It is warm and sunny, it is not raining.",
+        "notes": "Review Units 105 & 106. Inquiring about weather conditions in relation to travel schedules.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Βρέχει έξω; — Όχι, έχει ωραίο καιρό, δεν βρέχει.",
+        "example_en": "— Is it raining outside? — No, the weather is nice, it is not raining.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing meteorological conditions in relation to travel plans"
+    },
+    {
+        "id": "A1-U106C-048",
+        "greek": "— Να πάμε με το πλοίο ή με το αεροπλάνο; — Το αεροπλάνο είναι πιο γρήγορο, αλλά το πλοίο είναι πιο φθηνό.",
+        "phonetic_hint": "nah PAH-meh meh to PLEE-o ee meh to ah-eh-ro-PLAH-no? — To ah-eh-ro-PLAH-no EE-neh pyo GREE-gho-ro, ah-LAH to PLEE-o EE-neh pyo fthee-NOH.",
+        "english": "— Shall we go by ferry or by airplane? — The airplane is faster, but the ferry is cheaper.",
+        "notes": "Review Unit 106. Comparative degree of adjectives ('πιο γρήγορο', 'πιο φθηνό') comparing transit options.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Το τρένο είναι πιο γρήγορο από το λεωφορείο; — Ναι, και είναι πιο άνετο.",
+        "example_en": "— Is the train faster than the bus? — Yes, and it is more comfortable.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing speed, cost, and comfort between transit options"
+    },
+    {
+        "id": "A1-U106C-049",
+        "greek": "— Δεν καταλαβαίνω καλά. Μιλάτε πιο αργά, παρακαλώ; — Βεβαίως, μιλάω πιο αργά.",
+        "phonetic_hint": "then kah-tah-lah-VEH-no kah-LAH. mee-LAH-teh pyo ahr-GHAH, pah-rah-kah-LOH? — veh-VEH-os, mee-LAH-o pyo ahr-GHAH.",
+        "english": "— I don't understand well. Can you speak slower, please? — Certainly, I will speak slower.",
+        "notes": "Review Units 104 & 106. Essential A1 oral examination communicative repair strategy.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Μιλάτε πιο αργά, παρακαλώ, γιατί είμαι αρχάριος. — Ναι, φυσικά!",
+        "example_en": "— Please speak slower, because I am a beginner. — Yes, of course!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Requesting clarification, repetition, or slower speech in oral tests"
+    },
+    {
+        "id": "A1-U106C-050",
+        "greek": "— Χάρηκα πολύ για τη γνωριμία! — Κι εγώ χάρηκα πολύ, αντίο και καλό ταξίδι!",
+        "phonetic_hint": "KHAH-ree-kah po-LEE yah tee gno-ree-MEE-ah! — Kee eh-GHOH KHAH-ree-kah po-LEE, ahn-TEE-o keh kah-LOH tahk-SEE-thee!",
+        "english": "— Pleased to have met you! — Pleased to meet you too, goodbye and have a good trip!",
+        "notes": "Review Units 101, 102 & 106. Formal conclusion of an oral evaluation interview or travel departure.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ευχαριστώ πολύ για όλα! — Παρακαλώ, αντίο και καλή συνέχεια!",
+        "example_en": "— Thank you very much for everything! — You're welcome, goodbye and have a great rest of the day!",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Closing an oral evaluation interview politely and wishing safe travels"
+    }
+]
+
+lesson_u106c = {
+    "unit_id": "unit-106c",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)",
+    "description": "Cumulative conversational, dialogue, and CEFR A1 oral exam practice synthesizing vocabulary and structures from Units 101 to 106: personal presentations, origin and family inquiries, city directions and transport, daily routines and times, booking hotels and buying tickets, and realistic spoken interactions.",
+    "lesson_status": "not_started",
+    "entries": cards_u106c
+}
+
+def main():
+    print(f"Writing {len(cards_u106c)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u106c, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-106c"), None)
+    unit_106c_entry = {
+        "id": "unit-106c",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 25-134 (Ενότητες 1-5: Συνομιλίες, Διάλογοι & Εξετάσεις)",
+        "order": "KlikA1-06-C",
+        "is_expansion": True,
+        "expansion_of": "KlikA1-06-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-106c/lesson-01.yaml",
+                "title": "Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)",
+                "description": "Cumulative conversational, dialogue, and CEFR A1 oral exam practice synthesizing vocabulary and structures from Units 101 to 106: personal presentations, origin and family inquiries, city directions and transport, daily routines and times, booking hotels and buying tickets, and realistic spoken interactions."
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-106c in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_106c_entry
+    else:
+        # Find position after unit-106b if exists, else append
+        u106b_idx = next((i for i, u in enumerate(units) if u.get("id") == "unit-106b"), None)
+        if u106b_idx is not None:
+            print(f"Inserting unit-106c immediately after unit-106b (index {u106b_idx + 1})...")
+            units.insert(u106b_idx + 1, unit_106c_entry)
+        else:
+            print("Appending unit-106c to manifest.yaml...")
+            units.append(unit_106c_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-106c!")
+
+if __name__ == "__main__":
+    main()

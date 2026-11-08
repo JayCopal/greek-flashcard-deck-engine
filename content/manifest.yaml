@@ -167,6 +167,20 @@ units:
       patterns, verb conjugations, modal verbs with subjunctive (θέλω/μπορώ/πρέπει/λέω
       να + Aorist Subjunctive), comparative degrees of adjectives (πιο + adjective
       + από), transit navigation, and communicative dialogues.'
+- id: unit-106c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 25-134 (Ενότητες 1-5: Συνομιλίες, Διάλογοι
+    & Εξετάσεις)'
+  order: KlikA1-06-C
+  is_expansion: true
+  expansion_of: KlikA1-06-A
+  lessons:
+  - id: lesson-01
+    file: unit-106c/lesson-01.yaml
+    title: 'Ενότητες 1-5: Διάλογοι, Εξετάσεις & Συνομιλίες (A1 Conversational Synthesis)'
+    description: 'Cumulative conversational, dialogue, and CEFR A1 oral exam practice
+      synthesizing vocabulary and structures from Units 101 to 106: personal presentations,
+      origin and family inquiries, city directions and transport, daily routines and
+      times, booking hotels and buying tickets, and realistic spoken interactions.'
 - id: unit-107
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
     - Λεξιλόγιο)'

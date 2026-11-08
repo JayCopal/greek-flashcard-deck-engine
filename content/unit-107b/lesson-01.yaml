@@ -15,8 +15,8 @@ entries:
   notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (άνοιξε) of
     verb ανοίγω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: anoixe-to-parathyro--e6777d.mp3
+  status: verified
   example_el: — Έχει πολλή ζέστη εδώ μέσα! — Άνοιξε το παράθυρο, σε παρακαλώ, να μπει
     αέρας.
   example_en: — It is very hot in here! — Open the window, please, to let some air
@@ -31,8 +31,8 @@ entries:
   notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (κλείσε) of
     verb κλείνω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: kleise-tin-porta-ota-54f8b1.mp3
+  status: verified
   example_el: — Φεύγω για το σούπερ μάρκετ! — Εντάξει, κλείσε την πόρτα όταν βγεις
     έξω.
   example_en: — I am leaving for the supermarket! — Okay, close the door when you
@@ -47,8 +47,8 @@ entries:
   notes: 'Klik A1 p. 144, 146, 148. Grammar: affirmative imperative singular (καθάρισε)
     of καθαρίζω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: katharise-to-domatio-357bc9.mp3
+  status: verified
   example_el: — Έρχονται οι φίλοι μας σε λίγο! — Καθάρισε το δωμάτιό σου πριν έρθουν
     οι καλεσμένοι.
   example_en: — Our friends are coming in a little while! — Clean your room before
@@ -63,8 +63,8 @@ entries:
   notes: 'Klik A1 p. 146, 147. Grammar: irregular imperative singular (βάλε) of βάζω
     + spatial preposition ''μέσα σε''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: vale-ta-roycha-soy-m-77c7c0.mp3
+  status: verified
   example_el: — Πού να αφήσω τα καινούργια ρούχα; — Βάλε τα ρούχα σου μέσα στην ντουλάπα.
   example_en: — Where should I leave the new clothes? — Put your clothes inside the
     wardrobe.
@@ -77,8 +77,8 @@ entries:
   english: Wash the dishes after lunch.
   notes: 'Klik A1 p. 146, 148. Grammar: irregular imperative singular (πλύνε) of πλένω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: plyne-ta-piata-meta--f57fa1.mp3
+  status: verified
   example_el: — Τελειώσαμε το φαγητό. — Ωραία, πλύνε τα πιάτα μετά το μεσημεριανό
     φαγητό.
   example_en: — We finished eating. — Great, wash the dishes after lunch.
@@ -91,8 +91,8 @@ entries:
   english: Turn on the light in the hallway, because it is dark.
   notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (άναψε) of ανάβω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: anapse-to-fos-sto-di-da3c47.mp3
+  status: verified
   example_el: — Δεν βλέπω τίποτα εδώ! — Άναψε το φως στο διάδρομο, γιατί είναι σκοτεινά.
   example_en: — I cannot see anything here! — Turn on the light in the hallway, because
     it is dark.
@@ -106,8 +106,8 @@ entries:
   notes: 'Klik A1 p. 140, 146. Grammar: affirmative imperative singular (σβήσε) of
     σβήνω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: svise-to-kalorifer-p-f3043b.mp3
+  status: verified
   example_el: — Ετοιμάζομαι να φύγω! — Μην ξεχάσεις, σβήσε το καλοριφέρ πριν φύγεις
     από το σπίτι.
   example_en: — I am getting ready to leave! — Don't forget, turn off the radiator
@@ -122,8 +122,8 @@ entries:
   notes: 'Klik A1 p. 146, 147. Grammar: irregular imperative singular (φέρε) of φέρνω
     + weak pronoun μου.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: fere-moy-ena-potiri--27f157.mp3
+  status: verified
   example_el: — Διψάω πολύ! — Φέρε μου ένα ποτήρι δροσερό νερό από την κουζίνα.
   example_en: — I am very thirsty! — Bring me a glass of cool water from the kitchen.
   grammatical_info:
@@ -136,8 +136,8 @@ entries:
   notes: 'Klik A1 p. 147. Grammar: imperative of κάθομαι (κάθισε/κάτσε) and mediopassive
     imperative (ξεκουράσου).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: kathise-anapaytika-s-08f872.mp3
+  status: verified
   example_el: — Είμαι κουρασμένος από τη δουλειά. — Κάθισε αναπαυτικά στον καναπέ
     και ξεκουράσου.
   example_en: — I am tired from work. — Sit comfortably on the sofa and relax.
@@ -151,8 +151,8 @@ entries:
   notes: 'Klik A1 p. 146, 147. Grammar: polite/plural imperative (περάστε, καθίστε)
     of περνάω and κάθομαι.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: peraste-mesa-sto-sal-d88426.mp3
+  status: verified
   example_el: — Καλώς ήρθατε! Περάστε μέσα στο σαλόνι και καθίστε στην πολυθρόνα.
     — Ευχαριστούμε πολύ!
   example_en: — Welcome! Come inside the living room and sit on the armchair. — Thank
@@ -167,8 +167,8 @@ entries:
   english: See this beautiful apartment in the city center.
   notes: 'Klik A1 p. 147, 148. Grammar: irregular plural imperative (δείτε) of βλέπω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: deite-ayto-to-omorfo-93f0bf.mp3
+  status: verified
   example_el: — Ψάχνετε σπίτι; Δείτε αυτό το όμορφο διαμέρισμα στο κέντρο της πόλης.
     — Φαίνεται εξαιρετικό!
   example_en: — Are you looking for a home? See this beautiful apartment in the city
@@ -183,8 +183,8 @@ entries:
   notes: 'Klik A1 p. 146, 148. Grammar: affirmative imperative singular (στείλε) of
     στέλνω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: steile-moy-ti-dieyth-20469a.mp3
+  status: verified
   example_el: — Δεν θυμάμαι πού μένεις! — Στείλε μου τη διεύθυνση του σπιτιού με μήνυμα.
   example_en: — I don't remember where you live! — Send me the address of the house
     by text message.
@@ -198,8 +198,8 @@ entries:
   notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (άκουσε / άκου)
     of ακούω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: akoyse-ayti-tin-orai-ca87b7.mp3
+  status: verified
   example_el: — Τι ακούς; — Άκουσε αυτή την ωραία μουσική στο ραδιόφωνο.
   example_en: — What are you listening to? — Listen to this nice music on the radio.
   grammatical_info:
@@ -211,8 +211,8 @@ entries:
   english: Watch the steps at the entrance of the apartment building.
   notes: 'Klik A1 p. 146. Grammar: affirmative imperative singular (πρόσεξε) of προσέχω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: prosexe-ta-skalopati-933c7e.mp3
+  status: verified
   example_el: — Έχει γλίστρα από τη βροχή! — Πρόσεξε τα σκαλοπάτια στην είσοδο της
     πολυκατοικίας.
   example_en: — It is slippery from the rain! — Watch the steps at the entrance of
@@ -227,8 +227,8 @@ entries:
   notes: 'Klik A1 p. 147. Grammar: irregular plural imperative (ελάτε) of έρχομαι
     + subjunctive (να δείτε).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: elate-na-deite-to-ka-241296.mp3
+  status: verified
   example_el: — Τελειώσαμε τη μετακόμιση! Ελάτε να δείτε το καινούργιο μας σπίτι το
     Σάββατο! — Με μεγάλη χαρά!
   example_en: — We finished moving! Come see our new house on Saturday! — With great
@@ -244,8 +244,8 @@ entries:
   notes: 'Klik A1 p. 146. Grammar: negative prohibition ''μην + ενεστωτική υποτακτική''
     (μην ανοίγεις).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: min-anoigeis-to-para-34c5e2.mp3
+  status: verified
   example_el: — Θέλω λίγο αέρα. — Μην ανοίγεις το παράθυρο, γιατί φυσάει δυνατά έξω.
   example_en: — I want some air. — Don't open the window, because it's blowing hard
     outside.
@@ -259,8 +259,8 @@ entries:
   notes: 'Klik A1 p. 146, 147. Grammar: negative prohibition ''μη + βάζεις'' + locative
     ''πάνω στο''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: mi-vazeis-ta-vregmen-1d1b85.mp3
+  status: verified
   example_el: — Έβρεχε έξω! — Μη βάζεις τα βρεγμένα παπούτσια πάνω στο χαλί, άφησέ
     τα στο χολ.
   example_en: — It was raining outside! — Don't put the wet shoes on the carpet, leave
@@ -276,8 +276,8 @@ entries:
   notes: 'Klik A1 p. 146. Grammar: plural prohibition ''μην αφήνετε'' (αφήνω) + participle
     αναμμένα.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: min-afinete-ta-fota--367fb6.mp3
+  status: verified
   example_el: '— Πρέπει να κάνουμε οικονομία στο ρεύμα: μην αφήνετε τα φώτα αναμμένα
     όταν φεύγετε.'
   example_en: '— We need to save electricity: don''t leave the lights turned on when
@@ -292,8 +292,8 @@ entries:
   notes: 'Klik A1 p. 146. Grammar: plural negative prohibition ''μη μιλάτε'' of Type
     B1 verb μιλάω.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: mi-milate-toso-dynat-7110be.mp3
+  status: verified
   example_el: — Ησυχία, παρακαλώ! Μη μιλάτε τόσο δυνατά, γιατί το παιδί κοιμάται.
   example_en: — Quiet, please! Don't speak so loudly, because the child is sleeping.
   grammatical_info:
@@ -306,8 +306,8 @@ entries:
   notes: 'Klik A1 p. 147. Grammar: negative prohibition ''μη φεύγεις'' + colloquial
     imperative ''κάτσε'' (κάθισε).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: mi-feygeis-akoma-kat-dce9bb.mp3
+  status: verified
   example_el: — Πρέπει να πάω σπίτι. — Μη φεύγεις ακόμα, κάτσε να πιούμε έναν καφέ
     μαζί.
   example_en: — I must go home. — Don't leave yet, sit down so we can have a coffee
@@ -322,8 +322,8 @@ entries:
   notes: 'Klik A1 p. 146. Grammar: negative prohibition ''μην πετάς'' + imperative
     ''ρίξε (ρίξ'')''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: min-petas-ta-skoypid-d57ac9.mp3
+  status: verified
   example_el: — Πού να το πετάξω; — Μην πετάς τα σκουπίδια κάτω, ρίξ' τα στον κάδο.
   example_en: — Where should I throw it? — Don't throw the trash on the ground, throw
     it in the bin.
@@ -337,8 +337,8 @@ entries:
   english: Don't worry about the move, we will all help you.
   notes: 'Klik A1 p. 146. Grammar: negative prohibition with verb ανησυχώ (μην ανησυχείς).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: min-anisycheis-gia-t-cef394.mp3
+  status: verified
   example_el: — Έχω πάρα πολλά πράγματα να πακετάρω! — Μην ανησυχείς για τη μετακόμιση,
     θα σε βοηθήσουμε όλοι.
   example_en: — I have so many things to pack! — Don't worry about the move, we will
@@ -352,8 +352,8 @@ entries:
   english: The dictionary is on the desk, next to the computer.
   notes: 'Klik A1 p. 142, 143. Spatial phrases: ''πάνω στο'' + ''δίπλα στον''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-lexiko-einai-pano-33764c.mp3
+  status: verified
   example_el: — Πού είναι το ελληνικό λεξικό; — Το λεξικό είναι πάνω στο γραφείο,
     δίπλα στον υπολογιστή.
   example_en: — Where is the Greek dictionary? — The dictionary is on the desk, next
@@ -367,8 +367,8 @@ entries:
   english: Your slippers are under the bed.
   notes: 'Klik A1 p. 142, 143. Spatial preposition: ''κάτω από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: oi-pantofles-soy-ein-ff132c.mp3
+  status: verified
   example_el: — Ψάχνω τις παντόφλες μου! — Οι παντόφλες σου είναι κάτω από το κρεβάτι.
   example_en: — I am looking for my slippers! — Your slippers are under the bed.
   grammatical_info:
@@ -380,8 +380,8 @@ entries:
   english: The camera is inside the first drawer.
   notes: Klik A1 p. 142, 143. Spatial preposition 'μέσα σε' + ordinal number πρώτο.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: i-fotografiki-michan-ca7094.mp3
+  status: verified
   example_el: — Πού έβαλες την κάμερα; — Η φωτογραφική μηχανή είναι μέσα στο πρώτο
     συρτάρι.
   example_en: — Where did you put the camera? — The camera is inside the first drawer.
@@ -394,8 +394,8 @@ entries:
   english: The children are playing outside in the yard with the dog.
   notes: Klik A1 p. 139, 142. Locative adverb 'έξω' + prepositional phrase 'στην αυλή'.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: ta-paidia-paizoyn-ex-36d44c.mp3
+  status: verified
   example_el: — Πού είναι τα παιδιά; — Τα παιδιά παίζουν έξω στην αυλή με τον σκύλο.
   example_en: — Where are the children? — The children are playing outside in the
     yard with the dog.
@@ -408,8 +408,8 @@ entries:
   english: The sofa is situated opposite the television.
   notes: 'Klik A1 p. 142, 143. Locative preposition: ''απέναντι από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: o-kanapes-vrisketai--328cb5.mp3
+  status: verified
   example_el: — Πώς έχετε βάλει τα έπιπλα; — Ο καναπές βρίσκεται απέναντι από την
     τηλεόραση.
   example_en: — How have you arranged the furniture? — The sofa is situated opposite
@@ -425,8 +425,8 @@ entries:
   notes: Klik A1 p. 142, 143. Locative phrase 'δίπλα σε' + genitive of specification
     (του γραφείου).
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: i-megali-vivliothiki-536ca6.mp3
+  status: verified
   example_el: — Πού να τοποθετήσουμε τα ράφια; — Η μεγάλη βιβλιοθήκη είναι δίπλα στην
     πόρτα του γραφείου.
   example_en: — Where shall we place the shelving? — The large bookcase is beside
@@ -441,8 +441,8 @@ entries:
   english: The floor lamp is to the left of the armchair.
   notes: 'Klik A1 p. 142, 143, 145. Directional phrase: ''αριστερά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-fotistiko-dapedoy-a74670.mp3
+  status: verified
   example_el: — Πού είναι το φωτιστικό; — Το φωτιστικό δαπέδου είναι αριστερά από
     την πολυθρόνα.
   example_en: — Where is the lamp? — The floor lamp is to the left of the armchair.
@@ -455,8 +455,8 @@ entries:
   english: The fireplace is to the right of the corner sofa.
   notes: 'Klik A1 p. 142, 145. Directional phrase: ''δεξιά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-tzaki-einai-dexia-b7b1c6.mp3
+  status: verified
   example_el: — Πού βρίσκεται το τζάκι; — Το τζάκι είναι δεξιά από τον γωνιακό καναπέ.
   example_en: — Where is the fireplace located? — The fireplace is to the right of
     the corner sofa.
@@ -470,8 +470,8 @@ entries:
   english: In the middle of the living room there is a low wooden coffee table.
   notes: 'Klik A1 p. 142, 143. Locative phrase: ''στη μέση + γενική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: sti-mesi-toy-salonio-798981.mp3
+  status: verified
   example_el: — Τι έχετε στο κέντρο; — Στη μέση του σαλονιού υπάρχει ένα χαμηλό ξύλινο
     τραπεζάκι.
   example_en: — What do you have in the center? — In the middle of the living room
@@ -485,8 +485,8 @@ entries:
   english: There is a beautiful garden behind the house.
   notes: 'Klik A1 p. 133, 137, 145. Spatial phrase: ''πίσω από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: yparchei-enas-omorfo-965348.mp3
+  status: verified
   example_el: — Έχει εξωτερικό χώρο; — Ναι, υπάρχει ένας όμορφος κήπος πίσω από το
     σπίτι.
   example_en: — Does it have outdoor space? — Yes, there is a beautiful garden behind
@@ -501,8 +501,8 @@ entries:
   english: In front of the apartment building there is a bus stop.
   notes: 'Klik A1 p. 140, 145. Spatial phrase: ''μπροστά από + αιτιατική''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: mprosta-apo-tin-poly-9eeafa.mp3
+  status: verified
   example_el: — Είναι εύκολη η συγκοινωνία; — Ναι, μπροστά από την πολυκατοικία υπάρχει
     μια στάση λεωφορείου.
   example_en: — Is transit convenient? — Yes, in front of the apartment building there
@@ -519,8 +519,8 @@ entries:
   notes: Klik A1 p. 133, 136. Real estate classified ad formula with passive verb
     'ενοικιάζεται'.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: enoikiazetai-foteino-fe745c.mp3
+  status: verified
   example_el: '— Είδα μια αγγελία: Ενοικιάζεται φωτεινό διαμέρισμα εκατό τετραγωνικών
     μέτρων στον τρίτο όροφο.'
   example_en: '— I saw an ad: For rent: a bright one-hundred-square-meter apartment
@@ -536,8 +536,8 @@ entries:
   notes: Klik A1 p. 133, 136. Real estate sales formula with passive verb 'πωλείται'
     and abbreviation τ.μ.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: poleitai-monokatoiki-cdb8f3.mp3
+  status: verified
   example_el: — Τι λέει η αγγελία; — Πωλείται μονοκατοικία διακοσίων πενήντα τ.μ.
     με μεγάλο κήπο.
   example_en: '— What does the listing say? — For sale: a detached house of 250 sq.m.
@@ -551,8 +551,8 @@ entries:
   english: How much is the monthly rent for this apartment?
   notes: Klik A1 p. 133, 140. Formula for inquiring about rental price.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: poso-einai-to-miniai-0a3614.mp3
+  status: verified
   example_el: — Καλημέρα σας, παίρνω για την αγγελία. Πόσο είναι το μηνιαίο ενοίκιο
     για αυτό το διαμέρισμα;
   example_en: — Good morning, I am calling about the ad. How much is the monthly rent
@@ -568,8 +568,8 @@ entries:
   notes: Klik A1 p. 140, 141. Quoting rent excluding building maintenance fees (χωρίς
     τα κοινόχρηστα).
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-enoikio-einai-tet-965f06.mp3
+  status: verified
   example_el: — Πόσο ζητάει ο ιδιοκτήτης; — Το ενοίκιο είναι τετρακόσια πενήντα ευρώ
     τον μήνα χωρίς τα κοινόχρηστα.
   example_en: — How much is the landlord asking? — The rent is four hundred fifty
@@ -583,8 +583,8 @@ entries:
   english: How much do you pay for building fees in the winter?
   notes: Klik A1 p. 140. Inquiring about seasonal shared utility costs.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: poso-plironete-gia-t-62f5be.mp3
+  status: verified
   example_el: — Πόσο πληρώνετε για τα κοινόχρηστα τον χειμώνα; — Πληρώνουμε περίπου
     ογδόντα ευρώ μαζί με τη θέρμανση.
   example_en: — How much do you pay for building fees in the winter? — We pay around
@@ -599,8 +599,8 @@ entries:
   english: The house features two bedrooms, a living room, a kitchen, and two bathrooms.
   notes: Klik A1 p. 133, 141. Enumeration of house layout features with verb 'διαθέτει'.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-spiti-diathetei-d-653862.mp3
+  status: verified
   example_el: — Πώς είναι η διαρρύθμιση; — Το σπίτι διαθέτει δύο υπνοδωμάτια, σαλόνι,
     κουζίνα και δύο μπάνια.
   example_en: — How is the layout? — The house features two bedrooms, a living room,
@@ -616,8 +616,8 @@ entries:
   notes: 'Klik A1 p. 133, 141. Ordinal number question and answer: ''στον δεύτερο
     όροφο''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: se-poion-orofo-vrisk-360299.mp3
+  status: verified
   example_el: — Σε ποιον όροφο βρίσκεται το διαμέρισμα; — Βρίσκεται στον δεύτερο όροφο.
   example_en: — On which floor is the apartment located? — It is on the second floor.
   grammatical_info:
@@ -630,8 +630,8 @@ entries:
   english: The apartment building is new and features a modern elevator.
   notes: Klik A1 p. 134, 137. Building description with feminine and neuter adjectives.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: i-polykatoikia-einai-2292e9.mp3
+  status: verified
   example_el: — Έχει ασανσέρ η οικοδομή; — Ναι, η πολυκατοικία είναι καινούργια και
     διαθέτει σύγχρονο ασανσέρ.
   example_en: — Does the building have an elevator? — Yes, the building is new and
@@ -648,8 +648,8 @@ entries:
   notes: 'Klik A1 p. 140, 141. Standard heating system question and answer: ''φυσικό
     αέριο''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: ti-eidoys-thermansi--6a1cd6.mp3
+  status: verified
   example_el: — Τι είδους θέρμανση έχει το σπίτι; — Έχει αυτόνομη θέρμανση με φυσικό
     αέριο.
   example_en: — What kind of heating does the house have? — It has autonomous natural
@@ -664,8 +664,8 @@ entries:
   english: The apartment is fully furnished and has all electrical appliances.
   notes: 'Klik A1 p. 135, 141. Participle used as adjective: επιπλωμένο (furnished).'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-diamerisma-einai--c1aa30.mp3
+  status: verified
   example_el: — Χρειάζεται να αγοράσω έπιπλα; — Όχι, το διαμέρισμα είναι πλήρως επιπλωμένο
     και έχει όλες τις ηλεκτρικές συσκευές.
   example_en: — Do I need to buy furniture? — No, the apartment is fully furnished
@@ -681,8 +681,8 @@ entries:
   notes: 'Klik A1 p. 133, 137. Accusative plural of masculine noun: ''πολλούς καλούς
     γείτονες''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: meno-se-mia-poly-isy-5ccfa6.mp3
+  status: verified
   example_el: — Σου αρέσει εκεί που μένεις; — Ναι, μένω σε μια πολύ ήσυχη γειτονιά
     με πολλούς καλούς γείτονες.
   example_en: — Do you like where you live? — Yes, I live in a very quiet neighborhood
@@ -697,8 +697,8 @@ entries:
   english: Our house is near the university and the metro station.
   notes: 'Klik A1 p. 135, 140. Locative preposition: ''κοντά σε'' + accusative.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-spiti-mas-einai-k-2ab9e5.mp3
+  status: verified
   example_el: — Βρίσκετε εύκολα συγκοινωνία; — Ναι, το σπίτι μας είναι κοντά στο πανεπιστήμιο
     και στον σταθμό του μετρό.
   example_en: — Is transit easy to find? — Yes, our house is near the university and
@@ -714,8 +714,8 @@ entries:
   notes: 'Klik A1 p. 135, 141. Color inquiry formula: ''τι χρώμα είναι...;'' with
     adjective πράσινο.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: ti-chroma-einai-oi-t-6b4f45.mp3
+  status: verified
   example_el: — Τι χρώμα είναι οι τοίχοι στο υπνοδωμάτιο; — Είναι ανοιχτό πράσινο.
   example_en: — What color are the walls in the bedroom? — They are light green.
   grammatical_info:
@@ -729,8 +729,8 @@ entries:
   notes: Klik A1 p. 135, 141, 144. Contrast of indeclinable color 'γκρι' and declinable
     'κόκκινο'.
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: agorasame-enan-aneto-750ef5.mp3
+  status: verified
   example_el: — Πώς διακοσμήσατε τον χώρο; — Αγοράσαμε έναν άνετο γκρι καναπέ και
     ένα κόκκινο χαλί για το σαλόνι.
   example_en: — How did you decorate the space? — We bought a comfortable gray sofa
@@ -746,8 +746,8 @@ entries:
   notes: Klik A1 p. 135, 141. Adjective color agreement across feminine plural (κίτρινες)
     and neuter plural (λευκά).
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: oi-koyrtines-stin-ko-d6f40b.mp3
+  status: verified
   example_el: — Πώς είναι η κουζίνα σας; — Οι κουρτίνες στην κουζίνα είναι κίτρινες
     και τα ντουλάπια είναι λευκά.
   example_en: — How is your kitchen? — The curtains in the kitchen are yellow and
@@ -762,8 +762,8 @@ entries:
   english: The balcony is very big and has a wonderful view of the park.
   notes: 'Klik A1 p. 134, 140. Expressing scenic balcony view: ''θέα σε / στο''.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: to-mpalkoni-einai-po-30e88e.mp3
+  status: verified
   example_el: — Έχει ωραία θέα το διαμέρισμα; — Ναι, το μπαλκόνι είναι πολύ μεγάλο
     και έχει υπέροχη θέα στο πάρκο.
   example_en: — Does the apartment have a nice view? — Yes, the balcony is very big
@@ -778,8 +778,8 @@ entries:
   notes: 'Klik A1 p. 133. Traditional Greek cultural proverb and unit title: expressing
     affection for one''s own home.'
   gender_or_pos: phrase
-  audio: null
-  status: pending_tts
+  audio: spiti-moy-spitaki-mo-753c57.mp3
+  status: verified
   example_el: — Επιτέλους γυρίσαμε από το ταξίδι! — Σπίτι μου, σπιτάκι μου και σπιτοκαλυβάκι
     μου!
   example_en: — We are finally back from the trip! — Home sweet home, my little house
