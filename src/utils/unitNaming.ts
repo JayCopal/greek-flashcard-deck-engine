@@ -1,66 +1,89 @@
 import { Unit } from '../types/schema';
 
 export interface ParsedLessonCode {
-  group: string;       // e.g. "A1", "A2", "B1"
-  orderNum: number;    // e.g. 1, 2, 5
+  group: string;       // e.g. "OG-A1", "Klik-A1", "Klik-A2"
+  orderNum: number;    // e.g. 0, 1, 2, 5
   suffix: string;      // e.g. "A", "B"
-  formatted: string;   // e.g. "A1-01-A", "KlikA1-05-B"
-  lessonLabel: string; // e.g. "Lesson A1-01-A", "Lesson KlikA1-05-B"
-  groupName: string;   // e.g. "Κλικ στα Ελληνικά Α1 (A1)"
+  formatted: string;   // e.g. "OG-01-A", "KlikA1-05-B"
+  lessonLabel: string; // e.g. "Lesson OG-01-A", "Lesson KlikA1-05-B"
+  groupName: string;   // e.g. "Original Content (OG-A1)", "Κλικ στα Ελληνικά Α1 (Klik-A1)"
 }
 
 // Backwards compatibility alias
 export type ParsedUnitCode = ParsedLessonCode;
 
 /**
- * Normalizes group tags to standard CEFR level identifiers (e.g. "A1", "A2").
- * Maps legacy "OG" and textbook "KlikA1" to canonical "A1".
+ * Normalizes group tags to standard curriculum group identifiers (e.g. "OG-A1", "Klik-A1", "Klik-A2").
+ * Identifies how the lesson was created (OG vs Klik) and the CEFR level (A1, A2, etc.).
  */
-export function normalizeGroupTag(rawGroup: string): string {
-  const norm = rawGroup.trim().toLowerCase();
-  if (norm === 'og' || norm === 'klika1' || norm === 'a1') return 'A1';
-  if (norm === 'klika2' || norm === 'a2') return 'A2';
-  if (norm === 'klikb1' || norm === 'b1') return 'B1';
-  if (norm === 'klikb2' || norm === 'b2') return 'B2';
-  if (norm.startsWith('klik')) return norm.slice(4).toUpperCase();
+export function normalizeGroupTag(rawGroup: string, orderNum?: number): string {
+  const norm = rawGroup.trim().toLowerCase().replace(/[-_]/g, '');
+  if (norm === 'og' || norm === 'oga1') return 'OG-A1';
+  if (norm === 'oga2') return 'OG-A2';
+  if (norm === 'klika1' || norm === 'klik1') return 'Klik-A1';
+  if (norm === 'klika2' || norm === 'klik2') return 'Klik-A2';
+  if (norm === 'klikb1') return 'Klik-B1';
+  if (norm === 'klikb2') return 'Klik-B2';
+  if (norm.startsWith('klik')) {
+    const rest = norm.slice(4).toUpperCase();
+    return `Klik-${rest}`;
+  }
+  if (norm === 'a1') {
+    if (orderNum !== undefined && orderNum >= 100) return 'Klik-A1';
+    return 'OG-A1';
+  }
+  if (norm === 'a2') {
+    if (orderNum !== undefined && orderNum >= 200) return 'Klik-A2';
+    return 'OG-A2';
+  }
   return rawGroup.toUpperCase();
 }
 
 /**
  * Intelligent parser that extracts group, numeric order, and suffix.
  * Examples:
- * - "A1-01-A" -> group: "A1", orderNum: 1, suffix: "A", formatted: "A1-01-A"
- * - "KlikA1-05-B" -> group: "A1", orderNum: 5, suffix: "B", formatted: "KlikA1-05-B"
- * - "OG-01-A" -> group: "A1", orderNum: 1, suffix: "A", formatted: "A1-01-A"
- * - 1 or "unit-01" -> group: "A1", orderNum: 1, suffix: "A", formatted: "A1-01-A"
- * - 101 -> group: "A1", orderNum: 1, suffix: "A", formatted: "KlikA1-01-A"
+ * - "OG-01-A" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
+ * - "KlikA1-05-B" -> group: "Klik-A1", orderNum: 5, suffix: "B", formatted: "KlikA1-05-B"
+ * - "Klik-A1-05-B" -> group: "Klik-A1", orderNum: 5, suffix: "B", formatted: "Klik-A1-05-B"
+ * - "OG-A1-01-A" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
+ * - 1 or "unit-01" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
+ * - 101 or "unit-101" -> group: "Klik-A1", orderNum: 1, suffix: "A", formatted: "KlikA1-01-A"
  */
 export function parseLessonCode(orderOrId: string | number | undefined, fallbackIndex = 1): ParsedLessonCode {
   if (orderOrId === undefined || orderOrId === null) {
     const padded = String(fallbackIndex).padStart(2, '0');
     return {
-      group: 'A1',
+      group: 'OG-A1',
       orderNum: fallbackIndex,
       suffix: 'A',
-      formatted: `A1-${padded}-A`,
-      lessonLabel: `Lesson A1-${padded}-A`,
-      groupName: getGroupTitle('A1'),
+      formatted: `OG-${padded}-A`,
+      lessonLabel: `Lesson OG-${padded}-A`,
+      groupName: getGroupTitle('OG-A1'),
     };
   }
 
   const raw = String(orderOrId).trim();
 
   // Pattern 1: Explicit group prefix: <Group>-<number>-<suffix> or <Group>-<number><suffix>
-  // e.g. "A1-01-A", "KlikA1-05-B", "OG-01-A", "KlikA2-01-A"
-  const prefixMatch = raw.match(/^([A-Za-z0-9]+)[-_](\d+)[-_]?([A-Za-z])?$/i);
+  // e.g. "OG-01-A", "KlikA1-05-B", "Klik-A1-05-B", "OG-A1-01-A", "A1-01-A"
+  const prefixMatch = raw.match(/^([A-Za-z]+(?:[-_]?[A-Za-z0-9]+)?)[-_](\d+)[-_]?([A-Za-z])?$/i);
   if (prefixMatch) {
     const rawGroup = prefixMatch[1];
-    const group = normalizeGroupTag(rawGroup);
     const orderNum = parseInt(prefixMatch[2], 10);
     const suffix = (prefixMatch[3] || 'A').toUpperCase();
+    const group = normalizeGroupTag(rawGroup, orderNum);
     const padded = String(orderNum).padStart(2, '0');
-    // Normalize legacy OG prefix to A1 for clean display
-    const prefixForFormatted = rawGroup.toUpperCase() === 'OG' ? 'A1' : rawGroup;
+
+    // Retain clean formatted tag: OG-XX-A for OG, KlikA1-XX-A / Klik-A1-XX-A for Klik
+    let prefixForFormatted: string;
+    if (group === 'OG-A1') {
+      prefixForFormatted = rawGroup.toUpperCase().includes('A1') && rawGroup.toUpperCase().includes('OG') ? 'OG-A1' : 'OG';
+    } else if (group === 'Klik-A1') {
+      prefixForFormatted = rawGroup.toLowerCase().includes('-') ? 'Klik-A1' : 'KlikA1';
+    } else {
+      prefixForFormatted = rawGroup;
+    }
+
     const formatted = `${prefixForFormatted}-${padded}-${suffix}`;
     return {
       group,
@@ -82,12 +105,12 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       const padded = String(mappedNum).padStart(2, '0');
       const formatted = `KlikA2-${padded}-${suf}`;
       return {
-        group: 'A2',
+        group: 'Klik-A2',
         orderNum: mappedNum,
         suffix: suf,
         formatted,
         lessonLabel: `Lesson ${formatted}`,
-        groupName: getGroupTitle('A2'),
+        groupName: getGroupTitle('Klik-A2'),
       };
     }
     if (num >= 100) {
@@ -95,23 +118,23 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       const padded = String(mappedNum).padStart(2, '0');
       const formatted = `KlikA1-${padded}-${suf}`;
       return {
-        group: 'A1',
+        group: 'Klik-A1',
         orderNum: mappedNum,
         suffix: suf,
         formatted,
         lessonLabel: `Lesson ${formatted}`,
-        groupName: getGroupTitle('A1'),
+        groupName: getGroupTitle('Klik-A1'),
       };
     }
     const padded = String(num).padStart(2, '0');
-    const formatted = `A1-${padded}-${suf}`;
+    const formatted = `OG-${padded}-${suf}`;
     return {
-      group: 'A1',
+      group: 'OG-A1',
       orderNum: num,
       suffix: suf,
       formatted,
       lessonLabel: `Lesson ${formatted}`,
-      groupName: getGroupTitle('A1'),
+      groupName: getGroupTitle('OG-A1'),
     };
   }
 
@@ -125,12 +148,12 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       const padded = String(mappedNum).padStart(2, '0');
       const formatted = `KlikA2-${padded}-${suf}`;
       return {
-        group: 'A2',
+        group: 'Klik-A2',
         orderNum: mappedNum,
         suffix: suf,
         formatted,
         lessonLabel: `Lesson ${formatted}`,
-        groupName: getGroupTitle('A2'),
+        groupName: getGroupTitle('Klik-A2'),
       };
     }
     if (num >= 100) {
@@ -138,33 +161,33 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       const padded = String(mappedNum).padStart(2, '0');
       const formatted = `KlikA1-${padded}-${suf}`;
       return {
-        group: 'A1',
+        group: 'Klik-A1',
         orderNum: mappedNum,
         suffix: suf,
         formatted,
         lessonLabel: `Lesson ${formatted}`,
-        groupName: getGroupTitle('A1'),
+        groupName: getGroupTitle('Klik-A1'),
       };
     }
     const padded = String(num).padStart(2, '0');
-    const formatted = `A1-${padded}-${suf}`;
+    const formatted = `OG-${padded}-${suf}`;
     return {
-      group: 'A1',
+      group: 'OG-A1',
       orderNum: num,
       suffix: suf,
       formatted,
       lessonLabel: `Lesson ${formatted}`,
-      groupName: getGroupTitle('A1'),
+      groupName: getGroupTitle('OG-A1'),
     };
   }
 
   return {
-    group: 'A1',
+    group: 'OG-A1',
     orderNum: fallbackIndex,
     suffix: 'A',
     formatted: raw,
     lessonLabel: `Lesson ${raw}`,
-    groupName: getGroupTitle('A1'),
+    groupName: getGroupTitle('OG-A1'),
   };
 }
 
@@ -175,19 +198,21 @@ export const parseUnitCode = parseLessonCode;
  * Returns human-friendly group title for a group ID
  */
 export function getGroupTitle(group: string): string {
-  const norm = group.toLowerCase();
-  if (norm === 'a1' || norm === 'klika1' || norm === 'og') return 'Κλικ στα Ελληνικά Α1 (A1)';
-  if (norm === 'a2' || norm === 'klika2') return 'Κλικ στα Ελληνικά Α2 (A2)';
-  if (norm === 'b1' || norm === 'klikb1') return 'Κλικ στα Ελληνικά Β1 (B1)';
-  if (norm === 'b2' || norm === 'klikb2') return 'Κλικ στα Ελληνικά Β2 (B2)';
-  return `${group.toUpperCase()} Curriculum`;
+  const norm = group.trim().toLowerCase().replace(/[-_]/g, '');
+  if (norm === 'oga1' || norm === 'og') return 'Original Content (OG-A1)';
+  if (norm === 'oga2') return 'Original Content (OG-A2)';
+  if (norm === 'klika1' || norm === 'klik1') return 'Κλικ στα Ελληνικά Α1 (Klik-A1)';
+  if (norm === 'klika2' || norm === 'klik2') return 'Κλικ στα Ελληνικά Α2 (Klik-A2)';
+  if (norm === 'klikb1' || norm === 'klik1b1') return 'Κλικ στα Ελληνικά Β1 (Klik-B1)';
+  if (norm === 'klikb2' || norm === 'klik1b2') return 'Κλικ στα Ελληνικά Β2 (Klik-B2)';
+  return `${group} Curriculum`;
 }
 
 // Backwards compatibility alias
 export const getTrackTitle = getGroupTitle;
 
 /**
- * Formats a lesson label, e.g. "Lesson A1-01-A", "Lesson KlikA1-05-B"
+ * Formats a lesson label, e.g. "Lesson OG-01-A", "Lesson KlikA1-05-B"
  */
 export function formatLessonLabel(item: Unit | { order: string | number; id?: string } | string | number | undefined): string {
   if (typeof item === 'object' && item !== null) {

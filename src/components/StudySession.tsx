@@ -340,7 +340,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
       const match = currentCard.id.match(/U(\d+[A-Za-z]?)/i);
       if (match) return parseLessonCode(`unit-${match[1]}`);
     }
-    return parseLessonCode('A1-01-A');
+    return parseLessonCode('OG-01-A');
   }, [lessonNumber, effectiveUnitId, currentCard]);
 
   const displayLessonLabel = parsedLessonCode.lessonLabel;
@@ -663,140 +663,146 @@ export const StudySession: React.FC<StudySessionProps> = ({
         onError={() => setIsAudioPlaying(false)}
       />
 
-      {/* Compact Top Header Bar - Minimal vertical space during study */}
-      <div className="glass-panel px-3.5 py-2 sm:py-2.5 rounded-2xl flex items-center justify-between gap-3">
-        {/* Left: Back button & Title / Card counter */}
-        <div className="flex items-center gap-2.5 min-w-0">
-          <button
-            onClick={onExit}
-            className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700 shrink-0"
-            title="Exit Drill (Esc)"
-          >
-            <ArrowLeft className="w-4 h-4" />
-          </button>
-          <div className="min-w-0">
-            <div className="flex items-center gap-1.5 flex-nowrap truncate">
+      {/* Top Header Bar */}
+      <div className="glass-panel px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-2xl flex flex-col gap-2.5">
+        {/* Line 1: Back button, Lesson Name, and Card Counter */}
+        <div className="flex items-center justify-between gap-3 min-w-0">
+          <div className="flex items-center gap-2 sm:gap-2.5 min-w-0 flex-1">
+            <button
+              onClick={onExit}
+              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700 shrink-0"
+              title="Exit Drill (Esc)"
+            >
+              <ArrowLeft className="w-4 h-4" />
+            </button>
+            <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 truncate">
               <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-lg bg-sky-500/15 text-sky-400 border border-sky-500/30 shrink-0">
                 {displayLessonLabel}
               </span>
-              <span className="text-xs text-slate-300 font-semibold truncate hidden sm:inline">
+              <span className="text-xs sm:text-sm text-slate-200 font-semibold truncate" title={title}>
                 {title}
               </span>
               {unitContext && (
-                <span className="text-[10px] text-slate-400 hidden md:inline">
+                <span className="text-[10px] sm:text-xs text-slate-400 hidden md:inline shrink-0">
                   • {unitContext}
                 </span>
               )}
             </div>
-            <div className="text-[11px] text-slate-400 truncate">
-              Card {currentIndex + 1} of {filteredCards.length}
-              {ratingFilter !== 'all' && (
-                <span className="text-sky-400 ml-1.5 font-semibold capitalize">
-                  [{ratingFilter}]
-                </span>
-              )}
-            </div>
+          </div>
+
+          <div className="text-xs text-slate-400 font-medium shrink-0 whitespace-nowrap pl-2">
+            Card <span className="text-slate-200 font-bold">{currentIndex + 1}</span> of{' '}
+            <span className="text-slate-200 font-bold">{filteredCards.length}</span>
+            {ratingFilter !== 'all' && (
+              <span className="text-sky-400 ml-1.5 font-semibold capitalize">
+                [{ratingFilter}]
+              </span>
+            )}
           </div>
         </div>
 
-        {/* Right: Quick Compact Controls */}
-        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
-          {/* Study Direction Toggle */}
-          <button
-            type="button"
-            onClick={() => {
-              const next = studyDirection === 'greek_to_english' ? 'english_to_greek' : 'greek_to_english';
-              setStudyDirection(next);
-              setUserStudyPreferences({ studyDirection: next }, activeUser.id);
-              setIsFlipped(false);
-            }}
-            className="px-2 sm:px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-1 transition-all"
-            title="Switch prompt direction"
-          >
-            <ArrowUpDown className="w-3.5 h-3.5 text-sky-400" />
-            <span className="text-[11px] font-mono">{studyDirection === 'greek_to_english' ? 'EL→EN' : 'EN→EL'}</span>
-          </button>
-
-          {/* Auto-audio Toggle */}
-          <button
-            type="button"
-            onClick={() => {
-              const next = !autoPlayAudio;
-              setAutoPlayAudio(next);
-              setUserStudyPreferences({ autoPlayAudio: next }, activeUser.id);
-            }}
-            className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
-              autoPlayAudio
-                ? 'bg-sky-500/20 border-sky-500/40 text-sky-400'
-                : 'bg-slate-800 border-slate-700 text-slate-500 hover:text-slate-300'
-            }`}
-            title={`Auto-play audio: ${autoPlayAudio ? 'ON' : 'OFF'}`}
-          >
-            <Volume2 className="w-4 h-4" />
-          </button>
-
-          {/* Playback Speed Cycle Button */}
-          <button
-            type="button"
-            onClick={cyclePlaybackSpeed}
-            className="px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sky-400 hover:text-white text-xs font-bold font-mono transition-all"
-            title="Audio Playback Speed (0.75x, 1.0x, 1.25x)"
-          >
-            {playbackSpeed}x
-          </button>
-
-          {/* Shuffle button */}
-          <button
-            type="button"
-            onClick={handleShuffle}
-            className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all hidden sm:flex items-center"
-            title="Shuffle deck"
-          >
-            <Shuffle className="w-4 h-4" />
-          </button>
-
-          {/* Notes Toggle Button if notes exist */}
-          {lessonNotes && (
+        {/* Line 2: Quick Controls (Direction, Speaker, Speed, and rest of buttons) */}
+        <div className="flex items-center justify-between gap-2 pt-2 border-t border-slate-800/80">
+          <div className="flex items-center gap-1 sm:gap-1.5 flex-wrap">
+            {/* Study Direction Toggle */}
             <button
               type="button"
-              onClick={() => setShowNotes(!showNotes)}
-              className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
-                showNotes
-                  ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
-                  : 'bg-slate-800 text-sky-400 border-slate-700 hover:text-white'
+              onClick={() => {
+                const next = studyDirection === 'greek_to_english' ? 'english_to_greek' : 'greek_to_english';
+                setStudyDirection(next);
+                setUserStudyPreferences({ studyDirection: next }, activeUser.id);
+                setIsFlipped(false);
+              }}
+              className="px-2 sm:px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-1 transition-all"
+              title="Switch prompt direction"
+            >
+              <ArrowUpDown className="w-3.5 h-3.5 text-sky-400" />
+              <span className="text-[11px] font-mono">{studyDirection === 'greek_to_english' ? 'EL→EN' : 'EN→EL'}</span>
+            </button>
+
+            {/* Auto-audio Toggle */}
+            <button
+              type="button"
+              onClick={() => {
+                const next = !autoPlayAudio;
+                setAutoPlayAudio(next);
+                setUserStudyPreferences({ autoPlayAudio: next }, activeUser.id);
+              }}
+              className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
+                autoPlayAudio
+                  ? 'bg-sky-500/20 border-sky-500/40 text-sky-400'
+                  : 'bg-slate-800 border-slate-700 text-slate-500 hover:text-slate-300'
               }`}
-              title="Toggle lesson grammar notes"
+              title={`Auto-play audio: ${autoPlayAudio ? 'ON' : 'OFF'}`}
             >
-              <FileText className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline text-[11px]">Notes</span>
+              <Volume2 className="w-4 h-4" />
             </button>
-          )}
 
-          {/* Quick Filters / Session Settings Toggle */}
-          <button
-            type="button"
-            onClick={() => setShowSettingsDrawer(!showSettingsDrawer)}
-            className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
-              showSettingsDrawer || ratingFilter !== 'all' || dueOnly || !hideLearned || !hideExcluded
-                ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
-                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
-            }`}
-            title="Drill Filters & Settings"
-          >
-            <Sliders className="w-4 h-4" />
-          </button>
-
-          {/* Help button */}
-          {onOpenHelp && (
+            {/* Playback Speed Cycle Button */}
             <button
               type="button"
-              onClick={onOpenHelp}
-              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all hidden sm:flex items-center"
-              title="Keyboard Shortcuts & Help"
+              onClick={cyclePlaybackSpeed}
+              className="px-2 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sky-400 hover:text-white text-xs font-bold font-mono transition-all"
+              title="Audio Playback Speed (0.75x, 1.0x, 1.25x)"
             >
-              <HelpCircle className="w-4 h-4 text-sky-400" />
+              {playbackSpeed}x
             </button>
-          )}
+
+            {/* Shuffle button */}
+            <button
+              type="button"
+              onClick={handleShuffle}
+              className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all flex items-center"
+              title="Shuffle deck"
+            >
+              <Shuffle className="w-4 h-4" />
+            </button>
+
+            {/* Notes Toggle Button if notes exist */}
+            {lessonNotes && (
+              <button
+                type="button"
+                onClick={() => setShowNotes(!showNotes)}
+                className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1 transition-all ${
+                  showNotes
+                    ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
+                    : 'bg-slate-800 text-sky-400 border-slate-700 hover:text-white'
+                }`}
+                title="Toggle lesson grammar notes"
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline text-[11px]">Notes</span>
+              </button>
+            )}
+          </div>
+
+          <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+            {/* Quick Filters / Session Settings Toggle */}
+            <button
+              type="button"
+              onClick={() => setShowSettingsDrawer(!showSettingsDrawer)}
+              className={`p-1.5 sm:p-2 rounded-xl border text-xs font-semibold flex items-center transition-all ${
+                showSettingsDrawer || ratingFilter !== 'all' || dueOnly || !hideLearned || !hideExcluded
+                  ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
+                  : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
+              }`}
+              title="Drill Filters & Settings"
+            >
+              <Sliders className="w-4 h-4" />
+            </button>
+
+            {/* Help button */}
+            {onOpenHelp && (
+              <button
+                type="button"
+                onClick={onOpenHelp}
+                className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 transition-all flex items-center"
+                title="Keyboard Shortcuts & Help"
+              >
+                <HelpCircle className="w-4 h-4 text-sky-400" />
+              </button>
+            )}
+          </div>
         </div>
       </div>
 
@@ -959,33 +965,23 @@ export const StudySession: React.FC<StudySessionProps> = ({
         >
           {/* ================= CARD FRONT ================= */}
           <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30">
-            {/* Top Bar on Front: Ignore on Top Left, Center Badges, Learned on Top Right */}
-            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
-              {/* Top Left: Ignore Button */}
-              <button
-                type="button"
-                onClick={handleToggleExcluded}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
-                  srsData?.isExcluded
-                    ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
-                    : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
-                }`}
-                title="Ignore card (exclude from drill) (Shortcut: X)"
-              >
-                <Ban className="w-3.5 h-3.5 shrink-0" />
-                <span>{srsData?.isExcluded ? 'Ignored' : 'Ignore'}</span>
-                <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[X]</span>
-              </button>
-
-              {/* Center Badges: Gender/POS and SRS Rating (Locked height, non-wrapping to prevent shifting below) */}
-              <div className="h-8 flex items-center justify-center gap-1.5 flex-nowrap shrink min-w-0">
-                {currentCard.gender_or_pos && (
-                  <span className="text-xs font-semibold px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm truncate max-w-[100px] sm:max-w-[150px] shrink whitespace-nowrap">
+            {/* Top Bar on Front: Word Info (Gender / POS) on Left, Rating Badge on Right */}
+            <div className="h-9 shrink-0 flex items-center justify-between gap-3 w-full select-none" onClick={(e) => e.stopPropagation()}>
+              {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
+              <div className="flex items-center gap-2 min-w-0 flex-1">
+                {currentCard.gender_or_pos ? (
+                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
                     {currentCard.gender_or_pos}
                   </span>
+                ) : (
+                  <span className="h-7 inline-block" />
                 )}
+              </div>
+
+              {/* SRS Rating Badge */}
+              <div className="flex items-center gap-1.5 shrink-0">
                 {ratingStatus && ratingStatus !== 'new' && (
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
+                  <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
                     ratingStatus === 'again'
                       ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
                       : ratingStatus === 'hard'
@@ -998,22 +994,6 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   </span>
                 )}
               </div>
-
-              {/* Top Right: Learned Button */}
-              <button
-                type="button"
-                onClick={handleToggleLearned}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
-                  srsData?.isLearned
-                    ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
-                    : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
-                }`}
-                title="Mark card as learned (Shortcut: M)"
-              >
-                <CheckCircle className="w-3.5 h-3.5 shrink-0" />
-                <span>{srsData?.isLearned ? 'Learned' : 'Learn'}</span>
-                <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[M]</span>
-              </button>
             </div>
 
             {/* Prompt Content */}
@@ -1078,18 +1058,9 @@ export const StudySession: React.FC<StudySessionProps> = ({
               )}
             </div>
 
-            {/* Subtle Flip Hint Footer */}
-            <div className="text-center text-[11px] text-slate-500 font-medium tracking-wide flex items-center justify-center gap-1.5">
-              <RotateCw className="w-3 h-3 text-slate-600" />
-              <span>Tap or swipe up to flip • <kbd className="px-1 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700/60 font-mono text-[10px]">↑</kbd></span>
-            </div>
-          </div>
-
-          {/* ================= CARD BACK (REVEAL) ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30">
-            {/* Top Bar on Back: Ignore on Top Left, Center Badges, Learned on Top Right */}
+            {/* Bottom Bar on Front: Ignore on Bottom Left, Learned on Bottom Right */}
             <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
-              {/* Top Left: Ignore Button */}
+              {/* Bottom Left: Ignore Button */}
               <button
                 type="button"
                 onClick={handleToggleExcluded}
@@ -1105,29 +1076,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[X]</span>
               </button>
 
-              {/* Center Badges (Locked height, non-wrapping to prevent shifting below) */}
-              <div className="h-8 flex items-center justify-center gap-1.5 flex-nowrap shrink min-w-0">
-                {currentCard.gender_or_pos && (
-                  <span className="text-xs font-semibold px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm truncate max-w-[100px] sm:max-w-[150px] shrink whitespace-nowrap">
-                    {currentCard.gender_or_pos}
-                  </span>
-                )}
-                {ratingStatus && ratingStatus !== 'new' && (
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
-                    ratingStatus === 'again'
-                      ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
-                      : ratingStatus === 'hard'
-                      ? 'bg-amber-950/90 text-amber-300 border-amber-700/60'
-                      : ratingStatus === 'good'
-                      ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
-                      : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
-                  }`}>
-                    {ratingStatus}
-                  </span>
-                )}
-              </div>
-
-              {/* Top Right: Learned Button */}
+              {/* Bottom Right: Learned Button */}
               <button
                 type="button"
                 onClick={handleToggleLearned}
@@ -1142,6 +1091,40 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 <span>{srsData?.isLearned ? 'Learned' : 'Learn'}</span>
                 <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[M]</span>
               </button>
+            </div>
+          </div>
+
+          {/* ================= CARD BACK (REVEAL) ================= */}
+          <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30">
+            {/* Top Bar on Back: Word Info (Gender / POS) on Left, Rating Badge on Right */}
+            <div className="h-9 shrink-0 flex items-center justify-between gap-3 w-full select-none" onClick={(e) => e.stopPropagation()}>
+              {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
+              <div className="flex items-center gap-2 min-w-0 flex-1">
+                {currentCard.gender_or_pos ? (
+                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
+                    {currentCard.gender_or_pos}
+                  </span>
+                ) : (
+                  <span className="h-7 inline-block" />
+                )}
+              </div>
+
+              {/* SRS Rating Badge */}
+              <div className="flex items-center gap-1.5 shrink-0">
+                {ratingStatus && ratingStatus !== 'new' && (
+                  <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
+                    ratingStatus === 'again'
+                      ? 'bg-rose-950/90 text-rose-300 border-rose-700/60'
+                      : ratingStatus === 'hard'
+                      ? 'bg-amber-950/90 text-amber-300 border-amber-700/60'
+                      : ratingStatus === 'good'
+                      ? 'bg-sky-950/90 text-sky-300 border-sky-700/60'
+                      : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/60'
+                  }`}>
+                    {ratingStatus}
+                  </span>
+                )}
+              </div>
             </div>
 
             {/* Answer Content */}
@@ -1214,6 +1197,41 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   )}
                 </>
               )}
+            </div>
+
+            {/* Bottom Bar on Back: Ignore on Bottom Left, Learned on Bottom Right */}
+            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
+              {/* Bottom Left: Ignore Button */}
+              <button
+                type="button"
+                onClick={handleToggleExcluded}
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                  srsData?.isExcluded
+                    ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
+                    : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
+                }`}
+                title="Ignore card (exclude from drill) (Shortcut: X)"
+              >
+                <Ban className="w-3.5 h-3.5 shrink-0" />
+                <span>{srsData?.isExcluded ? 'Ignored' : 'Ignore'}</span>
+                <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[X]</span>
+              </button>
+
+              {/* Bottom Right: Learned Button */}
+              <button
+                type="button"
+                onClick={handleToggleLearned}
+                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                  srsData?.isLearned
+                    ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
+                    : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
+                }`}
+                title="Mark card as learned (Shortcut: M)"
+              >
+                <CheckCircle className="w-3.5 h-3.5 shrink-0" />
+                <span>{srsData?.isLearned ? 'Learned' : 'Learn'}</span>
+                <span className="text-[10px] opacity-75 font-mono hidden sm:inline">[M]</span>
+              </button>
             </div>
           </div>
         </div>

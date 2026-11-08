@@ -355,7 +355,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
     return (
       <div 
         key={unit.id}
-        className="glass-panel rounded-2xl p-5 sm:p-6 border border-slate-800/80 hover:border-sky-500/30 transition-all duration-300 shadow-xl hover:shadow-sky-500/5 group flex flex-col justify-between"
+        className="glass-panel bg-slate-900/90 rounded-2xl p-5 sm:p-6 border border-slate-700 hover:border-sky-500/50 transition-all duration-300 shadow-xl shadow-black/30 hover:shadow-sky-500/10 group flex flex-col justify-between"
       >
         <div>
           {/* Card Top Metadata & Status Row */}
@@ -376,14 +376,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
                 <span>Group: {code.group}</span>
               </span>
 
-              {/* Thematic Unit Context */}
-              {parsed.unitContext && (
-                <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-900/90 text-slate-300 border border-slate-800 flex items-center gap-1">
-                  <span className="text-slate-400">Unit:</span>
-                  <span className="text-slate-200">{parsed.unitContext}</span>
-                  {parsed.pageRange && (
-                    <span className="text-slate-400 font-mono text-[10px] ml-1">• {parsed.pageRange}</span>
-                  )}
+              {/* Textbook Page Range */}
+              {parsed.pageRange && (
+                <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-800/80 text-slate-300 border border-slate-700/80 font-mono">
+                  {parsed.pageRange}
                 </span>
               )}
 
@@ -444,7 +440,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
           {/* If Unit has multiple lessons, list them neatly */}
           {!isSingleLesson && (
-            <div className="mt-4 pt-3 border-t border-slate-800/80 space-y-2.5">
+            <div className="mt-4 pt-3 border-t border-slate-700/80 space-y-2.5">
               <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
                 Lessons ({unit.lessons.length})
               </span>
@@ -455,7 +451,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   return (
                     <div 
                       key={lesson.lesson_id}
-                      className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 transition-colors"
+                      className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-700/80 hover:border-slate-600 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 transition-colors shadow-sm"
                     >
                       <div className="min-w-0">
                         <div className="flex items-center gap-2">
@@ -521,7 +517,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         {/* Card Footer: Progress Bar, Audio Health & Action Buttons */}
-        <div className="mt-5 pt-4 border-t border-slate-800/80">
+        <div className="mt-5 pt-4 border-t border-slate-700/80">
           {/* Progress Indicators */}
           <div className="space-y-2 mb-4">
             <div className="flex items-center justify-between text-xs">
@@ -713,7 +709,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       )}
 
       {/* Filter Navigation Bar: Group Selection & Status Filtering */}
-      <div className="glass-panel p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-slate-800">
+      <div className="glass-panel bg-slate-900/80 p-3.5 sm:p-4 rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-4 border border-slate-700/80">
         {/* Group Filter (Dynamic Groups) */}
         <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
           <button
@@ -886,7 +882,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             const isKlik = group.id.toLowerCase().startsWith('klik');
             return (
               <div key={group.id} className="space-y-4">
-                <div className="flex items-center gap-2 pb-1.5 border-b border-slate-800">
+                <div className="flex items-center gap-2 pb-1.5 border-b border-slate-700/80">
                   <span className={`w-2.5 h-2.5 rounded-full ${isKlik ? 'bg-indigo-400' : 'bg-sky-400'}`} />
                   <h3 className="text-base font-bold text-white uppercase tracking-wider">
                     Group: {group.name}

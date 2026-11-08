@@ -5,7 +5,7 @@ created_at: '2026-10-25'
 units:
 - id: unit-00
   title: Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)
-  order: A1-00-A
+  order: OG-00-A
   lessons:
   - id: lesson-01
     file: unit-00/lesson-01.yaml
@@ -13,49 +13,49 @@ units:
       Rubrics)'
 - id: unit-01
   title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
-  order: A1-01-A
+  order: OG-01-A
   lessons:
   - id: lesson-01
     file: unit-01/lesson-01.yaml
     title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
 - id: unit-02
   title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
-  order: A1-02-A
+  order: OG-02-A
   lessons:
   - id: lesson-01
     file: unit-02/lesson-01.yaml
     title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
 - id: unit-03
   title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
-  order: A1-03-A
+  order: OG-03-A
   lessons:
   - id: lesson-01
     file: unit-03/lesson-01.yaml
     title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
 - id: unit-04
   title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
-  order: A1-04-A
+  order: OG-04-A
   lessons:
   - id: lesson-01
     file: unit-04/lesson-01.yaml
     title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
 - id: unit-05
   title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
-  order: A1-05-A
+  order: OG-05-A
   lessons:
   - id: lesson-01
     file: unit-05/lesson-01.yaml
     title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
 - id: unit-06
   title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
-  order: A1-06-A
+  order: OG-06-A
   lessons:
   - id: lesson-01
     file: unit-06/lesson-01.yaml
     title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
 - id: unit-07
   title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
-  order: A1-07-A
+  order: OG-07-A
   lessons:
   - id: lesson-01
     file: unit-07/lesson-01.yaml
