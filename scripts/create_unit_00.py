@@ -5,7 +5,6 @@ Designed specifically for learners using the 'Κλικ στα Ελληνικά' 
 for the Greek Citizenship Examination (ΠΕΓΠ) and CEFR Attainment in Greek (ΚΕΓ A1/A2/B1).
 """
 import sys
-import json
 import yaml
 from pathlib import Path
 
@@ -29,7 +28,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "διαβάζω",
-        "back_primary": "to read / read! (διαβάστε)",
+        "back_primary": "to read / read!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -48,7 +47,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "γράφω",
-        "back_primary": "to write / write! (γράψτε)",
+        "back_primary": "to write / write!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -67,7 +66,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "ακούω",
-        "back_primary": "to listen / listen! (ακούστε)",
+        "back_primary": "to listen / listen!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -86,7 +85,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "κοιτάζω",
-        "back_primary": "to look at / look! (κοιτάξτε)",
+        "back_primary": "to look at / look!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -105,7 +104,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "βλέπω",
-        "back_primary": "to see / see! / look! (δείτε)",
+        "back_primary": "to see / see! / look!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -124,7 +123,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "αντιστοιχίζω",
-        "back_primary": "to match / match! (αντιστοιχίστε)",
+        "back_primary": "to match / match!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -143,7 +142,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "συμπληρώνω",
-        "back_primary": "to fill in / complete! (συμπληρώστε)",
+        "back_primary": "to fill in / complete!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -162,7 +161,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "επιλέγω",
-        "back_primary": "to choose / select! (επιλέξτε)",
+        "back_primary": "to choose / select!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -181,7 +180,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "διαλέγω",
-        "back_primary": "to pick / choose! (διαλέξτε)",
+        "back_primary": "to pick / choose!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -200,7 +199,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "κυκλώνω",
-        "back_primary": "to circle / circle! (κυκλώστε)",
+        "back_primary": "to circle / circle!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -219,7 +218,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "υπογραμμίζω",
-        "back_primary": "to underline / underline! (υπογραμμίστε)",
+        "back_primary": "to underline / underline!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -238,7 +237,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "σημειώνω",
-        "back_primary": "to mark / tick / note! (σημειώστε)",
+        "back_primary": "to mark / tick / note!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -257,7 +256,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "απαντώ",
-        "back_primary": "to answer / answer! (απαντήστε)",
+        "back_primary": "to answer / answer!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type B1",
@@ -276,7 +275,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "βρίσκω",
-        "back_primary": "to find / find! (βρείτε)",
+        "back_primary": "to find / find!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -295,7 +294,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "βάζω",
-        "back_primary": "to put / put! (βάλτε)",
+        "back_primary": "to put / put!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -314,7 +313,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "διαγράφω",
-        "back_primary": "to cross out / strike through! (διαγράψτε)",
+        "back_primary": "to cross out / strike through!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -333,7 +332,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "διορθώνω",
-        "back_primary": "to correct / correct! (διορθώστε)",
+        "back_primary": "to correct / correct!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -352,7 +351,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "ξαναδιαβάζω",
-        "back_primary": "to re-read / re-read! (ξαναδιαβάστε)",
+        "back_primary": "to re-read / re-read!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -371,7 +370,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "συνεχίζω",
-        "back_primary": "to continue / continue! (συνεχίστε)",
+        "back_primary": "to continue / continue!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type A",
@@ -390,7 +389,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "εξηγώ",
-        "back_primary": "to explain / explain! (εξηγήστε)",
+        "back_primary": "to explain / explain!",
         "grammatical_info": {
             "part_of_speech": "verb",
             "verb_type": "Type B2",
@@ -588,7 +587,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "η εξέταση",
-        "back_primary": "the exam / examination (οι εξετάσεις)",
+        "back_primary": "the exam / examination",
         "grammatical_info": {
             "part_of_speech": "noun (feminine)",
             "plural": "οι εξετάσεις",
@@ -622,7 +621,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "η οδηγία",
-        "back_primary": "the instruction / direction (οι οδηγίες)",
+        "back_primary": "the instruction / direction",
         "grammatical_info": {
             "part_of_speech": "noun (feminine)",
             "plural": "οι οδηγίες",
@@ -945,7 +944,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "η άσκηση",
-        "back_primary": "the exercise / drill (οι ασκήσεις)",
+        "back_primary": "the exercise / drill",
         "grammatical_info": {
             "part_of_speech": "noun (feminine)",
             "plural": "οι ασκήσεις",
@@ -1051,7 +1050,7 @@ cards_u0 = [
         "unit_theme": "Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)",
         "card_type": "vocabulary",
         "front": "ο κανόνας",
-        "back_primary": "the rule (οι κανόνες)",
+        "back_primary": "the rule",
         "grammatical_info": {
             "part_of_speech": "noun (masculine)",
             "plural": "οι κανόνες",

@@ -15,7 +15,8 @@ import {
   Download, 
   HelpCircle,
   Sparkles,
-  BookOpen
+  BookOpen,
+  Lightbulb
 } from 'lucide-react';
 
 interface HelpProps {
@@ -86,6 +87,14 @@ export const Help: React.FC<HelpProps> = ({ onBackToDashboard, onStartStudy }) =
                 </span>
                 <kbd className="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-sky-300 font-mono text-xs font-bold shadow-sm">
                   ↑ Up Arrow
+                </kbd>
+              </li>
+              <li className="flex items-center justify-between text-slate-300 py-1 border-b border-slate-800/60">
+                <span className="flex items-center gap-2">
+                  <Lightbulb className="w-4 h-4 text-amber-400" /> Need a Hint (Memory Clue in EN→EL)
+                </span>
+                <kbd className="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-amber-300 font-mono text-xs font-bold shadow-sm">
+                  H
                 </kbd>
               </li>
               <li className="flex items-center justify-between text-slate-300 py-1 border-b border-slate-800/60">

@@ -30,7 +30,7 @@ entries:
 - id: A1-U00-001
   greek: διαβάζω
   phonetic_hint: ''
-  english: to read / read! (διαβάστε)
+  english: to read / read!
   notes: Core regular Type A verb. In exams and textbooks, the polite/plural imperative
     'διαβάστε' (read!) is universally used for rubrics.
   gender_or_pos: verb
@@ -49,7 +49,7 @@ entries:
 - id: A1-U00-002
   greek: γράφω
   phonetic_hint: ''
-  english: to write / write! (γράψτε)
+  english: to write / write!
   notes: Imperative 'γράψτε' marks all written production tasks on citizenship and
     KEG test papers.
   gender_or_pos: verb
@@ -67,7 +67,7 @@ entries:
 - id: A1-U00-003
   greek: ακούω
   phonetic_hint: ''
-  english: to listen / listen! (ακούστε)
+  english: to listen / listen!
   notes: Essential for listening tests (κατανόηση προφορικού λόγου). Test recordings
     always begin with 'Ακούστε'.
   gender_or_pos: verb
@@ -85,7 +85,7 @@ entries:
 - id: A1-U00-004
   greek: κοιτάζω
   phonetic_hint: ''
-  english: to look at / look! (κοιτάξτε)
+  english: to look at / look!
   notes: 'Frequent in Klik exercises (e.g. ''Κοιτάξτε τις εικόνες''). Imperative plural:
     κοιτάξτε.'
   gender_or_pos: verb
@@ -104,7 +104,7 @@ entries:
 - id: A1-U00-005
   greek: βλέπω
   phonetic_hint: ''
-  english: to see / see! / look! (δείτε)
+  english: to see / see! / look!
   notes: 'Irregular aorist imperative: δείτε (see! / look!). Constantly used with
     ''Δείτε το παράδειγμα''.'
   gender_or_pos: verb
@@ -122,7 +122,7 @@ entries:
 - id: A1-U00-006
   greek: αντιστοιχίζω
   phonetic_hint: ''
-  english: to match / match! (αντιστοιχίστε)
+  english: to match / match!
   notes: The universal command for matching exercises in Klik books and Greek citizenship
     exams.
   gender_or_pos: verb
@@ -141,7 +141,7 @@ entries:
 - id: A1-U00-007
   greek: συμπληρώνω
   phonetic_hint: ''
-  english: to fill in / complete! (συμπληρώστε)
+  english: to fill in / complete!
   notes: Imperative 'συμπληρώστε' introduces fill-in-the-blank questions (συμπλήρωση
     κενών) everywhere.
   gender_or_pos: verb
@@ -160,7 +160,7 @@ entries:
 - id: A1-U00-008
   greek: επιλέγω
   phonetic_hint: ''
-  english: to choose / select! (επιλέξτε)
+  english: to choose / select!
   notes: 'Formal term for ''choose'' used in official test rubrics. Imperative: επιλέξτε.'
   gender_or_pos: verb
   audio: epilego-d05006.mp3
@@ -178,7 +178,7 @@ entries:
 - id: A1-U00-009
   greek: διαλέγω
   phonetic_hint: ''
-  english: to pick / choose! (διαλέξτε)
+  english: to pick / choose!
   notes: Slightly less formal synonym of 'επιλέγω', commonly found in Klik textbook
     exercises.
   gender_or_pos: verb
@@ -196,7 +196,7 @@ entries:
 - id: A1-U00-010
   greek: κυκλώνω
   phonetic_hint: ''
-  english: to circle / circle! (κυκλώστε)
+  english: to circle / circle!
   notes: From 'ο κύκλος' (circle). 'Κυκλώστε το σωστό' is a standard instruction across
     all A1-B1 exams.
   gender_or_pos: verb
@@ -214,7 +214,7 @@ entries:
 - id: A1-U00-011
   greek: υπογραμμίζω
   phonetic_hint: ''
-  english: to underline / underline! (υπογραμμίστε)
+  english: to underline / underline!
   notes: 'From ''υπό'' (under) + ''γραμμή'' (line). Imperative: υπογραμμίστε.'
   gender_or_pos: verb
   audio: ypogrammizo-4d3839.mp3
@@ -231,7 +231,7 @@ entries:
 - id: A1-U00-012
   greek: σημειώνω
   phonetic_hint: ''
-  english: to mark / tick / note! (σημειώστε)
+  english: to mark / tick / note!
   notes: 'Universal in True/False and multiple-choice rubrics: ''Σημειώστε Σ ή Λ''.'
   gender_or_pos: verb
   audio: simeiono-58441c.mp3
@@ -248,7 +248,7 @@ entries:
 - id: A1-U00-013
   greek: απαντώ
   phonetic_hint: ''
-  english: to answer / answer! (απαντήστε)
+  english: to answer / answer!
   notes: 'Type B1 contract verb. Takes preposition ''σε'': απαντώ σε μία ερώτηση (I
     answer a question).'
   gender_or_pos: verb
@@ -266,7 +266,7 @@ entries:
 - id: A1-U00-014
   greek: βρίσκω
   phonetic_hint: ''
-  english: to find / find! (βρείτε)
+  english: to find / find!
   notes: 'Irregular aorist imperative: βρείτε (find!). Common prompt: ''Βρείτε το
     λάθος'' (Find the error).'
   gender_or_pos: verb
@@ -284,7 +284,7 @@ entries:
 - id: A1-U00-015
   greek: βάζω
   phonetic_hint: ''
-  english: to put / put! (βάλτε)
+  english: to put / put!
   notes: 'Imperative: βάλτε. Often paired with ''στη σωστή σειρά'' (in the correct
     order) or ''σε κύκλο'' (in a circle).'
   gender_or_pos: verb
@@ -302,7 +302,7 @@ entries:
 - id: A1-U00-016
   greek: διαγράφω
   phonetic_hint: ''
-  english: to cross out / strike through! (διαγράψτε)
+  english: to cross out / strike through!
   notes: 'Used in ''odd-one-out'' (βρες το περιττό) vocabulary drills in Klik A1.
     Imperative: διαγράψτε.'
   gender_or_pos: verb
@@ -320,7 +320,7 @@ entries:
 - id: A1-U00-017
   greek: διορθώνω
   phonetic_hint: ''
-  english: to correct / correct! (διορθώστε)
+  english: to correct / correct!
   notes: 'Imperative: διορθώστε. Core skill for self-editing before submitting citizenship
     test sheets.'
   gender_or_pos: verb
@@ -339,7 +339,7 @@ entries:
 - id: A1-U00-018
   greek: ξαναδιαβάζω
   phonetic_hint: ''
-  english: to re-read / re-read! (ξαναδιαβάστε)
+  english: to re-read / re-read!
   notes: Prefix 'ξανα-' denotes repetition ('again'). Essential exam strategy reminder.
   gender_or_pos: verb
   audio: xanadiavazo-08edcd.mp3
@@ -356,7 +356,7 @@ entries:
 - id: A1-U00-019
   greek: συνεχίζω
   phonetic_hint: ''
-  english: to continue / continue! (συνεχίστε)
+  english: to continue / continue!
   notes: 'Imperative: συνεχίστε. Frequent in textbook pair-work and speaking role-play
     tasks.'
   gender_or_pos: verb
@@ -374,7 +374,7 @@ entries:
 - id: A1-U00-020
   greek: εξηγώ
   phonetic_hint: ''
-  english: to explain / explain! (εξηγήστε)
+  english: to explain / explain!
   notes: 'Contract Type B2 verb. In speaking examinations, examiners frequently prompt:
     ''Εξηγήστε μου...'' (Explain to me...).'
   gender_or_pos: verb
@@ -554,7 +554,7 @@ entries:
 - id: A1-U00-032
   greek: η εξέταση
   phonetic_hint: ''
-  english: the exam / examination (οι εξετάσεις)
+  english: the exam / examination
   notes: 'Feminine noun in -ση (plural: -σεις). Frequently used in plural: ''δίνω
     εξετάσεις'' (I sit for exams).'
   gender_or_pos: noun (feminine)
@@ -586,7 +586,7 @@ entries:
 - id: A1-U00-034
   greek: η οδηγία
   phonetic_hint: ''
-  english: the instruction / direction (οι οδηγίες)
+  english: the instruction / direction
   notes: 'Almost always plural on exams: ''Οι οδηγίες της εξέτασης'' (The exam instructions).'
   gender_or_pos: noun (feminine)
   audio: i-odigia-ebb258.mp3
@@ -884,7 +884,7 @@ entries:
 - id: A1-U00-053
   greek: η άσκηση
   phonetic_hint: ''
-  english: the exercise / drill (οι ασκήσεις)
+  english: the exercise / drill
   notes: 'Feminine in -ση (plural: οι ασκήσεις). Numbered throughout every chapter
     of Klik.'
   gender_or_pos: noun (feminine)
@@ -976,7 +976,7 @@ entries:
 - id: A1-U00-059
   greek: ο κανόνας
   phonetic_hint: ''
-  english: the rule (οι κανόνες)
+  english: the rule
   notes: 'Masculine in -ας (plural: οι κανόνες). Boxed in yellow/blue in ''Κλικ''
     textbook grammar sections.'
   gender_or_pos: noun (masculine)

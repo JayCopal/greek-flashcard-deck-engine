@@ -355,84 +355,75 @@ export const Dashboard: React.FC<DashboardProps> = ({
     return (
       <div 
         key={unit.id}
-        className="glass-panel bg-slate-900/90 rounded-2xl p-5 sm:p-6 border border-slate-700 hover:border-sky-500/50 transition-all duration-300 shadow-xl shadow-black/30 hover:shadow-sky-500/10 group flex flex-col justify-between"
+        className="lesson-card bg-slate-900/90 rounded-2xl p-5 sm:p-6 border-2 border-slate-600 hover:border-sky-400 transition-all duration-300 shadow-xl shadow-black/30 hover:shadow-sky-500/10 group flex flex-col justify-between"
       >
         <div>
-          {/* Card Top Metadata & Status Row */}
-          <div className="flex flex-wrap items-center justify-between gap-2.5 mb-3.5">
-            <div className="flex flex-wrap items-center gap-2">
-              {/* Lesson Code Pill */}
-              <span className="px-2.5 py-1 rounded-lg text-xs font-black tracking-wider uppercase bg-sky-500/15 text-sky-400 border border-sky-500/30 shadow-sm">
-                {lessonLabel}
+          {/* Line 1: Lesson Name & Progress Status */}
+          <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-2.5">
+            {/* Lesson Code Pill */}
+            <span className="px-2.5 py-1 rounded-lg text-xs font-black tracking-wider uppercase bg-sky-500/15 text-sky-400 border border-sky-500/30 shadow-sm">
+              {lessonLabel}
+            </span>
+
+            {/* Quick Status Selector */}
+            {isSingleLesson && primaryLesson && (
+              <select
+                value={unitEffectiveStatus === 'in_progress' ? 'in_progress_1' : unitEffectiveStatus}
+                onChange={(e) => handleQuickLessonStatusChange(unit.id, primaryLesson.lesson_id, e.target.value as LessonStatus)}
+                className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-amber-500 ${getLessonStatusClasses(unitEffectiveStatus)}`}
+                title="Change Lesson Mastery Status (Levels 1 to 5)"
+              >
+                <option value="not_started">⚪ Not Started ⚪</option>
+                <option value="in_progress_1">🟡 In Progress 1 🟡</option>
+                <option value="in_progress_2">🟡 In Progress 2 🟡</option>
+                <option value="in_progress_3">🟠 In Progress 3 🟠</option>
+                <option value="in_progress_4">🟠 In Progress 4 🟠</option>
+                <option value="in_progress_5">🟠 In Progress 5 🟠</option>
+                <option value="learned">🟢 Learned 🟢</option>
+              </select>
+            )}
+          </div>
+
+          {/* Line 2: Group Badge First, Notes Button, Page Numbers */}
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            {/* Group Badge */}
+            <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${
+              parsed.isTextbook 
+                ? 'bg-indigo-950/70 text-indigo-300 border-indigo-700/50' 
+                : 'bg-slate-800 text-slate-300 border-slate-700'
+            }`}>
+              {parsed.isTextbook && <BookMarked className="w-3.5 h-3.5 text-indigo-400" />}
+              <span>Group: {code.group}</span>
+            </span>
+
+            {/* Notes Button */}
+            {isSingleLesson && primaryLesson && notes && (
+              <button
+                type="button"
+                onClick={() => setViewingNotesLesson({ lesson: primaryLesson, lessonLabel })}
+                className="px-2.5 py-1 rounded-lg bg-sky-950/70 text-sky-400 hover:bg-sky-900/80 border border-sky-800 text-[11px] font-bold flex items-center gap-1.5 transition-colors shadow-sm"
+                title="View Lesson Notes"
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span>Notes</span>
+              </button>
+            )}
+
+            {/* Textbook Page Range */}
+            {parsed.pageRange && (
+              <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-800/80 text-slate-300 border border-slate-700/80 font-mono">
+                {parsed.pageRange}
               </span>
-
-              {/* Group Badge */}
-              <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${
-                parsed.isTextbook 
-                  ? 'bg-indigo-950/70 text-indigo-300 border-indigo-700/50' 
-                  : 'bg-slate-800 text-slate-300 border-slate-700'
-              }`}>
-                {parsed.isTextbook && <BookMarked className="w-3.5 h-3.5 text-indigo-400" />}
-                <span>Group: {code.group}</span>
-              </span>
-
-              {/* Textbook Page Range */}
-              {parsed.pageRange && (
-                <span className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-800/80 text-slate-300 border border-slate-700/80 font-mono">
-                  {parsed.pageRange}
-                </span>
-              )}
-
-              {/* Expansion Badge */}
-              {parsed.isExpansion && (
-                <span className="px-2 py-0.5 rounded-lg text-[11px] font-bold bg-purple-950/80 text-purple-300 border border-purple-600/60 shadow-sm">
-                  Expansion of Lesson {parsed.expansionTarget || 'KlikA1-05-A'}
-                </span>
-              )}
-            </div>
-
-            {/* Quick Status Selector & Notes Button */}
-            <div className="flex items-center gap-2">
-              {isSingleLesson && primaryLesson && (
-                <>
-                  <select
-                    value={unitEffectiveStatus === 'in_progress' ? 'in_progress_1' : unitEffectiveStatus}
-                    onChange={(e) => handleQuickLessonStatusChange(unit.id, primaryLesson.lesson_id, e.target.value as LessonStatus)}
-                    className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border transition-all cursor-pointer focus:outline-none focus:ring-1 focus:ring-amber-500 ${getLessonStatusClasses(unitEffectiveStatus)}`}
-                    title="Change Lesson Mastery Status (Levels 1 to 5)"
-                  >
-                    <option value="not_started">⚪ Not Started ⚪</option>
-                    <option value="in_progress_1">🟡 In Progress 1 🟡</option>
-                    <option value="in_progress_2">🟡 In Progress 2 🟡</option>
-                    <option value="in_progress_3">🟠 In Progress 3 🟠</option>
-                    <option value="in_progress_4">🟠 In Progress 4 🟠</option>
-                    <option value="in_progress_5">🟠 In Progress 5 🟠</option>
-                    <option value="learned">🟢 Learned 🟢</option>
-                  </select>
-
-                  {notes && (
-                    <button
-                      type="button"
-                      onClick={() => setViewingNotesLesson({ lesson: primaryLesson, lessonLabel })}
-                      className="px-2.5 py-1 rounded-lg bg-sky-950/70 text-sky-400 hover:bg-sky-900/80 border border-sky-800 text-[11px] font-bold flex items-center gap-1.5 transition-colors shadow-sm"
-                      title="View Lesson Notes"
-                    >
-                      <FileText className="w-3.5 h-3.5" />
-                      <span>Notes</span>
-                    </button>
-                  )}
-                </>
-              )}
-            </div>
+            )}
           </div>
 
           {/* Unified Title & Subtitle */}
-          <div className="mt-1">
+          <div>
             <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight group-hover:text-sky-300 transition-colors leading-snug">
               {parsed.primaryTitle}
             </h3>
             {parsed.subtitle && (
-              <p className="text-xs sm:text-sm text-slate-400 mt-1.5 leading-relaxed font-normal">
+              <p className="text-xs sm:text-sm text-slate-400 mt-1 leading-relaxed font-normal">
                 {parsed.subtitle}
               </p>
             )}
@@ -517,9 +508,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         {/* Card Footer: Progress Bar, Audio Health & Action Buttons */}
-        <div className="mt-5 pt-4 border-t border-slate-700/80">
+        <div className="mt-3.5 pt-2.5 border-t border-slate-700/80">
           {/* Progress Indicators */}
-          <div className="space-y-2 mb-4">
+          <div className="space-y-1.5 mb-2.5">
             <div className="flex items-center justify-between text-xs">
               <div className="flex items-center gap-2">
                 <span className="font-semibold text-emerald-400">
@@ -537,7 +528,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
 
             {/* Visual progress bar */}
-            <div className="w-full h-2 bg-slate-800/90 rounded-full overflow-hidden flex shadow-inner">
+            <div className="w-full h-1.5 bg-slate-800/90 rounded-full overflow-hidden flex shadow-inner">
               <div 
                 className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-500"
                 style={{ width: `${unitLearnedPct}%` }}
@@ -547,7 +538,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
 
           {/* Action Buttons */}
-          <div className="flex items-center justify-between gap-3 pt-1">
+          <div className="flex items-center justify-between gap-3">
             {primaryLesson && (
               <button
                 type="button"

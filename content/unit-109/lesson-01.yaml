@@ -1,0 +1,983 @@
+unit_id: unit-109
+lesson_id: lesson-01
+title: 'Ενότητα 8: Από τον μανάβη στο πιάτο μας! — Βασικό Λεξιλόγιο (Pages 175-194)'
+description: 'Core vocabulary for Unit 8 of Klik sta Ellinika A1: Food retail venues
+  (μανάβικο, κρεοπωλείο, φούρνος, περίπτερο, λαϊκή αγορά), fresh produce (μήλα, πορτοκάλια,
+  ντομάτες, αγγούρια, πατάτες, κρεμμύδια), meat and poultry (κρέας, κοτόπουλο, μοσχάρι,
+  χοιρινό, αρνί, κιμάς), dairy, bakery and pantry staples (γάλα, τυρί, φέτα, γιαούρτι,
+  ψωμί, μακαρόνια, λάδι, αλάτι), beverages and kiosk items (αναψυκτικό, χυμός, μπύρα,
+  ούζο, σοκολάτα, παγωτό).'
+lesson_status: not_started
+entries:
+- id: A1-U109-001
+  greek: το μανάβικο
+  phonetic_hint: to mah-NAH-vee-ko
+  english: greengrocer's shop / produce store
+  notes: Klik A1 p. 175, 178. Neuter noun in -ο with plural in -α. Retail store selling
+    fresh fruit and vegetables.
+  gender_or_pos: noun (neuter)
+  audio: to-manaviko-e955b6.mp3
+  status: verified
+  example_el: Πηγαίνω στο μανάβικο για να πάρω φρέσκα φρούτα.
+  example_en: I am going to the greengrocer's to get fresh fruits.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μανάβικα
+    accusative_singular: το μανάβικο
+  keg_communicative_function: Naming fresh produce retail stores
+- id: A1-U109-002
+  greek: ο μανάβης
+  phonetic_hint: o mah-NAH-vees
+  english: greengrocer (male)
+  notes: Klik A1 p. 175, 178. Masculine noun in -ης with plural in -ηδες. The person
+    running a produce shop.
+  gender_or_pos: noun (masculine)
+  audio: o-manavis-e17ac3.mp3
+  status: verified
+  example_el: Ο μανάβης στη γειτονιά μας έχει πάντα τις καλύτερες ντομάτες.
+  example_en: The greengrocer in our neighborhood always has the best tomatoes.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μανάβηδες
+    accusative_singular: τον μανάβη
+  keg_communicative_function: Identifying the greengrocer merchant
+- id: A1-U109-003
+  greek: το κρεοπωλείο
+  phonetic_hint: to kreh-o-po-LEE-o
+  english: butcher shop
+  notes: Klik A1 p. 175, 178. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-kreopoleio-6cbed0.mp3
+  status: verified
+  example_el: Αγοράζουμε μοσχάρι και κοτόπουλο από το κρεοπωλείο.
+  example_en: We buy beef and chicken from the butcher shop.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρεοπωλεία
+    accusative_singular: το κρεοπωλείο
+  keg_communicative_function: Naming the butcher shop
+- id: A1-U109-004
+  greek: ο κρεοπώλης
+  phonetic_hint: o kreh-o-PO-lees
+  english: butcher (male)
+  notes: Klik A1 p. 175, 178. Masculine noun in -ης with plural in -ες.
+  gender_or_pos: noun (masculine)
+  audio: o-kreopolis-938349.mp3
+  status: verified
+  example_el: Ο κρεοπώλης κόβει το κρέας σε λεπτές μπριζόλες.
+  example_en: The butcher cuts the meat into thin chops.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κρεοπώλες
+    accusative_singular: τον κρεοπώλη
+  keg_communicative_function: Identifying the butcher merchant
+- id: A1-U109-005
+  greek: ο φούρνος
+  phonetic_hint: o FOOR-nos
+  english: bakery / baker's shop / oven
+  notes: Klik A1 p. 176, 178. Masculine noun in -ος with plural in -οι.
+  gender_or_pos: noun (masculine)
+  audio: o-foyrnos-10fcda.mp3
+  status: verified
+  example_el: Παίρνουμε ζεστό ψωμί κάθε πρωί από τον φούρνο.
+  example_en: We get hot bread every morning from the bakery.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι φούρνοι
+    accusative_singular: τον φούρνο
+  keg_communicative_function: Naming the neighborhood bakery
+- id: A1-U109-006
+  greek: το περίπτερο
+  phonetic_hint: to peh-REE-pteh-ro
+  english: kiosk / street newsstand
+  notes: Klik A1 p. 179. Neuter noun in -ο with plural in -α. Iconic Greek street
+    kiosk selling snacks, drinks, and print media.
+  gender_or_pos: noun (neuter)
+  audio: to-periptero-916ec9.mp3
+  status: verified
+  example_el: Στην Ελλάδα υπάρχουν πολλά περίπτερα πάνω στα πεζοδρόμια.
+  example_en: In Greece there are many kiosks on the sidewalks.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα περίπτερα
+    accusative_singular: το περίπτερο
+  keg_communicative_function: Identifying the traditional Greek kiosk
+- id: A1-U109-007
+  greek: η λαϊκή αγορά
+  phonetic_hint: ee lah-ee-KEE ah-go-RAH
+  english: farmer's market / open-air street market
+  notes: Klik A1 p. 175, 178. Feminine noun phrase with adjective (η λαϊκή). Weekly
+    open street market for fresh produce.
+  gender_or_pos: noun (feminine)
+  audio: i-laiki-agora-a4e79f.mp3
+  status: verified
+  example_el: Κάθε Πέμπτη έχει λαϊκή αγορά στον δρόμο μας.
+  example_en: Every Thursday there is a street market on our road.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι λαϊκές αγορές
+    accusative_singular: τη λαϊκή αγορά
+  keg_communicative_function: Referring to weekly open-air produce markets
+- id: A1-U109-008
+  greek: το σουβλατζίδικο
+  phonetic_hint: to soov-lah-DZEE-thee-ko
+  english: souvlaki shop / grill house
+  notes: Klik A1 p. 180, 192. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-soyvlatzidiko-631a45.mp3
+  status: verified
+  example_el: Παραγγέλνουμε πίτες με γύρο από το σουβλατζίδικο.
+  example_en: We order pita gyros from the souvlaki shop.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σουβλατζίδικα
+    accusative_singular: το σουβλατζίδικο
+  keg_communicative_function: Identifying Greek fast-food grill eateries
+- id: A1-U109-009
+  greek: η ταβέρνα
+  phonetic_hint: ee tah-VER-nah
+  english: tavern / traditional restaurant
+  notes: Klik A1 p. 188, 192. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-taverna-c7c81a.mp3
+  status: verified
+  example_el: Το Σάββατο τρώμε ψάρι σε μια παραθαλάσσια ταβέρνα.
+  example_en: On Saturday we eat fish in a seaside tavern.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ταβέρνες
+    accusative_singular: την ταβέρνα
+  keg_communicative_function: Naming traditional Greek dining establishments
+- id: A1-U109-010
+  greek: το τρόφιμο
+  phonetic_hint: to TRO-fee-mo
+  english: foodstuff / food item / groceries (pl.)
+  notes: Klik A1 p. 175, 177, 194. Neuter noun in -ο, commonly used in plural (τα
+    τρόφιμα) for groceries.
+  gender_or_pos: noun (neuter)
+  audio: to-trofimo-c3c2c4.mp3
+  status: verified
+  example_el: Αγοράζουμε όλα τα απαραίτητα τρόφιμα από το σούπερ μάρκετ.
+  example_en: We buy all the necessary groceries from the supermarket.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τρόφιμα
+    accusative_singular: το τρόφιμο
+  keg_communicative_function: Categorizing grocery foodstuffs
+- id: A1-U109-011
+  greek: το μήλο
+  phonetic_hint: to MEE-lo
+  english: apple
+  notes: Klik A1 p. 178. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-milo-8bba30.mp3
+  status: verified
+  example_el: Ένα μήλο την ημέρα κάνει καλό στην υγεία.
+  example_en: An apple a day is good for your health.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μήλα
+    accusative_singular: το μήλο
+  keg_communicative_function: Naming common orchard fruits
+- id: A1-U109-012
+  greek: το πορτοκάλι
+  phonetic_hint: to por-to-KAH-lee
+  english: orange (fruit)
+  notes: Klik A1 p. 178. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-portokali-82af5a.mp3
+  status: verified
+  example_el: Στύβω δύο πορτοκάλια για να φτιάξω φρέσκο χυμό.
+  example_en: I squeeze two oranges to make fresh juice.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πορτοκάλια
+    accusative_singular: το πορτοκάλι
+  keg_communicative_function: Identifying citrus fruits
+- id: A1-U109-013
+  greek: η μπανάνα
+  phonetic_hint: ee bah-NAH-nah
+  english: banana
+  notes: Klik A1 p. 178. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mpanana-a6e0b4.mp3
+  status: verified
+  example_el: Οι μπανάνες είναι πλούσιες σε κάλιο και ενέργεια.
+  example_en: Bananas are rich in potassium and energy.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπανάνες
+    accusative_singular: την μπανάνα
+  keg_communicative_function: Naming tropical fruits
+- id: A1-U109-014
+  greek: το λεμόνι
+  phonetic_hint: to leh-MO-nee
+  english: lemon
+  notes: Klik A1 p. 178, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-lemoni-f189da.mp3
+  status: verified
+  example_el: Βάζουμε λεμόνι και ρίγανη στο ψητό κρέας.
+  example_en: We put lemon and oregano on the roast meat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λεμόνια
+    accusative_singular: το λεμόνι
+  keg_communicative_function: Naming culinary citrus fruits
+- id: A1-U109-015
+  greek: το αχλάδι
+  phonetic_hint: to ah-KHLAH-thee
+  english: pear
+  notes: Klik A1 p. 178. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-achladi-cdb02a.mp3
+  status: verified
+  example_el: Τα ώριμα αχλάδια είναι πολύ γλυκά και ζουμερά.
+  example_en: Ripe pears are very sweet and juicy.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αχλάδια
+    accusative_singular: το αχλάδι
+  keg_communicative_function: Naming orchard fruits
+- id: A1-U109-016
+  greek: το ροδάκινο
+  phonetic_hint: to ro-THAH-kee-no
+  english: peach
+  notes: Klik A1 p. 178. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-rodakino-5c6282.mp3
+  status: verified
+  example_el: Το καλοκαίρι τρώμε νόστιμα ελληνικά ροδάκινα.
+  example_en: In summer we eat delicious Greek peaches.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ροδάκινα
+    accusative_singular: το ροδάκινο
+  keg_communicative_function: Naming summer stone fruits
+- id: A1-U109-017
+  greek: το σταφύλι
+  phonetic_hint: to stah-FEE-lee
+  english: grape / cluster of grapes
+  notes: Klik A1 p. 178. Neuter noun in -ι with plural in -ια (τα σταφύλια).
+  gender_or_pos: noun (neuter)
+  audio: to-stafyli-345729.mp3
+  status: verified
+  example_el: Το φθινόπωρο μαζεύουμε τα γλυκά σταφύλια από το αμπέλι.
+  example_en: In autumn we harvest the sweet grapes from the vineyard.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σταφύλια
+    accusative_singular: το σταφύλι
+  keg_communicative_function: Naming vineyard fruits
+- id: A1-U109-018
+  greek: η ντομάτα
+  phonetic_hint: ee do-MAH-tah
+  english: tomato
+  notes: Klik A1 p. 178, 181, 183. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-ntomata-d5f72a.mp3
+  status: verified
+  example_el: Κόβω ώριμες ντομάτες για τη χωριάτικη σαλάτα.
+  example_en: I cut ripe tomatoes for the Greek salad.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ντομάτες
+    accusative_singular: τη ντομάτα
+  keg_communicative_function: Identifying essential salad vegetables
+- id: A1-U109-019
+  greek: το αγγούρι
+  phonetic_hint: to ahn-GOO-ree
+  english: cucumber
+  notes: Klik A1 p. 178, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-aggoyri-984078.mp3
+  status: verified
+  example_el: Το αγγούρι είναι δροσερό και ταιριάζει με το τζατζίκι.
+  example_en: The cucumber is refreshing and pairs well with tzatziki.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αγγούρια
+    accusative_singular: το αγγούρι
+  keg_communicative_function: Naming salad vegetables
+- id: A1-U109-020
+  greek: η πατάτα
+  phonetic_hint: ee pah-TAH-tah
+  english: potato
+  notes: Klik A1 p. 178, 183, 192. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-patata-c72a6d.mp3
+  status: verified
+  example_el: Παραγγείλαμε πατάτες τηγανητές με ρίγανη.
+  example_en: We ordered french fries with oregano.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πατάτες
+    accusative_singular: την πατάτα
+  keg_communicative_function: Naming root vegetables and popular sides
+- id: A1-U109-021
+  greek: το κρεμμύδι
+  phonetic_hint: to kreh-MEE-thee
+  english: onion
+  notes: Klik A1 p. 178, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-kremmydi-ad7dd2.mp3
+  status: verified
+  example_el: Βάζουμε ψιλοκομμένο κρεμμύδι μέσα στη σαλάτα.
+  example_en: We put finely chopped onion inside the salad.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρεμμύδια
+    accusative_singular: το κρεμμύδι
+  keg_communicative_function: Identifying allium culinary vegetables
+- id: A1-U109-022
+  greek: το σκόρδο
+  phonetic_hint: to SKOR-tho
+  english: garlic
+  notes: Klik A1 p. 178, 181. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-skordo-597e2f.mp3
+  status: verified
+  example_el: Το τζατζίκι φτιάχνεται με γιαούρτι, αγγούρι και σκόρδο.
+  example_en: Tzatziki is made with yogurt, cucumber, and garlic.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σκόρδα
+    accusative_singular: το σκόρδο
+  keg_communicative_function: Naming culinary seasoning vegetables
+- id: A1-U109-023
+  greek: το καρότο
+  phonetic_hint: to kah-RO-to
+  english: carrot
+  notes: Klik A1 p. 178, 181, 183. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-karoto-c6401a.mp3
+  status: verified
+  example_el: Φτιάχνουμε σαλάτα με τριμμένο λάχανο και καρότο.
+  example_en: We make a salad with grated cabbage and carrot.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καρότα
+    accusative_singular: το καρότο
+  keg_communicative_function: Naming root culinary vegetables
+- id: A1-U109-024
+  greek: το λάχανο
+  phonetic_hint: to LAH-khah-no
+  english: cabbage
+  notes: Klik A1 p. 178, 181. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-lachano-de05f4.mp3
+  status: verified
+  example_el: Τον χειμώνα τρώμε συχνά λαχανοσαλάτα με ελαιόλαδο.
+  example_en: In winter we often eat cabbage salad with olive oil.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λάχανα
+    accusative_singular: το λάχανο
+  keg_communicative_function: Naming leafy winter vegetables
+- id: A1-U109-025
+  greek: το μαρούλι
+  phonetic_hint: to mah-ROO-lee
+  english: lettuce
+  notes: Klik A1 p. 178, 193. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-maroyli-b24021.mp3
+  status: verified
+  example_el: Πλύνε καλά το μαρούλι πριν φτιάξεις την πράσινη σαλάτα.
+  example_en: Wash the lettuce well before making the green salad.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μαρούλια
+    accusative_singular: το μαρούλι
+  keg_communicative_function: Naming salad greens
+- id: A1-U109-026
+  greek: η πιπεριά
+  phonetic_hint: ee pee-peh-RYAH
+  english: bell pepper / pepper (vegetable)
+  notes: Klik A1 p. 178, 183. Feminine noun in -ά with plural in -ές.
+  gender_or_pos: noun (feminine)
+  audio: i-piperia-c2273a.mp3
+  status: verified
+  example_el: Για τα γεμιστά χρειαζόμαστε πράσινες και κόκκινες πιπεριές.
+  example_en: For stuffed vegetables we need green and red bell peppers.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πιπεριές
+    accusative_singular: την πιπεριά
+  keg_communicative_function: Naming cooking peppers
+- id: A1-U109-027
+  greek: ο αρακάς
+  phonetic_hint: o ah-rah-KAHS
+  english: peas / green peas
+  notes: Klik A1 p. 178. Masculine noun in -άς with plural in -άδες.
+  gender_or_pos: noun (masculine)
+  audio: o-arakas-80463a.mp3
+  status: verified
+  example_el: Μαγειρεύουμε λαδερό αρακά με πατάτες και καρότα.
+  example_en: We cook green peas in olive oil with potatoes and carrots.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι αρακάδες
+    accusative_singular: τον αρακά
+  keg_communicative_function: Naming legumes and green vegetables
+- id: A1-U109-028
+  greek: η ελιά
+  phonetic_hint: ee eh-LYAH
+  english: olive / olive tree
+  notes: Klik A1 p. 177, 181, 183. Feminine noun in -ά with plural in -ές.
+  gender_or_pos: noun (feminine)
+  audio: i-elia-793602.mp3
+  status: verified
+  example_el: Οι μαύρες ελιές Καλαμάτας είναι παγκοσμίως γνωστές.
+  example_en: Kalamata black olives are world-famous.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ελιές
+    accusative_singular: την ελιά
+  keg_communicative_function: Identifying quintessential Mediterranean olives
+- id: A1-U109-029
+  greek: το κρέας
+  phonetic_hint: to KREH-ahs
+  english: meat
+  notes: Klik A1 p. 178, 181. Neuter noun in -ας with plural in -ατα (τα κρέατα).
+  gender_or_pos: noun (neuter)
+  audio: to-kreas-19dee6.mp3
+  status: verified
+  example_el: Ο γιατρός μού είπε να μην τρώω πολύ κόκκινο κρέας.
+  example_en: The doctor told me not to eat too much red meat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρέατα
+    accusative_singular: το κρέας
+  keg_communicative_function: Categorizing dietary meats
+- id: A1-U109-030
+  greek: το κοτόπουλο
+  phonetic_hint: to ko-TO-poo-lo
+  english: chicken (meat or bird)
+  notes: Klik A1 p. 178, 181, 192. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-kotopoylo-7976ac.mp3
+  status: verified
+  example_el: Την Κυριακή ψήνουμε κοτόπουλο με πατάτες στον φούρνο.
+  example_en: On Sunday we roast chicken with potatoes in the oven.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κοτόπουλα
+    accusative_singular: το κοτόπουλο
+  keg_communicative_function: Naming poultry items
+- id: A1-U109-031
+  greek: το μοσχάρι
+  phonetic_hint: to mo-SKHAH-ree
+  english: beef / veal / calf
+  notes: Klik A1 p. 178, 192. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-moschari-fd1fde.mp3
+  status: verified
+  example_el: Παραγγείλαμε κοκκινιστό μοσχάρι με μακαρόνια.
+  example_en: We ordered braised beef in tomato sauce with pasta.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μοσχάρια
+    accusative_singular: το μοσχάρι
+  keg_communicative_function: Naming beef and veal meat products
+- id: A1-U109-032
+  greek: το χοιρινό
+  phonetic_hint: to khee-ree-NO
+  english: pork
+  notes: Klik A1 p. 178. Substantivized neuter adjective in -ό with plural in -ά.
+  gender_or_pos: noun (neuter)
+  audio: to-choirino-469541.mp3
+  status: verified
+  example_el: Το σουβλάκι φτιάχνεται συνήθως με χοιρινό κρέας.
+  example_en: Souvlaki is usually made with pork meat.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χοιρινά
+    accusative_singular: το χοιρινό
+  keg_communicative_function: Identifying pork meat cuts
+- id: A1-U109-033
+  greek: το αρνί
+  phonetic_hint: to ahr-NEE
+  english: lamb
+  notes: Klik A1 p. 178. Neuter noun in -ί with plural in -ιά.
+  gender_or_pos: noun (neuter)
+  audio: to-arni-6bd916.mp3
+  status: verified
+  example_el: Το Πάσχα στην Ελλάδα ψήνουν αρνί στη σούβλα.
+  example_en: At Easter in Greece they roast lamb on the spit.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αρνιά
+    accusative_singular: το αρνί
+  keg_communicative_function: Naming traditional festive meats
+- id: A1-U109-034
+  greek: η μπριζόλα
+  phonetic_hint: ee bree-ZO-lah
+  english: steak / pork chop / cutlet
+  notes: Klik A1 p. 178, 180. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mprizola-74c6a1.mp3
+  status: verified
+  example_el: Θα πάρω μία χοιρινή μπριζόλα στα κάρβουνα.
+  example_en: I will have a charcoal-grilled pork chop.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπριζόλες
+    accusative_singular: την μπριζόλα
+  keg_communicative_function: Ordering grilled meat chops
+- id: A1-U109-035
+  greek: ο κιμάς
+  phonetic_hint: o kee-MAHS
+  english: minced meat / ground meat
+  notes: Klik A1 p. 188. Masculine noun in -άς with plural in -άδες.
+  gender_or_pos: noun (masculine)
+  audio: o-kimas-ef0f19.mp3
+  status: verified
+  example_el: Αγοράζω ένα κιλό μοσχαρίσιο κιμά για να φτιάξω μπιφτέκια.
+  example_en: I buy a kilo of ground beef to make burgers.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κιμάδες
+    accusative_singular: τον κιμά
+  keg_communicative_function: Naming ground meat preparations
+- id: A1-U109-036
+  greek: το μπιφτέκι
+  phonetic_hint: to beef-TEH-kee
+  english: patty / burger / meatball
+  notes: Klik A1 p. 178. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-mpifteki-5b3aae.mp3
+  status: verified
+  example_el: Τα παιδιά θέλουν μπιφτέκια με πατάτες τηγανητές.
+  example_en: The children want burger patties with french fries.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μπιφτέκια
+    accusative_singular: το μπιφτέκι
+  keg_communicative_function: Naming minced meat patties
+- id: A1-U109-037
+  greek: το ψάρι
+  phonetic_hint: to PSAH-ree
+  english: fish
+  notes: Klik A1 p. 178, 187. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-psari-9bbcbf.mp3
+  status: verified
+  example_el: Το φρέσκο ψάρι στη σχάρα είναι πολύ υγιεινό.
+  example_en: Fresh grilled fish is very healthy.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψάρια
+    accusative_singular: το ψάρι
+  keg_communicative_function: Identifying seafood and fish
+- id: A1-U109-038
+  greek: το γάλα
+  phonetic_hint: to GHAH-lah
+  english: milk
+  notes: Klik A1 p. 177, 188. Irregular neuter noun in -α with plural in -ατα (τα
+    γάλατα).
+  gender_or_pos: noun (neuter)
+  audio: to-gala-5a7807.mp3
+  status: verified
+  example_el: Πίνω ένα ποτήρι φρέσκο γάλα κάθε πρωί.
+  example_en: I drink a glass of fresh milk every morning.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γάλατα
+    accusative_singular: το γάλα
+  keg_communicative_function: Naming dairy beverages
+- id: A1-U109-039
+  greek: το τυρί
+  phonetic_hint: to tee-REE
+  english: cheese
+  notes: Klik A1 p. 177, 181. Neuter noun in -ί with plural in -ιά.
+  gender_or_pos: noun (neuter)
+  audio: to-tyri-60f7f3.mp3
+  status: verified
+  example_el: Στην Ελλάδα παράγουν πολλά είδη παραδοσιακού τυριού.
+  example_en: In Greece they produce many kinds of traditional cheese.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τυριά
+    accusative_singular: το τυρί
+  keg_communicative_function: Naming cheese dairy goods
+- id: A1-U109-040
+  greek: η φέτα
+  phonetic_hint: ee FEH-tah
+  english: feta cheese / slice
+  notes: Klik A1 p. 177, 181. Feminine noun in -α with plural in -ες. Traditional
+    protected Greek brine curd cheese.
+  gender_or_pos: noun (feminine)
+  audio: i-feta-fb4eae.mp3
+  status: verified
+  example_el: Βάζουμε ένα κομμάτι φέτα πάνω στη χωριάτικη σαλάτα.
+  example_en: We place a piece of feta cheese on top of the Greek salad.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι φέτες
+    accusative_singular: τη φέτα
+  keg_communicative_function: Naming authentic Greek feta cheese
+- id: A1-U109-041
+  greek: το γιαούρτι
+  phonetic_hint: to yah-OOR-tee
+  english: yogurt
+  notes: Klik A1 p. 177, 180. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-giaoyrti-c2948d.mp3
+  status: verified
+  example_el: Το ελληνικό στραγγιστό γιαούρτι τρώγεται με μέλι και καρύδια.
+  example_en: Greek strained yogurt is eaten with honey and walnuts.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γιαούρτια
+    accusative_singular: το γιαούρτι
+  keg_communicative_function: Naming yogurt dairy products
+- id: A1-U109-042
+  greek: το βούτυρο
+  phonetic_hint: to VOO-tee-ro
+  english: butter
+  notes: Klik A1 p. 177. Neuter noun in -ο with plural in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-voytyro-fa5679.mp3
+  status: verified
+  example_el: Αλείφω βούτυρο και μαρμελάδα στο φρυγανισμένο ψωμί.
+  example_en: I spread butter and jam on toasted bread.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βούτυρα
+    accusative_singular: το βούτυρο
+  keg_communicative_function: Naming butter dairy spreads
+- id: A1-U109-043
+  greek: το αυγό
+  phonetic_hint: to ahv-GHO
+  english: egg
+  notes: Klik A1 p. 177. Neuter noun in -ό with plural in -ά (τα αυγά).
+  gender_or_pos: noun (neuter)
+  audio: to-aygo-3e3a5a.mp3
+  status: verified
+  example_el: Για πρωινό τρώω δύο βραστά αυγά με ψωμί.
+  example_en: For breakfast I eat two boiled eggs with bread.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αυγά
+    accusative_singular: το αυγό
+  keg_communicative_function: Naming eggs and breakfast proteins
+- id: A1-U109-044
+  greek: το ψωμί
+  phonetic_hint: to pso-MEE
+  english: bread
+  notes: Klik A1 p. 176, 178, 181. Neuter noun in -ί with plural in -ιά.
+  gender_or_pos: noun (neuter)
+  audio: to-psomi-abf6f9.mp3
+  status: verified
+  example_el: Αγοράζω ένα καρβέλι χωριάτικο ψωμί από τον φούρνο.
+  example_en: I buy a loaf of rustic bread from the bakery.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ψωμιά
+    accusative_singular: το ψωμί
+  keg_communicative_function: Naming bakery staples
+- id: A1-U109-045
+  greek: το κουλούρι
+  phonetic_hint: to koo-LOO-ree
+  english: koulouri / sesame bread ring
+  notes: Klik A1 p. 178, 188. Neuter noun in -ι with plural in -ια. Popular Greek
+    street breakfast bread ring coated in sesame seeds.
+  gender_or_pos: noun (neuter)
+  audio: to-koyloyri-9fca0f.mp3
+  status: verified
+  example_el: Παίρνω ένα τραγανό κουλούρι Θεσσαλονίκης στον δρόμο για τη δουλειά.
+  example_en: I grab a crispy Thessaloniki sesame ring on the way to work.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κουλούρια
+    accusative_singular: το κουλούρι
+  keg_communicative_function: Identifying traditional Greek sesame street pastries
+- id: A1-U109-046
+  greek: η τυρόπιτα
+  phonetic_hint: ee tee-RO-pee-tah
+  english: cheese pie
+  notes: Klik A1 p. 178, 180. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-tyropita-f93016.mp3
+  status: verified
+  example_el: Η ζεστή τυρόπιτα με φύλλο είναι το αγαπημένο μου κολατσιό.
+  example_en: Warm phyllo cheese pie is my favorite snack.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τυρόπιτες
+    accusative_singular: την τυρόπιτα
+  keg_communicative_function: Naming popular Greek savory bakery pastries
+- id: A1-U109-047
+  greek: τα μακαρόνια
+  phonetic_hint: tah mah-kah-RO-nyah
+  english: pasta / spaghetti
+  notes: Klik A1 p. 177, 181, 192. Neuter noun used predominantly in the plural (plurale
+    tantum).
+  gender_or_pos: noun (neuter)
+  audio: ta-makaronia-72b9ef.mp3
+  status: verified
+  example_el: Βράζω μακαρόνια και ετοιμάζω σάλτσα ντομάτας.
+  example_en: I boil pasta and prepare tomato sauce.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μακαρόνια
+    accusative_singular: τα μακαρόνια
+  keg_communicative_function: Naming pasta staples
+- id: A1-U109-048
+  greek: το ρύζι
+  phonetic_hint: to REE-zee
+  english: rice
+  notes: Klik A1 p. 177. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-ryzi-b3bc9c.mp3
+  status: verified
+  example_el: Σερβίρουμε το κοτόπουλο με άσπρο ρύζι.
+  example_en: We serve the chicken with white rice.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ρύζια
+    accusative_singular: το ρύζι
+  keg_communicative_function: Naming grain staples
+- id: A1-U109-049
+  greek: το αλεύρι
+  phonetic_hint: to ah-LEH-vree
+  english: flour
+  notes: Klik A1 p. 177, 180. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-aleyri-3cf582.mp3
+  status: verified
+  example_el: Χρειαζόμαστε αλεύρι και μαγιά για να ζυμώσουμε ψωμί.
+  example_en: We need flour and yeast to knead bread.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αλεύρια
+    accusative_singular: το αλεύρι
+  keg_communicative_function: Naming baking ingredients
+- id: A1-U109-050
+  greek: το λάδι
+  phonetic_hint: to LAH-thee
+  english: oil
+  notes: Klik A1 p. 177, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-ladi-45ee5b.mp3
+  status: verified
+  example_el: Ρίχνουμε λίγο λάδι στο τηγάνι πριν ζεσταθεί.
+  example_en: We pour a little oil into the frying pan before it heats up.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λάδια
+    accusative_singular: το λάδι
+  keg_communicative_function: Naming cooking oils
+- id: A1-U109-051
+  greek: το ελαιόλαδο
+  phonetic_hint: to eh-leh-O-lah-tho
+  english: olive oil
+  notes: Klik A1 p. 177, 181. Neuter compound noun (έλαιο + λάδι) in -ο with plural
+    in -α.
+  gender_or_pos: noun (neuter)
+  audio: to-elaiolado-13a194.mp3
+  status: verified
+  example_el: Το έξτρα παρθένο ελαιόλαδο είναι η βάση της μεσογειακής διατροφής.
+  example_en: Extra virgin olive oil is the basis of the Mediterranean diet.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ελαιόλαδα
+    accusative_singular: το ελαιόλαδο
+  keg_communicative_function: Identifying genuine olive oil
+- id: A1-U109-052
+  greek: το αλάτι
+  phonetic_hint: to ah-LAH-tee
+  english: salt
+  notes: Klik A1 p. 177, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-alati-c3f11d.mp3
+  status: verified
+  example_el: Μην βάζεις πολύ αλάτι στο φαγητό.
+  example_en: Do not put too much salt in the food.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αλάτια
+    accusative_singular: το αλάτι
+  keg_communicative_function: Naming basic seasoning elements
+- id: A1-U109-053
+  greek: το πιπέρι
+  phonetic_hint: to pee-PEH-ree
+  english: pepper (spice)
+  notes: Klik A1 p. 177, 181. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-piperi-693907.mp3
+  status: verified
+  example_el: Προσθέτω φρεσκοτριμμένο μαύρο πιπέρι στη σούπα.
+  example_en: I add freshly ground black pepper to the soup.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πιπέρια
+    accusative_singular: το πιπέρι
+  keg_communicative_function: Naming culinary spices
+- id: A1-U109-054
+  greek: η ζάχαρη
+  phonetic_hint: ee ZAH-khah-ree
+  english: sugar
+  notes: Klik A1 p. 177, 181, 188. Feminine noun in -η with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-zachari-0e3ae2.mp3
+  status: verified
+  example_el: Πίνω τον καφέ μου μέτριο, με μία κουταλιά ζάχαρη.
+  example_en: I drink my coffee medium-sweet, with one spoonful of sugar.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ζάχαρες
+    accusative_singular: τη ζάχαρη
+  keg_communicative_function: Naming sweeteners for coffee and baking
+- id: A1-U109-055
+  greek: το μέλι
+  phonetic_hint: to MEH-lee
+  english: honey
+  notes: Klik A1 p. 177, 188. Neuter noun in -ι with plural in -ια.
+  gender_or_pos: noun (neuter)
+  audio: to-meli-346e14.mp3
+  status: verified
+  example_el: Το θυμαρίσιο μέλι από τα ελληνικά νησιά είναι εξαιρετικό.
+  example_en: Thyme honey from the Greek islands is excellent.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μέλια
+    accusative_singular: το μέλι
+  keg_communicative_function: Naming natural sweeteners
+- id: A1-U109-056
+  greek: το αναψυκτικό
+  phonetic_hint: to ah-nah-psee-KTEE-ko
+  english: soft drink / soda
+  notes: Klik A1 p. 177, 179. Neuter noun in -ό with plural in -ά.
+  gender_or_pos: noun (neuter)
+  audio: to-anapsyktiko-ecc564.mp3
+  status: verified
+  example_el: Θέλεις ένα παγωμένο αναψυκτικό με λεμόνι;
+  example_en: Do you want an iced soft drink with lemon?
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αναψυκτικά
+    accusative_singular: το αναψυκτικό
+  keg_communicative_function: Naming carbonated soft drinks
+- id: A1-U109-057
+  greek: ο χυμός
+  phonetic_hint: o khee-MOS
+  english: juice
+  notes: Klik A1 p. 177, 194. Masculine noun in -ός with plural in -οί.
+  gender_or_pos: noun (masculine)
+  audio: o-chymos-390ab5.mp3
+  status: verified
+  example_el: Παραγγέλνω έναν φυσικό χυμό πορτοκάλι.
+  example_en: I order a fresh natural orange juice.
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι χυμοί
+    accusative_singular: τον χυμό
+  keg_communicative_function: Naming fruit juices
+- id: A1-U109-058
+  greek: η μπύρα
+  phonetic_hint: ee BEE-rah
+  english: beer
+  notes: Klik A1 p. 177, 182, 184. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-mpyra-e88160.mp3
+  status: verified
+  example_el: Το καλοκαίρι πίνουμε παγωμένη μπύρα στην ταβέρνα.
+  example_en: In summer we drink cold beer at the tavern.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι μπύρες
+    accusative_singular: την μπύρα
+  keg_communicative_function: Ordering alcoholic malt beverages
+- id: A1-U109-059
+  greek: το κρασί
+  phonetic_hint: to krah-SEE
+  english: wine
+  notes: Klik A1 p. 177, 191. Neuter noun in -ί with plural in -ιά.
+  gender_or_pos: noun (neuter)
+  audio: to-krasi-005a2e.mp3
+  status: verified
+  example_el: Θα πάρουμε μισό κιλό λευκό χύμα κρασί.
+  example_en: We will take half a kilo of white house wine.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρασιά
+    accusative_singular: το κρασί
+  keg_communicative_function: Ordering house wines in dining venues
+- id: A1-U109-060
+  greek: το ούζο
+  phonetic_hint: to OO-zo
+  english: ouzo (anise-flavored aperitif)
+  notes: Klik A1 p. 177, 190. Neuter noun in -ο with plural in -α. Traditional Greek
+    anise aperitif.
+  gender_or_pos: noun (neuter)
+  audio: to-oyzo-90cafc.mp3
+  status: verified
+  example_el: Στην παραλία πίνουμε ούζο με παγάκια και μεζέδες.
+  example_en: At the beach we drink ouzo with ice cubes and meze appetizers.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ούζα
+    accusative_singular: το ούζο
+  keg_communicative_function: Naming traditional Greek aperitifs
+- id: A1-U109-061
+  greek: η σοκολάτα
+  phonetic_hint: ee so-ko-LAH-tah
+  english: chocolate
+  notes: Klik A1 p. 179, 186, 190. Feminine noun in -α with plural in -ες.
+  gender_or_pos: noun (feminine)
+  audio: i-sokolata-bdbaf2.mp3
+  status: verified
+  example_el: Αγοράζω μια σοκολάτα υγείας από το περίπτερο.
+  example_en: I buy a dark chocolate bar from the kiosk.
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σοκολάτες
+    accusative_singular: τη σοκολάτα
+  keg_communicative_function: Naming kiosk sweet snacks
+- id: A1-U109-062
+  greek: τα πατατάκια
+  phonetic_hint: tah pah-tah-TAH-kyah
+  english: potato chips / crisps
+  notes: Klik A1 p. 179. Neuter plural noun (diminutive of πατάτα).
+  gender_or_pos: noun (neuter)
+  audio: ta-patatakia-bb7259.mp3
+  status: verified
+  example_el: Πάρε ένα σακουλάκι πατατάκια με αλάτι και ρίγανη.
+  example_en: Grab a bag of potato chips with salt and oregano.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πατατάκια
+    accusative_singular: τα πατατάκια
+  keg_communicative_function: Naming savory packaged snacks at kiosks
+- id: A1-U109-063
+  greek: το παγωτό
+  phonetic_hint: to pah-gho-TO
+  english: ice cream
+  notes: Klik A1 p. 179. Neuter noun in -ό with plural in -ά.
+  gender_or_pos: noun (neuter)
+  audio: to-pagoto-293237.mp3
+  status: verified
+  example_el: Τα παιδιά διαλέγουν παγωτό χωνάκι με γεύση βανίλια.
+  example_en: The children choose a vanilla cone ice cream.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παγωτά
+    accusative_singular: το παγωτό
+  keg_communicative_function: Naming frozen desserts and kiosk treats
+- id: A1-U109-064
+  greek: το πρωινό
+  phonetic_hint: to pro-ee-NO
+  english: breakfast / morning meal
+  notes: Klik A1 p. 187, 188. Neuter noun in -ό with plural in -ά. 'Το φαγητό που
+    τρώμε το πρωί'.
+  gender_or_pos: noun (neuter)
+  audio: to-proino-6a2fed.mp3
+  status: verified
+  example_el: Το πρωινό είναι το πιο σημαντικό γεύμα της ημέρας.
+  example_en: Breakfast is the most important meal of the day.
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πρωινά
+    accusative_singular: το πρωινό
+  keg_communicative_function: Naming morning meals of the day

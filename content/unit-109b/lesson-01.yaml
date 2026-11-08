@@ -1,0 +1,820 @@
+unit_id: unit-109b
+lesson_id: lesson-01
+title: 'Ενότητα 8: Προτάσεις & Γραμματική — Από τον μανάβη στο πιάτο μας! (Pages 175-194)'
+description: 'Expansion & Complementary to Lesson 109: Sentence structures, syntax
+  patterns, Indefinite pronouns and quantifiers (κανένας/καμία/κανένα, τίποτα, κάποιος,
+  κάτι, κάθε, μερικοί), strong personal pronouns after prepositions (με, για, από,
+  σε, χωρίς), quantifiers (πολύς, πολλή, πολύ vs πόσος, πόση, πόσο), supermarket and
+  produce vendor shopping dialogues, taverna and restaurant ordering interactions,
+  and cooking recipe imperatives (κόψτε, βάλτε, ανακατέψτε, ψήστε).'
+lesson_status: not_started
+entries:
+- id: A1-U109B-001
+  greek: Υπάρχει κανένας φούρνος εδώ στη γειτονιά;
+  phonetic_hint: ee-PAHR-khee kah-NEH-nahs FOOR-nos eh-THO stee yee-to-NYAH
+  english: Is there any bakery here in the neighborhood?
+  notes: 'Klik A1 p. 184, 185. Grammar: Indefinite pronoun / determiner masculine
+    singular (κανένας) in an affirmative interrogative context.'
+  gender_or_pos: phrase
+  audio: yparchei-kanenas-foy-b6f932.mp3
+  status: verified
+  example_el: — Συγγνώμη, υπάρχει κανένας φούρνος εδώ στη γειτονιά; — Ναι, στον επόμενο
+    δρόμο δεξιά.
+  example_en: — Excuse me, is there any bakery here in the neighborhood? — Yes, on
+    the next street on the right.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about nearby food shops using indefinite pronouns
+- id: A1-U109B-002
+  greek: Όχι, δεν υπάρχει κανένας φούρνος ανοιχτός τέτοια ώρα.
+  phonetic_hint: O-khee, then ee-PAHR-khee kah-NEH-nahs FOOR-nos ah-neekh-TOS TEH-tyah
+    O-rah
+  english: No, there is no bakery open at this hour.
+  notes: 'Klik A1 p. 184, 185. Grammar: Double negation with δεν ... κανένας (not
+    ... any / no).'
+  gender_or_pos: phrase
+  audio: ochi-den-yparchei-ka-8de80d.mp3
+  status: verified
+  example_el: — Μπορούμε να πάρουμε ψωμί; — Όχι, δεν υπάρχει κανένας φούρνος ανοιχτός
+    τέτοια ώρα.
+  example_en: — Can we get bread? — No, there is no bakery open at this hour.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing absence of commercial venues using negative
+    quantifiers
+- id: A1-U109B-003
+  greek: Έχουμε καμία μπύρα στο ψυγείο ή να πάρω από το περίπτερο;
+  phonetic_hint: EH-khoo-meh kah-MEE-ah BEE-rah sto psee-YEE-o ee nah PAH-ro ah-PO
+    to peh-REE-pteh-ro
+  english: Do we have any beer in the fridge or should I get some from the kiosk?
+  notes: 'Klik A1 p. 184, 185. Grammar: Indefinite pronoun feminine singular (καμία)
+    modifying feminine noun μπύρα.'
+  gender_or_pos: phrase
+  audio: echoyme-kamia-mpyra--35724b.mp3
+  status: verified
+  example_el: — Έχουμε καμία μπύρα στο ψυγείο ή να πάρω από το περίπτερο; — Έχουμε
+    δύο κουτάκια, μην ανησυχείς.
+  example_en: — Do we have any beer in the fridge or should I get some from the kiosk?
+    — We have two cans, don't worry.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Checking household beverage supplies using indefinite
+    feminine determiner
+- id: A1-U109B-004
+  greek: Στο σπίτι δεν υπάρχει καμία κρύα μπύρα.
+  phonetic_hint: sto SPEE-tee then ee-PAHR-khee kah-MEE-ah KREE-ah BEE-rah
+  english: At home there is not a single cold beer.
+  notes: 'Klik A1 p. 184, 185. Grammar: Negation δεν + καμία (none / not any).'
+  gender_or_pos: phrase
+  audio: sto-spiti-den-yparch-1a647b.mp3
+  status: verified
+  example_el: — Βρήκες τίποτα να πιούμε; — Δυστυχώς, στο σπίτι δεν υπάρχει καμία κρύα
+    μπύρα.
+  example_en: — Did you find anything for us to drink? — Unfortunately, at home there
+    is not a single cold beer.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Confirming complete lack of items with feminine negative
+    pronoun
+- id: A1-U109B-005
+  greek: Θέλεις τίποτα άλλο από το σούπερ μάρκετ;
+  phonetic_hint: THEH-lees TEE-po-tah AH-lo ah-PO to SOO-per MAHR-ket
+  english: Do you want anything else from the supermarket?
+  notes: 'Klik A1 p. 184, 185. Grammar: Indefinite pronoun τίποτα (anything / something)
+    combined with άλλο (else).'
+  gender_or_pos: phrase
+  audio: theleis-tipota-allo--e2aa65.mp3
+  status: verified
+  example_el: — Φεύγω για ψώνια! Θέλεις τίποτα άλλο από το σούπερ μάρκετ; — Πάρε και
+    ένα γάλα, παρακαλώ.
+  example_en: — I am leaving for shopping! Do you want anything else from the supermarket?
+    — Get a milk too, please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about additional grocery needs
+- id: A1-U109B-006
+  greek: Όχι, ευχαριστώ, δεν χρειάζομαι τίποτα παραπάνω.
+  phonetic_hint: O-khee, ef-khah-ree-STO, then khree-AH-zo-meh TEE-po-tah pah-rah-PAH-no
+  english: No, thank you, I do not need anything more.
+  notes: 'Klik A1 p. 184, 185. Grammar: Double negation with δεν ... τίποτα (nothing
+    / not anything).'
+  gender_or_pos: phrase
+  audio: ochi-eycharisto-den--1f1751.mp3
+  status: verified
+  example_el: — Να σου φέρω κάτι από το περίπτερο; — Όχι, ευχαριστώ, δεν χρειάζομαι
+    τίποτα παραπάνω.
+  example_en: — Should I bring you something from the kiosk? — No, thank you, I do
+    not need anything more.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Declining additional purchases with negative indefinite
+    pronoun
+- id: A1-U109B-007
+  greek: Κανείς δεν ήρθε ακόμα στην ταβέρνα.
+  phonetic_hint: kah-NEES then EER-theh ah-KO-mah steen tah-VER-nah
+  english: Nobody has arrived at the tavern yet.
+  notes: 'Klik A1 p. 184, 185. Grammar: Indefinite pronoun κανείς (nobody) as preverbal
+    subject with negation δεν.'
+  gender_or_pos: phrase
+  audio: kaneis-den-irthe-ako-78d3ad.mp3
+  status: verified
+  example_el: — Ήρθαν τα παιδιά στο ραντεβού; — Όχι, κανείς δεν ήρθε ακόμα στην ταβέρνα.
+  example_en: — Did the gang arrive at the meetup? — No, nobody has arrived at the
+    tavern yet.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting complete absence of people using κανείς
+- id: A1-U109B-008
+  greek: Θέλω κάτι ελαφρύ και νόστιμο για μεσημεριανό.
+  phonetic_hint: THEH-lo KAH-tee eh-lah-FREE keh NO-stee-mo yah meh-see-meh-ree-ah-NO
+  english: I want something light and tasty for lunch.
+  notes: 'Klik A1 p. 176, 184. Grammar: Indefinite pronoun κάτι (something) modifying
+    neuter adjectives.'
+  gender_or_pos: phrase
+  audio: thelo-kati-elafry-ka-298628.mp3
+  status: verified
+  example_el: — Τι να μαγειρέψουμε σήμερα; — Θέλω κάτι ελαφρύ και νόστιμο για μεσημεριανό,
+    όπως μια σαλάτα.
+  example_en: — What should we cook today? — I want something light and tasty for
+    lunch, like a salad.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating general culinary preferences with indefinite
+    pronoun κάτι
+- id: A1-U109B-009
+  greek: Κάθε πρωί πίνω έναν ζεστό καφέ και τρώω φρέσκα φρούτα.
+  phonetic_hint: KAH-theh pro-EE PEE-no EH-nahn zeh-STO kah-FEH keh TRO-o FREH-skah
+    FROO-tah
+  english: Every morning I drink a hot coffee and eat fresh fruit.
+  notes: 'Klik A1 p. 184, 187. Grammar: Undeclinable quantifier κάθε followed by singular
+    noun without article.'
+  gender_or_pos: phrase
+  audio: kathe-proi-pino-enan-db131f.mp3
+  status: verified
+  example_el: — Ποια είναι η πρωινή σου συνήθεια; — Κάθε πρωί πίνω έναν ζεστό καφέ
+    και τρώω φρέσκα φρούτα.
+  example_en: — What is your morning habit? — Every morning I drink a hot coffee and
+    eat fresh fruit.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing habitual dietary routines using κάθε
+- id: A1-U109B-010
+  greek: Αγόρασε μερικές μπανάνες και μερικά μήλα από τον μανάβη.
+  phonetic_hint: ah-GO-rah-seh meh-ree-KES bah-NAH-nes keh meh-ree-KAH MEE-lah ah-PO
+    ton mah-NAH-vee
+  english: Buy a few bananas and a few apples from the greengrocer.
+  notes: 'Klik A1 p. 178, 184. Grammar: Indefinite quantifier μερικοί/μερικές/μερικά
+    (some / a few) in plural.'
+  gender_or_pos: phrase
+  audio: agorase-merikes-mpan-4ffa2f.mp3
+  status: verified
+  example_el: — Τι φρούτα να πάρω; — Αγόρασε μερικές μπανάνες και μερικά μήλα από
+    τον μανάβη.
+  example_en: — What fruits should I get? — Buy a few bananas and a few apples from
+    the greengrocer.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Instructing purchases of small indefinite quantities
+- id: A1-U109B-011
+  greek: Θέλεις να έρθεις μαζί μου στο σούπερ μάρκετ;
+  phonetic_hint: THEH-lees nah ER-thees mah-ZEE moo sto SOO-per MAHR-ket
+  english: Do you want to come with me to the supermarket?
+  notes: 'Klik A1 p. 185, 186. Grammar: Prepositional phrase μαζί μου (= με μένα).
+    Strong personal pronoun equivalent.'
+  gender_or_pos: phrase
+  audio: theleis-na-ertheis-m-3c5128.mp3
+  status: verified
+  example_el: — Θέλεις να έρθεις μαζί μου στο σούπερ μάρκετ; — Ναι, να σε βοηθήσω
+    με τα ψώνια.
+  example_en: — Do you want to come with me to the supermarket? — Yes, to help you
+    with the groceries.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inviting someone along for a shopping errand
+- id: A1-U109B-012
+  greek: Έχω ένα μικρό δώρο για σένα.
+  phonetic_hint: EH-kho EH-nah mee-KRO THO-ro yah SEH-nah
+  english: I have a small gift for you.
+  notes: 'Klik A1 p. 185, 186. Grammar: Preposition για + strong pronoun accusative
+    2nd person (εσένα / σένα).'
+  gender_or_pos: phrase
+  audio: echo-ena-mikro-doro--e20cb2.mp3
+  status: verified
+  example_el: — Γύρισες από την αγορά; — Ναι, και έχω ένα μικρό δώρο για σένα!
+  example_en: — Did you return from the market? — Yes, and I have a small gift for
+    you!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Presenting an item to someone using strong personal
+    pronouns
+- id: A1-U109B-013
+  greek: Να πάρω κάτι από το περίπτερο για σας;
+  phonetic_hint: nah PAH-ro KAH-tee ah-PO to peh-REE-pteh-ro yah sahs
+  english: Shall I get something from the kiosk for you?
+  notes: 'Klik A1 p. 185, 186. Grammar: Preposition για + strong pronoun accusative
+    2nd person plural / formal (εσάς / σας).'
+  gender_or_pos: phrase
+  audio: na-paro-kati-apo-to--340408.mp3
+  status: verified
+  example_el: — Βγαίνω για μια στιγμή. Να πάρω κάτι από το περίπτερο για σας; — Μια
+    εφημερίδα, παρακαλώ.
+  example_en: — I am stepping out for a moment. Shall I get something from the kiosk
+    for you? — A newspaper, please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Politely offering to fetch kiosk items for someone
+- id: A1-U109B-014
+  greek: Χωρίς εσένα δεν περνάω καλά στην παρέα.
+  phonetic_hint: kho-REES eh-SEH-nah then per-NAH-o kah-LAH steen pah-REH-ah
+  english: Without you I don't have a good time in the group.
+  notes: 'Klik A1 p. 185, 186. Grammar: Preposition χωρίς + strong pronoun accusative
+    (εσένα).'
+  gender_or_pos: phrase
+  audio: choris-esena-den-per-1f8f78.mp3
+  status: verified
+  example_el: — Δεν νομίζω να έρθω στο τραπέζι. — Έλα σε παρακαλώ! Χωρίς εσένα δεν
+    περνάω καλά στην παρέα.
+  example_en: — I don't think I'll come to dinner. — Please come! Without you I don't
+    have a good time in the group.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing personal attachment using preposition χωρίς
+    with strong pronoun
+- id: A1-U109B-015
+  greek: Μπορείτε να έρθετε με μας στη λαϊκή αγορά.
+  phonetic_hint: bo-REE-teh nah ER-theh-teh meh mahs stee lah-ee-KEE ah-go-RAH
+  english: You can come with us to the street market.
+  notes: 'Klik A1 p. 185, 186. Grammar: Preposition με + strong pronoun accusative
+    1st person plural (εμάς / μας).'
+  gender_or_pos: phrase
+  audio: mporeite-na-erthete--04b8ec.mp3
+  status: verified
+  example_el: — Δεν έχουμε αυτοκίνητο για την αγορά. — Κανένα πρόβλημα, μπορείτε να
+    έρθετε με μας στη λαϊκή αγορά.
+  example_en: — We don't have a car for the market. — No problem, you can come with
+    us to the street market.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Offering a ride or shared outing with prepositional
+    pronoun
+- id: A1-U109B-016
+  greek: Αυτή η παραδοσιακή συνταγή είναι από μένα.
+  phonetic_hint: af-TEE ee pah-rah-tho-see-ah-KEE seen-tah-YEE EE-neh ah-PO MEH-nah
+  english: This traditional recipe is from me.
+  notes: 'Klik A1 p. 185, 186, 193. Grammar: Preposition από + strong pronoun accusative
+    1st person singular (εμένα / μένα).'
+  gender_or_pos: phrase
+  audio: ayti-i-paradosiaki-s-7a5e38.mp3
+  status: verified
+  example_el: — Ποιος σου έμαθε αυτό το φαγητό; — Αυτή η παραδοσιακή συνταγή είναι
+    από μένα!
+  example_en: — Who taught you this dish? — This traditional recipe is from me!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Claiming origin or authorship with preposition από
+- id: A1-U109B-017
+  greek: Ελάτε σε μας το βράδυ να φάμε όλοι μαζί!
+  phonetic_hint: eh-LAH-teh seh mahs to VRAH-thee nah FAH-meh O-lee mah-ZEE
+  english: Come over to our place tonight to eat all together!
+  notes: 'Klik A1 p. 185, 186. Idiom: σε μας = to our place / home. Imperative ελάτε.'
+  gender_or_pos: phrase
+  audio: elate-se-mas-to-vrad-502613.mp3
+  status: verified
+  example_el: — Τι θα κάνετε απόψε; — Μαγειρεύουμε παστίτσιο, ελάτε σε μας το βράδυ
+    να φάμε όλοι μαζί!
+  example_en: — What are you doing tonight? — We are cooking pastitsio, come over
+    to our place tonight to eat all together!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inviting friends to one's home for dinner
+- id: A1-U109B-018
+  greek: Δεν πάμε πουθενά χωρίς αυτούς τους καλούς φίλους.
+  phonetic_hint: then PAH-meh poo-theh-NAH kho-REES af-TOOS toos kah-LOOS FEE-loos
+  english: We go nowhere without these good friends.
+  notes: 'Klik A1 p. 185, 186. Grammar: Preposition χωρίς with demonstrative and noun
+    in accusative plural.'
+  gender_or_pos: phrase
+  audio: den-pame-poythena-ch-d2f24b.mp3
+  status: verified
+  example_el: — Ποιοι θα έρθουν στην εκδρομή; — Δεν πάμε πουθενά χωρίς αυτούς τους
+    καλούς φίλους.
+  example_en: — Who will come on the excursion? — We go nowhere without these good
+    friends.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing loyalty to companions using preposition χωρίς
+- id: A1-U109B-019
+  greek: Στη λαϊκή αγορά έχει πάρα πολύ κόσμο σήμερα.
+  phonetic_hint: stee lah-ee-KEE ah-go-RAH EH-khee PAH-rah po-LEE KO-zmo SEE-meh-rah
+  english: At the street market there are very many people today.
+  notes: 'Klik A1 p. 190. Grammar: Masculine accusative singular of πολύς (πολύ κόσμο)
+    modifying collective noun ο κόσμος.'
+  gender_or_pos: phrase
+  audio: sti-laiki-agora-eche-57e1f5.mp3
+  status: verified
+  example_el: — Γιατί άργησες; — Στη λαϊκή αγορά έχει πάρα πολύ κόσμο σήμερα και περίμενα
+    στην ουρά.
+  example_en: — Why are you late? — At the street market there are very many people
+    today and I waited in line.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing crowded marketplace conditions
+- id: A1-U109B-020
+  greek: Μην βάζεις πολλή ζάχαρη στον ελληνικό καφέ.
+  phonetic_hint: meen VAH-zees po-LEE ZAH-khah-ree ston eh-lee-nee-KO kah-FEH
+  english: Do not put much sugar in the Greek coffee.
+  notes: 'Klik A1 p. 190. Orthography alert: Adjective feminine singular accusative
+    πολλή (-λλ-) modifying ζάχαρη, contrasted with adverb πολύ (-λ-).'
+  gender_or_pos: phrase
+  audio: min-vazeis-polli-zac-500d79.mp3
+  status: verified
+  example_el: — Πώς τον πίνεις τον καφέ; — Μέτριο, μην βάζεις πολλή ζάχαρη στον ελληνικό
+    καφέ.
+  example_en: — How do you drink your coffee? — Medium-sweet, do not put much sugar
+    in the Greek coffee.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Giving coffee sweetness specifications with feminine
+    quantifier πολλή
+- id: A1-U109B-021
+  greek: Έχουμε πολύ φαγητό στο ψυγείο για το βραδινό τραπέζι.
+  phonetic_hint: EH-khoo-meh po-LEE fah-yee-TO sto psee-YEE-o yah to vrah-thee-NO
+    trah-PEH-zee
+  english: We have a lot of food in the fridge for the evening meal.
+  notes: 'Klik A1 p. 190. Grammar: Neuter singular πολύ modifying neuter noun φαγητό.'
+  gender_or_pos: phrase
+  audio: echoyme-poly-fagito--35df3f.mp3
+  status: verified
+  example_el: — Να παραγγείλουμε πίτσα; — Όχι, έχουμε πολύ φαγητό στο ψυγείο για το
+    βραδινό τραπέζι.
+  example_en: — Shall we order pizza? — No, we have a lot of food in the fridge for
+    the evening meal.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating abundance of food supplies with neuter quantifier
+- id: A1-U109B-022
+  greek: Στο τραπέζι κάθονται πολλοί καλεσμένοι.
+  phonetic_hint: sto trah-PEH-zee KAH-thon-deh po-LEE kah-leh-ZMEH-nee
+  english: Many guests are sitting at the table.
+  notes: 'Klik A1 p. 190. Grammar: Masculine nominative plural πολλοί modifying plural
+    noun καλεσμένοι.'
+  gender_or_pos: phrase
+  audio: sto-trapezi-kathonta-de009e.mp3
+  status: verified
+  example_el: — Χωράμε όλοι στην τραπεζαρία; — Ναι, αλλά στο τραπέζι κάθονται πολλοί
+    καλεσμένοι.
+  example_en: — Do we all fit in the dining room? — Yes, but many guests are sitting
+    at the table.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing large numbers of dinner attendees
+- id: A1-U109B-023
+  greek: Πόσο κοστίζει το κιλό οι φρέσκες ντομάτες;
+  phonetic_hint: PO-so ko-STEE-zee to kee-LO ee FREH-skes do-MAH-tes
+  english: How much do the fresh tomatoes cost per kilo?
+  notes: 'Klik A1 p. 182, 190. Pricing inquiry: πόσο κοστίζει + το κιλό (per kilo).'
+  gender_or_pos: phrase
+  audio: poso-kostizei-to-kil-966bdb.mp3
+  status: verified
+  example_el: — Πόσο κοστίζει το κιλό οι φρέσκες ντομάτες; — Είναι ένα ευρώ και πενήντα
+    λεπτά το κιλό.
+  example_en: — How much do fresh tomatoes cost per kilo? — They are one euro and
+    fifty cents a kilo.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about unit price per kilogram for produce
+- id: A1-U109B-024
+  greek: Πόση φέτα και πόσο γιαούρτι θέλετε;
+  phonetic_hint: PO-see FEH-tah keh PO-so yah-OOR-tee THEH-leh-teh
+  english: How much feta and how much yogurt do you want?
+  notes: 'Klik A1 p. 190. Grammar: Interrogative πόση (fem.) modifying φέτα and πόσο
+    (neut.) modifying γιαούρτι.'
+  gender_or_pos: phrase
+  audio: posi-feta-kai-poso-g-9768f2.mp3
+  status: verified
+  example_el: — Καλημέρα! Πόση φέτα και πόσο γιαούρτι θέλετε; — Μισό κιλό φέτα και
+    δύο γιαούρτια, παρακαλώ.
+  example_en: — Good morning! How much feta and how much yogurt do you want? — Half
+    a kilo of feta and two yogurts, please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Asking customer grocery quantities across gender agreements
+- id: A1-U109B-025
+  greek: Πόσους καφέδες να παραγγείλω για όλους;
+  phonetic_hint: PO-soos kah-FEH-thes nah pah-rahn-GEE-lo yah O-loos
+  english: How many coffees should I order for everyone?
+  notes: 'Klik A1 p. 190. Grammar: Interrogative quantifier masculine accusative plural
+    πόσους modifying καφέδες.'
+  gender_or_pos: phrase
+  audio: posoys-kafedes-na-pa-d0cdf8.mp3
+  status: verified
+  example_el: — Πάω στην καφετέρια. Πόσους καφέδες να παραγγείλω για όλους; — Τέσσερις
+    φρέντο εσπρέσο.
+  example_en: — I am going to the cafe. How many coffees should I order for everyone?
+    — Four freddo espressos.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Determining coffee order quantities for a group
+- id: A1-U109B-026
+  greek: Μου αρέσει πάρα πολύ η ελληνική χωριάτικη σαλάτα!
+  phonetic_hint: moo ah-REH-see PAH-rah po-LEE ee eh-lee-nee-KEE kho-RYAH-tee-kee
+    sah-LAH-tah
+  english: I like Greek salad very much indeed!
+  notes: 'Klik A1 p. 190. Grammar: Adverbial intensifier πάρα πολύ modifying verb
+    αρέσει.'
+  gender_or_pos: phrase
+  audio: moy-aresei-para-poly-0cd5ed.mp3
+  status: verified
+  example_el: — Σου αρέσει το φαγητό στην Ελλάδα; — Ναι, μου αρέσει πάρα πολύ η ελληνική
+    χωριάτικη σαλάτα!
+  example_en: — Do you like the food in Greece? — Yes, I like Greek salad very much
+    indeed!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing enthusiastic culinary appreciation using
+    adverbs of degree
+- id: A1-U109B-027
+  greek: Παρακαλώ, βάλτε μου δύο κιλά πατάτες και ένα κιλό κρεμμύδια.
+  phonetic_hint: pah-rah-kah-LO, VAHL-teh moo THEE-o kee-LAH pah-TAH-tes keh EH-nah
+    kee-LO kreh-MEE-thyah
+  english: Please, put two kilos of potatoes and one kilo of onions for me.
+  notes: 'Klik A1 p. 175, 178. Greengrocer ordering: Imperative βάλτε μου + quantity
+    in kilos.'
+  gender_or_pos: phrase
+  audio: parakalo-valte-moy-d-64888a.mp3
+  status: verified
+  example_el: — Τι άλλο να σας βάλω; — Παρακαλώ, βάλτε μου δύο κιλά πατάτες και ένα
+    κιλό κρεμμύδια.
+  example_en: — What else may I weigh for you? — Please, weigh two kilos of potatoes
+    and one kilo of onions for me.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Ordering specific kilogram weights of vegetables
+- id: A1-U109B-028
+  greek: Θα ήθελα μισό κιλό τυρί φέτα σε άλμη.
+  phonetic_hint: thah EE-theh-lah mee-SO kee-LO tee-REE FEH-tah seh AHL-mee
+  english: I would like half a kilo of feta cheese in brine.
+  notes: 'Klik A1 p. 177. Polite request: θα ήθελα + fraction μισό κιλό (half a kilo).'
+  gender_or_pos: phrase
+  audio: tha-ithela-miso-kilo-17a921.mp3
+  status: verified
+  example_el: — Ορίστε, τι θα πάρετε από τα τυριά; — Θα ήθελα μισό κιλό τυρί φέτα
+    σε άλμη.
+  example_en: — Yes please, what will you have from the cheese counter? — I would
+    like half a kilo of feta cheese in brine.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting fractional weights at the deli counter
+- id: A1-U109B-029
+  greek: Είναι φρέσκα τα ψάρια σήμερα; — Ναι, είναι ολόφρεσκα!
+  phonetic_hint: EE-neh FREH-skah tah PSAH-ryah SEE-meh-rah? neh, EE-neh o-LO-freh-skah
+  english: Is the fish fresh today? — Yes, it is completely fresh!
+  notes: 'Klik A1 p. 175, 178. Fishmonger dialogue: inquiring about freshness with
+    adjective φρέσκος / ολόφρεσκος.'
+  gender_or_pos: phrase
+  audio: einai-freska-ta-psar-fa3094.mp3
+  status: verified
+  example_el: — Είναι φρέσκα τα ψάρια σήμερα; — Ναι, είναι ολόφρεσκα, ήρθαν σήμερα
+    το πρωί από τη θάλασσα.
+  example_en: — Is the fish fresh today? — Yes, it is completely fresh, it arrived
+    this morning from the sea.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about daily seafood freshness
+- id: A1-U109B-030
+  greek: Κόψτε μου, παρακαλώ, ένα κιλό μοσχαρίσιο κιμά.
+  phonetic_hint: KO-mpsteh moo, pah-rah-kah-LO, EH-nah kee-LO mo-skhah-REE-see-o kee-MAH
+  english: Grind one kilo of minced beef for me, please.
+  notes: 'Klik A1 p. 178, 188. Butcher ordering: imperative κόψτε μου (grind/cut for
+    me).'
+  gender_or_pos: phrase
+  audio: kopste-moy-parakalo--fd9937.mp3
+  status: verified
+  example_el: — Πώς θέλετε το κρέας; — Κόψτε μου, παρακαλώ, ένα κιλό μοσχαρίσιο κιμά.
+  example_en: — How do you want the meat? — Grind one kilo of minced beef for me,
+    please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Ordering freshly ground minced meat from a butcher
+- id: A1-U109B-031
+  greek: Ένα πακέτο μακαρόνια και ένα μπουκάλι ελαιόλαδο, παρακαλώ.
+  phonetic_hint: EH-nah pah-KEH-to mah-kah-RO-nyah keh EH-nah boo-KAH-lee eh-leh-O-lah-tho,
+    pah-rah-kah-LO
+  english: A packet of pasta and a bottle of olive oil, please.
+  notes: 'Klik A1 p. 177. Package units: το πακέτο (packet), το μπουκάλι (bottle).'
+  gender_or_pos: phrase
+  audio: ena-paketo-makaronia-bb6678.mp3
+  status: verified
+  example_el: — Τι άλλο έχετε στη λίστα σας; — Ένα πακέτο μακαρόνια και ένα μπουκάλι
+    ελαιόλαδο, παρακαλώ.
+  example_en: — What else do you have on your list? — A packet of pasta and a bottle
+    of olive oil, please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Specifying grocery packaging units during retail shopping
+- id: A1-U109B-032
+  greek: Πόσο κάνουν όλα αυτά μαζί;
+  phonetic_hint: PO-so KAH-noon O-lah af-TAH mah-ZEE
+  english: How much do all of these come to together?
+  notes: 'Klik A1 p. 182. Standard checkout price tally query: Πόσο κάνουν όλα μαζί;'
+  gender_or_pos: phrase
+  audio: poso-kanoyn-ola-ayta-3f7465.mp3
+  status: verified
+  example_el: — Τελειώσαμε με τα ψώνια. Πόσο κάνουν όλα αυτά μαζί; — Είναι είκοσι
+    τρία ευρώ και είκοσι λεπτά.
+  example_en: — We are done with shopping. How much do all of these come to together?
+    — That is twenty-three euros and twenty cents.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Asking for the total monetary amount at checkout
+- id: A1-U109B-033
+  greek: Μου δίνετε και μία σακούλα για τα ψώνια, παρακαλώ;
+  phonetic_hint: moo THEE-neh-teh keh MEE-ah sah-KOO-lah yah tah PSON-yah, pah-rah-kah-LO
+  english: Could you give me a shopping bag for the groceries, please?
+  notes: 'Klik A1 p. 175. Vocabulary: η σακούλα (bag) + polite request μου δίνετε.'
+  gender_or_pos: phrase
+  audio: moy-dinete-kai-mia-s-1ada41.mp3
+  status: verified
+  example_el: — Χρειάζεστε κάτι άλλο στο ταμείο; — Μου δίνετε και μία σακούλα για
+    τα ψώνια, παρακαλώ;
+  example_en: — Do you need anything else at the register? — Could you give me a shopping
+    bag for the groceries, please?
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting a shopping carrier bag from the cashier
+- id: A1-U109B-034
+  greek: Ορίστε είκοσι ευρώ, κρατήστε τα ρέστα.
+  phonetic_hint: o-REE-steh EE-ko-see ef-RO, krah-TEE-steh tah REH-stah
+  english: Here is twenty euros, keep the change.
+  notes: 'Klik A1 p. 182. Idiom: κρατήστε τα ρέστα = keep the change. Imperative κρατήστε.'
+  gender_or_pos: phrase
+  audio: oriste-eikosi-eyro-k-7698e1.mp3
+  status: verified
+  example_el: — Ο λογαριασμός είναι δεκαοκτώ ευρώ. — Ορίστε είκοσι ευρώ, κρατήστε
+    τα ρέστα.
+  example_en: — The bill is eighteen euros. — Here is twenty euros, keep the change.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Paying and tipping the remaining change
+- id: A1-U109B-035
+  greek: Συγγνώμη, μπορούμε να παραγγείλουμε, παρακαλώ;
+  phonetic_hint: seeg-NO-mee, bo-ROO-meh nah pah-rahn-GEE-loo-meh, pah-rah-kah-LO
+  english: Excuse me, may we order, please?
+  notes: 'Klik A1 p. 192. Standard restaurant phrase to signal the waiter: μπορούμε
+    να παραγγείλουμε;'
+  gender_or_pos: phrase
+  audio: syggnomi-mporoyme-na-1fe98a.mp3
+  status: verified
+  example_el: — Συγγνώμη, μπορούμε να παραγγείλουμε, παρακαλώ; — Βεβαίως! Είμαι αμέσως
+    κοντά σας.
+  example_en: — Excuse me, may we order, please? — Certainly! I'll be right with you.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Politely calling the server to take dining orders
+- id: A1-U109B-036
+  greek: Τι θα πάρετε για ορεκτικό και τι για κυρίως πιάτο;
+  phonetic_hint: tee thah PAH-reh-teh yah o-rek-tee-KO keh tee yah kee-REE-os PYAH-to
+  english: What will you have for an appetizer and what for the main course?
+  notes: 'Klik A1 p. 192. Restaurant server question distinguishing courses: το ορεκτικό
+    (appetizer) vs το κυρίως πιάτο (main course).'
+  gender_or_pos: phrase
+  audio: ti-tha-parete-gia-or-b2a189.mp3
+  status: verified
+  example_el: — Τι θα πάρετε για ορεκτικό και τι για κυρίως πιάτο; — Για ορεκτικό
+    θέλουμε σαλάτα και τυροκαυτερή.
+  example_en: — What will you have for an appetizer and what for the main course?
+    — For appetizer we want salad and spicy feta spread.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about course selections as a server
+- id: A1-U109B-037
+  greek: Για ορεκτικό θα πάρουμε μία χωριάτικη σαλάτα και ένα τζατζίκι.
+  phonetic_hint: yah o-rek-tee-KO thah PAH-roo-meh MEE-ah kho-RYAH-tee-kee sah-LAH-tah
+    keh EH-nah dzah-DZEE-kee
+  english: For an appetizer we will take a Greek salad and a tzatziki.
+  notes: 'Klik A1 p. 181, 192. Ordering formula: Για ορεκτικό θα πάρουμε...'
+  gender_or_pos: phrase
+  audio: gia-orektiko-tha-par-43596e.mp3
+  status: verified
+  example_el: — Έχετε αποφασίσει για τα πρώτα; — Ναι, για ορεκτικό θα πάρουμε μία
+    χωριάτικη σαλάτα και ένα τζατζίκι.
+  example_en: — Have you decided on starters? — Yes, for an appetizer we will take
+    a Greek salad and a tzatziki.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Ordering traditional Greek starters and dips
+- id: A1-U109B-038
+  greek: Για κυρίως πιάτο θα πάρω μία μερίδα ψητό κοτόπουλο.
+  phonetic_hint: yah kee-REE-os PYAH-to thah PAH-ro MEE-ah meh-REE-thah psee-TO ko-TO-poo-lo
+  english: For the main course I will have a portion of roast chicken.
+  notes: 'Klik A1 p. 192. Ordering formula: Για κυρίως πιάτο + μία μερίδα (a portion).'
+  gender_or_pos: phrase
+  audio: gia-kyrios-piato-tha-fe984c.mp3
+  status: verified
+  example_el: — Και για εσάς, κύριε; — Για κυρίως πιάτο θα πάρω μία μερίδα ψητό κοτόπουλο
+    με πατάτες.
+  example_en: — And for you, sir? — For the main course I will have a portion of roast
+    chicken with potatoes.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Ordering a main poultry dish in a restaurant
+- id: A1-U109B-039
+  greek: Τι θα πιείτε; — Μία παγωμένη μπύρα και ένα μπουκάλι νερό.
+  phonetic_hint: tee thah PYEH-teh? MEE-ah pah-gho-MEH-nee BEE-rah keh EH-nah boo-KAH-lee
+    neh-RO
+  english: What will you drink? — An iced beer and a bottle of water.
+  notes: Klik A1 p. 177, 192. Ordering drinks dialogue turn in future tense (θα πιείτε).
+  gender_or_pos: phrase
+  audio: ti-tha-pieite-mia-pa-23960d.mp3
+  status: verified
+  example_el: — Τι θα πιείτε; — Μία παγωμένη μπύρα και ένα μπουκάλι νερό, παρακαλώ.
+  example_en: — What will you drink? — An iced beer and a bottle of water, please.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Ordering beverages to accompany a meal
+- id: A1-U109B-040
+  greek: Μπορείτε να μας φέρετε λίγο ψωμί ακόμα;
+  phonetic_hint: bo-REE-teh nah mahs FEH-reh-teh LEE-go pso-MEE ah-KO-mah
+  english: Could you bring us a little more bread?
+  notes: 'Klik A1 p. 192. Polite request to restaurant staff: μπορείτε να μας φέρετε...;'
+  gender_or_pos: phrase
+  audio: mporeite-na-mas-fere-f19093.mp3
+  status: verified
+  example_el: — Τελείωσε το ψωμί στο καλαθάκι. — Μπορείτε να μας φέρετε λίγο ψωμί
+    ακόμα;
+  example_en: — The bread in the basket finished. — Could you bring us a little more
+    bread?
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting additional table bread from the server
+- id: A1-U109B-041
+  greek: Το φαγητό ήταν πεντανόστιμο, συγχαρητήρια στον μάγειρα!
+  phonetic_hint: to fah-yee-TO EE-tahn pen-dah-NO-stee-mo, seen-khah-ree-TEE-ree-ah
+    ston MAH-yee-rah
+  english: The food was absolutely delicious, congratulations to the chef!
+  notes: 'Klik A1 p. 182, 192. Dining praise: πεντανόστιμο (extremely tasty) + συγχαρητήρια
+    (congratulations).'
+  gender_or_pos: phrase
+  audio: to-fagito-itan-penta-3ed361.mp3
+  status: verified
+  example_el: — Πώς σας φάνηκε το γεύμα; — Το φαγητό ήταν πεντανόστιμο, συγχαρητήρια
+    στον μάγειρα!
+  example_en: — How did you find the meal? — The food was absolutely delicious, congratulations
+    to the chef!
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Complimenting meal quality and restaurant kitchen staff
+- id: A1-U109B-042
+  greek: Μας φέρνετε τον λογαριασμό, παρακαλώ, όταν μπορέσετε;
+  phonetic_hint: mahs FER-neh-teh ton lo-ghah-ryah-ZMO, pah-rah-kah-LO, O-tahn bo-REH-seh-teh
+  english: Would you bring us the bill, please, when you get a chance?
+  notes: 'Klik A1 p. 192. Formal polite request for restaurant check: ο λογαριασμός
+    (the bill).'
+  gender_or_pos: phrase
+  audio: mas-fernete-ton-loga-9434ea.mp3
+  status: verified
+  example_el: — Θέλετε κάποιο γλυκό στο τέλος; — Όχι, ευχαριστούμε, μας φέρνετε τον
+    λογαριασμό, παρακαλώ;
+  example_en: — Would you like some dessert at the end? — No, thank you, would you
+    bring us the bill, please?
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting the dining check at the conclusion of a meal
+- id: A1-U109B-043
+  greek: Κάνω δίαιτα και θέλω να χάσω μερικά κιλά.
+  phonetic_hint: KAH-no THEE-eh-tah keh THEH-lo nah KHAH-so meh-ree-KAH kee-LAH
+  english: I am on a diet and I want to lose a few kilos.
+  notes: 'Klik A1 p. 187, 188. Collocation: κάνω δίαιτα (to be on a diet), χάνω κιλά
+    (to lose weight).'
+  gender_or_pos: phrase
+  audio: kano-diaita-kai-thel-c8dba4.mp3
+  status: verified
+  example_el: — Γιατί δεν τρως ψωμί; — Κάνω δίαιτα και θέλω να χάσω μερικά κιλά πριν
+    το καλοκαίρι.
+  example_en: — Why don't you eat bread? — I am on a diet and want to lose a few kilos
+    before summer.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining dietary restrictions for weight management
+- id: A1-U109B-044
+  greek: Η μεσογειακή διατροφή είναι πολύ υγιεινή για την καρδιά.
+  phonetic_hint: ee meh-so-yee-ah-KEE thee-ah-tro-FEE EE-neh po-LEE ee-yee-ee-NEE
+    yah teen kahr-THYAH
+  english: The Mediterranean diet is very healthy for the heart.
+  notes: 'Klik A1 p. 187, 194. Concepts: η διατροφή (diet / nutrition), υγιεινός/υγιεινή/υγιεινό
+    (healthy).'
+  gender_or_pos: phrase
+  audio: i-mesogeiaki-diatrof-f310d5.mp3
+  status: verified
+  example_el: — Γιατί τρως τόσο ελαιόλαδο και λαχανικά; — Η μεσογειακή διατροφή είναι
+    πολύ υγιεινή για την καρδιά.
+  example_en: — Why do you eat so much olive oil and vegetables? — The Mediterranean
+    diet is very healthy for the heart.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing nutritional health and Mediterranean lifestyle
+    benefits
+- id: A1-U109B-045
+  greek: Αυτή η σούπα είναι πολύ αλμυρή, μην ρίχνεις άλλο αλάτι.
+  phonetic_hint: af-TEE ee SOO-pah EE-neh po-LEE ahl-mee-REE, meen REEKH-nees AH-lo
+    ah-LAH-tee
+  english: This soup is very salty, do not throw any more salt.
+  notes: 'Klik A1 p. 188. Adjective: αλμυρός/αλμυρή/αλμυρό (salty) contrasted with
+    αλάτι (salt). Prohibitive μην + ρίχνεις.'
+  gender_or_pos: phrase
+  audio: ayti-i-soypa-einai-p-1112a2.mp3
+  status: verified
+  example_el: — Δοκίμασες το φαγητό; — Ναι, αυτή η σούπα είναι πολύ αλμυρή, μην ρίχνεις
+    άλλο αλάτι.
+  example_en: — Did you taste the food? — Yes, this soup is very salty, do not put
+    any more salt in.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Evaluating saltiness and cautioning against excessive
+    seasoning
+- id: A1-U109B-046
+  greek: Ο καφές χωρίς ζάχαρη είναι πολύ πικρός για τα γούστα μου.
+  phonetic_hint: o kah-FES kho-REES ZAH-khah-ree EE-neh po-LEE pee-KROS yah tah GOO-stah
+    moo
+  english: Coffee without sugar is too bitter for my taste.
+  notes: 'Klik A1 p. 188. Adjective: πικρός/πικρή/πικρό (bitter) and idiom για τα
+    γούστα μου (for my taste).'
+  gender_or_pos: phrase
+  audio: o-kafes-choris-zacha-7f4005.mp3
+  status: verified
+  example_el: — Σου αρέσει ο σκέτος καφές; — Όχι, ο καφές χωρίς ζάχαρη είναι πολύ
+    πικρός για τα γούστα μου.
+  example_en: — Do you like plain black coffee? — No, coffee without sugar is too
+    bitter for my taste.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing bitter taste profiles in beverages
+- id: A1-U109B-047
+  greek: Κόψτε τις ντομάτες και το αγγούρι σε λεπτές φέτες.
+  phonetic_hint: KO-mpsteh tees do-MAH-tes keh to ahn-GOO-ree seh lep-TES FEH-tes
+  english: Cut the tomatoes and the cucumber into thin slices.
+  notes: 'Klik A1 p. 193. Recipe imperative: Κόψτε (plural / polite imperative of
+    κόβω) + σε φέτες (into slices).'
+  gender_or_pos: phrase
+  audio: kopste-tis-ntomates--f43bd9.mp3
+  status: verified
+  example_el: — Πώς ξεκινάμε τη σαλάτα; — Πρώτα κόψτε τις ντομάτες και το αγγούρι
+    σε λεπτές φέτες.
+  example_en: — How do we start the salad? — First cut the tomatoes and the cucumber
+    into thin slices.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Giving sequential vegetable preparation instructions
+    in recipes
+- id: A1-U109B-048
+  greek: Βάλτε λίγο ελαιόλαδο, αλάτι και ρίγανη στη σαλάτα.
+  phonetic_hint: VAHL-teh LEE-go eh-leh-O-lah-tho, ah-LAH-tee keh REE-ghah-nee stee
+    sah-LAH-tah
+  english: Add a little olive oil, salt, and oregano to the salad.
+  notes: 'Klik A1 p. 181, 193. Recipe imperative: Βάλτε (plural / polite imperative
+    of βάζω).'
+  gender_or_pos: phrase
+  audio: valte-ligo-elaiolado-ad8dbc.mp3
+  status: verified
+  example_el: — Τι καρυκεύματα να προσθέσω; — Βάλτε λίγο ελαιόλαδο, αλάτι και ρίγανη
+    στη σαλάτα.
+  example_en: — What seasonings should I add? — Add a little olive oil, salt, and
+    oregano to the salad.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Instructing salad dressing and seasoning in recipe steps
+- id: A1-U109B-049
+  greek: Ανακατέψτε καλά όλα τα υλικά μέσα σε ένα μεγάλο μπολ.
+  phonetic_hint: ah-nah-kah-TEH-mpsteh kah-LAH O-lah tah ee-lee-KAH MEH-sah seh EH-nah
+    meh-GHAH-lo bohl
+  english: Mix all the ingredients well inside a large bowl.
+  notes: 'Klik A1 p. 193. Recipe imperative: Ανακατέψτε (plural / polite imperative
+    of ανακατεύω) + τα υλικά (ingredients).'
+  gender_or_pos: phrase
+  audio: anakatepste-kala-ola-dc7041.mp3
+  status: verified
+  example_el: — Πώς αναμειγνύουμε τη σάλτσα; — Ανακατέψτε καλά όλα τα υλικά μέσα σε
+    ένα μεγάλο μπολ.
+  example_en: — How do we blend the dressing? — Mix all the ingredients well inside
+    a large bowl.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Instructing ingredient mixing in culinary recipes
+- id: A1-U109B-050
+  greek: Ψήστε το κρέας στον φούρνο για σαράντα λεπτά στους εκατόν ογδόντα βαθμούς.
+  phonetic_hint: PSEE-steh to KREH-ahs ston FOOR-no yah sah-RAHN-dah lep-TAH stoos
+    eh-kah-TON og-THO-ndah vahth-MOOS
+  english: Bake the meat in the oven for forty minutes at one hundred eighty degrees.
+  notes: 'Klik A1 p. 193. Culinary instructions: Ψήστε (imperative of ψήνω) + στον
+    φούρνο (in the oven) + temperature setting.'
+  gender_or_pos: phrase
+  audio: psiste-to-kreas-ston-6c52ad.mp3
+  status: verified
+  example_el: — Σε τι θερμοκρασία να το ψήσω; — Ψήστε το κρέας στον φούρνο για σαράντα
+    λεπτά στους εκατόν ογδόντα βαθμούς.
+  example_en: — At what temperature should I roast it? — Bake the meat in the oven
+    for forty minutes at one hundred eighty degrees.
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Providing precise baking temperature and time specifications
+    in cooking

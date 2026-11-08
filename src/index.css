@@ -55,3 +55,12 @@
   background: #020202 !important;
   border-color: rgba(56, 189, 248, 0.25) !important;
 }
+
+.oled-theme .lesson-card {
+  background: rgba(0, 0, 0, 0.95) !important;
+  border-color: #475569 !important;
+}
+
+.oled-theme .lesson-card:hover {
+  border-color: #38bdf8 !important;
+}

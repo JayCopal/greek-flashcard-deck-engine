@@ -203,3 +203,81 @@ units:
       patterns, imperative mood (προστακτική: κάνε/κάντε, άκου/ακούστε, μη + υποτακτική),
       spatial prepositions (μέσα, έξω, πάνω, κάτω, μπροστά, πίσω, δεξιά, αριστερά),
       adjective agreement, colors, real estate ads, and housing dialogues.'
+- id: unit-107c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 133-150 (Ενότητα 6: Σπίτι μου, σπιτάκι μου
+    - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  order: KlikA1-07-C
+  is_expansion: true
+  expansion_of: KlikA1-07-A
+  lessons:
+  - id: lesson-01
+    file: unit-107c/lesson-01.yaml
+    title: 'Ενότητα 6: Διάλογοι & Εξετάσεις — Σπίτι, Ενοικίαση & Οδηγίες (A1 Synthesis
+      101-107)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
+      on home life, apartment search, rental negotiations, giving polite instructions
+      and household commands (imperative), and neighborhood living using vocabulary
+      from Lessons 101 to 107.
+- id: unit-108
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
+    - Λεξιλόγιο)'
+  order: KlikA1-08-A
+  lessons:
+  - id: lesson-01
+    file: unit-108/lesson-01.yaml
+    title: 'Ενότητα 7: Γιορτές! Ώρα για ψώνια — Βασικό Λεξιλόγιο (Pages 151-174)'
+- id: unit-108b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-174 (Ενότητα 7: Γιορτές! Ώρα για ψώνια
+    - Γραμματική & Προτάσεις)'
+  order: KlikA1-08-B
+  is_expansion: true
+  expansion_of: KlikA1-08-A
+  lessons:
+  - id: lesson-01
+    file: unit-108b/lesson-01.yaml
+    title: 'Ενότητα 7: Προτάσεις & Γραμματική — Γιορτές! Ώρα για ψώνια (Pages 151-174)'
+    description: 'Expansion & Complementary to Lesson 108: Sentence structures, syntax
+      patterns, Simple Future tense (θα + στιγμιαίος κορμός), weak direct object pronouns
+      in accusative (με, σε, τον, την, το, μας, σας, τους, τις, τα), demonstrative
+      contrast (αυτός vs εκείνος), retail shopping, sizing, fitting rooms, discounts,
+      cashier transactions, and holiday wishes.'
+- id: unit-108c
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 151-168 (Ενότητα 7: Ψώνια, ρούχα & γιορτές
+    - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  order: KlikA1-08-C
+  is_expansion: true
+  expansion_of: KlikA1-08-A
+  lessons:
+  - id: lesson-01
+    file: unit-108c/lesson-01.yaml
+    title: 'Ενότητα 7: Διάλογοι & Εξετάσεις — Ψώνια, Ρούχα, Μέλλον & Γιορτές (A1 Synthesis
+      101-108)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
+      on department store shopping, clothing sizes, fitting rooms, sales, simple future
+      tense plans, invitations, birthdays, and holiday wishes using vocabulary from
+      Lessons 101 to 108.
+- id: unit-109
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
+    μας! - Λεξιλόγιο)'
+  order: KlikA1-09-A
+  lessons:
+  - id: lesson-01
+    file: unit-109/lesson-01.yaml
+    title: 'Ενότητα 8: Από τον μανάβη στο πιάτο μας! — Βασικό Λεξιλόγιο (Pages 175-194)'
+- id: unit-109b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 175-194 (Ενότητα 8: Από τον μανάβη στο πιάτο
+    μας! - Γραμματική & Προτάσεις)'
+  order: KlikA1-09-B
+  is_expansion: true
+  expansion_of: KlikA1-09-A
+  lessons:
+  - id: lesson-01
+    file: unit-109b/lesson-01.yaml
+    title: 'Ενότητα 8: Προτάσεις & Γραμματική — Από τον μανάβη στο πιάτο μας! (Pages
+      175-194)'
+    description: 'Expansion & Complementary to Lesson 109: Sentence structures, syntax
+      patterns, Indefinite pronouns and quantifiers (κανένας/καμία/κανένα, τίποτα,
+      κάποιος, κάτι, κάθε, μερικοί), strong personal pronouns after prepositions (με,
+      για, από, σε, χωρίς), quantifiers (πολύς, πολλή, πολύ vs πόσος, πόση, πόσο),
+      supermarket and produce vendor shopping dialogues, taverna and restaurant ordering
+      interactions, and cooking recipe imperatives (κόψτε, βάλτε, ανακατέψτε, ψήστε).'
