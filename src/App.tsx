@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DeckData, CardEntry } from './types/schema';
-import { getUserStudyPreferences } from './utils/userStorage';
+import { getUserStudyPreferences, initializePersistenceEngine } from './utils/userStorage';
 import { Dashboard } from './components/Dashboard';
 import { Practice } from './components/Practice';
 import { OverviewStats } from './components/OverviewStats';
@@ -192,6 +192,7 @@ export function App() {
   };
 
   useEffect(() => {
+    initializePersistenceEngine();
     fetchDeck();
   }, []);
 

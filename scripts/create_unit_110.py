@@ -1,0 +1,1451 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 110 from Klik A1 (Pages 195-218):
+Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Βασικό Λεξιλόγιο
+Strictly conforming to docs/LESSON_CREATION_GUIDE.md and the klik-a1-deck-builder skill.
+Over 70 cards covering education, academic life, school materials, musical instruments,
+arts, professions, workplaces, and labor/employment terminology.
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-110"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u110 = [
+    # =========================================================================
+    # 1. Education, Academic Institutions & Studies (pp. 195-200)
+    # =========================================================================
+    {
+        "id": "A1-U110-001",
+        "greek": "οι σπουδές",
+        "phonetic_hint": "ee spoo-THES",
+        "english": "studies / higher education",
+        "notes": "Klik A1 p. 195, 199. Feminine noun used predominantly in plural (οι σπουδές).",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Οι σπουδές στο πανεπιστήμιο απαιτούν πολύ διάβασμα.",
+        "example_en": "University studies require a lot of reading.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι σπουδές",
+            "accusative_singular": "τις σπουδές"
+        },
+        "keg_communicative_function": "Naming higher education studies"
+    },
+    {
+        "id": "A1-U110-002",
+        "greek": "το πανεπιστήμιο",
+        "phonetic_hint": "to pah-neh-pee-STEE-mee-o",
+        "english": "university",
+        "notes": "Klik A1 p. 195, 215. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο αδερφός μου πέρασε στο Πανεπιστήμιο Αθηνών.",
+        "example_en": "My brother got into the University of Athens.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πανεπιστήμια",
+            "accusative_singular": "το πανεπιστήμιο"
+        },
+        "keg_communicative_function": "Identifying higher education institutions"
+    },
+    {
+        "id": "A1-U110-003",
+        "greek": "η σχολή",
+        "phonetic_hint": "ee sko-LEE",
+        "english": "school / faculty / college department",
+        "notes": "Klik A1 p. 195, 199. Feminine noun in -ή with plural in -ές.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η νομική σχολή έχει πολλά δύσκολα μαθήματα.",
+        "example_en": "The law school has many difficult courses.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι σχολές",
+            "accusative_singular": "τη σχολή"
+        },
+        "keg_communicative_function": "Naming university faculties and vocational colleges"
+    },
+    {
+        "id": "A1-U110-004",
+        "greek": "το φροντιστήριο",
+        "phonetic_hint": "to fron-dee-STEE-ree-o",
+        "english": "cram school / private tutoring institute (languages/exams)",
+        "notes": "Klik A1 p. 197, 199. Neuter noun in -ο with plural in -α. Institution for private tutoring or language study.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάνω μαθήματα ελληνικών σε ένα φροντιστήριο ξένων γλωσσών.",
+        "example_en": "I take Greek lessons at a foreign language institute.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα φροντιστήρια",
+            "accusative_singular": "το φροντιστήριο"
+        },
+        "keg_communicative_function": "Identifying private educational tutoring centers"
+    },
+    {
+        "id": "A1-U110-005",
+        "greek": "το εργαστήριο",
+        "phonetic_hint": "to er-ghah-STEE-ree-o",
+        "english": "workshop / laboratory / studio",
+        "notes": "Klik A1 p. 196, 206. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάθε Σάββατο πηγαίνω στο εργαστήριο ζωγραφικής.",
+        "example_en": "Every Saturday I go to the art workshop.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα εργαστήρια",
+            "accusative_singular": "το εργαστήριο"
+        },
+        "keg_communicative_function": "Naming instructional studios and laboratories"
+    },
+    {
+        "id": "A1-U110-006",
+        "greek": "το σχολείο",
+        "phonetic_hint": "to sko-LEE-o",
+        "english": "school",
+        "notes": "Klik A1 p. 197, 206. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Τα παιδιά πάνε στο σχολείο στις οκτώ το πρωί.",
+        "example_en": "The children go to school at eight in the morning.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα σχολεία",
+            "accusative_singular": "το σχολείο"
+        },
+        "keg_communicative_function": "Naming primary and secondary educational schools"
+    },
+    {
+        "id": "A1-U110-007",
+        "greek": "το γυμνάσιο",
+        "phonetic_hint": "to yeem-NAH-see-o",
+        "english": "gymnasium / junior high school (grades 7-9)",
+        "notes": "Klik A1 p. 202, 204. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο γιος μου τελείωσε το δημοτικό και πάει στο γυμνάσιο.",
+        "example_en": "My son finished primary school and goes to junior high.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα γυμνάσια",
+            "accusative_singular": "το γυμνάσιο"
+        },
+        "keg_communicative_function": "Naming junior secondary school"
+    },
+    {
+        "id": "A1-U110-008",
+        "greek": "το λύκειο",
+        "phonetic_hint": "to LEE-kee-o",
+        "english": "lyceum / senior high school (grades 10-12)",
+        "notes": "Klik A1 p. 191, 202. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στο λύκειο οι μαθητές προετοιμάζονται για τις πανελλήνιες εξετάσεις.",
+        "example_en": "In senior high school students prepare for national entrance exams.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα λύκεια",
+            "accusative_singular": "το λύκειο"
+        },
+        "keg_communicative_function": "Naming senior high school"
+    },
+    {
+        "id": "A1-U110-009",
+        "greek": "η τάξη",
+        "phonetic_hint": "ee TAH-ksee",
+        "english": "classroom / class / grade",
+        "notes": "Klik A1 p. 197, 198. Feminine noun in -η with plural in -εις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στην τάξη μας είμαστε δεκαπέντε μαθητές.",
+        "example_en": "In our classroom we are fifteen students.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι τάξεις",
+            "accusative_singular": "την τάξη"
+        },
+        "keg_communicative_function": "Identifying classrooms and grade levels"
+    },
+    {
+        "id": "A1-U110-010",
+        "greek": "το μάθημα",
+        "phonetic_hint": "to MAH-thee-mah",
+        "english": "lesson / course / lecture",
+        "notes": "Klik A1 p. 196, 198, 199. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το μάθημα των ελληνικών αρχίζει στις έξι το απόγευμα.",
+        "example_en": "The Greek lesson starts at six in the evening.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μαθήματα",
+            "accusative_singular": "το μάθημα"
+        },
+        "keg_communicative_function": "Referring to scheduled instructional lessons"
+    },
+    {
+        "id": "A1-U110-011",
+        "greek": "το εξάμηνο",
+        "phonetic_hint": "to ek-SAH-mee-no",
+        "english": "semester / academic term",
+        "notes": "Klik A1 p. 198. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Τα δίδακτρα είναι πεντακόσια ευρώ το εξάμηνο.",
+        "example_en": "The tuition is five hundred euros per semester.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα εξάμηνα",
+            "accusative_singular": "το εξάμηνο"
+        },
+        "keg_communicative_function": "Specifying academic terms and semesters"
+    },
+    {
+        "id": "A1-U110-012",
+        "greek": "η εγγραφή",
+        "phonetic_hint": "ee eng-grah-FEE",
+        "english": "enrollment / registration",
+        "notes": "Klik A1 p. 195, 198, 199. Feminine noun in -ή with plural in -ές.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Οι εγγραφές για τα νέα τμήματα γίνονται τον Σεπτέμβριο.",
+        "example_en": "Registration for the new classes takes place in September.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εγγραφές",
+            "accusative_singular": "την εγγραφή"
+        },
+        "keg_communicative_function": "Discussing course registration and enrollment"
+    },
+    {
+        "id": "A1-U110-013",
+        "greek": "η εξέταση",
+        "phonetic_hint": "ee ek-SEH-tah-see",
+        "english": "examination / test",
+        "notes": "Klik A1 p. 199, 200. Feminine noun in -η with plural in -εις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αύριο έχουμε γραπτή εξέταση στη γραμματική.",
+        "example_en": "Tomorrow we have a written examination in grammar.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εξετάσεις",
+            "accusative_singular": "την εξέταση"
+        },
+        "keg_communicative_function": "Naming academic examinations and tests"
+    },
+    {
+        "id": "A1-U110-014",
+        "greek": "το πτυχίο",
+        "phonetic_hint": "to ptee-KHEE-o",
+        "english": "degree / university diploma",
+        "notes": "Klik A1 p. 195, 200. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πήρε το πτυχίο της στη φιλολογία με άριστα.",
+        "example_en": "She received her degree in philology with honors.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πτυχία",
+            "accusative_singular": "το πτυχίο"
+        },
+        "keg_communicative_function": "Naming university degrees and diplomas"
+    },
+    {
+        "id": "A1-U110-015",
+        "greek": "ο βαθμός",
+        "phonetic_hint": "o vahth-MOS",
+        "english": "grade / mark / degree",
+        "notes": "Klik A1 p. 199, 200. Masculine noun in -ός with plural in -οί.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έγραψε πολύ καλά και πήρε υψηλό βαθμό στο τεστ.",
+        "example_en": "He wrote very well and got a high mark on the test.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι βαθμοί",
+            "accusative_singular": "τον βαθμό"
+        },
+        "keg_communicative_function": "Referring to academic marks and grades"
+    },
+    {
+        "id": "A1-U110-016",
+        "greek": "η γνώση",
+        "phonetic_hint": "ee GNO-see",
+        "english": "knowledge",
+        "notes": "Klik A1 p. 195, 198. Feminine noun in -η with plural in -εις.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η γνώση ξένων γλωσσών ανοίγει πόρτες στην αγορά εργασίας.",
+        "example_en": "Knowledge of foreign languages opens doors in the labor market.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι γνώσεις",
+            "accusative_singular": "τη γνώση"
+        },
+        "keg_communicative_function": "Expressing concept of knowledge and skills"
+    },
+    {
+        "id": "A1-U110-017",
+        "greek": "το ταλέντο",
+        "phonetic_hint": "to tah-LEN-do",
+        "english": "talent / gift",
+        "notes": "Klik A1 p. 196. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έχει μεγάλο ταλέντο στη μουσική και στη ζωγραφική.",
+        "example_en": "She has great talent in music and painting.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ταλέντα",
+            "accusative_singular": "το ταλέντο"
+        },
+        "keg_communicative_function": "Identifying personal talents and artistic gifts"
+    },
+
+    # =========================================================================
+    # 2. Classroom & School Supplies (pp. 197-199)
+    # =========================================================================
+    {
+        "id": "A1-U110-018",
+        "greek": "ο πίνακας",
+        "phonetic_hint": "o PEE-nah-kahs",
+        "english": "board / chalkboard / whiteboard / painting",
+        "notes": "Klik A1 p. 197. Masculine noun in -ας with plural in -ες.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο καθηγητής γράφει τις νέες λέξεις στον πίνακα.",
+        "example_en": "The teacher writes the new words on the board.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι πίνακες",
+            "accusative_singular": "τον πίνακα"
+        },
+        "keg_communicative_function": "Naming the classroom blackboard or whiteboard"
+    },
+    {
+        "id": "A1-U110-019",
+        "greek": "το θρανίο",
+        "phonetic_hint": "to thrah-NEE-o",
+        "english": "school desk",
+        "notes": "Klik A1 p. 197, 199. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Οι μαθητές κάθονται δύο δύο σε κάθε θρανίο.",
+        "example_en": "The students sit in pairs at each desk.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα θρανία",
+            "accusative_singular": "το θρανίο"
+        },
+        "keg_communicative_function": "Naming student desks in school classrooms"
+    },
+    {
+        "id": "A1-U110-020",
+        "greek": "η κασετίνα",
+        "phonetic_hint": "ee kah-seh-TEE-nah",
+        "english": "pencil case",
+        "notes": "Klik A1 p. 197, 198, 199. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Έχω τα στυλό και τα μολύβια μέσα στην κασετίνα μου.",
+        "example_en": "I keep my pens and pencils inside my pencil case.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι κασετίνες",
+            "accusative_singular": "την κασετίνα"
+        },
+        "keg_communicative_function": "Naming student pencil cases"
+    },
+    {
+        "id": "A1-U110-021",
+        "greek": "το σακίδιο",
+        "phonetic_hint": "to sah-KEE-thee-o",
+        "english": "backpack / school rucksack",
+        "notes": "Klik A1 p. 197. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Βάζω τα βιβλία και το κολατσιό μέσα στο σχολικό σακίδιο.",
+        "example_en": "I put my books and snack inside the school backpack.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα σακίδια",
+            "accusative_singular": "το σακίδιο"
+        },
+        "keg_communicative_function": "Naming student backpacks"
+    },
+    {
+        "id": "A1-U110-022",
+        "greek": "το τετράδιο",
+        "phonetic_hint": "to teh-TRAH-thee-o",
+        "english": "notebook / exercise book",
+        "notes": "Klik A1 p. 197. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Γράφω τις ασκήσεις γραμματικής στο τετράδιο.",
+        "example_en": "I write the grammar exercises in the notebook.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα τετράδια",
+            "accusative_singular": "το τετράδιο"
+        },
+        "keg_communicative_function": "Naming student exercise notebooks"
+    },
+    {
+        "id": "A1-U110-023",
+        "greek": "το βιβλίο",
+        "phonetic_hint": "to vee-VLEE-o",
+        "english": "book / textbook",
+        "notes": "Klik A1 p. 197. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ανοίξτε το βιβλίο στη σελίδα εκατόν ενενήντα έξι.",
+        "example_en": "Open the book to page one hundred ninety-six.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα βιβλία",
+            "accusative_singular": "το βιβλίο"
+        },
+        "keg_communicative_function": "Naming textbooks and literature"
+    },
+    {
+        "id": "A1-U110-024",
+        "greek": "το μολύβι",
+        "phonetic_hint": "to mo-LEE-vee",
+        "english": "pencil",
+        "notes": "Klik A1 p. 197. Neuter noun in -ι with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σημειώνω τις απαντήσεις με μολύβι για να μπορώ να τις σβήσω.",
+        "example_en": "I mark the answers in pencil so I can erase them.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μολύβια",
+            "accusative_singular": "το μολύβι"
+        },
+        "keg_communicative_function": "Naming writing pencils"
+    },
+    {
+        "id": "A1-U110-025",
+        "greek": "το στυλό",
+        "phonetic_hint": "to stee-LO",
+        "english": "ballpoint pen / pen",
+        "notes": "Klik A1 p. 197. Undeclined loan neuter noun (το στυλό, τα στυλό).",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Υπογράφω την αίτηση εγγραφής με μπλε στυλό.",
+        "example_en": "I sign the application form with blue pen.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα στυλό",
+            "accusative_singular": "το στυλό"
+        },
+        "keg_communicative_function": "Naming ink pens"
+    },
+    {
+        "id": "A1-U110-026",
+        "greek": "η γόμα",
+        "phonetic_hint": "ee GHO-mah",
+        "english": "eraser / rubber",
+        "notes": "Klik A1 p. 197. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Μου δανείζεις τη γόμα σου για να σβήσω ένα λάθος;",
+        "example_en": "Can you lend me your eraser to erase a mistake?",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι γόμες",
+            "accusative_singular": "τη γόμα"
+        },
+        "keg_communicative_function": "Naming pencil erasers"
+    },
+    {
+        "id": "A1-U110-027",
+        "greek": "ο χάρτης",
+        "phonetic_hint": "o KHAHR-tees",
+        "english": "map",
+        "notes": "Klik A1 p. 197. Masculine noun in -ης with plural in -ες.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στον τοίχο της τάξης κρέμεται ο παγκόσμιος χάρτης.",
+        "example_en": "The world map hangs on the classroom wall.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι χάρτες",
+            "accusative_singular": "τον χάρτη"
+        },
+        "keg_communicative_function": "Naming geographical maps"
+    },
+
+    # =========================================================================
+    # 3. Musical Instruments & Arts (pp. 196-198)
+    # =========================================================================
+    {
+        "id": "A1-U110-028",
+        "greek": "η μουσική",
+        "phonetic_hint": "ee moo-see-KEE",
+        "english": "music",
+        "notes": "Klik A1 p. 196, 198. Feminine noun in -ή with plural in -ές.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ακούω κλασική και παραδοσιακή ελληνική μουσική.",
+        "example_en": "I listen to classical and traditional Greek music.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι μουσικές",
+            "accusative_singular": "τη μουσική"
+        },
+        "keg_communicative_function": "Naming musical art forms"
+    },
+    {
+        "id": "A1-U110-029",
+        "greek": "το μουσικό όργανο",
+        "phonetic_hint": "to moo-see-KO OR-ghah-no",
+        "english": "musical instrument",
+        "notes": "Klik A1 p. 196, 197, 198. Neuter noun phrase with adjective.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Παίζεις κανένα μουσικό όργανο;",
+        "example_en": "Do you play any musical instrument?",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μουσικά όργανα",
+            "accusative_singular": "το μουσικό όργανο"
+        },
+        "keg_communicative_function": "Referring to musical instruments collectively"
+    },
+    {
+        "id": "A1-U110-030",
+        "greek": "το πιάνο",
+        "phonetic_hint": "to PYAH-no",
+        "english": "piano",
+        "notes": "Klik A1 p. 196, 197, 198. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η αδερφή μου μαθαίνει να παίζει πιάνο στο ωδείο.",
+        "example_en": "My sister is learning to play the piano at the conservatory.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πιάνα",
+            "accusative_singular": "το πιάνο"
+        },
+        "keg_communicative_function": "Naming keyboard musical instruments"
+    },
+    {
+        "id": "A1-U110-031",
+        "greek": "η κιθάρα",
+        "phonetic_hint": "ee kee-THAH-rah",
+        "english": "guitar",
+        "notes": "Klik A1 p. 197, 215. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στην παραλία παίζουμε κιθάρα και τραγουδάμε γύρω από τη φωτιά.",
+        "example_en": "At the beach we play guitar and sing around the fire.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι κιθάρες",
+            "accusative_singular": "την κιθάρα"
+        },
+        "keg_communicative_function": "Naming stringed instruments"
+    },
+    {
+        "id": "A1-U110-032",
+        "greek": "το βιολί",
+        "phonetic_hint": "to vee-o-LEE",
+        "english": "violin",
+        "notes": "Klik A1 p. 197, 199. Neuter noun in -ί with plural in -ιά.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το βιολί είναι παραδοσιακό όργανο στα νησιά του Αιγαίου.",
+        "example_en": "The violin is a traditional instrument in the Aegean islands.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα βιολιά",
+            "accusative_singular": "το βιολί"
+        },
+        "keg_communicative_function": "Naming stringed orchestral instruments"
+    },
+    {
+        "id": "A1-U110-033",
+        "greek": "το μπουζούκι",
+        "phonetic_hint": "to boo-ZOO-kee",
+        "english": "bouzouki (Greek long-necked lute)",
+        "notes": "Klik A1 p. 196, 197. Neuter noun in -ι with plural in -ια. Iconic Greek folk instrument.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο μουσικός παίζει μπουζούκι στην ταβέρνα κάθε Παρασκευή.",
+        "example_en": "The musician plays the bouzouki at the tavern every Friday.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μπουζούκια",
+            "accusative_singular": "το μπουζούκι"
+        },
+        "keg_communicative_function": "Naming traditional Greek folk instruments"
+    },
+    {
+        "id": "A1-U110-034",
+        "greek": "το μπάσο",
+        "phonetic_hint": "to BAH-so",
+        "english": "bass / bass guitar",
+        "notes": "Klik A1 p. 197. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Στο ροκ συγκρότημα παίζει ηλεκτρικό μπάσο.",
+        "example_en": "In the rock band he plays electric bass.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μπάσα",
+            "accusative_singular": "το μπάσο"
+        },
+        "keg_communicative_function": "Naming bass rhythm instruments"
+    },
+    {
+        "id": "A1-U110-035",
+        "greek": "το τραγούδι",
+        "phonetic_hint": "to trah-GHOO-thee",
+        "english": "song",
+        "notes": "Klik A1 p. 198. Neuter noun in -ι with plural in -ια.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Αυτό είναι το αγαπημένο μου ελληνικό τραγούδι.",
+        "example_en": "This is my favorite Greek song.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα τραγούδια",
+            "accusative_singular": "το τραγούδι"
+        },
+        "keg_communicative_function": "Naming musical songs"
+    },
+    {
+        "id": "A1-U110-036",
+        "greek": "η ζωγραφική",
+        "phonetic_hint": "ee zo-ghrah-fee-KEE",
+        "english": "painting / fine art",
+        "notes": "Klik A1 p. 195, 196, 198, 199. Feminine noun in -ή with plural in -ές.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η ζωγραφική με βοηθάει να χαλαρώνω μετά τη δουλειά.",
+        "example_en": "Painting helps me relax after work.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι ζωγραφικές",
+            "accusative_singular": "τη ζωγραφική"
+        },
+        "keg_communicative_function": "Naming visual painting arts"
+    },
+    {
+        "id": "A1-U110-037",
+        "greek": "το πινέλο",
+        "phonetic_hint": "to pee-NEH-lo",
+        "english": "paintbrush",
+        "notes": "Klik A1 p. 203. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο ζωγράφος κρατάει το πινέλο και ζωγραφίζει στον καμβά.",
+        "example_en": "The painter holds the paintbrush and paints on the canvas.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα πινέλα",
+            "accusative_singular": "το πινέλο"
+        },
+        "keg_communicative_function": "Naming artistic tools"
+    },
+
+    # =========================================================================
+    # 4. Professions & Roles (pp. 203-205)
+    # =========================================================================
+    {
+        "id": "A1-U110-038",
+        "greek": "ο καθηγητής",
+        "phonetic_hint": "o kah-thee-yee-TEES",
+        "english": "professor / high school teacher (male)",
+        "notes": "Klik A1 p. 203. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο καθηγητής των γερμανικών εξηγεί τον κανόνα.",
+        "example_en": "The German professor explains the rule.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι καθηγητές",
+            "accusative_singular": "τον καθηγητή"
+        },
+        "keg_communicative_function": "Identifying male secondary or tertiary educators"
+    },
+    {
+        "id": "A1-U110-039",
+        "greek": "η καθηγήτρια",
+        "phonetic_hint": "ee kah-thee-YEE-tree-ah",
+        "english": "professor / high school teacher (female)",
+        "notes": "Klik A1 p. 203. Feminine noun in -τρια with plural in -τριες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η καθηγήτρια της ιστορίας είναι πολύ αυστηρή αλλά δίκαιη.",
+        "example_en": "The history teacher is very strict but fair.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι καθηγήτριες",
+            "accusative_singular": "την καθηγήτρια"
+        },
+        "keg_communicative_function": "Identifying female secondary or tertiary educators"
+    },
+    {
+        "id": "A1-U110-040",
+        "greek": "ο δάσκαλος",
+        "phonetic_hint": "o THAH-skah-los",
+        "english": "teacher (male primary educator)",
+        "notes": "Klik A1 p. 203, 206. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο δάσκαλος διδάσκει ανάγνωση και γραφή στα παιδιά.",
+        "example_en": "The teacher teaches reading and writing to the children.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι δάσκαλοι",
+            "accusative_singular": "τον δάσκαλο"
+        },
+        "keg_communicative_function": "Identifying male primary school teachers"
+    },
+    {
+        "id": "A1-U110-041",
+        "greek": "η δασκάλα",
+        "phonetic_hint": "ee thah-SKAH-lah",
+        "english": "teacher (female primary educator)",
+        "notes": "Klik A1 p. 203, 204. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η δασκάλα μας βοηθάει πάντα με πολλή υπομονή.",
+        "example_en": "Our teacher always helps us with great patience.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι δασκάλες",
+            "accusative_singular": "τη δασκάλα"
+        },
+        "keg_communicative_function": "Identifying female primary school teachers"
+    },
+    {
+        "id": "A1-U110-042",
+        "greek": "ο μαθητής",
+        "phonetic_hint": "o mah-thee-TEES",
+        "english": "student / pupil (male)",
+        "notes": "Klik A1 p. 197, 199, 203. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο μαθητής σηκώνει το χέρι του για να απαντήσει.",
+        "example_en": "The pupil raises his hand to answer.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι μαθητές",
+            "accusative_singular": "τον μαθητή"
+        },
+        "keg_communicative_function": "Identifying male school pupils"
+    },
+    {
+        "id": "A1-U110-043",
+        "greek": "η μαθήτρια",
+        "phonetic_hint": "ee mah-THEE-tree-ah",
+        "english": "student / pupil (female)",
+        "notes": "Klik A1 p. 197, 199, 203. Feminine noun in -τρια with plural in -τριες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η μαθήτρια διαβάζει δυνατά το κείμενο στην τάξη.",
+        "example_en": "The student reads the text aloud in class.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι μαθήτριες",
+            "accusative_singular": "τη μαθήτρια"
+        },
+        "keg_communicative_function": "Identifying female school pupils"
+    },
+    {
+        "id": "A1-U110-044",
+        "greek": "ο φοιτητής",
+        "phonetic_hint": "o fee-tee-TEES",
+        "english": "university student (male)",
+        "notes": "Klik A1 p. 195, 203. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο φοιτητής περνάει πολλές ώρες στη βιβλιοθήκη της σχολής.",
+        "example_en": "The university student spends many hours in the faculty library.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι φοιτητές",
+            "accusative_singular": "τον φοιτητή"
+        },
+        "keg_communicative_function": "Identifying male university students"
+    },
+    {
+        "id": "A1-U110-045",
+        "greek": "η φοιτήτρια",
+        "phonetic_hint": "ee fee-TEE-tree-ah",
+        "english": "university student (female)",
+        "notes": "Klik A1 p. 195, 203. Feminine noun in -τρια with plural in -τριες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η φοιτήτρια σπουδάζει ιατρική στη Θεσσαλονίκη.",
+        "example_en": "The university student studies medicine in Thessaloniki.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι φοιτήτριες",
+            "accusative_singular": "τη φοιτήτρια"
+        },
+        "keg_communicative_function": "Identifying female university students"
+    },
+    {
+        "id": "A1-U110-046",
+        "greek": "ο διευθυντής",
+        "phonetic_hint": "o thee-ef-theen-TEES",
+        "english": "director / principal / manager (male)",
+        "notes": "Klik A1 p. 203. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο διευθυντής της εταιρείας υπέγραψε τα νέα συμβόλαια.",
+        "example_en": "The company director signed the new contracts.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι διευθυντές",
+            "accusative_singular": "τον διευθυντή"
+        },
+        "keg_communicative_function": "Identifying male executive managers and school principals"
+    },
+    {
+        "id": "A1-U110-047",
+        "greek": "η διευθύντρια",
+        "phonetic_hint": "ee thee-ef-THEEN-tree-ah",
+        "english": "director / principal / manager (female)",
+        "notes": "Klik A1 p. 203. Feminine noun in -τρια with plural in -τριες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η διευθύντρια του σχολείου καλωσόρισε τους γονείς.",
+        "example_en": "The school principal welcomed the parents.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι διευθύντριες",
+            "accusative_singular": "τη διευθύντρια"
+        },
+        "keg_communicative_function": "Identifying female executive managers and school principals"
+    },
+    {
+        "id": "A1-U110-048",
+        "greek": "ο γραμματέας",
+        "phonetic_hint": "o ghrah-mah-TEH-ahs",
+        "english": "secretary (male)",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -έας with plural in -είς.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο γραμματέας απαντάει στα τηλεφωνήματα και οργανώνει τα ραντεβού.",
+        "example_en": "The secretary answers phone calls and organizes appointments.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι γραμματείς",
+            "accusative_singular": "τον γραμματέα"
+        },
+        "keg_communicative_function": "Identifying male administrative secretaries"
+    },
+    {
+        "id": "A1-U110-049",
+        "greek": "η γραμματέας",
+        "phonetic_hint": "ee ghrah-mah-TEH-ahs",
+        "english": "secretary (female)",
+        "notes": "Klik A1 p. 203, 204. Feminine noun identical in nominative to masculine, plural in -είς.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η γραμματέας του γιατρού μού έκλεισε ραντεβού για την Τρίτη.",
+        "example_en": "The doctor's secretary booked an appointment for me on Tuesday.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι γραμματείς",
+            "accusative_singular": "τη γραμματέα"
+        },
+        "keg_communicative_function": "Identifying female administrative secretaries"
+    },
+    {
+        "id": "A1-U110-050",
+        "greek": "ο υπάλληλος",
+        "phonetic_hint": "o ee-PAH-lee-los",
+        "english": "employee / office clerk / clerk",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -ος with plural in -οι (common gender: ο/η υπάλληλος).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο τραπεζικός υπάλληλος με βοήθησε να ανοίξω λογαριασμό.",
+        "example_en": "The bank employee helped me open an account.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι υπάλληλοι",
+            "accusative_singular": "τον υπάλληλο"
+        },
+        "keg_communicative_function": "Identifying commercial and office employees"
+    },
+    {
+        "id": "A1-U110-051",
+        "greek": "ο γιατρός",
+        "phonetic_hint": "o yah-TROS",
+        "english": "doctor / physician",
+        "notes": "Klik A1 p. 203, 219. Masculine noun in -ός with plural in -οί (common gender: ο/η γιατρός).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο γιατρός εξέτασε τον ασθενή και έγραψε φάρμακα.",
+        "example_en": "The doctor examined the patient and prescribed medicine.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι γιατροί",
+            "accusative_singular": "τον γιατρό"
+        },
+        "keg_communicative_function": "Identifying medical physicians"
+    },
+    {
+        "id": "A1-U110-052",
+        "greek": "ο νοσοκόμος",
+        "phonetic_hint": "o no-so-KO-mos",
+        "english": "nurse (male)",
+        "notes": "Klik A1 p. 203. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο νοσοκόμος φροντίζει τους ασθενείς στον θάλαμο.",
+        "example_en": "The male nurse cares for patients in the ward.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι νοσοκόμοι",
+            "accusative_singular": "τον νοσοκόμο"
+        },
+        "keg_communicative_function": "Identifying male nursing staff"
+    },
+    {
+        "id": "A1-U110-053",
+        "greek": "η νοσοκόμα",
+        "phonetic_hint": "ee no-so-KO-mah",
+        "english": "nurse (female)",
+        "notes": "Klik A1 p. 203. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η νοσοκόμα έκανε την ένεση γρήγορα και ανώδυνα.",
+        "example_en": "The nurse gave the injection quickly and painlessly.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι νοσοκόμες",
+            "accusative_singular": "τη νοσοκόμα"
+        },
+        "keg_communicative_function": "Identifying female nursing staff"
+    },
+    {
+        "id": "A1-U110-054",
+        "greek": "ο δικηγόρος",
+        "phonetic_hint": "o thee-kee-GHO-ros",
+        "english": "lawyer / attorney",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -ος with plural in -οι (common gender: ο/η δικηγόρος).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο δικηγόρος εκπροσωπεί τον πελάτη του στο δικαστήριο.",
+        "example_en": "The lawyer represents his client in court.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι δικηγόροι",
+            "accusative_singular": "τον δικηγόρο"
+        },
+        "keg_communicative_function": "Identifying legal professionals"
+    },
+    {
+        "id": "A1-U110-055",
+        "greek": "ο μηχανικός",
+        "phonetic_hint": "o mee-khah-nee-KOS",
+        "english": "engineer / mechanic",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -ός with plural in -οί (common gender: ο/η μηχανικός).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο πολιτικός μηχανικός σχεδιάζει τη νέα γέφυρα.",
+        "example_en": "The civil engineer designs the new bridge.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι μηχανικοί",
+            "accusative_singular": "τον μηχανικό"
+        },
+        "keg_communicative_function": "Identifying engineering professionals"
+    },
+    {
+        "id": "A1-U110-056",
+        "greek": "ο αρχιτέκτονας",
+        "phonetic_hint": "o ahr-khee-TEK-to-nahs",
+        "english": "architect",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -ας with plural in -ες (common gender: ο/η αρχιτέκτονας).",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο αρχιτέκτονας σχεδίασε μια μοντέρνα μονοκατοικία.",
+        "example_en": "The architect designed a modern detached house.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι αρχιτέκτονες",
+            "accusative_singular": "τον αρχιτέκτονα"
+        },
+        "keg_communicative_function": "Identifying architecture professionals"
+    },
+    {
+        "id": "A1-U110-057",
+        "greek": "ο λογιστής",
+        "phonetic_hint": "o lo-yee-STEES",
+        "english": "accountant (male)",
+        "notes": "Klik A1 p. 206. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο λογιστής ελέγχει τα οικονομικά στοιχεία της επιχείρησης.",
+        "example_en": "The accountant audits the company's financial records.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι λογιστές",
+            "accusative_singular": "τον λογιστή"
+        },
+        "keg_communicative_function": "Identifying financial accounting professionals"
+    },
+    {
+        "id": "A1-U110-058",
+        "greek": "ο κομμωτής",
+        "phonetic_hint": "o ko-mo-TEES",
+        "english": "hairdresser / hair stylist (male)",
+        "notes": "Klik A1 p. 195, 203. Masculine noun in -ής with plural in -ές.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο κομμωτής μού έκοψε τα μαλλιά πολύ όμορφα.",
+        "example_en": "The hairdresser cut my hair very nicely.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι κομμωτές",
+            "accusative_singular": "τον κομμωτή"
+        },
+        "keg_communicative_function": "Identifying male hairstyling professionals"
+    },
+    {
+        "id": "A1-U110-059",
+        "greek": "η κομμώτρια",
+        "phonetic_hint": "ee ko-MO-tree-ah",
+        "english": "hairdresser / hair stylist (female)",
+        "notes": "Klik A1 p. 203, 206. Feminine noun in -τρια with plural in -τριες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Η κομμώτρια δουλεύει στο κομμωτήριο της γειτονιάς.",
+        "example_en": "The female hairdresser works at the neighborhood hair salon.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι κομμώτριες",
+            "accusative_singular": "την κομμώτρια"
+        },
+        "keg_communicative_function": "Identifying female hairstyling professionals"
+    },
+    {
+        "id": "A1-U110-060",
+        "greek": "ο μάγειρας",
+        "phonetic_hint": "o MAH-yee-rahs",
+        "english": "cook / chef (male)",
+        "notes": "Klik A1 p. 195, 203, 204. Masculine noun in -ας with plural in -ες.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο μάγειρας ετοιμάζει νόστιμα παραδοσιακά πιάτα.",
+        "example_en": "The chef prepares delicious traditional dishes.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι μάγειρες",
+            "accusative_singular": "τον μάγειρα"
+        },
+        "keg_communicative_function": "Identifying culinary chefs and cooks"
+    },
+    {
+        "id": "A1-U110-061",
+        "greek": "ο οδηγός",
+        "phonetic_hint": "o o-thee-GHOS",
+        "english": "driver / chauffeur",
+        "notes": "Klik A1 p. 203, 204. Masculine noun in -ός with plural in -οί.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο οδηγός του λεωφορείου σταματάει σε κάθε στάση.",
+        "example_en": "The bus driver stops at every bus stop.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι οδηγοί",
+            "accusative_singular": "τον οδηγό"
+        },
+        "keg_communicative_function": "Identifying transportation drivers"
+    },
+    {
+        "id": "A1-U110-062",
+        "greek": "ο πιλότος",
+        "phonetic_hint": "o pee-LO-tos",
+        "english": "pilot (aircraft)",
+        "notes": "Klik A1 p. 203. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο πιλότος καλωσόρισε τους επιβάτες στο αεροπλάνο.",
+        "example_en": "The pilot welcomed passengers on the airplane.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι πιλότοι",
+            "accusative_singular": "τον πιλότο"
+        },
+        "keg_communicative_function": "Identifying aviation pilots"
+    },
+    {
+        "id": "A1-U110-063",
+        "greek": "ο ηλεκτρολόγος",
+        "phonetic_hint": "o ee-lek-tro-LO-ghos",
+        "english": "electrician",
+        "notes": "Klik A1 p. 203. Masculine noun in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Καλέσαμε τον ηλεκτρολόγο για να φτιάξει τα φώτα στο σπίτι.",
+        "example_en": "We called the electrician to fix the lights at home.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι ηλεκτρολόγοι",
+            "accusative_singular": "τον ηλεκτρολόγο"
+        },
+        "keg_communicative_function": "Identifying technical trade professionals"
+    },
+    {
+        "id": "A1-U110-064",
+        "greek": "ο άνεργος",
+        "phonetic_hint": "o AH-ner-ghos",
+        "english": "unemployed person (male)",
+        "notes": "Klik A1 p. 203. Substantivized adjective in -ος with plural in -οι.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο άνεργος ψάχνει καθημερινά για δουλειά στο διαδίκτυο.",
+        "example_en": "The unemployed man searches daily for work online.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι άνεργοι",
+            "accusative_singular": "τον άνεργο"
+        },
+        "keg_communicative_function": "Identifying employment status"
+    },
+
+    # =========================================================================
+    # 5. Labor, Workplace & Working Conditions (pp. 201-204, 213)
+    # =========================================================================
+    {
+        "id": "A1-U110-065",
+        "greek": "η εργασία",
+        "phonetic_hint": "ee er-ghah-SEE-ah",
+        "english": "work / employment / job / assignment",
+        "notes": "Klik A1 p. 201, 202, 213. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Είμαι πολύ ευχαριστημένος με τη νέα μου εργασία.",
+        "example_en": "I am very pleased with my new job.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εργασίες",
+            "accusative_singular": "την εργασία"
+        },
+        "keg_communicative_function": "Discussing work and professional employment"
+    },
+    {
+        "id": "A1-U110-066",
+        "greek": "ο μισθός",
+        "phonetic_hint": "o mee-STHOS",
+        "english": "salary / monthly wage",
+        "notes": "Klik A1 p. 202, 206, 213. Masculine noun in -ός with plural in -οί.",
+        "gender_or_pos": "noun (masculine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Πληρώνεται καλό μηνιαίο μισθό στην τράπεζα.",
+        "example_en": "He is paid a good monthly salary at the bank.",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι μισθοί",
+            "accusative_singular": "τον μισθό"
+        },
+        "keg_communicative_function": "Discussing remuneration and salaries"
+    },
+    {
+        "id": "A1-U110-067",
+        "greek": "το ωράριο",
+        "phonetic_hint": "to o-RAH-ree-o",
+        "english": "working hours / schedule / timetable",
+        "notes": "Klik A1 p. 198, 204, 213, 215. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το ωράριο εργασίας μου είναι εννέα το πρωί με πέντε το απόγευμα.",
+        "example_en": "My work hours are nine in the morning to five in the afternoon.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ωράρια",
+            "accusative_singular": "το ωράριο"
+        },
+        "keg_communicative_function": "Specifying daily working schedules"
+    },
+    {
+        "id": "A1-U110-068",
+        "greek": "η υπερωρία",
+        "phonetic_hint": "ee ee-peh-ro-REE-ah",
+        "english": "overtime work / overtime hour",
+        "notes": "Klik A1 p. 213. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Σήμερα έκανα δύο ώρες υπερωρία στο γραφείο.",
+        "example_en": "Today I did two hours of overtime at the office.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι υπερωρίες",
+            "accusative_singular": "την υπερωρία"
+        },
+        "keg_communicative_function": "Discussing overtime work hours"
+    },
+    {
+        "id": "A1-U110-069",
+        "greek": "η άδεια",
+        "phonetic_hint": "ee AH-thee-ah",
+        "english": "leave / vacation leave / permit / license",
+        "notes": "Klik A1 p. 202. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Τον Αύγουστο παίρνω είκοσι μέρες καλοκαιρινή άδεια.",
+        "example_en": "In August I take twenty days of summer vacation leave.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι άδειες",
+            "accusative_singular": "την άδεια"
+        },
+        "keg_communicative_function": "Discussing vacation time and official leave"
+    },
+    {
+        "id": "A1-U110-070",
+        "greek": "το διάλειμμα",
+        "phonetic_hint": "to thee-AH-lee-mah",
+        "english": "break / recess / intermission",
+        "notes": "Klik A1 p. 202. Neuter noun in -μα with plural in -ματα.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κάνουμε ένα μικρό διάλειμμα για καφέ και φαγητό.",
+        "example_en": "We take a short break for coffee and food.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα διαλείμματα",
+            "accusative_singular": "το διάλειμμα"
+        },
+        "keg_communicative_function": "Naming pauses and work breaks"
+    },
+    {
+        "id": "A1-U110-071",
+        "greek": "η εταιρεία",
+        "phonetic_hint": "ee eh-teh-REE-ah",
+        "english": "company / firm / corporation",
+        "notes": "Klik A1 p. 204, 213. Feminine noun in -α with plural in -ες.",
+        "gender_or_pos": "noun (feminine)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Εργάζεται σε μια μεγάλη πολυεθνική εταιρεία πληροφορικής.",
+        "example_en": "He works at a large multinational IT company.",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι εταιρείες",
+            "accusative_singular": "την εταιρεία"
+        },
+        "keg_communicative_function": "Identifying commercial corporate entities"
+    },
+    {
+        "id": "A1-U110-072",
+        "greek": "το εργοστάσιο",
+        "phonetic_hint": "to er-gho-STAH-see-o",
+        "english": "factory / plant",
+        "notes": "Klik A1 p. 202. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το εργοστάσιο απασχολεί εκατοντάδες εργαζομένους.",
+        "example_en": "The factory employs hundreds of workers.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα εργοστάσια",
+            "accusative_singular": "το εργοστάσιο"
+        },
+        "keg_communicative_function": "Naming industrial manufacturing plants"
+    },
+    {
+        "id": "A1-U110-073",
+        "greek": "το νοσοκομείο",
+        "phonetic_hint": "to no-so-ko-MEE-o",
+        "english": "hospital",
+        "notes": "Klik A1 p. 204. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Ο αδερφός μου δουλεύει ως γιατρός στο γενικό νοσοκομείο.",
+        "example_en": "My brother works as a doctor at the general hospital.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα νοσοκομεία",
+            "accusative_singular": "το νοσοκομείο"
+        },
+        "keg_communicative_function": "Naming hospital medical centers"
+    },
+    {
+        "id": "A1-U110-074",
+        "greek": "το ιατρείο",
+        "phonetic_hint": "to yah-TREE-o",
+        "english": "doctor's office / medical clinic / surgery",
+        "notes": "Klik A1 p. 203, 219. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Το ιατρείο του παιδιάτρου είναι ανοιχτό καθημερινά.",
+        "example_en": "The pediatrician's clinic is open daily.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα ιατρεία",
+            "accusative_singular": "το ιατρείο"
+        },
+        "keg_communicative_function": "Naming private medical clinics"
+    },
+    {
+        "id": "A1-U110-075",
+        "greek": "το κομμωτήριο",
+        "phonetic_hint": "to ko-mo-TEE-ree-o",
+        "english": "hair salon / barbershop",
+        "notes": "Klik A1 p. 206. Neuter noun in -ο with plural in -α.",
+        "gender_or_pos": "noun (neuter)",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "Κλείνω ραντεβού στο κομμωτήριο για κούρεμα.",
+        "example_en": "I make an appointment at the hair salon for a haircut.",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα κομμωτήρια",
+            "accusative_singular": "το κομμωτήριο"
+        },
+        "keg_communicative_function": "Naming hairdressing salons"
+    }
+]
+
+lesson_u110 = {
+    "unit_id": "unit-110",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)",
+    "description": (
+        "Core vocabulary for Unit 9 and Review 7-9 of Klik sta Ellinika A1: "
+        "Academic institutions & education (σπουδές, πανεπιστήμιο, σχολή, φροντιστήριο, εργαστήριο, σχολείο, γυμνάσιο, λύκειο), "
+        "classroom and school supplies (πίνακας, θρανίο, κασετίνα, σακίδιο, τετράδιο, μολύβι, στυλό), "
+        "musical instruments & arts (μουσική, πιάνο, κιθάρα, βιολί, μπουζούκι, ζωγραφική, πινέλο), "
+        "professions (καθηγητής, δάσκαλος, φοιτητής, διευθυντής, γραμματέας, υπάλληλος, γιατρός, δικηγόρος, μηχανικός, μάγειρας, λογιστής, κομμωτής), "
+        "workplaces and employment (εργασία, μισθός, ωράριο, υπερωρία, άδεια, εταιρεία, εργοστάσιο, νοσοκομείο, κομμωτήριο)."
+    ),
+    "lesson_status": "not_started",
+    "entries": cards_u110
+}
+
+def main():
+    print(f"Writing {len(cards_u110)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u110, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-110"), None)
+    unit_110_entry = {
+        "id": "unit-110",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Λεξιλόγιο)",
+        "order": "KlikA1-10-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-110/lesson-01.yaml",
+                "title": "Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)"
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-110 in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_110_entry
+    else:
+        print("Appending unit-110 to manifest.yaml...")
+        units.append(unit_110_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-110!")
+
+if __name__ == "__main__":
+    main()

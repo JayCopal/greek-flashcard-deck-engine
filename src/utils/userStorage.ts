@@ -1,8 +1,23 @@
 import { UserProfile, LessonStatus } from '../types/schema';
+import {
+  GREEK_DECK_USERS_KEY,
+  GREEK_DECK_ACTIVE_USER_KEY,
+  LEGACY_SRS_KEY,
+  mirrorKeyToIndexedDB,
+  removeKeyFromIndexedDBMirror,
+  restoreFromIndexedDBIfEmpty,
+  requestPersistentStorage,
+  checkStoragePersisted,
+  exportFullProgressBackup,
+  importFullProgressBackup,
+} from './indexedDBStorage';
 
-const GREEK_DECK_USERS_KEY = 'greek_deck_users_v1';
-const GREEK_DECK_ACTIVE_USER_KEY = 'greek_deck_active_user_id_v1';
-const LEGACY_SRS_KEY = 'greek_deck_srs_state_v1';
+export {
+  checkStoragePersisted,
+  requestPersistentStorage,
+  exportFullProgressBackup,
+  importFullProgressBackup,
+};
 
 const USER_COLORS = [
   '#0284c7', // Sky
@@ -39,6 +54,26 @@ export function getLessonCompositeKey(unitId?: string, lessonId?: string): strin
 }
 
 /**
+ * Scan localStorage for any existing user keys to avoid losing progress
+ * if the user profile list was cleared or corrupted.
+ */
+function discoverExistingUserIds(): string[] {
+  const ids = new Set<string>();
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k) {
+        const match = k.match(/^greek_deck_(?:srs|lessons|lesson_notes|study_prefs)_([a-zA-Z0-9_-]+)$/);
+        if (match && match[1]) {
+          ids.add(match[1]);
+        }
+      }
+    }
+  } catch {}
+  return Array.from(ids);
+}
+
+/**
  * Initialize default user and migrate legacy single-user data if needed
  */
 export function initializeUsers(): UserProfile[] {
@@ -52,6 +87,28 @@ export function initializeUsers(): UserProfile[] {
     }
   } catch (e) {
     console.warn('Error reading users from localStorage', e);
+  }
+
+  // Check if we can recover orphaned profiles from existing data keys
+  const orphanIds = discoverExistingUserIds();
+  const recoveredUsers: UserProfile[] = [];
+
+  for (let idx = 0; idx < orphanIds.length; idx++) {
+    const uid = orphanIds[idx];
+    recoveredUsers.push({
+      id: uid,
+      name: uid === 'default' ? 'Learner 1' : `Learner ${idx + 1}`,
+      createdAt: new Date().toISOString(),
+      lastActiveAt: new Date().toISOString(),
+      color: USER_COLORS[idx % USER_COLORS.length],
+    });
+  }
+
+  if (recoveredUsers.length > 0) {
+    saveUsers(recoveredUsers);
+    const active = localStorage.getItem(GREEK_DECK_ACTIVE_USER_KEY) || recoveredUsers[0].id;
+    setActiveUserId(active);
+    return recoveredUsers;
   }
 
   // Create initial default user
@@ -68,9 +125,13 @@ export function initializeUsers(): UserProfile[] {
     const legacySRS = localStorage.getItem(LEGACY_SRS_KEY);
     if (legacySRS) {
       localStorage.setItem(`greek_deck_srs_default`, legacySRS);
+      mirrorKeyToIndexedDB('greek_deck_srs_default', legacySRS);
     }
-    localStorage.setItem(GREEK_DECK_USERS_KEY, JSON.stringify([defaultUser]));
+    const rawUsers = JSON.stringify([defaultUser]);
+    localStorage.setItem(GREEK_DECK_USERS_KEY, rawUsers);
+    mirrorKeyToIndexedDB(GREEK_DECK_USERS_KEY, rawUsers);
     localStorage.setItem(GREEK_DECK_ACTIVE_USER_KEY, defaultUser.id);
+    mirrorKeyToIndexedDB(GREEK_DECK_ACTIVE_USER_KEY, defaultUser.id);
   } catch (e) {
     console.error('Error initializing users in localStorage', e);
   }
@@ -91,7 +152,9 @@ export function getUsers(): UserProfile[] {
 
 export function saveUsers(users: UserProfile[]): void {
   try {
-    localStorage.setItem(GREEK_DECK_USERS_KEY, JSON.stringify(users));
+    const rawJson = JSON.stringify(users);
+    localStorage.setItem(GREEK_DECK_USERS_KEY, rawJson);
+    mirrorKeyToIndexedDB(GREEK_DECK_USERS_KEY, rawJson);
   } catch (err) {
     console.error('Failed to save users', err);
   }
@@ -106,6 +169,7 @@ export function getActiveUserId(): string {
   const firstId = users[0]?.id || 'default';
   try {
     localStorage.setItem(GREEK_DECK_ACTIVE_USER_KEY, firstId);
+    mirrorKeyToIndexedDB(GREEK_DECK_ACTIVE_USER_KEY, firstId);
   } catch {}
   return firstId;
 }
@@ -130,6 +194,7 @@ export function getActiveUser(): UserProfile {
 export function setActiveUserId(userId: string): void {
   try {
     localStorage.setItem(GREEK_DECK_ACTIVE_USER_KEY, userId);
+    mirrorKeyToIndexedDB(GREEK_DECK_ACTIVE_USER_KEY, userId);
     // Update lastActiveAt
     const users = getUsers();
     const updated = users.map((u) =>
@@ -192,11 +257,20 @@ export function deleteUser(userId: string): boolean {
   const updated = users.filter((u) => u.id !== userId);
   saveUsers(updated);
 
-  // Clean up user's local storage data
+  // Clean up user's local storage and IndexedDB mirror
   try {
-    localStorage.removeItem(`greek_deck_srs_${userId}`);
-    localStorage.removeItem(`greek_deck_lessons_${userId}`);
-    localStorage.removeItem(`greek_deck_lesson_notes_${userId}`);
+    const keysToRemove = [
+      `greek_deck_srs_${userId}`,
+      `greek_deck_lessons_${userId}`,
+      `greek_deck_lesson_notes_${userId}`,
+      `greek_deck_study_prefs_${userId}`,
+      `greek_deck_daily_reviews_${userId}`,
+      `greek_deck_last_lesson_${userId}`,
+    ];
+    for (const k of keysToRemove) {
+      localStorage.removeItem(k);
+      removeKeyFromIndexedDBMirror(k);
+    }
   } catch {}
 
   // If the active user was deleted, switch to the first remaining user
@@ -215,12 +289,21 @@ export function deleteUser(userId: string): boolean {
 export function resetUserProgress(userId?: string): void {
   const uid = userId || getActiveUserId();
   try {
-    localStorage.removeItem(`greek_deck_srs_${uid}`);
-    localStorage.removeItem(`greek_deck_lessons_${uid}`);
-    localStorage.removeItem(`greek_deck_lesson_notes_${uid}`);
-    localStorage.removeItem(`greek_deck_study_prefs_${uid}`);
+    const keysToRemove = [
+      `greek_deck_srs_${uid}`,
+      `greek_deck_lessons_${uid}`,
+      `greek_deck_lesson_notes_${uid}`,
+      `greek_deck_study_prefs_${uid}`,
+      `greek_deck_daily_reviews_${uid}`,
+      `greek_deck_last_lesson_${uid}`,
+    ];
+    for (const k of keysToRemove) {
+      localStorage.removeItem(k);
+      removeKeyFromIndexedDBMirror(k);
+    }
     if (uid === 'default') {
       localStorage.removeItem(LEGACY_SRS_KEY);
+      removeKeyFromIndexedDBMirror(LEGACY_SRS_KEY);
     }
   } catch (e) {
     console.error('Failed to reset user progress', e);
@@ -292,7 +375,9 @@ export function setUserStudyPreferences(
     ...prefs,
   };
   try {
-    localStorage.setItem(key, JSON.stringify(updated));
+    const rawJson = JSON.stringify(updated);
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent('greek_deck_prefs_change', { detail: updated }));
     }
@@ -365,7 +450,10 @@ export function recordDailyCardReview(userId?: string): DailyReviewData {
     count: current.count + 1,
   };
   try {
-    localStorage.setItem(`greek_deck_daily_reviews_${uid}`, JSON.stringify(updated));
+    const rawJson = JSON.stringify(updated);
+    const key = `greek_deck_daily_reviews_${uid}`;
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent('greek_deck_daily_change', { detail: updated }));
     }
@@ -394,7 +482,10 @@ export function setLastStudiedLesson(
     timestamp: new Date().toISOString(),
   };
   try {
-    localStorage.setItem(`greek_deck_last_lesson_${uid}`, JSON.stringify(data));
+    const rawJson = JSON.stringify(data);
+    const key = `greek_deck_last_lesson_${uid}`;
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent('greek_deck_last_lesson_change', { detail: data }));
     }
@@ -451,7 +542,6 @@ export function getUserLessonStatus(
   fallback?: LessonStatus,
   userId?: string
 ): LessonStatus {
-  // Determine arguments based on whether unitId and lessonId were both provided
   let compositeKey: string;
   let effectiveFallback: LessonStatus;
   let effectiveUserId: string | undefined;
@@ -471,6 +561,16 @@ export function getUserLessonStatus(
   const map = getUserLessonStatusMap(effectiveUserId);
   // Check exact composite key first
   if (map[compositeKey]) return normalizeLessonStatus(map[compositeKey]);
+
+  // If compositeKey contains a slash (e.g. "unit-101/lesson-01"), check unit-level key
+  if (compositeKey.includes('/')) {
+    const unitPart = compositeKey.split('/')[0];
+    if (map[unitPart]) return normalizeLessonStatus(map[unitPart]);
+  } else {
+    // Check if stored under "unit-XX/lesson-01"
+    const slashKey = `${compositeKey}/lesson-01`;
+    if (map[slashKey]) return normalizeLessonStatus(map[slashKey]);
+  }
 
   return effectiveFallback;
 }
@@ -507,7 +607,9 @@ export function setUserLessonStatus(
   }
 
   try {
-    localStorage.setItem(key, JSON.stringify(map));
+    const rawJson = JSON.stringify(map);
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
   } catch (err) {
     console.error('Failed to save user lesson status', err);
   }
@@ -537,7 +639,6 @@ export function getUserLessonNotes(
   let effectiveFallback: string;
   let effectiveUserId: string | undefined;
 
-  // Check if called as (unitId, lessonId, fallback, userId) or (lessonId, fallback, userId)
   if (
     lessonIdOrFallback !== undefined &&
     (lessonIdOrFallback.startsWith('lesson-') || lessonIdOrFallback.includes('-'))
@@ -553,6 +654,16 @@ export function getUserLessonNotes(
 
   const map = getUserLessonNotesMap(effectiveUserId);
   if (map[compositeKey] !== undefined) return map[compositeKey];
+
+  // Try unit-level fallback
+  if (compositeKey.includes('/')) {
+    const unitPart = compositeKey.split('/')[0];
+    if (map[unitPart] !== undefined) return map[unitPart];
+  } else {
+    const slashKey = `${compositeKey}/lesson-01`;
+    if (map[slashKey] !== undefined) return map[slashKey];
+  }
+
   return effectiveFallback;
 }
 
@@ -583,19 +694,48 @@ export function setUserLessonNotes(
   map[compositeKey] = notes;
 
   try {
-    localStorage.setItem(key, JSON.stringify(map));
+    const rawJson = JSON.stringify(map);
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
   } catch (err) {
     console.error('Failed to save user lesson notes', err);
   }
   notifyProgressChanged();
 }
 
+/**
+ * Initialize background multi-layer persistence engine:
+ * 1. Request persistent storage from browser
+ * 2. Restore any missing keys from IndexedDB to localStorage
+ */
+export async function initializePersistenceEngine(): Promise<void> {
+  if (typeof window === 'undefined') return;
+
+  try {
+    // Request persistent storage grant from browser
+    requestPersistentStorage().catch(() => {});
+
+    // Check if localStorage needs restoration from IndexedDB
+    const restored = await restoreFromIndexedDBIfEmpty();
+    if (restored) {
+      notifyUserChanged();
+      notifyProgressChanged();
+    }
+  } catch (e) {
+    console.warn('Persistence engine initialization error', e);
+  }
+}
+
 // Event notification systems for React reactivity
 export function notifyUserChanged(): void {
-  window.dispatchEvent(new CustomEvent('greek_deck_user_change'));
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('greek_deck_user_change'));
+  }
   notifyProgressChanged();
 }
 
 export function notifyProgressChanged(): void {
-  window.dispatchEvent(new CustomEvent('greek_deck_progress_change'));
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('greek_deck_progress_change'));
+  }
 }

@@ -11,7 +11,8 @@ import {
   Download, 
   Volume2, 
   Sparkles,
-  RefreshCw
+  RefreshCw,
+  Eye
 } from 'lucide-react';
 
 interface OverviewStatsProps {
@@ -28,6 +29,12 @@ export const OverviewStats: React.FC<OverviewStatsProps> = ({ deck, onRefresh })
   const allCards = useMemo(() => units.flatMap((u) => u.lessons.flatMap((l) => l.entries)), [units]);
   const srsMap = useMemo(() => getAllSRSData(activeUser.id), [activeUser.id]);
   const learnedCount = useMemo(() => allCards.filter((c) => srsMap[c.id]?.isLearned && !srsMap[c.id]?.isExcluded).length, [allCards, srsMap]);
+  const totalPresentations = useMemo(() => {
+    return allCards.reduce((acc, c) => acc + (srsMap[c.id]?.timesPresented || 0), 0);
+  }, [allCards, srsMap]);
+  const cardsEncountered = useMemo(() => {
+    return allCards.filter((c) => (srsMap[c.id]?.timesPresented || 0) > 0).length;
+  }, [allCards, srsMap]);
 
   const handleExport = async () => {
     setIsExporting(true);
@@ -102,7 +109,7 @@ export const OverviewStats: React.FC<OverviewStatsProps> = ({ deck, onRefresh })
       </div>
 
       {/* Global Metrics Row */}
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3.5 sm:gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 sm:gap-4">
         {/* Total Cards */}
         <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-slate-800 hover:border-slate-700 transition-all">
           <div className="flex items-center justify-between text-slate-400">
@@ -132,6 +139,21 @@ export const OverviewStats: React.FC<OverviewStatsProps> = ({ deck, onRefresh })
               </span>
             </div>
             <p className="text-[11px] text-emerald-600/90 mt-1">Mastered vocabulary</p>
+          </div>
+        </div>
+
+        {/* Card Presentations / Impressions */}
+        <div className="glass-panel p-4 sm:p-5 rounded-2xl flex flex-col justify-between border-sky-500/30 hover:border-sky-500/50 transition-all">
+          <div className="flex items-center justify-between text-sky-400">
+            <span className="text-xs font-semibold uppercase tracking-wider truncate mr-1">Presentations</span>
+            <Eye className="w-4 h-4 shrink-0" />
+          </div>
+          <div className="mt-3">
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl font-extrabold text-sky-400">{totalPresentations}</span>
+              <span className="text-xs text-sky-500/90 font-medium">views</span>
+            </div>
+            <p className="text-[11px] text-sky-600/90 mt-1">{cardsEncountered} unique cards seen</p>
           </div>
         </div>
 

@@ -1,0 +1,919 @@
+# -*- coding: utf-8 -*-
+"""
+Script to create Unit 110 B from Klik A1 (Pages 195-218):
+Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Γραμματική & Προτάσεις
+Focuses on:
+1. Past Tense / Aorist of Regular Active Verbs (διάβασα, έγραψα, άκουσα, μαγείρεψα, δούλεψα, τελείωσα, πλήρωσα).
+2. Past Tense / Aorist of Irregular Verbs (πήγα, ήρθα, είδα, βρήκα, πήρα, έστειλα, έφυγα, έφαγα, ήπια, είπα, έκανα, κατάλαβα, βγήκα, μπήκα, έμαθα).
+3. Past of 'είμαι' and 'έχω' (ήμουν, ήσουν, ήταν, είχα).
+4. Adverbs and Comparative Constructions (πιο γρήγορα από, πιο αργά από, καλύτερα από, εύκολα, δύσκολα).
+5. Professional and Workplace Interactions (job title, employer, work hours, salary, vacation leave, unemployment).
+6. Course Enrollment and Educational Inquiries (registration dates, semester tuition, class size, university studies).
+"""
+import sys
+import yaml
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+CONTENT_DIR = BASE_DIR / "content"
+UNIT_DIR = CONTENT_DIR / "unit-110b"
+UNIT_DIR.mkdir(parents=True, exist_ok=True)
+YAML_PATH = UNIT_DIR / "lesson-01.yaml"
+MANIFEST_PATH = CONTENT_DIR / "manifest.yaml"
+
+cards_u110b = [
+    # =========================================================================
+    # 1. Past Tense / Aorist of Regular Verbs (pp. 207-212)
+    # =========================================================================
+    {
+        "id": "A1-U110B-001",
+        "greek": "Χθες διάβασα όλο το απόγευμα για το μάθημα της ιστορίας.",
+        "phonetic_hint": "khthes thee-AH-vah-sah O-lo to ah-PO-yev-mah yah to MAH-thee-mah tees ee-sto-REE-ahs",
+        "english": "Yesterday I studied all afternoon for the history lesson.",
+        "notes": "Klik A1 p. 207, 208, 209. Grammar: Past tense (Αόριστος) 1st person singular (διάβασα) of verb διαβάζω (stem in -ασ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι έκανες χθες; — Χθες διάβασα όλο το απόγευμα για το μάθημα της ιστορίας.",
+        "example_en": "— What did you do yesterday? — Yesterday I studied all afternoon for the history lesson.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting past academic study using the aorist tense"
+    },
+    {
+        "id": "A1-U110B-002",
+        "greek": "Έγραψα ένα γράμμα στη φίλη μου στην Ιταλία.",
+        "phonetic_hint": "EH-ghrah-psah EH-nah GHRAH-mah stee FEE-lee moo steen ee-tah-LEE-ah",
+        "english": "I wrote a letter to my friend in Italy.",
+        "notes": "Klik A1 p. 208, 209, 214. Grammar: Past tense (Αόριστος) 1st person singular (έγραψα) of verb γράφω (stem in -αψ- with past augment ε-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έστειλες μήνυμα στην Έλενα; — Όχι, έγραψα ένα γράμμα στη φίλη μου στην Ιταλία.",
+        "example_en": "— Did you send a text to Elena? — No, I wrote a letter to my friend in Italy.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing written correspondence in the past"
+    },
+    {
+        "id": "A1-U110B-003",
+        "greek": "Το πρωί άκουσα τις ειδήσεις στο ραδιόφωνο.",
+        "phonetic_hint": "to pro-EE AH-koo-sah tees ee-THEE-sees sto rah-thee-O-fo-no",
+        "english": "In the morning I listened to the news on the radio.",
+        "notes": "Klik A1 p. 207, 208, 209. Grammar: Past tense 1st person singular (άκουσα) of verb ακούω (stem in -ουσ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έμαθες τι έγινε στον κόσμο; — Ναι, το πρωί άκουσα τις ειδήσεις στο ραδιόφωνο.",
+        "example_en": "— Did you learn what happened in the world? — Yes, in the morning I listened to the news on the radio.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting morning listening habits in the past"
+    },
+    {
+        "id": "A1-U110B-004",
+        "greek": "Χθες το βράδυ μαγείρεψα μια νόστιμη μακαρονάδα.",
+        "phonetic_hint": "khthes to VRAH-thee mah-YEE-reh-psah MEE-ah NO-stee-mee mah-kah-ro-NAH-thah",
+        "english": "Last night I cooked a delicious pasta dish.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Past tense 1st person singular (μαγείρεψα) of verb μαγειρεύω (stem in -εψ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Παραγγείλατε φαγητό απ' έξω; — Όχι, χθες το βράδυ μαγείρεψα μια νόστιμη μακαρονάδα.",
+        "example_en": "— Did you order takeout food? — No, last night I cooked a delicious pasta dish.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing culinary meal preparation in the past"
+    },
+    {
+        "id": "A1-U110B-005",
+        "greek": "Δούλεψα οκτώ ώρες στο γραφείο και γύρισα πολύ κουρασμένος.",
+        "phonetic_hint": "THOO-leh-psah ok-TO O-res sto ghrah-FEE-o keh YEE-ree-sah po-LEE koo-rah-ZMEH-nos",
+        "english": "I worked eight hours at the office and came back very tired.",
+        "notes": "Klik A1 p. 201, 202, 208. Grammar: Past tense (δούλεψα) of verb δουλεύω + (γύρισα) of verb γυρίζω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Θέλεις να βγούμε μια βόλτα; — Προτιμώ να ξεκουραστώ, δούλεψα οκτώ ώρες στο γραφείο και γύρισα πολύ κουρασμένος.",
+        "example_en": "— Do you want to go out for a walk? — I prefer to rest, I worked eight hours at the office and returned very tired.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Relating workday exertion and exhaustion in the past"
+    },
+    {
+        "id": "A1-U110B-006",
+        "greek": "Τελείωσα όλες τις εργασίες μου για το πανεπιστήμιο.",
+        "phonetic_hint": "teh-LEE-o-sah O-les tees er-ghah-SEE-es moo yah to pah-neh-pee-STEE-mee-o",
+        "english": "I finished all my assignments for the university.",
+        "notes": "Klik A1 p. 199, 200, 208. Grammar: Past tense (τελείωσα) of verb τελειώνω (stem in -ωσ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είσαι ελεύθερος απόψε; — Ναι, τελείωσα όλες τις εργασίες μου για το πανεπιστήμιο.",
+        "example_en": "— Are you free tonight? — Yes, I finished all my assignments for the university.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Announcing completion of academic assignments"
+    },
+    {
+        "id": "A1-U110B-007",
+        "greek": "Πλήρωσα τον λογαριασμό του ηλεκτρικού στην τράπεζα.",
+        "phonetic_hint": "PLEE-ro-sah ton lo-ghah-ryah-ZMO too ee-lek-tree-KOO steen TRAH-peh-zah",
+        "english": "I paid the electricity bill at the bank.",
+        "notes": "Klik A1 p. 199, 208. Grammar: Past tense (πλήρωσα) of verb πληρώνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πέρασες από το ταχυδρομείο; — Όχι, πλήρωσα τον λογαριασμό του ηλεκτρικού στην τράπεζα.",
+        "example_en": "— Did you drop by the post office? — No, I paid the electricity bill at the bank.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Confirming bill payment at a banking institution"
+    },
+    {
+        "id": "A1-U110B-008",
+        "greek": "Άνοιξα το παράθυρο και έκλεισα την τηλεόραση.",
+        "phonetic_hint": "AH-neek-sah to pah-RAH-thee-ro keh EH-klee-sah teen tee-leh-O-rah-see",
+        "english": "I opened the window and turned off the television.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Past tense (άνοιξα) of ανοίγω and (έκλεισα) of κλείνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς συγκεντρώθηκες στο διάβασμα; — Άνοιξα το παράθυρο και έκλεισα την τηλεόραση.",
+        "example_en": "— How did you concentrate on studying? — I opened the window and turned off the television.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Narrating sequential domestic actions in the past"
+    },
+    {
+        "id": "A1-U110B-009",
+        "greek": "Χθες ψώνισα φρέσκα λαχανικά από τη λαϊκή αγορά.",
+        "phonetic_hint": "khthes PSO-nee-sah FREH-skah lah-khah-nee-KAH ah-PO tee lah-ee-KEE ah-go-RAH",
+        "english": "Yesterday I shopped for fresh vegetables from the street market.",
+        "notes": "Klik A1 p. 208, 215. Grammar: Past tense (ψώνισα) of verb ψωνίζω (stem in -ισ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Από πού πήρες αυτές τις ντομάτες; — Χθες ψώνισα φρέσκα λαχανικά από τη λαϊκή αγορά.",
+        "example_en": "— Where did you get these tomatoes? — Yesterday I shopped for fresh vegetables from the street market.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing past shopping excursions"
+    },
+    {
+        "id": "A1-U110B-010",
+        "greek": "Μιλήσαμε στο τηλέφωνο για περισσότερο από μία ώρα.",
+        "phonetic_hint": "mee-LEE-sah-meh sto tee-LEH-fo-no yah peh-ree-SO-teh-ro ah-PO MEE-ah O-rah",
+        "english": "We spoke on the phone for more than an hour.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Past tense 1st person plural (μιλήσαμε) of Type B1 verb μιλάω/μιλώ (stem in -ησ-).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Επικοινώνησες με τον Γιώργο; — Ναι, μιλήσαμε στο τηλέφωνο για περισσότερο από μία ώρα.",
+        "example_en": "— Did you get in touch with Giorgos? — Yes, we spoke on the phone for more than an hour.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing duration of past telephone conversations"
+    },
+
+    # =========================================================================
+    # 2. Past Tense / Aorist of Irregular Verbs (pp. 208-212)
+    # =========================================================================
+    {
+        "id": "A1-U110B-011",
+        "greek": "Το προηγούμενο Σαββατοκύριακο πήγαμε εκδρομή στο βουνό.",
+        "phonetic_hint": "to pro-ee-GHOO-meh-no sah-vah-to-KEE-ree-ah-ko PEE-ghah-meh ek-thro-MEE sto voo-NO",
+        "english": "Last weekend we went on an excursion to the mountain.",
+        "notes": "Klik A1 p. 207, 208, 216. Grammar: Irregular past tense 1st person plural (πήγαμε) of verb πηγαίνω / πάω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς περάσατε τις προηγούμενες μέρες; — Το προηγούμενο Σαββατοκύριακο πήγαμε εκδρομή στο βουνό.",
+        "example_en": "— How did you spend the past few days? — Last weekend we went on an excursion to the mountain.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Recounting past weekend excursions with irregular aorist"
+    },
+    {
+        "id": "A1-U110B-012",
+        "greek": "Χθες το βράδυ ήρθαν οι φίλοι μας στο σπίτι για φαγητό.",
+        "phonetic_hint": "khthes to VRAH-thee EER-thahn ee FEE-lee mahs sto SPEE-tee yah fah-yee-TO",
+        "english": "Last night our friends came over to the house for dinner.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 3rd person plural (ήρθαν) of verb έρχομαι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είχατε επισκέψεις χθες; — Ναι, χθες το βράδυ ήρθαν οι φίλοι μας στο σπίτι για φαγητό.",
+        "example_en": "— Did you have visitors yesterday? — Yes, last night our friends came to the house for dinner.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing social home visits using irregular past tense"
+    },
+    {
+        "id": "A1-U110B-013",
+        "greek": "Είδα μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο.",
+        "phonetic_hint": "EE-thah MEE-ah po-LEE en-thee-ah-FEH-roo-sah teh-NEE-ah ston kee-nee-mah-to-GHRAH-fo",
+        "english": "I saw a very interesting movie at the cinema.",
+        "notes": "Klik A1 p. 208, 211. Grammar: Irregular past tense 1st person singular (είδα) of verb βλέπω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι έκανες το Σάββατο; — Είδα μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο.",
+        "example_en": "— What did you do on Saturday? — I saw a very interesting movie at the cinema.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting past cultural entertainment activities"
+    },
+    {
+        "id": "A1-U110B-014",
+        "greek": "Δεν βρήκα πουθενά τα κλειδιά του αυτοκινήτου μου.",
+        "phonetic_hint": "then VREE-kah poo-theh-NAH tah klee-THYAH too ahf-to-kee-NEE-too moo",
+        "english": "I could not find my car keys anywhere.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 1st person singular (βρήκα) of verb βρίσκω with negation δεν.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γιατί πήρες ταξί; — Δεν βρήκα πουθενά τα κλειδιά του αυτοκινήτου μου.",
+        "example_en": "— Why did you take a taxi? — I couldn't find my car keys anywhere.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining past mishap regarding misplaced belongings"
+    },
+    {
+        "id": "A1-U110B-015",
+        "greek": "Πήρα το πρωινό λεωφορείο για να μην αργήσω στη δουλειά.",
+        "phonetic_hint": "PEE-rah to pro-ee-NO leh-o-fo-REE-o yah nah meen ahr-YEE-so stee thoo-LYAH",
+        "english": "I took the morning bus so as not to be late for work.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 1st person singular (πήρα) of verb παίρνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς έφτασες τόσο νωρίς; — Πήρα το πρωινό λεωφορείο για να μην αργήσω στη δουλειά.",
+        "example_en": "— How did you arrive so early? — I took the morning bus so as not to be late for work.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Relating morning commuting choices in the past"
+    },
+    {
+        "id": "A1-U110B-016",
+        "greek": "Έστειλα το βιογραφικό μου σημείωμα στην εταιρεία.",
+        "phonetic_hint": "EH-stee-lah to vee-o-ghrah-fee-KO moo see-MEE-o-mah steen eh-teh-REE-ah",
+        "english": "I sent my curriculum vitae to the company.",
+        "notes": "Klik A1 p. 208, 209, 214. Grammar: Irregular past tense 1st person singular (έστειλα) of verb στέλνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Έκανες αίτηση για τη θέση; — Ναι, έστειλα το βιογραφικό μου σημείωμα στην εταιρεία.",
+        "example_en": "— Did you apply for the position? — Yes, I sent my resume to the company.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting past job application submissions"
+    },
+    {
+        "id": "A1-U110B-017",
+        "greek": "Έφυγα νωρίς από το γραφείο γιατί δεν ένιωθα καλά.",
+        "phonetic_hint": "EH-fee-ghah no-REES ah-PO to ghrah-FEE-o yah-TEE then EH-nyo-thah kah-LAH",
+        "english": "I left early from the office because I was not feeling well.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 1st person singular (έφυγα) of verb φεύγω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Σε έψαχνα χθες το απόγευμα. — Έφυγα νωρίς από το γραφείο γιατί δεν ένιωθα καλά.",
+        "example_en": "— I was looking for you yesterday afternoon. — I left early from the office because I was not feeling well.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining an early departure from work due to indisposition"
+    },
+    {
+        "id": "A1-U110B-018",
+        "greek": "Χθες το μεσημέρι φάγαμε φρέσκο ψάρι και ήπιαμε κρασί.",
+        "phonetic_hint": "khthes to meh-see-MEH-ree FAH-ghah-meh FREH-sko PSAH-ree keh EE-pyah-meh krah-SEE",
+        "english": "Yesterday at noon we ate fresh fish and drank wine.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense (φάγαμε) of τρώω and (ήπιαμε) of πίνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς ήταν το γεύμα στην ψαροταβέρνα; — Υπέροχο, χθες το μεσημέρι φάγαμε φρέσκο ψάρι και ήπιαμε κρασί.",
+        "example_en": "— How was lunch at the seafood tavern? — Wonderful, yesterday at noon we ate fresh fish and drank wine.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Narrating past dining experiences with irregular verbs"
+    },
+    {
+        "id": "A1-U110B-019",
+        "greek": "Τι σου είπε ο διευθυντής στη σημερινή συνάντηση;",
+        "phonetic_hint": "tee soo EE-peh o thee-ef-theen-TEES stee see-meh-ree-NEE see-NAHN-dee-see",
+        "english": "What did the director tell you in today's meeting?",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 3rd person singular (είπε) of verb λέω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σου είπε ο διευθυντής στη σημερινή συνάντηση; — Μου είπε ότι είναι πολύ ευχαριστημένος από τη δουλειά μου.",
+        "example_en": "— What did the director tell you in today's meeting? — He told me he is very pleased with my work.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about managerial feedback in past meetings"
+    },
+    {
+        "id": "A1-U110B-020",
+        "greek": "Τι έκανες χθες μετά το μάθημα των ελληνικών;",
+        "phonetic_hint": "tee EH-kah-nes khthes meh-TAH to MAH-thee-mah ton eh-lee-nee-KON",
+        "english": "What did you do yesterday after the Greek lesson?",
+        "notes": "Klik A1 p. 208, 211, 212. Grammar: Past tense 2nd person singular (έκανες) of verb κάνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι έκανες χθες μετά το μάθημα των ελληνικών; — Πήγα με τους συμμαθητές μου για καφέ.",
+        "example_en": "— What did you do yesterday after the Greek lesson? — I went with my classmates for coffee.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Asking someone about their past post-class activities"
+    },
+    {
+        "id": "A1-U110B-021",
+        "greek": "Κατάλαβα αμέσως τη γραμματική, ήταν πολύ απλή.",
+        "phonetic_hint": "kah-TAH-lah-vah ah-MEH-sos tee ghrah-mah-tee-KEE, EE-tahn po-LEE ah-PLEE",
+        "english": "I understood the grammar immediately, it was very simple.",
+        "notes": "Klik A1 p. 208, 209. Grammar: Irregular past tense 1st person singular (κατάλαβα) of verb καταλαβαίνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Δυσκολεύτηκες με τους κανόνες; — Όχι, κατάλαβα αμέσως τη γραμματική, ήταν πολύ απλή.",
+        "example_en": "— Did you struggle with the rules? — No, I understood the grammar immediately, it was very simple.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Affirming immediate past linguistic comprehension"
+    },
+    {
+        "id": "A1-U110B-022",
+        "greek": "Χθες το βράδυ βγήκαμε με την παρέα για ένα ποτό.",
+        "phonetic_hint": "khthes to VRAH-thee VGEE-kah-meh meh teen pah-REH-ah yah EH-nah po-TO",
+        "english": "Last night we went out with our group of friends for a drink.",
+        "notes": "Klik A1 p. 208, 212. Grammar: Irregular past tense 1st person plural (βγήκαμε) of verb βγαίνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού ήσασταν χθες; — Χθες το βράδυ βγήκαμε με την παρέα για ένα ποτό στο κέντρο.",
+        "example_en": "— Where were you yesterday? — Last night we went out with our friends for a drink downtown.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Narrating social evening outings in the past"
+    },
+    {
+        "id": "A1-U110B-023",
+        "greek": "Μπήκαμε στην αίθουσα ακριβώς στην ώρα μας.",
+        "phonetic_hint": "BEE-kah-meh steen EH-thoo-sah ah-kree-VOS steen O-rah mahs",
+        "english": "We entered the classroom right on time.",
+        "notes": "Klik A1 p. 208. Grammar: Irregular past tense 1st person plural (μπήκαμε) of verb μπαίνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Προλάβατε την έναρξη του μαθήματος; — Ναι, μπήκαμε στην αίθουσα ακριβώς στην ώρα μας.",
+        "example_en": "— Did you make it in time for the start of class? — Yes, we entered the hall right on time.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing punctual entry into a classroom"
+    },
+    {
+        "id": "A1-U110B-024",
+        "greek": "Πέρυσι έμαθα να παίζω κιθάρα στο δημοτικό ωδείο.",
+        "phonetic_hint": "PEH-ree-see EH-mah-thah nah PEH-zo kee-THAH-rah sto thee-mo-tee-KO o-THEE-o",
+        "english": "Last year I learned to play guitar at the municipal conservatory.",
+        "notes": "Klik A1 p. 196, 208. Grammar: Irregular past tense 1st person singular (έμαθα) of verb μαθαίνω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού έμαθες μουσική; — Πέρυσι έμαθα να παίζω κιθάρα στο δημοτικό ωδείο.",
+        "example_en": "— Where did you learn music? — Last year I learned to play guitar at the municipal conservatory.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Relating past musical skill acquisition"
+    },
+
+    # =========================================================================
+    # 3. Past Tense of 'είμαι' and 'έχω' (pp. 208, 209)
+    # =========================================================================
+    {
+        "id": "A1-U110B-025",
+        "greek": "Χθες ήμουν πολύ απασχολημένος και δεν είχα καθόλου ελεύθερο χρόνο.",
+        "phonetic_hint": "khthes EE-moon po-LEE ah-pah-skho-lee-MEH-nos keh then EE-khah kah-THO-loo eh-LEF-theh-ro KHRO-no",
+        "english": "Yesterday I was very busy and had no free time at all.",
+        "notes": "Klik A1 p. 208. Grammar: Past tense (ήμουν) of είμαι + past tense (είχα) of έχω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γιατί δεν μου απάντησες στο μήνυμα; — Χθες ήμουν πολύ απασχολημένος και δεν είχα καθόλου ελεύθερο χρόνο.",
+        "example_en": "— Why didn't you reply to my message? — Yesterday I was very busy and had no free time at all.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining past unavailability due to heavy schedule"
+    },
+    {
+        "id": "A1-U110B-026",
+        "greek": "Πού ήσουν χθες το απόγευμα όταν σε πήρα τηλέφωνο;",
+        "phonetic_hint": "poo EE-soon khthes to ah-PO-yev-mah O-tahn seh PEE-rah tee-LEH-fo-no",
+        "english": "Where were you yesterday afternoon when I called you?",
+        "notes": "Klik A1 p. 208. Grammar: Past tense 2nd person singular (ήσουν) of είμαι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού ήσουν χθες το απόγευμα όταν σε πήρα τηλέφωνο; — Ήμουν στο μάθημα και είχα κλειστό το κινητό.",
+        "example_en": "— Where were you yesterday afternoon when I called you? — I was in class and had my phone off.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about someone's whereabouts in the past"
+    },
+    {
+        "id": "A1-U110B-027",
+        "greek": "Πέρυσι ήμασταν συμφοιτητές στην ίδια πανεπιστημιακή σχολή.",
+        "phonetic_hint": "PEH-ree-see EE-mah-stahn seem-fee-tee-TES steen EE-thyah pah-neh-pee-stee-mee-ah-KEE sko-LEE",
+        "english": "Last year we were fellow students in the same university department.",
+        "notes": "Klik A1 p. 208. Grammar: Past tense 1st person plural (ήμασταν) of είμαι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Από πού γνωρίζεστε; — Πέρυσι ήμασταν συμφοιτητές στην ίδια πανεπιστημιακή σχολή.",
+        "example_en": "— How do you know each other? — Last year we were classmates in the same university department.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing shared past academic associations"
+    },
+    {
+        "id": "A1-U110B-028",
+        "greek": "Είχαμε μια πολύ σημαντική συνάντηση με τον προϊστάμενο.",
+        "phonetic_hint": "EE-khah-meh MEE-ah po-LEE see-mahn-dee-KEE see-NAHN-dee-see meh ton pro-ee-STAH-meh-no",
+        "english": "We had a very important meeting with the supervisor.",
+        "notes": "Klik A1 p. 208. Grammar: Past tense 1st person plural (είχαμε) of verb έχω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς πήγε η μέρα στη δουλειά; — Είχαμε μια πολύ σημαντική συνάντηση με τον προϊστάμενο για τα νέα έργα.",
+        "example_en": "— How did the day at work go? — We had a very important meeting with the supervisor regarding the new projects.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting past professional meetings with supervisors"
+    },
+
+    # =========================================================================
+    # 4. Adverbs & Comparative Constructions (pp. 198-201, 216)
+    # =========================================================================
+    {
+        "id": "A1-U110B-029",
+        "greek": "Ο Νίκος διαβάζει πιο γρήγορα από τον Αντώνη.",
+        "phonetic_hint": "o NEE-kos thee-ah-VAH-zee pyo GREE-gho-rah ah-PO ton ahn-DO-nee",
+        "english": "Nikos reads faster than Antonis.",
+        "notes": "Klik A1 p. 199, 200, 201. Grammar: Comparative degree of adverb with πιο ... από (faster than).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιος τελειώνει πρώτος το κείμενο; — Ο Νίκος διαβάζει πιο γρήγορα από τον Αντώνη.",
+        "example_en": "— Who finishes the text first? — Nikos reads faster than Antonis.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing reading speeds using adverbs and comparative particles"
+    },
+    {
+        "id": "A1-U110B-030",
+        "greek": "Μαθαίνω ελληνικά πιο εύκολα όταν μιλάω καθημερινά.",
+        "phonetic_hint": "mah-THEH-no eh-lee-nee-KAH pyo EF-ko-lah O-tahn mee-LAH-o kah-thee-meh-ree-NAH",
+        "english": "I learn Greek more easily when I speak daily.",
+        "notes": "Klik A1 p. 198, 200. Grammar: Comparative adverb (πιο εύκολα = more easily).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς προοδεύεις στη γλώσσα; — Μαθαίνω ελληνικά πιο εύκολα όταν μιλάω καθημερινά με ντόπιους.",
+        "example_en": "— How are you progressing in the language? — I learn Greek more easily when I speak daily with locals.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing language learning efficiency through daily practice"
+    },
+    {
+        "id": "A1-U110B-031",
+        "greek": "Αυτή η άσκηση ήταν αρκετά δύσκολη για την τάξη μας.",
+        "phonetic_hint": "af-TEE ee AH-skee-see EE-tahn ahr-keh-TAH THEE-sko-lee yah teen TAH-ksee mahs",
+        "english": "This exercise was quite difficult for our class.",
+        "notes": "Klik A1 p. 198, 200. Degree adverb αρκετά (quite / fairly) modifying feminine adjective δύσκολη.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς σας φάνηκε το τεστ; — Αυτή η άσκηση ήταν αρκετά δύσκολη για την τάξη μας.",
+        "example_en": "— How did you find the test? — This exercise was quite difficult for our class.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Evaluating academic task difficulty with degree adverbs"
+    },
+    {
+        "id": "A1-U110B-032",
+        "greek": "Αυτός ο αθλητής τρέχει πολύ γρήγορα και κερδίζει πάντα.",
+        "phonetic_hint": "af-TOS o ah-thlee-TEES TREH-khee po-LEE GREE-gho-rah keh ker-THEE-zee PAHN-dah",
+        "english": "This athlete runs very fast and always wins.",
+        "notes": "Klik A1 p. 200, 201. Adverbial intensifier πολύ + adverb of manner γρήγορα.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιος είναι πρώτος στον αγώνα; — Αυτός ο αθλητής τρέχει πολύ γρήγορα και κερδίζει πάντα.",
+        "example_en": "— Who is first in the race? — This athlete runs very fast and always wins.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing athletic speed using manner adverbs"
+    },
+    {
+        "id": "A1-U110B-033",
+        "greek": "Μιλάτε λίγο πιο αργά, σας παρακαλώ, για να καταλαβαίνω.",
+        "phonetic_hint": "mee-LAH-teh LEE-gho pyo ahr-GHAH, sahs pah-rah-kah-LO, yah nah kah-tah-lah-VEH-no",
+        "english": "Speak a little slower, please, so that I can understand.",
+        "notes": "Klik A1 p. 198, 201. Polite request with comparative adverb: πιο αργά (slower).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Καταλαβαίνετε τι λέω; — Μιλάτε λίγο πιο αργά, σας παρακαλώ, για να καταλαβαίνω κάθε λέξη.",
+        "example_en": "— Do you understand what I am saying? — Speak a little slower, please, so that I understand each word.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Politely requesting slower speech rate for comprehension"
+    },
+    {
+        "id": "A1-U110B-034",
+        "greek": "Σήμερα έγραψα πολύ καλύτερα στο τεστ απ' ό,τι την προηγούμενη φορά.",
+        "phonetic_hint": "SEE-meh-rah EH-ghrah-psah po-LEE kah-LEE-teh-rah sto test ahp O-tee teen pro-ee-GHOO-meh-nee fo-RAH",
+        "english": "Today I wrote much better on the test than the previous time.",
+        "notes": "Klik A1 p. 200, 201. Irregular comparative adverb (καλύτερα = better) + comparative clause απ' ό,τι.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς πήγε η εξέταση; — Σήμερα έγραψα πολύ καλύτερα στο τεστ απ' ό,τι την προηγούμενη φορά.",
+        "example_en": "— How did the exam go? — Today I wrote much better on the test than the previous time.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing marked performance improvement over past results"
+    },
+    {
+        "id": "A1-U110B-035",
+        "greek": "Ο Πέτρος είναι πιο ψηλός και πιο έμπειρος από τον Αντώνη.",
+        "phonetic_hint": "o PEH-tros EE-neh pyo psee-LOS keh pyo EM-bee-ros ah-PO ton ahn-DO-nee",
+        "english": "Petros is taller and more experienced than Antonis.",
+        "notes": "Klik A1 p. 201. Comparative adjectives: πιο ψηλός, πιο έμπειρος + preposition από + accusative.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιον θα επιλέξετε για την ομάδα; — Ο Πέτρος είναι πιο ψηλός και πιο έμπειρος από τον Αντώνη.",
+        "example_en": "— Whom will you choose for the team? — Petros is taller and more experienced than Antonis.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Comparing personal traits and qualifications"
+    },
+
+    # =========================================================================
+    # 5. Work & Professional Life Inquiries (pp. 202-206, 213)
+    # =========================================================================
+    {
+        "id": "A1-U110B-036",
+        "greek": "Τι δουλειά κάνεις; — Είμαι προγραμματιστής σε εταιρεία πληροφορικής.",
+        "phonetic_hint": "tee thoo-LYAH KAH-nees? EE-meh pro-ghrah-mah-tee-STEES seh eh-teh-REE-ah plee-ro-fo-ree-KEES",
+        "english": "What work do you do? — I am a programmer at an IT company.",
+        "notes": "Klik A1 p. 202, 203, 206. Core dialogue pair asking and stating one's profession.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Χαίρω πολύ για τη γνωριμία! Τι δουλειά κάνεις; — Είμαι προγραμματιστής σε εταιρεία πληροφορικής.",
+        "example_en": "— Nice to meet you! What work do you do? — I am a programmer at an IT company.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about and stating professional occupation"
+    },
+    {
+        "id": "A1-U110B-037",
+        "greek": "Πού δουλεύεις; — Δουλεύω σε ένα δημόσιο νοσοκομείο στο κέντρο της Αθήνας.",
+        "phonetic_hint": "poo thoo-LEH-vees? thoo-LEH-vo seh EH-nah thee-MO-see-o no-so-ko-MEE-o sto KEN-tro tees ah-THEE-nahs",
+        "english": "Where do you work? — I work at a public hospital in the center of Athens.",
+        "notes": "Klik A1 p. 202, 204. Inquiring about workplace location with verb δουλεύω.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πού δουλεύεις; — Δουλεύω σε ένα δημόσιο νοσοκομείο στο κέντρο της Αθήνας.",
+        "example_en": "— Where do you work? — I work at a public hospital in the center of Athens.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Specifying institutional workplace locations"
+    },
+    {
+        "id": "A1-U110B-038",
+        "greek": "Ποιο είναι το ωράριό σου; — Δουλεύω οκτώ ώρες την ημέρα, εννέα με πέντε.",
+        "phonetic_hint": "PYO EE-neh to o-RAH-ree-o soo? thoo-LEH-vo ok-TO O-res teen ee-MEH-rah, eh-NEH-ah meh PEN-deh",
+        "english": "What is your work schedule? — I work eight hours a day, nine to five.",
+        "notes": "Klik A1 p. 202, 204, 213. Dialogue specifying regular full-time working hours.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιο είναι το ωράριό σου; — Δουλεύω οκτώ ώρες την ημέρα, εννέα με πέντε, από Δευτέρα έως Παρασκευή.",
+        "example_en": "— What is your work schedule? — I work eight hours a day, nine to five, Monday through Friday.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Explaining daily working hours and timetables"
+    },
+    {
+        "id": "A1-U110B-039",
+        "greek": "Πόσες μέρες άδεια δικαιούσαι τον χρόνο; — Δικαιούμαι είκοσι πέντε μέρες.",
+        "phonetic_hint": "PO-ses MEH-res AH-thee-ah thee-keh-OO-seh ton KHRO-no? thee-keh-OO-meh EE-ko-see PEN-deh MEH-res",
+        "english": "How many days of leave are you entitled to per year? — I am entitled to twenty-five days.",
+        "notes": "Klik A1 p. 202, 213. Vocabulary: η άδεια (vacation leave) + verb δικαιούμαι (to be entitled to).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσες μέρες άδεια δικαιούσαι τον χρόνο; — Δικαιούμαι είκοσι πέντε μέρες άδεια με αποδοχές.",
+        "example_en": "— How many days of leave are you entitled to per year? — I am entitled to twenty-five days of paid leave.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Discussing annual paid vacation leave entitlement"
+    },
+    {
+        "id": "A1-U110B-040",
+        "greek": "Είσαι ευχαριστημένος από τον μισθό σου και τις συνθήκες εργασίας;",
+        "phonetic_hint": "EE-seh ef-khah-ree-stee-MEH-nos ah-PO ton mee-STHO soo keh tees seen-THEE-kes er-ghah-SEE-ahs",
+        "english": "Are you satisfied with your salary and working conditions?",
+        "notes": "Klik A1 p. 202, 213. Participle ευχαριστημένος + preposition από + nouns μισθός and συνθήκες.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Είσαι ευχαριστημένος από τον μισθό σου και τις συνθήκες εργασίας; — Ναι, το περιβάλλον είναι πολύ φιλικό.",
+        "example_en": "— Are you satisfied with your salary and working conditions? — Yes, the environment is very friendly.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about job satisfaction and workplace conditions"
+    },
+    {
+        "id": "A1-U110B-041",
+        "greek": "Δυστυχώς, αυτή την περίοδο είμαι άνεργος και ψάχνω για δουλειά.",
+        "phonetic_hint": "thee-stee-KHOS, af-TEE teen peh-REE-o-tho EE-meh AH-ner-ghos keh PSAH-khno yah thoo-LYAH",
+        "english": "Unfortunately, currently I am unemployed and looking for a job.",
+        "notes": "Klik A1 p. 203. Employment status: είμαι άνεργος (I am unemployed) + ψάχνω για δουλειά.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Εργάζεσαι κάπου τώρα; — Δυστυχώς, αυτή την περίοδο είμαι άνεργος και ψάχνω για δουλειά.",
+        "example_en": "— Are you working somewhere now? — Unfortunately, currently I am unemployed and looking for a job.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Reporting current unemployment status while job seeking"
+    },
+    {
+        "id": "A1-U110B-042",
+        "greek": "Έχω συνέντευξη για δουλειά αύριο το πρωί στις δέκα.",
+        "phonetic_hint": "EH-kho see-NEN-def-ksee yah thoo-LYAH AV-ree-o to pro-EE stees THEH-kah",
+        "english": "I have a job interview tomorrow morning at ten.",
+        "notes": "Klik A1 p. 202, 213. Professional career term: η συνέντευξη για δουλειά (job interview).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Γιατί είσαι τόσο αγχωμένος; — Έχω συνέντευξη για δουλειά αύριο το πρωί στις δέκα.",
+        "example_en": "— Why are you so stressed? — I have a job interview tomorrow morning at ten.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Announcing an upcoming job interview"
+    },
+
+    # =========================================================================
+    # 6. Education, Course Inquiries & Schedules (pp. 196-200)
+    # =========================================================================
+    {
+        "id": "A1-U110B-043",
+        "greek": "Θέλω να εγγραφώ στα μαθήματα ξένων γλωσσών του φροντιστηρίου.",
+        "phonetic_hint": "THEH-lo nah eng-ghrah-FO stah mah-THEE-mah-tah KSEH-non ghlo-SON too fron-dee-STEE-ree-oo",
+        "english": "I want to enroll in the foreign language courses of the institute.",
+        "notes": "Klik A1 p. 196, 198, 199. Mediopassive subjunctive: να εγγραφώ (to enroll / register).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς μπορώ να σας βοηθήσω; — Θέλω να εγγραφώ στα μαθήματα ξένων γλωσσών του φροντιστηρίου.",
+        "example_en": "— How may I help you? — I want to enroll in the institute's foreign language courses.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Expressing desire to register for language classes"
+    },
+    {
+        "id": "A1-U110B-044",
+        "greek": "Πότε ξεκινούν οι εγγραφές για το χειμερινό εξάμηνο;",
+        "phonetic_hint": "PO-teh kseh-kee-NOON ee eng-ghrah-FES yah to khee-meh-ree-NO ek-SAH-mee-no",
+        "english": "When do registrations start for the winter semester?",
+        "notes": "Klik A1 p. 195, 198, 199. Inquiring about registration timelines.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε ξεκινούν οι εγγραφές για το χειμερινό εξάμηνο; — Οι εγγραφές είναι από την πρώτη Σεπτεμβρίου.",
+        "example_en": "— When do registrations start for the winter semester? — Registration is from the first of September.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about registration periods for academic terms"
+    },
+    {
+        "id": "A1-U110B-045",
+        "greek": "Τα μαθήματα γίνονται από Δευτέρα έως Παρασκευή, απογευματινές ώρες.",
+        "phonetic_hint": "tah mah-THEE-mah-tah YEE-non-deh ah-PO thef-TEH-rah EH-os pah-rah-skeh-VEE, ah-po-yev-mah-tee-NES O-res",
+        "english": "The classes take place Monday through Friday, in the afternoon hours.",
+        "notes": "Klik A1 p. 196, 198. Mediopassive verb γίνονται (take place) + prepositional span από ... έως.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Ποιο είναι το πρόγραμμα; — Τα μαθήματα γίνονται από Δευτέρα έως Παρασκευή, απογευματινές ώρες.",
+        "example_en": "— What is the schedule? — Classes take place Monday through Friday, in the afternoon hours.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing weekly institutional lecture schedules"
+    },
+    {
+        "id": "A1-U110B-046",
+        "greek": "Πόσο κοστίζουν τα μαθήματα μουσικής τον μήνα;",
+        "phonetic_hint": "PO-so ko-STEE-zoon tah mah-THEE-mah-tah moo-see-KEES ton MEE-nah",
+        "english": "How much do the music lessons cost per month?",
+        "notes": "Klik A1 p. 198, 199. Fee inquiries: πόσο κοστίζουν + τον μήνα (per month).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πόσο κοστίζουν τα μαθήματα μουσικής τον μήνα; — Τα δίδακτρα είναι ογδόντα ευρώ τον μήνα.",
+        "example_en": "— How much do the music lessons cost per month? — The tuition is eighty euros a month.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about monthly music lesson tuition fees"
+    },
+    {
+        "id": "A1-U110B-047",
+        "greek": "Προτιμάτε ατομικά μαθήματα ή ομαδικά σε μικρό τμήμα;",
+        "phonetic_hint": "pro-tee-MAH-teh ah-to-mee-KAH mah-THEE-mah-tah ee o-mah-thee-KAH seh mee-KRO TMEE-mah",
+        "english": "Do you prefer private individual lessons or group lessons in a small class?",
+        "notes": "Klik A1 p. 198, 199. Contrast: ατομικά (one-on-one) vs ομαδικά (group) lessons.",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Προτιμάτε ατομικά μαθήματα ή ομαδικά σε μικρό τμήμα; — Προτιμώ ομαδικά για να συνομιλώ με άλλους.",
+        "example_en": "— Do you prefer private lessons or group in a small class? — I prefer group to converse with others.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Choosing between private tutoring and group classroom instruction"
+    },
+    {
+        "id": "A1-U110B-048",
+        "greek": "Σπουδάζω αρχιτεκτονική στο Πολυτεχνείο και είμαι στο τρίτο έτος.",
+        "phonetic_hint": "spoo-THAH-zo ahr-khee-tek-to-nee-KEE sto po-lee-tekh-NEE-o keh EE-meh sto TREE-to EH-tos",
+        "english": "I study architecture at the Polytechnic and I am in my third year.",
+        "notes": "Klik A1 p. 195, 200, 204. Academic curriculum: σπουδάζω (to major in) + ordinal τρίτο έτος (third year).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Τι σπουδάζεις; — Σπουδάζω αρχιτεκτονική στο Πολυτεχνείο και είμαι στο τρίτο έτος.",
+        "example_en": "— What are you studying? — I study architecture at the Polytechnic and I am in my third year.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Stating university major and academic year of study"
+    },
+    {
+        "id": "A1-U110B-049",
+        "greek": "Κάθε Σάββατο παρακολουθώ δωρεάν μαθήματα ζωγραφικής στο εργαστήριο.",
+        "phonetic_hint": "KAH-theh SAH-vah-to pah-rah-ko-loo-THO tho-reh-AHN mah-THEE-mah-tah zo-ghrah-fee-KEES sto er-ghah-STEE-ree-o",
+        "english": "Every Saturday I attend free painting classes at the workshop.",
+        "notes": "Klik A1 p. 196, 199. Vocabulary: παρακολουθώ (to attend courses) + adjective δωρεάν (free of charge).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πώς περνάς τα πρωινά του Σαββάτου; — Κάθε Σάββατο παρακολουθώ δωρεάν μαθήματα ζωγραφικής στο εργαστήριο.",
+        "example_en": "— How do you spend Saturday mornings? — Every Saturday I attend free painting classes at the workshop.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Describing regular attendance of free creative arts classes"
+    },
+    {
+        "id": "A1-U110B-050",
+        "greek": "Πότε τελειώνουν τα μαθήματα και πότε αρχίζουν οι καλοκαιρινές διακοπές;",
+        "phonetic_hint": "PO-teh teh-lee-O-noon tah mah-THEE-mah-tah keh PO-teh ahr-KHEE-zoon ee kah-lo-keh-ree-NES thee-ah-ko-PES",
+        "english": "When do classes end and when do summer holidays begin?",
+        "notes": "Klik A1 p. 198, 214. School calendar question with verbs τελειώνουν (end) and αρχίζουν (begin).",
+        "gender_or_pos": "phrase",
+        "audio": None,
+        "status": "pending_tts",
+        "example_el": "— Πότε τελειώνουν τα μαθήματα και πότε αρχίζουν οι καλοκαιρινές διακοπές; — Τα σχολεία κλείνουν στα μέσα Ιουνίου.",
+        "example_en": "— When do classes end and when do summer holidays begin? — Schools close in the middle of June.",
+        "grammatical_info": {
+            "part_of_speech": "phrase"
+        },
+        "keg_communicative_function": "Inquiring about academic calendar dates and school holidays"
+    }
+]
+
+lesson_u110b = {
+    "unit_id": "unit-110b",
+    "lesson_id": "lesson-01",
+    "title": "Ενότητα 9: Προτάσεις & Γραμματική — Σπουδάζεις ή δουλεύεις; (Pages 195-218)",
+    "description": (
+        "Expansion & Complementary to Lesson 110: Sentence structures, syntax patterns, "
+        "Simple Past / Aorist tense of regular verbs (διάβασα, έγραψα, άκουσα, μαγείρεψα, δούλεψα, τελείωσα, πλήρωσα) "
+        "and irregular high-frequency verbs (πήγα, ήρθα, είδα, βρήκα, πήρα, έστειλα, έφυγα, έφαγα, ήπια, είπα, έκανα, κατάλαβα, βγήκα, μπήκα, έμαθα), "
+        "past tense of 'είμαι' and 'έχω' (ήμουν, είχα), adverbs and comparative constructions (πιο γρήγορα από, πιο αργά από, καλύτερα από), "
+        "professional employment and work inquiries (job interviews, work schedules, salary, vacation leave), "
+        "and educational institution course enrollments and schedules."
+    ),
+    "lesson_status": "not_started",
+    "entries": cards_u110b
+}
+
+def main():
+    print(f"Writing {len(cards_u110b)} cards to {YAML_PATH}...")
+    with open(YAML_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(lesson_u110b, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("YAML successfully written.")
+
+    # Update manifest.yaml
+    with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    units = manifest.get("units", [])
+    existing = next((u for u in units if u.get("id") == "unit-110b"), None)
+    unit_110b_entry = {
+        "id": "unit-110b",
+        "title": "Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Γραμματική & Προτάσεις)",
+        "order": "KlikA1-10-B",
+        "is_expansion": True,
+        "expansion_of": "KlikA1-10-A",
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-110b/lesson-01.yaml",
+                "title": "Ενότητα 9: Προτάσεις & Γραμματική — Σπουδάζεις ή δουλεύεις; (Pages 195-218)",
+                "description": (
+                    "Expansion & Complementary to Lesson 110: Sentence structures, syntax patterns, "
+                    "Simple Past / Aorist tense of regular verbs (διάβασα, έγραψα, άκουσα, μαγείρεψα, δούλεψα, τελείωσα, πλήρωσα) "
+                    "and irregular high-frequency verbs (πήγα, ήρθα, είδα, βρήκα, πήρα, έστειλα, έφυγα, έφαγα, ήπια, είπα, έκανα, κατάλαβα, βγήκα, μπήκα, έμαθα), "
+                    "past tense of 'είμαι' and 'έχω' (ήμουν, είχα), adverbs and comparative constructions (πιο γρήγορα από, πιο αργά από, καλύτερα από), "
+                    "professional employment and work inquiries (job interviews, work schedules, salary, vacation leave), "
+                    "and educational institution course enrollments and schedules."
+                )
+            }
+        ]
+    }
+
+    if existing:
+        print("Updating existing unit-110b in manifest.yaml...")
+        idx = units.index(existing)
+        units[idx] = unit_110b_entry
+    else:
+        print("Appending unit-110b to manifest.yaml...")
+        units.append(unit_110b_entry)
+
+    manifest["units"] = units
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print("Manifest successfully updated with unit-110b!")
+
+if __name__ == "__main__":
+    main()

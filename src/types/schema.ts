@@ -93,6 +93,8 @@ export interface CardSRSData {
   easeFactor: number;
   lastReviewed?: string;
   nextReviewDue?: string;
+  timesPresented?: number;
+  lastPresented?: string;
 }
 
 export interface UserProfile {

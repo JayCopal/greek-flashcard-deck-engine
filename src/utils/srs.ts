@@ -1,5 +1,6 @@
 import { CardSRSData, SRSRating, CardEntry } from '../types/schema';
 import { getSRSStorageKey, notifyProgressChanged, recordDailyCardReview } from './userStorage';
+import { mirrorKeyToIndexedDB } from './indexedDBStorage';
 
 export function getAllSRSData(userId?: string): Record<string, CardSRSData> {
   const key = getSRSStorageKey(userId);
@@ -16,9 +17,15 @@ export function getAllSRSData(userId?: string): Record<string, CardSRSData> {
         item.isExcluded = false;
         modified = true;
       }
+      if (item.timesPresented === undefined) {
+        // Default to 1 if card has been reviewed/learned, else 0
+        item.timesPresented = item.lastReviewed || item.repetition > 0 ? 1 : 0;
+        modified = true;
+      }
     }
     if (modified) {
       localStorage.setItem(key, JSON.stringify(parsed));
+      mirrorKeyToIndexedDB(key, JSON.stringify(parsed));
     }
     return parsed;
   } catch {
@@ -29,7 +36,9 @@ export function getAllSRSData(userId?: string): Record<string, CardSRSData> {
 export function saveAllSRSData(data: Record<string, CardSRSData>, userId?: string): void {
   const key = getSRSStorageKey(userId);
   try {
-    localStorage.setItem(key, JSON.stringify(data));
+    const rawJson = JSON.stringify(data);
+    localStorage.setItem(key, rawJson);
+    mirrorKeyToIndexedDB(key, rawJson);
     notifyProgressChanged();
   } catch (err) {
     console.error('Failed to save SRS state to localStorage', err);
@@ -48,7 +57,46 @@ export function getCardSRS(cardId: string, userId?: string): CardSRSData {
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
+}
+
+/**
+ * Record that a card has been presented to the user during study/review.
+ * Increments presentation count and records timestamp.
+ */
+export function recordCardPresentation(cardId: string, userId?: string): CardSRSData {
+  const all = getAllSRSData(userId);
+  const current = all[cardId] || {
+    cardId,
+    isLearned: false,
+    isExcluded: false,
+    intervalDays: 0,
+    repetition: 0,
+    easeFactor: 2.5,
+    timesPresented: 0,
+  };
+
+  const count = (current.timesPresented || 0) + 1;
+  const now = new Date().toISOString();
+
+  const updated: CardSRSData = {
+    ...current,
+    timesPresented: count,
+    lastPresented: now,
+  };
+
+  all[cardId] = updated;
+  saveAllSRSData(all, userId);
+  return updated;
+}
+
+/**
+ * Get how many times a card has been presented to the learner
+ */
+export function getCardPresentationCount(cardId: string, userId?: string): number {
+  const all = getAllSRSData(userId);
+  return all[cardId]?.timesPresented ?? 0;
 }
 
 export function toggleCardLearned(cardId: string, userId?: string): boolean {
@@ -60,6 +108,7 @@ export function toggleCardLearned(cardId: string, userId?: string): boolean {
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
 
   current.isLearned = !current.isLearned;
@@ -69,6 +118,10 @@ export function toggleCardLearned(cardId: string, userId?: string): boolean {
   }
   if (!current.lastReviewed) {
     current.lastReviewed = new Date().toISOString();
+  }
+  if (!current.timesPresented || current.timesPresented === 0) {
+    current.timesPresented = 1;
+    current.lastPresented = new Date().toISOString();
   }
   all[cardId] = current;
   saveAllSRSData(all, userId);
@@ -84,6 +137,7 @@ export function setCardLearned(cardId: string, learned: boolean, userId?: string
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
 
   current.isLearned = learned;
@@ -93,6 +147,10 @@ export function setCardLearned(cardId: string, learned: boolean, userId?: string
   }
   if (!current.lastReviewed) {
     current.lastReviewed = new Date().toISOString();
+  }
+  if (!current.timesPresented || current.timesPresented === 0) {
+    current.timesPresented = 1;
+    current.lastPresented = new Date().toISOString();
   }
   all[cardId] = current;
   saveAllSRSData(all, userId);
@@ -107,6 +165,7 @@ export function toggleCardExcluded(cardId: string, userId?: string): boolean {
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
 
   current.isExcluded = !current.isExcluded;
@@ -128,6 +187,7 @@ export function setCardExcluded(cardId: string, excluded: boolean, userId?: stri
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
 
   current.isExcluded = excluded;
@@ -148,6 +208,7 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
     intervalDays: 0,
     repetition: 0,
     easeFactor: 2.5,
+    timesPresented: 0,
   };
 
   // If a card is explicitly assessed with an SRS rating, un-ignore it
@@ -189,6 +250,8 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
   const nextDue = new Date();
   nextDue.setDate(nextDue.getDate() + intervalDays);
 
+  const presentationCount = Math.max(1, (current.timesPresented || 0) + (current.lastReviewed ? 0 : 1));
+
   const updated: CardSRSData = {
     ...current,
     lastRating: rating,
@@ -197,6 +260,8 @@ export function recordSRSRating(cardId: string, rating: SRSRating, userId?: stri
     easeFactor: Number(easeFactor.toFixed(2)),
     lastReviewed: now.toISOString(),
     nextReviewDue: nextDue.toISOString(),
+    timesPresented: presentationCount,
+    lastPresented: current.lastPresented || now.toISOString(),
   };
 
   all[cardId] = updated;

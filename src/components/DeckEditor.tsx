@@ -35,7 +35,8 @@ import {
   Ban,
   Search,
   LayoutGrid,
-  List
+  List,
+  Eye
 } from 'lucide-react';
 
 interface DeckEditorProps {
@@ -858,6 +859,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
         const hard = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'hard').length;
         const again = entries.filter((e) => !allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned && getCardRatingStatus(allSRS[e.id]) === 'again').length;
         const ignored = entries.filter((e) => allSRS[e.id]?.isExcluded && !allSRS[e.id]?.isLearned).length;
+        const totalViews = entries.reduce((acc, e) => acc + (allSRS[e.id]?.timesPresented || 0), 0);
 
         return (
           <div ref={progressRef} className="scroll-mt-20 glass-panel p-4 rounded-2xl border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
@@ -871,6 +873,10 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-sky-950/60 border border-sky-800 text-sky-300 font-semibold flex items-center gap-1" title="Total times cards in this lesson have been presented">
+                <Eye className="w-3 h-3 text-sky-400" />
+                <span>{totalViews} Views</span>
+              </span>
               <span className="px-2 py-0.5 rounded bg-emerald-950/60 border border-emerald-800 text-emerald-300 font-semibold">{easy} Easy</span>
               <span className="px-2 py-0.5 rounded bg-sky-950/60 border border-sky-800 text-sky-300 font-semibold">{good} Good</span>
               <span className="px-2 py-0.5 rounded bg-amber-950/60 border border-amber-800 text-amber-300 font-semibold">{hard} Hard</span>
@@ -966,6 +972,7 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                   <th className="py-2.5 px-3 hidden sm:table-cell">Phonetic</th>
                   <th className="py-2.5 px-3">Audio</th>
                   <th className="py-2.5 px-3">Rating</th>
+                  <th className="py-2.5 px-3">Seen</th>
                   <th className="py-2.5 px-3 text-right">Actions</th>
                 </tr>
               </thead>
@@ -1035,6 +1042,15 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                         ) : (
                           <span className="text-slate-500 text-[10px]">New</span>
                         )}
+                      </td>
+                      <td className="py-2.5 px-3 whitespace-nowrap">
+                        <span 
+                          className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-slate-800 text-slate-300 border border-slate-700/80"
+                          title={`Presented ${cardSrs.timesPresented || 0} times`}
+                        >
+                          <Eye className="w-3 h-3 text-sky-400" />
+                          <span>{cardSrs.timesPresented || 0}x</span>
+                        </span>
                       </td>
                       <td className="py-2.5 px-3 text-right whitespace-nowrap">
                         <button
@@ -1206,6 +1222,15 @@ export const DeckEditor: React.FC<DeckEditorProps> = ({
                       {cardSrs.isExcluded && (
                         <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-rose-950/90 text-rose-400 border border-rose-800 flex items-center gap-1">
                           <Ban className="w-3 h-3" /> Ignored
+                        </span>
+                      )}
+                      {cardSrs.timesPresented !== undefined && cardSrs.timesPresented > 0 && (
+                        <span 
+                          className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700 flex items-center gap-1"
+                          title={`Presented ${cardSrs.timesPresented} times`}
+                        >
+                          <Eye className="w-3 h-3 text-sky-400" />
+                          <span>{cardSrs.timesPresented}x</span>
                         </span>
                       )}
                     </div>

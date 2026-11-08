@@ -281,3 +281,47 @@ units:
       για, από, σε, χωρίς), quantifiers (πολύς, πολλή, πολύ vs πόσος, πόση, πόσο),
       supermarket and produce vendor shopping dialogues, taverna and restaurant ordering
       interactions, and cooking recipe imperatives (κόψτε, βάλτε, ανακατέψτε, ψήστε).'
+- id: unit-110
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
+    - Λεξιλόγιο)'
+  order: KlikA1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-110/lesson-01.yaml
+    title: 'Ενότητα 9: Σπουδάζεις ή δουλεύεις; — Βασικό Λεξιλόγιο (Pages 195-218)'
+- id: unit-110b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
+    - Γραμματική & Προτάσεις)'
+  order: KlikA1-10-B
+  is_expansion: true
+  expansion_of: KlikA1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-110b/lesson-01.yaml
+    title: 'Ενότητα 9: Προτάσεις & Γραμματική — Σπουδάζεις ή δουλεύεις; (Pages 195-218)'
+    description: 'Expansion & Complementary to Lesson 110: Sentence structures, syntax
+      patterns, Simple Past / Aorist tense of regular verbs (διάβασα, έγραψα, άκουσα,
+      μαγείρεψα, δούλεψα, τελείωσα, πλήρωσα) and irregular high-frequency verbs (πήγα,
+      ήρθα, είδα, βρήκα, πήρα, έστειλα, έφυγα, έφαγα, ήπια, είπα, έκανα, κατάλαβα,
+      βγήκα, μπήκα, έμαθα), past tense of ''είμαι'' and ''έχω'' (ήμουν, είχα), adverbs
+      and comparative constructions (πιο γρήγορα από, πιο αργά από, καλύτερα από),
+      professional employment and work inquiries (job interviews, work schedules,
+      salary, vacation leave), and educational institution course enrollments and
+      schedules.'
+- id: unit-111
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Λεξιλόγιο)'
+  order: KlikA1-11-A
+  lessons:
+  - id: lesson-01
+    file: unit-111/lesson-01.yaml
+    title: 'Ενότητα 10: Περαστικά! — Βασικό Λεξιλόγιο (Pages 219-232)'
+- id: unit-111b
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Γραμματική
+    & Εκφράσεις)'
+  order: KlikA1-11-B
+  is_expansion: true
+  expansion_of: KlikA1-11-A
+  lessons:
+  - id: lesson-01
+    file: unit-111b/lesson-01.yaml
+    title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'

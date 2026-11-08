@@ -10,6 +10,10 @@ import {
   getUserStudyPreferences,
   setUserStudyPreferences,
   UserStudyPreferences,
+  checkStoragePersisted,
+  requestPersistentStorage,
+  exportFullProgressBackup,
+  importFullProgressBackup,
 } from '../utils/userStorage';
 import { getAllSRSData } from '../utils/srs';
 import {
@@ -34,7 +38,13 @@ import {
   Smartphone,
   Target,
   Gauge,
-  Type
+  Type,
+  Database,
+  ShieldCheck,
+  Upload,
+  HardDrive,
+  Eye,
+  FileCheck
 } from 'lucide-react';
 
 interface SettingsProps {
@@ -71,6 +81,12 @@ export const Settings: React.FC<SettingsProps> = ({
   // Reset progress confirm
   const [confirmReset, setConfirmReset] = useState(false);
 
+  // Storage persistence and backup state
+  const [isPersisted, setIsPersisted] = useState(false);
+  const [storageEstimate, setStorageEstimate] = useState<{ usage?: number; quota?: number } | null>(null);
+  const [backupMessage, setBackupMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const fileInputRef = React.useRef<HTMLInputElement | null>(null);
+
   // Study preferences state
   const [studyPrefs, setStudyPrefs] = useState<UserStudyPreferences>(getUserStudyPreferences());
 
@@ -80,6 +96,7 @@ export const Settings: React.FC<SettingsProps> = ({
     const currUser = getActiveUser();
     setActiveUser(currUser);
     setStudyPrefs(getUserStudyPreferences(currUser.id));
+    checkStoragePersisted().then(setIsPersisted);
   };
 
   useEffect(() => {
@@ -135,9 +152,68 @@ export const Settings: React.FC<SettingsProps> = ({
     setStudyPrefs(updated);
   };
 
+  const handleRequestPersist = async () => {
+    const res = await requestPersistentStorage();
+    setIsPersisted(res.persisted);
+    if (res.usage !== undefined && res.quota !== undefined) {
+      setStorageEstimate({ usage: res.usage, quota: res.quota });
+    }
+    setBackupMessage({
+      type: res.persisted ? 'success' : 'error',
+      text: res.persisted
+        ? 'Persistent browser storage granted! Your progress is immune to automatic cache cleanup.'
+        : 'Browser kept storage as best-effort. It is mirrored in IndexedDB for resilience.',
+    });
+    setTimeout(() => setBackupMessage(null), 5000);
+  };
+
+  const handleExportBackup = () => {
+    try {
+      const json = exportFullProgressBackup();
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      const dateStr = new Date().toISOString().slice(0, 10);
+      a.href = url;
+      a.download = `greek_deck_progress_backup_${dateStr}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      setBackupMessage({ type: 'success', text: 'Full progress backup downloaded successfully!' });
+      setTimeout(() => setBackupMessage(null), 4000);
+    } catch (e: any) {
+      setBackupMessage({ type: 'error', text: 'Failed to create backup: ' + (e?.message || 'Unknown error') });
+    }
+  };
+
+  const handleImportBackup = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const res = await importFullProgressBackup(text);
+      if (res.success) {
+        setBackupMessage({ type: 'success', text: `Restored ${res.restoredKeys} items successfully!` });
+        loadData();
+      } else {
+        setBackupMessage({ type: 'error', text: res.error || 'Failed to restore backup' });
+      }
+    } catch (err: any) {
+      setBackupMessage({ type: 'error', text: 'Could not read file: ' + (err?.message || 'Invalid format') });
+    } finally {
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+      setTimeout(() => setBackupMessage(null), 5000);
+    }
+  };
+
   const userSRS = activeUser ? getAllSRSData(activeUser.id) : {};
   const learnedCount = Object.values(userSRS).filter((c) => c.isLearned && !c.isExcluded).length;
   const totalReviewed = Object.keys(userSRS).length;
+  const totalPresentations = Object.values(userSRS).reduce((acc, c) => acc + (c.timesPresented || 0), 0);
+  const cardsPresentedCount = Object.values(userSRS).filter((c) => (c.timesPresented || 0) > 0).length;
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 pb-16">

@@ -18,6 +18,7 @@ import {
   toggleCardLearned, 
   toggleCardExcluded,
   recordSRSRating, 
+  recordCardPresentation,
   filterStudyCards, 
   getAllSRSData,
   RatingFilterOption,
@@ -34,6 +35,7 @@ import {
   Pause,
   CheckCircle, 
   Check,
+  Eye,
   EyeOff, 
   Clock, 
   ArrowUpDown, 
@@ -335,6 +337,16 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const currentCard: CardEntry | undefined = filteredCards[currentIndex];
   const srsData = currentCard ? getCardSRS(currentCard.id, activeUser.id) : null;
   const ratingStatus = currentCard ? getCardRatingStatus(srsData || undefined) : null;
+  const timesPresented = srsData?.timesPresented ?? 0;
+
+  // Track each presentation of a card during the study session
+  const lastPresentedCardIdRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (!currentCard?.id) return;
+    if (lastPresentedCardIdRef.current === currentCard.id) return;
+    lastPresentedCardIdRef.current = currentCard.id;
+    recordCardPresentation(currentCard.id, activeUser.id);
+  }, [currentCard?.id, activeUser.id]);
 
   const productionHint = useMemo(() => {
     if (!currentCard) return { letterClue: '' };
@@ -984,27 +996,36 @@ export const StudySession: React.FC<StudySessionProps> = ({
           onClick={handleFlip}
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className={`relative w-full min-h-[380px] sm:min-h-[420px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
+          className={`relative w-full h-[430px] sm:h-[475px] min-h-[430px] sm:min-h-[475px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
             isFlipped ? 'rotate-y-180' : ''
           }`}
         >
           {/* ================= CARD FRONT ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30">
+          <div className="absolute inset-0 w-full h-full rounded-3xl p-5 sm:p-7 flex flex-col justify-between backface-hidden glass-card border border-sky-500/25 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-sky-950/30 overflow-hidden">
             {/* Top Bar on Front: Word Info (Gender / POS) on Left, Rating Badge on Right */}
-            <div className="h-9 shrink-0 flex items-center justify-between gap-3 w-full select-none" onClick={(e) => e.stopPropagation()}>
+            <div className="h-8 shrink-0 flex items-center justify-between gap-3 w-full select-none">
               {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
               <div className="flex items-center gap-2 min-w-0 flex-1">
                 {currentCard.gender_or_pos ? (
-                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
+                  <span className="text-xs font-semibold px-3 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
                     {currentCard.gender_or_pos}
                   </span>
                 ) : (
-                  <span className="h-7 inline-block" />
+                  <span className="h-6 inline-block" />
                 )}
               </div>
 
-              {/* SRS Rating Badge */}
+              {/* SRS Rating Badge & Presentation Count */}
               <div className="flex items-center gap-1.5 shrink-0">
+                {timesPresented > 0 && (
+                  <span
+                    className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800/90 text-slate-300 border border-slate-700/80 flex items-center gap-1 shadow-sm whitespace-nowrap"
+                    title={`This card has been presented ${timesPresented} time${timesPresented === 1 ? '' : 's'}`}
+                  >
+                    <Eye className="w-3 h-3 text-sky-400" />
+                    <span>{timesPresented}x</span>
+                  </span>
+                )}
                 {ratingStatus && ratingStatus !== 'new' && (
                   <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
                     ratingStatus === 'again'
@@ -1022,42 +1043,48 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
 
             {/* Prompt Content */}
-            <div className="text-center py-6 space-y-4 my-auto">
+            <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center py-1 sm:py-2 space-y-2.5 sm:space-y-3.5 my-auto w-full overflow-y-auto">
               {studyDirection === 'greek_to_english' ? (
                 <>
-                  <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide font-serif leading-tight drop-shadow-sm">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-wide font-serif leading-tight drop-shadow-sm px-2">
                     {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
                   {/* Keep Speaker Sign & Audio Controls on the Greek side of the card */}
-                  <div className="flex items-center justify-center gap-2 mt-3" onClick={(e) => e.stopPropagation()}>
+                  <div className="flex items-center justify-center gap-2 mt-1">
                     {audioSrc ? (
                       <>
                         <button
                           type="button"
-                          onClick={handlePlayAudio}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handlePlayAudio();
+                          }}
                           title="Play Native Audio (↓)"
-                          className={`px-3.5 py-2.5 rounded-2xl transition-all duration-200 border shadow-md flex items-center gap-2 ${
+                          className={`px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl transition-all duration-200 border shadow-md flex items-center gap-1.5 ${
                             isAudioPlaying
                               ? 'bg-sky-500 border-sky-400 text-white shadow-sky-500/30 scale-105 ring-2 ring-sky-300/40'
                               : 'bg-slate-800/90 text-sky-400 hover:bg-slate-700 hover:text-sky-300 border-slate-700'
                           }`}
                         >
                           {isAudioPlaying ? (
-                            <div className="flex items-center gap-0.5 h-5 px-0.5">
-                              <span className="w-1 bg-white rounded-full animate-bounce h-3" style={{ animationDelay: '0ms' }} />
-                              <span className="w-1 bg-white rounded-full animate-bounce h-5" style={{ animationDelay: '150ms' }} />
-                              <span className="w-1 bg-white rounded-full animate-bounce h-2.5" style={{ animationDelay: '300ms' }} />
+                            <div className="flex items-center gap-0.5 h-4 px-0.5">
+                              <span className="w-1 bg-white rounded-full animate-bounce h-2.5" style={{ animationDelay: '0ms' }} />
+                              <span className="w-1 bg-white rounded-full animate-bounce h-4" style={{ animationDelay: '150ms' }} />
+                              <span className="w-1 bg-white rounded-full animate-bounce h-2" style={{ animationDelay: '300ms' }} />
                             </div>
                           ) : (
-                            <Volume2 className="w-5 h-5" />
+                            <Volume2 className="w-4 h-4" />
                           )}
                           <span className="text-xs font-semibold">{isAudioPlaying ? 'Playing' : 'Audio'}</span>
                         </button>
                         <button
                           type="button"
-                          onClick={cyclePlaybackSpeed}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            cyclePlaybackSpeed();
+                          }}
                           title={`Audio speed: ${playbackSpeed}x (Click to cycle)`}
-                          className="px-2.5 py-2.5 text-xs font-bold rounded-2xl bg-slate-800/90 hover:bg-slate-700 text-sky-300 hover:text-white border border-slate-700/90 transition-all shadow-sm"
+                          className="px-2.5 py-1.5 sm:py-2 text-xs font-bold rounded-xl bg-slate-800/90 hover:bg-slate-700 text-sky-300 hover:text-white border border-slate-700/90 transition-all shadow-sm"
                         >
                           {playbackSpeed}x
                         </button>
@@ -1075,17 +1102,20 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     <span className="text-[10px] font-bold uppercase tracking-wider text-sky-400 px-2.5 py-0.5 rounded-full bg-sky-950/70 border border-sky-800/60 inline-flex items-center gap-1">
                       Translate to Greek
                     </span>
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight px-2">
                       {sanitizeEnglishPrompt(currentCard.english)}
                     </h2>
                   </div>
 
                   {/* On-demand Production Hint for English -> Greek */}
-                  <div className="mt-2 flex flex-col items-center gap-2 select-none" onClick={(e) => e.stopPropagation()}>
+                  <div className="mt-1 flex flex-col items-center gap-1.5 select-none">
                     <button
                       type="button"
-                      onClick={() => setIsHintExpanded((prev) => !prev)}
-                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setIsHintExpanded((prev) => !prev);
+                      }}
+                      className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-xl text-xs font-semibold border transition-all ${
                         isHintExpanded
                           ? 'bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-sm shadow-amber-500/10'
                           : 'bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-amber-300 border-slate-700/80'
@@ -1097,19 +1127,22 @@ export const StudySession: React.FC<StudySessionProps> = ({
                     </button>
 
                     {isHintExpanded && (
-                      <div className="flex flex-wrap items-center justify-center gap-2 animate-fadeIn max-w-md text-xs">
+                      <div 
+                        className="flex flex-wrap items-center justify-center gap-1.5 animate-fadeIn max-w-md text-xs pt-1"
+                        onClick={(e) => e.stopPropagation()}
+                      >
                         {productionHint.articleClue && (
-                          <span className="px-2.5 py-1 rounded-lg bg-sky-950/80 text-sky-300 border border-sky-600/50 font-mono">
+                          <span className="px-2 py-0.5 rounded-lg bg-sky-950/80 text-sky-300 border border-sky-600/50 font-mono">
                             {productionHint.articleClue}
                           </span>
                         )}
                         {productionHint.letterClue && (
-                          <span className="px-2.5 py-1 rounded-lg bg-amber-950/80 text-amber-300 border border-amber-600/50 font-mono">
+                          <span className="px-2 py-0.5 rounded-lg bg-amber-950/80 text-amber-300 border border-amber-600/50 font-mono">
                             {productionHint.letterClue}
                           </span>
                         )}
                         {productionHint.grammarClue && (
-                          <span className="px-2.5 py-1 rounded-lg bg-slate-800/80 text-slate-300 border border-slate-700 font-mono">
+                          <span className="px-2 py-0.5 rounded-lg bg-slate-800/80 text-slate-300 border border-slate-700 font-mono">
                             {productionHint.grammarClue}
                           </span>
                         )}
@@ -1118,17 +1151,23 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   </div>
 
                   {currentCard.notes && isHintExpanded && (
-                    <div className="mt-1 select-none" onClick={(e) => e.stopPropagation()}>
+                    <div className="mt-1 select-none">
                       {!showNotesPeek ? (
                         <button
                           type="button"
-                          onClick={() => setShowNotesPeek(true)}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setShowNotesPeek(true);
+                          }}
                           className="text-xs text-slate-400 hover:text-sky-300 underline underline-offset-2 transition-colors"
                         >
                           Peek study notes (may spoil answer)
                         </button>
                       ) : (
-                        <p className="text-xs text-slate-300 max-w-md mx-auto italic mt-1 bg-slate-900/80 p-2.5 rounded-xl border border-slate-700/60 leading-relaxed animate-fadeIn">
+                        <p 
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-xs text-slate-300 max-w-md mx-auto italic mt-1 bg-slate-900/80 p-2 rounded-xl border border-slate-700/60 leading-relaxed animate-fadeIn"
+                        >
                           {currentCard.notes}
                         </p>
                       )}
@@ -1139,12 +1178,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
 
             {/* Bottom Bar on Front: Ignore on Bottom Left, Learned on Bottom Right */}
-            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
+            <div className="h-8 shrink-0 flex items-center justify-between gap-2 w-full select-none">
               {/* Bottom Left: Ignore Button */}
               <button
                 type="button"
-                onClick={handleToggleExcluded}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleToggleExcluded();
+                }}
+                className={`h-7 sm:h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isExcluded
                     ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
                     : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
@@ -1159,8 +1201,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
               {/* Bottom Right: Learned Button */}
               <button
                 type="button"
-                onClick={handleToggleLearned}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleToggleLearned();
+                }}
+                className={`h-7 sm:h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isLearned
                     ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
                     : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
@@ -1175,22 +1220,31 @@ export const StudySession: React.FC<StudySessionProps> = ({
           </div>
 
           {/* ================= CARD BACK (REVEAL) ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-6 sm:p-10 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30">
+          <div className="absolute inset-0 w-full h-full rounded-3xl p-5 sm:p-7 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30 overflow-hidden">
             {/* Top Bar on Back: Word Info (Gender / POS) on Left, Rating Badge on Right */}
-            <div className="h-9 shrink-0 flex items-center justify-between gap-3 w-full select-none" onClick={(e) => e.stopPropagation()}>
+            <div className="h-8 shrink-0 flex items-center justify-between gap-3 w-full select-none">
               {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
               <div className="flex items-center gap-2 min-w-0 flex-1">
                 {currentCard.gender_or_pos ? (
-                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
+                  <span className="text-xs font-semibold px-3 py-0.5 rounded-full bg-slate-800/90 text-sky-300 border border-slate-700/80 shadow-sm whitespace-nowrap">
                     {currentCard.gender_or_pos}
                   </span>
                 ) : (
-                  <span className="h-7 inline-block" />
+                  <span className="h-6 inline-block" />
                 )}
               </div>
 
-              {/* SRS Rating Badge */}
+              {/* SRS Rating Badge & Presentation Count */}
               <div className="flex items-center gap-1.5 shrink-0">
+                {timesPresented > 0 && (
+                  <span
+                    className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800/90 text-slate-300 border border-slate-700/80 flex items-center gap-1 shadow-sm whitespace-nowrap"
+                    title={`This card has been presented ${timesPresented} time${timesPresented === 1 ? '' : 's'}`}
+                  >
+                    <Eye className="w-3 h-3 text-sky-400" />
+                    <span>{timesPresented}x</span>
+                  </span>
+                )}
                 {ratingStatus && ratingStatus !== 'new' && (
                   <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border shadow-sm uppercase shrink-0 whitespace-nowrap ${
                     ratingStatus === 'again'
@@ -1208,44 +1262,47 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
 
             {/* Answer Content */}
-            <div className="text-center py-3 space-y-3 my-auto">
+            <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center py-1 sm:py-2 space-y-2 sm:space-y-2.5 my-auto w-full overflow-y-auto">
               {studyDirection === 'greek_to_english' ? (
                 <>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight px-2">
                     {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tight px-2">
                     {currentCard.english}
                   </h3>
                   {currentCard.phonetic_hint && (
-                    <div className="inline-block px-3 py-1 rounded-lg bg-slate-800/80 border border-slate-700/70 text-xs sm:text-sm font-mono text-teal-300">
+                    <div className="inline-block px-2.5 py-0.5 rounded-lg bg-slate-800/80 border border-slate-700/70 text-xs sm:text-sm font-mono text-teal-300">
                       /{currentCard.phonetic_hint}/
                     </div>
                   )}
                   {currentCard.example_el && (
-                    <div className="text-left bg-slate-800/70 p-3 rounded-xl border border-slate-700/70 max-w-lg mx-auto shadow-sm">
-                      <div className="font-serif text-teal-300 text-sm font-medium">{currentCard.example_el}</div>
-                      <div className="text-slate-400 text-xs mt-0.5">{currentCard.example_en}</div>
+                    <div className="text-left bg-slate-800/70 p-2.5 rounded-xl border border-slate-700/70 max-w-lg w-full mx-auto shadow-sm">
+                      <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium">{currentCard.example_el}</div>
+                      <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">{currentCard.example_en}</div>
                     </div>
                   )}
                   {currentCard.notes && (
-                    <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto italic bg-slate-800/40 p-2.5 rounded-xl border border-slate-700/50">
+                    <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
                       {currentCard.notes}
                     </p>
                   )}
                 </>
               ) : (
                 <>
-                  <h2 className="text-3xl sm:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight px-2">
                     {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
                   {audioSrc && (
-                    <div className="flex items-center justify-center gap-2 pt-0.5" onClick={(e) => e.stopPropagation()}>
+                    <div className="flex items-center justify-center gap-2 pt-0.5">
                       <button
                         type="button"
-                        onClick={handlePlayAudio}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handlePlayAudio();
+                        }}
                         title="Play Native Audio (↓)"
-                        className={`px-3 py-1.5 rounded-xl transition-all duration-200 border text-xs font-semibold flex items-center gap-1.5 shadow-sm ${
+                        className={`px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl transition-all duration-200 border text-xs font-semibold flex items-center gap-1.5 shadow-sm ${
                           isAudioPlaying
                             ? 'bg-teal-500 border-teal-400 text-white shadow-teal-500/30 ring-2 ring-teal-300/40'
                             : 'bg-slate-800/90 text-teal-300 hover:bg-slate-700 hover:text-white border-slate-700'
@@ -1256,11 +1313,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
                       </button>
                     </div>
                   )}
-                  <h3 className="text-lg sm:text-xl font-semibold text-slate-300 tracking-tight">
+                  <h3 className="text-base sm:text-lg font-semibold text-slate-300 tracking-tight px-2">
                     {sanitizeEnglishPrompt(currentCard.english)}
                   </h3>
                   {currentCard.phonetic_hint && (
-                    <div className="inline-block px-3 py-1 rounded-lg bg-slate-800/80 border border-slate-700 text-xs sm:text-sm font-mono text-teal-300">
+                    <div className="inline-block px-2.5 py-0.5 rounded-lg bg-slate-800/80 border border-slate-700 text-xs sm:text-sm font-mono text-teal-300">
                       /{currentCard.phonetic_hint}/
                     </div>
                   )}
@@ -1268,30 +1325,30 @@ export const StudySession: React.FC<StudySessionProps> = ({
                   {currentCard.grammatical_info && (
                     <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs text-slate-300 max-w-lg mx-auto pt-0.5">
                       {currentCard.grammatical_info.plural && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-teal-300 font-serif">
+                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-teal-300 font-serif text-[11px] sm:text-xs">
                           Plural: {currentCard.grammatical_info.plural}
                         </span>
                       )}
                       {currentCard.grammatical_info.imperative_formal && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-sky-300 font-serif">
+                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-sky-300 font-serif text-[11px] sm:text-xs">
                           Rubric: {currentCard.grammatical_info.imperative_formal}
                         </span>
                       )}
                       {currentCard.grammatical_info.verb_type && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-amber-300">
+                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-amber-300 text-[11px] sm:text-xs">
                           {currentCard.grammatical_info.verb_type}
                         </span>
                       )}
                     </div>
                   )}
                   {currentCard.example_el && (
-                    <div className="text-left bg-slate-800/70 p-3 rounded-xl border border-slate-700/70 max-w-lg mx-auto shadow-sm">
-                      <div className="font-serif text-teal-300 text-sm font-medium">{currentCard.example_el}</div>
-                      <div className="text-slate-400 text-xs mt-0.5">{currentCard.example_en}</div>
+                    <div className="text-left bg-slate-800/70 p-2.5 rounded-xl border border-slate-700/70 max-w-lg w-full mx-auto shadow-sm">
+                      <div className="font-serif text-teal-300 text-xs sm:text-sm font-medium">{currentCard.example_el}</div>
+                      <div className="text-slate-400 text-[11px] sm:text-xs mt-0.5">{currentCard.example_en}</div>
                     </div>
                   )}
                   {currentCard.notes && (
-                    <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto italic bg-slate-800/40 p-2.5 rounded-xl border border-slate-700/50">
+                    <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
                       {currentCard.notes}
                     </p>
                   )}
@@ -1300,12 +1357,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
 
             {/* Bottom Bar on Back: Ignore on Bottom Left, Learned on Bottom Right */}
-            <div className="h-9 shrink-0 flex items-center justify-between gap-2 w-full select-none" onClick={(e) => e.stopPropagation()}>
+            <div className="h-8 shrink-0 flex items-center justify-between gap-2 w-full select-none">
               {/* Bottom Left: Ignore Button */}
               <button
                 type="button"
-                onClick={handleToggleExcluded}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleToggleExcluded();
+                }}
+                className={`h-7 sm:h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isExcluded
                     ? 'bg-rose-900/90 text-rose-200 border-rose-500/80 shadow-rose-900/30 ring-1 ring-rose-400/40'
                     : 'bg-slate-800/80 hover:bg-rose-950/80 text-slate-400 hover:text-rose-300 border-slate-700/80 hover:border-rose-500/40 backdrop-blur-sm'
@@ -1320,8 +1380,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
               {/* Bottom Right: Learned Button */}
               <button
                 type="button"
-                onClick={handleToggleLearned}
-                className={`h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleToggleLearned();
+                }}
+                className={`h-7 sm:h-8 px-2.5 sm:px-3 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all z-10 border shadow-sm whitespace-nowrap shrink-0 ${
                   srsData?.isLearned
                     ? 'bg-teal-600/90 text-white border-teal-400/80 shadow-teal-600/30 ring-1 ring-teal-400/40'
                     : 'bg-slate-800/80 hover:bg-teal-950/80 text-slate-300 hover:text-teal-300 border-slate-700/80 hover:border-teal-500/40 backdrop-blur-sm'
@@ -1340,7 +1403,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
       {/* ========================================================================= */}
       {/* Bottom Button Rows: Assessment (Row 1) & Navigation (Row 2)              */}
       {/* ========================================================================= */}
-      <div className="space-y-2 sm:space-y-2.5 pt-1">
+      <div 
+        className="space-y-2 sm:space-y-2.5 !mt-[72px]" 
+        style={{ marginTop: '72px' }}
+      >
         {/* ROW 1: Card Assessment & SRS Rating Controls (Equal Sized 4-Button Row) */}
         <div 
           id="study-row-1-assessment" 
