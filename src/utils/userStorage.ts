@@ -338,7 +338,7 @@ export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
   highlightTonos: true,
   hapticFeedback: true,
   themePreference: 'slate',
-  textSizePreference: 'large',
+  textSizePreference: 'normal',
   dailyGoal: 20,
 };
 
@@ -359,9 +359,9 @@ export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
         hapticFeedback: parsed.hapticFeedback !== undefined ? Boolean(parsed.hapticFeedback) : true,
         themePreference: parsed.themePreference === 'oled' ? 'oled' : 'slate',
         textSizePreference:
-          parsed.textSizePreference === 'normal' || parsed.textSizePreference === 'xlarge'
+          parsed.textSizePreference === 'large' || parsed.textSizePreference === 'xlarge'
             ? parsed.textSizePreference
-            : 'large',
+            : 'normal',
         dailyGoal: typeof parsed.dailyGoal === 'number' ? parsed.dailyGoal : 20,
       };
     }

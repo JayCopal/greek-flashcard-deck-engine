@@ -637,40 +637,40 @@ export const Settings: React.FC<SettingsProps> = ({
                 Text Size
               </span>
               <span className="text-[11px] font-bold text-sky-300">
-                {studyPrefs.textSizePreference === 'normal'
-                  ? 'Standard (100%)'
+                {studyPrefs.textSizePreference === 'large'
+                  ? '+10% (Larger)'
                   : studyPrefs.textSizePreference === 'xlarge'
-                  ? 'Extra Large (+50%)'
-                  : '+25% (Default)'}
+                  ? '+20% (Largest)'
+                  : 'Standard (100% Default)'}
               </span>
             </div>
             <p className="text-[11px] text-slate-400 leading-relaxed">
-              Scale all text across the PWA for enhanced readability. Default is 25% larger.
+              Scale all text across the PWA for enhanced readability. Default is Standard (100%).
             </p>
             <div className="grid grid-cols-3 gap-2 pt-1">
               <button
                 type="button"
                 onClick={() => updatePreference({ textSizePreference: 'normal' })}
                 className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all flex flex-col items-center justify-center gap-0.5 ${
-                  studyPrefs.textSizePreference === 'normal'
+                  studyPrefs.textSizePreference === 'normal' || !studyPrefs.textSizePreference
                     ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
                     : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
                 }`}
               >
                 <span>100%</span>
-                <span className="text-[10px] opacity-75 font-normal">Standard</span>
+                <span className="text-[10px] opacity-75 font-normal">Default</span>
               </button>
               <button
                 type="button"
                 onClick={() => updatePreference({ textSizePreference: 'large' })}
                 className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all flex flex-col items-center justify-center gap-0.5 ${
-                  studyPrefs.textSizePreference === 'large' || !studyPrefs.textSizePreference
+                  studyPrefs.textSizePreference === 'large'
                     ? 'bg-sky-500 text-white border-sky-400 shadow-sm'
                     : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
                 }`}
               >
-                <span>+25%</span>
-                <span className="text-[10px] opacity-75 font-normal">Default</span>
+                <span>+10%</span>
+                <span className="text-[10px] opacity-75 font-normal">Larger</span>
               </button>
               <button
                 type="button"
@@ -681,7 +681,7 @@ export const Settings: React.FC<SettingsProps> = ({
                     : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
                 }`}
               >
-                <span>+50%</span>
+                <span>+20%</span>
                 <span className="text-[10px] opacity-75 font-normal">Largest</span>
               </button>
             </div>

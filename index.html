@@ -23,11 +23,11 @@
           var key = activeId ? 'greek_deck_study_prefs_' + activeId : null;
           var raw = key ? localStorage.getItem(key) : null;
           var prefs = raw ? JSON.parse(raw) : null;
-          var size = (prefs && prefs.textSizePreference) || 'large';
+          var size = (prefs && prefs.textSizePreference) || 'normal';
           document.documentElement.classList.remove('text-scale-normal', 'text-scale-large', 'text-scale-xlarge');
           document.documentElement.classList.add('text-scale-' + size);
         } catch (e) {
-          document.documentElement.classList.add('text-scale-large');
+          document.documentElement.classList.add('text-scale-normal');
         }
       })();
     </script>

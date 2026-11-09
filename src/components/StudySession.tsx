@@ -717,10 +717,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
   }
 
   const renderExamples = (card: CardEntry) => {
-    if (!card.example_el && !card.example2_el) return null;
+    const hasEx1 = Boolean(card.example_el);
+    const hasEx2 = Boolean(card.example2_el);
+    const hasNotes = Boolean(card.notes);
+
+    if (!hasEx1 && !hasEx2 && !hasNotes) return null;
+
     return (
-      <div className="space-y-2 max-w-lg w-full mx-auto select-none">
-        {card.example_el && (
+      <div className="w-full max-w-xl mx-auto rounded-2xl bg-slate-900/70 border border-slate-700/60 shadow-lg divide-y divide-slate-700/50 overflow-hidden select-none my-auto">
+        {hasEx1 && (
           <button
             type="button"
             onClick={(e) => {
@@ -729,43 +734,57 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 playSentenceAudio(card.example_audio);
               }
             }}
-            className={`w-full text-left p-2.5 sm:p-3 rounded-xl border transition-all flex items-start justify-between gap-3 group relative cursor-pointer active:scale-[0.99] shadow-sm ${
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+            className={`w-full text-left py-2 px-3 sm:py-2.5 sm:px-4 transition-all group ${
+              card.example_audio ? 'cursor-pointer active:scale-[0.99]' : 'cursor-default'
+            } ${
               playingSentenceAudio === card.example_audio
-                ? 'bg-teal-950/60 border-teal-400 ring-2 ring-teal-400/40 shadow-teal-900/40'
-                : 'bg-slate-800/80 hover:bg-slate-800/95 border-slate-700/70 hover:border-teal-500/60 hover:shadow-md'
+                ? 'bg-teal-950/80 ring-1 ring-teal-400/40 shadow-inner'
+                : card.example_audio
+                ? 'hover:bg-slate-800/70 hover:shadow-inner'
+                : ''
             }`}
             title={
               card.example_audio
                 ? playingSentenceAudio === card.example_audio
-                  ? 'Click to pause sentence audio'
-                  : 'Click to play sentence audio'
+                  ? 'Click anywhere to pause sentence audio'
+                  : 'Click anywhere to play sentence audio'
                 : undefined
             }
           >
-            <div className="flex-1 min-w-0">
-              <div className="font-serif text-teal-300 group-hover:text-teal-200 text-xs sm:text-sm font-medium leading-relaxed transition-colors">
-                {card.example_el}
+            <div className="w-full">
+              <div className="font-serif text-teal-200 group-hover:text-teal-100 text-sm sm:text-base font-semibold leading-snug transition-colors flex items-start gap-1.5">
+                <span
+                  className={`shrink-0 select-none text-xs sm:text-sm mt-0.5 transition-transform ${
+                    playingSentenceAudio === card.example_audio ? 'animate-pulse scale-125' : ''
+                  }`}
+                  title={card.example_audio ? 'Spoken Greek audio' : undefined}
+                >
+                  🔊
+                </span>
+                <span className="flex-1 min-w-0">
+                  {renderGreekWithTonos(card.example_el!, highlightTonos)}
+                </span>
               </div>
               {card.example_en && (
-                <div className="text-slate-400 group-hover:text-slate-300 text-[11px] sm:text-xs mt-0.5 transition-colors">
-                  {card.example_en}
+                <div className="text-slate-300 group-hover:text-white text-xs sm:text-sm font-medium leading-snug mt-1 transition-colors flex items-start gap-1.5">
+                  <span
+                    className="shrink-0 select-none text-xs sm:text-sm mt-0.5 opacity-80"
+                    title="Translation"
+                  >
+                    🌐
+                  </span>
+                  <span className="flex-1 min-w-0">
+                    {card.example_en}
+                  </span>
                 </div>
               )}
             </div>
-            {card.example_audio && (
-              <div
-                className={`p-1.5 sm:p-2 rounded-lg border transition-all shrink-0 mt-0.5 flex items-center justify-center ${
-                  playingSentenceAudio === card.example_audio
-                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50 animate-pulse'
-                    : 'bg-teal-950/70 group-hover:bg-teal-900/90 text-teal-300 border-teal-700/60 group-hover:text-white group-hover:border-teal-500/60'
-                }`}
-              >
-                <Volume2 className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
-              </div>
-            )}
           </button>
         )}
-        {card.example2_el && (
+
+        {hasEx2 && (
           <button
             type="button"
             onClick={(e) => {
@@ -774,48 +793,68 @@ export const StudySession: React.FC<StudySessionProps> = ({
                 playSentenceAudio(card.example2_audio);
               }
             }}
-            className={`w-full text-left p-2.5 sm:p-3 rounded-xl border transition-all flex items-start justify-between gap-3 group relative cursor-pointer active:scale-[0.99] shadow-sm ${
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+            className={`w-full text-left py-2 px-3 sm:py-2.5 sm:px-4 transition-all group ${
+              card.example2_audio ? 'cursor-pointer active:scale-[0.99]' : 'cursor-default'
+            } ${
               playingSentenceAudio === card.example2_audio
-                ? 'bg-teal-950/60 border-teal-400 ring-2 ring-teal-400/40 shadow-teal-900/40'
-                : 'bg-slate-800/80 hover:bg-slate-800/95 border-slate-700/70 hover:border-teal-500/60 hover:shadow-md'
+                ? 'bg-teal-950/80 ring-1 ring-teal-400/40 shadow-inner'
+                : card.example2_audio
+                ? 'hover:bg-slate-800/70 hover:shadow-inner'
+                : ''
             }`}
             title={
               card.example2_audio
                 ? playingSentenceAudio === card.example2_audio
-                  ? 'Click to pause sentence audio'
-                  : 'Click to play sentence audio'
+                  ? 'Click anywhere to pause sentence audio'
+                  : 'Click anywhere to play sentence audio'
                 : undefined
             }
           >
-            <div className="flex-1 min-w-0">
-              <div className="font-serif text-teal-300 group-hover:text-teal-200 text-xs sm:text-sm font-medium leading-relaxed transition-colors">
-                {card.example2_el}
+            <div className="w-full">
+              <div className="font-serif text-teal-200 group-hover:text-teal-100 text-sm sm:text-base font-semibold leading-snug transition-colors flex items-start gap-1.5">
+                <span
+                  className={`shrink-0 select-none text-xs sm:text-sm mt-0.5 transition-transform ${
+                    playingSentenceAudio === card.example2_audio ? 'animate-pulse scale-125' : ''
+                  }`}
+                  title={card.example2_audio ? 'Spoken Greek audio' : undefined}
+                >
+                  🔊
+                </span>
+                <span className="flex-1 min-w-0">
+                  {renderGreekWithTonos(card.example2_el!, highlightTonos)}
+                </span>
               </div>
               {card.example2_en && (
-                <div className="text-slate-400 group-hover:text-slate-300 text-[11px] sm:text-xs mt-0.5 transition-colors">
-                  {card.example2_en}
+                <div className="text-slate-300 group-hover:text-white text-xs sm:text-sm font-medium leading-snug mt-1 transition-colors flex items-start gap-1.5">
+                  <span
+                    className="shrink-0 select-none text-xs sm:text-sm mt-0.5 opacity-80"
+                    title="Translation"
+                  >
+                    🌐
+                  </span>
+                  <span className="flex-1 min-w-0">
+                    {card.example2_en}
+                  </span>
                 </div>
               )}
             </div>
-            {card.example2_audio && (
-              <div
-                className={`p-1.5 sm:p-2 rounded-lg border transition-all shrink-0 mt-0.5 flex items-center justify-center ${
-                  playingSentenceAudio === card.example2_audio
-                    ? 'bg-teal-500 text-slate-950 border-teal-400 ring-2 ring-teal-400/50 animate-pulse'
-                    : 'bg-teal-950/70 group-hover:bg-teal-900/90 text-teal-300 border-teal-700/60 group-hover:text-white group-hover:border-teal-500/60'
-                }`}
-              >
-                <Volume2 className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
-              </div>
-            )}
           </button>
+        )}
+
+        {hasNotes && (
+          <div className="py-2 px-3 sm:px-4 text-xs sm:text-sm text-slate-300 italic bg-slate-950/30 flex items-center justify-center gap-1.5 text-center">
+            <span className="opacity-70 shrink-0">💡</span>
+            <span>{card.notes}</span>
+          </div>
         )}
       </div>
     );
   };
 
   return (
-    <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 pb-14">
+    <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 pb-8">
       {/* Centralized Native Audio Element (Single-source to prevent double playback) */}
       <audio
         ref={audioRef}
@@ -1124,7 +1163,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           onClick={handleFlip}
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className={`relative w-full h-[442px] sm:h-[487px] min-h-[442px] sm:min-h-[487px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
+          className={`relative w-full h-[466px] sm:h-[511px] min-h-[466px] sm:min-h-[511px] rounded-3xl cursor-pointer transition-transform duration-500 transform-style-3d select-none shadow-2xl ${
             isFlipped ? 'rotate-y-180' : ''
           }`}
         >
@@ -1346,7 +1385,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
           </div>
 
           {/* ================= CARD BACK (REVEAL) ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl p-[14px] sm:p-[22px] flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30 overflow-hidden">
+          <div className="absolute inset-0 w-full h-full rounded-3xl px-3.5 py-3 sm:px-5 sm:py-3.5 flex flex-col justify-between backface-hidden rotate-y-180 glass-card border border-teal-500/30 bg-gradient-to-b from-slate-900/95 via-slate-900/90 to-slate-950 shadow-2xl shadow-teal-950/30 overflow-hidden">
             {/* Top Bar on Back: Word Info (Gender / POS) on Left, Rating Badge on Right */}
             <div className="h-8 shrink-0 flex items-center justify-between gap-3 w-full select-none">
               {/* Word info (Gender / Part of Speech) - Ample room with no truncation */}
@@ -1388,68 +1427,47 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
 
             {/* Answer Content */}
-            <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center py-1 sm:py-2 space-y-2 sm:space-y-2.5 my-auto w-full overflow-y-auto">
-              {studyDirection === 'greek_to_english' ? (
-                <>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight px-2">
+            <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center py-1 sm:py-2 w-full overflow-y-auto">
+              {/* Word Header Block */}
+              <div className="shrink-0 w-full px-2 text-center mb-2">
+                <div className="flex items-baseline justify-center gap-2 flex-wrap">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-teal-300 font-serif leading-tight">
                     {renderGreekWithTonos(currentCard.greek, highlightTonos)}
                   </h2>
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tight px-2">
-                    {currentCard.english}
-                  </h3>
                   {currentCard.phonetic_hint && (
-                    <div className="inline-block px-2.5 py-0.5 rounded-lg bg-slate-800/80 border border-slate-700/70 text-xs sm:text-sm font-mono text-teal-300">
+                    <span className="text-xs sm:text-sm font-mono text-teal-300/80 font-normal">
                       /{currentCard.phonetic_hint}/
-                    </div>
+                    </span>
                   )}
-                  {renderExamples(currentCard)}
-                  {currentCard.notes && (
-                    <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
-                      {currentCard.notes}
-                    </p>
-                  )}
-                </>
-              ) : (
-                <>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-teal-300 tracking-wide font-serif leading-tight px-2">
-                    {renderGreekWithTonos(currentCard.greek, highlightTonos)}
-                  </h2>
-                  <h3 className="text-base sm:text-lg font-semibold text-slate-300 tracking-tight px-2">
-                    {sanitizeEnglishPrompt(currentCard.english)}
-                  </h3>
-                  {currentCard.phonetic_hint && (
-                    <div className="inline-block px-2.5 py-0.5 rounded-lg bg-slate-800/80 border border-slate-700 text-xs sm:text-sm font-mono text-teal-300">
-                      /{currentCard.phonetic_hint}/
-                    </div>
-                  )}
-                  {/* Grammatical Highlights (Plural / Rubric form / Verb Type) */}
-                  {currentCard.grammatical_info && (
-                    <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs text-slate-300 max-w-lg mx-auto pt-0.5">
-                      {currentCard.grammatical_info.plural && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-teal-300 font-serif text-[11px] sm:text-xs">
-                          Plural: {currentCard.grammatical_info.plural}
-                        </span>
-                      )}
-                      {currentCard.grammatical_info.imperative_formal && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-sky-300 font-serif text-[11px] sm:text-xs">
-                          Rubric: {currentCard.grammatical_info.imperative_formal}
-                        </span>
-                      )}
-                      {currentCard.grammatical_info.verb_type && (
-                        <span className="px-2 py-0.5 rounded-md bg-slate-800/90 border border-slate-700/80 text-amber-300 text-[11px] sm:text-xs">
-                          {currentCard.grammatical_info.verb_type}
-                        </span>
-                      )}
-                    </div>
-                  )}
-                  {renderExamples(currentCard)}
-                  {currentCard.notes && (
-                    <p className="text-[11px] sm:text-xs text-slate-300 max-w-lg w-full mx-auto italic bg-slate-800/40 p-2 rounded-xl border border-slate-700/50">
-                      {currentCard.notes}
-                    </p>
-                  )}
-                </>
-              )}
+                </div>
+                <h3 className="text-base sm:text-lg font-bold text-white tracking-tight leading-snug mt-0.5">
+                  {studyDirection === 'greek_to_english'
+                    ? currentCard.english
+                    : sanitizeEnglishPrompt(currentCard.english)}
+                </h3>
+                {currentCard.grammatical_info && (
+                  <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs text-slate-300 pt-1">
+                    {currentCard.grammatical_info.plural && (
+                      <span className="px-2 py-0.5 rounded-full bg-slate-800/90 text-teal-300 font-serif text-[11px] sm:text-xs border border-slate-700/80">
+                        Plural: {currentCard.grammatical_info.plural}
+                      </span>
+                    )}
+                    {currentCard.grammatical_info.imperative_formal && (
+                      <span className="px-2 py-0.5 rounded-full bg-slate-800/90 text-sky-300 font-serif text-[11px] sm:text-xs border border-slate-700/80">
+                        Rubric: {currentCard.grammatical_info.imperative_formal}
+                      </span>
+                    )}
+                    {currentCard.grammatical_info.verb_type && (
+                      <span className="px-2 py-0.5 rounded-full bg-slate-800/90 text-amber-300 text-[11px] sm:text-xs border border-slate-700/80">
+                        {currentCard.grammatical_info.verb_type}
+                      </span>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              {/* Unified Examples & Notes Panel */}
+              {renderExamples(currentCard)}
             </div>
 
             {/* Bottom Bar on Back: Ignore on Bottom Left, Learned on Bottom Right */}

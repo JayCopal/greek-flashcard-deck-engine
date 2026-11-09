@@ -54,7 +54,7 @@ export function App() {
     () => getUserStudyPreferences().themePreference || 'slate'
   );
   const [textSizePreference, setTextSizePreference] = useState<TextSizePreference>(
-    () => getUserStudyPreferences().textSizePreference || 'large'
+    () => getUserStudyPreferences().textSizePreference || 'normal'
   );
 
   useEffect(() => {
@@ -67,7 +67,7 @@ export function App() {
     const updateThemeAndPrefs = () => {
       const prefs = getUserStudyPreferences();
       setThemePreference(prefs.themePreference || 'slate');
-      setTextSizePreference(prefs.textSizePreference || 'large');
+      setTextSizePreference(prefs.textSizePreference || 'normal');
     };
     window.addEventListener('greek_deck_user_change', updateThemeAndPrefs);
     window.addEventListener('greek_deck_prefs_change', updateThemeAndPrefs);

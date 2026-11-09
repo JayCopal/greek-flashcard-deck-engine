@@ -11,18 +11,18 @@
 }
 
 /* Global Typography Scaling */
-/* Normal (100% base size), Large / Default (+25% base size), Extra Large (+50% base size) */
-html.text-scale-normal {
+/* Normal: 100% (Standard - Default), Large: +10% (110%), Extra Large: +20% (120%) */
+html.text-scale-normal,
+html:not(.text-scale-large):not(.text-scale-xlarge) {
   font-size: 100%;
 }
 
-html.text-scale-large,
-html:not(.text-scale-normal):not(.text-scale-xlarge) {
-  font-size: 125%;
+html.text-scale-large {
+  font-size: 110%;
 }
 
 html.text-scale-xlarge {
-  font-size: 150%;
+  font-size: 120%;
 }
 
 /* Ensure arbitrary small pixel utility classes scale proportionally with root rem */
