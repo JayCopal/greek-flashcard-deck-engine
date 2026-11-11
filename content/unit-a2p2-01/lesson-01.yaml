@@ -1,0 +1,565 @@
+unit_id: unit-a2p2-01
+lesson_id: lesson-01
+title: 'Μάθημα 1: Καθημερινός Διάλογος & Προφορική Επικοινωνία (Everyday Dialogues
+  & Conversational Exchanges)'
+description: Mastering oral repair formulas, turn-taking strategies, polite agreements/disagreements,
+  and telephone booking conversations for the KEG A2 Speaking and Listening sections.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-01 Core Notes: Καθημερινός Διάλογος & Προφορική Επικοινωνία\
+  \ (Everyday Dialogues & Conversational Exchanges)\n• Official KEG A2 Exam Alignment:\n\
+  \  - Speaking Stage 1 & 2: Asking polite questions, requesting repetitions (Μήπως\
+  \ μπορείτε να το επαναλάβετε;), and conversational pacing.\n  - Speaking Stage 3\
+  \ (Pair Interaction): Agreeing/disagreeing diplomatically (Έχετε απόλυτο δίκιο vs.\
+  \ Φοβάμαι πως διαφωνώ), seeking partner's opinion (Ποια είναι η άποψή σας;), and\
+  \ making collaborative plans (Τι προτείνετε να κάνουμε;).\n  - Listening & Telephone:\
+  \ Scheduling, postponing, and cancelling appointments (κλείνω / αναβάλλω / ακυρώνω\
+  \ ραντεβού)."
+entries:
+- id: A2P2-U01-001
+  greek: μπορώ να σας ρωτήσω κάτι;
+  english: may I ask you something?
+  notes: Polite conversational opening formula. Essential for Speaking Stages 1 and
+    2.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    components: modal verb 'μπορώ' + weak clitic accusative 'σας' + subjunctive 'να
+      ρωτήσω'
+    register: polite / formal
+  keg_communicative_function: Initiating a polite enquiry or request in spoken interaction
+  example_el: Συγγνώμη, μπορώ να σας ρωτήσω κάτι σχετικά με το πρόγραμμα των εξετάσεων;
+  example_en: Excuse me, may I ask you something regarding the exam schedule?
+  example2_el: Μπορώ να σας ρωτήσω πώς μπορώ να φτάσω στο κέντρο της πόλης;
+  example2_en: May I ask you how I can get to the city center?
+  audio: mporo-na-sas-rotiso--42237f.mp3
+  status: verified
+  example_audio: syggnomi-mporo-na-sa-4a18d2.mp3
+  example2_audio: mporo-na-sas-rotiso--ce2b53.mp3
+- id: A2P2-U01-002
+  greek: τι εννοείτε ακριβώς;
+  english: what exactly do you mean?
+  notes: Essential clarification phrase for Speaking and Listening comprehension.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: εννοώ (contracted verb in -ώ)
+    person: second person plural (formal / plural)
+    adverb: ακριβώς
+  keg_communicative_function: Requesting clarification when a statement is unclear
+  example_el: Δεν κατάλαβα την τελευταία οδηγία, τι εννοείτε ακριβώς;
+  example_en: I did not understand the last instruction, what exactly do you mean?
+  example2_el: Όταν λέτε ότι η εγγραφή είναι υποχρεωτική, τι εννοείτε ακριβώς;
+  example2_en: When you say registration is mandatory, what exactly do you mean?
+  audio: ti-ennoeite-akrivos-768929.mp3
+  status: verified
+  example_audio: den-katalava-tin-tel-8f76d6.mp3
+  example2_audio: otan-lete-oti-i-eggr-37ef24.mp3
+- id: A2P2-U01-003
+  greek: μήπως μπορείτε να το επαναλάβετε;
+  english: could you perhaps repeat that?
+  notes: High-yield polite repair formula when audio or examiner is misunderstood.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    particle: μήπως (polite tentative question)
+    verb: επαναλαμβάνω -> να επαναλάβετε (aorist subjunctive)
+  keg_communicative_function: Asking an interlocutor to repeat a phrase or question
+  example_el: Με συγχωρείτε, είχε θόρυβο στην αίθουσα, μήπως μπορείτε να το επαναλάβετε;
+  example_en: Excuse me, there was noise in the room, could you perhaps repeat that?
+  example2_el: Δεν άκουσα το όνομα του δρόμου, μήπως μπορείτε να το επαναλάβετε;
+  example2_en: I didn't hear the name of the street, could you perhaps repeat that?
+  audio: mipos-mporeite-na-to-c1f776.mp3
+  status: verified
+  example_audio: me-sygchoreite-eiche-c936d4.mp3
+  example2_audio: den-akoysa-to-onoma--93dc66.mp3
+- id: A2P2-U01-004
+  greek: μιλάτε λίγο πιο αργά, παρακαλώ;
+  english: could you speak a little slower, please?
+  notes: Crucial speaking management strategy for A2 candidates during examination
+    dialogue.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    comparative_adverb: πιο αργά
+    politeness_marker: παρακαλώ
+  keg_communicative_function: Regulating the speech rate of an interlocutor
+  example_el: Μιλάτε λίγο πιο αργά, παρακαλώ, γιατί ακόμα μαθαίνω ελληνικά.
+  example_en: Could you speak a little slower, please, because I am still learning
+    Greek.
+  example2_el: Αν θέλετε, μιλάτε λίγο πιο αργά για να καταγράψω τις διευθύνσεις;
+  example2_en: If you would, could you speak a little slower so I can note down the
+    addresses?
+  audio: milate-ligo-pio-arga-c2510c.mp3
+  status: verified
+  example_audio: milate-ligo-pio-arga-5c9ce6.mp3
+  example2_audio: an-thelete-milate-li-e99942.mp3
+- id: A2P2-U01-005
+  greek: έχετε απόλυτο δίκιο
+  english: you are absolutely right
+  notes: Expressing emphatic agreement in Speaking Stage 3 (pair conversation).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    idiom: έχω δίκιο (to be right)
+    adjective: απόλυτο (neuter accusative)
+  keg_communicative_function: Expressing strong agreement with a conversation partner
+  example_el: Έχετε απόλυτο δίκιο, τα μέσα μαζικής μεταφοράς είναι πολύ πιο οικονομικά.
+  example_en: You are absolutely right, public transit is much more economical.
+  example2_el: Σε αυτό το σημείο έχετε απόλυτο δίκιο, πρέπει να ξεκινήσουμε νωρίτερα.
+  example2_en: On this point you are absolutely right, we must start earlier.
+  audio: echete-apolyto-dikio-3e5c8d.mp3
+  status: verified
+  example_audio: echete-apolyto-dikio-290d0c.mp3
+  example2_audio: se-ayto-to-simeio-ec-3450b0.mp3
+- id: A2P2-U01-006
+  greek: δεν είμαι σίγουρος / σίγουρη
+  english: I am not sure
+  notes: Polite hedging formula indicating uncertainty or hesitation.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    copula: είμαι
+    gender_forms: σίγουρος (masc) / σίγουρη (fem)
+  keg_communicative_function: Indicating hesitation or lack of certainty in conversation
+  example_el: Δεν είμαι σίγουρος για την ώρα της αναχώρησης, ας κοιτάξουμε τον πίνακα.
+  example_en: I am not sure about the departure time, let us look at the board.
+  example2_el: Δεν είμαι σίγουρη αν το κατάστημα είναι ανοιχτό τα απογεύματα.
+  example2_en: I am not sure if the shop is open in the afternoons.
+  audio: den-eimai-sigoyros-s-e3383a.mp3
+  status: verified
+  example_audio: den-eimai-sigoyros-g-63fbed.mp3
+  example2_audio: den-eimai-sigoyri-an-9bca59.mp3
+- id: A2P2-U01-007
+  greek: κατά τη γνώμη μου
+  english: in my opinion
+  notes: High-yield discourse marker for Speaking Stage 3 and Writing Task 2.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    preposition: κατά + accusative
+    noun: η γνώμη (opinion)
+  keg_communicative_function: Introducing personal viewpoint or argumentative stance
+  example_el: Κατά τη γνώμη μου, η ζωή στην επαρχία προσφέρει περισσότερη ηρεμία.
+  example_en: In my opinion, life in the province offers more peace and quiet.
+  example2_el: Κατά τη γνώμη μου, αξίζει να επισκεφτούμε το καινούριο μουσείο της
+    πόλης.
+  example2_en: In my opinion, it is well worth visiting the city's new museum.
+  audio: kata-ti-gnomi-moy-b38262.mp3
+  status: verified
+  example_audio: kata-ti-gnomi-moy-i--88888f.mp3
+  example2_audio: kata-ti-gnomi-moy-ax-ccf130.mp3
+- id: A2P2-U01-008
+  greek: από ό,τι ξέρω
+  english: as far as I know
+  notes: Expressing qualified knowledge or provisional information.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    pronoun: ό,τι (relative with comma)
+    verb: ξέρω (present tense)
+  keg_communicative_function: Sharing provisional information without absolute certainty
+  example_el: Από ό,τι ξέρω, η γραμματεία κλείνει στις δύο το μεσημέρι.
+  example_en: As far as I know, the administration office closes at two in the afternoon.
+  example2_el: Από ό,τι ξέρω, τα εισιτήρια του πλοίου είναι φθηνότερα τις καθημερινές.
+  example2_en: As far as I know, ferry tickets are cheaper on weekdays.
+  audio: apo-o-ti-xero-c4ab24.mp3
+  status: verified
+  example_audio: apo-o-ti-xero-i-gram-5ca025.mp3
+  example2_audio: apo-o-ti-xero-ta-eis-06f5a2.mp3
+- id: A2P2-U01-009
+  greek: τι γνώμη έχετε για...;
+  english: what is your opinion about...?
+  notes: Inquiring about someone's opinion; standard prompt in pair dialogue.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: interrogative phrase
+    preposition: για + accusative
+    register: formal (έχετε) or plural
+  keg_communicative_function: Asking an interlocutor for their perspective on an issue
+  example_el: Τι γνώμη έχετε για την εξ αποστάσεως εργασία από το σπίτι;
+  example_en: What is your opinion about working remotely from home?
+  example2_el: Τι γνώμη έχεις για το καινούριο εστιατόριο που άνοιξε στη γειτονιά;
+  example2_en: What do you think about the new restaurant that opened in the neighborhood?
+  audio: ti-gnomi-echete-gia-0e6dab.mp3
+  status: verified
+  example_audio: ti-gnomi-echete-gia--178451.mp3
+  example2_audio: ti-gnomi-echeis-gia--1d8169.mp3
+- id: A2P2-U01-010
+  greek: συμφωνώ απόλυτα μαζί σας
+  english: I completely agree with you
+  notes: Formal agreement formula used in conversational negotiation.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: συμφωνώ
+    preposition: μαζί + genitive clitic (μαζί σας / μαζί σου)
+  keg_communicative_function: Affirming consensus with an interlocutor
+  example_el: Συμφωνώ απόλυτα μαζί σας, η προστασία του περιβάλλοντος αφορά όλους
+    μας.
+  example_en: I completely agree with you, environmental protection concerns all of
+    us.
+  example2_el: Συμφωνώ απόλυτα μαζί σου, αυτή η πρόταση είναι η καλύτερη λύση.
+  example2_en: I completely agree with you, this proposal is the best solution.
+  audio: symfono-apolyta-mazi-7935f8.mp3
+  status: verified
+  example_audio: symfono-apolyta-mazi-6aa7d6.mp3
+  example2_audio: symfono-apolyta-mazi-a84c34.mp3
+- id: A2P2-U01-011
+  greek: φοβάμαι πως διαφωνώ
+  english: I am afraid I disagree
+  notes: Diplomatic polite disagreement phrase avoiding blunt confrontation.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: φοβάμαι (mediopassive)
+    conjunction: πως / ότι
+  keg_communicative_function: Expressing courteous disagreement in discussions
+  example_el: Φοβάμαι πως διαφωνώ με αυτή την επιλογή, καθώς έχει μεγάλο κόστος.
+  example_en: I am afraid I disagree with this option, as it carries a high cost.
+  example2_el: Σε αυτό το θέμα φοβάμαι πως διαφωνώ, πιστεύω ότι υπάρχει άλλος τρόπος.
+  example2_en: On this topic I am afraid I disagree, I believe there is another way.
+  audio: fovamai-pos-diafono-9cd968.mp3
+  status: verified
+  example_audio: fovamai-pos-diafono--d607b5.mp3
+  example2_audio: se-ayto-to-thema-fov-27b672.mp3
+- id: A2P2-U01-012
+  greek: δεν το κατάλαβα καλά
+  english: I did not understand it well
+  notes: Aorist of καταλαβαίνω with neutral object clitic. Fundamental repair phrase.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    tense: simple past (αόριστος)
+    verb: κατάλαβα (καταλαβαίνω)
+  keg_communicative_function: Signaling comprehension breakdown during conversation
+  example_el: Συγγνώμη, δεν το κατάλαβα καλά, μπορείτε να μου το εξηγήσετε ξανά;
+  example_en: Excuse me, I didn't understand it well, can you explain it to me again?
+  example2_el: Δεν το κατάλαβα καλά αυτό το σημείο του κειμένου.
+  example2_en: I didn't understand this point in the text very well.
+  audio: den-to-katalava-kala-0907c1.mp3
+  status: verified
+  example_audio: syggnomi-den-to-kata-004bb9.mp3
+  example2_audio: den-to-katalava-kala-78b4ed.mp3
+- id: A2P2-U01-013
+  greek: θέλετε να πείτε ότι...;
+  english: do you mean to say that...?
+  notes: Checking understanding and summarizing interlocutor statements.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: interrogative phrase
+    verbs: θέλετε (present) + να πείτε (subjunctive of λέω)
+  keg_communicative_function: Paraphrasing interlocutor input to verify comprehension
+  example_el: Θέλετε να πείτε ότι δεν υπάρχουν άλλα διαθέσιμα εισιτήρια για απόψε;
+  example_en: Do you mean to say that there are no other tickets available for tonight?
+  example2_el: Θέλεις να πεις ότι θα αλλάξουμε το πρόγραμμα της εκδρομής;
+  example2_en: Do you mean to say that we will change the excursion schedule?
+  audio: thelete-na-peite-oti-3cf35e.mp3
+  status: verified
+  example_audio: thelete-na-peite-oti-32cff6.mp3
+  example2_audio: theleis-na-peis-oti--22e4e3.mp3
+- id: A2P2-U01-014
+  greek: ποια είναι η άποψή σας;
+  english: what is your view / opinion?
+  notes: Synonym of 'τι γνώμη έχετε'. Key question for interactive oral tasks.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: interrogative phrase
+    pronoun: ποια (feminine nominative)
+    noun: η άποψη (view, opinion, 3rd declension feminine)
+  keg_communicative_function: Inviting someone to express their standpoint
+  example_el: Ποια είναι η άποψή σας για τη χρήση των κινητών τηλεφώνων στο σχολείο;
+  example_en: What is your view on the use of mobile phones in schools?
+  example2_el: Ποια είναι η δική σου άποψη για τις καλοκαιρινές διακοπές;
+  example2_en: What is your own view regarding summer vacations?
+  audio: poia-einai-i-apopsi--a75446.mp3
+  status: verified
+  example_audio: poia-einai-i-apopsi--0dcc73.mp3
+  example2_audio: poia-einai-i-diki-so-bf247e.mp3
+- id: A2P2-U01-015
+  greek: κλείνω ραντεβού
+  english: I make / book an appointment
+  notes: 'Collocation: κλείνω + ραντεβού. Standard A2 dialogue task with doctor/services.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'κλείνω (aorist: έκλεισα)'
+    noun: το ραντεβού (indeclinable neuter)
+  keg_communicative_function: Scheduling medical, professional or personal appointments
+  example_el: Θέλω να κλείσω ένα ραντεβού με τον οδοντίατρο για την επόμενη Τρίτη.
+  example_en: I want to make an appointment with the dentist for next Tuesday.
+  example2_el: Έκλεισα ραντεβού στην τράπεζα για να ανοίξω έναν λογαριασμό.
+  example2_en: I booked an appointment at the bank to open an account.
+  audio: kleino-rantevoy-bd45e9.mp3
+  status: verified
+  example_audio: thelo-na-kleiso-ena--6969ca.mp3
+  example2_audio: ekleisa-rantevoy-sti-b555e8.mp3
+- id: A2P2-U01-016
+  greek: αναβάλλω το ραντεβού
+  english: I postpone / reschedule the appointment
+  notes: 'Compound verb: ανα- + βάλλω. Common in email rescheduling requests (Writing
+    Task 1).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'αναβάλλω (aorist: ανέβαλα, future: θα αναβάλω)'
+    prefix: ανά-
+  keg_communicative_function: Requesting postponement of scheduled commitments
+  example_el: Δυστυχώς προέκυψε κάτι έκτακτο και πρέπει να αναβάλω το ραντεβού μας.
+  example_en: Unfortunately an emergency arose and I must postpone our appointment.
+  example2_el: Ανέβαλαν τη συνάντηση εργασίας για την επόμενη εβδομάδα.
+  example2_en: They postponed the work meeting for next week.
+  audio: anavallo-to-rantevoy-7aa36b.mp3
+  status: verified
+  example_audio: dystychos-proekypse--754668.mp3
+  example2_audio: anevalan-ti-synantis-1af049.mp3
+- id: A2P2-U01-017
+  greek: ακυρώνω τη συνάντηση
+  english: I cancel the meeting
+  notes: Regular -ώνω verb. Essential in cancellation notices and phone calls.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'ακυρώνω (aorist: ακύρωσα)'
+    noun: η συνάντηση
+  keg_communicative_function: Notifying interlocutor of cancellation
+  example_el: Σας γράφω για να ακυρώσω τη συνάντησή μας, επειδή είμαι άρρωστος.
+  example_en: I am writing to cancel our meeting because I am sick.
+  example2_el: Ακύρωσαν την πτήση λόγω της κακοκαιρίας.
+  example2_en: They cancelled the flight due to bad weather.
+  audio: akyrono-ti-synantisi-3cd640.mp3
+  status: verified
+  example_audio: sas-grafo-gia-na-aky-dd0e29.mp3
+  example2_audio: akyrosan-tin-ptisi-l-6ddeef.mp3
+- id: A2P2-U01-018
+  greek: σας τηλεφωνώ σχετικά με...
+  english: I am calling you regarding...
+  notes: Standard telephone opening phrase for inquiries and booking.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: τηλεφωνώ (-είς, -εί)
+    preposition: σχετικά με + accusative
+  keg_communicative_function: Stating the purpose of a telephone call
+  example_el: Γεια σας, σας τηλεφωνώ σχετικά με την αγγελία για το διαμέρισμα.
+  example_en: Hello, I am calling you regarding the advertisement for the apartment.
+  example2_el: Σας τηλεφωνώ σχετικά με την αίτηση εργασίας που έστειλα χθες.
+  example2_en: I am calling you regarding the job application I sent yesterday.
+  audio: sas-tilefono-schetik-6a60b6.mp3
+  status: verified
+  example_audio: geia-sas-sas-tilefon-67aeb0.mp3
+  example2_audio: sas-tilefono-schetik-57a242.mp3
+- id: A2P2-U01-019
+  greek: ποιος είναι στο τηλέφωνο;
+  english: who is on the phone? / who is calling?
+  notes: Common telephone phrase for identifying the caller.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: interrogative phrase
+    pronoun: ποιος (nominative masculine)
+  keg_communicative_function: Inquiring about caller identity
+  example_el: Παρακαλώ, ποιος είναι στο τηλέφωνο; Δεν άκουσα καλά το όνομά σας.
+  example_en: Excuse me, who is on the phone? I did not hear your name clearly.
+  example2_el: Ποιος είναι στο τηλέφωνο τέτοια ώρα;
+  example2_en: Who is on the phone at this hour?
+  audio: poios-einai-sto-tile-b4250a.mp3
+  status: verified
+  example_audio: parakalo-poios-einai-00a7f9.mp3
+  example2_audio: poios-einai-sto-tile-75ee4a.mp3
+- id: A2P2-U01-020
+  greek: αφήνω μήνυμα
+  english: I leave a message
+  notes: 'Telephone scenario: leaving a voice message or voicemail.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'αφήνω (aorist: άφησα, subjunctive: να αφήσω)'
+    noun: το μήνυμα
+  keg_communicative_function: Leaving voice or written messages for third parties
+  example_el: Αν ο κύριος Παπαδόπουλος λείπει, μπορώ να αφήσω ένα μήνυμα;
+  example_en: If Mr. Papadopoulos is away, can I leave a message?
+  example2_el: Άφησα μήνυμα στον τηλεφωνητή αλλά δεν μου απάντησε ακόμα.
+  example2_en: I left a message on the answering machine but he hasn't answered yet.
+  audio: afino-minyma-31025c.mp3
+  status: verified
+  example_audio: an-o-kyrios-papadopo-e7138a.mp3
+  example2_audio: afisa-minyma-ston-ti-f26e90.mp3
+- id: A2P2-U01-021
+  greek: θα σας καλέσω αργότερα
+  english: I will call you later
+  notes: Polite telephone closure when unable to speak immediately.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    tense: simple future (συνοπτικός μέλλοντας)
+    verb: καλώ -> θα καλέσω
+  keg_communicative_function: Promising a return phone call
+  example_el: Τώρα βρίσκομαι σε σύσκεψη, θα σας καλέσω αργότερα.
+  example_en: Right now I am in a meeting, I will call you later.
+  example2_el: Μην ανησυχείς, θα σε καλέσω μόλις φτάσω στο σπίτι.
+  example2_en: Don't worry, I will call you as soon as I arrive home.
+  audio: tha-sas-kaleso-argot-6b122a.mp3
+  status: verified
+  example_audio: tora-vriskomai-se-sy-30e98f.mp3
+  example2_audio: min-anisycheis-tha-s-ff777d.mp3
+- id: A2P2-U01-022
+  greek: μου επιτρέπετε να προσθέσω κάτι;
+  english: allow me to add something? / may I add something?
+  notes: Courteous turn-taking intervention during discussions.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: επιτρέπω (present) + προσθέτω -> να προσθέσω (subjunctive)
+  keg_communicative_function: Intervening politely in an ongoing discussion
+  example_el: Μου επιτρέπετε να προσθέσω κάτι σχετικά με το κόστος του έργου;
+  example_en: May I add something regarding the cost of the project?
+  example2_el: Αν μου επιτρέπετε, θα ήθελα να προσθέσω μια σημαντική λεπτομέρεια.
+  example2_en: If you allow me, I would like to add an important detail.
+  audio: moy-epitrepete-na-pr-18c6c1.mp3
+  status: verified
+  example_audio: moy-epitrepete-na-pr-decc6f.mp3
+  example2_audio: an-moy-epitrepete-th-d7bfaa.mp3
+- id: A2P2-U01-023
+  greek: ας αλλάξουμε θέμα
+  english: let us change the topic
+  notes: Hortative particle 'ας' + aorist subjunctive. Topic shift marker.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    particle: ας (hortative)
+    verb: αλλάζω -> αλλάξουμε (1st person plural subjunctive)
+  keg_communicative_function: Directing conversation toward a new topic
+  example_el: Μιλήσαμε αρκετά για τη δουλειά, ας αλλάξουμε θέμα τώρα.
+  example_en: We talked enough about work, let's change the topic now.
+  example2_el: Ας αλλάξουμε θέμα και ας σχεδιάσουμε τις διακοπές μας.
+  example2_en: Let's change the topic and plan our vacations.
+  audio: as-allaxoyme-thema-0b2ffc.mp3
+  status: verified
+  example_audio: milisame-arketa-gia--c7b745.mp3
+  example2_audio: as-allaxoyme-thema-k-0f9a37.mp3
+- id: A2P2-U01-024
+  greek: τι προτείνετε να κάνουμε;
+  english: what do you suggest we do?
+  notes: Soliciting proposals and joint planning in Speaking Stage 3.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: interrogative phrase
+    verbs: προτείνετε (present) + να κάνουμε (subjunctive)
+  keg_communicative_function: Asking for suggestions in collaborative decision making
+  example_el: Ο καιρός αύριο θα είναι βροχερός, τι προτείνετε να κάνουμε;
+  example_en: The weather tomorrow will be rainy, what do you suggest we do?
+  example2_el: Τι προτείνεις να κάνουμε για τα γενέθλια της Ελένης;
+  example2_en: What do you suggest we do for Eleni's birthday?
+  audio: ti-proteinete-na-kan-f252c2.mp3
+  status: verified
+  example_audio: o-kairos-ayrio-tha-e-603c2c.mp3
+  example2_audio: ti-proteineis-na-kan-90ce2e.mp3
+- id: A2P2-U01-025
+  greek: μου φαίνεται καλή ιδέα
+  english: it seems like a good idea to me
+  notes: Accepting a proposal enthusiastically.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: φαίνομαι (impersonal mediopassive) + weak clitic μου
+    noun: η ιδέα (feminine nominative)
+  keg_communicative_function: Endorsing a suggestion made by a partner
+  example_el: Να πάμε για φαγητό στην ταβέρνα δίπλα στο λιμάνι; Μου φαίνεται καλή
+    ιδέα!
+  example_en: Shall we go eat at the tavern by the harbor? It seems like a good idea
+    to me!
+  example2_el: Το να ταξιδέψουμε με το τρένο μου φαίνεται εξαιρετική ιδέα.
+  example2_en: Traveling by train seems like an excellent idea to me.
+  audio: moy-fainetai-kali-id-6937b3.mp3
+  status: verified
+  example_audio: na-pame-gia-fagito-s-873794.mp3
+  example2_audio: to-na-taxidepsoyme-m-3b7514.mp3
+- id: A2P2-U01-026
+  greek: δυστυχώς δεν μπορώ
+  english: unfortunately I cannot
+  notes: Polite declination of invitation or request.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    adverb: δυστυχώς
+    verb: δεν μπορώ (negative modal)
+  keg_communicative_function: Declining an invitation or offer with regret
+  example_el: Σας ευχαριστώ για την πρόσκληση, αλλά δυστυχώς δεν μπορώ να έρθω απόψε.
+  example_en: Thank you for the invitation, but unfortunately I cannot come tonight.
+  example2_el: Δυστυχώς δεν μπορώ να σε βοηθήσω το πρωί, γιατί έχω μάθημα.
+  example2_en: Unfortunately I cannot help you in the morning because I have class.
+  audio: dystychos-den-mporo-61833a.mp3
+  status: verified
+  example_audio: sas-eycharisto-gia-t-0cdcbd.mp3
+  example2_audio: dystychos-den-mporo--30510d.mp3
+- id: A2P2-U01-027
+  greek: σας ευχαριστώ για τον χρόνο σας
+  english: thank you for your time
+  notes: Formal closing courtesy for interviews and professional emails.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    register: formal
+    preposition: για + accusative 'τον χρόνο σας'
+  keg_communicative_function: Expressing gratitude at the conclusion of an encounter
+  example_el: Σας ευχαριστώ πολύ για τον χρόνο σας και τις πολύτιμες πληροφορίες.
+  example_en: Thank you very much for your time and the valuable information.
+  example2_el: Σας ευχαριστώ για τον χρόνο σας, περιμένω νέα σας σύντομα.
+  example2_en: Thank you for your time, I look forward to hearing from you soon.
+  audio: sas-eycharisto-gia-t-5558a1.mp3
+  status: verified
+  example_audio: sas-eycharisto-poly--f1045f.mp3
+  example2_audio: sas-eycharisto-gia-t-029f55.mp3
+- id: A2P2-U01-028
+  greek: μη στενοχωριέστε, δεν πειράζει
+  english: don't worry, it doesn't matter
+  notes: Reassuring formula minimizing inconveniences.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    negative_imperative: μη στενοχωριέστε (deponent present)
+    impersonal_verb: δεν πειράζει
+  keg_communicative_function: Reassuring an interlocutor when an apology is made
+  example_el: Αργήσατε λίγο αλλά μη στενοχωριέστε, δεν πειράζει καθόλου.
+  example_en: You were a little late, but don't worry, it doesn't matter at all.
+  example2_el: Έχασες το λεωφορείο; Μη στενοχωριέσαι, έρχεται άλλο σε πέντε λεπτά.
+  example2_en: Did you miss the bus? Don't worry, another one comes in five minutes.
+  audio: mi-stenochorieste-de-2b660f.mp3
+  status: verified
+  example_audio: argisate-ligo-alla-m-470852.mp3
+  example2_audio: echases-to-leoforeio-55ba5d.mp3
+- id: A2P2-U01-029
+  greek: ευχαρίστως να βοηθήσω
+  english: I'd be glad to help / with pleasure
+  notes: Willingness formula in collaborative tasks.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    adverb: ευχαρίστως (with pleasure)
+    verb: να βοηθήσω (subjunctive of βοηθάω)
+  keg_communicative_function: Offering or agreeing to render assistance readily
+  example_el: Αν χρειάζεστε οδηγίες για το κέντρο, ευχαρίστως να βοηθήσω.
+  example_en: If you need directions to the center, I'd be glad to help.
+  example2_el: Ευχαρίστως να σε βοηθήσω με τη μετακόμιση το Σάββατο.
+  example2_en: I'd be glad to help you with moving on Saturday.
+  audio: eycharistos-na-voith-6fb196.mp3
+  status: verified
+  example_audio: an-chreiazeste-odigi-973437.mp3
+  example2_audio: eycharistos-na-se-vo-846949.mp3
+- id: A2P2-U01-030
+  greek: τα λέμε σύντομα
+  english: talk to you soon / see you soon
+  notes: Very common informal conversational and written valediction.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'λέμε (mediopassive reciprocal sense: we talk / see each other)'
+    adverb: σύντομα
+  keg_communicative_function: Informal parting phrase in spoken or written messages
+  example_el: Χάρηκα πολύ που σε είδα, τα λέμε σύντομα για καφέ!
+  example_en: So glad to see you, talk to you soon for coffee!
+  example2_el: Πρέπει να φύγω τώρα, καλή συνέχεια και τα λέμε σύντομα.
+  example2_en: I have to leave now, have a good rest of the day and see you soon.
+  audio: ta-leme-syntoma-359c90.mp3
+  status: verified
+  example_audio: charika-poly-poy-se--ebabe9.mp3
+  example2_audio: prepei-na-fygo-tora--3e9d45.mp3

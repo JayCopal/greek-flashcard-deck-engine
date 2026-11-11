@@ -37,6 +37,7 @@ import {
   Sun,
   Smartphone,
   Target,
+  Clock,
   Gauge,
   Type,
   Database,
@@ -582,6 +583,38 @@ export const Settings: React.FC<SettingsProps> = ({
                   }`}
                 >
                   {goal}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Daily Learning Time Target */}
+          <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-slate-200 flex items-center gap-1.5">
+                <Clock className="w-3.5 h-3.5 text-amber-400" />
+                Daily Learning Time Target
+              </span>
+              <span className="text-xs font-bold text-amber-400">
+                {studyPrefs.dailyTimeGoalMinutes || 15} mins/day
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-400 leading-relaxed">
+              Target study time per day. Visual tracker compares your daily progress against yesterday.
+            </p>
+            <div className="flex gap-1.5 pt-1">
+              {[5, 10, 15, 20, 30, 45].map((mins) => (
+                <button
+                  key={mins}
+                  type="button"
+                  onClick={() => updatePreference({ dailyTimeGoalMinutes: mins })}
+                  className={`flex-1 py-1 px-2 rounded-lg text-xs font-semibold border transition-all ${
+                    (studyPrefs.dailyTimeGoalMinutes || 15) === mins
+                      ? 'bg-amber-500 text-slate-950 font-bold border-amber-400 shadow-sm'
+                      : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
+                  }`}
+                >
+                  {mins}m
                 </button>
               ))}
             </div>

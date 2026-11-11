@@ -1,0 +1,551 @@
+unit_id: unit-a2p2-07
+lesson_id: lesson-01
+title: 'Μάθημα 7: Υγεία, Συμπτώματα & Ιατρική Φροντίδα (Health, Symptoms & Medical
+  Care)'
+description: Describing acute medical symptoms, doctor consultations, prescription
+  handling, and writing official workplace or school absence notes.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-07 Core Notes: Υγεία, Συμπτώματα & Επιστολές Απουσίας\n•\
+  \ Medical Emergency & Workplace Absence Framework:\n  - Explaining acute symptoms\
+  \ to doctors (έχω ρίγη και δέκατα, πονάει η μέση μου, έντονος πονοκέφαλος).\n  -\
+  \ Formal administrative sick leave (η ιατρική βεβαίωση, η αναρρωτική άδεια, η αποχή\
+  \ από την εργασία).\n  - Workplace delegation & emergency contacts (αναθέτω τα καθήκοντά\
+  \ μου, ειδοποιώ εγκαίρως)."
+entries:
+- id: A2P2-U07-001
+  greek: ο έντονος πονοκέφαλος
+  english: severe headache
+  notes: 'Adjective έντονος + compound noun πονοκέφαλος (πόνος + κεφάλι). Genitive:
+    του έντονου πονοκεφάλου.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: masculine
+  keg_communicative_function: Describing acute medical symptoms in doctor consultations
+    and absence notes
+  example_el: Από το πρωί έχω έναν έντονο πονοκέφαλο και δεν μπορώ να συγκεντρωθώ.
+  example_en: Since morning I have a severe headache and I cannot concentrate.
+  example2_el: Ο γιατρός μού συνέστησε παυσίπονα για τον έντονο πονοκέφαλο.
+  example2_en: The doctor recommended painkillers for the severe headache.
+  status: verified
+  audio: o-entonos-ponokefalo-cee983.mp3
+  example_audio: apo-to-proi-echo-ena-b482c9.mp3
+  example2_audio: o-giatros-moy-synest-f89915.mp3
+- id: A2P2-U07-002
+  greek: έχω ρίγη και δέκατα
+  english: I have chills and low-grade fever
+  notes: Ρίγη (chills, neuter plural) + δέκατα (low fever 37.1 - 37.9°C). High-frequency
+    medical idiom.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    register: informal / conversational
+  keg_communicative_function: Reporting onset of fever and chills to a physician or
+    nurse
+  example_el: Αισθάνομαι αδυναμία, έχω ρίγη και δέκατα από χθες το απόγευμα.
+  example_en: I feel weakness, I have chills and a low-grade fever since yesterday
+    afternoon.
+  example2_el: Αν έχετε ρίγη και δέκατα, καλό είναι να μετρήσετε τη θερμοκρασία σας.
+  example2_en: If you have chills and a low-grade fever, it is good to measure your
+    temperature.
+  status: verified
+  audio: echo-rigi-kai-dekata-b673d4.mp3
+  example_audio: aisthanomai-adynamia-1bef6e.mp3
+  example2_audio: an-echete-rigi-kai-d-1c3436.mp3
+- id: A2P2-U07-003
+  greek: η ιατρική βεβαίωση
+  english: medical certificate / doctor's sick note
+  notes: 'Essential administrative term for excusing workplace or school absences.
+    Genitive: της ιατρικής βεβαίωσης.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Requesting official sick leave documentation from a
+    clinic
+  example_el: Χρειάζομαι μια ιατρική βεβαίωση για τη δουλειά μου επειδή έλειψα τρεις
+    μέρες.
+  example_en: I need a medical certificate for my job because I was absent for three
+    days.
+  example2_el: Ο γιατρός υπέγραψε την ιατρική βεβαίωση και μου την έδωσε στη γραμματεία.
+  example2_en: The doctor signed the medical certificate and gave it to me at the
+    reception.
+  status: verified
+  audio: i-iatriki-vevaiosi-e1ca93.mp3
+  example_audio: chreiazomai-mia-iatr-e42a7d.mp3
+  example2_audio: o-giatros-ypegrapse--c62c09.mp3
+- id: A2P2-U07-004
+  greek: η αναρρωτική άδεια
+  english: sick leave / convalescence leave
+  notes: Adjective αναρρωτικός (convalescent) + άδεια (leave/permit). Crucial for
+    formal work notes.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Applying for or reporting authorized sick leave to human
+    resources
+  example_el: Ο γιατρός μού έδωσε πενθήμερη αναρρωτική άδεια λόγω βαριάς γρίπης.
+  example_en: The doctor gave me a five-day sick leave due to a severe flu.
+  example2_el: Έστειλα την αναρρωτική άδεια στο τμήμα προσωπικού με email.
+  example2_en: I sent the sick leave to the HR department by email.
+  status: verified
+  audio: i-anarrotiki-adeia-1b7bfd.mp3
+  example_audio: o-giatros-moy-edose--78dc27.mp3
+  example2_audio: esteila-tin-anarroti-e0e14e.mp3
+- id: A2P2-U07-005
+  greek: παίρνω τη θεραπεία
+  english: to take medication / undergo prescribed therapy
+  notes: 'Collocation: παίρνω + αιτιατική θεραπεία. Regular treatment compliance.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing compliance with a physician's treatment plan
+  example_el: Πρέπει να παίρνετε τη θεραπεία σας καθημερινά μετά το πρωινό φαγητό.
+  example_en: You must take your treatment daily after breakfast.
+  example2_el: Άρχισα να παίρνω τη θεραπεία και ήδη νιώθω πολύ καλύτερα.
+  example2_en: I started taking the treatment and already feel much better.
+  status: verified
+  audio: pairno-ti-therapeia-aa877f.mp3
+  example_audio: prepei-na-pairnete-t-8b1427.mp3
+  example2_audio: archisa-na-pairno-ti-c8fae6.mp3
+- id: A2P2-U07-006
+  greek: το ασθενοφόρο
+  english: ambulance
+  notes: 'Emergency noun: ασθενής (patient) + φέρω (carry). Call 166 in Greece.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    plural: τα ασθενοφόρα
+  keg_communicative_function: Calling emergency medical services in urgent accident
+    dialogues
+  example_el: Καλέστε αμέσως το ασθενοφόρο, ο κύριος έχασε τις αισθήσεις του!
+  example_en: Call the ambulance immediately, the gentleman lost consciousness!
+  example2_el: Το ασθενοφόρο έφτασε στον τόπο του ατυχήματος μέσα σε δέκα λεπτά.
+  example2_en: The ambulance arrived at the accident scene within ten minutes.
+  status: verified
+  audio: to-asthenoforo-afd4a5.mp3
+  example_audio: kaleste-amesos-to-as-2fe2ee.mp3
+  example2_audio: to-asthenoforo-eftas-11e07c.mp3
+- id: A2P2-U07-007
+  greek: οι πρώτες βοήθειες
+  english: first aid
+  notes: 'Always feminine plural: οι πρώτες βοήθειες (accusative: τις πρώτες βοήθειες).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine plural
+  keg_communicative_function: Requesting immediate first aid or emergency hospital
+    intake
+  example_el: Του πρόσφεραν τις πρώτες βοήθειες μέχρι να φτάσει ο γιατρός.
+  example_en: They offered him first aid until the doctor arrived.
+  example2_el: Πήγαμε στο τμήμα επειγόντων περιστατικών για τις πρώτες βοήθειες.
+  example2_en: We went to the emergency department for first aid.
+  status: verified
+  audio: oi-protes-voitheies-de5318.mp3
+  example_audio: toy-prosferan-tis-pr-479ee5.mp3
+  example2_audio: pigame-sto-tmima-epe-230557.mp3
+- id: A2P2-U07-008
+  greek: η αλλεργική αντίδραση
+  english: allergic reaction
+  notes: 'Compound medical concept: αλλεργικός, -ή, -ό + αντίδραση. Crucial for food/pharmacy.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Reporting food or drug allergies in dining and medical
+    environments
+  example_el: Έπαθε αλλεργική αντίδραση επειδή το φαγητό περιείχε ξηρούς καρπούς.
+  example_en: He suffered an allergic reaction because the food contained nuts.
+  example2_el: Έχετε κάποια αλλεργική αντίδραση σε αντιβιοτικά ή άλλα φάρμακα;
+  example2_en: Do you have any allergic reaction to antibiotics or other medications?
+  status: verified
+  audio: i-allergiki-antidras-82463e.mp3
+  example_audio: epathe-allergiki-ant-9e5995.mp3
+  example2_audio: echete-kapoia-allerg-8b785a.mp3
+- id: A2P2-U07-009
+  greek: πονάει η μέση μου
+  english: my lower back hurts
+  notes: 'Common orthopedic complaint: η μέση (waist/lower back). Impersonal verb
+    πονάει.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing musculoskeletal pain and workplace strain
+  example_el: Σήκωσα ένα βαρύ κιβώτιο και από τότε πονάει αφόρητα η μέση μου.
+  example_en: I lifted a heavy box and since then my lower back hurts unbearably.
+  example2_el: Αν πονάει η μέση σας, πρέπει να αποφεύγετε την ορθοστασία.
+  example2_en: If your lower back hurts, you must avoid standing for long periods.
+  status: verified
+  audio: ponaei-i-mesi-moy-8f5eb1.mp3
+  example_audio: sikosa-ena-vary-kivo-d7700d.mp3
+  example2_audio: an-ponaei-i-mesi-sas-ccf361.mp3
+- id: A2P2-U07-010
+  greek: το διάστρεμμα
+  english: sprain / twisted ankle
+  notes: 'Neuter noun in -μα: genitive του διαστρέμματος, plural τα διαστρέμματα.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Reporting minor sports or walking injuries
+  example_el: Έπεσα στα σκαλιά και έπαθα ένα ελαφρύ διάστρεμμα στον αστράγαλο.
+  example_en: I fell on the stairs and suffered a mild sprain in my ankle.
+  example2_el: Ο γιατρός είπε ότι είναι απλό διάστρεμμα και χρειάζεται πάγο και ξεκούραση.
+  example2_en: The doctor said it is a simple sprain and needs ice and rest.
+  status: verified
+  audio: to-diastremma-aaf1c6.mp3
+  example_audio: epesa-sta-skalia-kai-9cab9c.mp3
+  example2_audio: o-giatros-eipe-oti-e-2b77db.mp3
+- id: A2P2-U07-011
+  greek: η πίεση του αίματος
+  english: blood pressure
+  notes: 'Medical measurement: η πίεση (pressure) + γενική αίματος. Normal: κανονική
+    πίεση.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing cardiovascular health and routine pharmacy
+    checkups
+  example_el: Πήγα στο φαρμακείο για να μετρήσω την πίεση του αίματός μου.
+  example_en: I went to the pharmacy to measure my blood pressure.
+  example2_el: 'Η πίεσή σας είναι απολύτως φυσιολογική: δώδεκα με οκτώ.'
+  example2_en: 'Your blood pressure is completely normal: twelve over eight.'
+  status: verified
+  audio: i-piesi-toy-aimatos-57e232.mp3
+  example_audio: piga-sto-farmakeio-g-11ec51.mp3
+  example2_audio: i-piesi-sas-einai-ap-ec3426.mp3
+- id: A2P2-U07-012
+  greek: κάνω εξετάσεις αίματος
+  english: to have blood tests done
+  notes: 'Collocation: κάνω + αιτιατική πληθυντικού εξετάσεις + γενική αίματος.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Arranging or reporting laboratory blood tests
+  example_el: Ο παθολόγος μού ζήτησε να κάνω γενικές εξετάσεις αίματος.
+  example_en: The general practitioner asked me to have routine blood tests done.
+  example2_el: Τα αποτελέσματα από τις εξετάσεις αίματος θα βγουν αύριο το μεσημέρι.
+  example2_en: The results from the blood tests will come out tomorrow noon.
+  status: verified
+  audio: kano-exetaseis-aimat-5299b5.mp3
+  example_audio: o-pathologos-moy-zit-ef94f7.mp3
+  example2_audio: ta-apotelesmata-apo--deddaf.mp3
+- id: A2P2-U07-013
+  greek: η συνταγή του γιατρού
+  english: doctor's prescription
+  notes: Distinguish between συνταγή μαγειρικής (recipe) and ιατρική συνταγή (prescription).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Presenting prescriptions at Greek community pharmacies
+  example_el: Έχετε τη συνταγή του γιατρού για να εκτελέσω τα φάρμακα;
+  example_en: Do you have the doctor's prescription so I can fill the medicines?
+  example2_el: Χωρίς ιατρική συνταγή δεν επιτρέπεται η χορήγηση αντιβίωσης.
+  example2_en: Without a medical prescription, dispensing antibiotics is not permitted.
+  status: verified
+  audio: i-syntagi-toy-giatro-c805b7.mp3
+  example_audio: echete-ti-syntagi-to-3f8058.mp3
+  example2_audio: choris-iatriki-synta-27cf98.mp3
+- id: A2P2-U07-014
+  greek: το παυσίπονο χάπι
+  english: painkiller pill
+  notes: 'Compound adjective παυσίπονος (ending pain: παύω + πόνος) + χάπι.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Purchasing over-the-counter pain medication
+  example_el: Πήρα ένα παυσίπονο χάπι επειδή με πονούσε τρομερά το δόντι μου.
+  example_en: I took a painkiller pill because my tooth was hurting terribly.
+  example2_el: Μην παίρνετε παυσίπονα χάπια με άδειο στομάχι.
+  example2_en: Do not take painkiller pills on an empty stomach.
+  status: verified
+  audio: to-paysipono-chapi-ac5c07.mp3
+  example_audio: pira-ena-paysipono-c-453157.mp3
+  example2_audio: min-pairnete-paysipo-57545b.mp3
+- id: A2P2-U07-015
+  greek: ο επίδεσμος και το τσιρότο
+  english: bandage and adhesive plaster (band-aid)
+  notes: 'Pharmacy staples: ο επίδεσμος (bandage) and το τσιρότο (band-aid).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Requesting wound-dressing supplies at a pharmacy
+  example_el: Έκοψα το δάχτυλό μου και χρειάζομαι απολυμαντικό και ένα τσιρότο.
+  example_en: I cut my finger and I need antiseptic and a band-aid.
+  example2_el: Ο νοσοκόμος τύλιξε το τραύμα με έναν αποστειρωμένο επίδεσμο.
+  example2_en: The nurse wrapped the wound with a sterile bandage.
+  status: verified
+  audio: o-epidesmos-kai-to-t-a0da24.mp3
+  example_audio: ekopsa-to-dachtylo-m-78dda5.mp3
+  example2_audio: o-nosokomos-tylixe-t-4755b9.mp3
+- id: A2P2-U07-016
+  greek: έχω στομαχικές διαταραχές
+  english: I have an upset stomach / stomach disturbances
+  notes: Adjective στομαχικός, -ή, -ό + plural noun διαταραχές (disturbances).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing digestive symptoms and food-related illnesses
+  example_el: Μάλλον έφαγα κάτι χαλασμένο και έχω έντονες στομαχικές διαταραχές.
+  example_en: I probably ate something spoiled and have severe stomach disturbances.
+  example2_el: Πιείτε ένα ζεστό χαμομήλι αν έχετε στομαχικές διαταραχές.
+  example2_en: Drink a warm chamomile tea if you have stomach disturbances.
+  status: verified
+  audio: echo-stomachikes-dia-766f1c.mp3
+  example_audio: mallon-efaga-kati-ch-5bc4fa.mp3
+  example2_audio: pieite-ena-zesto-cha-c1382c.mp3
+- id: A2P2-U07-017
+  greek: η χρόνια πάθηση
+  english: chronic condition / chronic illness
+  notes: 'Medical history concept: χρόνιος, -α, -ο + πάθηση (illness/affection).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Providing personal medical history in hospital intake
+    forms
+  example_el: Πάσχετε από κάποια χρόνια πάθηση, όπως διαβήτη ή υπέρταση;
+  example_en: Do you suffer from any chronic condition, such as diabetes or hypertension?
+  example2_el: Δεν έχω καμία χρόνια πάθηση και δεν παίρνω τακτική φαρμακευτική αγωγή.
+  example2_en: I do not have any chronic condition and do not take regular medication.
+  status: verified
+  audio: i-chronia-pathisi-5268fd.mp3
+  example_audio: paschete-apo-kapoia--d47a9c.mp3
+  example2_audio: den-echo-kamia-chron-eab409.mp3
+- id: A2P2-U07-018
+  greek: το βιβλιάριο υγείας
+  english: health insurance booklet / social security book
+  notes: 'Administrative health record: το βιβλιάριο (small book/booklet).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Presenting health insurance proof at state clinics and
+    hospitals
+  example_el: Πρέπει να έχετε μαζί σας την ταυτότητα και το βιβλιάριο υγείας σας.
+  example_en: You must have your ID and health insurance booklet with you.
+  example2_el: Σφράγισαν το βιβλιάριο υγείας μου στο ταμείο του νοσοκομείου.
+  example2_en: They stamped my health insurance booklet at the hospital cashier.
+  status: verified
+  audio: to-vivliario-ygeias-bfa908.mp3
+  example_audio: prepei-na-echete-maz-e307a6.mp3
+  example2_audio: sfragisan-to-vivliar-a3c3a2.mp3
+- id: A2P2-U07-019
+  greek: κάνω εμβόλιο
+  english: to get vaccinated
+  notes: 'Collocation: κάνω + εμβόλιο (vaccine). Passive: εμβολιάζομαι.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing preventative vaccinations with healthcare
+    providers
+  example_el: Κάθε φθινόπωρο κάνω το αντιγριπικό εμβόλιο για προστασία.
+  example_en: Every autumn I get the flu vaccine for protection.
+  example2_el: Έχετε κάνει όλα τα απαραίτητα εμβόλια για το ταξίδι σας στην Ασία;
+  example2_en: Have you had all the necessary vaccinations for your trip to Asia?
+  status: verified
+  audio: kano-emvolio-e31e67.mp3
+  example_audio: kathe-fthinoporo-kan-8e8fbe.mp3
+  example2_audio: echete-kanei-ola-ta--9b13a6.mp3
+- id: A2P2-U07-020
+  greek: το τραύμα επουλώνεται
+  english: the wound is healing
+  notes: Verb επουλώνομαι (to heal/scar over). Formal medical progression.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing recovery and wound healing in follow-up visits
+  example_el: Ο γιατρός είπε ότι το τραύμα επουλώνεται πολύ καλά και δεν έχει μόλυνση.
+  example_en: The doctor said that the wound is healing very well and has no infection.
+  example2_el: Χρειάζεται μερικές μέρες ακόμα για να επουλωθεί πλήρως το τραύμα.
+  example2_en: It needs a few more days for the wound to heal completely.
+  status: verified
+  audio: to-trayma-epoyloneta-7c809b.mp3
+  example_audio: o-giatros-eipe-oti-t-56c8bd.mp3
+  example2_audio: chreiazetai-merikes--4a107b.mp3
+- id: A2P2-U07-021
+  greek: έχω ναυτία και ζαλάδα
+  english: I have nausea and dizziness
+  notes: 'Frequent travel and illness pair: η ναυτία (nausea) + η ζαλάδα (dizziness).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing motion sickness or sudden vertigo to travel
+    attendants or doctors
+  example_el: Στο πλοίο ένιωσα έντονη ναυτία και ζαλάδα λόγω των κυμάτων.
+  example_en: On the ship I felt intense nausea and dizziness due to the waves.
+  example2_el: Αν έχετε ζαλάδα, καθίστε αμέσως κάτω και πιείτε λίγο δροσερό νερό.
+  example2_en: If you have dizziness, sit down immediately and drink a little cool
+    water.
+  status: verified
+  audio: echo-naytia-kai-zala-e28d1f.mp3
+  example_audio: sto-ploio-eniosa-ent-f6b124.mp3
+  example2_audio: an-echete-zalada-kat-dabbb1.mp3
+- id: A2P2-U07-022
+  greek: η αποχή από την εργασία
+  english: abstention from work / sick leave absence
+  notes: 'Formal administrative noun: η αποχή (abstention, genitive της αποχής).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Formal phrase used in official medical certificates
+    for employment
+  example_el: Η γνωμάτευση του γιατρού συνιστά τριήμερη αποχή από την εργασία.
+  example_en: The doctor's diagnosis recommends three days' absence from work.
+  example2_el: Η αποχή από την εργασία κρίθηκε απαραίτητη για την πλήρη ανάρρωση του
+    ασθενούς.
+  example2_en: Absence from work was deemed necessary for the patient's full recovery.
+  status: verified
+  audio: i-apochi-apo-tin-erg-ff611e.mp3
+  example_audio: i-gnomateysi-toy-gia-485efd.mp3
+  example2_audio: i-apochi-apo-tin-erg-74b479.mp3
+- id: A2P2-U07-023
+  greek: ειδοποιώ εγκαίρως
+  english: to notify in good time / promptly
+  notes: Adverb εγκαίρως (in timely fashion, on time). Polite professional expectation.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Assuring prompt notification of absence to superiors
+  example_el: Σας ειδοποιώ εγκαίρως ότι δεν θα μπορέσω να παραστώ στη συνάντηση.
+  example_en: I notify you in good time that I will not be able to attend the meeting.
+  example2_el: Παρακαλώ ειδοποιήστε μας εγκαίρως σε περίπτωση που ακυρώσετε το ραντεβού
+    σας.
+  example2_en: Please notify us in good time in case you cancel your appointment.
+  status: verified
+  audio: eidopoio-egkairos-777e17.mp3
+  example_audio: sas-eidopoio-egkairo-d672d8.mp3
+  example2_audio: parakalo-eidopoiiste-32535a.mp3
+- id: A2P2-U07-024
+  greek: η επείγουσα ανάγκη
+  english: urgent need / emergency situation
+  notes: Adjective επείγων, επείγουσα, επείγον + ανάγκη. High-stakes correspondence.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Justifying sudden departure or immediate request for
+    assistance
+  example_el: Λόγω επείγουσας οικογενειακής ανάγκης, πρέπει να αναχωρήσω άμεσα.
+  example_en: Due to an urgent family need, I must depart immediately.
+  example2_el: Σε περίπτωση επείγουσας ανάγκης, μπορείτε να επικοινωνήσετε μαζί μου
+    στο κινητό.
+  example2_en: In case of urgent need, you can contact me on my mobile.
+  status: verified
+  audio: i-epeigoysa-anagki-c47e6e.mp3
+  example_audio: logo-epeigoysas-oiko-174c62.mp3
+  example2_audio: se-periptosi-epeigoy-4bbe40.mp3
+- id: A2P2-U07-025
+  greek: αναθέτω τα καθήκοντά μου
+  english: to delegate / assign my duties
+  notes: 'Compound verb αναθέτω (Aorist: ανέθεσα) + τα καθήκοντα (duties/tasks).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Explaining workplace duty handover during absence in
+    formal emails
+  example_el: Κατά τη διάρκεια της άδειάς μου, ανέθεσα τα καθήκοντά μου στον κύριο
+    Παπαδόπουλο.
+  example_en: During my leave, I delegated my duties to Mr. Papadopoulos.
+  example2_el: Έχω αναθέσει τα επείγοντα καθήκοντά μου στη συνάδελφό μου, την κυρία
+    Γεωργίου.
+  example2_en: I have delegated my urgent duties to my colleague, Ms. Georgiou.
+  status: verified
+  audio: anatheto-ta-kathikon-8ed081.mp3
+  example_audio: kata-ti-diarkeia-tis-b7d862.mp3
+  example2_audio: echo-anathesei-ta-ep-34a760.mp3
+- id: A2P2-U07-026
+  greek: η πλήρης ανάρρωση
+  english: full recovery / complete convalescence
+  notes: Adjective πλήρης, -ης, -ες + noun ανάρρωση. Standard conclusion in sick notes.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Stating prognosis and conditions for returning to normal
+    activities
+  example_el: Χρειάζεται μία εβδομάδα ξεκούρασης για την πλήρη ανάρρωση από τη λοίμωξη.
+  example_en: It takes one week of rest for full recovery from the infection.
+  example2_el: Σας εύχομαι ολόψυχα γρήγορη και πλήρη ανάρρωση!
+  example2_en: I wish you from my heart a quick and complete recovery!
+  status: verified
+  audio: i-pliris-anarrosi-882740.mp3
+  example_audio: chreiazetai-mia-evdo-e35027.mp3
+  example2_audio: sas-eychomai-olopsyc-5709f8.mp3
+- id: A2P2-U07-027
+  greek: αισθάνομαι εξαντλημένος
+  english: I feel exhausted
+  notes: Mediopassive verb αισθάνομαι + passive participle εξαντλημένος, -η, -ο.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing severe physical exhaustion and burnout symptoms
+  example_el: Δούλεψα δώδεκα ώρες συνεχόμενα και αισθάνομαι εντελώς εξαντλημένος.
+  example_en: I worked twelve hours continuously and feel completely exhausted.
+  example2_el: Ο ασθενής αισθάνεται εξαντλημένος μετά τον υψηλό πυρετό.
+  example2_en: The patient feels exhausted following the high fever.
+  status: verified
+  audio: aisthanomai-exantlim-b8587d.mp3
+  example_audio: doylepsa-dodeka-ores-8225e5.mp3
+  example2_audio: o-asthenis-aisthanet-e0f864.mp3
+- id: A2P2-U07-028
+  greek: η προληπτική ιατρική
+  english: preventative medicine
+  notes: Adjective προληπτικός, -ή, -ό + ιατρική. Essential public health theme in
+    A2 texts.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Discussing health prevention, annual check-ups, and
+    healthy lifestyle habits
+  example_el: Η προληπτική ιατρική και οι τακτικοί έλεγχοι σώζουν ζωές.
+  example_en: Preventative medicine and regular check-ups save lives.
+  example2_el: Στο πλαίσιο της προληπτικής ιατρικής, κάνω τσεκ-απ κάθε χρόνο.
+  example2_en: In the framework of preventative medicine, I do a check-up every year.
+  status: verified
+  audio: i-proliptiki-iatriki-2228d5.mp3
+  example_audio: i-proliptiki-iatriki-82ccca.mp3
+  example2_audio: sto-plaisio-tis-prol-e81fee.mp3
+- id: A2P2-U07-029
+  greek: το θερμόμετρο δείχνει
+  english: the thermometer shows
+  notes: Instrumental noun το θερμόμετρο + verb δείχνει (shows/indicates).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting exact fever temperature in telephone and written
+    consultations
+  example_el: Το θερμόμετρο δείχνει τριάντα οκτώ και πέντε (38.5), οπότε πήρα αντιπυρετικό.
+  example_en: The thermometer shows thirty-eight point five (38.5), so I took an antipyretic.
+  example2_el: Αν το θερμόμετρο δείχνει πάνω από τριάντα εννιά, καλέστε αμέσως γιατρό.
+  example2_en: If the thermometer shows above thirty-nine, call a doctor immediately.
+  status: verified
+  audio: to-thermometro-deich-f2aa6d.mp3
+  example_audio: to-thermometro-deich-b82ff1.mp3
+  example2_audio: an-to-thermometro-de-3a0a27.mp3
+- id: A2P2-U07-030
+  greek: επιστρέφω στα καθήκοντά μου
+  english: to return to my duties / resume work
+  notes: 'Formal re-entry formula: επιστρέφω + σε + τα καθήκοντά μου. Closing sick
+    leave notes.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Announcing official return to workplace duties after
+    illness
+  example_el: Αισθάνομαι πλέον υγιής και επιστρέφω στα καθήκοντά μου τη Δευτέρα το
+    πρωί.
+  example_en: I feel healthy now and return to my duties on Monday morning.
+  example2_el: Ανυπομονώ να επιστρέψω στα καθήκοντά μου και να συνεχίσω τη συνεργασία
+    μας.
+  example2_en: I look forward to returning to my duties and continuing our collaboration.
+  status: verified
+  audio: epistrefo-sta-kathik-b9dc95.mp3
+  example_audio: aisthanomai-pleon-yg-b40909.mp3
+  example2_audio: anypomono-na-epistre-bab7cd.mp3

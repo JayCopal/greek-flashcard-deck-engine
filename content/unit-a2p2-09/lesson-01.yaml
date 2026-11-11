@@ -1,0 +1,580 @@
+unit_id: unit-a2p2-09
+lesson_id: lesson-01
+title: 'Μάθημα 9: Εργασία, Επαγγελματικές Σχέσεις & Καριέρα (Workplace & Career Development)'
+description: Mastering employment contracts, recruitment interviews, job applications,
+  workplace relations, and professional duties for the KEG A2 exam.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-09 Core Notes: Εργασία, Επαγγελματικές Σχέσεις & Καριέρα\n\
+  • Workplace Communication & Recruitment Protocol:\n  - Applying for positions and\
+  \ classified ads (η αγγελία πρόσληψης, υποβάλλω αίτηση, η συστατική επιστολή).\n\
+  \  - Contracts & Working Hours (η σύμβαση ορισμένου/αορίστου χρόνου, πλήρης/μερική\
+  \ απασχόληση, οι υπερωρίες).\n  - Workplace hierarchy and team communication (ο\
+  \ συνάδελφος, ο προϊστάμενος, το τμήμα προσωπικού)."
+entries:
+- id: A2P2-U09-001
+  greek: η συνέντευξη εργασίας
+  english: job interview
+  notes: 'Compound collocation: η συνέντευξη + γενική εργασίας. Core professional
+    milestone.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing job interviews and candidate selection in
+    spoken/written contexts
+  example_el: Αύριο το πρωί έχω μια κρίσιμη συνέντευξη εργασίας για τη θέση του γραμματέα.
+  example_en: Tomorrow morning I have a crucial job interview for the secretary position.
+  example2_el: Στη συνέντευξη εργασίας μού ζήτησαν να περιγράψω την επαγγελματική
+    μου εμπειρία.
+  example2_en: In the job interview they asked me to describe my professional experience.
+  status: verified
+  audio: i-synenteyxi-ergasia-959404.mp3
+  example_audio: ayrio-to-proi-echo-m-837f92.mp3
+  example2_audio: sti-synenteyxi-ergas-bfe3da.mp3
+- id: A2P2-U09-002
+  greek: η αγγελία πρόσληψης
+  english: job hiring advertisement / recruitment ad
+  notes: Noun η αγγελία + γενική της πρόσληψης (from προσλαμβάνω).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Reading and responding to employment classified ads
+    in newspapers and portals
+  example_el: Είδα την αγγελία πρόσληψης στην εφημερίδα και έστειλα αμέσως το βιογραφικό
+    μου.
+  example_en: I saw the hiring ad in the newspaper and sent my CV immediately.
+  example2_el: Η αγγελία πρόσληψης αναφέρει ότι απαιτείται πολύ καλή γνώση ελληνικών.
+  example2_en: The hiring ad states that very good knowledge of Greek is required.
+  status: verified
+  audio: i-aggelia-proslipsis-d3e238.mp3
+  example_audio: eida-tin-aggelia-pro-28ae95.mp3
+  example2_audio: i-aggelia-proslipsis-94312b.mp3
+- id: A2P2-U09-003
+  greek: η σύμβαση ορισμένου χρόνου
+  english: fixed-term employment contract
+  notes: 'Legal contract type: ορισμένος χρόνος (fixed/determinate term). Opposite:
+    αορίστου χρόνου.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing contract duration and employment conditions
+  example_el: Υπέγραψα εξάμηνη σύμβαση ορισμένου χρόνου με δυνατότητα ανανέωσης.
+  example_en: I signed a six-month fixed-term contract with possibility of renewal.
+  example2_el: Οι εργαζόμενοι με σύμβαση ορισμένου χρόνου έχουν τα ίδια δικαιώματα
+    άδειας.
+  example2_en: Workers on fixed-term contracts have the same leave entitlements.
+  status: verified
+  audio: i-symvasi-orismenoy--1d7fc7.mp3
+  example_audio: ypegrapsa-examini-sy-dbc773.mp3
+  example2_audio: oi-ergazomenoi-me-sy-08eab4.mp3
+- id: A2P2-U09-004
+  greek: η σύμβαση αορίστου χρόνου
+  english: permanent / indefinite-term employment contract
+  notes: Noun η σύμβαση + γενική αορίστου χρόνου. Indicates permanent tenure.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Stating permanent job status and career stability
+  example_el: Μετά από δύο χρόνια δουλειάς, μου πρόσφεραν σύμβαση αορίστου χρόνου.
+  example_en: After two years of work, they offered me a permanent contract.
+  example2_el: Η σύμβαση αορίστου χρόνου προσφέρει μεγαλύτερη ασφάλεια στον εργαζόμενο.
+  example2_en: The permanent contract offers greater security to the employee.
+  status: verified
+  audio: i-symvasi-aoristoy-c-c7ae9c.mp3
+  example_audio: meta-apo-dyo-chronia-7458c1.mp3
+  example2_audio: i-symvasi-aoristoy-c-a60f74.mp3
+- id: A2P2-U09-005
+  greek: το ωράριο πλήρους απασχόλησης
+  english: full-time working hours
+  notes: 'Genitive: πλήρους (full) + απασχόλησης (employment). Opposite: μερικής απασχόλησης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Specifying full-time vs. part-time work schedules
+  example_el: Εργάζομαι με ωράριο πλήρους απασχόλησης, σαράντα ώρες την εβδομάδα.
+  example_en: I work on a full-time schedule, forty hours per week.
+  example2_el: Η θέση αφορά ωράριο πλήρους απασχόλησης με πρωινές βάρδιες.
+  example2_en: The position concerns full-time hours with morning shifts.
+  status: verified
+  audio: to-orario-pliroys-ap-d21a0a.mp3
+  example_audio: ergazomai-me-orario--cedb98.mp3
+  example2_audio: i-thesi-afora-orario-e45cd8.mp3
+- id: A2P2-U09-006
+  greek: η μερική απασχόληση
+  english: part-time employment
+  notes: Adjective μερικός, -ή, -ό (partial/part) + noun απασχόληση.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Applying for or describing student or part-time work
+    arrangements
+  example_el: Ως φοιτητής, αναζητώ εργασία μερικής απασχόλησης για τα απογεύματα.
+  example_en: As a student, I am looking for part-time work for the afternoons.
+  example2_el: Η μερική απασχόληση μού επιτρέπει να συνδυάζω τις σπουδές με τη δουλειά.
+  example2_en: Part-time employment allows me to combine studies with work.
+  status: verified
+  audio: i-meriki-apascholisi-2f9933.mp3
+  example_audio: os-foititis-anazito--fb4eb6.mp3
+  example2_audio: i-meriki-apascholisi-0beece.mp3
+- id: A2P2-U09-007
+  greek: οι υπερωρίες πληρώνονται
+  english: overtime hours are paid
+  notes: 'Plural feminine noun: οι υπερωρίες (overtime: υπέρ + ώρα). Verb πληρώνονται
+    (passive).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Inquiring about overtime compensation in employment
+    negotiations
+  example_el: Στην εταιρεία μας όλες οι υπερωρίες πληρώνονται με επιπλέον ποσοστό.
+  example_en: In our company all overtime hours are paid with an extra percentage.
+  example2_el: Έκανα δέκα ώρες υπερωρίες αυτό τον μήνα για να ολοκληρώσω το έργο.
+  example2_en: I did ten hours of overtime this month to complete the project.
+  status: verified
+  audio: oi-yperories-plirono-db6a16.mp3
+  example_audio: stin-etaireia-mas-ol-9b65eb.mp3
+  example2_audio: ekana-deka-ores-yper-26ee9f.mp3
+- id: A2P2-U09-008
+  greek: ο μηνιαίος μισθός
+  english: monthly salary
+  notes: Adjective μηνιαίος, -α, -ο (monthly) + masculine noun μισθός.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: masculine
+  keg_communicative_function: Stating salary expectations and compensation packages
+  example_el: Ο μηνιαίος μισθός κατατίθεται στον τραπεζικό λογαριασμό την πρώτη κάθε
+    μήνα.
+  example_en: The monthly salary is deposited in the bank account on the first of
+    each month.
+  example2_el: Ποιος είναι ο καθαρός μηνιαίος μισθός μετά την αφαίρεση των φόρων;
+  example2_en: What is the net monthly salary after deducting taxes?
+  status: verified
+  audio: o-miniaios-misthos-4abbf3.mp3
+  example_audio: o-miniaios-misthos-k-648b54.mp3
+  example2_audio: poios-einai-o-kathar-4ecf19.mp3
+- id: A2P2-U09-009
+  greek: η κανονική άδεια
+  english: annual paid leave / regular vacation leave
+  notes: 'Workplace entitlement: κανονική άδεια (distinguished from αναρρωτική άδεια).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Requesting annual vacation time in written requests
+    to management
+  example_el: Θα ήθελα να πάρω δύο εβδομάδες από την κανονική μου άδεια τον Αύγουστο.
+  example_en: I would like to take two weeks of my annual leave in August.
+  example2_el: Ο διευθυντής ενέκρινε την κανονική άδεια όλων των υπαλλήλων του τμήματος.
+  example2_en: The manager approved the annual leave of all department employees.
+  status: verified
+  audio: i-kanoniki-adeia-43d419.mp3
+  example_audio: tha-ithela-na-paro-d-763798.mp3
+  example2_audio: o-dieythyntis-enekri-8a4d3b.mp3
+- id: A2P2-U09-010
+  greek: η συστατική επιστολή
+  english: letter of recommendation / reference letter
+  notes: Adjective συστατικός (recommending) + επιστολή (letter). Critical for applications.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Requesting and submitting letters of recommendation
+    for job applications
+  example_el: Ο προηγούμενος εργοδότης μου μού έγραψε μια εξαιρετική συστατική επιστολή.
+  example_en: My previous employer wrote me an excellent letter of recommendation.
+  example2_el: Επισυνάπτω το βιογραφικό μου σημείωμα και δύο συστατικές επιστολές.
+  example2_en: I attach my curriculum vitae and two letters of recommendation.
+  status: verified
+  audio: i-systatiki-epistoli-f6d963.mp3
+  example_audio: o-proigoymenos-ergod-a08e2e.mp3
+  example2_audio: episynapto-to-viogra-099fe2.mp3
+- id: A2P2-U09-011
+  greek: η επαγγελματική εμπειρία
+  english: professional work experience
+  notes: Adjective επαγγελματικός + εμπειρία. Major CV heading in A2 exams.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Summarizing work history and career background in interviews
+    and forms
+  example_el: Έχω πενταετή επαγγελματική εμπειρία στον τομέα των πωλήσεων και του
+    μάρκετινγκ.
+  example_en: I have five years of professional experience in sales and marketing.
+  example2_el: Η θέση είναι κατάλληλη και για νέους πτυχιούχους χωρίς προηγούμενη
+    επαγγελματική εμπειρία.
+  example2_en: The position is also suitable for recent graduates without prior professional
+    experience.
+  status: verified
+  audio: i-epaggelmatiki-empe-9c4e2e.mp3
+  example_audio: echo-pentaeti-epagge-a309ff.mp3
+  example2_audio: i-thesi-einai-katall-9632cd.mp3
+- id: A2P2-U09-012
+  greek: τα προσόντα του υποψηφίου
+  english: candidate's qualifications
+  notes: Neuter plural προσόντα (qualifications/assets) + γενική υποψηφίου (applicant).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Matching qualifications to job requirements in recruitment
+    texts
+  example_el: Τα προσόντα του υποψηφίου ανταποκρίνονται πλήρως στις απαιτήσεις της
+    εταιρείας.
+  example_en: The candidate's qualifications fully meet the company's requirements.
+  example2_el: Βασικό προσόν για τη θέση είναι το πτυχίο πανεπιστημίου και η γνώση
+    ξένων γλωσσών.
+  example2_en: A key qualification for the position is a university degree and knowledge
+    of foreign languages.
+  status: verified
+  audio: ta-prosonta-toy-ypop-8c6515.mp3
+  example_audio: ta-prosonta-toy-ypop-a691e3.mp3
+  example2_audio: vasiko-proson-gia-ti-f54c4d.mp3
+- id: A2P2-U09-013
+  greek: υποβάλλω αίτηση
+  english: to submit an application
+  notes: 'Formal compound verb: υποβάλλω (Aorist: υπέβαλα) + αιτιατική αίτηση.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing the official submission of job or university
+    application forms
+  example_el: Υπέβαλα ηλεκτρονική αίτηση για τη θέση εργασίας μέσω της ιστοσελίδας.
+  example_en: I submitted an online application for the job position via the website.
+  example2_el: Η προθεσμία για να υποβάλετε αίτηση λήγει την ερχόμενη Παρασκευή.
+  example2_en: The deadline to submit an application expires next Friday.
+  status: verified
+  audio: ypovallo-aitisi-703c72.mp3
+  example_audio: ypevala-ilektroniki--ea42cf.mp3
+  example2_audio: i-prothesmia-gia-na--f61c6c.mp3
+- id: A2P2-U09-014
+  greek: το συνάδελφος και ο προϊστάμενος
+  english: colleague and supervisor / manager
+  notes: 'Workplace hierarchy pair: ο συνάδελφος (peer colleague) + ο προϊστάμενος
+    (boss/supervisor).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Distinguishing communication registers between coworkers
+    and superiors
+  example_el: Συνεργάζομαι άριστα με τους συναδέλφους μου και ενημερώνω τακτικά τον
+    προϊστάμενό μου.
+  example_en: I cooperate excellently with my colleagues and regularly inform my supervisor.
+  example2_el: Ο προϊστάμενος συγκάλεσε έκτακτη συνάντηση με όλους τους συναδέλφους
+    του γραφείου.
+  example2_en: The supervisor called an emergency meeting with all office colleagues.
+  status: verified
+  audio: to-synadelfos-kai-o--af3f73.mp3
+  example_audio: synergazomai-arista--bcca32.mp3
+  example2_audio: o-proistamenos-sygka-10f29d.mp3
+- id: A2P2-U09-015
+  greek: το επαγγελματικό ταξίδι
+  english: business trip
+  notes: 'Collocation: επαγγελματικός, -ή, -ό + ταξίδι. Distinguish from διακοπές
+    (vacation).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Explaining workplace travel and out-of-office duties
+  example_el: Την επόμενη εβδομάδα θα βρίσκομαι στην Κύπρο για επαγγελματικό ταξίδι.
+  example_en: Next week I will be in Cyprus for a business trip.
+  example2_el: Η εταιρεία καλύπτει όλα τα έξοδα διαμονής και μετακίνησης για το επαγγελματικό
+    ταξίδι.
+  example2_en: The company covers all lodging and transport expenses for the business
+    trip.
+  status: verified
+  audio: to-epaggelmatiko-tax-79aab3.mp3
+  example_audio: tin-epomeni-evdomada-0971de.mp3
+  example2_audio: i-etaireia-kalyptei--b9f7ea.mp3
+- id: A2P2-U09-016
+  greek: η τηλεργασία από το σπίτι
+  english: remote telework from home
+  notes: 'Modern term: η τηλεργασία (telework/remote work: τηλε + εργασία).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing hybrid work schedules and work-from-home
+    options
+  example_el: Δύο μέρες την εβδομάδα δουλεύω με τηλεργασία από το σπίτι μου.
+  example_en: Two days a week I work remotely via telework from my home.
+  example2_el: Η τηλεργασία εξοικονομεί πολύτιμο χρόνο από τις καθημερινές μετακινήσεις.
+  example2_en: Telework saves valuable time from daily commuting.
+  status: verified
+  audio: i-tilergasia-apo-to--d2ac15.mp3
+  example_audio: dyo-meres-tin-evdoma-45306d.mp3
+  example2_audio: i-tilergasia-exoikon-9b1984.mp3
+- id: A2P2-U09-017
+  greek: η ανακοίνωση της διεύθυνσης
+  english: management announcement / company memo
+  notes: 'Administrative communication: η ανακοίνωση + γενική της διεύθυνσης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Reading and following internal company directives and
+    staff notices
+  example_el: Διαβάστε την ανακοίνωση της διεύθυνσης στον πίνακα ανακοινώσεων του
+    προσωπικού.
+  example_en: Read the management announcement on the staff bulletin board.
+  example2_el: Σύμφωνα με την επίσημη ανακοίνωση της διεύθυνσης, τα γραφεία θα ανακαινιστούν
+    σύντομα.
+  example2_en: According to the official management memo, the offices will be renovated
+    soon.
+  status: verified
+  audio: i-anakoinosi-tis-die-5b1333.mp3
+  example_audio: diavaste-tin-anakoin-d3f300.mp3
+  example2_audio: symfona-me-tin-episi-feb5af.mp3
+- id: A2P2-U09-018
+  greek: υπογράφω τη σύμβαση
+  english: to sign the contract
+  notes: 'Verb υπογράφω (Aorist: υπέγραψα) + accusative σύμβαση. Critical legal action.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Confirming the formal signing of an employment agreement
+  example_el: Πήγα στα κεντρικά γραφεία και υπέγραψα τη νέα σύμβαση εργασίας μου.
+  example_en: I went to the headquarters and signed my new employment contract.
+  example2_el: Διαβάστε προσεκτικά όλους τους όρους πριν υπογράψετε τη σύμβαση.
+  example2_en: Read all terms carefully before you sign the contract.
+  status: verified
+  audio: ypografo-ti-symvasi-818d22.mp3
+  example_audio: piga-sta-kentrika-gr-00b746.mp3
+  example2_audio: diavaste-prosektika--69b188.mp3
+- id: A2P2-U09-019
+  greek: η προθεσμία υποβολής
+  english: submission deadline
+  notes: 'Fixed administrative phrase: η προθεσμία (deadline) + γενική υποβολής (submission).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Checking and meeting strict application deadlines in
+    exam contexts
+  example_el: 'Μην καθυστερείτε: η προθεσμία υποβολής των δικαιολογητικών λήγει σήμερα
+    στις τρεις.'
+  example_en: 'Do not delay: the submission deadline for supporting documents expires
+    today at three.'
+  example2_el: Δόθηκε παράταση στην προθεσμία υποβολής των αιτήσεων μέχρι το τέλος
+    του μήνα.
+  example2_en: An extension was granted to the application submission deadline until
+    the end of the month.
+  status: verified
+  audio: i-prothesmia-ypovoli-af79fb.mp3
+  example_audio: min-kathystereite-i--cde028.mp3
+  example2_audio: dothike-paratasi-sti-0c42d5.mp3
+- id: A2P2-U09-020
+  greek: η επαγγελματική κατάρτιση
+  english: vocational training / professional skilling
+  notes: 'Education-employment link: η κατάρτιση (training/preparation). Genitive:
+    της κατάρτισης.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Describing professional development courses and technical
+    training seminars
+  example_el: Παρακολουθώ σεμινάρια επαγγελματικής κατάρτισης στις ψηφιακές τεχνολογίες.
+  example_en: I attend professional training seminars in digital technologies.
+  example2_el: Η διαρκής επαγγελματική κατάρτιση είναι απαραίτητη στη σύγχρονη αγορά
+    εργασίας.
+  example2_en: Continuous professional training is necessary in the modern job market.
+  status: verified
+  audio: i-epaggelmatiki-kata-c65149.mp3
+  example_audio: parakoloytho-seminar-1dee76.mp3
+  example2_audio: i-diarkis-epaggelmat-f2602e.mp3
+- id: A2P2-U09-021
+  greek: το τμήμα προσωπικού
+  english: human resources department (HR)
+  notes: 'Corporate division: το τμήμα + γενική προσωπικού (staff/personnel).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Addressing inquiries regarding contracts, leave, and
+    payroll to HR
+  example_el: Απευθυνθείτε στο τμήμα προσωπικού για πληροφορίες σχετικά με την ασφάλισή
+    σας.
+  example_en: Address the HR department for information regarding your insurance.
+  example2_el: Το τμήμα προσωπικού μού ζήτησε φωτοτυπία του πτυχίου και της ταυτότητάς
+    μου.
+  example2_en: The HR department asked me for a photocopy of my degree and my ID.
+  status: verified
+  audio: to-tmima-prosopikoy-88e0aa.mp3
+  example_audio: apeythyntheite-sto-t-8262a6.mp3
+  example2_audio: to-tmima-prosopikoy--c24b3c.mp3
+- id: A2P2-U09-022
+  greek: η παραίτηση από τη θέση
+  english: resignation from the post / quitting
+  notes: 'Noun η παραίτηση (resignation) + preposition από. Verb: παραιτούμαι.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Announcing career transitions or resignation from a
+    position
+  example_el: Υπέβαλε την παραίτησή του επειδή βρήκε καλύτερη δουλειά στο εξωτερικό.
+  example_en: He submitted his resignation because he found a better job abroad.
+  example2_el: Η παραίτηση από τη θέση εργασίας έγινε δεκτή από το διοικητικό συμβούλιο.
+  example2_en: The resignation from the job position was accepted by the board of
+    directors.
+  status: verified
+  audio: i-paraitisi-apo-ti-t-cb7882.mp3
+  example_audio: ypevale-tin-paraitis-f2e2c5.mp3
+  example2_audio: i-paraitisi-apo-ti-t-3b4885.mp3
+- id: A2P2-U09-023
+  greek: η άδεια μητρότητας
+  english: maternity leave
+  notes: 'Social benefit: άδεια + γενική μητρότητας (motherhood). Paternity: πατρότητας.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing parental leave entitlements and family benefits
+  example_el: Η συνάδελφός μας βρίσκεται σε άδεια μητρότητας και θα επιστρέψει σε
+    έξι μήνες.
+  example_en: Our colleague is on maternity leave and will return in six months.
+  example2_el: Ο νόμος προστατεύει πλήρως τις εργαζόμενες μητέρες κατά την άδεια μητρότητας.
+  example2_en: The law fully protects working mothers during maternity leave.
+  status: verified
+  audio: i-adeia-mitrotitas-55bd11.mp3
+  example_audio: i-synadelfos-mas-vri-8aeb4d.mp3
+  example2_audio: o-nomos-prostateyei--bc30fc.mp3
+- id: A2P2-U09-024
+  greek: η επαγγελματική εξέλιξη
+  english: career advancement / professional growth
+  notes: Noun η εξέλιξη (evolution/advancement, genitive της εξέλιξης).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Stating career goals and promotion aspirations in personal
+    interviews
+  example_el: Αυτή η θέση προσφέρει εξαιρετικές προοπτικές για επαγγελματική εξέλιξη.
+  example_en: This position offers excellent prospects for career advancement.
+  example2_el: Επιθυμώ να εργαστώ σε ένα περιβάλλον που υποστηρίζει την επαγγελματική
+    εξέλιξη.
+  example2_en: I desire to work in an environment that supports professional growth.
+  status: verified
+  audio: i-epaggelmatiki-exel-ba13ec.mp3
+  example_audio: ayti-i-thesi-prosfer-942aa6.mp3
+  example2_audio: epithymo-na-ergasto--98bd5a.mp3
+- id: A2P2-U09-025
+  greek: η απόδειξη πληρωμής
+  english: payment receipt / pay slip
+  notes: 'Financial voucher: η απόδειξη + γενική πληρωμής. Plural: οι αποδείξεις πληρωμής.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Requesting and retaining payment receipts and salary
+    slips
+  example_el: Κρατήστε την απόδειξη πληρωμής σε περίπτωση που χρειαστείτε αλλαγή προϊόντος.
+  example_en: Keep the payment receipt in case you need a product exchange.
+  example2_el: Κάθε μήνα λαμβάνουμε ηλεκτρονικά την απόδειξη πληρωμής του μισθού μας.
+  example2_en: Every month we receive our salary payment slip electronically.
+  status: verified
+  audio: i-apodeixi-pliromis-7cb678.mp3
+  example_audio: kratiste-tin-apodeix-608018.mp3
+  example2_audio: kathe-mina-lamvanoym-495232.mp3
+- id: A2P2-U09-026
+  greek: το συνδικαλιστικό σωματείο
+  english: trade union / labor union
+  notes: 'Workplace civic institution: το σωματείο (association/union).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referring to workers' unions and collective agreements
+    in A2 texts
+  example_el: Το σωματείο των εργαζομένων διαπραγματεύεται τη νέα συλλογική σύμβαση.
+  example_en: The workers' union is negotiating the new collective agreement.
+  example2_el: Έγινα μέλος στο συνδικαλιστικό σωματείο για να προστατεύσω τα δικαιώματά
+    μου.
+  example2_en: I became a member in the trade union to protect my rights.
+  status: verified
+  audio: to-syndikalistiko-so-a4fb7b.mp3
+  example_audio: to-somateio-ton-erga-1ef86e.mp3
+  example2_audio: egina-melos-sto-synd-12bd38.mp3
+- id: A2P2-U09-027
+  greek: οργανώνω το γραφείο μου
+  english: to organize my office / workspace
+  notes: 'Verb οργανώνω (Aorist: οργάνωσα) + accusative το γραφείο μου.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing daily workplace habits and administrative
+    tidy-up
+  example_el: Κάθε πρωί οργανώνω το γραφείο μου και ταξινομώ τα έγγραφα της ημέρας.
+  example_en: Every morning I organize my desk and classify the documents of the day.
+  example2_el: Χρειάζομαι λίγο χρόνο για να οργανώσω το γραφείο μου μετά τη μετακόμιση.
+  example2_en: I need a little time to organize my office after the move.
+  status: verified
+  audio: organono-to-grafeio--1b5b5d.mp3
+  example_audio: kathe-proi-organono--3a3be3.mp3
+  example2_audio: chreiazomai-ligo-chr-8c629b.mp3
+- id: A2P2-U09-028
+  greek: η επαγγελματική επιτυχία
+  english: professional success
+  notes: 'Noun η επιτυχία (success, genitive της επιτυχίας). Antonym: η αποτυχία.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Congratulating colleagues or expressing wishes for career
+    milestones
+  example_el: Σου εύχομαι από καρδιάς κάθε επαγγελματική επιτυχία στη νέα σου δουλειά!
+  example_en: I wish you from my heart every professional success in your new job!
+  example2_el: Η σκληρή δουλειά και η αφοσίωση είναι τα θεμέλια για την επαγγελματική
+    επιτυχία.
+  example2_en: Hard work and dedication are the foundations for professional success.
+  status: verified
+  audio: i-epaggelmatiki-epit-859913.mp3
+  example_audio: soy-eychomai-apo-kar-6275db.mp3
+  example2_audio: i-skliri-doyleia-kai-0c8132.mp3
+- id: A2P2-U09-029
+  greek: το επαγγελματικό ραντεβού
+  english: business appointment / professional meeting
+  notes: 'Collocation: επαγγελματικός + ραντεβού (indeclinable neuter).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Scheduling, confirming, or postponing business meetings
+    via email
+  example_el: Έχω ένα σημαντικό επαγγελματικό ραντεβού με έναν πελάτη στις έντεκα
+    το πρωί.
+  example_en: I have an important business appointment with a client at eleven in
+    the morning.
+  example2_el: Θα ήθελα να αλλάξουμε την ώρα για το επαγγελματικό ραντεβού μας αν
+    είναι δυνατόν.
+  example2_en: I would like us to change the time for our business appointment if
+    possible.
+  status: verified
+  audio: to-epaggelmatiko-ran-f804d5.mp3
+  example_audio: echo-ena-simantiko-e-a5a30c.mp3
+  example2_audio: tha-ithela-na-allaxo-d6258c.mp3
+- id: A2P2-U09-030
+  greek: η επίσημη πρόσκληση σε δείπνο
+  english: formal dinner invitation
+  notes: 'Register contrast: επίσημη πρόσκληση (formal invitation) vs φιλική πρόσκληση.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Replying to formal corporate and diplomatic dinner invitations
+  example_el: Λάβαμε μια επίσημη πρόσκληση σε δείπνο από το Εμπορικό Επιμελητήριο.
+  example_en: We received a formal dinner invitation from the Chamber of Commerce.
+  example2_el: Παρακαλώ επιβεβαιώστε την παρουσία σας στην επίσημη πρόσκληση σε δείπνο
+    μέχρι αύριο.
+  example2_en: Please confirm your attendance to the formal dinner invitation by tomorrow.
+  status: verified
+  audio: i-episimi-prosklisi--4bab9d.mp3
+  example_audio: lavame-mia-episimi-p-4d5e9a.mp3
+  example2_audio: parakalo-epivevaiost-2fd2ea.mp3

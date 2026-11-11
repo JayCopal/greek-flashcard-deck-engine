@@ -1,0 +1,594 @@
+unit_id: unit-a2p2-02
+lesson_id: lesson-01
+title: 'Μάθημα 2: Προσωπική Ταυτότητα & Κοινωνικό Περιβάλλον (Personal Identity, Family
+  & Social Circle)'
+description: Describing extended family structures, character traits, interpersonal
+  relationships, and life stages for the personal interview (Speaking Stage 1) and
+  narrative writing tasks.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-02 Core Notes: Προσωπική Ταυτότητα & Κοινωνικό Περιβάλλον\
+  \ (Personal Identity, Family & Social Circle)\n• Official KEG A2 Exam Alignment:\n\
+  \  - Speaking Stage 1 (Personal Interview): Describing extended family (συγγενείς,\
+  \ πεθερικά, ανίψια) and life stages (παιδική ηλικία, εφηβεία, ενηλικίωση).\n  -\
+  \ Character Descriptions: Adjectives of personality (κοινωνικός, εσωστρεφής, υπομονετικός,\
+  \ ειλικρινής, πεισματάρης).\n  - Writing Task 1 & 2: Social relationship idioms\
+  \ (τα πάω καλά με, κρατάω επαφή, συγκατοικώ με)."
+entries:
+- id: A2P2-U02-001
+  greek: ο συγγενής / οι συγγενείς
+  english: relative / relatives
+  notes: Third-declension masculine adjective/noun in -ης, -εις. Essential for family
+    topics.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+    nominative_singular: ο συγγενής
+    genitive_singular: του συγγενούς
+    nominative_plural: οι συγγενείς
+    genitive_plural: των συγγενών
+  keg_communicative_function: Talking about extended family and kinship relations
+  example_el: Όλοι οι στενοί συγγενείς συγκεντρώθηκαν για το πασχαλινό τραπέζι.
+  example_en: All the close relatives gathered for the Easter table.
+  example2_el: Έχω πολλούς συγγενείς που ζουν στη Θεσσαλονίκη και στην Κρήτη.
+  example2_en: I have many relatives living in Thessaloniki and Crete.
+  audio: o-syggenis-oi-syggen-6f66f2.mp3
+  status: verified
+  example_audio: oloi-oi-stenoi-sygge-b34bf1.mp3
+  example2_audio: echo-polloys-syggene-aedfe0.mp3
+- id: A2P2-U02-002
+  greek: ο ανιψιός / η ανιψιά
+  english: nephew / niece
+  notes: Kinship terms. Common in personal biography descriptions.
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: 'ο ανιψιός (gen: του ανιψιού)'
+    feminine: 'η ανιψιά (gen: της ανιψιάς)'
+    neuter_diminutive: το ανίψι
+  keg_communicative_function: Describing family members and generational relations
+  example_el: Ο ανιψιός μου ξεκίνησε φέτος το δημοτικό σχολείο.
+  example_en: My nephew started elementary school this year.
+  example2_el: Η ανιψιά μου σπουδάζει αρχιτεκτονική στην Πάτρα.
+  example2_en: My niece studies architecture in Patras.
+  audio: o-anipsios-i-anipsia-46c721.mp3
+  status: verified
+  example_audio: o-anipsios-moy-xekin-72f55e.mp3
+  example2_audio: i-anipsia-moy-spoyda-fa2805.mp3
+- id: A2P2-U02-003
+  greek: ο πεθερός / η πεθερά
+  english: father-in-law / mother-in-law
+  notes: 'In-law kinship terms. Collective neuter: τα πεθερικά.'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: ο πεθερός
+    feminine: η πεθερά
+    collective_plural: τα πεθερικά (the in-laws)
+  keg_communicative_function: Discussing marital relations and extended family gatherings
+  example_el: Την Κυριακή θα επισκεφτούμε τα πεθερικά μου στο χωριό.
+  example_en: On Sunday we will visit my in-laws in the village.
+  example2_el: Η πεθερά μου μαγειρεύει την καλύτερη παραδοσιακή σπανακόπιτα.
+  example2_en: My mother-in-law cooks the best traditional spinach pie.
+  audio: o-petheros-i-pethera-5167f7.mp3
+  status: verified
+  example_audio: tin-kyriaki-tha-epis-9c6c21.mp3
+  example2_audio: i-pethera-moy-mageir-9025ff.mp3
+- id: A2P2-U02-004
+  greek: ο γαμπρός / η νύφη
+  english: son-in-law / groom, daughter-in-law / bride
+  notes: 'Dual meanings: wedding couple and in-law relations.'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: ο γαμπρός (groom / son-in-law)
+    feminine: η νύφη (bride / daughter-in-law)
+  keg_communicative_function: Talking about weddings, marriage, and family ties
+  example_el: Ο γαμπρός και η νύφη υποδέχτηκαν τους καλεσμένους στη δεξίωση.
+  example_en: The groom and bride welcomed the guests at the reception.
+  example2_el: Ο γαμπρός τους είναι γιατρός και δουλεύει στο πανεπιστημιακό νοσοκομείο.
+  example2_en: Their son-in-law is a doctor and works at the university hospital.
+  audio: o-gampros-i-nyfi-51b21d.mp3
+  status: verified
+  example_audio: o-gampros-kai-i-nyfi-46aa1a.mp3
+  example2_audio: o-gampros-toys-einai-81d5f9.mp3
+- id: A2P2-U02-005
+  greek: το μοναχοπαίδι
+  english: only child
+  notes: 'Compound noun: μόνος + παιδί. Plural: τα μοναχοπαίδια.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive_singular: του μοναχοπαιδιού
+    nominative_plural: τα μοναχοπαίδια
+  keg_communicative_function: Describing family structure and personal upbringing
+  example_el: Είμαι μοναχοπαίδι και δεν έχω αδέρφια, αλλά έχω πολλά ξαδέρφια.
+  example_en: I am an only child and have no siblings, but I have many cousins.
+  example2_el: Το μοναχοπαίδι της οικογένειας πήρε όλη την προσοχή των γονιών του.
+  example2_en: The family's only child received all of their parents' attention.
+  audio: to-monachopaidi-4a28b6.mp3
+  status: verified
+  example_audio: eimai-monachopaidi-k-7d0a23.mp3
+  example2_audio: to-monachopaidi-tis--f953fd.mp3
+- id: A2P2-U02-006
+  greek: ο χαρακτήρας
+  english: character / personality
+  notes: 'Third-declension masculine noun in -ας, -ες. Genitive: του χαρακτήρα.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+    genitive: του χαρακτήρα
+    plural: οι χαρακτήρες
+  keg_communicative_function: Discussing personal qualities and temperaments
+  example_el: Έχει πολύ δυναμικό χαρακτήρα και παίρνει πάντα πρωτοβουλίες στη δουλειά.
+  example_en: She has a very dynamic character and always takes initiative at work.
+  example2_el: Παρά τις διαφορές στον χαρακτήρα τους, είναι οι καλύτεροι φίλοι.
+  example2_en: Despite differences in character, they are the best of friends.
+  audio: o-charaktiras-0c0c96.mp3
+  status: verified
+  example_audio: echei-poly-dynamiko--6bde99.mp3
+  example2_audio: para-tis-diafores-st-77030f.mp3
+- id: A2P2-U02-007
+  greek: κοινωνικός, -ή, -ό
+  english: sociable / outgoing
+  notes: Standard adjective in -ος, -η, -ο. Frequently used in personal description.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: κοινωνικός
+    feminine: κοινωνική
+    neuter: κοινωνικό
+  keg_communicative_function: Describing someone's social nature and interpersonal
+    traits
+  example_el: Ο Νίκος είναι πολύ κοινωνικός άνθρωπος και κάνει εύκολα νέους φίλους.
+  example_en: Nikos is a very sociable person and makes new friends easily.
+  example2_el: Χρειαζόμαστε έναν κοινωνικό υπάλληλο για το τμήμα εξυπηρέτησης πελατών.
+  example2_en: We need a sociable employee for the customer service department.
+  audio: koinonikos-i-o-10a484.mp3
+  status: verified
+  example_audio: o-nikos-einai-poly-k-f81b51.mp3
+  example2_audio: chreiazomaste-enan-k-2b209a.mp3
+- id: A2P2-U02-008
+  greek: εσωστρεφής, -ής, -ές
+  english: introverted / reserved
+  notes: Two-termination adjective in -ης (masc/fem), -ες (neuter).
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine_feminine: εσωστρεφής
+    neuter: εσωστρεφές
+    plural: οι εσωστρεφείς / τα εσωστρεφή
+  keg_communicative_function: Characterizing reserved or quiet personality types
+  example_el: Είναι λίγο εσωστρεφής και προτιμάει να διαβάζει μόνη της στο σπίτι.
+  example_en: She is a bit introverted and prefers reading by herself at home.
+  example2_el: Οι εσωστρεφείς άνθρωποι συχνά σκέφτονται πολύ πριν μιλήσουν.
+  example2_en: Introverted people often think carefully before speaking.
+  audio: esostrefis-is-es-15e522.mp3
+  status: verified
+  example_audio: einai-ligo-esostrefi-ad1948.mp3
+  example2_audio: oi-esostrefeis-anthr-daf43d.mp3
+- id: A2P2-U02-009
+  greek: υπομονετικός, -ή, -ό
+  english: patient
+  notes: 'Derived from η υπομονή (patience). Opposite: ανυπόμονος.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: υπομονετικός
+    feminine: υπομονετική
+    neuter: υπομονετικό
+    adverb: υπομονετικά
+  keg_communicative_function: Commending patience in relationships or professional
+    settings
+  example_el: Ο δάσκαλος είναι πολύ υπομονετικός με τα μικρά παιδιά.
+  example_en: The teacher is very patient with young children.
+  example2_el: Πρέπει να είμαστε υπομονετικοί όταν μαθαίνουμε μια ξένη γλώσσα.
+  example2_en: We must be patient when learning a foreign language.
+  audio: ypomonetikos-i-o-6dc7b3.mp3
+  status: verified
+  example_audio: o-daskalos-einai-pol-7e5f33.mp3
+  example2_audio: prepei-na-eimaste-yp-366c2b.mp3
+- id: A2P2-U02-010
+  greek: ανυπόμονος, -η, -ο
+  english: impatient
+  notes: Negative prefix αν- + υπομονή. Stress moves to antepenult.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: ανυπόμονος
+    feminine: ανυπόμονη
+    neuter: ανυπόμονο
+  keg_communicative_function: Expressing impatience or eager anticipation
+  example_el: Είμαι ανυπόμονος να δω τα αποτελέσματα των εξετάσεων.
+  example_en: I am impatient to see the exam results.
+  example2_el: Μην είσαι τόσο ανυπόμονη, το λεωφορείο θα φτάσει σε λίγα λεπτά.
+  example2_en: Don't be so impatient, the bus will arrive in a few minutes.
+  audio: anypomonos-i-o-f5e9b3.mp3
+  status: verified
+  example_audio: eimai-anypomonos-na--dd4fe9.mp3
+  example2_audio: min-eisai-toso-anypo-8ba9b9.mp3
+- id: A2P2-U02-011
+  greek: ειλικρινής, -ής, -ές
+  english: honest / sincere
+  notes: 'High-register two-ending adjective in -ης, -ες. Noun: η ειλικρίνεια.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine_feminine: ειλικρινής
+    neuter: ειλικρινές
+    adverb: ειλικρινά (honestly)
+  keg_communicative_function: Describing truthfulness and sincerity in friendship
+  example_el: Εκτιμώ πολύ τους ειλικρινείς φίλους που μου λένε πάντα την αλήθεια.
+  example_en: I really appreciate honest friends who always tell me the truth.
+  example2_el: Για να είμαι ειλικρινής μαζί σας, αυτή η λύση δεν μου αρέσει πολύ.
+  example2_en: To be honest with you, I don't really like this solution.
+  audio: eilikrinis-is-es-d73f38.mp3
+  status: verified
+  example_audio: ektimo-poly-toys-eil-8b3550.mp3
+  example2_audio: gia-na-eimai-eilikri-78a935.mp3
+- id: A2P2-U02-012
+  greek: γενναιόδωρος, -η, -ο
+  english: generous
+  notes: 'Adjective describing kindness with money or time. Noun: η γενναιοδωρία.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: γενναιόδωρος
+    feminine: γενναιόδωρη
+    neuter: γενναιόδωρο
+  keg_communicative_function: Praising generosity in friends and family members
+  example_el: Ο παππούς ήταν πάντα γενναιόδωρος και μας έφερνε δώρα από τα ταξίδια
+    του.
+  example_en: Grandfather was always generous and brought us gifts from his travels.
+  example2_el: Έκαναν μια πολύ γενναιόδωρη δωρεά στο τοπικό νοσοκομείο.
+  example2_en: They made a very generous donation to the local hospital.
+  audio: gennaiodoros-i-o-41aa70.mp3
+  status: verified
+  example_audio: o-pappoys-itan-panta-cdf2f0.mp3
+  example2_audio: ekanan-mia-poly-genn-71003c.mp3
+- id: A2P2-U02-013
+  greek: πεισματάρης, -α, -ικο
+  english: stubborn / obstinate
+  notes: Colloquial descriptive adjective in -ης, -α, -ικο. From το πείσμα.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: πεισματάρης
+    feminine: πεισματάρα
+    neuter: πεισματάρικο
+  keg_communicative_function: Describing stubborn or determined personality traits
+  example_el: Είναι τόσο πεισματάρης που δεν αλλάζει γνώμη με τίποτα.
+  example_en: He is so stubborn that he doesn't change his mind for anything.
+  example2_el: Το μικρό παιδί ήταν πεισματάρικο και δεν ήθελε να φάει το φαγητό του.
+  example2_en: The toddler was stubborn and didn't want to eat his food.
+  audio: peismataris-a-iko-e76609.mp3
+  status: verified
+  example_audio: einai-toso-peismatar-b41633.mp3
+  example2_audio: to-mikro-paidi-itan--6f1890.mp3
+- id: A2P2-U02-014
+  greek: ευγενικός, -ή, -ό
+  english: polite / courteous / kind
+  notes: 'Crucial civic trait. Adverb: ευγενικά (politely).'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: ευγενικός
+    feminine: ευγενική
+    neuter: ευγενικό
+    noun: η ευγένεια
+  keg_communicative_function: Evaluating customer service and interpersonal encounters
+  example_el: Η υπάλληλος στο ταχυδρομείο ήταν εξαιρετικά ευγενική και εξυπηρετική.
+  example_en: The clerk at the post office was exceptionally polite and helpful.
+  example2_el: Είναι σημαντικό να μιλάμε ευγενικά στους μεγαλύτερους ανθρώπους.
+  example2_en: It is important to speak politely to older people.
+  audio: eygenikos-i-o-b190df.mp3
+  status: verified
+  example_audio: i-ypallilos-sto-tach-142505.mp3
+  example2_audio: einai-simantiko-na-m-98d281.mp3
+- id: A2P2-U02-015
+  greek: αγενής, -ής, -ές
+  english: rude / impolite
+  notes: Negative of ευγενής. Two-termination adjective in -ης, -ες.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine_feminine: αγενής
+    neuter: αγενές
+    noun: η αγένεια
+  keg_communicative_function: Reporting impolite behavior or complaints
+  example_el: Δεν μου άρεσε ο τρόπος του οδηγού, ήταν πολύ αγενής με τους επιβάτες.
+  example_en: I did not like the driver's manner, he was very rude to the passengers.
+  example2_el: Η αγενής συμπεριφορά δεν γίνεται αποδεκτή στον χώρο εργασίας.
+  example2_en: Rude behavior is not accepted in the workplace.
+  audio: agenis-is-es-7ac985.mp3
+  status: verified
+  example_audio: den-moy-arese-o-trop-ff06e2.mp3
+  example2_audio: i-agenis-symperifora-d7c39a.mp3
+- id: A2P2-U02-016
+  greek: συμπαθητικός, -ή, -ό
+  english: likeable / pleasant / charming
+  notes: False friend with English sympathetic; means likeable/friendly.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: συμπαθητικός
+    feminine: συμπαθητική
+    neuter: συμπαθητικό
+    noun: η συμπάθεια
+  keg_communicative_function: Expressing favorable impressions about people
+  example_el: Οι νέοι μας γείτονες είναι πολύ συμπαθητικοί και ήσυχοι άνθρωποι.
+  example_en: Our new neighbors are very likeable and quiet people.
+  example2_el: Μου έκανε πολύ συμπαθητική εντύπωση από την πρώτη στιγμή.
+  example2_en: She made a very likeable impression on me from the first moment.
+  audio: sympathitikos-i-o-be1b5f.mp3
+  status: verified
+  example_audio: oi-neoi-mas-geitones-68bddb.mp3
+  example2_audio: moy-ekane-poly-sympa-8c9567.mp3
+- id: A2P2-U02-017
+  greek: τα πάω καλά με...
+  english: I get along well with...
+  notes: High-frequency Greek idiom for interpersonal compatibility.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: idiomatic phrase
+    verb: πηγαίνω / πάω (3rd neuter plural 'τα πάω')
+    preposition: με + accusative
+  keg_communicative_function: Describing harmonious relationships with colleagues
+    or family
+  example_el: Τα πάω πολύ καλά με τους συναδέλφους μου στο γραφείο.
+  example_en: I get along very well with my colleagues at the office.
+  example2_el: Πώς τα πας με τον καινούριο σου συγκάτοικο;
+  example2_en: How are you getting along with your new roommate?
+  audio: ta-pao-kala-me-7438be.mp3
+  status: verified
+  example_audio: ta-pao-poly-kala-me--792f46.mp3
+  example2_audio: pos-ta-pas-me-ton-ka-de9779.mp3
+- id: A2P2-U02-018
+  greek: μαλώνω με...
+  english: I quarrel / argue with...
+  notes: 'Regular -ώνω verb. Aorist: μάλωσα. Governs με + accusative.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    present: μαλώνω
+    aorist: μάλωσα
+    subjunctive: να μαλώσω
+  keg_communicative_function: Describing domestic arguments or sibling quarrels
+  example_el: Όταν ήμασταν μικροί, μαλώναμε συχνά με τον αδερφό μου για τα παιχνίδια.
+  example_en: When we were little, my brother and I often quarreled over toys.
+  example2_el: Μάλωσαν χθες για ασήμαντη αφορμή αλλά σήμερα μιλάνε κανονικά.
+  example2_en: They argued yesterday over a trivial excuse, but today they are talking
+    normally.
+  audio: malono-me-d9f9c0.mp3
+  status: verified
+  example_audio: otan-imastan-mikroi--668431.mp3
+  example2_audio: malosan-chthes-gia-a-502796.mp3
+- id: A2P2-U02-019
+  greek: συμφιλιώνομαι
+  english: I reconcile / make up (with someone)
+  notes: 'Mediopassive verb. Aorist: συμφιλιώθηκα. Noun: η συμφιλίωση.'
+  gender_or_pos: verb (mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    voice: mediopassive
+    present: συμφιλιώνομαι
+    aorist: συμφιλιώθηκα
+  keg_communicative_function: Narrating reconciliation after a disagreement
+  example_el: Μετά από μια μακρά συζήτηση, οι δύο φίλοι συμφιλιώθηκαν.
+  example_en: After a long discussion, the two friends reconciled.
+  example2_el: Είναι καλύτερα να συμφιλιωθούμε παρά να κρατάμε κακία.
+  example2_en: It is better for us to reconcile rather than hold a grudge.
+  audio: symfilionomai-f65ee9.mp3
+  status: verified
+  example_audio: meta-apo-mia-makra-s-368020.mp3
+  example2_audio: einai-kalytera-na-sy-54a2ab.mp3
+- id: A2P2-U02-020
+  greek: εμπιστεύομαι
+  english: I trust / rely on
+  notes: 'Deponent verb. Aorist: εμπιστεύτηκα. Noun: η εμπιστοσύνη.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    voice: mediopassive / deponent
+    present: εμπιστεύομαι
+    aorist: εμπιστεύτηκα
+  keg_communicative_function: Expressing trust and reliance in interpersonal relations
+  example_el: Εμπιστεύομαι την καλύτερή μου φίλη γιατί δεν λέει ποτέ τα μυστικά μου.
+  example_en: I trust my best friend because she never tells my secrets.
+  example2_el: Χρειάζεται χρόνος για να εμπιστευτείς έναν άγνωστο άνθρωπο.
+  example2_en: It takes time to trust a person you don't know.
+  audio: empisteyomai-a64c58.mp3
+  status: verified
+  example_audio: empisteyomai-tin-kal-63e2a5.mp3
+  example2_audio: chreiazetai-chronos--1ee18e.mp3
+- id: A2P2-U02-021
+  greek: η παιδική ηλικία
+  english: childhood
+  notes: 'Collocation: παιδικός (adjective) + ηλικία (age). Key for Speaking Stage
+    1.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    noun: η ηλικία (feminine)
+    adjective: παιδική
+  keg_communicative_function: Recounting childhood years and early life memories
+  example_el: Πέρασα την παιδική μου ηλικία σε ένα παραθαλάσσιο χωριό της Πελοποννήσου.
+  example_en: I spent my childhood in a coastal village of the Peloponnese.
+  example2_el: Έχω πολύ όμορφες αναμνήσεις από την παιδική μου ηλικία.
+  example2_en: I have very beautiful memories from my childhood.
+  audio: i-paidiki-ilikia-d7ad58.mp3
+  status: verified
+  example_audio: perasa-tin-paidiki-m-7e9ea7.mp3
+  example2_audio: echo-poly-omorfes-an-10c1f5.mp3
+- id: A2P2-U02-022
+  greek: η εφηβεία
+  english: adolescence / teenage years
+  notes: 'Feminine noun in -εια. Adjective: ο έφηβος / η έφηβη (teenager).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της εφηβείας
+  keg_communicative_function: Discussing the challenges and experiences of teenage
+    life
+  example_el: Η εφηβεία είναι μια περίοδος γεμάτη αλλαγές και καινούρια όνειρα.
+  example_en: Adolescence is a period full of changes and new dreams.
+  example2_el: Στην εφηβεία άρχισα να ενδιαφέρομαι για τη μουσική και τη φωτογραφία.
+  example2_en: In adolescence I began to be interested in music and photography.
+  audio: i-efiveia-217be1.mp3
+  status: verified
+  example_audio: i-efiveia-einai-mia--219ad5.mp3
+  example2_audio: stin-efiveia-archisa-77d4da.mp3
+- id: A2P2-U02-023
+  greek: η ενηλικίωση
+  english: adulthood / coming of age
+  notes: Derived from ο ενήλικας (adult). Third-declension feminine in -ση, -σεως/-σης.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της ενηλικίωσης
+  keg_communicative_function: Discussing legal age, responsibilities, and adult independence
+  example_el: Με την ενηλικίωση στα δεκαοκτώ, οι νέοι αποκτούν δικαίωμα ψήφου.
+  example_en: With coming of age at eighteen, young people acquire the right to vote.
+  example2_el: Η ενηλικίωση φέρνει μαζί της πολλές ευθύνες αλλά και ανεξαρτησία.
+  example2_en: Adulthood brings along many responsibilities as well as independence.
+  audio: i-enilikiosi-f28550.mp3
+  status: verified
+  example_audio: me-tin-enilikiosi-st-cda8a7.mp3
+  example2_audio: i-enilikiosi-fernei--b479c0.mp3
+- id: A2P2-U02-024
+  greek: η σχέση
+  english: relationship / connection
+  notes: 'Third-declension feminine noun. Plural: οι σχέσεις, των σχέσεων.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive_singular: της σχέσης
+    nominative_plural: οι σχέσεις
+    genitive_plural: των σχέσεων
+  keg_communicative_function: Discussing personal or professional relationships
+  example_el: Έχουν μια πολύ στενή σχέση βασισμένη στην αμοιβαία κατανόηση.
+  example_en: They have a very close relationship based on mutual understanding.
+  example2_el: Ποιες είναι οι σχέσεις σας με τους κατοίκους της περιοχής;
+  example2_en: What are your relations with the local residents of the area?
+  audio: i-schesi-ee3bab.mp3
+  status: verified
+  example_audio: echoyn-mia-poly-sten-081aaf.mp3
+  example2_audio: poies-einai-oi-sches-f21b79.mp3
+- id: A2P2-U02-025
+  greek: χωρίζω
+  english: I separate / break up / divide
+  notes: 'Regular -ίζω verb. Aorist: χώρισα. Used both for couples and divisions.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    present: χωρίζω
+    aorist: χώρισα
+    passive: χωρίζομαι
+  keg_communicative_function: Describing breakups or dividing items into portions
+  example_el: Μετά από πέντε χρόνια γάμου, αποφάσισαν να χωρίσουν φιλικά.
+  example_en: After five years of marriage, they decided to separate amicably.
+  example2_el: Χωρίσαμε τα έξοδα του ταξιδιού στα δύο.
+  example2_en: We divided the travel expenses in two.
+  audio: chorizo-c14d2c.mp3
+  status: verified
+  example_audio: meta-apo-pente-chron-6477c9.mp3
+  example2_audio: chorisame-ta-exoda-t-9b036e.mp3
+- id: A2P2-U02-026
+  greek: συγκατοικώ
+  english: I live together / cohabit / share a flat
+  notes: 'Compound verb: συν- + κατοικώ. Present: -είς, -εί. Aorist: συγκατοίκησα.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    present: συγκατοικώ (-είς, -εί)
+    aorist: συγκατοίκησα
+    noun: η συγκατοίκηση
+  keg_communicative_function: Discussing shared housing arrangements with flatmates
+  example_el: Συγκατοικώ με δύο συμφοιτητές μου σε ένα διαμέρισμα κοντά στο πανεπιστήμιο.
+  example_en: I share a flat with two university classmates in an apartment near campus.
+  example2_el: Η συγκατοίκηση βοηθάει πολύ στη μείωση των μηνιαίων εξόδων.
+  example2_en: Flatsharing helps a lot in reducing monthly expenses.
+  audio: sygkatoiko-05c33b.mp3
+  status: verified
+  example_audio: sygkatoiko-me-dyo-sy-3d3c34.mp3
+  example2_audio: i-sygkatoikisi-voith-9148bd.mp3
+- id: A2P2-U02-027
+  greek: ο/η συγκάτοικος
+  english: flatmate / roommate
+  notes: 'Common-gender noun: ο συγκάτοικος (masc), η συγκάτοικος (fem).'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: ο συγκάτοικος
+    feminine: η συγκάτοικος
+    plural: οι συγκάτοικοι
+  keg_communicative_function: Introducing or describing a roommate in daily life narratives
+  example_el: Ο συγκάτοικός μου μαγειρεύει υπέροχα και μοιραζόμαστε όλες τις δουλειές.
+  example_en: My roommate cooks wonderfully and we share all the chores.
+  example2_el: Ψάχνω για καινούρια συγκάτοικο για το δεύτερο υπνοδωμάτιο.
+  example2_en: I am looking for a new female flatmate for the second bedroom.
+  audio: o-i-sygkatoikos-32e25c.mp3
+  status: verified
+  example_audio: o-sygkatoikos-moy-ma-9086ce.mp3
+  example2_audio: psachno-gia-kainoyri-bf8558.mp3
+- id: A2P2-U02-028
+  greek: η παρέα
+  english: group of friends / company
+  notes: Quintessential Greek social concept. Noun feminine in -α.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της παρέας
+    plural: οι παρέες
+  keg_communicative_function: Talking about socializing with friendship circles
+  example_el: Κάθε Παρασκευή βράδυ βγαίνουμε έξω με την παρέα για φαγητό.
+  example_en: Every Friday evening we go out with our group of friends for dinner.
+  example2_el: Έχει πολύ καλή παρέα και περνάει ευχάριστα τον ελεύθερο χρόνο του.
+  example2_en: He has very good company and spends his free time pleasantly.
+  audio: i-parea-759592.mp3
+  status: verified
+  example_audio: kathe-paraskeyi-vrad-c37647.mp3
+  example2_audio: echei-poly-kali-pare-1302c4.mp3
+- id: A2P2-U02-029
+  greek: κρατάω επαφή
+  english: I keep in touch
+  notes: 'Collocation: κρατάω (κρατώ) + επαφή. Essential for writing friendly letters.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'κρατάω / κρατώ (aorist: κράτησα)'
+    noun: η επαφή (contact)
+  keg_communicative_function: Promising or maintaining communication across distances
+  example_el: Παρόλο που μετακόμισε στο εξωτερικό, κρατάμε επαφή μέσω διαδικτύου.
+  example_en: Even though he moved abroad, we keep in touch via the internet.
+  example2_el: Ελπίζω να κρατήσουμε επαφή μετά το τέλος των μαθημάτων.
+  example2_en: I hope we keep in touch after the end of classes.
+  audio: kratao-epafi-68eeb2.mp3
+  status: verified
+  example_audio: parolo-poy-metakomis-f974c8.mp3
+  example2_audio: elpizo-na-kratisoyme-e4831b.mp3
+- id: A2P2-U02-030
+  greek: χάνω επαφή
+  english: I lose touch
+  notes: 'Antonym of κρατάω επαφή. Aorist: έχασα επαφή.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: collocation
+    verb: 'χάνω (aorist: έχασα)'
+    noun: η επαφή
+  keg_communicative_function: Explaining past estrangement or drifting apart from
+    old friends
+  example_el: Δυστυχώς χάσαμε επαφή μετά το σχολείο αλλά ξαναβρεθήκαμε πρόσφατα.
+  example_en: Unfortunately we lost touch after school, but we met up again recently.
+  example2_el: Δεν θέλω να χάσουμε επαφή τώρα που αλλάζεις πόλη.
+  example2_en: I don't want us to lose touch now that you are changing cities.
+  audio: chano-epafi-9f61da.mp3
+  status: verified
+  example_audio: dystychos-chasame-ep-ce52ec.mp3
+  example2_audio: den-thelo-na-chasoym-c30bf3.mp3

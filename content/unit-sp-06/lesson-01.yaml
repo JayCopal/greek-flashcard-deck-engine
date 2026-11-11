@@ -1,0 +1,1254 @@
+unit_id: unit-sp-06
+lesson_id: lesson-01
+title: 'Προφορικά SP-06: Προφορά, Επιτονισμός & Παγίδες Προφορικού Λόγου (Spoken Phonology
+  & Trap Drills)'
+description: '40 orthoepic and morphological trap drills targeting Criterion 4 (Pronunciation
+  & Intonation) and Criterion 2 (Accuracy): nasal stops (μπ/π, ντ/τ, γκ/κ), diphthongs
+  (αυ/ευ), stress shifts across tenses, and polite conditional tone modulation.'
+lesson_status: not_started
+lesson_notes: "Unit SP-06 Core Notes: Προφορά, Επιτονισμός & Παγίδες Προφορικού Λόγου\
+  \ (Spoken Phonology & Trap Drills)\n• Official KEG A2 Exam Alignment:\n  - Criterion\
+  \ 4 (Προφορά & Επιτονισμός) & Criterion 2 (Γραμματική & Συντακτική Ορθότητα):\n\
+  \  - Nasal Stops & Connected Speech Sandhi (001–010): Voiced vs. unvoiced stops\
+  \ (μπ/π, ντ/τ, γκ/γ/κ, τζ/τσ) and cross-word nasal assimilation (δεν μπορώ, την\
+  \ Κυριακή).\n  - Diphthongs & Fricatives (011–018): Assimilation of αυ ([av]/[af])\
+  \ and ευ ([ev]/[ef]), plus dental (θ/δ) and velar/palatal (χ/γ) fricative contrasts.\n\
+  \  - Stress-Placement & Aspect Traps (019–028): Antepenultimate Aorist stress retraction\
+  \ (μένω/έμεινα, δουλεύω/δούλεψα, γυρίζω/γύρισα, πληρώνω/πλήρωσα), lexical minimal\
+  \ pairs (παίρνω/πήρα vs. περνάω/πέρασα), and enclitic stress (ο δάσκαλός μας).\n\
+  \  - Polite Conditional Tone & Morphological Traps (029–040): Replacing imperatives\
+  \ with Θα ήθελα / Θα μπορούσατε / Μήπως, rising polar question intonation, πολύς/πολλή/πολύ,\
+  \ feminine nouns in -ος, and τρεις/τρία."
+entries:
+- id: SP-U06-001
+  greek: Ο μπαμπάς μου πήγε στο περίπτερο για να πάρει εφημερίδα.
+  english: My dad went to the kiosk to get a newspaper. (Phonology & Nasal Stop Drill)
+  phonetic_hint: '[o baˈbas mu ˈpije sto peˈriptero ja na ˈpari efimeˈriða] — Contrast
+    voiced bilabial [b] in ''μπαμπάς'' with unaspirated voiceless [p] in ''πήγε /
+    περίπτερο / πάρει''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Voiced bilabial stop μπ [b/mb] vs. voiceless unaspirated stop π [p]
+  notes: 'Examiner Objective: English speakers often aspirate Greek /p/ ([pʰ]) or
+    confuse initial μπ [b] with π [p].
+
+    Strategy: Keep π crisp and unaspirated (like Spanish/French p), and voice μπ fully
+    from the vocal cords.'
+  keg_communicative_function: Articulating voiced and voiceless bilabial stops clearly
+    in everyday narrative
+  example_el: Το πρωί ο μπαμπάς μου πίνει πάντα έναν ελληνικό καφέ στο μπαλκόνι πριν
+    πάει με τα πόδια στο περίπτερο της γειτονιάς.
+  example_en: In the morning my dad always drinks a Greek coffee on the balcony before
+    going on foot to the neighborhood kiosk.
+  example2_el: Μπορείς να περάσεις από το περίπτερο και να πάρεις δύο μπουκάλια παγωμένο
+    νερό για την παραλία;
+  example2_en: Can you pass by the kiosk and get two bottles of ice-cold water for
+    the beach?
+  audio: o-mpampas-moy-pige-s-81a36c.mp3
+  example_audio: to-proi-o-mpampas-mo-0a73d6.mp3
+  example2_audio: mporeis-na-peraseis--e47650.mp3
+- id: SP-U06-002
+  greek: Μπαίνω στο μπάνιο, πλένω τα χέρια μου και πιάνω μια καθαρή πετσέτα.
+  english: I go into the bathroom, wash my hands, and grab a clean towel. (Phonology
+    & Nasal Stop Drill)
+  phonetic_hint: '[ˈbeno sto ˈbaɲo, ˈpleno ta ˈçerja mu ce ˈpjano mɲa kaθaˈri peˈtseta]
+    — Initial μπ [b] (''μπαίνω'', ''μπάνιο'') vs. cluster πλ [pl] and π+ι [pj] (''πλένω'',
+    ''πιάνω'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Word-initial μπ [b] vs. voiceless bilabial clusters πλ [pl] and πι [pj]
+  notes: 'Examiner Objective: Tests rapid alternation between [b] and [p] in household
+    routine verbs.
+
+    Strategy: Practice the transition `στο μπάνιο [sto ˈbaɲo]` -> `πλένω [ˈpleno]`
+    without puffing air on `π`.'
+  keg_communicative_function: Describing daily hygiene routines with accurate bilabial
+    articulation
+  example_el: Μόλις μπαίνω στο σπίτι, πηγαίνω κατευθείαν στο μπάνιο, πλένω καλά τα
+    χέρια μου με σαπούνι και παίρνω μια μικρή πετσέτα.
+  example_en: As soon as I enter the house, I go straight to the bathroom, wash my
+    hands well with soap, and take a small towel.
+  example2_el: Στο μπάνιο του ξενοδοχείου υπάρχουν πάντα καθαρές πετσέτες, σαμπουάν
+    και ζεστό νερό όλη την ημέρα.
+  example2_en: In the hotel bathroom there are always clean towels, shampoo, and hot
+    water all day long.
+  audio: mpaino-sto-mpanio-pl-7b5dfd.mp3
+  example_audio: molis-mpaino-sto-spi-0c9ef0.mp3
+  example2_audio: sto-mpanio-toy-xenod-dd316c.mp3
+- id: SP-U06-003
+  greek: Ντύνομαι γρήγορα γιατί έχω ραντεβού στις πέντε το απόγευμα.
+  english: I get dressed quickly because I have an appointment at five in the afternoon.
+    (Phonology & Nasal Stop Drill)
+  phonetic_hint: '[ˈdinome ˈɣriɣora jaˈti ˈexo radeˈvu stis ˈpende to aˈpojevma] —
+    Initial ντ [d] in ''ντύνομαι'' and word-internal ντ [nd/d] in ''ραντεβού'' and
+    ''πέντε''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Voiced alveolar stop ντ [d/nd] vs. voiceless dental/alveolar stop τ [t]
+  notes: 'Examiner Objective: Evaluates clarity of `ντ` in core time and scheduling
+    words (`πέντε`, `έντεκα`, `ραντεβού`, `ντύνομαι`).
+
+    Strategy: Never pronounce `πέντε` as `[pente]` with a voiceless `[t]`; soften
+    the dental stop to `[ˈpende]` or `[ˈpede]`.'
+  keg_communicative_function: Stating appointment times and preparation routines with
+    natural nasal-stop voicing
+  example_el: Κάθε απόγευμα στις πέντε και τέταρτο ντύνομαι, παίρνω την τσάντα μου
+    και φεύγω για το ραντεβού μου στο κέντρο.
+  example_en: Every afternoon at five fifteen I get dressed, take my bag, and leave
+    for my appointment in the center.
+  example2_el: Έκλεισα ραντεβού με τον οδοντίατρο την Τετάρτη στις έντεκα το πρωί,
+    επειδή με πονάει πολύ το δόντι μου.
+  example2_en: I booked an appointment with the dentist on Wednesday at eleven in
+    the morning, because my tooth hurts a lot.
+  audio: ntynomai-grigora-gia-443a46.mp3
+  example_audio: kathe-apogeyma-stis--4c9750.mp3
+  example2_audio: ekleisa-rantevoy-me--d11cc9.mp3
+- id: SP-U06-004
+  greek: Στο εστιατόριο παραγγείλαμε ντοματοσαλάτα, πατάτες τηγανητές και τυρί.
+  english: At the restaurant we ordered tomato salad, fried potatoes, and cheese.
+    (Phonology & Nasal Stop Drill)
+  phonetic_hint: '[sto estiaˈtorio paraˈɟilame domatosaˈlata, paˈtates tiɣaniˈtes
+    ce tiˈri] — Contrast initial ντ [d] (''ντοματοσαλάτα'') with crisp dental τ [t]
+    (''πατάτες τηγανητές'', ''τυρί'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Contrastive articulation of ντ [d], γγ [ɟ], and dental τ [t] in food ordering
+  notes: 'Examiner Objective: Tests pronunciation of high-frequency taverna items
+    in Stage 2/3.
+
+    Strategy: Keep the tongue against the upper teeth for unaspirated `τ` in `πατάτες
+    τηγανητές`.'
+  keg_communicative_function: Ordering food and describing meals with clear dental
+    and palatal stops
+  example_el: Όταν τρώμε στην ταβέρνα, παίρνουμε πάντα μια φρέσκια ντοματοσαλάτα με
+    φέτα, ζεστές πατάτες τηγανητές και ψητό κοτόπουλο.
+  example_en: When we eat at the taverna, we always get a fresh tomato salad with
+    feta, hot fried potatoes, and grilled chicken.
+  example2_el: Μου αρέσουν πολύ οι κόκκινες ντομάτες το καλοκαίρι, ειδικά όταν τις
+    κόβω σε σαλάτα με ελαιόλαδο και ρίγανη.
+  example2_en: I really like red tomatoes in the summer, especially when I cut them
+    into a salad with olive oil and oregano.
+  audio: sto-estiatorio-parag-021c72.mp3
+  example_audio: otan-trome-stin-tave-a364f7.mp3
+  example2_audio: moy-aresoyn-poly-oi--0f9160.mp3
+- id: SP-U06-005
+  greek: Έχω ανάγκη από λίγο ελεύθερο χρόνο για να ξεκουραστώ στον κήπο.
+  english: I need a little free time to rest in the garden. (Phonology & Nasal Stop
+    Drill)
+  phonetic_hint: '[ˈexo aˈnaɟi aˈpo ˈliɣo eˈlefθero ˈxrono ja na ksekuraˈsto ston
+    ˈcipo] — Palatalized γκ [ɟ/ɲɟ] before front vowel [i] in ''ανάγκη'' and sandhi
+    ''στον κήπο'' [ston ˈɟipo / ston ˈcipo].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Palatal vs. velar nasal stops γκ/γγ ([ɟ/g]) andvoiceless velar/palatal
+      κ ([k/c])
+  notes: 'Examiner Objective: Candidates frequently mispronounce `ανάγκη` as `[anagi]`
+    with a hard velar instead of palatal `[aˈnaɟi / aˈnaɲɟi]`.
+
+    Strategy: Before `ε/ι` (`ανάγκη`, `άγγελος`, `αγκινάρα`), soften `γκ/γγ` toward
+    the hard palate.'
+  keg_communicative_function: Expressing personal need for rest with accurate palatal
+    and velar consonants
+  example_el: Μετά από τόσες ώρες δουλειάς στο γραφείο, έχω πραγματικά ανάγκη να καθίσω
+    ήσυχα στον κήπο και να πιω έναν καφέ.
+  example_en: After so many hours of work at the office, I really need to sit quietly
+    in the garden and drink a coffee.
+  example2_el: Ο παππούς μου περνάει όλο το πρωί στον κήπο του σπιτιού, γιατί του
+    αρέσει να ποτίζει τις τριανταφυλλιές και τα λαχανικά.
+  example2_en: My grandfather spends the whole morning in the house garden, because
+    he likes watering the rosebushes and the vegetables.
+  audio: echo-anagki-apo-ligo-1ec6c2.mp3
+  example_audio: meta-apo-toses-ores--17b526.mp3
+  example2_audio: o-pappoys-moy-pernae-1c3dae.mp3
+- id: SP-U06-006
+  greek: Το γκαράζ της πολυκατοικίας βρίσκεται ακριβώς στη γωνία του δρόμου.
+  english: The apartment building's garage is located right on the corner of the street.
+    (Phonology & Nasal Stop Drill)
+  phonetic_hint: '[to gaˈraz tis polikatiˈcias ˈvriscete akriˈvos sti ɣoˈnia tu ˈðromu]
+    — Hard voiced velar stop γκ [g] in ''γκαράζ'' vs. voiced velar fricative γ [ɣ]
+    in ''γωνία''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Distinguishing voiced velar stop γκ [g] ('γκαράζ', 'γκρι') from voiced
+      velar fricative γ [ɣ] ('γωνία', 'γάλα')
+  notes: 'Examiner Objective: L2 speakers often replace the Greek fricative `γ [ɣ]`
+    (`γωνία`) with the English hard stop `[g]` (`γκαράζ`).
+
+    Strategy: Let air flow smoothly through the back of the throat for `γωνία [ɣoˈnia]`,
+    and make a full stop only on `γκαράζ [gaˈraz]`.'
+  keg_communicative_function: Giving spatial directions and describing building facilities
+    with clear velar contrasts
+  example_el: Αφήνω πάντα το γκρι αυτοκίνητό μου στο υπόγειο γκαράζ, που βρίσκεται
+    ακριβώς στη γωνία δίπλα στον φούρνο της γειτονιάς.
+  example_en: I always leave my grey car in the underground garage, which is located
+    right on the corner next to the neighborhood bakery.
+  example2_el: Στη γωνία του δρόμου μας άνοιξε ένα καινούργιο γαλακτοπωλείο που πουλάει
+    φρέσκο γάλα, γιαούρτι και παραδοσιακά γλυκά.
+  example2_en: On the corner of our street a new dairy shop opened that sells fresh
+    milk, yogurt, and traditional sweets.
+  audio: to-gkaraz-tis-polyka-a4e29c.mp3
+  example_audio: afino-panta-to-gkri--1e7bad.mp3
+  example2_audio: sti-gonia-toy-dromoy-e6c357.mp3
+- id: SP-U06-007
+  greek: Ήπια ένα φλιτζάνι ζεστό τσάι με λεμόνι γιατί είχα έντονο βήχα.
+  english: I drank a cup of hot tea with lemon because I had a bad cough. (Phonology
+    & Affricate Drill)
+  phonetic_hint: '[ˈipja ˈena fliˈdzani zeˈsto ˈtsai me leˈmoni jaˈti ˈixa ˈendono
+    ˈvixa] — Voiced alveolar affricate τζ [dz] (''φλιτζάνι'') vs. voiceless affricate
+    τσ [ts] (''τσάι'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Alveolar affricates τζ [dz] vs. τσ [ts] (avoiding postalveolar English
+      [dʒ]/[tʃ])
+  notes: 'Examiner Objective: Greek `τσ/τζ` are crisp dental-alveolar `[ts/dz]`, never
+    thick English `ch/j` (`[tʃ/dʒ]`).
+
+    Strategy: Keep the tongue tip behind the front teeth when saying `φλιτζάνι`, `τζάκι`,
+    `τσάι`, and `τσάντα`.'
+  keg_communicative_function: Describing remedies for minor illnesses using accurate
+    dental-alveolar affricates
+  example_el: Τον χειμώνα μου αρέσει να κάθομαι δίπλα στο τζάκι και να πίνω ένα μεγάλο
+    φλιτζάνι ζεστό τσάι του βουνού με μέλι.
+  example_en: In winter I like sitting next to the fireplace and drinking a large
+    cup of hot mountain tea with honey.
+  example2_el: Ξέχασα την καινούργια μου τσάντα και το πορτοφόλι μου πάνω στο τραπεζάκι
+    της καφετέριας, δίπλα στο τζάμι.
+  example2_en: I forgot my new bag and my wallet on the small table of the café, next
+    to the windowpane.
+  audio: ipia-ena-flitzani-ze-fc2b5f.mp3
+  example_audio: ton-cheimona-moy-are-885ea9.mp3
+  example2_audio: xechasa-tin-kainoyrg-24d718.mp3
+- id: SP-U06-008
+  greek: Δεν μπορώ να καταλάβω γιατί το λεωφορείο αργεί πάντα στον σταθμό.
+  english: I cannot understand why the bus is always late at the station. (Phonology
+    & Sandhi Assimilation Drill)
+  phonetic_hint: '[ðem boˈro na kataˈlavo jaˈti to leofoˈrio arˈji ˈpanda ston staˈθmo]
+    — Cross-word nasal assimilation: ''δεν μπορώ'' -> [ðem boˈro], ''στον σταθμό''
+    -> [sto(n) staˈθmo].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Connected speech nasal sandhi (δεν + π/μπ -> [mb], την + π -> [mb], τον
+      + κ -> [ŋg])
+  notes: 'Examiner Objective: Natural spoken Greek links `δεν/μην/τον/την/στον/στην`
+    smoothly into the following stop without an artificial pause.
+
+    Strategy: Pronounce `δεν μπορώ` as a single rhythmic unit `[ðemboˈro]` and `δεν
+    πειράζει` as `[ðembiˈrazi]`.'
+  keg_communicative_function: Using natural connected-speech sandhi in everyday complaints
+    and observations
+  example_el: Δεν πειράζει αν αργήσεις πέντε λεπτά στο ραντεβού μας, γιατί κι εγώ
+    περιμένω ακόμα στην πόρτα του σταθμού.
+  example_en: It doesn't matter if you are five minutes late to our appointment, because
+    I too am still waiting at the station door.
+  example2_el: Την Παρασκευή το απόγευμα δεν μπορώ να έρθω μαζί σας στον κινηματογράφο,
+    επειδή έχω μάθημα ελληνικών.
+  example2_en: On Friday afternoon I cannot come with you to the cinema, because I
+    have a Greek lesson.
+  audio: den-mporo-na-katalav-6ef35b.mp3
+  example_audio: den-peirazei-an-argi-207937.mp3
+  example2_audio: tin-paraskeyi-to-apo-c54949.mp3
+- id: SP-U06-009
+  greek: Την Κυριακή το πρωί πήγαμε μια μεγάλη εκδρομή στην εξοχή με τους γονείς μας.
+  english: On Sunday morning we went on a big excursion to the countryside with our
+    parents. (Phonology & Sandhi Drill)
+  phonetic_hint: '[tiŋ ɟirjaˈci to proˈi ˈpiɣame mɲa meˈɣali ekðroˈmi stin eksoˈçi
+    me tuz ɣoˈniz mas] — Connected speech voicing: ''Την Κυριακή'' [tiŋ ɟirjaˈci],
+    ''με τους γονείς'' [me tuz ɣoˈnis].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Cross-word assimilation: την Κυριακή [tiŋ ɟirjaˈci] and final -ς voicing
+      before voiced consonants (τους γονείς [tuz ɣoˈnis])'
+  notes: 'Examiner Objective: Trains smooth phrase-level prosody instead of choppy
+    word-by-word reading.
+
+    Strategy: Link article + noun (`την Κυριακή`, `τους γονείς`) without breaking
+    airflow.'
+  keg_communicative_function: Narrating weekend outings with smooth phrase-level prosody
+    and consonant linking
+  example_el: Την Κυριακή που μας πέρασε, πήραμε το αυτοκίνητο και πήγαμε με τους
+    φίλους μας σε ένα όμορφο χωριό κοντά στη θάλασσα.
+  example_en: Last Sunday, we took the car and went with our friends to a beautiful
+    village near the sea.
+  example2_el: Μου αρέσει να περνάω την Κυριακή μου ήρεμα στο σπίτι με τους γονείς
+    μου και να τρώμε όλοι μαζί το μεσημέρι.
+  example2_en: I like spending my Sunday quietly at home with my parents and eating
+    all together at noon.
+  audio: tin-kyriaki-to-proi--e926bc.mp3
+  example_audio: tin-kyriaki-poy-mas--da2d11.mp3
+  example2_audio: moy-aresei-na-pernao-f3dc16.mp3
+- id: SP-U06-010
+  greek: Ο άντρας της αδερφής μου δουλεύει σε μια μεγάλη τράπεζα στην Αθήνα.
+  english: My sister's husband works at a big bank in Athens. (Phonology & Cluster
+    Drill)
+  phonetic_hint: '[o ˈandras tis aðerˈfiz mu ðuˈlevi se mɲa meˈɣali ˈtrapeza stin
+    aˈθina] — Contrast voiced cluster ντρ [ndr/dr] (''άντρας'') with voiceless τρ
+    [tr] (''τράπεζα'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Cluster contrast ντρ [ndr/dr] ('άντρας', 'δέντρο') vs. τρ [tr] ('τράπεζα',
+      'τρεις')
+  notes: 'Examiner Objective: Ensures clear distinction between `ντρ` and `τρ` with
+    a single alveolar tap `[ɾ]`.
+
+    Strategy: Use a quick, light tap of the tongue tip for `ρ` right after `[d]` or
+    `[t]`.'
+  keg_communicative_function: Describing family members and professions with accurate
+    consonant clusters
+  example_el: Κάτω από τα μεγάλα δέντρα της πλατείας υπάρχει μια τράπεζα, ένα ταχυδρομείο
+    και τρία μικρά καφέ.
+  example_en: Under the big trees of the square there is a bank, a post office, and
+    three small cafés.
+  example2_el: Ο άντρας που στέκεται μπροστά στην είσοδο της τράπεζας κρατάει μια
+    μαύρη ομπρέλα και περιμένει το ταξί.
+  example2_en: The man standing in front of the bank entrance is holding a black umbrella
+    and waiting for the taxi.
+  audio: o-antras-tis-aderfis-510af9.mp3
+  example_audio: kato-apo-ta-megala-d-271ac2.mp3
+  example2_audio: o-antras-poy-steketa-2ac0dc.mp3
+- id: SP-U06-011
+  greek: Αύριο το πρωί θα ταξιδέψω με αυτό το πλοίο για τα νησιά.
+  english: Tomorrow morning I will travel on this ship to the islands. (Phonology
+    & Diphthong Drill)
+  phonetic_hint: '[ˈavrio to proˈi θa taksiˈðepso me afˈto to ˈplio ja ta niˈsça]
+    — Diphthong αυ = [av] before voiced ρ (''αύριο'') vs. [af] before voiceless τ
+    (''αυτό'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Phonological rule for αυ: [av] before vowels and voiced consonants (β,
+      γ, δ, ζ, λ, μ, ν, ρ) vs. [af] before voiceless (κ, π, τ, χ, φ, θ, σ, ξ, ψ)'
+  notes: 'Examiner Objective: High-frequency pronunciation criterion in KEG A2.
+
+    Strategy: Hear the instant switch in the same sentence: `αύριο [ˈavrio]` (voiced
+    [v] before ρ) vs. `αυτό [afˈto]` (voiceless [f] before τ).'
+  keg_communicative_function: Applying thevoiced/voiceless assimilation rule for the
+    digraph αυ in travel statements
+  example_el: Αύριο θα ξυπνήσω πολύ νωρίς, γιατί αυτό το λεωφορείο φεύγει στις επτά
+    ακριβώς από την κεντρική αυλή του σταθμού.
+  example_en: Tomorrow I will wake up very early, because this bus leaves at seven
+    sharp from the central courtyard of the station.
+  example2_el: Σε αυτό το μικρό μαγαζί αγόρασα χθες φρέσκα αυγά, βούτυρο και ωραίο
+    ψωμί για το αυριανό μας πρωινό.
+  example2_en: At this small shop yesterday I bought fresh eggs, butter, and nice
+    bread for our breakfast tomorrow.
+  audio: ayrio-to-proi-tha-ta-002b22.mp3
+  example_audio: ayrio-tha-xypniso-po-43bfa2.mp3
+  example2_audio: se-ayto-to-mikro-mag-4e4b77.mp3
+- id: SP-U06-012
+  greek: Το αυτοκίνητο είναι παρκαρισμένο στη μικρή αυλή πίσω από το σπίτι.
+  english: The car is parked in the small courtyard behind the house. (Phonology &
+    Diphthong Drill)
+  phonetic_hint: '[to aftoˈcinito ˈine parkarizˈmeno sti miˈkri avˈli ˈpiso aˈpo to
+    ˈspiti] — ''αυτοκίνητο'' [aftoˈcinito] ([af] before τ) vs. ''αυλή'' [avˈli] ([av]
+    before λ).'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Contrastive αυ in noun pairs: αυτοκίνητο / αυτόματος [af] vs. αυλή / αυγό
+      / Αύγουστος [av]'
+  notes: 'Examiner Objective: Tests automatic `[af]` vs. `[av]` production in Stage
+    3 house/street descriptions.
+
+    Strategy: Remember that `λ`, `γ`, `ρ` are voiced so `αυλή`, `αυγό`, `Αύγουστος`
+    always take `[av]`.'
+  keg_communicative_function: Describing residential spaces and vehicles with accurate
+    diphthong voicing
+  example_el: Τον Αύγουστο καθόμαστε κάθε βράδυ στη δροσερή αυλή του σπιτιού μας,
+    μακριά από τον θόρυβο που κάνουν τα αυτοκίνητα.
+  example_en: In August we sit every evening in the cool courtyard of our house, far
+    from the noise that the cars make.
+  example2_el: Αφήσαμε το αυτοκίνητό μας έξω από την αυλή και μπήκαμε στο σπίτι για
+    να φτιάξουμε καφέ και τηγανητά αυγά.
+  example2_en: We left our car outside the courtyard and went into the house to make
+    coffee and fried eggs.
+  audio: to-aytokinito-einai--808e49.mp3
+  example_audio: ton-aygoysto-kathoma-3b51a5.mp3
+  example2_audio: afisame-to-aytokinit-23a077.mp3
+- id: SP-U06-013
+  greek: Σας ευχαριστώ πολύ για την ευγενική σας βοήθεια και τη συμβουλή.
+  english: Thank you very much for your kind help and advice. (Phonology & Diphthong
+    Drill)
+  phonetic_hint: '[sas efxariˈsto poˈli ja tin evjeniˈci sas voˈiθja ce ti simvuˈli]
+    — Diphthong ευ = [ef] before voiceless χ (''ευχαριστώ'') vs. [ev] before voiced
+    γ (''ευγενική'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Phonological rule for ευ: [ef] before voiceless consonants (''ευχαριστώ'',
+      ''εύκολος'', ''ελεύθερος'') vs. [ev] before voiced (''ευγενικός'', ''εβδομάδα'',
+      ''ταξιδεύω'')'
+  notes: 'Examiner Objective: `Ευχαριστώ` and `ευγενικός` are essential politeness
+    words in Stage 2 roleplays.
+
+    Strategy: Pronounce `ευχαριστώ` with a clear `[efx-]` and `ευγενική` with a smooth
+    voiced `[evj-]`. Note also `συμβουλή [simvuˈli]`.'
+  keg_communicative_function: Expressing polite gratitude with accurate articulation
+    of the digraph ευ
+  example_el: Ο υπάλληλος στο ξενοδοχείο ήταν πάρα πολύ ευγενικός και τον ευχαρίστησα
+    θερμά γιατί μας βρήκε εύκολα ένα ήσυχο δωμάτιο.
+  example_en: The clerk at the hotel was very polite and I thanked him warmly because
+    he easily found us a quiet room.
+  example2_el: Την Παρασκευή έχω ελεύθερο χρόνο το απόγευμα, οπότε είναι ευκαιρία
+    να μαγειρέψω κάτι ωραίο για τους φίλους μου.
+  example2_en: On Friday I have free time in the afternoon, so it is an opportunity
+    to cook something nice for my friends.
+  audio: sas-eycharisto-poly--ef1a9d.mp3
+  example_audio: o-ypallilos-sto-xeno-e0fd65.mp3
+  example2_audio: tin-paraskeyi-echo-e-c09c8d.mp3
+- id: SP-U06-014
+  greek: Την Παρασκευή το βράδυ μαγειρεύω πάντα κάτι εύκολο και νόστιμο.
+  english: On Friday evening I always cook something easy and tasty. (Phonology &
+    Diphthong Drill)
+  phonetic_hint: '[tim paraskeˈvi to ˈvraði majiˈrevo ˈpanda ˈkati ˈefkolo ce ˈnostimo]
+    — Contrast [ev] before vowels (''Παρασκευή'', ''μαγειρεύω'') with [ef] before
+    κ (''εύκολο'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Productive verb suffix -εύω [ˈevo] (Present) vs. -έψω [ˈepso] (Aorist subjunctive)
+      and adjective εύκολος [ˈefkolos]
+  notes: 'Examiner Objective: Verbs in `-εύω` (`δουλεύω`, `μαγειρεύω`, `ταξιδεύω`,
+    `χορεύω`) always have `[ev]` in the Present tense because a vowel follows.
+
+    Strategy: Practice `μαγειρεύω [majiˈrevo]` vs. `εύκολο [ˈefkolo]`.'
+  keg_communicative_function: Describing end-of-week cooking habits while contrasting
+    [ev] and [ef]
+  example_el: Κάθε Παρασκευή τελειώνω τη δουλειά μου στις τέσσερις, ξεκουράζομαι λίγο
+    και μετά μαγειρεύω μια εύκολη μακαρονάδα για την οικογένεια.
+  example_en: Every Friday I finish my work at four, rest a bit, and afterwards cook
+    an easy pasta dish for the family.
+  example2_el: Είναι πολύ εύκολο να ταξιδεύεις με το τρένο στην Ευρώπη, γιατί τα δρομολόγια
+    είναι συχνά και άνετα.
+  example2_en: It is very easy to travel by train in Europe, because the routes are
+    frequent and comfortable.
+  audio: tin-paraskeyi-to-vra-dafe8f.mp3
+  example_audio: kathe-paraskeyi-tele-b369cd.mp3
+  example2_audio: einai-poly-eykolo-na-af3ee3.mp3
+- id: SP-U06-015
+  greek: Δεν θέλω να δω τηλεόραση απόψε, προτιμώ να διαβάσω ένα βιβλίο.
+  english: I don't want to watch television tonight, I prefer to read a book. (Phonology
+    & Dental Fricative Drill)
+  phonetic_hint: '[ðen ˈθelo na ðo tileˈorasi aˈpopse, protiˈmo na ðjaˈvaso ˈena viˈvlio]
+    — Alternating voiced interdental δ [ð] (''δεν'', ''δω'', ''διαβάσω'') and voiceless
+    θ [θ] (''θέλω'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Interdental fricatives δ [ð] (as in 'this') vs. θ [θ] (as in 'think') without
+      stopping to [d] or [t]
+  notes: 'Examiner Objective: Rapid `δ - θ - δ` sequences (`δεν θέλω να δω`) often
+    cause learners to slip into `[d]` or confuse voicing.
+
+    Strategy: Keep the tip of the tongue lightly between the teeth for the entire
+    opening phrase `Δεν θέλω να δω [ðen ˈθelo na ðo]`.'
+  keg_communicative_function: Stating evening leisure preferences with clear interdental
+    fricative articulation
+  example_el: Δεν θέλω να βγω έξω απόψε γιατί κάνει κρύο, γι' αυτό θα καθίσω στο δωμάτιό
+    μου να διαβάσω δύο κεφάλαια από το βιβλίο μου.
+  example_en: I don't want to go out tonight because it is cold, so I will sit in
+    my room to read two chapters from my book.
+  example2_el: Τηλεφώνησα στον Δημήτρη και του είπα ότι θα τον δω την Πέμπτη το βράδυ
+    στο θέατρο της γειτονιάς μας.
+  example2_en: I phoned Dimitris and told him that I will see him on Thursday evening
+    at our neighborhood theater.
+  audio: den-thelo-na-do-tile-64c49d.mp3
+  example_audio: den-thelo-na-vgo-exo-e815ad.mp3
+  example2_audio: tilefonisa-ston-dimi-b38059.mp3
+- id: SP-U06-016
+  greek: Ο θείος μου μένει σε έναν ήσυχο δρόμο δίπλα στη θάλασσα.
+  english: My uncle lives on a quiet street next to the sea. (Phonology & Dental Fricative
+    Drill)
+  phonetic_hint: '[o ˈθios mu ˈmeni se ˈenan ˈisixo ˈðromo ˈðipla sti ˈθalassa] —
+    Symmetric alternation: θ [θ] (''θείος'') -> δ [ð] (''δρόμο'', ''δίπλα'') -> θ
+    [θ] (''θάλασσα'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: Interdental fricative minimal-pair environments (θείος/θάλασσα [θ] vs.
+      δρόμος/δίπλα/δωμάτιο [ð])
+  notes: 'Examiner Objective: Evaluates continuous fricative airflow in spatial and
+    family descriptions.
+
+    Strategy: Ensure `δρόμος` starts with a smooth `[ðr-]`, not `[dr-]`. '
+  keg_communicative_function: Describing residential locations using accurate voiceless
+    and voiced dental fricatives
+  example_el: Κάθε καλοκαίρι πηγαίνω στο σπίτι του θείου μου, που έχει μεγάλη βεράντα
+    με υπέροχη θέα στη γαλάζια θάλασσα.
+  example_en: Every summer I go to my uncle's house, which has a big veranda with
+    a wonderful view of the blue sea.
+  example2_el: Ο δρόμος μπροστά από την παραλία έχει πολλά δέντρα και είναι ιδανικός
+    για απογευματινό περίπατο δίπλα στη θάλασσα.
+  example2_en: The street in front of the beach has many trees and is ideal for an
+    afternoon walk next to the sea.
+  audio: o-theios-moy-menei-s-a19ef2.mp3
+  example_audio: kathe-kalokairi-piga-f47eb5.mp3
+  example2_audio: o-dromos-mprosta-apo-535f61.mp3
+- id: SP-U06-017
+  greek: Χθες το βράδυ είχε πολλή ομίχλη και ψυχρό αέρα στον δρόμο.
+  english: Last night there was heavy fog and cold air on the road. (Phonology & Velar/Palatal
+    Fricative Drill)
+  phonetic_hint: '[xθes to ˈvraði ˈiçe poˈli oˈmixli ce psiˈxro aˈera ston ˈðromo]
+    — Voiceless velar fricative χ [x] (''χθες'', ''ομίχλη'', ''ψυχρό'') vs. palatal
+    allophone [ç] before front vowel (''είχε'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Allophones of χ: velar [x] before a/o/u and consonants (''χθες'', ''χρόνος'')
+      vs. palatal [ç] before e/i (''είχε'', ''όχι'', ''χέρι'')'
+  notes: 'Examiner Objective: English speakers often replace Greek `χ` with a weak
+    glottal `[h]` or hard `[k]`.
+
+    Strategy: Differentiate back-of-mouth `[x]` in `χθες / χρόνος` from forward palatal
+    `[ç]` (like German *ich* or English *huge*) in `είχε / όχι`.'
+  keg_communicative_function: Describing past weather conditions with accurate velar
+    and palatal fricatives
+  example_el: Χθες τον χειμώνα έκανε πολύ κρύο, είχε δυνατό αέρα και χιόνισε στα ψηλά
+    βουνά έξω από την πόλη μας.
+  example_en: Yesterday in winter it was very cold, there was a strong wind, and it
+    snowed on the high mountains outside our city.
+  example2_el: Ευτυχώς σήμερα ο καιρός είναι πολύ καλύτερος, έχει ζεστό ήλιο και δεν
+    έχει καθόλου ομίχλη στους δρόμους.
+  example2_en: Fortunately today the weather is much better, there is warm sunshine
+    and there is no fog at all on the roads.
+  audio: chthes-to-vrady-eich-e0a8c8.mp3
+  example_audio: chthes-ton-cheimona--ea09d5.mp3
+  example2_audio: eytychos-simera-o-ka-4c0326.mp3
+- id: SP-U06-018
+  greek: Η γιαγιά μου μαγειρεύει γρήγορα ένα γευστικό γεύμα για τα εγγόνια της.
+  english: My grandmother quickly cooks a tasty meal for her grandchildren. (Phonology
+    & Palatal/Velar Fricative Drill)
+  phonetic_hint: '[i jaˈja mu majiˈrevi ˈɣriɣora ˈena jefstiˈko ˈjevma ja ta eˈgoɲa
+    tis] — Palatal glide γ [j] before front vowels (''γιαγιά'', ''μαγειρεύει'', ''γεύμα'')
+    vs. velar fricative [ɣ] (''γρήγορα'') and stop εγγ [g] (''εγγόνια'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 4 (Pronunciation & Intonation)
+    focus: 'Three-way realization of gamma: palatal [j] (''γιαγιά'', ''γεύμα''), velar
+      fricative [ɣ] (''γρήγορα'', ''γάλα''), and nasal stop εγγ [g/ŋg] (''εγγόνια'')'
+  notes: 'Examiner Objective: Showcases all three sounds of `γ` in a single natural
+    sentence.
+
+    Strategy: Make `γιαγιά / γεύμα` glide like English *y* `[j]`, keep `γρήγορα` a
+    soft throat fricative `[ɣ]`, and make `εγγόνια` a clear stop `[eˈgoɲa]`.'
+  keg_communicative_function: Describing family meals while mastering all three phonological
+    realizations of gamma
+  example_el: Κάθε Κυριακή η γιαγιά μας ετοιμάζει στην κουζίνα της ένα μεγάλο οικογενειακό
+    γεύμα και φτιάχνει γλυκό με φρέσκο γάλα.
+  example_en: Every Sunday our grandmother prepares a big family meal in her kitchen
+    and makes dessert with fresh milk.
+  example2_el: Τα εγγόνια αγαπούν πολύ τις ιστορίες που τους λέει η γιαγιά τους, όταν
+    κάθονται μαζί το απόγευμα στο σαλόνι.
+  example2_en: The grandchildren really love the stories their grandmother tells them
+    when they sit together in the afternoon in the living room.
+  audio: i-giagia-moy-mageire-57f24e.mp3
+  example_audio: kathe-kyriaki-i-giag-55d737.mp3
+  example2_audio: ta-eggonia-agapoyn-p-22ac1e.mp3
+- id: SP-U06-019
+  greek: Τώρα μένω στην Αθήνα, αλλά πέρσι έμεινα για έξι μήνες στη Θεσσαλονίκη.
+  english: Now I live in Athens, but last year I stayed for six months in Thessaloniki.
+    (Stress Shift & Aspect Drill)
+  phonetic_hint: '[ˈtora ˈmeno stin aˈθina, aˈla ˈpersi ˈemina ja ˈeksi ˈmines sti
+    θesaloˈnici] — Antepenultimate Aorist stress shift: Present ''μένω'' [ˈmeno] ->
+    Aorist ''έμεινα'' [ˈemina] -> Subjunctive ''να μείνω'' [na ˈmino].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: 'Contrastive stress and vowel/aspect shift: μένω (Present) vs. έμεινα (Aorist)
+      vs. θα μείνω (Future/Subjunctive)'
+  notes: 'Examiner Objective: Note that `μένω` (`-ε-`) and `να μείνω` (`-ει-`) sound
+    identical `[ˈmeno]` vs. `[ˈmino]` in vowel change, while Aorist pulls stress back
+    to the augment `έμεινα [ˈemina]`.
+
+    Strategy: Anchor `τώρα μένω`, `πέρσι έμεινα`, and `του χρόνου θα μείνω`.'
+  keg_communicative_function: Contrasting current residence with past stays using
+    accurate Aorist stress retraction
+  example_el: Σήμερα μένω σε ένα μικρό διαμέρισμα στο κέντρο, αλλά το επόμενο καλοκαίρι
+    θα μείνω για έναν μήνα στο σπίτι μας στο νησί.
+  example_en: Today I live in a small apartment in the center, but next summer I will
+    stay for a month at our house on the island.
+  example2_el: Όταν πήγαμε εκδρομή στο Ναύπλιο, μείναμε σε ένα παραδοσιακό ξενοδοχείο
+    κοντά στο λιμάνι και περάσαμε υπέροχα.
+  example2_en: When we went on an excursion to Nafplio, we stayed in a traditional
+    hotel near the port and had a wonderful time.
+  audio: tora-meno-stin-athin-36211f.mp3
+  example_audio: simera-meno-se-ena-m-a5ed41.mp3
+  example2_audio: otan-pigame-ekdromi--58137b.mp3
+- id: SP-U06-020
+  greek: Συνήθως δουλεύω μέχρι τις πέντε, αλλά χθες δούλεψα μέχρι τις οκτώ το βράδυ.
+  english: Usually I work until five, but yesterday I worked until eight in the evening.
+    (Stress Shift & Aspect Drill)
+  phonetic_hint: '[siˈniθos ðuˈlevo ˈmexri tis ˈpende, aˈla xθes ˈðulepsa ˈmexri tis
+    oˈkto to ˈvraði] — Stress shift & [ev]->[eps] change: ''δουλεύω'' [ðuˈlevo] ->
+    ''δούλεψα'' [ˈðulepsa] -> ''να δουλέψω'' [na ðuˈlepso].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: Paroxytone Present δουλεύω [ðuˈlevo] vs. proparoxytone Aorist δούλεψα [ˈðulepsa]
+      vs. Aorist subjunctive να δουλέψω [ðuˈlepso]
+  notes: 'Examiner Objective: Under exam pressure, candidates often misstress the
+    Aorist as `*δουλέψα` instead of `δούλεψα`.
+
+    Strategy: Pull the stress back to the first syllable (`δού-λε-ψα`) in the singular
+    Aorist, and return it to `-λέ-` in the plural (`δουλέψαμε`) and subjunctive (`να
+    δουλέψω`).'
+  keg_communicative_function: Comparing regular working hours with past overtime using
+    accurate verb stress
+  example_el: Αυτή την εβδομάδα δουλεύω από το πρωί, αλλά το Σάββατο δεν θα δουλέψω
+    καθόλου γιατί θέλω να ξεκουραστώ.
+  example_en: This week I am working from the morning, but on Saturday I will not
+    work at all because I want to rest.
+  example2_el: Πέρσι το καλοκαίρι δούλεψα σε ένα τουριστικό γραφείο στο νησί και γνώρισα
+    πολλούς ανθρώπους από όλο τον κόσμο.
+  example2_en: Last summer I worked at a tourist office on the island and met many
+    people from all over the world.
+  audio: synithos-doyleyo-mec-9d53d4.mp3
+  example_audio: ayti-tin-evdomada-do-e525dd.mp3
+  example2_audio: persi-to-kalokairi-d-cdabbd.mp3
+- id: SP-U06-021
+  greek: Κάθε βράδυ πλένω τα πιάτα, αλλά χθες τα έπλυνα αμέσως μετά το μεσημεριανό.
+  english: Every evening I wash the dishes, but yesterday I washed them right after
+    lunch. (Stress Shift & Aspect Drill)
+  phonetic_hint: '[ˈkaθe ˈvraði ˈpleno ta ˈpjata, aˈla xθes ta ˈeplina aˈmesos meˈta
+    to mesimerjaˈno] — Vowel & stress shift: ''πλένω'' [ˈpleno] -> ''έπλυνα'' [ˈeplina]
+    -> ''να πλύνω'' [na ˈplino].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: 'Stem vowel raising (-ε- to -υ- [i]) and Aorist stress shift: πλένω ->
+      έπλυνα -> θα πλύνω'
+  notes: 'Examiner Objective: Tests household chore verbs where `-ε-` raises to `-υ-
+    [i]` in the Aorist/Subjunctive (`πλένω -> έπλυνα / να πλύνω`).
+
+    Strategy: Notice the vowel change `[e] -> [i]` between `πλένω` (habitual) and
+    `να πλύνω` (single action).'
+  keg_communicative_function: Describing daily household chores across Present, Aorist,
+    and Subjunctive
+  example_el: Πρέπει να πλύνω τα φρούτα με άφθονο νερό πριν τα βάλω στο τραπέζι για
+    να φάμε όλοι μαζί.
+  example_en: I must wash the fruit with plenty of water before putting them on the
+    table for us all to eat together.
+  example2_el: Το Σάββατο το πρωί πλύναμε το αυτοκίνητο στην αυλή και βάλαμε πλυντήριο
+    όλα τα ρούχα της εβδομάδας.
+  example2_en: On Saturday morning we washed the car in the courtyard and put all
+    the week's clothes in the washing machine.
+  audio: kathe-vrady-pleno-ta-de3f3a.mp3
+  example_audio: prepei-na-plyno-ta-f-deb517.mp3
+  example2_audio: to-savvato-to-proi-p-c8140c.mp3
+- id: SP-U06-022
+  greek: Παίρνω το λεωφορείο κάθε πρωί και περνάω μπροστά από το μεγάλο πάρκο.
+  english: I take the bus every morning and pass in front of the big park. (Minimal
+    Pair & Aspect Trap Drill)
+  phonetic_hint: '[ˈperno to leofoˈrio ˈkaθe proˈi ce perˈnao broˈsta aˈpo to meˈɣalo
+    ˈparko] — Crucial minimal pair: ''παίρνω / πήρα'' (take) vs. ''περνάω / πέρασα''
+    (pass/spend time).'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Lexical-Phonological Minimal Pair & Stress)
+    focus: Distinguishing παίρνω [ˈperno] -> πήρα [ˈpira] (take) from περνώ/περνάω
+      [perˈnao] -> πέρασα [ˈperasa] (pass/spend time)
+  notes: 'Examiner Objective: One of the most common A2 speaking traps is confusing
+    `παίρνω` (stress on 1st syllable: *take*) with `περνώ/περνάω` (stress on 2nd syllable:
+    *pass/spend time*).
+
+    Strategy: Memorize the pair in one breath: `πήρα το τρένο` (I took the train)
+    vs. `πέρασα ωραία` (I had a nice time).'
+  keg_communicative_function: Distinguishing between 'taking transport/items' (παίρνω)
+    and 'passing by/spending time' (περνάω)
+  example_el: Χθες πήρα τηλέφωνο τον φίλο μου, πέρασα από το σπίτι του με το αυτοκίνητο
+    και περάσαμε ένα πολύ όμορφο απόγευμα.
+  example_en: Yesterday I called my friend on the phone, passed by his house by car,
+    and we spent a very lovely afternoon.
+  example2_el: Όταν γυρίζω από τη δουλειά, περνάω πάντα από τον φούρνο για να πάρω
+    φρέσκο ψωμί για το βραδινό μας.
+  example2_en: When I return from work, I always pass by the bakery to get fresh bread
+    for our dinner.
+  audio: pairno-to-leoforeio--32babc.mp3
+  example_audio: chthes-pira-tilefono-29cbbb.mp3
+  example2_audio: otan-gyrizo-apo-ti-d-b881ed.mp3
+- id: SP-U06-023
+  greek: Τις καθημερινές γυρίζω στο σπίτι στις έξι, αλλά χθες γύρισα στις εννέα.
+  english: On weekdays I return home at six, but yesterday I returned at nine. (Stress
+    Shift Drill)
+  phonetic_hint: '[tis kaθimeriˈnes jiˈrizo sto ˈspiti stis ˈeksi, aˈla xθes ˈjirisa
+    stis eˈnea] — Stress shift: Present ''γυρίζω'' [jiˈrizo] -> Aorist ''γύρισα''
+    [ˈjirisa] -> Subjunctive ''να γυρίσω'' [na jiˈriso].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: 'Verbs in -ίζω: paroxytone Present γυρίζω [jiˈrizo] vs. proparoxytone Aorist
+      γύρισα [ˈjirisa]'
+  notes: 'Examiner Objective: Spoken Greek relies heavily on `-ίζω` verbs (`γυρίζω`,
+    `αρχίζω`, `νομίζω`, `ψωνίζω`), all of which shift stress to the antepenult in
+    the Aorist.
+
+    Strategy: Contrast `γυρίζω [jiˈrizo]` with `γύρισα [ˈjirisa]`, and remember 1st
+    plural shifts back to `γυρίσαμε [jiˈrisame]`.'
+  keg_communicative_function: Reporting daily return times versus past exceptions
+    with accurate -ίζω stress patterns
+  example_el: Αύριο θα γυρίσω νωρίς από το γραφείο, γιατί θέλω να ψωνίσω στη λαϊκή
+    αγορά πριν κλείσουν οι πάγκοι.
+  example_en: Tomorrow I will return early from the office, because I want to shop
+    at the farmers' market before the stalls close.
+  example2_el: Όταν γυρίσαμε από τις διακοπές μας στο νησί, ξεκουραστήκαμε όλη την
+    Κυριακή και δείξαμε τις φωτογραφίες στους φίλους μας.
+  example2_en: When we returned from our holidays on the island, we rested all Sunday
+    and showed the photos to our friends.
+  audio: tis-kathimerines-gyr-35e2c9.mp3
+  example_audio: ayrio-tha-gyriso-nor-358550.mp3
+  example2_audio: otan-gyrisame-apo-ti-84dd78.mp3
+- id: SP-U06-024
+  greek: Το μάθημα αρχίζει στις δέκα ακριβώς, αλλά σήμερα άρχισε δέκα λεπτά πιο αργά.
+  english: The lesson starts at ten sharp, but today it started ten minutes later.
+    (Stress Shift Drill)
+  phonetic_hint: '[to ˈmaθima arˈçizi stis ˈðeka akriˈvos, aˈla ˈsimera ˈarçise ˈðeka
+    leˈpta pço arˈɣa] — Stress retraction: ''αρχίζει'' [arˈçizi] -> ''άρχισε'' [ˈarçise]
+    -> ''να αρχίσει'' [na arˈçisi].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: Contrastive stress on αρχίζω [arˈçizo] vs. άρχισα [ˈarçisa] and palatal
+      [ç] before [i]
+  notes: 'Examiner Objective: Tests both the stress shift (`αρχίζει` vs. `άρχισε`)
+    and the soft palatal `[ç]` before `ι`.
+
+    Strategy: Emphasize the initial `ΑΡ-` in `άρχισε [ˈarçise]`.'
+  keg_communicative_function: Stating schedules and timing changes with accurate stress
+    placement
+  example_el: Πότε άρχισες να μαθαίνεις ελληνικά και πόσες ώρες την εβδομάδα κάνεις
+    μάθημα με τον δάσκαλό σου;
+  example_en: When did you start learning Greek and how many hours a week do you have
+    lessons with your teacher?
+  example2_el: Η ταινία στον κινηματογράφο θα αρχίσει στις εννέα το βράδυ, οπότε πρέπει
+    να είμαστε εκεί είκοσι λεπτά νωρίτερα.
+  example2_en: The movie at the cinema will start at nine in the evening, so we must
+    be there twenty minutes earlier.
+  audio: to-mathima-archizei--b990f0.mp3
+  example_audio: pote-archises-na-mat-7d043b.mp3
+  example2_audio: i-tainia-ston-kinima-3ca5a7.mp3
+- id: SP-U06-025
+  greek: Συνήθως πληρώνω με κάρτα, αλλά στον φούρνο σήμερα πλήρωσα με μετρητά.
+  english: Usually I pay by card, but at the bakery today I paid with cash. (Stress
+    Shift Drill)
+  phonetic_hint: '[siˈniθos pliˈrono me ˈkarta, aˈla ston ˈfurno ˈsimera ˈplirosa
+    me metriˈta] — Verbs in -ώνω: ''πληρώνω'' [pliˈrono] -> ''πλήρωσα'' [ˈplirosa]
+    -> ''να πληρώσω'' [na pliˈroso].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: 'Verbs in -ώνω: paroxytone Present πληρώνω [pliˈrono] vs. proparoxytone
+      Aorist πλήρωσα [ˈplirosa]'
+  notes: 'Examiner Objective: Essential for Stage 2 shopping/service roleplays (`πληρώνω`,
+    `πλήρωσα`, `να πληρώσω`).
+
+    Strategy: Notice that `πληρώνω` and `να πληρώσω` share the exact same stress position
+    (`-ρώ-`), while only the past `πλήρωσα` moves stress to `πλή-`.'
+  keg_communicative_function: Discussing payments and transactions across tenses with
+    accurate stress
+  example_el: Μπορώ να πληρώσω τον λογαριασμό με την πιστωτική μου κάρτα ή δέχεστε
+    μόνο μετρητά στο κατάστημά σας;
+  example_en: Can I pay the bill with my credit card or do you only accept cash at
+    your shop?
+  example2_el: Χθες πλήρωσα το ενοίκιο του σπιτιού και τους λογαριασμούς του ρεύματος
+    και του νερού μέσω διαδικτύου.
+  example2_en: Yesterday I paid the house rent and the electricity and water bills
+    online.
+  audio: synithos-plirono-me--1d0d02.mp3
+  example_audio: mporo-na-pliroso-ton-e239f3.mp3
+  example2_audio: chthes-plirosa-to-en-22f998.mp3
+- id: SP-U06-026
+  greek: Τελειώνω τη δουλειά μου στις τέσσερις, αλλά χθες τελείωσα στις τρεις και
+    μισή.
+  english: I finish my work at four, but yesterday I finished at three thirty. (Stress
+    Shift Drill)
+  phonetic_hint: '[teˈljono ti ðuˈlja mu stis ˈteseris, aˈla xθes teˈliosa stis tris
+    ce miˈsi] — Synizesis in Present ''τελειώνω'' [teˈljono] vs. full vowel stress
+    in Aorist ''τελείωσα'' [teˈliosa].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Morphological Accuracy & Stress Placement)
+    focus: Syllable count and stress shift in τελειώνω [teˈljono] vs. τελείωσα [teˈliosa]
+      vs. θα τελειώσω [θa teˈljoso]
+  notes: 'Examiner Objective: `Τελειώνω` has palatalized `[lj]` before stressed `-ώ-`,
+    whereas Aorist `τελείωσα` stresses `-λεί- [ˈli]` before `-ωσα`.
+
+    Strategy: Practice the rhythm `[te-ˈljo-no]` -> `[te-ˈli-o-sa]` -> `[θa te-ˈljo-so]`.'
+  keg_communicative_function: Stating work and study completion times across Present,
+    Past, and Future
+  example_el: Μόλις τελειώσω τα μαθήματά μου το απόγευμα, θα σε πάρω τηλέφωνο για
+    να πάμε μαζί μια βόλτα στην παραλία.
+  example_en: As soon as I finish my lessons in the afternoon, I will call you so
+    we can go together for a walk on the beach.
+  example2_el: Πέρσι τελείωσα το πρώτο επίπεδο των ελληνικών και φέτος ετοιμάζομαι
+    με χαρά για τις εξετάσεις του δευτέρου επιπέδου.
+  example2_en: Last year I finished the first level of Greek and this year I am happily
+    preparing for the second-level exams.
+  audio: teleiono-ti-doyleia--a1f8df.mp3
+  example_audio: molis-teleioso-ta-ma-7ac76b.mp3
+  example2_audio: persi-teleiosa-to-pr-a6b703.mp3
+- id: SP-U06-027
+  greek: Το δωμάτιο του ξενοδοχείου μας είναι πολύ φωτεινό και έχει μεγάλο μπαλκόνι.
+  english: Our hotel room is very bright and has a large balcony. (Internal Clitic
+    Stress Shift Drill)
+  phonetic_hint: '[to ðoˈmatio tu ksenoðoˈçiu mas ˈine poˈli fotiˈno ce ˈeçi meˈɣalo
+    balˈkoni] — Genitive stress shift: Nominative ''το ξενοδοχείο'' -> Genitive ''του
+    ξενοδοχείου'' + enclitic ''μας''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Nominal Stress & Enclitic Accentuation)
+    focus: Enclitic stress rule (ο δάσκαλός μου, το δωμάτιό μας, του αυτοκινήτου μου)
+  notes: 'Examiner Objective: Proparoxytone nouns (`το δωμάτιο`, `ο δάσκαλος`, `το
+    αυτοκίνητο`) gain a secondary spoken stress on the final syllable when followed
+    by a possessive clitic (`το δωμάτιό μας [to ðoˌmatiˈo mas]`).
+
+    Strategy: Put clear vocal energy on the syllable right before `μου/σου/του/μας/σας/τους`
+    in 3+ syllable proparoxytone words.'
+  keg_communicative_function: Applying the Greek enclitic stress rule naturally when
+    describing personal possessions
+  example_el: Ο δάσκαλός μας στο σχολείο είναι πολύ υπομονετικός και μας εξηγεί πάντα
+    τους κανόνες με απλά παραδείγματα.
+  example_en: Our teacher at school is very patient and always explains the rules
+    to us with simple examples.
+  example2_el: Τα παράθυρα του διαμερίσματός μου βλέπουν σε ένα ήσυχο πάρκο με πολλά
+    πράσινα δέντρα και λουλούδια.
+  example2_en: The windows of my apartment look out onto a quiet park with many green
+    trees and flowers.
+  audio: to-domatio-toy-xenod-9fa2f3.mp3
+  example_audio: o-daskalos-mas-sto-s-182790.mp3
+  example2_audio: ta-parathyra-toy-dia-fe79c4.mp3
+- id: SP-U06-028
+  greek: Κάθε μέρα τρώω φρούτα, αλλά χθες έφαγα ένα γλυκό μετά το φαγητό.
+  english: Every day I eat fruit, but yesterday I ate a sweet after the meal. (Suppletive
+    Stem & Stress Drill)
+  phonetic_hint: '[ˈkaθe ˈmera ˈtroo ˈfruta, aˈla xθes ˈefaɣa ˈena ɣliˈko meˈta to
+    fajiˈto] — Irregular suppletive verb: Present ''τρώω'' [ˈtroo] -> Aorist ''έφαγα''
+    [ˈefaɣa] -> Subjunctive ''να φάω'' [na ˈfao].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (High-Frequency Irregular Verb & Stress)
+    focus: 'Suppletive stems and stress shift: τρώω (Present) -> έφαγα / φάγαμε (Aorist)
+      -> θα φάω (Future)'
+  notes: 'Examiner Objective: High-frequency irregular verbs (`τρώω -> έφαγα`, `βλέπω
+    -> είδα`, `πίνω -> ήπια`, `λέω -> είπα`) are tested constantly in Stage 1 and
+    Stage 3.
+
+    Strategy: Drill the triad `τρώω - έφαγα - θα φάω` until automatic.'
+  keg_communicative_function: Narrating daily diet versus past meals using high-frequency
+    irregular verb stems
+  example_el: Σήμερα το μεσημέρι θα φάω μια ελαφριά σαλάτα στο γραφείο, γιατί το βράδυ
+    θα βγούμε για φαγητό με φίλους.
+  example_en: Today at noon I will eat a light salad at the office, because in the
+    evening we will go out for food with friends.
+  example2_el: Την Κυριακή φάγαμε φρέσκο ψάρι σε μια όμορφη ταβέρνα δίπλα στη θάλασσα
+    και ήπιαμε λευκό κρασί.
+  example2_en: On Sunday we ate fresh fish at a lovely taverna by the sea and drank
+    white wine.
+  audio: kathe-mera-troo-froy-389257.mp3
+  example_audio: simera-to-mesimeri-t-28911d.mp3
+  example2_audio: tin-kyriaki-fagame-f-252fb8.mp3
+- id: SP-U06-029
+  greek: Θα ήθελα να σας ζητήσω μια πληροφορία, αν έχετε λίγο χρόνο.
+  english: I would like to ask you for a piece of information, if you have a little
+    time. (Polite Conditional Tone Drill)
+  phonetic_hint: '[θa ˈiθela na sas ziˈtiso mɲa plirofoˈria, an ˈeçete ˈliɣo ˈxrono]
+    — Softened polite pitch contour on ''Θα ήθελα να σας ζητήσω'' + conditional ''αν
+    έχετε''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Criterion 4 (Polite Register & Tone Modulation)
+    focus: Replacing blunt imperatives (Πείτε μου / Δώστε μου) with polite conditional
+      Θα ήθελα να + Aorist subjunctive
+  notes: 'Examiner Objective: In Stage 2 roleplays, blunt imperatives (`Δώστε μου
+    ένα εισιτήριο`) lower scores on Appropriateness and Intonation.
+
+    Strategy: Always open service requests with a warm, mid-high pitch on `Θα ήθελα
+    να...`.'
+  keg_communicative_function: Initiating a polite service enquiry using conditional
+    mitigation
+  example_el: Καλημέρα σας, θα ήθελα να κλείσω ένα δίκλινο δωμάτιο με πρωινό για τρία
+    βράδια τον επόμενο μήνα, παρακαλώ.
+  example_en: Good morning, I would like to book a double room with breakfast for
+    three nights next month, please.
+  example2_el: Με συγχωρείτε, θα ήθελα να μάθω τι ώρα φεύγει το τελευταίο λεωφορείο
+    για το αεροδρόμιο απόψε.
+  example2_en: Excuse me, I would like to find out what time the last bus for the
+    airport leaves tonight.
+  audio: tha-ithela-na-sas-zi-20210b.mp3
+  example_audio: kalimera-sas-tha-ith-65a7e2.mp3
+  example2_audio: me-sygchoreite-tha-i-808940.mp3
+- id: SP-U06-030
+  greek: Θα μπορούσατε να μου πείτε τι ώρα ανοίγει το φαρμακείο το απόγευμα;
+  english: Could you tell me what time the pharmacy opens in the afternoon? (Polite
+    Conditional Question Drill)
+  phonetic_hint: '[θa boˈrusate na mu ˈpite ti ˈora aˈniji to farmaˈcio to aˈpojevma↗]
+    — Polite conditional ''Θα μπορούσατε να μου πείτε'' + indirect question intonation.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Criterion 4 (Polite Inquiry & Question Intonation)
+    focus: Conditional modal Θα μπορούσατε να + indirect question clause (τι ώρα ανοίγει)
+  notes: 'Examiner Objective: Trains polite indirect questions for Stage 2 cue cards
+    (pharmacy, post office, ticket counter).
+
+    Strategy: Stress `μπο-ΡΟΥ-σα-τε` gently and let the voice rise slightly at the
+    end of the request.'
+  keg_communicative_function: Formulating polite indirect questions about opening
+    hours and services
+  example_el: Θα μπορούσατε, σας παρακαλώ, να μου δείξετε αυτό το μπλε πουκάμισο σε
+    λίγο μεγαλύτερο μέγεθος;
+  example_en: Could you please show me this blue shirt in a slightly larger size?
+  example2_el: Θα μπορούσατε να μου εξηγήσετε πώς πρέπει να παίρνω αυτό το σιρόπι
+    για τον λαιμό κάθε μέρα;
+  example2_en: Could you explain to me how I should take this throat syrup every day?
+  audio: tha-mporoysate-na-mo-4ed965.mp3
+  example_audio: tha-mporoysate-sas-p-23d813.mp3
+  example2_audio: tha-mporoysate-na-mo-c1d102.mp3
+- id: SP-U06-031
+  greek: Μήπως υπάρχει διαθέσιμο δωμάτιο με θέα στη θάλασσα για δύο βράδια;
+  english: Is there perhaps an available room with a sea view for two nights? (Polite
+    Tentative Intonation Drill)
+  phonetic_hint: '[ˈmipos iˈparçi ðjaˈθesimo ðoˈmatio me ˈθea sti ˈθalasa ja ˈðio
+    ˈvraðja↗] — Tentative politeness marker ''Μήπως'' + rising polar question boundary
+    tone [↗].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Criterion 4 (Polite Tentative Questions & Rising Intonation)
+    focus: Polite particle Μήπως + rising terminal pitch contour in yes/no questions
+  notes: 'Examiner Objective: Starting a yes/no question with `Μήπως...;` immediately
+    signals high spoken politeness in Greek.
+
+    Strategy: Keep a gentle rising intonation on the final word (`για δύο βράδια;
+    ↗`).'
+  keg_communicative_function: Asking polite availability questions in hotel and travel
+    roleplays
+  example_el: Μήπως γνωρίζετε αν υπάρχει κάποια έκπτωση στα εισιτήρια του πλοίου για
+    τους φοιτητές και τις οικογένειες;
+  example_en: Do you perhaps know if there is any discount on the ferry tickets for
+    students and families?
+  example2_el: Με συγχωρείτε, μήπως έχετε λίγο χρόνο να με βοηθήσετε με αυτή την αίτηση
+    εγγραφής;
+  example2_en: Excuse me, do you perhaps have a little time to help me with this registration
+    form?
+  audio: mipos-yparchei-diath-0778e9.mp3
+  example_audio: mipos-gnorizete-an-y-f0678e.mp3
+  example2_audio: me-sygchoreite-mipos-53c4f1.mp3
+- id: SP-U06-032
+  greek: Το εισιτήριο περιλαμβάνει και τις αποσκευές; Ναι, το εισιτήριο περιλαμβάνει
+    και τις αποσκευές.
+  english: Does the ticket include luggage too? Yes, the ticket includes luggage too.
+    (Statement vs. Polar Question Intonation Drill)
+  phonetic_hint: '[to isiˈtirio perilaˈmvani ce tis aposceˈves↗] vs. [ne, to isiˈtirio
+    perilaˈmvani ce tis aposceˈves↘] — Identical syntax distinguished purely by rising
+    [↗] vs. falling [↘] intonation.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: 'Criterion 4 (Sentence Prosody: Polar Question vs. Declarative Statement)'
+    focus: Distinguishing Greek yes/no questions from statements solely via pitch
+      contour (no auxiliary 'do/does')
+  notes: 'Examiner Objective: Because Greek has no question auxiliary (*do/does*),
+    a flat intonation makes a question sound like a statement.
+
+    Strategy: Raise pitch sharply on the stressed syllable of the final word (`αποσκευ-ΕΣ;
+    ↗`) for the question, and drop pitch (`↘`) for the answer.'
+  keg_communicative_function: Using rising and falling pitch contours to distinguish
+    polar questions from statements
+  example_el: Στην τιμή του δωματίου περιλαμβάνεται και το πρωινό; Ναι, φυσικά, το
+    πρωινό σερβίρεται από τις επτά έως τις δέκα.
+  example_en: Is breakfast also included in the price of the room? Yes, of course,
+    breakfast is served from seven to ten.
+  example2_el: Μπορώ να αλλάξω αυτό το παντελόνι αν δεν μου κάνει; Βεβαίως, αρκεί
+    να έχετε μαζί σας την απόδειξη αγοράς.
+  example2_en: Can I exchange these trousers if they don't fit me? Certainly, provided
+    you have the purchase receipt with you.
+  audio: to-eisitirio-perilam-755ffe.mp3
+  example_audio: stin-timi-toy-domati-a22fe0.mp3
+  example2_audio: mporo-na-allaxo-ayto-61253f.mp3
+- id: SP-U06-033
+  greek: Σας πειράζει αν ανοίξω λίγο το παράθυρο επειδή κάνει ζέστη στην αίθουσα;
+  english: Do you mind if I open the window a little because it is hot in the room?
+    (Polite Permission & Tone Drill)
+  phonetic_hint: '[sas piˈrazi an aˈnikso ˈliɣo to paˈraθiro epiˈði ˈkani ˈzesti stin
+    ˈeθusa↗] — Polite permission formula ''Σας πειράζει αν + Aorist subjunctive''
+    with rising question tone.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Criterion 5 (Interactive Politeness & Permission)
+    focus: Polite permission request Σας πειράζει αν / Μπορώ να + Aorist subjunctive
+  notes: 'Examiner Objective: Tests polite negotiation with a partner or interlocutor
+    in Stage 2.
+
+    Strategy: Pair `Σας πειράζει αν...;` with a courteous reason (`επειδή...`).'
+  keg_communicative_function: Asking polite permission and negotiating comfort or
+    schedule adjustments
+  example_el: Σας πειράζει αν αλλάξουμε την ώρα του ραντεβού μας από τις πέντε στις
+    έξι το απόγευμα, γιατί έχω μια υποχρέωση;
+  example_en: Do you mind if we change the time of our appointment from five to six
+    in the afternoon, because I have an obligation?
+  example2_el: Μήπως σας πειράζει να καθίσουμε στο τραπέζι έξω στον κήπο, όπου έχει
+    περισσότερη δροσιά και ησυχία;
+  example2_en: Do you perhaps mind if we sit at the table outside in the garden, where
+    it is cooler and quieter?
+  audio: sas-peirazei-an-anoi-f83acc.mp3
+  example_audio: sas-peirazei-an-alla-7ceb0b.mp3
+  example2_audio: mipos-sas-peirazei-n-7b9b27.mp3
+- id: SP-U06-034
+  greek: Φοβάμαι πως δεν θα μπορέσω να έρθω το Σάββατο, αλλά μήπως βολεύει την Κυριακή;
+  english: I'm afraid I won't be able to come on Saturday, but does Sunday perhaps
+    suit you? (Polite Refusal & Counter-Proposal Drill)
+  phonetic_hint: '[foˈvame pos ðen θa boˈreso na ˈerθo to ˈsavato↘, aˈla ˈmipos voˈlevi
+    tiŋ ɟirjaˈci↗] — Falling apologetic tone on refusal followed by rising cooperative
+    tone on counter-proposal.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Criterion 5 (Polite Disagreement & Counter-Proposal)
+    focus: Diplomatic softener Φοβάμαι πως / Δυστυχώς + counter-proposal μήπως βολεύει
+      / προτιμάτε
+  notes: 'Examiner Objective: Stage 2 cue cards always require candidates to decline
+    one inconvenient time/option and propose an alternative.
+
+    Strategy: Never just say `Όχι, δεν μπορώ`. Use `Φοβάμαι πως...` + `μήπως βολεύει...;`.'
+  keg_communicative_function: Declining a suggestion politely and proposing a practical
+    alternative
+  example_el: Δυστυχώς την Παρασκευή το βράδυ δουλεύω μέχρι αργά, αλλά αν θέλεις μπορούμε
+    να βγούμε για φαγητό το Σάββατο το μεσημέρι.
+  example_en: Unfortunately on Friday evening I work until late, but if you want we
+    can go out for food on Saturday at noon.
+  example2_el: Η ιδέα σου για το θέατρο είναι πολύ ωραία, όμως τα εισιτήρια είναι
+    λίγο ακριβά· μήπως προτιμάς να πάμε σινεμά;
+  example2_en: Your idea for the theater is very nice, however the tickets are a bit
+    expensive; do you perhaps prefer to go to the cinema?
+  audio: fovamai-pos-den-tha--d220d9.mp3
+  example_audio: dystychos-tin-parask-f807ec.mp3
+  example2_audio: i-idea-soy-gia-to-th-1ace07.mp3
+- id: SP-U06-035
+  greek: Σήμερα έχει πολύ κόσμο στον δρόμο, έχω πολλή δουλειά, αλλά κάνει πολύ ωραίο
+    καιρό.
+  english: 'Today there are many people on the street, I have a lot of work, but the
+    weather is very nice. (Morphological Trap Drill: πολύς / πολλή / πολύ)'
+  phonetic_hint: '[ˈsimera ˈeçi poˈli ˈkozmo ston ˈðromo, ˈexo poˈli ðuˈlja, aˈla
+    ˈkani poˈli oˈreo ceˈro] — Homophonous [poˈli] in Accusative/Adverb vs. Nominative
+    masculine ''πολύς κόσμος'' [poˈlis ˈkozmos].'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: 'Criterion 2 (Morphological Trap: πολύς / πολλή / πολύ)'
+    focus: Distinguishing Nominative masculine πολύς (πολύς κόσμος) from Accusative/Feminine/Neuter/Adverb
+      [poˈli] and plural πολλοί/πολλές/πολλά
+  notes: 'Examiner Objective: Candidates often say `*πολύ κόσμος` (dropping `-ς` in
+    Nominative) or `*πολλοί δουλειά`.
+
+    Strategy: In Nominative masculine subject position use `πολύς κόσμος` (`Υπάρχει
+    πολύς κόσμος`), in Accusative object position use `πολύ κόσμο` (`Βλέπω πολύ κόσμο`).'
+  keg_communicative_function: Using the quantifier πολύς/πολλή/πολύ accurately across
+    gender, number, and case
+  example_el: Στην κεντρική πλατεία της πόλης υπάρχει πάντα πολύς κόσμος, πολλά μαγαζιά
+    και πολλές όμορφες καφετέριες.
+  example_en: In the central square of the city there are always many people, many
+    shops, and many lovely cafés.
+  example2_el: Αυτό το καλοκαίρι γνώρισα πολλούς καλούς φίλους στο νησί και περάσαμε
+    πολύ ωραία στις διακοπές μας.
+  example2_en: This summer I met many good friends on the island and we had a very
+    nice time on our holidays.
+  audio: simera-echei-poly-ko-a31c89.mp3
+  example_audio: stin-kentriki-platei-fb3be6.mp3
+  example2_audio: ayto-to-kalokairi-gn-fa6ef3.mp3
+- id: SP-U06-036
+  greek: Πήγα στον γιατρό το πρωί και έδωσα τις εξετάσεις μου στη γραμματεία της γιατρού.
+  english: I went to the doctor in the morning and gave my test results to the (female)
+    doctor's reception. (Morphological Trap Drill)
+  phonetic_hint: '[ˈpiɣa ston jaˈtro to proˈi ce ˈeðosa tis ekseˈtasis mu sti ɣramaˈtia
+    tis jaˈtru] — Epicene masculine/feminine nouns in -ός: ''ο/η γιατρός'' -> Acc.
+    ''τον/την γιατρό'', Gen. ''του/της γιατρού''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: 'Criterion 2 (Morphological Trap: Feminine Nouns in -ος & Accusative/Genitive
+      Articles)'
+    focus: Common-gender professions (ο/η γιατρός, ο/η δικηγόρος, ο/η υπάλληλος) and
+      feminine nouns in -ος (η οδός, η είσοδος, η έξοδος)
+  notes: 'Examiner Objective: Feminine nouns ending in `-ος` (`η είσοδος`, `η οδός`,
+    `η γιατρός`) trap learners into using masculine articles (`*τον είσοδο`).
+
+    Strategy: Always match the feminine article: `στην κεντρική είσοδο`, `στην οδό
+    Ερμού`, `μίλησα με την ευγενική υπάλληλο`.'
+  keg_communicative_function: Maintaining accurate article-noun gender agreement with
+    feminine nouns in -ος
+  example_el: Το φαρμακείο βρίσκεται στην κεντρική οδό της γειτονιάς μας, ακριβώς
+    απέναντι από την είσοδο του σταθμού του μετρό.
+  example_en: The pharmacy is located on the main street of our neighborhood, right
+    across from the entrance of the metro station.
+  example2_el: Ρώτησα την ευγενική υπάλληλο στο γκισέ τι ώρα αναχωρεί το επόμενο πλοίο
+    για το νησί της Ρόδου.
+  example2_en: I asked the polite female clerk at the counter what time the next ship
+    departs for the island of Rhodes.
+  audio: piga-ston-giatro-to--1281e9.mp3
+  example_audio: to-farmakeio-vrisket-097cf0.mp3
+  example2_audio: rotisa-tin-eygeniki--942b1c.mp3
+- id: SP-U06-037
+  greek: Στην εικόνα βλέπω τρεις άντρες, τέσσερις γυναίκες και τρία μικρά παιδιά.
+  english: 'In the picture I see three men, four women, and three small children.
+    (Morphological Trap Drill: Numerals 3 & 4)'
+  phonetic_hint: '[stin iˈkona ˈvlepo tris ˈandres, ˈteseris jiˈneces ce ˈtria miˈkra
+    peˈðja] — Gender agreement on numerals: Masc./Fem. ''τρεις / τέσσερις'' [tris
+    / ˈteseris] vs. Neuter ''τρία / τέσσερα''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: 'Stage 3 & Criterion 2 (Morphological Trap: Declension of Numerals 3 and
+      4)'
+    focus: Masculine/Feminine τρεις & τέσσερις (τρεις μέρες, τέσσερις φίλοι) vs. Neuter
+      τρία & τέσσερα (τρία χρόνια, τέσσερα παιδιά)
+  notes: 'Examiner Objective: In Stage 3 picture descriptions, saying `*τρία γυναίκες`
+    or `*τρεις παιδιά` is a glaring grammatical error.
+
+    Strategy: Use `τρεις / τέσσερις` for masculine and feminine (`τρεις ώρες`, `τέσσερις
+    εβδομάδες`) and `τρία / τέσσερα` only for neuter (`τρία άτομα`, `τέσσερα δωμάτια`).'
+  keg_communicative_function: Counting people, objects, and time durations accurately
+    in Stage 3 descriptions
+  example_el: Μένω στην Ελλάδα εδώ και τρία χρόνια και κάνω μάθημα ελληνικών τέσσερις
+    ώρες κάθε εβδομάδα με την τάξη μου.
+  example_en: I have been living in Greece for three years now and I take Greek lessons
+    four hours every week with my class.
+  example2_el: Θα ήθελα να αγοράσω τρεις μπλούζες, τέσσερις καφέδες και τρία μπουκάλια
+    νερό για την εκδρομή μας.
+  example2_en: I would like to buy three shirts, four coffees, and three bottles of
+    water for our excursion.
+  audio: stin-eikona-vlepo-tr-ed0a8d.mp3
+  example_audio: meno-stin-ellada-edo-e5cca2.mp3
+  example2_audio: tha-ithela-na-agoras-09b9b5.mp3
+- id: SP-U06-038
+  greek: Τα καλοκαίρια της αρέσει να ταξιδεύει με την οικογένειά της στα ελληνικά
+    νησιά.
+  english: 'In the summers she likes travelling with her family to the Greek islands.
+    (Morphological Trap Drill: αρέσει Construction)'
+  phonetic_hint: '[ta kaloˈcerja tis aˈresi na taksiˈðevi me tin ikoˈjeɲa tis sta
+    eliniˈka niˈsça] — Genitive weak pronoun ''μου / σου / του / της / μας / σας /
+    τους'' + ''αρέσει / αρέσουν''.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: 'Criterion 2 (Morphological & Syntactic Trap: Μου αρέσει / Μου αρέσουν)'
+    focus: Genitive experiencer pronoun (μου/του/της/μας/τους) + singular αρέσει (with
+      singular noun or να-clause) vs. plural αρέσουν (with plural noun)
+  notes: 'Examiner Objective: Two classic exam errors are using `*με αρέσει` instead
+    of `μου αρέσει`, or failing to pluralize `μου αρέσουν τα ταξίδια`.
+
+    Strategy: Use singular `μου αρέσει το καλοκαίρι / μου αρέσει να κολυμπάω`, and
+    plural `μου αρέσουν οι ελληνικές παραλίες`.'
+  keg_communicative_function: Expressing likes and preferences with accurate Genitive
+    pronouns and verb number agreement
+  example_el: Στους γονείς μου αρέσουν πολύ τα παραδοσιακά χωριά, ενώ στον αδερφό
+    μου αρέσει να μένει κοντά στη θάλασσα.
+  example_en: My parents really like traditional villages, whereas my brother likes
+    staying near the sea.
+  example2_el: Μας αρέσουν πάρα πολύ οι ελληνικοί χοροί και η μουσική, γι' αυτό πηγαίνουμε
+    συχνά σε γιορτές με την παρέα μας.
+  example2_en: We really like Greek dances and music, which is why we often go to
+    celebrations with our group of friends.
+  audio: ta-kalokairia-tis-ar-6d021e.mp3
+  example_audio: stoys-goneis-moy-are-193a57.mp3
+  example2_audio: mas-aresoyn-para-pol-85d1c4.mp3
+- id: SP-U06-039
+  greek: Έδωσα του φίλου μου το βιβλίο και μου είπε ότι θα μου το επιστρέψει την Τρίτη.
+  english: 'I gave my friend the book and he told me that he will return it to me
+    on Tuesday. (Morphological Trap Drill: Clitic Pronoun Order)'
+  phonetic_hint: '[ˈeðosa tu ˈfilu mu to viˈvlio ce mu ˈipe ˈoti θa mu to epiˈstrepsi
+    tin ˈtriti] — Double clitic pronoun order before the verb: Indirect (Genitive
+    ''μου'') + Direct (Accusative ''το'') + Verb.'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Criterion 2 & 4 (Clitic Pronoun Phonology & Word Order)
+    focus: Proclitic weak pronoun cluster (θα μου το δώσει, μου το είπε) as a single
+      phonological word with main verb
+  notes: 'Examiner Objective: Weak object pronouns (`μου το έδωσε`, `θα σας το στείλω`)
+    must precede indicative/subjunctive verbs without pause.
+
+    Strategy: Pronounce `θα μου το επιστρέψει` smoothly as one prosodic unit `[θamutoepiˈstrepsi]`.'
+  keg_communicative_function: Using weak indirect and direct object pronouns fluently
+    in spoken exchanges
+  example_el: Αν χρειάζεσαι το λεξικό για το μάθημα, μπορώ να σου το δώσω σήμερα και
+    να μου το φέρεις την επόμενη εβδομάδα.
+  example_en: If you need the dictionary for the lesson, I can give it to you today
+    and you can bring it back to me next week.
+  example2_el: Ζήτησα από τον υπάλληλο το πρόγραμμα των δρομολογίων και μου το έστειλε
+    αμέσως στο ηλεκτρονικό μου ταχυδρομείο.
+  example2_en: I asked the clerk for the timetable of routes and he sent it to me
+    immediately at my email address.
+  audio: edosa-toy-filoy-moy--76a6ed.mp3
+  example_audio: an-chreiazesai-to-le-c21eea.mp3
+  example2_audio: zitisa-apo-ton-ypall-b6ceb9.mp3
+- id: SP-U06-040
+  greek: Σας ευχαριστώ θερμά για τη συζήτηση, χάρηκα πολύ που τα είπαμε και σας εύχομαι
+    καλή συνέχεια!
+  english: Thank you warmly for the conversation, I was very glad we spoke, and I
+    wish you all the best! (Exam Closing Prosody Drill)
+  phonetic_hint: '[sas efxariˈsto θerˈma ja ti siˈzitisi, ˈxarika poˈli pu ta ˈipame
+    ce sas ˈefxome kaˈli siˈneçia] — Warm, confident closing cadence combining [efx]
+    (''ευχαριστώ'', ''εύχομαι'') and palatal [ç] (''συνέχεια'').'
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 Closing & Criterion 4/5 (Polite Farewell & Prosodic Confidence)
+    focus: Formal/polite closing formulas (Σας ευχαριστώ θερμά, χάρηκα πολύ, καλή
+      συνέχεια)
+  notes: 'Examiner Objective: Leaving a warm, natural, phonologically crisp final
+    impression at the end of the 12-minute KEG A2 speaking exam.
+
+    Strategy: Deliver with a smile, clear articulation of `ευχαριστώ / εύχομαι [efx-]`,
+    and natural falling-warm intonation.'
+  keg_communicative_function: Concluding the oral examination politely with natural
+    farewell formulas
+  example_el: Ήταν μεγάλη μου χαρά που συζητήσαμε σήμερα μαζί· σας ευχαριστώ πολύ
+    για τον χρόνο σας και εύχομαι να έχετε μια όμορφη μέρα.
+  example_en: It was my great pleasure that we talked together today; thank you very
+    much for your time and I wish you a lovely day.
+  example2_el: Σας ευχαριστώ πολύ για την ευχάριστη συζήτηση, χάρηκα για τη γνωριμία
+    και ελπίζω να τα ξαναπούμε σύντομα.
+  example2_en: Thank you very much for the pleasant conversation, I was glad to meet
+    you, and I hope we speak again soon.
+  audio: sas-eycharisto-therm-fbe8f0.mp3
+  example_audio: itan-megali-moy-char-ae5d6f.mp3
+  example2_audio: sas-eycharisto-poly--724ea5.mp3

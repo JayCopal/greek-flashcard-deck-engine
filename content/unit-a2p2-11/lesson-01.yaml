@@ -1,0 +1,571 @@
+unit_id: unit-a2p2-11
+lesson_id: lesson-01
+title: 'Μάθημα 11: Πολιτισμός, Τέχνες, ΜΜΕ & Ψηφιακή Επικοινωνία (Culture, Arts &
+  Digital Media)'
+description: Mastering theater, exhibitions, cinema, news media, social networking,
+  and expressing cultural recommendations for the KEG A2 exam.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-11 Core Notes: Πολιτισμός, Τέχνες, ΜΜΕ & Ψηφιακή Επικοινωνία\n\
+  • Cultural Life & Entertainment Vocabulary:\n  - Performing Arts & Exhibitions (η\
+  \ θεατρική παράσταση, η έκθεση ζωγραφικής, το μουσείο σύγχρονης τέχνης, το μουσικό\
+  \ φεστιβάλ, η πρεμιέρα, ο/η θεατής).\n  - Media & Press (το δελτίο ειδήσεων, η εφημερίδα,\
+  \ το ενημερωτικό άρθρο, ο/η δημοσιογράφος, η ηλεκτρονική συνδρομή).\n  - Digital\
+  \ Media & Networking (τα μέσα κοινωνικής δικτύωσης, η ανάρτηση, ο λογαριασμός χρήστη,\
+  \ ο κωδικός πρόσβασης, η ψηφιακή εφαρμογή, η κοινοποίηση συνδέσμου, το σχόλιο).\n\
+  \  - Critical Review & Personal Opinions (προτείνω ανεπιφύλακτα, εντυπωσιάστηκα\
+  \ από την παράσταση, παρακολουθώ τα πολιτιστικά δρώμενα)."
+entries:
+- id: A2P2-U11-001
+  greek: η θεατρική παράσταση
+  english: theatrical performance / play
+  notes: 'Collocation: η παράσταση (performance) + adjective θεατρικός, -ή, -ό.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing cultural events, theater attendance, and
+    leisure activities
+  example_el: Κλείσαμε εισιτήρια για μια εξαιρετική θεατρική παράσταση το Σάββατο.
+  example_en: We booked tickets for an excellent theater performance on Saturday.
+  example2_el: Η θεατρική παράσταση ξεκινάει ακριβώς στις εννέα το βράδυ.
+  example2_en: The theater performance starts punctually at nine in the evening.
+  status: verified
+  audio: i-theatriki-parastas-ae1fb3.mp3
+  example_audio: kleisame-eisitiria-g-86bd35.mp3
+  example2_audio: i-theatriki-parastas-dcc8f0.mp3
+- id: A2P2-U11-002
+  greek: η έκθεση ζωγραφικής
+  english: painting exhibition / art exhibition
+  notes: Noun η έκθεση + γενική της ζωγραφικής (painting).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Inviting someone to visit an exhibition and discussing
+    artworks
+  example_el: Στην πινακοθήκη φιλοξενείται μια νέα έκθεση ζωγραφικής γνωστών Ελλήνων
+    δημιουργών.
+  example_en: The art gallery is hosting a new painting exhibition by well-known Greek
+    artists.
+  example2_el: Θέλεις να πάμε μαζί στην έκθεση ζωγραφικής την Κυριακή το πρωί;
+  example2_en: Do you want us to go together to the painting exhibition on Sunday
+    morning?
+  status: verified
+  audio: i-ekthesi-zografikis-b3ed84.mp3
+  example_audio: stin-pinakothiki-fil-767ea8.mp3
+  example2_audio: theleis-na-pame-mazi-d8d237.mp3
+- id: A2P2-U11-003
+  greek: το μουσείο σύγχρονης τέχνης
+  english: museum of contemporary art
+  notes: 'Genitive: σύγχρονης (contemporary/modern) + τέχνης (art).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Recommending sightseeing landmarks and cultural venues
+  example_el: Το μουσείο σύγχρονης τέχνης έχει δωρεάν είσοδο κάθε πρώτη Πέμπτη του
+    μήνα.
+  example_en: The contemporary art museum has free entrance every first Thursday of
+    the month.
+  example2_el: Περάσαμε τρεις ώρες στο μουσείο σύγχρονης τέχνης θαυμάζοντας τα γλυπτά.
+  example2_en: We spent three hours at the contemporary art museum admiring the sculptures.
+  status: verified
+  audio: to-moyseio-sygchroni-2c4237.mp3
+  example_audio: to-moyseio-sygchroni-9c2b77.mp3
+  example2_audio: perasame-treis-ores--6c668e.mp3
+- id: A2P2-U11-004
+  greek: το μουσικό φεστιβάλ
+  english: music festival
+  notes: Neuter noun φεστιβάλ (indeclinable) + adjective μουσικός, -ή, -ό.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Describing summer music events and booking tickets
+  example_el: Κάθε καλοκαίρι διοργανώνεται ένα διεθνές μουσικό φεστιβάλ στο αρχαίο
+    θέατρο.
+  example_en: Every summer an international music festival is organized at the ancient
+    theater.
+  example2_el: Αγοράσαμε κάρτα διαρκείας για όλες τις συναυλίες του μουσικού φεστιβάλ.
+  example2_en: We bought a season pass for all the concerts of the music festival.
+  status: verified
+  audio: to-moysiko-festival-b3c5ae.mp3
+  example_audio: kathe-kalokairi-dior-a91e6a.mp3
+  example2_audio: agorasame-karta-diar-da7905.mp3
+- id: A2P2-U11-005
+  greek: η κριτική ταινίας
+  english: film / movie review
+  notes: Noun η κριτική + γενική ταινίας. Essential for discussing cultural opinions.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Reading and writing short reviews of movies and plays
+  example_el: Διάβασα μια θετική κριτική ταινίας και αποφάσισα να πάω στον κινηματογράφο.
+  example_en: I read a positive movie review and decided to go to the cinema.
+  example2_el: Ο δημοσιογράφος έγραψε μια αυστηρή κριτική ταινίας για τη νέα παραγωγή.
+  example2_en: The journalist wrote a strict film review about the new production.
+  status: verified
+  audio: i-kritiki-tainias-393670.mp3
+  example_audio: diavasa-mia-thetiki--744dba.mp3
+  example2_audio: o-dimosiografos-egra-4980fa.mp3
+- id: A2P2-U11-006
+  greek: η αίθουσα κινηματογράφου
+  english: cinema auditorium / movie theater hall
+  notes: Noun η αίθουσα (hall/room) + γενική κινηματογράφου.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Giving directions inside an entertainment complex or
+    arranging meetup spots
+  example_el: Παρακαλούμε απενεργοποιήστε τα κινητά σας τηλέφωνα μέσα στην αίθουσα
+    κινηματογράφου.
+  example_en: Please turn off your mobile phones inside the cinema auditorium.
+  example2_el: Συναντηθήκαμε έξω από την αίθουσα κινηματογράφου δέκα λεπτά πριν την
+    προβολή.
+  example2_en: We met outside the cinema auditorium ten minutes before the screening.
+  status: verified
+  audio: i-aithoysa-kinimatog-3e1a7f.mp3
+  example_audio: parakaloyme-apenergo-583390.mp3
+  example2_audio: synantithikame-exo-a-8ad1dd.mp3
+- id: A2P2-U11-007
+  greek: η ξενάγηση
+  english: guided tour
+  notes: Noun derived from ξεναγώ (to guide tourists).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Asking for and booking guided tours in archaeological
+    and historical sites
+  example_el: Η ξενάγηση στον αρχαιολογικό χώρο γίνεται στα ελληνικά και στα αγγλικά.
+  example_en: The guided tour at the archaeological site is conducted in Greek and
+    in English.
+  example2_el: Συμμετείχαμε σε μια δίωρη ξενάγηση στην παλιά πόλη.
+  example2_en: We participated in a two-hour guided tour of the old town.
+  status: verified
+  audio: i-xenagisi-70900f.mp3
+  example_audio: i-xenagisi-ston-arch-cbee8a.mp3
+  example2_audio: symmeteichame-se-mia-580969.mp3
+- id: A2P2-U11-008
+  greek: ο / η ξεναγός
+  english: tour guide
+  notes: 'Common gender noun: ο ξεναγός / η ξεναγός.'
+  gender_or_pos: noun (masculine/feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: common
+  keg_communicative_function: Interacting with tourist professionals and following
+    explanations
+  example_el: Η ξεναγός μάς εξήγησε την ιστορία του μνημείου με πολύ κατανοητό τρόπο.
+  example_en: The tour guide explained the history of the monument to us in a very
+    clear way.
+  example2_el: Ακολουθήσαμε τον ξεναγό μέσα από τα στενά σοκάκια του νησιού.
+  example2_en: We followed the tour guide through the narrow alleyways of the island.
+  status: verified
+  audio: o-i-xenagos-d8e9fc.mp3
+  example_audio: i-xenagos-mas-exigis-070930.mp3
+  example2_audio: akoloythisame-ton-xe-7b7a23.mp3
+- id: A2P2-U11-009
+  greek: το δελτίο ειδήσεων
+  english: news broadcast / news bulletin
+  notes: 'Collocation: το δελτίο + γενική πληθυντικού των ειδήσεων.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Talking about current affairs, television programming,
+    and daily news updates
+  example_el: Κάθε βράδυ στις οκτώ παρακολουθώ το κεντρικό δελτίο ειδήσεων στην τηλεόραση.
+  example_en: Every evening at eight I watch the main news bulletin on television.
+  example2_el: Στο δελτίο ειδήσεων ανακοίνωσαν σημαντικές αλλαγές στον καιρό.
+  example2_en: On the news broadcast they announced significant changes in the weather.
+  status: verified
+  audio: to-deltio-eidiseon-ef3b7a.mp3
+  example_audio: kathe-vrady-stis-okt-17ea10.mp3
+  example2_audio: sto-deltio-eidiseon--f71666.mp3
+- id: A2P2-U11-010
+  greek: η εφημερίδα
+  english: newspaper
+  notes: 'Feminine noun (-α, -ες). Related: ο/η εφημεριδοπώλης.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Discussing news sources and purchasing reading material
+    at the kiosk
+  example_el: Αγοράζω την κυριακάτικη εφημερίδα για να διαβάσω τα πολιτιστικά νέα.
+  example_en: I buy the Sunday newspaper to read the cultural news.
+  example2_el: Το άρθρο δημοσιεύτηκε στην πρώτη σελίδα της τοπικής εφημερίδας.
+  example2_en: The article was published on the front page of the local newspaper.
+  status: verified
+  audio: i-efimerida-6e7f8b.mp3
+  example_audio: agorazo-tin-kyriakat-eeafef.mp3
+  example2_audio: to-arthro-dimosieyti-9d6905.mp3
+- id: A2P2-U11-011
+  greek: το ενημερωτικό άρθρο
+  english: informative article / news article
+  notes: Adjective ενημερωτικός, -ή, -ό + noun το άρθρο.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referring to informational texts and quoting journalistic
+    sources
+  example_el: Διάβασα ένα ενδιαφέρον ενημερωτικό άρθρο για την προστασία του περιβάλλοντος.
+  example_en: I read an interesting informative article about environmental protection.
+  example2_el: Το ενημερωτικό άρθρο περιλαμβάνει χρήσιμες συμβουλές για τους καταναλωτές.
+  example2_en: The informative article includes useful advice for consumers.
+  status: verified
+  audio: to-enimerotiko-arthr-ece844.mp3
+  example_audio: diavasa-ena-endiafer-50f6df.mp3
+  example2_audio: to-enimerotiko-arthr-b54c0e.mp3
+- id: A2P2-U11-012
+  greek: ο / η δημοσιογράφος
+  english: journalist / reporter
+  notes: 'Two-gender noun: ο δημοσιογράφος / η δημοσιογράφος.'
+  gender_or_pos: noun (masculine/feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: common
+  keg_communicative_function: Identifying professions in media and communications
+  example_el: Η δημοσιογράφος έκανε συνέντευξη με τον σκηνοθέτη της νέας ταινίας.
+  example_en: The journalist interviewed the director of the new movie.
+  example2_el: Πολλοί δημοσιογράφοι συγκεντρώθηκαν στην αίθουσα για τη συνέντευξη
+    τύπου.
+  example2_en: Many journalists gathered in the hall for the press conference.
+  status: verified
+  audio: o-i-dimosiografos-531309.mp3
+  example_audio: i-dimosiografos-ekan-a4fcde.mp3
+  example2_audio: polloi-dimosiografoi-3206d4.mp3
+- id: A2P2-U11-013
+  greek: η ηλεκτρονική συνδρομή
+  english: digital / online subscription
+  notes: Adjective ηλεκτρονικός, -ή, -ό + noun συνδρομή (subscription).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Managing digital services, newspaper paywalls, and streaming
+    accounts
+  example_el: Ανανέωσα την ετήσια ηλεκτρονική συνδρομή μου στο περιοδικό τέχνης.
+  example_en: I renewed my annual online subscription to the art magazine.
+  example2_el: Με την ηλεκτρονική συνδρομή έχεις πρόσβαση σε όλα τα άρθρα του ιστότοπου.
+  example2_en: With the digital subscription you have access to all website articles.
+  status: verified
+  audio: i-ilektroniki-syndro-801eba.mp3
+  example_audio: ananeosa-tin-etisia--fef024.mp3
+  example2_audio: me-tin-ilektroniki-s-fc0fa5.mp3
+- id: A2P2-U11-014
+  greek: τα μέσα κοινωνικής δικτύωσης
+  english: social media platforms / social networks
+  notes: 'Fixed expression: τα μέσα (media) + κοινωνικής δικτύωσης (social networking).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Discussing online communication, habits, and digital
+    lifestyle
+  example_el: Πολλοί νέοι ενημερώνονται καθημερινά κυρίως από τα μέσα κοινωνικής δικτύωσης.
+  example_en: Many young people get their daily updates mainly from social media.
+  example2_el: Αποφάσισα να περιορίσω τον χρόνο που περνάω στα μέσα κοινωνικής δικτύωσης.
+  example2_en: I decided to limit the time I spend on social networks.
+  status: verified
+  audio: ta-mesa-koinonikis-d-e80b77.mp3
+  example_audio: polloi-neoi-enimeron-e741f7.mp3
+  example2_audio: apofasisa-na-periori-dda649.mp3
+- id: A2P2-U11-015
+  greek: η ανάρτηση
+  english: post / publication (on social media or forum)
+  notes: 'From αναρτώ (to post/upload). Plural: οι αναρτήσεις.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Describing social media interactions, photos, and status
+    updates
+  example_el: Έκανε μια πολύ όμορφη ανάρτηση με φωτογραφίες από το ταξίδι του στα
+    Χανιά.
+  example_en: He made a very beautiful post with photos from his trip to Chania.
+  example2_el: Είδα την ανάρτησή σου για το σεμινάριο και τη βρήκα πολύ ενδιαφέρουσα.
+  example2_en: I saw your post about the seminar and found it very interesting.
+  status: verified
+  audio: i-anartisi-b0e91e.mp3
+  example_audio: ekane-mia-poly-omorf-a20112.mp3
+  example2_audio: eida-tin-anartisi-so-3f1432.mp3
+- id: A2P2-U11-016
+  greek: ο λογαριασμός χρήστη
+  english: user account
+  notes: 'Collocation: ο λογαριασμός (account) + γενική του χρήστη (user).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: masculine
+  keg_communicative_function: Handling website registration, login prompts, and account
+    management
+  example_el: Για να υποβάλετε την αίτηση, πρέπει πρώτα να δημιουργήσετε λογαριασμό
+    χρήστη.
+  example_en: To submit the application, you must first create a user account.
+  example2_el: Συνδέθηκα στον λογαριασμό χρήστη μου για να ελέγξω τα στοιχεία πληρωμής.
+  example2_en: I logged into my user account to verify the payment details.
+  status: verified
+  audio: o-logariasmos-christ-6e97c0.mp3
+  example_audio: gia-na-ypovalete-tin-4c65a2.mp3
+  example2_audio: syndethika-ston-loga-bec617.mp3
+- id: A2P2-U11-017
+  greek: ο κωδικός πρόσβασης
+  english: password / access code
+  notes: 'Collocation: ο κωδικός + γενική πρόσβασης (access).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: masculine
+  keg_communicative_function: Resetting passwords and describing cybersecurity procedures
+  example_el: Ξέχασα τον κωδικό πρόσβασης και ζήτησα επαναφορά μέσω email.
+  example_en: I forgot my password and requested a reset via email.
+  example2_el: Πρέπει να επιλέξετε έναν ισχυρό κωδικό πρόσβασης με γράμματα και αριθμούς.
+  example2_en: You must choose a strong password with letters and numbers.
+  status: verified
+  audio: o-kodikos-prosvasis-f58ed5.mp3
+  example_audio: xechasa-ton-kodiko-p-3f0f2b.mp3
+  example2_audio: prepei-na-epilexete--f87cff.mp3
+- id: A2P2-U11-018
+  greek: η ψηφιακή εφαρμογή
+  english: digital application / mobile app
+  notes: Adjective ψηφιακός, -ή, -ό + noun η εφαρμογή (app/application).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Referring to smartphone apps for transit, tickets, and
+    communication
+  example_el: Κατέβασα στο κινητό μου τη νέα ψηφιακή εφαρμογή για τα δρομολόγια των
+    λεωφορείων.
+  example_en: I downloaded onto my mobile the new digital app for bus schedules.
+  example2_el: Αυτή η ψηφιακή εφαρμογή με βοηθάει καθημερινά στην εκμάθηση νέων ελληνικών
+    λέξεων.
+  example2_en: This digital app helps me daily in learning new Greek words.
+  status: verified
+  audio: i-psifiaki-efarmogi-5ea442.mp3
+  example_audio: katevasa-sto-kinito--ccd6d0.mp3
+  example2_audio: ayti-i-psifiaki-efar-0410dd.mp3
+- id: A2P2-U11-019
+  greek: το μήνυμα ηλεκτρονικού ταχυδρομείου
+  english: email message
+  notes: 'Formal Greek term for email. Colloquially also: το μέιλ.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referring to email correspondence in administrative
+    and exam writing prompts
+  example_el: Σας στέλνω αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου για να επιβεβαιώσω
+    την κράτησή μου.
+  example_en: I am sending you this email message to confirm my reservation.
+  example2_el: Έλαβα ένα μήνυμα ηλεκτρονικού ταχυδρομείου με όλα τα απαραίτητα έγγραφα.
+  example2_en: I received an email message with all the required documents.
+  status: verified
+  audio: to-minyma-ilektronik-b8c693.mp3
+  example_audio: sas-stelno-ayto-to-m-d4d891.mp3
+  example2_audio: elava-ena-minyma-ile-20b842.mp3
+- id: A2P2-U11-020
+  greek: η κοινοποίηση συνδέσμου
+  english: link sharing / sharing a link
+  notes: Noun κοινοποίηση (sharing/notification) + γενική συνδέσμου (link).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Sharing articles, invitations, and web links with friends
+    and classmates
+  example_el: Η κοινοποίηση συνδέσμου στην ομάδα βοήθησε όλους τους φοιτητές να βρουν
+    τις σημειώσεις.
+  example_en: Sharing the link in the group helped all students find the notes.
+  example2_el: Σου έκανα κοινοποίηση συνδέσμου για τη συναυλία που συζητούσαμε.
+  example2_en: I shared a link with you for the concert we were discussing.
+  status: verified
+  audio: i-koinopoiisi-syndes-f52d73.mp3
+  example_audio: i-koinopoiisi-syndes-01c577.mp3
+  example2_audio: soy-ekana-koinopoiis-f019c4.mp3
+- id: A2P2-U11-021
+  greek: το σχόλιο
+  english: comment / feedback note
+  notes: 'Neuter noun (-ιο, -ια). Verb: σχολιάζω (to comment).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Leaving comments on blogs, posts, and class forums
+  example_el: Άφησα ένα θετικό σχόλιο κάτω από τη φωτογραφία της παράστασης.
+  example_en: I left a positive comment under the photo of the performance.
+  example2_el: Διάβασα με προσοχή όλα τα σχόλια των αναγνωστών στο ιστολόγιο.
+  example2_en: I carefully read all reader comments on the blog.
+  status: verified
+  audio: to-scholio-3c0745.mp3
+  example_audio: afisa-ena-thetiko-sc-77073d.mp3
+  example2_audio: diavasa-me-prosochi--9c1aa5.mp3
+- id: A2P2-U11-022
+  greek: ο / η θεατής
+  english: spectator / viewer / audience member
+  notes: 'Masculine: ο θεατής (-ής, -ές). Feminine: η θεατής or η θεάτρια. Plural:
+    οι θεατές.'
+  gender_or_pos: noun (masculine/feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+  keg_communicative_function: Describing audience reaction in arts and cinema
+  example_el: Οι θεατές χειροκρότησαν θερμά τους ηθοποιούς στο τέλος του έργου.
+  example_en: The spectators warmly applauded the actors at the end of the play.
+  example2_el: Χιλιάδες θεατές παρακολούθησαν τη συναυλία στο ανοιχτό γήπεδο.
+  example2_en: Thousands of spectators attended the concert at the open stadium.
+  status: verified
+  audio: o-i-theatis-693ce9.mp3
+  example_audio: oi-theates-cheirokro-a783ef.mp3
+  example2_audio: chiliades-theates-pa-254fe6.mp3
+- id: A2P2-U11-023
+  greek: η συναυλία κλασικής μουσικής
+  english: classical music concert
+  notes: Noun η συναυλία + γενική κλασικής μουσικής.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing musical outings and personal taste in art
+  example_el: Πήγαμε στο Μέγαρο Μουσικής για μια μαγευτική συναυλία κλασικής μουσικής.
+  example_en: We went to the Concert Hall for an enchanting classical music concert.
+  example2_el: Η συναυλία κλασικής μουσικής περιλάμβανε έργα του Μότσαρτ και του Μπετόβεν.
+  example2_en: The classical music concert featured works by Mozart and Beethoven.
+  status: verified
+  audio: i-synaylia-klasikis--dbb3a3.mp3
+  example_audio: pigame-sto-megaro-mo-49c7d7.mp3
+  example2_audio: i-synaylia-klasikis--80c402.mp3
+- id: A2P2-U11-024
+  greek: η πολιτιστική εκδήλωση
+  english: cultural event
+  notes: Adjective πολιτιστικός, -ή, -ό + noun η εκδήλωση (-η, -εις).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Participating in community events and writing cultural
+    invitations
+  example_el: Ο δήμος οργανώνει μια μεγάλη πολιτιστική εκδήλωση στην κεντρική πλατεία.
+  example_en: The municipality is organizing a major cultural event in the central
+    square.
+  example2_el: Η πολιτιστική εκδήλωση συγκέντρωσε καλλιτέχνες από όλη τη χώρα.
+  example2_en: The cultural event gathered artists from all across the country.
+  status: verified
+  audio: i-politistiki-ekdilo-c2018d.mp3
+  example_audio: o-dimos-organonei-mi-0cf372.mp3
+  example2_audio: i-politistiki-ekdilo-69619c.mp3
+- id: A2P2-U11-025
+  greek: η πρεμιέρα
+  english: premiere / opening night
+  notes: Feminine loanword (-α, -ες). Used for films and theater.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Discussing first screenings and debut theater nights
+  example_el: Η πρεμιέρα της ταινίας προσέλκυσε πλήθος κόσμου και διάσημους καλλιτέχνες.
+  example_en: The movie premiere attracted crowds of people and famous artists.
+  example2_el: Καταφέραμε να βρούμε θέσεις στην πρεμιέρα της όπερας.
+  example2_en: We managed to get seats for the opera premiere.
+  status: verified
+  audio: i-premiera-ed6888.mp3
+  example_audio: i-premiera-tis-taini-1aa2cb.mp3
+  example2_audio: kataferame-na-vroyme-e3ea7d.mp3
+- id: A2P2-U11-026
+  greek: η είσοδος ελεύθερη
+  english: free admission / free entrance
+  notes: 'Collocation on posters: είσοδος (entrance) + ελεύθερη (free). Often: Είσοδος
+    ελεύθερη.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Noting and communicating free admission to cultural
+    venues
+  example_el: Για τη συναυλία στο πάρκο η είσοδος είναι ελεύθερη για το κοινό.
+  example_en: For the concert in the park, admission is free for the public.
+  example2_el: 'Η αφίσα έγραφε: ''Είσοδος ελεύθερη για όλους τους μαθητές και φοιτητές''.'
+  example2_en: 'The poster stated: ''Free admission for all pupils and students''.'
+  status: verified
+  audio: i-eisodos-eleytheri-e1120b.mp3
+  example_audio: gia-ti-synaylia-sto--f3b074.mp3
+  example2_audio: i-afisa-egrafe-eisod-c942ce.mp3
+- id: A2P2-U11-027
+  greek: προτείνω ανεπιφύλακτα
+  english: I wholeheartedly recommend / I recommend without reservation
+  notes: Verb προτείνω + adverb ανεπιφύλακτα (without reservation). Premium KEG A2
+    review expression.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Writing glowing recommendations in reviews and personal
+    letters
+  example_el: Σας προτείνω ανεπιφύλακτα αυτό το βιβλίο, είναι πραγματικά συναρπαστικό.
+  example_en: I wholeheartedly recommend this book to you; it is truly fascinating.
+  example2_el: Προτείνω ανεπιφύλακτα το εστιατόριο για το εξαιρετικό φαγητό και τη
+    ζεστή ατμόσφαιρα.
+  example2_en: I recommend the restaurant without reservation for its excellent food
+    and warm ambiance.
+  status: verified
+  audio: proteino-anepifylakt-ad37ad.mp3
+  example_audio: sas-proteino-anepify-e3680e.mp3
+  example2_audio: proteino-anepifylakt-12b072.mp3
+- id: A2P2-U11-028
+  greek: παρακολουθώ τα πολιτιστικά δρώμενα
+  english: I follow cultural events and happenings
+  notes: Verb παρακολουθώ + phrase τα πολιτιστικά δρώμενα (cultural happenings).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing engagement with arts and cultural life in
+    oral/written tasks
+  example_el: Παρακολουθώ τα πολιτιστικά δρώμενα της Αθήνας κάθε σαββατοκύριακο.
+  example_en: I follow the cultural happenings of Athens every weekend.
+  example2_el: Μου αρέσει να παρακολουθώ τα πολιτιστικά δρώμενα και να επισκέπτομαι
+    νέες εκθέσεις.
+  example2_en: I enjoy following cultural events and visiting new exhibitions.
+  status: verified
+  audio: parakoloytho-ta-poli-382feb.mp3
+  example_audio: parakoloytho-ta-poli-55b653.mp3
+  example2_audio: moy-aresei-na-parako-b8c208.mp3
+- id: A2P2-U11-029
+  greek: εντυπωσιάστηκα από την παράσταση
+  english: I was impressed by the performance
+  notes: Aorist passive εντυπωσιάστηκα (from εντυπωσιάζω) + preposition από.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing emotional reaction and critical praise for
+    events
+  example_el: Εντυπωσιάστηκα από την παράσταση και τη συγκλονιστική ερμηνεία των ηθοποιών.
+  example_en: I was impressed by the performance and the gripping acting of the cast.
+  example2_el: Όλοι οι φίλοι μου εντυπωσιάστηκαν από την παράσταση χορού.
+  example2_en: All my friends were impressed by the dance performance.
+  status: verified
+  audio: entyposiastika-apo-t-0b66f4.mp3
+  example_audio: entyposiastika-apo-t-da70dd.mp3
+  example2_audio: oloi-oi-filoi-moy-en-1cb139.mp3
+- id: A2P2-U11-030
+  greek: περνάω ευχάριστα τον ελεύθερο χρόνο μου
+  english: I spend my free time pleasantly
+  notes: Verb περνάω + adverb ευχάριστα + direct object τον ελεύθερο χρόνο μου.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Writing about hobbies, leisure activities, and weekend
+    relaxation
+  example_el: Περνάω ευχάριστα τον ελεύθερο χρόνο μου διαβάζοντας βιβλία και κάνοντας
+    ποδήλατο.
+  example_en: I spend my free time pleasantly reading books and cycling.
+  example2_el: Στο χωριό περνάμε πάντα ευχάριστα τον ελεύθερο χρόνο μας κοντά στη
+    φύση.
+  example2_en: In the village we always spend our free time pleasantly close to nature.
+  status: verified
+  audio: pernao-eycharista-to-669722.mp3
+  example_audio: pernao-eycharista-to-ae0c33.mp3
+  example2_audio: sto-chorio-pername-p-49fa02.mp3

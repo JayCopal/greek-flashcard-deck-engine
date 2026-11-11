@@ -1,0 +1,1084 @@
+unit_id: unit-sp-05
+lesson_id: lesson-01
+title: 'Προφορικά SP-05: Ερωτήσεις Επέκτασης & Προσωπική Εμπειρία (Stage 3 Examiner
+  Extension Questions)'
+description: 40 examiner follow-up prompts bridging the Stage 3 visual stimulus to
+  the candidate’s personal life, multi-tense storytelling (comparing past habits in
+  Imperfect/Aorist with Present routines and Future plans), and lifestyle preferences.
+lesson_status: not_started
+lesson_notes: "Unit SP-05 Core Notes: Ερωτήσεις Επέκτασης & Προσωπική Εμπειρία (Stage\
+  \ 3 Examiner Extension Questions)\n• Official KEG A2 Exam Alignment:\n  - Stage\
+  \ 3 Follow-Up Phase: After the candidate describes the visual prompt, the examiner\
+  \ asks 3–4 personal extension questions bridging the topic of the photograph to\
+  \ the candidate's own habits, experiences, and opinions.\n  - Multi-Tense Control:\
+  \ Candidates must smoothly transition between habitual Present (Ενεστώτας), specific\
+  \ past experiences in Aorist (Αόριστος), childhood/past habits in Imperfect (Παρατατικός),\
+  \ and future plans/aspirations (Συνοπτικός & Εξακολουθητικός Μέλλοντας).\n  - Thematic\
+  \ Coverage: Holidays & Travel (001–008), Shopping & Consumer Habits (009–016), Gastronomy\
+  \ & Celebrations (017–024), Health, Urban vs. Rural Life & Environment (025–032),\
+  \ and Past vs. Present vs. Future & Technology (033–040)."
+entries:
+- id: SP-U05-001
+  greek: Εσείς πώς περνάτε συνήθως τις καλοκαιρινές διακοπές σας;
+  english: How do you usually spend your summer holidays? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Habitual Present tense, summer leisure collocations, time connectors (συνήθως,
+      κάθε καλοκαίρι)
+  notes: 'Examiner Objective: Bridges a summer/island photograph to candidate''s personal
+    holiday habits.
+
+    Strategy: Combine location + daily activities + social companions.'
+  keg_communicative_function: Describing habitual summer holiday routines and leisure
+    activities
+  example_el: Κάθε καλοκαίρι πηγαίνω για δέκα μέρες σε ένα ελληνικό νησί με την οικογένειά
+    μου, όπου κολυμπάμε στη θάλασσα και τρώμε φρέσκο ψάρι.
+  example_en: Every summer I go for ten days to a Greek island with my family, where
+    we swim in the sea and eat fresh fish.
+  example2_el: Συνήθως προτιμώ να περνάω τις διακοπές μου σε ένα ήσυχο παραθαλάσσιο
+    χωριό, γιατί θέλω να ξεκουράζομαι μακριά από τη φασαρία της πόλης.
+  example2_en: Usually I prefer to spend my holidays in a quiet seaside village, because
+    I want to rest far from the noise of the city.
+  audio: eseis-pos-pernate-sy-14d8b5.mp3
+  example_audio: kathe-kalokairi-piga-1aa9e3.mp3
+  example2_audio: synithos-protimo-na--5f320e.mp3
+- id: SP-U05-002
+  greek: Ποιο είναι το πιο ωραίο ταξίδι που κάνατε τα τελευταία χρόνια;
+  english: What is the nicest trip you have taken in recent years? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Superlative adjectives (το πιο ωραίο) + Aorist narrative (πήγα, είδα, δοκίμασα,
+      πέρασα)
+  notes: 'Examiner Objective: Tests ability to narrate a specific past experience
+    using Aorist verbs.
+
+    Strategy: State when and where you went, what you saw, and why it was memorable.'
+  keg_communicative_function: Narrating a memorable past travel experience with descriptive
+    detail
+  example_el: Το πιο ωραίο ταξίδι που έκανα ήταν πέρσι την άνοιξη στην Κρήτη, όπου
+    επισκέφτηκα παραδοσιακά χωριά και δοκίμασα υπέροχα τοπικά φαγητά.
+  example_en: The nicest trip I took was last spring to Crete, where I visited traditional
+    villages and tried wonderful local foods.
+  example2_el: Πριν από δύο χρόνια πήγα στη Θεσσαλονίκη με τους φίλους μου, περπατήσαμε
+    στην παραλία και περάσαμε αξέχαστα.
+  example2_en: Two years ago I went to Thessaloniki with my friends, we walked along
+    the waterfront and had an unforgettable time.
+  audio: poio-einai-to-pio-or-e91fd2.mp3
+  example_audio: to-pio-oraio-taxidi--6fc5e9.mp3
+  example2_audio: prin-apo-dyo-chronia-5c2de7.mp3
+- id: SP-U05-003
+  greek: Προτιμάτε να ταξιδεύετε με πλοίο ή με αεροπλάνο; Γιατί;
+  english: Do you prefer to travel by ship or by airplane? Why? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Preference verbs (προτιμώ να + imperfective subjunctive), causal clauses
+      (επειδή, γιατί) and comparisons
+  notes: 'Examiner Objective: Evaluates comparative reasoning after describing a ferry
+    port or airport picture.
+
+    Strategy: State clear preference and give two concrete reasons (speed vs. relaxation/view).'
+  keg_communicative_function: Expressing and justifying transport preferences with
+    comparative structures
+  example_el: Προτιμώ να ταξιδεύω με πλοίο όταν έχω ελεύθερο χρόνο, επειδή μου αρέσει
+    να κάθομαι στο κατάστρωμα και να βλέπω τη θάλασσα.
+  example_en: I prefer to travel by ship when I have free time, because I like sitting
+    on the deck and looking at the sea.
+  example2_el: Για μακρινά ταξίδια επιλέγω πάντα το αεροπλάνο, γιατί είναι πολύ πιο
+    γρήγορο και άνετο από τα άλλα μέσα μεταφοράς.
+  example2_en: For long trips I always choose the airplane, because it is much faster
+    and more comfortable than other means of transport.
+  audio: protimate-na-taxidey-0909b5.mp3
+  example_audio: protimo-na-taxideyo--1ba330.mp3
+  example2_audio: gia-makrina-taxidia--c2fbbe.mp3
+- id: SP-U05-004
+  greek: Όταν πηγαίνετε διακοπές, προτιμάτε να μένετε σε ξενοδοχείο ή σε ενοικιαζόμενο
+    δωμάτιο;
+  english: When you go on holiday, do you prefer staying in a hotel or a rented room?
+    (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Accommodation vocabulary, temporal/conditional clauses (όταν πηγαίνω, αν
+      ταξιδεύω)
+  notes: 'Examiner Objective: Tests accommodation vocabulary and practical justification.
+
+    Strategy: Mention amenities like breakfast (`πρωινό`), kitchen (`κουζίνα`), or
+    cost (`οικονομικό`).'
+  keg_communicative_function: Comparing holiday accommodation options and explaining
+    practical advantages
+  example_el: Συνήθως προτιμώ να μένω σε ένα μικρό ξενοδοχείο που προσφέρει πρωινό,
+    για να μη χρειάζεται να μαγειρεύω στις διακοπές μου.
+  example_en: Usually I prefer to stay in a small hotel that offers breakfast, so
+    that I don't need to cook on my holidays.
+  example2_el: Όταν ταξιδεύω με όλη την οικογένεια, νοικιάζουμε ένα διαμέρισμα με
+    κουζίνα, γιατί είναι πιο οικονομικό και έχουμε περισσότερο χώρο.
+  example2_en: When I travel with the whole family, we rent an apartment with a kitchen,
+    because it is more economical and we have more space.
+  audio: otan-pigainete-diako-a043cd.mp3
+  example_audio: synithos-protimo-na--f16cbb.mp3
+  example2_audio: otan-taxideyo-me-oli-f1e7b7.mp3
+- id: SP-U05-005
+  greek: Σας αρέσει περισσότερο το βουνό ή η θάλασσα για εκδρομές; Γιατί;
+  english: Do you like the mountains or the sea more for excursions? Why? (Stage 3
+    Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Impersonal verb αρέσει (μου αρέσει περισσότερο), seasonal contrast (το
+      καλοκαίρι vs. τον χειμώνα)
+  notes: 'Examiner Objective: Assesses nature/landscape vocabulary and seasonal linking.
+
+    Strategy: Contrast summer seaside activities with winter mountain trips.'
+  keg_communicative_function: Comparing natural environments and seasonal excursion
+    preferences
+  example_el: Το καλοκαίρι μου αρέσει περισσότερο η θάλασσα για κολύμπι, αλλά τον
+    χειμώνα προτιμώ το βουνό για πεζοπορία στη φύση και καθαρό αέρα.
+  example_en: In summer I like the sea more for swimming, but in winter I prefer the
+    mountains for hiking in nature and fresh air.
+  example2_el: Αγαπώ πολύ τη θάλασσα σε όλες τις εποχές του χρόνου, γιατί με ηρεμεί
+    να περπατάω στην παραλία όταν έχει ήλιο.
+  example2_en: I love the sea very much in all seasons of the year, because it calms
+    me to walk on the beach when it is sunny.
+  audio: sas-aresei-perissote-0e1e91.mp3
+  example_audio: to-kalokairi-moy-are-f8b0a5.mp3
+  example2_audio: agapo-poly-ti-thalas-1de842.mp3
+- id: SP-U05-006
+  greek: Πώς προετοιμάζεστε συνήθως πριν φύγετε για ένα ταξίδι;
+  english: How do you usually prepare before leaving for a trip? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Sequential discourse markers (πρώτα, μετά, τέλος) and travel preparation
+      verbs (κλείνω εισιτήρια, ετοιμάζω βαλίτσα)
+  notes: 'Examiner Objective: Checks chronological sequencing in Present tense.
+
+    Strategy: Use `πρώτα`, `στη συνέχεια`, and `την τελευταία μέρα`.'
+  keg_communicative_function: Explaining a sequence of preparatory steps before travelling
+  example_el: Πρώτα κλείνω τα εισιτήρια και το ξενοδοχείο στο διαδίκτυο, και δύο μέρες
+    πριν φύγω φτιάχνω μια λίστα και ετοιμάζω τη βαλίτσα μου.
+  example_en: First I book the tickets and the hotel online, and two days before leaving
+    I make a list and pack my suitcase.
+  example2_el: Διαβάζω πληροφορίες για το μέρος που θα επισκεφτώ, ελέγχω τον καιρό
+    και αγοράζω ό,τι χρειάζομαι για το ταξίδι.
+  example2_en: I read information about the place I will visit, check the weather,
+    and buy whatever I need for the trip.
+  audio: pos-proetoimazeste-s-ec930f.mp3
+  example_audio: prota-kleino-ta-eisi-8e14c5.mp3
+  example2_audio: diavazo-plirofories--f75f1c.mp3
+- id: SP-U05-007
+  greek: Με ποιους προτιμάτε να πηγαίνετε διακοπές, με την οικογένεια ή με φίλους;
+  english: Who do you prefer to go on holiday with, family or friends? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Preposition με + Accusative, balancing two options (από τη μία... από την
+      άλλη...)
+  notes: 'Examiner Objective: Tests interpersonal vocabulary and balanced argumentation.
+
+    Strategy: Explain how both types of holidays offer different benefits.'
+  keg_communicative_function: Discussing social companions and contrasting types of
+    leisure experiences
+  example_el: Μου αρέσουν και τα δύο, γιατί με την οικογένειά μου ξεκουράζομαι ήρεμα,
+    ενώ με τους φίλους μου διασκεδάζουμε και βγαίνουμε το βράδυ.
+  example_en: I like both, because with my family I rest quietly, whereas with my
+    friends we have fun and go out in the evening.
+  example2_el: Τα τελευταία χρόνια προτιμώ να ταξιδεύω με δύο καλούς φίλους, επειδή
+    έχουμε τα ίδια ενδιαφέροντα και συμφωνούμε εύκολα στο πρόγραμμα.
+  example2_en: In recent years I prefer travelling with two good friends, because
+    we have the same interests and agree easily on the schedule.
+  audio: me-poioys-protimate--30e072.mp3
+  example_audio: moy-aresoyn-kai-ta-d-0be571.mp3
+  example2_audio: ta-teleytaia-chronia-3f10e2.mp3
+- id: SP-U05-008
+  greek: Ποιο μέρος στην Ελλάδα θα θέλατε πολύ να επισκεφτείτε στο μέλλον;
+  english: Which place in Greece would you really like to visit in the future? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Polite/hypothetical desire (θα ήθελα να + Aorist subjunctive επισκεφτώ/δω/πάω)
+  notes: 'Examiner Objective: Tests future aspirations and cultural/geographical knowledge
+    of Greece.
+
+    Strategy: Name a specific Greek island or region and say what attracts you there.'
+  keg_communicative_function: Expressing future travel wishes and cultural interest
+    in Greece
+  example_el: Στο μέλλον θα ήθελα πολύ να επισκεφτώ τη Σαντορίνη και τη Νάξο, γιατί
+    έχω δει υπέροχες φωτογραφίες και θέλω να δω το ηλιοβασίλεμα.
+  example_en: In the future I would really like to visit Santorini and Naxos, because
+    I have seen wonderful photos and want to see the sunset.
+  example2_el: Θα ήθελα να κάνω ένα ταξίδι στην Πελοπόννησο το επόμενο καλοκαίρι,
+    για να δω τους αρχαίους χώρους και τις όμορφες παραλίες.
+  example2_en: I would like to take a trip to the Peloponnese next summer, to see
+    the ancient sites and the beautiful beaches.
+  audio: poio-meros-stin-ella-5adcb0.mp3
+  example_audio: sto-mellon-tha-ithel-9265d9.mp3
+  example2_audio: tha-ithela-na-kano-e-14f06f.mp3
+- id: SP-U05-009
+  greek: Προτιμάτε τα μεγάλα σούπερ μάρκετ ή τις λαϊκές αγορές; Γιατί;
+  english: Do you prefer large supermarkets or open-air farmers' markets? Why? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Plural noun-adjective agreement in Accusative (φρέσκα φρούτα, χαμηλές τιμές),
+      contrastive conjunction ενώ
+  notes: 'Examiner Objective: Classic follow-up to the ''Laiki Agora'' or ''Supermarket''
+    Stage 3 picture.
+
+    Strategy: Contrast fresh produce at the `λαϊκή αγορά` with convenience at the
+    `σούπερ μάρκετ`.'
+  keg_communicative_function: Comparing traditional open-air markets with modern supermarkets
+  example_el: Για φρούτα και λαχανικά προτιμώ τη λαϊκή αγορά της γειτονιάς μου, επειδή
+    τα προϊόντα είναι πιο φρέσκα και οι τιμές πιο οικονομικές.
+  example_en: For fruits and vegetables I prefer my neighborhood open-air market,
+    because the products are fresher and the prices more economical.
+  example2_el: Πηγαίνω συνήθως στο μεγάλο σούπερ μάρκετ μία φορά την εβδομάδα, γιατί
+    εκεί βρίσκω τα πάντα σε ένα μέρος και κερδίζω χρόνο.
+  example2_en: I usually go to the large supermarket once a week, because there I
+    find everything in one place and save time.
+  audio: protimate-ta-megala--ef75aa.mp3
+  example_audio: gia-froyta-kai-lacha-be99e5.mp3
+  example2_audio: pigaino-synithos-sto-8eb7d9.mp3
+- id: SP-U05-010
+  greek: Σας αρέσει να κάνετε ψώνια από το διαδίκτυο ή από τα μαγαζιά της γειτονιάς;
+  english: Do you like shopping online or from neighborhood shops? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Shopping collocations (κάνω ψώνια, δοκιμάζω ρούχα, συγκρίνω τιμές)
+  notes: 'Examiner Objective: Tests ability to discuss modern vs. traditional consumer
+    habits.
+
+    Strategy: Distinguish between buying books/electronics online vs. trying on clothes
+    in person.'
+  keg_communicative_function: Evaluating online shopping versus local retail stores
+  example_el: Όταν αγοράζω ρούχα και παπούτσια, προτιμώ τα μαγαζιά της γειτονιάς,
+    γιατί θέλω να τα δοκιμάζω και να βλέπω την ποιότητα από κοντά.
+  example_en: When I buy clothes and shoes, I prefer neighborhood shops, because I
+    want to try them on and see the quality up close.
+  example2_el: Αγοράζω συχνά βιβλία και ηλεκτρονικά είδη από το διαδίκτυο, επειδή
+    μπορώ να συγκρίνω εύκολα τις τιμές και να βρω καλές προσφορές.
+  example2_en: I often buy books and electronics online, because I can easily compare
+    prices and find good offers.
+  audio: sas-aresei-na-kanete-b9bc9a.mp3
+  example_audio: otan-agorazo-roycha--ea8114.mp3
+  example2_audio: agorazo-sychna-vivli-9e57c8.mp3
+- id: SP-U05-011
+  greek: Πόσο συχνά πηγαίνετε για ψώνια και τι αγοράζετε συνήθως;
+  english: How often do you go shopping and what do you usually buy? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Frequency expressions (δύο φορές την εβδομάδα, κάθε Σάββατο) + everyday
+      grocery vocabulary
+  notes: 'Examiner Objective: Evaluates routine frequency adverbs and household food/item
+    vocabulary.
+
+    Strategy: Separate weekly grocery shopping from occasional clothing purchases.'
+  keg_communicative_function: Describing shopping frequency and everyday household
+    purchases
+  example_el: Πηγαίνω στο σούπερ μάρκετ δύο φορές την εβδομάδα και αγοράζω γάλα, ψωμί,
+    τυρί, ζυμαρικά και όλα τα απαραίτητα τρόφιμα για το σπίτι.
+  example_en: I go to the supermarket twice a week and buy milk, bread, cheese, pasta,
+    and all the necessary groceries for the house.
+  example2_el: Για ρούχα πηγαίνω στα μαγαζιά μόνο όταν υπάρχουν εκπτώσεις, αλλά για
+    τρόφιμα ψωνίζω σχεδόν κάθε δύο μέρες από τη γειτονιά μου.
+  example2_en: For clothes I go to the shops only when there are sales, but for food
+    I shop almost every two days in my neighborhood.
+  audio: poso-sychna-pigainet-e9e6a4.mp3
+  example_audio: pigaino-sto-soyper-m-1969b1.mp3
+  example2_audio: gia-roycha-pigaino-s-d3d19b.mp3
+- id: SP-U05-012
+  greek: Προσέχετε περισσότερο την τιμή ή την ποιότητα όταν αγοράζετε κάτι;
+  english: Do you pay more attention to price or quality when you buy something? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Comparative adverbs (περισσότερο), abstract nouns (η τιμή, η ποιότητα),
+      conditional/relative clauses
+  notes: 'Examiner Objective: Tests decision-making explanation and consumer vocabulary.
+
+    Strategy: Explain that for food and shoes quality comes first, while still looking
+    for reasonable prices.'
+  keg_communicative_function: Weighing price against quality in consumer decision-making
+  example_el: Κοιτάζω πάντα και τα δύο, αλλά στα τρόφιμα και στα παπούτσια προσέχω
+    περισσότερο την ποιότητα, ακόμα κι αν είναι λίγο πιο ακριβά.
+  example_en: I always look at both, but for food and shoes I pay more attention to
+    quality, even if they are a bit more expensive.
+  example2_el: Προσπαθώ να βρίσκω καλή ποιότητα σε λογική τιμή, γι' αυτό περιμένω
+    συχνά την περίοδο των εκπτώσεων για μεγάλες αγορές.
+  example2_en: I try to find good quality at a reasonable price, which is why I often
+    wait for the sales period for big purchases.
+  audio: prosechete-perissote-49dc3b.mp3
+  example_audio: koitazo-panta-kai-ta-962f1f.mp3
+  example2_audio: prospatho-na-vrisko--ea865d.mp3
+- id: SP-U05-013
+  greek: Προτιμάτε να πληρώνετε με μετρητά ή με κάρτα στα καταστήματα;
+  english: Do you prefer to pay with cash or by card in shops? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Instrumental με + Accusative (με μετρητά, με κάρτα), practical justification
+  notes: 'Examiner Objective: Bridges checkout/transaction scenes in Stage 3 photos
+    to daily payment habits.
+
+    Strategy: Mention convenience of cards vs. keeping small cash for coffee/bakeries.'
+  keg_communicative_function: Explaining payment preferences in everyday transactions
+  example_el: Σχεδόν παντού πληρώνω με κάρτα, γιατί είναι πολύ εύκολο και γρήγορο,
+    και δεν χρειάζεται να έχω πολλά κέρματα μαζί μου.
+  example_en: Almost everywhere I pay by card, because it is very easy and fast, and
+    I don't need to carry many coins with me.
+  example2_el: Στα μεγάλα καταστήματα χρησιμοποιώ πάντα την κάρτα μου, αλλά στον φούρνο
+    και στη λαϊκή αγορά προτιμώ να πληρώνω με μετρητά.
+  example2_en: In large stores I always use my card, but at the bakery and the farmers'
+    market I prefer to pay with cash.
+  audio: protimate-na-plirone-bfc091.mp3
+  example_audio: schedon-pantoy-pliro-b41573.mp3
+  example2_audio: sta-megala-katastima-7e6c3a.mp3
+- id: SP-U05-014
+  greek: Σας αρέσει να πηγαίνετε για ψώνια μόνοι σας ή με παρέα;
+  english: Do you like going shopping alone or with company? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Reflexive/intensive adjective μόνος μου/μόνη μου vs. με παρέα
+  notes: 'Examiner Objective: Tests social vs. solo activity description.
+
+    Strategy: Combine shopping with having a coffee afterwards (`πίνουμε έναν καφέ`).'
+  keg_communicative_function: Expressing preferences regarding social versus solo
+    shopping
+  example_el: Όταν θέλω να αγοράσω ρούχα, μου αρέσει να πηγαίνω με έναν καλό φίλο
+    για να μου λέει τη γνώμη του και μετά να πίνουμε καφέ.
+  example_en: When I want to buy clothes, I like going with a good friend so they
+    can tell me their opinion and afterwards we drink coffee.
+  example2_el: Συνήθως προτιμώ να πηγαίνω για ψώνια μόνος μου, γιατί έτσι τελειώνω
+    πιο γρήγορα και δεν κουράζομαι στα μαγαζιά.
+  example2_en: Usually I prefer to go shopping by myself, because that way I finish
+    faster and don't get tired in the shops.
+  audio: sas-aresei-na-pigain-41273c.mp3
+  example_audio: otan-thelo-na-agoras-81159f.mp3
+  example2_audio: synithos-protimo-na--a221fa.mp3
+- id: SP-U05-015
+  greek: Τι δώρα σας αρέσει να αγοράζετε για τους φίλους και την οικογένειά σας;
+  english: What gifts do you like buying for your friends and family? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Indirect object prepositional phrases (για τους φίλους μου) and gift vocabulary
+      (βιβλία, αρώματα, ρούχα)
+  notes: 'Examiner Objective: Connects celebration or shop-window photos to gift-giving
+    customs.
+
+    Strategy: Give specific examples of gifts based on what the person likes.'
+  keg_communicative_function: Describing gift-giving habits and personalizing choices
+    for others
+  example_el: Μου αρέσει να αγοράζω χρήσιμα δώρα, όπως ένα ωραίο βιβλίο, ένα πουκάμισο
+    ή εισιτήρια για μια θεατρική παράσταση που θέλουν να δουν.
+  example_en: I like buying useful gifts, such as a nice book, a shirt, or tickets
+    for a theater performance they want to see.
+  example2_el: Όταν πηγαίνω σε μια γιορτή στο σπίτι φίλων, παίρνω συνήθως ένα κουτί
+    γλυκά από το ζαχαροπλαστείο ή ένα καλό μπουκάλι κρασί.
+  example2_en: When I go to a celebration at friends' house, I usually bring a box
+    of sweets from the pastry shop or a good bottle of wine.
+  audio: ti-dora-sas-aresei-n-340a2e.mp3
+  example_audio: moy-aresei-na-agoraz-728a73.mp3
+  example2_audio: otan-pigaino-se-mia--1e06ff.mp3
+- id: SP-U05-016
+  greek: Περιμένετε τις εκπτώσεις για να αγοράσετε ρούχα και παπούτσια;
+  english: Do you wait for the sales to buy clothes and shoes? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Purpose clauses with για να + Aorist subjunctive (για να αγοράσω, για να
+      βρω)
+  notes: 'Examiner Objective: Tests purpose clauses (`για να`) and seasonal shopping
+    vocabulary (`χειμερινές / καλοκαιρινές εκπτώσεις`).
+
+    Strategy: Mention saving money on expensive items like winter coats or shoes.'
+  keg_communicative_function: Explaining budgeting habits and seasonal sales shopping
+  example_el: Ναι, περιμένω σχεδόν πάντα τις χειμερινές και τις καλοκαιρινές εκπτώσεις
+    για να αγοράσω ακριβά πράγματα, όπως μπουφάν και καλά παπούτσια.
+  example_en: Yes, I almost always wait for the winter and summer sales to buy expensive
+    things, such as jackets and good shoes.
+  example2_el: Αν χρειάζομαι κάτι άμεσα το αγοράζω αμέσως, αλλά τις περισσότερες φορές
+    προτιμώ τις εκπτώσεις γιατί οι τιμές είναι πολύ καλύτερες.
+  example2_en: If I need something urgently I buy it immediately, but most of the
+    time I prefer the sales because the prices are much better.
+  audio: perimenete-tis-ekpto-f73e66.mp3
+  example_audio: nai-perimeno-schedon-2fd307.mp3
+  example2_audio: an-chreiazomai-kati--d11535.mp3
+- id: SP-U05-017
+  greek: Πόσο συχνά τρώτε έξω σε εστιατόριο ή ταβέρνα με την παρέα σας;
+  english: How often do you eat out at a restaurant or taverna with your friends?
+    (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Present tense of τρώω (τρώω, τρως, τρώει, τρώμε), dining out vocabulary
+      (ταβέρνα, μεζέδες, παρέα)
+  notes: 'Examiner Objective: Connects a taverna/restaurant photo to the candidate''s
+    social dining life.
+
+    Strategy: Mention frequency (e.g., once a week on Saturday night) and what you
+    order.'
+  keg_communicative_function: Describing social dining habits and favorite Greek tavern
+    dishes
+  example_el: Βγαίνουμε με την παρέα μου σε μια παραδοσιακή ταβέρνα σχεδόν κάθε Σάββατο
+    βράδυ, όπου παραγγέλνουμε διάφορους μεζέδες και συζητάμε τα νέα μας.
+  example_en: We go out with my group of friends to a traditional taverna almost every
+    Saturday night, where we order various meze dishes and discuss our news.
+  example2_el: Τις καθημερινές τρώω πάντα στο σπίτι, αλλά δύο φορές τον μήνα πηγαίνω
+    με την οικογένειά μου σε ένα ωραίο εστιατόριο δίπλα στη θάλασσα.
+  example2_en: On weekdays I always eat at home, but twice a month I go with my family
+    to a nice restaurant by the sea.
+  audio: poso-sychna-trote-ex-050add.mp3
+  example_audio: vgainoyme-me-tin-par-2bc980.mp3
+  example2_audio: tis-kathimerines-tro-703255.mp3
+- id: SP-U05-018
+  greek: Σας αρέσει να μαγειρεύετε στο σπίτι ή προτιμάτε το έτοιμο φαγητό;
+  english: Do you like cooking at home or do you prefer ready-made food? (Stage 3
+    Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Comparative adjectives (πιο υγιεινό, πιο νόστιμο, πιο οικονομικό) and kitchen/cooking
+      verbs
+  notes: 'Examiner Objective: Evaluates health/cost comparisons in daily nutrition.
+
+    Strategy: Emphasize that home-cooked food (`το σπιτικό φαγητό`) is healthier,
+    while delivery is only for busy days.'
+  keg_communicative_function: Comparing home cooking with takeaway food in terms of
+    health and time
+  example_el: Μου αρέσει πολύ να μαγειρεύω στο σπίτι με φρέσκα υλικά, γιατί το σπιτικό
+    φαγητό είναι πολύ πιο υγιεινό και οικονομικό από το έτοιμο.
+  example2_el: Συνήθως μαγειρεύω εγώ κάθε μέρα, αλλά όταν γυρίζω πολύ κουρασμένος
+    από τη δουλειά το βράδυ, παραγγέλνω κάτι απλό από έξω.
+  example_en: I really like cooking at home with fresh ingredients, because homemade
+    food is much healthier and more economical than ready-made food.
+  example2_en: Usually I cook every day, but when I return very tired from work in
+    the evening, I order something simple from outside.
+  audio: sas-aresei-na-mageir-7c8644.mp3
+  example_audio: moy-aresei-poly-na-m-1b7f60.mp3
+  example2_audio: synithos-mageireyo-e-eaa00b.mp3
+- id: SP-U05-019
+  greek: Ποιο είναι το αγαπημένο σας ελληνικό φαγητό και πώς το τρώτε;
+  english: What is your favorite Greek dish and how do you eat it? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Gastronomy vocabulary (μουσακάς, παστίτσιο, χωριάτικη σαλάτα, ψητό ψάρι,
+      ελαιόλαδο)
+  notes: 'Examiner Objective: Tests culinary vocabulary and descriptive enthusiasm.
+
+    Strategy: Name a classic dish, mention its main ingredients, and when you enjoy
+    eating it.'
+  keg_communicative_function: Describing favorite dishes and culinary ingredients
+  example_el: Το αγαπημένο μου ελληνικό φαγητό είναι ο μουσακάς και τα γεμιστά με
+    ρύζι, ειδικά όταν τα συνοδεύω με δροσερή χωριάτικη σαλάτα και φέτα.
+  example_en: My favorite Greek dish is moussaka and stuffed vegetables with rice,
+    especially when I accompany them with a cool Greek salad and feta.
+  example2_el: Μου αρέσει πάρα πολύ το φρέσκο ψητό ψάρι με λεμόνι και ελαιόλαδο το
+    καλοκαίρι, σε μια ήσυχη ταβέρνα δίπλα στο κύμα.
+  example2_en: I really love fresh grilled fish with lemon and olive oil in the summer,
+    at a quiet taverna right by the waves.
+  audio: poio-einai-to-agapim-dff2c2.mp3
+  example_audio: to-agapimeno-moy-ell-ff360d.mp3
+  example2_audio: moy-aresei-para-poly-982d9e.mp3
+- id: SP-U05-020
+  greek: Ποια είναι η αγαπημένη σας γιορτή του χρόνου και πώς τη γιορτάζετε;
+  english: What is your favorite holiday of the year and how do you celebrate it?
+    (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Festive vocabulary (Χριστούγεννα, Πάσχα, Πρωτοχρονιά, οικογενειακό τραπέζι,
+      ανταλλάσσω δώρα)
+  notes: 'Examiner Objective: Follow-up to family dinner or celebration pictures.
+
+    Strategy: Describe atmosphere, family gathering, festive meal, and traditions.'
+  keg_communicative_function: Describing annual holidays, traditions, and family celebrations
+  example_el: Η αγαπημένη μου γιορτή είναι τα Χριστούγεννα, γιατί στολίζουμε το σπίτι,
+    μαζευόμαστε όλη η οικογένεια γύρω από το τραπέζι και ανταλλάσσουμε δώρα.
+  example_en: My favorite holiday is Christmas, because we decorate the house, the
+    whole family gathers around the table, and we exchange gifts.
+  example2_el: Μου αρέσει περισσότερο το Πάσχα την άνοιξη, επειδή πηγαίνουμε στο χωριό,
+    ψήνουμε στον κήπο και γιορτάζουμε έξω στη φύση.
+  example2_en: I like Easter in the spring the most, because we go to the village,
+    roast food in the garden, and celebrate outside in nature.
+  audio: poia-einai-i-agapime-8a1d58.mp3
+  example_audio: i-agapimeni-moy-gior-f0fdba.mp3
+  example2_audio: moy-aresei-perissote-09f63c.mp3
+- id: SP-U05-021
+  greek: Πώς γιορτάσατε τα τελευταία σας γενέθλια;
+  english: How did you celebrate your last birthday? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Aorist tense narration (κάλεσα, μαγείρεψα, πήγαμε, σβήσαμε τα κεράκια,
+      περάσαμε)
+  notes: 'Examiner Objective: Tests shift from Present habits to a specific Past event
+    (`πέρσι στα γενέθλιά μου`).
+
+    Strategy: Use 3–4 Aorist verbs to recount who came and what you did.'
+  keg_communicative_function: Recounting a specific past celebration in the Aorist
+    tense
+  example_el: Στα τελευταία μου γενέθλια κάλεσα τους πιο καλούς μου φίλους στο σπίτι,
+    ετοιμάσαμε φαγητό, βάλαμε μουσική και κόψαμε μια μεγάλη τούρτα σοκολάτας.
+  example_en: On my last birthday I invited my closest friends to the house, we prepared
+    food, put on music, and cut a big chocolate cake.
+  example2_el: Πέρσι στα γενέθλιά μου πήγαμε με την οικογένειά μου σε ένα ωραίο εστιατόριο
+    στο κέντρο της πόλης και περάσαμε ένα υπέροχο βράδυ.
+  example2_en: Last year on my birthday I went with my family to a nice restaurant
+    in the city center and we spent a wonderful evening.
+  audio: pos-giortasate-ta-te-f7f1ed.mp3
+  example_audio: sta-teleytaia-moy-ge-1fea9a.mp3
+  example2_audio: persi-sta-genethlia--310290.mp3
+- id: SP-U05-022
+  greek: Συνηθίζετε να καλείτε φίλους για φαγητό ή καφέ στο σπίτι σας;
+  english: Are you in the habit of inviting friends for food or coffee at your home?
+    (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Habitual verb συνηθίζω να + Present subjunctive (καλώ, φτιάχνω, συζητάω)
+  notes: 'Examiner Objective: Assesses hospitality vocabulary (`φιλοξενία`) and social
+    home routines.
+
+    Strategy: Mention weekend afternoon coffee or Sunday lunch.'
+  keg_communicative_function: Discussing home hospitality and socializing with friends
+  example_el: Ναι, συνηθίζω να καλώ φίλους στο σπίτι τις Κυριακές το μεσημέρι, όπου
+    μαγειρεύω κάτι νόστιμο και καθόμαστε με τις ώρες στο μπαλκόνι.
+  example_en: Yes, I am in the habit of inviting friends to the house on Sunday afternoons,
+    where I cook something tasty and we sit for hours on the balcony.
+  example2_el: Μου αρέσει πολύ να έρχονται φίλοι το απόγευμα για καφέ και γλυκό, γιατί
+    στο σπίτι υπάρχει ησυχία και μπορούμε να μιλήσουμε άνετα.
+  example2_en: I really like having friends come over in the afternoon for coffee
+    and dessert, because at home it is quiet and we can talk comfortably.
+  audio: synithizete-na-kalei-a94054.mp3
+  example_audio: nai-synithizo-na-kal-a9be2e.mp3
+  example2_audio: moy-aresei-poly-na-e-a99800.mp3
+- id: SP-U05-023
+  greek: Τι τρώτε συνήθως για πρωινό πριν ξεκινήσετε τη μέρα σας;
+  english: What do you usually eat for breakfast before starting your day? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Temporal conjunction πριν + Aorist subjunctive (πριν ξεκινήσω, πριν φύγω)
+      and breakfast items
+  notes: 'Examiner Objective: Tests daily nutrition vocabulary and weekday vs. weekend
+    contrast.
+
+    Strategy: Contrast a quick weekday breakfast with a relaxed Sunday breakfast.'
+  keg_communicative_function: Describing daily morning routines and breakfast habits
+  example_el: Τις καθημερινές πίνω έναν ζεστό καφέ και τρώω γιαούρτι με μέλι και φρούτα,
+    πριν φύγω το πρωί για τη δουλειά μου.
+  example_en: On weekdays I drink a hot coffee and eat yogurt with honey and fruit,
+    before leaving in the morning for my job.
+  example2_el: Από Δευτέρα έως Παρασκευή τρώω μόνο ένα τοστ, αλλά την Κυριακή που
+    έχω χρόνο φτιάχνω αυγά, φρέσκο χυμό πορτοκάλι και καφέ.
+  example2_en: From Monday to Friday I only eat a toasted sandwich, but on Sunday
+    when I have time I make eggs, fresh orange juice, and coffee.
+  audio: ti-trote-synithos-gi-1730d7.mp3
+  example_audio: tis-kathimerines-pin-bce04a.mp3
+  example2_audio: apo-deytera-eos-para-c74efd.mp3
+- id: SP-U05-024
+  greek: Πόσο σημαντικό είναι για εσάς το οικογενειακό τραπέζι την Κυριακή;
+  english: How important is the Sunday family meal for you? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Expressing personal importance (είναι πολύ σημαντικό γιατί...), family
+      cohesion vocabulary
+  notes: 'Examiner Objective: Directly extends a Stage 3 family dinner photograph.
+
+    Strategy: Explain that during the week everyone is busy, so Sunday brings the
+    family together.'
+  keg_communicative_function: Explaining the emotional and social value of family
+    traditions
+  example_el: Για μένα το κυριακάτικο τραπέζι είναι πολύ σημαντικό, επειδή όλη την
+    εβδομάδα δουλεύουμε πολλές ώρες και είναι η μόνη ευκαιρία να βρεθούμε όλοι μαζί.
+  example_en: For me the Sunday table is very important, because all week we work
+    long hours and it is the only opportunity for us all to get together.
+  example2_el: Μου αρέσει αυτή η παράδοση, γιατί μαζευόμαστε με τους γονείς και τους
+    συγγενείς μας, τρώμε σπιτικό φαγητό και μαθαίνουμε τα νέα ο ένας του άλλου.
+  example2_en: I like this tradition, because we gather with our parents and relatives,
+    eat homemade food, and learn each other's news.
+  audio: poso-simantiko-einai-e26364.mp3
+  example_audio: gia-mena-to-kyriakat-b3f360.mp3
+  example2_audio: moy-aresei-ayti-i-pa-01a82e.mp3
+- id: SP-U05-025
+  greek: Τι κάνετε στην καθημερινότητά σας για να προσέχετε την υγεία σας;
+  english: What do you do in your daily life to look after your health? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Purpose clause για να + subjunctive, health and lifestyle collocations
+      (υγιεινή διατροφή, γυμναστική, ύπνος)
+  notes: 'Examiner Objective: Bridges a doctor''s office, pharmacy, or park exercise
+    photo to personal health habits.
+
+    Strategy: Mention diet, physical activity, and adequate sleep.'
+  keg_communicative_function: Describing healthy lifestyle habits and preventive self-care
+  example_el: Προσπαθώ να τρώω πολλά φρούτα και λαχανικά, πίνω αρκετό νερό κάθε μέρα
+    και περπατάω τουλάχιστον μισή ώρα στο πάρκο της γειτονιάς μου.
+  example_en: I try to eat plenty of fruits and vegetables, drink enough water every
+    day, and walk at least half an hour in my neighborhood park.
+  example2_el: Για να προσέχω την υγεία μου, πηγαίνω στο γυμναστήριο τρεις φορές την
+    εβδομάδα, αποφεύγω τα γλυκά και κοιμάμαι οκτώ ώρες κάθε βράδυ.
+  example2_en: To look after my health, I go to the gym three times a week, avoid
+    sweets, and sleep eight hours every night.
+  audio: ti-kanete-stin-kathi-9c74da.mp3
+  example_audio: prospatho-na-troo-po-14f969.mp3
+  example2_audio: gia-na-prosecho-tin--78c090.mp3
+- id: SP-U05-026
+  greek: Αθλείστε στον ελεύθερο χρόνο σας; Ποιο είναι το αγαπημένο σας σπορ;
+  english: Do you exercise in your free time? What is your favorite sport? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Middle/passive verb αθλούμαι / γυμνάζομαι, sports nouns (κολύμβηση, τρέξιμο,
+      ποδήλατο, τένις)
+  notes: 'Examiner Objective: Tests sports/exercise vocabulary and stress-relief explanations.
+
+    Strategy: State the activity, how often you do it, and how it makes you feel.'
+  keg_communicative_function: Discussing sports participation and physical exercise
+    routines
+  example_el: Ναι, στον ελεύθερο χρόνο μου κάνω ποδήλατο και κολύμβηση, γιατί με βοηθούν
+    να κρατάω καλή φυσική κατάσταση και να ξεχνάω το άγχος.
+  example_en: Yes, in my free time I cycle and swim, because they help me maintain
+    good physical fitness and forget about stress.
+  example2_el: Δεν κάνω κάποιο ομαδικό άθλημα, αλλά μου αρέσει πολύ το γρήγορο περπάτημα
+    και το τρέξιμο δίπλα στη θάλασσα τα απογεύματα.
+  example2_en: I don't play any team sport, but I really like brisk walking and running
+    by the sea in the afternoons.
+  audio: athleiste-ston-eleyt-13df22.mp3
+  example_audio: nai-ston-eleythero-c-7a5341.mp3
+  example2_audio: den-kano-kapoio-omad-6cc18c.mp3
+- id: SP-U05-027
+  greek: Τι κάνετε συνήθως όταν νιώθετε κουρασμένοι ή έχετε άγχος από τη δουλειά;
+  english: What do you usually do when you feel tired or stressed from work? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Temporal/conditional clause όταν νιώθω + relaxation verbs (χαλαρώνω, ξεκουράζομαι,
+      ακούω μουσική)
+  notes: 'Examiner Objective: Evaluates emotional state adjectives (`κουρασμένος`,
+    `αγχωμένος`) and coping habits.
+
+    Strategy: Mention relaxing activities at home or going for a quiet walk.'
+  keg_communicative_function: Explaining ways of relaxing and managing everyday stress
+  example_el: Όταν νιώθω κουρασμένος ή έχω άγχος, κλείνω το κινητό μου, κάνω ένα ζεστό
+    μπάνιο και ακούω ήρεμη μουσική στο σαλόνι.
+  example_en: When I feel tired or stressed, I turn off my mobile phone, take a warm
+    bath, and listen to calm music in the living room.
+  example2_el: Για να χαλαρώσω μετά από μια δύσκολη μέρα στη δουλειά, βγαίνω μια βόλτα
+    με τον σκύλο μου ή συναντάω έναν καλό φίλο.
+  example2_en: To relax after a difficult day at work, I go for a walk with my dog
+    or meet a good friend.
+  audio: ti-kanete-synithos-o-10ed53.mp3
+  example_audio: otan-niotho-koyrasme-e2b4a1.mp3
+  example2_audio: gia-na-chalaroso-met-a9d17d.mp3
+- id: SP-U05-028
+  greek: Θα προτιμούσατε να ζείτε σε μια μεγάλη πόλη ή σε ένα ήσυχο χωριό;
+  english: Would you prefer to live in a big city or in a quiet village? (Stage 3
+    Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Conditional tense (θα προτιμούσα να ζω), urban vs. rural pros and cons
+  notes: 'Examiner Objective: High-frequency KEG A2 extension topic comparing urban
+    vs. countryside life.
+
+    Strategy: Weigh jobs and entertainment in the city against peace and nature in
+    the village.'
+  keg_communicative_function: Comparing urban and rural living conditions and personal
+    preferences
+  example_el: Τώρα προτιμώ να ζω στην πόλη επειδή υπάρχουν περισσότερες ευκαιρίες
+    για δουλειά, αλλά στο μέλλον θα ήθελα να μείνω σε ένα ήσυχο χωριό.
+  example_en: Right now I prefer living in the city because there are more job opportunities,
+    but in the future I would like to live in a quiet village.
+  example2_el: Θα προτιμούσα να ζω σε μια μικρή πόλη κοντά στη θάλασσα, για να έχω
+    καθαρό αέρα και λιγότερη κίνηση στους δρόμους.
+  example2_en: I would prefer to live in a small town near the sea, so as to have
+    clean air and less traffic on the streets.
+  audio: tha-protimoysate-na--eb659a.mp3
+  example_audio: tora-protimo-na-zo-s-929887.mp3
+  example2_audio: tha-protimoysa-na-zo-0d4047.mp3
+- id: SP-U05-029
+  greek: Ποια είναι τα μεγαλύτερα προβλήματα που έχει σήμερα μια μεγάλη πόλη;
+  english: What are the biggest problems that a big city has today? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Superlative neuter plural (τα μεγαλύτερα προβλήματα), urban issue nouns
+      (η κίνηση, ο θόρυβος, η ρύπανση)
+  notes: 'Examiner Objective: Connects street traffic or city scenes in Stage 3 to
+    civic awareness.
+
+    Strategy: Mention traffic (`κίνηση`), lack of parking (`πάρκινγκ`), noise (`θόρυβος`),
+    and lack of green spaces (`πάρκα`).'
+  keg_communicative_function: Identifying and discussing everyday urban problems
+  example_el: Τα μεγαλύτερα προβλήματα σε μια μεγάλη πόλη είναι η πολλή κίνηση στους
+    δρόμους, ο θόρυβος, η έλλειψη πάρκινγκ και τα λίγα πάρκα.
+  example_en: The biggest problems in a big city are the heavy traffic on the streets,
+    the noise, the lack of parking, and the few parks.
+  example2_el: Στις μεγάλες πόλεις ο αέρας δεν είναι καθαρός, τα ενοίκια είναι πολύ
+    ακριβά και οι άνθρωποι τρέχουν συνέχεια με πολύ άγχος.
+  example2_en: In big cities the air is not clean, rents are very expensive, and people
+    are constantly rushing around with a lot of stress.
+  audio: poia-einai-ta-megaly-985e00.mp3
+  example_audio: ta-megalytera-provli-0868f8.mp3
+  example2_audio: stis-megales-poleis--632be4.mp3
+- id: SP-U05-030
+  greek: Χρησιμοποιείτε τα μέσα μαζικής μεταφοράς ή το αυτοκίνητό σας στις μετακινήσεις
+    σας;
+  english: Do you use public transport or your car for your daily commutes? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Public transport vocabulary (μετρό, λεωφορείο, ηλεκτρικός, κίνηση, θέση
+      στάθμευσης)
+  notes: 'Examiner Objective: Tests transport vocabulary and practical commuting arguments.
+
+    Strategy: Explain why the metro/bus is convenient for the city center.'
+  keg_communicative_function: Discussing daily commuting habits and public transport
+    usage
+  example_el: Καθημερινά χρησιμοποιώ το μετρό και το λεωφορείο για να πηγαίνω στη
+    δουλειά μου, γιατί στο κέντρο έχει πολλή κίνηση και δεν βρίσκω πάρκινγκ.
+  example_en: Every day I use the metro and the bus to go to my work, because in the
+    center there is heavy traffic and I cannot find parking.
+  example2_el: Παίρνω το αυτοκίνητό μου μόνο τα σαββατοκύριακα για εκδρομές, ενώ τις
+    καθημερινές προτιμώ να περπατάω ή να παίρνω το τρένο.
+  example2_en: I take my car only on weekends for excursions, whereas on weekdays
+    I prefer to walk or take the train.
+  audio: chrisimopoieite-ta-m-1229a4.mp3
+  example_audio: kathimerina-chrisimo-5bb4cb.mp3
+  example2_audio: pairno-to-aytokinito-750fa8.mp3
+- id: SP-U05-031
+  greek: Τι μπορούμε να κάνουμε εμείς στην καθημερινότητά μας για να προστατεύσουμε
+    το περιβάλλον;
+  english: What can we do in our daily lives to protect the environment? (Stage 3
+    Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: First person plural modal (μπορούμε να κάνουμε), ecological vocabulary
+      (ανακύκλωση, πλαστικές σακούλες, ενέργεια)
+  notes: 'Examiner Objective: Follows up on beach/park cleanup or nature photographs
+    in Stage 3.
+
+    Strategy: List 3 concrete habits: recycling (`ανακύκλωση`), saving water/electricity,
+    and avoiding plastic.'
+  keg_communicative_function: Proposing everyday environmental protection actions
+  example_el: Μπορούμε να κάνουμε ανακύκλωση στο σπίτι, να μη χρησιμοποιούμε πλαστικές
+    σακούλες στα ψώνια και να κλείνουμε τα φώτα όταν δεν τα χρειαζόμαστε.
+  example_en: We can recycle at home, not use plastic bags when shopping, and turn
+    off the lights when we don't need them.
+  example2_el: Είναι σημαντικό να κρατάμε τις παραλίες και τα πάρκα καθαρά, να μην
+    πετάμε σκουπίδια κάτω και να χρησιμοποιούμε περισσότερο τα μέσα μεταφοράς.
+  example2_en: It is important to keep beaches and parks clean, not throw rubbish
+    on the ground, and use public transport more.
+  audio: ti-mporoyme-na-kanoy-16a6af.mp3
+  example_audio: mporoyme-na-kanoyme--10fe7c.mp3
+  example2_audio: einai-simantiko-na-k-1f5007.mp3
+- id: SP-U05-032
+  greek: Ποια είναι η αγαπημένη σας εποχή του χρόνου και γιατί;
+  english: What is your favorite season of the year and why? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Seasons and weather expressions (η άνοιξη, το καλοκαίρι, το φθινόπωρο,
+      ο χειμώνας, ο καιρός είναι γλυκός)
+  notes: 'Examiner Objective: Connects weather/seasonal elements in the visual prompt
+    to candidate preferences.
+
+    Strategy: Describe the weather, nature, and outdoor activities typical of that
+    season.'
+  keg_communicative_function: Describing seasonal preferences, weather conditions,
+    and outdoor activities
+  example_el: Η αγαπημένη μου εποχή είναι η άνοιξη, επειδή ο καιρός είναι ζεστός και
+    ευχάριστος, η φύση είναι καταπράσινη και η μέρα μεγαλώνει.
+  example_en: My favorite season is spring, because the weather is warm and pleasant,
+    nature is lush green, and the day gets longer.
+  example2_el: Αγαπώ περισσότερο το καλοκαίρι στην Ελλάδα, γιατί έχει πάντα ήλιο,
+    πηγαίνουμε στη θάλασσα και καθόμαστε έξω τα βράδια με φίλους.
+  example2_en: I love summer in Greece the most, because it is always sunny, we go
+    to the sea, and we sit outside in the evenings with friends.
+  audio: poia-einai-i-agapime-d57d82.mp3
+  example_audio: i-agapimeni-moy-epoc-7b78ba.mp3
+  example2_audio: agapo-perissotero-to-649994.mp3
+- id: SP-U05-033
+  greek: Πώς ήταν η ζωή σας πριν από πέντε χρόνια σε σχέση με σήμερα;
+  english: How was your life five years ago compared to today? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: 'Multi-tense contrast: Imperfect/Aorist (πριν από πέντε χρόνια ζούσα/δούλευα)
+      vs. Present (σήμερα ζω/δουλεύω)'
+  notes: 'Examiner Objective: Core KEG A2 test of tense switching between past state
+    (`Παρατατικός`) and current reality (`Ενεστώτας`).
+
+    Strategy: Use explicit time anchors: `Πριν από πέντε χρόνια... ενώ σήμερα...`.'
+  keg_communicative_function: Contrasting past life circumstances with present routines
+    using Imperfect and Present tenses
+  example_el: Πριν από πέντε χρόνια ζούσα σε άλλη πόλη και σπούδαζα στο πανεπιστήμιο,
+    ενώ σήμερα έχω τη δική μου δουλειά και μαθαίνω ελληνικά.
+  example_en: Five years ago I was living in another city and studying at university,
+    whereas today I have my own job and am learning Greek.
+  example2_el: Τότε είχα περισσότερο ελεύθερο χρόνο για βόλτες με φίλους, αλλά σήμερα
+    η ζωή μου είναι πιο οργανωμένη και έχω περισσότερες ευθύνες.
+  example2_en: Back then I had more free time for walks with friends, but today my
+    life is more organized and I have more responsibilities.
+  audio: pos-itan-i-zoi-sas-p-467cc1.mp3
+  example_audio: prin-apo-pente-chron-7ebdc4.mp3
+  example2_audio: tote-eicha-perissote-992711.mp3
+- id: SP-U05-034
+  greek: Τι συνηθίζατε να κάνετε τα καλοκαίρια όταν ήσασταν παιδί;
+  english: What did you use to do in the summers when you were a child? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Imperfect tense (Παρατατικός) for childhood habits (όταν ήμουν παιδί, πήγαινα,
+      έπαιζα, έμενα)
+  notes: 'Examiner Objective: Tests accurate formation of Imperfect (`Παρατατικός`)
+    for repeated past actions.
+
+    Strategy: Keep every verb in the Imperfect (`πήγαινα`, `έπαιζα`, `κολυμπούσα`).'
+  keg_communicative_function: Narrating habitual childhood memories using the Imperfect
+    tense
+  example_el: Όταν ήμουν παιδί, κάθε καλοκαίρι πήγαινα στο χωριό των παππούδων μου,
+    έπαιζα όλη μέρα έξω με τα άλλα παιδιά και έτρωγα παγωτό.
+  example_en: When I was a child, every summer I used to go to my grandparents' village,
+    play outside all day with the other children, and eat ice cream.
+  example2_el: Τα καλοκαίρια ξυπνούσα αργά το πρωί, διάβαζα παιδικά βιβλία, έκανα
+    ποδήλατο στη γειτονιά και πήγαινα στη θάλασσα με τους γονείς μου.
+  example2_en: In the summers I used to wake up late in the morning, read children's
+    books, ride my bike in the neighborhood, and go to the sea with my parents.
+  audio: ti-synithizate-na-ka-8e4847.mp3
+  example_audio: otan-imoyn-paidi-kat-db4691.mp3
+  example2_audio: ta-kalokairia-xypnoy-2c4afe.mp3
+- id: SP-U05-035
+  greek: Πώς χρησιμοποιείτε το κινητό τηλέφωνο και το διαδίκτυο στην καθημερινή σας
+    ζωή;
+  english: How do you use your mobile phone and the internet in your daily life? (Stage
+    3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Digital communication vocabulary (στέλνω μηνύματα, διαβάζω ειδήσεις, πληρώνω
+      λογαριασμούς, μαθαίνω γλώσσες)
+  notes: 'Examiner Objective: Connects workplace, café, or youth photos showing smartphones/laptops
+    to candidate''s daily use.
+
+    Strategy: Mention communication, work/study, and practical tasks.'
+  keg_communicative_function: Describing everyday technology and internet usage
+  example_el: Χρησιμοποιώ το κινητό και το διαδίκτυο κάθε μέρα για τη δουλειά μου,
+    για να μιλάω με φίλους, να διαβάζω ειδήσεις και να κάνω μαθήματα ελληνικών.
+  example_en: I use my mobile phone and the internet every day for my work, to talk
+    with friends, read the news, and take Greek lessons.
+  example2_el: Με το διαδίκτυο πληρώνω εύκολα τους λογαριασμούς μου, κλείνω εισιτήρια
+    για ταξίδια και βρίσκω γρήγορα πληροφορίες για ό,τι χρειάζομαι.
+  example2_en: With the internet I easily pay my bills, book tickets for trips, and
+    quickly find information for whatever I need.
+  audio: pos-chrisimopoieite--d5bcf2.mp3
+  example_audio: chrisimopoio-to-kini-020a05.mp3
+  example2_audio: me-to-diadiktyo-plir-ac5632.mp3
+- id: SP-U05-036
+  greek: Πιστεύετε ότι η τεχνολογία μάς φέρνει πιο κοντά ή μας απομακρύνει από τους
+    άλλους;
+  english: Do you believe technology brings us closer together or distances us from
+    others? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Opinion framing (πιστεύω ότι..., από τη μία πλευρά... από την άλλη...)
+      and balanced A2 evaluation
+  notes: 'Examiner Objective: Tests ability to express a nuanced opinion at CEFR A2
+    level.
+
+    Strategy: Acknowledge that it helps talk to people far away, but shouldn''t replace
+    face-to-face (`από κοντά`) contact.'
+  keg_communicative_function: Expressing a balanced opinion on the social impact of
+    technology
+  example_el: Πιστεύω ότι η τεχνολογία μάς βοηθάει πολύ να επικοινωνούμε με φίλους
+    που ζουν μακριά, αλλά πρέπει να βρισκόμαστε και από κοντά.
+  example_en: I believe technology helps us a lot to communicate with friends who
+    live far away, but we must also meet in person.
+  example2_el: Όταν χρησιμοποιούμε σωστά το κινητό είναι πολύ χρήσιμο, όμως μερικές
+    φορές οι άνθρωποι κάθονται μαζί στον καφέ και κοιτάζουν μόνο την οθόνη τους.
+  example2_en: When we use the mobile phone properly it is very useful, however sometimes
+    people sit together at a café and only look at their screen.
+  audio: pisteyete-oti-i-tech-afb109.mp3
+  example_audio: pisteyo-oti-i-techno-fea422.mp3
+  example2_audio: otan-chrisimopoioyme-43b820.mp3
+- id: SP-U05-037
+  greek: Προτιμάτε να διαβάζετε τυπωμένα βιβλία ή να βλέπετε ταινίες στον ελεύθερο
+    χρόνο σας;
+  english: Do you prefer reading printed books or watching movies in your free time?
+    (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Cultural leisure vocabulary (μυθιστόρημα, κινηματογράφος, ταινία, ξεκουράζω
+      το μυαλό μου)
+  notes: 'Examiner Objective: Extends Stage 3 photos of people reading in a park/metro
+    or relaxing at home.
+
+    Strategy: Explain when you prefer reading (e.g., before sleep or on holiday) vs.
+    watching a film.'
+  keg_communicative_function: Discussing cultural hobbies and entertainment preferences
+  example_el: Μου αρέσει πολύ να διαβάζω ένα ωραίο βιβλίο το βράδυ πριν κοιμηθώ, ενώ
+    το σαββατοκύριακο προτιμώ να βλέπω μια καλή ταινία στον κινηματογράφο.
+  example_en: I really like reading a nice book at night before going to sleep, whereas
+    on the weekend I prefer watching a good movie at the cinema.
+  example2_el: Τον χειμώνα βλέπω συχνά ταινίες στο σπίτι με την οικογένειά μου, αλλά
+    στις καλοκαιρινές διακοπές παίρνω πάντα μαζί μου δύο βιβλία.
+  example2_en: In winter I often watch movies at home with my family, but on summer
+    holidays I always take two books with me.
+  audio: protimate-na-diavaze-373cd5.mp3
+  example_audio: moy-aresei-poly-na-d-52e877.mp3
+  example2_audio: ton-cheimona-vlepo-s-08abaf.mp3
+- id: SP-U05-038
+  greek: Πώς μαθαίνατε ξένες γλώσσες παλιότερα και πώς μαθαίνετε ελληνικά σήμερα;
+  english: How did you use to learn foreign languages in the past and how do you learn
+    Greek today? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Imperfect (παλιότερα μάθαινα, είχαμε) vs. Present (σήμερα μαθαίνω, ακούω,
+      χρησιμοποιώ)
+  notes: 'Examiner Objective: Combines multi-tense contrast with the candidate''s
+    personal Greek-learning journey.
+
+    Strategy: Contrast school textbooks in the past with modern audio/apps and speaking
+    practice today.'
+  keg_communicative_function: Comparing past educational methods with current language-learning
+    practices
+  example_el: Παλιότερα στο σχολείο διαβάζαμε μόνο από το βιβλίο της γραμματικής,
+    ενώ σήμερα μαθαίνω ελληνικά με διαδραστικές κάρτες, ακούω ελληνικά τραγούδια και
+    μιλάω με Έλληνες.
+  example_en: In the past at school we only read from the grammar book, whereas today
+    I learn Greek with interactive flashcards, listen to Greek songs, and speak with
+    Greeks.
+  example2_el: Όταν ήμουν μαθητής δεν είχαμε διαδίκτυο, αλλά τώρα μπορώ να κάνω μάθημα
+    από το σπίτι μου και να ακούω τη σωστή προφορά κάθε μέρα.
+  example2_en: When I was a student we didn't have the internet, but now I can take
+    lessons from my home and listen to the correct pronunciation every day.
+  audio: pos-mathainate-xenes-516cff.mp3
+  example_audio: paliotera-sto-schole-d0069e.mp3
+  example2_audio: otan-imoyn-mathitis--9039e2.mp3
+- id: SP-U05-039
+  greek: Ποια είναι τα σχέδιά σας για το επόμενο καλοκαίρι ή τον επόμενο χρόνο;
+  english: What are your plans for next summer or next year? (Stage 3 Extension Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: 'Future tense (Συνοπτικός Μέλλοντας: θα δώσω εξετάσεις, θα ταξιδέψω, θα
+      ξεκουραστώ) & intention verbs (σκοπεύω να)'
+  notes: 'Examiner Objective: Tests Future tense (`Θα + Συνοπτικός Μέλλοντας`) and
+    future planning verbs (`σκοπεύω να`, `ελπίζω να`).
+
+    Strategy: Connect passing the A2 Greek exam with a celebratory trip to Greece.'
+  keg_communicative_function: Stating concrete future plans and upcoming personal
+    goals
+  example_el: Αυτή την εποχή ετοιμάζομαι για τις εξετάσεις των ελληνικών και το επόμενο
+    καλοκαίρι σκοπεύω να ταξιδέψω στην Ελλάδα για να γιορτάσω με φίλους.
+  example_en: Right now I am preparing for the Greek exams and next summer I intend
+    to travel to Greece to celebrate with friends.
+  example2_el: Τον επόμενο χρόνο θα συνεχίσω τα μαθήματα ελληνικών στο επόμενο επίπεδο
+    και ελπίζω να επισκεφτώ την Αθήνα και την Κρήτη.
+  example2_en: Next year I will continue my Greek lessons at the next level and I
+    hope to visit Athens and Crete.
+  audio: poia-einai-ta-schedi-e209bf.mp3
+  example_audio: ayti-tin-epochi-etoi-9aee68.mp3
+  example2_audio: ton-epomeno-chrono-t-82203e.mp3
+- id: SP-U05-040
+  greek: Πού φαντάζεστε τον εαυτό σας σε τρία χρόνια από τώρα;
+  english: Where do you imagine yourself three years from now? (Stage 3 Extension
+    Question)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Personal Extension)
+    focus: Future continuous & perfective expectations (ελπίζω ότι θα μιλάω, θα έχω,
+      θα περνάω περισσότερο χρόνο)
+  notes: 'Examiner Objective: Concluding Stage 3 prompt testing aspirational future
+    narration.
+
+    Strategy: Combine language fluency goal, career/family happiness, and connection
+    to Greece.'
+  keg_communicative_function: Expressing long-term personal aspirations and future
+    lifestyle visions
+  example_el: Σε τρία χρόνια από τώρα ελπίζω ότι θα μιλάω πολύ καλά ελληνικά, θα έχω
+    μια όμορφη καθημερινότητα και θα περνάω κάθε καλοκαίρι στην Ελλάδα.
+  example_en: Three years from now I hope that I will speak Greek very well, have
+    a lovely daily life, and spend every summer in Greece.
+  example2_el: Φαντάζομαι τον εαυτό μου σε ένα πιο ήσυχο σπίτι κοντά στη φύση, με
+    καλή υγεία και περισσότερο ελεύθερο χρόνο για ταξίδια και φίλους.
+  example2_en: I imagine myself in a quieter house near nature, with good health and
+    more free time for travel and friends.
+  audio: poy-fantazeste-ton-e-333a58.mp3
+  example_audio: se-tria-chronia-apo--4d6fd3.mp3
+  example2_audio: fantazomai-ton-eayto-9691de.mp3

@@ -1,0 +1,604 @@
+unit_id: unit-a2p2-12
+lesson_id: lesson-01
+title: 'Μάθημα 12: Εξεταστική Δεξιότητα, Ορθογραφικές Παγίδες & Ολοκληρωμένη Σύνθεση
+  (Exam Writing Mastery & Orthography)'
+description: Conquering common spelling traps, formal letter formulas, cohesive argumentative
+  connectors, and capstone exam synthesis for the KEG A2 certification.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-12 Core Notes: Εξεταστική Δεξιότητα, Ορθογραφικές Παγίδες\
+  \ & Ολοκληρωμένη Σύνθεση\n• Essential Orthography Traps & High-Scoring Writing Formulas:\n\
+  \  - High-frequency spelling traps: πολύ (adverb) vs πολλή (feminine adjective),\
+  \ -ειτε vs -είται, -τε vs -ται, irregular adjectives in -ύς/-ιά/-ύ.\n  - Formal\
+  \ letter/email salutations & sign-offs: Αξιότιμε κύριε / Αξιότιμη κυρία, Με εκτίμηση.\n\
+  \  - Strategic communicative formulas: Σας γράφω για να σας ενημερώσω, Θα ήθελα\
+  \ να εκφράσω τα παράπονά μου, Ζητώ συγγνώμη για την αναστάτωση, Σας προτείνω να\
+  \ επισκεφθείτε.\n  - Cohesive connectors & discourse markers: Κατά τη γνώμη μου,\
+  \ από τη μία πλευρά... από την άλλη πλευρά, όχι μόνο... αλλά και, σύμφωνα με, σε\
+  \ περίπτωση που, παρόλο που, επομένως, συνοψίζοντας, εν κατακλείδι."
+entries:
+- id: A2P2-U12-001
+  greek: πολύ vs πολλή (πολλή δουλειά / πολύ κουρασμένος)
+  english: much / a lot of (feminine adjective πολλή) vs. very (adverb πολύ)
+  notes: 'Major KEG A2 spelling trap: πολλή (adjective modifying feminine noun with
+    double λ and η) vs πολύ (adverb modifying verb or adjective, ending in υ).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Avoiding fundamental spelling errors in written production
+    essays
+  example_el: Είχα πολλή δουλειά σήμερα στο γραφείο και γύρισα στο σπίτι πολύ κουρασμένος.
+  example_en: I had a lot of work today at the office and returned home very tired.
+  example2_el: Χρειάζεται πολλή υπομονή γιατί η διαδικασία είναι πολύ χρονοβόρα.
+  example2_en: It takes a lot of patience because the process is very time-consuming.
+  status: verified
+  audio: poly-vs-polli-polli--8aca60.mp3
+  example_audio: eicha-polli-doyleia--4b3061.mp3
+  example2_audio: chreiazetai-polli-yp-8ed47e.mp3
+- id: A2P2-U12-002
+  greek: -ειτε vs -είται (σκέφτεστε vs σκέφτεται)
+  english: passive 2nd person plural ending (-εστε/-ειτε) vs 3rd person singular (-εται/-είται)
+  notes: 'Endings trap: 2nd plural imperative/subjunctive (-είτε / -εστε) vs 3rd singular
+    present (-εται / -είται). E.g. εσείς σκέφτεστε / αυτός σκέφτεται.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Correctly inflecting passive verbs in formal and plural
+    addressing
+  example_el: Σας παρακαλώ, σκεφτείτε καλά την πρότασή μας πριν αποφασίσετε.
+  example_en: Please consider our proposal carefully before you decide.
+  example2_el: Ο διευθυντής σκέφτεται να προσλάβει δύο νέους υπαλλήλους.
+  example2_en: The manager is considering hiring two new employees.
+  status: verified
+  audio: eite-vs-eitai-skefte-4a3c5d.mp3
+  example_audio: sas-parakalo-skeftei-066d91.mp3
+  example2_audio: o-dieythyntis-skefte-daf4a6.mp3
+- id: A2P2-U12-003
+  greek: -τε vs -ται (γράφετε vs γράφεται)
+  english: active 2nd plural ending (-τε) vs passive 3rd singular ending (-ται)
+  notes: 'Classic Greek spelling trap: -τε is active 2nd plural (εσείς γράφετε), while
+    -ται is passive 3rd singular (αυτό γράφεται).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Distinguishing active you-plural addressing from passive
+    statements in writing
+  example_el: Όταν γράφετε μια επίσημη επιστολή, προσέχετε την ορθογραφία των λέξεων.
+  example_en: When you write a formal letter, pay attention to the spelling of the
+    words.
+  example2_el: Αυτή η λέξη γράφεται με δύο λάμδα και υπογεγραμμένη.
+  example2_en: This word is written with two lambdas and an iota.
+  status: verified
+  audio: te-vs-tai-grafete-vs-3a35dc.mp3
+  example_audio: otan-grafete-mia-epi-cf479e.mp3
+  example2_audio: ayti-i-lexi-grafetai-ebb9dd.mp3
+- id: A2P2-U12-004
+  greek: ο βαθύς, η βαθιά, το βαθύ
+  english: deep (masc / fem / neuter - adjectives in -ύς, -ιά, -ύ)
+  notes: 'Irregular adjective declension: masc βαθύς/βαθιού, fem βαθιά/βαθιάς, neut
+    βαθύ/βαθιού. Plural: βαθιοί, βαθιές, βαθιά. Same as βαρύς, ελαφρύς, μακρύς.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+  keg_communicative_function: Using physical descriptive adjectives accurately across
+    gender forms
+  example_el: Η θάλασσα σε εκείνο το σημείο έχει πολύ βαθιά νερά και χρειάζεται προσοχή.
+  example_en: The sea at that spot has very deep waters and caution is needed.
+  example2_el: Πήρα μια βαθιά ανάσα πριν μπω στην αίθουσα των εξετάσεων.
+  example2_en: I took a deep breath before entering the examination room.
+  status: verified
+  audio: o-vathys-i-vathia-to-2e44a7.mp3
+  example_audio: i-thalassa-se-ekeino-04bf64.mp3
+  example2_audio: pira-mia-vathia-anas-9bf643.mp3
+- id: A2P2-U12-005
+  greek: ο / η / το ίδιος, ίδια, ίδιο
+  english: 'the same / identical (or emphatic: myself, yourself)'
+  notes: 'Used with article: ο ίδιος / η ίδια / το ίδιο = ''the same''. Without article
+    / emphatic: εγώ ο ίδιος = ''I myself''.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+  keg_communicative_function: Comparing similarities and emphasizing personal agency
+  example_el: Έχουμε ακριβώς το ίδιο πρόγραμμα μαθημάτων κάθε Δευτέρα και Τετάρτη.
+  example_en: We have the exact same class schedule every Monday and Wednesday.
+  example2_el: Μίλησα με τον ίδιο τον υπεύθυνο και μου εξήγησε τη διαδικασία.
+  example2_en: I spoke with the person in charge himself and he explained the procedure
+    to me.
+  status: verified
+  audio: o-i-to-idios-idia-id-99ce31.mp3
+  example_audio: echoyme-akrivos-to-i-f6ec79.mp3
+  example2_audio: milisa-me-ton-idio-t-526776.mp3
+- id: A2P2-U12-006
+  greek: ο / η / το δικός, δική, δικό μου
+  english: my own (emphatic possessive pronoun)
+  notes: 'Emphatic possessive: ο δικός μου / η δική μου / το δικό μου. Declines like
+    an adjective.'
+  gender_or_pos: pronoun
+  grammatical_info:
+    part_of_speech: pronoun
+  keg_communicative_function: Emphasizing ownership and personal perspective in written
+    compositions
+  example_el: Το δικό μου διαμέρισμα είναι πιο φωτεινό από το παλιό μου σπίτι.
+  example_en: My own apartment is brighter than my old home.
+  example2_el: Αυτή είναι η δική μου άποψη για το θέμα της δημόσιας συγκοινωνίας.
+  example2_en: This is my own view on the issue of public transit.
+  status: verified
+  audio: o-i-to-dikos-diki-di-9e0b8a.mp3
+  example_audio: to-diko-moy-diameris-2f8604.mp3
+  example2_audio: ayti-einai-i-diki-mo-38a64c.mp3
+- id: A2P2-U12-007
+  greek: Αξιότιμε κύριε / Αξιότιμη κυρία
+  english: Dear Sir / Dear Madam (Formal salutation formula)
+  notes: 'Vocative singular of αξιότιμος (esteemed/honorable): Αξιότιμε κύριε / Αξιότιμη
+    κυρία. Mandatory opening for formal letters.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Opening formal letters, official emails, and administrative
+    requests in exam tasks
+  example_el: Αξιότιμε κύριε Διευθυντή, σας γράφω για να υποβάλω αίτηση συμμετοχής
+    στο πρόγραμμα.
+  example_en: Dear Mr. Director, I am writing to submit an application to participate
+    in the program.
+  example2_el: Αξιότιμη κυρία Παπαδοπούλου, σας ευχαριστώ θερμά για την άμεση απάντησή
+    σας.
+  example2_en: Dear Ms. Papadopoulou, thank you warmly for your prompt reply.
+  status: verified
+  audio: axiotime-kyrie-axiot-47ba7a.mp3
+  example_audio: axiotime-kyrie-dieyt-f1f5df.mp3
+  example2_audio: axiotimi-kyria-papad-bc74b9.mp3
+- id: A2P2-U12-008
+  greek: Με εκτίμηση
+  english: Yours sincerely / With respect (Formal closing formula)
+  notes: Preposition με + accusative εκτίμηση (esteem/respect). Standard formal closing
+    formula before candidate signature.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Closing formal letters and emails according to KEG scoring
+    standards
+  example_el: Σας ευχαριστώ εκ των προτέρων για τον χρόνο σας. Με εκτίμηση, Γιώργος
+    Παπαδόπουλος.
+  example_en: Thank you in advance for your time. Yours sincerely, Giorgos Papadopoulos.
+  example2_el: Με εκτίμηση και σεβασμό προς το έργο του ιδρύματος.
+  example2_en: Yours sincerely and with respect toward the foundation's work.
+  status: verified
+  audio: me-ektimisi-5e15d2.mp3
+  example_audio: sas-eycharisto-ek-to-eb57fd.mp3
+  example2_audio: me-ektimisi-kai-seva-1e7c3a.mp3
+- id: A2P2-U12-009
+  greek: Σας γράφω για να σας ενημερώσω
+  english: I am writing to inform you (Formal introductory purpose statement)
+  notes: 'Fixed formal opening sentence: Σας γράφω (I write to you) + για να σας ενημερώσω
+    (in order to inform you).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating the purpose of writing in Task 2 exam scenarios
+  example_el: Σας γράφω για να σας ενημερώσω σχετικά με την αλλαγή της ημερομηνίας
+    άφιξής μου.
+  example_en: I am writing to inform you regarding the change in my arrival date.
+  example2_el: Σας γράφω για να σας ενημερώσω ότι παρέλαβα επιτυχώς τα έγγραφα.
+  example2_en: I am writing to inform you that I successfully received the documents.
+  status: verified
+  audio: sas-grafo-gia-na-sas-d648ac.mp3
+  example_audio: sas-grafo-gia-na-sas-58d21c.mp3
+  example2_audio: sas-grafo-gia-na-sas-046d3f.mp3
+- id: A2P2-U12-010
+  greek: Θα ήθελα να εκφράσω τα παράπονά μου
+  english: I would like to express my complaints / I wish to file a complaint
+  notes: 'Conditional polite opener: Θα ήθελα να + εκφράσω τα παράπονά μου (my complaints).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Writing formal complaint letters regarding service defects,
+    noise, or broken amenities
+  example_el: Θα ήθελα να εκφράσω τα παράπονά μου για την κακή εξυπηρέτηση στο ξενοδοχείο
+    σας.
+  example_en: I would like to express my complaints regarding the poor service at
+    your hotel.
+  example2_el: Θα ήθελα να εκφράσω τα έντονα παράπονά μου για τη συνεχή καθυστέρηση
+    των δρομολογίων.
+  example2_en: I would like to express my strong complaints regarding the constant
+    schedule delays.
+  status: verified
+  audio: tha-ithela-na-ekfras-0362d0.mp3
+  example_audio: tha-ithela-na-ekfras-fd873b.mp3
+  example2_audio: tha-ithela-na-ekfras-332f7b.mp3
+- id: A2P2-U12-011
+  greek: Ζητώ συγγνώμη για την αναστάτωση
+  english: I apologize for the inconvenience
+  notes: Verb ζητώ συγγνώμη (I ask forgiveness) + preposition για + noun αναστάτωση
+    (disruption/inconvenience).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Writing polite apologies for missed appointments or
+    delays in exam correspondence
+  example_el: Ζητώ συγγνώμη για την αναστάτωση που προκάλεσε η ακύρωση του ραντεβού
+    μου.
+  example_en: I apologize for the inconvenience caused by the cancellation of my appointment.
+  example2_el: Ζητώ συγγνώμη για την καθυστέρηση και ευχαριστώ για την κατανόησή σας.
+  example2_en: I apologize for the delay and thank you for your understanding.
+  status: verified
+  audio: zito-syggnomi-gia-ti-ff9b9e.mp3
+  example_audio: zito-syggnomi-gia-ti-24026a.mp3
+  example2_audio: zito-syggnomi-gia-ti-f954f0.mp3
+- id: A2P2-U12-012
+  greek: Σας προτείνω να επισκεφθείτε
+  english: I suggest that you visit
+  notes: 'Polite plural/formal: Σας προτείνω + να + aorist subjunctive επισκεφθείτε
+    (from επισκέπτομαι).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Making travel and leisure recommendations in tourist
+    guide/email tasks
+  example_el: Σας προτείνω να επισκεφθείτε το νέο αρχαιολογικό μουσείο νωρίς το πρωί.
+  example_en: I suggest that you visit the new archaeological museum early in the
+    morning.
+  example2_el: Αν βρεθείτε στην πόλη, σας προτείνω να επισκεφθείτε τις παραδοσιακές
+    ταβέρνες.
+  example2_en: If you find yourself in the city, I suggest that you visit the traditional
+    tavernas.
+  status: verified
+  audio: sas-proteino-na-epis-6c56b1.mp3
+  example_audio: sas-proteino-na-epis-4ed3d1.mp3
+  example2_audio: an-vretheite-stin-po-f6192a.mp3
+- id: A2P2-U12-013
+  greek: Κατά τη γνώμη μου
+  english: In my opinion
+  notes: Preposition κατά + accusative τη γνώμη μου. High-scoring essay discursive
+    marker.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating personal viewpoints and argumentative positions
+    in written essays
+  example_el: Κατά τη γνώμη μου, η χρήση των ποδηλάτων στην πόλη πρέπει να ενθαρρυνθεί
+    περισσότερο.
+  example_en: In my opinion, the use of bicycles in the city should be encouraged
+    more.
+  example2_el: Κατά τη γνώμη μου, τα διαδικτυακά μαθήματα προσφέρουν μεγάλη ευελιξία.
+  example2_en: In my opinion, online classes offer great flexibility.
+  status: verified
+  audio: kata-ti-gnomi-moy-6ef7aa.mp3
+  example_audio: kata-ti-gnomi-moy-i--2f8864.mp3
+  example2_audio: kata-ti-gnomi-moy-ta-74d9b1.mp3
+- id: A2P2-U12-014
+  greek: Από τη μία πλευρά ... από την άλλη πλευρά
+  english: On the one hand ... on the other hand
+  notes: 'Balanced connective pair for presenting contrasting arguments: από τη μία
+    πλευρά ... από την άλλη πλευρά.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Balancing advantages and disadvantages in A2 discursive
+    writing
+  example_el: Από τη μία πλευρά η ζωή στην πρωτεύουσα προσφέρει ευκαιρίες, από την
+    άλλη πλευρά όμως έχει πολύ άγχος.
+  example_en: On the one hand life in the capital offers opportunities, but on the
+    other hand it has a lot of stress.
+  example2_el: Από τη μία πλευρά είναι ακριβό, από την άλλη πλευρά όμως η ποιότητα
+    είναι ασύγκριτη.
+  example2_en: On the one hand it is expensive, but on the other hand the quality
+    is incomparable.
+  status: verified
+  audio: apo-ti-mia-pleyra-ap-4d366c.mp3
+  example_audio: apo-ti-mia-pleyra-i--b1e54b.mp3
+  example2_audio: apo-ti-mia-pleyra-ei-799ee7.mp3
+- id: A2P2-U12-015
+  greek: Όχι μόνο ... αλλά και
+  english: Not only ... but also
+  notes: 'Additive correlative conjunction: Όχι μόνο [clause A] ... αλλά και [clause
+    B].'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Linking compound positive elements with rhetorical emphasis
+  example_el: Το ξενοδοχείο ήταν όχι μόνο πεντακάθαρο αλλά και πολύ κοντά στην παραλία.
+  example_en: The hotel was not only spotless but also very close to the beach.
+  example2_el: Έμαθε όχι μόνο να μιλάει ελληνικά αλλά και να γράφει άπταιστα.
+  example2_en: She learned not only to speak Greek but also to write fluently.
+  status: verified
+  audio: ochi-mono-alla-kai-1df1fb.mp3
+  example_audio: to-xenodocheio-itan--9e752a.mp3
+  example2_audio: emathe-ochi-mono-na--34a2fb.mp3
+- id: A2P2-U12-016
+  greek: Σύμφωνα με
+  english: According to
+  notes: 'Prepositional connector: σύμφωνα με + accusative. Used to cite sources or
+    official instructions.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Referencing notices, regulations, and third-party statements
+    in written exams
+  example_el: Σύμφωνα με τις οδηγίες του υπουργείου, οι εγγραφές ξεκινούν την πρώτη
+    Σεπτεμβρίου.
+  example_en: According to the ministry's instructions, registrations begin on September
+    first.
+  example2_el: Σύμφωνα με την πρόγνωση του καιρού, το σαββατοκύριακο θα έχει καταιγίδες.
+  example2_en: According to the weather forecast, there will be thunderstorms over
+    the weekend.
+  status: verified
+  audio: symfona-me-8f7ce4.mp3
+  example_audio: symfona-me-tis-odigi-30f733.mp3
+  example2_audio: symfona-me-tin-progn-d705aa.mp3
+- id: A2P2-U12-017
+  greek: Σε περίπτωση που
+  english: In case / In the event that
+  notes: 'Compound conditional conjunction: Σε περίπτωση που + verb (subjunctive or
+    indicative).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Outlining contingencies, backup plans, and conditions
+    in letters
+  example_el: Σε περίπτωση που χρειαστείτε περισσότερες πληροφορίες, μη διστάσετε
+    να επικοινωνήσετε μαζί μου.
+  example_en: In case you need more information, do not hesitate to contact me.
+  example2_el: Σε περίπτωση που βρέχει, η συναυλία θα πραγματοποιηθεί στην κλειστή
+    αίθουσα.
+  example2_en: In case it rains, the concert will take place in the indoor hall.
+  status: verified
+  audio: se-periptosi-poy-aed238.mp3
+  example_audio: se-periptosi-poy-chr-424b26.mp3
+  example2_audio: se-periptosi-poy-vre-add080.mp3
+- id: A2P2-U12-018
+  greek: Παρόλο που
+  english: Even though / Although
+  notes: 'Concessive conjunction: Παρόλο που + indicative. Concedes a fact while affirming
+    main clause.'
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conjunction
+  keg_communicative_function: Formulating complex concessive sentences in exam compositions
+  example_el: Παρόλο που έφτασα αργά στο αεροδρόμιο, πρόλαβα την πτήση μου στην ώρα
+    της.
+  example_en: Even though I arrived late at the airport, I caught my flight on time.
+  example2_el: Παρόλο που το θέμα ήταν δύσκολο, όλοι οι μαθητές έγραψαν καλά στις
+    εξετάσεις.
+  example2_en: Although the topic was difficult, all students wrote well in the exams.
+  status: verified
+  audio: parolo-poy-dd7b17.mp3
+  example_audio: parolo-poy-eftasa-ar-674463.mp3
+  example2_audio: parolo-poy-to-thema--b537b7.mp3
+- id: A2P2-U12-019
+  greek: Επομένως / Συνεπώς
+  english: Therefore / Consequently
+  notes: 'Cohesive adverbs of logical deduction: Επομένως / Συνεπώς.'
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Connecting cause and effect in essay development and
+    problem solving
+  example_el: Δεν υπήρχαν διαθέσιμα εισιτήρια, επομένως αποφασίσαμε να ταξιδέψουμε
+    την επόμενη μέρα.
+  example_en: There were no available tickets; therefore, we decided to travel the
+    next day.
+  example2_el: Η προθεσμία έληξε, συνεπώς δεν γίνονται δεκτές άλλες αιτήσεις.
+  example2_en: The deadline expired; consequently, no further applications are accepted.
+  status: verified
+  audio: epomenos-synepos-6910c7.mp3
+  example_audio: den-ypirchan-diathes-8049cd.mp3
+  example2_audio: i-prothesmia-elixe-s-009694.mp3
+- id: A2P2-U12-020
+  greek: Επιπλέον / Επίσης
+  english: Furthermore / Moreover / In addition
+  notes: 'Additive connectors for building cumulative arguments: Επιπλέον / Επίσης.'
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+  keg_communicative_function: Adding secondary points and supplementary reasons in
+    written production
+  example_el: Το σπίτι είναι ευρύχωρο και επιπλέον βρίσκεται πολύ κοντά στο μετρό.
+  example_en: The house is spacious and furthermore is located very close to the metro.
+  example2_el: Επιπλέον, θα ήθελα να ρωτήσω αν περιλαμβάνεται το πρωινό στην τιμή
+    του δωματίου.
+  example2_en: In addition, I would like to ask whether breakfast is included in the
+    room price.
+  status: verified
+  audio: epipleon-episis-4486d7.mp3
+  example_audio: to-spiti-einai-eyryc-af7383.mp3
+  example2_audio: epipleon-tha-ithela--45c226.mp3
+- id: A2P2-U12-021
+  greek: Συνοψίζοντας
+  english: In summary / Summarizing
+  notes: Active present participle (-οντας) of συνοψίζω. Standard academic summing-up
+    connector.
+  gender_or_pos: participle
+  grammatical_info:
+    part_of_speech: participle
+  keg_communicative_function: Transitioning smoothly into the final paragraph of an
+    exam essay
+  example_el: Συνοψίζοντας, θεωρώ ότι η εμπειρία των σπουδών στο εξωτερικό είναι πολύτιμη
+    για κάθε νέο.
+  example_en: Summarizing, I consider the experience of studying abroad invaluable
+    for every young person.
+  example2_el: Συνοψίζοντας τα παραπάνω σημεία, προτείνω να ξεκινήσουμε άμεσα το σχέδιο.
+  example2_en: Summarizing the above points, I suggest that we initiate the plan immediately.
+  status: verified
+  audio: synopsizontas-0d8cd6.mp3
+  example_audio: synopsizontas-theoro-b58f62.mp3
+  example2_audio: synopsizontas-ta-par-5ef8f1.mp3
+- id: A2P2-U12-022
+  greek: Εν κατακλείδι
+  english: In conclusion / Finally
+  notes: 'Formal fixed prepositional phrase (Katharevousa relic) used in modern writing:
+    εν κατακλείδι.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Concluding formal compositions and essays with high
+    linguistic register
+  example_el: Εν κατακλείδι, πιστεύω ακράδαντα ότι η εκμάθηση μιας ξένης γλώσσας ανοίγει
+    νέους ορίζοντες.
+  example_en: In conclusion, I firmly believe that learning a foreign language opens
+    new horizons.
+  example2_el: Εν κατακλείδι, σας ευχαριστώ θερμά για την προσοχή σας και παραμένω
+    στη διάθεσή σας.
+  example2_en: In conclusion, I thank you warmly for your attention and remain at
+    your disposal.
+  status: verified
+  audio: en-katakleidi-10e364.mp3
+  example_audio: en-katakleidi-pistey-af14fd.mp3
+  example2_audio: en-katakleidi-sas-ey-591937.mp3
+- id: A2P2-U12-023
+  greek: Ελπίζω να λάβετε υπόψη σας το αίτημά μου
+  english: I hope you will consider my request
+  notes: Idiom λαμβάνω υπόψη (to take into consideration) + direct object το αίτημά
+    μου.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Closing formal request or complaint letters with professional
+    politeness
+  example_el: Ελπίζω να λάβετε υπόψη σας το αίτημά μου και να μου απαντήσετε σύντομα.
+  example_en: I hope you will take my request into consideration and reply to me soon.
+  example2_el: Ελπίζω να λάβετε σοβαρά υπόψη σας τις παρατηρήσεις των περιοίκων.
+  example2_en: I hope you will seriously consider the observations of the local residents.
+  status: verified
+  audio: elpizo-na-lavete-ypo-e30785.mp3
+  example_audio: elpizo-na-lavete-ypo-edc03c.mp3
+  example2_audio: elpizo-na-lavete-sov-b2928e.mp3
+- id: A2P2-U12-024
+  greek: Ανυπομονώ να λάβω την απάντησή σας
+  english: I look forward to receiving your reply
+  notes: Verb ανυπομονώ (I look forward to / am impatient) + να λάβω (to receive)
+    + την απάντησή σας.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Expressing courteous expectation of response in business/formal
+    correspondence
+  example_el: Ανυπομονώ να λάβω την απάντησή σας σχετικά με την αίτηση υποτροφίας.
+  example_en: I look forward to receiving your reply regarding the scholarship application.
+  example2_el: Ανυπομονώ να λάβω νέα σας και ελπίζω να συναντηθούμε από κοντά σύντομα.
+  example2_en: I look forward to hearing your news and hope we meet in person soon.
+  status: verified
+  audio: anypomono-na-lavo-ti-8f66d9.mp3
+  example_audio: anypomono-na-lavo-ti-912230.mp3
+  example2_audio: anypomono-na-lavo-ne-d39a14.mp3
+- id: A2P2-U12-025
+  greek: Με μεγάλη μου χαρά αποδέχομαι την πρόσκληση
+  english: With great pleasure I accept the invitation
+  notes: Phrase με μεγάλη μου χαρά + αποδέχομαι (I accept) + την πρόσκληση.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Accepting invitations to parties, dinners, or ceremonies
+    in Task 1 writing
+  example_el: Με μεγάλη μου χαρά αποδέχομαι την πρόσκληση στον γάμο σας και ανυπομονώ
+    να γιορτάσουμε μαζί.
+  example_en: With great pleasure I accept the invitation to your wedding and look
+    forward to celebrating together.
+  example2_el: Με μεγάλη μου χαρά αποδέχομαι την πρόσκλησή σας να μιλήσω στη φοιτητική
+    εκδήλωση.
+  example2_en: With great pleasure I accept your invitation to speak at the student
+    event.
+  status: verified
+  audio: me-megali-moy-chara--1e664b.mp3
+  example_audio: me-megali-moy-chara--e66d35.mp3
+  example2_audio: me-megali-moy-chara--e65251.mp3
+- id: A2P2-U12-026
+  greek: Δυστυχώς δεν θα μπορέσω να παρευρεθώ
+  english: Unfortunately I will not be able to attend
+  notes: Adverb δυστυχώς + δεν θα μπορέσω + aorist subjunctive παρευρεθώ (from παρευρίσκομαι).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Politely declining social invitations with regret and
+    justification in exam tasks
+  example_el: Δυστυχώς δεν θα μπορέσω να παρευρεθώ στα γενέθλιά σου λόγω ανειλημμένων
+    επαγγελματικών υποχρεώσεων.
+  example_en: Unfortunately I will not be able to attend your birthday due to prior
+    professional commitments.
+  example2_el: Δυστυχώς δεν θα μπορέσω να παρευρεθώ στην εκδήλωση, αλλά σας εύχομαι
+    καλή επιτυχία.
+  example2_en: Unfortunately I will not be able to attend the event, but I wish you
+    every success.
+  status: verified
+  audio: dystychos-den-tha-mp-0ea2ea.mp3
+  example_audio: dystychos-den-tha-mp-61f9be.mp3
+  example2_audio: dystychos-den-tha-mp-93e004.mp3
+- id: A2P2-U12-027
+  greek: Σας ευχαριστώ εκ των προτέρων για τη βοήθεια
+  english: Thank you in advance for your assistance
+  notes: Prepositional idiom εκ των προτέρων (in advance / beforehand) + για τη βοήθεια.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Concluding requests for information, favors, or assistance
+    gracefully
+  example_el: Σας ευχαριστώ εκ των προτέρων για τη βοήθεια και την άμεση εξυπηρέτηση.
+  example_en: Thank you in advance for your assistance and prompt service.
+  example2_el: Σας ευχαριστώ εκ των προτέρων για τη βοήθεια που θα μου προσφέρετε
+    στη μετακόμιση.
+  example2_en: Thank you in advance for the help you will offer me with moving.
+  status: verified
+  audio: sas-eycharisto-ek-to-96a1dc.mp3
+  example_audio: sas-eycharisto-ek-to-01faa1.mp3
+  example2_audio: sas-eycharisto-ek-to-a1ece6.mp3
+- id: A2P2-U12-028
+  greek: Είναι απαραίτητο να γνωρίζετε ότι
+  english: It is necessary that you know that
+  notes: Impersonal phrase είναι απαραίτητο (it is essential/necessary) + να γνωρίζετε
+    ότι.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Emphasizing critical requirements, prerequisites, and
+    instructions in letters
+  example_el: Είναι απαραίτητο να γνωρίζετε ότι τα γραφεία της υπηρεσίας είναι κλειστά
+    τα σαββατοκύριακα.
+  example_en: It is necessary that you know that the service offices are closed on
+    weekends.
+  example2_el: Είναι απαραίτητο να γνωρίζετε ότι απαιτείται προηγούμενη επικύρωση
+    των δικαιολογητικών.
+  example2_en: It is necessary that you know that prior verification of supporting
+    documents is required.
+  status: verified
+  audio: einai-aparaitito-na--9cf020.mp3
+  example_audio: einai-aparaitito-na--73577b.mp3
+  example2_audio: einai-aparaitito-na--484f5a.mp3
+- id: A2P2-U12-029
+  greek: Δεν υπάρχει αμφιβολία ότι
+  english: There is no doubt that
+  notes: 'Impersonal expression: Δεν υπάρχει αμφιβολία (there is no doubt) + ότι clause.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Asserting strong conviction and certainty in argumentative
+    writing
+  example_el: Δεν υπάρχει αμφιβολία ότι η γνώση των ελληνικών θα με βοηθήσει να βρω
+    καλύτερη δουλειά.
+  example_en: There is no doubt that knowledge of Greek will help me find a better
+    job.
+  example2_el: Δεν υπάρχει αμφιβολία ότι η συστηματική εξάσκηση οδηγεί στην επιτυχία
+    στις εξετάσεις.
+  example2_en: There is no doubt that systematic practice leads to success in the
+    exams.
+  status: verified
+  audio: den-yparchei-amfivol-1ecd3e.mp3
+  example_audio: den-yparchei-amfivol-a1a6ea.mp3
+  example2_audio: den-yparchei-amfivol-dbe304.mp3
+- id: A2P2-U12-030
+  greek: Ευελπιστώ σε μια θετική απάντηση
+  english: I look forward to / anticipate a positive response
+  notes: Verb ευελπιστώ (I hope/aspire with optimism) + preposition σε + accusative.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Polite high-register closing formula for job or scholarship
+    applications
+  example_el: Ευελπιστώ σε μια θετική απάντηση και είμαι έτοιμος για μια προσωπική
+    συνέντευξη.
+  example_en: I anticipate a positive response and am ready for an in-person interview.
+  example2_el: Ευελπιστώ σε μια θετική απάντηση στο αίτημά μου για ανανέωση της συνεργασίας
+    μας.
+  example2_en: I look forward to a positive response to my request for renewal of
+    our collaboration.
+  status: verified
+  audio: eyelpisto-se-mia-the-ff26fe.mp3
+  example_audio: eyelpisto-se-mia-the-1fc754.mp3
+  example2_audio: eyelpisto-se-mia-the-421133.mp3

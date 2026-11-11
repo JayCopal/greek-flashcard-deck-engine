@@ -1,0 +1,589 @@
+unit_id: unit-a2p2-06
+lesson_id: lesson-01
+title: 'Μάθημα 6: Ταξίδια, Μεταφορές & Προσανατολισμός στην Πόλη (Travel, Transit
+  & Urban Navigation)'
+description: Navigating airports, ports, train and metro stations, booking tickets,
+  interpreting transit delays, and giving or following detailed city street directions
+  for the KEG A2 Listening and Speaking exams.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-06 Core Notes: Ταξίδια, Μεταφορές & Προσανατολισμός στην\
+  \ Πόλη (Travel, Transit & Urban Navigation)\n• Official KEG A2 Exam Alignment:\n\
+  \  - Listening Section 1 & 2: Transport announcements at airports (πτήση, κάρτα\
+  \ επιβίβασης, πύλη, καθυστέρηση) and ports (λιμάνι, πλοίο της γραμμής, αποβάθρα).\n\
+  \  - Speaking Stage 2 & 3: Ticket booking (εισιτήριο με επιστροφή, απλό εισιτήριο),\
+  \ transit transfers (αλλάζω γραμμή, ανταπόκριση).\n  - Street Directions & Orientation:\
+  \ Locative adverbs and navigation imperatives (στρίβω δεξιά/αριστερά, πηγαίνω ευθεία,\
+  \ στο φανάρι, στη διασταύρωση, απέναντι, δίπλα, ανάμεσα)."
+entries:
+- id: A2P2-U06-001
+  greek: το αεροδρόμιο
+  english: airport
+  notes: 'Compound noun: αέρας + δρόμος. Genitive: του αεροδρομίου.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του αεροδρομίου
+    plural: τα αεροδρόμια
+  keg_communicative_function: Navigating airport environments and transit connections
+  example_el: Πρέπει να φτάσουμε στο αεροδρόμιο τουλάχιστον δύο ώρες πριν από την
+    πτήση.
+  example_en: We must arrive at the airport at least two hours before the flight.
+  example2_el: Το διεθνές αεροδρόμιο της Αθήνας συνδέεται με το μετρό και τον προαστιακό.
+  example2_en: Athens International Airport is connected with the metro and suburban
+    railway.
+  audio: to-aerodromio-c8faeb.mp3
+  status: verified
+  example_audio: prepei-na-ftasoyme-s-3e6616.mp3
+  example2_audio: to-diethnes-aerodrom-657a14.mp3
+- id: A2P2-U06-002
+  greek: η πτήση
+  english: flight
+  notes: 'Third-declension feminine in -ση. Plural: οι πτήσεις, των πτήσεων.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της πτήσης
+    plural: οι πτήσεις
+  keg_communicative_function: Tracking air travel flight numbers and statuses
+  example_el: Η πτήση για τα Χανιά αναχωρεί στις δέκα και είκοσι το πρωί.
+  example_en: The flight to Chania departs at ten twenty in the morning.
+  example2_el: Είχαμε μια πολύ ομαλή και ευχάριστη πτήση χωρίς αναταράξεις.
+  example2_en: We had a very smooth and pleasant flight without turbulence.
+  audio: i-ptisi-298de3.mp3
+  status: verified
+  example_audio: i-ptisi-gia-ta-chani-020bfe.mp3
+  example2_audio: eichame-mia-poly-oma-322976.mp3
+- id: A2P2-U06-003
+  greek: η κάρτα επιβίβασης
+  english: boarding pass
+  notes: 'Collocation: η κάρτα + genitive της επιβίβασης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η κάρτα (feminine)
+    genitive: της επιβίβασης (boarding)
+  keg_communicative_function: Presenting travel boarding documentation at airport
+    gates
+  example_el: Δείξτε την κάρτα επιβίβασης και την ταυτότητά σας στον υπάλληλο.
+  example_en: Show your boarding pass and your ID to the clerk.
+  example2_el: Μπορείτε να κατεβάσετε την ηλεκτρονική κάρτα επιβίβασης στο κινητό
+    σας τηλέφωνο.
+  example2_en: You can download the digital boarding pass onto your mobile phone.
+  audio: i-karta-epivivasis-8988f5.mp3
+  status: verified
+  example_audio: deixte-tin-karta-epi-aee032.mp3
+  example2_audio: mporeite-na-katevase-532c63.mp3
+- id: A2P2-U06-004
+  greek: ο έλεγχος αποσκευών
+  english: baggage inspection / security screening
+  notes: 'Collocation: ο έλεγχος + genitive plural των αποσκευών.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: ο έλεγχος (check/control)
+    genitive_plural: των αποσκευών (from η αποσκευή, luggage)
+  keg_communicative_function: Following airport security and luggage screening procedures
+  example_el: Περάσαμε γρήγορα από τον έλεγχο αποσκευών χωρίς καμία καθυστέρηση.
+  example_en: We went through baggage security quickly without any delay.
+  example2_el: Απαγορεύονται τα υγρά άνω των εκατό χιλιοστολίτρων στον έλεγχο χειραποσκευών.
+  example2_en: Liquids over one hundred milliliters are prohibited in carry-on screening.
+  audio: o-elegchos-aposkeyon-57e227.mp3
+  status: verified
+  example_audio: perasame-grigora-apo-bb7da9.mp3
+  example2_audio: apagoreyontai-ta-ygr-d658f3.mp3
+- id: A2P2-U06-005
+  greek: η πύλη επιβίβασης
+  english: boarding gate
+  notes: 'Collocation: η πύλη (gate) + genitive επιβίβασης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η πύλη (feminine)
+    genitive: της επιβίβασης
+  keg_communicative_function: Locating departure gates on airport display monitors
+  example_el: Η πύλη επιβίβασης κλείνει δεκαπέντε λεπτά πριν από την αναχώρηση της
+    πτήσης.
+  example_en: The boarding gate closes fifteen minutes before flight departure.
+  example2_el: Παρακαλούνται οι επιβάτες για Ρόδο να προσέλθουν στην πύλη Β12.
+  example2_en: Passengers for Rhodes are requested to proceed to gate B12.
+  audio: i-pyli-epivivasis-919029.mp3
+  status: verified
+  example_audio: i-pyli-epivivasis-kl-5484cc.mp3
+  example2_audio: parakaloyntai-oi-epi-19c6c6.mp3
+- id: A2P2-U06-006
+  greek: η αναχώρηση
+  english: departure
+  notes: 'Third-declension feminine in -ση. Opposite: η άφιξη.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της αναχώρησης
+    verb: αναχωρώ (I depart)
+  keg_communicative_function: Identifying departure timetables in transit hubs
+  example_el: Κοιτάξτε τον πίνακα αναχωρήσεων για να δείτε την κατάσταση της πτήσης
+    σας.
+  example_en: Look at the departure board to see the status of your flight.
+  example2_el: Η προγραμματισμένη ώρα αναχώρησης του τρένου είναι στις δεκατέσσερις
+    και τριάντα.
+  example2_en: The scheduled departure time of the train is at fourteen thirty.
+  audio: i-anachorisi-d144d3.mp3
+  status: verified
+  example_audio: koitaxte-ton-pinaka--fe7f29.mp3
+  example2_audio: i-programmatismeni-o-1baae8.mp3
+- id: A2P2-U06-007
+  greek: η άφιξη
+  english: arrival
+  notes: 'Third-declension feminine in -ξη. Plural: οι αφίξεις.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της άφιξης
+    plural: οι αφίξεις
+    verb: αφικνούμαι / φτάνω
+  keg_communicative_function: Confirming arrival times and terminal meeting points
+  example_el: Θα σε περιμένω στην αίθουσα αφίξεων του αεροδρομίου.
+  example_en: I will wait for you in the arrivals hall of the airport.
+  example2_el: Η ακριβής ώρα άφιξης του πλοίου εξαρτάται από τον καιρό στο Αιγαίο.
+  example2_en: The exact arrival time of the ship depends on the weather in the Aegean.
+  audio: i-afixi-226a90.mp3
+  status: verified
+  example_audio: tha-se-perimeno-stin-d2d56f.mp3
+  example2_audio: i-akrivis-ora-afixis-bcca21.mp3
+- id: A2P2-U06-008
+  greek: η καθυστέρηση πτήσης
+  english: flight delay
+  notes: 'Collocation: η καθυστέρηση + genitive πτήσης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η καθυστέρηση (delay)
+    genitive: της πτήσης
+  keg_communicative_function: Listening to and interpreting transit delay announcements
+  example_el: Ανακοινώθηκε καθυστέρηση πτήσης δύο ωρών λόγω τεχνικού ελέγχου.
+  example_en: A two-hour flight delay was announced due to a technical inspection.
+  example2_el: Ζητούμε συγγνώμη για την απρόβλεπτη καθυστέρηση στην άφιξη του πλοίου.
+  example2_en: We apologize for the unforeseen delay in the ship's arrival.
+  audio: i-kathysterisi-ptisi-fcfb52.mp3
+  status: verified
+  example_audio: anakoinothike-kathys-3aa600.mp3
+  example2_audio: zitoyme-syggnomi-gia-f22d23.mp3
+- id: A2P2-U06-009
+  greek: η ακύρωση δρομολογίου
+  english: trip / service cancellation
+  notes: 'Collocation: η ακύρωση + genitive δρομολογίου (from το δρομολόγιο).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η ακύρωση (cancellation)
+    genitive: του δρομολογίου (itinerary / route)
+  keg_communicative_function: Handling service cancellations and requesting rebooking
+  example_el: Λόγω της κακοκαιρίας και των ισχυρών ανέμων υπήρξε ακύρωση δρομολογίων
+    στα πλοία.
+  example_en: Due to bad weather and high winds, there was a cancellation of ferry
+    services.
+  example2_el: Σε περίπτωση ακύρωσης δρομολογίου, δικαιούστε πλήρη επιστροφή του εισιτηρίου.
+  example2_en: In case of trip cancellation, you are entitled to a full ticket refund.
+  audio: i-akyrosi-dromologio-7c105c.mp3
+  status: verified
+  example_audio: logo-tis-kakokairias-1baab4.mp3
+  example2_audio: se-periptosi-akyrosi-5afd66.mp3
+- id: A2P2-U06-010
+  greek: το λιμάνι
+  english: port / harbor
+  notes: Neuter noun in -ι. Major Greek transit hub (Πειραιάς, Ραφήνα).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του λιμανιού
+    plural: τα λιμάνια
+  keg_communicative_function: Navigating maritime passenger ports and ferry docks
+  example_el: Το λιμάνι του Πειραιά είναι ένα από τα μεγαλύτερα επιβατικά λιμάνια
+    της Ευρώπης.
+  example_en: The port of Piraeus is one of the largest passenger ports in Europe.
+  example2_el: Πρέπει να βρισκόμαστε στο λιμάνι μία ώρα πριν τον απόπλου του πλοίου.
+  example2_en: We need to be at the port one hour before the ship's departure.
+  audio: to-limani-847c04.mp3
+  status: verified
+  example_audio: to-limani-toy-peirai-a26320.mp3
+  example2_audio: prepei-na-vriskomast-e564cf.mp3
+- id: A2P2-U06-011
+  greek: το πλοίο της γραμμής / το φέρι μπόουτ
+  english: scheduled ferry / ferry boat
+  notes: Key terms for island travel in Greece.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    nouns: το πλοίο (ship) / το φέρι μπόουτ (indeclinable neuter)
+  keg_communicative_function: Booking sea crossings and vehicle transport on ferries
+  example_el: Το πλοίο της γραμμής συνδέει καθημερινά τα νησιά των Κυκλάδων.
+  example_en: The scheduled ferry connects the Cycladic islands daily.
+  example2_el: Επιβιβάσαμε το αυτοκίνητο στο φέρι μπόουτ για την Εύβοια.
+  example2_en: We boarded the car onto the ferry boat for Evia.
+  audio: to-ploio-tis-grammis-1fea8c.mp3
+  status: verified
+  example_audio: to-ploio-tis-grammis-01801e.mp3
+  example2_audio: epivivasame-to-aytok-5439aa.mp3
+- id: A2P2-U06-012
+  greek: η αποβάθρα
+  english: pier / dock / railway platform
+  notes: 'Dual context: train platform and port pier. Plural: οι αποβάθρες.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της αποβάθρας
+    plural: οι αποβάθρες
+  keg_communicative_function: Locating train platforms and maritime ferry gates
+  example_el: Το τρένο για τη Θεσσαλονίκη αναχωρεί από την αποβάθρα νούμερο τέσσερα.
+  example_en: The train for Thessaloniki departs from platform number four.
+  example2_el: Περπατήσαμε κατά μήκος της αποβάθρας για να βρούμε την πύλη Ε7 στο
+    λιμάνι.
+  example2_en: We walked along the pier to find gate E7 in the port.
+  audio: i-apovathra-444597.mp3
+  status: verified
+  example_audio: to-treno-gia-ti-thes-fab582.mp3
+  example2_audio: perpatisame-kata-mik-dc73ec.mp3
+- id: A2P2-U06-013
+  greek: το εισιτήριο με επιστροφή
+  english: round-trip / return ticket
+  notes: 'Collocation: εισιτήριο + με επιστροφή. Opp: απλό εισιτήριο.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: το εισιτήριο (ticket)
+    prepositional_phrase: με επιστροφή (with return)
+  keg_communicative_function: Purchasing return tickets at station ticket booths
+  example_el: Ένα εισιτήριο με επιστροφή για Ναύπλιο, παρακαλώ.
+  example_en: One round-trip ticket to Nafplio, please.
+  example2_el: Τα εισιτήρια με επιστροφή έχουν συχνά έκπτωση είκοσι τοις εκατό.
+  example2_en: Return tickets often have a twenty percent discount.
+  audio: to-eisitirio-me-epis-fe04c3.mp3
+  status: verified
+  example_audio: ena-eisitirio-me-epi-81a75c.mp3
+  example2_audio: ta-eisitiria-me-epis-77ed27.mp3
+- id: A2P2-U06-014
+  greek: το απλό εισιτήριο
+  english: one-way / single ticket
+  notes: 'Collocation: απλό (single) + εισιτήριο.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    adjective: απλός, -ή, -ό
+    noun: το εισιτήριο
+  keg_communicative_function: Requesting a single one-way trip fare
+  example_el: Πόσο κοστίζει το απλό ενιαίο εισιτήριο για τα μέσα μαζικής μεταφοράς;
+  example_en: How much does a single integrated transit ticket cost?
+  example2_el: Χρειάζομαι μόνο ένα απλό εισιτήριο, καθώς θα γυρίσω με αυτοκίνητο.
+  example2_en: I only need a one-way ticket, as I will return by car.
+  audio: to-aplo-eisitirio-ae036c.mp3
+  status: verified
+  example_audio: poso-kostizei-to-apl-71d5f2.mp3
+  example2_audio: chreiazomai-mono-ena-3fc83d.mp3
+- id: A2P2-U06-015
+  greek: η επικύρωση εισιτηρίου
+  english: ticket validation / stamping
+  notes: 'Noun: η επικύρωση. Verb: επικυρώνω το εισιτήριο.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η επικύρωση
+    genitive: του εισιτηρίου
+    verb: επικυρώνω (I validate)
+  keg_communicative_function: Following mandatory ticket validation rules on public
+    transit
+  example_el: Η επικύρωση του εισιτηρίου στα ακυρωτικά μηχανήματα είναι υποχρεωτική.
+  example_en: Validating the ticket at the validation machines is mandatory.
+  example2_el: Μην ξεχάσετε να επικυρώσετε το εισιτήριό σας μόλις μπείτε στο λεωφορείο.
+  example2_en: Don't forget to validate your ticket as soon as you enter the bus.
+  audio: i-epikyrosi-eisitiri-762405.mp3
+  status: verified
+  example_audio: i-epikyrosi-toy-eisi-0f71d5.mp3
+  example2_audio: min-xechasete-na-epi-fdb46b.mp3
+- id: A2P2-U06-016
+  greek: ο σταθμός λεωφορείων / τρένων
+  english: bus station / train station
+  notes: 'Noun: ο σταθμός (gen: του σταθμού, pl: οι σταθμοί).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: ο σταθμός
+    genitive_plural: των λεωφορείων / των τρένων
+  keg_communicative_function: Locating intercity terminals and central rail hubs
+  example_el: Ο κεντρικός σταθμός λεωφορείων του ΚΤΕΛ βρίσκεται στην οδό Κηφισού.
+  example_en: The central KTEL bus station is located on Kifissou street.
+  example2_el: Συναντηθήκαμε στον σιδηροδρομικό σταθμό μπροστά από το κεντρικό ρολόι.
+  example2_en: We met at the railway station in front of the main clock.
+  audio: o-stathmos-leoforeio-28846a.mp3
+  status: verified
+  example_audio: o-kentrikos-stathmos-bbd0dd.mp3
+  example2_audio: synantithikame-ston--28301c.mp3
+- id: A2P2-U06-017
+  greek: η στάση του λεωφορείου
+  english: bus stop
+  notes: 'Collocation: η στάση + genitive του λεωφορείου.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η στάση (stop)
+    genitive: του λεωφορείου
+  keg_communicative_function: Asking for local bus stop landmarks and wait points
+  example_el: Η στάση του λεωφορείου είναι ακριβώς έξω από το δημαρχείο.
+  example_en: The bus stop is right outside the town hall.
+  example2_el: Ποιο λεωφορείο περνάει από αυτή τη στάση για το κέντρο;
+  example2_en: Which bus passes from this stop going to the center?
+  audio: i-stasi-toy-leoforei-610c83.mp3
+  status: verified
+  example_audio: i-stasi-toy-leoforei-cb7b2a.mp3
+  example2_audio: poio-leoforeio-perna-089b69.mp3
+- id: A2P2-U06-018
+  greek: αλλάζω γραμμή
+  english: I change lines / transfer
+  notes: Metro navigation phrase. Verb αλλάζω + noun γραμμή.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'αλλάζω (aorist: άλλαξα)'
+    noun: 'η γραμμή (accusative: γραμμή)'
+  keg_communicative_function: Describing subway transfers and line changes in urban
+    transit
+  example_el: Στον σταθμό Σύνταγμα αλλάζουμε γραμμή για να πάρουμε την κόκκινη γραμμή.
+  example_en: At Syntagma station we change lines to take the red line.
+  example2_el: Πρέπει να αλλάξεις γραμμή στο Μοναστηράκι για να πας προς Πειραιά.
+  example2_en: You have to change lines at Monastiraki to go towards Piraeus.
+  audio: allazo-grammi-510a6f.mp3
+  status: verified
+  example_audio: ston-stathmo-syntagm-7f033c.mp3
+  example2_audio: prepei-na-allaxeis-g-30df94.mp3
+- id: A2P2-U06-019
+  greek: η ανταπόκριση
+  english: connection / connecting flight or train
+  notes: Third-declension feminine in -ση. Transit link between routes.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της ανταπόκρισης
+    plural: οι ανταποκρίσεις
+  keg_communicative_function: Catching connecting services without missing departure
+    slots
+  example_el: Έχουμε μόνο σαράντα λεπτά για την ανταπόκριση της πτήσης στη Φρανκφούρτη.
+  example_en: We have only forty minutes for the flight connection in Frankfurt.
+  example2_el: Ευτυχώς προλάβαμε την ανταπόκριση του τρένου για Λάρισα.
+  example2_en: Fortunately we caught the connecting train for Larissa.
+  audio: i-antapokrisi-78ee78.mp3
+  status: verified
+  example_audio: echoyme-mono-saranta-904782.mp3
+  example2_audio: eytychos-prolavame-t-917f79.mp3
+- id: A2P2-U06-020
+  greek: η πινακίδα κατεύθυνσης
+  english: direction sign / road sign
+  notes: 'Collocation: η πινακίδα + genitive κατεύθυνσης.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η πινακίδα (sign/signboard)
+    genitive: της κατεύθυνσης (direction)
+  keg_communicative_function: Reading highway and urban orientation signage
+  example_el: Ακολουθήστε τις πράσινες πινακίδες κατεύθυνσης προς τον αυτοκινητόδρομο.
+  example_en: Follow the green direction signs towards the motorway.
+  example2_el: Η πινακίδα δείχνει ότι το αρχαίο θέατρο απέχει πεντακόσια μέτρα.
+  example2_en: The sign shows that the ancient theater is five hundred meters away.
+  audio: i-pinakida-kateythyn-53cd43.mp3
+  status: verified
+  example_audio: akoloythiste-tis-pra-c4d036.mp3
+  example2_audio: i-pinakida-deichnei--6731e1.mp3
+- id: A2P2-U06-021
+  greek: στρίβω δεξιά / αριστερά
+  english: I turn right / left
+  notes: 'Verb στρίβω (aorist: έστριψα, imperative: στρίψε / στρίψτε). Core navigation
+    verb.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'στρίβω (aorist: έστριψα, imperative: στρίψε / στρίψτε)'
+    adverbs: δεξιά / αριστερά
+  keg_communicative_function: Giving and following directional turn instructions on
+    streets
+  example_el: Στο πρώτο στενό στρίψτε δεξιά και θα δείτε το φαρμακείο.
+  example_en: At the first alley turn right and you will see the pharmacy.
+  example2_el: Στρίψτε αριστερά μετά την εκκλησία και προχωρήστε μέχρι την πλατεία.
+  example2_en: Turn left after the church and proceed until the square.
+  audio: strivo-dexia-arister-65f40f.mp3
+  status: verified
+  example_audio: sto-proto-steno-stri-a1439c.mp3
+  example2_audio: stripste-aristera-me-c0d1bb.mp3
+- id: A2P2-U06-022
+  greek: πηγαίνω ευθεία
+  english: I go straight ahead
+  notes: 'Adverb: ευθεία (straight on). Imperative: πηγαίνετε ευθεία / πηγαίνετε ίσια.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'πηγαίνω / πάω (imperative: πήγαινε / πηγαίνετε)'
+    adverb: ευθεία / ίσια
+  keg_communicative_function: Instructing someone to proceed straight forward on a
+    route
+  example_el: Πηγαίνετε όλο ευθεία για διακόσια μέτρα μέχρι το μεγάλο σούπερ μάρκετ.
+  example_en: Go straight ahead for two hundred meters up to the big supermarket.
+  example2_el: Συνεχίστε ευθεία σε αυτόν τον κεντρικό δρόμο χωρίς να στρίψετε πουθενά.
+  example2_en: Continue straight on this main road without turning anywhere.
+  audio: pigaino-eytheia-e56e04.mp3
+  status: verified
+  example_audio: pigainete-olo-eythei-1bb614.mp3
+  example2_audio: synechiste-eytheia-s-4c46fe.mp3
+- id: A2P2-U06-023
+  greek: στο φανάρι
+  english: at the traffic light
+  notes: 'Prepositional phrase: σε + το φανάρι (colloquial for traffic light; lit.
+    lantern).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    noun: 'το φανάρι (gen: του φαναριού, pl: τα φανάρια)'
+    formal_equivalent: ο φωτεινός σηματοδότης
+  keg_communicative_function: Using street landmarks and traffic lights for navigational
+    cues
+  example_el: Σταματήστε στο φανάρι και στρίψτε αριστερά όταν ανάψει το πράσινο βέλος.
+  example_en: Stop at the traffic light and turn left when the green arrow lights
+    up.
+  example2_el: Στο δεύτερο φανάρι μετά τη γέφυρα κάντε αναστροφή.
+  example2_en: At the second traffic light after the bridge, make a U-turn.
+  audio: sto-fanari-c6368d.mp3
+  status: verified
+  example_audio: stamatiste-sto-fanar-f04698.mp3
+  example2_audio: sto-deytero-fanari-m-1f42cc.mp3
+- id: A2P2-U06-024
+  greek: στη διασταύρωση
+  english: at the intersection / crossroads
+  notes: 'Noun: η διασταύρωση. Prepositional: σε + τη διασταύρωση.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    noun: η διασταύρωση (3rd declension feminine)
+    genitive: της διασταύρωσης
+  keg_communicative_function: Directing turns and maneuvers at street crossings
+  example_el: Προσέξτε στη διασταύρωση γιατί δεν υπάρχει καλή ορατότητα.
+  example_en: Watch out at the intersection because there is poor visibility.
+  example2_el: Στη διασταύρωση των οδών Πανεπιστημίου και Κοραή βρίσκεται ο κινηματογράφος.
+  example2_en: At the intersection of Panepistimiou and Korai streets is the cinema.
+  audio: sti-diastayrosi-8333d0.mp3
+  status: verified
+  example_audio: prosexte-sti-diastay-625a04.mp3
+  example2_audio: sti-diastayrosi-ton--9f39f0.mp3
+- id: A2P2-U06-025
+  greek: απέναντι από...
+  english: opposite from / across from...
+  notes: 'Prepositional locative: απέναντι + από + accusative.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    adverb: απέναντι
+    preposition: από + accusative
+  keg_communicative_function: Describing relative spatial positions across a street
+  example_el: Η τράπεζα είναι ακριβώς απέναντι από το ταχυδρομείο.
+  example_en: The bank is directly opposite the post office.
+  example2_el: Σταθείτε απέναντι από το περίπτερο και θα έρθω να σας βρω.
+  example2_en: Stand across from the kiosk and I will come find you.
+  audio: apenanti-apo-7b217f.mp3
+  status: verified
+  example_audio: i-trapeza-einai-akri-96520b.mp3
+  example2_audio: statheite-apenanti-a-af1a59.mp3
+- id: A2P2-U06-026
+  greek: δίπλα σε...
+  english: next to / beside...
+  notes: 'Prepositional locative: δίπλα + σε + accusative.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    adverb: δίπλα
+    preposition: σε + accusative
+  keg_communicative_function: Specifying proximity adjacent to buildings or shops
+  example_el: Το ξενοδοχείο είναι χτισμένο δίπλα στη θάλασσα.
+  example_en: The hotel is built right next to the sea.
+  example2_el: Το φαρμακείο βρίσκεται ακριβώς δίπλα στο ιατρείο.
+  example2_en: The pharmacy is located right next to the clinic.
+  audio: dipla-se-ffe8fe.mp3
+  status: verified
+  example_audio: to-xenodocheio-einai-47c1f6.mp3
+  example2_audio: to-farmakeio-vrisket-e9abc3.mp3
+- id: A2P2-U06-027
+  greek: ανάμεσα σε...
+  english: between / among...
+  notes: 'Prepositional locative: ανάμεσα + σε + accusative.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    adverb: ανάμεσα
+    preposition: σε + accusative
+  keg_communicative_function: Indicating intermediate positions between two landmarks
+  example_el: Το κατάστημα βρίσκεται ανάμεσα στον φούρνο και το βιβλιοπωλείο.
+  example_en: The shop is located between the bakery and the bookstore.
+  example2_el: Υπάρχει ένα όμορφο μικρό πάρκο ανάμεσα στα δύο ψηλά κτίρια.
+  example2_en: There is a beautiful small park between the two tall buildings.
+  audio: anamesa-se-2c9bd6.mp3
+  status: verified
+  example_audio: to-katastima-vrisket-d62668.mp3
+  example2_audio: yparchei-ena-omorfo--2f6b64.mp3
+- id: A2P2-U06-028
+  greek: χάθηκα
+  english: I got lost
+  notes: Simple past of χάνομαι (deponent/mediopassive of χάνω).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present: χάνομαι
+    plural: χαθήκαμε
+  keg_communicative_function: Admitting being lost and asking strangers for assistance
+  example_el: Συγγνώμη, χάθηκα στους στενούς δρόμους, πώς μπορώ να βγω στην κεντρική
+    λεωφόρο;
+  example_en: Excuse me, I got lost in the narrow streets, how can I get out to the
+    main avenue?
+  example2_el: Μην ανησυχείτε αν χαθείτε, οι ντόπιοι είναι πάντα πρόθυμοι να βοηθήσουν.
+  example2_en: Don't worry if you get lost, the locals are always willing to help.
+  audio: chathika-02fd49.mp3
+  status: verified
+  example_audio: syggnomi-chathika-st-c114a3.mp3
+  example2_audio: min-anisycheite-an-c-b27979.mp3
+- id: A2P2-U06-029
+  greek: μπορείτε να μου δείξετε στον χάρτη;
+  english: can you show me on the map?
+  notes: 'Polite asking formula: modal verb + subjunctive + accusative object.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    modal: μπορείτε (formal)
+    verb: να δείξετε (from δείχνω)
+    locative: στον χάρτη (on the map)
+  keg_communicative_function: Requesting graphic / cartographic orientation assistance
+  example_el: Δεν γνωρίζω την περιοχή, μπορείτε να μου δείξετε στον χάρτη πού βρισκόμαστε;
+  example_en: I don't know the area, can you show me on the map where we are?
+  example2_el: Μπορείς να μου δείξεις στο κινητό ποια διαδρομή είναι πιο σύντομη;
+  example2_en: Can you show me on your phone which route is shorter?
+  audio: mporeite-na-moy-deix-57acd2.mp3
+  status: verified
+  example_audio: den-gnorizo-tin-peri-918e2b.mp3
+  example2_audio: mporeis-na-moy-deixe-fceb17.mp3
+- id: A2P2-U06-030
+  greek: καλό ταξίδι!
+  english: have a good trip! / safe travels!
+  notes: 'Standard Greek travel wishing formula. Adjective: καλός + noun: το ταξίδι.'
+  gender_or_pos: phrase / exclamation
+  grammatical_info:
+    part_of_speech: exclamation / greeting
+    adjective: καλό (neuter accusative)
+    noun: το ταξίδι
+  keg_communicative_function: Wishing safe journeys to departing friends or colleagues
+  example_el: Σας ευχόμαστε καλό ταξίδι και καλή επιστροφή στην πατρίδα σας!
+  example_en: We wish you safe travels and a safe return to your homeland!
+  example2_el: Καλό ταξίδι και να περάσετε υπέροχα στις διακοπές σας!
+  example2_en: Have a good trip and have a wonderful time on your vacation!
+  audio: kalo-taxidi-c63bf4.mp3
+  status: verified
+  example_audio: sas-eychomaste-kalo--71ab0c.mp3
+  example2_audio: kalo-taxidi-kai-na-p-554e62.mp3

@@ -1,0 +1,746 @@
+unit_id: unit-a2-03
+lesson_id: lesson-01
+title: 'Μάθημα 3: Σχέδια, Όνειρα & Ο Μέλλοντας (Future Plans, Intentions & Forecasts)'
+description: Formulating future plans, intentions, and predictions using Simple and
+  Continuous Future (Συνοπτικός & Εξακολουθητικός Μέλλοντας), temporal adverbials
+  (του χρόνου, σύντομα, σε λίγο), and verbs of intention (σκοπεύω, σχεδιάζω, ελπίζω).
+lesson_status: not_started
+lesson_notes: "Unit A2-03 Core Notes: Σχέδια, Όνειρα & Ο Μέλλοντας (Future Plans &\
+  \ Predictions)\n• Simple Future (Συνοπτικός Μέλλοντας):\n  - Formed with 'θα' +\
+  \ aorist dependent stem (θα πάω, θα δω, θα κάνω, θα μείνω, θα ταξιδέψω, θα πάρω,\
+  \ θα δώσω, θα έρθω, θα φύγω, θα βρω, θα στείλω).\n  - Used for single, completed\
+  \ future events at a specific time.\n\n• Continuous Future (Εξακολουθητικός Μέλλοντας):\n\
+  \  - Formed with 'θα' + present stem (θα δουλεύω, θα διαβάζω, θα μένω).\n  - Used\
+  \ for duration, repetition, or background state in the future.\n\n• Expressions\
+  \ of Intention & Probability:\n  - σκοπεύω να (I intend to), σχεδιάζω να (I plan\
+  \ to), ελπίζω να (I hope to), υπόσχομαι να (I promise to).\n  - σίγουρα (definitely),\
+  \ ίσως (perhaps), πιθανόν (probably), αποκλείεται να (it is impossible to).\n\n\
+  • Temporal Markers:\n  - του χρόνου (next year), τον επόμενο μήνα (next month),\
+  \ σύντομα (soon), σε λίγο (shortly), μεθαύριο (day after tomorrow)."
+entries:
+- id: A2-U03-001
+  greek: θα πάω
+  english: I will go
+  notes: Simple future (συνοπτικός μέλλοντας) of 'πηγαίνω' (θα πάω, θα πας, θα πάει,
+    θα πάμε, θα πάτε, θα πάνε). High-frequency anchor for future travel and appointments.
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: πηγαίνω
+    second_person_singular: θα πας
+    third_person_singular: θα πάει
+    first_person_plural: θα πάμε
+  keg_communicative_function: Stating future destinations and travel intentions in
+    speaking and writing tasks
+  example_el: Τον επόμενο μήνα θα πάω στην Αθήνα για επαγγελματικό σεμινάριο.
+  example_en: Next month I will go to Athens for a professional seminar.
+  example2_el: Θα πάτε στο θέατρο το Σάββατο ή προτιμάτε τον κινηματογράφο;
+  example2_en: Will you go to the theater on Saturday or do you prefer the cinema?
+  audio: tha-pao-42c503.mp3
+  status: verified
+  example_audio: ton-epomeno-mina-tha-3c28ba.mp3
+  example2_audio: tha-pate-sto-theatro-cd2cbf.mp3
+- id: A2-U03-002
+  greek: θα δω
+  english: I will see / I will visit
+  notes: Simple future of 'βλέπω' (θα δω, θα δεις, θα δει, θα δούμε, θα δείτε, θα
+    δουν). Often used for visiting friends or sights.
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: βλέπω
+    second_person_singular: θα δεις
+    third_person_singular: θα δει
+    first_person_plural: θα δούμε
+  keg_communicative_function: Planning social visits and sightseeing in travel scenarios
+  example_el: Μόλις φτάσω στη Θεσσαλονίκη, θα δω τους παλιούς μου φίλους.
+  example_en: As soon as I arrive in Thessaloniki, I will see my old friends.
+  example2_el: Αύριο θα δούμε τα αποτελέσματα των εξετάσεων στον πίνακα ανακοινώσεων.
+  example2_en: Tomorrow we will see the examination results on the notice board.
+  audio: tha-do-7e2d93.mp3
+  status: verified
+  example_audio: molis-ftaso-sti-thes-92cf57.mp3
+  example2_audio: ayrio-tha-doyme-ta-a-615433.mp3
+- id: A2-U03-003
+  greek: θα κάνω
+  english: I will do / I will make
+  notes: Simple future of 'κάνω' (θα κάνω, θα κάνεις, θα κάνει, θα κάνουμε, θα κάνετε,
+    θα κάνουν).
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: κάνω
+    third_person_singular: θα κάνει
+    first_person_plural: θα κάνουμε
+  keg_communicative_function: Describing planned activities and future commitments
+  example_el: Το καλοκαίρι θα κάνουμε διακοπές σε ένα ήσυχο νησί των Κυκλάδων.
+  example_en: In the summer we will take holidays on a quiet Cycladic island.
+  example2_el: Τι θα κάνετε αν αλλάξει το πρόγραμμα των δρομολογίων;
+  example2_en: What will you do if the route schedule changes?
+  audio: tha-kano-3b260b.mp3
+  status: verified
+  example_audio: to-kalokairi-tha-kan-d9078c.mp3
+  example2_audio: ti-tha-kanete-an-all-2faba3.mp3
+- id: A2-U03-004
+  greek: θα μείνω
+  english: I will stay
+  notes: Simple future of 'μένω' (θα μείνω, θα μείνεις, θα μείνει, θα μείνουμε, θα
+    μείνετε, θα μείνουν). Core verb for hotel reservations.
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: μένω
+    third_person_singular: θα μείνει
+    first_person_plural: θα μείνουμε
+  keg_communicative_function: Specifying future lodging and duration of stay in booking
+    inquiries
+  example_el: Θα μείνω σε ένα ξενοδοχείο στο κέντρο της πόλης για τρεις διανυκτερεύσεις.
+  example_en: I will stay at a hotel in the city center for three nights.
+  example2_el: Πόσες μέρες θα μείνετε στην Κρήτη;
+  example2_en: How many days will you stay in Crete?
+  audio: tha-meino-b3f262.mp3
+  status: verified
+  example_audio: tha-meino-se-ena-xen-00d926.mp3
+  example2_audio: poses-meres-tha-mein-ebb83f.mp3
+- id: A2-U03-005
+  greek: θα ταξιδέψω
+  english: I will travel
+  notes: 'Simple future of ''ταξιδεύω'' (-εψω stem: θα ταξιδέψω, θα ταξιδέψεις, θα
+    ταξιδέψει).'
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: ταξιδεύω
+    third_person_singular: θα ταξιδέψει
+    noun_derivative: το ταξίδι
+  keg_communicative_function: Discussing upcoming travel arrangements and itineraries
+  example_el: Τον επόμενο χειμώνα θα ταξιδέψω στην Ιταλία με το τρένο.
+  example_en: Next winter I will travel to Italy by train.
+  example2_el: Θα ταξιδέψετε αεροπορικώς ή με το πλοίο;
+  example2_en: Will you travel by plane or by ship?
+  audio: tha-taxidepso-c419b6.mp3
+  status: verified
+  example_audio: ton-epomeno-cheimona-253685.mp3
+  example2_audio: tha-taxidepsete-aero-62e0d3.mp3
+- id: A2-U03-006
+  greek: θα δουλεύω
+  english: I will be working
+  notes: Continuous future (εξακολουθητικός μέλλοντας) of 'δουλεύω'. Denotes continuous
+    action or routine in future.
+  gender_or_pos: verb (continuous future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: continuous future (εξακολουθητικός μέλλοντας)
+    aspect: continuous/imperfective
+    third_person_singular: θα δουλεύει
+    first_person_plural: θα δουλεύουμε
+  keg_communicative_function: Describing continuous future occupation or background
+    activities
+  example_el: Όλο το πρωί του Σαββάτου θα δουλεύω στο γραφείο, οπότε δεν θα μπορώ
+    να έρθω.
+  example_en: All Saturday morning I will be working at the office, so I will not
+    be able to come.
+  example2_el: Του χρόνου θα δουλεύει ως καθηγητής σε ιδιωτικό σχολείο.
+  example2_en: Next year he will be working as a teacher at a private school.
+  audio: tha-doyleyo-705d12.mp3
+  status: verified
+  example_audio: olo-to-proi-toy-savv-c3b0c7.mp3
+  example2_audio: toy-chronoy-tha-doyl-9cf89b.mp3
+- id: A2-U03-007
+  greek: θα διαβάζω
+  english: I will be studying / I will be reading
+  notes: Continuous future of 'διαβάζω'. Indicates prolonged study or preparation.
+  gender_or_pos: verb (continuous future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: continuous future (εξακολουθητικός μέλλοντας)
+    aspect: continuous/imperfective
+    third_person_singular: θα διαβάζει
+    contrast: θα διαβάσω (punctual / single completion)
+  keg_communicative_function: Describing ongoing preparation for examinations in student
+    interviews
+  example_el: Τις επόμενες εβδομάδες θα διαβάζω καθημερινά για τις εξετάσεις του Μαΐου.
+  example_en: In the coming weeks I will be studying daily for the May exams.
+  example2_el: Μην κάνετε θόρυβο, τα παιδιά θα διαβάζουν για το σχολείο.
+  example2_en: Do not make noise, the children will be studying for school.
+  audio: tha-diavazo-c27880.mp3
+  status: verified
+  example_audio: tis-epomenes-evdomad-ff3a98.mp3
+  example2_audio: min-kanete-thoryvo-t-314126.mp3
+- id: A2-U03-008
+  greek: θα πάρω
+  english: I will take / I will receive
+  notes: Simple future of 'παίρνω' (θα πάρω, θα πάρεις, θα πάρει, θα πάρουμε, θα πάρετε,
+    θα πάρουν).
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: παίρνω
+    second_person_singular: θα πάρεις
+    third_person_singular: θα πάρει
+    first_person_plural: θα πάρουμε
+  keg_communicative_function: Planning transport decisions or taking official exams/degrees
+  example_el: Αύριο το πρωί θα πάρω το μετρό για να αποφύγω την κίνηση.
+  example_en: Tomorrow morning I will take the metro to avoid traffic.
+  example2_el: Σε δύο χρόνια ελπίζει ότι θα πάρει το πτυχίο του.
+  example2_en: In two years he hopes that he will receive his degree.
+  audio: tha-paro-f23df4.mp3
+  status: verified
+  example_audio: ayrio-to-proi-tha-pa-2a2e41.mp3
+  example2_audio: se-dyo-chronia-elpiz-d5f739.mp3
+- id: A2-U03-009
+  greek: θα δώσω
+  english: I will give / I will sit (an exam)
+  notes: 'Simple future of ''δίνω'' (θα δώσω, θα δώσεις, θα δώσει, θα δώσουμε, θα
+    δώσετε, θα δώσουν). High-frequency idiom: ''θα δώσω εξετάσεις''.'
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: δίνω
+    third_person_singular: θα δώσει
+    collocation: θα δώσω εξετάσεις (I will sit exams)
+  keg_communicative_function: Declaring intent to sit exams and deliver items
+  example_el: Τον Μάιο θα δώσω εξετάσεις για το πιστοποιητικό ελληνομάθειας Α2.
+  example_en: In May I will sit examinations for the A2 certificate of attainment
+    in Greek.
+  example2_el: Θα σας δώσω όλες τις πληροφορίες μόλις λάβω το μήνυμα.
+  example2_en: I will give you all the information as soon as I receive the message.
+  audio: tha-doso-0203ac.mp3
+  status: verified
+  example_audio: ton-maio-tha-doso-ex-263b15.mp3
+  example2_audio: tha-sas-doso-oles-ti-7460b7.mp3
+- id: A2-U03-010
+  greek: θα έρθω
+  english: I will come
+  notes: Simple future of 'έρχομαι' (θα έρθω, θα έρθεις, θα έρθει, θα έρθουμε, θα
+    έρθετε, θα έρθουν). Key verb for accepting invitations.
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: έρχομαι
+    second_person_singular: θα έρθεις
+    third_person_singular: θα έρθει
+    first_person_plural: θα έρθουμε
+  keg_communicative_function: Accepting invitations and confirming arrival times in
+    Writing Task 1
+  example_el: Ευχαριστώ για την πρόσκληση! Θα έρθω στο πάρτι σας μετά τις οκτώ.
+  example_en: Thank you for the invitation! I will come to your party after eight.
+  example2_el: Θα έρθετε μαζί μας στην εκδρομή την Κυριακή;
+  example2_en: Will you come with us on the excursion on Sunday?
+  audio: tha-ertho-30e92d.mp3
+  status: verified
+  example_audio: eycharisto-gia-tin-p-3fbde3.mp3
+  example2_audio: tha-erthete-mazi-mas-cbb8ed.mp3
+- id: A2-U03-011
+  greek: θα φύγω
+  english: I will leave / I will depart
+  notes: Simple future of 'φεύγω' (θα φύγω, θα φύγεις, θα φύγει, θα φύγουμε, θα φύγετε,
+    θα φύγουν).
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: φεύγω
+    third_person_singular: θα φύγει
+    first_person_plural: θα φύγουμε
+  keg_communicative_function: Stating departure times in travel bookings and formal
+    inquiries
+  example_el: Θα φύγω από το σπίτι νωρίς για να μη χάσω το λεωφορείο.
+  example_en: I will leave the house early so as not to miss the bus.
+  example2_el: Το αεροπλάνο θα φύγει με μικρή καθυστέρηση λόγω καιρού.
+  example2_en: The airplane will depart with a slight delay due to weather.
+  audio: tha-fygo-6906b2.mp3
+  status: verified
+  example_audio: tha-fygo-apo-to-spit-bcf589.mp3
+  example2_audio: to-aeroplano-tha-fyg-35d022.mp3
+- id: A2-U03-012
+  greek: θα βρω
+  english: I will find
+  notes: Simple future of 'βρίσκω' (θα βρω, θα βρεις, θα βρει, θα βρούμε, θα βρείτε,
+    θα βρουν).
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: βρίσκω
+    second_person_singular: θα βρεις
+    third_person_singular: θα βρει
+    first_person_plural: θα βρούμε
+  keg_communicative_function: Expressing optimism about finding employment, lodging,
+    or solutions
+  example_el: Είμαι σίγουρος ότι θα βρω μια καλή δουλειά στην Ελλάδα.
+  example_en: I am certain that I will find a good job in Greece.
+  example2_el: Πού θα βρούμε φθηνά εισιτήρια για το ταξίδι;
+  example2_en: Where will we find cheap tickets for the trip?
+  audio: tha-vro-c30b03.mp3
+  status: verified
+  example_audio: eimai-sigoyros-oti-t-b45292.mp3
+  example2_audio: poy-tha-vroyme-fthin-2a27e7.mp3
+- id: A2-U03-013
+  greek: θα στείλω
+  english: I will send
+  notes: Simple future of 'στέλνω' (θα στείλω, θα στείλεις, θα στείλει, θα στείλουμε,
+    θα στείλετε, θα στείλουν).
+  gender_or_pos: verb (simple future)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple future (συνοπτικός μέλλοντας)
+    present_stem: στέλνω
+    third_person_singular: θα στείλει
+    first_person_plural: θα στείλουμε
+  keg_communicative_function: Promising to send emails, documents, or postcards in
+    correspondence
+  example_el: Αύριο θα σας στείλω όλα τα απαραίτητα δικαιολογητικά με μήνυμα.
+  example_en: Tomorrow I will send you all the necessary documents by email.
+  example2_el: Θα στείλουμε κάρτες στους φίλους μας από τις διακοπές.
+  example2_en: We will send cards to our friends from the vacation.
+  audio: tha-steilo-248e6b.mp3
+  status: verified
+  example_audio: ayrio-tha-sas-steilo-36f7b4.mp3
+  example2_audio: tha-steiloyme-kartes-3e7148.mp3
+- id: A2-U03-014
+  greek: σκοπεύω
+  english: I intend to / I plan to
+  notes: Active verb followed by 'να + subjunctive'. Direct indicator of intent in
+    candidate interviews.
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: σκοπεύω να + υποτακτική
+    third_person_singular: σκοπεύει
+    noun_derivative: ο σκοπός
+  keg_communicative_function: Articulating future career and personal intentions in
+    oral interviews
+  example_el: Σκοπεύω να ανοίξω τη δική μου επιχείρηση τα επόμενα χρόνια.
+  example_en: I intend to open my own business in the coming years.
+  example2_el: Τι σκοπεύετε να κάνετε μετά την ολοκλήρωση του προγράμματος;
+  example2_en: What do you intend to do after the completion of the program?
+  audio: skopeyo-bc0679.mp3
+  status: verified
+  example_audio: skopeyo-na-anoixo-ti-884350.mp3
+  example2_audio: ti-skopeyete-na-kane-d3dafc.mp3
+- id: A2-U03-015
+  greek: σχεδιάζω
+  english: to plan / to design
+  notes: Verb taking direct object or 'να + subjunctive'. Related to 'το σχέδιο' (plan/design).
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_future: θα σχεδιάσω
+    third_person_singular: σχεδιάζει
+    noun_derivative: το σχέδιο
+  keg_communicative_function: Discussing planning of trips, events, or projects
+  example_el: Σχεδιάζουμε ένα ταξίδι στη βόρεια Ελλάδα για την άνοιξη.
+  example_en: We are planning a trip to northern Greece for the spring.
+  example2_el: Η επιτροπή σχεδιάζει νέες εκδηλώσεις για το κοινό.
+  example2_en: The committee is planning new events for the public.
+  audio: schediazo-8d1f68.mp3
+  status: verified
+  example_audio: schediazoyme-ena-tax-30de9f.mp3
+  example2_audio: i-epitropi-schediaze-8cc7d8.mp3
+- id: A2-U03-016
+  greek: το σχέδιο
+  english: plan / design / blueprint
+  notes: Neuter noun in -ο (-α). Plural 'τα σχέδια' means plans / future intentions.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα σχέδια
+    genitive_singular: του σχεδίου
+    collocation: κάνω σχέδια (to make plans)
+  keg_communicative_function: Discussing plans for the holidays or career in personal
+    dialogues
+  example_el: Ποια είναι τα σχέδιά σας για το επόμενο καλοκαίρι;
+  example_en: What are your plans for next summer?
+  example2_el: Έχουμε πολλά σχέδια για τη βελτίωση του χώρου εργασίας.
+  example2_en: We have many plans for the improvement of the workplace.
+  audio: to-schedio-431948.mp3
+  status: verified
+  example_audio: poia-einai-ta-schedi-137563.mp3
+  example2_audio: echoyme-polla-schedi-3d07b2.mp3
+- id: A2-U03-017
+  greek: ελπίζω
+  english: to hope / I hope
+  notes: Verb usually followed by 'να + subjunctive' or 'ότι + future'. Expresses
+    optimistic anticipation.
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: ελπίζω να + υποτακτική / ελπίζω ότι + οριστική
+    noun_derivative: η ελπίδα
+  keg_communicative_function: Expressing hopes and good wishes in informal emails
+    and interviews
+  example_el: Ελπίζω να περάσω με επιτυχία τις εξετάσεις του Μαΐου.
+  example_en: I hope to successfully pass the May examinations.
+  example2_el: Ελπίζουμε ότι ο καιρός θα είναι καλός το Σαββατοκύριακο.
+  example2_en: We hope that the weather will be good over the weekend.
+  audio: elpizo-46e3f5.mp3
+  status: verified
+  example_audio: elpizo-na-peraso-me--2e2f3a.mp3
+  example2_audio: elpizoyme-oti-o-kair-cf5247.mp3
+- id: A2-U03-018
+  greek: το όνειρο
+  english: dream
+  notes: Neuter noun in -ο (-α). Refers both to sleep dreams and life aspirations.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα όνειρα
+    genitive_singular: του ονείρου
+    collocation: το όνειρό μου είναι να...
+  keg_communicative_function: Describing life aspirations and ideal future goals in
+    oral Stage 1
+  example_el: Το όνειρό μου είναι να ζήσω και να εργαστώ μόνιμα σε ένα ελληνικό νησί.
+  example_en: My dream is to live and work permanently on a Greek island.
+  example2_el: Ποτέ μην εγκαταλείπετε τα όνειρά σας για το μέλλον.
+  example2_en: Never abandon your dreams for the future.
+  audio: to-oneiro-29a99c.mp3
+  status: verified
+  example_audio: to-oneiro-moy-einai--c2823c.mp3
+  example2_audio: pote-min-egkataleipe-4dbe8e.mp3
+- id: A2-U03-019
+  greek: το μέλλον
+  english: the future
+  notes: 'Neuter noun in -ον (-οντος). Temporal anchor: ''στο μέλλον'' (in the future).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    genitive_singular: του μέλλοντος
+    adverbial_phrase: στο μέλλον (in the future)
+  keg_communicative_function: Speculating about future prospects and career trajectories
+  example_el: Στο μέλλον οι περισσότερες συναλλαγές θα γίνονται ψηφιακά.
+  example_en: In the future most transactions will be conducted digitally.
+  example2_el: Εύχομαι κάθε επιτυχία στο επαγγελματικό σας μέλλον.
+  example2_en: I wish every success in your professional future.
+  audio: to-mellon-47b935.mp3
+  status: verified
+  example_audio: sto-mellon-oi-periss-a32421.mp3
+  example2_audio: eychomai-kathe-epity-0f5039.mp3
+- id: A2-U03-020
+  greek: του χρόνου
+  english: next year
+  notes: 'Fixed genitive temporal phrase used adverbially. Antonym: ''πέρυσι'' (last
+    year).'
+  gender_or_pos: adverbial phrase
+  grammatical_info:
+    part_of_speech: phrase
+    grammatical_origin: genitive of time
+    contrast: πέρυσι (last year), φέτος (this year)
+  keg_communicative_function: Setting future calendar milestones in personal plans
+  example_el: Του χρόνου θα ξεκινήσω μαθήματα επιπέδου Β1.
+  example_en: Next year I will start level B1 courses.
+  example2_el: Σκοπεύουν να αγοράσουν δικό τους σπίτι του χρόνου.
+  example2_en: They plan to buy their own house next year.
+  audio: toy-chronoy-58086e.mp3
+  status: verified
+  example_audio: toy-chronoy-tha-xeki-8f6507.mp3
+  example2_audio: skopeyoyn-na-agoraso-02fe0a.mp3
+- id: A2-U03-021
+  greek: τον επόμενο μήνα
+  english: next month
+  notes: Temporal accusative phrase. Collocates with simple or continuous future.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    case: accusative of time
+    related: την επόμενη εβδομάδα (next week)
+  keg_communicative_function: Scheduling medium-term appointments and travel in correspondence
+  example_el: Τον επόμενο μήνα θα διεξαχθούν οι ετήσιες εξετάσεις πιστοποίησης.
+  example_en: Next month the annual certification exams will be held.
+  example2_el: Θα λάβετε την τελική απάντηση τον επόμενο μήνα.
+  example2_en: You will receive the final answer next month.
+  audio: ton-epomeno-mina-2a91c7.mp3
+  status: verified
+  example_audio: ton-epomeno-mina-tha-8ecb0c.mp3
+  example2_audio: tha-lavete-tin-telik-8ddfdc.mp3
+- id: A2-U03-022
+  greek: σύντομα
+  english: soon / shortly
+  notes: 'Adverb of time. Standard closing element in Greek letters: ''θα τα πούμε
+    σύντομα''.'
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+    synonym: σε λίγο, γρήγορα
+    collocation: θα τα πούμε σύντομα (see you soon)
+  keg_communicative_function: Concluding communicative letters/emails with anticipation
+    of prompt reunion
+  example_el: Ελπίζω να έχω νέα σας πολύ σύντομα.
+  example_en: I hope to have news from you very soon.
+  example2_el: Το καινούριο κατάστημα θα ανοίξει σύντομα στο εμπορικό κέντρο.
+  example2_en: The new store will open soon in the shopping mall.
+  audio: syntoma-d02d2a.mp3
+  status: verified
+  example_audio: elpizo-na-echo-nea-s-338127.mp3
+  example2_audio: to-kainoyrio-katasti-6d21e4.mp3
+- id: A2-U03-023
+  greek: σε λίγο
+  english: in a little while / shortly
+  notes: Temporal prepositional phrase indicating imminent immediate future.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    synonym: σε λίγα λεπτά
+  keg_communicative_function: Announcing imminent departures or arrivals in listening
+    exercises
+  example_el: Σε λίγο θα αρχίσει η προβολή της ταινίας, παρακαλώ κλείστε τα κινητά
+    σας.
+  example_en: In a little while the film screening will begin; please turn off your
+    mobile phones.
+  example2_el: Ο εκφωνητής ανακοίνωσε ότι το τρένο θα φτάσει σε λίγο.
+  example2_en: The announcer stated that the train will arrive shortly.
+  audio: se-ligo-b52bc7.mp3
+  status: verified
+  example_audio: se-ligo-tha-archisei-b047ec.mp3
+  example2_audio: o-ekfonitis-anakoino-33c896.mp3
+- id: A2-U03-024
+  greek: μεθαύριο
+  english: the day after tomorrow
+  notes: 'Temporal adverb. Forms sequence: χθες -> σήμερα -> αύριο -> μεθαύριο.'
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: temporal adverb
+    sequence: σήμερα -> αύριο -> μεθαύριο
+  keg_communicative_function: Scheduling short-term appointments and meetings in dialogues
+  example_el: Μεθαύριο το πρωί έχω ραντεβού με τον γιατρό για εξετάσεις.
+  example_en: The day after tomorrow in the morning I have an appointment with the
+    doctor for tests.
+  example2_el: Τα μαθήματα θα επαναληφθούν μεθαύριο.
+  example2_en: Classes will resume the day after tomorrow.
+  audio: methayrio-8899b3.mp3
+  status: verified
+  example_audio: methayrio-to-proi-ec-cb0107.mp3
+  example2_audio: ta-mathimata-tha-epa-5a71f3.mp3
+- id: A2-U03-025
+  greek: σίγουρα
+  english: certainly / definitely
+  notes: Adverb of degree/certainty. Expresses high confidence in future predictions.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+    adjective: σίγουρος, -η, -ο
+    synonym: οπωσδήποτε
+  keg_communicative_function: Expressing firm conviction or reassurance in conversations
+  example_el: Θα έρθω σίγουρα στη γιορτή σας αν δεν δουλεύω.
+  example_en: I will definitely come to your celebration if I am not working.
+  example2_el: Με καλή προετοιμασία θα πετύχετε σίγουρα τον στόχο σας.
+  example2_en: With good preparation you will definitely achieve your goal.
+  audio: sigoyra-3824c4.mp3
+  status: verified
+  example_audio: tha-ertho-sigoyra-st-df051f.mp3
+  example2_audio: me-kali-proetoimasia-895f5f.mp3
+- id: A2-U03-026
+  greek: ίσως
+  english: perhaps / maybe
+  notes: Modal adverb followed by subjunctive or future indicative to express possibility.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: modal adverb
+    synonym: μπορεί να, πιθανόν
+    syntax: ίσως + οριστική μέλλοντα ή ίσως + υποτακτική
+  keg_communicative_function: Expressing uncertainty or tentative proposals in oral
+    Stage 3
+  example_el: Ίσως ταξιδέψουμε στα Χανιά το τριήμερο, αν βρούμε οικονομικά εισιτήρια.
+  example_en: Perhaps we will travel to Chania for the three-day weekend if we find
+    budget tickets.
+  example2_el: Ίσως χρειαστεί να περιμένετε λίγα λεπτά στη γραμματεία.
+  example2_en: Perhaps you will need to wait a few minutes at the secretariat.
+  audio: isos-750729.mp3
+  status: verified
+  example_audio: isos-taxidepsoyme-st-ec24fc.mp3
+  example2_audio: isos-chreiastei-na-p-06d8da.mp3
+- id: A2-U03-027
+  greek: πιθανόν
+  english: probably / likely
+  notes: Modal adverb / neuter adjective functioning adverbially. Indicates high probability.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: modal adverb
+    variant: πιθανώς
+    phrase: είναι πιθανό να (it is likely that)
+  keg_communicative_function: Estimating likelihood and making cautious predictions
+  example_el: Πιθανόν να βρέξει το απόγευμα, γι' αυτό πάρτε ομπρέλα μαζί σας.
+  example_en: It will probably rain in the afternoon, so take an umbrella with you.
+  example2_el: Είναι πολύ πιθανό να αλλάξει η ημερομηνία της συνάντησης.
+  example2_en: It is very likely that the meeting date will change.
+  audio: pithanon-0f871f.mp3
+  status: verified
+  example_audio: pithanon-na-vrexei-t-486250.mp3
+  example2_audio: einai-poly-pithano-n-d08965.mp3
+- id: A2-U03-028
+  greek: αποκλείεται
+  english: it's impossible / out of the question
+  notes: Impersonal mediopassive verb. Followed by 'να + subjunctive'. Expresses absolute
+    denial/impossibility.
+  gender_or_pos: verb (impersonal)
+  grammatical_info:
+    part_of_speech: impersonal verb
+    syntax: αποκλείεται να + υποτακτική
+    antonym: είναι σίγουρο
+  keg_communicative_function: Rejecting options emphatically or dismissing unlikely
+    possibilities
+  example_el: Αποκλείεται να προλάβουμε το τρένο αν δεν πάρουμε ταξί.
+  example_en: It's out of the question that we catch the train unless we take a taxi.
+  example2_el: Αποκλείεται να κάνει τόση ζέστη τον Μάιο.
+  example2_en: It's impossible for it to be that hot in May.
+  audio: apokleietai-a03325.mp3
+  status: verified
+  example_audio: apokleietai-na-prola-65a967.mp3
+  example2_audio: apokleietai-na-kanei-fb3f0a.mp3
+- id: A2-U03-029
+  greek: αποφασίζω
+  english: to decide
+  notes: 'Verb followed by ''να + subjunctive''. Simple past: ''αποφάσισα'', simple
+    future: ''θα αποφασίσω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αποφάσισα
+    simple_future: θα αποφασίσω
+    noun_derivative: η απόφαση
+  keg_communicative_function: Reporting decisions taken or deliberating options in
+    candidate discussions
+  example_el: Αποφάσισα να γραφτώ σε εντατικό τμήμα εκμάθησης ελληνικών.
+  example_en: I decided to enroll in an intensive Greek learning course.
+  example2_el: Πότε θα αποφασίσετε ποιο αυτοκίνητο θα αγοράσετε;
+  example2_en: When will you decide which car you will buy?
+  audio: apofasizo-d4aabb.mp3
+  status: verified
+  example_audio: apofasisa-na-grafto--3cc1b3.mp3
+  example2_audio: pote-tha-apofasisete-8bc87a.mp3
+- id: A2-U03-030
+  greek: η απόφαση
+  english: decision
+  notes: Feminine noun in -η (-εις). Collocates with 'παίρνω απόφαση' (to make a decision).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αποφάσεις
+    accusative_singular: την απόφαση
+    collocation: παίρνω απόφαση
+  keg_communicative_function: Discussing life decisions, career steps, and joint conclusions
+    in Stage 3
+  example_el: Ήταν μια δύσκολη αλλά απαραίτητη απόφαση για το μέλλον της οικογένειας.
+  example_en: It was a difficult but necessary decision for the family's future.
+  example2_el: Πήραμε την οριστική απόφαση να μετακομίσουμε στην εξοχή.
+  example2_en: We made the definitive decision to move to the countryside.
+  audio: i-apofasi-77299f.mp3
+  status: verified
+  example_audio: itan-mia-dyskoli-all-de61f5.mp3
+  example2_audio: pirame-tin-oristiki--48b35c.mp3
+- id: A2-U03-031
+  greek: κανονίζω
+  english: to arrange / to organize / to settle
+  notes: 'Common conversational verb in Greek life: ''θα το κανονίσω'' (I will arrange
+    it). Simple past: ''κανόνισα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: κανόνισα
+    simple_future: θα κανονίσω
+    collocation: κανονίζω ραντεβού / συνάντηση
+  keg_communicative_function: Arranging social meetings, outings, and schedules with
+    friends
+  example_el: Κανονίσαμε να συναντηθούμε έξω από τον σταθμό του μετρό στις επτά.
+  example_en: We arranged to meet outside the metro station at seven.
+  example2_el: Θα κανονίσω εγώ τα εισιτήρια για όλους μας.
+  example2_en: I will arrange the tickets for all of us.
+  audio: kanonizo-47c5c8.mp3
+  status: verified
+  example_audio: kanonisame-na-synant-1b8817.mp3
+  example2_audio: tha-kanoniso-ego-ta--852042.mp3
+- id: A2-U03-032
+  greek: ο στόχος
+  english: goal / objective / target
+  notes: Masculine noun in -ος (-οι). Collocates with 'πετυχαίνω τον στόχο' (to achieve
+    the goal).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι στόχοι
+    genitive_singular: του στόχου
+    collocation: βάζω στόχο, πετυχαίνω τον στόχο
+  keg_communicative_function: Setting personal and educational objectives in oral
+    interviews
+  example_el: Ο βασικός μου στόχος είναι να μιλάω άπταιστα ελληνικά μέχρι το τέλος
+    της χρονιάς.
+  example_en: My primary goal is to speak fluent Greek by the end of the year.
+  example2_el: Έθεσε υψηλούς στόχους για την επαγγελματική του πορεία.
+  example2_en: He set high goals for his professional career.
+  audio: o-stochos-f39c1d.mp3
+  status: verified
+  example_audio: o-vasikos-moy-stocho-8bb814.mp3
+  example2_audio: ethese-ypsiloys-stoc-aa2bb6.mp3
+- id: A2-U03-033
+  greek: η πρόβλεψη
+  english: forecast / prediction
+  notes: Feminine noun in -η (-εις). Frequently used for weather forecasts ('η πρόβλεψη
+    του καιρού').
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προβλέψεις
+    genitive_singular: της πρόβλεψης
+    collocation: πρόβλεψη καιρού (weather forecast)
+  keg_communicative_function: Interpreting weather bulletins and listening forecasts
+    in Section 1
+  example_el: Σύμφωνα με την πρόβλεψη της μετεωρολογικής υπηρεσίας, αύριο θα έχουμε
+    ηλιοφάνεια.
+  example_en: According to the meteorological service forecast, tomorrow we will have
+    sunshine.
+  example2_el: Οι οικονομικές προβλέψεις για το επόμενο έτος είναι ενθαρρυντικές.
+  example2_en: The economic forecasts for next year are encouraging.
+  audio: i-provlepsi-d4213f.mp3
+  status: verified
+  example_audio: symfona-me-tin-provl-751fb2.mp3
+  example2_audio: oi-oikonomikes-provl-6601c2.mp3
+- id: A2-U03-034
+  greek: υπόσχομαι
+  english: to promise / I promise
+  notes: 'Deponent verb (υπόσχομαι, υπόσχεσαι, υπόσχεται). Simple past: ''υποσχέθηκα''.
+    Simple future: ''θα υποσχεθώ''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: υποσχέθηκα
+    simple_future: θα υποσχεθώ
+    noun_derivative: η υπόσχεση
+  keg_communicative_function: Making commitments and reassuring interlocutors in communicative
+    tasks
+  example_el: Σου υπόσχομαι ότι θα κάνω ό,τι καλύτερο μπορώ στις εξετάσεις.
+  example_en: I promise you that I will do my absolute best in the exams.
+  example2_el: Υποσχέθηκε να τηλεφωνήσει μόλις φτάσει στον προορισμό του.
+  example2_en: He promised to call as soon as he arrives at his destination.
+  audio: yposchomai-9a2289.mp3
+  status: verified
+  example_audio: soy-yposchomai-oti-t-8a5742.mp3
+  example2_audio: yposchethike-na-tile-a7116a.mp3
+- id: A2-U03-035
+  greek: η υπόσχεση
+  english: promise
+  notes: Feminine noun in -η (-εις). Collocates with 'κρατάω / τηρώ την υπόσχεση'
+    (to keep a promise).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι υποσχέσεις
+    accusative_singular: την υπόσχεση
+    collocation: δίνω υπόσχεση, κρατάω την υπόσχεση
+  keg_communicative_function: Holding interlocutors to their word in role-plays and
+    letter exchanges
+  example_el: Είναι σημαντικό να κρατάμε πάντα τις υποσχέσεις που δίνουμε.
+  example_en: It is important to always keep the promises we make.
+  example2_el: Μου έδωσε την υπόσχεση ότι θα με επισκεφτεί το καλοκαίρι.
+  example2_en: He gave me the promise that he will visit me in the summer.
+  audio: i-yposchesi-7cde3c.mp3
+  status: verified
+  example_audio: einai-simantiko-na-k-7e78df.mp3
+  example2_audio: moy-edose-tin-yposch-c717b3.mp3

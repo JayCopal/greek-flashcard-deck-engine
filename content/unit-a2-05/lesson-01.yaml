@@ -1,0 +1,720 @@
+unit_id: unit-a2-05
+lesson_id: lesson-01
+title: 'Μάθημα 5: Κοινωνική Ζωή, Προσκλήσεις & Ευχές (Social Events, Invitations &
+  Wishes)'
+description: Composing and replying to invitations, expressing wishes for birthdays,
+  weddings, name days, and using weak indirect object clitic pronouns (μου, σου, του,
+  της, μας, σας, τους) in formal and informal social interactions.
+lesson_status: not_started
+lesson_notes: "Unit A2-05 Core Notes: Κοινωνική Ζωή, Προσκλήσεις & Ευχές (Social Life\
+  \ & Etiquette)\n• Indirect Object Weak Clitic Pronouns (Γενική αδύνατων αντωνυμιών):\n\
+  \  - Singular: μου (to me), σου (to you), του (to him/it), της (to her).\n  - Plural:\
+  \ μας (to us), σας (to you / formal singular), τους (to them).\n  - Position: immediately\
+  \ preceding conjugated verbs (μου στέλνει, σου εύχομαι) and immediately following\
+  \ imperatives (πες μου, δώστε μας).\n\n• Formulaic Social Wishes:\n  - Χρόνια πολλά\
+  \ (birthdays, namedays, holidays).\n  - Καλή επιτυχία (exams, interviews, trials).\n\
+  \  - Περαστικά (illness, recovery).\n  - Συγχαρητήρια (diplomas, achievements, promotions).\n\
+  \  - Να ζήσετε (wedding wish to newlyweds).\n  - Να σας ζήσει (birth/baptism wish\
+  \ to parents).\n\n• Writing Task 1 Protocol (40-50 words):\n  - Polite invitation:\
+  \ αφορμή (occasion) + τόπος (place) + χρόνος (time).\n  - Acceptance: με χαρά (with\
+  \ pleasure) + ανυπομονώ (look forward to).\n  - Polite decline: δυστυχώς δεν μπορώ\
+  \ (unfortunately cannot) + δικαιολόγηση (justification)."
+entries:
+- id: A2-U05-001
+  greek: η πρόσκληση
+  english: invitation
+  notes: Feminine noun in -η (-εις). Core text type in KEG A2 Writing Task 1 (40-50
+    words invitation or response).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προσκλήσεις
+    accusative_singular: την πρόσκληση
+    genitive_singular: της πρόσκλησης
+    verb: προσκαλώ
+  keg_communicative_function: Reading and writing formal and informal invitations
+    for celebrations
+  example_el: Σας στέλνω αυτή την πρόσκληση για τα εγκαίνια της νέας μας έκθεσης.
+  example_en: I am sending you this invitation for the opening of our new exhibition.
+  example2_el: Λάβαμε μια όμορφη πρόσκληση για τον γάμο της Ελένης και του Γιώργου.
+  example2_en: We received a lovely invitation to Eleni and Giorgos's wedding.
+  audio: i-prosklisi-271aa1.mp3
+  status: verified
+  example_audio: sas-stelno-ayti-tin--a09879.mp3
+  example2_audio: lavame-mia-omorfi-pr-ebdea5.mp3
+- id: A2-U05-002
+  greek: προσκαλώ
+  english: to invite
+  notes: 'Contracted verb (προσκαλώ, προσκαλείς, προσκαλεί). Simple past: ''προσκάλεσα''.
+    Simple future: ''θα προσκαλέσω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: προσκάλεσα
+    simple_future: θα προσκαλέσω
+    noun_derivative: η πρόσκληση
+  keg_communicative_function: Inviting friends, colleagues, or neighbors to social
+    gatherings
+  example_el: Θα ήθελα να σας προσκαλέσω στο σπίτι μου για φαγητό το βράδυ του Σαββάτου.
+  example_en: I would like to invite you to my house for dinner on Saturday evening.
+  example2_el: Μας προσκάλεσαν σε μια μουσική εκδήλωση στο αρχαίο θέατρο.
+  example2_en: They invited us to a musical event at the ancient theater.
+  audio: proskalo-a2db92.mp3
+  status: verified
+  example_audio: tha-ithela-na-sas-pr-f6180a.mp3
+  example2_audio: mas-proskalesan-se-m-91c94f.mp3
+- id: A2-U05-003
+  greek: δέχομαι
+  english: to accept
+  notes: 'Deponent verb (δέχομαι, δέχεσαι, δέχεται). Simple past: ''δέχτηκα'' / ''δέχθηκα''.
+    Antonym: ''αρνούμαι''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: δέχτηκα
+    simple_future: θα δεχτώ
+    antonym: αρνούμαι
+    noun_derivative: η αποδοχή
+  keg_communicative_function: Accepting invitations gladly in Writing Task 1 responses
+  example_el: Δέχομαι με μεγάλη χαρά την πρόσκλησή σας και ανυπομονώ να σας δω.
+  example_en: I accept your invitation with great joy and look forward to seeing you.
+  example2_el: Ο διευθυντής δέχτηκε να συναντηθεί μαζί μας αύριο το πρωί.
+  example2_en: The director agreed to meet with us tomorrow morning.
+  audio: dechomai-6dc361.mp3
+  status: verified
+  example_audio: dechomai-me-megali-c-5e349d.mp3
+  example2_audio: o-dieythyntis-dechti-5d91b1.mp3
+- id: A2-U05-004
+  greek: αρνούμαι
+  english: to refuse / to decline
+  notes: 'Deponent verb (αρνούμαι, αρνείσαι, αρνείται). Simple past: ''αρνήθηκα''.
+    Must be accompanied by polite apology in A2 letters.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αρνήθηκα
+    simple_future: θα αρνηθώ
+    noun_derivative: η άρνηση
+  keg_communicative_function: Declining an invitation politely and stating reasons
+    in Writing Task 1
+  example_el: Δυστυχώς αναγκάζομαι να αρνηθώ την πρόσκληση λόγω ανειλημμένων υποχρεώσεων.
+  example_en: Unfortunately I am forced to decline the invitation due to prior commitments.
+  example2_el: Δεν μπορώ να αρνηθώ τη βοήθεια που μου προσφέρει ο φίλος μου.
+  example2_en: I cannot refuse the help that my friend offers me.
+  audio: arnoymai-1e629c.mp3
+  status: verified
+  example_audio: dystychos-anagkazoma-ae914c.mp3
+  example2_audio: den-mporo-na-arnitho-81ac97.mp3
+- id: A2-U05-005
+  greek: με χαρά
+  english: with pleasure / gladly
+  notes: Prepositional adverbial formula expressing enthusiastic acceptance.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    collocation: με μεγάλη χαρά (with great pleasure)
+    synonym: ευχαρίστως
+  keg_communicative_function: Accepting social invitations enthusiastically in email
+    correspondence
+  example_el: Θα έρθω με χαρά στα γενέθλιά σου την επόμενη Παρασκευή!
+  example_en: I will come with pleasure to your birthday next Friday!
+  example2_el: Με μεγάλη χαρά σάς ανακοινώνουμε τη γέννηση της κόρης μας.
+  example2_en: With great pleasure we announce to you the birth of our daughter.
+  audio: me-chara-db2bd9.mp3
+  status: verified
+  example_audio: tha-ertho-me-chara-s-74492f.mp3
+  example2_audio: me-megali-chara-sas--c64a08.mp3
+- id: A2-U05-006
+  greek: δυστυχώς δεν μπορώ
+  english: unfortunately I cannot
+  notes: Fixed formula for declining invitations politely before giving an excuse.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    usage: polite refusal followed by excuse (γιατί, επειδή)
+  keg_communicative_function: Softening refusals in formal and informal written responses
+  example_el: Σας ευχαριστώ πολύ για το κάλεσμα, αλλά δυστυχώς δεν μπορώ να παρευρεθώ.
+  example_en: Thank you very much for the invite, but unfortunately I cannot attend.
+  example2_el: Δυστυχώς δεν μπορώ να έρθω μαζί σας επειδή δουλεύω μέχρι αργά.
+  example2_en: Unfortunately I cannot come with you because I work until late.
+  audio: dystychos-den-mporo-61833a.mp3
+  status: verified
+  example_audio: sas-eycharisto-poly--9b35f5.mp3
+  example2_audio: dystychos-den-mporo--115ae6.mp3
+- id: A2-U05-007
+  greek: η ευχή
+  english: wish / blessing
+  notes: Feminine noun in -ή (-ές). Core concept in Greek cultural etiquette.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ευχές
+    accusative_singular: την ευχή
+    verb: εύχομαι
+  keg_communicative_function: Exchanging wishes for holidays, birthdays, and name
+    days
+  example_el: Σας στέλνω τις θερμότερες ευχές μου για υγεία και ευτυχία.
+  example_en: I send you my warmest wishes for health and happiness.
+  example2_el: Τις ημέρες των εορτών ανταλλάσσουμε παραδοσιακές ευχές με φίλους και
+    συγγενείς.
+  example2_en: During the holidays we exchange traditional wishes with friends and
+    relatives.
+  audio: i-eychi-8ca97d.mp3
+  status: verified
+  example_audio: sas-stelno-tis-therm-3d809b.mp3
+  example2_audio: tis-imeres-ton-eorto-d381de.mp3
+- id: A2-U05-008
+  greek: χρόνια πολλά
+  english: happy birthday / many happy returns / happy name day
+  notes: Universal Greek festive greeting used on birthdays, name days, New Year,
+    Christmas, and national holidays.
+  gender_or_pos: phrase (greeting)
+  grammatical_info:
+    part_of_speech: formulaic greeting
+    literal: many years
+    usage: birthdays, namedays, Easter, Christmas
+  keg_communicative_function: Congratulating celebrants on festive occasions
+  example_el: Χρόνια πολλά για τη γιορτή σου! Να είσαι πάντα γερός και ευτυχισμένος.
+  example_en: Many happy returns for your name day! May you always be healthy and
+    happy.
+  example2_el: Της τηλεφώνησα για να της ευχηθώ χρόνια πολλά για τα γενέθλιά της.
+  example2_en: I phoned her to wish her happy birthday for her birthday.
+  audio: chronia-polla-a6e13f.mp3
+  status: verified
+  example_audio: chronia-polla-gia-ti-89e71a.mp3
+  example2_audio: tis-tilefonisa-gia-n-0d3f85.mp3
+- id: A2-U05-009
+  greek: καλή επιτυχία
+  english: good luck / every success
+  notes: Formulaic greeting used before tests, job interviews, or new ventures.
+  gender_or_pos: phrase (greeting)
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η επιτυχία
+    adjective: καλή
+  keg_communicative_function: Wishing success to peers before exams or challenging
+    tasks
+  example_el: Καλή επιτυχία σε όλους τους υποψηφίους στις αυριανές εξετάσεις!
+  example_en: Good luck to all candidates in tomorrow's examinations!
+  example2_el: Σου εύχομαι καλή επιτυχία στη νέα σου δουλειά.
+  example2_en: I wish you good luck in your new job.
+  audio: kali-epitychia-25cbef.mp3
+  status: verified
+  example_audio: kali-epitychia-se-ol-0de763.mp3
+  example2_audio: soy-eychomai-kali-ep-9030cc.mp3
+- id: A2-U05-010
+  greek: περαστικά
+  english: get well soon / may it pass quickly
+  notes: Neuter plural adjective used as formulaic greeting to someone sick or recovering
+    from illness/injury.
+  gender_or_pos: phrase (greeting)
+  grammatical_info:
+    part_of_speech: formulaic greeting
+    origin: περαστικός (transitory)
+    usage: when someone is unwell or injured
+  keg_communicative_function: Expressing sympathy and wishing prompt recovery to friends
+    or colleagues
+  example_el: Έμαθα ότι είσαι άρρωστος με γρίπη. Περαστικά και γρήγορη ανάρρωση!
+  example_en: I heard that you are ill with the flu. Get well soon and a speedy recovery!
+  example2_el: Περαστικά στην αδελφή σου, ελπίζω να βγει σύντομα από το νοσοκομείο.
+  example2_en: Get well wishes to your sister; I hope she is discharged from the hospital
+    soon.
+  audio: perastika-fc7434.mp3
+  status: verified
+  example_audio: ematha-oti-eisai-arr-1049ea.mp3
+  example2_audio: perastika-stin-adelf-7b9398.mp3
+- id: A2-U05-011
+  greek: συγχαρητήρια
+  english: congratulations
+  notes: Neuter plural noun used as exclamation. High-utility response to graduations,
+    promotions, or passing exams.
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural) / exclamation
+    collocation: θερμά συγχαρητήρια (warm congratulations)
+  keg_communicative_function: Congratulating friends on academic diplomas or career
+    advancements
+  example_el: Θερμά συγχαρητήρια για την επιτυχία σου στις εξετάσεις ελληνομάθειας!
+  example_en: Warm congratulations on your success in the Greek language examinations!
+  example2_el: Όλοι οι συνάδελφοι έδωσαν συγχαρητήρια στον Νίκο για την προαγωγή του.
+  example2_en: All colleagues offered congratulations to Nikos on his promotion.
+  audio: sygcharitiria-26655f.mp3
+  status: verified
+  example_audio: therma-sygcharitiria-843e32.mp3
+  example2_audio: oloi-oi-synadelfoi-e-053e1a.mp3
+- id: A2-U05-012
+  greek: να ζήσετε
+  english: may you live long and happily (wedding wish to the newlyweds)
+  notes: Fixed subjunctive formula addressed to bride and groom at Greek weddings.
+  gender_or_pos: phrase (wish)
+  grammatical_info:
+    part_of_speech: formulaic wish
+    syntax: να + ζήσετε (aorist subjunctive plural of ζω)
+  keg_communicative_function: Offering appropriate wedding congratulations in letters
+    and conversations
+  example_el: Να ζήσετε και να είστε πάντα αγαπημένοι και ευτυχισμένοι!
+  example_en: May you live long together and always be loving and happy!
+  example2_el: 'Γράψαμε στην κάρτα του γάμου: «Να ζήσετε με υγεία και χαρά».'
+  example2_en: 'We wrote on the wedding card: ''May you live long with health and
+    joy.'''
+  audio: na-zisete-370b3c.mp3
+  status: verified
+  example_audio: na-zisete-kai-na-eis-c0099a.mp3
+  example2_audio: grapsame-stin-karta--a5a04b.mp3
+- id: A2-U05-013
+  greek: να σας ζήσει
+  english: may your newborn live long (wish to new parents)
+  notes: Fixed formula addressed to parents on the birth or baptism of a child.
+  gender_or_pos: phrase (wish)
+  grammatical_info:
+    part_of_speech: formulaic wish
+    syntax: να + σας (indirect clitic) + ζήσει (third person)
+  keg_communicative_function: Congratulating parents on the arrival or christening
+    of a child
+  example_el: Να σας ζήσει ο νεογέννητος γιος σας και να τον καμαρώσετε όπως επιθυμείτε!
+  example_en: May your newborn son live long and may you be proud of him as you desire!
+  example2_el: 'Στείλαμε λουλούδια στους νέους γονείς με την ευχή: «Να σας ζήσει!».'
+  example2_en: 'We sent flowers to the new parents with the wish: ''May he/she live
+    long!'''
+  audio: na-sas-zisei-4bce74.mp3
+  status: verified
+  example_audio: na-sas-zisei-o-neoge-7785e3.mp3
+  example2_audio: steilame-loyloydia-s-b2cdbf.mp3
+- id: A2-U05-014
+  greek: καλή διασκέδαση
+  english: have fun / have a great time
+  notes: Formulaic farewell wish before someone goes to a party, concert, cinema,
+    or weekend outing.
+  gender_or_pos: phrase (greeting)
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η διασκέδαση
+    verb: διασκεδάζω
+  keg_communicative_function: Wishing an enjoyable evening or outing to companions
+  example_el: Καλή διασκέδαση στη συναυλία απόψε, τα λέμε αύριο!
+  example_en: Have a great time at the concert tonight, see you tomorrow!
+  example2_el: Εύχομαι καλή διασκέδαση σε όλους σας στην αποψινή έξοδο.
+  example2_en: I wish everyone a wonderful time on tonight's night out.
+  audio: kali-diaskedasi-d531d3.mp3
+  status: verified
+  example_audio: kali-diaskedasi-sti--9cae82.mp3
+  example2_audio: eychomai-kali-diaske-bf7a46.mp3
+- id: A2-U05-015
+  greek: τα γενέθλια
+  english: birthday
+  notes: Neuter plural noun (always plural in Greek). Collocates with 'γιορτάζω τα
+    γενέθλιά μου'.
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural only)
+    genitive: των γενεθλίων
+    collocation: τούρτα γενεθλίων (birthday cake)
+  keg_communicative_function: Writing birthday party invitations and scheduling parties
+    in Task 1
+  example_el: Το Σάββατο γιορτάζω τα γενέθλιά μου και οργανώνω ένα πάρτι στο σπίτι.
+  example_en: On Saturday I am celebrating my birthday and organizing a party at home.
+  example2_el: Σου εύχομαι ολόψυχα χρόνια πολλά για τα τριακοστά σου γενέθλια!
+  example2_en: I wholeheartedly wish you many happy returns for your thirtieth birthday!
+  audio: ta-genethlia-d8825b.mp3
+  status: verified
+  example_audio: to-savvato-giortazo--403432.mp3
+  example2_audio: soy-eychomai-olopsyc-1243c0.mp3
+- id: A2-U05-016
+  greek: η ονομαστική γιορτή
+  english: name day celebration
+  notes: Feminine noun phrase. Highly celebrated social tradition in Greek culture.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι ονομαστικές γιορτές
+    cultural_note: celebrated on the saint's feast day
+  keg_communicative_function: Discussing cultural customs and congratulating friends
+    on their name day
+  example_el: Στην Ελλάδα η ονομαστική γιορτή είναι συχνά πιο σημαντική από τα γενέθλια.
+  example_en: In Greece the name day celebration is often more important than birthdays.
+  example2_el: Σήμερα είναι η ονομαστική γιορτή του Γιώργου και το σπίτι είναι γεμάτο
+    επισκέπτες.
+  example2_en: Today is Giorgos's name day and the house is full of visitors.
+  audio: i-onomastiki-giorti-ae383c.mp3
+  status: verified
+  example_audio: stin-ellada-i-onomas-908524.mp3
+  example2_audio: simera-einai-i-onoma-712c02.mp3
+- id: A2-U05-017
+  greek: ο γάμος
+  english: wedding / marriage
+  notes: Masculine noun in -ος (-οι). Covers wedding ceremony and marital institution.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι γάμοι
+    genitive_singular: του γάμου
+    verb: παντρεύομαι
+  keg_communicative_function: Interpreting wedding announcements and composing congratulatory
+    messages
+  example_el: Ο γάμος θα πραγματοποιηθεί σε ένα γραφικό εκκλησάκι δίπλα στη θάλασσα.
+  example_en: The wedding will take place in a picturesque chapel by the sea.
+  example2_el: Ετοιμάζουμε τα ρούχα μας για τον γάμο των φίλων μας στην Κέρκυρα.
+  example2_en: We are preparing our clothes for our friends' wedding in Corfu.
+  audio: o-gamos-cd836d.mp3
+  status: verified
+  example_audio: o-gamos-tha-pragmato-4ffacd.mp3
+  example2_audio: etoimazoyme-ta-roych-8d44e5.mp3
+- id: A2-U05-018
+  greek: η βάφτιση
+  english: christening / baptism
+  notes: Feminine noun in -η (-εις). Third major Greek life-cycle milestone celebration
+    alongside wedding and birthday.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βαφτίσεις
+    verb: βαφτίζω
+  keg_communicative_function: Recognizing family event invitations and social gathering
+    protocols
+  example_el: Μας κάλεσαν στη βάφτιση της ανιψιάς μου την επόμενη Κυριακή.
+  example_en: They invited us to my niece's christening next Sunday.
+  example2_el: Μετά τη βάφτιση ακολούθησε δεξίωση με φαγητό και παραδοσιακή μουσική.
+  example2_en: After the christening a reception followed with food and traditional
+    music.
+  audio: i-vaftisi-6b9679.mp3
+  status: verified
+  example_audio: mas-kalesan-sti-vaft-c502ae.mp3
+  example2_audio: meta-ti-vaftisi-akol-6cc568.mp3
+- id: A2-U05-019
+  greek: το δώρο
+  english: gift / present
+  notes: Neuter noun in -ο (-α). Collocates with 'κάνω δώρο' (to give a gift) or 'παίρνω
+    δώρο' (to buy a gift).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δώρα
+    genitive_singular: του δώρου
+  keg_communicative_function: Discussing gifts in joint shopping negotiations (Speaking
+    Stage 3)
+  example_el: Τι δώρο προτείνεις να αγοράσουμε για τα γενέθλια της Μαρίας;
+  example_en: What gift do you suggest we buy for Maria's birthday?
+  example2_el: Τους πήγαμε ένα όμορφο αναμνηστικό δώρο για το νέο τους σπίτι.
+  example2_en: We brought them a beautiful souvenir gift for their new home.
+  audio: to-doro-b619ab.mp3
+  status: verified
+  example_audio: ti-doro-proteineis-n-e3f4b1.mp3
+  example2_audio: toys-pigame-ena-omor-a28f64.mp3
+- id: A2-U05-020
+  greek: διασκεδάζω
+  english: to have fun / to amuse oneself
+  notes: 'Active verb. Simple past: ''διασκέδασα''. Simple future: ''θα διασκεδάσω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: διασκέδασα
+    simple_future: θα διασκεδάσω
+    noun_derivative: η διασκέδαση
+  keg_communicative_function: Describing party experiences and recreational outings
+    in past narratives
+  example_el: Χθες το βράδυ διασκεδάσαμε πάρα πολύ με τη ζωντανή μουσική.
+  example_en: Yesterday evening we had a great time with the live music.
+  example2_el: Στην εκδρομή τα παιδιά έπαιξαν και διασκέδασαν με την ψυχή τους.
+  example2_en: On the excursion the children played and had fun to their heart's content.
+  audio: diaskedazo-b1a79a.mp3
+  status: verified
+  example_audio: chthes-to-vrady-dias-1ef18d.mp3
+  example2_audio: stin-ekdromi-ta-paid-663b1c.mp3
+- id: A2-U05-021
+  greek: περνάω καλά
+  english: to have a good time / to spend time nicely
+  notes: 'Idiomatic verbal locution. Past: ''πέρασα καλά''. Future: ''θα περάσω καλά''.'
+  gender_or_pos: idiomatic phrase
+  grammatical_info:
+    part_of_speech: verbal phrase
+    past: πέρασα καλά (I had a good time)
+    antonym: περνάω άσχημα
+  keg_communicative_function: Reporting on holiday quality and social gatherings in
+    personal letters
+  example_el: Περάσαμε υπέροχα στο νησί, ο καιρός ήταν θαυμάσιος και το φαγητό εξαιρετικό.
+  example_en: We had a wonderful time on the island; the weather was magnificent and
+    the food superb.
+  example2_el: Ελπίζω να περάσετε πολύ καλά στο ταξίδι σας!
+  example2_en: I hope you have a very good time on your trip!
+  audio: pernao-kala-3a2d6c.mp3
+  status: verified
+  example_audio: perasame-yperocha-st-e23e0a.mp3
+  example2_audio: elpizo-na-perasete-p-12522f.mp3
+- id: A2-U05-022
+  greek: κερνάω
+  english: to treat / to pay for someone's drink or meal
+  notes: 'Group B1 verb (κερνάω / κερνώ). Simple past: ''κέρασα''. Quintessential
+    Greek cultural hospitality gesture.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: κέρασα
+    simple_future: θα κεράσω
+    noun_derivative: το κέρασμα
+  keg_communicative_function: Offering to treat someone in cafe or tavern situations
+  example_el: Σήμερα γιορτάζω, οπότε σας κερνάω όλους καφέ και γλυκό!
+  example_en: Today is my name day, so I am treating you all to coffee and dessert!
+  example2_el: Άσε με να πληρώσω εγώ τον λογαριασμό, θέλω να σε κεράσω.
+  example2_en: Let me pay the bill; I want to treat you.
+  audio: kernao-fb12ab.mp3
+  status: verified
+  example_audio: simera-giortazo-opot-835bbd.mp3
+  example2_audio: ase-me-na-pliroso-eg-21dbf7.mp3
+- id: A2-U05-023
+  greek: η φιλοξενία
+  english: hospitality
+  notes: Feminine noun in -α (-ες). Celebrated Greek value. Collocates with 'ευχαριστώ
+    για τη φιλοξενία'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: φιλόξενος, -η, -ο
+    genitive_singular: της φιλοξενίας
+  keg_communicative_function: Expressing gratitude to hosts in thank-you notes after
+    a stay
+  example_el: Σας ευχαριστώ από καρδιάς για τη θερμή φιλοξενία στο σπίτι σας.
+  example_en: I thank you from the bottom of my heart for the warm hospitality at
+    your home.
+  example2_el: Οι κάτοικοι του χωριού μάς υποδέχτηκαν με εξαιρετική φιλοξενία.
+  example2_en: The villagers welcomed us with extraordinary hospitality.
+  audio: i-filoxenia-f12cc3.mp3
+  status: verified
+  example_audio: sas-eycharisto-apo-k-056c95.mp3
+  example2_audio: oi-katoikoi-toy-chor-90c696.mp3
+- id: A2-U05-024
+  greek: μου
+  english: to me (indirect weak clitic pronoun)
+  notes: Genitive weak personal pronoun. Placed immediately before finite verbs ('μου
+    αρέσει', 'μου είπε') and after imperatives ('πες μου').
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 1st singular
+    case: genitive (indirect object)
+    placement: before finite verb / after imperative
+  keg_communicative_function: Signaling recipient of information, invitations, or
+    gifts
+  example_el: Μου έστειλε μήνυμα για να μου ανακοινώσει τα ευχάριστα νέα.
+  example_en: He sent me a message to announce the pleasant news to me.
+  example2_el: Πες μου σε παρακαλώ τι ώρα αρχίζει η εκδήλωση.
+  example2_en: Tell me please what time the event begins.
+  audio: moy-7195c6.mp3
+  status: verified
+  example_audio: moy-esteile-minyma-g-861782.mp3
+  example2_audio: pes-moy-se-parakalo--c1c286.mp3
+- id: A2-U05-025
+  greek: σου
+  english: to you (informal singular indirect clitic)
+  notes: Genitive weak personal pronoun for 2nd person singular ('σου δίνω', 'σου
+    εύχομαι').
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 2nd singular
+    case: genitive (indirect object)
+  keg_communicative_function: Addressing friends directly with wishes, news, or advice
+  example_el: Σου εύχομαι ολόψυχα καλή επιτυχία στις εξετάσεις σου!
+  example_en: I wish you wholeheartedly good luck in your examinations!
+  example2_el: Σου έφερα ένα μικρό δώρο από το ταξίδι μου στην Κρήτη.
+  example2_en: I brought you a small gift from my trip to Crete.
+  audio: soy-74ea3f.mp3
+  status: verified
+  example_audio: soy-eychomai-olopsyc-f0b20b.mp3
+  example2_audio: soy-efera-ena-mikro--5ee85d.mp3
+- id: A2-U05-026
+  greek: του
+  english: to him / to it (masculine / neuter indirect clitic)
+  notes: Genitive weak personal pronoun for 3rd person singular masculine and neuter.
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 3rd singular masculine/neuter
+    case: genitive (indirect object)
+  keg_communicative_function: Referring to male third parties or neuter entities in
+    social interactions
+  example_el: Του τηλεφώνησα χθες για να τον προσκαλέσω στο δείπνο.
+  example_en: I phoned him yesterday to invite him to dinner.
+  example2_el: Του αρέσει πολύ να δοκιμάζει παραδοσιακά ελληνικά φαγητά.
+  example2_en: He likes trying traditional Greek dishes very much.
+  audio: toy-64cbdb.mp3
+  status: verified
+  example_audio: toy-tilefonisa-chthe-5548b0.mp3
+  example2_audio: toy-aresei-poly-na-d-0b9c68.mp3
+- id: A2-U05-027
+  greek: της
+  english: to her (feminine indirect clitic)
+  notes: Genitive weak personal pronoun for 3rd person singular feminine.
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 3rd singular feminine
+    case: genitive (indirect object)
+  keg_communicative_function: Directing actions and wishes to a female friend or colleague
+  example_el: Της έδωσα τα κλειδιά του διαμερίσματος πριν φύγω για τη δουλειά.
+  example_en: I gave her the keys to the apartment before leaving for work.
+  example2_el: Της ευχηθήκαμε όλοι χρόνια πολλά για τη γιορτή της.
+  example2_en: We all wished her many happy returns for her name day.
+  audio: tis-029ced.mp3
+  status: verified
+  example_audio: tis-edosa-ta-kleidia-d0923f.mp3
+  example2_audio: tis-eychithikame-olo-478fbd.mp3
+- id: A2-U05-028
+  greek: μας
+  english: to us / our
+  notes: Weak pronoun for 1st person plural. Can function as indirect object ('μας
+    είπε') or possessive ('το σπίτι μας').
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 1st plural
+    case: genitive
+  keg_communicative_function: Reporting communications received by a group or family
+  example_el: Μας εξήγησαν αναλυτικά τις λεπτομέρειες του προγράμματος.
+  example_en: They explained the details of the program to us comprehensively.
+  example2_el: Ελάτε να μας επισκεφτείτε στο νέο μας σπίτι το Σαββατοκύριακο.
+  example2_en: Come visit us at our new house over the weekend.
+  audio: mas-dbc59b.mp3
+  status: verified
+  example_audio: mas-exigisan-analyti-d9944f.mp3
+  example2_audio: elate-na-mas-episkef-27ccd3.mp3
+- id: A2-U05-029
+  greek: σας
+  english: to you (plural / formal singular indirect clitic)
+  notes: Weak pronoun for 2nd person plural or polite singular address ('σας ευχαριστώ').
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 2nd plural / polite singular
+    case: genitive (indirect object)
+  keg_communicative_function: Addressing examiners, officials, or groups politely
+    in spoken and written Greek
+  example_el: Σας ευχαριστώ πολύ για τη βοήθεια και την άμεση ανταπόκριση.
+  example_en: I thank you very much for your assistance and prompt response.
+  example2_el: Σας στέλνω συνημμένα τα έγγραφα που μου ζητήσατε.
+  example2_en: I send you attached the documents you requested from me.
+  audio: sas-15d4f8.mp3
+  status: verified
+  example_audio: sas-eycharisto-poly--c72745.mp3
+  example2_audio: sas-stelno-synimmena-e08950.mp3
+- id: A2-U05-030
+  greek: τους
+  english: to them (indirect clitic pronoun)
+  notes: Weak pronoun for 3rd person plural indirect object ('τους είπα', 'τους έδωσα').
+    Distinct from accusative plural 'τους' (masculine direct).
+  gender_or_pos: pronoun (clitic genitive)
+  grammatical_info:
+    part_of_speech: weak personal pronoun
+    person: 3rd plural
+    case: genitive (indirect object)
+  keg_communicative_function: Referring to multiple third parties in narratives and
+    social situations
+  example_el: Τους είπαμε ότι θα φτάσουμε με μικρή καθυστέρηση λόγω κίνησης.
+  example_en: We told them that we will arrive with a slight delay due to traffic.
+  example2_el: Τους αρέσει να περνούν τα Σαββατοκύριακα στην εξοχή.
+  example2_en: They like spending weekends in the countryside.
+  audio: toys-e864c5.mp3
+  status: verified
+  example_audio: toys-eipame-oti-tha--0fe5ed.mp3
+  example2_audio: toys-aresei-na-perno-14be7c.mp3
+- id: A2-U05-031
+  greek: το κάλεσμα
+  english: invitation / call
+  notes: Neuter noun in -μα (-ματα). Conversational synonym of 'η πρόσκληση'.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καλέσματα
+    synonym: η πρόσκληση
+    verb: καλώ
+  keg_communicative_function: Thanking a host warmly for a casual party invite
+  example_el: Σε ευχαριστώ θερμά για το κάλεσμα, θα είμαι σίγουρα εκεί!
+  example_en: I thank you warmly for the invite; I will definitely be there!
+  example2_el: Ανταποκρίθηκαν αμέσως στο κάλεσμα της γειτονιάς για τον καθαρισμό του
+    πάρκου.
+  example2_en: They responded immediately to the neighborhood's call for park cleaning.
+  audio: to-kalesma-7c28cf.mp3
+  status: verified
+  example_audio: se-eycharisto-therma-69475d.mp3
+  example2_audio: antapokrithikan-ames-b6611f.mp3
+- id: A2-U05-032
+  greek: η αφορμή
+  english: occasion / pretext / reason
+  notes: Feminine noun in -ή (-ές). Collocates with 'με αφορμή' (on the occasion of).
+    Standard opening formula in invitations.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αφορμές
+    collocation: 'με αφορμή (+ αιτιατική: on the occasion of)'
+  keg_communicative_function: Stating the festive occasion of an event in Writing
+    Task 1
+  example_el: Με αφορμή τα γενέθλιά μου, θα χαρώ πολύ να πιούμε ένα ποτό μαζί.
+  example_en: On the occasion of my birthday, I will be very glad to have a drink
+    together.
+  example2_el: Η γιορτή ήταν μια εξαιρετική αφορμή για να βρεθούμε ξανά όλοι οι φίλοι.
+  example2_en: The celebration was an excellent occasion for all of us friends to
+    meet again.
+  audio: i-aformi-3391e0.mp3
+  status: verified
+  example_audio: me-aformi-ta-genethl-253c03.mp3
+  example2_audio: i-giorti-itan-mia-ex-423718.mp3
+- id: A2-U05-033
+  greek: δικαιολογώ
+  english: to justify / to explain one's absence
+  notes: Group B2 verb (-ώ / -είς). In social contexts means explaining an inability
+    to attend.
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: δικαιολόγησα
+    simple_future: θα δικαιολογήσω
+    noun_derivative: η δικαιολογία
+  keg_communicative_function: Justifying an unavoidable absence in letters of regret
+  example_el: Σας γράφω για να δικαιολογήσω την απουσία μου από τη χθεσινή συνάντηση.
+  example_en: I am writing to you to explain my absence from yesterday's meeting.
+  example2_el: Δικαιολόγησε την αργοπορία του αναφέροντας το μποτιλιάρισμα στους δρόμους.
+  example2_en: He justified his delay mentioning the traffic jam on the roads.
+  audio: dikaiologo-f27cea.mp3
+  status: verified
+  example_audio: sas-grafo-gia-na-dik-4ec7f9.mp3
+  example2_audio: dikaiologise-tin-arg-339e99.mp3
+- id: A2-U05-034
+  greek: η δεξίωση
+  english: reception / banquet
+  notes: Feminine noun in -η (-εις). Formal celebratory dinner after a wedding, graduation,
+    or official ceremony.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δεξιώσεις
+    genitive_singular: της δεξίωσης
+  keg_communicative_function: Understanding formal reception invitations and RSVP
+    requirements
+  example_el: Η δεξίωση του γάμου θα πραγματοποιηθεί σε παραθαλάσσιο εστιατόριο στις
+    εννέα.
+  example_en: The wedding reception will take place at a seaside restaurant at nine.
+  example2_el: Παρακαλούμε να επιβεβαιώσετε την παρουσία σας στη δεξίωση μέχρι το
+    τέλος του μήνα.
+  example2_en: Please confirm your presence at the reception by the end of the month.
+  audio: i-dexiosi-3d61bb.mp3
+  status: verified
+  example_audio: i-dexiosi-toy-gamoy--363223.mp3
+  example2_audio: parakaloyme-na-epive-fe3dd7.mp3
+- id: A2-U05-035
+  greek: τα λέμε
+  english: see you / talk to you soon
+  notes: 'Idiomatic formulaic farewell. Variants: ''τα λέμε σύντομα'', ''τα λέμε αύριο''.'
+  gender_or_pos: phrase (farewell)
+  grammatical_info:
+    part_of_speech: idiomatic phrase
+    literal: we say them
+    variants: τα λέμε σύντομα, τα λέμε από κοντά
+  keg_communicative_function: Closing friendly notes and emails informally
+  example_el: Ανυπομονώ να συναντηθούμε την Κυριακή, τα λέμε!
+  example_en: I look forward to meeting on Sunday; see you!
+  example2_el: Καλή συνέχεια στη μέρα σου και τα λέμε το βράδυ στο τηλέφωνο.
+  example2_en: Have a good rest of your day and talk to you tonight on the phone.
+  audio: ta-leme-f2f3be.mp3
+  status: verified
+  example_audio: anypomono-na-synanti-7497a7.mp3
+  example2_audio: kali-synecheia-sti-m-6b21e6.mp3

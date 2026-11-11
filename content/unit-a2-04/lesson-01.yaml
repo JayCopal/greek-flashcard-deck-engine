@@ -1,0 +1,744 @@
+unit_id: unit-a2-04
+lesson_id: lesson-01
+title: 'Μάθημα 4: Επιθυμίες, Ανάγκες & Υποτακτική (Wishes, Obligations & Subjunctive
+  Mood)'
+description: Expressing wishes, necessity, prohibitions, and polite requests using
+  the Subjunctive mood (Υποτακτική) with modal operators (πρέπει να, απαγορεύεται
+  να, επιτρέπεται να, μπορώ να, θέλω να, για να, αξίζει να).
+lesson_status: not_started
+lesson_notes: "Unit A2-04 Core Notes: Επιθυμίες, Ανάγκες & Υποτακτική (Wishes, Obligations\
+  \ & Subjunctive Mood)\n• Dependent Subjunctive (Υποτακτική) Structure:\n  - Introduced\
+  \ by particles: να, για να (purpose), μήπως (fear/lest).\n  - Continuous Subjunctive\
+  \ (present stem): να διαβάζω (habit/duration).\n  - Simple Subjunctive (aorist stem):\
+  \ να διαβάσω (single completion).\n\n• Core Impersonal & Modal Operators at A2:\n\
+  \  - πρέπει να (must / ought to) / δεν πρέπει να (must not).\n  - χρειάζεται να\
+  \ (needs to) / δεν χρειάζεται να (no need to).\n  - απαγορεύεται να (forbidden to)\
+  \ vs. επιτρέπεται να (permitted to).\n  - μπορώ να (I can / may I) / θα ήθελα να\
+  \ (polite: I would like to).\n  - προτιμώ να (I prefer to) / αξίζει να (it is worth\
+  \ doing).\n  - είναι απαραίτητο / σημαντικό / δύσκολο / εύκολο να.\n\n• Regulatory\
+  \ & Communicative Register:\n  - High frequency in official public signs, exam rubrics,\
+  \ rules of conduct, and polite administrative correspondence."
+entries:
+- id: A2-U04-001
+  greek: πρέπει να
+  english: must / ought to / have to
+  notes: Impersonal modal phrase taking subjunctive. Fundamental for rules, obligations,
+    and instructions across all exam papers.
+  gender_or_pos: modal phrase (impersonal)
+  grammatical_info:
+    part_of_speech: modal phrase
+    syntax: πρέπει να + υποτακτική
+    past_form: έπρεπε να (should have / had to)
+    future_form: θα πρέπει να (will have to)
+  keg_communicative_function: Expressing necessity and stating examination rules
+  example_el: Πρέπει να έχετε μαζί σας την αστυνομική ταυτότητα και το δελτίο εξεταζομένου.
+  example_en: You must have with you your police identity card and candidate card.
+  example2_el: Πρέπει να συμπληρώσετε όλες τις απαντήσεις μέσα σε σαράντα λεπτά.
+  example2_en: You must fill in all answers within forty minutes.
+  audio: prepei-na-1843de.mp3
+  status: verified
+  example_audio: prepei-na-echete-maz-225729.mp3
+  example2_audio: prepei-na-symplirose-8aa18b.mp3
+- id: A2-U04-002
+  greek: χρειάζεται να
+  english: it is necessary to / one needs to
+  notes: Impersonal verb phrase followed by subjunctive. Expresses practical necessity
+    or lack thereof ('δεν χρειάζεται να').
+  gender_or_pos: modal phrase (impersonal)
+  grammatical_info:
+    part_of_speech: modal phrase
+    syntax: χρειάζεται να + υποτακτική
+    negative: δεν χρειάζεται να (there is no need to)
+  keg_communicative_function: Explaining requirements or clarifying that an action
+    is unnecessary
+  example_el: Δεν χρειάζεται να γράψετε πρόχειρο, μπορείτε να γράψετε απευθείας στο
+    έντυπο.
+  example_en: There is no need to write a rough draft; you can write directly on the
+    form.
+  example2_el: Χρειάζεται να πληρώσετε τα εξέταστρα πριν από τη λήξη της προθεσμίας.
+  example2_en: It is necessary to pay the exam fees before the deadline expires.
+  audio: chreiazetai-na-ac5301.mp3
+  status: verified
+  example_audio: den-chreiazetai-na-g-082ced.mp3
+  example2_audio: chreiazetai-na-pliro-3fece8.mp3
+- id: A2-U04-003
+  greek: απαγορεύεται να
+  english: it is forbidden to / you must not
+  notes: Impersonal passive phrase taking subjunctive. Core regulatory formula seen
+    on signs, official notices, and test instructions.
+  gender_or_pos: regulatory phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: απαγορεύεται να + υποτακτική / απαγορεύεται + ουσιαστικό
+    noun_derivative: η απαγόρευση
+    antonym: επιτρέπεται να
+  keg_communicative_function: Understanding regulatory prohibitions in notices and
+    rules
+  example_el: Απαγορεύεται αυστηρά να χρησιμοποιείτε κινητά τηλέφωνα κατά τη διάρκεια
+    των εξετάσεων.
+  example_en: It is strictly forbidden to use mobile phones during examinations.
+  example2_el: Στην αίθουσα απαγορεύεται να καπνίζετε και να καταναλώνετε τρόφιμα.
+  example2_en: In the hall it is forbidden to smoke and consume food.
+  audio: apagoreyetai-na-d519ba.mp3
+  status: verified
+  example_audio: apagoreyetai-aystira-dff86e.mp3
+  example2_audio: stin-aithoysa-apagor-6a2755.mp3
+- id: A2-U04-004
+  greek: επιτρέπεται να
+  english: it is permitted to / you may
+  notes: Impersonal passive phrase taking subjunctive. Contrasts with 'απαγορεύεται'.
+  gender_or_pos: regulatory phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: επιτρέπεται να + υποτακτική
+    noun_derivative: η άδεια
+    antonym: απαγορεύεται να
+  keg_communicative_function: Understanding permitted actions in official regulations
+    and reading brochures
+  example_el: Στο μουσείο επιτρέπεται να βγάζετε φωτογραφίες χωρίς φλας.
+  example_en: In the museum it is permitted to take photographs without a flash.
+  example2_el: Επιτρέπεται να έχετε μαζί σας ένα μπουκάλι νερό.
+  example2_en: You are permitted to have a bottle of water with you.
+  audio: epitrepetai-na-347097.mp3
+  status: verified
+  example_audio: sto-moyseio-epitrepe-bfe2d8.mp3
+  example2_audio: epitrepetai-na-echet-89a460.mp3
+- id: A2-U04-005
+  greek: μπορώ να
+  english: I can / may I / am I able to
+  notes: Modal verb 'μπορώ' followed by subjunctive. Expresses ability, possibility,
+    or polite requests ('μπορώ να ρωτήσω κάτι;').
+  gender_or_pos: modal phrase
+  grammatical_info:
+    part_of_speech: verb phrase
+    syntax: μπορώ να + υποτακτική
+    past: μπόρεσα να (I was able to)
+    polite_conditional: θα μπορούσα να (could I / I could)
+  keg_communicative_function: Formulating polite inquiries and asking permission in
+    Speaking Stage 2
+  example_el: Μπορώ να ρωτήσω πού βρίσκεται το γραφείο του διευθυντή;
+  example_en: May I ask where the director's office is located?
+  example2_el: Τώρα που έμαθα γραμματική, μπορώ να διαβάζω απλά άρθρα στα ελληνικά.
+  example2_en: Now that I learned grammar, I can read simple articles in Greek.
+  audio: mporo-na-707ff3.mp3
+  status: verified
+  example_audio: mporo-na-rotiso-poy--ead4f5.mp3
+  example2_audio: tora-poy-ematha-gram-09b020.mp3
+- id: A2-U04-006
+  greek: θέλω να
+  english: I want to
+  notes: Verb 'θέλω' followed by subjunctive. Basic formula for expressing intentions
+    and desires.
+  gender_or_pos: verb phrase
+  grammatical_info:
+    part_of_speech: verb phrase
+    syntax: θέλω να + υποτακτική
+    polite_form: θα ήθελα να (I would like to)
+  keg_communicative_function: Expressing personal desires, career aims, and ordering
+    in commercial dialogues
+  example_el: Θέλω να βελτιώσω την προφορά μου για να μιλάω με μεγαλύτερη άνεση.
+  example_en: I want to improve my pronunciation in order to speak with greater ease.
+  example2_el: Θέλετε να πάμε μαζί για καφέ μετά το πέρας των μαθημάτων;
+  example2_en: Do you want us to go together for coffee after classes finish?
+  audio: thelo-na-f8fef9.mp3
+  status: verified
+  example_audio: thelo-na-veltioso-ti-11b8c5.mp3
+  example2_audio: thelete-na-pame-mazi-31dabd.mp3
+- id: A2-U04-007
+  greek: θα ήθελα να
+  english: I would like to
+  notes: Polite conditional formula with 'ήθελα' + subjunctive. Essential for polite
+    customer requests and formal emails.
+  gender_or_pos: polite phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: θα ήθελα να + υποτακτική
+    register: formal / polite
+  keg_communicative_function: Making polite service requests and initiating formal
+    correspondence
+  example_el: Θα ήθελα να ζητήσω πληροφορίες σχετικά με τα δίδακτρα του προγράμματος.
+  example_en: I would like to request information regarding the program's tuition
+    fees.
+  example2_el: Θα ήθελα να κλείσω ένα δίκλινο δωμάτιο για το πρώτο δεκαήμερο του Αυγούστου.
+  example2_en: I would like to book a double room for the first ten days of August.
+  audio: tha-ithela-na-c1f2d5.mp3
+  status: verified
+  example_audio: tha-ithela-na-zitiso-957997.mp3
+  example2_audio: tha-ithela-na-kleiso-db2f81.mp3
+- id: A2-U04-008
+  greek: προτιμώ να
+  english: I prefer to
+  notes: Group B1 verb 'προτιμάω / προτιμώ' followed by subjunctive. Essential in
+    pair debates (Speaking Stage 3).
+  gender_or_pos: verb phrase
+  grammatical_info:
+    part_of_speech: verb phrase
+    syntax: προτιμώ να + υποτακτική / προτιμώ + ουσιαστικό
+    noun_derivative: η προτίμηση
+  keg_communicative_function: Stating preferences and comparing options during candidate
+    joint negotiations
+  example_el: Προτιμώ να ταξιδεύω με πλοίο επειδή μπορώ να απολαμβάνω τη διαδρομή.
+  example_en: I prefer to travel by ship because I can enjoy the journey.
+  example2_el: Προτιμάτε να μείνουμε σε ξενοδοχείο ή να νοικιάσουμε διαμέρισμα;
+  example2_en: Do you prefer that we stay at a hotel or rent an apartment?
+  audio: protimo-na-ebca7c.mp3
+  status: verified
+  example_audio: protimo-na-taxideyo--f66831.mp3
+  example2_audio: protimate-na-meinoym-7ce169.mp3
+- id: A2-U04-009
+  greek: για να
+  english: in order to / so that
+  notes: Final subordinating conjunction expressing purpose. Followed strictly by
+    subjunctive.
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: final conjunction
+    syntax: για να + υποτακτική
+    meaning: expresses purpose or objective
+  keg_communicative_function: Explaining motivations, causes, and intentions in written
+    essays
+  example_el: Ήρθα νωρίς στο εξεταστικό κέντρο για να βρω εύκολα την αίθουσα.
+  example_en: I came early to the examination center in order to easily find the room.
+  example2_el: Μελετάει κάθε βράδυ για να αποκτήσει το πτυχίο.
+  example2_en: She studies every evening so that she can obtain the degree.
+  audio: gia-na-f4f1ef.mp3
+  status: verified
+  example_audio: irtha-noris-sto-exet-30672c.mp3
+  example2_audio: meletaei-kathe-vrady-0618f0.mp3
+- id: A2-U04-010
+  greek: εύχομαι να
+  english: I wish that / I wish you
+  notes: Deponent verb 'εύχομαι' followed by subjunctive or accusative. Vital for
+    social pleasantries.
+  gender_or_pos: verb phrase
+  grammatical_info:
+    part_of_speech: verb phrase
+    syntax: εύχομαι να + υποτακτική / εύχομαι + αιτιατική (εύχομαι καλή επιτυχία)
+    noun_derivative: η ευχή
+  keg_communicative_function: Offering best wishes for exams, holidays, and milestones
+    in emails
+  example_el: Σας εύχομαι καλή επιτυχία στις εξετάσεις της ελληνομάθειας!
+  example_en: I wish you good luck in the examinations of Greek language attainment!
+  example2_el: Εύχομαι να περάσετε υπέροχα στις καλοκαιρινές σας διακοπές.
+  example2_en: I wish that you have a wonderful time on your summer holidays.
+  audio: eychomai-na-a8d7b8.mp3
+  status: verified
+  example_audio: sas-eychomai-kali-ep-d779db.mp3
+  example2_audio: eychomai-na-perasete-d135b1.mp3
+- id: A2-U04-011
+  greek: παρακαλώ να
+  english: I kindly request that / please
+  notes: Formal verb phrase 'παρακαλώ να' + subjunctive. Typical in administrative
+    requests and polite notices.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: 'παρακαλώ να + υποτακτική / παρακαλείστε να (passive: you are requested
+      to)'
+    register: polite / formal
+  keg_communicative_function: Formulating polite administrative inquiries and understanding
+    official notices
+  example_el: Παρακαλώ να μου στείλετε την επιβεβαίωση της εγγραφής μου.
+  example_en: I kindly request that you send me the confirmation of my registration.
+  example2_el: Παρακαλείστε να παραμείνετε στις θέσεις σας μέχρι τη λήξη της εξέτασης.
+  example2_en: You are requested to remain in your seats until the end of the examination.
+  audio: parakalo-na-718c92.mp3
+  status: verified
+  example_audio: parakalo-na-moy-stei-82b26d.mp3
+  example2_audio: parakaleiste-na-para-45bce9.mp3
+- id: A2-U04-012
+  greek: φοβάμαι μήπως
+  english: I fear that / I am afraid lest
+  notes: Deponent verb 'φοβάμαι' followed by 'μήπως / να'. Expresses anxiety or potential
+    negative outcome.
+  gender_or_pos: verb phrase
+  grammatical_info:
+    part_of_speech: verb phrase
+    syntax: φοβάμαι μήπως + υποτακτική
+    noun_derivative: ο φόβος
+  keg_communicative_function: Expressing apprehension about exam results, weather,
+    or travel delays
+  example_el: Φοβάμαι μήπως χάσουμε την πτήση αν έχει πολλή κίνηση στον δρόμο.
+  example_en: I am afraid lest we miss the flight if there is heavy traffic on the
+    road.
+  example2_el: Φοβάται να μιλήσει μπροστά σε κοινό επειδή ντρέπεται.
+  example2_en: He is afraid to speak in front of an audience because he is shy.
+  audio: fovamai-mipos-22d474.mp3
+  status: verified
+  example_audio: fovamai-mipos-chasoy-903a91.mp3
+  example2_audio: fovatai-na-milisei-m-ccdf74.mp3
+- id: A2-U04-013
+  greek: είναι απαραίτητο να
+  english: it is essential to / it is necessary to
+  notes: Impersonal evaluative structure taking subjunctive. Standard in formal instructions.
+  gender_or_pos: impersonal phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: είναι απαραίτητο να + υποτακτική
+    adjective: απαραίτητος, -η, -ο
+  keg_communicative_function: Stating indispensable conditions and prerequisite qualifications
+  example_el: Είναι απαραίτητο να γνωρίζετε καλά γραμματική για το επίπεδο Α2.
+  example_en: It is essential to know grammar well for level A2.
+  example2_el: Είναι απαραίτητο να προσκομίσετε φωτοτυπία του διαβατηρίου σας.
+  example2_en: It is essential to provide a photocopy of your passport.
+  audio: einai-aparaitito-na-99c93a.mp3
+  status: verified
+  example_audio: einai-aparaitito-na--ef4a3a.mp3
+  example2_audio: einai-aparaitito-na--f05dbd.mp3
+- id: A2-U04-014
+  greek: είναι σημαντικό να
+  english: it is important to
+  notes: Evaluative impersonal expression followed by subjunctive.
+  gender_or_pos: impersonal phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: είναι σημαντικό να + υποτακτική
+    adjective: σημαντικός, -ή, -ό
+  keg_communicative_function: Highlighting crucial advice and recommendations in essays
+    and presentations
+  example_el: Είναι σημαντικό να κοιμηθείτε καλά το βράδυ πριν από τις εξετάσεις.
+  example_en: It is important to sleep well the night before the examinations.
+  example2_el: Είναι σημαντικό να ακούτε προσεκτικά τις οδηγίες των επιτηρητών.
+  example2_en: It is important to listen carefully to the invigilators' instructions.
+  audio: einai-simantiko-na-dea267.mp3
+  status: verified
+  example_audio: einai-simantiko-na-k-85d337.mp3
+  example2_audio: einai-simantiko-na-a-3c6558.mp3
+- id: A2-U04-015
+  greek: αξίζει να
+  english: it is worth doing / it pays to
+  notes: Impersonal phrase with 'αξίζει' + subjunctive. Core expression when recommending
+    sights and experiences.
+  gender_or_pos: impersonal phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: αξίζει να + υποτακτική
+    noun_derivative: η αξία
+  keg_communicative_function: Recommending attractions, museums, and activities to
+    tourists and friends
+  example_el: Αξίζει να επισκεφτείτε το Μουσείο της Ακρόπολης όταν έρθετε στην Αθήνα.
+  example_en: It is worth visiting the Acropolis Museum when you come to Athens.
+  example2_el: Αξίζει να προσπαθήσετε, ακόμα κι αν η δοκιμασία φαίνεται δύσκολη.
+  example2_en: It is worth trying, even if the test seems difficult.
+  audio: axizei-na-fe7259.mp3
+  status: verified
+  example_audio: axizei-na-episkeftei-c761b4.mp3
+  example2_audio: axizei-na-prospathis-8c5a3d.mp3
+- id: A2-U04-016
+  greek: είναι δύσκολο να
+  english: it is difficult to
+  notes: 'Evaluative impersonal structure with subjunctive. Antonym: ''είναι εύκολο
+    να''.'
+  gender_or_pos: impersonal phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: είναι δύσκολο να + υποτακτική
+    antonym: είναι εύκολο να
+  keg_communicative_function: Discussing learning difficulties and obstacles in oral
+    interviews
+  example_el: Στην αρχή ήταν δύσκολο να καταλάβω τους φυσικούς ομιλητές όταν μιλούσαν
+    γρήγορα.
+  example_en: At first it was difficult to understand native speakers when they spoke
+    quickly.
+  example2_el: Είναι δύσκολο να βρεις θέση στάθμευσης στο κέντρο της πόλης.
+  example2_en: It is difficult to find a parking space in the city center.
+  audio: einai-dyskolo-na-d671c8.mp3
+  status: verified
+  example_audio: stin-archi-itan-dysk-73203b.mp3
+  example2_audio: einai-dyskolo-na-vre-f5f5f6.mp3
+- id: A2-U04-017
+  greek: είναι εύκολο να
+  english: it is easy to
+  notes: 'Evaluative impersonal structure with subjunctive. Antonym: ''είναι δύσκολο
+    να''.'
+  gender_or_pos: impersonal phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: είναι εύκολο να + υποτακτική
+    adjective: εύκολος, -η, -ο
+  keg_communicative_function: Expressing ease of navigation, learning, or communication
+  example_el: Είναι εύκολο να μετακινηθείτε στην Αθήνα χρησιμοποιώντας το μετρό.
+  example_en: It is easy to get around Athens using the metro.
+  example2_el: Μετά από συνεχή εξάσκηση, είναι εύκολο να θυμάσαι τις καταλήξεις των
+    ρημάτων.
+  example2_en: After continuous practice, it is easy to remember verb endings.
+  audio: einai-eykolo-na-6eb27a.mp3
+  status: verified
+  example_audio: einai-eykolo-na-meta-d64a8c.mp3
+  example2_audio: meta-apo-synechi-exa-c877af.mp3
+- id: A2-U04-018
+  greek: έχω ανάγκη να
+  english: I need to / I have a need to
+  notes: 'Idiomatic locution expressing pressing necessity: ''έχω ανάγκη να'' + subjunctive.'
+  gender_or_pos: idiomatic phrase
+  grammatical_info:
+    part_of_speech: phrase
+    syntax: έχω ανάγκη να + υποτακτική / έχω ανάγκη από + αιτιατική
+    noun: η ανάγκη
+  keg_communicative_function: Stating urgent personal requirements and seeking assistance
+  example_el: Έχω μεγάλη ανάγκη να ξεκουραστώ μετά από μια εξαντλητική εβδομάδα εργασίας.
+  example_en: I really need to rest after an exhausting week of work.
+  example2_el: Έχουμε ανάγκη από περισσότερες πληροφορίες πριν πάρουμε την τελική
+    απόφαση.
+  example2_en: We need more information before we make the final decision.
+  audio: echo-anagki-na-4dd695.mp3
+  status: verified
+  example_audio: echo-megali-anagki-n-145dd7.mp3
+  example2_audio: echoyme-anagki-apo-p-691729.mp3
+- id: A2-U04-019
+  greek: η ανάγκη
+  english: need / necessity / emergency
+  notes: Feminine noun in -η (-ες). In plural 'σε περίπτωση ανάγκης' means 'in case
+    of emergency'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ανάγκες
+    collocation: σε περίπτωση ανάγκης (in case of emergency)
+  keg_communicative_function: Identifying safety signs, urgent requirements, and personal
+    necessities
+  example_el: Σε περίπτωση ανάγκης καλέστε αμέσως τον ευρωπαϊκό αριθμό 112.
+  example_en: In case of emergency immediately call the European number 112.
+  example2_el: Το πρόγραμμα προσαρμόζεται στις ανάγκες κάθε υποψηφίου.
+  example2_en: The program is adapted to the needs of each candidate.
+  audio: i-anagki-37d6c8.mp3
+  status: verified
+  example_audio: se-periptosi-anagkis-a1467d.mp3
+  example2_audio: to-programma-prosarm-bc5082.mp3
+- id: A2-U04-020
+  greek: η επιθυμία
+  english: desire / wish
+  notes: Feminine noun in -α (-ες). Relates to 'επιθυμώ' (to desire/wish).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι επιθυμίες
+    verb: επιθυμώ (-είς)
+    genitive_singular: της επιθυμίας
+  keg_communicative_function: Expressing personal aspirations and customer preferences
+  example_el: Εξέφρασε την επιθυμία να συνεχίσει τις σπουδές του στην Ελλάδα.
+  example_en: He expressed the desire to continue his studies in Greece.
+  example2_el: Σεβόμαστε τις επιθυμίες και τις επιλογές των πελατών μας.
+  example2_en: We respect the desires and choices of our clients.
+  audio: i-epithymia-0d6cc7.mp3
+  status: verified
+  example_audio: exefrase-tin-epithym-13fc77.mp3
+  example2_audio: sevomaste-tis-epithy-671826.mp3
+- id: A2-U04-021
+  greek: η υποχρέωση
+  english: obligation / duty
+  notes: Feminine noun in -η (-εις). Essential concept in contracts, employment, and
+    examination rubrics.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι υποχρεώσεις
+    adjective: υποχρεωτικός, -ή, -ό (mandatory)
+    genitive_singular: της υποχρέωσης
+  keg_communicative_function: Understanding duties, responsibilities, and compulsory
+    regulations
+  example_el: Είναι υποχρέωση κάθε υποψηφίου να προσέλθει εγκαίρως στις εξετάσεις.
+  example_en: It is every candidate's duty to arrive on time for the examinations.
+  example2_el: Λόγω πολλών επαγγελματικών υποχρεώσεων δεν μπόρεσα να παρευρεθώ.
+  example2_en: Due to many professional obligations I was not able to attend.
+  audio: i-ypochreosi-7e9fff.mp3
+  status: verified
+  example_audio: einai-ypochreosi-kat-10586b.mp3
+  example2_audio: logo-pollon-epaggelm-9bad45.mp3
+- id: A2-U04-022
+  greek: η άδεια
+  english: permission / leave / permit / license
+  notes: 'Feminine noun in -α (-ες). Multiple meanings: annual leave (''άδεια διακοπών''),
+    driving license (''άδεια οδήγησης''), residence permit (''άδεια διαμονής'').'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι άδειες
+    collocations: άδεια διαμονής, άδεια οδήγησης, κανονική άδεια
+  keg_communicative_function: Discussing official permits, workplace vacation leave,
+    and driving licenses
+  example_el: Χρειάζεται να ανανεώσω την άδεια διαμονής μου στην αρμόδια υπηρεσία.
+  example_en: I need to renew my residence permit at the competent service office.
+  example2_el: Τον Αύγουστο θα πάρω δύο εβδομάδες άδεια από τη δουλειά μου.
+  example2_en: In August I will take two weeks leave from my job.
+  audio: i-adeia-c6b89c.mp3
+  status: verified
+  example_audio: chreiazetai-na-anane-d370b6.mp3
+  example2_audio: ton-aygoysto-tha-par-638a1c.mp3
+- id: A2-U04-023
+  greek: ο κανονισμός
+  english: regulation / rulebook
+  notes: Masculine noun in -ος (-οι). Frequently appears in reading tasks concerning
+    school, exam, or building regulations.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κανονισμοί
+    genitive_singular: του κανονισμού
+  keg_communicative_function: Comprehending official exam, school, or community rules
+    in Reading Part 1
+  example_el: Ο κανονισμός των εξετάσεων ορίζει ότι τα γραπτά παραδίδονται μετά από
+    μία ώρα.
+  example_en: The examination regulations stipulate that test papers are submitted
+    after one hour.
+  example2_el: Όλοι οι ένοικοι της πολυκατοικίας οφείλουν να τηρούν τον κανονισμό.
+  example2_en: All building residents are obliged to observe the regulations.
+  audio: o-kanonismos-18ad9c.mp3
+  status: verified
+  example_audio: o-kanonismos-ton-exe-521510.mp3
+  example2_audio: oloi-oi-enoikoi-tis--7f47b0.mp3
+- id: A2-U04-024
+  greek: ο κανόνας
+  english: rule / standard
+  notes: Masculine noun in -ας (-ες). Collocates with 'κανόνες ασφαλείας' (safety
+    rules) or 'γραμματικός κανόνας'.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι κανόνες
+    genitive_singular: του κανόνα
+    genitive_plural: των κανόνων
+  keg_communicative_function: Referring to safety rules, grammatical principles, and
+    behavioral norms
+  example_el: Πρέπει να τηρούμε προσεκτικά τους κανόνες οδικής κυκλοφορίας.
+  example_en: We must carefully observe road traffic rules.
+  example2_el: Ο γραμματικός αυτός κανόνας έχει μερικές σημαντικές εξαιρέσεις.
+  example2_en: This grammar rule has some important exceptions.
+  audio: o-kanonas-99d68d.mp3
+  status: verified
+  example_audio: prepei-na-tiroyme-pr-c6300e.mp3
+  example2_audio: o-grammatikos-aytos--bbd1a1.mp3
+- id: A2-U04-025
+  greek: η συμβουλή
+  english: advice / tip
+  notes: Feminine noun in -ή (-ές). Often used in plural 'οι συμβουλές' (advice/tips).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συμβουλές
+    verb: συμβουλεύω (to advise)
+  keg_communicative_function: Giving and asking for advice in personal correspondence
+    and oral situations
+  example_el: 'Σας δίνω μία χρήσιμη συμβουλή: διαβάστε προσεκτικά όλες τις εκφωνήσεις.'
+  example_en: 'I give you a useful piece of advice: read all problem rubrics carefully.'
+  example2_el: Ζήτησε τη συμβουλή του καθηγητή του πριν επιλέξει κατεύθυνση σπουδών.
+  example2_en: He sought his teacher's advice before selecting a field of study.
+  audio: i-symvoyli-1e386d.mp3
+  status: verified
+  example_audio: sas-dino-mia-chrisim-d34f55.mp3
+  example2_audio: zitise-ti-symvoyli-t-07651e.mp3
+- id: A2-U04-026
+  greek: συμβουλεύω
+  english: to advise / I advise
+  notes: 'Verb taking accusative of person + ''να + subjunctive''. Simple past: ''συμβούλεψα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: συμβουλεύω κάποιον να + υποτακτική
+    simple_past: συμβούλεψα
+    noun_derivative: η συμβουλή
+  keg_communicative_function: Advising a friend in informal emails (Writing Task 1
+    & 2)
+  example_el: Σε συμβουλεύω να ξεκινήσεις την επανάληψη τουλάχιστον έναν μήνα νωρίτερα.
+  example_en: I advise you to start revision at least one month earlier.
+  example2_el: Ο γιατρός τον συμβούλεψε να κόψει το κάπνισμα και να περπατάει καθημερινά.
+  example2_en: The doctor advised him to quit smoking and walk daily.
+  audio: symvoyleyo-4ec2be.mp3
+  status: verified
+  example_audio: se-symvoyleyo-na-xek-f40d69.mp3
+  example2_audio: o-giatros-ton-symvoy-2342b1.mp3
+- id: A2-U04-027
+  greek: προτείνω
+  english: to propose / to suggest / I recommend
+  notes: 'Verb followed by ''να + subjunctive'' or noun. Simple past: ''πρότεινα''.
+    Key verb for pair collaboration (Stage 3).'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: προτείνω να + υποτακτική / προτείνω + ουσιαστικό
+    simple_past: πρότεινα
+    noun_derivative: η πρόταση
+  keg_communicative_function: Making collaborative suggestions during joint candidate
+    discussions
+  example_el: Προτείνω να πάμε το απόγευμα στο μουσείο και μετά να φάμε σε μια παραδοσιακή
+    ταβέρνα.
+  example_en: I suggest that we go to the museum in the afternoon and then eat at
+    a traditional tavern.
+  example2_el: Τι μου προτείνετε να επισκεφτώ κατά τη διαμονή μου στα Χανιά;
+  example2_en: What do you recommend I visit during my stay in Chania?
+  audio: proteino-dc9837.mp3
+  status: verified
+  example_audio: proteino-na-pame-to--2cc6de.mp3
+  example2_audio: ti-moy-proteinete-na-37921d.mp3
+- id: A2-U04-028
+  greek: η πρόταση
+  english: proposal / suggestion / sentence (grammar)
+  notes: Feminine noun in -η (-εις). Means both a constructive proposal and a linguistic
+    sentence.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προτάσεις
+    collocation: κάνω μια πρόταση (to make a suggestion)
+  keg_communicative_function: Evaluating proposals in role-plays and analyzing linguistic
+    sentences in test rubrics
+  example_el: Η πρότασή σου είναι εξαιρετική, συμφωνώ απόλυτα να το κάνουμε έτσι.
+  example_en: Your proposal is excellent; I completely agree to do it that way.
+  example2_el: Συμπληρώστε τις παρακάτω προτάσεις επιλέγοντας τη σωστή λέξη.
+  example2_en: Complete the following sentences by choosing the correct word.
+  audio: i-protasi-35a9f9.mp3
+  status: verified
+  example_audio: i-protasi-soy-einai--66d64a.mp3
+  example2_audio: sympliroste-tis-para-2ea52a.mp3
+- id: A2-U04-029
+  greek: προσπαθώ
+  english: to try / to attempt
+  notes: 'Group B2 verb (-είς / -εί). Followed by ''να + subjunctive''. Simple past:
+    ''προσπάθησα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: προσπαθώ να + υποτακτική
+    simple_past: προσπάθησα
+    noun_derivative: η προσπάθεια
+  keg_communicative_function: Describing effort, study persistence, and problem-solving
+    in interviews
+  example_el: Προσπαθώ να μιλάω ελληνικά καθημερινά με τους γείτονες και τους συναδέλφους
+    μου.
+  example_en: I try to speak Greek every day with my neighbors and colleagues.
+  example2_el: Προσπάθησε να λύσει την άσκηση χωρίς να κοιτάξει τις σημειώσεις του.
+  example2_en: He tried to solve the exercise without looking at his notes.
+  audio: prospatho-9eee7a.mp3
+  status: verified
+  example_audio: prospatho-na-milao-e-6593b3.mp3
+  example2_audio: prospathise-na-lysei-308e8b.mp3
+- id: A2-U04-030
+  greek: καταφέρνω
+  english: to manage / to succeed in / to achieve
+  notes: 'Verb followed by ''να + subjunctive''. Simple past: ''κατάφερα''. Synonym:
+    ''κατορθώνω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: καταφέρνω να + υποτακτική
+    simple_past: κατάφερα
+    third_person_past: κατάφερε
+  keg_communicative_function: Reporting successful achievements and overcoming difficulties
+    in past narratives
+  example_el: Μετά από πολύ κόπο κατάφερα να πάρω το πιστοποιητικό ελληνομάθειας.
+  example_en: After much effort I managed to get the certificate of attainment in
+    Greek.
+  example2_el: Καταφέρατε να βρείτε έγκαιρα εισιτήρια για την παράσταση;
+  example2_en: Did you manage to find tickets in time for the performance?
+  audio: kataferno-46f806.mp3
+  status: verified
+  example_audio: meta-apo-poly-kopo-k-8998e0.mp3
+  example2_audio: kataferate-na-vreite-8c4cd3.mp3
+- id: A2-U04-031
+  greek: φροντίζω
+  english: to take care of / to make sure that
+  notes: 'Verb followed by ''να + subjunctive'' or ''για + noun''. Simple past: ''φρόντισα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: φροντίζω να + υποτακτική / φροντίζω για
+    simple_past: φρόντισα
+    noun_derivative: η φροντίδα
+  keg_communicative_function: Taking responsibility for arrangements and ensuring
+    conditions are met
+  example_el: Φροντίστε να βρίσκεστε στην αίθουσα δεκαπέντε λεπτά πριν από την έναρξη.
+  example_en: Make sure to be in the hall fifteen minutes before the start.
+  example2_el: Η μητέρα φροντίζει πάντα για τις ανάγκες των παιδιών της.
+  example2_en: The mother always takes care of her children's needs.
+  audio: frontizo-245e8c.mp3
+  status: verified
+  example_audio: frontiste-na-vriskes-fb55d3.mp3
+  example2_audio: i-mitera-frontizei-p-0cddc1.mp3
+- id: A2-U04-032
+  greek: αποφεύγω
+  english: to avoid
+  notes: 'Verb followed by ''να + subjunctive'' or noun in accusative. Simple past:
+    ''απέφυγα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: αποφεύγω να + υποτακτική / αποφεύγω + αιτιατική
+    simple_past: απέφυγα
+    third_person_past: απέφυγε
+  keg_communicative_function: Giving safety tips, dietary advice, or warning interlocutors
+  example_el: Τις μεσημεριανές ώρες του καλοκαιριού καλό είναι να αποφεύγετε την έκθεση
+    στον ήλιο.
+  example_en: During summer noon hours it is wise to avoid sun exposure.
+  example2_el: Προσπαθεί να αποφεύγει τα λάθη ελέγχοντας προσεκτικά το γραπτό του.
+  example2_en: He tries to avoid mistakes by checking his paper carefully.
+  audio: apofeygo-120761.mp3
+  status: verified
+  example_audio: tis-mesimerianes-ore-8f0174.mp3
+  example2_audio: prospathei-na-apofey-4447c6.mp3
+- id: A2-U04-033
+  greek: ζητάω
+  english: to ask for / to request
+  notes: 'Group B1 verb (ζητάω / ζητώ). Followed by accusative or ''να + subjunctive''.
+    Simple past: ''ζήτησα''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: ζητάω από κάποιον να + υποτακτική / ζητάω πληροφορίες
+    simple_past: ζήτησα
+    noun_derivative: η ζήτηση
+  keg_communicative_function: Requesting help, information, or clarification in communicative
+    tasks
+  example_el: Ζήτησα από τον καθηγητή να μου εξηγήσει ξανά τη γραμματική.
+  example_en: I asked the professor to explain the grammar to me again.
+  example2_el: Στην επιστολή ζητάτε πληροφορίες σχετικά με την ημερομηνία έναρξης
+    των μαθημάτων.
+  example2_en: In the letter you request information regarding the start date of classes.
+  audio: zitao-df6fa5.mp3
+  status: verified
+  example_audio: zitisa-apo-ton-kathi-ee590c.mp3
+  example2_audio: stin-epistoli-zitate-18f6cc.mp3
+- id: A2-U04-034
+  greek: απαιτώ
+  english: to demand / to require
+  notes: 'Group B2 verb (-είς / -εί). Simple past: ''απαίτησα''. Used in formal situations
+    or to express prerequisites.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    syntax: απαιτώ να + υποτακτική
+    simple_past: απαίτησα
+    noun_derivative: η απαίτηση
+  keg_communicative_function: Formulating assertive claims in complaint letters or
+    stating mandatory prerequisites
+  example_el: Η θέση εργασίας απαιτεί άριστη γνώση της ελληνικής και της αγγλικής
+    γλώσσας.
+  example_en: The job position requires excellent knowledge of Greek and English.
+  example2_el: Απαιτώ να μου επιστραφεί το αντίτιμο του ακυρωμένου εισιτηρίου.
+  example2_en: I demand that the price of the cancelled ticket be refunded to me.
+  audio: apaito-bb9f4d.mp3
+  status: verified
+  example_audio: i-thesi-ergasias-apa-28d0b3.mp3
+  example2_audio: apaito-na-moy-epistr-0d9cb9.mp3
+- id: A2-U04-035
+  greek: η απαίτηση
+  english: requirement / demand
+  notes: Feminine noun in -η (-εις). Often encountered in job vacancy advertisements.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι απαιτήσεις
+    verb: απαιτώ
+    genitive_singular: της απαίτησης
+  keg_communicative_function: Analyzing job requirements, university prerequisites,
+    and exam criteria
+  example_el: Η γνώση υπολογιστή αποτελεί βασική απαίτηση για τη συγκεκριμένη θέση.
+  example_en: Computer literacy constitutes a basic requirement for this specific
+    position.
+  example2_el: Οι απαιτήσεις του επιπέδου Α2 περιλαμβάνουν κατανόηση και παραγωγή
+    απλού λόγου.
+  example2_en: The requirements of level A2 include comprehension and production of
+    simple speech.
+  audio: i-apaitisi-f67264.mp3
+  status: verified
+  example_audio: i-gnosi-ypologisti-a-731f87.mp3
+  example2_audio: oi-apaitiseis-toy-ep-5dab68.mp3

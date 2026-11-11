@@ -1,0 +1,1153 @@
+unit_id: unit-sp-04
+lesson_id: lesson-01
+title: 'Προφορικά SP-04: Περιγραφή Εικόνας & Αφήγηση (Stage 3 Visual Description Lego
+  Framework)'
+description: '40 structured image-description building blocks and full scene monologues
+  following the 4-step Lego formula for Stage 3 of the KEG A2 Speaking exam: panoramic
+  overview, spatial layout, character/action/clothing breakdown, and weather/mood/context
+  hypothesis.'
+lesson_status: not_started
+lesson_notes: "Unit SP-04 Core Notes: Περιγραφή Εικόνας & Αφήγηση (Stage 3 Visual\
+  \ Description Lego Framework)\n• Official KEG A2 Exam Alignment (Stage 3 — Περιγραφή\
+  \ Εικόνας, ~4-5 mins):\n  - Step 1 (001–010): Panoramic Overview & Setting the Scene\
+  \ (Στην εικόνα βλέπουμε..., Η φωτογραφία είναι τραβηγμένη σε εξωτερικό/εσωτερικό\
+  \ χώρο..., λαϊκή αγορά, λιμάνι, οικογενειακό τραπέζι, ιατρείο, καθαρισμός παραλίας,\
+  \ καφετέρια).\n  - Step 2 (011–020): Spatial Layout & Positioning (Στο πρώτο πλάνο...,\
+  \ Στο κέντρο..., Στο βάθος διακρίνονται..., Στα αριστερά/δεξιά..., Ακριβώς πίσω\
+  \ από..., Γύρω από το τραπέζι..., Απέναντι από..., Ανάμεσα σε...).\n  - Step 3 (021–030):\
+  \ Character, Clothing, Action & Emotional Atmosphere (φοράνε ελαφριά/χειμωνιάτικα\
+  \ ρούχα, κρατάει τσάντες, φαίνονται ευδιάθετοι/αγχωμένοι, η ατμόσφαιρα είναι ζεστή\
+  \ και γιορτινή).\n  - Step 4 (031–040): Hypothesis, Speculation & Concluding Evaluation\
+  \ (Μου φαίνεται ότι..., Πιθανόν να..., Μάλλον γιορτάζουν..., Υποθέτω πως..., Αυτή\
+  \ η εικόνα μού θυμίζει..., Συνοψίζοντας, πρόκειται για...)."
+entries:
+- id: SP-U04-001
+  greek: Στην εικόνα βλέπουμε μια πολύ όμορφη και καθημερινή σκηνή από τη ζωή στην
+    πόλη.
+  english: In the picture we see a very beautiful and everyday scene from life in
+    the city. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Panoramic opener 'στην εικόνα βλέπουμε', feminine accusative agreement
+      'μια όμορφη καθημερινή σκηνή'
+  notes: 'Examiner Objective: Tests how confidently the candidate initiates the 1–2
+    minute picture description without hesitation.
+
+    Strategy: Always begin Step 1 with a broad panoramic sentence stating the general
+    theme of the photograph.'
+  example_el: Στην εικόνα αυτή βλέπουμε μια πολύ όμορφη και ζωντανή καθημερινή σκηνή
+    από τη ζωή σε μια μεγάλη ελληνική πόλη ένα ηλιόλουστο πρωινό.
+  example_en: In this picture we see a very beautiful and lively everyday scene from
+    life in a big Greek city on a sunny morning.
+  example2_el: Η φωτογραφία μάς παρουσιάζει μια τυπική στιγμή της καθημερινότητας,
+    όπου αρκετοί άνθρωποι βρίσκονται έξω στον δρόμο και κάνουν τις δουλειές τους.
+  example2_en: The photograph presents us with a typical moment of everyday life,
+    where several people are out on the street doing their errands.
+  keg_communicative_function: Introducing the overall theme and setting of a visual
+    prompt
+  audio: stin-eikona-vlepoyme-6fd426.mp3
+  example_audio: stin-eikona-ayti-vle-28d35c.mp3
+  example2_audio: i-fotografia-mas-par-3941ff.mp3
+- id: SP-U04-002
+  greek: Η φωτογραφία είναι τραβηγμένη σε εξωτερικό χώρο μια ηλιόλουστη μέρα.
+  english: The photograph is taken outdoors on a sunny day. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Passive participle 'είναι τραβηγμένη', spatial classification 'σε εξωτερικό
+      / εσωτερικό χώρο'
+  notes: 'Examiner Objective: Rewards high-value photographic collocations (''είναι
+    τραβηγμένη σε εξωτερικό / εσωτερικό χώρο'').
+
+    Strategy: Immediately classify whether the scene is indoors (''σε εσωτερικό χώρο'')
+    or outdoors (''σε εξωτερικό χώρο'').'
+  example_el: Η φωτογραφία είναι τραβηγμένη σε εξωτερικό χώρο μια φωτεινή, ηλιόλουστη
+    μέρα, μάλλον την άνοιξη ή το καλοκαίρι, σε ένα μεγάλο πάρκο με πολλά δέντρα.
+  example_en: The photograph is taken outdoors on a bright, sunny day, probably in
+    spring or summer, in a large park with many trees.
+  example2_el: Αντίθετα, αυτή η φωτογραφία είναι τραβηγμένη σε εσωτερικό χώρο, μέσα
+    σε ένα φωτεινό και μοντέρνο σαλόνι ενός διαμερίσματος.
+  example2_en: By contrast, this photograph is taken indoors, inside a bright and
+    modern living room of an apartment.
+  keg_communicative_function: Identifying whether a visual scene takes place indoors
+    or outdoors
+  audio: i-fotografia-einai-t-f1b8cb.mp3
+  example_audio: i-fotografia-einai-t-1c2679.mp3
+  example2_audio: antitheta-ayti-i-fot-8d54a0.mp3
+- id: SP-U04-003
+  greek: Η εικόνα παρουσιάζει μια παραδοσιακή λαϊκή αγορά γεμάτη κόσμο και φρέσκα
+    προϊόντα.
+  english: The picture shows a traditional open-air market full of people and fresh
+    produce. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Descriptive verb 'παρουσιάζει', adjective 'γεμάτη + accusative (κόσμο,
+      φρέσκα προϊόντα)'
+  notes: 'Examiner Objective: Tests thematic vocabulary for one of KEG''s most frequent
+    exam photos: the Greek ''λαϊκή αγορά''.
+
+    Strategy: Mention the stalls (''πάγκοι''), the sellers (''παραγωγοί/πωλητές''),
+    and the shoppers (''καταναλωτές'').'
+  example_el: Η εικόνα παρουσιάζει μια παραδοσιακή λαϊκή αγορά σε μια γειτονιά της
+    Αθήνας, η οποία είναι γεμάτη κόσμο που διαλέγει φρέσκα φρούτα και λαχανικά.
+  example_en: The picture shows a traditional open-air market in an Athens neighborhood,
+    which is full of people choosing fresh fruits and vegetables.
+  example2_el: Βλέπουμε πολλούς πάγκους με κόκκινες ντομάτες, πορτοκάλια και μήλα,
+    ενώ οι νοικοκυρές κρατούν τσάντες και ψωνίζουν για το σπίτι τους.
+  example2_en: We see many stalls with red tomatoes, oranges, and apples, while housewives
+    hold bags and shop for their home.
+  keg_communicative_function: Setting the scene of a bustling Greek open-air street
+    market
+  audio: i-eikona-paroysiazei-3a86b8.mp3
+  example_audio: i-eikona-paroysiazei-eacbf0.mp3
+  example2_audio: vlepoyme-polloys-pag-895554.mp3
+- id: SP-U04-004
+  greek: Βλέπουμε το λιμάνι ενός ελληνικού νησιού το καλοκαίρι την ώρα που φτάνει
+    το πλοίο.
+  english: We see the port of a Greek island in the summer at the time the ferry arrives.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Genitive 'ενός ελληνικού νησιού', temporal relative clause 'την ώρα που
+      φτάνει το πλοίο'
+  notes: 'Examiner Objective: Evaluates summer tourism and island port imagery, another
+    classic KEG A2 picture prompt.
+
+    Strategy: Describe the ferry (''το πλοίο της γραμμής''), tourists with suitcases
+    (''βαλίτσες''), and white island houses.'
+  example_el: Σε αυτή τη φωτογραφία βλέπουμε το γραφικό λιμάνι ενός ελληνικού νησιού
+    το καλοκαίρι, ακριβώς την ώρα που φτάνει το μεγάλο πλοίο και κατεβαίνουν οι τουρίστες.
+  example_en: In this photograph we see the picturesque port of a Greek island in
+    the summer, right at the moment the big ferry arrives and the tourists disembark.
+  example2_el: Στην προβλήτα του λιμανιού περιμένουν πολλοί ταξιδιώτες με τις βαλίτσες
+    και τα σακίδιά τους κάτω από τον λαμπερό καλοκαιρινό ήλιο.
+  example2_en: On the port pier many travelers are waiting with their suitcases and
+    backpacks under the bright summer sun.
+  keg_communicative_function: Describing a summer travel scene at a Greek island port
+  audio: vlepoyme-to-limani-e-da9d13.mp3
+  example_audio: se-ayti-ti-fotografi-f0c40a.mp3
+  example2_audio: stin-provlita-toy-li-5b7fc3.mp3
+- id: SP-U04-005
+  greek: Η φωτογραφία δείχνει μια μεγάλη οικογένεια που τρώει μαζί το μεσημέρι της
+    Κυριακής.
+  english: The photograph shows a big family eating together on Sunday at noon. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Relative clause 'που τρώει μαζί', generational nouns (παππούδες, γονείς,
+      εγγόνια)
+  notes: 'Examiner Objective: Tests family gathering and dining vocabulary.
+
+    Strategy: Mention that three generations (grandparents, parents, and children)
+    are gathered around a festive table.'
+  example_el: Η φωτογραφία δείχνει μια μεγάλη, αγαπημένη οικογένεια που τρώει όλη
+    μαζί στον κήπο του σπιτιού της το μεσημέρι της Κυριακής.
+  example_en: The photograph shows a big, loving family eating all together in the
+    garden of their house on Sunday at noon.
+  example2_el: Διακρίνουμε τρεις διαφορετικές γενιές, δηλαδή τον παππού και τη γιαγιά,
+    τους γονείς και τα δύο μικρά παιδιά που κάθονται γύρω από το τραπέζι.
+  example2_en: We make out three different generations, namely the grandfather and
+    grandmother, the parents, and the two young children sitting around the table.
+  keg_communicative_function: Describing a multi-generational family meal or gathering
+  audio: i-fotografia-deichne-4a3de3.mp3
+  example_audio: i-fotografia-deichne-d4f746.mp3
+  example2_audio: diakrinoyme-treis-di-2ad00d.mp3
+- id: SP-U04-006
+  greek: Βρισκόμαστε στην αίθουσα αναμονής ενός ιατρείου όπου κάθονται διάφοροι ασθενείς.
+  english: We are in the waiting room of a medical clinic where various patients are
+    sitting. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: First person plural narrative 'βρισκόμαστε σε...', compound noun 'η αίθουσα
+      αναμονής', locative 'όπου'
+  notes: 'Examiner Objective: Tests healthcare setting description and spatial relative
+    pronoun ''όπου''.
+
+    Strategy: Use ''βρισκόμαστε σε...'' to draw the examiner into the scene, then
+    describe who is waiting.'
+  example_el: Εδώ βρισκόμαστε στην αίθουσα αναμονής ενός ιατρείου ή νοσοκομείου, όπου
+    κάθονται διάφοροι ασθενείς στις καρέκλες και περιμένουν τη σειρά τους για τον
+    γιατρό.
+  example_en: Here we are in the waiting room of a clinic or hospital, where various
+    patients are sitting on the chairs waiting their turn for the doctor.
+  example2_el: Ο χώρος είναι πολύ καθαρός και φωτεινός, και στους τοίχους υπάρχουν
+    αφίσες με συμβουλές για την υγεία και τη σωστή διατροφή.
+  example2_en: The space is very clean and bright, and on the walls there are posters
+    with advice on health and proper nutrition.
+  keg_communicative_function: Describing an indoor public service or medical waiting
+    room
+  audio: vriskomaste-stin-ait-588047.mp3
+  example_audio: edo-vriskomaste-stin-f1784a.mp3
+  example2_audio: o-choros-einai-poly--9d4d21.mp3
+- id: SP-U04-007
+  greek: Στην εικόνα παρουσιάζεται μια ομάδα εθελοντών που καθαρίζει μια παραλία από
+    τα σκουπίδια.
+  english: In the picture a group of volunteers is shown cleaning a beach of rubbish.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Passive 'παρουσιάζεται', genitive plural 'ομάδα εθελοντών', environmental
+      action vocabulary
+  notes: 'Examiner Objective: Ecology and volunteering photos are very common in KEG
+    exams.
+
+    Strategy: Highlight the collective effort (''ομαδική προσπάθεια''), plastic bags
+    (''μεγάλες σακούλες''), and gloves (''γάντια'').'
+  example_el: Στην εικόνα παρουσιάζεται μια ομάδα νέων εθελοντών και μαθητών που καθαρίζει
+    μια μεγάλη αμμώδη παραλία από τα πλαστικά μπουκάλια και τα σκουπίδια.
+  example_en: In the picture a group of young volunteers and students is shown cleaning
+    a large sandy beach of plastic bottles and rubbish.
+  example2_el: Όλοι φοράνε ειδικά γάντια στα χέρια τους και μαζεύουν με προσοχή τα
+    απορρίμματα μέσα σε μεγάλες μπλε σακούλες ανακύκλωσης.
+  example2_en: Everyone is wearing special gloves on their hands and carefully collecting
+    the waste inside large blue recycling bags.
+  keg_communicative_function: Describing an environmental cleanup or community volunteering
+    activity
+  audio: stin-eikona-paroysia-65bd1b.mp3
+  example_audio: stin-eikona-paroysia-82edfd.mp3
+  example2_audio: oloi-forane-eidika-g-531d63.mp3
+- id: SP-U04-008
+  greek: Το κεντρικό θέμα της φωτογραφίας είναι μια παρέα φίλων σε μια καφετέρια του
+    κέντρου.
+  english: The central theme of the photograph is a group of friends at a downtown
+    café. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Nominal frame 'το κεντρικό θέμα της φωτογραφίας είναι...', social leisure
+      vocabulary
+  notes: 'Examiner Objective: Tests nominal framing (''το κεντρικό θέμα είναι...'')
+    to vary sentence openings.
+
+    Strategy: Mention what they are drinking (iced coffee / φρέντο) and how they are
+    interacting.'
+  example_el: Το κεντρικό θέμα της φωτογραφίας είναι μια νεανική παρέα τεσσάρων φίλων
+    που πίνουν τον καφέ τους και συζητούν σε μια όμορφη καφετέρια του κέντρου.
+  example_en: The central theme of the photograph is a young group of four friends
+    drinking their coffee and chatting at a nice downtown café.
+  example2_el: Κάθονται έξω στον πεζόδρομο κάτω από τις μεγάλες λευκές ομπρέλες και
+    απολαμβάνουν τον ελεύθερο χρόνο τους.
+  example2_en: They are sitting outside on the pedestrian street under the large white
+    umbrellas and enjoying their free time.
+  keg_communicative_function: Identifying the central subject of a social leisure
+    photograph
+  audio: to-kentriko-thema-ti-eef0f0.mp3
+  example_audio: to-kentriko-thema-ti-2d8e97.mp3
+  example2_audio: kathontai-exo-ston-p-d616d1.mp3
+- id: SP-U04-009
+  greek: Βλέπουμε μια σχολική τάξη με μαθητές που παρακολουθούν με προσοχή τη δασκάλα
+    τους.
+  english: We see a school classroom with students who are attentively watching their
+    teacher. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Verb 'παρακολουθούν με προσοχή', educational setting vocabulary (σχολική
+      τάξη, θρανία, πίνακας)
+  notes: 'Examiner Objective: Evaluates education and learning vocabulary.
+
+    Strategy: Mention the desks (''θρανία''), open notebooks (''τετράδια''), and the
+    whiteboard (''πίνακας'').'
+  example_el: Σε αυτή την εικόνα βλέπουμε μια φωτεινή σχολική τάξη με μικρούς μαθητές
+    που κάθονται στα θρανία τους και παρακολουθούν με μεγάλη προσοχή τη δασκάλα τους.
+  example_en: In this picture we see a bright school classroom with young students
+    sitting at their desks and watching their teacher with great attention.
+  example2_el: Η δασκάλα στέκεται όρθια μπροστά στον πίνακα, δείχνει έναν χάρτη της
+    Ελλάδας και εξηγεί το σημερινό μάθημα στα παιδιά.
+  example2_en: The teacher is standing in front of the board, pointing to a map of
+    Greece, and explaining today's lesson to the children.
+  keg_communicative_function: Describing an educational or classroom scene
+  audio: vlepoyme-mia-scholik-4b92b8.mp3
+  example_audio: se-ayti-tin-eikona-v-0967db.mp3
+  example2_audio: i-daskala-steketai-o-137dc2.mp3
+- id: SP-U04-010
+  greek: Με την πρώτη ματιά καταλαβαίνουμε ότι η σκηνή εκτυλίσσεται σε έναν σταθμό
+    τρένου.
+  english: At first glance we understand that the scene unfolds at a train station.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Idiomatic opener 'με την πρώτη ματιά', deponent verb 'εκτυλίσσεται' (takes
+      place/unfolds)
+  notes: 'Examiner Objective: Using ''με την πρώτη ματιά'' and ''η σκηνή εκτυλίσσεται''
+    immediately elevates vocabulary marks.
+
+    Strategy: State what visual clues reveal the location (e.g., train tracks, departure
+    board, suitcases).'
+  example_el: Με την πρώτη ματιά καταλαβαίνουμε ότι η σκηνή εκτυλίσσεται στην αποβάθρα
+    ενός κεντρικού σταθμού τρένου, όπου πολλοί επιβάτες ετοιμάζονται να επιβιβαστούν.
+  example_en: At first glance we understand that the scene unfolds on the platform
+    of a central train station, where many passengers are getting ready to board.
+  example2_el: Δίπλα στο τρένο βλέπουμε ανθρώπους κάθε ηλικίας που αποχαιρετούν τους
+    συγγενείς τους ή κοιτάζουν τον ηλεκτρονικό πίνακα αναχωρήσεων.
+  example2_en: Next to the train we see people of all ages saying goodbye to their
+    relatives or looking at the electronic departure board.
+  keg_communicative_function: Summarizing the setting and immediate visual clues of
+    a scene
+  audio: me-tin-proti-matia-k-f7e4c8.mp3
+  example_audio: me-tin-proti-matia-k-5c6141.mp3
+  example2_audio: dipla-sto-treno-vlep-a9ce06.mp3
+- id: SP-U04-011
+  greek: Στο πρώτο πλάνο της εικόνας ξεχωρίζει ένα νεαρό ζευγάρι που περπατάει.
+  english: In the foreground of the picture a young couple walking stands out. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Spatial anchor 'στο πρώτο πλάνο', verb 'ξεχωρίζει' (stands out)
+  notes: 'Examiner Objective: Step 2 of the Lego framework requires organized spatial
+    progression (foreground -> center -> background).
+
+    Strategy: Start Step 2 with ''Στο πρώτο πλάνο της εικόνας...'' to focus on the
+    closest figures.'
+  example_el: Στο πρώτο πλάνο της εικόνας ξεχωρίζει ένα νεαρό ζευγάρι που περπατάει
+    χέρι χέρι στον πεζόδρομο και κοιτάζει τις βιτρίνες των εμπορικών καταστημάτων.
+  example_en: In the foreground of the picture a young couple stands out walking hand
+    in hand on the pedestrian street and looking at the shop windows.
+  example2_el: Μπροστά μπροστά στη φωτογραφία βλέπουμε καθαρά δύο παιδιά που παίζουν
+    με μια μπάλα πάνω στο πράσινο γρασίδι.
+  example2_en: Right in the front of the photograph we clearly see two children playing
+    with a ball on the green grass.
+  keg_communicative_function: Describing people and objects in the foreground of an
+    image
+  audio: sto-proto-plano-tis--bed6b4.mp3
+  example_audio: sto-proto-plano-tis--05c39e.mp3
+  example2_audio: mprosta-mprosta-sti--e028ec.mp3
+- id: SP-U04-012
+  greek: Στο κέντρο της φωτογραφίας βρίσκονται τρεις άνθρωποι που συζητούν χαμογελαστοί.
+  english: In the center of the photograph are three people talking smilingly. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Spatial phrase 'στο κέντρο της φωτογραφίας', plural deponent verb 'βρίσκονται',
+      predicate adjective 'χαμογελαστοί'
+  notes: 'Examiner Objective: Tests accurate subject-verb agreement (''βρίσκονται
+    τρεις άνθρωποι'') and central focus description.
+
+    Strategy: Identify how many people are in the center and their main action.'
+  example_el: Ακριβώς στο κέντρο της φωτογραφίας βρίσκονται τρεις συνάδελφοι, δύο
+    γυναίκες και ένας άντρας, οι οποίοι κάθονται σε ένα γραφείο και συζητούν χαμογελαστοί.
+  example_en: Right in the center of the photograph are three colleagues, two women
+    and a man, who are sitting at a desk and talking smilingly.
+  example2_el: Στη μέση της σκηνής βλέπουμε ένα μεγάλο ξύλινο τραπέζι γεμάτο με παραδοσιακά
+    ελληνικά φαγητά, σαλάτες και ποτήρια με νερό.
+  example2_en: In the middle of the scene we see a large wooden table full of traditional
+    Greek dishes, salads, and glasses of water.
+  keg_communicative_function: Directing attention to the central figures or objects
+    in a picture
+  audio: sto-kentro-tis-fotog-7d241e.mp3
+  example_audio: akrivos-sto-kentro-t-dbd914.mp3
+  example2_audio: sti-mesi-tis-skinis--628add.mp3
+- id: SP-U04-013
+  greek: Στο βάθος της εικόνας διακρίνονται ψηλά κτίρια, πράσινα δέντρα και η γαλάζια
+    θάλασσα.
+  english: In the background of the picture tall buildings, green trees, and the blue
+    sea can be made out. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Spatial anchor 'στο βάθος της εικόνας', passive perception verb 'διακρίνονται'
+      (plural)
+  notes: 'Examiner Objective: ''Διακρίνεται / διακρίνονται στο βάθος'' is a top-scoring
+    A2/B1 bridge phrase for background details.
+
+    Strategy: Always describe the background (''στο βάθος'') to prove you are scanning
+    the entire image.'
+  example_el: Στο βάθος της εικόνας διακρίνονται μερικά λευκά νησιώτικα σπίτια με
+    μπλε παράθυρα, πράσινα δέντρα και η ήρεμη γαλάζια θάλασσα κάτω από τον ουρανό.
+  example_en: In the background of the picture a few white island houses with blue
+    windows, green trees, and the calm blue sea under the sky can be made out.
+  example2_el: Πίσω στο βάθος φαίνεται μια μεγάλη οροσειρά με σύννεφα, καθώς και ένας
+    στενός δρόμος που οδηγεί έξω από το χωριό.
+  example2_en: Back in the distance a large mountain range with clouds can be seen,
+    as well as a narrow road leading out of the village.
+  keg_communicative_function: Describing distant background elements in a photograph
+  audio: sto-vathos-tis-eikon-cd8771.mp3
+  example_audio: sto-vathos-tis-eikon-b97ce5.mp3
+  example2_audio: piso-sto-vathos-fain-089e2e.mp3
+- id: SP-U04-014
+  greek: Στα αριστερά της εικόνας στέκεται ένας ηλικιωμένος κύριος που διαβάζει την
+    εφημερίδα του.
+  english: On the left of the picture stands an elderly gentleman reading his newspaper.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Left-side spatial marker 'στα αριστερά της εικόνας', posture verb 'στέκεται
+      / κάθεται'
+  notes: 'Examiner Objective: Tests lateral spatial markers (''στα αριστερά'', ''στα
+    δεξιά'') and posture verbs.
+
+    Strategy: Pair ''στα αριστερά'' with ''στα δεξιά'' in your next sentence to create
+    a balanced description.'
+  example_el: Στα αριστερά της εικόνας κάθεται σε ένα ξύλινο παγκάκι ένας ηλικιωμένος
+    κύριος με γυαλιά, ο οποίος διαβάζει ήρεμα την πρωινή του εφημερίδα.
+  example_en: On the left of the picture an elderly gentleman with glasses is sitting
+    on a wooden bench, calmly reading his morning newspaper.
+  example2_el: Στην αριστερή πλευρά του δρόμου υπάρχει ένα μικρό ανθοπωλείο με πολύχρωμα
+    λουλούδια και γλάστρες πάνω στο πεζοδρόμιο.
+  example2_en: On the left side of the street there is a small flower shop with colorful
+    flowers and pots on the sidewalk.
+  keg_communicative_function: Locating people and features on the left side of a visual
+    prompt
+  audio: sta-aristera-tis-eik-760d62.mp3
+  example_audio: sta-aristera-tis-eik-5916ae.mp3
+  example2_audio: stin-aristeri-pleyra-f58786.mp3
+- id: SP-U04-015
+  greek: Στα δεξιά βλέπουμε μια μητέρα που κρατάει από το χέρι την κόρη της.
+  english: On the right we see a mother holding her daughter by the hand. (Stage 3
+    Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Right-side spatial marker 'στα δεξιά', collocation 'κρατάω από το χέρι'
+  notes: 'Examiner Objective: Evaluates precise physical interaction collocations
+    (''κρατάει από το χέρι'', ''έχει στην αγκαλιά της'').
+
+    Strategy: Describe both what the person on the right is doing and where they are
+    looking.'
+  example_el: Στα δεξιά της φωτογραφίας βλέπουμε μια νέα μητέρα που κρατάει σφιχτά
+    από το χέρι τη μικρή της κόρη καθώς περιμένουν να ανάψει το φανάρι.
+  example_en: On the right of the photograph we see a young mother holding her little
+    daughter tightly by the hand as they wait for the traffic light to turn green.
+  example2_el: Στη δεξιά πλευρά της αίθουσας υπάρχει μια μεγάλη βιβλιοθήκη γεμάτη
+    βιβλία και δίπλα της ένα πράσινο φυτό εσωτερικού χώρου.
+  example2_en: On the right side of the room there is a large bookcase full of books
+    and next to it a green indoor plant.
+  keg_communicative_function: Locating people and features on the right side of a
+    visual prompt
+  audio: sta-dexia-vlepoyme-m-ac1b4d.mp3
+  example_audio: sta-dexia-tis-fotogr-977f79.mp3
+  example2_audio: sti-dexia-pleyra-tis-d20452.mp3
+- id: SP-U04-016
+  greek: Ακριβώς πίσω από τους ανθρώπους υπάρχει ένα μεγάλο πέτρινο κτίριο με κήπο.
+  english: Right behind the people there is a large stone building with a garden.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Compound preposition 'ακριβώς πίσω από + accusative', material adjective
+      'πέτρινο / ξύλινο / γυάλινο'
+  notes: 'Examiner Objective: Tests prepositions of relative position (''πίσω από'',
+    ''μπροστά από'', ''δίπλα σε'') with accusative.
+
+    Strategy: Add material or color adjectives (''πέτρινο κτίριο'', ''ξύλινη πόρτα'')
+    for higher lexical marks.'
+  example_el: Ακριβώς πίσω από τους ανθρώπους υπάρχει ένα παραδοσιακό διώροφο πέτρινο
+    κτίριο με κεραμίδια στη στέγη και έναν καταπράσινο κήπο με λουλούδια.
+  example_en: Right behind the people there is a traditional two-story stone building
+    with roof tiles and a lush green garden with flowers.
+  example2_el: Πίσω από τον πάγκο του καταστήματος στέκεται ο υπάλληλος, ο οποίος
+    ετοιμάζει τους καφέδες και εξυπηρετεί με χαμόγελο τους πελάτες.
+  example2_en: Behind the counter of the shop stands the employee, who is preparing
+    the coffees and serving the customers with a smile.
+  keg_communicative_function: Describing architectural or spatial elements positioned
+    behind the main subjects
+  audio: akrivos-piso-apo-toy-358c60.mp3
+  example_audio: akrivos-piso-apo-toy-0b4846.mp3
+  example2_audio: piso-apo-ton-pagko-t-d110ed.mp3
+- id: SP-U04-017
+  greek: Γύρω από το τραπέζι κάθονται τέσσερα άτομα και πάνω στο τραπέζι υπάρχουν
+    πιάτα.
+  english: Around the table sit four people and on the table there are plates. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Compound prepositions 'γύρω από το τραπέζι' and 'πάνω στο τραπέζι'
+  notes: 'Examiner Objective: Almost half of KEG A2 photos involve people sitting
+    around a table (home, office, café, taverna).
+
+    Strategy: Describe who is sitting ''γύρω από το τραπέζι'' and what objects lie
+    ''πάνω στο τραπέζι''.'
+  example_el: Γύρω από το στρογγυλό τραπέζι κάθονται τέσσερα άτομα, δύο άντρες και
+    δύο γυναίκες, ενώ πάνω στο τραπέζι υπάρχουν φλιτζάνια καφέ και ένας φορητός υπολογιστής.
+  example_en: Around the round table sit four people, two men and two women, while
+    on the table there are coffee cups and a laptop.
+  example2_el: Πάνω στο λευκό τραπεζομάντιλο βλέπουμε μια μεγάλη χωριάτικη σαλάτα,
+    φρέσκο ψωμί σε καλάθι και τέσσερα ποτήρια με πορτοκαλάδα.
+  example2_en: On the white tablecloth we see a big Greek salad, fresh bread in a
+    basket, and four glasses of orangeade.
+  keg_communicative_function: Describing seating arrangements and objects placed on
+    a table
+  audio: gyro-apo-to-trapezi--228bbb.mp3
+  example_audio: gyro-apo-to-stroggyl-cce8ba.mp3
+  example2_audio: pano-sto-leyko-trape-7d606e.mp3
+- id: SP-U04-018
+  greek: Απέναντι από τη γυναίκα κάθεται ένας νεαρός άντρας και της δείχνει κάτι στο
+    κινητό του.
+  english: Across from the woman sits a young man and he is showing her something
+    on his mobile phone. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Spatial preposition 'απέναντι από + accusative', indirect object clitic
+      'της δείχνει'
+  notes: 'Examiner Objective: Tests ''απέναντι από'' (across from/opposite) and interactive
+    body language between figures.
+
+    Strategy: Connect two people in the photo by explaining how they face or interact
+    with each other.'
+  example_el: Απέναντι από την ξανθιά γυναίκα κάθεται ένας νεαρός άντρας με πουκάμισο,
+    ο οποίος της δείχνει κάτι στην οθόνη του κινητού του τηλεφώνου.
+  example_en: Across from the blonde woman sits a young man in a shirt, who is showing
+    her something on the screen of his mobile phone.
+  example2_el: Ακριβώς απέναντι από τη στάση του λεωφορείου βλέπουμε έναν φούρνο και
+    ένα φαρμακείο με πράσινη φωτεινή επιγραφή.
+  example2_en: Right across from the bus stop we see a bakery and a pharmacy with
+    a green illuminated sign.
+  keg_communicative_function: Describing relative positions across from or opposite
+    each other
+  audio: apenanti-apo-ti-gyna-34df01.mp3
+  example_audio: apenanti-apo-tin-xan-84cd3b.mp3
+  example2_audio: akrivos-apenanti-apo-739335.mp3
+- id: SP-U04-019
+  greek: Ανάμεσα στους δύο γονείς κάθεται το μικρό τους παιδί και κρατάει ένα παιχνίδι.
+  english: Between the two parents sits their young child holding a toy. (Stage 3
+    Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Preposition 'ανάμεσα σε + accusative plural (ανάμεσα στους δύο γονείς)'
+  notes: 'Examiner Objective: Assesses correct use of ''ανάμεσα σε'' + accusative.
+
+    Strategy: Use ''ανάμεσα σε'' whenever three people or objects are lined up in
+    a row.'
+  example_el: Πάνω στον μεγάλο καναπέ του σαλονιού, ανάμεσα στους δύο γονείς, κάθεται
+    το μικρό τους αγόρι και κρατάει στα χέρια του ένα εικονογραφημένο παραμύθι.
+  example_en: On the big living room sofa, between the two parents, sits their little
+    boy holding an illustrated storybook in his hands.
+  example2_el: Ανάμεσα στα δύο ψηλά κτίρια υπάρχει ένα μικρό, ήσυχο πάρκο με δέντρα,
+    παγκάκια και παιδική χαρά για τα παιδιά.
+  example2_en: Between the two tall buildings there is a small, quiet park with trees,
+    benches, and a playground for children.
+  keg_communicative_function: Describing someone or something positioned between two
+    other elements
+  audio: anamesa-stoys-dyo-go-3a9564.mp3
+  example_audio: pano-ston-megalo-kan-7e99f6.mp3
+  example2_audio: anamesa-sta-dyo-psil-2af3cf.mp3
+- id: SP-U04-020
+  greek: Στην πάνω δεξιά γωνία της εικόνας φαίνεται ο καταγάλανος ουρανός χωρίς καθόλου
+    σύννεφα.
+  english: In the upper right corner of the picture the deep blue sky is visible without
+    any clouds at all. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Corner locative 'στην πάνω δεξιά / αριστερή γωνία', intensive adjective
+      'καταγάλανος'
+  notes: 'Examiner Objective: Shows fine-grained visual observation of the upper/lower
+    corners of the frame.
+
+    Strategy: Use ''στην πάνω γωνία'' to transition smoothly from spatial layout to
+    weather and lighting.'
+  example_el: Στην πάνω δεξιά γωνία της εικόνας φαίνεται ο καταγάλανος ουρανός χωρίς
+    καθόλου σύννεφα, κάτι που δείχνει ότι η μέρα είναι ζεστή και καλοκαιρινή.
+  example_en: In the upper right corner of the picture the deep blue sky is visible
+    without any clouds at all, which shows that the day is warm and summery.
+  example2_el: Στην κάτω αριστερή γωνία της φωτογραφίας βλέπουμε ένα μικρό καφέ σκυλάκι
+    που κοιμάται ήσυχα δίπλα στα πόδια του ιδιοκτήτη του.
+  example2_en: In the lower left corner of the photograph we see a small brown dog
+    sleeping peacefully next to its owner's feet.
+  keg_communicative_function: Pointing out details in the corners of a photograph
+  audio: stin-pano-dexia-goni-c5ba50.mp3
+  example_audio: stin-pano-dexia-goni-d56736.mp3
+  example2_audio: stin-kato-aristeri-g-0ca4b4.mp3
+- id: SP-U04-021
+  greek: Οι άνθρωποι της εικόνας φοράνε ελαφριά, καλοκαιρινά και άνετα ρούχα.
+  english: The people in the picture are wearing light, summer, and comfortable clothes.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Contracted verb 'φοράω -> φοράνε', neuter plural adjective agreement ('ελαφριά,
+      καλοκαιρινά, άνετα ρούχα')
+  notes: 'Examiner Objective: Step 3 requires describing clothing (''τι φοράνε'')
+    with accurate neuter plural adjective endings (-α, -ά).
+
+    Strategy: Always connect clothing to the season (light shirts/T-shirts in summer
+    vs. coats/scarves in winter).'
+  example_el: Όλοι οι άνθρωποι της εικόνας φοράνε ελαφριά, καλοκαιρινά και άνετα ρούχα,
+    δηλαδή κοντομάνικα μπλουζάκια, ανοιχτόχρωμα πουκάμισα, καπέλα και γυαλιά ηλίου.
+  example_en: All the people in the picture are wearing light, summer, and comfortable
+    clothes, namely short-sleeved T-shirts, light-colored shirts, hats, and sunglasses.
+  example2_el: Επειδή κάνει αρκετό κρύο, οι περαστικοί φοράνε χοντρά χειμωνιάτικα
+    παλτά, μάλλινα κασκόλ γύρω από τον λαιμό τους και ζεστά μπουφάν.
+  example2_en: Because it is quite cold, the passersby are wearing thick winter coats,
+    woolen scarves around their necks, and warm jackets.
+  keg_communicative_function: Describing people's clothing and seasonal attire in
+    a picture
+  audio: oi-anthropoi-tis-eik-caa0ec.mp3
+  example_audio: oloi-oi-anthropoi-ti-82e3ed.mp3
+  example2_audio: epeidi-kanei-arketo--72695c.mp3
+- id: SP-U04-022
+  greek: Η νεαρή γυναίκα έχει μακριά καστανά μαλλιά, φοράει ένα λευκό φόρεμα και χαμογελάει.
+  english: The young woman has long brown hair, is wearing a white dress, and is smiling.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Physical appearance ('μακριά καστανά μαλλιά'), three-verb descriptive chain
+      ('έχει... φοράει... χαμογελάει')
+  notes: 'Examiner Objective: Tests physical portrait description (age, hair, clothing,
+    facial expression).
+
+    Strategy: Pick the clearest person in the photo and describe them using three
+    linked verbs.'
+  example_el: Η νεαρή γυναίκα στα αριστερά είναι γύρω στα τριάντα, έχει μακριά καστανά
+    μαλλιά, φοράει ένα όμορφο λευκό φόρεμα και χαμογελάει πλατιά.
+  example_en: The young woman on the left is around thirty, has long brown hair, is
+    wearing a nice white dress, and is smiling broadly.
+  example2_el: Ο κύριος δίπλα της έχει κοντά γκρίζα μαλλιά και γυαλιά, και φοράει
+    ένα σκούρο μπλε κοστούμι με λευκό πουκάμισο.
+  example2_en: The gentleman next to her has short gray hair and glasses, and is wearing
+    a dark blue suit with a white shirt.
+  keg_communicative_function: Describing an individual's physical appearance, age,
+    and attire
+  audio: i-neari-gynaika-eche-cbae66.mp3
+  example_audio: i-neari-gynaika-sta--52cc69.mp3
+  example2_audio: o-kyrios-dipla-tis-e-f24ead.mp3
+- id: SP-U04-023
+  greek: Μια κυρία κρατάει στα χέρια της πολλές τσάντες με ψώνια και κοιτάζει μια
+    βιτρίνα.
+  english: A lady is holding many shopping bags in her hands and looking at a shop
+    window. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Action verbs in Present ('κρατάει', 'κοιτάζει'), prepositional complement
+      'τσάντες με ψώνια'
+  notes: 'Examiner Objective: Tests action description using Present tense (which
+    serves as both simple and continuous in Greek).
+
+    Strategy: Specify what people are holding in their hands (''κρατάει στα χέρια
+    του/της...'').'
+  example_el: Μια καλοντυμένη κυρία κρατάει στα χέρια της πολλές χάρτινες τσάντες
+    με ψώνια και στέκεται μπροστά σε ένα κατάστημα για να κοιτάξει τη βιτρίνα.
+  example_en: A well-dressed lady is holding many paper shopping bags in her hands
+    and standing in front of a store to look at the shop window.
+  example2_el: Ο πωλητής της λαϊκής αγοράς ζυγίζει τα φρούτα στη ζυγαριά και δίνει
+    τη σακούλα με τα μήλα στην πελάτισσα.
+  example2_en: The seller at the open-air market is weighing the fruit on the scale
+    and giving the bag of apples to the female customer.
+  keg_communicative_function: Describing ongoing physical actions and gestures in
+    a scene
+  audio: mia-kyria-krataei-st-630aa9.mp3
+  example_audio: mia-kalontymeni-kyri-65d09a.mp3
+  example2_audio: o-politis-tis-laikis-19bd3f.mp3
+- id: SP-U04-024
+  greek: Τα πρόσωπά τους λάμπουν από χαρά και φαίνονται πολύ ευδιάθετοι και ήρεμοι.
+  english: Their faces shine with joy and they look very cheerful and calm. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Emotional idiom 'λάμπουν από χαρά', copular verb 'φαίνονται + plural adjectives
+      (ευδιάθετοι, ήρεμοι)'
+  notes: 'Examiner Objective: Rewards rich emotional adjectives beyond basic ''καλός''
+    (''ευδιάθετος'', ''ήρεμος'', ''ενθουσιασμένος'').
+
+    Strategy: Comment on the facial expressions (''τα πρόσωπά τους'') to support your
+    mood description.'
+  example_el: Όλοι γελάνε μεταξύ τους, τα πρόσωπά τους λάμπουν από χαρά και φαίνονται
+    πραγματικά πολύ ευδιάθετοι, ήρεμοι και ξεκούραστοι.
+  example_en: Everyone is laughing with one another, their faces shine with joy, and
+    they look truly very cheerful, calm, and well-rested.
+  example2_el: Τα μικρά παιδιά δείχνουν κατενθουσιασμένα με τα δώρα τους και αγκαλιάζουν
+    με πολλή αγάπη τον παππού και τη γιαγιά τους.
+  example2_en: The young children look thrilled with their gifts and hug their grandfather
+    and grandmother with lots of love.
+  keg_communicative_function: Describing positive emotions, facial expressions, and
+    good mood
+  audio: ta-prosopa-toys-lamp-6395dd.mp3
+  example_audio: oloi-gelane-metaxy-t-452cae.mp3
+  example2_audio: ta-mikra-paidia-deic-fd2df9.mp3
+- id: SP-U04-025
+  greek: Ο άντρας δείχνει λίγο αγχωμένος και κουρασμένος επειδή κοιτάζει συνέχεια
+    το ρολόι του.
+  english: The man looks a bit stressed and tired because he keeps looking at his
+    watch. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Linking verb 'δείχνει + passive participles (αγχωμένος, κουρασμένος, προβληματισμένος)',
+      causal 'επειδή'
+  notes: 'Examiner Objective: Tests passive participles in ''-μένος'' (''αγχωμένος'',
+    ''κουρασμένος'', ''στενοχωρημένος'') for negative/tense moods.
+
+    Strategy: Always justify a mood observation with a visual clue using ''επειδή''
+    or ''γιατί''.'
+  example_el: Ο άντρας που περιμένει στη στάση δείχνει λίγο αγχωμένος και ανυπόμονος,
+    επειδή κοιτάζει συνέχεια το ρολόι του και το λεωφορείο έχει αργήσει.
+  example_en: The man waiting at the bus stop looks a bit stressed and impatient,
+    because he keeps looking at his watch and the bus is late.
+  example2_el: Η κοπέλα στο γραφείο φαίνεται αρκετά κουρασμένη και προβληματισμένη,
+    γιατί έχει μπροστά της πάρα πολλά χαρτιά και φακέλους.
+  example2_en: The young woman in the office looks quite tired and troubled, because
+    she has very many papers and folders in front of her.
+  keg_communicative_function: Describing stress, fatigue, or concern based on visual
+    cues
+  audio: o-antras-deichnei-li-8c442f.mp3
+  example_audio: o-antras-poy-perimen-121f53.mp3
+  example2_audio: i-kopela-sto-grafeio-c86a6d.mp3
+- id: SP-U04-026
+  greek: Οι δύο φίλοι συζητούν ζωηρά και φαίνεται ότι απολαμβάνουν πολύ την παρέα
+    ο ένας του άλλου.
+  english: The two friends are chattinganimatedly and it seems that they really enjoy
+    each other's company. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Manner adverb 'ζωηρά', reciprocal pronoun 'ο ένας του άλλου'
+  notes: 'Examiner Objective: High syntactic credit for using the reciprocal structure
+    ''ο ένας τον άλλον / ο ένας του άλλου''.
+
+    Strategy: Use this phrase whenever two or more people are talking or helping each
+    other.'
+  example_el: Οι δύο φίλοι συζητούν ζωηρά πίνοντας τον καφέ τους και φαίνεται καθαρά
+    ότι απολαμβάνουν πάρα πολύ την παρέα ο ένας του άλλου.
+  example_en: The two friends are chatting animatedly while drinking their coffee
+    and it is clearly evident that they enjoy each other's company very much.
+  example2_el: Τα μέλη της ομάδας συνεργάζονται αρμονικά, χαμογελούν και βοηθούν με
+    προθυμία ο ένας τον άλλον στη δουλειά.
+  example2_en: The members of the team cooperate harmoniously, smile, and eagerly
+    help one another with the work.
+  keg_communicative_function: Describing interpersonal rapport and mutual cooperation
+  audio: oi-dyo-filoi-syzitoy-46a5f4.mp3
+  example_audio: oi-dyo-filoi-syzitoy-c40937.mp3
+  example2_audio: ta-meli-tis-omadas-s-729f85.mp3
+- id: SP-U04-027
+  greek: Η ατμόσφαιρα στην εικόνα είναι πολύ ζεστή, οικογενειακή και γιορτινή.
+  english: The atmosphere in the picture is very warm, family-like, and festive. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Abstract noun 'η ατμόσφαιρα', feminine adjective triad ('ζεστή, οικογενειακή
+      και γιορτινή')
+  notes: 'Examiner Objective: Summarizing the overall emotional vibe (''η ατμόσφαιρα
+    είναι...'') is a key rubric target in Stage 3.
+
+    Strategy: Group three complementary adjectives to describe the atmosphere of the
+    scene.'
+  example_el: Γενικά, η ατμόσφαιρα στην εικόνα είναι εξαιρετικά ζεστή, οικογενειακή
+    και γιορτινή, αφού όλοι τρώνε, πίνουν και γιορτάζουν όλοι μαζί.
+  example_en: Generally, the atmosphere in the picture is extremely warm, family-like,
+    and festive, since everyone is eating, drinking, and celebrating all together.
+  example2_el: Στο δωμάτιο επικρατεί μια πολύ ήρεμη, φιλική και ευχάριστη ατμόσφαιρα
+    που σε κάνει να νιώθεις αμέσως άνετα.
+  example2_en: In the room a very calm, friendly, and pleasant atmosphere prevails
+    that makes you feel comfortable immediately.
+  keg_communicative_function: Characterizing the overall mood and atmosphere of a
+    scene
+  audio: i-atmosfaira-stin-ei-e7f6f8.mp3
+  example_audio: genika-i-atmosfaira--eba61b.mp3
+  example2_audio: sto-domatio-epikrate-b97914.mp3
+- id: SP-U04-028
+  greek: Όλοι είναι συγκεντρωμένοι σε αυτό που κάνουν και συνεργάζονται με κέφι.
+  english: Everyone is focused on what they are doing and cooperating with enthusiasm.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Participle 'συγκεντρωμένοι σε αυτό που κάνουν', Greek cultural noun 'με
+      κέφι / με όρεξη'
+  notes: 'Examiner Objective: Ideal for workplace, classroom, cooking, or volunteering
+    photos.
+
+    Strategy: Use ''συγκεντρωμένοι'' (focused) and ''με κέφι'' (with high spirits/enthusiasm)
+    to describe active engagement.'
+  example_el: Βλέπουμε ότι όλοι οι εθελοντές είναι απόλυτα συγκεντρωμένοι σε αυτό
+    που κάνουν και συνεργάζονται με πολύ κέφι και όρεξη για να τελειώσουν.
+  example_en: We see that all the volunteers are completely focused on what they are
+    doing and are cooperating with great enthusiasm and appetite to finish.
+  example2_el: Οι μάγειρες στην κουζίνα φαίνονται πολύ προσεκτικοί και ετοιμάζουν
+    τα πιάτα με επαγγελματισμό και καλή διάθεση.
+  example2_en: The cooks in the kitchen look very careful and are preparing the dishes
+    with professionalism and a good mood.
+  keg_communicative_function: Describing focus, teamwork, and enthusiasm in group
+    activities
+  audio: oloi-einai-sygkentro-7f2cd8.mp3
+  example_audio: vlepoyme-oti-oloi-oi-eb04f3.mp3
+  example2_audio: oi-mageires-stin-koy-102b46.mp3
+- id: SP-U04-029
+  greek: Από τα χρώματα και το φως της φωτογραφίας φαίνεται ότι είναι ένα όμορφο ανοιξιάτικο
+    πρωινό.
+  english: From the colors and the light of the photograph it seems that it is a beautiful
+    spring morning. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Evidential prepositional phrase 'από τα χρώματα και το φως', seasonal adjectives
+      ('ανοιξιάτικο', 'φθινοπωρινό')
+  notes: 'Examiner Objective: Tests seasonal and time-of-day deduction from lighting
+    and nature cues.
+
+    Strategy: Mention the natural light (''το φυσικό φως''), the green trees, or the
+    blooming flowers.'
+  example_el: Από τα ζωντανά χρώματα της φύσης και το δυνατό φως της φωτογραφίας φαίνεται
+    ξεκάθαρα ότι είναι ένα όμορφο, ηλιόλουστο ανοιξιάτικο πρωινό.
+  example_en: From the vivid colors of nature and the bright light of the photograph
+    it is clearly evident that it is a beautiful, sunny spring morning.
+  example2_el: Από τα κίτρινα φύλλα που έχουν πέσει στον δρόμο και τον συννεφιασμένο
+    ουρανό, καταλαβαίνουμε ότι είναι φθινόπωρο.
+  example2_en: From the yellow leaves that have fallen on the street and the cloudy
+    sky, we understand that it is autumn.
+  keg_communicative_function: Inferring the season and time of day from lighting and
+    environmental details
+  audio: apo-ta-chromata-kai--89cf91.mp3
+  example_audio: apo-ta-zontana-chrom-79b5b4.mp3
+  example2_audio: apo-ta-kitrina-fylla-fa9667.mp3
+- id: SP-U04-030
+  greek: Παρόλο που έχει αρκετή κίνηση στον δρόμο, οι άνθρωποι δείχνουν ήρεμοι και
+    χαλαροί.
+  english: Although there is quite a lot of traffic on the street, the people look
+    calm and relaxed. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Concessive conjunction 'παρόλο που' (although), contrast between setting
+      and mood
+  notes: 'Examiner Objective: Using ''παρόλο που'' (although/even though) demonstrates
+    upper-A2 syntactic control.
+
+    Strategy: Contrast a busy or crowded environment with the relaxed demeanor of
+    the people.'
+  example_el: Παρόλο που έχει αρκετή κίνηση και πολύ κόσμο στην αγορά, οι άνθρωποι
+    της φωτογραφίας δείχνουν ήρεμοι, χαλαροί και καθόλου βιαστικοί.
+  example_en: Although there is quite a lot of traffic and many people in the market,
+    the people in the photograph look calm, relaxed, and not at all hurried.
+  example2_el: Παρόλο που ο χώρος είναι σχετικά μικρός, όλα είναι τακτοποιημένα και
+    οι εργαζόμενοι δουλεύουν άνετα.
+  example2_en: Although the space is relatively small, everything is tidy and the
+    employees work comfortably.
+  keg_communicative_function: Expressing contrast between environmental conditions
+    and human mood using concessive clauses
+  audio: parolo-poy-echei-ark-de1169.mp3
+  example_audio: parolo-poy-echei-ark-f32ff0.mp3
+  example2_audio: parolo-poy-o-choros--e7cbe9.mp3
+- id: SP-U04-031
+  greek: Μου φαίνεται ότι είναι Κυριακή μεσημέρι, επειδή όλη η οικογένεια είναι μαζεμένη
+    στο σπίτι.
+  english: It seems to me that it is Sunday at noon, because the whole family is gathered
+    at home. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Epistemic frame 'μου φαίνεται ότι...', causal justification 'επειδή', participle
+      'μαζεμένη'
+  notes: 'Examiner Objective: Step 4 of the Lego framework tests speculation and hypothesis
+    backed by logical reasons.
+
+    Strategy: Never state a hypothesis without adding ''επειδή'' or ''γιατί'' to explain
+    why you think so.'
+  example_el: Μου φαίνεται ότι είναι Κυριακή μεσημέρι ή κάποια επίσημη γιορτή, επειδή
+    όλη η οικογένεια είναι μαζεμένη στο σπίτι και κανείς δεν δουλεύει.
+  example_en: It seems to me that it is Sunday at noon or some official holiday, because
+    the whole family is gathered at home and nobody is working.
+  example2_el: Υποθέτω ότι είναι Σάββατο πρωί, γιατί βλέπουμε γονείς με τα παιδιά
+    τους να κάνουν χαλαρά τα ψώνια τους στην αγορά.
+  example2_en: I suppose that it is Saturday morning, because we see parents with
+    their children casually doing their shopping at the market.
+  keg_communicative_function: Formulating hypotheses about the day or occasion depicted
+    in an image
+  audio: moy-fainetai-oti-ein-5f30f0.mp3
+  example_audio: moy-fainetai-oti-ein-d179b6.mp3
+  example2_audio: ypotheto-oti-einai-s-348624.mp3
+- id: SP-U04-032
+  greek: Πιθανόν να ετοιμάζονται να ταξιδέψουν σε κάποιο ελληνικό νησί για τις καλοκαιρινές
+    τους διακοπές.
+  english: They are probably getting ready to travel to some Greek island for their
+    summer vacation. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Epistemic adverb 'πιθανόν να + subjunctive', purpose phrase 'για τις διακοπές
+      τους'
+  notes: 'Examiner Objective: Tests ''πιθανόν να + ρήμα'' or ''ίσως να + ρήμα'' for
+    polite speculation about intentions.
+
+    Strategy: Speculate on where the people are going next or what they just finished
+    doing.'
+  example_el: Επειδή κρατούν μεγάλες βαλίτσες και φοράνε καπέλα ηλίου, πιθανόν να
+    ετοιμάζονται να ταξιδέψουν σε κάποιο ελληνικό νησί για τις καλοκαιρινές τους διακοπές.
+  example_en: Because they are holding large suitcases and wearing sun hats, they
+    are probably getting ready to travel to some Greek island for their summer vacation.
+  example2_el: Ίσως να επιστρέφουν τώρα στο σπίτι τους μετά από μια κουραστική αλλά
+    όμορφη εκδρομή στη φύση.
+  example2_en: Perhaps they are returning home now after a tiring but lovely excursion
+    in nature.
+  keg_communicative_function: Speculating about people's plans and intentions using
+    probability markers
+  audio: pithanon-na-etoimazo-562091.mp3
+  example_audio: epeidi-kratoyn-megal-187100.mp3
+  example2_audio: isos-na-epistrefoyn--13b3fe.mp3
+- id: SP-U04-033
+  greek: Μάλλον γιορτάζουν τα γενέθλια ή την ονομαστική γιορτή κάποιου καλού τους
+    φίλου.
+  english: They are probably celebrating the birthday or name day of a good friend
+    of theirs. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Probability adverb 'μάλλον + indicative', Greek cultural concept 'ονομαστική
+      γιορτή'
+  notes: 'Examiner Objective: Mentioning Greek cultural traditions like ''ονομαστική
+    γιορτή'' (name day) impresses KEG assessors.
+
+    Strategy: Point to cakes, sweets, gifts, or clinking glasses as evidence for your
+    guess.'
+  example_el: Βλέποντας την τούρτα και τα κουτιά με τα δώρα πάνω στο τραπέζι, σκέφτομαι
+    ότι μάλλον γιορτάζουν τα γενέθλια ή την ονομαστική γιορτή κάποιου φίλου τους.
+  example_en: Seeing the cake and the gift boxes on the table, I think that they are
+    probably celebrating the birthday or name day of a friend of theirs.
+  example2_el: Μάλλον πρόκειται για μια ξεχωριστή επέτειο, αφού όλοι φοράνε τα καλά
+    τους ρούχα και τσουγκρίζουν τα ποτήρια τους με κρασί.
+  example2_en: It is probably a special anniversary, since everyone is wearing their
+    best clothes and clinking their wine glasses.
+  keg_communicative_function: Making culturally grounded inferences about a social
+    celebration
+  audio: mallon-giortazoyn-ta-941425.mp3
+  example_audio: vlepontas-tin-toyrta-0eedc2.mp3
+  example2_audio: mallon-prokeitai-gia-453084.mp3
+- id: SP-U04-034
+  greek: Υποθέτω πως ο καιρός είναι πολύ ζεστός γιατί όλοι κάθονται στη σκιά κάτω
+    από τα δέντρα.
+  english: I suppose that the weather is very hot because everyone is sitting in the
+    shade under the trees. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Cognitive verb 'υποθέτω πως / ότι', deduction from behavior ('κάθονται
+      στη σκιά')
+  notes: 'Examiner Objective: Tests linking a hypothesis (''υποθέτω πως...'') to behavioral
+    evidence in the image.
+
+    Strategy: Notice if people are seeking shade, drinking cold water/coffee, or holding
+    umbrellas.'
+  example_el: Υποθέτω πως ο καιρός είναι πάρα πολύ ζεστός, γιατί όλοι οι άνθρωποι
+    κάθονται στη σκιά κάτω από τα δέντρα και πίνουν κρύο νερό και χυμούς.
+  example_en: I suppose that the weather is very hot, because all the people are sitting
+    in the shade under the trees and drinking cold water and juices.
+  example2_el: Φαντάζομαι πως μόλις σταμάτησε να βρέχει, επειδή ο δρόμος είναι ακόμα
+    βρεγμένος και μερικοί περαστικοί κρατούν ομπρέλες.
+  example2_en: I imagine that it just stopped raining, because the street is still
+    wet and some passersby are holding umbrellas.
+  keg_communicative_function: Deducing weather conditions from visual clues in a picture
+  audio: ypotheto-pos-o-kairo-8ba21d.mp3
+  example_audio: ypotheto-pos-o-kairo-dfcb9c.mp3
+  example2_audio: fantazomai-pos-molis-57d993.mp3
+- id: SP-U04-035
+  greek: Κατά τη γνώμη μου, οι άνθρωποι αυτοί δεν είναι τουρίστες αλλά κάτοικοι της
+    περιοχής.
+  english: In my opinion, these people are not tourists but residents of the area.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Opinion marker 'κατά τη γνώμη μου', correlative contrast 'δεν είναι...
+      αλλά...'
+  notes: 'Examiner Objective: Evaluates contrastive reasoning (''δεν είναι Α, αλλά
+    Β'') about who the people are.
+
+    Strategy: Contrast tourists vs. locals, or colleagues vs. family members.'
+  example_el: Κατά τη γνώμη μου, οι άνθρωποι αυτοί δεν είναι ξένοι τουρίστες αλλά
+    μόνιμοι κάτοικοι της περιοχής, γιατί κρατούν ψώνια από το σούπερ μάρκετ και μιλούν
+    με τον μανάβη.
+  example_en: In my opinion, these people are not foreign tourists but permanent residents
+    of the area, because they are holding groceries from the supermarket and talking
+    with the greengrocer.
+  example2_el: Νομίζω ότι δεν είναι απλοί συνάδελφοι από τη δουλειά, αλλά πολύ στενοί
+    φίλοι που γνωρίζονται εδώ και πολλά χρόνια.
+  example2_en: I think that they are not just colleagues from work, but very close
+    friends who have known each other for many years.
+  keg_communicative_function: Inferring the identity and relationship of people in
+    a photograph
+  audio: kata-ti-gnomi-moy-oi-eee667.mp3
+  example_audio: kata-ti-gnomi-moy-oi-d242ef.mp3
+  example2_audio: nomizo-oti-den-einai-fb187a.mp3
+- id: SP-U04-036
+  greek: Φαντάζομαι ότι σε λίγο θα πληρώσουν τον λογαριασμό και θα συνεχίσουν τη βόλτα
+    τους.
+  english: I imagine that shortly they will pay the bill and continue their walk.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Speculative verb 'φαντάζομαι ότι', Future Simple ('θα πληρώσουν', 'θα συνεχίσουν')
+      for next actions
+  notes: 'Examiner Objective: Using Future tense to predict what will happen right
+    after the photo was taken shows great narrative range.
+
+    Strategy: Add one sentence predicting what the people will do ''σε λίγο'' (in
+    a little while).'
+  example_el: Επειδή τα φλιτζάνια τους είναι πλέον άδεια, φαντάζομαι ότι σε λίγο θα
+    πληρώσουν τον λογαριασμό και θα συνεχίσουν τη βόλτα τους στα μαγαζιά.
+  example_en: Because their cups are now empty, I imagine that shortly they will pay
+    the bill and continue their walk around the shops.
+  example2_el: Πιστεύω ότι μόλις τελειώσουν το καθάρισμα της παραλίας, θα ξεκουραστούν
+    όλοι μαζί και ίσως κάνουν μια βουτιά στη θάλασσα.
+  example2_en: I believe that as soon as they finish cleaning the beach, they will
+    rest all together and perhaps take a dip in the sea.
+  keg_communicative_function: Predicting what will happen next in a visual narrative
+    using the future tense
+  audio: fantazomai-oti-se-li-1298cc.mp3
+  example_audio: epeidi-ta-flitzania--6e4c91.mp3
+  example2_audio: pisteyo-oti-molis-te-4db172.mp3
+- id: SP-U04-037
+  greek: Αυτή η εικόνα μού αρέσει πάρα πολύ γιατί μεταδίδει αισιοδοξία και θετική
+    ενέργεια.
+  english: I like this picture very much because it conveys optimism and positive
+    energy. (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Personal evaluation 'αυτή η εικόνα μού αρέσει', transitive verb 'μεταδίδει
+      + abstract nouns'
+  notes: 'Examiner Objective: Concluding Step 4 with a personal aesthetic/emotional
+    evaluation gives your monologue a polished ending.
+
+    Strategy: Explain what feeling the photo transmits (''μεταδίδει αισιοδοξία / ηρεμία
+    / ζεστασιά'').'
+  example_el: Προσωπικά, αυτή η εικόνα μού αρέσει πάρα πολύ, γιατί είναι γεμάτη ζωή
+    και μεταδίδει στον θεατή αισιοδοξία, χαρά και θετική ενέργεια.
+  example_en: Personally, I like this picture very much, because it is full of life
+    and conveys to the viewer optimism, joy, and positive energy.
+  example2_el: Η φωτογραφία αυτή μου δημιουργεί πολύ όμορφα συναισθήματα, επειδή δείχνει
+    πόσο σημαντική είναι η ανθρώπινη επικοινωνία και η φιλία.
+  example2_en: This photograph creates very warm feelings in me, because it shows
+    how important human communication and friendship are.
+  keg_communicative_function: Expressing personal aesthetic evaluation and emotional
+    response to an image
+  audio: ayti-i-eikona-moy-ar-30c25a.mp3
+  example_audio: prosopika-ayti-i-eik-559de7.mp3
+  example2_audio: i-fotografia-ayti-mo-eee6e1.mp3
+- id: SP-U04-038
+  greek: Η σκηνή αυτή μου θυμίζει τις δικές μου καλοκαιρινές διακοπές στην Ελλάδα
+    με την οικογένειά μου.
+  english: This scene reminds me of my own summer vacations in Greece with my family.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Evocative verb 'μου θυμίζει + accusative', emphatic possessive 'τις δικές
+      μου διακοπές'
+  notes: 'Examiner Objective: ''Αυτή η εικόνα μού θυμίζει...'' is the ideal bridge
+    between the Stage 3 picture monologue and personal follow-up questions.
+
+    Strategy: Connect the photo to a personal memory from your own family, city, or
+    travels.'
+  example_el: Η σκηνή αυτή στο λιμάνι μού θυμίζει έντονα τις δικές μου καλοκαιρινές
+    διακοπές στην Ελλάδα, όταν ταξίδεψα με την οικογένειά μου στη Νάξο.
+  example_en: This scene at the port strongly reminds me of my own summer vacations
+    in Greece, when I traveled with my family to Naxos.
+  example2_el: Βλέποντας αυτό το οικογενειακό τραπέζι, θυμάμαι τις Κυριακές στο σπίτι
+    της γιαγιάς μου, όπου μαζευόμασταν όλοι οι συγγενείς.
+  example2_en: Seeing this family table, I remember Sundays at my grandmother's house,
+    where all of us relatives used to gather.
+  keg_communicative_function: Connecting a visual prompt to personal memories and
+    life experiences
+  audio: i-skini-ayti-moy-thy-6cf2c5.mp3
+  example_audio: i-skini-ayti-sto-lim-74ff84.mp3
+  example2_audio: vlepontas-ayto-to-oi-f10a66.mp3
+- id: SP-U04-039
+  greek: Το μήνυμα της εικόνας είναι ότι πρέπει όλοι να προστατεύουμε το φυσικό περιβάλλον.
+  english: The message of the picture is that we must all protect the natural environment.
+    (Stage 3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Conceptual frame 'το μήνυμα της εικόνας είναι ότι...', deontic modal 'πρέπει
+      να προστατεύουμε'
+  notes: 'Examiner Objective: Especially effective for social, ecological, health,
+    or community photos.
+
+    Strategy: State the broader lesson or value illustrated by the photograph.'
+  example_el: Πιστεύω ότι το βασικό μήνυμα αυτής της εικόνας είναι ότι πρέπει όλοι
+    μας να συνεργαζόμαστε και να προστατεύουμε ενεργά το φυσικό μας περιβάλλον.
+  example_en: I believe that the main message of this picture is that all of us must
+    cooperate and actively protect our natural environment.
+  example2_el: Η φωτογραφία μάς δείχνει πόσο όμορφο είναι να περνάμε ποιοτικό χρόνο
+    με τους αγαπημένους μας ανθρώπους μακριά από το άγχος.
+  example2_en: The photograph shows us how nice it is to spend quality time with our
+    loved ones away from stress.
+  keg_communicative_function: Summarizing the thematic message or social value of
+    a photograph
+  audio: to-minyma-tis-eikona-e6ed62.mp3
+  example_audio: pisteyo-oti-to-vasik-0a3225.mp3
+  example2_audio: i-fotografia-mas-dei-45a33d.mp3
+- id: SP-U04-040
+  greek: Συνοψίζοντας, πρόκειται για μια πολύ ζωντανή εικόνα της ελληνικής καθημερινότητας.
+  english: Summarizing, this is a very lively picture of Greek everyday life. (Stage
+    3 Image Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue)
+    focus: Discourse closing participle 'συνοψίζοντας', impersonal structure 'πρόκειται
+      για + accusative'
+  notes: 'Examiner Objective: Signals clearly to the examiners that you have completed
+    your 4-step monologue in a structured way.
+
+    Strategy: Use ''Συνοψίζοντας, πρόκειται για...'' as your final sentence so the
+    interlocutor knows to begin the follow-up questions.'
+  example_el: Συνοψίζοντας, πρόκειται για μια πολύ ζωντανή και ρεαλιστική εικόνα της
+    σύγχρονης ελληνικής καθημερινότητας, η οποία μου αφήνει τις καλύτερες εντυπώσεις.
+  example_en: Summarizing, this is a very lively and realistic picture of modern Greek
+    everyday life, which leaves me with the best impressions.
+  example2_el: Κλείνοντας την περιγραφή μου, θα έλεγα ότι η φωτογραφία αποτυπώνει
+    με υπέροχο τρόπο τη χαρά της απλής, καθημερινής ζωής.
+  example2_en: Closing my description, I would say that the photograph captures in
+    a wonderful way the joy of simple, everyday life.
+  keg_communicative_function: Delivering a structured concluding statement to wrap
+    up an image description
+  audio: synopsizontas-prokei-466a3f.mp3
+  example_audio: synopsizontas-prokei-f0106d.mp3
+  example2_audio: kleinontas-tin-perig-c7c4f1.mp3

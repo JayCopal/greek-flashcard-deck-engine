@@ -1,4 +1,4 @@
-deck_title: Modern Greek Mastery (CEFR A1)
+deck_title: Modern Greek Mastery (CEFR A1 & A2)
 source_language: en
 target_language: el
 created_at: '2026-10-25'
@@ -359,15 +359,20 @@ units:
       salary, vacation leave), and educational institution course enrollments and
       schedules.'
 - id: unit-109c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις; - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 195-218 (Ενότητα 9: Σπουδάζεις ή δουλεύεις;
+    - Διάλογοι, Εξετάσεις & Συνομιλίες)'
   order: KlikA1-09-C
   is_expansion: true
   expansion_of: KlikA1-09-A
   lessons:
   - id: lesson-01
     file: unit-109c/lesson-01.yaml
-    title: 'Ενότητα 9: Διάλογοι & Εξετάσεις — Σπουδές, Εργασία, Επαγγέλματα & Αόριστος (A1 Synthesis)'
-    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on university studies, courses, stationery, job interviews, professional duties, work schedules, salary negotiations, leave entitlement, and simple past (aorist) narrative interactions using vocabulary from Lessons 100 to 109.
+    title: 'Ενότητα 9: Διάλογοι & Εξετάσεις — Σπουδές, Εργασία, Επαγγέλματα & Αόριστος
+      (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
+      on university studies, courses, stationery, job interviews, professional duties,
+      work schedules, salary negotiations, leave entitlement, and simple past (aorist)
+      narrative interactions using vocabulary from Lessons 100 to 109.
 - id: unit-110
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Λεξιλόγιο)'
   order: KlikA1-10-A
@@ -386,15 +391,20 @@ units:
     file: unit-110b/lesson-01.yaml
     title: 'Ενότητα 10: Περαστικά! — Γραμματική & Εκφράσεις (Pages 219-232)'
 - id: unit-110c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 219-232 (Ενότητα 10: Περαστικά! - Διάλογοι,
+    Εξετάσεις & Συνομιλίες)'
   order: KlikA1-10-C
   is_expansion: true
   expansion_of: KlikA1-10-A
   lessons:
   - id: lesson-01
     file: unit-110c/lesson-01.yaml
-    title: 'Ενότητα 10: Διάλογοι & Εξετάσεις — Υγεία, Συμπτώματα, Γιατρός & Φαρμακείο (A1 Synthesis)'
-    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing on symptoms, body parts, medical appointments, clinical instructions, pharmacy prescriptions, medications, hospital facilities, and traditional Greek convalescence wishes using vocabulary from Lessons 100 to 110.
+    title: 'Ενότητα 10: Διάλογοι & Εξετάσεις — Υγεία, Συμπτώματα, Γιατρός & Φαρμακείο
+      (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 oral exam practice focusing
+      on symptoms, body parts, medical appointments, clinical instructions, pharmacy
+      prescriptions, medications, hospital facilities, and traditional Greek convalescence
+      wishes using vocabulary from Lessons 100 to 110.
 - id: unit-111
   title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
     & Τελική Επανάληψη - Λεξιλόγιο)'
@@ -416,12 +426,417 @@ units:
     title: 'Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη — Γραμματική &
       Εκφράσεις (Pages 233-255)'
 - id: unit-111c
-  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ! & Τελική Επανάληψη - Διάλογοι, Εξετάσεις & Συνομιλίες)'
+  title: 'Κλικ στα Ελληνικά Α1: Σελίδες 233-255 (Ενότητα 11: Στη σειρά σας παρακαλώ!
+    & Τελική Επανάληψη - Διάλογοι, Εξετάσεις & Συνομιλίες)'
   order: KlikA1-11-C
   is_expansion: true
   expansion_of: KlikA1-11-A
   lessons:
   - id: lesson-01
     file: unit-111c/lesson-01.yaml
-    title: 'Ενότητα 11: Διάλογοι & Εξετάσεις — Υπηρεσίες, Τράπεζα, Ταχυδρομείο & A1 Capstone (A1 Synthesis)'
-    description: Conversational, dialogue, and CEFR A1 capstone oral exam practice covering banking transactions, ATM usage, postal dispatch, utility bill payments, priority queues, indirect speech, and comprehensive A1 conversational synthesis using vocabulary from Lessons 100 to 111.
+    title: 'Ενότητα 11: Διάλογοι & Εξετάσεις — Υπηρεσίες, Τράπεζα, Ταχυδρομείο & A1
+      Capstone (A1 Synthesis)'
+    description: Conversational, dialogue, and CEFR A1 capstone oral exam practice
+      covering banking transactions, ATM usage, postal dispatch, utility bill payments,
+      priority queues, indirect speech, and comprehensive A1 conversational synthesis
+      using vocabulary from Lessons 100 to 111.
+- id: unit-a2-00
+  title: 'Μάθημα 0: Οδηγίες Εξετάσεων Α2 & Γλώσσα Rubrics (KEG A2 Exam Instructions
+    & Rubrics)'
+  order: KEG-A2-P1-00-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-00/lesson-01.yaml
+    title: 'Μάθημα 0: Οδηγίες Εξετάσεων Α2 & Γλώσσα Rubrics (KEG A2 Exam Instructions
+      & Rubrics)'
+  description: Essential exam instructions, task rubrics, official test terminology,
+    and evaluation guidelines for the Centre for the Greek Language (ΚΕΓ / KEG) Level
+    A2 May certification examinations.
+- id: unit-a2-01
+  title: 'Μάθημα 1: Βιογραφία, Αναμνήσεις & Το Παρελθόν μου (Personal Biography &
+    Past Experiences)'
+  description: Recounting life milestones, childhood memories, educational history,
+    and past journeys using the Simple Past (Αόριστος) active voice and essential
+    irregular stems.
+  order: KEG-A2-P1-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2-01/lesson-01.yaml
+    title: 'Μάθημα 1: Βιογραφία, Αναμνήσεις & Το Παρελθόν μου (Personal Biography
+      & Past Experiences)'
+- id: unit-a2-02
+  title: 'Μάθημα 2: Καθημερινές Συνήθειες στο Παρελθόν & Χρόνος (Past Habits, Duration
+    & Continuity)'
+  description: Describing past routines, enduring habits, and lifestyle transformations
+    using the Imperfect tense (Παρατατικός), temporal connectors (ενώ, καθώς, όταν),
+    and narrative contrast with the Simple Past.
+  order: KEG-A2-P1-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2-02/lesson-01.yaml
+    title: 'Μάθημα 2: Καθημερινές Συνήθειες στο Παρελθόν & Χρόνος (Past Habits, Duration
+      & Continuity)'
+- id: unit-a2-03
+  title: 'Μάθημα 3: Σχέδια, Όνειρα & Ο Μέλλοντας (Future Plans, Intentions & Forecasts)'
+  description: Formulating future plans, intentions, and predictions using Simple
+    and Continuous Future (Συνοπτικός & Εξακολουθητικός Μέλλοντας), temporal adverbials
+    (του χρόνου, σύντομα, σε λίγο), and verbs of intention (σκοπεύω, σχεδιάζω, ελπίζω).
+  order: KEG-A2-P1-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2-03/lesson-01.yaml
+    title: 'Μάθημα 3: Σχέδια, Όνειρα & Ο Μέλλοντας (Future Plans, Intentions & Forecasts)'
+- id: unit-a2-04
+  title: 'Μάθημα 4: Επιθυμίες, Ανάγκες & Υποτακτική (Wishes, Obligations & Subjunctive
+    Mood)'
+  description: Expressing wishes, necessity, prohibitions, and polite requests using
+    the Subjunctive mood (Υποτακτική) with modal operators (πρέπει να, απαγορεύεται
+    να, επιτρέπεται να, μπορώ να, θέλω να, για να, αξίζει να).
+  order: KEG-A2-P1-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2-04/lesson-01.yaml
+    title: 'Μάθημα 4: Επιθυμίες, Ανάγκες & Υποτακτική (Wishes, Obligations & Subjunctive
+      Mood)'
+- id: unit-a2-05
+  title: 'Μάθημα 5: Κοινωνική Ζωή, Προσκλήσεις & Ευχές (Social Events, Invitations
+    & Wishes)'
+  description: Composing and replying to invitations, expressing wishes for birthdays,
+    weddings, name days, and using weak indirect object clitic pronouns (μου, σου,
+    του, της, μας, σας, τους) in formal and informal social interactions.
+  order: KEG-A2-P1-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2-05/lesson-01.yaml
+    title: 'Μάθημα 5: Κοινωνική Ζωή, Προσκλήσεις & Ευχές (Social Events, Invitations
+      & Wishes)'
+- id: unit-a2-06
+  title: 'Μάθημα 6: Συναλλαγές, Τράπεζα, Ταχυδρομείο & Δημόσιες Υπηρεσίες (Banking,
+    Post Office & Public Services)'
+  description: Navigating banking counters, ATM withdrawals, postal package dispatches,
+    utility bills, and Citizens' Service Centers (ΚΕΠ) using polite imperatives (περάστε,
+    περιμένετε, δείξτε μου, δώστε μου) and administrative formulas.
+  order: KEG-A2-P1-06-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-06/lesson-01.yaml
+    title: 'Μάθημα 6: Συναλλαγές, Τράπεζα, Ταχυδρομείο & Δημόσιες Υπηρεσίες (Banking,
+      Post Office & Public Services)'
+- id: unit-a2-07
+  title: 'Μάθημα 7: Ταξίδια, Διακοπές & Κρατήσεις (Travel, Vacations & Reservations)'
+  description: Making hotel and transport bookings, discussing departure and arrival
+    schedules, and comparing prices and travel duration using comparative adjectives
+    (πιο, καλύτερος, φθηνότερος, ακριβότερος, γρηγορότερος).
+  order: KEG-A2-P1-07-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-07/lesson-01.yaml
+    title: 'Μάθημα 7: Ταξίδια, Διακοπές & Κρατήσεις (Travel, Vacations & Reservations)'
+- id: unit-a2-08
+  title: 'Μάθημα 8: Καιρός, Φύση & Γεωγραφία της Ελλάδας (Weather, Nature & Geography)'
+  description: Interpreting weather bulletins, seasonal forecasts, and maritime Beaufort
+    scales, describing Greek geography (mountains, islands, rivers, lakes), and mastering
+    adjectives in -ύς, -ιά, -ύ (βαθύς, βαρύς, ελαφρύς, πλατύς).
+  order: KEG-A2-P1-08-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-08/lesson-01.yaml
+    title: 'Μάθημα 8: Καιρός, Φύση & Γεωγραφία της Ελλάδας (Weather, Nature & Geography)'
+- id: unit-a2-09
+  title: 'Μάθημα 9: Εργασία, Επαγγέλματα & Αγγελίες (Workplaces, CVs & Classified
+    Ads)'
+  description: Navigating job advertisements, employment contracts, working conditions,
+    and interview questions using Type 1 Conditionals (αν + ενεστώτας -> μέλλοντας)
+    and temporal connectives (μόλις, αφού, πριν).
+  order: KEG-A2-P1-09-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-09/lesson-01.yaml
+    title: 'Μάθημα 9: Εργασία, Επαγγέλματα & Αγγελίες (Workplaces, CVs & Classified
+      Ads)'
+- id: unit-a2-10
+  title: 'Μάθημα 10: Υγεία, Ατυχήματα & Φαρμακείο (Health, Accidents & Medical Consultation)'
+  description: Explaining bodily symptoms, consulting doctors and pharmacists, following
+    medical prescriptions, and reporting emergencies using mediopassive verbs (αισθάνομαι,
+    κουράζομαι, τραυματίζομαι) and anatomy vocabulary.
+  order: KEG-A2-P1-10-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-10/lesson-01.yaml
+    title: 'Μάθημα 10: Υγεία, Ατυχήματα & Φαρμακείο (Health, Accidents & Medical Consultation)'
+- id: unit-a2-11
+  title: 'Μάθημα 11: Πολιτισμός, ΜΜΕ & Ψηφιακή Ζωή (Culture, Media & Digital Life)'
+  description: Engaging with Greek cinema, theater, news, digital platforms, and internet
+    communication, using neuter third-declension nouns in -ος / -ους (το λάθος, το
+    μέρος, το κόστος) and relative pronouns (που, ο οποίος).
+  order: KEG-A2-P1-11-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-11/lesson-01.yaml
+    title: 'Μάθημα 11: Πολιτισμός, ΜΜΕ & Ψηφιακή Ζωή (Culture, Media & Digital Life)'
+- id: unit-a2-12
+  title: 'Μάθημα 12: Εξεταστικό Εργαστήριο & Προσομοίωση (KEG A2 Exam Workshop & Simulation)'
+  description: Mastering discourse connectors (επομένως, ωστόσο, εξάλλου, κατά τη
+    γνώμη μου, από τη μία... από την άλλη), argumentation tactics, and pair interaction
+    protocols for full simulation of the official May KEG A2 certification paper.
+  order: KEG-A2-P1-12-A
+  lessons:
+  - id: lesson-01
+    file: unit-a2-12/lesson-01.yaml
+    title: 'Μάθημα 12: Εξεταστικό Εργαστήριο & Προσομοίωση (KEG A2 Exam Workshop &
+      Simulation)'
+- id: unit-a2p2-01
+  title: 'Μάθημα 1: Καθημερινός Διάλογος & Προφορική Επικοινωνία (Everyday Dialogues
+    & Conversational Exchanges)'
+  description: Mastering oral repair formulas, turn-taking strategies, polite agreements/disagreements,
+    and telephone booking conversations for the KEG A2 Speaking and Listening sections.
+  order: KEG-A2-P2-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-01/lesson-01.yaml
+    title: 'Μάθημα 1: Καθημερινός Διάλογος & Προφορική Επικοινωνία (Everyday Dialogues
+      & Conversational Exchanges)'
+- id: unit-a2p2-02
+  title: 'Μάθημα 2: Προσωπική Ταυτότητα & Κοινωνικό Περιβάλλον (Personal Identity,
+    Family & Social Circle)'
+  description: Describing extended family structures, character traits, interpersonal
+    relationships, and life stages for the personal interview (Speaking Stage 1) and
+    narrative writing tasks.
+  order: KEG-A2-P2-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-02/lesson-01.yaml
+    title: 'Μάθημα 2: Προσωπική Ταυτότητα & Κοινωνικό Περιβάλλον (Personal Identity,
+      Family & Social Circle)'
+- id: unit-a2p2-03
+  title: 'Μάθημα 3: Σπίτι, Γειτονιά & Ενοικίαση Κατοικίας (Housing, Neighborhood &
+    Renting an Apartment)'
+  description: Navigating classified housing ads, apartment features, lease negotiations,
+    and household repair emergencies for the KEG A2 Reading and Speaking papers.
+  order: KEG-A2-P2-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-03/lesson-01.yaml
+    title: 'Μάθημα 3: Σπίτι, Γειτονιά & Ενοικίαση Κατοικίας (Housing, Neighborhood
+      & Renting an Apartment)'
+- id: unit-a2p2-04
+  title: 'Μάθημα 4: Διατροφή, Μαγειρική & Ελληνική Κουζίνα (Food, Cooking & Culinary
+    Culture)'
+  description: Understanding recipes, cooking steps, Greek culinary terms, restaurant
+    dining, food allergies, and social customs for the KEG A2 Reading and Speaking
+    tasks.
+  order: KEG-A2-P2-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-04/lesson-01.yaml
+    title: 'Μάθημα 4: Διατροφή, Μαγειρική & Ελληνική Κουζίνα (Food, Cooking & Culinary
+      Culture)'
+- id: unit-a2p2-05
+  title: 'Μάθημα 5: Αγορές, Καταστήματα & Καταναλωτικές Συνήθειες (Shopping, Retail
+    & Consumer Exchanges)'
+  description: Mastering shopping role-plays, garment fitting vocabulary, payment
+    methods, sales terms, product exchanges, and consumer complaint dialogues for
+    the KEG A2 Speaking and Reading sections.
+  order: KEG-A2-P2-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-05/lesson-01.yaml
+    title: 'Μάθημα 5: Αγορές, Καταστήματα & Καταναλωτικές Συνήθειες (Shopping, Retail
+      & Consumer Exchanges)'
+- id: unit-a2p2-06
+  title: 'Μάθημα 6: Ταξίδια, Μεταφορές & Προσανατολισμός στην Πόλη (Travel, Transit
+    & Urban Navigation)'
+  description: Navigating airports, ports, train and metro stations, booking tickets,
+    interpreting transit delays, and giving or following detailed city street directions
+    for the KEG A2 Listening and Speaking exams.
+  order: KEG-A2-P2-06-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-06/lesson-01.yaml
+    title: 'Μάθημα 6: Ταξίδια, Μεταφορές & Προσανατολισμός στην Πόλη (Travel, Transit
+      & Urban Navigation)'
+- id: unit-a2p2-07
+  title: 'Μάθημα 7: Ελεύθερος Χρόνος, Χόμπι & Αθλητισμός (Leisure, Hobbies & Sports)'
+  description: Mastering discussions on personal interests, fitness routines, musical
+    instruments, sports competitions, cinema and theater visits, and vacation enjoyment
+    for KEG A2 oral and written papers.
+  order: KEG-A2-P2-07-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-07/lesson-01.yaml
+    title: 'Μάθημα 7: Ελεύθερος Χρόνος, Χόμπι & Αθλητισμός (Leisure, Hobbies & Sports)'
+- id: unit-a2p2-08
+  title: 'Μάθημα 8: Υγεία, Ευεξία & Ιατρική Περίθαλψη (Health, Medical Care & Wellness)'
+  description: Explaining detailed illness symptoms, body aches, medical emergency
+    procedures, pharmaceutical dosages, and first aid treatments for the KEG A2 Speaking
+    and Listening sections.
+  order: KEG-A2-P2-08-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-08/lesson-01.yaml
+    title: 'Μάθημα 8: Υγεία, Ευεξία & Ιατρική Περίθαλψη (Health, Medical Care & Wellness)'
+- id: unit-a2p2-09
+  title: 'Μάθημα 9: Εργασιακό Περιβάλλον, Συνεντεύξεις & Επαγγελματική Ζωή (Workplace,
+    Job Interviews & Professional Life)'
+  description: Mastering CV vocabulary, job interview dialogues, contracts, wages,
+    shifts, leaves, and formal email writing templates for the KEG A2 Reading, Writing,
+    and Speaking papers.
+  order: KEG-A2-P2-09-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-09/lesson-01.yaml
+    title: 'Μάθημα 9: Εργασιακό Περιβάλλον, Συνεντεύξεις & Επαγγελματική Ζωή (Workplace,
+      Job Interviews & Professional Life)'
+- id: unit-a2p2-10
+  title: 'Μάθημα 10: Φύση, Περιβάλλον & Οικολογική Συνείδηση (Nature, Environment
+    & Seasonal Life)'
+  description: Understanding texts on environmental conservation, renewable energy,
+    climate change, Greek flora and fauna, seasonal weather extremes, and animal protection
+    for the KEG A2 exam.
+  order: KEG-A2-P2-10-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-10/lesson-01.yaml
+    title: 'Μάθημα 10: Φύση, Περιβάλλον & Οικολογική Συνείδηση (Nature, Environment
+      & Seasonal Life)'
+- id: unit-a2p2-11
+  title: 'Μάθημα 11: Ήθη, Έθιμα, Γιορτές & Παράδοση (Customs, Traditions & Celebrations
+    in Greece)'
+  description: Mastering traditional Greek customs, holiday celebrations, feast blessings,
+    Easter and Christmas rituals, Carnival, Clean Monday, and national day parades
+    for the KEG A2 exam.
+  order: KEG-A2-P2-11-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-11/lesson-01.yaml
+    title: 'Μάθημα 11: Ήθη, Έθιμα, Γιορτές & Παράδοση (Customs, Traditions & Celebrations
+      in Greece)'
+- id: unit-a2p2-12
+  title: 'Μάθημα 12: Γραπτή & Προφορική Έκφραση Εξετάσεων (Exam Writing & Speaking
+    Mastery Workshop)'
+  description: Mastering high-scoring discourse linkers, argumentation formulas, argumentative
+    contrasts, and official KEG rubric commands for peak performance across all four
+    papers of the official May KEG A2 examination.
+  order: KEG-A2-P2-12-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-a2p2-12/lesson-01.yaml
+    title: 'Μάθημα 12: Γραπτή & Προφορική Έκφραση Εξετάσεων (Exam Writing & Speaking
+      Mastery Workshop)'
+- id: unit-sp-01
+  title: 'Προφορικά SP-01: Προσωπική Συνέντευξη & Ζέσταμα (Stage 1 Examiner Q&A Drills)'
+  description: '40 rapid examiner question-and-answer drills for Stage 1 of the KEG
+    A2 Speaking exam: personal identity, family, daily routine, work/studies, weekend
+    habits, hobbies, neighborhood, and motivation for learning Greek.'
+  order: SP-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-01/lesson-01.yaml
+    title: 'Προφορικά SP-01: Προσωπική Συνέντευξη & Ζέσταμα (Stage 1 Examiner Q&A
+      Drills)'
+    description: '40 rapid examiner question-and-answer drills for Stage 1 of the
+      KEG A2 Speaking exam: personal identity, family, daily routine, work/studies,
+      weekend habits, hobbies, neighborhood, and motivation for learning Greek.'
+- id: unit-sp-02
+  title: 'Προφορικά SP-02: Συνδετικές Εκφράσεις & Διαχείριση Ροής (Conversational
+    Connectors & Fluency Boosters)'
+  description: 40 high-frequency spoken connectors, hesitation managers, opinion frames,
+    active listening tokens, and polite clarification formulas to eliminate silent
+    freezes across all 3 stages of the KEG A2 Speaking exam.
+  order: SP-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-02/lesson-01.yaml
+    title: 'Προφορικά SP-02: Συνδετικές Εκφράσεις & Διαχείριση Ροής (Conversational
+      Connectors & Fluency Boosters)'
+    description: 40 high-frequency spoken connectors, hesitation managers, opinion
+      frames, active listening tokens, and polite clarification formulas to eliminate
+      silent freezes across all 3 stages of the KEG A2 Speaking exam.
+- id: unit-sp-03
+  title: 'Προφορικά SP-03: Κάρτες Ρόλων & Διάδραση (Stage 2 Cue Card Scenarios & Bilateral
+    Roleplays)'
+  description: '40 bilateral roleplay cue-card prompts and transactional exchanges
+    for Stage 2 of the KEG A2 Speaking exam across 6 high-yield scenarios: travel/ferry
+    agency, pharmacy/clinic, real estate office, clothing store, organizing a celebration,
+    and polite complaints.'
+  order: SP-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-03/lesson-01.yaml
+    title: 'Προφορικά SP-03: Κάρτες Ρόλων & Διάδραση (Stage 2 Cue Card Scenarios &
+      Bilateral Roleplays)'
+    description: '40 bilateral roleplay cue-card prompts and transactional exchanges
+      for Stage 2 of the KEG A2 Speaking exam across 6 high-yield scenarios: travel/ferry
+      agency, pharmacy/clinic, real estate office, clothing store, organizing a celebration,
+      and polite complaints.'
+- id: unit-sp-04
+  title: 'Προφορικά SP-04: Περιγραφή Εικόνας & Αφήγηση (Stage 3 Visual Description
+    Lego Framework)'
+  description: '40 structured image-description building blocks and full scene monologues
+    following the 4-step Lego formula for Stage 3 of the KEG A2 Speaking exam: panoramic
+    overview, spatial layout, character/action/clothing breakdown, and weather/mood/context
+    hypothesis.'
+  order: SP-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-04/lesson-01.yaml
+    title: 'Προφορικά SP-04: Περιγραφή Εικόνας & Αφήγηση (Stage 3 Visual Description
+      Lego Framework)'
+    description: '40 structured image-description building blocks and full scene monologues
+      following the 4-step Lego formula for Stage 3 of the KEG A2 Speaking exam: panoramic
+      overview, spatial layout, character/action/clothing breakdown, and weather/mood/context
+      hypothesis.'
+- id: unit-sp-05
+  title: 'Προφορικά SP-05: Ερωτήσεις Επέκτασης & Προσωπική Εμπειρία (Stage 3 Examiner
+    Extension Questions)'
+  description: 40 examiner follow-up prompts bridging the Stage 3 visual stimulus
+    to the candidate’s personal life, multi-tense storytelling (comparing past habits
+    in Imperfect/Aorist with Present routines and Future plans), and lifestyle preferences.
+  order: SP-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-05/lesson-01.yaml
+    title: 'Προφορικά SP-05: Ερωτήσεις Επέκτασης & Προσωπική Εμπειρία (Stage 3 Examiner
+      Extension Questions)'
+    description: 40 examiner follow-up prompts bridging the Stage 3 visual stimulus
+      to the candidate’s personal life, multi-tense storytelling (comparing past habits
+      in Imperfect/Aorist with Present routines and Future plans), and lifestyle preferences.
+- id: unit-sp-06
+  title: 'Προφορικά SP-06: Προφορά, Επιτονισμός & Παγίδες Προφορικού Λόγου (Spoken
+    Phonology & Trap Drills)'
+  description: '40 orthoepic and morphological trap drills targeting Criterion 4 (Pronunciation
+    & Intonation) and Criterion 2 (Accuracy): nasal stops (μπ/π, ντ/τ, γκ/κ), diphthongs
+    (αυ/ευ), stress shifts across tenses, and polite conditional tone modulation.'
+  order: SP-06-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-sp-06/lesson-01.yaml
+    title: 'Προφορικά SP-06: Προφορά, Επιτονισμός & Παγίδες Προφορικού Λόγου (Spoken
+      Phonology & Trap Drills)'
+    description: '40 orthoepic and morphological trap drills targeting Criterion 4
+      (Pronunciation & Intonation) and Criterion 2 (Accuracy): nasal stops (μπ/π,
+      ντ/τ, γκ/κ), diphthongs (αυ/ευ), stress shifts across tenses, and polite conditional
+      tone modulation.'

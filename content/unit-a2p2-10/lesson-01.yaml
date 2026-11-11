@@ -1,0 +1,612 @@
+unit_id: unit-a2p2-10
+lesson_id: lesson-01
+title: 'Μάθημα 10: Εκπαίδευση, Σπουδές & Γλώσσες (Education & Language Learning)'
+description: Understanding university courses, degrees, scholarships, library facilities,
+  and language learning strategies for the KEG A2 exams.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-10 Core Notes: Εκπαίδευση, Σπουδές & Γλώσσες\n• Academic\
+  \ & Language Acquisition Terminology:\n  - University milestones and qualifications\
+  \ (το πανεπιστημιακό πτυχίο, το μεταπτυχιακό, η υποτροφία, η ορκωμοσία).\n  - Libraries\
+  \ and study spaces (η δανειστική βιβλιοθήκη, το αναγνωστήριο, η εξεταστική περίοδος).\n\
+  \  - Language learning tools and terminology (η εκμάθηση της ελληνικής, το δίγλωσσο\
+  \ λεξικό, η σωστή προφορά)."
+entries:
+- id: A2P2-U10-001
+  greek: το πανεπιστημιακό πτυχίο
+  english: university degree
+  notes: 'Collocation: πανεπιστημιακός, -ή, -ό + το πτυχίο (degree). Essential biography
+    credential.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Stating academic qualifications in personal interviews
+    and CV applications
+  example_el: Έλαβα το πανεπιστημιακό πτυχίο μου στα οικονομικά με βαθμό άριστα.
+  example_en: I received my university degree in economics with honors.
+  example2_el: Για τη θέση απαιτείται πανεπιστημιακό πτυχίο ή ισότιμος αναγνωρισμένος
+    τίτλος.
+  example2_en: For the position, a university degree or equivalent recognized qualification
+    is required.
+  status: verified
+  audio: to-panepistimiako-pt-9df8de.mp3
+  example_audio: elava-to-panepistimi-a73976.mp3
+  example2_audio: gia-ti-thesi-apaitei-556be2.mp3
+- id: A2P2-U10-002
+  greek: το μεταπτυχιακό πρόγραμμα
+  english: postgraduate master's program
+  notes: 'Compound adjective μεταπτυχιακός (meta + ptychio: post-degree) + πρόγραμμα.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Describing postgraduate studies and master's degree
+    specializations
+  example_el: Έκανα αίτηση για ένα διετές μεταπτυχιακό πρόγραμμα στην ευρωπαϊκή ιστορία.
+  example_en: I applied for a two-year master's program in European history.
+  example2_el: Το μεταπτυχιακό πρόγραμμα περιλαμβάνει παρακολούθηση μαθημάτων και
+    διπλωματική εργασία.
+  example2_en: The postgraduate program includes course attendance and a master's
+    thesis.
+  status: verified
+  audio: to-metaptychiako-pro-a37dbf.mp3
+  example_audio: ekana-aitisi-gia-ena-9215b8.mp3
+  example2_audio: to-metaptychiako-pro-f6be5e.mp3
+- id: A2P2-U10-003
+  greek: η φοιτητική εστία
+  english: student dormitory / student residence hall
+  notes: Noun η εστία (hearth/dormitory, genitive της εστίας) + adjective φοιτητικός.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Discussing student accommodation, dorm life, and university
+    campus services
+  example_el: Κατά τα πρώτα δύο χρόνια των σπουδών μου έμενα στη φοιτητική εστία.
+  example_en: During the first two years of my studies I lived in the student dormitory.
+  example2_el: Η φοιτητική εστία παρέχει δωρεάν στέγαση και σίτιση σε δικαιούχους
+    φοιτητές.
+  example2_en: The student residence provides free housing and meals to eligible students.
+  status: verified
+  audio: i-foititiki-estia-33d54c.mp3
+  example_audio: kata-ta-prota-dyo-ch-8d38cb.mp3
+  example2_audio: i-foititiki-estia-pa-e7c070.mp3
+- id: A2P2-U10-004
+  greek: η υποτροφία σπουδών
+  english: academic scholarship / study grant
+  notes: Noun η υποτροφία + γενική πληθυντικού σπουδών. Prestigious achievement.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Applying for and receiving academic merit scholarships
+  example_el: Κέρδισε υποτροφία σπουδών χάρη στις εξαιρετικές ακαδημαϊκές της επιδόσεις.
+  example_en: She won an academic scholarship thanks to her outstanding academic performance.
+  example2_el: Το ίδρυμα προσφέρει υποτροφίες σπουδών σε νέους επιστήμονες για έρευνα.
+  example2_en: The foundation offers study scholarships to young scientists for research.
+  status: verified
+  audio: i-ypotrofia-spoydon-fed676.mp3
+  example_audio: kerdise-ypotrofia-sp-044e6e.mp3
+  example2_audio: to-idryma-prosferei--3af62b.mp3
+- id: A2P2-U10-005
+  greek: η δανειστική βιβλιοθήκη
+  english: lending library / public library
+  notes: 'Adjective δανειστικός (from δανείζω: to lend) + βιβλιοθήκη. Genitive: της
+    δανειστικής βιβλιοθήκης.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Navigating public library card rules, borrowing books,
+    and quiet study rooms
+  example_el: Έβγαλα κάρτα μέλους στη δημοτική δανειστική βιβλιοθήκη για να δανείζομαι
+    βιβλία.
+  example_en: I got a membership card at the municipal lending library to borrow books.
+  example2_el: Μπορείτε να κρατήσετε τα βιβλία από τη δανειστική βιβλιοθήκη για δεκαπέντε
+    μέρες.
+  example2_en: You can keep the books from the lending library for fifteen days.
+  status: verified
+  audio: i-daneistiki-vivliot-7f46b3.mp3
+  example_audio: evgala-karta-meloys--d2cbc7.mp3
+  example2_audio: mporeite-na-kratiset-78da5c.mp3
+- id: A2P2-U10-006
+  greek: η εξεταστική περίοδος
+  english: exam period / exam session
+  notes: 'University calendar: η εξεταστική (short for εξεταστική περίοδος). E.g.
+    εξεταστική Ιουνίου.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing intense study routines and schedules during
+    university exam sessions
+  example_el: Κατά την εξεταστική περίοδο διαβάζω στη βιβλιοθήκη από το πρωί μέχρι
+    το βράδυ.
+  example_en: During the exam period I study in the library from morning until evening.
+  example2_el: Η χειμερινή εξεταστική περίοδος ξεκινά στα τέλη Ιανουαρίου.
+  example2_en: The winter examination period begins in late January.
+  status: verified
+  audio: i-exetastiki-periodo-f0e707.mp3
+  example_audio: kata-tin-exetastiki--8912bf.mp3
+  example2_audio: i-cheimerini-exetast-278d5b.mp3
+- id: A2P2-U10-007
+  greek: η εκμάθηση της ελληνικής
+  english: learning Modern Greek / acquisition of Greek
+  notes: Noun η εκμάθηση (acquisition/learning, from εκμανθάνω) + γενική της ελληνικής.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Expressing motivation and goals for studying Modern
+    Greek in exams
+  example_el: Η εκμάθηση της ελληνικής γλώσσας είναι μια συναρπαστική και όμορφη εμπειρία.
+  example_en: Learning the Greek language is a fascinating and beautiful experience.
+  example2_el: Αφιερώνω δύο ώρες καθημερινά στην εκμάθηση της ελληνικής γραμματικής
+    και λεξιλογίου.
+  example2_en: I dedicate two hours daily to the learning of Greek grammar and vocabulary.
+  status: verified
+  audio: i-ekmathisi-tis-elli-0c6770.mp3
+  example_audio: i-ekmathisi-tis-elli-05df4a.mp3
+  example2_audio: afierono-dyo-ores-ka-416c31.mp3
+- id: A2P2-U10-008
+  greek: το δίγλωσσο λεξικό
+  english: bilingual dictionary
+  notes: 'Compound adjective: δίγλωσσος, -η, -ο (two languages) + το λεξικό.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referring to language study tools, dictionaries, and
+    vocabulary apps
+  example_el: Χρησιμοποιώ ένα δίγλωσσο λεξικό για να μεταφράζω τις άγνωστες λέξεις.
+  example_en: I use a bilingual dictionary to translate unfamiliar words.
+  example2_el: Το ηλεκτρονικό δίγλωσσο λεξικό παρέχει παραδείγματα και φωνητική προφορά.
+  example2_en: The electronic bilingual dictionary provides examples and audio pronunciation.
+  status: verified
+  audio: to-diglosso-lexiko-cfd707.mp3
+  example_audio: chrisimopoio-ena-dig-05aca6.mp3
+  example2_audio: to-ilektroniko-diglo-cf4faf.mp3
+- id: A2P2-U10-009
+  greek: η γραμματική και το συντακτικό
+  english: grammar and syntax
+  notes: 'Linguistic fundamentals: η γραμματική (morphology) + το συντακτικό (sentence
+    structure).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing language structure, rules, and syntax hurdles
+    in student dialogues
+  example_el: Η ελληνική γραμματική έχει πολλούς κανόνες, αλλά το συντακτικό είναι
+    πολύ λογικό.
+  example_en: Greek grammar has many rules, but the syntax is very logical.
+  example2_el: Κάνουμε πολλές ασκήσεις για να κατανοήσουμε τη γραμματική και το συντακτικό.
+  example2_en: We do many exercises to understand grammar and syntax.
+  status: verified
+  audio: i-grammatiki-kai-to--f0e74a.mp3
+  example_audio: i-elliniki-grammatik-4dda92.mp3
+  example2_audio: kanoyme-polles-askis-5bb958.mp3
+- id: A2P2-U10-010
+  greek: η σωστή προφορά
+  english: correct pronunciation
+  notes: Adjective σωστός, -ή, -ό + noun η προφορά (pronunciation, from προφέρω).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Focusing on phonetics, accentuation, and clear oral
+    articulation
+  example_el: Η σωστή προφορά και ο σωστός τονισμός βοηθούν στην καλή επικοινωνία.
+  example_en: Correct pronunciation and correct stress placement help in good communication.
+  example2_el: Ακούω ελληνικά τραγούδια και podcast για να βελτιώσω τη σωστή προφορά
+    μου.
+  example2_en: I listen to Greek songs and podcasts to improve my correct pronunciation.
+  status: verified
+  audio: i-sosti-profora-dce931.mp3
+  example_audio: i-sosti-profora-kai--257c93.mp3
+  example2_audio: akoyo-ellinika-trago-52b1ff.mp3
+- id: A2P2-U10-011
+  greek: το φροντιστήριο γλωσσών
+  english: foreign language cram school / language institute
+  notes: 'Greek educational institution: το φροντιστήριο (private tuition center).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Enrolling in private language courses and group tuition
+    centers
+  example_el: Κάνω εντατικά μαθήματα ελληνικών σε ένα φροντιστήριο γλωσσών στο κέντρο.
+  example_en: I do intensive Greek lessons at a language institute in the center.
+  example2_el: Το φροντιστήριο γλωσσών οργανώνει τμήματα προετοιμασίας για τις εξετάσεις
+    του Μαΐου.
+  example2_en: The language center organizes preparatory classes for the May exams.
+  status: verified
+  audio: to-frontistirio-glos-521c58.mp3
+  example_audio: kano-entatika-mathim-08d5d9.mp3
+  example2_audio: to-frontistirio-glos-849258.mp3
+- id: A2P2-U10-012
+  greek: παραδίδω την εργασία
+  english: to submit / hand in the assignment
+  notes: 'Verb παραδίδω (Aorist: παρέδωσα) + accusative εργασία (homework/essay).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting completion and timely submission of coursework
+    to teachers
+  example_el: Παρέδωσα την τελική γραπτή εργασία μου στον καθηγητή πριν από τη λήξη
+    της προθεσμίας.
+  example_en: I submitted my final written assignment to the professor before the
+    deadline expired.
+  example2_el: Πρέπει να παραδώσουμε την εργασία μας μέσω της ηλεκτρονικής πλατφόρμας
+    του μαθήματος.
+  example2_en: We must hand in our assignment via the course's electronic platform.
+  status: verified
+  audio: paradido-tin-ergasia-7990de.mp3
+  example_audio: paredosa-tin-teliki--8412a4.mp3
+  example2_audio: prepei-na-paradosoym-c2fa41.mp3
+- id: A2P2-U10-013
+  greek: η βαθμολογία των εξετάσεων
+  english: exam marks / grades
+  notes: 'Compound noun: βαθμός (grade) + λόγος -> η βαθμολογία. Scale in Greece:
+    1–20 or 1–10.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing exam scores, grades, and pass thresholds
+    (βάση)
+  example_el: Η βαθμολογία των εξετάσεων αναρτήθηκε στην ιστοσελίδα της σχολής.
+  example_en: The exam marks were posted on the faculty's website.
+  example2_el: Πέτυχε υψηλή βαθμολογία και συγκέντρωσε δεκαεννιά στα είκοσι στην έκθεση.
+  example2_en: He achieved a high grade and scored nineteen out of twenty in the essay.
+  status: verified
+  audio: i-vathmologia-ton-ex-d5404e.mp3
+  example_audio: i-vathmologia-ton-ex-946472.mp3
+  example2_audio: petyche-ypsili-vathm-ebf3ca.mp3
+- id: A2P2-U10-014
+  greek: το σχολικό έτος
+  english: school year / academic year
+  notes: 'Academic calendar: το σχολικό έτος (from September to June in Greece).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referencing school terms, vacations, and annual educational
+    calendars
+  example_el: Το νέο σχολικό έτος ξεκινά στις έντεκα Σεπτεμβρίου με τον καθιερωμένο
+    αγιασμό.
+  example_en: The new school year starts on September eleventh with the traditional
+    blessing.
+  example2_el: Κατά τη διάρκεια του σχολικού έτους οι μαθητές έχουν διακοπές Χριστουγέννων
+    και Πάσχα.
+  example2_en: During the school year students have Christmas and Easter vacations.
+  status: verified
+  audio: to-scholiko-etos-de9d27.mp3
+  example_audio: to-neo-scholiko-etos-a45bfc.mp3
+  example2_audio: kata-ti-diarkeia-toy-124e67.mp3
+- id: A2P2-U10-015
+  greek: η προφορική παρουσίαση
+  english: oral presentation
+  notes: 'Classroom requirement: προφορικός, -ή, -ό + παρουσίαση. Plural: οι παρουσιάσεις.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Preparing and delivering oral presentations in front
+    of classmates
+  example_el: Ετοίμασα μια δεκάλεπτη προφορική παρουσίαση με διαφάνειες για τον ελληνικό
+    τουρισμό.
+  example_en: I prepared a ten-minute oral presentation with slides on Greek tourism.
+  example2_el: Η προφορική παρουσίαση βαθμολογείται για την καθαρότητα και τη δομή
+    των επιχειρημάτων.
+  example2_en: The oral presentation is graded for clarity and argument structure.
+  status: verified
+  audio: i-proforiki-paroysia-38d338.mp3
+  example_audio: etoimasa-mia-dekalep-42f420.mp3
+  example2_audio: i-proforiki-paroysia-adba80.mp3
+- id: A2P2-U10-016
+  greek: η ομαδική εργασία
+  english: group work / team project
+  notes: 'Pedagogical format: ομαδικός, -ή, -ό + εργασία. Opposite: ατομική εργασία.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Collaborating on team projects and dividing tasks with
+    fellow students
+  example_el: Στο μάθημα της ιστορίας κάναμε μια ομαδική εργασία τριών ατόμων.
+  example_en: In the history class we did a group project of three people.
+  example2_el: Η ομαδική εργασία καλλιεργεί τη συνεργασία και την ανταλλαγή απόψεων.
+  example2_en: Teamwork cultivates cooperation and the exchange of views.
+  status: verified
+  audio: i-omadiki-ergasia-0cbcaa.mp3
+  example_audio: sto-mathima-tis-isto-b1f38c.mp3
+  example2_audio: i-omadiki-ergasia-ka-acffe4.mp3
+- id: A2P2-U10-017
+  greek: η πανεπιστημιούπολη
+  english: university campus
+  notes: 'Compound noun: πανεπιστήμιο + πόλη (university city/campus). Feminine third
+    declension.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Describing university campus facilities, libraries,
+    and grounds
+  example_el: Η πανεπιστημιούπολη στα Ιωάννινα είναι καταπράσινη και διαθέτει σύγχρονες
+    εγκαταστάσεις.
+  example_en: The university campus in Ioannina is very green and features modern
+    facilities.
+  example2_el: Το λεωφορείο συνδέει το κέντρο της πόλης απευθείας με την πανεπιστημιούπολη.
+  example2_en: The bus connects the city center directly with the university campus.
+  status: verified
+  audio: i-panepistimioypoli-e9aa29.mp3
+  example_audio: i-panepistimioypoli--731f3e.mp3
+  example2_audio: to-leoforeio-syndeei-937835.mp3
+- id: A2P2-U10-018
+  greek: το εκπαιδευτικό σύστημα
+  english: educational system
+  notes: Adjective εκπαιδευτικός, -ή, -ό + noun το σύστημα (genitive του συστήματος).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Comparing educational structures and school levels across
+    countries
+  example_el: Το ελληνικό εκπαιδευτικό σύστημα περιλαμβάνει πρωτοβάθμια, δευτεροβάθμια
+    και τριτοβάθμια εκπαίδευση.
+  example_en: The Greek educational system includes primary, secondary, and tertiary
+    education.
+  example2_el: Υπάρχουν αρκετές διαφορές ανάμεσα στο εκπαιδευτικό σύστημα της Ελλάδας
+    και της χώρας μου.
+  example2_en: There are several differences between the educational system of Greece
+    and of my country.
+  status: verified
+  audio: to-ekpaideytiko-syst-bda00d.mp3
+  example_audio: to-elliniko-ekpaidey-204f54.mp3
+  example2_audio: yparchoyn-arketes-di-6b64b3.mp3
+- id: A2P2-U10-019
+  greek: το πιστοποιητικό γλωσσομάθειας
+  english: language proficiency certificate
+  notes: 'Official credential: το πιστοποιητικό + γενική γλωσσομάθειας (language knowledge).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Targeting the official Certificate of Attainment in
+    Greek examinations
+  example_el: Στόχος μου είναι να αποκτήσω το επίσημο πιστοποιητικό γλωσσομάθειας
+    επιπέδου Α2.
+  example_en: My goal is to obtain the official language proficiency certificate of
+    level A2.
+  example2_el: Το πιστοποιητικό γλωσσομάθειας του ΚΕΓ αναγνωρίζεται διεθνώς και από
+    το ελληνικό δημόσιο.
+  example2_en: The KEG language proficiency certificate is recognized internationally
+    and by the Greek state.
+  status: verified
+  audio: to-pistopoiitiko-glo-987c30.mp3
+  example_audio: stochos-moy-einai-na-bf2d7f.mp3
+  example2_audio: to-pistopoiitiko-glo-7e4e16.mp3
+- id: A2P2-U10-020
+  greek: η πτυχιακή εργασία
+  english: graduation thesis / bachelor's dissertation
+  notes: Adjective πτυχιακός (degree-related) + εργασία. Capstone academic paper.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing undergraduate thesis research and oral defense
+  example_el: Ολοκλήρωσα την πτυχιακή εργασία μου με θέμα τη διδασκαλία της ελληνικής
+    ως ξένης γλώσσας.
+  example_en: I completed my bachelor's thesis on teaching Greek as a foreign language.
+  example2_el: Υποστήριξε με επιτυχία την πτυχιακή εργασία του μπροστά στην τριμελή
+    επιτροπή καθηγητών.
+  example2_en: He successfully defended his thesis before the three-member committee
+    of professors.
+  status: verified
+  audio: i-ptychiaki-ergasia-597bf1.mp3
+  example_audio: oloklirosa-tin-ptych-e04941.mp3
+  example2_audio: ypostirixe-me-epityc-e98308.mp3
+- id: A2P2-U10-021
+  greek: η διά ζώσης εκπαίδευση
+  english: in-person / face-to-face education
+  notes: 'Archaic fixed expression: διά ζώσης (in person, physically present). Opposite:
+    εξ αποστάσεως.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Contrasting classroom-based physical study with online
+    remote learning
+  example_el: Προτιμώ τη διά ζώσης εκπαίδευση επειδή η επαφή με τον δάσκαλο είναι
+    πιο άμεση.
+  example_en: I prefer in-person education because contact with the teacher is more
+    direct.
+  example2_el: Τα πανεπιστήμια επέστρεψαν πλήρως στη διά ζώσης εκπαίδευση και διδασκαλία.
+  example2_en: Universities returned fully to in-person education and teaching.
+  status: verified
+  audio: i-dia-zosis-ekpaidey-0ecebd.mp3
+  example_audio: protimo-ti-dia-zosis-42a82a.mp3
+  example2_audio: ta-panepistimia-epes-bb5365.mp3
+- id: A2P2-U10-022
+  greek: η εξ αποστάσεως διδασκαλία
+  english: distance learning / online teaching
+  notes: 'Adverbial phrase: εξ αποστάσεως (from a distance) + διδασκαλία (teaching/instruction).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing video conference classes, e-learning platforms,
+    and digital tutoring
+  example_el: Η εξ αποστάσεως διδασκαλία προσφέρει μεγάλη ευελιξία σε εργαζόμενους
+    φοιτητές.
+  example_en: Distance learning offers great flexibility to working students.
+  example2_el: Παρακολουθώ μαθήματα ελληνικών μέσω εξ αποστάσεως διδασκαλίας δύο φορές
+    την εβδομάδα.
+  example2_en: I attend Greek lessons via distance learning twice a week.
+  status: verified
+  audio: i-ex-apostaseos-dida-d38024.mp3
+  example_audio: i-ex-apostaseos-dida-cfbdde.mp3
+  example2_audio: parakoloytho-mathima-a43438.mp3
+- id: A2P2-U10-023
+  greek: η εγγραφή στο πανεπιστήμιο
+  english: university enrollment / registration
+  notes: 'Administrative milestone: η εγγραφή (enrollment/registration, genitive της
+    εγγραφής).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Completing student registration and course enrollment
+    procedures
+  example_el: Ολοκλήρωσα την εγγραφή μου στο πανεπιστήμιο και παρέλαβα τη φοιτητική
+    μου ταυτότητα.
+  example_en: I completed my enrollment at the university and received my student
+    ID card.
+  example2_el: Οι εγγραφές στο πανεπιστήμιο πραγματοποιούνται ηλεκτρονικά τον Σεπτέμβριο.
+  example2_en: University enrollments take place electronically in September.
+  status: verified
+  audio: i-eggrafi-sto-panepi-e31d25.mp3
+  example_audio: oloklirosa-tin-eggra-7e6093.mp3
+  example2_audio: oi-eggrafes-sto-pane-aac372.mp3
+- id: A2P2-U10-024
+  greek: το αναγνωστήριο
+  english: study hall / reading room
+  notes: 'Dedicated quiet space: το αναγνωστήριο (from αναγιγνώσκω / αναγνώστης).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Meeting study partners in library quiet zones and silent
+    reading rooms
+  example_el: Συναντηθήκαμε στο κεντρικό αναγνωστήριο της βιβλιοθήκης για να μελετήσουμε
+    μαζί.
+  example_en: We met in the central reading room of the library to study together.
+  example2_el: Στο αναγνωστήριο επιβάλλεται απόλυτη ησυχία για να μην ενοχλούνται
+    οι φοιτητές.
+  example2_en: In the reading room absolute silence is required so students are not
+    disturbed.
+  status: verified
+  audio: to-anagnostirio-b200a8.mp3
+  example_audio: synantithikame-sto-k-837d3d.mp3
+  example2_audio: sto-anagnostirio-epi-30f458.mp3
+- id: A2P2-U10-025
+  greek: η επαναληπτική άσκηση
+  english: revision exercise / review drill
+  notes: Adjective επαναληπτικός, -ή, -ό (revision/review, from επανάληψη) + άσκηση.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Doing practice drills, grammar tests, and test-prep
+    review tasks
+  example_el: Κάναμε πολλές επαναληπτικές ασκήσεις στον αόριστο και στον μέλλοντα.
+  example_en: We did many revision exercises in the simple past and future tense.
+  example2_el: Οι επαναληπτικές ασκήσεις στο τέλος κάθε ενότητας βοηθούν στην εμπέδωση
+    της ύλης.
+  example2_en: The review exercises at the end of each unit help in consolidating
+    the material.
+  status: verified
+  audio: i-epanaliptiki-askis-bd8aea.mp3
+  example_audio: kaname-polles-epanal-04b4ed.mp3
+  example2_audio: oi-epanaliptikes-ask-4891bb.mp3
+- id: A2P2-U10-026
+  greek: η διπλωματική επιτροπή
+  english: examination committee / jury panel
+  notes: 'Evaluation panel: διπλωματικός (degree-evaluating) + επιτροπή (committee).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing formal academic evaluation and oral degree
+    defenses
+  example_el: Η διπλωματική επιτροπή βαθμολόγησε την εργασία με βαθμό εννιάμισι.
+  example_en: The examination committee graded the thesis with a mark of nine and
+    a half.
+  example2_el: Απάντησε με σιγουριά σε όλες τις ερωτήσεις που έθεσε η διπλωματική
+    επιτροπή.
+  example2_en: He answered with confidence all the questions posed by the examination
+    committee.
+  status: verified
+  audio: i-diplomatiki-epitro-fc1c05.mp3
+  example_audio: i-diplomatiki-epitro-880b46.mp3
+  example2_audio: apantise-me-sigoyria-ac8e49.mp3
+- id: A2P2-U10-027
+  greek: οι ξένες γλώσσες
+  english: foreign languages
+  notes: 'Essential skill: ξένος, -η, -ο + γλώσσα. Plural: οι ξένες γλώσσες.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine plural
+  keg_communicative_function: Listing spoken languages and multilingual capabilities
+    in resumes
+  example_el: Μιλάω άπταιστα δύο ξένες γλώσσες, αγγλικά και γαλλικά, και μαθαίνω ελληνικά.
+  example_en: I speak two foreign languages fluently, English and French, and I am
+    learning Greek.
+  example2_el: Η γνώση ξένων γλωσσών ανοίγει πόρτες για σπουδές και εργασία στο εξωτερικό.
+  example2_en: Knowledge of foreign languages opens doors for studies and work abroad.
+  status: verified
+  audio: oi-xenes-glosses-d59d9c.mp3
+  example_audio: milao-aptaista-dyo-x-0da9a0.mp3
+  example2_audio: i-gnosi-xenon-glosso-178c74.mp3
+- id: A2P2-U10-028
+  greek: το εκπαιδευτικό πρόγραμμα
+  english: educational program / curriculum course
+  notes: Adjective εκπαιδευτικός + πρόγραμμα. E.g. εκπαιδευτικό πρόγραμμα Erasmus.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Participating in academic exchange programs like Erasmus
+    in Greece
+  example_el: Συμμετέχω σε ένα ευρωπαϊκό εκπαιδευτικό πρόγραμμα ανταλλαγής φοιτητών.
+  example_en: I am participating in a European educational student exchange program.
+  example2_el: Το εκπαιδευτικό πρόγραμμα περιλαμβάνει μαθήματα γλώσσας και πολιτιστικές
+    επισκέψεις.
+  example2_en: The educational program includes language lessons and cultural visits.
+  status: verified
+  audio: to-ekpaideytiko-prog-36bdd7.mp3
+  example_audio: symmetecho-se-ena-ey-f9d162.mp3
+  example2_audio: to-ekpaideytiko-prog-7f8f76.mp3
+- id: A2P2-U10-029
+  greek: η ακαδημαϊκή ταυτότητα
+  english: student ID card / academic pass (πάσο)
+  notes: 'Student credential: η ακαδημαϊκή ταυτότητα (colloquially called το πάσο).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Showing student ID for discounts on public transit,
+    museums, and bookstores
+  example_el: Δείξτε την ακαδημαϊκή ταυτότητά σας για να πάρετε μειωμένο εισιτήριο
+    στο μετρό.
+  example_en: Show your student ID card to get a discounted ticket on the metro.
+  example2_el: Η ακαδημαϊκή ταυτότητα ισχύει για όλα τα χρόνια των προπτυχιακών σπουδών.
+  example2_en: The student ID card is valid for all years of undergraduate studies.
+  status: verified
+  audio: i-akadimaiki-taytoti-8f8717.mp3
+  example_audio: deixte-tin-akadimaik-3cc802.mp3
+  example2_audio: i-akadimaiki-taytoti-a07d79.mp3
+- id: A2P2-U10-030
+  greek: η ορκωμοσία των αποφοίτων
+  english: graduation commencement / oath ceremony
+  notes: 'Commencement ritual: η ορκωμοσία (oath-taking, from ορκίζομαι) + γενική
+    αποφοίτων.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Inviting family and friends to university graduation
+    commencement ceremonies
+  example_el: Η επίσημη ορκωμοσία των αποφοίτων της σχολής θα γίνει στην κεντρική
+    αίθουσα τελετών.
+  example_en: The official graduation commencement of the faculty will take place
+    in the central hall of ceremonies.
+  example2_el: Σας προσκαλώ με χαρά στην ορκωμοσία μου την ερχόμενη Τετάρτη στις δώδεκα
+    το μεσημέρι.
+  example2_en: I invite you with joy to my graduation ceremony next Wednesday at twelve
+    noon.
+  status: verified
+  audio: i-orkomosia-ton-apof-070670.mp3
+  example_audio: i-episimi-orkomosia--7fc052.mp3
+  example2_audio: sas-proskalo-me-char-4b9912.mp3

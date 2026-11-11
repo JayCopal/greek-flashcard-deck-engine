@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { DeckData, CardEntry } from './types/schema';
-import { getUserStudyPreferences, initializePersistenceEngine, TextSizePreference } from './utils/userStorage';
+import { getUserStudyPreferences, initializePersistenceEngine, TextSizePreference, getActiveUser } from './utils/userStorage';
+import { getAllSRSData, isCardDue } from './utils/srs';
 import { Dashboard } from './components/Dashboard';
 import { Practice } from './components/Practice';
 import { OverviewStats } from './components/OverviewStats';
@@ -8,6 +9,7 @@ import { DeckEditor } from './components/DeckEditor';
 import { StudySession } from './components/StudySession';
 import { Help } from './components/Help';
 import { Settings } from './components/Settings';
+import { UserSelector } from './components/UserSelector';
 import { 
   Layers, 
   BookOpen, 
@@ -232,161 +234,223 @@ export function App() {
     setActiveTab('study');
   };
 
+  // User profile and SRS due count tracking
+  const [activeUser, setActiveUser] = useState(getActiveUser());
+  const [srsVersion, setSrsVersion] = useState(0);
+
+  useEffect(() => {
+    const handleUserOrProgressChange = () => {
+      setActiveUser(getActiveUser());
+      setSrsVersion((v) => v + 1);
+    };
+    window.addEventListener('greek_deck_user_change', handleUserOrProgressChange);
+    window.addEventListener('greek_deck_progress_change', handleUserOrProgressChange);
+    return () => {
+      window.removeEventListener('greek_deck_user_change', handleUserOrProgressChange);
+      window.removeEventListener('greek_deck_progress_change', handleUserOrProgressChange);
+    };
+  }, []);
+
+  const dueCardsCount = useMemo(() => {
+    if (!deck) return 0;
+    const srsMap = getAllSRSData(activeUser.id);
+    const allCards = deck.units.flatMap((u) => u.lessons.flatMap((l) => l.entries));
+    return allCards.filter((c) => {
+      const srs = srsMap[c.id];
+      if (!srs) return true;
+      if (srs.isLearned || srs.isExcluded) return false;
+      return isCardDue(srs);
+    }).length;
+  }, [deck, activeUser.id, srsVersion]);
+
+  // Global keyboard shortcuts for tab navigation (1: Lessons, 2: Practice, 3: Stats, 4: Editor, 5: Settings, ?: Help)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        (e.target as HTMLElement)?.isContentEditable
+      ) {
+        return;
+      }
+      if (activeTab === 'study') return;
+
+      if (e.key === '1') {
+        navigateToTab('dashboard');
+      } else if (e.key === '2') {
+        navigateToTab('practice');
+      } else if (e.key === '3') {
+        navigateToTab('overview');
+      } else if (e.key === '4' && !isOfflineMode) {
+        navigateToTab('editor');
+      } else if (e.key === '5') {
+        navigateToTab('settings');
+      } else if (e.key === '?') {
+        navigateToTab('help');
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeTab, isOfflineMode]);
+
   return (
     <div className={`min-h-screen text-slate-100 flex flex-col w-full max-w-full overflow-x-hidden transition-colors duration-300 ${
       themePreference === 'oled' ? 'bg-black oled-theme' : 'bg-slate-950'
     }`}>
       {/* Top Navigation Bar */}
-      <header className={`sticky top-0 z-50 glass-panel border-b border-slate-800/80 px-3 sm:px-6 lg:px-8 ${activeTab === 'study' ? 'py-1.5 sm:py-2' : 'py-2 sm:py-3'} w-full transition-all`}>
-        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-2">
+      <header className={`sticky top-0 z-50 bg-slate-950/85 backdrop-blur-xl border-b border-slate-800/80 px-3 sm:px-6 lg:px-8 ${activeTab === 'study' ? 'py-1.5 sm:py-2' : 'py-2 sm:py-2.5'} w-full transition-all shadow-lg shadow-black/20`}>
+        <div className="max-w-6xl mx-auto flex items-center justify-between gap-3">
           {/* Logo / Brand */}
           <div 
             onClick={() => navigateToTab('dashboard')} 
-            className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group order-1 shrink-0"
-            title="Go to Landing Page"
+            className="flex items-center gap-2.5 cursor-pointer group shrink-0"
+            title="Go to Landing Page (1)"
           >
-            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <span className="text-white font-serif font-black text-base sm:text-lg">Ω</span>
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-600 to-purple-600 flex items-center justify-center shadow-md shadow-sky-500/25 group-hover:scale-105 group-hover:shadow-sky-500/40 transition-all">
+              <span className="text-white font-serif font-black text-lg leading-none">Ω</span>
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-extrabold text-white text-sm sm:text-base tracking-tight">
+                <span className="font-extrabold text-white text-base tracking-tight group-hover:text-sky-300 transition-colors">
                   GreekDeck
                 </span>
-                <span className="text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-400 border border-sky-500/30">
-                  A1
+                <span className="text-[10px] font-extrabold px-1.5 py-0.5 rounded-md bg-sky-500/20 text-sky-300 border border-sky-500/30">
+                  A1 • A2
                 </span>
               </div>
-              <p className="text-[10px] sm:text-[11px] text-slate-400 font-medium hidden sm:block leading-none mt-0.5">
-                Audio Engine & PWA
+              <p className="text-[10px] text-slate-400 font-medium hidden sm:block leading-none mt-0.5">
+                Audio Engine & Flashcard System
               </p>
             </div>
           </div>
 
-          {/* Right Header Area: Offline Status Pill */}
-          <div className="flex items-center gap-1.5 order-2 md:order-3 shrink-0">
-            {isOfflineMode && (
-              <span 
-                className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2 sm:px-2.5 py-1 rounded-xl border border-teal-800"
-                title="PWA Offline Mode Active"
-              >
-                <WifiOff className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Offline</span>
-              </span>
-            )}
-          </div>
-
-          {/* Nav Tabs */}
-          <nav className="flex items-center justify-around sm:justify-start gap-1 sm:gap-1.5 order-3 md:order-2 w-full md:w-auto pt-0.5 md:pt-0 overflow-x-auto no-scrollbar">
+          {/* Center (Desktop): Segmented Navigation Pill Bar */}
+          <nav className="hidden md:flex items-center bg-slate-900/90 border border-slate-800/90 p-1 rounded-2xl shadow-inner shadow-black/30">
             {/* Landing: Lessons */}
             <button
               onClick={() => navigateToTab('dashboard')}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 activeTab === 'dashboard'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/30 border border-sky-400/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/70'
               }`}
-              title="Lessons List (Landing Page)"
+              title="Lessons List & Curriculum Tracks (1)"
             >
-              <Layers className="w-4 h-4 shrink-0" />
+              <Layers className="w-3.5 h-3.5" />
               <span>Lessons</span>
             </button>
 
             {/* Targeted Practice */}
             <button
               onClick={() => navigateToTab('practice')}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 relative ${
                 activeTab === 'practice'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/30 border border-sky-400/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/70'
               }`}
-              title="Targeted Practice & SRS Reviews"
+              title="Targeted SRS Practice (2)"
             >
-              <Sparkles className="w-4 h-4 shrink-0 text-amber-400" />
+              <Sparkles className={`w-3.5 h-3.5 ${activeTab === 'practice' ? 'text-amber-300' : 'text-amber-400'}`} />
               <span>Practice</span>
+              {dueCardsCount > 0 && (
+                <span className="px-1.5 py-0.2 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-[9px] font-extrabold ml-0.5">
+                  {dueCardsCount}
+                </span>
+              )}
             </button>
 
             {/* Stats & Overview */}
             <button
               onClick={() => navigateToTab('overview')}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 activeTab === 'overview'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/30 border border-sky-400/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/70'
               }`}
-              title="Deck Statistics & Audio Coverage"
+              title="Deck Statistics & Audio Health (3)"
             >
-              <Award className="w-4 h-4 shrink-0 text-emerald-400" />
+              <Award className={`w-3.5 h-3.5 ${activeTab === 'overview' ? 'text-emerald-300' : 'text-emerald-400'}`} />
               <span>Stats</span>
-            </button>
-
-            {/* Study Drill */}
-            <button
-              onClick={() => {
-                if (deck) {
-                  const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
-                  handleStartStudy(allCards, deck.manifest.deck_title);
-                }
-              }}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
-                activeTab === 'study'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
-              }`}
-              title="Start Study Session"
-            >
-              <Play className="w-4 h-4 fill-current shrink-0" />
-              <span>Study</span>
             </button>
 
             {/* Deck Editor */}
             <button
               onClick={() => navigateToTab('editor')}
               disabled={isOfflineMode}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 activeTab === 'editor'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/30 border border-sky-400/30'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/70'
               } disabled:opacity-40 disabled:hover:bg-transparent`}
-              title={isOfflineMode ? 'Editor disabled in offline static bundle' : 'Author & Review TTS'}
+              title={isOfflineMode ? 'Editor disabled in offline static bundle' : 'Author & Review TTS (4)'}
             >
-              <BookOpen className="w-4 h-4 shrink-0" />
+              <BookOpen className="w-3.5 h-3.5" />
               <span>Deck Editor</span>
             </button>
+          </nav>
 
-            {/* Settings */}
+          {/* Right Header Controls: Study CTA, Offline Pill, User Selector, Settings, Help */}
+          <div className="flex items-center gap-2 shrink-0">
+            {/* Quick Drill Study CTA Button (Desktop & Tablet) */}
+            {deck && (
+              <button
+                onClick={() => {
+                  const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
+                  handleStartStudy(allCards, deck.manifest.deck_title);
+                }}
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-white shadow-md shadow-emerald-500/20 active:scale-95 transition-all"
+                title="Start quick study drill of all flashcards"
+              >
+                <Play className="w-3.5 h-3.5 fill-current" />
+                <span>Quick Study</span>
+              </button>
+            )}
+
+            {/* Offline Status Pill */}
+            {isOfflineMode && (
+              <span 
+                className="inline-flex items-center gap-1 text-[11px] font-semibold text-teal-400 bg-teal-950/80 px-2.5 py-1 rounded-xl border border-teal-800"
+                title="PWA Offline Mode Active"
+              >
+                <WifiOff className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Offline</span>
+              </span>
+            )}
+
+            {/* Learner Profile Selector */}
+            <UserSelector />
+
+            {/* Settings Tab Button */}
             <button
               onClick={() => navigateToTab('settings')}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`p-2 rounded-xl text-xs font-semibold transition-all border ${
                 activeTab === 'settings'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
+                  : 'bg-slate-900 border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white'
               }`}
-              title="Settings & Learner Profiles"
+              title="Settings & Audio Voices (5)"
             >
-              <SettingsIcon className="w-4 h-4 shrink-0" />
-              <span>Settings</span>
+              <SettingsIcon className="w-4 h-4" />
             </button>
 
-            {/* Help */}
+            {/* Help Tab Button (Desktop) */}
             <button
               onClick={() => navigateToTab('help')}
-              className={`flex-1 md:flex-initial px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
+              className={`hidden sm:flex p-2 rounded-xl text-xs font-semibold transition-all border ${
                 activeTab === 'help'
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  ? 'bg-sky-500 text-white border-sky-400 shadow-md shadow-sky-500/30'
+                  : 'bg-slate-900 border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white'
               }`}
-              title="Help & Keyboard Shortcuts"
+              title="Help & Keyboard Shortcuts (?)"
             >
-              <HelpCircle className="w-4 h-4 shrink-0" />
-              <span>Help</span>
+              <HelpCircle className="w-4 h-4" />
             </button>
-          </nav>
+          </div>
         </div>
       </header>
 
       {/* Main Body Content */}
-      <main className="flex-1 max-w-6xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+      <main className={`flex-1 max-w-6xl w-full mx-auto p-4 sm:p-6 lg:p-8 ${activeTab !== 'study' ? 'pb-24 md:pb-12' : 'pb-8'}`}>
         {loading && !deck ? (
           <div className="py-24 text-center space-y-3">
             <div className="w-8 h-8 border-2 border-sky-500 border-t-transparent rounded-full animate-spin mx-auto" />
@@ -493,6 +557,83 @@ export function App() {
           </>
         )}
       </main>
+
+      {/* Mobile Bottom Navigation Dock */}
+      {activeTab !== 'study' && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-slate-950/95 backdrop-blur-xl border-t border-slate-800/90 px-3 py-1.5 shadow-2xl shadow-black">
+          <div className="flex items-center justify-around max-w-md mx-auto">
+            {/* Lessons */}
+            <button
+              onClick={() => navigateToTab('dashboard')}
+              className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl transition-all ${
+                activeTab === 'dashboard'
+                  ? 'text-sky-400 font-bold'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Layers className="w-5 h-5" />
+              <span className="text-[10px] mt-0.5">Lessons</span>
+            </button>
+
+            {/* Practice */}
+            <button
+              onClick={() => navigateToTab('practice')}
+              className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl transition-all relative ${
+                activeTab === 'practice'
+                  ? 'text-amber-400 font-bold'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Sparkles className="w-5 h-5" />
+              <span className="text-[10px] mt-0.5">Practice</span>
+              {dueCardsCount > 0 && (
+                <span className="absolute top-1 right-2 w-2 h-2 rounded-full bg-amber-400 ring-2 ring-slate-950 animate-pulse" />
+              )}
+            </button>
+
+            {/* Quick Study (Floating Center Action Button) */}
+            <button
+              onClick={() => {
+                if (deck) {
+                  const allCards = deck.units.flatMap(u => u.lessons.flatMap(l => l.entries));
+                  handleStartStudy(allCards, deck.manifest.deck_title);
+                }
+              }}
+              className="flex items-center justify-center -mt-5 w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-sky-500 text-white shadow-lg shadow-emerald-500/30 active:scale-95 transition-all border-2 border-slate-900"
+              title="Study all cards"
+            >
+              <Play className="w-5 h-5 fill-current ml-0.5" />
+            </button>
+
+            {/* Stats */}
+            <button
+              onClick={() => navigateToTab('overview')}
+              className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl transition-all ${
+                activeTab === 'overview'
+                  ? 'text-emerald-400 font-bold'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Award className="w-5 h-5" />
+              <span className="text-[10px] mt-0.5">Stats</span>
+            </button>
+
+            {/* Deck Editor */}
+            <button
+              onClick={() => navigateToTab('editor')}
+              disabled={isOfflineMode}
+              className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl transition-all ${
+                activeTab === 'editor'
+                  ? 'text-sky-400 font-bold'
+                  : 'text-slate-400 hover:text-slate-200'
+              } disabled:opacity-30`}
+            >
+              <BookOpen className="w-5 h-5" />
+              <span className="text-[10px] mt-0.5">Editor</span>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

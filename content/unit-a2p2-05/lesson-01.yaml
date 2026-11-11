@@ -1,0 +1,579 @@
+unit_id: unit-a2p2-05
+lesson_id: lesson-01
+title: 'Μάθημα 5: Αγορές, Καταστήματα & Καταναλωτικές Συνήθειες (Shopping, Retail
+  & Consumer Exchanges)'
+description: Mastering shopping role-plays, garment fitting vocabulary, payment methods,
+  sales terms, product exchanges, and consumer complaint dialogues for the KEG A2
+  Speaking and Reading sections.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-05 Core Notes: Αγορές, Καταστήματα & Καταναλωτικές Συνήθειες\
+  \ (Shopping, Retail & Consumer Exchanges)\n• Official KEG A2 Exam Alignment:\n \
+  \ - Speaking Stage 2 (Shop simulation): Asking for sizes (μέγεθος, νούμερο), requesting\
+  \ fitting room (δοκιμαστήριο), trying on clothes (μου κάνει, στενό, φαρδύ, μου πάει).\n\
+  \  - Consumer Transactions: Payment methods (μετρητά, πιστωτική κάρτα), receipts\
+  \ (απόδειξη αγοράς), sales (εκπτώσεις, προσφορές).\n  - Consumer Protection & Complaints:\
+  \ Returning defective items (ελαττωματικό προϊόν, αλλαγή προϊόντος, επιστροφή χρημάτων,\
+  \ διαμαρτύρομαι, παράπονο)."
+entries:
+- id: A2P2-U05-001
+  greek: το κατάστημα ρούχων
+  english: clothing store
+  notes: 'Collocation: το κατάστημα + genitive plural ρούχων. Standard setting for
+    oral role-play.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: το κατάστημα (neuter)
+    genitive: των ρούχων
+  keg_communicative_function: Naming retail shop environments in shopping dialogues
+  example_el: Μπήκαμε σε ένα κατάστημα ρούχων για να δοκιμάσω ένα χειμωνιάτικο παλτό.
+  example_en: We entered a clothing store so I could try on a winter coat.
+  example2_el: Το κατάστημα ρούχων προσφέρει μεγάλες εκπτώσεις σε όλα τα καλοκαιρινά
+    είδη.
+  example2_en: The clothing store is offering big discounts on all summer items.
+  audio: to-katastima-roychon-fb6ea9.mp3
+  status: verified
+  example_audio: mpikame-se-ena-katas-1bd6ab.mp3
+  example2_audio: to-katastima-roychon-d34b4a.mp3
+- id: A2P2-U05-002
+  greek: το μέγεθος / το νούμερο
+  english: size / shoe or clothing number
+  notes: Το μέγεθος (S, M, L) vs. το νούμερο (numeric shoe/dress size, e.g. 38, 42).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    nouns: 'το μέγεθος (gen: του μεγέθους, pl: τα μεγέθη) / το νούμερο (pl: τα νούμερα)'
+  keg_communicative_function: Specifying clothing or footwear sizes to sales clerks
+  example_el: Τι νούμερο παπούτσι φοράτε; Φοράω το σαράντα δύο.
+  example_en: What shoe size do you wear? I wear size forty-two.
+  example2_el: Αυτό το πουκάμισο είναι σε μέγεθος μεσαίο ή μεγάλο;
+  example2_en: Is this shirt in medium or large size?
+  audio: to-megethos-to-noyme-531bde.mp3
+  status: verified
+  example_audio: ti-noymero-papoytsi--1f49c0.mp3
+  example2_audio: ayto-to-poykamiso-ei-6dbe00.mp3
+- id: A2P2-U05-003
+  greek: το δοκιμαστήριο
+  english: fitting room / dressing room
+  notes: 'From δοκιμάζω (to try on). Genitive: του δοκιμαστηρίου.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του δοκιμαστηρίου
+    plural: τα δοκιμαστήρια
+  keg_communicative_function: Asking for the fitting cubicle to try on garments
+  example_el: Μπορώ να δοκιμάσω αυτό το παντελόνι; Πού είναι το δοκιμαστήριο;
+  example_en: May I try on these trousers? Where is the fitting room?
+  example2_el: Όλα τα δοκιμαστήρια είναι κατειλημμένα αυτή τη στιγμή, παρακαλώ περιμένετε.
+  example2_en: All fitting rooms are occupied at the moment, please wait.
+  audio: to-dokimastirio-efbb21.mp3
+  status: verified
+  example_audio: mporo-na-dokimaso-ay-2ba905.mp3
+  example2_audio: ola-ta-dokimastiria--a6a744.mp3
+- id: A2P2-U05-004
+  greek: μου κάνει / δεν μου κάνει
+  english: it fits me / it does not fit me
+  notes: 'Impersonal construction: κάνει + weak indirect clitic (μου, σου, του, της).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: κάνει (3rd person singular present)
+    clitic: μου / σου / του / μας / σας
+  keg_communicative_function: Stating whether a garment fits one's size properly
+  example_el: Αυτό το φόρεμα μου κάνει τέλεια, δεν χρειάζεται καμία αλλαγή.
+  example_en: This dress fits me perfectly, it does not need any alteration.
+  example2_el: Δυστυχώς το σακάκι δεν μου κάνει στους ώμους, είναι πολύ στενό.
+  example2_en: Unfortunately the blazer does not fit me at the shoulders, it is too
+    tight.
+  audio: moy-kanei-den-moy-ka-c2db1c.mp3
+  status: verified
+  example_audio: ayto-to-forema-moy-k-bee22b.mp3
+  example2_audio: dystychos-to-sakaki--b488d7.mp3
+- id: A2P2-U05-005
+  greek: μου πάει / σας πάει πολύ
+  english: it suits me / it suits you very well
+  notes: 'Aesthetic compliment: πηγαίνει/πάει + weak clitic. Essential sales formula.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: πάει (3rd singular of πηγαίνω)
+    adverb: πολύ / τέλεια
+  keg_communicative_function: Paying or receiving compliments on how an outfit looks
+  example_el: Αυτό το μπλε χρώμα σας πάει πάρα πολύ με τα μάτια σας!
+  example_en: This blue color suits you very much with your eyes!
+  example2_el: Πιστεύεις ότι μου πάει αυτό το καπέλο ή φαίνεται περίεργο;
+  example2_en: Do you think this hat suits me or does it look strange?
+  audio: moy-paei-sas-paei-po-05c3aa.mp3
+  status: verified
+  example_audio: ayto-to-mple-chroma--8851e2.mp3
+  example2_audio: pisteyeis-oti-moy-pa-15b6c8.mp3
+- id: A2P2-U05-006
+  greek: είναι στενό / φαρδύ
+  english: it is tight / it is loose (baggy)
+  notes: 'Adjectives: στενός (tight/narrow) vs. φαρδύς, -ιά, -ύ (wide/loose).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    adjectives: 'στενός, -ή, -ό / φαρδύς, -ιά, -ύ (neuter: φαρδύ)'
+  keg_communicative_function: Explaining garment fit defects during trying on sessions
+  example_el: Το παντελόνι είναι πολύ στενό στη μέση, έχετε ένα νούμερο μεγαλύτερο;
+  example_en: The trousers are too tight at the waist, do you have one size larger?
+  example2_el: Η μπλούζα μου είναι αρκετά φαρδιά, προτιμώ κάτι πιο εφαρμοστό.
+  example2_en: My shirt is quite loose, I prefer something more fitted.
+  audio: einai-steno-fardy-f82eae.mp3
+  status: verified
+  example_audio: to-panteloni-einai-p-19bdbe.mp3
+  example2_audio: i-mployza-moy-einai--0afa75.mp3
+- id: A2P2-U05-007
+  greek: είναι κοντό / μακρύ
+  english: it is short / it is long
+  notes: 'Adjectives of length: κοντός, -ή, -ό vs. μακρύς, -ιά, -ύ (neuter: μακρύ).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    adjectives: 'κοντός / μακρύς (neuter: μακρύ)'
+  keg_communicative_function: Evaluating length parameters of clothing
+  example_el: Τα μανίκια είναι πολύ μακριά και χρειάζονται κόντεμα.
+  example_en: The sleeves are too long and need shortening.
+  example2_el: Αυτή η φούστα είναι πολύ κοντή για επίσημη συνέντευξη εργασίας.
+  example2_en: This skirt is too short for a formal job interview.
+  audio: einai-konto-makry-5e0761.mp3
+  status: verified
+  example_audio: ta-manikia-einai-pol-8e366f.mp3
+  example2_audio: ayti-i-foysta-einai--337474.mp3
+- id: A2P2-U05-008
+  greek: η απόδειξη αγοράς
+  english: purchase receipt
+  notes: 'Collocation: η απόδειξη + genitive αγοράς. Essential for returns and refunds.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η απόδειξη (3rd declension feminine)
+    genitive: αγοράς
+  keg_communicative_function: Requesting or retaining commercial receipts for consumer
+    transactions
+  example_el: Κρατήστε την απόδειξη αγοράς σε περίπτωση που θελήσετε να αλλάξετε το
+    ρούχο.
+  example_en: Keep the purchase receipt in case you want to exchange the garment.
+  example2_el: Χωρίς την απόδειξη αγοράς δεν μπορεί να γίνει επιστροφή χρημάτων.
+  example2_en: Without the purchase receipt, a money refund cannot be issued.
+  audio: i-apodeixi-agoras-80a61d.mp3
+  status: verified
+  example_audio: kratiste-tin-apodeix-64ede7.mp3
+  example2_audio: choris-tin-apodeixi--66a085.mp3
+- id: A2P2-U05-009
+  greek: η αλλαγή προϊόντος
+  english: product exchange
+  notes: 'Collocation: η αλλαγή + genitive neuter του προϊόντος.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η αλλαγή (feminine)
+    noun_genitive: του προϊόντος (neuter, gen of το προϊόν)
+  keg_communicative_function: Negotiating an exchange of goods at customer service
+    desks
+  example_el: Ήρθα για μια αλλαγή προϊόντος επειδή το δώρο δεν ταίριαζε στο μέγεθος.
+  example_en: I came for a product exchange because the gift didn't match the size.
+  example2_el: Οι αλλαγές προϊόντων γίνονται δεκτές εντός δεκατεσσάρων ημερών.
+  example2_en: Product exchanges are accepted within fourteen days.
+  audio: i-allagi-proiontos-3b3433.mp3
+  status: verified
+  example_audio: irtha-gia-mia-allagi-4d1513.mp3
+  example2_audio: oi-allages-proionton-efd3db.mp3
+- id: A2P2-U05-010
+  greek: η επιστροφή χρημάτων
+  english: money refund
+  notes: 'Collocation: η επιστροφή + genitive plural των χρημάτων.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η επιστροφή (feminine)
+    genitive: των χρημάτων (from τα χρήματα)
+  keg_communicative_function: Requesting monetary reimbursement for returned items
+  example_el: Δικαιούμαι επιστροφή χρημάτων αν το προϊόν είναι ελαττωματικό;
+  example_en: Am I entitled to a money refund if the product is defective?
+  example2_el: Το κατάστημα προσφέρει πιστωτικό σημείωμα ή πλήρη επιστροφή χρημάτων.
+  example2_en: The store offers store credit or a full money refund.
+  audio: i-epistrofi-chrimato-0c52e1.mp3
+  status: verified
+  example_audio: dikaioymai-epistrofi-1f1183.mp3
+  example2_audio: to-katastima-prosfer-1c56a6.mp3
+- id: A2P2-U05-011
+  greek: η εγγύηση δύο ετών
+  english: two-year warranty / guarantee
+  notes: Essential consumer right for electronics and appliances.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η εγγύηση
+    numeral_genitive: δύο ετών (genitive plural of το έτος)
+  keg_communicative_function: Confirming warranty durations and repair coverage
+  example_el: Όλες οι ηλεκτρικές συσκευές καλύπτονται από επίσημη εγγύηση δύο ετών.
+  example_en: All electrical appliances are covered by an official two-year warranty.
+  example2_el: Σας δίνουμε την κάρτα εγγύησης σφραγισμένη από το κατάστημα.
+  example2_en: We give you the warranty card stamped by the shop.
+  audio: i-eggyisi-dyo-eton-09080a.mp3
+  status: verified
+  example_audio: oles-oi-ilektrikes-s-95d6fd.mp3
+  example2_audio: sas-dinoyme-tin-kart-eccd28.mp3
+- id: A2P2-U05-012
+  greek: οι εκπτώσεις
+  english: the sales / seasonal discounts
+  notes: Plural feminine noun in -σεις (from η έκπτωση). Summer and winter sales.
+  gender_or_pos: noun (feminine plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine plural
+    nominative_plural: οι εκπτώσεις
+    genitive_plural: των εκπτώσεων
+  keg_communicative_function: Discussing seasonal sales periods and retail shopping
+    opportunities
+  example_el: Οι χειμερινές εκπτώσεις ξεκινούν τη δεύτερη Δευτέρα του Ιανουαρίου.
+  example_en: Winter sales start on the second Monday of January.
+  example2_el: Περιμένω τις εκπτώσεις για να αγοράσω έναν καινούριο φορητό υπολογιστή.
+  example2_en: I am waiting for the sales to buy a new laptop computer.
+  audio: oi-ekptoseis-5ad825.mp3
+  status: verified
+  example_audio: oi-cheimerines-ekpto-12d63e.mp3
+  example2_audio: perimeno-tis-ekptose-9cc624.mp3
+- id: A2P2-U05-013
+  greek: η προσφορά
+  english: special offer / deal
+  notes: 'Feminine noun in -α. Plural: οι προσφορές.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της προσφοράς
+    plural: οι προσφορές
+  keg_communicative_function: Spotting and discussing promotional bargains in flyers
+    and ads
+  example_el: 'Βρήκα μια καταπληκτική προσφορά: αγοράζεις δύο προϊόντα και παίρνεις
+    το τρίτο δωρεάν.'
+  example_en: 'I found an amazing offer: you buy two products and get the third free.'
+  example2_el: Η ειδική προσφορά ισχύει μέχρι το τέλος της εβδομάδας.
+  example2_en: The special offer is valid until the end of the week.
+  audio: i-prosfora-382fa4.mp3
+  status: verified
+  example_audio: vrika-mia-kataplikti-b8fc39.mp3
+  example2_audio: i-eidiki-prosfora-is-c09787.mp3
+- id: A2P2-U05-014
+  greek: με έκπτωση είκοσι τοις εκατό
+  english: with a twenty percent discount
+  notes: 'Formula: τοις εκατό (%) with numerals.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    preposition: με έκπτωση
+    percentage_marker: τοις εκατό (percent)
+  keg_communicative_function: Calculating and discussing discount percentages
+  example_el: Αγοράσαμε τα παπούτσια με έκπτωση είκοσι τοις εκατό.
+  example_en: We bought the shoes with a twenty percent discount.
+  example2_el: Όλα τα βιβλία πωλούνται με έκπτωση τριάντα τοις εκατό.
+  example2_en: All books are sold at a thirty percent discount.
+  audio: me-ekptosi-eikosi-to-e04b49.mp3
+  status: verified
+  example_audio: agorasame-ta-papoyts-a9a37e.mp3
+  example2_audio: ola-ta-vivlia-poloyn-e0d1a9.mp3
+- id: A2P2-U05-015
+  greek: η πιστωτική κάρτα
+  english: credit card
+  notes: Contrast with η χρεωστική κάρτα (debit card).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η κάρτα
+    adjective: πιστωτική / χρεωστική
+  keg_communicative_function: Choosing electronic payment methods at checkout counters
+  example_el: Δέχεστε πληρωμή με πιστωτική κάρτα ή μόνο μετρητά;
+  example_en: Do you accept credit card payment or only cash?
+  example2_el: Πλήρωσα ανέπαφα με την πιστωτική μου κάρτα στο μηχάνημα POS.
+  example2_en: I paid contactlessly with my credit card on the POS machine.
+  audio: i-pistotiki-karta-92ad4a.mp3
+  status: verified
+  example_audio: decheste-pliromi-me--100793.mp3
+  example2_audio: plirosa-anepafa-me-t-a1cbfb.mp3
+- id: A2P2-U05-016
+  greek: πληρώνω με μετρητά
+  english: I pay in cash
+  notes: Verb πληρώνω + με μετρητά (substantivized neuter plural).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'πληρώνω (aorist: πλήρωσα)'
+    noun_phrase: με μετρητά
+  keg_communicative_function: Selecting cash payment at physical points of sale
+  example_el: Προτιμώ να πληρώσω με μετρητά, ορίστε είκοσι ευρώ.
+  example_en: I prefer to pay in cash, here is twenty euros.
+  example2_el: Στη λαϊκή αγορά οι περισσότεροι παραγωγοί προτιμούν πληρωμή με μετρητά.
+  example2_en: At the street farmers' market most producers prefer cash payment.
+  audio: plirono-me-metrita-3c6bc9.mp3
+  status: verified
+  example_audio: protimo-na-pliroso-m-5ca588.mp3
+  example2_audio: sti-laiki-agora-oi-p-0cc9bf.mp3
+- id: A2P2-U05-017
+  greek: το ταμείο
+  english: cash desk / checkout counter
+  notes: 'Genitive: του ταμείου. Plural: τα ταμεία.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του ταμείου
+    plural: τα ταμεία
+  keg_communicative_function: Directing customers to payment counters in retail stores
+  example_el: Παρακαλώ περάστε στο ταμείο νούμερο δύο για να πληρώσετε.
+  example_en: Please step to cash register number two to pay.
+  example2_el: Υπήρχε μεγάλη ουρά στο ταμείο λόγω των εορταστικών αγορών.
+  example2_en: There was a long queue at the checkout due to festive shopping.
+  audio: to-tameio-e3cb06.mp3
+  status: verified
+  example_audio: parakalo-peraste-sto-569049.mp3
+  example2_audio: ypirche-megali-oyra--fd8e23.mp3
+- id: A2P2-U05-018
+  greek: τα ρέστα
+  english: change (money returned)
+  notes: 'Neuter plural noun: τα ρέστα (genitive: των ρέστων).'
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter plural
+    genitive: των ρέστων
+  keg_communicative_function: Receiving and checking cash change after a transaction
+  example_el: Ορίστε τα ρέστα σας και η απόδειξη, σας ευχαριστούμε πολύ.
+  example_en: Here is your change and the receipt, thank you very much.
+  example2_el: Μην ξεχάσετε τα ρέστα σας πάνω στον πάγκο!
+  example2_en: Don't forget your change on the counter!
+  audio: ta-resta-bc6b04.mp3
+  status: verified
+  example_audio: oriste-ta-resta-sas--e401e9.mp3
+  example2_audio: min-xechasete-ta-res-e9025f.mp3
+- id: A2P2-U05-019
+  greek: κρατήστε τα ρέστα
+  english: keep the change
+  notes: Polite imperative formula when tipping taxi drivers or servers.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    imperative: κρατήστε (from κρατάω, formal/plural)
+    noun: τα ρέστα
+  keg_communicative_function: Instructing a driver or server to retain change as a
+    tip
+  example_el: 'Το κόμιστρο ήταν δεκαοκτώ ευρώ, έδωσα είκοσι και είπα: «Κρατήστε τα
+    ρέστα».'
+  example_en: 'The fare was eighteen euros, I gave twenty and said: ''Keep the change.'''
+  example2_el: Είναι εντάξει, κρατήστε τα ρέστα για τον καφέ σας.
+  example2_en: It is fine, keep the change for your coffee.
+  audio: kratiste-ta-resta-bcf716.mp3
+  status: verified
+  example_audio: to-komistro-itan-dek-2d5bce.mp3
+  example2_audio: einai-entaxei-kratis-010782.mp3
+- id: A2P2-U05-020
+  greek: η σακούλα
+  english: shopping bag / plastic bag
+  notes: Feminine noun in -α. Modern fee applies in Greek supermarkets.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της σακούλας
+    plural: οι σακούλες
+  keg_communicative_function: Asking for or declining shopping bags at retail checkouts
+  example_el: Χρειάζεστε σακούλα ή έχετε δική σας πάνινη τσάντα;
+  example_en: Do you need a bag or do you have your own canvas bag?
+  example2_el: Έβαλα όλα τα ψώνια σε μια επαναχρησιμοποιούμενη σακούλα.
+  example2_en: I put all the groceries into a reusable shopping bag.
+  audio: i-sakoyla-dcd97e.mp3
+  status: verified
+  example_audio: chreiazeste-sakoyla--c014f2.mp3
+  example2_audio: evala-ola-ta-psonia--3e0568.mp3
+- id: A2P2-U05-021
+  greek: το ελαττωματικό προϊόν
+  english: defective / faulty product
+  notes: 'Collocation: ελαττωματικός (defective) + το προϊόν (product).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: 'το προϊόν (gen: του προϊόντος, pl: τα προϊόντα)'
+    adjective: ελαττωματικός, -ή, -ό
+  keg_communicative_function: Stating that a purchased good has a defect or manufacturing
+    fault
+  example_el: Επέστρεψα το ελαττωματικό προϊόν στο κατάστημα για άμεση αντικατάσταση.
+  example_en: I returned the defective product to the store for immediate replacement.
+  example2_el: Το ρολόι δεν λειτουργεί σωστά, πρόκειται για ελαττωματικό προϊόν.
+  example2_en: The watch doesn't work properly, it is a defective product.
+  audio: to-elattomatiko-proi-4a2b50.mp3
+  status: verified
+  example_audio: epestrepsa-to-elatto-361168.mp3
+  example2_audio: to-roloi-den-leitoyr-d99fb6.mp3
+- id: A2P2-U05-022
+  greek: διαμαρτύρομαι
+  english: I complain / protest
+  notes: 'Mediopassive verb. Aorist: διαμαρτυρήθηκα. Noun: η διαμαρτυρία.'
+  gender_or_pos: verb (mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    voice: mediopassive
+    present: διαμαρτύρομαι
+    aorist: διαμαρτυρήθηκα
+  keg_communicative_function: Lodge formal complaints regarding poor services or products
+  example_el: Οι πελάτες διαμαρτυρήθηκαν έντονα για τη μεγάλη καθυστέρηση στην εξυπηρέτηση.
+  example_en: The customers complained vigorously about the long delay in service.
+  example2_el: Διαμαρτυρήθηκα στη διοίκηση για την κακή ποιότητα του φαγητού.
+  example2_en: I complained to management about the poor food quality.
+  audio: diamartyromai-bc7044.mp3
+  status: verified
+  example_audio: oi-pelates-diamartyr-951876.mp3
+  example2_audio: diamartyrithika-sti--019c1e.mp3
+- id: A2P2-U05-023
+  greek: το παράπονο
+  english: complaint / grievance
+  notes: 'Neuter noun in -ο. Collocation: κάνω παράπονα (I make complaints).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του παραπόνου
+    plural: τα παράπονα
+  keg_communicative_function: Voicing grievances to store or service authorities
+  example_el: Αν έχετε κάποιο παράπονο, μπορείτε να συμπληρώσετε το ειδικό έντυπο.
+  example_en: If you have any complaint, you can fill out the special form.
+  example2_el: Δεν έχω κανένα παράπονο, όλα ήταν άψογα οργανωμένα.
+  example2_en: I have no complaints whatsoever, everything was impeccably organized.
+  audio: to-parapono-191686.mp3
+  status: verified
+  example_audio: an-echete-kapoio-par-2708e5.mp3
+  example2_audio: den-echo-kanena-para-498761.mp3
+- id: A2P2-U05-024
+  greek: ο υπεύθυνος του καταστήματος
+  english: store manager / person in charge
+  notes: 'Collocation: ο/η υπεύθυνος + genitive του καταστήματος.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: ο υπεύθυνος / η υπεύθυνη
+    genitive: του καταστήματος
+  keg_communicative_function: Requesting to speak to senior managerial personnel
+  example_el: Θα ήθελα να μιλήσω με τον υπεύθυνο του καταστήματος, παρακαλώ.
+  example_en: I would like to speak with the store manager, please.
+  example2_el: Η υπεύθυνη του καταστήματος έλυσε το πρόβλημα με πολλή ευγένεια.
+  example2_en: The store manager solved the problem with great politeness.
+  audio: o-ypeythynos-toy-kat-1ad2e5.mp3
+  status: verified
+  example_audio: tha-ithela-na-miliso-50b14f.mp3
+  example2_audio: i-ypeythyni-toy-kata-499440.mp3
+- id: A2P2-U05-025
+  greek: το ωράριο καταστημάτων
+  english: store opening hours / operating schedule
+  notes: 'Compound collocation: το ωράριο + καταστημάτων. Crucial for Reading Task
+    1.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: το ωράριο (schedule/hours)
+    genitive_plural: των καταστημάτων
+  keg_communicative_function: Reading and understanding retail business hours notices
+  example_el: Το εορταστικό ωράριο καταστημάτων περιλαμβάνει και λειτουργία τις Κυριακές.
+  example_en: The holiday store opening hours include operating on Sundays.
+  example2_el: Ποιο είναι το ωράριο των εμπορικών καταστημάτων την Τετάρτη το απόγευμα;
+  example2_en: What are commercial store hours on Wednesday afternoon?
+  audio: to-orario-katastimat-81956c.mp3
+  status: verified
+  example_audio: to-eortastiko-orario-413c33.mp3
+  example2_audio: poio-einai-to-orario-27de9c.mp3
+- id: A2P2-U05-026
+  greek: τα ψώνια της εβδομάδας
+  english: weekly grocery shopping
+  notes: 'Collocation: τα ψώνια + genitive της εβδομάδας.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: τα ψώνια (neuter plural)
+    genitive: της εβδομάδας
+  keg_communicative_function: Describing household routine procurement chores
+  example_el: Κάθε Σάββατο πρωί πηγαίνουμε στο σούπερ μάρκετ για τα ψώνια της εβδομάδας.
+  example_en: Every Saturday morning we go to the supermarket for the weekly shopping.
+  example2_el: Κάνω μια λίστα πριν φύγω από το σπίτι για να μην ξεχάσω τίποτα.
+  example2_en: I make a list before leaving home so I don't forget anything.
+  audio: ta-psonia-tis-evdoma-41599c.mp3
+  status: verified
+  example_audio: kathe-savvato-proi-p-66a0c1.mp3
+  example2_audio: kano-mia-lista-prin--d05495.mp3
+- id: A2P2-U05-027
+  greek: το καλάθι αγορών
+  english: shopping cart / shopping basket
+  notes: Physical or virtual online shopping cart.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: το καλάθι (basket)
+    genitive: αγορών
+  keg_communicative_function: Navigating physical or e-commerce supermarket baskets
+  example_el: Πάρτε ένα καλάθι αγορών από την είσοδο πριν ξεκινήσετε τα ψώνια.
+  example_en: Take a shopping basket from the entrance before you start shopping.
+  example2_el: Πρόσθεσα όλα τα προϊόντα στο ηλεκτρονικό καλάθι αγορών.
+  example2_en: I added all products to the online shopping cart.
+  audio: to-kalathi-agoron-18ec5b.mp3
+  status: verified
+  example_audio: parte-ena-kalathi-ag-e06a9f.mp3
+  example2_audio: prosthesa-ola-ta-pro-45f9d3.mp3
+- id: A2P2-U05-028
+  greek: στα ράφια
+  english: on the shelves
+  notes: 'Prepositional phrase: σε + τα ράφια (from το ράφι, gen: του ραφιού).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    noun: 'το ράφι (plural: τα ράφια)'
+  keg_communicative_function: Locating merchandise on grocery supermarket displays
+  example_el: Σε ποια ράφια βρίσκονται τα γαλακτοκομικά προϊόντα;
+  example_en: On which shelves are dairy products located?
+  example2_el: Τα καινούρια βιβλία τοποθετήθηκαν στα κεντρικά ράφια του βιβλιοπωλείου.
+  example2_en: The new books were placed on the central shelves of the bookstore.
+  audio: sta-rafia-2595ba.mp3
+  status: verified
+  example_audio: se-poia-rafia-vrisko-42661e.mp3
+  example2_audio: ta-kainoyria-vivlia--03f712.mp3
+- id: A2P2-U05-029
+  greek: η ημερομηνία λήξης
+  english: expiration date / best before date
+  notes: 'Collocation: η ημερομηνία + genitive feminine της λήξης. Vital product label
+    info.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η ημερομηνία (date)
+    genitive: της λήξης (from η λήξη, expiration)
+  keg_communicative_function: Checking product safety labels and food expiry dates
+  example_el: Ελέγχετε πάντα την ημερομηνία λήξης στα τρόφιμα πριν τα αγοράσετε.
+  example_en: Always check the expiration date on foods before buying them.
+  example2_el: Αυτό το γιαούρτι έχει περάσει την ημερομηνία λήξης του και δεν πρέπει
+    να καταναλωθεί.
+  example2_en: This yogurt has passed its expiration date and should not be consumed.
+  audio: i-imerominia-lixis-6d374e.mp3
+  status: verified
+  example_audio: elegchete-panta-tin--ec9a0e.mp3
+  example2_audio: ayto-to-giaoyrti-ech-ce11f5.mp3
+- id: A2P2-U05-030
+  greek: συμφέρει οικονομικά
+  english: it is economical / it is good value for money
+  notes: Verb συμφέρει (impersonal 3rd singular) + adverb οικονομικά.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: συμφέρει (impersonal present)
+    adverb: οικονομικά
+  keg_communicative_function: Evaluating cost-effectiveness and economic value in
+    purchases
+  example_el: Συμφέρει οικονομικά να αγοράσουμε τη μεγάλη οικογενειακή συσκευασία.
+  example_en: It is economically advantageous to buy the large family pack.
+  example2_el: Η μηνιαία κάρτα απεριορίστων διαδρομών συμφέρει πολύ περισσότερο από
+    τα απλά εισιτήρια.
+  example2_en: The monthly unlimited transit card is much more economical than single
+    tickets.
+  audio: symferei-oikonomika-c7b4da.mp3
+  status: verified
+  example_audio: symferei-oikonomika--401baa.mp3
+  example2_audio: i-miniaia-karta-aper-c97afb.mp3

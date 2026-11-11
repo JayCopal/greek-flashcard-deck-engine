@@ -1,0 +1,198 @@
+unit_id: unit-a2-07
+lesson_id: lesson-01
+title: 'Μάθημα 7: Γραπτός Λόγος — Το Σπίτι, η Γειτονιά & Μετακόμιση (A2 Writing: Housing
+  & Moving)'
+description: Describing apartments, rooms, locations, and neighborhood facilities,
+  handling housewarming invitations and practical rental inquiries.
+lesson_status: not_started
+lesson_notes: "Unit A2-07 Core Notes: Το Σπίτι & η Γειτονιά (Housing & City Life)\n\
+  • Frequent Prompts:\n  - Writing an email to a friend announcing a move to a new\
+  \ flat and describing the rooms and location.\n  - Asking rental questions (floor,\
+  \ elevator, heating, balcony, metro access).\n• Key Spatial Prepositions & Adverbs:\n\
+  \  - στον [πρώτο/δεύτερο/τρίτο] όροφο (on the [1st/2nd/3rd] floor)\n  - απέναντι\
+  \ από (opposite to / across from)\n  - δίπλα σε / κοντά σε (next to / near to)\n\
+  \  - μακριά από (far from)\n• Essential Vocabulary:\n  - διαμέρισμα, σαλόνι, κουζίνα,\
+  \ υπνοδωμάτιο, μπαλκόνι, ασανσέρ, κεντρική θέρμανση, ενοίκιο, κοινόχρηστα."
+entries:
+- id: A2-U07-001
+  greek: Πρόσφατα μετακόμισα σε ένα καινούργιο διαμέρισμα στο κέντρο της πόλης.
+  english: Recently I moved to a new apartment in the city center.
+  notes: '[Lego Sentence Builder] Aorist ''μετακόμισα'' (from μετακομίζω) + time adverb
+    ''πρόσφατα''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Announcing a move to a new home in personal correspondence
+  example_el: Σου γράφω για να σου πω ότι πρόσφατα μετακόμισα σε ένα καινούργιο διαμέρισμα
+    στο κέντρο της πόλης.
+  example_en: I am writing to tell you that recently I moved to a new apartment in
+    the city center.
+  audio: prosfata-metakomisa--181ad6.mp3
+  status: verified
+- id: A2-U07-002
+  greek: Το σπίτι είναι στον τρίτο όροφο, είναι πολύ φωτεινό και έχει δύο υπνοδωμάτια.
+  english: The house is on the third floor, it is very bright and has two bedrooms.
+  notes: '[Lego Sentence Builder] Ordinal number ''στον τρίτο όροφο'' + descriptive
+    adjective ''φωτεινό'' + rooms.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing apartment floor, lighting, and room count
+  example_el: Το σπίτι είναι στον τρίτο όροφο μιας πολυκατοικίας, είναι πολύ φωτεινό
+    και έχει δύο μεγάλα υπνοδωμάτια.
+  example_en: The house is on the third floor of an apartment building, it is very
+    bright and has two large bedrooms.
+  audio: to-spiti-einai-ston--2a5053.mp3
+  status: verified
+- id: A2-U07-003
+  greek: Έχει ένα μεγάλο μπαλκόνι με όμορφη θέα σε ένα μικρό πάρκο.
+  english: It has a large balcony with a beautiful view of a small park.
+  notes: '[Lego Sentence Builder] Balcony and view: ''θέα σε'' + accusative.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing balconies and views in residential descriptions
+  example_el: Το σαλόνι έχει ένα μεγάλο μπαλκόνι με όμορφη θέα σε ένα μικρό πάρκο
+    γεμάτο δέντρα.
+  example_en: The living room has a large balcony with a beautiful view of a small
+    park full of trees.
+  audio: echei-ena-megalo-mpa-e52633.mp3
+  status: verified
+- id: A2-U07-004
+  greek: Η γειτονιά είναι ήσυχη και βρίσκεται πολύ κοντά στη στάση του μετρό.
+  english: The neighborhood is quiet and is located very close to the metro stop.
+  notes: '[Lego Sentence Builder] Neighborhood amenities: ''κοντά σε'' + feminine
+    accusative ''στη στάση του μετρό''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing neighborhood atmosphere and public transit
+    proximity
+  example_el: Η γειτονιά είναι ήσυχη και ασφαλής και βρίσκεται πολύ κοντά στη στάση
+    του μετρό και σε στάσεις λεωφορείων.
+  example_en: The neighborhood is quiet and safe and is located very close to the
+    metro stop and bus stops.
+  audio: i-geitonia-einai-isy-16e8c8.mp3
+  status: verified
+- id: A2-U07-005
+  greek: Κοντά στο σπίτι υπάρχουν σούπερ μάρκετ, φαρμακείο και πολλές ωραίες καφετέριες.
+  english: Near the house there are supermarkets, a pharmacy, and many nice cafes.
+  notes: '[Lego Sentence Builder] Listing neighborhood services: ''υπάρχουν'' (there
+    are) + plural nouns.'
+  gender_or_pos: sentence
+  keg_communicative_function: Listing neighborhood infrastructure and daily amenities
+  example_el: 'Είναι πολύ βολική τοποθεσία: κοντά στο σπίτι υπάρχουν σούπερ μάρκετ,
+    φαρμακείο και πολλές ωραίες καφετέριες.'
+  example_en: 'It is a very convenient location: near the house there are supermarkets,
+    a pharmacy, and many nice cafes.'
+  audio: konta-sto-spiti-ypar-9029a6.mp3
+  status: verified
+- id: A2-U07-006
+  greek: Το ενοίκιο είναι λογικό και στην τιμή περιλαμβάνονται τα κοινόχρηστα.
+  english: The rent is reasonable and the building fees are included in the price.
+  notes: '[Lego Sentence Builder] Practical housing: ''ενοίκιο'' (rent), ''κοινόχρηστα''
+    (building maintenance fees).'
+  gender_or_pos: sentence
+  keg_communicative_function: Stating rental costs and included utilities
+  example_el: Το ενοίκιο είναι λογικό για την περιοχή και στην τιμή περιλαμβάνονται
+    τα κοινόχρηστα και το νερό.
+  example_en: The rent is reasonable for the area and the building fees and water
+    are included in the price.
+  audio: to-enoikio-einai-log-fe26b1.mp3
+  status: verified
+- id: A2-U07-007
+  greek: Θέλω να σε καλέσω να δεις το καινούργιο μου σπίτι το επόμενο Σάββατο.
+  english: I want to invite you to see my new home next Saturday.
+  notes: '[Housewarming Invite] Modal ''θέλω να'' + subjunctive ''να σε καλέσω'' +
+    day of the week in accusative.'
+  gender_or_pos: sentence
+  keg_communicative_function: Inviting a friend to a housewarming visit
+  example_el: Μόλις τελείωσα το τακτοποίηση! Θέλω να σε καλέσω να δεις το καινούργιο
+    μου σπίτι το επόμενο Σάββατο στις επτά.
+  example_en: I just finished unpacking! I want to invite you to see my new home next
+    Saturday at seven.
+  audio: thelo-na-se-kaleso-n-379ee8.mp3
+  status: verified
+- id: A2-U07-008
+  greek: Σημείωμα σε φίλο για το νέο διαμέρισμα & πρόσκληση (Task 1 Simulation)
+  english: 'Prompt: Write a 35-40 word note telling a friend about your new apartment
+    and inviting them over.'
+  notes: '[Micro-Prompt Simulation - Task 1: 37 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα μήνυμα στον φίλο σας τον Αλέξη (35-40 λέξεις) για να του πείτε:
+
+    • ότι μετακομίσατε σε νέο σπίτι
+
+    • σε ποια περιοχή βρίσκεται και πώς είναι
+
+    • καλέστε τον να σας επισκεφτεί το Σαββατοκύριακο»
+
+
+    Gold-Standard Model Response:
+
+    Γεια σου Αλέξη!
+
+    Μετακόμισα πρόσφατα σε ένα καινούργιο διαμέρισμα στο Μαρούσι. Το σπίτι είναι μεγάλο,
+    φωτεινό και έχει όμορφη θέα. Θα χαρώ πολύ να έρθεις να το δεις αυτό το Σάββατο
+    το απόγευμα. Σε περιμένω!
+
+    Φιλιά,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a functional note announcing a move and inviting
+    a visitor
+  example_el: Γεια σου Αλέξη, μετακόμισα πρόσφατα σε νέο διαμέρισμα στο Μαρούσι. Το
+    σπίτι είναι μεγάλο και φωτεινό. Έλα να το δεις το Σάββατο! Φιλιά!
+  example_en: Hi Alexis, I moved recently to a new apartment in Marousi. The home
+    is large and bright. Come see it on Saturday! Kisses!
+  audio: simeioma-se-filo-gia-e9df60.mp3
+  status: verified
+- id: A2-U07-009
+  greek: Email σε φίλο συγκρίνοντας την παλιά και τη νέα γειτονιά (Task 2 Simulation)
+  english: 'Prompt: Write a 65-75 word email comparing your old and new apartment
+    and neighborhood.'
+  notes: '[Micro-Prompt Simulation - Task 2: 70 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα email σε έναν φίλο σας (60-75 λέξεις) για να συγκρίνετε το παλιό με
+    το καινούργιο σας σπίτι:
+
+    • πού βρισκόταν το παλιό και πού το νέο
+
+    • τι διαφορές έχουν σε μέγεθος και άνεση
+
+    • πώς είναι η νέα σας γειτονιά»
+
+
+    Gold-Standard Model Response:
+
+    Αγαπητή Μαρία,
+
+    Σου γράφω από το καινούργιο μου σπίτι! Το παλιό μου διαμέρισμα ήταν μικρό, σκοτεινό
+    και βρισκόταν μακριά από το κέντρο.
+
+    Αντίθετα, το νέο σπίτι είναι πολύ πιο άνετο, έχει μεγάλα παράθυρα και βρίσκεται
+    κοντά στη στάση του μετρό. Επιπλέον, η νέα γειτονιά είναι ήσυχη και έχει πολλά
+    πάρκα και μαγαζιά. Είμαι πολύ χαρούμενος με αυτή την αλλαγή!
+
+    Με αγάπη,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a comparative text evaluating two living arrangements
+  example_el: Αγαπητή Μαρία, το παλιό μου σπίτι ήταν μικρό και σκοτεινό. Αντίθετα,
+    το νέο είναι άνετο, φωτεινό και κοντά στο μετρό. Είμαι πολύ χαρούμενος!
+  example_en: Dear Maria, my old house was small and dark. In contrast, the new one
+    is comfortable, bright, and near the metro. I am very happy!
+  audio: email-se-filo-sygkri-0435cf.mp3
+  status: verified
+- id: A2-U07-010
+  greek: Η πολυκατοικία διαθέτει ασανσέρ και αυτόνομη θέρμανση φυσικού αερίου.
+  english: The apartment building features an elevator and autonomous natural gas
+    heating.
+  notes: '[Lego Sentence Builder] Building infrastructure: ''διαθέτει'' (features/possesses),
+    ''ασανσέρ'' (elevator), ''αυτόνομη θέρμανση''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing building amenities and heating specifications
+  example_el: Το διαμέρισμα είναι ανακαινισμένο και η πολυκατοικία διαθέτει ασανσέρ
+    και αυτόνομη θέρμανση φυσικού αερίου.
+  example_en: The apartment is renovated and the apartment building features an elevator
+    and autonomous natural gas heating.
+  audio: i-polykatoikia-diath-8ae38a.mp3
+  status: verified

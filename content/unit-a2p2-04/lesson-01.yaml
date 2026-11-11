@@ -1,0 +1,587 @@
+unit_id: unit-a2p2-04
+lesson_id: lesson-01
+title: 'Μάθημα 4: Διατροφή, Μαγειρική & Ελληνική Κουζίνα (Food, Cooking & Culinary
+  Culture)'
+description: Understanding recipes, cooking steps, Greek culinary terms, restaurant
+  dining, food allergies, and social customs for the KEG A2 Reading and Speaking tasks.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-04 Core Notes: Διατροφή, Μαγειρική & Ελληνική Κουζίνα (Food,\
+  \ Cooking & Culinary Culture)\n• Official KEG A2 Exam Alignment:\n  - Reading Task\
+  \ 2: Following recipe instructions and culinary steps (πλένω, καθαρίζω, τσιγαρίζω,\
+  \ βράζω, ψήνω, προσθέτω, ανακατεύω, σερβίρω).\n  - Speaking Stage 2 & 3: Restaurant\
+  \ dining dialogues, ordering special diets (χορτοφάγος, αλλεργία), discussing bills,\
+  \ tipping, and Greek social toasts (στην υγειά μας, κερνάω)."
+entries:
+- id: A2P2-U04-001
+  greek: η συνταγή
+  english: recipe / medical prescription
+  notes: 'Dual meaning: cooking recipe and doctor''s prescription. Essential for A2.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της συνταγής
+    plural: οι συνταγές
+  keg_communicative_function: Following or sharing culinary recipes and procedures
+  example_el: Ακολούθησα πιστά τη συνταγή της γιαγιάς για να φτιάξω μουσακά.
+  example_en: I followed grandmother's recipe faithfully to make moussaka.
+  example2_el: Μπορείς να μου γράψεις τη συνταγή για αυτό το υπέροχο κέικ σοκολάτας;
+  example2_en: Can you write down the recipe for this wonderful chocolate cake for
+    me?
+  audio: i-syntagi-f62f1d.mp3
+  status: verified
+  example_audio: akoloythisa-pista-ti-75803c.mp3
+  example2_audio: mporeis-na-moy-graps-16c9f3.mp3
+- id: A2P2-U04-002
+  greek: τα υλικά
+  english: ingredients / materials
+  notes: 'Neuter plural: τα υλικά (from το υλικό). Standard recipe heading.'
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter plural
+    genitive: των υλικών
+  keg_communicative_function: Listing culinary ingredients required for dish preparation
+  example_el: Πριν ξεκινήσουμε το μαγείρεμα, ας ελέγξουμε αν έχουμε όλα τα απαραίτητα
+    υλικά.
+  example_en: Before we start cooking, let's check if we have all the necessary ingredients.
+  example2_el: Τα βασικά υλικά για τη χωριάτικη σαλάτα είναι ντομάτες, αγγούρι και
+    φέτα.
+  example2_en: The basic ingredients for the Greek salad are tomatoes, cucumber, and
+    feta.
+  audio: ta-ylika-bee7f7.mp3
+  status: verified
+  example_audio: prin-xekinisoyme-to--d2a197.mp3
+  example2_audio: ta-vasika-ylika-gia--0b26d2.mp3
+- id: A2P2-U04-003
+  greek: πλένω τα λαχανικά
+  english: I wash the vegetables
+  notes: 'Irregular aorist of πλένω: έπλυνα. Crucial prep action.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'πλένω (aorist: έπλυνα, imperative: πλύνε / πλύντε)'
+    noun: τα λαχανικά
+  keg_communicative_function: Describing pre-cooking cleaning procedures
+  example_el: Πρέπει να πλένουμε πολύ καλά τα λαχανικά με άφθονο τρεχούμενο νερό.
+  example_en: We must wash the vegetables very well with plenty of running water.
+  example2_el: Έπλυνα το μαρούλι και το έκοψα σε λεπτές λωρίδες.
+  example2_en: I washed the lettuce and cut it into thin strips.
+  audio: pleno-ta-lachanika-859c3e.mp3
+  status: verified
+  example_audio: prepei-na-plenoyme-p-2b839e.mp3
+  example2_audio: eplyna-to-maroyli-ka-df991d.mp3
+- id: A2P2-U04-004
+  greek: καθαρίζω τα φρούτα / τις πατάτες
+  english: I peel / clean the fruit / potatoes
+  notes: 'Verb καθαρίζω (aorist: καθάρισα). Covers both peeling and cleaning.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'καθαρίζω (aorist: καθάρισα)'
+  keg_communicative_function: Instructing how to peel and prepare raw produce
+  example_el: Καθάρισε τις πατάτες και κόψε τες σε ίσους κύβους για τη σούπα.
+  example_en: Peel the potatoes and cut them into equal cubes for the soup.
+  example2_el: Προτιμώ να καθαρίζω τα μήλα πριν τα δώσω στα παιδιά.
+  example2_en: I prefer to peel apples before giving them to the children.
+  audio: katharizo-ta-froyta--2858fd.mp3
+  status: verified
+  example_audio: katharise-tis-patate-f1bb00.mp3
+  example2_audio: protimo-na-katharizo-9aaf66.mp3
+- id: A2P2-U04-005
+  greek: κόβω σε μικρά κομμάτια
+  english: I cut into small pieces
+  notes: 'Action instruction: κόβω (aorist: έκοψα) + σε μικρά κομμάτια.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'κόβω (aorist: έκοψα, imperative: κόψε / κόψτε)'
+    prepositional_phrase: σε μικρά κομμάτια
+  keg_communicative_function: Giving precise slicing instructions in recipe execution
+  example_el: Κόψτε το κρέας σε μικρά κομμάτια και βάλτε το στο μπολ.
+  example_en: Cut the meat into small pieces and put it in the bowl.
+  example2_el: Έκοψα το ψωμί σε φέτες για να φτιάξω τοστ.
+  example2_en: I cut the bread into slices to make toast.
+  audio: kovo-se-mikra-kommat-e5dda2.mp3
+  status: verified
+  example_audio: kopste-to-kreas-se-m-b1abe7.mp3
+  example2_audio: ekopsa-to-psomi-se-f-ec98e5.mp3
+- id: A2P2-U04-006
+  greek: τσιγαρίζω το κρεμμύδι
+  english: I saute / brown the onion
+  notes: 'Core Greek cooking technique: τσιγαρίζω / σοτάρω.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'τσιγαρίζω (aorist: τσιγάρισα)'
+    noun: το κρεμμύδι
+  keg_communicative_function: Describing pan-frying foundation techniques in Greek
+    cuisine
+  example_el: Τσιγαρίζουμε το ψιλοκομμένο κρεμμύδι σε λίγο ελαιόλαδο μέχρι να ροδίσει.
+  example_en: We saute the finely chopped onion in a little olive oil until it browns.
+  example2_el: Μόλις τσιγαριστεί το κρεμμύδι, προσθέστε τον κιμά στην κατσαρόλα.
+  example2_en: As soon as the onion is browned, add the minced meat into the pot.
+  audio: tsigarizo-to-kremmyd-da87e7.mp3
+  status: verified
+  example_audio: tsigarizoyme-to-psil-35189c.mp3
+  example2_audio: molis-tsigaristei-to-e7229c.mp3
+- id: A2P2-U04-007
+  greek: βράζω σε μέτρια φωτιά
+  english: I boil / simmer on medium heat
+  notes: 'Verb βράζω (aorist: έβρασα). Governs σε μέτρια / χαμηλή / δυνατή φωτιά.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'βράζω (aorist: έβρασα)'
+    noun_phrase: σε μέτρια φωτιά
+  keg_communicative_function: Specifying boiling intensity and temperature controls
+  example_el: Αφήνουμε τη σάλτσα να βράσει σε μέτρια φωτιά για είκοσι λεπτά.
+  example_en: We let the sauce simmer on medium heat for twenty minutes.
+  example2_el: Βράσε τα ζυμαρικά σε άφθονο αλατισμένο νερό για οκτώ λεπτά.
+  example2_en: Boil the pasta in plenty of salted water for eight minutes.
+  audio: vrazo-se-metria-foti-d11947.mp3
+  status: verified
+  example_audio: afinoyme-ti-saltsa-n-23a764.mp3
+  example2_audio: vrase-ta-zymarika-se-61ce10.mp3
+- id: A2P2-U04-008
+  greek: ψήνω στον φούρνο
+  english: I bake / roast in the oven
+  notes: 'Verb ψήνω (aorist: έψησα). Used for baking bread, pies, meat.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'ψήνω (aorist: έψησα, passive: ψήνομαι)'
+    noun: ο φούρνος (oven)
+  keg_communicative_function: Specifying oven cooking methods and temperatures
+  example_el: Ψήνουμε το κοτόπουλο με πατάτες στον φούρνο στους εκατόν ογδόντα βαθμούς.
+  example_en: We roast chicken with potatoes in the oven at one hundred eighty degrees.
+  example2_el: Η τυρόπιτα ψήθηκε και μοσχομύρισε όλο το σπίτι.
+  example2_en: The cheese pie baked and made the whole house smell fragrant.
+  audio: psino-ston-foyrno-c00948.mp3
+  status: verified
+  example_audio: psinoyme-to-kotopoyl-fe2667.mp3
+  example2_audio: i-tyropita-psithike--4909dd.mp3
+- id: A2P2-U04-009
+  greek: τηγανίζω στο τηγάνι
+  english: I fry in the frying pan
+  notes: 'Verb τηγανίζω (aorist: τηγάνισα). Noun: το τηγάνι.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'τηγανίζω (aorist: τηγάνισα)'
+    noun: το τηγάνι
+  keg_communicative_function: Directing pan-frying procedures for fish, potatoes,
+    or eggs
+  example_el: Τηγανίζουμε τα καλαμαράκια σε καυτό λάδι μέχρι να γίνουν τραγανά.
+  example_en: We fry the calamari in hot oil until they become crispy.
+  example2_el: Αποφεύγω να τηγανίζω συχνά επειδή προτιμώ τα ψητά φαγητά.
+  example2_en: I avoid frying often because I prefer grilled foods.
+  audio: tiganizo-sto-tigani-5dab33.mp3
+  status: verified
+  example_audio: tiganizoyme-ta-kalam-fdc6e2.mp3
+  example2_audio: apofeygo-na-tiganizo-7a76fc.mp3
+- id: A2P2-U04-010
+  greek: προσθέτω αλάτι και πιπέρι
+  english: I add salt and pepper
+  notes: 'Verb προσθέτω (aorist: πρόσθεσα). Basic seasoning collocation.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'προσθέτω (aorist: πρόσθεσα, imperative: πρόσθεσε / προσθέστε)'
+    nouns: το αλάτι, το πιπέρι
+  keg_communicative_function: Instructing seasoning steps during cooking
+  example_el: Δοκιμάστε τη σούπα και προσθέστε αλάτι και πιπέρι αν χρειάζεται.
+  example_en: Taste the soup and add salt and pepper if needed.
+  example2_el: Πρόσθεσα λίγη ρίγανη και φρέσκο πιπέρι στη χωριάτικη σαλάτα.
+  example2_en: I added a little oregano and fresh pepper to the Greek salad.
+  audio: prostheto-alati-kai--19151a.mp3
+  status: verified
+  example_audio: dokimaste-ti-soypa-k-6306cf.mp3
+  example2_audio: prosthesa-ligi-rigan-eff41f.mp3
+- id: A2P2-U04-011
+  greek: ανακατεύω καλά
+  english: I stir / mix well
+  notes: 'Verb ανακατεύω (aorist: ανακάτεψα). Frequent kitchen imperative.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'ανακατεύω (aorist: ανακάτεψα, imperative: ανακάτεψε / ανακατέψτε)'
+    adverb: καλά
+  keg_communicative_function: Directing stirring and blending of recipe mixtures
+  example_el: Ανακατέψτε καλά τα υλικά με μια ξύλινη κουτάλα μέχρι να ομογενοποιηθούν.
+  example_en: Stir the ingredients well with a wooden spoon until they homogenize.
+  example2_el: Ανακάτεψε το γιαούρτι με το σκόρδο για να φτιάξεις τζατζίκι.
+  example2_en: Mix the yogurt with garlic to make tzatziki.
+  audio: anakateyo-kala-7e8d37.mp3
+  status: verified
+  example_audio: anakatepste-kala-ta--d62502.mp3
+  example2_audio: anakatepse-to-giaoyr-f706c8.mp3
+- id: A2P2-U04-012
+  greek: σερβίρω ζεστό
+  english: I serve hot
+  notes: 'Verb σερβίρω (aorist: σέρβιρα). Standard plating instruction.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: 'σερβίρω (aorist: σέρβιρα, passive: σερβίρομαι)'
+    adjective: ζεστό (hot) / κρύο (cold)
+  keg_communicative_function: Specifying serving temperature and presentation of a
+    meal
+  example_el: Το παστίτσιο σερβίρεται ζεστό με συνοδεία πράσινης σαλάτας.
+  example_en: Pastitsio is served hot accompanied by a green salad.
+  example2_el: Σέρβιρε τη σούπα αμέσως μόλις βγει από τη φωτιά.
+  example2_en: Serve the soup immediately once it comes off the heat.
+  audio: serviro-zesto-d03399.mp3
+  status: verified
+  example_audio: to-pastitsio-servire-a92502.mp3
+  example2_audio: servire-ti-soypa-ame-ece14a.mp3
+- id: A2P2-U04-013
+  greek: το ελαιόλαδο
+  english: olive oil
+  notes: 'Compound noun: ελιά + λάδι. Quintessential Mediterranean staple.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του ελαιολάδου
+    colloquial: το λάδι
+  keg_communicative_function: Discussing key agricultural products and cooking fats
+  example_el: Η ελληνική κουζίνα βασίζεται στην εξαιρετική ποιότητα του παρθένου ελαιολάδου.
+  example_en: Greek cuisine is based on the exceptional quality of extra virgin olive
+    oil.
+  example2_el: Βάλτε δύο κουταλιές ελαιόλαδο στο τηγάνι πριν ρίξετε τα λαχανικά.
+  example2_en: Put two spoonfuls of olive oil into the pan before adding the vegetables.
+  audio: to-elaiolado-13a194.mp3
+  status: verified
+  example_audio: i-elliniki-koyzina-v-6232c6.mp3
+  example2_audio: valte-dyo-koytalies--b38d4f.mp3
+- id: A2P2-U04-014
+  greek: τα μπαχαρικά
+  english: spices
+  notes: Neuter plural noun (from το μπαχαρικό).
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter plural
+    genitive: των μπαχαρικών
+  keg_communicative_function: Discussing seasonings, aromatics, and flavour enhancements
+  example_el: Αυτή η συνταγή περιέχει ανατολίτικα μπαχαρικά όπως κύμινο και κανέλα.
+  example_en: This recipe contains oriental spices such as cumin and cinnamon.
+  example2_el: Αγοράζω φρέσκα μπαχαρικά από την κεντρική αγορά της πόλης.
+  example2_en: I buy fresh spices from the central market of the city.
+  audio: ta-mpacharika-b77918.mp3
+  status: verified
+  example_audio: ayti-i-syntagi-perie-5c460b.mp3
+  example2_audio: agorazo-freska-mpach-514c74.mp3
+- id: A2P2-U04-015
+  greek: τα μυρωδικά / τα βότανα
+  english: herbs / aromatic greens
+  notes: 'Fresh Greek herbs: ρίγανη, δυόσμος, άνηθος, μαϊντανός, δεντρολίβανο.'
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter plural
+    singular: το μυρωδικό, το βότανο
+  keg_communicative_function: Identifying aromatic herbs in Greek culinary traditions
+  example_el: Προσθέτουμε φρέσκα μυρωδικά όπως δυόσμο και μαϊντανό στους κεφτέδες.
+  example_en: We add fresh herbs such as spearmint and parsley to the meatballs.
+  example2_el: Το τσάι του βουνού είναι ένα παραδοσιακό ελληνικό ρόφημα από βότανα.
+  example2_en: Mountain tea is a traditional Greek herbal beverage.
+  audio: ta-myrodika-ta-votan-03b94f.mp3
+  status: verified
+  example_audio: prosthetoyme-freska--8d76ea.mp3
+  example2_audio: to-tsai-toy-voynoy-e-5647b1.mp3
+- id: A2P2-U04-016
+  greek: παραδοσιακός, -ή, -ό
+  english: traditional
+  notes: Adjective in -ος, -η, -ο. From η παράδοση (tradition).
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: παραδοσιακός
+    feminine: παραδοσιακή
+    neuter: παραδοσιακό
+  keg_communicative_function: Characterizing authentic cultural dishes and customs
+  example_el: Φάγαμε σε μια παραδοσιακή ταβέρνα δίπλα στο κύμα.
+  example_en: We ate at a traditional tavern by the waves.
+  example2_el: Η παραδοσιακή ελληνική φιλοξενία εντυπωσιάζει όλους τους τουρίστες.
+  example2_en: Traditional Greek hospitality impresses all tourists.
+  audio: paradosiakos-i-o-66831e.mp3
+  status: verified
+  example_audio: fagame-se-mia-parado-e0b362.mp3
+  example2_audio: i-paradosiaki-ellini-693060.mp3
+- id: A2P2-U04-017
+  greek: σπιτικός, -ή, -ό
+  english: homemade / home-cooked
+  notes: From το σπίτι (home). Synonymous with high quality food.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: σπιτικός
+    feminine: σπιτική
+    neuter: σπιτικό
+  keg_communicative_function: Praising homemade food quality over industrial meals
+  example_el: Τίποτα δεν συγκρίνεται με ένα ζεστό σπιτικό φαγητό.
+  example_en: Nothing compares to a warm home-cooked meal.
+  example2_el: Μας πρόσφεραν σπιτική λεμονάδα και γλυκό του κουταλιού.
+  example2_en: They offered us homemade lemonade and spoon sweets.
+  audio: spitikos-i-o-6f69bc.mp3
+  status: verified
+  example_audio: tipota-den-sygkrinet-2e4016.mp3
+  example2_audio: mas-prosferan-spitik-e91410.mp3
+- id: A2P2-U04-018
+  greek: νόστιμος, -η, -ο
+  english: tasty / delicious
+  notes: 'Opposite: άνοστος (bland). Core culinary compliment.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: νόστιμος
+    feminine: νόστιμη
+    neuter: νόστιμο
+    adverb: νόστιμα
+  keg_communicative_function: Expressing appreciation for tasty food at restaurants
+    or gatherings
+  example_el: Το ψάρι ήταν εξαιρετικά νόστιμο και ψημένο στην εντέλεια.
+  example_en: The fish was exceptionally tasty and cooked to perfection.
+  example2_el: Συγχαρητήρια στη μαγείρισσα, όλα τα πιάτα ήταν πεντανόστιμα!
+  example2_en: Congratulations to the cook, all dishes were delicious!
+  audio: nostimos-i-o-d931e4.mp3
+  status: verified
+  example_audio: to-psari-itan-exaire-41394a.mp3
+  example2_audio: sygcharitiria-sti-ma-5f9d43.mp3
+- id: A2P2-U04-019
+  greek: άνοστος, -η, -ο
+  english: bland / tasteless
+  notes: Negative prefix αν- + νόστιμος. Feedback in food critique.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: άνοστος
+    feminine: άνοστη
+    neuter: άνοστο
+  keg_communicative_function: Expressing dissatisfaction with unseasoned or bland
+    meals
+  example_el: Το φαγητό ήταν αρκετά άνοστο γιατί έλειπε το αλάτι και τα μυρωδικά.
+  example_en: The food was quite bland because salt and herbs were lacking.
+  example2_el: Αυτές οι ντομάτες του θερμοκηπίου είναι εντελώς άνοστες.
+  example2_en: These greenhouse tomatoes are completely tasteless.
+  audio: anostos-i-o-d6fe45.mp3
+  status: verified
+  example_audio: to-fagito-itan-arket-2a8b58.mp3
+  example2_audio: aytes-oi-ntomates-to-63e612.mp3
+- id: A2P2-U04-020
+  greek: αλμυρός, -ή, -ό
+  english: salty / savory / pricey (metaphorical)
+  notes: From το αλάτι. Used both for food taste and high prices.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: αλμυρός
+    feminine: αλμυρή
+    neuter: αλμυρό
+  keg_communicative_function: Evaluating salt content in dishes or figurative bill
+    prices
+  example_el: Η φέτα είναι λίγο αλμυρή, οπότε μην βάλετε πολύ αλάτι στη σαλάτα.
+  example_en: The feta is a bit salty, so don't put too much salt in the salad.
+  example2_el: Ο λογαριασμός στο εστιατόριο ήταν αρκετά αλμυρός για όσα παραγγείλαμε.
+  example2_en: The restaurant bill was quite steep for what we ordered.
+  audio: almyros-i-o-1c8f37.mp3
+  status: verified
+  example_audio: i-feta-einai-ligo-al-589230.mp3
+  example2_audio: o-logariasmos-sto-es-c0c0f9.mp3
+- id: A2P2-U04-021
+  greek: πικάντικος, -η, -ο
+  english: spicy / piquant
+  notes: Food seasoning adjective. Loan from Italian piccante.
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: πικάντικος
+    feminine: πικάντικη
+    neuter: πικάντικο
+  keg_communicative_function: Indicating spicy flavours and heat levels in food
+  example_el: Σας αρέσουν τα πικάντικα φαγητά με καυτερή πιπεριά;
+  example_en: Do you like spicy dishes with hot pepper?
+  example2_el: Η τυροκαυτερή είναι μια δημοφιλής πικάντικη αλοιφή με φέτα και πιπεριά.
+  example2_en: Tirokafteri is a popular spicy dip made with feta and peppers.
+  audio: pikantikos-i-o-e29f9f.mp3
+  status: verified
+  example_audio: sas-aresoyn-ta-pikan-21596c.mp3
+  example2_audio: i-tyrokayteri-einai--42ccda.mp3
+- id: A2P2-U04-022
+  greek: ο/η χορτοφάγος
+  english: vegetarian
+  notes: 'Compound: χόρτο + φάγος (eating). Common dietary restriction in restaurants.'
+  gender_or_pos: noun / adjective
+  grammatical_info:
+    part_of_speech: noun / adjective
+    masculine: ο χορτοφάγος
+    feminine: η χορτοφάγος
+    neuter: το χορτοφαγικό
+  keg_communicative_function: Inquiring about vegetarian options on a menu
+  example_el: Είμαι χορτοφάγος, ποια πιάτα χωρίς κρέας μου προτείνετε από τον κατάλογο;
+  example_en: I am a vegetarian, which meat-free dishes do you recommend from the
+    menu?
+  example2_el: Το εστιατόριο προσφέρει πολλές χορτοφαγικές επιλογές με λαδερά και
+    όσπρια.
+  example2_en: The restaurant offers many vegetarian options with oil-stewed vegetables
+    and legumes.
+  audio: o-i-chortofagos-26fb52.mp3
+  status: verified
+  example_audio: eimai-chortofagos-po-292b1d.mp3
+  example2_audio: to-estiatorio-prosfe-960e08.mp3
+- id: A2P2-U04-023
+  greek: η αλλεργία
+  english: allergy
+  notes: 'Medical/dietary term. Plural: οι αλλεργίες.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της αλλεργίας
+    plural: οι αλλεργίες
+  keg_communicative_function: Notifying food providers of allergies in dining situations
+  example_el: Έχετε κάποια τροφική αλλεργία που πρέπει να γνωρίζει ο μάγειρας;
+  example_en: Do you have any food allergy that the chef needs to be aware of?
+  example2_el: Την άνοιξη υποφέρω από εποχική αλλεργία στη γύρη.
+  example2_en: In spring I suffer from seasonal pollen allergy.
+  audio: i-allergia-fed700.mp3
+  status: verified
+  example_audio: echete-kapoia-trofik-c71923.mp3
+  example2_audio: tin-anoixi-ypofero-a-df2957.mp3
+- id: A2P2-U04-024
+  greek: έχω αλλεργία σε...
+  english: I have an allergy to... / I am allergic to...
+  notes: Crucial safety sentence in dining out dialogues.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: έχω
+    preposition: σε + accusative
+  keg_communicative_function: Declaring specific food allergens to prevent medical
+    reactions
+  example_el: Έχω αλλεργία στους ξηρούς καρπούς, παρακαλώ προσέξτε στο γλυκό.
+  example_en: I have an allergy to nuts, please be careful with the dessert.
+  example2_el: Ο γιος μου έχει αλλεργία στα θαλασσινά και δεν μπορεί να φάει γαρίδες.
+  example2_en: My son is allergic to seafood and cannot eat shrimp.
+  audio: echo-allergia-se-225f35.mp3
+  status: verified
+  example_audio: echo-allergia-stoys--0e42a2.mp3
+  example2_audio: o-gios-moy-echei-all-97aa4d.mp3
+- id: A2P2-U04-025
+  greek: η ισορροπημένη διατροφή
+  english: balanced diet
+  notes: 'Collocation: ισορροπημένος (balanced) + η διατροφή (diet/nutrition).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η διατροφή
+    adjective: ισορροπημένη
+  keg_communicative_function: Discussing healthy nutrition, wellness, and lifestyle
+    habits
+  example_el: Η μεσογειακή διατροφή θεωρείται πρότυπο ισορροπημένης διατροφής διεθνώς.
+  example_en: The Mediterranean diet is internationally considered a model of a balanced
+    diet.
+  example2_el: Μια ισορροπημένη διατροφή περιλαμβάνει καθημερινά φρέσκα φρούτα και
+    λαχανικά.
+  example2_en: A balanced diet includes fresh fruits and vegetables daily.
+  audio: i-isorropimeni-diatr-4dcc85.mp3
+  status: verified
+  example_audio: i-mesogeiaki-diatrof-61b1b5.mp3
+  example2_audio: mia-isorropimeni-dia-20a7c2.mp3
+- id: A2P2-U04-026
+  greek: τα γλυκά / το επιδόρπιο
+  english: sweets / dessert
+  notes: End of meal selections in tavernas.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    neuter_plural: τα γλυκά
+    formal_singular: το επιδόρπιο
+  keg_communicative_function: Ordering desserts and post-meal refreshments
+  example_el: Θα πάρετε κάποιο επιδόρπιο μετά το κυρίως πιάτο;
+  example_en: Will you take any dessert after the main course?
+  example2_el: Στο τέλος του γεύματος μας κέρασαν παραδοσιακό γλυκό του κουταλιού
+    και ρακόμελο.
+  example2_en: At the end of the meal they treated us to traditional spoon sweets
+    and rakomelo.
+  audio: ta-glyka-to-epidorpi-fcba16.mp3
+  status: verified
+  example_audio: tha-parete-kapoio-ep-46a03a.mp3
+  example2_audio: sto-telos-toy-geymat-258ae1.mp3
+- id: A2P2-U04-027
+  greek: το φιλοδώρημα
+  english: tip / gratuity
+  notes: 'Etymology: φίλος + δώρο. Service gratuity in tavernas and cafes.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του φιλοδωρήματος
+    plural: τα φιλοδωρήματα
+  keg_communicative_function: Discussing tipping customs in Greek restaurant culture
+  example_el: Αφήσαμε ένα γενναιόδωρο φιλοδώρημα στον σερβιτόρο για την άψογη εξυπηρέτηση.
+  example_en: We left a generous tip for the waiter for the impeccable service.
+  example2_el: Στην Ελλάδα το φιλοδώρημα συνήθως αφήνεται μετρητά πάνω στο τραπέζι.
+  example2_en: In Greece, tips are usually left in cash on the table.
+  audio: to-filodorima-a52099.mp3
+  status: verified
+  example_audio: afisame-ena-gennaiod-82d7dc.mp3
+  example2_audio: stin-ellada-to-filod-f15041.mp3
+- id: A2P2-U04-028
+  greek: είμαι χορτάτος / χόρτασα
+  english: I am full / I have eaten enough
+  notes: 'Adjective: χορτάτος. Verb aorist: χόρτασα (from χορταίνω).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: χορταίνω -> χόρτασα (simple past)
+    adjective: χορτάτος / χορτάτη
+  keg_communicative_function: Politely declining additional food offers during meals
+  example_el: Σας ευχαριστώ πολύ, αλλά χόρτασα, δεν μπορώ να φάω άλλο.
+  example_en: Thank you very much, but I am full, I cannot eat any more.
+  example2_el: Τα παιδιά έφαγαν με όρεξη και ήταν απολύτως χορτάτα.
+  example2_en: The children ate with appetite and were completely full.
+  audio: eimai-chortatos-chor-699d65.mp3
+  status: verified
+  example_audio: sas-eycharisto-poly--7f2ee3.mp3
+  example2_audio: ta-paidia-efagan-me--dc72ac.mp3
+- id: A2P2-U04-029
+  greek: κερνάω
+  english: I treat / pay for someone's drink or food
+  notes: 'Greek cultural custom. Aorist: κέρασα. Noun: το κέρασμα.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    present: κερνάω / κερνώ (-άς, -άει)
+    aorist: κέρασα
+    noun: το κέρασμα
+  keg_communicative_function: Offering to pay for a round of drinks or food as a hospitality
+    gesture
+  example_el: Σήμερα είναι η γιορτή μου, οπότε κερνάω εγώ όλη την παρέα!
+  example_en: Today is my name day, so I treat the whole group!
+  example2_el: Μην βγάζεις πορτοφόλι, θα σε κεράσω εγώ τον καφέ.
+  example2_en: Don't take out your wallet, I will treat you to coffee.
+  audio: kernao-fb12ab.mp3
+  status: verified
+  example_audio: simera-einai-i-giort-dc5024.mp3
+  example2_audio: min-vgazeis-portofol-415015.mp3
+- id: A2P2-U04-030
+  greek: στην υγειά μας!
+  english: cheers! / to our health!
+  notes: 'Universal Greek toast before drinking. Short form: «γεια μας!»'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: exclamation / toast
+    preposition: σε + την υγειά (health) + κτητικό μας
+    short_form: γεια μας!
+  keg_communicative_function: Proposing a toast in social gatherings and celebrations
+  example_el: 'Σήκωσαν τα ποτήρια τους και φώναξαν με χαρά: «Στην υγειά μας!»'
+  example_en: 'They raised their glasses and cheered with joy: ''To our health!'''
+  example2_el: Στην υγειά μας και καλή επιτυχία στις εξετάσεις!
+  example2_en: To our health and best of success in the examinations!
+  audio: stin-ygeia-mas-3a320a.mp3
+  status: verified
+  example_audio: sikosan-ta-potiria-t-3b66ea.mp3
+  example2_audio: stin-ygeia-mas-kai-k-21f5e3.mp3

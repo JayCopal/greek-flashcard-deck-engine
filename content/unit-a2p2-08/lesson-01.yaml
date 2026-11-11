@@ -1,0 +1,581 @@
+unit_id: unit-a2p2-08
+lesson_id: lesson-01
+title: 'Μάθημα 8: Καιρός, Περιβάλλον & Γεωγραφία (Weather, Environment & Nature)'
+description: Understanding weather bulletins, seasonal forecasts, environmental protection
+  concepts, and describing Greek geography and outdoor excursions.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-08 Core Notes: Καιρός, Περιβάλλον & Εξορμήσεις\n• Environmental\
+  \ & Meteorological Framework:\n  - Weather bulletins and trip logistics (το δελτίο\
+  \ καιρού, η κακοκαιρία, η θερμοκρασία θα φτάσει).\n  - Landscape and outdoor recreation\
+  \ descriptions (το φυσικό τοπίο, τα κρυστάλλινα νερά, η αμμουδερή ακτή, το φαράγγι).\n\
+  \  - Ecological awareness in A2 texts (η προστασία του περιβάλλοντος, η ανακύκλωση,\
+  \ οι ανανεώσιμες πηγές)."
+entries:
+- id: A2P2-U08-001
+  greek: το δελτίο καιρού
+  english: weather forecast / weather bulletin
+  notes: 'Collocation: το δελτίο (bulletin) + γενική καιρού. Standard trigger in listening
+    and writing.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Referring to official meteorological reports when planning
+    outdoor events
+  example_el: Σύμφωνα με το δελτίο καιρού, το Σαββατοκύριακο θα έχει έντονες βροχές.
+  example_en: According to the weather forecast, on the weekend there will be heavy
+    rains.
+  example2_el: Ακούσατε το δελτίο καιρού για να ξέρουμε αν θα πάμε για πεζοπορία;
+  example2_en: Did you listen to the weather report so we know if we will go hiking?
+  status: verified
+  audio: to-deltio-kairoy-784414.mp3
+  example_audio: symfona-me-to-deltio-3a4273.mp3
+  example2_audio: akoysate-to-deltio-k-919dcb.mp3
+- id: A2P2-U08-002
+  greek: η κακοκαιρία
+  english: bad weather / severe storm
+  notes: 'Antonym: η καλοκαιρία (fine weather). Genitive: της κακοκαιρίας.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Explaining trip cancellations or event disruptions due
+    to severe weather
+  example_el: Λόγω της ξαφνικής κακοκαιρίας, όλα τα δρομολόγια των πλοίων ακυρώθηκαν.
+  example_en: Due to the sudden bad weather, all ferry sailings were cancelled.
+  example2_el: Η κακοκαιρία έπληξε τις ορεινές περιοχές με χιονοπτώσεις και κρύο.
+  example2_en: The bad weather hit the mountainous areas with snowfalls and cold.
+  status: verified
+  audio: i-kakokairia-8c0f38.mp3
+  example_audio: logo-tis-xafnikis-ka-ed5c6a.mp3
+  example2_audio: i-kakokairia-eplixe--9428b2.mp3
+- id: A2P2-U08-003
+  greek: η θερμοκρασία θα φτάσει
+  english: the temperature will reach
+  notes: 'Predictive future: θα φτάσει (from φτάνω) + degrees in accusative (τους...
+    βαθμούς).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Stating forecast temperature peaks in letters and emails
+  example_el: Αύριο η θερμοκρασία θα φτάσει τους τριάντα πέντε βαθμούς Κελσίου.
+  example_en: Tomorrow the temperature will reach thirty-five degrees Celsius.
+  example2_el: Τον Ιούλιο η θερμοκρασία συχνά φτάνει σε πολύ υψηλά επίπεδα στην Αθήνα.
+  example2_en: In July the temperature often reaches very high levels in Athens.
+  status: verified
+  audio: i-thermokrasia-tha-f-b0d864.mp3
+  example_audio: ayrio-i-thermokrasia-ab54cb.mp3
+  example2_audio: ton-ioylio-i-thermok-d19d67.mp3
+- id: A2P2-U08-004
+  greek: πνέουν ισχυροί άνεμοι
+  english: strong winds are blowing
+  notes: Formal verb πνέω (blow) + adjective ισχυρός. Common maritime bulletin phrase.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing wind conditions and maritime travel safety
+  example_el: Στο Αιγαίο πνέουν ισχυροί άνεμοι επτά με οκτώ μποφόρ.
+  example_en: In the Aegean, strong winds of seven to eight Beaufort are blowing.
+  example2_el: Επειδή πνέουν ισχυροί άνεμοι, απαγορεύεται το άναμμα φωτιάς στο δάσος.
+  example2_en: Because strong winds are blowing, lighting fires in the forest is prohibited.
+  status: verified
+  audio: pneoyn-ischyroi-anem-91ed80.mp3
+  example_audio: sto-aigaio-pneoyn-is-09c506.mp3
+  example2_audio: epeidi-pneoyn-ischyr-786687.mp3
+- id: A2P2-U08-005
+  greek: η ηλιοφάνεια
+  english: sunshine / sunny weather
+  notes: 'Compound noun: ήλιος (sun) + φαίνομαι (appear). Genitive: της ηλιοφάνειας.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Describing pleasant, sunny climate in holiday correspondence
+  example_el: Στην Ελλάδα έχουμε σχεδόν όλο τον χρόνο άφθονη ηλιοφάνεια.
+  example_en: In Greece we have abundant sunshine almost all year round.
+  example2_el: Η πρόγνωση προβλέπει γενικά ηλιοφάνεια με λίγες αραιές νεφώσεις.
+  example2_en: The forecast predicts general sunshine with a few sparse clouds.
+  status: verified
+  audio: i-iliofaneia-0480f3.mp3
+  example_audio: stin-ellada-echoyme--6124a3.mp3
+  example2_audio: i-prognosi-provlepei-4fd676.mp3
+- id: A2P2-U08-006
+  greek: η καταιγίδα και οι κεραυνοί
+  english: thunderstorm and lightning bolts
+  notes: Η καταιγίδα (storm) + ο κεραυνός (lightning bolt / thunderbolt, plural οι
+    κεραυνοί).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Narrating dramatic weather incidents during outdoor
+    activities
+  example_el: Μας έπιασε μια δυνατή καταιγίδα στο δρόμο και οι κεραυνοί ήταν τρομακτικοί.
+  example_en: A heavy thunderstorm caught us on the road and the lightning bolts were
+    terrifying.
+  example2_el: Κατά τη διάρκεια της καταιγίδας μείναμε ασφαλείς μέσα στο αυτοκίνητο.
+  example2_en: During the thunderstorm we remained safe inside the car.
+  status: verified
+  audio: i-kataigida-kai-oi-k-d12d88.mp3
+  example_audio: mas-epiase-mia-dynat-b2298b.mp3
+  example2_audio: kata-ti-diarkeia-tis-3f37b0.mp3
+- id: A2P2-U08-007
+  greek: ο καύσωνας
+  english: heatwave
+  notes: 'Masculine noun in -ας: genitive του καύσωνα. Major recurring summer topic
+    in Greece.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+  keg_communicative_function: Discussing summer heatwaves and health precautions in
+    emails
+  example_el: Τις μέρες του καύσωνα πρέπει να πίνουμε άφθονο νερό και να μένουμε στη
+    σκιά.
+  example_en: During heatwave days we must drink plenty of water and stay in the shade.
+  example2_el: Ο καύσωνας στην πόλη ήταν ανυπόφορος, γι' αυτό φύγαμε για τη θάλασσα.
+  example2_en: The heatwave in the city was unbearable, that's why we left for the
+    sea.
+  status: verified
+  audio: o-kaysonas-5671be.mp3
+  example_audio: tis-meres-toy-kayson-bdf43b.mp3
+  example2_audio: o-kaysonas-stin-poli-451caa.mp3
+- id: A2P2-U08-008
+  greek: η χιονόπτωση
+  english: snowfall
+  notes: 'Compound noun: χιόνι (snow) + πέφτω/πτώση (fall). Genitive: της χιονόπτωσης.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Describing winter mountain excursions and ski conditions
+  example_el: Η πυκνή χιονόπτωση κάλυψε τις στέγες όλων των σπιτιών στο χωριό.
+  example_en: The dense snowfall covered the roofs of all houses in the village.
+  example2_el: Λόγω της χιονόπτωσης, τα αυτοκίνητα χρειάζονται αντιολισθητικές αλυσίδες.
+  example2_en: Due to the snowfall, cars require anti-skid chains.
+  status: verified
+  audio: i-chionoptosi-aeb239.mp3
+  example_audio: i-pykni-chionoptosi--6e879b.mp3
+  example2_audio: logo-tis-chionoptosi-c0faea.mp3
+- id: A2P2-U08-009
+  greek: το φυσικό τοπίο
+  english: natural landscape / natural scenery
+  notes: Adjective φυσικός, -ή, -ό + noun τοπίο (scenery/landscape).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Praising the beauty of natural scenery in vacation narratives
+  example_el: Το φυσικό τοπίο στα Μετέωρα είναι πραγματικά μοναδικό στον κόσμο.
+  example_en: The natural landscape in Meteora is truly unique in the world.
+  example2_el: Μείναμε έκπληκτοι από την άγρια ομορφιά του φυσικού τοπίου.
+  example2_en: We were amazed by the wild beauty of the natural landscape.
+  status: verified
+  audio: to-fysiko-topio-f138a7.mp3
+  example_audio: to-fysiko-topio-sta--dc76b4.mp3
+  example2_audio: meiname-ekpliktoi-ap-e60637.mp3
+- id: A2P2-U08-010
+  greek: ο εθνικός δρυμός
+  english: national park / protected forest reserve
+  notes: 'Ecological term: ο δρυμός (oak forest/national reserve). E.g. Εθνικός Δρυμός
+    Ολύμπου.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+  keg_communicative_function: Describing eco-tourism, hiking trips, and environmental
+    protection
+  example_el: Κάναμε πεζοπορία στον Εθνικό Δρυμό της Πάρνηθας και είδαμε ελάφια.
+  example_en: We hiked in the National Park of Parnitha and saw deer.
+  example2_el: Απαγορεύεται το κάμπινγκ και το άναμμα φωτιάς μέσα στον εθνικό δρυμό.
+  example2_en: Camping and lighting fires inside the national park are prohibited.
+  status: verified
+  audio: o-ethnikos-drymos-286a66.mp3
+  example_audio: kaname-pezoporia-sto-8d6d6e.mp3
+  example2_audio: apagoreyetai-to-kamp-c4b85f.mp3
+- id: A2P2-U08-011
+  greek: η προστασία του περιβάλλοντος
+  english: environmental protection
+  notes: Noun η προστασία + γενική ουδετέρου του περιβάλλοντος. Frequent discursive
+    theme.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Discussing recycling, sustainability, and nature preservation
+    in exams
+  example_el: Η προστασία του περιβάλλοντος είναι ευθύνη όλων των πολιτών.
+  example_en: Environmental protection is the responsibility of all citizens.
+  example2_el: Στο σχολείο οργανώνουμε δράσεις για την προστασία του θαλάσσιου περιβάλλοντος.
+  example2_en: At school we organize actions for the protection of the marine environment.
+  status: verified
+  audio: i-prostasia-toy-peri-c99d72.mp3
+  example_audio: i-prostasia-toy-peri-d46da4.mp3
+  example2_audio: sto-scholeio-organon-5fc922.mp3
+- id: A2P2-U08-012
+  greek: η ανακύκλωση σκουπιδιών
+  english: waste recycling / garbage recycling
+  notes: Noun η ανακύκλωση + γενική πληθυντικού σκουπιδιών (των σκουπιδιών).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Describing green habits and civic recycling responsibilities
+  example_el: Στη γειτονιά μας έχουμε μπλε κάδους για την ανακύκλωση χαρτιού και γυαλιού.
+  example_en: In our neighborhood we have blue bins for recycling paper and glass.
+  example2_el: Πρέπει να μάθουμε στα παιδιά τη σημασία της ανακύκλωσης σκουπιδιών.
+  example2_en: We must teach children the importance of waste recycling.
+  status: verified
+  audio: i-anakyklosi-skoypid-9f2aad.mp3
+  example_audio: sti-geitonia-mas-ech-5ebac3.mp3
+  example2_audio: prepei-na-mathoyme-s-f739a1.mp3
+- id: A2P2-U08-013
+  greek: οι ανανεώσιμες πηγές ενέργειας
+  english: renewable energy sources
+  notes: 'Modern green term: ανανεώσιμος, -η, -ο (renewable) + πηγές (sources) + ενέργειας.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine plural
+  keg_communicative_function: Referring to solar panels and wind energy in A2 reading
+    texts
+  example_el: Η Ελλάδα επενδύει στις ανανεώσιμες πηγές ενέργειας, όπως η ηλιακή και
+    η αιολική.
+  example_en: Greece invests in renewable energy sources, such as solar and wind.
+  example2_el: Τα φωτοβολταϊκά πάνελ είναι μια σημαντική ανανεώσιμη πηγή ενέργειας.
+  example2_en: Photovoltaic panels are an important renewable source of energy.
+  status: verified
+  audio: oi-ananeosimes-piges-f72ad9.mp3
+  example_audio: i-ellada-ependyei-st-4b9208.mp3
+  example2_audio: ta-fotovoltaika-pane-00f193.mp3
+- id: A2P2-U08-014
+  greek: η αμμουδερή ακτή
+  english: sandy coast / sandy shoreline
+  notes: Adjective αμμουδερός, -ή, -ό (sandy, from άμμος) + ακτή (coastline).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing beach terrain and swimming destinations in
+    travel writing
+  example_el: Το ξενοδοχείο βρισκόταν ακριβώς μπροστά σε μια απέραντη αμμουδερή ακτή.
+  example_en: The hotel was located right in front of an endless sandy coast.
+  example2_el: Περπατήσαμε κατά μήκος της αμμουδερής ακτής την ώρα του ηλιοβασιλέματος.
+  example2_en: We walked along the sandy coast at sunset.
+  status: verified
+  audio: i-ammoyderi-akti-d89ee6.mp3
+  example_audio: to-xenodocheio-vrisk-180986.mp3
+  example2_audio: perpatisame-kata-mik-4b5c68.mp3
+- id: A2P2-U08-015
+  greek: τα κρυστάλλινα νερά
+  english: crystal-clear waters
+  notes: 'Classic Greek sea collocation: κρυστάλλινος, -η, -ο + νερά (waters).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter plural
+  keg_communicative_function: Praising sea quality and pristine swimming spots in
+    holiday letters
+  example_el: Η παραλία είχε κρυστάλλινα νερά και λευκό βότσαλο.
+  example_en: The beach had crystal-clear waters and white pebbles.
+  example2_el: Όλοι ενθουσιάστηκαν με τα πεντακάθαρα, κρυστάλλινα νερά του όρμου.
+  example2_en: Everyone was thrilled with the spotless, crystal-clear waters of the
+    cove.
+  status: verified
+  audio: ta-krystallina-nera-211012.mp3
+  example_audio: i-paralia-eiche-krys-e549d1.mp3
+  example2_audio: oloi-enthoysiastikan-0227a9.mp3
+- id: A2P2-U08-016
+  greek: το φαράγγι
+  english: gorge / canyon
+  notes: 'Neuter noun: το φαράγγι (plural: τα φαράγγια). Famous example: Φαράγγι της
+    Σαμαριάς.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+  keg_communicative_function: Recounting hiking and trekking adventures through gorges
+  example_el: Διασχίσαμε το περίφημο φαράγγι της Σαμαριάς σε έξι ώρες.
+  example_en: We crossed the famous Samaria gorge in six hours.
+  example2_el: Το μονοπάτι μέσα στο φαράγγι ήταν απαιτητικό αλλά εντυπωσιακό.
+  example2_en: The path through the gorge was demanding but impressive.
+  status: verified
+  audio: to-faraggi-d22f5e.mp3
+  example_audio: diaschisame-to-perif-476d6f.mp3
+  example2_audio: to-monopati-mesa-sto-4e4a29.mp3
+- id: A2P2-U08-017
+  greek: η ορεινή πεζοπορία
+  english: mountain hiking / mountain trekking
+  notes: Adjective ορεινός, -ή, -ό (mountainous, from όρος) + πεζοπορία (hiking, from
+    πεζός + πορεία).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing outdoor leisure hobbies and mountain expeditions
+  example_el: Η ορεινή πεζοπορία είναι ο καλύτερος τρόπος για να απολαύσεις τη φύση.
+  example_en: Mountain hiking is the best way to enjoy nature.
+  example2_el: Χρειαζόμαστε ειδικά παπούτσια και σακίδιο για την ορεινή πεζοπορία.
+  example2_en: We need special shoes and a backpack for mountain hiking.
+  status: verified
+  audio: i-oreini-pezoporia-9df4db.mp3
+  example_audio: i-oreini-pezoporia-e-293665.mp3
+  example2_audio: chreiazomaste-eidika-af66a0.mp3
+- id: A2P2-U08-018
+  greek: η χερσόνησος
+  english: peninsula
+  notes: 'Feminine noun ending in -ος (second declension feminine): η χερσόνησος,
+    της χερσονήσου.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+  keg_communicative_function: Referring to Greek geography (e.g. Πελοπόννησος, Χαλκιδική)
+  example_el: Η Πελοπόννησος είναι μια ιστορική χερσόνησος με αμέτρητα αξιοθέατα.
+  example_en: The Peloponnese is a historic peninsula with countless sights.
+  example2_el: Επισκεφτήκαμε τις τρεις χερσονήσους της Χαλκιδικής το περασμένο καλοκαίρι.
+  example2_en: We visited the three peninsulas of Chalkidiki last summer.
+  status: verified
+  audio: i-chersonisos-969226.mp3
+  example_audio: i-peloponnisos-einai-d75cbd.mp3
+  example2_audio: episkeftikame-tis-tr-08a782.mp3
+- id: A2P2-U08-019
+  greek: ο αρχαιολογικός χώρος
+  english: archaeological site
+  notes: 'Adjective αρχαιολογικός, -ή, -ό + χώρος. Plural: οι αρχαιολογικοί χώροι.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: masculine
+  keg_communicative_function: Describing visits to historical landmarks and ancient
+    ruins
+  example_el: Ο αρχαιολογικός χώρος των Δελφών ήταν γεμάτος τουρίστες από όλο τον
+    κόσμο.
+  example_en: The archaeological site of Delphi was full of tourists from all over
+    the world.
+  example2_el: Το εισιτήριο για τον αρχαιολογικό χώρο περιλαμβάνει και την είσοδο
+    στο μουσείο.
+  example2_en: The ticket for the archaeological site also includes admission to the
+    museum.
+  status: verified
+  audio: o-archaiologikos-cho-22dc84.mp3
+  example_audio: o-archaiologikos-cho-195f3d.mp3
+  example2_audio: to-eisitirio-gia-ton-0adfad.mp3
+- id: A2P2-U08-020
+  greek: το γραφικό λιμανάκι
+  english: picturesque small harbor
+  notes: 'Diminutive neuter: το λιμάνι -> το λιμανάκι + adjective γραφικός, -ή, -ό.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Describing romantic, authentic island settings in letters
+    and postcards
+  example_el: Καθίσαμε για ουζομεζέδες σε μια ταβερνούλα στο γραφικό λιμανάκι του
+    νησιού.
+  example_en: We sat for ouzo and meze at a small tavern in the picturesque harbor
+    of the island.
+  example2_el: Τα ψαροκάικα ήταν αραγμένα στο ήσυχο, γραφικό λιμανάκι.
+  example2_en: The fishing boats were moored in the quiet, picturesque small harbor.
+  status: verified
+  audio: to-grafiko-limanaki-16c2d7.mp3
+  example_audio: kathisame-gia-oyzome-2c6f1f.mp3
+  example2_audio: ta-psarokaika-itan-a-a2acbe.mp3
+- id: A2P2-U08-021
+  greek: η πυρκαγιά στο δάσος
+  english: forest fire / wildfire
+  notes: Noun η πυρκαγιά (wildfire, from πυρ + καίω). Major summer natural hazard.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Reporting emergency environmental news and fire prevention
+    precautions
+  example_el: Η πυροσβεστική υπηρεσία έσβησε την πυρκαγιά στο δάσος πριν φτάσει στα
+    σπίτια.
+  example_en: The fire service extinguished the forest fire before it reached the
+    houses.
+  example2_el: Το καλοκαίρι ο κίνδυνος για πυρκαγιά στο δάσος είναι ιδιαίτερα υψηλός.
+  example2_en: In summer the risk of a forest fire is particularly high.
+  status: verified
+  audio: i-pyrkagia-sto-dasos-509072.mp3
+  example_audio: i-pyrosvestiki-ypire-c8604d.mp3
+  example2_audio: to-kalokairi-o-kindy-c4abfb.mp3
+- id: A2P2-U08-022
+  greek: η ξηρασία και η λειψυδρία
+  english: drought and water shortage
+  notes: 'Environmental pairing: η ξηρασία (drought, from ξηρός) + η λειψυδρία (lack
+    of water).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Discussing climatic challenges and water conservation
+    on Greek islands
+  example_el: Η παρατεταμένη ξηρασία προκάλεσε σοβαρή λειψυδρία σε πολλά μικρά νησιά.
+  example_en: The prolonged drought caused severe water shortages on many small islands.
+  example2_el: Πρέπει να κάνουμε οικονομία στο νερό για να αποφύγουμε τη λειψυδρία.
+  example2_en: We must conserve water to avoid water shortages.
+  status: verified
+  audio: i-xirasia-kai-i-leip-f3a2bf.mp3
+  example_audio: i-paratetameni-xiras-5d194e.mp3
+  example2_audio: prepei-na-kanoyme-oi-c96f87.mp3
+- id: A2P2-U08-023
+  greek: το ηλιοβασίλεμα στη θάλασσα
+  english: sunset over the sea
+  notes: 'Compound noun: ήλιος + βασίλεμα (setting). Quintessential Greek postcard
+    phrase.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Evoking romantic aesthetic impressions in personal vacation
+    writing
+  example_el: Θαυμάσαμε το μαγευτικό ηλιοβασίλεμα στη θάλασσα από την καλντέρα της
+    Σαντορίνης.
+  example_en: We admired the magical sunset over the sea from the caldera of Santorini.
+  example2_el: Τραβήξαμε υπέροχες φωτογραφίες καθώς το ηλιοβασίλεμα στη θάλασσα έβαφε
+    τον ουρανό κόκκινο.
+  example2_en: We took wonderful photos as the sunset over the sea dyed the sky red.
+  status: verified
+  audio: to-iliovasilema-sti--d718cf.mp3
+  example_audio: thaymasame-to-mageyt-1f33fb.mp3
+  example2_audio: travixame-yperoches--2d8710.mp3
+- id: A2P2-U08-024
+  greek: η χλωρίδα και η πανίδα
+  english: flora and fauna
+  notes: 'Scientific and environmental pair: η χλωρίδα (plant life) + η πανίδα (animal
+    life).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing biodiversity and ecosystem riches in environmental
+    articles
+  example_el: Η πλούσια χλωρίδα και πανίδα του βουνού προστατεύεται από ευρωπαϊκούς
+    νόμους.
+  example_en: The rich flora and fauna of the mountain are protected by European laws.
+  example2_el: Στην περιοχή συναντάμε σπάνια είδη της ελληνικής χλωρίδας και πανίδας.
+  example2_en: In the area we encounter rare species of Greek flora and fauna.
+  status: verified
+  audio: i-chlorida-kai-i-pan-f3b969.mp3
+  example_audio: i-ploysia-chlorida-k-c63866.mp3
+  example2_audio: stin-periochi-synant-3fa9ec.mp3
+- id: A2P2-U08-025
+  greek: η καλοκαιρινή μπόρα
+  english: summer downpour / sudden shower
+  notes: Noun η μπόρα (sudden heavy rain shower, genitive της μπόρας).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Describing brief weather disruptions during summer travels
+  example_el: Μια ξαφνική καλοκαιρινή μπόρα δρόσισε την ατμόσφαιρα αλλά κράτησε μόνο
+    δέκα λεπτά.
+  example_en: A sudden summer downpour cooled the atmosphere but lasted only ten minutes.
+  example2_el: Μπήκαμε σε ένα υπόστεγο για να προστατευτούμε από τη δυνατή μπόρα.
+  example2_en: We stepped under an awning to protect ourselves from the heavy downpour.
+  status: verified
+  audio: i-kalokairini-mpora-b67cd5.mp3
+  example_audio: mia-xafniki-kalokair-5b31bd.mp3
+  example2_audio: mpikame-se-ena-ypost-931df8.mp3
+- id: A2P2-U08-026
+  greek: το ορεινό καταφύγιο
+  english: mountain refuge / alpine shelter
+  notes: Adjective ορεινός + noun το καταφύγιο (refuge/shelter). Overnight hiking
+    base.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Narrating overnight hiking stops and alpine accommodation
+  example_el: Διανυκτερεύσαμε στο ορεινό καταφύγιο του Ολύμπου σε υψόμετρο δύο χιλιάδων
+    μέτρων.
+  example_en: We stayed overnight at the mountain refuge of Olympus at an altitude
+    of two thousand meters.
+  example2_el: Το ορεινό καταφύγιο πρόσφερε ζεστή σούπα και τζάκι στους κουρασμένους
+    ορειβάτες.
+  example2_en: The mountain refuge offered hot soup and a fireplace to the tired climbers.
+  status: verified
+  audio: to-oreino-katafygio-4c7d80.mp3
+  example_audio: dianyktereysame-sto--9c5324.mp3
+  example2_audio: to-oreino-katafygio--507239.mp3
+- id: A2P2-U08-027
+  greek: η θαλάσσια ρύπανση
+  english: marine pollution
+  notes: Adjective θαλάσσιος, -α, -ο + noun η ρύπανση (pollution, genitive της ρύπανσης).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine
+  keg_communicative_function: Addressing plastic waste and coastal cleanliness in
+    exam prompts
+  example_el: Τα πλαστικά απορρίμματα αποτελούν τη μεγαλύτερη απειλή για τη θαλάσσια
+    ρύπανση.
+  example_en: Plastic waste constitutes the greatest threat regarding marine pollution.
+  example2_el: Εθελοντές καθάρισαν την ακτή στο πλαίσιο δράσης κατά της θαλάσσιας
+    ρύπανσης.
+  example2_en: Volunteers cleaned the coast as part of an initiative against marine
+    pollution.
+  status: verified
+  audio: i-thalassia-rypansi-41f892.mp3
+  example_audio: ta-plastika-aporrimm-9b2cc1.mp3
+  example2_audio: ethelontes-katharisa-88fc83.mp3
+- id: A2P2-U08-028
+  greek: το αγροτουριστικό κατάλυμα
+  english: agritourism lodging / rural farm stay
+  notes: 'Modern travel trend: αγροτουριστικός, -ή, -ό + κατάλυμα (lodging/accommodation).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: neuter
+  keg_communicative_function: Describing authentic rural farm stays and local organic
+    gastronomy
+  example_el: Μείναμε σε ένα παραδοσιακό αγροτουριστικό κατάλυμα όπου μαζεύαμε μόνοι
+    μας φρούτα.
+  example_en: We stayed at a traditional agritourism lodging where we picked fruits
+    ourselves.
+  example2_el: Ο αγροτουρισμός προσφέρει αυθεντική επαφή με τον παραδοσιακό τρόπο
+    ζωής του χωριού.
+  example2_en: Agritourism offers authentic contact with the traditional village way
+    of life.
+  status: verified
+  audio: to-agrotoyristiko-ka-6edf03.mp3
+  example_audio: meiname-se-ena-parad-f856d5.mp3
+  example2_audio: o-agrotoyrismos-pros-d43253.mp3
+- id: A2P2-U08-029
+  greek: η ομίχλη περιόρισε την ορατότητα
+  english: the fog reduced visibility
+  notes: Aorist of περιορίζω (περιόρισε) + noun η ορατότητα (visibility). Transportation
+    alert.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Reporting road or flight transit conditions in weather
+    narratives
+  example_el: Η πυκνή πρωινή ομίχλη περιόρισε την ορατότητα στον αυτοκινητόδρομο στα
+    πενήντα μέτρα.
+  example_en: The dense morning fog reduced visibility on the highway to fifty meters.
+  example2_el: Οδηγούσαμε εξαιρετικά αργά επειδή η ομίχλη περιόρισε την ορατότητα.
+  example2_en: We were driving extremely slowly because the fog reduced visibility.
+  status: verified
+  audio: i-omichli-periorise--02e645.mp3
+  example_audio: i-pykni-proini-omich-f7ed83.mp3
+  example2_audio: odigoysame-exairetik-a54918.mp3
+- id: A2P2-U08-030
+  greek: οι κλιματικές αλλαγές
+  english: climate changes / global climate shifts
+  notes: Adjective κλιματικός, -ή, -ό + plural noun αλλαγές. Dominant CEFR A2 reading
+    topic.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    gender: feminine plural
+  keg_communicative_function: Discussing global warming and extreme weather patterns
+    in tests
+  example_el: Οι κλιματικές αλλαγές προκαλούν συχνότερα ακραία καιρικά φαινόμενα παγκοσμίως.
+  example_en: Climate changes cause more frequent extreme weather events worldwide.
+  example2_el: Πρέπει να λάβουμε άμεσα μέτρα για να αντιμετωπίσουμε τις κλιματικές
+    αλλαγές.
+  example2_en: We must take immediate measures to tackle climate changes.
+  status: verified
+  audio: oi-klimatikes-allage-2d2d14.mp3
+  example_audio: oi-klimatikes-allage-34fb2b.mp3
+  example2_audio: prepei-na-lavoyme-am-357afc.mp3

@@ -1,0 +1,609 @@
+unit_id: unit-a2p2-03
+lesson_id: lesson-01
+title: 'Μάθημα 3: Σπίτι, Γειτονιά & Ενοικίαση Κατοικίας (Housing, Neighborhood & Renting
+  an Apartment)'
+description: Navigating classified housing ads, apartment features, lease negotiations,
+  and household repair emergencies for the KEG A2 Reading and Speaking papers.
+lesson_status: not_started
+lesson_notes: "Unit A2P2-03 Core Notes: Σπίτι, Γειτονιά & Ενοικίαση Κατοικίας (Housing,\
+  \ Neighborhood & Renting)\n• Official KEG A2 Exam Alignment:\n  - Reading Task 1:\
+  \ Real estate classified ads (ενοικιάζεται, δυάρι, κοινόχρηστα, αυτόνομη θέρμανση,\
+  \ εγγύηση).\n  - Speaking Stage 2 (Service interaction): Calling a landlord, scheduling\
+  \ apartment viewings, negotiating rental terms.\n  - Domestic Repairs: Explaining\
+  \ household malfunctions (βλάβη, χάλασε, διαρροή νερού) to a plumber (υδραυλικός)\
+  \ or electrician (ηλεκτρολόγος)."
+entries:
+- id: A2P2-U03-001
+  greek: το διαμέρισμα
+  english: apartment / flat
+  notes: 'Essential noun for reading housing ads (Reading Task 1). Genitive: του διαμερίσματος.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive_singular: του διαμερίσματος
+    nominative_plural: τα διαμερίσματα
+  keg_communicative_function: Identifying and discussing types of accommodation in
+    housing searches
+  example_el: Ενοικιάζεται φωτεινό διαμέρισμα 80 τετραγωνικών μέτρων στο κέντρο της
+    πόλης.
+  example_en: Bright 80 square meter apartment for rent in the city center.
+  example2_el: Το διαμέρισμα βρίσκεται στον τρίτο όροφο και διαθέτει μεγάλο μπαλκόνι.
+  example2_en: The apartment is located on the third floor and features a large balcony.
+  audio: to-diamerisma-44a98d.mp3
+  status: verified
+  example_audio: enoikiazetai-foteino-6e01df.mp3
+  example2_audio: to-diamerisma-vriske-da5011.mp3
+- id: A2P2-U03-002
+  greek: η πολυκατοικία
+  english: apartment building / block of flats
+  notes: 'Compound: πολύς + κατοικία. Feminine noun in -α.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της πολυκατοικίας
+    plural: οι πολυκατοικίες
+  keg_communicative_function: Describing residential buildings and shared living facilities
+  example_el: Η πολυκατοικία μας διαθέτει σύγχρονο ανελκυστήρα και υπόγειο πάρκινγκ.
+  example_en: Our apartment building has a modern elevator and underground parking.
+  example2_el: Στην είσοδο της πολυκατοικίας υπάρχει πίνακας ανακοινώσεων για τους
+    ενοίκους.
+  example2_en: At the entrance of the apartment building there is a notice board for
+    the residents.
+  audio: i-polykatoikia-351c6a.mp3
+  status: verified
+  example_audio: i-polykatoikia-mas-d-795346.mp3
+  example2_audio: stin-eisodo-tis-poly-8d01a3.mp3
+- id: A2P2-U03-003
+  greek: το δυάρι / το τριάρι
+  english: two-room / three-room apartment
+  notes: 'Standard Greek real estate classification: δυάρι (1 bedroom + living room),
+    τριάρι (2 bedrooms + living room).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    plural: τα δυάρια / τα τριάρια
+  keg_communicative_function: Specifying apartment size and room count when looking
+    for housing
+  example_el: Ψάχνουμε ένα επιπλωμένο δυάρι με αυτόνομη θέρμανση για δύο φοιτητές.
+  example_en: We are looking for a furnished two-room apartment with autonomous heating
+    for two students.
+  example2_el: Το τριάρι είναι πιο κατάλληλο για μια τετραμελή οικογένεια.
+  example2_en: The three-room apartment is more suitable for a four-member family.
+  audio: to-dyari-to-triari-2535b2.mp3
+  status: verified
+  example_audio: psachnoyme-ena-epipl-8e8a53.mp3
+  example2_audio: to-triari-einai-pio--8174ad.mp3
+- id: A2P2-U03-004
+  greek: η γκαρσονιέρα
+  english: studio apartment / bed-sit
+  notes: Single room open-plan apartment. Highly frequent in student housing ads.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της γκαρσονιέρας
+    plural: οι γκαρσονιέρες
+  keg_communicative_function: Inquiring about compact, affordable accommodation
+  example_el: Η γκαρσονιέρα είναι πλήρως εξοπλισμένη με ηλεκτρικές συσκευές.
+  example_en: The studio apartment is fully equipped with electrical appliances.
+  example2_el: Νοίκιασε μια μικρή γκαρσονιέρα μόλις πέντε λεπτά με τα πόδια από τη
+    σχολή.
+  example2_en: He rented a small studio apartment just a five-minute walk from college.
+  audio: i-gkarsoniera-bae136.mp3
+  status: verified
+  example_audio: i-gkarsoniera-einai--a9356b.mp3
+  example2_audio: noikiase-mia-mikri-g-30a138.mp3
+- id: A2P2-U03-005
+  greek: ενοικιάζεται
+  english: for rent / to let
+  notes: Present mediopassive 3rd person singular of ενοικιάζω. Universal sign in
+    Greece.
+  gender_or_pos: verb (mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    voice: mediopassive
+    tense: present
+    active_equivalent: ενοικιάζω / νοικιάζω
+  keg_communicative_function: Interpreting real estate advertisements and public rental
+    signs
+  example_el: Ενοικιάζεται διαμέρισμα πρώτου ορόφου, πρόσφατα ανακαινισμένο.
+  example_en: First-floor apartment for rent, recently renovated.
+  example2_el: Είδαμε πολλές πινακίδες που έγραφαν «Ενοικιάζεται» στους γύρω δρόμους.
+  example2_en: We saw many signs saying 'For Rent' in the surrounding streets.
+  audio: enoikiazetai-977d81.mp3
+  status: verified
+  example_audio: enoikiazetai-diameri-465af2.mp3
+  example2_audio: eidame-polles-pinaki-6b261b.mp3
+- id: A2P2-U03-006
+  greek: το ενοίκιο
+  english: the rent
+  notes: 'Monthly rental fee. Genitive: του ενοικίου. Plural: τα ενοίκια.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    genitive: του ενοικίου
+    plural: τα ενοίκια
+  keg_communicative_function: Discussing, negotiating, and paying monthly accommodation
+    fees
+  example_el: Το μηνιαίο ενοίκιο είναι τετρακόσια ευρώ και πληρώνεται στην αρχή του
+    μήνα.
+  example_en: The monthly rent is four hundred euros and is paid at the beginning
+    of the month.
+  example2_el: Στην τιμή του ενοικίου περιλαμβάνεται και η σύνδεση στο διαδίκτυο;
+  example2_en: Is internet connection included in the rent price?
+  audio: to-enoikio-b77ed7.mp3
+  status: verified
+  example_audio: to-miniaio-enoikio-e-4f3a29.mp3
+  example2_audio: stin-timi-toy-enoiki-321efa.mp3
+- id: A2P2-U03-007
+  greek: ο ιδιοκτήτης / η ιδιοκτήτρια
+  english: landlord / landlady / owner
+  notes: Masculine in -ης, feminine in -τρια. From η ιδιοκτησία (property).
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: 'ο ιδιοκτήτης (gen: του ιδιοκτήτη)'
+    feminine: 'η ιδιοκτήτρια (gen: της ιδιοκτήτριας)'
+  keg_communicative_function: Addressing and communicating with property owners in
+    oral/written tasks
+  example_el: Μίλησα με την ιδιοκτήτρια στο τηλέφωνο και κλείσαμε ραντεβού για να
+    δω το σπίτι.
+  example_en: I spoke with the landlady on the phone and we set an appointment to
+    view the house.
+  example2_el: Ο ιδιοκτήτης συμφώνησε να αλλάξει τα παλιά κουφώματα στα παράθυρα.
+  example2_en: The landlord agreed to replace the old window frames.
+  audio: o-idioktitis-i-idiok-f24264.mp3
+  status: verified
+  example_audio: milisa-me-tin-idiokt-27bec4.mp3
+  example2_audio: o-idioktitis-symfoni-98bacf.mp3
+- id: A2P2-U03-008
+  greek: ο ενοικιαστής / η ενοικιάστρια
+  english: tenant / renter
+  notes: 'The person renting the property. Plural: οι ενοικιαστές.'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    masculine: ο ενοικιαστής
+    feminine: η ενοικιάστρια
+  keg_communicative_function: Clarifying roles and contractual obligations between
+    landlord and tenant
+  example_el: Ο προηγούμενος ενοικιαστής παρέδωσε το σπίτι σε άριστη κατάσταση.
+  example_en: The previous tenant handed over the house in excellent condition.
+  example2_el: Οι ενοικιαστές οφείλουν να τηρούν τις ώρες κοινής ησυχίας.
+  example2_en: Tenants are required to observe quiet hours.
+  audio: o-enoikiastis-i-enoi-f41bfa.mp3
+  status: verified
+  example_audio: o-proigoymenos-enoik-f739f4.mp3
+  example2_audio: oi-enoikiastes-ofeil-d751bc.mp3
+- id: A2P2-U03-009
+  greek: η εγγύηση
+  english: deposit / guarantee
+  notes: Security deposit for rental contract. Usually one or two months' rent.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της εγγύησης
+    plural: οι εγγυήσεις
+  keg_communicative_function: Discussing rental lease terms and financial deposit
+    conditions
+  example_el: Για να υπογράψουμε το συμβόλαιο, ζητείται εγγύηση δύο ενοικίων.
+  example_en: To sign the contract, a deposit of two months' rent is requested.
+  example2_el: Η εγγύηση επιστρέφεται στον ενοικιαστή κατά την αποχώρησή του.
+  example2_en: The deposit is refunded to the tenant upon their departure.
+  audio: i-eggyisi-5ba41d.mp3
+  status: verified
+  example_audio: gia-na-ypograpsoyme--3909da.mp3
+  example2_audio: i-eggyisi-epistrefet-a1e46f.mp3
+- id: A2P2-U03-010
+  greek: τα κοινόχρηστα
+  english: building maintenance expenses / utilities
+  notes: 'Substantivized neuter plural adjective: κοινός + χρήστος.'
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter plural
+    genitive: των κοινοχρήστων
+  keg_communicative_function: Inquiring about additional monthly building maintenance
+    costs
+  example_el: Πόσο περίπου κοστίζουν τα κοινόχρηστα τους χειμερινούς μήνες;
+  example_en: About how much do shared utility fees cost during the winter months?
+  example2_el: Τα κοινόχρηστα περιλαμβάνουν την καθαριότητα της εισόδου και το ρεύμα
+    της σκάλας.
+  example2_en: Shared expenses include entrance cleaning and stairway lighting.
+  audio: ta-koinochrista-c9743f.mp3
+  status: verified
+  example_audio: poso-peripoy-kostizo-54420e.mp3
+  example2_audio: ta-koinochrista-peri-88c9c5.mp3
+- id: A2P2-U03-011
+  greek: η θέρμανση
+  english: heating
+  notes: Third-declension feminine in -ση. Vital in apartment criteria.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της θέρμανσης
+  keg_communicative_function: Discussing household climate control and fuel systems
+  example_el: Το σπίτι έχει εξαιρετική θέρμανση με φυσικό αέριο και διπλά τζάμια.
+  example_en: The house has excellent natural gas heating and double-glazed windows.
+  example2_el: Τον χειμώνα ανάβουμε τη θέρμανση για λίγες ώρες το πρωί και το βράδυ.
+  example2_en: In winter we turn on the heating for a few hours in the morning and
+    evening.
+  audio: i-thermansi-062ade.mp3
+  status: verified
+  example_audio: to-spiti-echei-exair-1cc5db.mp3
+  example2_audio: ton-cheimona-anavoym-9967f9.mp3
+- id: A2P2-U03-012
+  greek: η αυτόνομη θέρμανση
+  english: autonomous / individual heating
+  notes: Contrast with κεντρική θέρμανση (central heating). Individual thermostat
+    control.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η θέρμανση
+    adjective: αυτόνομη (self-regulated)
+  keg_communicative_function: Inquiring about independent heating control in apartment
+    hunting
+  example_el: Προτιμώ διαμέρισμα με αυτόνομη θέρμανση ώστε να ελέγχω τα έξοδά μου.
+  example_en: I prefer an apartment with autonomous heating so I can control my expenses.
+  example2_el: Η αυτόνομη θέρμανση λειτουργεί με ατομικό λέβητα στο μπαλκόνι.
+  example2_en: The autonomous heating operates with an individual boiler on the balcony.
+  audio: i-aytonomi-thermansi-4a25ca.mp3
+  status: verified
+  example_audio: protimo-diamerisma-m-47a479.mp3
+  example2_audio: i-aytonomi-thermansi-97daab.mp3
+- id: A2P2-U03-013
+  greek: η κεντρική θέρμανση
+  english: central heating
+  notes: Shared building boiler system.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η θέρμανση
+    adjective: κεντρική
+  keg_communicative_function: Describing communal heating schedules in block flats
+  example_el: Στην πολυκατοικία μας η κεντρική θέρμανση ανάβει από τις έξι το απόγευμα.
+  example_en: In our building, central heating is turned on from six in the evening.
+  example2_el: Λόγω του κόστους του πετρελαίου, η κεντρική θέρμανση δεν λειτουργεί
+    όλη μέρα.
+  example2_en: Due to heating oil costs, central heating does not run all day.
+  audio: i-kentriki-thermansi-386b43.mp3
+  status: verified
+  example_audio: stin-polykatoikia-ma-921faa.mp3
+  example2_audio: logo-toy-kostoys-toy-94cc86.mp3
+- id: A2P2-U03-014
+  greek: ο όροφος
+  english: floor / story
+  notes: 'Masculine noun in -ος. Ordinals used: ισόγειο, 1ος, 2ος, 3ος όροφος.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+    genitive: του ορόφου
+    plural: οι όροφοι
+  keg_communicative_function: Specifying the storey or floor level of a residence
+  example_el: Σε ποιον όροφο βρίσκεται το διαμέρισμα; Στον δεύτερο όροφο.
+  example_en: On which floor is the apartment located? On the second floor.
+  example2_el: Το ισόγειο έχει κήπο, ενώ ο τελευταίος όροφος έχει υπέροχη θέα.
+  example2_en: The ground floor has a garden, while the top floor has a wonderful
+    view.
+  audio: o-orofos-f6f7f8.mp3
+  status: verified
+  example_audio: se-poion-orofo-vrisk-ba2204.mp3
+  example2_audio: to-isogeio-echei-kip-9af41f.mp3
+- id: A2P2-U03-015
+  greek: το ασανσέρ
+  english: elevator / lift
+  notes: 'French loanword, indeclinable neuter. Formal synonym: ο ανελκυστήρας.'
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun
+    gender: neuter
+    declension: indeclinable
+    formal_equivalent: ο ανελκυστήρας
+  keg_communicative_function: Inquiring about elevator access in multi-storey buildings
+  example_el: Επειδή το διαμέρισμα είναι στον τέταρτο όροφο, το ασανσέρ είναι απαραίτητο.
+  example_en: Because the apartment is on the fourth floor, the elevator is essential.
+  example2_el: Πάρτε το ασανσέρ και πατήστε το κουμπί για τον τρίτο όροφο.
+  example2_en: Take the elevator and press the button for the third floor.
+  audio: to-asanser-33aacc.mp3
+  status: verified
+  example_audio: epeidi-to-diamerisma-20419f.mp3
+  example2_audio: parte-to-asanser-kai-a7eea6.mp3
+- id: A2P2-U03-016
+  greek: το μπαλκόνι / η βεράντα
+  english: balcony / terrace
+  notes: 'Outdoor spaces typical of Greek homes. Plural: τα μπαλκόνια, οι βεράντες.'
+  gender_or_pos: noun (neuter / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    neuter: το μπαλκόνι
+    feminine: η βεράντα
+  keg_communicative_function: Describing outdoor leisure amenities of an apartment
+  example_el: Μας αρέσει να πίνουμε τον πρωινό μας καφέ στο μπαλκόνι.
+  example_en: We like drinking our morning coffee on the balcony.
+  example2_el: Η μεγάλη βεράντα έχει τέντα για προστασία από τον ήλιο.
+  example2_en: The large terrace has an awning for sun protection.
+  audio: to-mpalkoni-i-verant-ca7ff2.mp3
+  status: verified
+  example_audio: mas-aresei-na-pinoym-ccf308.mp3
+  example2_audio: i-megali-veranta-ech-69bb19.mp3
+- id: A2P2-U03-017
+  greek: η θέα
+  english: the view
+  notes: 'Visual panorama. Collocation: με θέα στη θάλασσα / στο βουνό.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της θέας
+  keg_communicative_function: Describing panoramic outlooks from living spaces
+  example_el: Το ξενοδοχείο έχει δωμάτια με εκπληκτική θέα στην Ακρόπολη.
+  example_en: The hotel has rooms with stunning views of the Acropolis.
+  example2_el: Από το παράθυρο της κουζίνας έχουμε ανεμπόδιστη θέα στο πάρκο.
+  example2_en: From the kitchen window we have an unobstructed view of the park.
+  audio: i-thea-539642.mp3
+  status: verified
+  example_audio: to-xenodocheio-echei-7e2225.mp3
+  example2_audio: apo-to-parathyro-tis-029c85.mp3
+- id: A2P2-U03-018
+  greek: επιπλωμένος, -η, -ο
+  english: furnished
+  notes: 'Passive participle of επιπλώνω (to furnish). Opp: ανεπίπλωτος.'
+  gender_or_pos: adjective / participle
+  grammatical_info:
+    part_of_speech: participle / adjective
+    masculine: επιπλωμένος
+    feminine: επιπλωμένη
+    neuter: επιπλωμένο
+  keg_communicative_function: Checking whether furniture is included in a rental property
+  example_el: Νοικιάζεται πλήρως επιπλωμένη γκαρσονιέρα με κρεβάτι, γραφείο και ντουλάπα.
+  example_en: Fully furnished studio for rent with bed, desk, and wardrobe.
+  example2_el: Προτιμάτε επιπλωμένο ή ανεπίπλωτο σπίτι;
+  example2_en: Do you prefer a furnished or unfurnished house?
+  audio: epiplomenos-i-o-57ee52.mp3
+  status: verified
+  example_audio: noikiazetai-pliros-e-fbbd61.mp3
+  example2_audio: protimate-epiplomeno-0a14c1.mp3
+- id: A2P2-U03-019
+  greek: ανακαινισμένος, -η, -ο
+  english: renovated / refurbished
+  notes: Participle of ανακαινίζω. High-frequency keyword in ads.
+  gender_or_pos: adjective / participle
+  grammatical_info:
+    part_of_speech: participle / adjective
+    masculine: ανακαινισμένος
+    feminine: ανακαινισμένη
+    neuter: ανακαινισμένο
+    noun: η ανακαίνιση
+  keg_communicative_function: Describing recent modernizations in property features
+  example_el: Το μπάνιο και η κουζίνα είναι πρόσφατα ανακαινισμένα με καινούρια πλακάκια.
+  example_en: The bathroom and kitchen are recently renovated with new tiles.
+  example2_el: Πρόκειται για ένα πλήρως ανακαινισμένο κτίριο στο ιστορικό κέντρο.
+  example2_en: It is a fully renovated building in the historic center.
+  audio: anakainismenos-i-o-847e73.mp3
+  status: verified
+  example_audio: to-mpanio-kai-i-koyz-11a23b.mp3
+  example2_audio: prokeitai-gia-ena-pl-53ab69.mp3
+- id: A2P2-U03-020
+  greek: φωτεινός, -ή, -ό
+  english: bright / luminous
+  notes: 'From το φως (light). Opp: σκοτεινός (dark).'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: φωτεινός
+    feminine: φωτεινή
+    neuter: φωτεινό
+  keg_communicative_function: Evaluating natural lighting conditions in living areas
+  example_el: Το σαλόνι είναι ιδιαίτερα φωτεινό χάρη στα μεγάλα παράθυρα.
+  example_en: The living room is especially bright thanks to the large windows.
+  example2_el: Δεν θέλω σκοτεινό διαμέρισμα, ψάχνω έναν χώρο φωτεινό και ευχάριστο.
+  example2_en: I don't want a dark apartment, I'm looking for a bright and pleasant
+    space.
+  audio: foteinos-i-o-2a0d1a.mp3
+  status: verified
+  example_audio: to-saloni-einai-idia-10893e.mp3
+  example2_audio: den-thelo-skoteino-d-c4da0e.mp3
+- id: A2P2-U03-021
+  greek: ευρύχωρος, -η, -ο
+  english: spacious / roomy
+  notes: 'Compound: ευρύς + χώρος. Opp: στενός (cramped/narrow).'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    masculine: ευρύχωρος
+    feminine: ευρύχωρη
+    neuter: ευρύχωρο
+  keg_communicative_function: Describing spatial capacity and dimensions of rooms
+  example_el: Η κουζίνα είναι ευρύχωρη και χωράει ένα μεγάλο τραπέζι φαγητού.
+  example_en: The kitchen is spacious and accommodates a large dining table.
+  example2_el: Το υπνοδωμάτιο διαθέτει ευρύχωρη εντοιχισμένη ντουλάπα.
+  example2_en: The bedroom features a spacious built-in closet.
+  audio: eyrychoros-i-o-9e3618.mp3
+  status: verified
+  example_audio: i-koyzina-einai-eyry-2a06c7.mp3
+  example2_audio: to-ypnodomatio-diath-916fdb.mp3
+- id: A2P2-U03-022
+  greek: η ήσυχη γειτονιά
+  english: quiet neighborhood
+  notes: 'Collocation: ήσυχος (quiet) + η γειτονιά (neighborhood).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η γειτονιά
+    adjective: ήσυχη
+  keg_communicative_function: Describing district environment and noise levels
+  example_el: Το σπίτι βρίσκεται σε μια πολύ ήσυχη γειτονιά κοντά σε άλσος.
+  example_en: The house is located in a very quiet neighborhood near a grove.
+  example2_el: Είναι ιδανικό μέρος για οικογένειες επειδή η γειτονιά είναι ασφαλής
+    και ήσυχη.
+  example2_en: It is an ideal place for families because the neighborhood is safe
+    and quiet.
+  audio: i-isychi-geitonia-862ead.mp3
+  status: verified
+  example_audio: to-spiti-vrisketai-s-89dd25.mp3
+  example2_audio: einai-idaniko-meros--906572.mp3
+- id: A2P2-U03-023
+  greek: κοντά σε μέσα μεταφοράς
+  english: close to public transit
+  notes: Key selling point in housing listings.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    preposition: κοντά σε
+    noun_phrase: μέσα μεταφοράς (means of transport)
+  keg_communicative_function: Stating accessibility to public transit lines in housing
+    ads
+  example_el: Βρίσκεται κοντά σε μέσα μεταφοράς, μόλις τρία λεπτά από τον σταθμό του
+    μετρό.
+  example_en: It is located close to public transit, just three minutes from the metro
+    station.
+  example2_el: Ψάχνω κατοικία κοντά σε μέσα μεταφοράς επειδή δεν οδηγώ αυτοκίνητο.
+  example2_en: I'm looking for a home near public transit because I don't drive a
+    car.
+  audio: konta-se-mesa-metafo-6bcb0f.mp3
+  status: verified
+  example_audio: vrisketai-konta-se-m-4dc40e.mp3
+  example2_audio: psachno-katoikia-kon-506dfe.mp3
+- id: A2P2-U03-024
+  greek: η βλάβη
+  english: breakdown / damage / defect
+  notes: Noun feminine in -η. Used for appliance or plumbing failures.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: feminine
+    genitive: της βλάβης
+    plural: οι βλάβες
+  keg_communicative_function: Reporting domestic maintenance malfunctions to a landlord
+    or technician
+  example_el: Πρέπει να αναφέρω μια βλάβη στον θερμοσίφωνα που δεν ζεσταίνει το νερό.
+  example_en: I need to report a breakdown in the water heater which isn't heating
+    the water.
+  example2_el: Η τεχνική υπηρεσία επισκεύασε τη βλάβη στο δίκτυο ηλεκτροδότησης.
+  example2_en: The technical service repaired the damage in the electricity grid.
+  audio: i-vlavi-4a0de9.mp3
+  status: verified
+  example_audio: prepei-na-anafero-mi-5bf049.mp3
+  example2_audio: i-techniki-ypiresia--d7a0e9.mp3
+- id: A2P2-U03-025
+  greek: χάλασε
+  english: it broke down / it got spoiled
+  notes: Aorist 3rd person singular of χαλάω / χαλάζω. Everyday spoken complaint.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present: χαλάω / χαλάω (-άς, -άει)
+    plural: χάλασαν
+  keg_communicative_function: Stating that a machine or fixture has broken down
+  example_el: Χάλασε το πλυντήριο ρούχων και γεμίσαμε νερά στο πάτωμα.
+  example_en: The washing machine broke down and the floor flooded with water.
+  example2_el: Το κλιματιστικό χάλασε ξαφνικά μέσα στον καύσωνα.
+  example2_en: The air conditioner broke down suddenly in the middle of the heatwave.
+  audio: chalase-eaba12.mp3
+  status: verified
+  example_audio: chalase-to-plyntirio-30ee7c.mp3
+  example2_audio: to-klimatistiko-chal-686df1.mp3
+- id: A2P2-U03-026
+  greek: η διαρροή νερού
+  english: water leak
+  notes: 'Collocation: η διαρροή (leak) + νερού (genitive of νερό).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    noun: η διαρροή (3rd declension feminine)
+    genitive_specifier: νερού / αερίου
+  keg_communicative_function: Explaining household emergency situations requiring
+    plumbing intervention
+  example_el: Παρατηρήσαμε μια διαρροή νερού κάτω από τον νεροχύτη της κουζίνας.
+  example_en: We noticed a water leak under the kitchen sink.
+  example2_el: Καλέστε αμέσως την υπηρεσία αν υποψιάζεστε διαρροή φυσικού αερίου.
+  example2_en: Call the service immediately if you suspect a gas leak.
+  audio: i-diarroi-neroy-51149e.mp3
+  status: verified
+  example_audio: paratirisame-mia-dia-ff8bd8.mp3
+  example2_audio: kaleste-amesos-tin-y-1a55b4.mp3
+- id: A2P2-U03-027
+  greek: ο υδραυλικός
+  english: plumber
+  notes: Tradesperson profession. Feminine rarely used (η υδραυλικός).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+    genitive: του υδραυλικού
+    plural: οι υδραυλικοί
+  keg_communicative_function: Summoning tradespeople to resolve household plumbing
+    faults
+  example_el: Πρέπει να φωνάξουμε τον υδραυλικό για να αλλάξει τη χαλασμένη βρύση.
+  example_en: We must call the plumber to replace the broken faucet.
+  example2_el: Ο υδραυλικός θα έρθει αύριο το πρωί στις δέκα για να δει τη διαρροή.
+  example2_en: The plumber will come tomorrow morning at ten to look at the leak.
+  audio: o-ydraylikos-01934c.mp3
+  status: verified
+  example_audio: prepei-na-fonaxoyme--24075f.mp3
+  example2_audio: o-ydraylikos-tha-ert-aa6edf.mp3
+- id: A2P2-U03-028
+  greek: ο ηλεκτρολόγος
+  english: electrician
+  notes: 'Tradesperson profession in -ος. Genitive: του ηλεκτρολόγου.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun
+    gender: masculine
+    genitive: του ηλεκτρολόγου
+    plural: οι ηλεκτρολόγοι
+  keg_communicative_function: Consulting electrical technicians for wiring and repairs
+  example_el: Ο ηλεκτρολόγος έλεγξε τον πίνακα και άλλαξε τις παλιές ασφάλειες.
+  example_en: The electrician checked the breaker board and changed the old fuses.
+  example2_el: Μην αγγίζετε τα καλώδια πριν έρθει ο εξουσιοδοτημένος ηλεκτρολόγος.
+  example2_en: Do not touch the wires before the authorized electrician arrives.
+  audio: o-ilektrologos-d72c2f.mp3
+  status: verified
+  example_audio: o-ilektrologos-elegx-816637.mp3
+  example2_audio: min-aggizete-ta-kalo-9825a8.mp3
+- id: A2P2-U03-029
+  greek: επισκευάζω / φτιάχνω
+  english: I repair / I fix
+  notes: 'Synonyms: επισκευάζω (more formal) and φτιάχνω (colloquial everyday).'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    verbs: 'επισκευάζω (aorist: επισκεύασα) / φτιάχνω (aorist: έφτιαξα)'
+  keg_communicative_function: Describing repair work and maintenance actions
+  example_el: Ο τεχνικός κατάφερε να επισκευάσει το κλιματιστικό μέσα σε μία ώρα.
+  example_en: The technician managed to repair the air conditioner within one hour.
+  example2_el: Μπορείς σε παρακαλώ να μου φτιάξεις την κλειδαριά της πόρτας;
+  example2_en: Can you please fix the door lock for me?
+  audio: episkeyazo-ftiachno-994065.mp3
+  status: verified
+  example_audio: o-technikos-katafere-d6f820.mp3
+  example2_audio: mporeis-se-parakalo--b3e356.mp3
+- id: A2P2-U03-030
+  greek: μετακομίζω
+  english: I move house / relocate
+  notes: 'Regular -ίζω verb. Aorist: μετακόμισα. Noun: η μετακόμιση.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    present: μετακομίζω
+    aorist: μετακόμισα
+    noun: η μετακόμιση
+  keg_communicative_function: Narrating changes of residence and relocation logistics
+  example_el: Τον επόμενο μήνα μετακομίζουμε σε ένα μεγαλύτερο σπίτι στα βόρεια προάστια.
+  example_en: Next month we are moving to a bigger house in the northern suburbs.
+  example2_el: Η μετακόμιση ήταν κουραστική αλλά είμαστε πολύ χαρούμενοι στη νέα μας
+    γειτονιά.
+  example2_en: Moving was tiring, but we are very happy in our new neighborhood.
+  audio: metakomizo-ab7da0.mp3
+  status: verified
+  example_audio: ton-epomeno-mina-met-2e4227.mp3
+  example2_audio: i-metakomisi-itan-ko-c8413e.mp3

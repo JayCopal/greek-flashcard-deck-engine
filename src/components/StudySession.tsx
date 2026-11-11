@@ -25,6 +25,12 @@ import {
   getCardRatingStatus
 } from '../utils/srs';
 import { 
+  addActiveLearningTime, 
+  formatDuration, 
+  getLearningStatsComparison,
+  AchievementBadge 
+} from '../utils/learningTime';
+import { 
   ChevronLeft, 
   ChevronRight, 
   RotateCw, 
@@ -46,7 +52,9 @@ import {
   Sliders,
   Settings as SettingsIcon,
   Lightbulb,
-  X
+  X,
+  Flame,
+  Sparkles
 } from 'lucide-react';
 
 type StudyDirection = 'greek_to_english' | 'english_to_greek';
@@ -144,10 +152,106 @@ export const StudySession: React.FC<StudySessionProps> = ({
   const [showCompletionModal, setShowCompletionModal] = useState<boolean>(false);
   const [statusUpdateMessage, setStatusUpdateMessage] = useState<string | null>(null);
 
+  // Active Learning Time Tracker
+  const [sessionSeconds, setSessionSeconds] = useState(0);
+  const [isIdle, setIsIdle] = useState(false);
+  const [newBadges, setNewBadges] = useState<AchievementBadge[]>([]);
+  const [sessionStats, setSessionStats] = useState<{
+    sessionDuration: string;
+    todayDuration: string;
+    diffFromYesterday: string;
+    isAheadOfYesterday: boolean;
+    earnedXP: number;
+    newlyUnlocked: AchievementBadge[];
+  } | null>(null);
+
+  const sessionSecondsRef = useRef(0);
+  const uncommittedSecondsRef = useRef(0);
+  const lastActivityTimestampRef = useRef(Date.now());
+
+  // Listen to user interactions to detect active vs idle time
+  useEffect(() => {
+    const markActive = () => {
+      lastActivityTimestampRef.current = Date.now();
+      setIsIdle(false);
+    };
+
+    window.addEventListener('keydown', markActive);
+    window.addEventListener('pointerdown', markActive);
+    window.addEventListener('touchstart', markActive);
+    window.addEventListener('scroll', markActive);
+
+    return () => {
+      window.removeEventListener('keydown', markActive);
+      window.removeEventListener('pointerdown', markActive);
+      window.removeEventListener('touchstart', markActive);
+      window.removeEventListener('scroll', markActive);
+    };
+  }, []);
+
+  // Active time interval counter & periodic flush
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const now = Date.now();
+      const isVisible = typeof document !== 'undefined' && document.visibilityState === 'visible';
+      const isRecent = (now - lastActivityTimestampRef.current) < 60000; // 60s idle threshold
+
+      if (isVisible && isRecent) {
+        sessionSecondsRef.current += 1;
+        uncommittedSecondsRef.current += 1;
+        setSessionSeconds(sessionSecondsRef.current);
+        setIsIdle(false);
+
+        // Periodically commit every 5 active seconds
+        if (uncommittedSecondsRef.current >= 5) {
+          const res = addActiveLearningTime(uncommittedSecondsRef.current, 0, activeUser.id);
+          uncommittedSecondsRef.current = 0;
+          if (res.newBadges && res.newBadges.length > 0) {
+            setNewBadges((prev) => [...prev, ...res.newBadges]);
+          }
+        }
+      } else {
+        setIsIdle(true);
+      }
+    }, 1000);
+
+    return () => {
+      clearInterval(interval);
+      if (uncommittedSecondsRef.current > 0) {
+        addActiveLearningTime(uncommittedSecondsRef.current, 0, activeUser.id);
+        uncommittedSecondsRef.current = 0;
+      }
+    };
+  }, [activeUser.id]);
+
+  const handleExitSafely = useCallback(() => {
+    if (uncommittedSecondsRef.current > 0) {
+      addActiveLearningTime(uncommittedSecondsRef.current, 0, activeUser.id);
+      uncommittedSecondsRef.current = 0;
+    }
+    onExit();
+  }, [onExit, activeUser.id]);
+
   // Automatically derive effective unit and lesson IDs
   const effectiveUnitId = useMemo(() => {
     if (unitId) return unitId;
     if (initialCards.length > 0 && initialCards[0]?.id) {
+      const spMatch = initialCards[0].id.match(/^SP-U(\d+[A-Za-z]?)/i);
+      if (spMatch) {
+        return `unit-sp-${spMatch[1].toLowerCase()}`;
+      }
+      const a2p2Match = initialCards[0].id.match(/^A2P2-U(\d+[A-Za-z]?)/i);
+      if (a2p2Match) {
+        return `unit-a2p2-${a2p2Match[1].toLowerCase()}`;
+      }
+      const cypMatch = initialCards[0].id.match(/^CYP-U(\d+[A-Za-z]?)/i);
+      if (cypMatch) {
+        return `unit-cyp-${cypMatch[1].toLowerCase()}`;
+      }
+      const a2Match = initialCards[0].id.match(/^A2-U(\d+[A-Za-z]?)/i);
+      if (a2Match) {
+        return `unit-a2-${a2Match[1].toLowerCase()}`;
+      }
       const match = initialCards[0].id.match(/U(\d+[A-Za-z]?)/i);
       if (match) {
         return `unit-${match[1].toLowerCase()}`;
@@ -360,6 +464,10 @@ export const StudySession: React.FC<StudySessionProps> = ({
     if (lessonNumber) return parseLessonCode(lessonNumber);
     if (effectiveUnitId) return parseLessonCode(effectiveUnitId);
     if (currentCard?.id) {
+      const cypMatch = currentCard.id.match(/^CYP-U(\d+[A-Za-z]?)/i);
+      if (cypMatch) return parseLessonCode(`unit-cyp-${cypMatch[1]}`);
+      const a2Match = currentCard.id.match(/^A2-U(\d+[A-Za-z]?)/i);
+      if (a2Match) return parseLessonCode(`unit-a2-${a2Match[1]}`);
       const match = currentCard.id.match(/U(\d+[A-Za-z]?)/i);
       if (match) return parseLessonCode(`unit-${match[1]}`);
     }
@@ -401,12 +509,32 @@ export const StudySession: React.FC<StudySessionProps> = ({
     triggerHaptic('light');
     if (currentIndex + 1 >= filteredCards.length) {
       // Completed deck from beginning to end!
+      let freshlyUnlocked = [...newBadges];
+      if (uncommittedSecondsRef.current > 0) {
+        const res = addActiveLearningTime(uncommittedSecondsRef.current, 0, activeUser.id);
+        uncommittedSecondsRef.current = 0;
+        if (res.newBadges && res.newBadges.length > 0) {
+          freshlyUnlocked.push(...res.newBadges);
+          setNewBadges((prev) => [...prev, ...res.newBadges]);
+        }
+      }
+      const comp = getLearningStatsComparison(activeUser.id);
+      const totalSessionSecs = sessionSecondsRef.current;
+      const earnedXP = Math.round((totalSessionSecs / 60) * 10) + filteredCards.length * 2;
+      setSessionStats({
+        sessionDuration: formatDuration(totalSessionSecs),
+        todayDuration: comp.todayFormatted,
+        diffFromYesterday: comp.diffFromYesterdayFormatted,
+        isAheadOfYesterday: comp.isAheadOfYesterday,
+        earnedXP,
+        newlyUnlocked: freshlyUnlocked,
+      });
       setShowCompletionModal(true);
       triggerHaptic('success');
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
-  }, [currentIndex, filteredCards.length]);
+  }, [currentIndex, filteredCards.length, newBadges, activeUser.id]);
 
   const handlePrevious = useCallback(() => {
     setIsFlipped(false);
@@ -535,6 +663,15 @@ export const StudySession: React.FC<StudySessionProps> = ({
       if (!currentCard) return;
       triggerHaptic(rating === 'again' ? 'warning' : rating === 'easy' ? 'success' : 'medium');
       recordSRSRating(currentCard.id, rating, activeUser.id);
+
+      // Commit learning time alongside card rating
+      const secsToCommit = uncommittedSecondsRef.current;
+      uncommittedSecondsRef.current = 0;
+      const res = addActiveLearningTime(secsToCommit, 1, activeUser.id);
+      if (res.newBadges && res.newBadges.length > 0) {
+        setNewBadges((prev) => [...prev, ...res.newBadges]);
+      }
+
       if (dueOnly || ratingFilter !== 'all') {
         const updated = filterStudyCards(initialCards, {
           hideLearned,
@@ -598,13 +735,13 @@ export const StudySession: React.FC<StudySessionProps> = ({
         handleToggleExcluded(); // 'X': TOGGLE IGNORE
       } else if (e.key === 'Escape') {
         e.preventDefault();
-        onExit(); // ESC: EXIT DRILL TO LANDING PAGE
+        handleExitSafely(); // ESC: EXIT DRILL TO LANDING PAGE
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleFlip, handlePlayAudio, handleNext, handlePrevious, handleRateSRS, handleToggleLearned, handleToggleExcluded, studyDirection, isFlipped]);
+  }, [handleFlip, handlePlayAudio, handleNext, handlePrevious, handleRateSRS, handleToggleLearned, handleToggleExcluded, studyDirection, isFlipped, handleExitSafely]);
 
   // Count how many total cards are learned and excluded
   const allSRS = getAllSRSData(activeUser.id);
@@ -706,7 +843,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </button>
           )}
           <button
-            onClick={onExit}
+            onClick={handleExitSafely}
             className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-semibold"
           >
             Back to Dashboard
@@ -869,11 +1006,11 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
       {/* Top Header Bar */}
       <div className="glass-panel px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-2xl flex flex-col gap-1 sm:gap-1.5">
-        {/* Line 1: Back button, Lesson Name, and Card Counter */}
+        {/* Line 1: Back button, Lesson Name, Timer HUD, and Card Counter */}
         <div className="flex items-center justify-between gap-3 min-w-0">
           <div className="flex items-center gap-2 sm:gap-2.5 min-w-0 flex-1">
             <button
-              onClick={onExit}
+              onClick={handleExitSafely}
               className="p-1.5 sm:p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors border border-slate-700 shrink-0"
               title="Exit Drill (Esc)"
             >
@@ -894,14 +1031,42 @@ export const StudySession: React.FC<StudySessionProps> = ({
             </div>
           </div>
 
-          <div className="text-xs text-slate-400 font-medium shrink-0 whitespace-nowrap pl-2">
-            Card <span className="text-slate-200 font-bold">{currentIndex + 1}</span> of{' '}
-            <span className="text-slate-200 font-bold">{filteredCards.length}</span>
-            {ratingFilter !== 'all' && (
-              <span className="text-sky-400 ml-1.5 font-semibold capitalize">
-                [{ratingFilter}]
+          <div className="flex items-center gap-2 shrink-0">
+            {/* Live Focus Session Timer & State Pill */}
+            <div 
+              className={`flex items-center gap-1.5 px-2.5 py-1 rounded-xl border text-xs font-semibold transition-all shrink-0 ${
+                isIdle
+                  ? 'bg-slate-900 border-slate-700 text-slate-400'
+                  : 'bg-slate-900/90 border-sky-500/30 text-sky-300 shadow-sm'
+              }`}
+              title={isIdle ? 'Focus Timer Paused (idle or tab in background)' : 'Active Learning Time in this drill'}
+            >
+              <span className={`w-2 h-2 rounded-full ${
+                isIdle ? 'bg-amber-500' : 'bg-emerald-400 animate-pulse'
+              }`} />
+              <span className="font-mono font-bold text-white">
+                {formatDuration(sessionSeconds)}
               </span>
-            )}
+              {isIdle ? (
+                <span className="text-[10px] text-amber-400 font-normal hidden sm:inline">
+                  (Paused)
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-400 font-normal hidden sm:inline">
+                  active
+                </span>
+              )}
+            </div>
+
+            <div className="text-xs text-slate-400 font-medium shrink-0 whitespace-nowrap pl-1">
+              Card <span className="text-slate-200 font-bold">{currentIndex + 1}</span> of{' '}
+              <span className="text-slate-200 font-bold">{filteredCards.length}</span>
+              {ratingFilter !== 'all' && (
+                <span className="text-sky-400 ml-1.5 font-semibold capitalize">
+                  [{ratingFilter}]
+                </span>
+              )}
+            </div>
           </div>
         </div>
 
@@ -1462,6 +1627,16 @@ export const StudySession: React.FC<StudySessionProps> = ({
                         {currentCard.grammatical_info.verb_type}
                       </span>
                     )}
+                    {currentCard.grammatical_info.stage && (
+                      <span className="px-2 py-0.5 rounded-full bg-rose-950/80 text-rose-300 text-[11px] sm:text-xs border border-rose-700/60">
+                        {currentCard.grammatical_info.stage}
+                      </span>
+                    )}
+                    {currentCard.grammatical_info.focus && (
+                      <span className="px-2 py-0.5 rounded-full bg-slate-800/90 text-sky-300 text-[11px] sm:text-xs border border-slate-700/80">
+                        {currentCard.grammatical_info.focus}
+                      </span>
+                    )}
                   </div>
                 )}
               </div>
@@ -1660,6 +1835,65 @@ export const StudySession: React.FC<StudySessionProps> = ({
               </p>
             </div>
 
+            {/* Focus Time & Wisdom XP Celebration Box */}
+            <div className="p-4 rounded-2xl bg-gradient-to-br from-sky-950/70 via-slate-900 to-indigo-950/70 border border-sky-500/30 space-y-3 text-left">
+              <div className="flex items-center justify-between pb-2 border-b border-sky-500/20">
+                <span className="text-xs font-bold uppercase tracking-wider text-sky-300 flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5 text-sky-400" />
+                  Focus Time & Wisdom XP
+                </span>
+                <span className="text-xs font-extrabold text-amber-300 flex items-center gap-1">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  +{sessionStats?.earnedXP || Math.round((sessionSeconds / 60) * 10) + filteredCards.length * 2} XP
+                </span>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3 text-center">
+                <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                  <span className="text-[10px] font-semibold uppercase text-slate-400 block">This Session</span>
+                  <span className="text-lg sm:text-xl font-black text-white">{sessionStats?.sessionDuration || formatDuration(sessionSeconds)}</span>
+                </div>
+                <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                  <span className="text-[10px] font-semibold uppercase text-slate-400 block">Today's Total</span>
+                  <span className="text-lg sm:text-xl font-black text-emerald-400">{sessionStats?.todayDuration || formatDuration(sessionSeconds)}</span>
+                </div>
+              </div>
+
+              {/* Yesterday Comparison Callout */}
+              {sessionStats && (
+                <div className="text-xs text-slate-300 flex items-center justify-between pt-1">
+                  <span>Compared to yesterday:</span>
+                  {sessionStats.isAheadOfYesterday ? (
+                    <span className="text-emerald-400 font-bold flex items-center gap-1">
+                      <Flame className="w-3.5 h-3.5 text-amber-400" /> +{sessionStats.diffFromYesterday} ahead! 🚀
+                    </span>
+                  ) : (
+                    <span className="text-amber-400 font-semibold">
+                      Keep going to surpass yesterday! 🔥
+                    </span>
+                  )}
+                </div>
+              )}
+
+              {/* Newly Unlocked Badges in this session */}
+              {sessionStats?.newlyUnlocked && sessionStats.newlyUnlocked.length > 0 && (
+                <div className="pt-2 border-t border-sky-500/20 space-y-1.5">
+                  <span className="text-[11px] font-bold text-amber-300 flex items-center gap-1">
+                    🎉 New Achievement Unlocked!
+                  </span>
+                  {sessionStats.newlyUnlocked.map((b) => (
+                    <div key={b.id} className="p-2 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center gap-2">
+                      <span className="text-2xl">{b.icon}</span>
+                      <div>
+                        <h6 className="text-xs font-bold text-white">{b.title} ({b.greekTitle})</h6>
+                        <p className="text-[10px] text-slate-300">{b.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
             {/* Offer to change status of that lesson */}
             <div className="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 text-left">
               <div className="flex items-center justify-between">
@@ -1722,7 +1956,7 @@ export const StudySession: React.FC<StudySessionProps> = ({
 
               <button
                 type="button"
-                onClick={onExit}
+                onClick={handleExitSafely}
                 className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-xs font-bold shadow-lg shadow-sky-500/25 transition-all"
               >
                 Back to Dashboard

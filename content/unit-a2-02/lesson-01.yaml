@@ -1,0 +1,747 @@
+unit_id: unit-a2-02
+lesson_id: lesson-01
+title: 'Μάθημα 2: Καθημερινές Συνήθειες στο Παρελθόν & Χρόνος (Past Habits, Duration
+  & Continuity)'
+description: Describing past routines, enduring habits, and lifestyle transformations
+  using the Imperfect tense (Παρατατικός), temporal connectors (ενώ, καθώς, όταν),
+  and narrative contrast with the Simple Past.
+lesson_status: not_started
+lesson_notes: "Unit A2-02 Core Notes: Παρατατικός & Χρονική Σύνδεση (Imperfect & Temporal\
+  \ Aspect)\n• Imperfect (Παρατατικός) Functions:\n  - Expresses ongoing duration,\
+  \ past habit/repetition, or background atmosphere in narratives.\n  - Forms: έμενα,\
+  \ διάβαζα, δούλευα, μιλούσα, ξυπνούσα, κοιμόμουν, οδηγούσα.\n  - Irregular foundations:\
+  \ ήμουν (I was), είχα (I had).\n\n• Aspectual Contrast: Παρατατικός vs. Αόριστος:\n\
+  \  - Background duration interrupted by a punctive event: 'Ενώ μαγείρευα (παρατατικός),\
+  \ χτύπησε (αόριστος) το κουδούνι.'\n  - Habitual routine vs. single event: 'Παλιά\
+  \ πήγαινα (παρατατικός) κάθε μέρα, αλλά χθες δεν πήγα (αόριστος).'\n\n• Key Connectors:\n\
+  \  - ενώ (while), καθώς (as/while), όταν (when), ξαφνικά (suddenly), την ώρα που\
+  \ (at the time that)."
+entries:
+- id: A2-U02-001
+  greek: ήμουν
+  english: I was
+  notes: Imperfect tense of 'είμαι' (ήμουν, ήσουν, ήταν, ήμασταν, ήσασταν, ήταν).
+    Foundation of past descriptive states.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    second_person_singular: ήσουν
+    third_person_singular: ήταν
+    first_person_plural: ήμασταν
+    second_person_plural: ήσασταν
+    third_person_plural: ήταν / ήσαν
+  keg_communicative_function: Describing past states of being, childhood age, emotions,
+    and background settings
+  example_el: Όταν ήμουν μικρός, περνούσα όλα τα καλοκαίρια στο σπίτι της γιαγιάς.
+  example_en: When I was young, I used to spend all summers at my grandmother's house.
+  example2_el: Χθες το απόγευμα ήμασταν όλοι πολύ κουρασμένοι από το ταξίδι.
+  example2_en: Yesterday afternoon we were all very tired from the trip.
+  audio: imoyn-42d795.mp3
+  status: verified
+  example_audio: otan-imoyn-mikros-pe-af984d.mp3
+  example2_audio: chthes-to-apogeyma-i-fc154d.mp3
+- id: A2-U02-002
+  greek: είχα
+  english: I had / I used to have
+  notes: Imperfect tense of 'έχω' (είχα, είχες, είχε, είχαμε, είχατε, είχαν). Stative
+    and habitual past possession.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    second_person_singular: είχες
+    third_person_singular: είχε
+    first_person_plural: είχαμε
+  keg_communicative_function: Describing past possessions, circumstances, or conditions
+  example_el: Παλιά είχαμε ένα παλιό αυτοκίνητο που χάλαγε συνέχεια.
+  example_en: In the old days we had an old car that kept breaking down.
+  example2_el: Είχα την εντύπωση ότι το μάθημα ξεκινούσε στις εννιά.
+  example2_en: I had the impression that the class started at nine.
+  audio: eicha-f16951.mp3
+  status: verified
+  example_audio: palia-eichame-ena-pa-3666f2.mp3
+  example2_audio: eicha-tin-entyposi-o-ff7a7c.mp3
+- id: A2-U02-003
+  greek: συνήθιζα
+  english: I used to / I was accustomed to
+  notes: Imperfect of 'συνηθίζω'. Followed by 'να + subjunctive' or a noun to express
+    repeated past habits.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: συνηθίζω
+    third_person_singular: συνήθιζε
+    noun_derivative: η συνήθεια
+  keg_communicative_function: Stating discontinued past routines and habitual actions
+    in speaking and writing
+  example_el: Συνήθιζα να ξυπνάω νωρίς και να κάνω βόλτα στην παραλία.
+  example_en: I used to wake up early and take a walk on the beach.
+  example2_el: Στο σχολείο συνήθιζε να διαβάζει τα μαθήματά του στη βιβλιοθήκη.
+  example2_en: At school he used to study his lessons in the library.
+  audio: synithiza-f0159c.mp3
+  status: verified
+  example_audio: synithiza-na-xypnao--e06037.mp3
+  example2_audio: sto-scholeio-synithi-10dde2.mp3
+- id: A2-U02-004
+  greek: η συνήθεια
+  english: habit / custom
+  notes: Feminine noun in -α (-ες). Essential thematic concept when comparing past
+    and modern life.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συνήθειες
+    accusative_singular: τη συνήθεια
+    genitive_singular: της συνήθειας
+  keg_communicative_function: Comparing old lifestyle habits with contemporary routines
+  example_el: Το να πίνουμε καφέ το πρωί είναι μια αγαπημένη ελληνική συνήθεια.
+  example_en: Drinking coffee in the morning is a favorite Greek habit.
+  example2_el: Με τα χρόνια άλλαξε πολλές από τις παλιές του συνήθειες.
+  example2_en: Over the years he changed many of his old habits.
+  audio: i-synitheia-3848f1.mp3
+  status: verified
+  example_audio: to-na-pinoyme-kafe-t-0dd7eb.mp3
+  example2_audio: me-ta-chronia-allaxe-f29579.mp3
+- id: A2-U02-005
+  greek: ζούσα
+  english: I was living / I used to live
+  notes: Imperfect of contracted verb 'ζω / ζάω' (ζούσα, ζούσες, ζούσε, ζούσαμε, ζούσατε,
+    ζούσαν). Denotes prolonged residence.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: ζω
+    third_person_singular: ζούσε
+    first_person_plural: ζούσαμε
+  keg_communicative_function: Narrating long-term past living conditions in biography
+    tasks
+  example_el: Εκείνα τα χρόνια ζούσαμε σε ένα ήσυχο προάστιο της πόλης.
+  example_en: In those years we were living in a quiet suburb of the city.
+  example2_el: Όσο ζούσε στο εξωτερικό, του έλειπε πολύ η ελληνική κουζίνα.
+  example2_en: As long as he was living abroad, he missed Greek cuisine very much.
+  audio: zoysa-bbfc29.mp3
+  status: verified
+  example_audio: ekeina-ta-chronia-zo-93d212.mp3
+  example2_audio: oso-zoyse-sto-exoter-f5fe07.mp3
+- id: A2-U02-006
+  greek: έμενα
+  english: I was staying / I used to stay
+  notes: Imperfect of 'μένω' (έμενα, έμενες, έμενε, μέναμε, μένατε, έμεναν). Continuous
+    past residence.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: μένω
+    third_person_singular: έμενε
+    first_person_plural: μέναμε
+  keg_communicative_function: Describing past housing arrangements during student
+    or early career years
+  example_el: Όταν ήμουν φοιτητής, έμενα σε μια μικρή γκαρσονιέρα στο κέντρο.
+  example_en: When I was a student, I used to live in a small studio in the center.
+  example2_el: Πού μένατε πριν αποφασίσετε να έρθετε στην πρωτεύουσα;
+  example2_en: Where were you living before you decided to come to the capital?
+  audio: emena-de3bd3.mp3
+  status: verified
+  example_audio: otan-imoyn-foititis--3a60f1.mp3
+  example2_audio: poy-menate-prin-apof-297d0b.mp3
+- id: A2-U02-007
+  greek: πήγαινα
+  english: I was going / I used to go
+  notes: Imperfect of 'πηγαίνω' (πήγαινα, πήγαινες, πήγαινε, πηγαίναμε, πηγαίνατε,
+    πήγαιναν). Repetitive or in-progress movement.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: πηγαίνω
+    third_person_singular: πήγαινε
+    first_person_plural: πηγαίναμε
+  keg_communicative_function: Describing repeated journeys or habits (e.g. walking
+    to school, going to the beach every summer)
+  example_el: Κάθε καλοκαίρι πηγαίναμε με την οικογένειά μου στο χωριό των παππούδων.
+  example_en: Every summer we used to go with my family to our grandparents' village.
+  example2_el: Ενώ πήγαινα στη δουλειά με τα πόδια, συνάντησα έναν παλιό φίλο.
+  example2_en: While I was walking to work, I met an old friend.
+  audio: pigaina-62319f.mp3
+  status: verified
+  example_audio: kathe-kalokairi-piga-c78e19.mp3
+  example2_audio: eno-pigaina-sti-doyl-1e98f5.mp3
+- id: A2-U02-008
+  greek: δούλευα
+  english: I was working / I used to work
+  notes: Imperfect of 'δουλεύω' (δούλευα, δούλευες, δούλευε, δουλεύαμε, δουλεύατε,
+    δούλευαν). Continuous employment background.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: δουλεύω
+    third_person_singular: δούλευε
+    first_person_plural: δουλεύαμε
+  keg_communicative_function: Setting the workplace background for a past narrative
+  example_el: Εκείνη την περίοδο δούλευα πολλές ώρες κάθε μέρα και δεν είχα ελεύθερο
+    χρόνο.
+  example_en: During that period I was working many hours every day and had no free
+    time.
+  example2_el: Όσο δούλευε στην τράπεζα, παρακολουθούσε παράλληλα μαθήματα γαλλικών.
+  example2_en: While she was working at the bank, she was simultaneously attending
+    French classes.
+  audio: doyleya-955679.mp3
+  status: verified
+  example_audio: ekeini-tin-periodo-d-013f87.mp3
+  example2_audio: oso-doyleye-stin-tra-1bc823.mp3
+- id: A2-U02-009
+  greek: διάβαζα
+  english: I was reading / I used to study
+  notes: Imperfect of 'διαβάζω' (διάβαζα, διάβαζες, διάβαζε, διαβάζαμε, διαβάζατε,
+    διάβαζαν). Extended study periods.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: διαβάζω
+    third_person_singular: διάβαζε
+    first_person_plural: διαβάζαμε
+  keg_communicative_function: Describing past study habits or actions in progress
+    when interrupted
+  example_el: Διάβαζα ένα βιβλίο στο σαλόνι όταν χτύπησε ξαφνικά το κουδούνι.
+  example_en: I was reading a book in the living room when suddenly the doorbell rang.
+  example2_el: Παλιά διάβαζε καθημερινά εφημερίδα, ενώ τώρα ενημερώνεται από το διαδίκτυο.
+  example2_en: In the past he used to read a newspaper daily, whereas now he gets
+    informed online.
+  audio: diavaza-a041fe.mp3
+  status: verified
+  example_audio: diavaza-ena-vivlio-s-617160.mp3
+  example2_audio: palia-diavaze-kathim-9145ca.mp3
+- id: A2-U02-010
+  greek: μιλούσα
+  english: I was speaking / I used to talk
+  notes: Imperfect of Group B1 verb 'μιλάω / μιλώ' (μιλούσα, μιλούσες, μιλούσε, μιλούσαμε,
+    μιλούσατε, μιλούσαν).
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: μιλάω / μιλώ
+    third_person_singular: μιλούσε
+    first_person_plural: μιλούσαμε
+  keg_communicative_function: Describing ongoing telephone conversations or linguistic
+    abilities in the past
+  example_el: Μιλούσα στο τηλέφωνο με τη μητέρα μου όταν κόπηκε το ρεύμα.
+  example_en: I was speaking on the phone with my mother when the power went out.
+  example2_el: Όταν ήταν παιδί, μιλούσε μόνο ιταλικά στο σπίτι.
+  example2_en: When he was a child, he only spoke Italian at home.
+  audio: miloysa-65b303.mp3
+  status: verified
+  example_audio: miloysa-sto-tilefono-2ef4c0.mp3
+  example2_audio: otan-itan-paidi-milo-5e9029.mp3
+- id: A2-U02-011
+  greek: ξυπνούσα
+  english: I used to wake up
+  notes: Imperfect of Group B1 verb 'ξυπνάω' (ξυπνούσα, ξυπνούσες, ξυπνούσε, ξυπνούσαμε,
+    ξυπνούσατε, ξυπνούσαν).
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: ξυπνάω
+    third_person_singular: ξυπνούσε
+    first_person_plural: ξυπνούσαμε
+  keg_communicative_function: Describing past morning routines and schedules
+  example_el: Στο χωριό ξυπνούσαμε με τον ήλιο και πηγαίναμε στα χωράφια.
+  example_en: In the village we used to wake up with the sun and go to the fields.
+  example2_el: Τον χειμώνα ξυπνούσε πάντα δύσκολα λόγω του κρύου.
+  example2_en: In the winter he always used to wake up with difficulty because of
+    the cold.
+  audio: xypnoysa-d9f504.mp3
+  status: verified
+  example_audio: sto-chorio-xypnoysam-1af160.mp3
+  example2_audio: ton-cheimona-xypnoys-4b05ef.mp3
+- id: A2-U02-012
+  greek: κοιμόμουν
+  english: I was sleeping / I used to sleep
+  notes: Imperfect of mediopassive verb 'κοιμάμαι' (κοιμόμουν, κοιμόσουν, κοιμόταν,
+    κοιμόμασταν, κοιμόσασταν, κοιμούνταν).
+  gender_or_pos: verb (imperfect mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    voice: mediopassive
+    second_person_singular: κοιμόσουν
+    third_person_singular: κοιμόταν
+    first_person_plural: κοιμόμασταν
+  keg_communicative_function: Describing past sleeping habits or ongoing states during
+    an event
+  example_el: Κοιμόμουν βαριά όταν με ξύπνησε ο δυνατός θόρυβος στον δρόμο.
+  example_en: I was sleeping heavily when the loud noise in the street woke me up.
+  example2_el: Τα καλοκαίρια κοιμόμασταν αργά το βράδυ λόγω της ζέστης.
+  example2_en: In the summers we used to sleep late at night due to the heat.
+  audio: koimomoyn-a7dd59.mp3
+  status: verified
+  example_audio: koimomoyn-varia-otan-f0b7f6.mp3
+  example2_audio: ta-kalokairia-koimom-5f90cf.mp3
+- id: A2-U02-013
+  greek: φορούσα
+  english: I was wearing / I used to wear
+  notes: Imperfect of Group B1 verb 'φοράω' (φορούσα, φορούσες, φορούσε, φορούσαμε,
+    φορούσατε, φορούσαν).
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: φοράω
+    third_person_singular: φορούσε
+    first_person_plural: φορούσαμε
+  keg_communicative_function: Describing past appearance, attire, and uniforms
+  example_el: Στο σχολείο όλοι οι μαθητές φορούσαν μπλε ποδιές εκείνα τα χρόνια.
+  example_en: At school all pupils used to wear blue smocks in those years.
+  example2_el: Όταν τον είδα, φορούσε ένα σκούρο παλτό και κρατούσε ομπρέλα.
+  example2_en: When I saw him, he was wearing a dark coat and holding an umbrella.
+  audio: foroysa-de23e7.mp3
+  status: verified
+  example_audio: sto-scholeio-oloi-oi-78aafd.mp3
+  example2_audio: otan-ton-eida-foroys-ce5638.mp3
+- id: A2-U02-014
+  greek: οδηγούσα
+  english: I was driving / I used to drive
+  notes: Imperfect of Group B2 verb 'οδηγώ' (οδηγούσα, οδηγούσες, οδηγούσε, οδηγούσαμε,
+    οδηγούσατε, οδηγούσαν).
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: οδηγώ
+    third_person_singular: οδηγούσε
+    noun_derivative: ο οδηγός
+  keg_communicative_function: Describing ongoing travel actions during incidents or
+    road trips
+  example_el: Οδηγούσα προσεκτικά στον αυτοκινητόδρομο επειδή έβρεχε καταρρακτωδώς.
+  example_en: I was driving carefully on the highway because it was raining heavily.
+  example2_el: Παλιά οδηγούσε μηχανή, αλλά τώρα προτιμάει το αυτοκίνητο.
+  example2_en: In the past he used to ride a motorbike, but now he prefers the car.
+  audio: odigoysa-50c824.mp3
+  status: verified
+  example_audio: odigoysa-prosektika--778a3e.mp3
+  example2_audio: palia-odigoyse-micha-3a5dfe.mp3
+- id: A2-U02-015
+  greek: έπαιζα
+  english: I was playing / I used to play
+  notes: Imperfect of 'παίζω' (έπαιζα, έπαιζες, έπαιζε, παίζαμε, παίζατε, έπαιζαν).
+    Childhood sports and pastimes.
+  gender_or_pos: verb (imperfect)
+  grammatical_info:
+    part_of_speech: verb
+    tense: imperfect (παρατατικός)
+    present_stem: παίζω
+    third_person_singular: έπαιζε
+    first_person_plural: παίζαμε
+  keg_communicative_function: Describing childhood games, hobbies, and sports
+  example_el: Τα απογεύματα παίζαμε ποδόσφαιρο στην αλάνα μέχρι να νυχτώσει.
+  example_en: In the afternoons we used to play football on the vacant lot until it
+    got dark.
+  example2_el: Η Μαρία έπαιζε πιάνο για δύο ώρες κάθε μέρα.
+  example2_en: Maria used to play the piano for two hours every day.
+  audio: epaiza-93ce6b.mp3
+  status: verified
+  example_audio: ta-apogeymata-paizam-6fc424.mp3
+  example2_audio: i-maria-epaize-piano-7c8b3a.mp3
+- id: A2-U02-016
+  greek: παλιά
+  english: in the past / formerly / in the old days
+  notes: Temporal adverb. Fundamental signal word for imperfect tense contrasting
+    with present.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: temporal adverb
+    comparative: παλιότερα (formerly)
+    contrast: τώρα (now), σήμερα (nowadays)
+  keg_communicative_function: Marking historical or generational contrasts in reading
+    and writing essays
+  example_el: Παλιά η ζωή ήταν πιο απλή αλλά και πιο δύσκολη σωματικά.
+  example_en: In the old days life was simpler but also more physically demanding.
+  example2_el: Παλιά δεν υπήρχαν έξυπνα τηλέφωνα και διαδίκτυο.
+  example2_en: In the past there were no smartphones and internet.
+  audio: palia-7a202f.mp3
+  status: verified
+  example_audio: palia-i-zoi-itan-pio-98e5dc.mp3
+  example2_audio: palia-den-ypirchan-e-c0df04.mp3
+- id: A2-U02-017
+  greek: τότε
+  english: then / at that time / back then
+  notes: Temporal adverb referring to a specific past period. Pairs with 'σήμερα'
+    or 'τώρα'.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: temporal adverb
+    common_collocation: από τότε (since then), μέχρι τότε (until then)
+  keg_communicative_function: Anchoring narratives to a previously mentioned point
+    in time
+  example_el: Ήμουν δεκαπέντε χρονών τότε και δεν καταλάβαινα τη σημασία του γεγονότος.
+  example_en: I was fifteen years old back then and did not understand the importance
+    of the event.
+  example2_el: Τότε τα καταστήματα έκλειναν νωρίς το μεσημέρι.
+  example2_en: Back then shops used to close early in the afternoon.
+  audio: tote-b9fba9.mp3
+  status: verified
+  example_audio: imoyn-dekapente-chro-9ee1ff.mp3
+  example2_audio: tote-ta-katastimata--6861c8.mp3
+- id: A2-U02-018
+  greek: ενώ
+  english: while / whereas
+  notes: 'Subordinating temporal conjunction. Takes imperfect for parallel background
+    actions: ''ενώ έτρωγα, έβλεπα τηλεόραση''.'
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conjunction
+    grammatical_usage: triggers imperfect for ongoing duration or contrast
+  keg_communicative_function: Linking simultaneous past actions or contrasting two
+    simultaneous situations
+  example_el: Ενώ μαγείρευα στην κουζίνα, τα παιδιά διάβαζαν στο δωμάτιό τους.
+  example_en: While I was cooking in the kitchen, the children were studying in their
+    room.
+  example2_el: Ενώ περπατούσα στον πεζόδρομο, άκουσα κάποιον να φωνάζει το όνομά μου.
+  example2_en: While I was walking on the pedestrian street, I heard someone calling
+    my name.
+  audio: eno-a796b0.mp3
+  status: verified
+  example_audio: eno-mageireya-stin-k-ebb08e.mp3
+  example2_audio: eno-perpatoysa-ston--9a7194.mp3
+- id: A2-U02-019
+  greek: καθώς
+  english: as / while
+  notes: Formal temporal conjunction synonym of 'ενώ'. Frequent in narrative texts
+    of KEG A2 Reading Section 2.
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conjunction
+    synonym: την ώρα που, ενώ
+  keg_communicative_function: Expressing progressive synchronization between two actions
+  example_el: Καθώς πλησίαζε το πλοίο στο λιμάνι, όλοι οι επιβάτες βγήκαν στο κατάστρωμα.
+  example_en: As the ship was approaching the port, all passengers came out onto the
+    deck.
+  example2_el: Καθώς κοιτούσα τις παλιές φωτογραφίες, ένιωσα μεγάλη συγκίνηση.
+  example2_en: As I was looking at the old photographs, I felt great emotion.
+  audio: kathos-8d8b7c.mp3
+  status: verified
+  example_audio: kathos-plisiaze-to-p-44c8f9.mp3
+  example2_audio: kathos-koitoysa-tis--b30d4d.mp3
+- id: A2-U02-020
+  greek: όταν
+  english: when
+  notes: Temporal conjunction. Pairs with imperfect for background ('όταν έμενα...')
+    and aorist for main event.
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conjunction
+    tense_combinations: όταν + παρατατικός (duration/habit) vs όταν + αόριστος (point
+      in time)
+  keg_communicative_function: Setting temporal conditions and historical milestones
+    in narratives
+  example_el: Όταν έφτασε ο γιατρός, ο ασθενής αισθανόταν ήδη πολύ καλύτερα.
+  example_en: When the doctor arrived, the patient was already feeling much better.
+  example2_el: Όταν τελειώσουν οι εξετάσεις, θα πάμε όλοι μαζί για φαγητό.
+  example2_en: When the examinations finish, we will all go eat together.
+  audio: otan-f91465.mp3
+  status: verified
+  example_audio: otan-eftase-o-giatro-14b31f.mp3
+  example2_audio: otan-teleiosoyn-oi-e-7e3b84.mp3
+- id: A2-U02-021
+  greek: ξαφνικά
+  english: suddenly
+  notes: Adverb of manner/time. Characteristic signal word introducing a sudden simple
+    past (αόριστος) into an ongoing imperfect narrative.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+    narrative_role: triggers aorist for sudden punctive interruption
+  keg_communicative_function: Introducing sudden turns of events in written narrative
+    tasks
+  example_el: Καθόμασταν ήσυχα στο μπαλκόνι όταν ξαφνικά άρχισε δυνατή καταιγίδα.
+  example_en: We were sitting quietly on the balcony when suddenly a strong storm
+    began.
+  example2_el: Ξαφνικά συνειδητοποίησα ότι είχα ξεχάσει τα κλειδιά μου μέσα στο σπίτι.
+  example2_en: Suddenly I realized that I had forgotten my keys inside the house.
+  audio: xafnika-c7d8a0.mp3
+  status: verified
+  example_audio: kathomastan-isycha-s-24fd05.mp3
+  example2_audio: xafnika-syneiditopoi-120919.mp3
+- id: A2-U02-022
+  greek: την ώρα που
+  english: at the moment that / while
+  notes: Temporal prepositional locution synonymous with 'ενώ'. Emphasizes precise
+    coincidence of actions.
+  gender_or_pos: conjunctional phrase
+  grammatical_info:
+    part_of_speech: phrase
+    synonym: τη στιγμή που
+  keg_communicative_function: Pinpointing exact moments when concurrent actions intersect
+  example_el: Την ώρα που έμπαινα στο γραφείο, χτύπησε το τηλέφωνο.
+  example_en: At the moment that I was entering the office, the telephone rang.
+  example2_el: Έφυγε βιαστικά την ώρα που άρχιζε η ομιλία.
+  example2_en: He left hurriedly at the time that the speech was beginning.
+  audio: tin-ora-poy-a3cdf5.mp3
+  status: verified
+  example_audio: tin-ora-poy-empaina--872447.mp3
+  example2_audio: efyge-viastika-tin-o-f200d8.mp3
+- id: A2-U02-023
+  greek: κάθε μέρα
+  english: every day
+  notes: Adverbial temporal phrase. Distinctive trigger for imperfect (repetitive
+    action in past) or present.
+  gender_or_pos: adverbial phrase
+  grammatical_info:
+    part_of_speech: phrase
+    aspectual_trigger: habitual imperfect or continuous present
+  keg_communicative_function: Describing repeated daily schedules and habitual routines
+  example_el: Εκείνο το καλοκαίρι πήγαινα κάθε μέρα για κολύμπι νωρίς το πρωί.
+  example_en: That summer I used to go swimming every day early in the morning.
+  example2_el: Πρέπει να εξασκείστε στα ελληνικά κάθε μέρα για να πετύχετε στις εξετάσεις.
+  example2_en: You must practice Greek every day to succeed in the examinations.
+  audio: kathe-mera-e1cd7e.mp3
+  status: verified
+  example_audio: ekeino-to-kalokairi--1cb43d.mp3
+  example2_audio: prepei-na-exaskeiste-07d768.mp3
+- id: A2-U02-024
+  greek: συχνά
+  english: often / frequently
+  notes: Adverb of frequency. Triggers continuous/imperfect aspect when situated in
+    past contexts.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: frequency adverb
+    contrast: σπάνια (rarely), ποτέ (never)
+  keg_communicative_function: Expressing frequency of activities and social habits
+  example_el: Στο πανεπιστήμιο βγαίναμε πολύ συχνά με τους συμφοιτητές μου.
+  example_en: At university we used to go out very often with my fellow students.
+  example2_el: Πόσο συχνά επισκέπτεστε τους γονείς σας στο χωριό;
+  example2_en: How often do you visit your parents in the village?
+  audio: sychna-5e9df0.mp3
+  status: verified
+  example_audio: sto-panepistimio-vga-60952a.mp3
+  example2_audio: poso-sychna-episkept-d006cc.mp3
+- id: A2-U02-025
+  greek: σπάνια
+  english: rarely / seldom
+  notes: Adverb of frequency. Antonym of 'συχνά'.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: frequency adverb
+    antonym: συχνά
+  keg_communicative_function: Describing infrequency of habits and unusual occurrences
+  example_el: Παλιά ταξίδευα πολύ σπάνια στο εξωτερικό λόγω υψηλού κόστους.
+  example_en: In the past I traveled very rarely abroad due to high costs.
+  example2_el: Σπάνια χάνει μάθημα, είναι πάντα συνεπής στις υποχρεώσεις του.
+  example2_en: He rarely misses a class; he is always punctual in his obligations.
+  audio: spania-f5a558.mp3
+  status: verified
+  example_audio: palia-taxideya-poly--1de7a1.mp3
+  example2_audio: spania-chanei-mathim-763a1e.mp3
+- id: A2-U02-026
+  greek: σιγά σιγά
+  english: gradually / step by step / slowly
+  notes: Reduplicated adverbial locution. Denotes progressive gradual development
+    over time.
+  gender_or_pos: adverbial phrase
+  grammatical_info:
+    part_of_speech: idiomatic phrase
+    synonym: βαθμιαία, σταδιακά
+  keg_communicative_function: Expressing gradual progress, adaptation, and linguistic
+    improvement
+  example_el: Σιγά σιγά έμαθα τη γλώσσα και συνήθισα τη ζωή στην Ελλάδα.
+  example_en: Gradually I learned the language and got used to life in Greece.
+  example2_el: Ο καιρός άρχισε σιγά σιγά να ζεσταίνει καθώς ερχόταν η άνοιξη.
+  example2_en: The weather gradually began to warm up as spring was arriving.
+  audio: siga-siga-949f4d.mp3
+  status: verified
+  example_audio: siga-siga-ematha-ti--5e1e42.mp3
+  example2_audio: o-kairos-archise-sig-fb9a39.mp3
+- id: A2-U02-027
+  greek: ο τρόπος ζωής
+  english: lifestyle / way of life
+  notes: Masculine noun phrase. 'ο τρόπος' + genitive 'της ζωής'. Core sociological
+    theme in A2 tests.
+  gender_or_pos: noun phrase (masculine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι τρόποι ζωής
+    genitive: του τρόπου ζωής
+  keg_communicative_function: Comparing urban vs rural lifestyles and modern vs traditional
+    living
+  example_el: Ο σύγχρονος τρόπος ζωής στις μεγαλουπόλεις προκαλεί συχνά άγχος.
+  example_en: The modern lifestyle in big cities often causes stress.
+  example2_el: Πολλοί νέοι αναζητούν έναν πιο υγιεινό τρόπο ζωής κοντά στη φύση.
+  example2_en: Many young people are seeking a healthier lifestyle close to nature.
+  audio: o-tropos-zois-51cc27.mp3
+  status: verified
+  example_audio: o-sygchronos-tropos--221e82.mp3
+  example2_audio: polloi-neoi-anazitoy-957a21.mp3
+- id: A2-U02-028
+  greek: η καθημερινότητα
+  english: daily life / routine
+  notes: Feminine noun in -ότητα (-ότητες). High-frequency term in descriptive and
+    comparative essays.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καθημερινότητες
+    accusative_singular: την καθημερινότητα
+    genitive_singular: της καθημερινότητας
+  keg_communicative_function: Describing day-to-day existence and recurring routines
+    in Greece
+  example_el: Η καθημερινότητα στην Αθήνα είναι γεμάτη δραστηριότητες αλλά και κίνηση.
+  example_en: Daily life in Athens is full of activities but also traffic.
+  example2_el: Οι διακοπές μάς βοηθούν να ξεφύγουμε από τη ρουτίνα της καθημερινότητας.
+  example2_en: Vacations help us escape the routine of daily life.
+  audio: i-kathimerinotita-8fe149.mp3
+  status: verified
+  example_audio: i-kathimerinotita-st-0e5c4c.mp3
+  example2_audio: oi-diakopes-mas-voit-78552f.mp3
+- id: A2-U02-029
+  greek: η γειτονιά
+  english: neighborhood
+  notes: Feminine noun in -ά (-ές). Central cultural concept in Greek community living.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι γειτονιές
+    accusative_singular: τη γειτονιά
+    genitive_singular: της γειτονιάς
+  keg_communicative_function: Describing local community life, neighborhood stores,
+    and changes over time
+  example_el: Παλιά στη γειτονιά όλοι οι κάτοικοι γνωρίζονταν μεταξύ τους.
+  example_en: In the old days in the neighborhood all residents knew each other.
+  example2_el: Μένω σε μια ήσυχη γειτονιά με πολλά πάρκα και καταστήματα.
+  example2_en: I live in a quiet neighborhood with many parks and shops.
+  audio: i-geitonia-48f987.mp3
+  status: verified
+  example_audio: palia-sti-geitonia-o-c0e979.mp3
+  example2_audio: meno-se-mia-isychi-g-f7e060.mp3
+- id: A2-U02-030
+  greek: το χωριό
+  english: village / rural hometown
+  notes: Neuter noun in -ό (-ά). Core cultural topic in contrast with 'η πόλη' (the
+    city).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χωριά
+    genitive_singular: του χωριού
+  keg_communicative_function: Describing holidays, traditions, and family roots in
+    the Greek countryside
+  example_el: Το Πάσχα όλη η οικογένεια συγκεντρώνεται στο χωριό για να γιορτάσει.
+  example_en: At Easter the whole family gathers in the village to celebrate.
+  example2_el: Στο χωριό ο ρυθμός της ζωής ήταν πολύ πιο αργός και ήρεμος.
+  example2_en: In the village the pace of life was much slower and calmer.
+  audio: to-chorio-ef5297.mp3
+  status: verified
+  example_audio: to-pascha-oli-i-oiko-ab3cfc.mp3
+  example2_audio: sto-chorio-o-rythmos-148b9d.mp3
+- id: A2-U02-031
+  greek: οι παραδόσεις
+  english: traditions / customs
+  notes: 'Feminine noun plural (singular: ''η παράδοση''). Frequent subject in cultural
+    reading passages.'
+  gender_or_pos: noun (feminine plural)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    singular: η παράδοση
+    genitive_plural: των παραδόσεων
+    adjective: παραδοσιακός
+  keg_communicative_function: Discussing cultural heritage, festivities, and seasonal
+    customs in Greece
+  example_el: Στην Ελλάδα διατηρούνται ακόμα πολλές παλιές παραδόσεις και έθιμα.
+  example_en: In Greece many old traditions and customs are still preserved.
+  example2_el: Είναι σημαντικό να γνωρίζουμε τις παραδόσεις του τόπου που επισκεπτόμαστε.
+  example2_en: It is important to know the traditions of the place we visit.
+  audio: oi-paradoseis-a711d8.mp3
+  status: verified
+  example_audio: stin-ellada-diatiroy-8c7784.mp3
+  example2_audio: einai-simantiko-na-g-8fa78b.mp3
+- id: A2-U02-032
+  greek: θυμάμαι
+  english: to remember / I remember
+  notes: 'Deponent/mediopassive verb in -άμαι (θυμάμαι, θυμάσαι, θυμάται, θυμόμαστε,
+    θυμάστε, θυμούνται). Past: ''θυμήθηκα''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    present_conjugation: θυμάμαι, θυμάσαι, θυμάται
+    simple_past: θυμήθηκα
+    antonym: ξεχνάω
+  keg_communicative_function: Recalling past events and expressing childhood memories
+  example_el: Θυμάμαι ακόμα με νοσταλγία την πρώτη μέρα που πήγα στο δημοτικό σχολείο.
+  example_en: I still remember with nostalgia the first day I went to primary school.
+  example2_el: Θυμάστε τι ώρα είχαμε κανονίσει το ραντεβού με τον δικηγόρο;
+  example2_en: Do you remember what time we had arranged the appointment with the
+    lawyer?
+  audio: thymamai-b265ea.mp3
+  status: verified
+  example_audio: thymamai-akoma-me-no-8584bd.mp3
+  example2_audio: thymaste-ti-ora-eich-aa0543.mp3
+- id: A2-U02-033
+  greek: ξεχνάω
+  english: to forget
+  notes: 'Group B1 verb (ξεχνάω / ξεχνώ). Simple past: ''ξέχασα''. Key contrast with
+    ''θυμάμαι''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: ξέχασα
+    third_person_past: ξέχασε
+    antonym: θυμάμαι
+  keg_communicative_function: Expressing lapses in memory, forgetting belongings,
+    or unforgettable moments
+  example_el: Δεν θα ξεχάσω ποτέ τη ζεστή φιλοξενία των ανθρώπων στο νησί.
+  example_en: I will never forget the warm hospitality of the people on the island.
+  example2_el: Συγγνώμη, ξέχασα να σας φέρω τα έγγραφα που μου ζητήσατε.
+  example2_en: I am sorry, I forgot to bring you the documents that you asked me for.
+  audio: xechnao-821742.mp3
+  status: verified
+  example_audio: den-tha-xechaso-pote-8f7af5.mp3
+  example2_audio: syggnomi-xechasa-na--7a241a.mp3
+- id: A2-U02-034
+  greek: διαρκώ
+  english: to last / to endure
+  notes: 'Type B2 verb (διαρκεί, διαρκούν). Simple past: ''διήρκεσε'' or ''διάρκεσε''.
+    Used for duration of events, films, exams.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    third_person_present: διαρκεί
+    simple_past: διήρκεσε / διάρκεσε
+    noun_derivative: η διάρκεια
+  keg_communicative_function: Discussing length of time, course duration, and exam
+    schedules
+  example_el: Η γραπτή εξέταση των ελληνικών διαρκεί περίπου δύο ώρες.
+  example_en: The written Greek examination lasts approximately two hours.
+  example2_el: Η καλοκαιρινή συναυλία διήρκεσε μέχρι τα μεσάνυχτα.
+  example2_en: The summer concert lasted until midnight.
+  audio: diarko-d3ed7f.mp3
+  status: verified
+  example_audio: i-grapti-exetasi-ton-c0187b.mp3
+  example2_audio: i-kalokairini-synayl-daa729.mp3
+- id: A2-U02-035
+  greek: η διάρκεια
+  english: duration / period
+  notes: Feminine noun in -α (-ες). Collocates with 'κατά τη διάρκεια' (during). Essential
+    prepositional phrase.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    collocation: 'κατά τη διάρκεια (+ genitive: during)'
+    genitive_singular: της διάρκειας
+  keg_communicative_function: Specifying time periods and describing occurrences during
+    an event
+  example_el: Κατά τη διάρκεια των διακοπών επισκεφτήκαμε πολλά μουσεία και αρχαία
+    μνημεία.
+  example_en: During the holidays we visited many museums and ancient monuments.
+  example2_el: Ποια είναι η διάρκεια του εκπαιδευτικού προγράμματος;
+  example2_en: What is the duration of the educational program?
+  audio: i-diarkeia-8aaf57.mp3
+  status: verified
+  example_audio: kata-ti-diarkeia-ton-2f1d15.mp3
+  example2_audio: poia-einai-i-diarkei-b03c13.mp3

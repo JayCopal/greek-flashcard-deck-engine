@@ -1,0 +1,1082 @@
+unit_id: unit-sp-02
+lesson_id: lesson-01
+title: 'Προφορικά SP-02: Συνδετικές Εκφράσεις & Διαχείριση Ροής (Conversational Connectors
+  & Fluency Boosters)'
+description: 40 high-frequency spoken connectors, hesitation managers, opinion frames,
+  active listening tokens, and polite clarification formulas to eliminate silent freezes
+  across all 3 stages of the KEG A2 Speaking exam.
+lesson_status: not_started
+lesson_notes: "Module SP-02 Core Notes: Συνδετικές Εκφράσεις & Διαχείριση Ροής (Conversational\
+  \ Connectors & Fluency Boosters)\n• Official KEG A2 Exam Alignment (All 3 Stages\
+  \ — Criterion 1 & Criterion 5):\n  - Eliminates silent freezes with automatic Greek\
+  \ hesitation fillers (001–008), personal opinion frames (009–016), discourse structuring\
+  \ & contrast connectors (017–024), collaborative turn-taking & polite agreement/disagreement\
+  \ (025–032), and repair/clarification formulas (033–040).\n  - High-Score Strategy:\
+  \ Use natural spoken Greek repair formulas instead of switching to English when\
+  \ you need a moment to think or need a question repeated."
+entries:
+- id: SP-U02-001
+  greek: Για να σκεφτώ λίγο...
+  english: Let me think for a moment... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Subjunctive particle για να + first-person singular aorist subjunctive
+      (σκεφτώ), adverbial quantifier (λίγο)
+  notes: 'Examiner Objective: Tests interactive competence and natural hesitation
+    management instead of dead silence.
+
+    Strategy: Use immediately when an examiner question catches you off guard to buy
+    3–4 seconds of thinking time.'
+  example_el: Για να σκεφτώ λίγο... Νομίζω ότι το πιο όμορφο ταξίδι που έκανα τα τελευταία
+    χρόνια ήταν πέρυσι την άνοιξη στην Κέρκυρα με την οικογένειά μου.
+  example_en: Let me think for a moment... I think that the most beautiful trip I
+    took in recent years was last spring to Corfu with my family.
+  example2_el: Για να σκεφτώ λίγο... Αν είχα περισσότερο ελεύθερο χρόνο τις καθημερινές,
+    θα ήθελα σίγουρα να μάθω να παίζω ένα μουσικό όργανο.
+  example2_en: Let me think for a moment... If I had more free time on weekdays, I
+    would definitely like to learn to play a musical instrument.
+  keg_communicative_function: Buying thinking time naturally without breaking conversational
+    flow
+  audio: gia-na-skefto-ligo-1586a1.mp3
+  example_audio: gia-na-skefto-ligo-n-81b76b.mp3
+  example2_audio: gia-na-skefto-ligo-a-a27b05.mp3
+- id: SP-U02-002
+  greek: Κοιτάξτε, η αλήθεια είναι ότι...
+  english: Look, the truth is that... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Polite imperative discourse marker (κοιτάξτε) + declarative complement
+      clause (η αλήθεια είναι ότι)
+  notes: 'Examiner Objective: Rewards authentic Greek conversational framing when
+    giving an honest or nuanced answer.
+
+    Strategy: Use when your real answer differs from the cliché expectation (e.g.,
+    admitting you don''t like cooking).'
+  example_el: Κοιτάξτε, η αλήθεια είναι ότι δεν έχω πολύ ελεύθερο χρόνο τις καθημερινές,
+    γι' αυτό προτιμώ να ξεκουράζομαι στο σπίτι μου το βράδυ.
+  example_en: Look, the truth is that I do not have much free time on weekdays, which
+    is why I prefer to rest at home in the evening.
+  example2_el: Κοιτάξτε, η αλήθεια είναι ότι στην αρχή φοβόμουν να μιλήσω ελληνικά,
+    αλλά τώρα νιώθω πολύ μεγαλύτερη αυτοπεποίθηση στην καθημερινή μου επικοινωνία.
+  example2_en: Look, the truth is that at first I was afraid to speak Greek, but now
+    I feel much greater confidence in my daily communication.
+  keg_communicative_function: Introducing a candid personal statement while maintaining
+    spoken fluency
+  audio: koitaxte-i-alitheia--d07a33.mp3
+  example_audio: koitaxte-i-alitheia--48139b.mp3
+  example2_audio: koitaxte-i-alitheia--0fbb3d.mp3
+- id: SP-U02-003
+  greek: Είναι μια πολύ καλή ερώτηση...
+  english: That is a very good question... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Evaluative noun phrase (μια πολύ καλή ερώτηση) used as a conversational
+      staller in Stage 1 and Stage 3
+  notes: 'Examiner Objective: Demonstrates high communicative poise when responding
+    to abstract Stage 3 follow-up questions.
+
+    Strategy: Pair with ''δεν το είχα σκεφτεί ποτέ έτσι, αλλά...'' to transition smoothly
+    into your opinion.'
+  example_el: Είναι μια πολύ καλή ερώτηση... Δεν το είχα σκεφτεί ποτέ έτσι, αλλά πιστεύω
+    πως η ζωή στην εξοχή είναι πιο υγιεινή για τα παιδιά.
+  example_en: That is a very good question... I had never thought about it like that,
+    but I believe life in the countryside is healthier for children.
+  example2_el: Είναι μια πολύ καλή ερώτηση... Αν έπρεπε να διαλέξω μόνο μία πόλη στην
+    Ελλάδα για να ζήσω, θα διάλεγα σίγουρα τα Χανιά.
+  example2_en: That is a very good question... If I had to choose only one city in
+    Greece to live in, I would definitely choose Chania.
+  keg_communicative_function: Acknowledging an examiner question while organizing
+    a thoughtful response
+  audio: einai-mia-poly-kali--935b0d.mp3
+  example_audio: einai-mia-poly-kali--fc9f1f.mp3
+  example2_audio: einai-mia-poly-kali--5e3d50.mp3
+- id: SP-U02-004
+  greek: Λοιπόν, εξαρτάται από την περίπτωση...
+  english: Well, it depends on the situation... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Discourse particle (λοιπόν) + deponent verb (εξαρτάται από + accusative)
+      + conditional branching (αν... τότε...)
+  notes: 'Examiner Objective: Shows ability to avoid simplistic yes/no answers by
+    distinguishing two different contexts.
+
+    Strategy: Follow immediately with two contrasting ''όταν'' or ''αν'' clauses (e.g.,
+    winter vs. summer, alone vs. with friends).'
+  example_el: Λοιπόν, εξαρτάται από την περίπτωση. Όταν είμαι κουρασμένος από τη δουλειά
+    προτιμώ να μένω μέσα, αλλά αν έχω ενέργεια βγαίνω έξω με φίλους.
+  example_en: Well, it depends on the situation. When I am tired from work I prefer
+    staying in, but if I have energy I go out with friends.
+  example2_el: Λοιπόν, εξαρτάται από την περίπτωση και τον καιρό, γιατί το καλοκαίρι
+    μου αρέσει να ταξιδεύω με πλοίο, ενώ τον χειμώνα προτιμώ το αεροπλάνο.
+  example2_en: Well, it depends on the situation and the weather, because in summer
+    I like traveling by ship, whereas in winter I prefer the airplane.
+  keg_communicative_function: Nuancing a response by explaining how choices depend
+    on circumstances
+  audio: loipon-exartatai-apo-c408b4.mp3
+  example_audio: loipon-exartatai-apo-a3a1ba.mp3
+  example2_audio: loipon-exartatai-apo-60ebaf.mp3
+- id: SP-U02-005
+  greek: Πώς να το πω τώρα με απλά λόγια...
+  english: How can I put it now in simple words... (Spoken Connector / Hesitation
+    Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Deliberative subjunctive question (πώς να το πω) + prepositional manner
+      phrase (με απλά λόγια)
+  notes: 'Examiner Objective: Rewards strategic circumlocution when you cannot recall
+    a difficult word.
+
+    Strategy: Instead of switching to English when stuck on vocabulary, say this phrase
+    and explain the concept using simple A2 words.'
+  example_el: Πώς να το πω τώρα με απλά λόγια... Είναι ένα μικρό παραδοσιακό μαγαζί
+    στη γειτονιά μου όπου πουλάνε φρέσκο ψωμί, κουλούρια και γλυκά.
+  example_en: How can I put it now in simple words... It is a small traditional shop
+    in my neighborhood where they sell fresh bread, koulouria, and sweets.
+  example2_el: Πώς να το πω τώρα με απλά λόγια... Νιώθω πολύ μεγάλη χαρά και συγκίνηση
+    κάθε φορά που καταφέρνω να συνεννοηθώ στα ελληνικά χωρίς βοήθεια.
+  example2_en: How can I put it now in simple words... I feel great joy and emotion
+    every time I manage to communicate in Greek without help.
+  keg_communicative_function: Managing lexical gaps through natural circumlocution
+  audio: pos-na-to-po-tora-me-0c35d5.mp3
+  example_audio: pos-na-to-po-tora-me-9dcf31.mp3
+  example2_audio: pos-na-to-po-tora-me-7a2543.mp3
+- id: SP-U02-006
+  greek: Για να είμαι απόλυτα ειλικρινής...
+  english: To be completely honest... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Purpose/stance clause (για να είμαι) + adverb (απόλυτα) + adjective (ειλικρινής
+      -ής/-ής/-ές)
+  notes: 'Examiner Objective: Demonstrates idiomatic spoken register and grammatical
+    accuracy with ''-ής'' adjectives.
+
+    Strategy: Note that ''ειλικρινής'' is identical for masculine and feminine speakers!'
+  example_el: Για να είμαι απόλυτα ειλικρινής, δεν ασχολούμαι καθόλου με τον αθλητισμό,
+    αλλά προσπαθώ να περπατάω τουλάχιστον μισή ώρα κάθε μέρα μετά το γραφείο.
+  example_en: To be completely honest, I am not involved in sports at all, but I try
+    to walk at least half an hour every day after the office.
+  example2_el: Για να είμαι απόλυτα ειλικρινής μαζί σας, προτιμώ τα μικρά ελληνικά
+    νησιά από τις μεγάλες τουριστικές πόλεις, γιατί εκεί ξεκουράζομαι πραγματικά.
+  example2_en: To be completely honest with you, I prefer small Greek islands to big
+    tourist cities, because there I truly rest.
+  keg_communicative_function: Framing an honest personal admission or preference
+  audio: gia-na-eimai-apolyta-96bc3d.mp3
+  example_audio: gia-na-eimai-apolyta-989ab8.mp3
+  example2_audio: gia-na-eimai-apolyta-e45bce.mp3
+- id: SP-U02-007
+  greek: Δεν είμαι εντελώς σίγουρος, αλλά νομίζω ότι...
+  english: I am not completely sure, but I think that... (Spoken Connector / Hesitation
+    Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Epistemic hedging (δεν είμαι σίγουρος/σίγουρη) + adversative (αλλά) + cognitive
+      verb (νομίζω ότι)
+  notes: 'Examiner Objective: Essential for Stage 3 (Picture Description) when speculating
+    about where the people are or what is happening.
+
+    Strategy: Feminine speakers should adjust to ''Δεν είμαι εντελώς σίγουρη, αλλά
+    νομίζω ότι...''.'
+  example_el: Δεν είμαι εντελώς σίγουρος, αλλά νομίζω ότι οι άνθρωποι στη φωτογραφία
+    βρίσκονται σε έναν σταθμό τρένου και περιμένουν να ταξιδέψουν.
+  example_en: I am not completely sure, but I think that the people in the photograph
+    are at a train station waiting to travel.
+  example2_el: Δεν είμαι εντελώς σίγουρος για την ακριβή τιμή του εισιτηρίου, αλλά
+    νομίζω ότι κοστίζει γύρω στα είκοσι ευρώ με την έκπτωση.
+  example2_en: I am not completely sure about the exact ticket price, but I think
+    it costs around twenty euros with the discount.
+  keg_communicative_function: Expressing polite uncertainty and making a reasonable
+    guess
+  audio: den-eimai-entelos-si-b7937b.mp3
+  example_audio: den-eimai-entelos-si-1070e6.mp3
+  example2_audio: den-eimai-entelos-si-d487e1.mp3
+- id: SP-U02-008
+  greek: Ας δούμε πρώτα τι έχουμε εδώ...
+  english: Let's first see what we have here... (Spoken Connector / Hesitation Filler)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Stage 3 (Roleplay & Picture Monologue)
+    focus: Hortative particle (ας + first plural subjunctive δούμε), temporal adverb
+      (πρώτα)
+  notes: 'Examiner Objective: Perfect opening filler when handed a Stage 2 Roleplay
+    card or Stage 3 Photograph.
+
+    Strategy: Say this aloud with natural intonation while scanning the visual prompt
+    for 2 seconds before launching your description.'
+  example_el: Ας δούμε πρώτα τι έχουμε εδώ... Στην εικόνα βλέπουμε μια χαρούμενη οικογένεια
+    που τρώει μεσημεριανό φαγητό στον κήπο του σπιτιού της.
+  example_en: Let's first see what we have here... In the picture we see a happy family
+    eating lunch in the garden of their house.
+  example2_el: Ας δούμε πρώτα τι έχουμε εδώ στην κάρτα... Βλέπω ότι το ταξιδιωτικό
+    γραφείο οργανώνει μια τριήμερη εκδρομή στο Πήλιο αυτό το σαββατοκύριακο.
+  example2_en: Let's first see what we have here on the card... I see that the travel
+    agency is organizing a three-day excursion to Pelion this weekend.
+  keg_communicative_function: Initiating examination of a cue card or visual prompt
+    aloud
+  audio: as-doyme-prota-ti-ec-6606db.mp3
+  example_audio: as-doyme-prota-ti-ec-464bfe.mp3
+  example2_audio: as-doyme-prota-ti-ec-245536.mp3
+- id: SP-U02-009
+  greek: Κατά τη γνώμη μου...
+  english: In my opinion... (Spoken Opinion Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: 'Prepositional phrase (κατά + accusative: τη γνώμη μου / την άποψή μου)'
+  notes: 'Examiner Objective: Tests ability to mark personal viewpoints clearly in
+    Stage 1, 2, and 3.
+
+    Strategy: Rotate ''Κατά τη γνώμη μου'' with ''Κατά την άποψή μου'' so you do not
+    repeat ''νομίζω'' in every sentence.'
+  example_el: Κατά τη γνώμη μου, ο καλύτερος τρόπος για να μάθει κανείς μια ξένη γλώσσα
+    είναι να μιλάει καθημερινά με τους κατοίκους της χώρας.
+  example_en: In my opinion, the best way for someone to learn a foreign language
+    is to speak daily with the residents of the country.
+  example2_el: Κατά τη γνώμη μου, τα μέσα μαζικής συγκοινωνίας στην πόλη μας είναι
+    αρκετά καλά, αλλά χρειάζονται περισσότερα δρομολόγια το βράδυ.
+  example2_en: In my opinion, public transport in our city is quite good, but more
+    routes are needed at night.
+  keg_communicative_function: Introducing a personal opinion on an everyday topic
+  audio: kata-ti-gnomi-moy-595a99.mp3
+  example_audio: kata-ti-gnomi-moy-o--622258.mp3
+  example2_audio: kata-ti-gnomi-moy-ta-e2d81f.mp3
+- id: SP-U02-010
+  greek: Προσωπικά πιστεύω πως...
+  english: Personally I believe that... (Spoken Opinion Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Stance adverb (προσωπικά) + verb of belief (πιστεύω) + complementizer (πως
+      / ότι)
+  notes: 'Examiner Objective: Evaluates use of ''πως'' as an authentic spoken alternative
+    to ''ότι'' after verbs of thinking/believing.
+
+    Strategy: Use ''Προσωπικά πιστεύω πως...'' when answering Stage 3 personal extension
+    questions.'
+  example_el: Προσωπικά πιστεύω πως η υγιεινή διατροφή και ο καλός ύπνος είναι απαραίτητα
+    για να έχουμε ενέργεια και καλή διάθεση όλη την ημέρα.
+  example_en: Personally I believe that a healthy diet and good sleep are essential
+    for us to have energy and a good mood all day long.
+  example2_el: Προσωπικά πιστεύω πως οι καλοκαιρινές διακοπές σε ένα ήσυχο νησί είναι
+    πολύ πιο ξεκούραστες από ένα ταξίδι σε μια μεγάλη ευρωπαϊκή πρωτεύουσα.
+  example2_en: Personally I believe that summer holidays on a quiet island are much
+    more relaxing than a trip to a big European capital.
+  keg_communicative_function: Stating a strong personal belief using natural spoken
+    complementizers
+  audio: prosopika-pisteyo-po-a86e06.mp3
+  example_audio: prosopika-pisteyo-po-f91d80.mp3
+  example2_audio: prosopika-pisteyo-po-7fa03c.mp3
+- id: SP-U02-011
+  greek: Από τη δική μου εμπειρία...
+  english: From my own experience... (Spoken Opinion Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 1 & Stage 3 (Personal Interview & Extension)
+    focus: Preposition από + emphatic possessive (τη δική μου εμπειρία), experiential
+      justification
+  notes: 'Examiner Objective: Bridges general exam prompts to concrete personal storytelling
+    (a top KEG A2 rubric booster).
+
+    Strategy: Use this phrase to pivot from an abstract question into a short personal
+    example.'
+  example_el: Από τη δική μου εμπειρία, όταν μετακομίζεις σε μια καινούργια χώρα,
+    οι γείτονες και οι συνάδελφοι σε βοηθούν πάρα πολύ να προσαρμοστείς.
+  example_en: From my own experience, when you move to a new country, neighbors and
+    colleagues help you a great deal to adapt.
+  example2_el: Από τη δική μου εμπειρία, τα ψώνια στη λαϊκή αγορά είναι όχι μόνο πιο
+    οικονομικά, αλλά και μια ωραία ευκαιρία για κουβέντα με τους παραγωγούς.
+  example2_en: From my own experience, shopping at the farmers' market is not only
+    more economical, but also a nice opportunity to chat with the producers.
+  keg_communicative_function: Supporting an opinion with personal life experience
+  audio: apo-ti-diki-moy-empe-216f0c.mp3
+  example_audio: apo-ti-diki-moy-empe-11c9d7.mp3
+  example2_audio: apo-ti-diki-moy-empe-b71aa6.mp3
+- id: SP-U02-012
+  greek: Προτιμώ χίλιες φορές να... παρά να...
+  english: I prefer a thousand times to... rather than to... (Spoken Preference Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Emphatic preference idiom (προτιμώ χίλιες φορές να + subjunctive) + contrastive
+      conjunction (παρά να + subjunctive)
+  notes: 'Examiner Objective: High-scoring idiomatic structure showing natural spoken
+    emphasis and parallel subjunctive clauses.
+
+    Strategy: Keep both verbs in the same aspect (e.g., present subjunctive for general
+    habits).'
+  example_el: Προτιμώ χίλιες φορές να πηγαίνω στη δουλειά μου με τα πόδια ή με το
+    ποδήλατο, παρά να περιμένω μία ώρα μέσα στην κίνηση με το αυτοκίνητο.
+  example_en: I prefer a thousand times to go to work on foot or by bicycle, rather
+    than wait for an hour in traffic by car.
+  example2_el: Το καλοκαίρι προτιμώ χίλιες φορές να κολυμπάω στη θάλασσα νωρίς το
+    πρωί, παρά να πηγαίνω στην παραλία το μεσημέρι που έχει πολλή ζέστη.
+  example2_en: In summer I prefer a thousand times to swim in the sea early in the
+    morning, rather than go to the beach at noon when it is very hot.
+  keg_communicative_function: Expressing strong emphatic preference between two actions
+  audio: protimo-chilies-fore-d85526.mp3
+  example_audio: protimo-chilies-fore-3bac98.mp3
+  example2_audio: to-kalokairi-protimo-40402f.mp3
+- id: SP-U02-013
+  greek: Για εμένα, το πιο σημαντικό πράγμα είναι...
+  english: For me, the most important thing is... (Spoken Opinion Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Prepositional topic front-loading (για εμένα) + superlative neuter phrase
+      (το πιο σημαντικό πράγμα) + noun/clause
+  notes: 'Examiner Objective: Tests superlative adjective structures and prioritization
+    of values/criteria.
+
+    Strategy: Useful in Stage 2 (choosing an apartment/hotel) and Stage 1 (work/neighborhood
+    priorities).'
+  example_el: Για εμένα, το πιο σημαντικό πράγμα όταν νοικιάζω ένα σπίτι είναι να
+    βρίσκεται κοντά σε σταθμό του μετρό και να έχει καλή θέρμανση.
+  example_en: For me, the most important thing when renting a home is that it is located
+    near a metro station and has good heating.
+  example2_el: Για εμένα, το πιο σημαντικό πράγμα στη δουλειά δεν είναι μόνο ο καλός
+    μισθός, αλλά και το ευχάριστο κλίμα συνεργασίας με τους συναδέλφους.
+  example2_en: For me, the most important thing at work is not only a good salary,
+    but also a pleasant atmosphere of cooperation with colleagues.
+  keg_communicative_function: Highlighting personal priorities and evaluation criteria
+  audio: gia-emena-to-pio-sim-26b428.mp3
+  example_audio: gia-emena-to-pio-sim-8c381a.mp3
+  example2_audio: gia-emena-to-pio-sim-8aa897.mp3
+- id: SP-U02-014
+  greek: Μου φαίνεται ότι...
+  english: It seems to me that... (Spoken Speculation / Opinion Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Description & Speculation)
+    focus: Indirect object clitic (μου) + third-person singular deponent verb (φαίνεται)
+      + declarative clause (ότι / πως)
+  notes: 'Examiner Objective: Key Stage 3 rubric requirement for making hypotheses
+    about people''s feelings or situations in a photo.
+
+    Strategy: Use ''Μου φαίνεται ότι...'' to interpret facial expressions, weather,
+    or relationships in the picture.'
+  example_el: Μου φαίνεται ότι η κοπέλα στη φωτογραφία είναι πολύ χαρούμενη, επειδή
+    χαμογελάει πλατιά και κρατάει ένα μεγάλο μπουκέτο με λουλούδια στα χέρια της.
+  example_en: It seems to me that the young woman in the photo is very happy, because
+    she is smiling broadly and holding a large bouquet of flowers in her hands.
+  example2_el: Μου φαίνεται ότι αυτή η ταβέρνα έχει πολύ καλό φαγητό, γιατί όλα τα
+    τραπέζια είναι γεμάτα με κόσμο και οι πελάτες τρώνε με όρεξη.
+  example2_en: It seems to me that this taverna has very good food, because all the
+    tables are full of people and the customers are eating with appetite.
+  keg_communicative_function: Expressing impressions and visual hypotheses based on
+    evidence
+  audio: moy-fainetai-oti-2b8a4e.mp3
+  example_audio: moy-fainetai-oti-i-k-118f1d.mp3
+  example2_audio: moy-fainetai-oti-ayt-ff9c5d.mp3
+- id: SP-U02-015
+  greek: Από όσο ξέρω...
+  english: As far as I know... (Spoken Knowledge Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Prepositional relative idiom (από όσο ξέρω / από όσο γνωρίζω) for hedging
+      factual statements
+  notes: 'Examiner Objective: Shows natural hedging when sharing factual or practical
+    information in Stage 1 and Stage 2.
+
+    Strategy: Use in Stage 2 roleplays when answering questions about schedules, rules,
+    or local customs.'
+  example_el: Από όσο ξέρω, τα καταστήματα στην Ελλάδα είναι κλειστά την Κυριακή,
+    εκτός από τα καφέ, τα εστιατόρια και μερικά μικρά μίνι μάρκετ.
+  example_en: As far as I know, shops in Greece are closed on Sunday, except for cafes,
+    restaurants, and some small mini-markets.
+  example2_el: Από όσο ξέρω, το πλοίο για το νησί αναχωρεί στις επτάμισι το πρωί από
+    το λιμάνι του Πειραιά και το ταξίδι διαρκεί τέσσερις ώρες.
+  example2_en: As far as I know, the ferry to the island departs at seven-thirty in
+    the morning from the port of Piraeus and the trip lasts four hours.
+  keg_communicative_function: Qualifying factual statements according to one's current
+    knowledge
+  audio: apo-oso-xero-649abd.mp3
+  example_audio: apo-oso-xero-ta-kata-bd923a.mp3
+  example2_audio: apo-oso-xero-to-ploi-e0fc25.mp3
+- id: SP-U02-016
+  greek: Δεν έχω ιδιαίτερη προτίμηση, αλλά...
+  english: I don't have a strong preference, but... (Spoken Preference Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Negotiation)
+    focus: Negated verb (δεν έχω) + feminine noun phrase (ιδιαίτερη προτίμηση) + adversative
+      suggestion (αλλά)
+  notes: 'Examiner Objective: Demonstrates cooperative flexibility during Stage 2
+    partner negotiations.
+
+    Strategy: Show that you are easygoing first (''Δεν έχω ιδιαίτερη προτίμηση''),
+    then gently propose a practical option.'
+  example_el: Δεν έχω ιδιαίτερη προτίμηση για το εστιατόριο που θα πάμε, αλλά καλό
+    είναι να διαλέξουμε ένα μαγαζί στο κέντρο για να έρθουν όλοι εύκολα.
+  example_en: I don't have a strong preference for the restaurant we will go to, but
+    it is good to choose a place in the center so everyone can get there easily.
+  example2_el: Δεν έχω ιδιαίτερη προτίμηση ανάμεσα στο Σάββατο και την Κυριακή, αλλά
+    νομίζω ότι την Κυριακή το πρωί θα έχει λιγότερη κίνηση στους δρόμους.
+  example2_en: I don't have a strong preference between Saturday and Sunday, but I
+    think that on Sunday morning there will be less traffic on the roads.
+  keg_communicative_function: Expressing flexibility while offering a practical suggestion
+  audio: den-echo-idiaiteri-p-c27e92.mp3
+  example_audio: den-echo-idiaiteri-p-72e8b3.mp3
+  example2_audio: den-echo-idiaiteri-p-e4607e.mp3
+- id: SP-U02-017
+  greek: Πρώτα απ' όλα... και δεύτερον...
+  english: First of all... and secondly... (Spoken Discourse Organizer)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Sequential discourse markers (πρώτα απ' όλα / πρώτον ... και δεύτερον /
+      επίσης)
+  notes: 'Examiner Objective: Directly boosts the Discourse Cohesion rubric by organizing
+    multi-reason answers clearly.
+
+    Strategy: Whenever asked ''Γιατί;'' (Why?), give two structured reasons using
+    ''Πρώτα απ'' όλα...'' and ''και δεύτερον...''.'
+  example_el: Μου αρέσει να ζω σε αυτή τη γειτονιά για δύο λόγους. Πρώτα απ' όλα είναι
+    πολύ ήσυχη και ασφαλής, και δεύτερον βρίσκεται κοντά στη δουλειά μου.
+  example_en: I like living in this neighborhood for two reasons. First of all it
+    is very quiet and safe, and secondly it is close to my job.
+  example2_el: Προτιμώ να ταξιδεύω με τρένο γιατί, πρώτα απ' όλα, μπορώ να βλέπω το
+    τοπίο από το παράθυρο και, δεύτερον, τα εισιτήρια είναι πιο φθηνά.
+  example2_en: I prefer traveling by train because, first of all, I can look at the
+    scenery from the window and, secondly, the tickets are cheaper.
+  keg_communicative_function: Structuring spoken arguments in clear sequential order
+  audio: prota-ap-ola-kai-dey-8ca646.mp3
+  example_audio: moy-aresei-na-zo-se--b0e5b6.mp3
+  example2_audio: protimo-na-taxideyo--d9d4dd.mp3
+- id: SP-U02-018
+  greek: Από τη μία πλευρά... από την άλλη όμως...
+  english: On the one hand... on the other hand, however... (Spoken Contrast Connector)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 1 & Stage 3 (Balanced Evaluation)
+    focus: Correlative contrast markers (από τη μία πλευρά ... από την άλλη όμως)
+  notes: 'Examiner Objective: Shows mature communicative balance by weighing advantages
+    and disadvantages.
+
+    Strategy: Ideal for questions about city vs. village, working from home vs. office,
+    or online vs. in-store shopping.'
+  example_el: Από τη μία πλευρά η ζωή στη μεγάλη πόλη προσφέρει πολλές ευκαιρίες εργασίας,
+    από την άλλη όμως έχει πολύ θόρυβο, άγχος και ακριβά ενοίκια.
+  example_en: On the one hand life in the big city offers many job opportunities,
+    on the other hand, however, it has a lot of noise, stress, and expensive rents.
+  example2_el: Από τη μία πλευρά τα ηλεκτρονικά ψώνια είναι πολύ γρήγορα και άνετα,
+    από την άλλη όμως στα ρούχα προτιμώ να τα δοκιμάζω στο κατάστημα.
+  example2_en: On the one hand online shopping is very fast and convenient, on the
+    other hand, however, for clothes I prefer trying them on in the store.
+  keg_communicative_function: Weighing pros and cons with correlative contrast connectors
+  audio: apo-ti-mia-pleyra-ap-0837b4.mp3
+  example_audio: apo-ti-mia-pleyra-i--9d69d6.mp3
+  example2_audio: apo-ti-mia-pleyra-ta-faa6af.mp3
+- id: SP-U02-019
+  greek: Όπως ανέφερα και πριν...
+  english: As I mentioned before... (Spoken Cohesion Connector)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Comparative manner conjunction (όπως) + first-person singular aorist (ανέφερα
+      / είπα) + temporal adverb (πριν)
+  notes: 'Examiner Objective: Demonstrates high-level discourse cohesion by linking
+    later answers back to earlier turns.
+
+    Strategy: Use when an examiner question touches on a detail you already mentioned
+    earlier in the interview.'
+  example_el: Όπως ανέφερα και πριν, δουλεύω αρκετές ώρες μπροστά στον υπολογιστή,
+    οπότε το απόγευμα χρειάζομαι οπωσδήποτε λίγη κίνηση και καθαρό αέρα στο πάρκο.
+  example_en: As I mentioned before, I work quite a few hours in front of the computer,
+    so in the afternoon I definitely need some exercise and fresh air in the park.
+  example2_el: Όπως ανέφερα και πριν, τα παιδιά μου είναι ακόμα μικρά, γι' αυτό στις
+    διακοπές μας διαλέγουμε πάντα ξενοδοχεία που βρίσκονται ακριβώς μπροστά στην παραλία.
+  example2_en: As I mentioned before, my children are still young, which is why on
+    our vacations we always choose hotels located right in front of the beach.
+  keg_communicative_function: Maintaining cohesive links across different parts of
+    a conversation
+  audio: opos-anefera-kai-pri-cb1738.mp3
+  example_audio: opos-anefera-kai-pri-49c60e.mp3
+  example2_audio: opos-anefera-kai-pri-3a153d.mp3
+- id: SP-U02-020
+  greek: Εκτός από αυτό, πρέπει να πω ότι...
+  english: Besides that, I must say that... (Spoken Additive Connector)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Prepositional additive phrase (εκτός από αυτό) + modal obligation (πρέπει
+      να πω ότι)
+  notes: 'Examiner Objective: Helps extend short answers into full 25–35 word responses
+    without repeating ''και... και...''.
+
+    Strategy: When you finish your first sentence and realize it was too brief, attach
+    ''Εκτός από αυτό, πρέπει να πω ότι...''.'
+  example_el: Το διαμέρισμά μας είναι πολύ φωτεινό και ήσυχο. Εκτός από αυτό, πρέπει
+    να πω ότι έχει εξαιρετική θέα στη θάλασσα από το μεγάλο μπαλκόνι.
+  example_en: Our apartment is very bright and quiet. Besides that, I must say that
+    it has an excellent view of the sea from the large balcony.
+  example2_el: Τα μαθήματα ελληνικών με βοηθούν πολύ στη δουλειά μου. Εκτός από αυτό,
+    πρέπει να πω ότι γνώρισα θαυμάσιους ανθρώπους μέσα στην τάξη μας.
+  example2_en: The Greek lessons help me a lot in my job. Besides that, I must say
+    that I met wonderful people in our class.
+  keg_communicative_function: Adding supplementary points to expand a spoken response
+  audio: ektos-apo-ayto-prepe-3fc057.mp3
+  example_audio: to-diamerisma-mas-ei-99d845.mp3
+  example2_audio: ta-mathimata-ellinik-3d267e.mp3
+- id: SP-U02-021
+  greek: Με άλλα λόγια...
+  english: In other words... (Spoken Reformulation Connector)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Preposition με + neuter plural noun phrase (άλλα λόγια) used for summarizing
+      or paraphrasing
+  notes: 'Examiner Objective: Evaluates ability to summarize or clarify a point concisely.
+
+    Strategy: Use near the end of your turn to wrap up your main message cleanly.'
+  example_el: Δουλεύω από το πρωί ως το απόγευμα και το βράδυ έχω μαθήματα. Με άλλα
+    λόγια, το πρόγραμμά μου τις καθημερινές είναι πάρα πολύ γεμάτο.
+  example_en: I work from morning till afternoon and in the evening I have lessons.
+    In other words, my schedule on weekdays is very full.
+  example2_el: Το ξενοδοχείο είναι καθαρό, οικονομικό και δίπλα στο λιμάνι. Με άλλα
+    λόγια, είναι η καλύτερη επιλογή για τις καλοκαιρινές μας διακοπές.
+  example2_en: The hotel is clean, affordable, and right next to the port. In other
+    words, it is the best choice for our summer vacation.
+  keg_communicative_function: Reformulating and summarizing a point for clarity
+  audio: me-alla-logia-9fde4a.mp3
+  example_audio: doyleyo-apo-to-proi--4a5c0e.mp3
+  example2_audio: to-xenodocheio-einai-4486b4.mp3
+- id: SP-U02-022
+  greek: Παρόλο που... εντούτοις...
+  english: Even though... nevertheless... (Spoken Concession Connector)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Spoken Fluency & Interaction)
+    focus: Concessive conjunction (παρόλο που + indicative) paired with contrastive
+      adverb (εντούτοις / ωστόσο)
+  notes: 'Examiner Objective: Demonstrates upper-A2 syntactic control by subordinating
+    a concession clause.
+
+    Strategy: Remember that ''παρόλο που'' takes factual Indicative verbs (not Subjunctive!).'
+  example_el: Παρόλο που η ελληνική γραμματική έχει αρκετές δυσκολίες, εντούτοις η
+    γλώσσα είναι τόσο όμορφη και μελωδική που μου αρέσει να τη μελετάω κάθε μέρα.
+  example_en: Even though Greek grammar has quite a few difficulties, nevertheless
+    the language is so beautiful and melodic that I enjoy studying it every day.
+  example2_el: Παρόλο που χθες έβρεχε δυνατά όλο το απόγευμα, εντούτοις πήγαμε κανονικά
+    στο θέατρο με τους φίλους μας και περάσαμε υπέροχα.
+  example2_en: Even though it was raining heavily all afternoon yesterday, nevertheless
+    we went to the theater as planned with our friends and had a wonderful time.
+  keg_communicative_function: Expressing concession and unexpected contrast in spoken
+    Greek
+  audio: parolo-poy-entoytois-39c446.mp3
+  example_audio: parolo-poy-i-ellinik-c07be2.mp3
+  example2_audio: parolo-poy-chthes-ev-f3389b.mp3
+- id: SP-U02-023
+  greek: Για παράδειγμα, πριν από λίγο καιρό...
+  english: For example, a little while ago... (Spoken Exemplification Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 1 & Stage 3 (Personal Interview & Narrative Extension)
+    focus: Exemplification phrase (για παράδειγμα) + temporal past marker (πριν από
+      λίγο καιρό) + Simple Past (Αόριστος)
+  notes: 'Examiner Objective: Rewards candidates who back up general statements with
+    a short real-life anecdote in the Aorist.
+
+    Strategy: After stating a general habit or opinion, launch a 1-sentence past story
+    with ''Για παράδειγμα, πριν από λίγο καιρό...''.'
+  example_el: Οι Έλληνες είναι πολύ εξυπηρετικοί με τους ξένους. Για παράδειγμα, πριν
+    από λίγο καιρό χάθηκα σε μια γειτονιά και ένας κύριος με συνόδευσε ως τη στάση.
+  example_en: Greeks are very helpful with foreigners. For example, a little while
+    ago I got lost in a neighborhood and a gentleman walked me to the bus stop.
+  example2_el: Μου αρέσει να δοκιμάζω καινούργιες δραστηριότητες. Για παράδειγμα,
+    πριν από λίγο καιρό γράφτηκα σε έναν σύλλογο παραδοσιακών ελληνικών χορών στη
+    γειτονιά μου.
+  example2_en: I like trying new activities. For example, a little while ago I joined
+    a traditional Greek dance club in my neighborhood.
+  keg_communicative_function: Illustrating a general statement with a concrete past
+    example
+  audio: gia-paradeigma-prin--e3674c.mp3
+  example_audio: oi-ellines-einai-pol-4c4ceb.mp3
+  example2_audio: moy-aresei-na-dokima-893db6.mp3
+- id: SP-U02-024
+  greek: Συνοψίζοντας λοιπόν, θα έλεγα ότι...
+  english: Summarizing then, I would say that... (Spoken Closing Frame)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 3 (Picture Monologue & Extended Response)
+    focus: Active participle (συνοψίζοντας) + conditional of politeness/moderation
+      (θα έλεγα ότι)
+  notes: 'Examiner Objective: Gives your Stage 3 monologue a polished, unmistakable
+    conclusion instead of trailing off awkwardly.
+
+    Strategy: Use as your final sentence in Stage 3 to sum up the overall mood or
+    message of the photograph.'
+  example_el: Συνοψίζοντας λοιπόν, θα έλεγα ότι η φωτογραφία μάς δείχνει μια όμορφη
+    οικογενειακή στιγμή γεμάτη αγάπη, χαμόγελα και ηρεμία δίπλα στη θάλασσα.
+  example_en: Summarizing then, I would say that the photograph shows us a beautiful
+    family moment full of love, smiles, and tranquility by the sea.
+  example2_el: Συνοψίζοντας λοιπόν, θα έλεγα ότι η ζωή στην πόλη μας έχει μεν κάποιες
+    δυσκολίες, αλλά προσφέρει εξαιρετική ποιότητα ζωής και καλό κλίμα.
+  example2_en: Summarizing then, I would say that life in our city does have some
+    difficulties, but it offers an excellent quality of life and a good climate.
+  keg_communicative_function: Bringing an extended spoken turn or monologue to a structured
+    conclusion
+  audio: synopsizontas-loipon-7545cf.mp3
+  example_audio: synopsizontas-loipon-5dc6a4.mp3
+  example2_audio: synopsizontas-loipon-26607a.mp3
+- id: SP-U02-025
+  greek: Συμφωνώ απόλυτα μαζί σας, αλλά...
+  english: I completely agree with you, but... (Spoken Interactive Turn-Taking)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Negotiation)
+    focus: Present tense verb (συμφωνώ) + intensifying adverb (απόλυτα) + comitative
+      phrase (μαζί σας / μαζί σου) + adversative (αλλά)
+  notes: 'Examiner Objective: Core Stage 2 interactive skill—validating your partner''s
+    point before introducing a constraint or counter-proposal.
+
+    Strategy: Use ''μαζί σας'' in formal roleplays (with an examiner/shopkeeper) or
+    ''μαζί σου'' with a peer/friend.'
+  example_el: Συμφωνώ απόλυτα μαζί σας ότι το ξενοδοχείο στο κέντρο είναι πολύ όμορφο,
+    αλλά νομίζω ότι η τιμή του είναι λίγο ακριβή για εμάς.
+  example_en: I completely agree with you that the hotel in the center is very nice,
+    but I think its price is a bit expensive for us.
+  example2_el: Συμφωνώ απόλυτα μαζί σας πως η εκδρομή με το πλοίο είναι ωραία ιδέα,
+    αλλά πρέπει πρώτα να ελέγξουμε αν ο καιρός θα είναι καλός.
+  example2_en: I completely agree with you that the boat trip is a nice idea, but
+    we must first check whether the weather will be good.
+  keg_communicative_function: Expressing partial agreement before introducing a practical
+    reservation
+  audio: symfono-apolyta-mazi-f8f9b3.mp3
+  example_audio: symfono-apolyta-mazi-436baa.mp3
+  example2_audio: symfono-apolyta-mazi-00b897.mp3
+- id: SP-U02-026
+  greek: Έχετε απόλυτο δίκιο σε αυτό που λέτε.
+  english: You are completely right about what you are saying. (Spoken Agreement Formula)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Stage 3 (Interactive Dialogue)
+    focus: Idiom έχω δίκιο (έχετε απόλυτο δίκιο) + relative clause (σε αυτό που λέτε)
+  notes: 'Examiner Objective: Rewards natural active listening and enthusiastic agreement
+    during collaborative tasks.
+
+    Strategy: Follow up by adding one extra supporting detail so you advance the dialogue
+    rather than stopping at ''yes''.'
+  example_el: Έχετε απόλυτο δίκιο σε αυτό που λέτε. Αν κλείσουμε τα εισιτήριά μας
+    ηλεκτρονικά από σήμερα, θα κερδίσουμε και είκοσι τοις εκατό έκπτωση.
+  example_en: You are completely right about what you are saying. If we book our tickets
+    online starting today, we will also get a twenty percent discount.
+  example2_el: Έχετε απόλυτο δίκιο σε αυτό που λέτε, γιατί το Σάββατο το βράδυ το
+    εστιατόριο έχει πάντα πολύ κόσμο και χρειάζεται οπωσδήποτε κράτηση.
+  example2_en: You are completely right about what you are saying, because on Saturday
+    night the restaurant is always very crowded and definitely requires a reservation.
+  keg_communicative_function: Validating an interlocutor's point warmly and building
+    upon it
+  audio: echete-apolyto-dikio-1e8b8f.mp3
+  example_audio: echete-apolyto-dikio-e43658.mp3
+  example2_audio: echete-apolyto-dikio-c3aa70.mp3
+- id: SP-U02-027
+  greek: Καταλαβαίνω τι εννοείτε, όμως εγώ νομίζω ότι...
+  english: I understand what you mean, however I think that... (Spoken Polite Disagreement)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Negotiation)
+    focus: Cognitive verb (καταλαβαίνω) + indirect question (τι εννοείτε) + contrastive
+      conjunction (όμως) + emphatic pronoun (εγώ)
+  notes: 'Examiner Objective: Tests polite, non-confrontational disagreement during
+    Stage 2 problem-solving.
+
+    Strategy: Never say a blunt ''Όχι, κάνετε λάθος''; use this cushioned formula
+    to propose an alternative.'
+  example_el: Καταλαβαίνω τι εννοείτε για το κόστος, όμως εγώ νομίζω ότι αξίζει να
+    πληρώσουμε λίγο παραπάνω για να έχουμε ένα διαμέρισμα με αυτόνομη θέρμανση.
+  example_en: I understand what you mean about the cost, however I think that it is
+    worth paying a little extra so we have an apartment with independent heating.
+  example2_el: Καταλαβαίνω τι εννοείτε, όμως εγώ νομίζω ότι είναι καλύτερα να αγοράσουμε
+    ένα πρακτικό δώρο για το σπίτι τους παρά απλώς λουλούδια.
+  example2_en: I understand what you mean, however I think that it is better to buy
+    a practical gift for their home rather than just flowers.
+  keg_communicative_function: Disagreeing diplomatically and offering an alternative
+    viewpoint
+  audio: katalavaino-ti-ennoe-a40058.mp3
+  example_audio: katalavaino-ti-ennoe-c5cc96.mp3
+  example2_audio: katalavaino-ti-ennoe-f1a265.mp3
+- id: SP-U02-028
+  greek: Εσείς τι γνώμη έχετε γι' αυτό; Συμφωνείτε;
+  english: What is your opinion on this? Do you agree? (Spoken Turn-Giving Formula)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Collaborative Planning)
+    focus: Emphatic second-person pronoun (εσείς / εσύ) + interrogative phrase (τι
+      γνώμη έχετε γι' αυτό)
+  notes: 'Examiner Objective: Criterion 5 (Interactive Competence) specifically rewards
+    candidates who actively invite their partner to speak.
+
+    Strategy: End your proposal in Stage 2 with this question to pass the turn smoothly
+    to your partner.'
+  example_el: Εγώ προτείνω να πάμε στην παράσταση του Σαββάτου στις εννέα το βράδυ
+    και μετά να φάμε σε μια ταβέρνα. Εσείς τι γνώμη έχετε γι' αυτό; Συμφωνείτε;
+  example_en: I suggest we go to Saturday's performance at nine in the evening and
+    eat at a taverna afterwards. What is your opinion on this? Do you agree?
+  example2_el: Νομίζω ότι το μπλε πουκάμισο είναι πιο κομψό και ταιριάζει καλύτερα
+    για τη γιορτή. Εσείς τι γνώμη έχετε γι' αυτό; Συμφωνείτε;
+  example2_en: I think that the blue shirt is more elegant and suits the celebration
+    better. What is your opinion on this? Do you agree?
+  keg_communicative_function: Inviting the interlocutor's opinion and managing turn-taking
+  audio: eseis-ti-gnomi-echet-62faec.mp3
+  example_audio: ego-proteino-na-pame-09cbce.mp3
+  example2_audio: nomizo-oti-to-mple-p-df463b.mp3
+- id: SP-U02-029
+  greek: Αυτή είναι μια εξαιρετική ιδέα! Ας το κάνουμε έτσι.
+  english: That is an excellent idea! Let's do it that way. (Spoken Consensus Formula)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay Resolution)
+    focus: Demonstrative (αυτή) + evaluative noun phrase (μια εξαιρετική ιδέα) + hortative
+      subjunctive (ας το κάνουμε έτσι)
+  notes: 'Examiner Objective: Every Stage 2 roleplay must reach a clear agreement
+    or resolution before the 5 minutes end.
+
+    Strategy: Use this phrase at the end of the roleplay to seal the deal and summarize
+    the final plan.'
+  example_el: Αυτή είναι μια εξαιρετική ιδέα! Ας το κάνουμε έτσι λοιπόν, θα κλείσω
+    εγώ το τραπέζι στην ταβέρνα και εσείς θα αγοράσετε την τούρτα.
+  example_en: 'That is an excellent idea! Let''s do it that way then: I will book
+    the table at the taverna and you will buy the cake.'
+  example2_el: Αυτή είναι μια εξαιρετική ιδέα! Ας το κάνουμε έτσι και ας συναντηθούμε
+    αύριο στις δέκα το πρωί έξω από τον σταθμό του μετρό.
+  example2_en: That is an excellent idea! Let's do it that way and let's meet tomorrow
+    at ten in the morning outside the metro station.
+  keg_communicative_function: Confirming mutual agreement and finalizing a shared
+    plan
+  audio: ayti-einai-mia-exair-5aad56.mp3
+  example_audio: ayti-einai-mia-exair-1abcfa.mp3
+  example2_audio: ayti-einai-mia-exair-522d63.mp3
+- id: SP-U02-030
+  greek: Μήπως θα ήταν καλύτερα να...;
+  english: Perhaps it would be better if we...? (Spoken Polite Counter-Proposal)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Problem Solving)
+    focus: Polite interrogative particle (μήπως) + conditional comparative (θα ήταν
+      καλύτερα να + plural subjunctive)
+  notes: 'Examiner Objective: Tests polite modal/conditional structures when proposing
+    an alternative date, time, or solution.
+
+    Strategy: Much more polite and higher-scoring than saying ''Πρέπει να...'' during
+    a negotiation.'
+  example_el: Επειδή την Παρασκευή το απόγευμα έχω μάθημα ελληνικών, μήπως θα ήταν
+    καλύτερα να κανονίσουμε τη συνάντησή μας για το Σάββατο το πρωί;
+  example_en: Because on Friday afternoon I have a Greek lesson, perhaps it would
+    be better if we arranged our meeting for Saturday morning?
+  example2_el: Μήπως θα ήταν καλύτερα να πάρουμε το μετρό αντί για το αυτοκίνητο,
+    ώστε να μη χάσουμε χρόνο ψάχνοντας για θέση στάθμευσης στο κέντρο;
+  example2_en: Perhaps it would be better if we took the metro instead of the car,
+    so that we do not waste time looking for a parking space in the center?
+  keg_communicative_function: Making a tentative, polite counter-proposal in dialogue
+  audio: mipos-tha-itan-kalyt-41b6eb.mp3
+  example_audio: epeidi-tin-paraskeyi-09eae5.mp3
+  example2_audio: mipos-tha-itan-kalyt-e8e5ea.mp3
+- id: SP-U02-031
+  greek: Φοβάμαι πως αυτό είναι λίγο δύσκολο, γιατί...
+  english: I am afraid that this is a bit difficult, because... (Spoken Polite Refusal)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Scheduling)
+    focus: Polite hedging verb (φοβάμαι πως / ότι) + softened adjective (λίγο δύσκολο)
+      + causal justification (γιατί)
+  notes: 'Examiner Objective: Evaluates diplomatic refusal when your roleplay cue
+    card says you are busy at a certain time.
+
+    Strategy: State the polite refusal (''Φοβάμαι πως...''), give the reason from
+    your card, and immediately offer another slot.'
+  example_el: Φοβάμαι πως αυτό είναι λίγο δύσκολο για εμένα την Τρίτη το πρωί, γιατί
+    εργάζομαι στο γραφείο μέχρι τις τέσσερις το απόγευμα.
+  example_en: I am afraid that this is a bit difficult for me on Tuesday morning,
+    because I work at the office until four in the afternoon.
+  example2_el: Φοβάμαι πως αυτό είναι λίγο δύσκολο, γιατί το διαμέρισμα στον πρώτο
+    όροφο νοικιάστηκε χθες, αλλά έχουμε ένα άλλο στον τρίτο όροφο.
+  example2_en: I am afraid that this is a bit difficult, because the apartment on
+    the first floor was rented yesterday, but we have another one on the third floor.
+  keg_communicative_function: Declining a proposal politely and explaining the constraint
+  audio: fovamai-pos-ayto-ein-66114b.mp3
+  example_audio: fovamai-pos-ayto-ein-3fb650.mp3
+  example2_audio: fovamai-pos-ayto-ein-10dbc9.mp3
+- id: SP-U02-032
+  greek: Αν δεν έχετε αντίρρηση, προτείνω να...
+  english: If you have no objection, I suggest that we... (Spoken Polite Proposal)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Service Encounters)
+    focus: Conditional politeness formula (αν δεν έχετε αντίρρηση) + verb of proposal
+      (προτείνω να + subjunctive)
+  notes: 'Examiner Objective: Demonstrates formal courtesy and collaborative initiative
+    in Stage 2 roleplays.
+
+    Strategy: Use when proposing how to split tasks or resolve a customer service
+    issue.'
+  example_el: Αν δεν έχετε αντίρρηση, προτείνω να μοιράσουμε τις δουλειές για τη γιορτή,
+    ώστε να ετοιμάσουμε τα πάντα γρήγορα και χωρίς καθόλου άγχος.
+  example_en: If you have no objection, I suggest that we divide the tasks for the
+    party so that we prepare everything quickly and without any stress.
+  example2_el: Αν δεν έχετε αντίρρηση, προτείνω να έρθω στο γραφείο σας αύριο στις
+    έντεκα το πρωί για να υπογράψουμε το συμβόλαιο του σπιτιού.
+  example2_en: If you have no objection, I suggest that I come to your office tomorrow
+    at eleven in the morning to sign the house contract.
+  keg_communicative_function: Proposing a course of action with formal politeness
+  audio: an-den-echete-antirr-937f9f.mp3
+  example_audio: an-den-echete-antirr-f64d30.mp3
+  example2_audio: an-den-echete-antirr-324ed1.mp3
+- id: SP-U02-033
+  greek: Με συγχωρείτε, τι εννοείτε με αυτό;
+  english: Excuse me, what do you mean by that? (Spoken Clarification Request)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Interactive Repair & Clarification)
+    focus: Polite apology formula (με συγχωρείτε) + interrogative clarification (τι
+      εννοείτε με αυτό)
+  notes: 'Examiner Objective: Criterion 5 explicitly rewards candidates who ask for
+    clarification instead of guessing blindly when they miss a word.
+
+    Strategy: Never freeze or answer the wrong question—politely ask the examiner
+    what they mean!'
+  example_el: Με συγχωρείτε, τι εννοείτε με αυτό; Ρωτάτε για τις καθημερινές μου συνήθειες
+    στη δουλειά ή για το τι κάνω στον ελεύθερό μου χρόνο;
+  example_en: Excuse me, what do you mean by that? Are you asking about my daily habits
+    at work or about what I do in my free time?
+  example2_el: Με συγχωρείτε, τι εννοείτε με αυτό όταν λέτε ότι η τιμή περιλαμβάνει
+    ημιδιατροφή; Περιλαμβάνει δηλαδή και το πρωινό και το βραδινό γεύμα;
+  example2_en: Excuse me, what do you mean by that when you say the price includes
+    half-board? Does that mean it includes both breakfast and dinner?
+  keg_communicative_function: Requesting clarification of an unfamiliar term or ambiguous
+    question
+  audio: me-sygchoreite-ti-en-eb1786.mp3
+  example_audio: me-sygchoreite-ti-en-990fd6.mp3
+  example2_audio: me-sygchoreite-ti-en-84906d.mp3
+- id: SP-U02-034
+  greek: Μπορείτε να μου το εξηγήσετε λίγο διαφορετικά, παρακαλώ;
+  english: Can you explain it to me a little differently, please? (Spoken Clarification
+    Request)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Interactive Repair & Clarification)
+    focus: Modal verb (μπορείτε να) + double clitic pronouns (μου το) + aorist subjunctive
+      (εξηγήσετε) + manner adverb (διαφορετικά)
+  notes: 'Examiner Objective: Shows command of double clitic pronoun order (indirect
+    ''μου'' + direct ''το'' before the verb).
+
+    Strategy: If the examiner uses a word you don''t know, ask them to rephrase it
+    (''να μου το εξηγήσετε λίγο διαφορετικά'') rather than just repeating the same
+    word.'
+  example_el: Συγγνώμη, δεν κατάλαβα την τελευταία λέξη που είπατε. Μπορείτε να μου
+    το εξηγήσετε λίγο διαφορετικά, παρακαλώ, για να σας απαντήσω σωστά;
+  example_en: Sorry, I did not understand the last word you said. Can you explain
+    it to me a little differently, please, so I can answer you correctly?
+  example2_el: Δεν είμαι σίγουρος ότι κατάλαβα καλά την ερώτηση. Μπορείτε να μου το
+    εξηγήσετε λίγο διαφορετικά ή με πιο απλά λόγια, παρακαλώ;
+  example2_en: I am not sure I understood the question well. Can you explain it to
+    me a little differently or in simpler words, please?
+  keg_communicative_function: Asking an interlocutor to paraphrase or simplify a question
+  audio: mporeite-na-moy-to-e-0be0a8.mp3
+  example_audio: syggnomi-den-katalav-dc0d50.mp3
+  example2_audio: den-eimai-sigoyros-o-286a79.mp3
+- id: SP-U02-035
+  greek: Μήπως μπορείτε να το επαναλάβετε λίγο πιο αργά;
+  english: Could you perhaps repeat it a little more slowly? (Spoken Repetition Request)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Interactive Repair & Clarification)
+    focus: Polite interrogative (μήπως μπορείτε να) + object clitic (το) + aorist
+      subjunctive (επαναλάβετε) + comparative adverb (πιο αργά)
+  notes: 'Examiner Objective: Essential survival formula when the interlocutor speaks
+    too fast.
+
+    Strategy: Notice the irregular Aorist Subjunctive ''να το επαναλάβετε'' (from
+    επαναλαμβάνω) with stress on ''-λά-''.'
+  example_el: Με συγχωρείτε, δεν σας άκουσα πολύ καλά. Μήπως μπορείτε να το επαναλάβετε
+    λίγο πιο αργά, παρακαλώ, ιδιαίτερα το πρώτο μέρος της ερώτησης;
+  example_en: Excuse me, I did not hear you very well. Could you perhaps repeat it
+    a little more slowly, please, especially the first part of the question?
+  example2_el: Μήπως μπορείτε να το επαναλάβετε λίγο πιο αργά, παρακαλώ, για να σημειώσω
+    σωστά την ώρα αναχώρησης και τον αριθμό του τηλεφώνου σας;
+  example2_en: Could you perhaps repeat it a little more slowly, please, so that I
+    can write down the departure time and your phone number correctly?
+  keg_communicative_function: Requesting slower repetition when speech is too rapid
+  audio: mipos-mporeite-na-to-0776ac.mp3
+  example_audio: me-sygchoreite-den-s-ffb819.mp3
+  example2_audio: mipos-mporeite-na-to-e3a1c8.mp3
+- id: SP-U02-036
+  greek: Μάλλον δεν το είπα σωστά, εννοούσα ότι...
+  english: I probably didn't say that right, I meant that... (Spoken Self-Correction
+    Formula)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Self-Repair & Accuracy)
+    focus: Probability adverb (μάλλον) + negated Aorist (δεν το είπα σωστά) + Imperfect
+      of εννοώ (εννοούσα ότι)
+  notes: 'Examiner Objective: Self-correction counts positively toward Grammatical
+    & Lexical Accuracy if done smoothly.
+
+    Strategy: When you realize you used the wrong tense or word, don''t panic—use
+    this bridge and state the corrected version.'
+  example_el: Πήγαμε στην Κρήτη τον επόμενο μήνα... Μάλλον δεν το είπα σωστά, εννοούσα
+    ότι θα πάμε στην Κρήτη τον επόμενο μήνα για διακοπές.
+  example_en: We went to Crete next month... I probably didn't say that right, I meant
+    that we will go to Crete next month for vacation.
+  example2_el: Μάλλον δεν το είπα σωστά πριν, εννοούσα ότι το διαμέρισμα βρίσκεται
+    στον δεύτερο όροφο της πολυκατοικίας και όχι στο ισόγειο.
+  example2_en: I probably didn't say that right earlier; I meant that the apartment
+    is on the second floor of the apartment building and not on the ground floor.
+  keg_communicative_function: Performing smooth self-correction of a grammatical or
+    factual slip
+  audio: mallon-den-to-eipa-s-14c587.mp3
+  example_audio: pigame-stin-kriti-to-627a4f.mp3
+  example2_audio: mallon-den-to-eipa-s-da8c95.mp3
+- id: SP-U02-037
+  greek: Δεν θυμάμαι την ακριβή λέξη στα ελληνικά, αλλά είναι...
+  english: I don't remember the exact word in Greek, but it is... (Spoken Circumlocution
+    Formula)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Lexical Repair & Circumlocution)
+    focus: Negated cognitive verb (δεν θυμάμαι) + accusative object (την ακριβή λέξη)
+      + relative definition (ένα αντικείμενο που / ένας άνθρωπος που)
+  notes: 'Examiner Objective: Directly prevents code-switching into English during
+    Stage 3 picture description when you forget a specific noun.
+
+    Strategy: Describe the object''s function (''είναι αυτό που χρησιμοποιούμε για
+    να...'') or person''s role.'
+  example_el: Δεν θυμάμαι την ακριβή λέξη στα ελληνικά, αλλά είναι αυτό το μεγάλο
+    όχημα που μεταφέρει τα έπιπλα όταν μετακομίζουμε σε καινούργιο σπίτι.
+  example_en: I don't remember the exact word in Greek, but it is that large vehicle
+    that transports furniture when we move to a new house.
+  example2_el: Δεν θυμάμαι την ακριβή λέξη στα ελληνικά, αλλά είναι το κατάστημα στη
+    γειτονιά όπου πηγαίνουμε για να αγοράσουμε φρέσκα λουλούδια και φυτά.
+  example2_en: I don't remember the exact word in Greek, but it is the shop in the
+    neighborhood where we go to buy fresh flowers and plants.
+  keg_communicative_function: Overcoming a forgotten vocabulary item through functional
+    description
+  audio: den-thymamai-tin-akr-217c4f.mp3
+  example_audio: den-thymamai-tin-akr-003a39.mp3
+  example2_audio: den-thymamai-tin-akr-52a830.mp3
+- id: SP-U02-038
+  greek: Αν κατάλαβα καλά, με ρωτάτε αν...
+  english: If I understood correctly, you are asking me whether... (Spoken Comprehension
+    Check)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: All Stages (Interactive Comprehension Verification)
+    focus: Conditional clause in Aorist (αν κατάλαβα καλά) + reporting verb (με ρωτάτε)
+      + indirect question particle (αν / πώς / γιατί)
+  notes: 'Examiner Objective: Shows active listening and confirms comprehension before
+    launching into a long answer.
+
+    Strategy: Also buys you extra time to structure your grammar while echoing the
+    examiner''s question.'
+  example_el: Αν κατάλαβα καλά, με ρωτάτε αν προτιμώ να διαβάζω έντυπες εφημερίδες
+    ή να ενημερώνομαι από το διαδίκτυο. Εγώ προτιμώ σίγουρα το διαδίκτυο.
+  example_en: If I understood correctly, you are asking me whether I prefer reading
+    printed newspapers or getting news from the internet. I definitely prefer the
+    internet.
+  example2_el: Αν κατάλαβα καλά, θέλετε να μάθετε ποιες είναι οι τιμές των δωματίων
+    μας για τον μήνα Αύγουστο και αν υπάρχει ελεύθερο πάρκινγκ.
+  example2_en: If I understood correctly, you want to find out what our room rates
+    are for the month of August and whether there is free parking.
+  keg_communicative_function: Verifying comprehension of an interlocutor's question
+    before answering
+  audio: an-katalava-kala-me--5dd40f.mp3
+  example_audio: an-katalava-kala-me--8310ce.mp3
+  example2_audio: an-katalava-kala-the-50be68.mp3
+- id: SP-U02-039
+  greek: Δηλαδή, θέλετε να πείτε ότι...
+  english: That is to say, do you mean that...? (Spoken Confirmation & Paraphrase)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay & Information Exchange)
+    focus: Explanatory adverb (δηλαδή) + modal phrase (θέλετε να πείτε ότι) for checking
+      details
+  notes: 'Examiner Objective: Useful in Stage 2 when confirming conditions, schedules,
+    or prices stated by your partner.
+
+    Strategy: Use with rising question intonation to verify a crucial detail on the
+    cue card.'
+  example_el: Δηλαδή, θέλετε να πείτε ότι το γυμναστήριο είναι ανοιχτό μόνο τις καθημερινές
+    και ότι το σαββατοκύριακο δεν γίνονται καθόλου ομαδικά μαθήματα;
+  example_en: That is to say, do you mean that the gym is open only on weekdays and
+    that on the weekend no group classes take place at all?
+  example2_el: Δηλαδή, θέλετε να πείτε ότι αν πληρώσω όλο το ποσό σήμερα με κάρτα,
+    η παράδοση των επίπλων στο σπίτι μου θα είναι δωρεάν;
+  example2_en: That is to say, do you mean that if I pay the full amount today by
+    card, the delivery of the furniture to my home will be free?
+  keg_communicative_function: Confirming the implications of information received
+    in dialogue
+  audio: diladi-thelete-na-pe-150db2.mp3
+  example_audio: diladi-thelete-na-pe-052738.mp3
+  example2_audio: diladi-thelete-na-pe-a643ee.mp3
+- id: SP-U02-040
+  greek: Σας ευχαριστώ πολύ για τη βοήθεια και τις πληροφορίες!
+  english: Thank you very much for the help and the information! (Spoken Polite Closing)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 & Exam Conclusion (Polite Social Closing)
+    focus: 'Formal gratitude verb (σας ευχαριστώ πολύ) + causal preposition (για +
+      accusative: τη βοήθεια και τις πληροφορίες)'
+  notes: 'Examiner Objective: Every Stage 2 service roleplay (travel agency, pharmacy,
+    real estate, shop) should end with a polite closing formula.
+
+    Strategy: Pair with ''Καλή συνέχεια και καλή σας μέρα!'' to end your roleplay
+    with natural Greek courtesy.'
+  example_el: Σας ευχαριστώ πολύ για τη βοήθεια και τις πληροφορίες! Θα το συζητήσω
+    το βράδυ με τη σύζυγό μου και θα σας τηλεφωνήσω αύριο το πρωί.
+  example_en: Thank you very much for the help and the information! I will discuss
+    it tonight with my wife and call you tomorrow morning.
+  example2_el: Σας ευχαριστώ πολύ για τη βοήθεια και τις πληροφορίες σχετικά με τα
+    δρομολόγια! Να είστε καλά και σας εύχομαι μια όμορφη συνέχεια!
+  example2_en: Thank you very much for the help and the information regarding the
+    routes! Be well and I wish you a pleasant rest of your day!
+  keg_communicative_function: Closing a service encounter or formal dialogue with
+    polite gratitude
+  audio: sas-eycharisto-poly--f208d2.mp3
+  example_audio: sas-eycharisto-poly--42aecc.mp3
+  example2_audio: sas-eycharisto-poly--724b7c.mp3

@@ -1,0 +1,764 @@
+unit_id: unit-a2-01
+lesson_id: lesson-01
+title: 'Μάθημα 1: Βιογραφία, Αναμνήσεις & Το Παρελθόν μου (Personal Biography & Past
+  Experiences)'
+description: Recounting life milestones, childhood memories, educational history,
+  and past journeys using the Simple Past (Αόριστος) active voice and essential irregular
+  stems.
+lesson_status: not_started
+lesson_notes: "Unit A2-01 Core Notes: Βιογραφία & Αόριστος (Personal Biography & Simple\
+  \ Past)\n• Simple Past (Αόριστος) Active Formation:\n  - Regular -ω verbs form past\
+  \ in -σα, -ξα, -ψα (δούλεψα, άνοιξα, έγραψα).\n  - Regular -άω / -ώ verbs form past\
+  \ in -ησα (μίλησα, ζήτησα) or -εσα / -ασα (φόρεσα, πέρασα).\n  - Crucial High-Yield\
+  \ Irregulars: πήγα (πηγαίνω), είδα (βλέπω), είπα (λέω), ήπια (πίνω), έφαγα (τρώω),\
+  \ πήρα (παίρνω), βρήκα (βρίσκω), έδωσα (δίνω), έμαθα (μαθαίνω), έστειλα (στέλνω),\
+  \ έφυγα (φεύγω), ήρθα (έρχομαι).\n  - Essential Biography Deponents: γεννήθηκα (γεννιέμαι),\
+  \ παντρεύτηκα (παντρεύομαι).\n\n• Examination Relevance:\n  - Writing Task 2 (Letter/Email):\
+  \ Recounting a past trip, describing personal background or explaining past events.\n\
+  \  - Speaking Stage 1: Personal interview regarding studies, career background,\
+  \ and origins."
+entries:
+- id: A2-U01-001
+  greek: γεννήθηκα
+  english: I was born
+  notes: First person singular simple past of deponent/mediopassive 'γεννιέμαι'. Essential
+    for Speaking Stage 1 & Writing Task 2.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    voice: mediopassive
+    second_person_singular: γεννήθηκες
+    third_person_singular: γεννήθηκε
+    first_person_plural: γεννηθήκαμε
+  keg_communicative_function: Stating place and date of birth in personal interviews
+    and CVs
+  example_el: Γεννήθηκα στην Αθήνα το 1995 και έζησα εκεί μέχρι τα δεκαοκτώ μου χρόνια.
+  example_en: I was born in Athens in 1995 and lived there until I was eighteen years
+    old.
+  example2_el: Πού γεννηθήκατε και πότε ήρθατε για πρώτη φορά στην Ελλάδα;
+  example2_en: Where were you born and when did you come to Greece for the first time?
+  audio: gennithika-3088a3.mp3
+  status: verified
+  example_audio: gennithika-stin-athi-b4a7a9.mp3
+  example2_audio: poy-gennithikate-kai-e9220e.mp3
+- id: A2-U01-002
+  greek: μεγάλωσα
+  english: I grew up
+  notes: Simple past of 'μεγαλώνω'. Used to describe childhood locations and family
+    upbringing.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: μεγαλώνω
+    third_person_singular: μεγάλωσε
+    first_person_plural: μεγαλώσαμε
+  keg_communicative_function: Describing where and how one spent childhood years
+  example_el: Μεγάλωσα σε ένα μικρό χωριό κοντά στη θάλασσα.
+  example_en: I grew up in a small village near the sea.
+  example2_el: Τα παιδιά μεγάλωσαν με τους παππούδες τους στην επαρχία.
+  example2_en: The children grew up with their grandparents in the countryside.
+  audio: megalosa-77e7d1.mp3
+  status: verified
+  example_audio: megalosa-se-ena-mikr-106748.mp3
+  example2_audio: ta-paidia-megalosan--f280ec.mp3
+- id: A2-U01-003
+  greek: σπούδασα
+  english: I studied (at university / college)
+  notes: Simple past of 'σπουδάζω'. Distinct from 'διαβάζω' (to study a book/read).
+    Essential for education history.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: σπουδάζω
+    third_person_singular: σπούδασε
+    first_person_plural: σπουδάσαμε
+  keg_communicative_function: Detailing academic background and degrees in personal
+    interviews
+  example_el: Σπούδασα ελληνική φιλολογία στο Πανεπιστήμιο Θεσσαλονίκης.
+  example_en: I studied Greek philology at the University of Thessaloniki.
+  example2_el: Αφού τελείωσε το σχολείο, σπούδασε πληροφορική και οικονομικά.
+  example2_en: After finishing school, he studied computer science and economics.
+  audio: spoydasa-0849dd.mp3
+  status: verified
+  example_audio: spoydasa-elliniki-fi-75401d.mp3
+  example2_audio: afoy-teleiose-to-sch-3ec4f6.mp3
+- id: A2-U01-004
+  greek: αποφοίτησα
+  english: I graduated
+  notes: Simple past of Type B2 verb 'αποφοιτώ' (-είς / -εί). Formal verb common in
+    biographies and applications.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: αποφοιτώ
+    third_person_singular: αποφοίτησε
+    noun_derivative: η αποφοίτηση
+  keg_communicative_function: Stating graduation year and academic milestones
+  example_el: Αποφοίτησα από το τμήμα διοίκησης επιχειρήσεων πριν από τρία χρόνια.
+  example_en: I graduated from the department of business administration three years
+    ago.
+  example2_el: Η αδελφή μου αποφοίτησε με άριστα από την ιατρική σχολή.
+  example2_en: My sister graduated with honors from the medical school.
+  audio: apofoitisa-1ce436.mp3
+  status: verified
+  example_audio: apofoitisa-apo-to-tm-7152be.mp3
+  example2_audio: i-adelfi-moy-apofoit-0bdf90.mp3
+- id: A2-U01-005
+  greek: το πτυχίο
+  english: university degree / diploma
+  notes: Neuter noun in -ο (-α). Collocates with 'παίρνω πτυχίο' (to graduate/obtain
+    degree).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πτυχία
+    genitive_singular: του πτυχίου
+    common_collocation: παίρνω πτυχίο
+  keg_communicative_function: Describing qualifications and educational credentials
+  example_el: Πήρα το πτυχίο μου το καλοκαίρι και αμέσως άρχισα να ψάχνω δουλειά.
+  example_en: I received my degree in the summer and immediately started looking for
+    a job.
+  example2_el: Για τη θέση αυτή είναι απαραίτητο το πτυχίο ξένης γλώσσας.
+  example2_en: For this position a foreign language degree is required.
+  audio: to-ptychio-a61772.mp3
+  status: verified
+  example_audio: pira-to-ptychio-moy--49c713.mp3
+  example2_audio: gia-ti-thesi-ayti-ei-e32db2.mp3
+- id: A2-U01-006
+  greek: πήρα
+  english: I took / I got / I received
+  notes: Highly irregular simple past of 'παίρνω' (πήρα, πήρες, πήρε, πήραμε, πήρατε,
+    πήραν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: παίρνω
+    second_person_singular: πήρες
+    third_person_singular: πήρε
+    first_person_plural: πήραμε
+  keg_communicative_function: 'Reporting past actions: receiving messages, obtaining
+    credentials, taking transport'
+  example_el: Πήρα το πρωινό λεωφορείο για να φτάσω εγκαίρως στις εξετάσεις.
+  example_en: I took the morning bus to arrive in time for the exams.
+  example2_el: Πήραμε την απόφαση να μετακομίσουμε σε μεγαλύτερο σπίτι.
+  example2_en: We made the decision to move to a larger house.
+  audio: pira-404a26.mp3
+  status: verified
+  example_audio: pira-to-proino-leofo-61893d.mp3
+  example2_audio: pirame-tin-apofasi-n-14daed.mp3
+- id: A2-U01-007
+  greek: δούλεψα
+  english: I worked
+  notes: Simple past of 'δουλεύω' (-εψα stem). Standard regular aorist pattern for
+    -εύω verbs.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: δουλεύω
+    third_person_singular: δούλεψε
+    first_person_plural: δουλέψαμε
+  keg_communicative_function: Recounting work history and employment experience in
+    CVs and interviews
+  example_el: Δούλεψα ως υπάλληλος υποδοχής σε ξενοδοχείο της Ρόδου για δύο σεζόν.
+  example_en: I worked as a front desk receptionist at a hotel in Rhodes for two seasons.
+  example2_el: Ο Νίκος δούλεψε σκληρά για να ολοκληρώσει το πρόγραμμα.
+  example2_en: Nikos worked hard to complete the project.
+  audio: doylepsa-66353d.mp3
+  status: verified
+  example_audio: doylepsa-os-ypallilo-f016a9.mp3
+  example2_audio: o-nikos-doylepse-skl-37b152.mp3
+- id: A2-U01-008
+  greek: μετακόμισα
+  english: I moved / I relocated
+  notes: Simple past of 'μετακομίζω' (-ισα stem). Vital for discussing life changes
+    and residential moves.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: μετακομίζω
+    third_person_singular: μετακόμισε
+    noun_derivative: η μετακόμιση
+  keg_communicative_function: Explaining past residential changes and relocations
+  example_el: Πέρυσι μετακόμισα από την Πάτρα στην Αθήνα λόγω δουλειάς.
+  example_en: Last year I moved from Patras to Athens due to work.
+  example2_el: Πότε μετακομίσατε στην καινούρια σας γειτονιά;
+  example2_en: When did you move to your new neighborhood?
+  audio: metakomisa-9e885a.mp3
+  status: verified
+  example_audio: perysi-metakomisa-ap-7af08f.mp3
+  example2_audio: pote-metakomisate-st-336a8a.mp3
+- id: A2-U01-009
+  greek: η παιδική ηλικία
+  english: childhood
+  notes: Feminine noun phrase. Collocates with 'στα χρόνια της παιδικής ηλικίας' or
+    'από την παιδική μου ηλικία'.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    head_noun: η ηλικία
+    adjective: παιδική
+    genitive: της παιδικής ηλικίας
+  keg_communicative_function: Discussing early life memories in oral interviews and
+    personal essays
+  example_el: Πέρασα την παιδική μου ηλικία κοντά στη φύση και στα ζώα.
+  example_en: I spent my childhood close to nature and animals.
+  example2_el: Οι φιλίες της παιδικής ηλικίας κρατούν συχνά για μια ζωή.
+  example2_en: Childhood friendships often last for a lifetime.
+  audio: i-paidiki-ilikia-d7ad58.mp3
+  status: verified
+  example_audio: perasa-tin-paidiki-m-0d0e00.mp3
+  example2_audio: oi-filies-tis-paidik-4a0ce7.mp3
+- id: A2-U01-010
+  greek: η ανάμνηση
+  english: memory / recollection
+  notes: Feminine noun in -η (-εις). High-utility noun for reflective and narrative
+    writing tasks.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αναμνήσεις
+    accusative_singular: την ανάμνηση
+    genitive_singular: της ανάμνησης
+  keg_communicative_function: Expressing nostalgia and recalling past events in narrative
+    tasks
+  example_el: Έχω πολλές όμορφες αναμνήσεις από τις καλοκαιρινές διακοπές στο νησί.
+  example_en: I have many beautiful memories from summer vacations on the island.
+  example2_el: Αυτή η φωτογραφία μού φέρνει στο μυαλό μία γλυκιά ανάμνηση.
+  example2_en: This photograph brings a sweet memory to my mind.
+  audio: i-anamnisi-19aca1.mp3
+  status: verified
+  example_audio: echo-polles-omorfes--b276ab.mp3
+  example2_audio: ayti-i-fotografia-mo-b30721.mp3
+- id: A2-U01-011
+  greek: το παρελθόν
+  english: the past
+  notes: Neuter noun in -όν (-όντος). Contrast with 'το παρόν' (present) and 'το μέλλον'
+    (future).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    genitive_singular: του παρελθόντος
+    adverbial_phrase: στο παρελθόν
+  keg_communicative_function: Situating events chronologically and comparing past
+    eras with today
+  example_el: Στο παρελθόν οι άνθρωποι επικοινωνούσαν κυρίως με γράμματα.
+  example_en: In the past people communicated mainly with letters.
+  example2_el: Δεν πρέπει να ξεχνάμε τα μαθήματα του παρελθόντος.
+  example2_en: We must not forget the lessons of the past.
+  audio: to-parelthon-341e3f.mp3
+  status: verified
+  example_audio: sto-parelthon-oi-ant-917891.mp3
+  example2_audio: den-prepei-na-xechna-ccbb40.mp3
+- id: A2-U01-012
+  greek: η καταγωγή
+  english: origin / ancestry
+  notes: Feminine noun in -η (-ες). Essential question in KEG A2 Speaking Stage 1
+    ('Ποια είναι η καταγωγή σας;').
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καταγωγές
+    collocation: είμαι ελληνικής καταγωγής / έχω καταγωγή από
+  keg_communicative_function: Explaining ethnic or regional background during initial
+    examiner questions
+  example_el: Έχω καταγωγή από την Κρήτη, αλλά μεγάλωσα στην Καβάλα.
+  example_en: I am of Cretan origin, but I grew up in Kavala.
+  example2_el: Ποια είναι η καταγωγή της οικογένειάς σας;
+  example2_en: What is the origin of your family?
+  audio: i-katagogi-17132e.mp3
+  status: verified
+  example_audio: echo-katagogi-apo-ti-5929c9.mp3
+  example2_audio: poia-einai-i-katagog-7e17f6.mp3
+- id: A2-U01-013
+  greek: πήγα
+  english: I went
+  notes: Irregular simple past of 'πηγαίνω' (πήγα, πήγες, πήγε, πήγαμε, πήγατε, πήγαν).
+    High-frequency narrative core.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: πηγαίνω
+    second_person_singular: πήγες
+    third_person_singular: πήγε
+    first_person_plural: πήγαμε
+  keg_communicative_function: Describing past trips, excursions, and visits in essays
+    and dialogues
+  example_el: Το προηγούμενο Σαββατοκύριακο πήγα με τους φίλους μου στο Ναύπλιο.
+  example_en: Last weekend I went with my friends to Nafplio.
+  example2_el: Πήγατε ποτέ σε αρχαιολογικό μουσείο στην Αθήνα;
+  example2_en: Have you ever gone to an archaeological museum in Athens?
+  audio: piga-a13c99.mp3
+  status: verified
+  example_audio: to-proigoymeno-savva-8e6f51.mp3
+  example2_audio: pigate-pote-se-archa-c919b2.mp3
+- id: A2-U01-014
+  greek: ήρθα
+  english: I came
+  notes: Irregular simple past of 'έρχομαι' (ήρθα, ήρθες, ήρθε, ήρθαμε, ήρθατε, ήρθαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: έρχομαι
+    second_person_singular: ήρθες
+    third_person_singular: ήρθε
+    first_person_plural: ήρθαμε
+  keg_communicative_function: Stating arrival dates and reasons for moving to Greece
+  example_el: Ήρθα στην Ελλάδα πριν από πέντε χρόνια για να μάθω τη γλώσσα.
+  example_en: I came to Greece five years ago to learn the language.
+  example2_el: Χθες το βράδυ ήρθαν επισκέπτες στο σπίτι μας από τη Γαλλία.
+  example2_en: Yesterday evening visitors came to our house from France.
+  audio: irtha-3fd9a0.mp3
+  status: verified
+  example_audio: irtha-stin-ellada-pr-3e9694.mp3
+  example2_audio: chthes-to-vrady-irth-857ccd.mp3
+- id: A2-U01-015
+  greek: έφυγα
+  english: I left / I departed
+  notes: Simple past of 'φεύγω' (έφυγα, έφυγες, έφυγε, φύγαμε, φύγατε, έφυγαν). Note
+    stress shift in plural.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: φεύγω
+    third_person_singular: έφυγε
+    first_person_plural: φύγαμε
+  keg_communicative_function: Describing departures from jobs, countries, or social
+    events
+  example_el: Έφυγα από το γραφείο αργά το απόγευμα γιατί είχα πολλή δουλειά.
+  example_en: I left the office late in the afternoon because I had a lot of work.
+  example2_el: Το πλοίο έφυγε στην ώρα του από το λιμάνι του Πειραιά.
+  example2_en: The ship departed on time from the port of Piraeus.
+  audio: efyga-67e4f3.mp3
+  status: verified
+  example_audio: efyga-apo-to-grafeio-11b63f.mp3
+  example2_audio: to-ploio-efyge-stin--86223b.mp3
+- id: A2-U01-016
+  greek: έφτασα
+  english: I arrived
+  notes: Simple past of 'φτάνω' (έφτασα, έφτασες, έφτασε, φτάσαμε, φτάσατε, έφτασαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: φτάνω
+    third_person_singular: έφτασε
+    first_person_plural: φτάσαμε
+  keg_communicative_function: Reporting arrival times in travel scenarios and listening
+    dialogues
+  example_el: Φτάσαμε στο αεροδρόμιο δύο ώρες πριν από την πτήση.
+  example_en: We arrived at the airport two hours before the flight.
+  example2_el: Το δέμα έφτασε στο ταχυδρομείο σήμερα το πρωί.
+  example2_en: The parcel arrived at the post office this morning.
+  audio: eftasa-a6ef60.mp3
+  status: verified
+  example_audio: ftasame-sto-aerodrom-446665.mp3
+  example2_audio: to-dema-eftase-sto-t-e2c0a0.mp3
+- id: A2-U01-017
+  greek: είδα
+  english: I saw
+  notes: Irregular simple past of 'βλέπω' (είδα, είδες, είδε, είδαμε, είδατε, είδαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: βλέπω
+    second_person_singular: είδες
+    third_person_singular: είδε
+    first_person_plural: είδαμε
+  keg_communicative_function: Narrating sights, performances, and encounters in personal
+    emails
+  example_el: Χθες είδα μια πολύ ενδιαφέρουσα παράσταση στο θέατρο.
+  example_en: Yesterday I saw a very interesting performance at the theater.
+  example2_el: Είδατε την ανακοίνωση για το πρόγραμμα των μαθημάτων;
+  example2_en: Did you see the announcement regarding the course schedule?
+  audio: eida-05ceaa.mp3
+  status: verified
+  example_audio: chthes-eida-mia-poly-de79b1.mp3
+  example2_audio: eidate-tin-anakoinos-f57c81.mp3
+- id: A2-U01-018
+  greek: άκουσα
+  english: I heard / I listened to
+  notes: Simple past of 'ακούω' (άκουσα, άκουσες, άκουσε, ακούσαμε, ακούσατε, άκουσαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: ακούω
+    third_person_singular: άκουσε
+    first_person_plural: ακούσαμε
+  keg_communicative_function: Reporting heard announcements, news, or advice in listening
+    & writing tasks
+  example_el: Άκουσα τις ειδήσεις στο ραδιόφωνο καθώς οδηγούσα.
+  example_en: I heard the news on the radio as I was driving.
+  example2_el: Δεν άκουσα καλά τι είπε ο καθηγητής στην τάξη.
+  example2_en: I did not hear well what the professor said in class.
+  audio: akoysa-259b94.mp3
+  status: verified
+  example_audio: akoysa-tis-eidiseis--18f3d0.mp3
+  example2_audio: den-akoysa-kala-ti-e-50c84b.mp3
+- id: A2-U01-019
+  greek: είπα
+  english: I said / I told
+  notes: Irregular simple past of 'λέω' (είπα, είπες, είπε, είπαμε, είπατε, είπαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: λέω
+    second_person_singular: είπες
+    third_person_singular: είπε
+    first_person_plural: είπαμε
+  keg_communicative_function: Reporting dialogue, opinions, and statements in past
+    narratives
+  example_el: Της είπα την αλήθεια για το τι συνέβη χθες στο γραφείο.
+  example_en: I told her the truth about what happened yesterday at the office.
+  example2_el: Τι σας είπε ο υπάλληλος για την ανανέωση της κάρτας;
+  example2_en: What did the clerk tell you about the renewal of the card?
+  audio: eipa-d17d8e.mp3
+  status: verified
+  example_audio: tis-eipa-tin-alithei-b0e8d8.mp3
+  example2_audio: ti-sas-eipe-o-ypalli-9e3436.mp3
+- id: A2-U01-020
+  greek: έφαγα
+  english: I ate
+  notes: Irregular simple past of 'τρώω' (έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: τρώω
+    second_person_singular: έφαγες
+    third_person_singular: έφαγε
+    first_person_plural: φάγαμε
+  keg_communicative_function: Describing dining experiences, meals, and social gatherings
+  example_el: Χθες το μεσημέρι φάγαμε παραδοσιακή χωριάτικη σαλάτα και ψάρι.
+  example_en: Yesterday at noon we ate traditional Greek salad and fish.
+  example2_el: Δεν έφαγα πρωινό επειδή βιαζόμουν να προλάβω το μετρό.
+  example2_en: I didn't eat breakfast because I was in a rush to catch the metro.
+  audio: efaga-92d0cf.mp3
+  status: verified
+  example_audio: chthes-to-mesimeri-f-b83adf.mp3
+  example2_audio: den-efaga-proino-epe-e61180.mp3
+- id: A2-U01-021
+  greek: ήπια
+  english: I drank
+  notes: Irregular simple past of 'πίνω' (ήπια, ήπιες, ήπιε, ήπιαμε, ήπιατε, ήπιαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: πίνω
+    second_person_singular: ήπιες
+    third_person_singular: ήπιε
+    first_person_plural: ήπιαμε
+  keg_communicative_function: Recounting social cafe outings and past daily routines
+  example_el: Ήπιαμε έναν ελληνικό καφέ στην πλατεία και συζητήσαμε για τα νέα μας.
+  example_en: We drank a Greek coffee in the square and talked about our news.
+  example2_el: Ήπιες αρκετό νερό σήμερα μετά τη γυμναστική;
+  example2_en: Did you drink enough water today after exercising?
+  audio: ipia-fc9bc7.mp3
+  status: verified
+  example_audio: ipiame-enan-elliniko-fc706e.mp3
+  example2_audio: ipies-arketo-nero-si-37c8be.mp3
+- id: A2-U01-022
+  greek: βρήκα
+  english: I found
+  notes: Irregular simple past of 'βρίσκω' (βρήκα, βρήκες, βρήκε, βρήκαμε, βρήκατε,
+    βρήκαν).
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: βρίσκω
+    second_person_singular: βρήκες
+    third_person_singular: βρήκε
+    first_person_plural: βρήκαμε
+  keg_communicative_function: Reporting discovering accommodation, job vacancies,
+    or solutions
+  example_el: Τελικά βρήκα ένα πολύ ωραίο διαμέρισμα κοντά στον σταθμό του μετρό.
+  example_en: Finally I found a very nice apartment close to the metro station.
+  example2_el: Βρήκατε τις πληροφορίες που ζητούσατε στην ιστοσελίδα;
+  example2_en: Did you find the information you were requesting on the website?
+  audio: vrika-30990e.mp3
+  status: verified
+  example_audio: telika-vrika-ena-pol-f8b0b1.mp3
+  example2_audio: vrikate-tis-plirofor-c5897d.mp3
+- id: A2-U01-023
+  greek: έχασα
+  english: I lost / I missed (transportation)
+  notes: Simple past of 'χάνω' (έχασα, έχασες, έχασε, χάσαμε, χάσατε, έχασαν). Used
+    for losing items or missing flights/trains.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: χάνω
+    third_person_singular: έχασε
+    first_person_plural: χάσαμε
+  keg_communicative_function: Reporting travel disruptions or lost items in official
+    inquiries & emails
+  example_el: Δυστυχώς έχασα το τρένο των οκτώ και έφτασα με καθυστέρηση.
+  example_en: Unfortunately I missed the eight o'clock train and arrived with a delay.
+  example2_el: Ο τουρίστας έχασε το διαβατήριό του και πήγε στο αστυνομικό τμήμα.
+  example2_en: The tourist lost his passport and went to the police station.
+  audio: echasa-a81736.mp3
+  status: verified
+  example_audio: dystychos-echasa-to--6d109a.mp3
+  example2_audio: o-toyristas-echase-t-3cfb8e.mp3
+- id: A2-U01-024
+  greek: έδωσα
+  english: I gave / I took (an exam)
+  notes: 'Simple past of ''δίνω'' (έδωσα, έδωσες, έδωσε, δώσαμε, δώσατε, έδωσαν).
+    Crucial idiom: ''δίνω εξετάσεις'' = to sit exams.'
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: δίνω
+    third_person_singular: έδωσε
+    collocation: δίνω εξετάσεις (to sit examinations)
+  keg_communicative_function: Discussing exam experiences and exchange of items or
+    money
+  example_el: Τον προηγούμενο Μάιο έδωσα εξετάσεις για το πιστοποιητικό επιπέδου Α1.
+  example_en: Last May I sat examinations for the level A1 certificate.
+  example2_el: Έδωσα στον υπάλληλο όλα τα απαραίτητα δικαιολογητικά.
+  example2_en: I gave the clerk all the necessary supporting documents.
+  audio: edosa-3b0c50.mp3
+  status: verified
+  example_audio: ton-proigoymeno-maio-6ca226.mp3
+  example2_audio: edosa-ston-ypallilo--9f8f25.mp3
+- id: A2-U01-025
+  greek: έμαθα
+  english: I learned / I found out
+  notes: 'Irregular simple past of ''μαθαίνω'' (έμαθα, έμαθες, έμαθε, μάθαμε, μάθατε,
+    έμαθαν). Dual meaning: acquiring skills vs discovering news.'
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: μαθαίνω
+    second_person_singular: έμαθες
+    third_person_singular: έμαθε
+    first_person_plural: μάθαμε
+  keg_communicative_function: Discussing language acquisition milestones or receiving
+    breaking news
+  example_el: Έμαθα ελληνικά επειδή ζω και εργάζομαι στην Ελλάδα.
+  example_en: I learned Greek because I live and work in Greece.
+  example2_el: Μόλις χθες μάθαμε τα ευχάριστα νέα για την προαγωγή της.
+  example2_en: Just yesterday we learned the pleasant news about her promotion.
+  audio: ematha-fed2e8.mp3
+  status: verified
+  example_audio: ematha-ellinika-epei-16dc17.mp3
+  example2_audio: molis-chthes-mathame-27aad4.mp3
+- id: A2-U01-026
+  greek: έστειλα
+  english: I sent
+  notes: Simple past of 'στέλνω' (έστειλα, έστειλες, έστειλε, στείλαμε, στείλατε,
+    έστειλαν). Key verb for correspondence.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: στέλνω
+    third_person_singular: έστειλε
+    first_person_plural: στείλαμε
+  keg_communicative_function: Confirming past correspondence, submission of applications,
+    and messages
+  example_el: Έστειλα την αίτηση και το βιογραφικό μου στην εταιρεία μέσω email.
+  example_en: I sent my application and CV to the company via email.
+  example2_el: Σας στείλαμε την επιβεβαίωση της κράτησης στο κινητό σας.
+  example2_en: We sent you the reservation confirmation to your mobile phone.
+  audio: esteila-ba629c.mp3
+  status: verified
+  example_audio: esteila-tin-aitisi-k-58141e.mp3
+  example2_audio: sas-steilame-tin-epi-dea8a7.mp3
+- id: A2-U01-027
+  greek: αγόρασα
+  english: I bought
+  notes: Simple past of 'αγοράζω' (-ασα stem). Basic transaction verb.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: αγοράζω
+    third_person_singular: αγόρασε
+    noun_derivative: η αγορά
+  keg_communicative_function: Describing past shopping, purchases, and gift acquisitions
+  example_el: Αγόρασα καινούρια παπούτσια για το γάμο του ξαδέλφου μου.
+  example_en: I bought new shoes for my cousin's wedding.
+  example2_el: Αγοράσαμε τα εισιτήρια του πλοίου μέσω διαδικτύου.
+  example2_en: We bought the ferry tickets via the internet.
+  audio: agorasa-71197b.mp3
+  status: verified
+  example_audio: agorasa-kainoyria-pa-632c49.mp3
+  example2_audio: agorasame-ta-eisitir-13c1cc.mp3
+- id: A2-U01-028
+  greek: πλήρωσα
+  english: I paid
+  notes: Simple past of 'πληρώνω' (-ωσα stem). Core commercial verb.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: πληρώνω
+    third_person_singular: πλήρωσε
+    noun_derivative: η πληρωμή
+  keg_communicative_function: Explaining payment methods and settling bills in dialogues
+  example_el: Πλήρωσα τον λογαριασμό του ηλεκτρικού με πιστωτική κάρτα.
+  example_en: I paid the electricity bill with a credit card.
+  example2_el: Πόσο πληρώσατε για τη διαμονή στο ξενοδοχείο;
+  example2_en: How much did you pay for the stay at the hotel?
+  audio: plirosa-e31da2.mp3
+  status: verified
+  example_audio: plirosa-ton-logarias-239f65.mp3
+  example2_audio: poso-plirosate-gia-t-af83dc.mp3
+- id: A2-U01-029
+  greek: άλλαξα
+  english: I changed / I exchanged
+  notes: Simple past of 'αλλάζω' (-αξα stem). Covers changing minds, changing clothes,
+    changing residence or money.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: αλλάζω
+    third_person_singular: άλλαξε
+    noun_derivative: η αλλαγή
+  keg_communicative_function: Explaining modifications in plans, tickets, or personal
+    circumstances
+  example_el: Άλλαξα γνώμη και αποφάσισα να μείνω στο σπίτι απόψε.
+  example_en: I changed my mind and decided to stay home tonight.
+  example2_el: Στο αεροδρόμιο άλλαξα ευρώ σε δολάρια πριν από το ταξίδι.
+  example2_en: At the airport I changed euros into dollars before the trip.
+  audio: allaxa-a1622e.mp3
+  status: verified
+  example_audio: allaxa-gnomi-kai-apo-bd17fa.mp3
+  example2_audio: sto-aerodromio-allax-4982f8.mp3
+- id: A2-U01-030
+  greek: γνώρισα
+  english: I met / I got to know
+  notes: Simple past of 'γνωρίζω'. Refers to meeting someone for the first time or
+    discovering a city/culture.
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    present_stem: γνωρίζω
+    third_person_singular: γνώρισε
+    noun_derivative: η γνωριμία
+  keg_communicative_function: Narrating interpersonal encounters and discovering new
+    places
+  example_el: Στο συνέδριο γνώρισα πολλούς ενδιαφέροντες συναδέλφους από το εξωτερικό.
+  example_en: At the conference I met many interesting colleagues from abroad.
+  example2_el: Πού γνωρίσατε τον καλύτερό σας φίλο;
+  example2_en: Where did you meet your best friend?
+  audio: gnorisa-07cc7d.mp3
+  status: verified
+  example_audio: sto-synedrio-gnorisa-e0c668.mp3
+  example2_audio: poy-gnorisate-ton-ka-565151.mp3
+- id: A2-U01-031
+  greek: παντρεύτηκα
+  english: I got married
+  notes: Simple past mediopassive of 'παντρεύομαι' (παντρεύτηκα, παντρεύτηκες, παντρεύτηκε,
+    παντρευτήκαμε). Key biographical landmark.
+  gender_or_pos: verb (simple past mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    tense: simple past (αόριστος)
+    voice: mediopassive
+    third_person_singular: παντρεύτηκε
+    noun_derivative: ο γάμος
+  keg_communicative_function: Stating marital status milestones in biographical tasks
+  example_el: Παντρεύτηκα πριν από δέκα χρόνια και έχουμε αποκτήσει δύο παιδιά.
+  example_en: I got married ten years ago and we have had two children.
+  example2_el: Ο αδελφός μου παντρεύτηκε το περασμένο καλοκαίρι στη Σαντορίνη.
+  example2_en: My brother got married last summer in Santorini.
+  audio: pantreytika-33423e.mp3
+  status: verified
+  example_audio: pantreytika-prin-apo-308d97.mp3
+  example2_audio: o-adelfos-moy-pantre-9e84f1.mp3
+- id: A2-U01-032
+  greek: πέρυσι
+  english: last year
+  notes: Temporal adverb. Also written 'πέρσι'. Essential anchor for simple past narratives.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: temporal adverb
+    variant: πέρσι
+    contrast: φέτος (this year), του χρόνου (next year)
+  keg_communicative_function: Locating past events in preceding calendar year
+  example_el: Πέρυσι το καλοκαίρι επισκέφτηκα την Κρήτη για πρώτη φορά.
+  example_en: Last year in the summer I visited Crete for the first time.
+  example2_el: Πέρυσι δεν μπορέσαμε να ταξιδέψουμε λόγω δουλειάς.
+  example2_en: Last year we were not able to travel due to work.
+  audio: perysi-217602.mp3
+  status: verified
+  example_audio: perysi-to-kalokairi--1cc159.mp3
+  example2_audio: perysi-den-mporesame-e3ddea.mp3
+- id: A2-U01-033
+  greek: πριν από
+  english: ago / before
+  notes: 'Prepositional temporal locution taking accusative: ''πριν από δύο μήνες''
+    (two months ago).'
+  gender_or_pos: prepositional phrase
+  grammatical_info:
+    part_of_speech: prepositional phrase
+    case_governed: accusative
+    examples: πριν από λίγο, πριν από τρία χρόνια
+  keg_communicative_function: Specifying elapsed time since an event occurred
+  example_el: Άρχισα να μαθαίνω ελληνικά πριν από δύο χρόνια.
+  example_en: I started learning Greek two years ago.
+  example2_el: Το αεροπλάνο προσγειώθηκε πριν από δέκα λεπτά.
+  example2_en: The airplane landed ten minutes ago.
+  audio: prin-apo-c87c63.mp3
+  status: verified
+  example_audio: archisa-na-mathaino--9d2612.mp3
+  example2_audio: to-aeroplano-prosgei-9032b7.mp3
+- id: A2-U01-034
+  greek: προχθές
+  english: the day before yesterday
+  notes: Temporal adverb. Also written 'προχτές'. High-frequency anchor in past dialogues.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: temporal adverb
+    variant: προχτές
+    sequence: προχθές -> χθες -> σήμερα -> αύριο -> μεθαύριο
+  keg_communicative_function: Pinpointing events that happened two days prior
+  example_el: Προχθές το απόγευμα συναντήθηκα με τους παλιούς μου συμμαθητές.
+  example_en: The day before yesterday in the afternoon I met with my old classmates.
+  example2_el: Προχθές παρέλαβα το πιστοποιητικό από τη γραμματεία.
+  example2_en: The day before yesterday I received the certificate from the secretariat.
+  audio: prochthes-efc00c.mp3
+  status: verified
+  example_audio: prochthes-to-apogeym-0d31c6.mp3
+  example2_audio: prochthes-parelava-t-a3060c.mp3
+- id: A2-U01-035
+  greek: το βιογραφικό σημείωμα
+  english: curriculum vitae / résumé
+  notes: Neuter noun phrase. Frequently referred to simply as 'το βιογραφικό'. Core
+    genre for KEG A2 vocational topics.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα βιογραφικά σημειώματα
+    collocation: συντάσσω / στέλνω βιογραφικό
+  keg_communicative_function: Referring to job applications and professional career
+    summaries
+  example_el: Ετοίμασα το βιογραφικό μου σημείωμα στα ελληνικά για τη νέα θέση.
+  example_en: I prepared my curriculum vitae in Greek for the new position.
+  example2_el: Στο βιογραφικό σημείωμα αναφέρετε τις σπουδές και την προϋπηρεσία σας.
+  example2_en: In the curriculum vitae mention your studies and previous work experience.
+  audio: to-viografiko-simeio-d62b93.mp3
+  status: verified
+  example_audio: etoimasa-to-viografi-5dbaef.mp3
+  example2_audio: sto-viografiko-simei-7647de.mp3

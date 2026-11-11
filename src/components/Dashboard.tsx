@@ -10,21 +10,37 @@ import {
   getDailyReviewData,
   getUserStudyPreferences
 } from '../utils/userStorage';
-import { parseLessonCode, formatLessonLabel, getGroupTitle, extractUnitContext, getGroupAccentStyles } from '../utils/unitNaming';
+import { 
+  parseLessonCode, 
+  formatLessonLabel, 
+  getGroupTitle, 
+  extractUnitContext, 
+  getGroupAccentStyles,
+  getGroupMetadata 
+} from '../utils/unitNaming';
+import { LearningTimeWidget } from './LearningTimeWidget';
 import { 
   BookOpen, 
   Play, 
-  FileText,
-  Search,
-  Volume2,
-  BookMarked,
-  X,
-  ChevronRight,
-  Filter,
-  Flame,
-  Target,
-  Sparkles,
-  ArrowRight
+  FileText, 
+  Search, 
+  Volume2, 
+  BookMarked, 
+  X, 
+  ChevronRight, 
+  ChevronDown,
+  ChevronUp,
+  Filter, 
+  Flame, 
+  Target, 
+  Sparkles, 
+  ArrowRight,
+  Layers,
+  Award,
+  Compass,
+  Mic,
+  GraduationCap,
+  Check
 } from 'lucide-react';
 
 interface DashboardProps {
@@ -228,28 +244,130 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
   };
 
-  // Dynamically group curriculum collections (e.g. A1 [KlikA1], A2 [KlikA2], etc.)
+  // Helper to render appropriate icon for curriculum group
+  const renderGroupIcon = (groupId: string, className = "w-5 h-5") => {
+    const norm = groupId.trim().toLowerCase().replace(/[-_]/g, '');
+    if (norm.startsWith('klika1') || norm === 'klik1') {
+      return <BookOpen className={className} />;
+    }
+    if (norm.startsWith('klika2') || norm === 'klik2') {
+      return <BookMarked className={className} />;
+    }
+    if (norm.startsWith('kega2sp') || norm === 'sp' || norm === 'speaking') {
+      return <Mic className={className} />;
+    }
+    if (norm.startsWith('kega2p2') || norm === 'a2p2') {
+      return <Compass className={className} />;
+    }
+    if (norm.startsWith('kega2') || norm === 'a2p1' || norm === 'a2') {
+      return <Award className={className} />;
+    }
+    if (norm.startsWith('cyp')) {
+      return <GraduationCap className={className} />;
+    }
+    return <Sparkles className={className} />;
+  };
+
+  // Group collapse state for default overview
+  const [collapsedGroups, setCollapsedGroups] = useState<Record<string, boolean>>({});
+
+  const toggleGroupCollapse = (groupId: string) => {
+    setCollapsedGroups((prev) => ({
+      ...prev,
+      [groupId]: !prev[groupId],
+    }));
+  };
+
+  // Dynamically group curriculum collections with comprehensive learning & audio metrics
   const availableGroups = useMemo(() => {
-    const groupMap = new Map<string, { id: string; name: string; lessonsCount: number; cardsCount: number }>();
+    const groupMap = new Map<string, {
+      id: string;
+      name: string;
+      lessonsCount: number;
+      cardsCount: number;
+      learnedCardsCount: number;
+      audioVerifiedCount: number;
+      audioTotalCount: number;
+      allCards: Lesson['entries'];
+    }>();
+
     for (const unit of units) {
       const code = parseLessonCode(unit.order || unit.id);
       const groupId = code.group;
+      const unitCards = unit.lessons.flatMap((l) => l.entries);
+      const cardCount = unitCards.length;
+      const learnedCount = unitCards.filter((c) => srsMap[c.id]?.isLearned).length;
+      const verifiedAudio = unit.verified_entries || 0;
+      const totalAudio = unit.total_entries || cardCount;
+
       const existing = groupMap.get(groupId);
-      const cardCount = unit.lessons.flatMap((l) => l.entries).length;
       if (existing) {
         existing.lessonsCount += 1;
         existing.cardsCount += cardCount;
+        existing.learnedCardsCount += learnedCount;
+        existing.audioVerifiedCount += verifiedAudio;
+        existing.audioTotalCount += totalAudio;
+        existing.allCards.push(...unitCards);
       } else {
         groupMap.set(groupId, {
           id: groupId,
           name: getGroupTitle(groupId),
           lessonsCount: 1,
           cardsCount: cardCount,
+          learnedCardsCount: learnedCount,
+          audioVerifiedCount: verifiedAudio,
+          audioTotalCount: totalAudio,
+          allCards: [...unitCards],
         });
       }
     }
-    return Array.from(groupMap.values());
-  }, [units]);
+
+    const priorityOrder: Record<string, number> = {
+      'OG-A1': 1,
+      'Klik-A1': 2,
+      'Klik-A2': 3,
+      'KEG-A2-P1': 4,
+      'KEG-A2-P2': 5,
+      'KEG-A2-SP': 6,
+      'CYP-Exam': 7,
+    };
+
+    return Array.from(groupMap.values())
+      .map((g) => ({
+        ...g,
+        masteryPercentage: g.cardsCount > 0 ? Math.round((g.learnedCardsCount / g.cardsCount) * 100) : 0,
+        audioPercentage: g.audioTotalCount > 0 ? Math.round((g.audioVerifiedCount / g.audioTotalCount) * 100) : 0,
+      }))
+      .sort((a, b) => {
+        const pA = priorityOrder[a.id] ?? 99;
+        const pB = priorityOrder[b.id] ?? 99;
+        if (pA !== pB) return pA - pB;
+        return a.id.localeCompare(b.id);
+      });
+  }, [units, srsMap]);
+
+  const areAllGroupsCollapsed = useMemo(() => {
+    if (availableGroups.length === 0) return false;
+    return availableGroups.every((g) => collapsedGroups[g.id]);
+  }, [availableGroups, collapsedGroups]);
+
+  const toggleCollapseAll = () => {
+    if (areAllGroupsCollapsed) {
+      setCollapsedGroups({});
+    } else {
+      const all: Record<string, boolean> = {};
+      for (const g of availableGroups) {
+        all[g.id] = true;
+      }
+      setCollapsedGroups(all);
+    }
+  };
+
+  const totalCardsCount = useMemo(() => allLessons.flatMap((l) => l.entries).length, [allLessons]);
+  const totalLearnedCardsCount = useMemo(() => {
+    return units.flatMap((u) => u.lessons.flatMap((l) => l.entries)).filter((c) => srsMap[c.id]?.isLearned).length;
+  }, [units, srsMap]);
+  const totalMasteryPct = totalCardsCount > 0 ? Math.round((totalLearnedCardsCount / totalCardsCount) * 100) : 0;
 
   // Filtered units computation
   const filteredUnits = useMemo(() => {
@@ -389,14 +507,19 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {/* Line 2: Group Badge First, Notes Button, Page Numbers */}
           <div className="flex flex-wrap items-center gap-2 mb-3">
             {/* Group Badge */}
-            <span className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 ${groupAccent.badgeBg}`}>
+            <button
+              type="button"
+              onClick={() => setGroupFilter(code.group)}
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border flex items-center gap-1.5 transition-all hover:scale-105 active:scale-95 ${groupAccent.badgeBg}`}
+              title={`Filter to track: ${code.group}`}
+            >
               {parsed.isTextbook ? (
                 <BookMarked className={`w-3.5 h-3.5 ${groupAccent.badgeIconColor}`} />
               ) : (
                 <BookOpen className={`w-3.5 h-3.5 ${groupAccent.badgeIconColor}`} />
               )}
               <span>Group: {code.group}</span>
-            </span>
+            </button>
 
             {/* Notes Button */}
             {isSingleLesson && primaryLesson && notes && (
@@ -633,6 +756,181 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
       )}
 
+      {/* Learning Time & Momentum Tracker Widget */}
+      <LearningTimeWidget
+        onStartStudy={() => {
+          if (resumeUnit) {
+            const primary = resumeLesson || resumeUnit.lessons[0];
+            const notes = primary ? getEffectiveLessonNotes(primary) : '';
+            onStartStudy(
+              resumeUnitCards, 
+              lastStudied?.title || resumeUnit.title, 
+              notes, 
+              lastStudied?.lessonLabel || formatLessonLabel(resumeUnit), 
+              undefined, 
+              resumeUnit.id, 
+              primary?.lesson_id
+            );
+          } else if (units.length > 0) {
+            const firstCards = units[0].lessons.flatMap((l) => l.entries);
+            onStartStudy(firstCards, units[0].title, undefined, undefined, undefined, units[0].id);
+          }
+        }}
+      />
+
+      {/* Curriculum Tracks & Groups Showcase */}
+      <div className="space-y-3.5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <div className="flex items-center gap-2">
+              <h2 className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-2">
+                <Layers className="w-4 h-4 sm:w-5 sm:h-5 text-sky-400" />
+                <span>Curriculum Tracks & Groups</span>
+              </h2>
+              <span className="text-[11px] font-semibold text-slate-300 bg-slate-800/90 px-2.5 py-0.5 rounded-full border border-slate-700/80 shadow-sm">
+                {availableGroups.length} Tracks • {units.length} Lessons • {totalCardsCount} Cards • {totalMasteryPct}% Mastered
+              </span>
+            </div>
+            <p className="text-xs text-slate-400 mt-0.5">
+              Explore and practice by curriculum track, textbook level, or official exam syllabus.
+            </p>
+          </div>
+
+          {/* Quick Action when a group filter is active */}
+          {groupFilter !== 'all' && (
+            <button
+              type="button"
+              onClick={() => setGroupFilter('all')}
+              className="self-start sm:self-auto text-xs font-semibold px-3 py-1.5 rounded-xl bg-sky-500/20 text-sky-300 hover:bg-sky-500/30 border border-sky-500/40 flex items-center gap-1.5 transition-colors shadow-sm"
+            >
+              <Layers className="w-3.5 h-3.5" />
+              <span>Show All Tracks</span>
+            </button>
+          )}
+        </div>
+
+        {/* Grid of Aesthetic Track Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3.5">
+          {availableGroups.map((group) => {
+            const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
+            const meta = getGroupMetadata(group.id);
+            return (
+              <div
+                key={group.id}
+                onClick={() => setGroupFilter(isSelected ? 'all' : group.id)}
+                className={`relative overflow-hidden rounded-2xl p-4 sm:p-5 border transition-all duration-300 flex flex-col justify-between cursor-pointer group bg-gradient-to-br ${meta.gradientBg} ${
+                  isSelected
+                    ? `${meta.accentBorderActive} scale-[1.01]`
+                    : `${meta.accentBorder} hover:border-slate-500/80 hover:shadow-xl ${meta.glowEffect} hover:-translate-y-0.5`
+                }`}
+                title={`Click to ${isSelected ? 'show all tracks' : `focus on ${meta.name}`}`}
+              >
+                {/* Active Accent Glow Pill */}
+                {isSelected && (
+                  <div className="absolute top-0 right-0 w-28 h-28 bg-white/5 rounded-full blur-2xl pointer-events-none" />
+                )}
+
+                <div>
+                  {/* Top row: Level Badge & Lessons Count */}
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider border shadow-sm ${meta.badgeBg} ${meta.badgeBorder} ${meta.badgeText}`}>
+                      {meta.levelBadge}
+                    </span>
+                    <div className="flex items-center gap-1.5">
+                      {isSelected ? (
+                        <span className="flex items-center gap-1 text-[10px] font-bold text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/40 shadow-sm animate-pulse">
+                          <Check className="w-3 h-3 text-emerald-400" /> Active
+                        </span>
+                      ) : (
+                        <span className="text-[11px] font-semibold text-slate-300 bg-slate-900/80 px-2 py-0.5 rounded-md border border-slate-700/60">
+                          {group.lessonsCount} {group.lessonsCount === 1 ? 'lesson' : 'lessons'}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Middle: Icon & Titles */}
+                  <div className="flex items-start gap-3 mb-3.5">
+                    <div className={`w-10 h-10 rounded-xl bg-slate-900/90 border ${isSelected ? meta.accentBorderActive : meta.accentBorder} flex items-center justify-center shrink-0 ${meta.accentText} shadow-inner`}>
+                      {renderGroupIcon(group.id, "w-5 h-5")}
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="text-base font-bold text-white tracking-tight group-hover:text-sky-300 transition-colors leading-snug truncate">
+                        {meta.greekTitle}
+                      </h3>
+                      <p className="text-[11px] text-slate-400 mt-0.5 leading-snug line-clamp-1">
+                        {meta.subtitle}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Progress & Audio Metrics */}
+                  <div className="space-y-1.5 pt-2 border-t border-slate-800/80 mb-3.5">
+                    <div className="flex items-center justify-between text-[11px]">
+                      <span className="text-slate-400 font-medium">Mastery</span>
+                      <span className="font-bold text-slate-200">
+                        {group.masteryPercentage}% <span className="text-slate-500 font-normal">({group.learnedCardsCount}/{group.cardsCount})</span>
+                      </span>
+                    </div>
+                    <div className="w-full h-1.5 bg-slate-950/90 rounded-full overflow-hidden shadow-inner">
+                      <div
+                        className={`h-full bg-gradient-to-r ${meta.progressGradient} transition-all duration-500`}
+                        style={{ width: `${group.masteryPercentage}%` }}
+                      />
+                    </div>
+                    <div className="flex items-center justify-between text-[10px] text-slate-400 pt-0.5">
+                      <span className="flex items-center gap-1 text-teal-400/90 font-medium">
+                        <Volume2 className="w-3 h-3 text-teal-400" />
+                        <span>{group.audioPercentage}% Audio</span>
+                      </span>
+                      <span className="text-slate-500">
+                        {group.cardsCount} cards total
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Action Row */}
+                <div className="flex items-center gap-2 pt-2 border-t border-slate-800/80">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setGroupFilter(isSelected ? 'all' : group.id);
+                    }}
+                    className={`flex-1 py-1.5 px-2.5 rounded-xl text-xs font-bold transition-all text-center flex items-center justify-center gap-1 border ${
+                      isSelected
+                        ? 'bg-slate-800/90 text-white border-slate-600 hover:bg-slate-700'
+                        : 'bg-slate-900/90 text-slate-300 border-slate-700/80 hover:bg-slate-800 hover:text-white'
+                    }`}
+                  >
+                    <span>{isSelected ? 'View All' : 'Explore Track'}</span>
+                    <ChevronRight className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onStartStudy(group.allCards, meta.name, undefined, meta.shortLabel, undefined);
+                    }}
+                    disabled={group.cardsCount === 0}
+                    className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1 shadow-sm disabled:opacity-40 text-white ${
+                      isSelected
+                        ? 'bg-emerald-500 hover:bg-emerald-400 shadow-emerald-500/20'
+                        : 'bg-sky-500 hover:bg-sky-400 shadow-sky-500/20'
+                    }`}
+                    title={`Study all ${group.cardsCount} cards in ${meta.name}`}
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                    <span className="hidden sm:inline">Study ({group.cardsCount})</span>
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Filter Navigation Bar: Group Selection, Search/Streak, & Status Filtering */}
       <div className="glass-panel bg-slate-900/80 p-3.5 sm:p-4 rounded-2xl flex flex-col gap-3.5 border border-slate-700/80">
         {/* Top Controls Row: Group Filters + Streak & Search */}
@@ -642,31 +940,32 @@ export const Dashboard: React.FC<DashboardProps> = ({
             <button
               type="button"
               onClick={() => setGroupFilter('all')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
                 groupFilter === 'all'
                   ? 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              All Groups ({units.length})
+              <Layers className="w-3.5 h-3.5" />
+              <span>All Tracks ({units.length})</span>
             </button>
             {availableGroups.map((group) => {
               const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
-              const isKlik = group.id.toLowerCase().startsWith('klik');
+              const meta = getGroupMetadata(group.id);
               return (
                 <button
                   key={group.id}
                   type="button"
                   onClick={() => setGroupFilter(group.id)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
                     isSelected
-                      ? isKlik
-                        ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-                        : 'bg-sky-500 text-white shadow-sm shadow-sky-500/30'
+                      ? `bg-slate-800 text-white border ${meta.accentBorder} shadow-sm ring-1 ring-white/10`
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
-                  {group.name} ({group.lessonsCount})
+                  <span className={`w-2 h-2 rounded-full ${meta.dotColor}`} />
+                  <span>{meta.shortLabel}</span>
+                  <span className="text-[10px] text-slate-500 font-normal">({group.lessonsCount})</span>
                 </button>
               );
             })}
@@ -826,6 +1125,71 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
       </div>
 
+      {/* Focused Track Banner when group filter is active */}
+      {groupFilter !== 'all' && (
+        (() => {
+          const activeGroupStats = availableGroups.find((g) => g.id.toLowerCase() === groupFilter.toLowerCase());
+          const meta = getGroupMetadata(groupFilter);
+          return (
+            <div className={`relative overflow-hidden rounded-2xl p-5 sm:p-6 border bg-gradient-to-r ${meta.gradientBg} ${meta.accentBorder} shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-5`}>
+              <div className="flex items-start sm:items-center gap-4">
+                <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-slate-900/90 border ${meta.accentBorder} flex items-center justify-center shrink-0 ${meta.accentText} shadow-inner`}>
+                  {renderGroupIcon(groupFilter, "w-6 h-6 sm:w-7 sm:h-7")}
+                </div>
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider border ${meta.badgeBg} ${meta.badgeBorder} ${meta.badgeText}`}>
+                      {meta.levelBadge}
+                    </span>
+                    <span className="text-xs text-slate-500">•</span>
+                    <span className="text-xs font-semibold text-slate-300 bg-slate-900/80 px-2 py-0.5 rounded-md border border-slate-700/60">
+                      {activeGroupStats?.lessonsCount || filteredUnits.length} Lessons ({activeGroupStats?.cardsCount || 0} Cards)
+                    </span>
+                    {activeGroupStats && (
+                      <>
+                        <span className="text-xs text-slate-500">•</span>
+                        <span className="text-xs text-teal-400 font-medium flex items-center gap-1">
+                          <Volume2 className="w-3.5 h-3.5 text-teal-400" />
+                          <span>{activeGroupStats.audioPercentage}% Audio</span>
+                        </span>
+                      </>
+                    )}
+                  </div>
+                  <h2 className="text-lg sm:text-2xl font-bold text-white tracking-tight mt-1">
+                    {meta.greekTitle}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-300/90 mt-0.5 max-w-2xl">
+                    {meta.description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 shrink-0 self-start md:self-center">
+                <button
+                  type="button"
+                  onClick={() => setGroupFilter('all')}
+                  className="px-3.5 py-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1.5"
+                >
+                  <ArrowRight className="w-3.5 h-3.5 rotate-180" />
+                  <span>All Tracks</span>
+                </button>
+                {activeGroupStats && (
+                  <button
+                    type="button"
+                    onClick={() => onStartStudy(activeGroupStats.allCards, meta.name, undefined, meta.shortLabel, undefined)}
+                    disabled={activeGroupStats.cardsCount === 0}
+                    className="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 active:scale-95 text-white font-bold text-xs shadow-md shadow-sky-500/25 transition-all flex items-center gap-1.5 disabled:opacity-40"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                    <span>Study Entire Track ({activeGroupStats.cardsCount})</span>
+                  </button>
+                )}
+              </div>
+            </div>
+          );
+        })()
+      )}
+
       {/* The Current List of Lessons */}
       {filteredUnits.length === 0 ? (
         <div className="glass-panel p-12 rounded-3xl text-center space-y-3 border-slate-800">
@@ -849,32 +1213,164 @@ export const Dashboard: React.FC<DashboardProps> = ({
       ) : isDefaultView ? (
         /* Structured Sections in default view grouped by Curriculum Group */
         <div className="space-y-8">
+          {/* Header bar for group list with Expand / Collapse All control */}
+          <div className="flex items-center justify-between pb-1 border-b border-slate-800 text-xs text-slate-400">
+            <span className="font-semibold text-slate-300 flex items-center gap-1.5">
+              <Layers className="w-4 h-4 text-sky-400" />
+              <span>All Lessons by Curriculum Track ({units.length} total)</span>
+            </span>
+            <button
+              type="button"
+              onClick={toggleCollapseAll}
+              className="text-xs text-sky-400 hover:text-sky-300 font-medium transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700"
+            >
+              {areAllGroupsCollapsed ? (
+                <>
+                  <ChevronDown className="w-3.5 h-3.5" />
+                  <span>Expand All Tracks</span>
+                </>
+              ) : (
+                <>
+                  <ChevronUp className="w-3.5 h-3.5" />
+                  <span>Collapse All Tracks</span>
+                </>
+              )}
+            </button>
+          </div>
+
           {availableGroups.map((group) => {
             const groupUnits = filteredUnits.filter((u) => parseLessonCode(u.order || u.id).group.toLowerCase() === group.id.toLowerCase());
             if (groupUnits.length === 0) return null;
-            const groupAccent = getGroupAccentStyles(group.id);
+            const meta = getGroupMetadata(group.id);
+            const isCollapsed = Boolean(collapsedGroups[group.id]);
+
             return (
               <div key={group.id} className="space-y-4">
-                <div className="flex items-center gap-2 pb-1.5 border-b border-slate-700/80">
-                  <span className={`w-2.5 h-2.5 rounded-full ${groupAccent.dotColor}`} />
-                  <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                    Group: {group.name}
-                  </h3>
-                  <span className="text-xs text-slate-400 font-medium ml-auto">
-                    {groupUnits.length} {groupUnits.length === 1 ? 'lesson' : 'lessons'} ({group.cardsCount} cards)
-                  </span>
+                {/* Aesthetic Group Section Header Banner */}
+                <div className={`relative overflow-hidden rounded-2xl p-4 sm:p-5 border bg-gradient-to-r ${meta.gradientBg} ${meta.accentBorder} shadow-lg transition-all`}>
+                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    {/* Left: Icon & Title info */}
+                    <div className="flex items-start sm:items-center gap-3.5">
+                      <div className={`w-11 h-11 rounded-xl bg-slate-900/90 border ${meta.accentBorder} flex items-center justify-center shrink-0 ${meta.accentText} shadow-inner`}>
+                        {renderGroupIcon(group.id, "w-5 h-5 sm:w-6 sm:h-6")}
+                      </div>
+                      <div>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider border ${meta.badgeBg} ${meta.badgeBorder} ${meta.badgeText}`}>
+                            {meta.levelBadge}
+                          </span>
+                          <span className="text-xs text-slate-500">•</span>
+                          <span className="text-xs text-slate-400 font-medium">
+                            {groupUnits.length} {groupUnits.length === 1 ? 'lesson' : 'lessons'} ({group.cardsCount} cards)
+                          </span>
+                          <span className="text-xs text-slate-500">•</span>
+                          <span className="text-xs text-teal-400/90 flex items-center gap-1">
+                            <Volume2 className="w-3 h-3 text-teal-400" />
+                            <span>{group.audioPercentage}% audio</span>
+                          </span>
+                        </div>
+                        <h3 className="text-base sm:text-lg font-bold text-white tracking-tight mt-0.5">
+                          {meta.greekTitle}
+                        </h3>
+                        <p className="text-xs text-slate-400 mt-0.5 max-w-xl">
+                          {meta.subtitle}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Right: Mastery progress & Action buttons */}
+                    <div className="flex flex-wrap items-center gap-2.5 self-end md:self-center shrink-0">
+                      {/* Mastery bar */}
+                      <div className="w-32 hidden sm:block">
+                        <div className="flex items-center justify-between text-[10px] mb-1">
+                          <span className="text-slate-400">Mastery</span>
+                          <span className="font-bold text-slate-200">{group.masteryPercentage}%</span>
+                        </div>
+                        <div className="w-full h-1.5 bg-slate-950/90 rounded-full overflow-hidden shadow-inner">
+                          <div
+                            className={`h-full bg-gradient-to-r ${meta.progressGradient} transition-all duration-500`}
+                            style={{ width: `${group.masteryPercentage}%` }}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Study Track Button */}
+                      <button
+                        type="button"
+                        onClick={() => onStartStudy(group.allCards, meta.name, undefined, meta.shortLabel, undefined)}
+                        disabled={group.cardsCount === 0}
+                        className="px-3.5 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 active:scale-95 text-white font-bold text-xs shadow-md shadow-sky-500/25 transition-all flex items-center gap-1.5 disabled:opacity-40"
+                        title={`Study all ${group.cardsCount} cards in ${meta.name}`}
+                      >
+                        <Play className="w-3.5 h-3.5 fill-current" />
+                        <span className="hidden sm:inline">Study Track</span>
+                        <span>({group.cardsCount})</span>
+                      </button>
+
+                      {/* Focus Track Button */}
+                      <button
+                        type="button"
+                        onClick={() => setGroupFilter(group.id)}
+                        className="px-3 py-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1"
+                        title={`Focus exclusively on ${meta.name}`}
+                      >
+                        <span>Focus</span>
+                        <ChevronRight className="w-3.5 h-3.5" />
+                      </button>
+
+                      {/* Collapse / Expand Toggle Button */}
+                      <button
+                        type="button"
+                        onClick={() => toggleGroupCollapse(group.id)}
+                        className="p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs font-semibold transition-all"
+                        title={isCollapsed ? "Expand Lessons" : "Collapse Lessons"}
+                      >
+                        {isCollapsed ? <ChevronDown className="w-4 h-4" /> : <ChevronUp className="w-4 h-4" />}
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                  {groupUnits.map(renderLessonCard)}
-                </div>
+
+                {/* Collapsible Lesson Cards Grid */}
+                {!isCollapsed ? (
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    {groupUnits.map(renderLessonCard)}
+                  </div>
+                ) : (
+                  <div 
+                    onClick={() => toggleGroupCollapse(group.id)}
+                    className="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 text-center cursor-pointer text-xs text-slate-400 hover:text-slate-300 transition-colors flex items-center justify-center gap-2"
+                  >
+                    <span>{groupUnits.length} lessons in {meta.greekTitle} collapsed</span>
+                    <span className="text-sky-400 font-semibold">• Click to expand</span>
+                  </div>
+                )}
               </div>
             );
           })}
         </div>
       ) : (
         /* Filtered or Searched Grid View */
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {filteredUnits.map(renderLessonCard)}
+        <div className="space-y-4">
+          <div className="flex items-center justify-between text-xs text-slate-400 px-1">
+            <span>Showing {filteredUnits.length} matching {filteredUnits.length === 1 ? 'lesson' : 'lessons'}</span>
+            {(groupFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim()) && (
+              <button
+                type="button"
+                onClick={() => {
+                  setGroupFilter('all');
+                  setStatusFilter('all');
+                  setSearchQuery('');
+                }}
+                className="text-sky-400 hover:text-sky-300 font-semibold"
+              >
+                Clear all filters
+              </button>
+            )}
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {filteredUnits.map(renderLessonCard)}
+          </div>
         </div>
       )}
 

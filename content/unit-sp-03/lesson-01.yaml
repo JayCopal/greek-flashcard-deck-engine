@@ -1,0 +1,1130 @@
+unit_id: unit-sp-03
+lesson_id: lesson-01
+title: 'Προφορικά SP-03: Κάρτες Ρόλων & Διάδραση (Stage 2 Cue Card Scenarios & Bilateral
+  Roleplays)'
+description: '40 bilateral roleplay cue-card prompts and transactional exchanges for
+  Stage 2 of the KEG A2 Speaking exam across 6 high-yield scenarios: travel/ferry
+  agency, pharmacy/clinic, real estate office, clothing store, organizing a celebration,
+  and polite complaints.'
+lesson_status: not_started
+lesson_notes: "Unit SP-03 Core Notes: Κάρτες Ρόλων & Διάδραση (Stage 2 Cue Card Scenarios\
+  \ & Bilateral Roleplays)\n• Official KEG A2 Exam Alignment (Stage 2 — Παιχνίδι Ρόλων\
+  \ / Ανταλλαγή Πληροφοριών, ~5 mins):\n  - Scenario 1 (001–007): Travel Agency &\
+  \ Ferry Ticket Office (δρομολόγια, κατάστρωμα vs. αριθμημένη θέση, καμπίνα, όχημα,\
+  \ φοιτητικό πάσο, πύλη αναχώρησης).\n  - Scenario 2 (008–014): Pharmacy & Medical\
+  \ Clinic (συμπτώματα, δοσολογία, πριν/μετά το φαγητό, συνταγή γιατρού, επείγον ραντεβού).\n\
+  \  - Scenario 3 (015–021): Real Estate Office & Apartment Rental (ενοίκιο, κοινόχρηστα,\
+  \ όροφος, αυτόνομη θέρμανση, μπαλκόνι, απόσταση από μετρό).\n  - Scenario 4 (022–028):\
+  \ Clothing & Shoe Store (μέγεθος, νούμερο, δοκιμαστήριο, έκπτωση, κάρτα/μετρητά,\
+  \ κάρτα αλλαγής, ελάττωμα).\n  - Scenario 5 (029–034): Organizing a Celebration\
+  \ with a Friend/Colleague (ημέρα/ώρα, ταβέρνα vs. εστιατόριο, κόστος το άτομο, δώρο,\
+  \ τούρτα).\n  - Scenario 6 (035–040): Lodging a Polite Everyday Complaint (κρύο\
+  \ φαγητό, λάθος στον λογαριασμό, καθυστέρηση παραγγελίας, φασαρία, βλάβη στο ξενοδοχείο)."
+entries:
+- id: SP-U03-001
+  greek: Καλημέρα σας, θα ήθελα να μάθω τι ώρα φεύγει το πρωινό πλοίο για την Πάρο.
+  english: Good morning, I would like to find out what time the morning ferry leaves
+    for Paros. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Polite conditional 'θα ήθελα να μάθω', indirect time question 'τι ώρα φεύγει'
+  notes: 'Examiner Objective: Tests polite indirect question formation at a ticket
+    desk.
+
+    Strategy: Open with a greeting + ''θα ήθελα να μάθω'' rather than a blunt question,
+    and mention whether you prefer a morning or evening departure.'
+  example_el: Καλημέρα σας! Θα ήθελα να μάθω τι ώρα φεύγει το πρωινό πλοίο για την
+    Πάρο την Παρασκευή και πόσες ώρες διαρκεί συνολικά το ταξίδι από τον Πειραιά.
+  example_en: Good morning! I would like to find out what time the morning ferry leaves
+    for Paros on Friday and how many hours the trip from Piraeus lasts in total.
+  example2_el: Το πρωινό πλοίο αναχωρεί στις επτά και μισή ακριβώς από τον Πειραιά
+    και φτάνει στο λιμάνι της Πάρου σε τέσσερις ώρες.
+  example2_en: The morning ferry departs at seven-thirty sharp from Piraeus and arrives
+    at the port of Paros in four hours.
+  keg_communicative_function: Inquiring about ferry departure times and journey duration
+    at a travel agency
+  audio: kalimera-sas-tha-ith-7c4d24.mp3
+  example_audio: kalimera-sas-tha-ith-e6a287.mp3
+  example2_audio: to-proino-ploio-anac-73f2a8.mp3
+- id: SP-U03-002
+  greek: Μήπως γνωρίζετε αν υπάρχει απογευματινό δρομολόγιο για την επιστροφή την
+    Κυριακή;
+  english: Do you happen to know if there is an afternoon route for the return on
+    Sunday? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Tentative polite opener 'μήπως γνωρίζετε αν', return schedule vocabulary
+  notes: 'Examiner Objective: Evaluates ability to verify return schedules using indirect
+    ''αν'' clauses.
+
+    Strategy: Combine ''μήπως γνωρίζετε αν...'' with the specific day and time of
+    day on your cue card.'
+  example_el: Μήπως γνωρίζετε αν υπάρχει απογευματινό δρομολόγιο για την επιστροφή
+    μας την Κυριακή, γιατί δεν θέλουμε να φύγουμε πολύ νωρίς το πρωί από το νησί;
+  example_en: Do you happen to know if there is an afternoon route for our return
+    on Sunday, because we do not want to leave very early in the morning from the
+    island?
+  example2_el: Βεβαίως, την Κυριακή υπάρχει ένα γρήγορο πλοίο στις έξι το απόγευμα
+    και ένα βραδινό στις εννέα παρά τέταρτο.
+  example2_en: Certainly, on Sunday there is a fast ferry at six in the afternoon
+    and an evening one at a quarter to nine.
+  keg_communicative_function: Asking about return travel schedules and expressing
+    time preferences
+  audio: mipos-gnorizete-an-y-0324fb.mp3
+  example_audio: mipos-gnorizete-an-y-4aa647.mp3
+  example2_audio: vevaios-tin-kyriaki--3b7f95.mp3
+- id: SP-U03-003
+  greek: Πόσο κοστίζει το απλό εισιτήριο στο κατάστρωμα και πόσο η αριθμημένη θέση;
+  english: How much does the standard deck ticket cost and how much is the numbered
+    seat? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Price comparison 'πόσο κοστίζει', ferry seating vocabulary (κατάστρωμα
+      vs. αριθμημένη θέση)
+  notes: 'Examiner Objective: Tests comparative price inquiry and maritime travel
+    terminology.
+
+    Strategy: Ask clearly about both options shown on the roleplay card so your partner
+    can give the full price breakdown.'
+  example_el: Θα μπορούσατε να μου πείτε πόσο κοστίζει το απλό εισιτήριο στο κατάστρωμα
+    και ποια είναι η διαφορά τιμής αν κλείσουμε αριθμημένη θέση στο σαλόνι;
+  example_en: Could you tell me how much the standard deck ticket costs and what the
+    price difference is if we book a numbered seat in the lounge?
+  example2_el: Το εισιτήριο στο κατάστρωμα κοστίζει σαράντα ευρώ, ενώ η αριθμημένη
+    θέση αεροπορικού τύπου κοστίζει σαράντα οκτώ ευρώ το άτομο.
+  example2_en: The deck ticket costs forty euros, whereas the airplane-style numbered
+    seat costs forty-eight euros per person.
+  keg_communicative_function: Comparing ticket classes and prices for ferry travel
+  audio: poso-kostizei-to-apl-f128de.mp3
+  example_audio: tha-mporoysate-na-mo-770a83.mp3
+  example2_audio: to-eisitirio-sto-kat-9f127b.mp3
+- id: SP-U03-004
+  greek: Υπάρχουν διαθέσιμες δίκλινες ή τετράκλινες καμπίνες για το βραδινό ταξίδι;
+  english: Are there two-bed or four-bed cabins available for the night trip? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Plural adjective agreement 'διαθέσιμες δίκλινες/τετράκλινες καμπίνες',
+      accommodation inquiry
+  notes: 'Examiner Objective: Assesses compound numerical adjectives (δίκλινη, τετράκλινη)
+    and availability questions.
+
+    Strategy: Justify why you need a cabin (e.g., traveling at night or with family)
+    to produce a richer turn.'
+  example_el: Επειδή ταξιδεύουμε βράδυ με τα παιδιά μας, θα ήθελα να ρωτήσω αν υπάρχουν
+    διαθέσιμες τετράκλινες εσωτερικές καμπίνες και πόσο κοστίζουν συνολικά.
+  example_en: Because we are traveling at night with our children, I would like to
+    ask if there are four-bed interior cabins available and how much they cost in
+    total.
+  example2_el: Ναι, αυτή τη στιγμή έχουμε δύο διαθέσιμες τετράκλινες καμπίνες με δικό
+    τους μπάνιο στην τιμή των εκατόν εξήντα ευρώ.
+  example2_en: Yes, right now we have two available four-bed cabins with their own
+    bathroom at the price of one hundred and sixty euros.
+  keg_communicative_function: Inquiring about cabin availability and sleeping accommodations
+    on a ship
+  audio: yparchoyn-diathesime-6dbb3a.mp3
+  example_audio: epeidi-taxideyoyme-v-8bbce5.mp3
+  example2_audio: nai-ayti-ti-stigmi-e-4a25b5.mp3
+- id: SP-U03-005
+  greek: Θέλουμε να πάρουμε μαζί και το αυτοκίνητό μας· πόσο είναι το εισιτήριο για
+    το όχημα;
+  english: We want to bring our car along too; how much is the ticket for the vehicle?
+    (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Subjunctive 'να πάρουμε μαζί', possessive clitic 'το αυτοκίνητό μας', vehicle
+      fare inquiry
+  notes: 'Examiner Objective: Tests enclitic stress rule (''το αυτοκίνητό μας'') and
+    practical vehicle booking questions.
+
+    Strategy: Mention the size of the car and ask how early you must arrive at the
+    port for loading.'
+  example_el: Σκοπεύουμε να πάρουμε μαζί και το μικρό αυτοκίνητό μας στο νησί, οπότε
+    θα ήθελα να μάθω πόσο κοστίζει το εισιτήριο για το όχημα στο γκαράζ.
+  example_en: We plan to bring our small car along to the island, so I would like
+    to find out how much the ticket for the vehicle in the garage costs.
+  example2_el: Για ένα κανονικό επιβατικό αυτοκίνητο το εισιτήριο κοστίζει εβδομήντα
+    πέντε ευρώ, αλλά πρέπει να είστε στο λιμάνι μία ώρα νωρίτερα.
+  example2_en: For a standard passenger car the ticket costs seventy-five euros, but
+    you must be at the port one hour earlier.
+  keg_communicative_function: Asking about vehicle ferry fares and boarding requirements
+  audio: theloyme-na-paroyme--d145dc.mp3
+  example_audio: skopeyoyme-na-paroym-5cc366.mp3
+  example2_audio: gia-ena-kanoniko-epi-186da3.mp3
+- id: SP-U03-006
+  greek: Ισχύει κάποια φοιτητική έκπτωση αν έχω μαζί μου το φοιτητικό μου πάσο;
+  english: Does a student discount apply if I have my student pass with me? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Real conditional 'αν έχω...', impersonal verb 'ισχύει', discount terminology
+  notes: 'Examiner Objective: Checks conditional clauses (''αν + present'') and student/youth
+    discount vocabulary.
+
+    Strategy: Ask what percentage discount applies and whether you must show the card
+    during boarding.'
+  example_el: Είμαι φοιτητής στο πανεπιστήμιο της Αθήνας και θα ήθελα να ρωτήσω αν
+    ισχύει κάποια έκπτωση στα εισιτήρια όταν δείξω το φοιτητικό μου πάσο.
+  example_en: I am a university student in Athens and I would like to ask if a discount
+    applies to the tickets when I show my student pass.
+  example2_el: Φυσικά, με το ελληνικό φοιτητικό πάσο έχετε έκπτωση πενήντα τοις εκατό
+    τόσο στο κατάστρωμα όσο και στις αριθμημένες θέσεις.
+  example2_en: Of course, with the Greek student pass you have a fifty percent discount
+    both on deck and in the numbered seats.
+  keg_communicative_function: Inquiring about ticket discounts and required identification
+    documents
+  audio: ischyei-kapoia-foiti-a2c602.mp3
+  example_audio: eimai-foititis-sto-p-d2da4f.mp3
+  example2_audio: fysika-me-to-ellinik-da078c.mp3
+- id: SP-U03-007
+  greek: Από ποια πύλη του λιμανιού φεύγει το πλοίο και πώς μπορούμε να πάμε εκεί;
+  english: From which port gate does the ship leave and how can we get there? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Prepositional interrogative 'από ποια πύλη', genitive singular 'του λιμανιού',
+      directions
+  notes: 'Examiner Objective: Tests spatial/directional questions at the close of
+    a travel transaction.
+
+    Strategy: Combine the port gate question with how close it is to the electric
+    train (ηλεκτρικός) or metro station.'
+  example_el: Τέλεια, θα κλείσουμε αυτά τα δύο εισιτήρια! Μήπως μπορείτε να μου πείτε
+    από ποια πύλη του λιμανιού φεύγει το πλοίο και αν είναι κοντά στο μετρό;
+  example_en: Great, we will book these two tickets! Could you perhaps tell me from
+    which gate of the port the ship leaves and whether it is close to the metro?
+  example2_el: Το πλοίο για τις Κυκλάδες αναχωρεί από την πύλη Ε7, η οποία βρίσκεται
+    μόλις πέντε λεπτά με τα πόδια από τον σταθμό του μετρό.
+  example2_en: The ship for the Cyclades departs from gate E7, which is located just
+    five minutes on foot from the metro station.
+  keg_communicative_function: Confirming departure gates and local transit connections
+    at a port
+  audio: apo-poia-pyli-toy-li-4186ec.mp3
+  example_audio: teleia-tha-kleisoyme-db1e6e.mp3
+  example2_audio: to-ploio-gia-tis-kyk-6e6c0f.mp3
+- id: SP-U03-008
+  greek: Καλησπέρα σας, από χθες το βράδυ έχω δυνατό πονόλαιμο και λίγο πυρετό.
+  english: Good evening, since last night I have had a strong sore throat and a slight
+    fever. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Present tense with 'από χθες' for ongoing symptoms, medical symptom nouns
+      (πονόλαιμος, πυρετός)
+  notes: 'Examiner Objective: Tests ability to describe physical symptoms clearly
+    using Greek present tense for duration (''από χθες έχω...'').
+
+    Strategy: Name two symptoms and ask the pharmacist what they recommend.'
+  example_el: Καλησπέρα σας! Από χθες το βράδυ έχω πολύ δυνατό πονόλαιμο, βήχα και
+    λίγο πυρετό, και δυσκολεύομαι να καταπιώ. Τι θα μπορούσατε να μου δώσετε;
+  example_en: Good evening! Since last night I have had a very strong sore throat,
+    a cough, and a slight fever, and I have trouble swallowing. What could you give
+    me?
+  example2_el: Κατάλαβα, μάλλον πρόκειται για κάποιο κρυολόγημα. Μπορώ να σας δώσω
+    αυτό το φυτικό σιρόπι και παστίλιες που μαλακώνουν αμέσως τον λαιμό.
+  example2_en: I understand, it is probably a cold. I can give you this herbal syrup
+    and lozenges that immediately soothe the throat.
+  keg_communicative_function: Describing cold and flu symptoms and asking for advice
+    at a pharmacy
+  audio: kalispera-sas-apo-ch-8ddb3e.mp3
+  example_audio: kalispera-sas-apo-ch-5c7f89.mp3
+  example2_audio: katalava-mallon-prok-d7b2e6.mp3
+- id: SP-U03-009
+  greek: Με έπιασε ξαφνικά αλλεργία από τον ήλιο· έχετε κάποια καταπραϋντική κρέμα;
+  english: I suddenly got a sun allergy; do you have a soothing cream? (Stage 2 Roleplay
+    Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Idiomatic symptom expression 'με έπιασε αλλεργία', pharmacy product inquiry
+  notes: 'Examiner Objective: Rewards idiomatic Greek medical expressions (''με έπιασε
+    πονοκέφαλος / αλλεργία'').
+
+    Strategy: Explain where the rash/irritation is and ask for an ointment or cream.'
+  example_el: Σήμερα το μεσημέρι στην παραλία με έπιασε ξαφνικά αλλεργία από τον ήλιο
+    και κοκκίνισαν τα χέρια μου. Έχετε κάποια καλή κρέμα για τη φαγούρα;
+  example_en: Today at noon at the beach I suddenly got a sun allergy and my arms
+    turned red. Do you have a good cream for the itching?
+  example2_el: Ναι, αυτή η δροσιστική αλοιφή με αλόη είναι εξαιρετική για τον ερεθισμό
+    από τον ήλιο και δεν χρειάζεται ιατρική συνταγή.
+  example2_en: Yes, this cooling ointment with aloe is excellent for irritation from
+    the sun and does not require a medical prescription.
+  keg_communicative_function: Explaining an allergic reaction or skin irritation at
+    a pharmacy
+  audio: me-epiase-xafnika-al-09e927.mp3
+  example_audio: simera-to-mesimeri-s-538f42.mp3
+  example2_audio: nai-ayti-i-drosistik-7eed31.mp3
+- id: SP-U03-010
+  greek: Πόσες φορές την ημέρα πρέπει να παίρνω αυτό το σιρόπι και για πόσες μέρες;
+  english: How many times a day must I take this syrup and for how many days? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Frequency expression 'πόσες φορές την ημέρα', obligation 'πρέπει να παίρνω'
+      (continuous aspect)
+  notes: 'Examiner Objective: Tests continuous subjunctive (''να παίρνω'') for repeated
+    medical dosage.
+
+    Strategy: Ask both the daily frequency and the total number of days for the treatment.'
+  example_el: Σας ευχαριστώ πολύ! Θα ήθελα να ρωτήσω πόσες φορές την ημέρα πρέπει
+    να παίρνω αυτό το σιρόπι και για πόσες μέρες συνολικά να συνεχίσω τη θεραπεία.
+  example_en: Thank you very much! I would like to ask how many times a day I must
+    take this syrup and for how many days in total I should continue the treatment.
+  example2_el: Θα παίρνετε ένα κουταλάκι της σούπας τρεις φορές την ημέρα, πρωί, μεσημέρι
+    και βράδυ, για πέντε συνεχόμενες ημέρες.
+  example2_en: You will take one tablespoon three times a day, morning, noon, and
+    night, for five consecutive days.
+  keg_communicative_function: Asking for and receiving medication dosage instructions
+  audio: poses-fores-tin-imer-327a50.mp3
+  example_audio: sas-eycharisto-poly--157173.mp3
+  example2_audio: tha-pairnete-ena-koy-5d171d.mp3
+- id: SP-U03-011
+  greek: Τα χάπια αυτά τα παίρνω πριν ή μετά το φαγητό, με γεμάτο στομάχι;
+  english: Do I take these pills before or after food, on a full stomach? (Stage 2
+    Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Clitic doubling 'τα χάπια αυτά τα παίρνω', temporal prepositions 'πριν
+      / μετά το φαγητό'
+  notes: 'Examiner Objective: Tests natural spoken clitic resumption (''τα χάπια τα
+    παίρνω'') and medication precautions.
+
+    Strategy: Mention if you have a sensitive stomach to make the exchange realistic.'
+  example_el: Επειδή έχω λίγο ευαίσθητο στομάχι, μήπως μπορείτε να μου διευκρινίσετε
+    αν αυτά τα παυσίπονα χάπια πρέπει να τα παίρνω πριν ή μετά το φαγητό;
+  example_en: Because I have a slightly sensitive stomach, could you perhaps clarify
+    whether I must take these painkiller pills before or after food?
+  example2_el: Είναι πολύ σημαντικό να τα παίρνετε πάντα μετά από ένα καλό γεύμα με
+    ένα μεγάλο ποτήρι νερό, ποτέ με άδειο στομάχι.
+  example2_en: It is very important that you always take them after a good meal with
+    a large glass of water, never on an empty stomach.
+  keg_communicative_function: Clarifying instructions for taking medication safely
+    with meals
+  audio: ta-chapia-ayta-ta-pa-cead1d.mp3
+  example_audio: epeidi-echo-ligo-eya-5117e2.mp3
+  example2_audio: einai-poly-simantiko-f54db8.mp3
+- id: SP-U03-012
+  greek: Μήπως χρειάζεται συνταγή γιατρού για αυτό το φάρμακο ή δίνεται ελεύθερα;
+  english: Is a doctor's prescription needed for this medicine or is it given over
+    the counter? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Impersonal 'χρειάζεται', genitive modifier 'συνταγή γιατρού', passive 'δίνεται
+      ελεύθερα'
+  notes: 'Examiner Objective: Assesses knowledge of pharmacy regulations vocabulary
+    (''συνταγή γιατρού'', ''αντιβίωση'').
+
+    Strategy: Contrast prescription antibiotics with simple over-the-counter painkillers.'
+  example_el: Μήπως χρειάζεται ηλεκτρονική συνταγή γιατρού για να αγοράσω αυτό το
+    φάρμακο, ή μπορώ να το πάρω ελεύθερα από το φαρμακείο σας σήμερα;
+  example_en: Is an electronic doctor's prescription needed to buy this medicine,
+    or can I get it over the counter from your pharmacy today?
+  example2_el: Τα απλά παυσίπονα δίνονται ελεύθερα χωρίς συνταγή, αλλά αν χρειάζεστε
+    αντιβίωση πρέπει οπωσδήποτε να σας εξετάσει πρώτα ένας γιατρός.
+  example2_en: Simple painkillers are given freely without a prescription, but if
+    you need antibiotics a doctor must definitely examine you first.
+  keg_communicative_function: Inquiring about prescription requirements at a pharmacy
+  audio: mipos-chreiazetai-sy-7aab32.mp3
+  example_audio: mipos-chreiazetai-il-7c4742.mp3
+  example2_audio: ta-apla-paysipona-di-21a476.mp3
+- id: SP-U03-013
+  greek: Θα ήθελα να κλείσω ένα επείγον ραντεβού με τον παθολόγο· πότε έχει διαθέσιμη
+    ώρα;
+  english: I would like to book an urgent appointment with the general practitioner;
+    when does he have an available time? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Collocation 'κλείνω επείγον ραντεβού', medical specialty 'παθολόγος', availability
+      inquiry
+  notes: 'Examiner Objective: Tests medical appointment scheduling at a clinic reception.
+
+    Strategy: State that it is urgent (''επείγον'') and ask for the earliest slot
+    today or tomorrow morning.'
+  example_el: Καλημέρα σας, δεν αισθάνομαι καθόλου καλά από το πρωί και θα ήθελα να
+    κλείσω ένα επείγον ραντεβού με τον παθολόγο. Πότε έχει διαθέσιμη ώρα σήμερα;
+  example_en: Good morning, I have not been feeling well at all since morning and
+    I would like to book an urgent appointment with the physician. When does he have
+    an available time today?
+  example2_el: Ο γιατρός δέχεται στο ιατρείο από τις πέντε το απόγευμα και υπάρχει
+    ένα κενό στις έξι και μισή, αν σας εξυπηρετεί.
+  example2_en: The doctor sees patients at the clinic from five in the afternoon and
+    there is an opening at six-thirty, if that suits you.
+  keg_communicative_function: Booking an urgent medical appointment at a doctor's
+    office
+  audio: tha-ithela-na-kleiso-29b88e.mp3
+  example_audio: kalimera-sas-den-ais-11c08c.mp3
+  example2_audio: o-giatros-dechetai-s-109fca.mp3
+- id: SP-U03-014
+  greek: Πόσο κοστίζει η επίσκεψη στον γιατρό και τι χαρτιά πρέπει να έχω μαζί μου;
+  english: How much does the visit to the doctor cost and what documents must I have
+    with me? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Noun 'η επίσκεψη', administrative requirements 'τι χαρτιά / βιβλιάριο υγείας'
+  notes: 'Examiner Objective: Evaluates practical clinic inquiry regarding consultation
+    fees and insurance/health cards.
+
+    Strategy: Ask both the consultation fee and whether your health booklet or ID
+    is needed.'
+  example_el: Η ώρα στις έξι και μισή με βολεύει μια χαρά! Μπορείτε να μου πείτε πόσο
+    κοστίζει η επίσκεψη στον γιατρό και αν χρειάζεται το βιβλιάριο υγείας μου;
+  example_en: The six-thirty slot suits me just fine! Can you tell me how much the
+    visit to the doctor costs and whether my health booklet is needed?
+  example2_el: Η απλή επίσκεψη κοστίζει σαράντα ευρώ και καλό είναι να έχετε μαζί
+    σας την ταυτότητά σας και τον αριθμό ασφάλισής σας.
+  example2_en: The standard visit costs forty euros and it is good to have your ID
+    card and your insurance number with you.
+  keg_communicative_function: Asking about medical consultation fees and required
+    insurance documents
+  audio: poso-kostizei-i-epis-70130c.mp3
+  example_audio: i-ora-stis-exi-kai-m-21c3e6.mp3
+  example2_audio: i-apli-episkepsi-kos-389edf.mp3
+- id: SP-U03-015
+  greek: Είδα την αγγελία σας για το δυάρι στο Παγκράτι· είναι ακόμα διαθέσιμο;
+  english: I saw your ad for the one-bedroom apartment in Pangrati; is it still available?
+    (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Aorist 'είδα την αγγελία', Greek housing terminology 'δυάρι / γκαρσονιέρα'
+  notes: 'Examiner Objective: Tests opening a real-estate inquiry using authentic
+    Greek apartment terms (''δυάρι'' = living room + 1 bedroom).
+
+    Strategy: Reference where you saw the listing (in the newspaper or online) and
+    ask if it is still available.'
+  example_el: Καλημέρα σας, είδα στο διαδίκτυο την αγγελία σας για το φωτεινό δυάρι
+    στο Παγκράτι και σας τηλεφωνώ για να μάθω αν είναι ακόμα διαθέσιμο.
+  example_en: Good morning, I saw your ad online for the bright one-bedroom apartment
+    in Pangrati and I am calling you to find out if it is still available.
+  example2_el: Καλημέρα σας! Ναι, το διαμέρισμα στο Παγκράτι είναι ακόμα ελεύθερο
+    και μπορούμε ευχαρίστως να σας δώσουμε όλες τις λεπτομέρειες.
+  example2_en: Good morning! Yes, the apartment in Pangrati is still available and
+    we can gladly give you all the details.
+  keg_communicative_function: Initiating an inquiry about an apartment rental listing
+  audio: eida-tin-aggelia-sas-538470.mp3
+  example_audio: kalimera-sas-eida-st-ac2047.mp3
+  example2_audio: kalimera-sas-nai-to--7b1f8c.mp3
+- id: SP-U03-016
+  greek: Πόσο είναι το μηνιαίο ενοίκιο και πόσα περίπου βγαίνουν τα κοινόχρηστα;
+  english: How much is the monthly rent and roughly how much do the shared building
+    fees come to? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Key housing collocations 'μηνιαίο ενοίκιο', 'τα κοινόχρηστα', colloquial
+      verb 'πόσα βγαίνουν'
+  notes: 'Examiner Objective: Assesses mastery of essential Greek rental vocabulary
+    (''ενοίκιο'', ''κοινόχρηστα'', ''εγγύηση'').
+
+    Strategy: Always ask about ''κοινόχρηστα'' (shared building maintenance costs)
+    alongside the monthly rent.'
+  example_el: Θα ήθελα να ρωτήσω πόσο είναι το μηνιαίο ενοίκιο για το διαμέρισμα και
+    πόσα ευρώ περίπου βγαίνουν τα κοινόχρηστα της πολυκατοικίας κάθε μήνα.
+  example_en: I would like to ask how much the monthly rent for the apartment is and
+    roughly how many euros the building's shared fees come to each month.
+  example2_el: Το ενοίκιο είναι τετρακόσια ογδόντα ευρώ τον μήνα και τα κοινόχρηστα
+    είναι πολύ χαμηλά, γύρω στα είκοσι πέντε ευρώ.
+  example2_en: The rent is four hundred and eighty euros per month and the shared
+    building fees are very low, around twenty-five euros.
+  keg_communicative_function: Asking about monthly rent and shared building maintenance
+    expenses
+  audio: poso-einai-to-miniai-b30f62.mp3
+  example_audio: tha-ithela-na-rotiso-35f7d4.mp3
+  example2_audio: to-enoikio-einai-tet-2dbf8a.mp3
+- id: SP-U03-017
+  greek: Σε ποιον όροφο βρίσκεται το διαμέρισμα και υπάρχει ασανσέρ στην πολυκατοικία;
+  english: On which floor is the apartment located and is there an elevator in the
+    apartment building? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Prepositional phrase 'σε ποιον όροφο', ordinal numbers ('στον τρίτο όροφο'),
+      building features
+  notes: 'Examiner Objective: Tests accusative interrogative ''σε ποιον όροφο'' and
+    ordinal numbers.
+
+    Strategy: Pair the floor question with whether the building has a working elevator
+    (''ασανσέρ'').'
+  example_el: Μήπως μπορείτε να μου πείτε σε ποιον όροφο βρίσκεται το διαμέρισμα,
+    πόσα τετραγωνικά μέτρα είναι και αν υπάρχει σύγχρονο ασανσέρ στην πολυκατοικία;
+  example_en: Could you perhaps tell me on which floor the apartment is located, how
+    many square meters it is, and whether there is a modern elevator in the building?
+  example2_el: Το διαμέρισμα είναι πενήντα πέντε τετραγωνικά μέτρα, βρίσκεται στον
+    τρίτο όροφο και η πολυκατοικία διαθέτει καινούριο ασανσέρ.
+  example2_en: The apartment is fifty-five square meters, is located on the third
+    floor, and the apartment building has a new elevator.
+  keg_communicative_function: Inquiring about apartment size, floor level, and building
+    amenities
+  audio: se-poion-orofo-vrisk-5e15f1.mp3
+  example_audio: mipos-mporeite-na-mo-256ead.mp3
+  example2_audio: to-diamerisma-einai--00c4e3.mp3
+- id: SP-U03-018
+  greek: Τι είδους θέρμανση έχει το σπίτι; Είναι αυτόνομη με φυσικό αέριο ή κεντρική;
+  english: What kind of heating does the home have? Is it autonomous with natural
+    gas or central? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Genitive 'τι είδους θέρμανση', feminine adjective agreement 'αυτόνομη /
+      κεντρική θέρμανση'
+  notes: 'Examiner Objective: Evaluates high-frequency Greek real-estate terms (''αυτόνομη
+    θέρμανση'', ''φυσικό αέριο'', ''κλιματιστικό'').
+
+    Strategy: Ask about both winter heating and whether there is air conditioning
+    for the summer.'
+  example_el: Επειδή τον χειμώνα κάνει αρκετό κρύο, θα ήθελα να μάθω τι είδους θέρμανση
+    έχει το σπίτι· είναι αυτόνομη με φυσικό αέριο ή κεντρική με πετρέλαιο;
+  example_en: Because in winter it gets quite cold, I would like to find out what
+    kind of heating the home has; is it autonomous with natural gas or central with
+    oil?
+  example2_el: Έχει αυτόνομη θέρμανση με φυσικό αέριο, ώστε να την ανάβετε όποτε θέλετε,
+    και επιπλέον υπάρχουν δύο καινούρια κλιματιστικά.
+  example2_en: It has autonomous heating with natural gas, so you can turn it on whenever
+    you want, and additionally there are two new air conditioners.
+  keg_communicative_function: Asking about heating and cooling systems when renting
+    a property
+  audio: ti-eidoys-thermansi--b3337c.mp3
+  example_audio: epeidi-ton-cheimona--56dd6c.mp3
+  example2_audio: echei-aytonomi-therm-d56749.mp3
+- id: SP-U03-019
+  greek: Το διαμέρισμα έχει μεγάλο μπαλκόνι και βλέπει στον δρόμο ή στον ακάλυπτο;
+  english: Does the apartment have a big balcony and does it face the street or the
+    inner courtyard? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Idiomatic spatial verb 'βλέπει σε...' (faces/overlooks), apartment layout
+      nouns
+  notes: 'Examiner Objective: Tests idiomatic usage of ''βλέπει στον δρόμο / στο πάρκο''
+    and quietness inquiry.
+
+    Strategy: Ask whether the bedroom is quiet and whether the balcony gets sunlight.'
+  example_el: Θα ήθελα επίσης να ρωτήσω αν το διαμέρισμα έχει άνετο μπαλκόνι και αν
+    βλέπει σε ήσυχο δρόμο, γιατί δουλεύω αρκετές ώρες από το σπίτι.
+  example_en: I would also like to ask whether the apartment has a comfortable balcony
+    and whether it faces a quiet street, because I work many hours from home.
+  example2_el: Ναι, έχει μια μεγάλη βεράντα στην πρόσοψη που βλέπει σε έναν πολύ ήσυχο
+    πεζόδρομο με δέντρα και έχει ήλιο όλη μέρα.
+  example2_en: Yes, it has a large veranda in the front that overlooks a very quiet
+    pedestrian street with trees and gets sun all day.
+  keg_communicative_function: Asking about apartment orientation, balcony space, and
+    noise levels
+  audio: to-diamerisma-echei--d2ce51.mp3
+  example_audio: tha-ithela-episis-na-8d9d37.mp3
+  example2_audio: nai-echei-mia-megali-7516de.mp3
+- id: SP-U03-020
+  greek: Είναι κοντά σε σταθμό του μετρό, σε στάση λεωφορείου και σε σούπερ μάρκετ;
+  english: Is it close to a metro station, a bus stop, and a supermarket? (Stage 2
+    Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Spatial preposition 'κοντά σε + accusative', neighborhood infrastructure
+      vocabulary
+  notes: 'Examiner Objective: Tests neighborhood convenience questions and distance
+    expressions (''δέκα λεπτά με τα πόδια'').
+
+    Strategy: Explain that you don''t have a car, so public transport proximity is
+    important to you.'
+  example_el: Επειδή δεν έχω αυτοκίνητο, με ενδιαφέρει πολύ η τοποθεσία. Είναι το
+    σπίτι κοντά σε σταθμό του μετρό, σε στάση λεωφορείου και σε σούπερ μάρκετ;
+  example_en: Because I do not have a car, the location interests me a lot. Is the
+    house close to a metro station, a bus stop, and a supermarket?
+  example2_el: Βρίσκεται σε εξαιρετικό σημείο, μόλις επτά λεπτά με τα πόδια από το
+    μετρό, και ακριβώς απέναντι υπάρχει μεγάλο σούπερ μάρκετ.
+  example2_en: It is in an excellent spot, just seven minutes on foot from the metro,
+    and right across the street there is a big supermarket.
+  keg_communicative_function: Inquiring about neighborhood amenities and public transport
+    access
+  audio: einai-konta-se-stath-2f67a2.mp3
+  example_audio: epeidi-den-echo-ayto-f94d1c.mp3
+  example2_audio: vrisketai-se-exairet-76548a.mp3
+- id: SP-U03-021
+  greek: Πότε θα μπορούσαμε να συναντηθούμε για να δω το σπίτι από κοντά;
+  english: When could we meet so I can see the house in person? (Stage 2 Roleplay
+    Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Polite plural conditional 'θα μπορούσαμε να συναντηθούμε', purpose clause
+      'για να δω από κοντά'
+  notes: 'Examiner Objective: Tests closing the roleplay by negotiating a viewing
+    appointment.
+
+    Strategy: Propose a specific day and afternoon time and ask for the exact street
+    address.'
+  example_el: Ακούγεται ακριβώς αυτό που ψάχνω! Πότε θα μπορούσαμε να συναντηθούμε,
+    ίσως αύριο το απόγευμα μετά τις πέντε, για να δω το σπίτι από κοντά;
+  example_en: It sounds like exactly what I am looking for! When could we meet, perhaps
+    tomorrow afternoon after five, so I can see the house in person?
+  example2_el: Αύριο στις έξι το απόγευμα είναι τέλεια. Θα σας περιμένω στην είσοδο
+    της πολυκατοικίας, στην οδό Σπύρου Μερκούρη δώδεκα.
+  example2_en: Tomorrow at six in the afternoon is perfect. I will wait for you at
+    the entrance of the apartment building, at 12 Spyrou Merkouri Street.
+  keg_communicative_function: Arranging a time and address for an apartment viewing
+  audio: pote-tha-mporoysame--27ae46.mp3
+  example_audio: akoygetai-akrivos-ay-b89d70.mp3
+  example2_audio: ayrio-stis-exi-to-ap-2a51c7.mp3
+- id: SP-U03-022
+  greek: Με συγχωρείτε, μήπως έχετε αυτό το πουκάμισο σε μεσαίο μέγεθος και σε μπλε
+    χρώμα;
+  english: Excuse me, do you happen to have this shirt in a medium size and in blue?
+    (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Demonstrative 'αυτό το πουκάμισο', prepositional phrases 'σε μεσαίο μέγεθος',
+      'σε μπλε χρώμα'
+  notes: 'Examiner Objective: Assesses retail shopping inquiries regarding garment
+    size and color.
+
+    Strategy: Use ''με συγχωρείτε'' to get the shop assistant''s attention and specify
+    both size and color.'
+  example_el: Με συγχωρείτε, είδα στη βιτρίνα σας αυτό το λινό πουκάμισο και μου άρεσε
+    πολύ. Μήπως το έχετε σε μεσαίο μέγεθος και σε σκούρο μπλε χρώμα;
+  example_en: Excuse me, I saw this linen shirt in your shop window and liked it very
+    much. Do you happen to have it in a medium size and in dark blue?
+  example2_el: Μισό λεπτό να κοιτάξω στα ράφια μας. Ναι, είστε τυχερός, έχουμε ένα
+    τελευταίο κομμάτι σε μεσαίο μέγεθος ακριβώς στο μπλε που θέλετε.
+  example2_en: Just a minute, let me check our shelves. Yes, you are lucky, we have
+    one last piece in medium size right in the blue you want.
+  keg_communicative_function: Asking for specific clothing sizes and colors in a retail
+    store
+  audio: me-sygchoreite-mipos-e2f951.mp3
+  example_audio: me-sygchoreite-eida--4e0b3c.mp3
+  example2_audio: miso-lepto-na-koitax-db6ecd.mp3
+- id: SP-U03-023
+  greek: Μπορώ να δοκιμάσω αυτά τα παπούτσια σε νούμερο σαράντα; Πού είναι τα δοκιμαστήρια;
+  english: May I try on these shoes in size forty? Where are the fitting rooms? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Aorist subjunctive 'να δοκιμάσω', shoe size 'νούμερο σαράντα', store layout
+      'τα δοκιμαστήρια'
+  notes: 'Examiner Objective: Distinction between clothing size (''μέγεθος'') and
+    shoe size (''νούμερο''), plus verb ''δοκιμάζω''.
+
+    Strategy: Ask to try the item on and inquire where the fitting rooms or mirrors
+    are located.'
+  example_el: Αυτά τα δερμάτινα παπούτσια φαίνονται πολύ αναπαυτικά. Μπορώ να τα δοκιμάσω
+    σε νούμερο σαράντα, και πού βρίσκονται τα δοκιμαστήρια για το παντελόνι;
+  example_en: These leather shoes look very comfortable. May I try them on in size
+    forty, and where are the fitting rooms for the trousers?
+  example2_el: Αμέσως να σας φέρω το νούμερο σαράντα! Τα δοκιμαστήρια βρίσκονται στο
+    βάθος του καταστήματος, δίπλα στο ταμείο.
+  example2_en: I will bring you size forty right away! The fitting rooms are at the
+    back of the store, next to the cash desk.
+  keg_communicative_function: Requesting to try on shoes or clothes and locating fitting
+    rooms
+  audio: mporo-na-dokimaso-ay-3d07c3.mp3
+  example_audio: ayta-ta-dermatina-pa-be1c11.mp3
+  example2_audio: amesos-na-sas-fero-t-617653.mp3
+- id: SP-U03-024
+  greek: Αυτό το μπουφάν μού πέφτει λίγο στενό στους ώμους· έχετε ένα νούμερο μεγαλύτερο;
+  english: This jacket fits me a bit tight in the shoulders; do you have one size
+    larger? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Idiomatic fit expression 'μου πέφτει στενό / φαρδύ', comparative 'ένα νούμερο
+      μεγαλύτερο'
+  notes: 'Examiner Objective: High marks for authentic Greek fit idioms (''μου πέφτει
+    στενό/μεγάλο'', ''μου πηγαίνει'').
+
+    Strategy: Explain how the garment fits and ask for the next size up or down.'
+  example_el: Δοκίμασα το μπουφάν αλλά, δυστυχώς, μου πέφτει λίγο στενό στους ώμους
+    και στα μανίκια. Μήπως έχετε το ίδιο σχέδιο σε ένα νούμερο μεγαλύτερο;
+  example_en: I tried on the jacket, but unfortunately it fits me a bit tight in the
+    shoulders and sleeves. Do you happen to have the same design in one size larger?
+  example2_el: Βεβαίως, ορίστε το μεγάλο μέγεθος. Δοκιμάστε το και είμαι σίγουρη ότι
+    θα σας εφαρμόζει πολύ καλύτερα.
+  example2_en: Certainly, here is the large size. Try it on and I am sure that it
+    will fit you much better.
+  keg_communicative_function: Describing how clothing fits and asking for a different
+    size
+  audio: ayto-to-mpoyfan-moy--0b94f9.mp3
+  example_audio: dokimasa-to-mpoyfan--227970.mp3
+  example2_audio: vevaios-oriste-to-me-1a2d30.mp3
+- id: SP-U03-025
+  greek: Ποια είναι η τελική τιμή αυτού του φορέματος μετά την έκπτωση;
+  english: What is the final price of this dress after the discount? (Stage 2 Roleplay
+    Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Genitive singular neuter 'αυτού του φορέματος', retail discount terms ('τελική
+      τιμή', 'έκπτωση')
+  notes: 'Examiner Objective: Tests third-declension neuter genitive (''του φορέματος'')
+    and price calculation after sales discount.
+
+    Strategy: Mention the discount percentage sign in the shop and ask for the final
+    price.'
+  example_el: Βλέπω ότι έχετε εαρινές εκπτώσεις τριάντα τοις εκατό σε όλα τα γυναικεία
+    ρούχα. Ποια είναι η τελική τιμή αυτού του φορέματος μετά την έκπτωση;
+  example_en: I see that you have spring discounts of thirty percent on all women's
+    clothes. What is the final price of this dress after the discount?
+  example2_el: Από εξήντα ευρώ που ήταν η αρχική του τιμή, με την έκπτωση τριάντα
+    τοις εκατό βγαίνει τώρα στα σαράντα δύο ευρώ.
+  example2_en: From sixty euros, which was its original price, with the thirty percent
+    discount it now comes to forty-two euros.
+  keg_communicative_function: Inquiring about sale discounts and final retail prices
+  audio: poia-einai-i-teliki--11a710.mp3
+  example_audio: vlepo-oti-echete-ear-5bb301.mp3
+  example2_audio: apo-exinta-eyro-poy--70def6.mp3
+- id: SP-U03-026
+  greek: Μπορώ να πληρώσω με χρεωστική κάρτα ή δέχεστε μόνο μετρητά στο ταμείο;
+  english: Can I pay by debit card or do you only accept cash at the register? (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Payment vocabulary 'πληρώνω με κάρτα / με μετρητά', verb 'δέχεστε'
+  notes: 'Examiner Objective: Assesses payment transaction vocabulary required in
+    almost all commercial roleplays.
+
+    Strategy: Ask whether card payment is accepted and whether there is any extra
+    discount for cash.'
+  example_el: Θα το πάρω, μου αρέσει πάρα πολύ! Μπορώ να πληρώσω με την τραπεζική
+    μου κάρτα στο ταμείο ή προτιμάτε να πληρώσω με μετρητά;
+  example_en: I will take it, I like it very much! Can I pay with my bank card at
+    the register or do you prefer that I pay in cash?
+  example2_el: Δεχόμαστε όλες τις χρεωστικές και πιστωτικές κάρτες, καθώς και πληρωμές
+    με μετρητά, ό,τι σας βολεύει καλύτερα.
+  example2_en: We accept all debit and credit cards, as well as cash payments, whatever
+    suits you best.
+  keg_communicative_function: Asking about accepted payment methods at a store checkout
+  audio: mporo-na-pliroso-me--e6a77f.mp3
+  example_audio: tha-to-paro-moy-ares-d735cd.mp3
+  example2_audio: dechomaste-oles-tis--61bfb0.mp3
+- id: SP-U03-027
+  greek: Αγόρασα αυτό το πουλόβερ για δώρο· μέχρι πότε γίνεται αλλαγή αν δεν κάνει;
+  english: I bought this sweater as a gift; until when can an exchange be made if
+    it doesn't fit? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Gift exchange vocabulary 'κάρτα αλλαγής', idiomatic 'αν δεν του/της κάνει'
+      (if it doesn't fit)
+  notes: 'Examiner Objective: Tests gift-buying follow-up questions (''κάρτα αλλαγής'',
+    ''συσκευασία δώρου'').
+
+    Strategy: Ask for gift wrapping and an exchange card in case the size doesn''t
+    fit your friend.'
+  example_el: Επειδή παίρνω αυτό το πουλόβερ για δώρο γενεθλίων στον αδελφό μου, μπορείτε
+    να μου βάλετε κάρτα αλλαγής και να μου πείτε μέχρι πότε ισχύει;
+  example_en: Because I am getting this sweater as a birthday gift for my brother,
+    can you include an exchange card and tell me until when it is valid?
+  example2_el: Βεβαίως, θα σας το τυλίξω σε όμορφη συσκευασία δώρου και με την κάρτα
+    αλλαγής μπορεί να το αλλάξει μέσα σε δεκαπέντε ημέρες.
+  example2_en: Certainly, I will wrap it for you in nice gift packaging and with the
+    exchange card he can exchange it within fifteen days.
+  keg_communicative_function: Requesting gift wrapping and asking about store exchange
+    policies
+  audio: agorasa-ayto-to-poyl-0e8143.mp3
+  example_audio: epeidi-pairno-ayto-t-50505e.mp3
+  example2_audio: vevaios-tha-sas-to-t-532cb3.mp3
+- id: SP-U03-028
+  greek: Αγόρασα χθες αυτή την μπλούζα αλλά έχει ένα μικρό ελάττωμα στο φερμουάρ·
+    μπορώ να την αλλάξω;
+  english: I bought this top yesterday, but it has a small defect on the zipper; can
+    I exchange it? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Aorist 'αγόρασα', neuter noun 'το ελάττωμα', object pronoun 'να την αλλάξω',
+      'απόδειξη αγοράς'
+  notes: 'Examiner Objective: Evaluates polite consumer return of a defective product.
+
+    Strategy: State when you bought it, describe the specific flaw (''χαλασμένο φερμουάρ''
+    or ''λεκές''), and offer the receipt (''απόδειξη'').'
+  example_el: Καλημέρα σας, αγόρασα χθες από το κατάστημά σας αυτή τη ζακέτα, αλλά
+    όταν γύρισα σπίτι είδα ότι το φερμουάρ είναι χαλασμένο. Έχω την απόδειξη, μπορώ
+    να την αλλάξω;
+  example_en: Good morning, yesterday I bought this cardigan from your store, but
+    when I returned home I saw that the zipper is broken. I have the receipt; can
+    I exchange it?
+  example2_el: Σας ζητούμε συγγνώμη για την ταλαιπωρία! Φυσικά και μπορείτε να την
+    αλλάξετε αμέσως με μια καινούρια, εφόσον έχετε την απόδειξη αγοράς.
+  example2_en: We apologize for the inconvenience! Of course you can exchange it immediately
+    for a new one, since you have the purchase receipt.
+  keg_communicative_function: Returning or exchanging a defective garment with a receipt
+  audio: agorasa-chthes-ayti--290ae1.mp3
+  example_audio: kalimera-sas-agorasa-a62dfd.mp3
+  example2_audio: sas-zitoyme-syggnomi-b5f6f3.mp3
+- id: SP-U03-029
+  greek: Τι λες να οργανώσουμε ένα τραπέζι την Παρασκευή το βράδυ για τα γενέθλια
+    της Μαρίας;
+  english: What do you say we organize a dinner on Friday night for Maria's birthday?
+    (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Collaborative proposal formula 'τι λες να + aorist subjunctive', colloquial
+      'κάνουμε / οργανώσουμε τραπέζι'
+  notes: 'Examiner Objective: Tests informal peer-to-peer interaction (''Ενικός αριθμός''
+    when roleplaying with a friend/colleague).
+
+    Strategy: Propose a concrete day and time, then invite your partner''s opinion.'
+  example_el: Γεια σου Κώστα! Τι λες να οργανώσουμε ένα ωραίο τραπέζι αυτή την Παρασκευή
+    το βράδυ μετά τη δουλειά για να γιορτάσουμε όλοι μαζί τα γενέθλια της Μαρίας;
+  example_en: Hi Kostas! What do you say we organize a nice dinner this Friday night
+    after work so we can celebrate Maria's birthday all together?
+  example2_el: Τέλεια ιδέα! Την Παρασκευή όμως τελειώνω αργά το μάθημά μου· μήπως
+    είναι καλύτερα να βγούμε το Σάββατο το βράδυ στις εννέα;
+  example2_en: Great idea! On Friday, however, I finish my class late; might it be
+    better to go out on Saturday night at nine?
+  keg_communicative_function: Proposing a date and time for a social celebration with
+    a friend
+  audio: ti-les-na-organosoym-3c8268.mp3
+  example_audio: geia-soy-kosta-ti-le-2579e6.mp3
+  example2_audio: teleia-idea-tin-para-f5af1d.mp3
+- id: SP-U03-030
+  greek: Προτιμάς να κλείσουμε τραπέζι σε μια παραδοσιακή ταβέρνα με μουσική ή σε
+    ιταλικό εστιατόριο;
+  english: Do you prefer that we book a table at a traditional taverna with music
+    or at an Italian restaurant? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Preference verb 'προτιμάς να + subjunctive', dining venue comparison
+  notes: 'Examiner Objective: Evaluates comparing two alternatives and reaching a
+    shared decision.
+
+    Strategy: Present both options from the cue card and give a reason why one fits
+    the group better.'
+  example_el: Πού προτιμάς να κλείσουμε τραπέζι; Να πάμε σε εκείνη την παραδοσιακή
+    ταβέρνα με τη ζωντανή μουσική στο κέντρο ή στο καινούριο ιταλικό εστιατόριο της
+    γειτονιάς;
+  example_en: Where do you prefer that we book a table? Should we go to that traditional
+    taverna with live music in the center or to the new Italian restaurant in the
+    neighborhood?
+  example2_el: Νομίζω ότι η παραδοσιακή ταβέρνα είναι πολύ καλύτερη επιλογή για μεγάλη
+    παρέα, γιατί έχει ωραία ατμόσφαιρα και ποικιλία από μεζέδες.
+  example2_en: I think that the traditional taverna is a much better choice for a
+    large group, because it has a nice atmosphere and a variety of meze dishes.
+  keg_communicative_function: Discussing and choosing between dining venues for an
+    outing
+  audio: protimas-na-kleisoym-e56667.mp3
+  example_audio: poy-protimas-na-klei-80ed78.mp3
+  example2_audio: nomizo-oti-i-parados-7027a5.mp3
+- id: SP-U03-031
+  greek: Πόσα χρήματα περίπου υπολογίζουμε να δώσουμε το άτομο για το φαγητό και το
+    κρασί;
+  english: Roughly how much money do we estimate spending per person for the food
+    and wine? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: First person plural 'υπολογίζουμε να δώσουμε', per-person cost expression
+      'το άτομο'
+  notes: 'Examiner Objective: Tests budget negotiation in collaborative planning tasks.
+
+    Strategy: Propose a reasonable per-person amount (e.g., 20–25 euros) so everyone
+    in the group can afford it.'
+  example_el: Για να ξέρουν και οι υπόλοιποι συνάδελφοι, πόσα χρήματα περίπου υπολογίζουμε
+    να δώσουμε το άτομο για το φαγητό, το κρασί και το δώρο της;
+  example_en: So that the rest of the colleagues know too, roughly how much money
+    do we estimate spending per person for the food, the wine, and her gift?
+  example2_el: Αν βάλουμε από είκοσι πέντε ευρώ ο καθένας, φτάνουν άνετα και για το
+    δείπνο στην ταβέρνα και για ένα πολύ ωραίο δώρο.
+  example2_en: If we each put in twenty-five euros, it is comfortably enough both
+    for the dinner at the taverna and for a very nice gift.
+  keg_communicative_function: Negotiating and agreeing on a shared budget per person
+  audio: posa-chrimata-peripo-88cfad.mp3
+  example_audio: gia-na-xeroyn-kai-oi-a87cb0.mp3
+  example2_audio: an-valoyme-apo-eikos-7defb4.mp3
+- id: SP-U03-032
+  greek: Τι δώρο λες να της πάρουμε; Ένα ασημένιο κόσμημα, ένα βιβλίο ή ένα άρωμα;
+  english: What gift do you say we get her? A silver piece of jewelry, a book, or
+    a perfume? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Indirect object clitic 'να της πάρουμε', gift vocabulary (κόσμημα, βιβλίο,
+      άρωμα)
+  notes: 'Examiner Objective: Assesses genitive/accusative weak pronoun usage (''να
+    της πάρουμε'') and justifying a gift choice.
+
+    Strategy: Reject one option politely and explain why another option suits the
+    friend''s taste.'
+  example_el: Τι δώρο λες να της πάρουμε από όλη την παρέα; Σκεφτόμουν ένα ωραίο ασημένιο
+    κολιέ ή μήπως προτιμάς να της αγοράσουμε ένα καλό άρωμα;
+  example_en: What gift do you say we get her from the whole group? I was thinking
+    of a nice silver necklace, or do you prefer that we buy her a good perfume?
+  example2_el: Το άρωμα είναι λίγο δύσκολο αν δεν ξέρουμε τι φοράει, οπότε ας της
+    πάρουμε καλύτερα το ασημένιο κολιέ που είναι πολύ κομψό.
+  example2_en: Perfume is a bit difficult if we don't know what she wears, so let's
+    better get her the silver necklace, which is very elegant.
+  keg_communicative_function: Brainstorming and selecting a group birthday gift
+  audio: ti-doro-les-na-tis-p-18eb7e.mp3
+  example_audio: ti-doro-les-na-tis-p-35d5b2.mp3
+  example2_audio: to-aroma-einai-ligo--94c42c.mp3
+- id: SP-U03-033
+  greek: Αναλαμβάνω εγώ να παραγγείλω την τούρτα από το ζαχαροπλαστείο· μπορείς εσύ
+    να πάρεις το δώρο;
+  english: I will undertake ordering the cake from the pastry shop; can you get the
+    gift? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Task-splitting verb 'αναλαμβάνω να + aorist subjunctive', contrastive pronouns
+      'εγώ / εσύ'
+  notes: 'Examiner Objective: Tests task delegation and coordination between two speakers.
+
+    Strategy: Volunteer for one specific task and ask your partner to handle the other
+    task.'
+  example_el: Λοιπόν, αναλαμβάνω εγώ να παραγγείλω μια μεγάλη σοκολατένια τούρτα από
+    το ζαχαροπλαστείο της γειτονιάς μου. Μπορείς εσύ να περάσεις αύριο να αγοράσεις
+    το δώρο;
+  example_en: So, I will take care of ordering a big chocolate cake from the pastry
+    shop in my neighborhood. Can you stop by tomorrow to buy the gift?
+  example2_el: Έγινε! Θα πάω εγώ αύριο το πρωί στο εμπορικό κέντρο για το δώρο και
+    θα τηλεφωνήσω επίσης στην ταβέρνα για την κράτηση.
+  example2_en: Done! I will go tomorrow morning to the shopping center for the gift
+    and I will also call the taverna for the reservation.
+  keg_communicative_function: Dividing responsibilities and tasks when organizing
+    an event
+  audio: analamvano-ego-na-pa-180a7a.mp3
+  example_audio: loipon-analamvano-eg-3e61a5.mp3
+  example2_audio: egine-tha-pao-ego-ay-25d622.mp3
+- id: SP-U03-034
+  greek: Πώς θα πάμε όλοι μαζί το Σάββατο; Έχεις χώρο στο αυτοκίνητό σου να μας πάρεις;
+  english: How will we all go together on Saturday? Do you have room in your car to
+    pick us up? (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Future plural 'πώς θα πάμε', idiomatic 'έχεις χώρο να μας πάρεις' (give
+      us a ride)
+  notes: 'Examiner Objective: Tests finalizing transport arrangements at the end of
+    a social planning roleplay.
+
+    Strategy: Ask about carpooling or suggest meeting outside a central metro station.'
+  example_el: Και κάτι τελευταίο· πώς θα πάμε το Σάββατο το βράδυ στην ταβέρνα; Έχεις
+    χώρο στο αυτοκίνητό σου να περάσεις να μας πάρεις στις οκτώ και μισή;
+  example_en: 'And one last thing: how will we go to the taverna on Saturday night?
+    Do you have room in your car to come pick us up at eight-thirty?'
+  example2_el: Ναι, αμέ! Θα περάσω με το αυτοκίνητό μου από το σπίτι σου στις οκτώ
+    και μισή για να πάμε όλοι μαζί.
+  example2_en: Yes, sure! I will come by your house with my car at eight-thirty so
+    we can all go together.
+  keg_communicative_function: Coordinating transportation and meeting times with friends
+  audio: pos-tha-pame-oloi-ma-e694e9.mp3
+  example_audio: kai-kati-teleytaio-p-a2a957.mp3
+  example2_audio: nai-ame-tha-peraso-m-142e2e.mp3
+- id: SP-U03-035
+  greek: Με συγχωρείτε, παραγγείλαμε πριν από μία ώρα αλλά το φαγητό μας είναι τελείως
+    κρύο.
+  english: Excuse me, we ordered an hour ago, but our food is completely cold. (Stage
+    2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Polite complaint softener 'με συγχωρείτε', Aorist 'παραγγείλαμε', adverb
+      'τελείως κρύο'
+  notes: 'Examiner Objective: Tests lodging a firm yet polite complaint in a restaurant
+    without sounding aggressive.
+
+    Strategy: State the problem calmly and ask the waiter to heat it up or bring a
+    fresh plate.'
+  example_el: Με συγχωρείτε, περιμέναμε σχεδόν μία ώρα να έρθει η παραγγελία μας και
+    δυστυχώς οι μπριζόλες που μας φέρατε είναι τελείως κρύες. Μπορείτε να τις αλλάξετε;
+  example_en: Excuse me, we waited almost an hour for our order to arrive and unfortunately
+    the steaks you brought us are completely cold. Can you replace them?
+  example2_el: Χίλια συγγνώμη, έχετε απόλυτο δίκιο! Είχαμε πάρα πολύ κόσμο στην κουζίνα,
+    αλλά θα σας φέρω αμέσως καινούριο, ζεστό πιάτο.
+  example2_en: A thousand apologies, you are completely right! We were very busy in
+    the kitchen, but I will bring you a new, hot dish immediately.
+  keg_communicative_function: Complaining politely about food quality or service delay
+    at a restaurant
+  audio: me-sygchoreite-parag-7570b8.mp3
+  example_audio: me-sygchoreite-perim-d40e32.mp3
+  example2_audio: chilia-syggnomi-eche-aeea1c.mp3
+- id: SP-U03-036
+  greek: Φοβάμαι ότι έγινε κάποιο λάθος στον λογαριασμό· μας έχετε χρεώσει δύο μπουκάλια
+    κρασί.
+  english: I am afraid that a mistake was made on the bill; you have charged us for
+    two bottles of wine. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Diplomatic softener 'φοβάμαι ότι έγινε κάποιο λάθος', Perfect 'μας έχετε
+      χρεώσει'
+  notes: 'Examiner Objective: Rewards diplomatic phrasing (''φοβάμαι ότι έγινε κάποιο
+    λάθος'' instead of ''κάνατε λάθος'').
+
+    Strategy: Point out the exact item on the receipt and ask for a corrected bill.'
+  example_el: Με συγχωρείτε, φοβάμαι ότι έγινε κάποιο μικρό λάθος στον λογαριασμό
+    μας. Μας έχετε χρεώσει δύο μπουκάλια λευκό κρασί, ενώ εμείς πήραμε μόνο ένα.
+  example_en: Excuse me, I am afraid that a small mistake was made on our bill. You
+    have charged us for two bottles of white wine, whereas we only had one.
+  example2_el: Αχ, με συγχωρείτε πάρα πολύ, μπερδεύτηκα με το διπλανό τραπέζι! Το
+    διορθώνω αμέσως και σας φέρνω τον σωστό λογαριασμό.
+  example2_en: Oh, excuse me very much, I got mixed up with the next table! I will
+    correct it right away and bring you the proper bill.
+  keg_communicative_function: Pointing out a billing error politely at a restaurant
+    or café
+  audio: fovamai-oti-egine-ka-711f85.mp3
+  example_audio: me-sygchoreite-fovam-0a30f2.mp3
+  example2_audio: ach-me-sygchoreite-p-a69680.mp3
+- id: SP-U03-037
+  greek: Σας τηλεφωνώ γιατί η παραγγελία μου έχει καθυστερήσει πάνω από σαράντα λεπτά.
+  english: I am calling you because my delivery order has been delayed by more than
+    forty minutes. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Present Perfect 'έχει καθυστερήσει', quantitative preposition 'πάνω από
+      σαράντα λεπτά'
+  notes: 'Examiner Objective: Tests telephone complaint handling regarding late food
+    or parcel delivery.
+
+    Strategy: Give your surname and address, explain how long you''ve waited, and
+    ask when the driver will arrive.'
+  example_el: Καλησπέρα σας, σας τηλεφωνώ γιατί έκανα μια παραγγελία στο όνομα Παπαδόπουλος
+    πριν από μία ώρα και έχει καθυστερήσει πολύ. Μήπως ξέρετε πότε θα φτάσει;
+  example_en: Good evening, I am calling you because I placed an order under the name
+    Papadopoulos an hour ago and it has been delayed a lot. Do you happen to know
+    when it will arrive?
+  example2_el: Λυπούμαστε πολύ για την καθυστέρηση! Ο διανομέας μας έφυγε πριν από
+    πέντε λεπτά από το κατάστημα και θα είναι στην πόρτα σας σε λίγο.
+  example2_en: We are very sorry for the delay! Our delivery driver left the store
+    five minutes ago and will be at your door shortly.
+  keg_communicative_function: Inquiring about a delayed delivery order by telephone
+  audio: sas-tilefono-giati-i-e36fdf.mp3
+  example_audio: kalispera-sas-sas-ti-dad218.mp3
+  example2_audio: lypoymaste-poly-gia--068cb9.mp3
+- id: SP-U03-038
+  greek: Συγγνώμη που σας ενοχλώ, αλλά η μουσική ακούγεται πολύ δυνατά και αύριο δουλεύω
+    πρωί.
+  english: Sorry to bother you, but the music can be heard very loudly and tomorrow
+    I work early. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Polite apology formula 'συγγνώμη που σας ενοχλώ', passive perception 'ακούγεται
+      πολύ δυνατά'
+  notes: 'Examiner Objective: Assesses neighborly diplomacy during a noise complaint.
+
+    Strategy: Start with ''συγγνώμη που σας ενοχλώ'', explain your reason (early work
+    or sleeping children), and ask them to lower the volume (''να χαμηλώσετε λίγο
+    τη μουσική'').'
+  example_el: Καλησπέρα σας, συγγνώμη που σας ενοχλώ τέτοια ώρα, αλλά η μουσική ακούγεται
+    πολύ δυνατά στο διαμέρισμά μου και αύριο πρέπει να ξυπνήσω στις έξι το πρωί.
+  example_en: Good evening, sorry to bother you at such an hour, but the music can
+    be heard very loudly in my apartment and tomorrow I have to wake up at six in
+    the morning.
+  example2_el: Έχετε δίκιο, δεν καταλάβαμε πόσο πέρασε η ώρα! Θα χαμηλώσουμε αμέσως
+    τη μουσική για να μπορέσετε να κοιμηθείτε ήσυχα.
+  example2_en: You are right, we didn't realize how late it had gotten! We will turn
+    the music down immediately so you can sleep peacefully.
+  keg_communicative_function: Asking a neighbor politely to reduce noise late at night
+  audio: syggnomi-poy-sas-eno-7456bc.mp3
+  example_audio: kalispera-sas-syggno-ca17d3.mp3
+  example2_audio: echete-dikio-den-kat-2418ab.mp3
+- id: SP-U03-039
+  greek: Στο δωμάτιό μας δεν δουλεύει το κλιματιστικό και δεν έχουμε ζεστό νερό στο
+    μπάνιο.
+  english: In our room the air conditioner is not working and we do not have hot water
+    in the bathroom. (Stage 2 Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Malfunction verb 'δεν δουλεύει / δεν λειτουργεί', hotel problem reporting
+  notes: 'Examiner Objective: Tests reporting technical problems at a hotel reception
+    desk.
+
+    Strategy: State your room number clearly, describe the issue, and ask if a technician
+    can come or if you can change rooms.'
+  example_el: Καλησπέρα σας, μένουμε στο δωμάτιο διακόσια τέσσερα και δυστυχώς δεν
+    δουλεύει καθόλου το κλιματιστικό ούτε υπάρχει ζεστό νερό. Μπορείτε να στείλετε
+    κάποιον τεχνικό;
+  example_en: Good evening, we are staying in room 204 and unfortunately the air conditioner
+    is not working at all nor is there hot water. Can you send a technician?
+  example2_el: Σας ζητούμε συγγνώμη! Αν ο τεχνικός μας δεν μπορέσει να το φτιάξει
+    μέσα σε μισή ώρα, θα σας μεταφέρουμε αμέσως σε άλλο δωμάτιο.
+  example2_en: We apologize to you! If our technician cannot fix it within half an
+    hour, we will move you immediately to another room.
+  keg_communicative_function: Reporting room maintenance issues to hotel reception
+  audio: sto-domatio-mas-den--705bbb.mp3
+  example_audio: kalispera-sas-menoym-d444f5.mp3
+  example2_audio: sas-zitoyme-syggnomi-b78b98.mp3
+- id: SP-U03-040
+  greek: Σας ευχαριστώ πολύ για την κατανόηση και την άμεση εξυπηρέτηση!
+  english: Thank you very much for your understanding and prompt service! (Stage 2
+    Roleplay Prompt)
+  gender_or_pos: speaking-drill
+  status: verified
+  grammatical_info:
+    stage: Stage 2 (Bilateral Roleplay)
+    focus: Formulaic closing 'σας ευχαριστώ για + accusative abstract nouns (την κατανόηση,
+      την εξυπηρέτηση)'
+  notes: 'Examiner Objective: Evaluates how smoothly the candidate closes a complaint
+    or transactional roleplay once resolved.
+
+    Strategy: Always end Stage 2 roleplays with a warm expression of thanks and satisfaction.'
+  example_el: Τέλεια, αυτή η λύση μάς εξυπηρετεί απόλυτα! Σας ευχαριστώ πάρα πολύ
+    για την ευγένεια, την κατανόηση και την τόσο άμεση εξυπηρέτησή σας.
+  example_en: Great, this solution suits us completely! Thank you very much for your
+    politeness, understanding, and such prompt service.
+  example2_el: Να είστε καλά, είναι χαρά μας να σας εξυπηρετούμε! Σας ευχόμαστε μια
+    υπέροχη συνέχεια στις διακοπές σας.
+  example2_en: Be well, it is our pleasure to serve you! We wish you a wonderful continuation
+    of your vacation.
+  keg_communicative_function: Expressing gratitude and closing a resolved service
+    interaction politely
+  audio: sas-eycharisto-poly--5abd3d.mp3
+  example_audio: teleia-ayti-i-lysi-m-3704c3.mp3
+  example2_audio: na-eiste-kala-einai--ecdd24.mp3

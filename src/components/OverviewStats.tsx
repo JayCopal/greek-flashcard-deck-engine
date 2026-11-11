@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { DeckData } from '../types/schema';
 import { getAllSRSData } from '../utils/srs';
 import { getActiveUser } from '../utils/userStorage';
+import { LearningTimeVisualizer } from './LearningTimeVisualizer';
 import { 
   Award, 
   Layers, 
@@ -237,6 +238,11 @@ export const OverviewStats: React.FC<OverviewStatsProps> = ({ deck, onRefresh })
             <span className="w-2 h-2 rounded-full bg-rose-500" /> Needs Review ({stats.needs_review_count})
           </div>
         </div>
+      </div>
+
+      {/* Focus & Learning Time Track Analytics */}
+      <div className="pt-2">
+        <LearningTimeVisualizer />
       </div>
     </div>
   );

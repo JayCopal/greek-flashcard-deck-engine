@@ -266,6 +266,7 @@ export function deleteUser(userId: string): boolean {
       `greek_deck_study_prefs_${userId}`,
       `greek_deck_daily_reviews_${userId}`,
       `greek_deck_last_lesson_${userId}`,
+      `greek_deck_learning_time_${userId}`,
     ];
     for (const k of keysToRemove) {
       localStorage.removeItem(k);
@@ -296,6 +297,7 @@ export function resetUserProgress(userId?: string): void {
       `greek_deck_study_prefs_${uid}`,
       `greek_deck_daily_reviews_${uid}`,
       `greek_deck_last_lesson_${uid}`,
+      `greek_deck_learning_time_${uid}`,
     ];
     for (const k of keysToRemove) {
       localStorage.removeItem(k);
@@ -327,6 +329,7 @@ export interface UserStudyPreferences {
   themePreference?: 'slate' | 'oled';
   textSizePreference?: TextSizePreference;
   dailyGoal?: number;
+  dailyTimeGoalMinutes?: number;
 }
 
 export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
@@ -340,6 +343,7 @@ export const DEFAULT_STUDY_PREFERENCES: UserStudyPreferences = {
   themePreference: 'slate',
   textSizePreference: 'normal',
   dailyGoal: 20,
+  dailyTimeGoalMinutes: 15,
 };
 
 export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
@@ -363,6 +367,7 @@ export function getUserStudyPreferences(userId?: string): UserStudyPreferences {
             ? parsed.textSizePreference
             : 'normal',
         dailyGoal: typeof parsed.dailyGoal === 'number' ? parsed.dailyGoal : 20,
+        dailyTimeGoalMinutes: typeof parsed.dailyTimeGoalMinutes === 'number' ? parsed.dailyTimeGoalMinutes : 15,
       };
     }
   } catch (e) {

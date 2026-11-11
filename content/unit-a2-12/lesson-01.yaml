@@ -1,0 +1,747 @@
+unit_id: unit-a2-12
+lesson_id: lesson-01
+title: 'Μάθημα 12: Εξεταστικό Εργαστήριο & Προσομοίωση (KEG A2 Exam Workshop & Simulation)'
+description: Mastering discourse connectors (επομένως, ωστόσο, εξάλλου, κατά τη γνώμη
+  μου, από τη μία... από την άλλη), argumentation tactics, and pair interaction protocols
+  for full simulation of the official May KEG A2 certification paper.
+lesson_status: not_started
+lesson_notes: "Unit A2-12 Core Notes: Εξεταστικό Εργαστήριο & Προσομοίωση (KEG A2\
+  \ Exam Workshop)\n• Discourse Connectors & Cohesion (Συνδετικές λέξεις):\n  - Consequence:\
+  \ επομένως (therefore), κατά συνέπεια (as a result).\n  - Contrast: ωστόσο (however),\
+  \ από τη μία πλευρά... από την άλλη πλευρά (on the one hand... on the other).\n\
+  \  - Addition: εξάλλου (moreover / besides), επιπλέον (furthermore).\n  - Structuring:\
+  \ πρώτον (firstly), δεύτερον (secondly), τελικά (finally), συμπερασματικά (in conclusion).\n\
+  \  - Opinion: κατά τη γνώμη μου (in my opinion), συμφωνώ απόλυτα (I completely agree),\
+  \ διαφωνώ (I disagree).\n\n• Exam Simulation Strategy across the 4 Papers:\n  -\
+  \ Listening (30 mins): Focus on keywords during first playback; verify during second.\n\
+  \  - Reading (45 mins): Skim headline/subheads; match exact factual evidence.\n\
+  \  - Writing (45 mins): Task 1 (note/invitation, 40-50 words); Task 2 (narrative/letter,\
+  \ 70-80 words).\n  - Speaking (10-12 mins): Stage 1 (personal interview); Stage\
+  \ 2 (cue-card role-play); Stage 3 (collaborative negotiation)."
+entries:
+- id: A2-U12-001
+  greek: επομένως
+  english: therefore / consequently
+  notes: Formal cohesive conjunction/adverb. Marks logical deduction. Elevates candidate
+    writing in Task 2.
+  gender_or_pos: conjunction / adverb
+  grammatical_info:
+    part_of_speech: cohesive conjunction
+    synonym: άρα, συνεπώς
+  keg_communicative_function: Drawing conclusions and connecting arguments in written
+    compositions
+  example_el: Έχουμε ολοκληρώσει όλη την ύλη, επομένως είμαστε έτοιμοι για τις εξετάσεις.
+  example_en: We have completed all the material; therefore, we are ready for the
+    exams.
+  example2_el: Δεν υπάρχουν άλλα διαθέσιμα εισιτήρια, επομένως πρέπει να αλλάξουμε
+    ημερομηνία.
+  example2_en: There are no other tickets available; consequently, we must change
+    date.
+  audio: epomenos-58f448.mp3
+  status: verified
+  example_audio: echoyme-oloklirosei--dc1acc.mp3
+  example2_audio: den-yparchoyn-alla-d-dc2e51.mp3
+- id: A2-U12-002
+  greek: ωστόσο
+  english: however / nevertheless / yet
+  notes: Adversative connector. Contrasts two balanced propositions in argumentative
+    speech and writing.
+  gender_or_pos: conjunction / adverb
+  grammatical_info:
+    part_of_speech: adversative conjunction
+    synonym: όμως, παρ' όλα αυτά
+  keg_communicative_function: Introducing counter-arguments and nuanced qualifications
+    in essays and debates
+  example_el: Η δοκιμασία ήταν απαιτητική, ωστόσο όλοι οι υποψήφιοι κατέβαλαν μεγάλη
+    προσπάθεια.
+  example_en: The test was demanding; however, all candidates made a great effort.
+  example2_el: Ο καιρός ήταν βροχερός, ωστόσο η συναυλία πραγματοποιήθηκε κανονικά.
+  example2_en: The weather was rainy; nevertheless, the concert took place as scheduled.
+  audio: ostoso-ea025f.mp3
+  status: verified
+  example_audio: i-dokimasia-itan-apa-efaa46.mp3
+  example2_audio: o-kairos-itan-vroche-dcf467.mp3
+- id: A2-U12-003
+  greek: εξάλλου
+  english: besides / moreover / after all
+  notes: Additive connective adverb. Reinforces a previous point with additional justification.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: connector
+    synonym: άλλωστε, επιπλέον
+  keg_communicative_function: Adding persuasive points during candidate discussions
+    (Speaking Stage 3)
+  example_el: Προτείνω να πάμε με το μετρό, εξάλλου είναι πολύ πιο γρήγορο και οικονομικό.
+  example_en: I suggest we go by metro; besides, it is much faster and more economical.
+  example2_el: Δεν χρειάζεται να ανησυχείτε, εξάλλου έχετε προετοιμαστεί εξαιρετικά.
+  example2_en: There is no need to worry; after all, you have prepared extraordinarily
+    well.
+  audio: exalloy-764e68.mp3
+  status: verified
+  example_audio: proteino-na-pame-me--0e5852.mp3
+  example2_audio: den-chreiazetai-na-a-f77355.mp3
+- id: A2-U12-004
+  greek: επιπλέον
+  english: furthermore / in addition
+  notes: Additive adverb. Used to introduce supplementary arguments in structured
+    paragraphs.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: connector
+    synonym: επιπροσθέτως, επίσης
+  keg_communicative_function: Expanding essays with secondary supporting reasons in
+    Writing Task 2
+  example_el: Το ξενοδοχείο είναι κεντρικό και, επιπλέον, προσφέρει δωρεάν χώρο στάθμευσης.
+  example_en: The hotel is central and, in addition, offers free parking space.
+  example2_el: Επιπλέον, η εκμάθηση μιας ξένης γλώσσας ανοίγει νέους επαγγελματικούς
+    ορίζοντες.
+  example2_en: Furthermore, learning a foreign language opens new professional horizons.
+  audio: epipleon-27a9a5.mp3
+  status: verified
+  example_audio: to-xenodocheio-einai-2fd1a5.mp3
+  example2_audio: epipleon-i-ekmathisi-413a5e.mp3
+- id: A2-U12-005
+  greek: κατά τη γνώμη μου
+  english: in my opinion
+  notes: Fixed prepositional formula. Essential for stating personal viewpoints in
+    oral and written tasks.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    synonym: κατά την άποψή μου, πιστεύω ότι
+  keg_communicative_function: Expressing stance and personal perspective during examiner
+    questioning
+  example_el: Κατά τη γνώμη μου, η συνεχής εξάσκηση είναι το κλειδί για την κατάκτηση
+    της γλώσσας.
+  example_en: In my opinion, continuous practice is the key to mastering the language.
+  example2_el: Κατά τη γνώμη μου, η δεύτερη επιλογή είναι σαφώς πιο συμφέρουσα.
+  example2_en: In my opinion, the second option is clearly more advantageous.
+  audio: kata-ti-gnomi-moy-b38262.mp3
+  status: verified
+  example_audio: kata-ti-gnomi-moy-i--8518c9.mp3
+  example2_audio: kata-ti-gnomi-moy-i--39c768.mp3
+- id: A2-U12-006
+  greek: συμφωνώ απόλυτα
+  english: I completely agree
+  notes: Verbal collocation. Core communicative move in candidate pair interactions
+    (Stage 3).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: συμφωνώ
+    antonym: διαφωνώ
+  keg_communicative_function: Validating candidate peer proposals enthusiastically
+    during joint problem-solving
+  example_el: Συμφωνώ απόλυτα μαζί σου, αυτή είναι η καλύτερη λύση για το πρόβλημα.
+  example_en: I completely agree with you; that is the best solution to the problem.
+  example2_el: Συμφωνώ απόλυτα με την άποψη ότι η προστασία του περιβάλλοντος προέχει.
+  example2_en: I completely agree with the view that environmental protection takes
+    precedence.
+  audio: symfono-apolyta-917d25.mp3
+  status: verified
+  example_audio: symfono-apolyta-mazi-14a3db.mp3
+  example2_audio: symfono-apolyta-me-t-f8c2af.mp3
+- id: A2-U12-007
+  greek: διαφωνώ
+  english: to disagree / I disagree
+  notes: Contracted verb (διαφωνώ, διαφωνείς). Followed by 'με + accusative' (I disagree
+    with).
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    antonym: συμφωνώ
+    noun_derivative: η διαφωνία
+  keg_communicative_function: Expressing polite dissent and offering alternative ideas
+    in candidate debates
+  example_el: Διαφωνώ ευγενικά με αυτή την πρόταση επειδή το κόστος είναι υπερβολικά
+    υψηλό.
+  example_en: I politely disagree with this proposal because the cost is excessively
+    high.
+  example2_el: Δεν διαφωνώ με την ιδέα, αλλά θεωρώ ότι χρειάζεται περισσότερος χρόνος.
+  example2_en: I do not disagree with the idea, but I consider that more time is needed.
+  audio: diafono-25974f.mp3
+  status: verified
+  example_audio: diafono-eygenika-me--fecf4e.mp3
+  example2_audio: den-diafono-me-tin-i-4e0676.mp3
+- id: A2-U12-008
+  greek: από τη μία πλευρά
+  english: on the one hand
+  notes: Correlative discourse formula. Pairs with 'από την άλλη πλευρά' (on the other
+    hand).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: discourse connector
+    correlative_pair: από τη μία... από την άλλη...
+  keg_communicative_function: Balancing pros and cons in written essays and spoken
+    debates
+  example_el: Από τη μία πλευρά η ζωή στην πόλη προσφέρει ευκαιρίες, από την άλλη
+    όμως έχει πολύ άγχος.
+  example_en: On the one hand city life offers opportunities, but on the other it
+    has much stress.
+  example2_el: Από τη μία πλευρά κατανοώ τη δυσκολία, από την άλλη όμως πρέπει να
+    προσπαθήσουμε.
+  example2_en: On the one hand I understand the difficulty, but on the other we must
+    try.
+  audio: apo-ti-mia-pleyra-47a0e1.mp3
+  status: verified
+  example_audio: apo-ti-mia-pleyra-i--db4408.mp3
+  example2_audio: apo-ti-mia-pleyra-ka-d4e9c1.mp3
+- id: A2-U12-009
+  greek: από την άλλη πλευρά
+  english: on the other hand
+  notes: Correlative discourse formula pairing with 'από τη μία πλευρά'.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: discourse connector
+    correlative_pair: από τη μία πλευρά...
+  keg_communicative_function: Introducing the opposing perspective in structured argumentative
+    texts
+  example_el: Από την άλλη πλευρά, το διαδίκτυο κρύβει κινδύνους που δεν πρέπει να
+    αγνοούμε.
+  example_en: On the other hand, the internet conceals risks that we must not ignore.
+  example2_el: Από την άλλη πλευρά, η επαρχία προσφέρει πολύ καλύτερη ποιότητα ζωής.
+  example2_en: On the other hand, the countryside offers a much better quality of
+    life.
+  audio: apo-tin-alli-pleyra-3a402d.mp3
+  status: verified
+  example_audio: apo-tin-alli-pleyra--b0a38c.mp3
+  example2_audio: apo-tin-alli-pleyra--9f4bc5.mp3
+- id: A2-U12-010
+  greek: για παράδειγμα
+  english: for example / for instance
+  notes: Exemplifying phrase. Often abbreviated as 'π.χ.' (παραδείγματος χάριν).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    abbreviation: π.χ.
+  keg_communicative_function: Illustrating general statements with concrete evidence
+    in compositions
+  example_el: Στην Ελλάδα υπάρχουν πολλά όμορφα νησιά, για παράδειγμα η Νάξος και
+    η Μήλος.
+  example_en: In Greece there are many beautiful islands, for example Naxos and Milos.
+  example2_el: Μπορείτε να εξασκηθείτε με διάφορους τρόπους, για παράδειγμα βλέποντας
+    ελληνικές σειρές.
+  example2_en: You can practice in various ways, for instance by watching Greek series.
+  audio: gia-paradeigma-9ef8ea.mp3
+  status: verified
+  example_audio: stin-ellada-yparchoy-6f9095.mp3
+  example2_audio: mporeite-na-exaskith-0ea0cd.mp3
+- id: A2-U12-011
+  greek: δηλαδή
+  english: that is to say / namely / in other words
+  notes: Clarifying connector. Used to explain, rephrase, or specify meaning.
+  gender_or_pos: conjunction / adverb
+  grammatical_info:
+    part_of_speech: connector
+    usage: clarification or reformulation
+  keg_communicative_function: Reformulating thoughts and clarifying statements when
+    speaking to examiners
+  example_el: Το μάθημα είναι καθημερινό, δηλαδή από Δευτέρα έως και Παρασκευή.
+  example_en: The course is daily, that is to say from Monday through Friday.
+  example2_el: Πρέπει να πετύχετε εξήντα τοις εκατό, δηλαδή τουλάχιστον δώδεκα στα
+    είκοσι.
+  example2_en: You must achieve sixty percent, in other words at least twelve out
+    of twenty.
+  audio: diladi-49cefd.mp3
+  status: verified
+  example_audio: to-mathima-einai-kat-7e8cbc.mp3
+  example2_audio: prepei-na-petychete--8f1075.mp3
+- id: A2-U12-012
+  greek: πρώτον
+  english: firstly / in the first place
+  notes: Ordinal discourse connector. Pairs with 'δεύτερον' (secondly) and 'τέλος'
+    (finally).
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: ordinal connector
+    sequence: πρώτον -> δεύτερον -> τρίτον -> τέλος
+  keg_communicative_function: Structuring multi-point arguments sequentially in essays
+    and oral presentations
+  example_el: Πρώτον, πρέπει να διαβάσουμε προσεκτικά όλες τις ερωτήσεις του φυλλαδίου.
+  example_en: Firstly, we must carefully read all the questions in the booklet.
+  example2_el: Πρώτον, η τιμή είναι πολύ προσιτή και, δεύτερον, η ποιότητα είναι άριστη.
+  example2_en: Firstly, the price is very affordable and, secondly, the quality is
+    excellent.
+  audio: proton-84a4a6.mp3
+  status: verified
+  example_audio: proton-prepei-na-dia-f18084.mp3
+  example2_audio: proton-i-timi-einai--4af3f5.mp3
+- id: A2-U12-013
+  greek: δεύτερον
+  english: secondly
+  notes: Ordinal discourse connector following 'πρώτον'.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: ordinal connector
+    sequence: πρώτον -> δεύτερον
+  keg_communicative_function: Adding the second point in a structured oral or written
+    argument
+  example_el: Δεύτερον, έχουμε αρκετό χρόνο για να οργανώσουμε την εκδρομή μας.
+  example_en: Secondly, we have enough time to organize our excursion.
+  example2_el: Δεύτερον, η τοποθεσία του ξενοδοχείου είναι εξαιρετικά βολική για τις
+    μετακινήσεις μας.
+  example2_en: Secondly, the hotel's location is extremely convenient for our travels.
+  audio: deyteron-f5e34b.mp3
+  status: verified
+  example_audio: deyteron-echoyme-ark-a17b9f.mp3
+  example2_audio: deyteron-i-topothesi-aa8387.mp3
+- id: A2-U12-014
+  greek: τελικά
+  english: finally / in the end / after all
+  notes: Adverb of time and discourse conclusion. Indicates final outcome.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: adverb
+    synonym: στο τέλος, εν τέλει
+  keg_communicative_function: Concluding narratives and describing the final resolution
+    of an event
+  example_el: Τελικά καταφέραμε να φτάσουμε στον προορισμό μας πριν πέσει η νύχτα.
+  example_en: In the end we managed to arrive at our destination before night fell.
+  example2_el: Τελικά ποια απόφαση πήρατε για τις καλοκαιρινές διακοπές;
+  example2_en: In the end what decision did you make regarding the summer vacation?
+  audio: telika-bd1cbd.mp3
+  status: verified
+  example_audio: telika-kataferame-na-1cd00a.mp3
+  example2_audio: telika-poia-apofasi--30efb2.mp3
+- id: A2-U12-015
+  greek: συμπερασματικά
+  english: in conclusion / to sum up
+  notes: Discourse concluding adverb. Standard transitional marker for closing paragraphs.
+  gender_or_pos: adverb
+  grammatical_info:
+    part_of_speech: concluding adverb
+    noun: το συμπέρασμα (conclusion)
+    synonym: εν κατακλείδι
+  keg_communicative_function: Signaling the final concluding paragraph of written
+    essays
+  example_el: Συμπερασματικά, η προετοιμασία και η ψυχραιμία εξασφαλίζουν την επιτυχία
+    στις εξετάσεις.
+  example_en: In conclusion, preparation and composure ensure success in examinations.
+  example2_el: Συμπερασματικά, τα οφέλη του προγράμματος υπερτερούν σαφώς των δυσκολιών.
+  example2_en: To sum up, the benefits of the program clearly outweigh the difficulties.
+  audio: symperasmatika-6b0690.mp3
+  status: verified
+  example_audio: symperasmatika-i-pro-8a1728.mp3
+  example2_audio: symperasmatika-ta-of-952dd9.mp3
+- id: A2-U12-016
+  greek: το πλεονέκτημα
+  english: advantage / asset
+  notes: 'Neuter noun in -μα (-ματα). Antonym: ''το μειονέκτημα'' (disadvantage).
+    Core argumentative pair.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πλεονεκτήματα
+    antonym: το μειονέκτημα
+  keg_communicative_function: Comparing positive features of two competing options
+    in Speaking Stage 3
+  example_el: Το βασικό πλεονέκτημα της δημόσιας συγκοινωνίας είναι το χαμηλό κόστος
+    και η προστασία του περιβάλλοντος.
+  example_en: The main advantage of public transport is low cost and environmental
+    protection.
+  example2_el: Ποια είναι τα πλεονεκτήματα της εργασίας από το σπίτι;
+  example2_en: What are the advantages of working from home?
+  audio: to-pleonektima-c953df.mp3
+  status: verified
+  example_audio: to-vasiko-pleonektim-ccf3df.mp3
+  example2_audio: poia-einai-ta-pleone-17fa77.mp3
+- id: A2-U12-017
+  greek: το μειονέκτημα
+  english: disadvantage / drawback
+  notes: 'Neuter noun in -μα (-ματα). Antonym: ''το πλεονέκτημα''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μειονεκτήματα
+    antonym: το πλεονέκτημα
+  keg_communicative_function: Pointing out drawbacks or limitations during candidate
+    negotiations
+  example_el: Ένα σοβαρό μειονέκτημα του αυτοκινήτου στην πόλη είναι η δυσκολία εύρεσης
+    στάθμευσης.
+  example_en: A serious disadvantage of the car in the city is the difficulty in finding
+    parking.
+  example2_el: Πρέπει να εξετάσουμε τόσο τα πλεονεκτήματα όσο και τα μειονεκτήματα
+    κάθε επιλογής.
+  example2_en: We must examine both the advantages and the disadvantages of each option.
+  audio: to-meionektima-e5c8c7.mp3
+  status: verified
+  example_audio: ena-sovaro-meionekti-f8cc0a.mp3
+  example2_audio: prepei-na-exetasoyme-bd0909.mp3
+- id: A2-U12-018
+  greek: η προσομοίωση
+  english: simulation / mock exam
+  notes: 'Feminine noun in -η (-εις). Verb: ''προσομοιώνω''. Essential pedagogical
+    rehearsal.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προσομοιώσεις
+    collocation: προσομοίωση εξετάσεων (mock exam)
+  keg_communicative_function: Participating in timed practice mock tests under real
+    exam conditions
+  example_el: Κάναμε μια πλήρη προσομοίωση της γραπτής εξέτασης με αυστηρή τήρηση
+    του χρόνου.
+  example_en: We did a full simulation of the written examination with strict adherence
+    to time.
+  example2_el: Η προσομοίωση βοηθά τους υποψηφίους να αποβάλουν το περιττό άγχος.
+  example2_en: Simulation helps candidates eliminate unnecessary stress.
+  audio: i-prosomoiosi-edd28e.mp3
+  status: verified
+  example_audio: kaname-mia-pliri-pro-34b03b.mp3
+  example2_audio: i-prosomoiosi-voitha-80b320.mp3
+- id: A2-U12-019
+  greek: ο υποψήφιος
+  english: candidate / examinee
+  notes: 'Masculine noun in -ος (-οι). Feminine: ''η υποψήφια''.'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun
+    feminine: η υποψήφια
+    plural: οι υποψήφιοι
+    genitive_singular: του υποψηφίου
+  keg_communicative_function: Identifying test candidates and understanding examinee
+    rights and duties
+  example_el: Κάθε υποψήφιος λαμβάνει ένα ατομικό δελτίο με τον κωδικό αριθμό του.
+  example_en: Each candidate receives an individual card with his/her identification
+    code.
+  example2_el: Οι υποψήφιοι εξετάζονται ανά ζεύγη στην παραγωγή προφορικού λόγου.
+  example2_en: Candidates are examined in pairs in oral speech production.
+  audio: o-ypopsifios-e68331.mp3
+  status: verified
+  example_audio: kathe-ypopsifios-lam-72f9eb.mp3
+  example2_audio: oi-ypopsifioi-exetaz-cc5744.mp3
+- id: A2-U12-020
+  greek: ο εξεταστής
+  english: examiner
+  notes: 'Masculine noun in -ής (-ές). Feminine: ''η εξετάστρια''.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι εξεταστές
+    feminine: η εξετάστρια
+    verb: εξετάζω
+  keg_communicative_function: Interacting respectfully with test evaluators during
+    oral tests
+  example_el: Ο εξεταστής έκανε φιλικές ερωτήσεις για να βοηθήσει τους υποψηφίους
+    να χαλαρώσουν.
+  example_en: The examiner asked friendly questions to help the candidates relax.
+  example2_el: Απευθυνθείτε στην εξετάστρια αν χρειάζεστε διευκρίνιση για την εκφώνηση.
+  example2_en: Address the examiner if you need clarification regarding the prompt.
+  audio: o-exetastis-2a63b9.mp3
+  status: verified
+  example_audio: o-exetastis-ekane-fi-d2d04b.mp3
+  example2_audio: apeythyntheite-stin--eb0ddd.mp3
+- id: A2-U12-021
+  greek: η βαθμολογία
+  english: grading / scoring / marks
+  notes: 'Feminine noun in -α. Minimum passing mark: 60% per individual skill (12/20
+    marks).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    verb: βαθμολογώ
+    collocation: τελική βαθμολογία (final score)
+  keg_communicative_function: Understanding evaluation criteria and score thresholds
+  example_el: Η βάση για την απόκτηση του πιστοποιητικού είναι το εξήντα τοις εκατό
+    σε κάθε δεξιότητα.
+  example_en: The threshold for obtaining the certificate is sixty percent in each
+    skill.
+  example2_el: Πέτυχε υψηλή βαθμολογία στην κατανόηση προφορικού και γραπτού λόγου.
+  example2_en: She achieved a high score in oral and written comprehension.
+  audio: i-vathmologia-99d001.mp3
+  status: verified
+  example_audio: i-vasi-gia-tin-apokt-5fbbc0.mp3
+  example2_audio: petyche-ypsili-vathm-a6b4d1.mp3
+- id: A2-U12-022
+  greek: η λύση
+  english: solution / resolution
+  notes: 'Feminine noun in -η (-εις). Verb: ''λύνω'' (to solve). Collocates with ''βρίσκω
+    λύση''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι λύσεις
+    verb: λύνω
+    collocation: προτείνω λύση (to propose a solution)
+  keg_communicative_function: Proposing mutually agreeable solutions in pair role-plays
+    (Speaking Stage 3)
+  example_el: Πρέπει να βρούμε μια κοινά αποδεκτή λύση που να εξυπηρετεί και τους
+    δυο μας.
+  example_en: We must find a mutually acceptable solution that serves both of us.
+  example2_el: Αυτή η λύση είναι πρακτική, οικονομική και άμεσα εφαρμόσιμη.
+  example2_en: This solution is practical, economical, and immediately applicable.
+  audio: i-lysi-88db69.mp3
+  status: verified
+  example_audio: prepei-na-vroyme-mia-56e711.mp3
+  example2_audio: ayti-i-lysi-einai-pr-f46d8f.mp3
+- id: A2-U12-023
+  greek: το επιχείρημα
+  english: argument / reasoning point
+  notes: Neuter noun in -μα (-ματα). Essential in presenting and defending a viewpoint.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επιχειρήματα
+    collocation: ισχυρό επιχείρημα (strong argument)
+  keg_communicative_function: Supporting opinions with cogent arguments in oral tests
+    and essays
+  example_el: Υποστήριξε την άποψή του με λογικά και πειστικά επιχειρήματα.
+  example_en: He supported his viewpoint with logical and persuasive arguments.
+  example2_el: Ποιο είναι το κύριο επιχείρημά σας υπέρ αυτής της επιλογής;
+  example2_en: What is your main argument in favor of this choice?
+  audio: to-epicheirima-74a9a1.mp3
+  status: verified
+  example_audio: ypostirixe-tin-apops-a425af.mp3
+  example2_audio: poio-einai-to-kyrio--dd79b1.mp3
+- id: A2-U12-024
+  greek: κατά συνέπεια
+  english: as a result / consequently
+  notes: Formal cohesive phrase. Connects cause with resulting consequence.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+    synonym: επομένως, ως αποτέλεσμα
+  keg_communicative_function: Linking causes to consequences in analytical reading
+    and writing tasks
+  example_el: Δεν υπήρχαν διαθέσιμα δρομολόγια και, κατά συνέπεια, αναγκαστήκαμε να
+    διανυκτερεύσουμε εκεί.
+  example_en: There were no available routes and, consequently, we were forced to
+    spend the night there.
+  example2_el: Μελέτησε εντατικά όλη τη χρονιά και, κατά συνέπεια, πέρασε με άριστα.
+  example2_en: She studied intensively all year and, as a result, passed with distinction.
+  audio: kata-synepeia-a0ce66.mp3
+  status: verified
+  example_audio: den-ypirchan-diathes-75b36e.mp3
+  example2_audio: meletise-entatika-ol-f251bc.mp3
+- id: A2-U12-025
+  greek: συνοψίζοντας
+  english: summarizing / in brief
+  notes: Present active participle of 'συνοψίζω'. Used formulaically at conclusion
+    of oral monologue.
+  gender_or_pos: participle (discourse)
+  grammatical_info:
+    part_of_speech: participle
+    verb: συνοψίζω (to summarize)
+  keg_communicative_function: Summarizing personal thoughts before ending an oral
+    response
+  example_el: Συνοψίζοντας, θεωρώ ότι η εκμάθηση της ελληνικής γλώσσας αποτελεί μια
+    σπουδαία εμπειρία.
+  example_en: Summarizing, I consider that learning the Greek language constitutes
+    a great experience.
+  example2_el: Συνοψίζοντας τα κύρια σημεία, καταλήγουμε στην ανάγκη άμεσης δράσης.
+  example2_en: Summarizing the main points, we conclude on the necessity for immediate
+    action.
+  audio: synopsizontas-6f3f28.mp3
+  status: verified
+  example_audio: synopsizontas-theoro-be6e89.mp3
+  example2_audio: synopsizontas-ta-kyr-3f3006.mp3
+- id: A2-U12-026
+  greek: ο χρόνος εξέτασης
+  english: exam time / allotted duration
+  notes: Masculine noun phrase. Critical parameter for managing pace across test papers.
+  gender_or_pos: noun phrase (masculine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    collocation: διαχείριση χρόνου (time management)
+  keg_communicative_function: Managing test pacing and respecting allotted section
+    time limits
+  example_el: Η σωστή διαχείριση του χρόνου εξέτασης είναι κρίσιμη για να προλάβετε
+    όλες τις ερωτήσεις.
+  example_en: Proper management of exam time is critical in order to get to all questions.
+  example2_el: Ο χρόνος εξέτασης για την παραγωγή γραπτού λόγου είναι σαράντα πέντε
+    λεπτά.
+  example2_en: The exam time for written production is forty-five minutes.
+  audio: o-chronos-exetasis-c63351.mp3
+  status: verified
+  example_audio: i-sosti-diacheirisi--d62801.mp3
+  example2_audio: o-chronos-exetasis-g-45620e.mp3
+- id: A2-U12-027
+  greek: η πιστοποίηση
+  english: certification / attainment credential
+  notes: 'Feminine noun in -η (-εις). Official term: ''Πιστοποίηση Επάρκειας της Ελληνομάθειας''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    verb: πιστοποιώ
+    collocation: πιστοποίηση ελληνομάθειας
+  keg_communicative_function: Discussing certification goals and official language
+    credentials
+  example_el: Η πιστοποίηση επιπέδου Α2 αποτελεί πολύτιμο εφόδιο για την αγορά εργασίας
+    στην Ελλάδα.
+  example_en: The level A2 certification constitutes a valuable asset for the job
+    market in Greece.
+  example2_el: Ο φορέας πιστοποίησης ανακοίνωσε το επίσημο πρόγραμμα των εξετάσεων.
+  example2_en: The certification body announced the official exam schedule.
+  audio: i-pistopoiisi-032c27.mp3
+  status: verified
+  example_audio: i-pistopoiisi-epiped-de13a7.mp3
+  example2_audio: o-foreas-pistopoiisi-56aad7.mp3
+- id: A2-U12-028
+  greek: η στρατηγική
+  english: strategy / technique
+  notes: Feminine noun in -ή (-ές). Covers test-taking skills and preparation methods.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι στρατηγικές
+    adjective: στρατηγικός, -ή, -ό
+  keg_communicative_function: Applying effective exam techniques (skimming, scanning,
+    eliminating wrong options)
+  example_el: Μια καλή στρατηγική είναι να ξεκινήσετε από τις ασκήσεις που σας φαίνονται
+    πιο εύκολες.
+  example_en: A good strategy is to begin from the exercises that appear easiest to
+    you.
+  example2_el: Εφαρμόστε τις στρατηγικές κατανόησης που διδαχτήκατε στην τάξη.
+  example2_en: Apply the comprehension strategies that you were taught in class.
+  audio: i-stratigiki-0c6403.mp3
+  status: verified
+  example_audio: mia-kali-stratigiki--dce6c3.mp3
+  example2_audio: efarmoste-tis-strati-e5fb6c.mp3
+- id: A2-U12-029
+  greek: η προσοχή
+  english: attention / caution / care
+  notes: Feminine noun in -ή. Collocates with 'προσέχω' (to pay attention) or 'με
+    προσοχή' (carefully).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    verb: προσέχω
+    collocation: με μεγάλη προσοχή (with great care)
+  keg_communicative_function: Focusing carefully on exam instructions, rubric details,
+    and listening texts
+  example_el: Ακούστε το ηχητικό απόσπασμα με μεγάλη προσοχή κατά τη δεύτερη μετάδοση.
+  example_en: Listen to the audio excerpt with great attention during the second broadcast.
+  example2_el: Δώστε ιδιαίτερη προσοχή στην ορθογραφία και στα σημεία στίξης.
+  example2_en: Pay special attention to spelling and punctuation marks.
+  audio: i-prosochi-90a7d5.mp3
+  status: verified
+  example_audio: akoyste-to-ichitiko--02bcd8.mp3
+  example2_audio: doste-idiaiteri-pros-cc8a35.mp3
+- id: A2-U12-030
+  greek: η ψυχραιμία
+  english: composure / calmness / presence of mind
+  notes: 'Feminine compound noun: ψυχρός (cool) + αίμα (blood). Collocates with ''διατηρώ
+    την ψυχραιμία μου''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: ψύχραιμος, -η, -ο
+    collocation: κρατάω την ψυχραιμία μου (to keep my cool)
+  keg_communicative_function: Maintaining calm and confidence during testing conditions
+  example_el: Διατηρήστε την ψυχραιμία σας ακόμα κι αν συναντήσετε μια άγνωστη λέξη
+    στο κείμενο.
+  example_en: Maintain your composure even if you encounter an unfamiliar word in
+    the text.
+  example2_el: Η ψυχραιμία βοηθά στη συγκέντρωση και στην αποφυγή βιαστικών λαθών.
+  example2_en: Composure helps concentration and avoids hasty mistakes.
+  audio: i-psychraimia-073ac2.mp3
+  status: verified
+  example_audio: diatiriste-tin-psych-f56ae9.mp3
+  example2_audio: i-psychraimia-voitha-339a8c.mp3
+- id: A2-U12-031
+  greek: το επίτευγμα
+  english: achievement / accomplishment
+  notes: Neuter noun in -μα (-ματα). Relates to 'επιτυγχάνω' (to achieve/succeed).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επιτεύγματα
+    verb: επιτυγχάνω
+  keg_communicative_function: Celebrating the milestone of passing the Greek proficiency
+    examination
+  example_el: Η απόκτηση του πιστοποιητικού Α2 είναι ένα σπουδαίο επίτευγμα για κάθε
+    σπουδαστή.
+  example_en: Obtaining the A2 certificate is a great achievement for every student.
+  example2_el: Είμαστε υπερήφανοι για τα μαθησιακά επιτεύγματα όλων των υποψηφίων.
+  example2_en: We are proud of the learning achievements of all candidates.
+  audio: to-epiteygma-5d94a8.mp3
+  status: verified
+  example_audio: i-apoktisi-toy-pisto-37a189.mp3
+  example2_audio: eimaste-yperifanoi-g-4497ff.mp3
+- id: A2-U12-032
+  greek: η αυτοπεποίθηση
+  english: self-confidence
+  notes: 'Feminine compound noun: αυτός + πεποίθηση (conviction/trust).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    collocation: με αυτοπεποίθηση (with confidence)
+  keg_communicative_function: Speaking fluently and assertively during the candidate
+    pair interview
+  example_el: Μιλήστε καθαρά και με αυτοπεποίθηση στους εξεταστές κατά την προφορική
+    δοκιμασία.
+  example_en: Speak clearly and with self-confidence to the examiners during the oral
+    test.
+  example2_el: Η καλή προετοιμασία ενισχύει την αυτοπεποίθηση του υποψηφίου.
+  example2_en: Good preparation enhances the candidate's self-confidence.
+  audio: i-aytopepoithisi-914bab.mp3
+  status: verified
+  example_audio: miliste-kathara-kai--9274dd.mp3
+  example2_audio: i-kali-proetoimasia--acdc16.mp3
+- id: A2-U12-033
+  greek: η επανάληψη
+  english: revision / review / repetition
+  notes: Feminine noun in -η (-εις). Relates to 'επαναλαμβάνω' (to repeat / revise).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι επαναλήψεις
+    verb: επαναλαμβάνω
+    collocation: τελική επανάληψη (final revision)
+  keg_communicative_function: Scheduling systematic vocabulary and grammar revisions
+    prior to test day
+  example_el: Κάντε μια τελική επανάληψη των βασικών γραμματικών κανόνων λίγες μέρες
+    πριν από τις εξετάσεις.
+  example_en: Do a final revision of basic grammar rules a few days before the examinations.
+  example2_el: Η επανάληψη είναι η μητέρα της μαθήσεως.
+  example2_en: Repetition is the mother of learning.
+  audio: i-epanalipsi-07562e.mp3
+  status: verified
+  example_audio: kante-mia-teliki-epa-4c42c6.mp3
+  example2_audio: i-epanalipsi-einai-i-355005.mp3
+- id: A2-U12-034
+  greek: η συνεργασία των υποψηφίων
+  english: candidate collaboration (pair work)
+  notes: Feminine noun phrase. Specifically evaluated in Speaking Stage 3 (joint interaction).
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    evaluative_criterion: evaluated in Speaking Stage 3
+  keg_communicative_function: Demonstrating cooperative turn-taking and active listening
+    with a peer partner
+  example_el: Στο τρίτο μέρος της προφορικής εξέτασης αξιολογείται η ουσιαστική συνεργασία
+    των δύο υποψηφίων.
+  example_en: In the third part of the oral exam the substantive collaboration of
+    the two candidates is evaluated.
+  example2_el: Ακούστε προσεκτικά τον συνομιλητή σας και ανταποκριθείτε στα επιχειρήματά
+    του.
+  example2_en: Listen carefully to your partner and respond to their arguments.
+  audio: i-synergasia-ton-ypo-0e3163.mp3
+  status: verified
+  example_audio: sto-trito-meros-tis--a2af91.mp3
+  example2_audio: akoyste-prosektika-t-4422fa.mp3
+- id: A2-U12-035
+  greek: η επιτυχία
+  english: success
+  notes: Feminine noun in -α (-ες). Relates to 'πετυχαίνω' (to succeed / to pass).
+    Standard test blessing.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι επιτυχίες
+    verb: πετυχαίνω
+    collocation: καλή επιτυχία (good luck / every success)
+  keg_communicative_function: Wishing success and celebrating the completion of the
+    CEFR A2 curriculum
+  example_el: Σας συγχαίρω θερμά για την επιτυχία σας και την απόκτηση του Πιστοποιητικού
+    Ελληνομάθειας Α2!
+  example_en: I warmly congratulate you on your success and on obtaining the A2 Certificate
+    of Attainment in Greek!
+  example2_el: Η συνέπεια και η αγάπη για τη γλώσσα αποτελούν τη μεγαλύτερη εγγύηση
+    για την επιτυχία.
+  example2_en: Consistency and love for the language constitute the greatest guarantee
+    of success.
+  audio: i-epitychia-0e230d.mp3
+  status: verified
+  example_audio: sas-sygchairo-therma-703b53.mp3
+  example2_audio: i-synepeia-kai-i-aga-c72355.mp3
