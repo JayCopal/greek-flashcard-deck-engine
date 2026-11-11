@@ -1,0 +1,157 @@
+unit_id: unit-wr1-05
+lesson_id: lesson-01
+title: 'Μάθημα 5: Παγίδες Ορθογραφίας, Τόνοι & Συμφωνία (Error Hunter & Orthography
+  Traps)'
+description: 'Eliminating high-penalty errors in written production: πολύ vs πολλή,
+  final nu rules, -τε vs -ται verb endings, stress marks (τόνος), and clitic pronoun
+  placement.'
+lesson_status: not_started
+lesson_notes: 'Unit WR1-05 Core Notes: Orthography & Morphology Traps
+
+  • πολύ (adverb/neuter) vs πολλή (feminine noun modifier: πολλή δουλειά)
+
+  • -τε (active 2nd plural: κάνετε) vs -ται (mediopassive 3rd singular: κοιμάται)
+
+  • Τόνος: mandatory on EVERY word of 2+ syllables
+
+  • Final nu: preserved before vowels and stops (κ, π, τ, μπ, ντ, γκ, τσ, τζ, ξ, ψ).'
+entries:
+- id: WR1-U05-001
+  greek: πολύ vs πολλή
+  english: 'much/very: adverb/neuter (πολύ) vs feminine noun modifier (πολλή)'
+  notes: 'Top spelling trap. Adverb: ''πολύ καλά''. Feminine noun: ''πολλή δουλειά'',
+    ''πολλή ζέστη''.'
+  gender_or_pos: grammar trap
+  example_el: Είχα πολλή δουλειά σήμερα στο γραφείο και κουράστηκα πολύ.
+  example_en: I had a lot of work today at the office and got very tired.
+  example2_el: Έκανε πολλή ζέστη, αλλά περάσαμε πολύ όμορφα.
+  example2_en: It was very hot, but we had a very nice time.
+  audio: poly-vs-polli-933abd.mp3
+  status: verified
+  example_audio: eicha-polli-doyleia--978e57.mp3
+  example2_audio: ekane-polli-zesti-al-d0947b.mp3
+- id: WR1-U05-002
+  greek: τον / την (τελικό ν)
+  english: final nu rule before vowels and stops (κ, π, τ, μπ, ντ, γκ, τσ, τζ, ξ,
+    ψ)
+  notes: Retention of final ν is mandatory before vowels and plosives (τον φίλο vs
+    τον πατέρα).
+  gender_or_pos: orthography rule
+  example_el: Είδα τον πατέρα μου και την καθηγήτριά μου στο δρόμο.
+  example_en: I saw my father and my teacher on the street.
+  example2_el: Άκουσα το τραγούδι και τη μουσική από μακριά.
+  example2_en: I heard the song and the music from afar.
+  audio: ton-tin-teliko-n-2a77e1.mp3
+  status: verified
+  example_audio: eida-ton-patera-moy--c3259f.mp3
+  example2_audio: akoysa-to-tragoydi-k-234b6c.mp3
+- id: WR1-U05-003
+  greek: -τε vs -ται
+  english: second person plural active (-τε) vs third person singular mediopassive
+    (-ται)
+  notes: 'Top morphological trap: εσείς κάνετε (active -τε) vs αυτός κοιμάται (passive
+    -ται).'
+  gender_or_pos: morphology trap
+  example_el: Εσείς τι κάνετε το απόγευμα όταν εκείνος ξεκουράζεται;
+  example_en: What are you doing in the afternoon when he is resting?
+  example2_el: Περιμένετε λίγο παρακαλώ, γιατί ο γιατρός ετοιμάζεται.
+  example2_en: Wait a little, please, because the doctor is getting ready.
+  audio: te-vs-tai-dcf58d.mp3
+  status: verified
+  example_audio: eseis-ti-kanete-to-a-e8ccd1.mp3
+  example2_audio: perimenete-ligo-para-23a8e3.mp3
+- id: WR1-U05-004
+  greek: πέρυσι / πέρσι
+  english: last year (spelling with υ and ι)
+  notes: 'Spelling safe harbor: π-έ-ρ-υ-σ-ι. Common error is spelling with ι or η.'
+  gender_or_pos: adverb (spelling)
+  example_el: Πέρυσι το καλοκαίρι πήγαμε διακοπές στη Νάξο.
+  example_en: Last year in the summer we went on vacation to Naxos.
+  example2_el: Πέρυσι τέτοια εποχή έμενα ακόμα στη Θεσσαλονίκη.
+  example2_en: Last year at this time I was still living in Thessaloniki.
+  audio: perysi-persi-04f9d8.mp3
+  status: verified
+  example_audio: perysi-to-kalokairi--de6abb.mp3
+  example2_audio: perysi-tetoia-epochi-4d5d45.mp3
+- id: WR1-U05-005
+  greek: περασμένος, -η, -ο
+  english: 'past / previous (spelling with double sigma: -σσ-)'
+  notes: 'Spelled with double sigma: περασμένος (from περνάω). E.g. την περασμένη
+    εβδομάδα.'
+  gender_or_pos: adjective (spelling)
+  example_el: Τον περασμένο μήνα άλλαξα διαμέρισμα και γειτονιά.
+  example_en: Last month I changed apartment and neighborhood.
+  example2_el: Την περασμένη Κυριακή πήγαμε εκδρομή στο βουνό.
+  example2_en: Last Sunday we went on an excursion to the mountain.
+  audio: perasmenos-i-o-e76cd0.mp3
+  status: verified
+  example_audio: ton-perasmeno-mina-a-bca76c.mp3
+  example2_audio: tin-perasmeni-kyriak-a12010.mp3
+- id: WR1-U05-006
+  greek: είμαι vs είχα vs ήμουν
+  english: 'tense distinction: I am (είμαι) vs I had (είχα) vs I was (ήμουν)'
+  notes: Crucial distinction between present auxiliary, past possession, and past
+    existence.
+  gender_or_pos: verb distinction
+  example_el: Χθες ήμουν άρρωστος και είχα πυρετό, αλλά σήμερα είμαι πολύ καλύτερα.
+  example_en: Yesterday I was sick and had a fever, but today I am much better.
+  example2_el: Όταν ήμουν μικρός, είχα έναν σκύλο.
+  example2_en: When I was young, I had a dog.
+  audio: eimai-vs-eicha-vs-im-76471d.mp3
+  status: verified
+  example_audio: chthes-imoyn-arrosto-6f847f.mp3
+  example2_audio: otan-imoyn-mikros-ei-bfa163.mp3
+- id: WR1-U05-007
+  greek: μου / σου / του (θέση κλιτικών)
+  english: weak clitic pronouns position before finite verbs and after imperatives
+  notes: 'Placement rule: ''μου είπε'' (before verb) vs ''πες μου'' (after imperative).'
+  gender_or_pos: syntax rule
+  example_el: Μου έδωσε τα κλειδιά και μου είπε να προσέχω.
+  example_en: He gave me the keys and told me to be careful.
+  example2_el: Δώσε μου σε παρακαλώ το τηλέφωνο του γιατρού.
+  example2_en: Give me, please, the doctor's phone number.
+  audio: moy-soy-toy-thesi-kl-a52c3e.mp3
+  status: verified
+  example_audio: moy-edose-ta-kleidia-aec213.mp3
+  example2_audio: dose-moy-se-parakalo-92e867.mp3
+- id: WR1-U05-008
+  greek: στο / στη(ν) / στο / στους / στις / στα
+  english: preposition 'σε' + definite article contractions
+  notes: 'Mandatory contraction in Greek: σε + τον -> στον, σε + την -> στην, σε +
+    το -> στο.'
+  gender_or_pos: contraction rule
+  example_el: Πήγαμε στο νησί, μείναμε στο ξενοδοχείο και φάγαμε στην ταβέρνα.
+  example_en: We went to the island, stayed at the hotel, and ate at the taverna.
+  example2_el: Συναντηθήκαμε στις οκτώ το βράδυ στον σταθμό του μετρό.
+  example2_en: We met at eight in the evening at the metro station.
+  audio: sto-sti-n-sto-stoys--6b4787.mp3
+  status: verified
+  example_audio: pigame-sto-nisi-mein-2f936b.mp3
+  example2_audio: synantithikame-stis--660e56.mp3
+- id: WR1-U05-009
+  greek: ανυπομονώ να...
+  english: I look forward to... (+ subjunctive)
+  notes: Fixed collocation followed by subjunctive 'να'. Great closing formula in
+    Task 1/2.
+  gender_or_pos: phrase
+  example_el: Ανυπομονώ να σε δω το Σαββατοκύριακο και να τα πούμε.
+  example_en: I look forward to seeing you over the weekend and catching up.
+  example2_el: Ανυπομονούμε να έρθουμε στο πάρτι των γενεθλίων σου.
+  example2_en: We look forward to coming to your birthday party.
+  audio: anypomono-na-3ccce1.mp3
+  status: verified
+  example_audio: anypomono-na-se-do-t-883ff9.mp3
+  example2_audio: anypomonoyme-na-erth-0a8a86.mp3
+- id: WR1-U05-010
+  greek: περνάω υπέροχα / πέρασα αξέχαστα
+  english: I am having a wonderful time / I had an unforgettable time
+  notes: Fixed idiomatic formula for holiday and party descriptions in Task 2.
+  gender_or_pos: idiom
+  example_el: Περάσαμε αξέχαστα στην Κρήτη και θέλουμε να ξαναπάμε του χρόνου.
+  example_en: We had an unforgettable time in Crete and want to go back next year.
+  example2_el: Περνάω υπέροχα στις διακοπές μου και ξεκουράζομαι πολύ.
+  example2_en: I am having a wonderful time on my holidays and resting a lot.
+  audio: pernao-yperocha-pera-3644a9.mp3
+  status: verified
+  example_audio: perasame-axechasta-s-172cdd.mp3
+  example2_audio: pernao-yperocha-stis-be189c.mp3

@@ -1,0 +1,178 @@
+unit_id: unit-wr2-04
+lesson_id: lesson-01
+title: 'Μάθημα 6: Γραπτός Λόγος — Ταξίδια, Διακοπές & Εκδρομές (A2 Writing: Travel
+  & Holidays)'
+description: 'Mastering the narrative past in Task 2 compositions: setting the scene,
+  describing places, expressing impressions, and using chronological Aorist chains.'
+lesson_status: not_started
+lesson_notes: "Unit A2-06 Core Notes: Ταξίδια & Διακοπές (Travel & Past Experiences)\n\
+  • Dominant Genre for Task 2 (60–80 words):\n  Examiners consistently ask you to\
+  \ write a letter or email to a friend about a past vacation, weekend excursion,\
+  \ or visit to a village.\n• Narrative Structure:\n  1. Opening: «Γεια σου [Όνομα]!\
+  \ Σου γράφω για να σου πω για τις διακοπές μου...»\n  2. Setting the Scene (Where,\
+  \ When, Who): «Το περασμένο καλοκαίρι πήγα στην Κρήτη με την παρέα μου.»\n  3. Atmosphere\
+  \ & Weather: «Ο καιρός ήταν υπέροχος και το μέρος ήταν πανέμορφο.»\n  4. Chronological\
+  \ Actions (Aorist): «Το πρωί κάναμε μπάνιο... το μεσημέρι φάγαμε σε παραδοσιακή\
+  \ ταβέρνα... το βράδυ ήπιαμε κρασί...»\n  5. Impression & Closing: «Περάσαμε αξέχαστα\
+  \ και ελπίζω να ξαναπάμε σύντομα! Σε φιλώ, [Όνομα]»."
+entries:
+- id: A2-U06-001
+  greek: Το περασμένο καλοκαίρι πήγα διακοπές στην Κρήτη με την παρέα μου.
+  english: Last summer I went on vacation to Crete with my group of friends.
+  notes: '[Lego Sentence Builder] Essential narrative opening anchor. Spells: περασμένο
+    (with double sigma), παρέα μου (feminine accusative).'
+  gender_or_pos: sentence
+  keg_communicative_function: Setting the scene and time of past holidays
+  example_el: Το περασμένο καλοκαίρι πήγα διακοπές στην Κρήτη με την παρέα μου και
+    μείναμε δύο εβδομάδες σε ένα μικρό χωριό.
+  example_en: Last summer I went on vacation to Crete with my friends and we stayed
+    two weeks in a small village.
+  audio: to-perasmeno-kalokai-a2d363.mp3
+  status: verified
+- id: A2-U06-002
+  greek: Ο καιρός ήταν υπέροχος και η θέα από το ξενοδοχείο ήταν μαγευτική.
+  english: The weather was wonderful and the view from the hotel was magical.
+  notes: '[Lego Sentence Builder] Sensory description chunk. Uses imperfect ''ήταν''
+    with descriptive adjectives ''υπέροχος'' and ''μαγευτική''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing weather and scenery in narrative writing
+  example_el: Ο καιρός ήταν υπέροχος όλη την εβδομάδα και η θέα από το ξενοδοχείο
+    στη θάλασσα ήταν πραγματικά μαγευτική.
+  example_en: The weather was wonderful all week and the view from the hotel towards
+    the sea was truly magical.
+  audio: o-kairos-itan-yperoc-13ed3a.mp3
+  status: verified
+- id: A2-U06-003
+  greek: Κάθε πρωί κάναμε μπάνιο στην παραλία και το μεσημέρι τρώγαμε φρέσκο ψάρι.
+  english: Every morning we swam at the beach and at midday we ate fresh fish.
+  notes: '[Lego Sentence Builder] Contrasting habitual past actions (κάναμε, τρώγαμε)
+    with time markers (κάθε πρωί, το μεσημέρι).'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing daily holiday activities in the past
+  example_el: Κάθε πρωί κάναμε μπάνιο στην παραλία, κολυμπούσαμε με τις ώρες και το
+    μεσημέρι τρώγαμε φρέσκο ψάρι σε μια ταβέρνα.
+  example_en: Every morning we swam at the beach, swam for hours, and at noon we ate
+    fresh fish at a taverna.
+  audio: kathe-proi-kaname-mp-63bbaf.mp3
+  status: verified
+- id: A2-U06-004
+  greek: Επισκεφτήκαμε τα αρχαία μνημεία και περπατήσαμε στα γραφικά σοκάκια του χωριού.
+  english: We visited the ancient monuments and walked in the picturesque alleys of
+    the village.
+  notes: '[Lego Sentence Builder] Sightseeing vocabulary: deponent past ''επισκεφτήκαμε''
+    + adjective ''γραφικά σοκάκια''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Recounting cultural visits and sightseeing
+  example_el: Το απόγευμα επισκεφτήκαμε τα αρχαία μνημεία και περπατήσαμε στα γραφικά
+    σοκάκια του χωριού όπου αγοράσαμε αναμνηστικά.
+  example_en: In the afternoon we visited the ancient monuments and walked in the
+    picturesque alleys of the village where we bought souvenirs.
+  audio: episkeftikame-ta-arc-d94136.mp3
+  status: verified
+- id: A2-U06-005
+  greek: Μια μέρα νοικιάσαμε ένα καραβάκι και πήγαμε σε μια απομονωμένη παραλία.
+  english: One day we rented a small boat and went to an isolated beach.
+  notes: '[Lego Sentence Builder] Specific punctive event in Aorist: ''νοικιάσαμε''
+    (Aorist of νοικιάζω), ''απομονωμένη παραλία''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Narrating a highlight or special event during a journey
+  example_el: Μια μέρα νοικιάσαμε ένα καραβάκι και πήγαμε σε μια απομονωμένη παραλία
+    όπου τα νερά ήταν κρυστάλλινα.
+  example_en: One day we rented a small boat and went to an isolated beach where the
+    waters were crystal clear.
+  audio: mia-mera-noikiasame--0ea6b1.mp3
+  status: verified
+- id: A2-U06-006
+  greek: Περάσαμε αξέχαστα και ελπίζω να ξαναπάμε εκεί του χρόνου.
+  english: We had an unforgettable time and I hope we go there again next year.
+  notes: '[High-Yield Evaluation Chunk] ''Περάσαμε αξέχαστα'' (we had an unforgettable
+    time) is an examiner-favorite closing impression.'
+  gender_or_pos: sentence
+  keg_communicative_function: Expressing overall positive impression of a journey
+  example_el: Ήταν οι καλύτερες διακοπές της ζωής μου. Περάσαμε αξέχαστα και ελπίζω
+    να ξαναπάμε εκεί του χρόνου!
+  example_en: It was the best vacation of my life. We had an unforgettable time and
+    I hope we go there again next year!
+  audio: perasame-axechasta-k-df8383.mp3
+  status: verified
+- id: A2-U06-007
+  greek: Γυρίσαμε στο σπίτι αργά το βράδυ, κουρασμένοι αλλά πολύ χαρούμενοι.
+  english: We returned home late in the evening, tired but very happy.
+  notes: '[Lego Sentence Builder] Concluding narrative sentence: Aorist ''γυρίσαμε''
+    + plural adjectives ''κουρασμένοι αλλά πολύ χαρούμενοι''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Concluding a holiday narrative with return details and
+    mood
+  example_el: Το ταξίδι τελείωσε την Κυριακή. Γυρίσαμε στο σπίτι αργά το βράδυ, κουρασμένοι
+    αλλά πολύ χαρούμενοι.
+  example_en: The trip ended on Sunday. We returned home late in the evening, tired
+    but very happy.
+  audio: gyrisame-sto-spiti-a-8540ce.mp3
+  status: verified
+- id: A2-U06-008
+  greek: Γράμμα σε φίλο για τις καλοκαιρινές διακοπές (Task 2 Simulation)
+  english: 'Prompt: Write a 65-75 word email describing a summer vacation (destination,
+    activities, food, feelings).'
+  notes: '[Micro-Prompt Simulation - Task 2: 72 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα email σε έναν φίλο σας (60-75 λέξεις) για να του περιγράψετε:
+
+    • πού πήγατε διακοπές και με ποιους
+
+    • τι κάνατε εκεί (δραστηριότητες και φαγητό)
+
+    • πώς περάσατε και ποιες είναι οι εντυπώσεις σας»
+
+
+    Gold-Standard Model Response:
+
+    Αγαπητέ Γιώργο,
+
+    Σου γράφω για να σου πω τα νέα μου! Τον Αύγουστο πήγα διακοπές στη Νάξο με τους
+    φίλους μου. Μείναμε σε ένα όμορφο ξενοδοχείο κοντά στη θάλασσα.
+
+    Κάθε μέρα κολυμπούσαμε σε υπέροχες παραλίες και το μεσημέρι τρώγαμε φρέσκο ψάρι
+    σε παραδοσιακές ταβέρνες. Το βράδυ περπατούσαμε στη Χώρα. Περάσαμε αξέχαστα και
+    ξεκουραστήκαμε πολύ! Εσύ πού πήγες φέτος;
+
+    Πολλά φιλιά,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a complete narrative composition about past
+    summer holidays
+  example_el: Αγαπητέ Γιώργο, τον Αύγουστο πήγα διακοπές στη Νάξο με τους φίλους μου.
+    Κάθε μέρα κολυμπούσαμε και τρώγαμε φρέσκο ψάρι. Περάσαμε αξέχαστα! Πολλά φιλιά!
+  example_en: Dear Giorgos, in August I went on vacation to Naxos with my friends.
+    Every day we swam and ate fresh fish. We had an unforgettable time! Lots of kisses!
+  audio: gramma-se-filo-gia-t-fc33e4.mp3
+  status: verified
+- id: A2-U06-009
+  greek: Το περασμένο Σαββατοκύριακο πήγαμε μια μονοήμερη εκδρομή στο βουνό.
+  english: Last weekend we went on a one-day excursion to the mountain.
+  notes: '[Lego Sentence Builder] Excursion topic: compound noun ''μονοήμερη εκδρομή''
+    (feminine accusative), ''στο βουνό''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing weekend excursions and nature trips
+  example_el: Το περασμένο Σαββατοκύριακο πήγαμε μια μονοήμερη εκδρομή στο βουνό,
+    κάναμε πεζοπορία στο δάσος και αναπνεύσαμε καθαρό αέρα.
+  example_en: Last weekend we went on a one-day excursion to the mountain, hiked in
+    the forest, and breathed clean air.
+  audio: to-perasmeno-savvato-66cab4.mp3
+  status: verified
+- id: A2-U06-010
+  greek: Δοκιμάσαμε παραδοσιακές τοπικές συνταγές και ήπιαμε ντόπιο κρασί.
+  english: We tasted traditional local recipes and drank local wine.
+  notes: '[Lego Sentence Builder] Aorist irregular ''ήπιαμε'' (from πίνω) + adjective
+    agreement: ''παραδοσιακές τοπικές συνταγές'', ''ντόπιο κρασί''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing local cuisine and dining experiences during
+    travels
+  example_el: Στο ορεινό χωριό δοκιμάσαμε παραδοσιακές τοπικές συνταγές και ήπιαμε
+    ντόπιο κρασί με τη συνοδεία παραδοσιακής μουσικής.
+  example_en: In the mountain village we tasted traditional local recipes and drank
+    local wine accompanied by traditional music.
+  audio: dokimasame-paradosia-1d5408.mp3
+  status: verified

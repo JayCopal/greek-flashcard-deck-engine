@@ -1,0 +1,148 @@
+unit_id: unit-wr1-06
+lesson_id: lesson-01
+title: 'Μάθημα 6: Lego Sentence Builders — Task 1 Σημειώματα & Μηνύματα (Task 1 Functional
+  Notes)'
+description: 'Modular sentence building blocks for Task 1 functional notes (30-45
+  words): arrangements, leaving keys, watering plants, excusing absence, and reminders.'
+lesson_status: not_started
+lesson_notes: "Unit WR1-06 Core Notes: Task 1 Functional Notes (30–45 words)\n• Structure:\n\
+  \  1. Greeting (Γεια σου [Όνομα])\n  2. Purpose (Σου γράφω για να σου πω... / Έχω\
+  \ αφήσει...)\n  3. Instructions or polite request (Μπορείς σε παρακαλώ να...)\n\
+  \  4. Action closer (Πάρε με τηλέφωνο / Σε φιλώ)."
+entries:
+- id: WR1-U06-001
+  greek: Σου γράφω αυτό το σημείωμα για να σου πω...
+  english: I am writing you this note to tell you...
+  notes: '[Lego Builder] Standard opening sentence for functional Task 1 notes (30-45
+    words).'
+  gender_or_pos: sentence frame
+  example_el: Σου γράφω αυτό το σημείωμα για να σου πω ότι σήμερα θα αργήσω να γυρίσω.
+  example_en: I am writing you this note to tell you that today I will be late returning.
+  example2_el: Σου γράφω αυτό το σύντομο σημείωμα για να σου αφήσω τα κλειδιά.
+  example2_en: I am writing you this brief note to leave you the keys.
+  audio: soy-grafo-ayto-to-si-bc716e.mp3
+  status: verified
+  example_audio: soy-grafo-ayto-to-si-d37112.mp3
+  example2_audio: soy-grafo-ayto-to-sy-976f8a.mp3
+- id: WR1-U06-002
+  greek: Έχω αφήσει τα κλειδιά στο γραφείο σου.
+  english: I have left the keys on your desk.
+  notes: '[Lego Builder] Perfect tense (έχω αφήσει) stating key location for roommates/colleagues.'
+  gender_or_pos: sentence
+  example_el: Έχω αφήσει τα κλειδιά του σπιτιού στο πάνω συρτάρι του γραφείου σου.
+  example_en: I have left the house keys in the top drawer of your desk.
+  example2_el: Έχω αφήσει τα κλειδιά στον γείτονα του πρώτου ορόφου.
+  example2_en: I have left the keys with the first-floor neighbor.
+  audio: echo-afisei-ta-kleid-73750b.mp3
+  status: verified
+  example_audio: echo-afisei-ta-kleid-d7f416.mp3
+  example2_audio: echo-afisei-ta-kleid-495b54.mp3
+- id: WR1-U06-003
+  greek: Μπορείς σε παρακαλώ να ποτίσεις τα φυτά;
+  english: Could you please water the plants?
+  notes: '[Lego Builder] Modal polite request in neighbor notes during absence.'
+  gender_or_pos: question
+  example_el: Μπορείς σε παρακαλώ να ποτίσεις τα φυτά στο μπαλκόνι δύο φορές την εβδομάδα;
+  example_en: Could you please water the plants on the balcony twice a week?
+  example2_el: Μπορείς σε παρακαλώ να ταΐσεις τη γάτα όσο θα λείπω;
+  example2_en: Could you please feed the cat while I will be away?
+  audio: mporeis-se-parakalo--e303c8.mp3
+  status: verified
+  example_audio: mporeis-se-parakalo--107025.mp3
+  example2_audio: mporeis-se-parakalo--97306b.mp3
+- id: WR1-U06-004
+  greek: Θέλεις να πάμε μαζί για καφέ το απόγευμα;
+  english: Do you want to go together for coffee this afternoon?
+  notes: '[Lego Builder] Informal invitation sentence frame.'
+  gender_or_pos: question
+  example_el: Θέλεις να πάμε μαζί για καφέ το απόγευμα στην πλατεία;
+  example_en: Do you want to go together for coffee this afternoon in the square?
+  example2_el: Θέλεις να πάμε για φαγητό μετά το μάθημα των ελληνικών;
+  example2_en: Do you want to go for food after the Greek lesson?
+  audio: theleis-na-pame-mazi-8a0899.mp3
+  status: verified
+  example_audio: theleis-na-pame-mazi-459879.mp3
+  example2_audio: theleis-na-pame-gia--a1379a.mp3
+- id: WR1-U06-005
+  greek: Δυστυχώς δεν θα μπορέσω να έρθω στο ραντεβού.
+  english: Unfortunately I won't be able to come to the appointment.
+  notes: '[Lego Builder] Polite cancellation/decline frame with modal future.'
+  gender_or_pos: sentence
+  example_el: Δυστυχώς δεν θα μπορέσω να έρθω στο ραντεβού μας γιατί προέκυψε κάτι
+    επείγον.
+  example_en: Unfortunately I won't be able to come to our appointment because something
+    urgent came up.
+  example2_el: Δυστυχώς δεν θα μπορέσω να παρευρεθώ στη συνάντηση λόγω ασθένειας.
+  example2_en: Unfortunately I won't be able to attend the meeting due to illness.
+  audio: dystychos-den-tha-mp-f1150e.mp3
+  status: verified
+  example_audio: dystychos-den-tha-mp-85f2ed.mp3
+  example2_audio: dystychos-den-tha-mp-dd1f10.mp3
+- id: WR1-U06-006
+  greek: Τι λες να το κανονίσουμε για την επόμενη εβδομάδα;
+  english: What do you say we arrange it for next week?
+  notes: '[Lego Builder] Alternative date proposal after declining.'
+  gender_or_pos: question
+  example_el: Τι λες να το κανονίσουμε για την επόμενη εβδομάδα που θα έχω περισσότερο
+    χρόνο;
+  example_en: What do you say we arrange it for next week when I will have more time?
+  example2_el: Τι λες να βρεθούμε την Τετάρτη αντί για τη Δευτέρα;
+  example2_en: What do you say we meet on Wednesday instead of Monday?
+  audio: ti-les-na-to-kanonis-ceb0f2.mp3
+  status: verified
+  example_audio: ti-les-na-to-kanonis-414a80.mp3
+  example2_audio: ti-les-na-vrethoyme--4d62a5.mp3
+- id: WR1-U06-007
+  greek: Σε παρακαλώ, διάβασε τα επείγοντα μηνύματα.
+  english: Please read the urgent messages.
+  notes: '[Lego Builder] Workplace handover imperative in absence notes.'
+  gender_or_pos: imperative sentence
+  example_el: Σε παρακαλώ, διάβασε τα επείγοντα μηνύματα και απάντησε στους πελάτες.
+  example_en: Please read the urgent messages and reply to the clients.
+  example2_el: Σε παρακαλώ, ενημέρωσε τον διευθυντή για την απουσία μου.
+  example2_en: Please inform the manager about my absence.
+  audio: se-parakalo-diavase--0f1e95.mp3
+  status: verified
+  example_audio: se-parakalo-diavase--b0730e.mp3
+  example2_audio: se-parakalo-enimeros-9525df.mp3
+- id: WR1-U06-008
+  greek: Σου αφήνω τα χρήματα πάνω στο τραπέζι.
+  english: I am leaving you the money on the table.
+  notes: '[Lego Builder] Shared flat / utility bill note statement.'
+  gender_or_pos: sentence
+  example_el: Σου αφήνω τα χρήματα για τον λογαριασμό του ρεύματος πάνω στο τραπέζι.
+  example_en: I am leaving you the money for the electricity bill on the table.
+  example2_el: Σου αφήνω το μερίδιό μου για τα κοινόχρηστα στο σαλόνι.
+  example2_en: I am leaving you my share for the building maintenance in the living
+    room.
+  audio: soy-afino-ta-chrimat-da7436.mp3
+  status: verified
+  example_audio: soy-afino-ta-chrimat-b44763.mp3
+  example2_audio: soy-afino-to-meridio-cd708b.mp3
+- id: WR1-U06-009
+  greek: Μην ξεχάσεις να κλειδώσεις την εξώπορτα.
+  english: Don't forget to lock the front door.
+  notes: '[Lego Builder] Negative imperative reminder: μην + subjunctive (μην ξεχάσεις).'
+  gender_or_pos: imperative sentence
+  example_el: Όταν φύγεις από το σπίτι, μην ξεχάσεις να κλειδώσεις την εξώπορτα.
+  example_en: When you leave the house, don't forget to lock the front door.
+  example2_el: Μην ξεχάσεις να σβήσεις τα φώτα και το κλιματιστικό.
+  example2_en: Don't forget to turn off the lights and the air conditioner.
+  audio: min-xechaseis-na-kle-e6436e.mp3
+  status: verified
+  example_audio: otan-fygeis-apo-to-s-a97796.mp3
+  example2_audio: min-xechaseis-na-svi-a43003.mp3
+- id: WR1-U06-010
+  greek: Θα επιστρέψω το βράδυ γύρω στις εννέα.
+  english: I will return tonight around nine.
+  notes: '[Lego Builder] Stating anticipated return time in daily notes.'
+  gender_or_pos: sentence
+  example_el: Έχω πολλές δουλειές στην πόλη, οπότε θα επιστρέψω το βράδυ γύρω στις
+    εννέα.
+  example_en: I have many errands in the city, so I will return tonight around nine.
+  example2_el: Θα επιστρέψω από το γραφείο νωρίς το απόγευμα.
+  example2_en: I will return from the office early in the afternoon.
+  audio: tha-epistrepso-to-vr-86e8c7.mp3
+  status: verified
+  example_audio: echo-polles-doyleies-00d05a.mp3
+  example2_audio: tha-epistrepso-apo-t-134592.mp3

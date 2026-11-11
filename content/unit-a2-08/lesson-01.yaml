@@ -1,195 +1,711 @@
 unit_id: unit-a2-08
 lesson_id: lesson-01
-title: 'Μάθημα 8: Γραπτός Λόγος — Υγεία, Συμπτώματα & Απουσία (A2 Writing: Health
-  & Absences)'
-description: Describing illness symptoms, doctor diagnoses, and writing polite notes
-  to employers, teachers, or colleagues excusing absences.
+title: 'Μάθημα 8: Καιρός, Φύση & Γεωγραφία της Ελλάδας (Weather, Nature & Geography)'
+description: Interpreting weather bulletins, seasonal forecasts, and maritime Beaufort
+  scales, describing Greek geography (mountains, islands, rivers, lakes), and mastering
+  adjectives in -ύς, -ιά, -ύ (βαθύς, βαρύς, ελαφρύς, πλατύς).
 lesson_status: not_started
-lesson_notes: "Unit A2-08 Core Notes: Υγεία & Απουσία (Health, Symptoms & Excuses)\n\
-  • Recurring Prompt Type:\n  Writing an urgent email or SMS to your employer (αφεντικό/προϊστάμενος),\
-  \ colleague (συνάδελφος), or teacher explaining why you cannot come to work/class.\n\
-  • Core Components of the Absence Note:\n  1. The Direct Statement: «Δεν θα μπορέσω\
-  \ να έρθω σήμερα...» (I won't be able to come today...)\n  2. The Cause & Symptoms:\
-  \ «...γιατί έχω πυρετό και πονάει ο λαιμός μου.»\n  3. The Doctor's Orders: «Ο γιατρός\
-  \ μού είπε να μείνω στο κρεβάτι...»\n  4. Handover of Urgent Duties: «Έχω αφήσει\
-  \ τα έγγραφα... παρακαλώ κοιτάξτε τα email...»\n  5. Anticipated Return: «Ελπίζω\
-  \ να επιστρέψω τη Δευτέρα.»"
+lesson_notes: "Unit A2-08 Core Notes: Καιρός, Φύση & Γεωγραφία (Weather & Greek Geography)\n\
+  • Weather Forecast Terminology:\n  - θερμοκρασία (temperature), βροχή (rain), καταιγίδα\
+  \ (storm), χιόνι (snow), άνεμος (wind), μποφόρ (Beaufort).\n  - αίθριος καιρός (clear\
+  \ skies), νεφώσεις (cloud cover), υγρασία (humidity).\n• Adjectives in -ύς, -ιά,\
+  \ -ύ:\n  - βαθύς/βαθιά/βαθύ (deep), βαρύς/βαριά/βαρύ (heavy), ελαφρύς/ελαφριά/ελαφρύ\
+  \ (light), πλατύς/πλατιά/πλατύ (wide)."
 entries:
 - id: A2-U08-001
-  greek: Από χθες το βράδυ έχω υψηλό πυρετό και πονάει πολύ ο λαιμός μου.
-  english: Since last night I have a high fever and my throat hurts a lot.
-  notes: '[Lego Sentence Builder] Stating symptoms: ''έχω υψηλό πυρετό'', impersonal
-    verb ''πονάει'' + masculine subject ''ο λαιμός μου''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing acute illness symptoms and physical pain
-  example_el: Από χθες το βράδυ έχω υψηλό πυρετό, έντονο πονοκέφαλο και πονάει πολύ
-    ο λαιμός μου.
-  example_en: Since last night I have a high fever, a severe headache, and my throat
-    hurts a lot.
-  audio: apo-chthes-to-vrady--b1552d.mp3
+  greek: ο καιρός
+  english: weather / time
+  notes: Masculine noun in -ός (-οί). 'Τι καιρό κάνει;' = What's the weather like?
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καιροί
+    collocation: δελτίο καιρού (weather forecast / bulletin)
+  keg_communicative_function: Asking about and describing weather conditions in dialogues
+    and listening tasks
+  example_el: Τι καιρό προβλέπεται να κάνει το Σαββατοκύριακο στην Αττική;
+  example_en: What weather is forecast for the weekend in Attica?
+  example2_el: Ο καιρός σήμερα είναι θαυμάσιος με άπλετη ηλιοφάνεια.
+  example2_en: The weather today is magnificent with ample sunshine.
+  audio: o-kairos-7c6f51.mp3
   status: verified
+  example_audio: ti-kairo-provlepetai-c757f8.mp3
+  example2_audio: o-kairos-simera-eina-fba350.mp3
 - id: A2-U08-002
-  greek: Πήγα στον γιατρό σήμερα το πρωί και μου είπε ότι έχω βαριά γρίπη.
-  english: I went to the doctor this morning and he told me that I have a bad flu.
-  notes: '[Lego Sentence Builder] Reporting medical diagnosis: irregular Aorists ''πήγα''
-    and ''μου είπε'' + noun ''γρίπη''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Reporting medical consultation and diagnosis
-  example_el: Πήγα στον γιατρό σήμερα το πρωί και μου είπε ότι έχω βαριά γρίπη και
-    πρέπει να προσέχω.
-  example_en: I went to the doctor this morning and he told me that I have a bad flu
-    and I must be careful.
-  audio: piga-ston-giatro-sim-8b672e.mp3
+  greek: η θερμοκρασία
+  english: temperature
+  notes: Feminine noun in -α (-ες). Collocates with 'βαθμοί Κελσίου' and verbs 'ανεβαίνει'
+    / 'πέφτει'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θερμοκρασίες
+    collocation: η θερμοκρασία θα φτάσει τους... βαθμούς
+  keg_communicative_function: Interpreting recorded weather bulletins (Listening Part
+    1 & 3)
+  example_el: Η θερμοκρασία θα σημειώσει μικρή άνοδο και θα φτάσει τους τριάντα δύο
+    βαθμούς.
+  example_en: The temperature will rise slightly and will reach thirty-two degrees.
+  example2_el: Το βράδυ στα ορεινά η θερμοκρασία πέφτει αισθητά.
+  example2_en: At night in mountainous areas the temperature drops noticeably.
+  audio: i-thermokrasia-7df125.mp3
   status: verified
+  example_audio: i-thermokrasia-tha-s-b235d7.mp3
+  example2_audio: to-vrady-sta-oreina--588c47.mp3
 - id: A2-U08-003
-  greek: Πρέπει να μείνω στο κρεβάτι για τρεις μέρες και να πάρω αντιβίωση.
-  english: I must stay in bed for three days and take antibiotics.
-  notes: '[Lego Sentence Builder] Doctor orders: modal ''πρέπει να'' + dependent subjunctive
-    ''μείνω'' and ''πάρω''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Stating prescribed medical treatment and bed rest duration
-  example_el: 'Ο γιατρός ήταν αυστηρός: πρέπει να μείνω στο κρεβάτι για τρεις μέρες
-    και να πάρω αντιβίωση και βιταμίνες.'
-  example_en: 'The doctor was strict: I must stay in bed for three days and take antibiotics
-    and vitamins.'
-  audio: prepei-na-meino-sto--d4f9b7.mp3
+  greek: η ηλιοφάνεια
+  english: sunshine
+  notes: Feminine noun in -α. Characteristic meteorological term in Greek forecasts.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: ηλιόλουστος, -η, -ο (sunny)
+  keg_communicative_function: Extracting weather details from recorded radio and TV
+    bulletins
+  example_el: Στο μεγαλύτερο μέρος της χώρας προβλέπεται ηλιοφάνεια με λίγες αραιές
+    νεφώσεις.
+  example_en: In most parts of the country sunshine is forecast with few sparse clouds.
+  example2_el: Απολαύσαμε μια ηλιόλουστη μέρα κάνοντας βόλτα δίπλα στη θάλασσα.
+  example2_en: We enjoyed a sunny day taking a walk beside the sea.
+  audio: i-iliofaneia-0480f3.mp3
   status: verified
+  example_audio: sto-megalytero-meros-e5e38f.mp3
+  example2_audio: apolaysame-mia-iliol-b0269d.mp3
 - id: A2-U08-004
-  greek: Δυστυχώς δεν θα μπορέσω να έρθω στο γραφείο σήμερα και αύριο.
-  english: Unfortunately I will not be able to come to the office today and tomorrow.
-  notes: '[Lego Sentence Builder] Formal notification of absence: future ''δεν θα
-    μπορέσω'' + dependent subjunctive ''να έρθω''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Notifying workplace or school of an upcoming absence
-  example_el: Λόγω της ασθένειας, δυστυχώς δεν θα μπορέσω να έρθω στο γραφείο σήμερα
-    και αύριο.
-  example_en: Due to illness, unfortunately I will not be able to come to the office
-    today and tomorrow.
-  audio: dystychos-den-tha-mp-7dc4f0.mp3
+  greek: η συννεφιά
+  english: cloudiness / overcast sky
+  notes: 'Feminine noun in -ά. Relates to ''το σύννεφο'' (cloud). Adjective: ''συννεφιασμένος''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    noun_root: το σύννεφο
+    adjective: συννεφιασμένος, -η, -ο
+  keg_communicative_function: Describing sky conditions and impending rain
+  example_el: Από το μεσημέρι και μετά αναμένεται αυξημένη συννεφιά στα δυτικά.
+  example_en: From noon onwards increased cloudiness is expected in the west.
+  example2_el: Παρά τη συννεφιά, η θερμοκρασία παρέμεινε σε υψηλά επίπεδα.
+  example2_en: Despite the overcast sky, the temperature remained at high levels.
+  audio: i-synnefia-012c77.mp3
   status: verified
+  example_audio: apo-to-mesimeri-kai--cdaa15.mp3
+  example2_audio: para-ti-synnefia-i-t-7ac754.mp3
 - id: A2-U08-005
-  greek: Έχω αφήσει τον φάκελο με τα έγγραφα πάνω στο γραφείο μου.
-  english: I have left the folder with the documents on top of my desk.
-  notes: '[Lego Sentence Builder] Work delegation: perfect tense ''έχω αφήσει'' +
-    spatial preposition ''πάνω σε''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Delegating files and indicating item locations during
-    absence
-  example_el: Αν χρειαστείτε τα στοιχεία της υπόθεσης, έχω αφήσει τον φάκελο με τα
-    έγγραφα πάνω στο γραφείο μου.
-  example_en: If you need the case details, I have left the folder with the documents
-    on top of my desk.
-  audio: echo-afisei-ton-fake-c74a56.mp3
+  greek: η βροχή
+  english: rain
+  notes: 'Feminine noun in -ή (-ές). Verb: ''βρέχει'' (it''s raining).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βροχές
+    impersonal_verb: βρέχει
+    adjective: βροχερός, -ή, -ό
+  keg_communicative_function: Describing precipitation and planning indoor activities
+    accordingly
+  example_el: Το απόγευμα αναμένονται τοπικές βροχές και σποραδικές καταιγίδες.
+  example_en: In the afternoon local rain and sporadic thunderstorms are expected.
+  example2_el: Πάρτε ομπρέλα μαζί σας επειδή άρχισε δυνατή βροχή.
+  example2_en: Take an umbrella with you because heavy rain has started.
+  audio: i-vrochi-6244c9.mp3
   status: verified
+  example_audio: to-apogeyma-anamenon-09b5e7.mp3
+  example2_audio: parte-omprela-mazi-s-c72c49.mp3
 - id: A2-U08-006
-  greek: Για οτιδήποτε επείγον, μπορείτε να μου στείλετε μήνυμα στο κινητό.
-  english: For anything urgent, you can send me a message on my mobile.
-  notes: '[Polite Professional Formula] Pronoun ''οτιδήποτε'' + formal address ''μπορείτε
-    να μου στείλετε''.'
-  gender_or_pos: phrase
-  keg_communicative_function: Providing emergency contact instructions while away
-  example_el: Δεν θα απαντάω στο σταθερό, αλλά για οτιδήποτε επείγον μπορείτε να μου
-    στείλετε μήνυμα στο κινητό μου τηλέφωνο.
-  example_en: I will not be answering the landline, but for anything urgent you can
-    send me a message on my mobile phone.
-  audio: gia-otidipote-epeigo-5383b3.mp3
+  greek: η καταιγίδα
+  english: thunderstorm / tempest
+  notes: Feminine noun in -α (-ες). Accompanied by lightning ('αστραπή') and thunder
+    ('βροντή').
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καταιγίδες
+    genitive_singular: της καταιγίδας
+  keg_communicative_function: Understanding severe weather alerts in bulletins and
+    maritime warnings
+  example_el: Η σφοδρή καταιγίδα προκάλεσε προσωρινές διακοπές στην κυκλοφορία.
+  example_en: The violent thunderstorm caused temporary traffic disruptions.
+  example2_el: Μείνετε σε κλειστούς χώρους κατά τη διάρκεια της έντονης καταιγίδας.
+  example2_en: Stay indoors during the intense storm.
+  audio: i-kataigida-a0c1b1.mp3
   status: verified
+  example_audio: i-sfodri-kataigida-p-90ff1c.mp3
+  example2_audio: meinete-se-kleistoys-13dcc1.mp3
 - id: A2-U08-007
-  greek: Ελπίζω να αισθανθώ καλύτερα και να επιστρέψω στη δουλειά την Πέμπτη.
-  english: I hope to feel better and return to work on Thursday.
-  notes: '[Lego Sentence Builder] Stating return expectation: ''ελπίζω να'' + deponent
-    ''αισθανθώ'' + day of return.'
-  gender_or_pos: sentence
-  keg_communicative_function: Estimating recovery time and return date
-  example_el: Παίρνω τα φάρμακά μου και ελπίζω να αισθανθώ καλύτερα και να επιστρέψω
-    στη δουλειά την Πέμπτη το πρωί.
-  example_en: I am taking my medication and I hope to feel better and return to work
-    on Thursday morning.
-  audio: elpizo-na-aisthantho-5e02d7.mp3
+  greek: το χιόνι
+  english: snow
+  notes: 'Neuter noun in -ι (-ια). Verb: ''χιονίζει'' (it is snowing).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χιόνια
+    impersonal_verb: χιονίζει
+    adjective: χιονισμένος
+  keg_communicative_function: Describing winter weather conditions and mountain scenery
+  example_el: Τον χειμώνα πέφτει πολύ χιόνι στα ορεινά χωριά της Πίνδου.
+  example_en: In winter a lot of snow falls in the mountain villages of Pindus.
+  example2_el: Τα βουνά γύρω από την πόλη είναι ακόμα χιονισμένα.
+  example2_en: The mountains around the city are still snow-covered.
+  audio: to-chioni-d54bfa.mp3
   status: verified
+  example_audio: ton-cheimona-peftei--26ac11.mp3
+  example2_audio: ta-voyna-gyro-apo-ti-1e8dc9.mp3
 - id: A2-U08-008
-  greek: Email στον προϊστάμενο για απουσία λόγω ασθένειας (Task 1 Simulation)
-  english: 'Prompt: Write a 35-40 word email to your manager explaining your illness,
-    absence, and file location.'
-  notes: '[Micro-Prompt Simulation - Task 1: 37 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα email στον προϊστάμενό σας (30-40 λέξεις) για να του αναφέρετε:
-
-    • γιατί δεν μπορείτε να πάτε σήμερα στην εργασία σας
-
-    • τι σας είπε ο γιατρός
-
-    • πού βρίσκονται τα έγγραφα του νέου σχεδίου»
-
-
-    Gold-Standard Model Response:
-
-    Κύριε Παπαδόπουλε,
-
-    Σας ενημερώνω ότι σήμερα δεν θα έρθω στο γραφείο επειδή έχω υψηλό πυρετό. Ο γιατρός
-    μού είπε να ξεκουραστώ στο σπίτι. Τα έγγραφα του σχεδίου βρίσκονται πάνω στο γραφείο
-    μου.
-
-    Με εκτίμηση,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a formal email excusing illness absence to a
-    superior
-  example_el: Κύριε Παπαδόπουλε, σήμερα δεν θα έρθω στο γραφείο επειδή έχω πυρετό.
-    Ο γιατρός μού είπε να ξεκουραστώ. Τα έγγραφα βρίσκονται στο γραφείο μου. Με εκτίμηση!
-  example_en: Mr. Papadopoulos, today I will not come to the office because I have
-    a fever. The doctor told me to rest. The documents are on my desk. Sincerely!
-  audio: email-ston-proistame-01303f.mp3
+  greek: ο άνεμος
+  english: wind
+  notes: Masculine noun in -ος (-οι). Formal term for 'ο αέρας'. Measured in Beaufort
+    (μποφόρ).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι άνεμοι
+    collocation: άνεμοι εντάσεως 6 με 7 μποφόρ
+    verb: φυσάει
+  keg_communicative_function: Understanding maritime sailing advisories and wind force
+    levels
+  example_el: Στο Αιγαίο θα πνέουν ισχυροί βόρειοι άνεμοι εντάσεως επτά μποφόρ.
+  example_en: In the Aegean strong northern winds of force seven Beaufort will blow.
+  example2_el: Ο άνεμος ήταν τόσο δυνατός που δυσκόλευε τη βάδιση.
+  example2_en: The wind was so strong that it made walking difficult.
+  audio: o-anemos-a584b1.mp3
   status: verified
+  example_audio: sto-aigaio-tha-pneoy-0293f9.mp3
+  example2_audio: o-anemos-itan-toso-d-6bae33.mp3
 - id: A2-U08-009
-  greek: Σημείωμα στον καθηγητή ελληνικών για χαμένο μάθημα (Task 1 Simulation)
-  english: 'Prompt: Write a 30-35 word message to your Greek teacher explaining why
-    you missed class and asking for homework.'
-  notes: '[Micro-Prompt Simulation - Task 1: 33 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα μήνυμα στον καθηγητή των ελληνικών σας (30-35 λέξεις) για να:
-
-    • του εξηγήσετε γιατί λείψατε από το χθεσινό μάθημα
-
-    • ζητήσετε τις ασκήσεις για το σπίτι
-
-    • δηλώσετε πότε θα έρθετε στο επόμενο μάθημα»
-
-
-    Gold-Standard Model Response:
-
-    Αγαπητέ κύριε Γιώργο,
-
-    Συγγνώμη που έλειψα χθες από το μάθημα, αλλά ήμουν άρρωστος με κρυολόγημα. Μπορείτε
-    να μου στείλετε τις ασκήσεις για το σπίτι; Θα έρθω κανονικά την Παρασκευή.
-
-    Ευχαριστώ πολύ,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing an apologetic note to an instructor requesting
-    missed homework
-  example_el: Αγαπητέ κύριε Γιώργο, συγγνώμη που έλειψα χθες, αλλά ήμουν άρρωστος.
-    Μπορείτε να μου στείλετε τις ασκήσεις; Θα έρθω την Παρασκευή. Ευχαριστώ!
-  example_en: Dear Mr. Giorgos, sorry I was absent yesterday, but I was sick. Can
-    you send me the exercises? I will come on Friday. Thank you!
-  audio: simeioma-ston-kathig-8f40e2.mp3
+  greek: το μποφόρ
+  english: Beaufort (wind scale)
+  notes: Neuter indeclinable noun. Essential in Greek weather bulletins for ferry
+    sailing permissions (απαγορευτικό απόπλου at 8-9 Beaufort).
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun (indeclinable)
+    usage: measures wind force from 0 to 12
+  keg_communicative_function: Interpreting ferry departure delays due to windy conditions
+    in Listening Part 1
+  example_el: Λόγω ανέμων οκτώ μποφόρ εκδόθηκε απαγορευτικό απόπλου από τα λιμάνια.
+  example_en: Due to eight Beaufort winds a sailing ban was issued from the ports.
+  example2_el: Οι άνεμοι δεν θα ξεπεράσουν τα τέσσερα με πέντε μποφόρ.
+  example2_en: The winds will not exceed four to five Beaufort.
+  audio: to-mpofor-6c684e.mp3
   status: verified
+  example_audio: logo-anemon-okto-mpo-4aa430.mp3
+  example2_audio: oi-anemoi-den-tha-xe-f5120e.mp3
 - id: A2-U08-010
-  greek: Περαστικά και καλή ανάρρωση!
-  english: Get well soon and wishing you a speedy recovery!
-  notes: '[Convalescence Formula] Authentic Greek wish pair: ''περαστικά'' (may it
-    pass) + ''καλή ανάρρωση'' (good recovery).'
-  gender_or_pos: phrase
-  keg_communicative_function: Expressing get-well wishes to a sick friend or colleague
-  example_el: Έμαθα ότι είσαι άρρωστος στο κρεβάτι. Περαστικά και καλή ανάρρωση, φίλε
-    μου!
-  example_en: I learned that you are sick in bed. Get well soon and wishing you a
-    speedy recovery, my friend!
-  audio: perastika-kai-kali-a-0bc121.mp3
+  greek: φυσάει
+  english: it is windy / it blows
+  notes: 'Impersonal verb (3rd person singular). Past: ''φύσηξε''.'
+  gender_or_pos: verb (impersonal)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: φύσηξε
+    noun: ο άνεμος, ο αέρας
+  keg_communicative_function: Remarking on breezy or stormy conditions in conversational
+    exchanges
+  example_el: Σήμερα φυσάει πολύ, οπότε καλύτερα να μην πάμε για ιστιοπλοΐα.
+  example_en: Today it is very windy, so it is better that we don't go sailing.
+  example2_el: Στην κορυφή του λόφου φυσούσε ένας ευχάριστος δροσερός αέρας.
+  example2_en: At the top of the hill a pleasant cool breeze was blowing.
+  audio: fysaei-38b405.mp3
   status: verified
+  example_audio: simera-fysaei-poly-o-698743.mp3
+  example2_audio: stin-koryfi-toy-lofo-073e29.mp3
+- id: A2-U08-011
+  greek: βρέχει
+  english: it is raining
+  notes: 'Impersonal verb (3rd person singular). Simple past: ''έβρεξε''.'
+  gender_or_pos: verb (impersonal)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: έβρεξε
+    noun: η βροχή
+  keg_communicative_function: Describing rainy weather in daily conversation
+  example_el: Βρέχει καταρρακτωδώς εδώ και δύο ώρες, οι δρόμοι γέμισαν νερό.
+  example_en: It has been raining cats and dogs for two hours; the streets flooded
+    with water.
+  example2_el: Αν βρέχει αύριο, η εκδήλωση θα γίνει μέσα στην κλειστή αίθουσα.
+  example2_en: If it rains tomorrow, the event will take place inside the enclosed
+    hall.
+  audio: vrechei-406c0c.mp3
+  status: verified
+  example_audio: vrechei-katarraktodo-0874fa.mp3
+  example2_audio: an-vrechei-ayrio-i-e-77949c.mp3
+- id: A2-U08-012
+  greek: ο καύσωνας
+  english: heatwave
+  notes: Masculine noun in -ας (-ες). Frequent summer phenomenon in Greece (temperatures
+    > 38-40°C).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι καύσωνες
+    genitive_singular: του καύσωνα
+  keg_communicative_function: Understanding civil protection heat advisories and precautions
+  example_el: Κατά τη διάρκεια του καύσωνα οι ευάλωτες ομάδες πρέπει να παραμένουν
+    σε κλιματιζόμενους χώρους.
+  example_en: During the heatwave vulnerable groups must remain in air-conditioned
+    areas.
+  example2_el: Το κύμα καύσωνα αναμένεται να υποχωρήσει από την ερχόμενη Τρίτη.
+  example2_en: The heatwave is expected to recede starting next Tuesday.
+  audio: o-kaysonas-5671be.mp3
+  status: verified
+  example_audio: kata-ti-diarkeia-toy-f2f7e7.mp3
+  example2_audio: to-kyma-kaysona-anam-585ffb.mp3
+- id: A2-U08-013
+  greek: η κακοκαιρία
+  english: bad weather / severe storm
+  notes: 'Feminine noun in -α (-ες). Antonym: ''η καλοκαιρία'' (fine weather).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    antonym: η καλοκαιρία
+    collocation: κύμα κακοκαιρίας (cold snap / storm front)
+  keg_communicative_function: Reading storm warnings and news bulletins in Reading
+    Part 1 & 2
+  example_el: Η κακοκαιρία έπληξε κυρίως τις παραθαλάσσιες περιοχές της δυτικής Ελλάδας.
+  example_en: The severe weather hit mainly the coastal areas of western Greece.
+  example2_el: Λόγω της κακοκαιρίας τα σχολεία παρέμειναν κλειστά σήμερα.
+  example2_en: Due to bad weather the schools remained closed today.
+  audio: i-kakokairia-8c0f38.mp3
+  status: verified
+  example_audio: i-kakokairia-eplixe--9118fc.mp3
+  example2_audio: logo-tis-kakokairias-45f79b.mp3
+- id: A2-U08-014
+  greek: η καλοκαιρία
+  english: fine weather / fair skies
+  notes: 'Feminine noun in -α. Antonym: ''η κακοκαιρία''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    antonym: η κακοκαιρία
+  keg_communicative_function: Welcoming sunny skies and planning outdoor weekend trips
+  example_el: Η καλοκαιρία θα συνεχιστεί καθ' όλη τη διάρκεια της εβδομάδας.
+  example_en: The fine weather will continue throughout the week.
+  example2_el: Εκμεταλλευτήκαμε την καλοκαιρία για να κάνουμε πεζοπορία στο βουνό.
+  example2_en: We took advantage of the fine weather to go hiking in the mountain.
+  audio: i-kalokairia-5e966c.mp3
+  status: verified
+  example_audio: i-kalokairia-tha-syn-38a111.mp3
+  example2_audio: ekmetalleytikame-tin-3c480c.mp3
+- id: A2-U08-015
+  greek: το βουνό
+  english: mountain
+  notes: 'Neuter noun in -ό (-ά). Greece is 80% mountainous. Plural: ''τα βουνά''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα βουνά
+    genitive_singular: του βουνού
+    adjective: ορεινός, -ή, -ό
+  keg_communicative_function: Discussing geography, mountain villages, and hiking
+    routes
+  example_el: Ο Όλυμπος είναι το ψηλότερο βουνό της Ελλάδας με υψόμετρο σχεδόν τρεις
+    χιλιάδες μέτρα.
+  example_en: Olympus is the highest mountain in Greece with an altitude of nearly
+    three thousand meters.
+  example2_el: Πολλοί προτιμούν τις διακοπές στο βουνό αντί για τη θάλασσα.
+  example2_en: Many prefer mountain holidays instead of the sea.
+  audio: to-voyno-bdef81.mp3
+  status: verified
+  example_audio: o-olympos-einai-to-p-a8f27d.mp3
+  example2_audio: polloi-protimoyn-tis-f12cde.mp3
+- id: A2-U08-016
+  greek: η θάλασσα
+  english: sea
+  notes: Feminine noun in -α (-ες). Central geographical feature of Greece.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θάλασσες
+    genitive_singular: της θάλασσας
+    adjective: θαλάσσιος, -α, -ο
+  keg_communicative_function: Describing maritime landscapes and seaside excursions
+  example_el: Η θάλασσα ήταν εντελώς ήρεμη σαν λάδι σήμερα το πρωί.
+  example_en: The sea was completely calm like glass this morning.
+  example2_el: Η Ελλάδα περιβάλλεται από το Αιγαίο και το Ιόνιο Πέλαγος.
+  example2_en: Greece is surrounded by the Aegean and the Ionian Sea.
+  audio: i-thalassa-4f3dcd.mp3
+  status: verified
+  example_audio: i-thalassa-itan-ente-ce5057.mp3
+  example2_audio: i-ellada-perivalleta-5a91a5.mp3
+- id: A2-U08-017
+  greek: το δάσος
+  english: forest / woods
+  notes: 'Neuter noun in -ος (-η, genitive -ους). Plural: ''τα δάση''. Declension
+    paradigm: το δάσος, του δάσους, τα δάση.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δάση
+    genitive_singular: του δάσους
+    genitive_plural: των δασών
+  keg_communicative_function: Discussing environmental protection, nature walks, and
+    forest ecosystems
+  example_el: Πήγαμε για πικνίκ σε ένα πυκνό πευκοδάσος κοντά στην πόλη.
+  example_en: We went for a picnic in a dense pine forest near the city.
+  example2_el: Η προστασία των δασών από τις πυρκαγιές είναι κρίσιμο καθήκον όλων.
+  example2_en: Protecting forests from wildfires is everyone's crucial duty.
+  audio: to-dasos-57a62b.mp3
+  status: verified
+  example_audio: pigame-gia-piknik-se-efa357.mp3
+  example2_audio: i-prostasia-ton-daso-c089a3.mp3
+- id: A2-U08-018
+  greek: το ποτάμι
+  english: river
+  notes: 'Neuter noun in -ι (-ια). Formal variant: ''ο ποταμός''. Plural: ''τα ποτάμια''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ποτάμια
+    formal_variant: ο ποταμός
+    genitive_singular: του ποταμιού
+  keg_communicative_function: Describing inland waterways and nature activities (rafting,
+    canoeing)
+  example_el: Ο Αξιός είναι ένα από τα μεγαλύτερα ποτάμια της βόρειας Ελλάδας.
+  example_en: Axios is one of the largest rivers of northern Greece.
+  example2_el: Κάναμε ράφτινγκ στα καθαρά νερά του ποταμού Βοϊδομάτη.
+  example2_en: We did rafting in the clear waters of the Voidomatis river.
+  audio: to-potami-4fe131.mp3
+  status: verified
+  example_audio: o-axios-einai-ena-ap-a61f03.mp3
+  example2_audio: kaname-raftingk-sta--084c13.mp3
+- id: A2-U08-019
+  greek: η λίμνη
+  english: lake
+  notes: 'Feminine noun in -η (-ες). Major Greek lakes: Πρέσπες, Πλαστήρα, Παμβώτιδα.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι λίμνες
+    genitive_singular: της λίμνης
+  keg_communicative_function: Discussing scenic lake destinations in Ioannina, Kastoria,
+    or Plastira
+  example_el: Η πόλη των Ιωαννίνων είναι χτισμένη στις όχθες μιας πανέμορφης λίμνης.
+  example_en: The city of Ioannina is built on the shores of a gorgeous lake.
+  example2_el: Στη λίμνη ζουν πολλά σπάνια είδη πουλιών και ψαριών.
+  example2_en: Many rare species of birds and fish live in the lake.
+  audio: i-limni-b9a00b.mp3
+  status: verified
+  example_audio: i-poli-ton-ioanninon-49dcb9.mp3
+  example2_audio: sti-limni-zoyn-polla-5f4ac9.mp3
+- id: A2-U08-020
+  greek: η πεδιάδα
+  english: plain / flatland
+  notes: 'Feminine noun in -α (-ες). Major agricultural plains: Θεσσαλική πεδιάδα.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πεδιάδες
+    genitive_singular: της πεδιάδας
+    adjective: πεδινός, -ή, -ό
+  keg_communicative_function: Describing agricultural geography and rural landscapes
+    in Reading Part 2
+  example_el: Η θεσσαλική πεδιάδα είναι η μεγαλύτερη αγροτική περιοχή της χώρας.
+  example_en: The Thessalian plain is the largest agricultural region of the country.
+  example2_el: Στην πεδιάδα καλλιεργούνται σιτηρά, βαμβάκι και οπωροφόρα δέντρα.
+  example2_en: In the plain cereals, cotton, and fruit trees are cultivated.
+  audio: i-pediada-fcbba2.mp3
+  status: verified
+  example_audio: i-thessaliki-pediada-cc1a58.mp3
+  example2_audio: stin-pediada-kallier-69bd17.mp3
+- id: A2-U08-021
+  greek: το τοπίο
+  english: landscape / scenery
+  notes: Neuter noun in -ο (-α). Collocates with 'μαγευτικό τοπίο' (enchanting scenery).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τοπία
+    genitive_singular: του τοπίου
+  keg_communicative_function: Describing scenic beauty in travel essays and postcards
+  example_el: Το ηλιοβασίλεμα στη Σαντορίνη δημιουργεί ένα ανεπανάληπτο τοπίο.
+  example_en: The sunset in Santorini creates an unforgettable landscape.
+  example2_el: Το ορεινό τοπίο αλλάζει χρώματα ανάλογα με την εποχή του χρόνου.
+  example2_en: The mountainous landscape changes colors according to the season of
+    the year.
+  audio: to-topio-efc645.mp3
+  status: verified
+  example_audio: to-iliovasilema-sti--9d15c7.mp3
+  example2_audio: to-oreino-topio-alla-306362.mp3
+- id: A2-U08-022
+  greek: βαθύς
+  english: deep
+  notes: 'Adjective in -ύς, -ιά, -ύ (βαθύς, βαθιά, βαθύ / πληθυντικός: βαθιοί, βαθιές,
+    βαθιά). Crucial A2 declension milestone.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: βαθιά
+    neuter: βαθύ
+    plural_masculine: βαθιοί
+    plural_feminine: βαθιές
+    plural_neuter: βαθιά
+  keg_communicative_function: Describing sea depth, waters, or deep ravines
+  example_el: Προσέχετε όταν κολυμπάτε, τα νερά σε αυτή την παραλία είναι πολύ βαθιά.
+  example_en: Be careful when you swim; the waters at this beach are very deep.
+  example2_el: Το φαράγγι της Σαμαριάς έχει εντυπωσιακά βαθιά περάσματα.
+  example2_en: The Samaria gorge has impressively deep passes.
+  audio: vathys-0b3837.mp3
+  status: verified
+  example_audio: prosechete-otan-koly-11f10b.mp3
+  example2_audio: to-faraggi-tis-samar-4ac2a5.mp3
+- id: A2-U08-023
+  greek: βαρύς
+  english: heavy / severe (winter)
+  notes: Adjective in -ύς, -ιά, -ύ (βαρύς, βαριά, βαρύ). Used for physical weight
+    or harsh winter ('βαρύς χειμώνας').
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: βαριά
+    neuter: βαρύ
+    plural_masculine: βαριοί
+    plural_feminine: βαριές
+    plural_neuter: βαριά
+  keg_communicative_function: Describing luggage weight or harsh climatic conditions
+  example_el: Η βαλίτσα μου είναι πολύ βαριά και δυσκολεύομαι να τη σηκώσω.
+  example_en: My suitcase is very heavy and I have difficulty lifting it.
+  example2_el: Φέτος περιμένουμε έναν βαρύ χειμώνα με πολλά χιόνια στα βόρεια.
+  example2_en: This year we expect a severe winter with heavy snow in the north.
+  audio: varys-6e4f12.mp3
+  status: verified
+  example_audio: i-valitsa-moy-einai--ffa058.mp3
+  example2_audio: fetos-perimenoyme-en-cae94c.mp3
+- id: A2-U08-024
+  greek: ελαφρύς
+  english: light (weight) / mild (weather)
+  notes: 'Adjective in -ύς, -ιά, -ύ (ελαφρύς, ελαφριά, ελαφρύ). Antonym: ''βαρύς''.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ελαφριά
+    neuter: ελαφρύ
+    antonym: βαρύς
+  keg_communicative_function: Describing light clothing, mild breezes, or light meals
+  example_el: Το καλοκαίρι στην Ελλάδα καλό είναι να φοράτε ελαφριά βαμβακερά ρούχα.
+  example_en: In summer in Greece it is wise to wear light cotton clothes.
+  example2_el: Ένα ελαφρύ αεράκι έκανε τη ζέστη του απογεύματος υποφερτή.
+  example2_en: A light breeze made the afternoon heat bearable.
+  audio: elafrys-b4a95e.mp3
+  status: verified
+  example_audio: to-kalokairi-stin-el-6b7392.mp3
+  example2_audio: ena-elafry-aeraki-ek-1974cb.mp3
+- id: A2-U08-025
+  greek: πλατύς
+  english: wide / broad
+  notes: 'Adjective in -ύς, -ιά, -ύ (πλατύς, πλατιά, πλατύ). Antonym: ''στενός'' (narrow).'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: πλατιά
+    neuter: πλατύ
+    antonym: στενός, -ή, -ό
+  keg_communicative_function: Describing avenues, rivers, or squares in directional
+    dialogues
+  example_el: Η λεωφόρος είναι πολύ πλατιά με τέσσερις λωρίδες κυκλοφορίας.
+  example_en: The avenue is very wide with four traffic lanes.
+  example2_el: Καθίσαμε κάτω από την πλατιά σκιά ενός μεγάλου πλάτανου στην πλατεία.
+  example2_en: We sat under the broad shade of a large plane tree in the square.
+  audio: platys-357f71.mp3
+  status: verified
+  example_audio: i-leoforos-einai-pol-5d3600.mp3
+  example2_audio: kathisame-kato-apo-t-655339.mp3
+- id: A2-U08-026
+  greek: η υγρασία
+  english: humidity
+  notes: Feminine noun in -α. High in coastal Greek cities and islands during summer
+    and winter.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: υγρός, -ή, -ό (humid / moist)
+    collocation: ποσοστό υγρασίας (humidity percentage)
+  keg_communicative_function: Discussing comfort levels and weather conditions in
+    different Greek regions
+  example_el: Στη Θεσσαλονίκη το καλοκαίρι η υγρασία κάνει τη ζέστη πιο αποπνικτική.
+  example_en: In Thessaloniki in summer the humidity makes the heat more suffocating.
+  example2_el: Το ποσοστό της υγρασίας σήμερα αγγίζει το ογδόντα τοις εκατό.
+  example2_en: The humidity percentage today reaches eighty percent.
+  audio: i-ygrasia-dfaf21.mp3
+  status: verified
+  example_audio: sti-thessaloniki-to--55b9ca.mp3
+  example2_audio: to-pososto-tis-ygras-aec4e8.mp3
+- id: A2-U08-027
+  greek: το κύμα
+  english: wave (sea wave / heatwave)
+  notes: 'Neuter noun in -μα (-ματα). Plural: ''τα κύματα''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κύματα
+    genitive_singular: του κύματος
+    collocation: κύμα καύσωνα (heatwave)
+  keg_communicative_function: Describing sea conditions or metaphorical weather waves
+    (cold/heat)
+  example_el: Τα κύματα ήταν τόσο ψηλά που απαγορεύτηκε το κολύμπι στους λουόμενους.
+  example_en: The waves were so high that swimming was prohibited to bathers.
+  example2_el: Ακούγαμε τον ήχο των κυμάτων να σπάνε πάνω στα βράχια.
+  example2_en: We heard the sound of waves crashing on the rocks.
+  audio: to-kyma-7cba73.mp3
+  status: verified
+  example_audio: ta-kymata-itan-toso--e7e25b.mp3
+  example2_audio: akoygame-ton-icho-to-6f2e86.mp3
+- id: A2-U08-028
+  greek: παγώνει
+  english: it freezes / it turns icy
+  notes: 'Impersonal or active verb. Past: ''πάγωσε''. Used for winter ice on roads
+    or freezing cold.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: πάγωσε
+    noun: ο πάγος (ice)
+  keg_communicative_function: Discussing sub-zero winter road hazards and ice warnings
+  example_el: Τη νύχτα η θερμοκρασία πέφτει κάτω από το μηδέν και ο δρόμος παγώνει.
+  example_en: At night the temperature drops below zero and the road freezes.
+  example2_el: Πάγωσα από το κρύο περιμένοντας στη στάση του λεωφορείου.
+  example2_en: I froze from the cold waiting at the bus stop.
+  audio: pagonei-c56d85.mp3
+  status: verified
+  example_audio: ti-nychta-i-thermokr-0c508b.mp3
+  example2_audio: pagosa-apo-to-kryo-p-05e66f.mp3
+- id: A2-U08-029
+  greek: η ψύχρα
+  english: chill / coolness
+  notes: Feminine noun in -α. Mild cold typical of Greek autumn and spring evenings.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: ψυχρός, -ή, -ό
+    phrase: κάνει ψύχρα (it's chilly)
+  keg_communicative_function: Advising friends to bring a jacket for evening breezes
+  example_el: Το βράδυ δίπλα στη θάλασσα βγάζει ψύχρα, γι' αυτό πάρε μαζί σου μια
+    ζακέτα.
+  example_en: At night beside the sea it gets chilly, so take a cardigan with you.
+  example2_el: Παρά την πρωινή ψύχρα, το μεσημέρι ο ήλιος ζέστανε την ατμόσφαιρα.
+  example2_en: Despite the morning chill, at noon the sun warmed the atmosphere.
+  audio: i-psychra-b2a5db.mp3
+  status: verified
+  example_audio: to-vrady-dipla-sti-t-e0e708.mp3
+  example2_audio: para-tin-proini-psyc-f8d8e9.mp3
+- id: A2-U08-030
+  greek: η πρόγνωση
+  english: forecast / prognosis
+  notes: Feminine noun in -η (-εις). Scientific synonym of 'η πρόβλεψη' (forecast).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προγνώσεις
+    collocation: πρόγνωση καιρού (weather forecast)
+  keg_communicative_function: Interpreting meteorological bulletins and planning activities
+    according to forecasts
+  example_el: Η πρόγνωση του καιρού για τις επόμενες μέρες δείχνει σταδιακή βελτίωση.
+  example_en: The weather forecast for the coming days shows gradual improvement.
+  example2_el: Σύμφωνα με τις προγνώσεις των ειδικών, η άνοιξη θα ξεκινήσει με ήπιες
+    θερμοκρασίες.
+  example2_en: According to experts' forecasts, spring will begin with mild temperatures.
+  audio: i-prognosi-564b97.mp3
+  status: verified
+  example_audio: i-prognosi-toy-kairo-456efa.mp3
+  example2_audio: symfona-me-tis-progn-3600a9.mp3
+- id: A2-U08-031
+  greek: η προειδοποίηση
+  english: warning / alert
+  notes: Feminine noun in -η (-εις). Often issued by the civil protection authority
+    (Πολιτική Προστασία).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προειδοποιήσεις
+    verb: προειδοποιώ
+  keg_communicative_function: Understanding emergency text messages and severe weather
+    warnings
+  example_el: Λάβαμε έκτακτη προειδοποίηση στο κινητό για επικίνδυνα καιρικά φαινόμενα.
+  example_en: We received an emergency alert on our phone for dangerous weather phenomena.
+  example2_el: Η μετεωρολογική υπηρεσία εξέδωσε προειδοποίηση για θυελλώδεις ανέμους.
+  example2_en: The meteorological service issued a warning for gale-force winds.
+  audio: i-proeidopoiisi-9eeb70.mp3
+  status: verified
+  example_audio: lavame-ektakti-proei-651071.mp3
+  example2_audio: i-meteorologiki-ypir-28455d.mp3
+- id: A2-U08-032
+  greek: το φαινόμενο
+  english: phenomenon
+  notes: 'Neuter noun in -ο (-α). Plural: ''τα φαινόμενα''. Collocates with ''καιρικά
+    φαινόμενα''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φαινόμενα
+    collocation: έντονα καιρικά φαινόμενα (severe weather events)
+  keg_communicative_function: Analyzing natural phenomena in news articles of Reading
+    Part 2
+  example_el: Τα έντονα καιρικά φαινόμενα θα εξασθενήσουν σταδιακά από αύριο το πρωί.
+  example_en: The severe weather phenomena will gradually weaken starting tomorrow
+    morning.
+  example2_el: Η έκλειψη ηλίου είναι ένα σπάνιο αστρονομικό φαινόμενο.
+  example2_en: A solar eclipse is a rare astronomical phenomenon.
+  audio: to-fainomeno-48b4d9.mp3
+  status: verified
+  example_audio: ta-entona-kairika-fa-49e0c9.mp3
+  example2_audio: i-ekleipsi-ilioy-ein-55fe01.mp3
+- id: A2-U08-033
+  greek: ο βαθμός Κελσίου
+  english: degree Celsius
+  notes: Masculine noun phrase. Essential unit for temperatures across Greece.
+  gender_or_pos: noun phrase (masculine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι βαθμοί Κελσίου
+    syntax: στους είκοσι βαθμούς (at twenty degrees)
+  keg_communicative_function: Understanding and stating exact temperatures in weather
+    reports
+  example_el: Το θερμόμετρο στην κεντρική πλατεία έδειχνε τριάντα οκτώ βαθμούς Κελσίου.
+  example_en: The thermometer in the central square showed thirty-eight degrees Celsius.
+  example2_el: Η θερμοκρασία κυμαίνεται από δώδεκα έως είκοσι βαθμούς Κελσίου.
+  example2_en: The temperature ranges from twelve to twenty degrees Celsius.
+  audio: o-vathmos-kelsioy-ae31be.mp3
+  status: verified
+  example_audio: to-thermometro-stin--e3a1b5.mp3
+  example2_audio: i-thermokrasia-kymai-688128.mp3
+- id: A2-U08-034
+  greek: το νησιωτικό σύμπλεγμα
+  english: island complex / archipelago
+  notes: Neuter noun phrase. Formal geographical term (π.χ. Κυκλάδες, Δωδεκάνησα,
+    Επτάνησα).
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα νησιωτικά συμπλέγματα
+    examples: Κυκλάδες, Σποράδες, Δωδεκάνησα
+  keg_communicative_function: Recognizing major regional island groups in geographic
+    and cultural texts
+  example_el: Οι Κυκλάδες είναι ένα διάσημο νησιωτικό σύμπλεγμα στην καρδιά του Αιγαίου.
+  example_en: The Cyclades are a famous island complex in the heart of the Aegean.
+  example2_el: Το σύμπλεγμα των Δωδεκανήσων βρίσκεται στο νοτιοανατολικό άκρο της
+    Ελλάδας.
+  example2_en: The Dodecanese complex is located at the southeastern tip of Greece.
+  audio: to-nisiotiko-sympleg-777977.mp3
+  status: verified
+  example_audio: oi-kyklades-einai-en-df4da3.mp3
+  example2_audio: to-symplegma-ton-dod-2c5e87.mp3
+- id: A2-U08-035
+  greek: το περιβάλλον
+  english: the environment
+  notes: Neuter noun in -ον (-οντος). Collocates with 'προστασία του περιβάλλοντος'
+    (environmental protection).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    genitive_singular: του περιβάλλοντος
+    adjective: περιβαλλοντικός, -ή, -ό
+  keg_communicative_function: Discussing ecology, nature conservation, and recycling
+    in A2 thematic essays
+  example_el: Ο σεβασμός προς το φυσικό περιβάλλον αποτελεί βασική αξία της κοινωνίας
+    μας.
+  example_en: Respect for the natural environment constitutes a fundamental value
+    of our society.
+  example2_el: Η ανακύκλωση και η μείωση του πλαστικού βοηθούν στην προστασία του
+    περιβάλλοντος.
+  example2_en: Recycling and reducing plastic help protect the environment.
+  audio: to-perivallon-981ac9.mp3
+  status: verified
+  example_audio: o-sevasmos-pros-to-f-656cbd.mp3
+  example2_audio: i-anakyklosi-kai-i-m-17816d.mp3

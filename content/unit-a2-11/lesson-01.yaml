@@ -1,317 +1,740 @@
 unit_id: unit-a2-11
 lesson_id: lesson-01
-title: 'Μάθημα 11: Γραπτός Λόγος — Προσομοιώσεις Εξετάσεων ΚΕΓ Α2 (A2 Writing: Mock
-  Exam Capstone)'
-description: 'Full-scale integrated exam simulations replicating authentic KEG past
-  papers: paired Task 1 (30-45 words) and Task 2 (65-80 words) prompts with model
-  scripts and scoring rubrics.'
+title: 'Μάθημα 11: Πολιτισμός, ΜΜΕ & Ψηφιακή Ζωή (Culture, Media & Digital Life)'
+description: Engaging with Greek cinema, theater, news, digital platforms, and internet
+  communication, using neuter third-declension nouns in -ος / -ους (το λάθος, το μέρος,
+  το κόστος) and relative pronouns (που, ο οποίος).
 lesson_status: not_started
-lesson_notes: "Unit A2-11 Core Notes: Προσομοιώσεις Εξετάσεων (Exam Simulations Capstone)\n\
-  • Final Exam Timing Protocol (45 Minutes Total):\n  - Minutes 0–3: Read both prompts\
-  \ carefully. Underline bullet points and required tenses.\n  - Minutes 3–15 (12\
-  \ mins): Write Task 1 (30–45 words).\n  - Minutes 15–38 (23 mins): Write Task 2\
-  \ (65–80 words).\n  - Minutes 38–45 (7 mins): Mandatory Proofreading Checklist:\n\
-  \    [ ] Tones on EVERY word of 2+ syllables.\n    [ ] Correct vowels: ι/η/υ/ει/οι,\
-  \ ο/ω.\n    [ ] Subject-verb agreement.\n    [ ] Every bullet point answered directly.\n\
-  \    [ ] Word count strictly respected."
+lesson_notes: "Unit A2-11 Core Notes: Πολιτισμός & Ψηφιακή Ζωή (Culture & Digital\
+  \ Media)\n• Cultural Events & Media:\n  - θέατρο (theater), παράσταση (performance),\
+  \ εισιτήρια (tickets), συναυλία (concert), έκθεση (exhibition).\n  - διαδίκτυο (internet),\
+  \ εφαρμογή (app), κοινωνικά δίκτυα (social media), μήνυμα (message).\n• Neuter Nouns\
+  \ in -ος / -ους:\n  - το λάθος / τα λάθη (mistake), το μέρος / τα μέρη (place),\
+  \ το κόστος (cost), το κράτος (state)."
 entries:
 - id: A2-U11-001
-  greek: 'Προσομοίωση 1 - Task 1: Σημείωμα σε γείτονα για πότισμα φυτών (35 λέξεις)'
-  english: 'Mock Exam 1 - Task 1: Write a 30-40 word note to a neighbor asking them
-    to water plants while away.'
-  notes: '[Full Mock Exam 1 - Task 1: 36 words]
-
-    Examiner Prompt:
-
-    «Φεύγετε για ολιγοήμερες διακοπές. Γράψτε ένα σημείωμα στον γείτονά σας (30-40
-    λέξεις) για να:
-
-    • του πείτε ότι θα λείψετε και για πόσες μέρες
-
-    • του ζητήσετε να ποτίσει τα φυτά στο μπαλκόνι σας
-
-    • του εξηγήσετε πού έχετε αφήσει το κλειδί»
-
-
-    Gold-Standard Model Script:
-
-    Γεια σου κύριε Νίκο,
-
-    Θα λείψω για διακοπές για τέσσερις μέρες. Μπορείτε σας παρακαλώ να ποτίσετε τα
-    λουλούδια στο μπαλκόνι μου μια φορά; Έχω αφήσει το κλειδί κάτω από το χαλάκι.
-    Σας ευχαριστώ πολύ!
-
-    Φιλικά,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a functional neighborly request note with key
-    instructions
-  example_el: Γεια σου κύριε Νίκο, θα λείψω για τέσσερις μέρες. Μπορείτε να ποτίσετε
-    τα λουλούδια στο μπαλκόνι; Έχω αφήσει το κλειδί κάτω από το χαλάκι. Ευχαριστώ
-    πολύ!
-  example_en: Hi Mr. Nikos, I will be away for four days. Can you water the flowers
-    on the balcony? I have left the key under the mat. Thank you very much!
-  audio: prosomoiosi-1-task-1-97984c.mp3
+  greek: ο πολιτισμός
+  english: culture / civilization
+  notes: Masculine noun in -ός (-οί). Covers arts, cultural heritage, and historical
+    civilization.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πολιτισμοί
+    adjective: πολιτιστικός, -ή, -ό
+    collocation: υπουργείο πολιτισμού (ministry of culture)
+  keg_communicative_function: Discussing cultural events, festivals, and Greek heritage
+    in Reading Part 2
+  example_el: Η Ελλάδα έχει πλούσιο πολιτισμό και μακραίωνη ιστορία που προσελκύει
+    εκατομμύρια επισκέπτες.
+  example_en: Greece has a rich culture and long history that attracts millions of
+    visitors.
+  example2_el: Ο δήμος διοργανώνει πολιτιστικές εκδηλώσεις για μικρούς και μεγάλους.
+  example2_en: The municipality organizes cultural events for young and old.
+  audio: o-politismos-8c146f.mp3
   status: verified
+  example_audio: i-ellada-echei-ploys-45ab90.mp3
+  example2_audio: o-dimos-diorganonei--44e7ea.mp3
 - id: A2-U11-002
-  greek: 'Προσομοίωση 1 - Task 2: Γράμμα για απρόοπτο περιστατικό σε ταξίδι (72 λέξεις)'
-  english: 'Mock Exam 1 - Task 2: Write a 65-75 word letter recounting an unexpected
-    adventure during a weekend trip.'
-  notes: '[Full Mock Exam 1 - Task 2: 72 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα email σε έναν φίλο σας (65-75 λέξεις) για ένα απρόοπτο γεγονός που
-    σας συνέβη σε πρόσφατη εκδρομή:
-
-    • πού είχατε πάει και με ποιο μεταφορικό μέσο
-
-    • τι συνέβη ξαφνικά (το απρόοπτο)
-
-    • πώς λύθηκε το πρόβλημα και πώς νιώσατε στο τέλος»
-
-
-    Gold-Standard Model Script:
-
-    Αγαπητέ μου Κώστα,
-
-    Σου γράφω για να σου διηγηθώ τι μου συνέβη! Το Σάββατο πήγαμε εκδρομή στο Ναύπλιο
-    με το αυτοκίνητο.
-
-    Καθώς οδηγούσαμε στην εθνική οδό, ξαφνικά έσκασε το λάστιχο του αυτοκινήτου! Ευτυχώς,
-    ένας ευγενικός οδηγός σταμάτησε αμέσως και μας βοήθησε να αλλάξουμε τη ρόδα. Στην
-    αρχή φοβηθήκαμε πολύ, αλλά τελικά φτάσαμε ασφαλείς στο ξενοδοχείο και γελάσαμε
-    με την περιπέτειά μας.
-
-    Περιμένω νέα σου,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a detailed narrative describing an unexpected
-    travel incident and resolution
-  example_el: Αγαπητέ Κώστα, το Σάββατο πήγαμε στο Ναύπλιο με το αυτοκίνητο. Ξαφνικά
-    έσκασε το λάστιχο! Ευτυχώς ένας ευγενικός οδηγός μάς βοήθησε. Τελικά φτάσαμε ασφαλείς!
-    Περιμένω νέα σου!
-  example_en: Dear Kostas, on Saturday we went to Nafplio by car. Suddenly the tire
-    popped! Luckily a kind driver helped us. In the end we arrived safely! Looking
-    forward to your news!
-  audio: prosomoiosi-1-task-2-9dcfda.mp3
+  greek: η τέχνη
+  english: art
+  notes: Feminine noun in -η (-ες). Covers fine arts, painting, music, and theater.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι τέχνες
+    adjective: καλλιτεχνικός, -ή, -ό
+    collocation: έργο τέχνης (work of art)
+  keg_communicative_function: Appreciating exhibitions and discussing creative hobbies
+  example_el: Η μοντέρνα τέχνη εκφράζει τις αγωνίες και τις ιδέες της σύγχρονης κοινωνίας.
+  example_en: Modern art expresses the anxieties and ideas of contemporary society.
+  example2_el: Στην πινακοθήκη εκτίθενται αριστουργήματα της νεοελληνικής τέχνης.
+  example2_en: Masterpieces of modern Greek art are exhibited in the art gallery.
+  audio: i-techni-1fcc6b.mp3
   status: verified
+  example_audio: i-monterna-techni-ek-0a708d.mp3
+  example2_audio: stin-pinakothiki-ekt-4b5bcb.mp3
 - id: A2-U11-003
-  greek: 'Προσομοίωση 2 - Task 1: Απάντηση σε πρόσκληση για έκθεση ζωγραφικής (36
-    λέξεις)'
-  english: 'Mock Exam 2 - Task 1: Write a 30-40 word email accepting an art exhibition
-    invite and asking for venue details.'
-  notes: '[Full Mock Exam 2 - Task 1: 36 words]
-
-    Examiner Prompt:
-
-    «Μια φίλη σας σάς κάλεσε στα εγκαίνια της έκθεσης ζωγραφικής της. Γράψτε της ένα
-    μήνυμα (30-40 λέξεις) για να:
-
-    • δεχτείτε με ενθουσιασμό την πρόσκληση
-
-    • ρωτήσετε την ακριβή διεύθυνση και την ώρα
-
-    • ευχηθείτε καλή επιτυχία»
-
-
-    Gold-Standard Model Script:
-
-    Αγαπητή μου Ελένη,
-
-    Συγχαρητήρια για την έκθεση ζωγραφικής σου! Θα έρθω με πάρα πολύ μεγάλη χαρά στα
-    εγκαίνια. Μπορείς να μου στείλεις την ακριβή διεύθυνση της γκαλερί και την ώρα;
-    Σου εύχομαι ολόψυχα καλή επιτυχία!
-
-    Πολλά φιλιά,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing an acceptance note for a cultural event with
-    congratulations
-  example_el: Αγαπητή Ελένη, συγχαρητήρια για την έκθεση! Θα έρθω με μεγάλη χαρά στα
-    εγκαίνια. Μπορείς να μου στείλεις τη διεύθυνση και την ώρα; Καλή επιτυχία! Πολλά
-    φιλιά!
-  example_en: Dear Eleni, congratulations on the exhibition! I will come with great
-    joy to the opening. Can you send me the address and time? Good luck! Lots of kisses!
-  audio: prosomoiosi-2-task-1-1b38a3.mp3
+  greek: η παράσταση
+  english: performance / theatrical show
+  notes: Feminine noun in -η (-εις). Relates to theater, dance, or musical concerts.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι παραστάσεις
+    genitive_singular: της παράστασης
+    collocation: θεατρική παράσταση
+  keg_communicative_function: Booking tickets and reviewing theater performances in
+    personal letters
+  example_el: Η θεατρική παράσταση ξεκινάει ακριβώς στις εννιά το βράδυ.
+  example_en: The theatrical performance begins at exactly nine in the evening.
+  example2_el: Παρακολουθήσαμε μια εξαιρετική αρχαία τραγωδία στην Επίδαυρο.
+  example2_en: We attended an extraordinary ancient tragedy at Epidaurus.
+  audio: i-parastasi-272af3.mp3
   status: verified
+  example_audio: i-theatriki-parastas-e2f5f8.mp3
+  example2_audio: parakoloythisame-mia-b1872f.mp3
 - id: A2-U11-004
-  greek: 'Προσομοίωση 2 - Task 2: Email περιγράφοντας τη ζωή σε νέα πόλη (70 λέξεις)'
-  english: 'Prompt: Write a 65-75 word email describing adapting to life in a new
-    Greek city compared to your home country.'
-  notes: '[Full Mock Exam 2 - Task 2: 70 words]
-
-    Examiner Prompt:
-
-    «Μετακομίσατε σε μια νέα πόλη στην Ελλάδα. Γράψτε ένα email σε έναν παλιό σας
-    φίλο (65-75 λέξεις) για να:
-
-    • αναφέρετε πώς είναι η ζωή σας στη νέα πόλη
-
-    • περιγράψετε τους ντόπιους ανθρώπους και τις συνήθειές τους
-
-    • εκφράσετε πώς αισθάνεστε και καλέστε τον να σας επισκεφτεί»
-
-
-    Gold-Standard Model Script:
-
-    Αγαπητέ Ντάνιελ,
-
-    Σου γράφω από τη Θεσσαλονίκη, όπου ζω πλέον εδώ και δύο μήνες. Η ζωή εδώ είναι
-    υπέροχη!
-
-    Οι άνθρωποι είναι εξαιρετικά ζεστοί και φιλόξενοι, και η πόλη είναι γεμάτη ζωντάνια
-    και νέους φοιτητές. Κάθε απόγευμα κάνω βόλτα στην παραλία και πίνω καφέ με θέα
-    τον Όλυμπο. Μου λείπεις πολύ και ελπίζω να έρθεις να με επισκεφτείς σύντομα!
-
-    Με αγάπη,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a descriptive and reflective email about relocation
-    and cultural adaptation
-  example_el: Αγαπητέ Ντάνιελ, η ζωή στη Θεσσαλονίκη είναι υπέροχη! Οι άνθρωποι είναι
-    φιλόξενοι και η πόλη έχει ζωντάνια. Κάνω βόλτα στην παραλία κάθε απόγευμα. Έλα
-    να με επισκεφτείς σύντομα! Με αγάπη!
-  example_en: Dear Daniel, life in Thessaloniki is wonderful! The people are hospitable
-    and the city is lively. I walk on the seaside every afternoon. Come visit me soon!
-    With love!
-  audio: prosomoiosi-2-task-2-9f9db5.mp3
+  greek: η συναυλία
+  english: concert / live music show
+  notes: Feminine noun in -α (-ες). Key cultural pastime in Greek summer open-air
+    theaters.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συναυλίες
+    collocation: εισιτήριο συναυλίας
+  keg_communicative_function: Inviting friends to concerts and arranging meeting points
+  example_el: Θέλεις να πάμε μαζί στη συναυλία του αγαπημένου μας συγκροτήματος;
+  example_en: Do you want us to go together to the concert of our favorite band?
+  example2_el: Η συναυλία δόθηκε στο Ηρώδειο κάτω από τη φωτισμένη Ακρόπολη.
+  example2_en: The concert took place at the Odeon of Herodes Atticus beneath the
+    illuminated Acropolis.
+  audio: i-synaylia-69d5fb.mp3
   status: verified
+  example_audio: theleis-na-pame-mazi-983b6d.mp3
+  example2_audio: i-synaylia-dothike-s-b959b4.mp3
 - id: A2-U11-005
-  greek: 'Προσομοίωση 3 - Task 1: Ακύρωση προπόνησης γυμναστηρίου & αντιπρόταση (35
-    λέξεις)'
-  english: 'Mock Exam 3 - Task 1: Write a 30-35 word message canceling a workout session
-    with a trainer/friend due to work.'
-  notes: '[Full Mock Exam 3 - Task 1: 34 words]
-
-    Examiner Prompt:
-
-    «Είχατε κανονίσει να πάτε για προπόνηση στο γυμναστήριο με έναν φίλο σας. Γράψτε
-    του ένα μήνυμα (30-35 λέξεις) για να:
-
-    • ακυρώσετε το σημερινό ραντεβού
-
-    • εξηγήσετε τον λόγο (έκτακτη δουλειά)
-
-    • προτείνετε νέα μέρα και ώρα»
-
-
-    Gold-Standard Model Script:
-
-    Γεια σου Μάρκο,
-
-    Συγγνώμη αλλά δεν θα μπορέσω να έρθω σήμερα στο γυμναστήριο γιατί προέκυψε μια
-    επείγουσα δουλειά στο γραφείο. Τι λες να πάμε αύριο την ίδια ώρα στις έξι;
-
-    Τα λέμε,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a short cancellation message and suggesting
-    a timely reschedule
-  example_el: Γεια σου Μάρκο, συγγνώμη αλλά δεν θα έρθω σήμερα στο γυμναστήριο γιατί
-    έχω επείγουσα δουλειά. Τι λες να πάμε αύριο στις έξι; Τα λέμε!
-  example_en: Hi Marko, sorry but I won't come to the gym today because I have urgent
-    work. What do you say we go tomorrow at six? See you!
-  audio: prosomoiosi-3-task-1-234faf.mp3
+  greek: η ταινία
+  english: movie / film
+  notes: Feminine noun in -α (-ες). Collocates with 'βλέπω ταινία' and film genres
+    ('κωμωδία, δράμα').
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ταινίες
+    collocation: ελληνική ταινία, θερινός κινηματογράφος
+  keg_communicative_function: Expressing film preferences and recommending movies
+    in candidate dialogues
+  example_el: Είδαμε μια πολύ συγκινητική ταινία στον θερινό κινηματογράφο της γειτονιάς.
+  example_en: We saw a very moving movie at the neighborhood's open-air cinema.
+  example2_el: Η νέα ταινία του σκηνοθέτη κέρδισε το πρώτο βραβείο στο φεστιβάλ.
+  example2_en: The director's new movie won first prize at the festival.
+  audio: i-tainia-ee4cf1.mp3
   status: verified
+  example_audio: eidame-mia-poly-sygk-f0f2d9.mp3
+  example2_audio: i-nea-tainia-toy-ski-edba1b.mp3
 - id: A2-U11-006
-  greek: 'Προσομοίωση 3 - Task 2: Αφήγηση παραδοσιακού πανηγυριού σε χωριό (73 λέξεις)'
-  english: 'Prompt: Write a 65-75 word email narrating attending a traditional Greek
-    village festival (πανηγύρι).'
-  notes: '[Full Mock Exam 3 - Task 2: 73 words]
-
-    Examiner Prompt:
-
-    «Επισκεφτήκατε ένα παραδοσιακό ελληνικό πανηγύρι. Γράψτε ένα email σε έναν φίλο
-    σας (65-75 λέξεις) όπου περιγράφετε:
-
-    • πότε και σε ποιο χωριό έγινε το πανηγύρι
-
-    • τι φαγητά φάγατε και τι μουσική ακούσατε
-
-    • πώς διασκεδάσατε με τους ντόπιους κατοίκους»
-
-
-    Gold-Standard Model Script:
-
-    Αγαπητή Σοφία,
-
-    Τον Δεκαπενταύγουστο πήγα σε ένα αυθεντικό παραδοσιακό πανηγύρι σε ένα ορεινό
-    χωριό της Ηπείρου.
-
-    Η πλατεία του χωριού ήταν στολισμένη και γεμάτη χαρούμενους ανθρώπους. Φάγαμε
-    πεντανόστιμο ψητό αρνί, χωριάτικες πίτες και ήπιαμε ντόπιο τσίπουρο. Μια παραδοσιακή
-    ορχήστρα έπαιζε δημοτικά τραγούδια και χορέψαμε όλοι μαζί μέχρι τις πρώτες πρωινές
-    ώρες. Ήταν μια μοναδική εμπειρία που δεν θα ξεχάσω ποτέ!
-
-    Σε φιλώ γλυκά,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a culturally rich narrative describing a traditional
-    Greek celebration and dance
-  example_el: Αγαπητή Σοφία, πήγα σε ένα αυθεντικό πανηγύρι σε ορεινό χωριό. Φάγαμε
-    πίτες, ήπιαμε τσίπουρο και χορέψαμε παραδοσιακούς χορούς μέχρι το πρωί. Ήταν μοναδική
-    εμπειρία! Σε φιλώ!
-  example_en: Dear Sofia, I went to an authentic festival in a mountain village. We
-    ate pies, drank tsipouro, and danced traditional dances until morning. It was
-    a unique experience! Kisses!
-  audio: prosomoiosi-3-task-2-f31a14.mp3
+  greek: ο ηθοποιός
+  english: actor / actress
+  notes: 'Masculine / feminine noun (ο/η ηθοποιός). Compound: ήθος (character) + ποιώ
+    (to create).'
+  gender_or_pos: noun (common gender)
+  grammatical_info:
+    part_of_speech: noun
+    plural: οι ηθοποιοί
+    genitive_singular: του/της ηθοποιού
+  keg_communicative_function: Commenting on acting performances in theater and cinema
+    reviews
+  example_el: Οι ηθοποιοί ερμήνευσαν τους ρόλους τους με εξαιρετική πειστικότητα.
+  example_en: The actors performed their roles with extraordinary conviction.
+  example2_el: Είναι ένας από τους πιο ταλαντούχους νέους ηθοποιούς του ελληνικού
+    θεάτρου.
+  example2_en: He is one of the most talented young actors in Greek theater.
+  audio: o-ithopoios-a0648e.mp3
   status: verified
+  example_audio: oi-ithopoioi-erminey-d3a9ee.mp3
+  example2_audio: einai-enas-apo-toys--cd9c7a.mp3
 - id: A2-U11-007
-  greek: Οδηγός Αυτοαξιολόγησης Γραπτού Λόγου ΚΕΓ Α2 (Self-Evaluation Checklist)
-  english: 'Final 4-point proofreading checklist before submitting: Task fulfillment,
-    connectors, grammar, and tones.'
-  notes: '[Self-Evaluation Checklist Card]
-
-    Before submitting your exam paper, run through this 4-step mental audit:
-
-    1. Περιεχόμενο (Task Fulfillment): Did I answer ALL 3 bullet points directly?
-
-    2. Έκταση (Word Count): Is Task 1 between 30–45 words? Is Task 2 between 60–80
-    words?
-
-    3. Γραμματική (Grammar): Did I match subjects with verb endings? Are direct object
-    pronouns placed before the verbs?
-
-    4. Ορθογραφία & Τονισμός: Does EVERY word of two or more syllables have an accent
-    mark (τόνος)?'
-  gender_or_pos: phrase
-  keg_communicative_function: Conducting systematic pre-submission self-auditing in
-    writing examinations
-  example_el: 'Πριν παραδώσετε το γραπτό σας, ελέγξτε προσεκτικά: απαντήσατε σε όλα
-    τα ερωτήματα, βάλατε τόνους σε όλες τις λέξεις και μετρήσατε τις λέξεις σας;'
-  example_en: 'Before submitting your paper, check carefully: did you answer all questions,
-    put accents on all words, and count your words?'
-  audio: odigos-aytoaxiologis-0ecbfe.mp3
+  greek: ο σκηνοθέτης
+  english: director (film / theater)
+  notes: 'Masculine noun in -ης (-ες). Feminine: ''η σκηνοθέτιδα''.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι σκηνοθέτες
+    feminine: η σκηνοθέτιδα
+    noun_activity: η σκηνοθεσία
+  keg_communicative_function: Identifying film and stage creators in cultural articles
+  example_el: Ο διάσημος σκηνοθέτης έδωσε συνέντευξη τύπου για τη νέα του ταινία.
+  example_en: The famous director gave a press conference about his new film.
+  example2_el: Η σκηνοθεσία της παράστασης ήταν πρωτοποριακή και εντυπωσιακή.
+  example2_en: The staging of the performance was innovative and impressive.
+  audio: o-skinothetis-d58289.mp3
   status: verified
+  example_audio: o-diasimos-skinothet-585f77.mp3
+  example2_audio: i-skinothesia-tis-pa-6ef7da.mp3
 - id: A2-U11-008
-  greek: 'Διαχείριση Χρόνου Εξέτασης: 12'' Task 1, 25'' Task 2, 8'' Έλεγχος'
-  english: 'Exam Time Management Strategy: 12 minutes Task 1, 25 minutes Task 2, 8
-    minutes proofreading.'
-  notes: '[Time Management Strategic Card]
-
-    Total Time: 45 minutes strictly.
-
-    • 0:00 - 3:00 (3 mins): Prompt Analysis (Identify tenses and bullet points).
-
-    • 3:00 - 15:00 (12 mins): Write Task 1 (Note/Email - 35-40 words).
-
-    • 15:00 - 38:00 (23 mins): Write Task 2 (Letter/Narrative - 65-75 words).
-
-    • 38:00 - 45:00 (7 mins): Final Proofreading (Scan for missing tones and ending
-    agreements).'
-  gender_or_pos: phrase
-  keg_communicative_function: Executing disciplined pacing and time management during
-    official writing tests
-  example_el: Στην εξέταση παραγωγής γραπτού λόγου έχετε 45 λεπτά. Αφιερώστε 12 λεπτά
-    στο πρώτο θέμα, 25 λεπτά στο δεύτερο θέμα και 8 λεπτά στον τελικό έλεγχο.
-  example_en: In the written production exam you have 45 minutes. Dedicate 12 minutes
-    to the first topic, 25 minutes to the second topic, and 8 minutes to final checking.
-  audio: diacheirisi-chronoy--9f790a.mp3
+  greek: η κριτική
+  english: review / critique
+  notes: Feminine noun in -ή (-ές). Collocates with 'γράφω κριτική' or 'θετική / αρνητική
+    κριτική'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κριτικές
+    collocation: θετική κριτική (positive review)
+  keg_communicative_function: Reading cultural reviews to choose books, films, or
+    plays
+  example_el: Το βιβλίο απέσπασε διθυραμβικές κριτικές από τους ειδικούς της λογοτεχνίας.
+  example_en: The book received rave reviews from literature experts.
+  example2_el: Διάβασα μια ενδιαφέρουσα κριτική για την έκθεση στην εφημερίδα.
+  example2_en: I read an interesting review about the exhibition in the newspaper.
+  audio: i-kritiki-209d73.mp3
   status: verified
+  example_audio: to-vivlio-apespase-d-53c2d5.mp3
+  example2_audio: diavasa-mia-endiafer-327398.mp3
+- id: A2-U11-009
+  greek: το φεστιβάλ
+  english: festival
+  notes: 'Neuter indeclinable noun. Examples: Φεστιβάλ Αθηνών, Φεστιβάλ Κινηματογράφου
+    Θεσσαλονίκης.'
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun (indeclinable)
+    plural: τα φεστιβάλ
+  keg_communicative_function: Participating in seasonal arts, music, and film festivals
+  example_el: Κάθε Νοέμβριο διεξάγεται το Διεθνές Φεστιβάλ Κινηματογράφου στη Θεσσαλονίκη.
+  example_en: Every November the International Film Festival takes place in Thessaloniki.
+  example2_el: Το καλοκαιρινό φεστιβάλ περιλαμβάνει συναυλίες και παραστάσεις χορού.
+  example2_en: The summer festival includes concerts and dance performances.
+  audio: to-festival-4754d2.mp3
+  status: verified
+  example_audio: kathe-noemvrio-diexa-5e8e3b.mp3
+  example2_audio: to-kalokairino-festi-0f9146.mp3
+- id: A2-U11-010
+  greek: η έκθεση
+  english: exhibition / essay
+  notes: Feminine noun in -η (-εις). Means both art exhibition ('έκθεση ζωγραφικής')
+    and essay/composition.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εκθέσεις
+    genitive_singular: της έκθεσης
+    verb: εκθέτω
+  keg_communicative_function: Visiting art and museum exhibitions; writing test compositions
+  example_el: Επισκεφτήκαμε μια φωτογραφική έκθεση αφιερωμένη στα ελληνικά νησιά.
+  example_en: We visited a photography exhibition dedicated to the Greek islands.
+  example2_el: Στην έκθεση ιδεών πρέπει να αναπτύξετε τα επιχειρήματά σας με σαφήνεια.
+  example2_en: In the essay composition you must develop your arguments with clarity.
+  audio: i-ekthesi-2c52ce.mp3
+  status: verified
+  example_audio: episkeftikame-mia-fo-c540e3.mp3
+  example2_audio: stin-ekthesi-ideon-p-ff540e.mp3
+- id: A2-U11-011
+  greek: τα ΜΜΕ
+  english: mass media (press, TV, radio, digital)
+  notes: 'Neuter plural acronym: Μέσα Μαζικής Ενημέρωσης. Pronounced ''μι-μι-έ''.'
+  gender_or_pos: noun phrase (neuter acronym)
+  grammatical_info:
+    part_of_speech: noun phrase (acronym)
+    full_form: Μέσα Μαζικής Ενημέρωσης
+  keg_communicative_function: Discussing the role of news, television, and journalism
+    in modern life
+  example_el: Τα ΜΜΕ διαδραματίζουν καθοριστικό ρόλο στην ενημέρωση των πολιτών.
+  example_en: The mass media play a decisive role in informing citizens.
+  example2_el: Πολλά παραδοσιακά ΜΜΕ στρέφονται πλέον στις ψηφιακές πλατφόρμες.
+  example2_en: Many traditional media outlets are now turning to digital platforms.
+  audio: ta-mme-cb26a2.mp3
+  status: verified
+  example_audio: ta-mme-diadramatizoy-501e88.mp3
+  example2_audio: polla-paradosiaka-mm-fee0fb.mp3
+- id: A2-U11-012
+  greek: η είδηση
+  english: news item / piece of news
+  notes: Feminine noun in -η (-εις). Plural 'οι ειδήσεις' means the news broadcast
+    or headlines.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ειδήσεις
+    collocation: δελτίο ειδήσεων (news bulletin)
+  keg_communicative_function: Following television news broadcasts and discussing
+    daily headlines
+  example_el: Ακούσατε τις ειδήσεις των οκτώ στην τηλεόραση;
+  example_en: Did you listen to the eight o'clock news on television?
+  example2_el: Η ευχάριστη είδηση μεταδόθηκε γρήγορα σε όλη τη χώρα.
+  example2_en: The pleasant news was broadcast quickly across the country.
+  audio: i-eidisi-c47135.mp3
+  status: verified
+  example_audio: akoysate-tis-eidisei-c033f9.mp3
+  example2_audio: i-eycharisti-eidisi--55490b.mp3
+- id: A2-U11-013
+  greek: η εφημερίδα
+  english: newspaper
+  notes: Feminine noun in -α (-ες). Relates to 'ο εφημεριδοπώλης' (newsagent) and
+    'το περίπτερο'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εφημερίδες
+    genitive_singular: της εφημερίδας
+  keg_communicative_function: Reading authentic newspaper headlines and articles in
+    Reading Part 2
+  example_el: Αγοράζω καθημερινά την πρωινή εφημερίδα από το περίπτερο της γειτονιάς.
+  example_en: I buy the morning newspaper daily from the neighborhood kiosk.
+  example2_el: Το άρθρο δημοσιεύτηκε στο πρωτοσέλιδο της κυριακάτικης εφημερίδας.
+  example2_en: The article was published on the front page of the Sunday newspaper.
+  audio: i-efimerida-6e7f8b.mp3
+  status: verified
+  example_audio: agorazo-kathimerina--66a106.mp3
+  example2_audio: to-arthro-dimosieyti-f46518.mp3
+- id: A2-U11-014
+  greek: το διαδίκτυο
+  english: the internet
+  notes: 'Neuter compound noun: διά + δίκτυο (net). Prepositional: ''στο διαδίκτυο''
+    (online/on the internet).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    genitive_singular: του διαδικτύου
+    synonym: το ίντερνετ
+    adjective: διαδικτυακός, -ή, -ό
+  keg_communicative_function: Discussing digital connectivity, online courses, and
+    internet safety
+  example_el: Σήμερα μπορούμε να βρούμε αμέτρητες πληροφορίες και μαθήματα στο διαδίκτυο.
+  example_en: Today we can find countless pieces of information and lessons on the
+    internet.
+  example2_el: Η διαδικτυακή επικοινωνία μάς επιτρέπει να μένουμε σε επαφή με φίλους
+    στο εξωτερικό.
+  example2_en: Online communication allows us to stay in touch with friends abroad.
+  audio: to-diadiktyo-d31213.mp3
+  status: verified
+  example_audio: simera-mporoyme-na-v-f37880.mp3
+  example2_audio: i-diadiktyaki-epikoi-219bd9.mp3
+- id: A2-U11-015
+  greek: η ιστοσελίδα
+  english: webpage / website
+  notes: 'Feminine compound noun: ιστός (web) + σελίδα (page). Plural: ''οι ιστοσελίδες''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ιστοσελίδες
+    synonym: ο ιστότοπος
+  keg_communicative_function: Navigating institutional web portals and checking online
+    guidelines
+  example_el: Επισκεφτείτε την επίσημη ιστοσελίδα του Κέντρου Ελληνικής Γλώσσας για
+    παλιά θέματα εξετάσεων.
+  example_en: Visit the official website of the Centre for the Greek Language for
+    past exam papers.
+  example2_el: Η ιστοσελίδα ανανεώνεται τακτικά με νέες ανακοινώσεις και άρθρα.
+  example2_en: The website is updated regularly with new announcements and articles.
+  audio: i-istoselida-8ce2fb.mp3
+  status: verified
+  example_audio: episkefteite-tin-epi-40ca8c.mp3
+  example2_audio: i-istoselida-ananeon-62d54e.mp3
+- id: A2-U11-016
+  greek: η εφαρμογή
+  english: mobile application / app / implementation
+  notes: Feminine noun in -η (-εις). Means both software mobile app and practical
+    application.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εφαρμογές
+    collocation: εφαρμογή για κινητά (mobile app)
+  keg_communicative_function: Using language learning applications and mobile banking
+  example_el: Κατέβασα μια εξαιρετική εφαρμογή στο κινητό μου για την εκμάθηση ελληνικού
+    λεξιλογίου.
+  example_en: I downloaded an excellent app on my mobile phone for learning Greek
+    vocabulary.
+  example2_el: Μπορείτε να πληρώσετε τον λογαριασμό εύκολα μέσω της τραπεζικής εφαρμογής.
+  example2_en: You can pay the bill easily via the banking application.
+  audio: i-efarmogi-f99ead.mp3
+  status: verified
+  example_audio: katevasa-mia-exairet-ccb395.mp3
+  example2_audio: mporeite-na-pliroset-ca37ce.mp3
+- id: A2-U11-017
+  greek: το μέσο κοινωνικής δικτύωσης
+  english: social media platform
+  notes: 'Neuter noun phrase. Often in plural: ''τα μέσα κοινωνικής δικτύωσης'' (social
+    networks).'
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα μέσα κοινωνικής δικτύωσης
+    abbreviation: social media
+  keg_communicative_function: Debating advantages and disadvantages of social networks
+    in Speaking Stage 3
+  example_el: Τα μέσα κοινωνικής δικτύωσης διευκολύνουν την επικοινωνία, αλλά απαιτούν
+    προσοχή.
+  example_en: Social media facilitate communication, but require caution.
+  example2_el: Πολλοί νέοι περνούν αρκετές ώρες την ημέρα στα μέσα κοινωνικής δικτύωσης.
+  example2_en: Many young people spend several hours a day on social media.
+  audio: to-meso-koinonikis-d-dba549.mp3
+  status: verified
+  example_audio: ta-mesa-koinonikis-d-0d5f21.mp3
+  example2_audio: polloi-neoi-pernoyn--54c930.mp3
+- id: A2-U11-018
+  greek: ο χρήστης
+  english: user (computer / internet / transport)
+  notes: Masculine noun in -ης (-ες). Relates to 'χρησιμοποιώ' (to use).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι χρήστες
+    feminine: η χρήστης / χρήστρια
+    collocation: όνομα χρήστη (username)
+  keg_communicative_function: Logging into digital portals and handling authentication
+    details
+  example_el: Πληκτρολογήστε το όνομα χρήστη και τον κωδικό πρόσβασης για να συνδεθείτε.
+  example_en: Type your username and password to log in.
+  example2_el: Η πλατφόρμα έχει πάνω από ένα εκατομμύριο ενεργούς χρήστες.
+  example2_en: The platform has over one million active users.
+  audio: o-christis-e08021.mp3
+  status: verified
+  example_audio: pliktrologiste-to-on-8cdc1c.mp3
+  example2_audio: i-platforma-echei-pa-3c43b8.mp3
+- id: A2-U11-019
+  greek: το λάθος
+  english: mistake / error
+  notes: 'Neuter noun in -ος (-η). Genitive singular: ''του λάθους'', plural: ''τα
+    λάθη'', genitive plural: ''των λαθών''. Core A2 grammar milestone.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λάθη
+    genitive_singular: του λάθους
+    genitive_plural: των λαθών
+    collocation: κάνω λάθος (to make a mistake)
+  keg_communicative_function: Recognizing and correcting language errors; apologising
+    for misunderstandings
+  example_el: Μη φοβάστε να κάνετε λάθη όταν μιλάτε, από τα λάθη μαθαίνουμε.
+  example_en: Do not be afraid to make mistakes when you speak; from mistakes we learn.
+  example2_el: Διόρθωσε όλα τα ορθογραφικά λάθη πριν παραδώσει το γραπτό του.
+  example2_en: He corrected all spelling mistakes before submitting his paper.
+  audio: to-lathos-e42483.mp3
+  status: verified
+  example_audio: mi-fovaste-na-kanete-16fb9a.mp3
+  example2_audio: diorthose-ola-ta-ort-95f0a3.mp3
+- id: A2-U11-020
+  greek: το μέρος
+  english: place / part
+  notes: 'Neuter noun in -ος (-η). Genitive: ''του μέρους'', plural: ''τα μέρη''.
+    ''Από το ένα μέρος... από το άλλο μέρος'' (on one part... on the other).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μέρη
+    genitive_singular: του μέρους
+    genitive_plural: των μερών
+  keg_communicative_function: Describing geographical locations and structural parts
+    of an exam
+  example_el: 'Η εξέταση χωρίζεται σε τέσσερα ισότιμα μέρη: κατανόηση και παραγωγή
+    λόγου.'
+  example_en: 'The examination is divided into four equal parts: comprehension and
+    production of speech.'
+  example2_el: Η Ελλάδα είναι γεμάτη μαγευτικά μέρη που αξίζει να ανακαλύψετε.
+  example2_en: Greece is full of enchanting places that are worth discovering.
+  audio: to-meros-88206d.mp3
+  status: verified
+  example_audio: i-exetasi-chorizetai-8ccee6.mp3
+  example2_audio: i-ellada-einai-gemat-d1116f.mp3
+- id: A2-U11-021
+  greek: το κόστος
+  english: cost / expense
+  notes: 'Neuter noun in -ος. Genitive: ''του κόστους''. Collocates with ''κόστος
+    ζωής'' (cost of living).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    genitive_singular: του κόστους
+    collocation: κόστος συμμετοχής (participation fee)
+  keg_communicative_function: Inquiring about program fees, living costs, and travel
+    budgets
+  example_el: Το συνολικό κόστος των εξετάσεων περιλαμβάνει τη συμμετοχή και το πιστοποιητικό.
+  example_en: The total cost of examinations includes participation and the certificate.
+  example2_el: Το κόστος ζωής στην επαρχία είναι αισθητά χαμηλότερο από ό,τι στην
+    πρωτεύουσα.
+  example2_en: The cost of living in the provinces is noticeably lower than in the
+    capital.
+  audio: to-kostos-eb92a7.mp3
+  status: verified
+  example_audio: to-synoliko-kostos-t-df4559.mp3
+  example2_audio: to-kostos-zois-stin--c56dc1.mp3
+- id: A2-U11-022
+  greek: το είδος
+  english: type / kind / genre
+  notes: 'Neuter noun in -ος (-η). Genitive: ''του είδους'', plural: ''τα είδη''.
+    Plural ''είδη'' also means goods/articles.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα είδη
+    genitive_singular: του είδους
+    collocation: είδη πρώτης ανάγκης (basic necessities)
+  keg_communicative_function: Categorizing text genres, musical types, and consumer
+    commodities
+  example_el: Ποιο είδος μουσικής προτιμάτε να ακούτε όταν χαλαρώνετε;
+  example_en: What kind of music do you prefer to listen to when relaxing?
+  example2_el: Στο σούπερ μάρκετ θα βρείτε όλα τα απαραίτητα είδη διατροφής.
+  example2_en: At the supermarket you will find all necessary food items.
+  audio: to-eidos-415fbf.mp3
+  status: verified
+  example_audio: poio-eidos-moysikis--78772b.mp3
+  example2_audio: sto-soyper-market-th-f52e08.mp3
+- id: A2-U11-023
+  greek: το μέγεθος
+  english: size / magnitude
+  notes: 'Neuter noun in -ος (-η). Genitive: ''του μεγέθους'', plural: ''τα μεγέθη''.
+    Used for clothing, files, or dimensions.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μεγέθη
+    genitive_singular: του μεγέθους
+  keg_communicative_function: Specifying clothing sizes in shopping or digital attachment
+    sizes in emails
+  example_el: Έχετε αυτό το πουκάμισο σε μεγαλύτερο μέγεθος;
+  example_en: Do you have this shirt in a larger size?
+  example2_el: Το μέγεθος του αρχείου δεν πρέπει να υπερβαίνει τα δέκα megabytes.
+  example2_en: The file size must not exceed ten megabytes.
+  audio: to-megethos-77d489.mp3
+  status: verified
+  example_audio: echete-ayto-to-poyka-e46a44.mp3
+  example2_audio: to-megethos-toy-arch-7172a6.mp3
+- id: A2-U11-024
+  greek: το κράτος
+  english: state / nation-state / government
+  notes: 'Neuter noun in -ος (-η). Genitive: ''του κράτους'', plural: ''τα κράτη''.
+    Adjective: ''κρατικός'' (state/public).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κράτη
+    genitive_singular: του κράτους
+    adjective: κρατικός, -ή, -ό
+  keg_communicative_function: Discussing European states, public services, and governmental
+    regulations
+  example_el: Το ελληνικό κράτος χορηγεί υποτροφίες σε ξένους φοιτητές για εκμάθηση
+    της γλώσσας.
+  example_en: The Greek state awards scholarships to foreign students for learning
+    the language.
+  example2_el: Η Ελλάδα είναι μέλος της Ευρωπαϊκής Ένωσης και του χώρου Σένγκεν.
+  example2_en: Greece is a member of the European Union and the Schengen area.
+  audio: to-kratos-f3334f.mp3
+  status: verified
+  example_audio: to-elliniko-kratos-c-525766.mp3
+  example2_audio: i-ellada-einai-melos-da13b3.mp3
+- id: A2-U11-025
+  greek: που
+  english: who / which / that (invariable relative pronoun)
+  notes: Invariable relative pronoun (unaccented). Refers to persons or things regardless
+    of gender, number, or case.
+  gender_or_pos: relative pronoun (invariable)
+  grammatical_info:
+    part_of_speech: relative pronoun
+    accentuation: always unaccented (distinguish from interrogative πού;)
+    agreement: invariable
+  keg_communicative_function: Linking clauses smoothly to describe people, objects,
+    and places
+  example_el: Ο καθηγητής που μας διδάσκει ελληνικά είναι εξαιρετικά υπομονετικός.
+  example_en: The teacher who teaches us Greek is extremely patient.
+  example2_el: Αυτό είναι το βιβλίο που μου πρότεινες να διαβάσω.
+  example2_en: This is the book that you recommended I read.
+  audio: poy-801170.mp3
+  status: verified
+  example_audio: o-kathigitis-poy-mas-8a2b9f.mp3
+  example2_audio: ayto-einai-to-vivlio-a397fc.mp3
+- id: A2-U11-026
+  greek: ο οποίος
+  english: who / which (variable relative pronoun)
+  notes: Declinable relative pronoun (ο οποίος, η οποία, το οποίο / οι οποίοι, οι
+    οποίες, τα οποία). Used for clarity and formal register.
+  gender_or_pos: relative pronoun (declinable)
+  grammatical_info:
+    part_of_speech: relative pronoun
+    feminine: η οποία
+    neuter: το οποίο
+    plural_masculine: οι οποίοι
+    plural_feminine: οι οποίες
+    plural_neuter: τα οποία
+  keg_communicative_function: Formulating precise relative clauses in formal writing
+    and exam compositions
+  example_el: Συναντήθηκα με τη διευθύντρια, η οποία μου εξήγησε τη διαδικασία της
+    εγγραφής.
+  example_en: I met with the director, who explained to me the registration process.
+  example2_el: Τα πιστοποιητικά, τα οποία εκδίδονται στα ελληνικά, αναγνωρίζονται
+    διεθνώς.
+  example2_en: The certificates, which are issued in Greek, are internationally recognized.
+  audio: o-opoios-459dee.mp3
+  status: verified
+  example_audio: synantithika-me-ti-d-6358cc.mp3
+  example2_audio: ta-pistopoiitika-ta--1c43ab.mp3
+- id: A2-U11-027
+  greek: δημοσιεύω
+  english: to publish / to post online
+  notes: 'Active verb. Simple past: ''δημοσίευσα''. Used for articles, posts, and
+    exam announcements.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: δημοσίευσα
+    noun_derivative: η δημοσίευση
+  keg_communicative_function: Reporting published news, forum posts, or announcement
+    of results
+  example_el: Τα τελικά αποτελέσματα των εξετάσεων θα δημοσιευτούν στο διαδίκτυο στα
+    τέλη Ιουνίου.
+  example_en: The final results of the exams will be published online in late June.
+  example2_el: Δημοσίευσε ένα ενδιαφέρον σχόλιο στο ιστολόγιο της τάξης.
+  example2_en: She posted an interesting comment on the class blog.
+  audio: dimosieyo-a4be15.mp3
+  status: verified
+  example_audio: ta-telika-apotelesma-7906fa.mp3
+  example2_audio: dimosieyse-ena-endia-7e41f8.mp3
+- id: A2-U11-028
+  greek: η σύνδεση
+  english: connection / internet link / log-in
+  notes: Feminine noun in -η (-εις). Collocates with 'σύνδεση στο διαδίκτυο' (internet
+    connection).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συνδέσεις
+    verb: συνδέομαι (to log in / connect)
+  keg_communicative_function: Resolving network connectivity problems and logging
+    into exam platforms
+  example_el: Η ασύρματη σύνδεση στο διαδίκτυο είναι γρήγορη και σταθερή σε όλο το
+    κτίριο.
+  example_en: The wireless internet connection is fast and stable throughout the building.
+  example2_el: Πραγματοποιήστε σύνδεση στον λογαριασμό σας για να δείτε τη βαθμολογία
+    σας.
+  example2_en: Log in to your account to view your grades.
+  audio: i-syndesi-14c5d9.mp3
+  status: verified
+  example_audio: i-asyrmati-syndesi-s-6369f5.mp3
+  example2_audio: pragmatopoiiste-synd-1eb3e9.mp3
+- id: A2-U11-029
+  greek: κατεβάζω
+  english: to download / to bring down
+  notes: 'Active verb. Simple past: ''κατέβασα''. Compound: κάτω + βάζω. Antonym:
+    ''ανεβάζω'' (to upload).'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: κατέβασα
+    antonym: ανεβάζω (to upload)
+  keg_communicative_function: Downloading practice exam files, audio samples, or application
+    forms
+  example_el: Κατέβασα τα υποδειγματικά θέματα των εξετάσεων στον υπολογιστή μου για
+    εξάσκηση.
+  example_en: I downloaded the sample exam papers onto my computer for practice.
+  example2_el: Μπορείτε να κατεβάσετε την εφαρμογή δωρεάν από το ηλεκτρονικό κατάστημα.
+  example2_en: You can download the app for free from the app store.
+  audio: katevazo-21bb06.mp3
+  status: verified
+  example_audio: katevasa-ta-ypodeigm-42437a.mp3
+  example2_audio: mporeite-na-katevase-651630.mp3
+- id: A2-U11-030
+  greek: ανεβάζω
+  english: to upload / to stage a play / to raise
+  notes: 'Active verb. Simple past: ''ανέβασα''. Antonym: ''κατεβάζω''. Multiple uses:
+    upload files or stage a performance.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: ανέβασα
+    antonym: κατεβάζω
+  keg_communicative_function: Uploading documents to official portals or sharing photos
+  example_el: Ανέβασα όλα τα δικαιολογητικά στην πλατφόρμα των αιτήσεων σε μορφή PDF.
+  example_en: I uploaded all supporting documents onto the application platform in
+    PDF format.
+  example2_el: Η θεατρική ομάδα ανέβασε μια κλασική ελληνική κωμωδία.
+  example2_en: The theater troupe staged a classic Greek comedy.
+  audio: anevazo-1a1cff.mp3
+  status: verified
+  example_audio: anevasa-ola-ta-dikai-1d429e.mp3
+  example2_audio: i-theatriki-omada-an-06d724.mp3
+- id: A2-U11-031
+  greek: ο υπολογιστής
+  english: computer
+  notes: Masculine noun in -ής (-ές). Collocates with 'φορητός υπολογιστής' (laptop).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι υπολογιστές
+    collocation: φορητός υπολογιστής (laptop)
+  keg_communicative_function: Discussing computer literacy and digital tools in education
+  example_el: Χρησιμοποιώ τον φορητό υπολογιστή καθημερινά για τη μελέτη και την εργασία
+    μου.
+  example_en: I use the laptop computer daily for my study and work.
+  example2_el: Η εξέταση πραγματοποιείται σε αίθουσα υπολογιστών με σύγχρονο εξοπλισμό.
+  example2_en: The examination takes place in a computer lab with modern equipment.
+  audio: o-ypologistis-82f7ea.mp3
+  status: verified
+  example_audio: chrisimopoio-ton-for-c26614.mp3
+  example2_audio: i-exetasi-pragmatopo-ddb551.mp3
+- id: A2-U11-032
+  greek: το κινητό τηλέφωνο
+  english: mobile phone / smartphone
+  notes: 'Neuter noun phrase. Often simply called ''το κινητό''. Key exam rule: must
+    be switched off.'
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα κινητά τηλέφωνα
+    short_form: το κινητό
+  keg_communicative_function: Observing test instructions regarding electronic mobile
+    devices
+  example_el: Απενεργοποιήστε τα κινητά σας τηλέφωνα πριν εισέλθετε στον χώρο της
+    εξέτασης.
+  example_en: Turn off your mobile phones before entering the examination area.
+  example2_el: Μου έστειλε μήνυμα στο κινητό για να επιβεβαιώσει το απογευματινό μας
+    ραντεβού.
+  example2_en: He sent me a text on the mobile phone to confirm our afternoon appointment.
+  audio: to-kinito-tilefono-083952.mp3
+  status: verified
+  example_audio: apenergopoiiste-ta-k-e7e305.mp3
+  example2_audio: moy-esteile-minyma-s-0b455f.mp3
+- id: A2-U11-033
+  greek: το μήνυμα
+  english: message / text message
+  notes: 'Neuter noun in -μα (-ματα). Plural: ''τα μηνύματα''. SMS: γραπτό μήνυμα.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μηνύματα
+    collocation: στέλνω μήνυμα (to send a text)
+  keg_communicative_function: Reading and writing short communicative messages in
+    Writing Task 1
+  example_el: Σου άφησα ένα φωνητικό μήνυμα επειδή δεν απάντησες στο τηλέφωνο.
+  example_en: I left you a voice message because you did not answer the phone.
+  example2_el: Έλαβα ένα ενημερωτικό μήνυμα σχετικά με την αλλαγή της ώρας του μαθήματος.
+  example2_en: I received an informative text message regarding the change in class
+    time.
+  audio: to-minyma-be7ad4.mp3
+  status: verified
+  example_audio: soy-afisa-ena-foniti-45262f.mp3
+  example2_audio: elava-ena-enimerotik-585a56.mp3
+- id: A2-U11-034
+  greek: το περιοδικό
+  english: magazine / journal
+  notes: 'Neuter noun in -ό (-ά). Plural: ''τα περιοδικά''. Source of authentic short
+    articles in tests.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα περιοδικά
+    genitive_singular: του περιοδικού
+  keg_communicative_function: Comprehending lifestyle and cultural articles from Greek
+    magazines
+  example_el: Διάβασα μια πολύ ενδιαφέρουσα συνέντευξη σε ένα εβδομαδιαίο περιοδικό.
+  example_en: I read a very interesting interview in a weekly magazine.
+  example2_el: Το περιοδικό δημοσιεύει άρθρα για τη διατροφή, την υγεία και τα ταξίδια.
+  example2_en: The magazine publishes articles about nutrition, health, and travel.
+  audio: to-periodiko-c8a360.mp3
+  status: verified
+  example_audio: diavasa-mia-poly-end-30b69c.mp3
+  example2_audio: to-periodiko-dimosie-0cab97.mp3
+- id: A2-U11-035
+  greek: η οθόνη
+  english: screen / display
+  notes: Feminine noun in -η (-ες). Used for cinema screen, computer monitor, or phone
+    display.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι οθόνες
+    genitive_singular: της οθόνης
+  keg_communicative_function: Following electronic departure boards and digital display
+    monitors
+  example_el: Κοιτάξτε την οθόνη για να δείτε ποιος αριθμός εξυπηρετείται αυτή τη
+    στιγμή.
+  example_en: Look at the screen to see which number is being served right now.
+  example2_el: Η οθόνη αφής διευκολύνει την πλοήγηση στην εφαρμογή.
+  example2_en: The touchscreen facilitates navigation in the application.
+  audio: i-othoni-90f70c.mp3
+  status: verified
+  example_audio: koitaxte-tin-othoni--fe6d5d.mp3
+  example2_audio: i-othoni-afis-dieyko-195de1.mp3

@@ -1,30 +1,32 @@
 import { Unit } from '../types/schema';
 
 export interface ParsedLessonCode {
-  group: string;       // e.g. "OG-A1", "Klik-A1", "Klik-A2"
+  group: string;       // e.g. "KEG-A1", "Klik-A1", "Klik-A2", "KEG-A2-P1"
   orderNum: number;    // e.g. 0, 1, 2, 5
   suffix: string;      // e.g. "A", "B"
-  formatted: string;   // e.g. "OG-01-A", "KlikA1-05-B"
-  lessonLabel: string; // e.g. "Lesson OG-01-A", "Lesson KlikA1-05-B"
-  groupName: string;   // e.g. "Original Content (OG-A1)", "Κλικ στα Ελληνικά Α1 (Klik-A1)"
+  formatted: string;   // e.g. "KEG-A1-01-A", "KlikA1-05-B"
+  lessonLabel: string; // e.g. "Lesson KEG-A1-01-A", "Lesson KlikA1-05-B"
+  groupName: string;   // e.g. "Ελληνομάθεια Α1 (KEG-A1)", "Κλικ στα Ελληνικά Α1 (Klik-A1)"
 }
 
 // Backwards compatibility alias
 export type ParsedUnitCode = ParsedLessonCode;
 
 /**
- * Normalizes group tags to standard curriculum group identifiers (e.g. "OG-A1", "Klik-A1", "Klik-A2").
- * Identifies how the lesson was created (OG vs Klik) and the CEFR level (A1, A2, etc.).
+ * Normalizes group tags to standard curriculum group identifiers (e.g. "KEG-A1", "Klik-A1", "Klik-A2").
+ * Identifies how the lesson was created (KEG official framework vs Klik textbook) and the CEFR level.
  */
 export function normalizeGroupTag(rawGroup: string, orderNum?: number): string {
   const norm = rawGroup.trim().toLowerCase().replace(/[-_]/g, '');
-  if (norm === 'og' || norm === 'oga1') return 'OG-A1';
-  if (norm === 'oga2') return 'OG-A2';
+  if (norm === 'og' || norm === 'oga1' || norm === 'kega1' || norm === 'keg1') return 'KEG-A1';
+  if (norm === 'oga2') return 'KEG-A2-P1';
+  if (norm === 'kega2wrp1' || norm === 'kega2wr1' || norm === 'kegwr1' || norm === 'kegwriting1' || norm === 'wr1' || norm === 'kegwritingp1') return 'KEG-A2-WR-P1';
+  if (norm === 'kega2wrp2' || norm === 'kega2wr2' || norm === 'kegwr2' || norm === 'kegwriting2' || norm === 'wr2' || norm === 'kegwritingp2') return 'KEG-A2-WR-P2';
+  if (norm === 'kega2sp' || norm === 'keg2sp' || norm === 'a2sp' || norm === 'sp' || norm === 'speaking') return 'KEG-A2-SP';
+  if (norm === 'kega2wr' || norm === 'kegwr' || norm === 'writing') return 'KEG-A2-WR-P1';
   if (norm === 'kega2p1' || norm === 'kega21' || norm === 'keg2p1' || norm === 'keg21' || norm === 'a2p1' || norm === 'a21') return 'KEG-A2-P1';
   if (norm === 'kega2p2' || norm === 'kega22' || norm === 'keg2p2' || norm === 'keg22' || norm === 'a2p2' || norm === 'a22') return 'KEG-A2-P2';
-  if (norm === 'kega2sp' || norm === 'keg2sp' || norm === 'a2sp' || norm === 'sp' || norm === 'speaking') return 'KEG-A2-SP';
   if (norm === 'kega2' || norm === 'keg2') return 'KEG-A2-P1';
-  if (norm === 'kega1' || norm === 'keg1') return 'OG-A1';
   if (norm === 'cyp' || norm === 'cypexam' || norm === 'cyprus') return 'CYP-Exam';
   if (norm === 'klika1' || norm === 'klik1') return 'Klik-A1';
   if (norm === 'klika2' || norm === 'klik2') return 'Klik-A2';
@@ -36,7 +38,7 @@ export function normalizeGroupTag(rawGroup: string, orderNum?: number): string {
   }
   if (norm === 'a1') {
     if (orderNum !== undefined && orderNum >= 100) return 'Klik-A1';
-    return 'OG-A1';
+    return 'KEG-A1';
   }
   if (norm === 'a2') {
     if (orderNum !== undefined && orderNum >= 200) return 'Klik-A2';
@@ -48,30 +50,30 @@ export function normalizeGroupTag(rawGroup: string, orderNum?: number): string {
 /**
  * Intelligent parser that extracts group, numeric order, and suffix.
  * Examples:
- * - "OG-01-A" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
+ * - "KEG-A1-01-A" -> group: "KEG-A1", orderNum: 1, suffix: "A", formatted: "KEG-A1-01-A"
+ * - "OG-01-A" -> group: "KEG-A1", orderNum: 1, suffix: "A", formatted: "KEG-A1-01-A"
  * - "KlikA1-05-B" -> group: "Klik-A1", orderNum: 5, suffix: "B", formatted: "KlikA1-05-B"
  * - "Klik-A1-05-B" -> group: "Klik-A1", orderNum: 5, suffix: "B", formatted: "Klik-A1-05-B"
- * - "OG-A1-01-A" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
- * - 1 or "unit-01" -> group: "OG-A1", orderNum: 1, suffix: "A", formatted: "OG-01-A"
+ * - 1 or "unit-01" -> group: "KEG-A1", orderNum: 1, suffix: "A", formatted: "KEG-A1-01-A"
  * - 101 or "unit-101" -> group: "Klik-A1", orderNum: 1, suffix: "A", formatted: "KlikA1-01-A"
  */
 export function parseLessonCode(orderOrId: string | number | undefined, fallbackIndex = 1): ParsedLessonCode {
   if (orderOrId === undefined || orderOrId === null) {
     const padded = String(fallbackIndex).padStart(2, '0');
     return {
-      group: 'OG-A1',
+      group: 'KEG-A1',
       orderNum: fallbackIndex,
       suffix: 'A',
-      formatted: `OG-${padded}-A`,
-      lessonLabel: `Lesson OG-${padded}-A`,
-      groupName: getGroupTitle('OG-A1'),
+      formatted: `KEG-A1-${padded}-A`,
+      lessonLabel: `Lesson KEG-A1-${padded}-A`,
+      groupName: getGroupTitle('KEG-A1'),
     };
   }
 
   const raw = String(orderOrId).trim();
 
   // Pattern 1: Explicit group prefix: <Group>-<number>-<suffix> or <Group>-<number><suffix>
-  // e.g. "OG-01-A", "KlikA1-05-B", "Klik-A1-05-B", "OG-A1-01-A", "A1-01-A", "KEG-A2-P1-00-A", "KEG-A2-P2-01-A"
+  // e.g. "KEG-A1-01-A", "OG-01-A", "KlikA1-05-B", "Klik-A1-05-B", "A1-01-A", "KEG-A2-P1-00-A", "KEG-A2-P2-01-A"
   const prefixMatch = raw.match(/^([A-Za-z0-9]+(?:[-_][A-Za-z0-9]+)*)[-_](\d+)[-_]?([A-Za-z])?$/i);
   if (prefixMatch) {
     const rawGroup = prefixMatch[1];
@@ -80,14 +82,18 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
     const group = normalizeGroupTag(rawGroup, orderNum);
     const padded = String(orderNum).padStart(2, '0');
 
-    // Retain clean formatted tag: OG-XX-A for OG, KlikA1-XX-A / Klik-A1-XX-A for Klik, KEG-A2-P1-XX-A / KEG-A2-P2-XX-A
+    // Retain clean formatted tag: KEG-A1-XX-A for KEG-A1, KlikA1-XX-A / Klik-A1-XX-A for Klik, KEG-A2-P1-XX-A, KEG-A2-WR-P1-XX-A, etc.
     let prefixForFormatted: string;
-    if (group === 'OG-A1') {
-      prefixForFormatted = rawGroup.toUpperCase().includes('A1') && rawGroup.toUpperCase().includes('OG') ? 'OG-A1' : 'OG';
+    if (group === 'KEG-A1') {
+      prefixForFormatted = 'KEG-A1';
     } else if (group === 'KEG-A2-P1') {
       prefixForFormatted = 'KEG-A2-P1';
     } else if (group === 'KEG-A2-P2') {
       prefixForFormatted = 'KEG-A2-P2';
+    } else if (group === 'KEG-A2-WR-P1') {
+      prefixForFormatted = 'KEG-A2-WR-P1';
+    } else if (group === 'KEG-A2-WR-P2') {
+      prefixForFormatted = 'KEG-A2-WR-P2';
     } else if (group === 'KEG-A2-SP') {
       prefixForFormatted = 'SP';
     } else if (group === 'CYP-Exam') {
@@ -125,6 +131,40 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       formatted,
       lessonLabel: `Lesson ${formatted}`,
       groupName: getGroupTitle('KEG-A2-SP'),
+    };
+  }
+
+  // Pattern 2-wr1: A2 Writing Part 1 unit ID format (e.g. "unit-wr1-01", "unit_wr1_01", "unit-a2-wr1-01", "unit-a2-wr-p1-01")
+  const a2wr1UnitMatch = raw.match(/^unit[-_](?:a2[-_]?)?(?:wr1|wr[-_]?p1)[-_](\d+)([A-Za-z])?$/i);
+  if (a2wr1UnitMatch) {
+    const num = parseInt(a2wr1UnitMatch[1], 10);
+    const suf = (a2wr1UnitMatch[2] || 'A').toUpperCase();
+    const padded = String(num).padStart(2, '0');
+    const formatted = `KEG-A2-WR-P1-${padded}-${suf}`;
+    return {
+      group: 'KEG-A2-WR-P1',
+      orderNum: num,
+      suffix: suf,
+      formatted,
+      lessonLabel: `Lesson ${formatted}`,
+      groupName: getGroupTitle('KEG-A2-WR-P1'),
+    };
+  }
+
+  // Pattern 2-wr2: A2 Writing Part 2 unit ID format (e.g. "unit-wr2-01", "unit_wr2_01", "unit-a2-wr2-01", "unit-a2-wr-p2-01")
+  const a2wr2UnitMatch = raw.match(/^unit[-_](?:a2[-_]?)?(?:wr2|wr[-_]?p2)[-_](\d+)([A-Za-z])?$/i);
+  if (a2wr2UnitMatch) {
+    const num = parseInt(a2wr2UnitMatch[1], 10);
+    const suf = (a2wr2UnitMatch[2] || 'A').toUpperCase();
+    const padded = String(num).padStart(2, '0');
+    const formatted = `KEG-A2-WR-P2-${padded}-${suf}`;
+    return {
+      group: 'KEG-A2-WR-P2',
+      orderNum: num,
+      suffix: suf,
+      formatted,
+      lessonLabel: `Lesson ${formatted}`,
+      groupName: getGroupTitle('KEG-A2-WR-P2'),
     };
   }
 
@@ -211,14 +251,14 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       };
     }
     const padded = String(num).padStart(2, '0');
-    const formatted = `OG-${padded}-${suf}`;
+    const formatted = `KEG-A1-${padded}-${suf}`;
     return {
-      group: 'OG-A1',
+      group: 'KEG-A1',
       orderNum: num,
       suffix: suf,
       formatted,
       lessonLabel: `Lesson ${formatted}`,
-      groupName: getGroupTitle('OG-A1'),
+      groupName: getGroupTitle('KEG-A1'),
     };
   }
 
@@ -254,24 +294,24 @@ export function parseLessonCode(orderOrId: string | number | undefined, fallback
       };
     }
     const padded = String(num).padStart(2, '0');
-    const formatted = `OG-${padded}-${suf}`;
+    const formatted = `KEG-A1-${padded}-${suf}`;
     return {
-      group: 'OG-A1',
+      group: 'KEG-A1',
       orderNum: num,
       suffix: suf,
       formatted,
       lessonLabel: `Lesson ${formatted}`,
-      groupName: getGroupTitle('OG-A1'),
+      groupName: getGroupTitle('KEG-A1'),
     };
   }
 
   return {
-    group: 'OG-A1',
+    group: 'KEG-A1',
     orderNum: fallbackIndex,
     suffix: 'A',
     formatted: raw,
     lessonLabel: `Lesson ${raw}`,
-    groupName: getGroupTitle('OG-A1'),
+    groupName: getGroupTitle('KEG-A1'),
   };
 }
 
@@ -283,18 +323,26 @@ export const parseUnitCode = parseLessonCode;
  */
 export function getGroupTitle(group: string): string {
   const norm = group.trim().toLowerCase().replace(/[-_]/g, '');
-  if (norm === 'kega2p1' || norm === 'kega21' || norm === 'keg2p1' || norm === 'keg21' || norm === 'a2p1' || norm === 'a21') {
-    return 'Ελληνομάθεια Α2 - Μέρος 1 (KEG-A2 P1)';
+  if (norm === 'kega2wrp1' || norm === 'kega2wr1' || norm === 'kegwr1' || norm === 'kegwriting1' || norm === 'wr1' || norm === 'kegwritingp1') {
+    return 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 1 (KEG-A2 Writing P1: Core Framework)';
+  }
+  if (norm === 'kega2wrp2' || norm === 'kega2wr2' || norm === 'kegwr2' || norm === 'kegwriting2' || norm === 'wr2' || norm === 'kegwritingp2') {
+    return 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 2 (KEG-A2 Writing P2: Playbooks & Mock Exams)';
+  }
+  if (norm === 'kega2p1' || norm === 'kega21' || norm === 'keg2p1' || norm === 'keg21' || norm === 'a2p1' || norm === 'a21' || norm === 'kega2' || norm === 'keg2' || norm === 'oga2') {
+    return 'Ελληνομάθεια Α2 - Μέρος 1: Βασικό Επίπεδο (KEG-A2 Part 1: Core Essentials)';
   }
   if (norm === 'kega2p2' || norm === 'kega22' || norm === 'keg2p2' || norm === 'keg22' || norm === 'a2p2' || norm === 'a22') {
-    return 'Ελληνομάθεια Α2 - Μέρος 2 (KEG-A2 P2)';
+    return 'Ελληνομάθεια Α2 - Μέρος 2: Θεματική Επέκταση (KEG-A2 Part 2: Comprehensive Expansion)';
   }
   if (norm === 'kega2sp' || norm === 'keg2sp' || norm === 'a2sp' || norm === 'sp' || norm === 'speaking') {
     return 'Ελληνομάθεια Α2 - Προφορικά (KEG-A2 Speaking)';
   }
-  if (norm === 'kega2' || norm === 'keg2' || norm === 'oga2') return 'Ελληνομάθεια Α2 - Μέρος 1 (KEG-A2 P1)';
+  if (norm === 'kega2wr' || norm === 'kegwr' || norm === 'writing') {
+    return 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 1 (KEG-A2 Writing P1: Core Framework)';
+  }
   if (norm === 'cypexam' || norm === 'cyp' || norm === 'cyprus') return 'Εξετάσεις Πολιτογράφησης Κύπρου (CYP-Exam)';
-  if (norm === 'oga1' || norm === 'og') return 'Original Content (OG-A1)';
+  if (norm === 'kega1' || norm === 'keg1' || norm === 'oga1' || norm === 'og') return 'Ελληνομάθεια Α1 (KEG-A1)';
   if (norm === 'klika1' || norm === 'klik1') return 'Κλικ στα Ελληνικά Α1 (Klik-A1)';
   if (norm === 'klika2' || norm === 'klik2') return 'Κλικ στα Ελληνικά Α2 (Klik-A2)';
   if (norm === 'klikb1' || norm === 'klik1b1') return 'Κλικ στα Ελληνικά Β1 (Klik-B1)';
@@ -424,6 +472,32 @@ export function getGroupAccentStyles(group: string): GroupAccentStyles {
     };
   }
 
+  if (norm.startsWith('kega2wrp1') || norm === 'wr1') {
+    return {
+      borderLeft: 'border-l-amber-500',
+      borderLeftHover: 'hover:border-l-amber-400',
+      pillBg: 'bg-amber-500/15 text-amber-300 border-amber-500/30',
+      badgeBg: 'bg-amber-950/70 text-amber-300 border-amber-700/50',
+      badgeIconColor: 'text-amber-400',
+      dotColor: 'bg-amber-400',
+      hoverGlow: 'hover:shadow-amber-500/10',
+      titleHover: 'group-hover:text-amber-300',
+    };
+  }
+
+  if (norm.startsWith('kega2wrp2') || norm === 'wr2') {
+    return {
+      borderLeft: 'border-l-violet-500',
+      borderLeftHover: 'hover:border-l-violet-400',
+      pillBg: 'bg-violet-500/15 text-violet-300 border-violet-500/30',
+      badgeBg: 'bg-violet-950/70 text-violet-300 border-violet-700/50',
+      badgeIconColor: 'text-violet-400',
+      dotColor: 'bg-violet-400',
+      hoverGlow: 'hover:shadow-violet-500/10',
+      titleHover: 'group-hover:text-violet-300',
+    };
+  }
+
   if (norm.startsWith('kega2p2') || norm === 'keg2p2' || norm === 'a2p2' || norm === 'a22') {
     return {
       borderLeft: 'border-l-teal-500',
@@ -463,7 +537,7 @@ export function getGroupAccentStyles(group: string): GroupAccentStyles {
     };
   }
 
-  // Default / OG-A1 (Original Curriculum)
+  // Default / KEG-A1 (Centre for Greek Language A1)
   return {
     borderLeft: 'border-l-sky-500',
     borderLeftHover: 'hover:border-l-sky-400',
@@ -509,9 +583,9 @@ export function getGroupMetadata(group: string): GroupMetadata {
       id: 'Klik-A1',
       shortLabel: 'Klik-A1',
       name: 'Κλικ στα Ελληνικά Α1 (Klik-A1)',
-      greekTitle: 'Κλικ στα Ελληνικά Α1',
+      greekTitle: 'Κλικ στα Ελληνικά Α1 (Klik-A1)',
       subtitle: 'Επίσημο Εγχειρίδιο • Ενότητες 1–12 (σελ. 8–180)',
-      levelBadge: 'CEFR A1 • Textbook',
+      levelBadge: 'Klik-A1',
       description: 'Πλήρες δομημένο πρόγραμμα εκμάθησης βασισμένο στο επίσημο βιβλίο Κλικ στα Ελληνικά Α1.',
       gradientBg: 'from-indigo-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-indigo-500/30',
@@ -527,15 +601,61 @@ export function getGroupMetadata(group: string): GroupMetadata {
     };
   }
 
+  if (norm.startsWith('kega2wrp1') || norm === 'wr1') {
+    return {
+      id: 'KEG-A2-WR-P1',
+      shortLabel: 'KEG-A2 WR P1',
+      name: 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 1 (KEG-A2 Writing P1: Core Framework)',
+      greekTitle: 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 1 (KEG-A2 Writing P1: Core Framework)',
+      subtitle: 'Γραπτή Έκφραση • Αποκωδικοποίηση, Συνδετικές Λέξεις & Δομή (60 Κάρτες)',
+      levelBadge: 'KEG-A2 WR P1',
+      description: 'Συστηματική προετοιμασία γραπτού λόγου ΚΕΓ Α2: αποκωδικοποίηση θεμάτων, φόρμουλες επιστολών, χρονικοί & αιτιολογικοί σύνδεσμοι, και ορθογραφία (60 κάρτες με ήχο Chirp-3 HD).',
+      gradientBg: 'from-amber-950/70 via-slate-900/90 to-slate-900/90',
+      accentBorder: 'border-amber-500/30',
+      accentBorderActive: 'border-amber-400 ring-2 ring-amber-500/40 shadow-lg shadow-amber-500/20',
+      accentText: 'text-amber-400',
+      accentBg: 'bg-amber-500/10',
+      badgeBg: 'bg-amber-500/20',
+      badgeBorder: 'border-amber-500/40',
+      badgeText: 'text-amber-300',
+      dotColor: 'bg-amber-400',
+      progressGradient: 'from-amber-500 to-yellow-400',
+      glowEffect: 'hover:shadow-amber-500/15',
+    };
+  }
+
+  if (norm.startsWith('kega2wrp2') || norm === 'wr2') {
+    return {
+      id: 'KEG-A2-WR-P2',
+      shortLabel: 'KEG-A2 WR P2',
+      name: 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 2 (KEG-A2 Writing P2: Playbooks & Mock Exams)',
+      greekTitle: 'Ελληνομάθεια Α2 - Γραπτά: Μέρος 2 (KEG-A2 Writing P2: Playbooks & Mock Exams)',
+      subtitle: 'Θεματικά Playbooks & Προσομοιώσεις Εξετάσεων (58 Κάρτες)',
+      levelBadge: 'KEG-A2 WR P2',
+      description: 'Πλήρη σενάρια γραπτών εξετάσεων ΚΕΓ Α2: προσκλήσεις, αγγελίες, δικαιολογήσεις απουσίας, ταξιδιωτικές αφηγήσεις και χρονομετρημένες προσομοιώσεις Task 1 & Task 2 (58 κάρτες με ήχο Chirp-3 HD).',
+      gradientBg: 'from-violet-950/70 via-slate-900/90 to-slate-900/90',
+      accentBorder: 'border-violet-500/30',
+      accentBorderActive: 'border-violet-400 ring-2 ring-violet-500/40 shadow-lg shadow-violet-500/20',
+      accentText: 'text-violet-400',
+      accentBg: 'bg-violet-500/10',
+      badgeBg: 'bg-violet-500/20',
+      badgeBorder: 'border-violet-500/40',
+      badgeText: 'text-violet-300',
+      dotColor: 'bg-violet-400',
+      progressGradient: 'from-violet-500 to-purple-400',
+      glowEffect: 'hover:shadow-violet-500/15',
+    };
+  }
+
   if (norm.startsWith('kega2p2') || norm === 'keg2p2' || norm === 'a2p2' || norm === 'a22') {
     return {
       id: 'KEG-A2-P2',
-      shortLabel: 'KEG-A2 P2',
-      name: 'Ελληνομάθεια Α2 - Μέρος 2 (KEG-A2 P2)',
-      greekTitle: 'Πιστοποιητικό Ελληνομάθειας Α2 (Μέρος 2)',
-      subtitle: 'Εξεταστική Ύλη • Προχωρημένα Θέματα & Ανακοινώσεις',
-      levelBadge: 'CEFR A2 • Exam',
-      description: 'Προχωρημένες θεματικές ενότητες εξετάσεων ΚΕΓ Α2, επίσημες ανακοινώσεις, επιστολές και εκφράσεις.',
+      shortLabel: 'KEG-A2 Part 2',
+      name: 'Ελληνομάθεια Α2 - Μέρος 2 (KEG-A2 Part 2: Comprehensive Expansion)',
+      greekTitle: 'Ελληνομάθεια Α2 - Μέρος 2 (KEG-A2 Part 2: Comprehensive Expansion)',
+      subtitle: 'Πλήρης Επέκταση • Θεματικό Λεξιλόγιο, Διάλογοι & Περιστάσεις (360 Κάρτες)',
+      levelBadge: 'KEG-A2 Part 2',
+      description: 'Ολοκληρωμένη θεματική επέκταση για τις εξετάσεις ΚΕΓ Α2: κατοικία, αγορές, υγεία, εργασία, ταξίδια, έθιμα και περιβάλλον (360 κάρτες με ήχο Chirp-3 HD).',
       gradientBg: 'from-teal-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-teal-500/30',
       accentBorderActive: 'border-teal-400 ring-2 ring-teal-500/40 shadow-lg shadow-teal-500/20',
@@ -554,11 +674,11 @@ export function getGroupMetadata(group: string): GroupMetadata {
     return {
       id: 'KEG-A2-SP',
       shortLabel: 'KEG-A2 SP',
-      name: 'Ελληνομάθεια Α2 - Προφορικά (KEG-A2 SP)',
-      greekTitle: 'Προφορική Εξέταση Α2 (SP-01 έως SP-06)',
-      subtitle: 'Διάδραση & Παραγωγή Προφορικού Λόγου',
-      levelBadge: 'CEFR A2 • Speaking',
-      description: 'Προσομοίωση προφορικών εξετάσεων ΚΕΓ με διπλές απαντήσεις υποψηφίου και ήχο Chirp-3 HD.',
+      name: 'Ελληνομάθεια Α2 - Προφορικά (KEG-A2 Speaking)',
+      greekTitle: 'Ελληνομάθεια Α2 - Προφορικά (KEG-A2 Speaking)',
+      subtitle: 'Διάδραση & Παραγωγή Προφορικού Λόγου (SP-01 έως SP-06)',
+      levelBadge: 'KEG-A2 SP',
+      description: 'Προσομοίωση προφορικών εξετάσεων ΚΕΓ με διπλές απαντήσεις υποψηφίου και ήχο Chirp-3 HD (240 κάρτες).',
       gradientBg: 'from-rose-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-rose-500/30',
       accentBorderActive: 'border-rose-400 ring-2 ring-rose-500/40 shadow-lg shadow-rose-500/20',
@@ -573,15 +693,15 @@ export function getGroupMetadata(group: string): GroupMetadata {
     };
   }
 
-  if (norm.startsWith('kega2') || norm === 'keg2' || norm.startsWith('oga2') || norm.startsWith('a2p1') || norm === 'a21') {
+  if (norm.startsWith('kega2p1') || norm === 'kega21' || norm === 'keg2p1' || norm === 'keg21' || norm.startsWith('oga2') || norm.startsWith('a2p1') || norm === 'a21' || norm === 'kega2' || norm === 'keg2') {
     return {
       id: 'KEG-A2-P1',
-      shortLabel: 'KEG-A2 P1',
-      name: 'Ελληνομάθεια Α2 - Μέρος 1 (KEG-A2 P1)',
-      greekTitle: 'Πιστοποιητικό Ελληνομάθειας Α2 (Μέρος 1)',
-      subtitle: 'Επίσημη Εξεταστική Ύλη • Κείμενα & Διάλογοι',
-      levelBadge: 'CEFR A2 • Exam',
-      description: 'Προετοιμασία για τις επίσημες εξετάσεις του Κέντρου Ελληνικής Γλώσσας (ΚΕΓ) - Πρώτο Μέρος.',
+      shortLabel: 'KEG-A2 Part 1',
+      name: 'Ελληνομάθεια Α2 - Μέρος 1 (KEG-A2 Part 1: Core Essentials)',
+      greekTitle: 'Ελληνομάθεια Α2 - Μέρος 1 (KEG-A2 Part 1: Core Essentials)',
+      subtitle: 'Βασικό Επίπεδο • Γραμματικά Θεμέλια, Λεξιλόγιο & Οδηγίες (450 Κάρτες)',
+      levelBadge: 'KEG-A2 Part 1',
+      description: 'Βασική προετοιμασία επιπέδου Α2 για τις εξετάσεις του ΚΕΓ: Αόριστος, Παρατατικός, Μέλλοντας, Υποτακτική και εξεταστικές οδηγίες (450 κάρτες με ήχο Chirp-3 HD).',
       gradientBg: 'from-emerald-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-emerald-500/30',
       accentBorderActive: 'border-emerald-400 ring-2 ring-emerald-500/40 shadow-lg shadow-emerald-500/20',
@@ -601,9 +721,9 @@ export function getGroupMetadata(group: string): GroupMetadata {
       id: 'Klik-A2',
       shortLabel: 'Klik-A2',
       name: 'Κλικ στα Ελληνικά Α2 (Klik-A2)',
-      greekTitle: 'Κλικ στα Ελληνικά Α2',
+      greekTitle: 'Κλικ στα Ελληνικά Α2 (Klik-A2)',
       subtitle: 'Ενδιάμεσο Επίπεδο • Προχωρημένο Λεξιλόγιο',
-      levelBadge: 'CEFR A2 • Textbook',
+      levelBadge: 'Klik-A2',
       description: 'Εγχειρίδιο Κλικ στα Ελληνικά Α2 με εμβάθυνση στη γραμματική και πλούσιο λεξιλόγιο.',
       gradientBg: 'from-purple-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-purple-500/30',
@@ -624,9 +744,9 @@ export function getGroupMetadata(group: string): GroupMetadata {
       id: 'CYP-Exam',
       shortLabel: 'CYP-Exam',
       name: 'Εξετάσεις Πολιτογράφησης Κύπρου (CYP-Exam)',
-      greekTitle: 'Εξετάσεις Πολιτογράφησης Κύπρου',
+      greekTitle: 'Εξετάσεις Πολιτογράφησης Κύπρου (CYP-Exam)',
       subtitle: 'Προετοιμασία Εξετάσεων Πολιτογράφησης',
-      levelBadge: 'Exam Prep',
+      levelBadge: 'CYP-Exam',
       description: 'Ειδική εξεταστική ύλη και πρακτικές ασκήσεις για τις εξετάσεις πολιτογράφησης της Κυπριακής Δημοκρατίας.',
       gradientBg: 'from-amber-950/70 via-slate-900/90 to-slate-900/90',
       accentBorder: 'border-amber-500/30',
@@ -642,15 +762,15 @@ export function getGroupMetadata(group: string): GroupMetadata {
     };
   }
 
-  // Default / OG-A1 (Original Curriculum)
+  // Default / KEG-A1 (Centre for Greek Language A1)
   return {
-    id: 'OG-A1',
-    shortLabel: 'OG-A1',
-    name: 'Original Content (OG-A1)',
-    greekTitle: 'Βασικό Λεξιλόγιο & Θεμελιώδεις Έννοιες',
-    subtitle: 'Αριθμοί, Οικογένεια, Καθημερινές Φράσεις',
-    levelBadge: 'CEFR A1 • Core',
-    description: 'Βασικές θεματικές ενότητες με καθημερινό λεξιλόγιο και δομημένες κάρτες εκμάθησης.',
+    id: 'KEG-A1',
+    shortLabel: 'KEG-A1',
+    name: 'Ελληνομάθεια Α1 (KEG-A1)',
+    greekTitle: 'Ελληνομάθεια Α1 (KEG-A1)',
+    subtitle: 'Βασικό Επίπεδο • Θεματικές Ενότητες 00–12',
+    levelBadge: 'KEG-A1',
+    description: 'Επίσημο πρόγραμμα εκμάθησης ΚΕΓ Α1 με βασικές θεματικές ενότητες, καθημερινό λεξιλόγιο και δομημένες κάρτες.',
     gradientBg: 'from-sky-950/70 via-slate-900/90 to-slate-900/90',
     accentBorder: 'border-sky-500/30',
     accentBorderActive: 'border-sky-400 ring-2 ring-sky-500/40 shadow-lg shadow-sky-500/20',

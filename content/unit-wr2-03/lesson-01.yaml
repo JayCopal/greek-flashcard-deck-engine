@@ -1,0 +1,195 @@
+unit_id: unit-wr2-03
+lesson_id: lesson-01
+title: 'Μάθημα 8: Γραπτός Λόγος — Υγεία, Συμπτώματα & Απουσία (A2 Writing: Health
+  & Absences)'
+description: Describing illness symptoms, doctor diagnoses, and writing polite notes
+  to employers, teachers, or colleagues excusing absences.
+lesson_status: not_started
+lesson_notes: "Unit A2-08 Core Notes: Υγεία & Απουσία (Health, Symptoms & Excuses)\n\
+  • Recurring Prompt Type:\n  Writing an urgent email or SMS to your employer (αφεντικό/προϊστάμενος),\
+  \ colleague (συνάδελφος), or teacher explaining why you cannot come to work/class.\n\
+  • Core Components of the Absence Note:\n  1. The Direct Statement: «Δεν θα μπορέσω\
+  \ να έρθω σήμερα...» (I won't be able to come today...)\n  2. The Cause & Symptoms:\
+  \ «...γιατί έχω πυρετό και πονάει ο λαιμός μου.»\n  3. The Doctor's Orders: «Ο γιατρός\
+  \ μού είπε να μείνω στο κρεβάτι...»\n  4. Handover of Urgent Duties: «Έχω αφήσει\
+  \ τα έγγραφα... παρακαλώ κοιτάξτε τα email...»\n  5. Anticipated Return: «Ελπίζω\
+  \ να επιστρέψω τη Δευτέρα.»"
+entries:
+- id: A2-U08-001
+  greek: Από χθες το βράδυ έχω υψηλό πυρετό και πονάει πολύ ο λαιμός μου.
+  english: Since last night I have a high fever and my throat hurts a lot.
+  notes: '[Lego Sentence Builder] Stating symptoms: ''έχω υψηλό πυρετό'', impersonal
+    verb ''πονάει'' + masculine subject ''ο λαιμός μου''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Describing acute illness symptoms and physical pain
+  example_el: Από χθες το βράδυ έχω υψηλό πυρετό, έντονο πονοκέφαλο και πονάει πολύ
+    ο λαιμός μου.
+  example_en: Since last night I have a high fever, a severe headache, and my throat
+    hurts a lot.
+  audio: apo-chthes-to-vrady--b1552d.mp3
+  status: verified
+- id: A2-U08-002
+  greek: Πήγα στον γιατρό σήμερα το πρωί και μου είπε ότι έχω βαριά γρίπη.
+  english: I went to the doctor this morning and he told me that I have a bad flu.
+  notes: '[Lego Sentence Builder] Reporting medical diagnosis: irregular Aorists ''πήγα''
+    and ''μου είπε'' + noun ''γρίπη''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Reporting medical consultation and diagnosis
+  example_el: Πήγα στον γιατρό σήμερα το πρωί και μου είπε ότι έχω βαριά γρίπη και
+    πρέπει να προσέχω.
+  example_en: I went to the doctor this morning and he told me that I have a bad flu
+    and I must be careful.
+  audio: piga-ston-giatro-sim-8b672e.mp3
+  status: verified
+- id: A2-U08-003
+  greek: Πρέπει να μείνω στο κρεβάτι για τρεις μέρες και να πάρω αντιβίωση.
+  english: I must stay in bed for three days and take antibiotics.
+  notes: '[Lego Sentence Builder] Doctor orders: modal ''πρέπει να'' + dependent subjunctive
+    ''μείνω'' and ''πάρω''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Stating prescribed medical treatment and bed rest duration
+  example_el: 'Ο γιατρός ήταν αυστηρός: πρέπει να μείνω στο κρεβάτι για τρεις μέρες
+    και να πάρω αντιβίωση και βιταμίνες.'
+  example_en: 'The doctor was strict: I must stay in bed for three days and take antibiotics
+    and vitamins.'
+  audio: prepei-na-meino-sto--d4f9b7.mp3
+  status: verified
+- id: A2-U08-004
+  greek: Δυστυχώς δεν θα μπορέσω να έρθω στο γραφείο σήμερα και αύριο.
+  english: Unfortunately I will not be able to come to the office today and tomorrow.
+  notes: '[Lego Sentence Builder] Formal notification of absence: future ''δεν θα
+    μπορέσω'' + dependent subjunctive ''να έρθω''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Notifying workplace or school of an upcoming absence
+  example_el: Λόγω της ασθένειας, δυστυχώς δεν θα μπορέσω να έρθω στο γραφείο σήμερα
+    και αύριο.
+  example_en: Due to illness, unfortunately I will not be able to come to the office
+    today and tomorrow.
+  audio: dystychos-den-tha-mp-7dc4f0.mp3
+  status: verified
+- id: A2-U08-005
+  greek: Έχω αφήσει τον φάκελο με τα έγγραφα πάνω στο γραφείο μου.
+  english: I have left the folder with the documents on top of my desk.
+  notes: '[Lego Sentence Builder] Work delegation: perfect tense ''έχω αφήσει'' +
+    spatial preposition ''πάνω σε''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Delegating files and indicating item locations during
+    absence
+  example_el: Αν χρειαστείτε τα στοιχεία της υπόθεσης, έχω αφήσει τον φάκελο με τα
+    έγγραφα πάνω στο γραφείο μου.
+  example_en: If you need the case details, I have left the folder with the documents
+    on top of my desk.
+  audio: echo-afisei-ton-fake-c74a56.mp3
+  status: verified
+- id: A2-U08-006
+  greek: Για οτιδήποτε επείγον, μπορείτε να μου στείλετε μήνυμα στο κινητό.
+  english: For anything urgent, you can send me a message on my mobile.
+  notes: '[Polite Professional Formula] Pronoun ''οτιδήποτε'' + formal address ''μπορείτε
+    να μου στείλετε''.'
+  gender_or_pos: phrase
+  keg_communicative_function: Providing emergency contact instructions while away
+  example_el: Δεν θα απαντάω στο σταθερό, αλλά για οτιδήποτε επείγον μπορείτε να μου
+    στείλετε μήνυμα στο κινητό μου τηλέφωνο.
+  example_en: I will not be answering the landline, but for anything urgent you can
+    send me a message on my mobile phone.
+  audio: gia-otidipote-epeigo-5383b3.mp3
+  status: verified
+- id: A2-U08-007
+  greek: Ελπίζω να αισθανθώ καλύτερα και να επιστρέψω στη δουλειά την Πέμπτη.
+  english: I hope to feel better and return to work on Thursday.
+  notes: '[Lego Sentence Builder] Stating return expectation: ''ελπίζω να'' + deponent
+    ''αισθανθώ'' + day of return.'
+  gender_or_pos: sentence
+  keg_communicative_function: Estimating recovery time and return date
+  example_el: Παίρνω τα φάρμακά μου και ελπίζω να αισθανθώ καλύτερα και να επιστρέψω
+    στη δουλειά την Πέμπτη το πρωί.
+  example_en: I am taking my medication and I hope to feel better and return to work
+    on Thursday morning.
+  audio: elpizo-na-aisthantho-5e02d7.mp3
+  status: verified
+- id: A2-U08-008
+  greek: Email στον προϊστάμενο για απουσία λόγω ασθένειας (Task 1 Simulation)
+  english: 'Prompt: Write a 35-40 word email to your manager explaining your illness,
+    absence, and file location.'
+  notes: '[Micro-Prompt Simulation - Task 1: 37 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα email στον προϊστάμενό σας (30-40 λέξεις) για να του αναφέρετε:
+
+    • γιατί δεν μπορείτε να πάτε σήμερα στην εργασία σας
+
+    • τι σας είπε ο γιατρός
+
+    • πού βρίσκονται τα έγγραφα του νέου σχεδίου»
+
+
+    Gold-Standard Model Response:
+
+    Κύριε Παπαδόπουλε,
+
+    Σας ενημερώνω ότι σήμερα δεν θα έρθω στο γραφείο επειδή έχω υψηλό πυρετό. Ο γιατρός
+    μού είπε να ξεκουραστώ στο σπίτι. Τα έγγραφα του σχεδίου βρίσκονται πάνω στο γραφείο
+    μου.
+
+    Με εκτίμηση,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a formal email excusing illness absence to a
+    superior
+  example_el: Κύριε Παπαδόπουλε, σήμερα δεν θα έρθω στο γραφείο επειδή έχω πυρετό.
+    Ο γιατρός μού είπε να ξεκουραστώ. Τα έγγραφα βρίσκονται στο γραφείο μου. Με εκτίμηση!
+  example_en: Mr. Papadopoulos, today I will not come to the office because I have
+    a fever. The doctor told me to rest. The documents are on my desk. Sincerely!
+  audio: email-ston-proistame-01303f.mp3
+  status: verified
+- id: A2-U08-009
+  greek: Σημείωμα στον καθηγητή ελληνικών για χαμένο μάθημα (Task 1 Simulation)
+  english: 'Prompt: Write a 30-35 word message to your Greek teacher explaining why
+    you missed class and asking for homework.'
+  notes: '[Micro-Prompt Simulation - Task 1: 33 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα μήνυμα στον καθηγητή των ελληνικών σας (30-35 λέξεις) για να:
+
+    • του εξηγήσετε γιατί λείψατε από το χθεσινό μάθημα
+
+    • ζητήσετε τις ασκήσεις για το σπίτι
+
+    • δηλώσετε πότε θα έρθετε στο επόμενο μάθημα»
+
+
+    Gold-Standard Model Response:
+
+    Αγαπητέ κύριε Γιώργο,
+
+    Συγγνώμη που έλειψα χθες από το μάθημα, αλλά ήμουν άρρωστος με κρυολόγημα. Μπορείτε
+    να μου στείλετε τις ασκήσεις για το σπίτι; Θα έρθω κανονικά την Παρασκευή.
+
+    Ευχαριστώ πολύ,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing an apologetic note to an instructor requesting
+    missed homework
+  example_el: Αγαπητέ κύριε Γιώργο, συγγνώμη που έλειψα χθες, αλλά ήμουν άρρωστος.
+    Μπορείτε να μου στείλετε τις ασκήσεις; Θα έρθω την Παρασκευή. Ευχαριστώ!
+  example_en: Dear Mr. Giorgos, sorry I was absent yesterday, but I was sick. Can
+    you send me the exercises? I will come on Friday. Thank you!
+  audio: simeioma-ston-kathig-8f40e2.mp3
+  status: verified
+- id: A2-U08-010
+  greek: Περαστικά και καλή ανάρρωση!
+  english: Get well soon and wishing you a speedy recovery!
+  notes: '[Convalescence Formula] Authentic Greek wish pair: ''περαστικά'' (may it
+    pass) + ''καλή ανάρρωση'' (good recovery).'
+  gender_or_pos: phrase
+  keg_communicative_function: Expressing get-well wishes to a sick friend or colleague
+  example_el: Έμαθα ότι είσαι άρρωστος στο κρεβάτι. Περαστικά και καλή ανάρρωση, φίλε
+    μου!
+  example_en: I learned that you are sick in bed. Get well soon and wishing you a
+    speedy recovery, my friend!
+  audio: perastika-kai-kali-a-0bc121.mp3
+  status: verified

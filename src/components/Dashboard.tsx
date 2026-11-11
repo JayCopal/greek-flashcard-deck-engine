@@ -36,10 +36,10 @@ import {
   Sparkles, 
   ArrowRight,
   Layers,
-  Award,
-  Compass,
   Mic,
   GraduationCap,
+  Edit3,
+  PenTool,
   Check
 } from 'lucide-react';
 
@@ -253,14 +253,20 @@ export const Dashboard: React.FC<DashboardProps> = ({
     if (norm.startsWith('klika2') || norm === 'klik2') {
       return <BookMarked className={className} />;
     }
+    if (norm.startsWith('kega2wrp1') || norm === 'wr1') {
+      return <Edit3 className={className} />;
+    }
+    if (norm.startsWith('kega2wrp2') || norm === 'wr2') {
+      return <PenTool className={className} />;
+    }
     if (norm.startsWith('kega2sp') || norm === 'sp' || norm === 'speaking') {
       return <Mic className={className} />;
     }
     if (norm.startsWith('kega2p2') || norm === 'a2p2') {
-      return <Compass className={className} />;
+      return <Layers className={className} />;
     }
-    if (norm.startsWith('kega2') || norm === 'a2p1' || norm === 'a2') {
-      return <Award className={className} />;
+    if (norm.startsWith('kega2p1') || norm.startsWith('kega2') || norm === 'a2p1' || norm === 'a2') {
+      return <FileText className={className} />;
     }
     if (norm.startsWith('cyp')) {
       return <GraduationCap className={className} />;
@@ -323,13 +329,16 @@ export const Dashboard: React.FC<DashboardProps> = ({
     }
 
     const priorityOrder: Record<string, number> = {
+      'KEG-A1': 1,
       'OG-A1': 1,
       'Klik-A1': 2,
       'Klik-A2': 3,
       'KEG-A2-P1': 4,
       'KEG-A2-P2': 5,
-      'KEG-A2-SP': 6,
-      'CYP-Exam': 7,
+      'KEG-A2-WR-P1': 6,
+      'KEG-A2-WR-P2': 7,
+      'KEG-A2-SP': 8,
+      'CYP-Exam': 9,
     };
 
     return Array.from(groupMap.values())
@@ -856,7 +865,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     </div>
                     <div className="min-w-0">
                       <h3 className="text-base font-bold text-white tracking-tight group-hover:text-sky-300 transition-colors leading-snug truncate">
-                        {meta.greekTitle}
+                        {group.name}
                       </h3>
                       <p className="text-[11px] text-slate-400 mt-0.5 leading-snug line-clamp-1">
                         {meta.subtitle}
@@ -947,7 +956,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               }`}
             >
               <Layers className="w-3.5 h-3.5" />
-              <span>All Tracks ({units.length})</span>
+              <span>All Groups ({units.length})</span>
             </button>
             {availableGroups.map((group) => {
               const isSelected = groupFilter.toLowerCase() === group.id.toLowerCase();
@@ -964,7 +973,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   }`}
                 >
                   <span className={`w-2 h-2 rounded-full ${meta.dotColor}`} />
-                  <span>{meta.shortLabel}</span>
+                  <span>{group.name}</span>
                   <span className="text-[10px] text-slate-500 font-normal">({group.lessonsCount})</span>
                 </button>
               );
@@ -1156,7 +1165,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     )}
                   </div>
                   <h2 className="text-lg sm:text-2xl font-bold text-white tracking-tight mt-1">
-                    {meta.greekTitle}
+                    Group: {meta.name}
                   </h2>
                   <p className="text-xs sm:text-sm text-slate-300/90 mt-0.5 max-w-2xl">
                     {meta.description}
@@ -1270,7 +1279,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                           </span>
                         </div>
                         <h3 className="text-base sm:text-lg font-bold text-white tracking-tight mt-0.5">
-                          {meta.greekTitle}
+                          Group: {group.name}
                         </h3>
                         <p className="text-xs text-slate-400 mt-0.5 max-w-xl">
                           {meta.subtitle}
@@ -1341,7 +1350,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     onClick={() => toggleGroupCollapse(group.id)}
                     className="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 text-center cursor-pointer text-xs text-slate-400 hover:text-slate-300 transition-colors flex items-center justify-center gap-2"
                   >
-                    <span>{groupUnits.length} lessons in {meta.greekTitle} collapsed</span>
+                    <span>{groupUnits.length} lessons in {group.name} collapsed</span>
                     <span className="text-sky-400 font-semibold">• Click to expand</span>
                   </div>
                 )}

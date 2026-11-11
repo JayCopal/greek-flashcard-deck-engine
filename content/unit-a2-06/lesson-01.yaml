@@ -1,178 +1,725 @@
 unit_id: unit-a2-06
 lesson_id: lesson-01
-title: 'Μάθημα 6: Γραπτός Λόγος — Ταξίδια, Διακοπές & Εκδρομές (A2 Writing: Travel
-  & Holidays)'
-description: 'Mastering the narrative past in Task 2 compositions: setting the scene,
-  describing places, expressing impressions, and using chronological Aorist chains.'
+title: 'Μάθημα 6: Συναλλαγές, Τράπεζα, Ταχυδρομείο & Δημόσιες Υπηρεσίες (Banking,
+  Post Office & Public Services)'
+description: Navigating banking counters, ATM withdrawals, postal package dispatches,
+  utility bills, and Citizens' Service Centers (ΚΕΠ) using polite imperatives (περάστε,
+  περιμένετε, δείξτε μου, δώστε μου) and administrative formulas.
 lesson_status: not_started
-lesson_notes: "Unit A2-06 Core Notes: Ταξίδια & Διακοπές (Travel & Past Experiences)\n\
-  • Dominant Genre for Task 2 (60–80 words):\n  Examiners consistently ask you to\
-  \ write a letter or email to a friend about a past vacation, weekend excursion,\
-  \ or visit to a village.\n• Narrative Structure:\n  1. Opening: «Γεια σου [Όνομα]!\
-  \ Σου γράφω για να σου πω για τις διακοπές μου...»\n  2. Setting the Scene (Where,\
-  \ When, Who): «Το περασμένο καλοκαίρι πήγα στην Κρήτη με την παρέα μου.»\n  3. Atmosphere\
-  \ & Weather: «Ο καιρός ήταν υπέροχος και το μέρος ήταν πανέμορφο.»\n  4. Chronological\
-  \ Actions (Aorist): «Το πρωί κάναμε μπάνιο... το μεσημέρι φάγαμε σε παραδοσιακή\
-  \ ταβέρνα... το βράδυ ήπιαμε κρασί...»\n  5. Impression & Closing: «Περάσαμε αξέχαστα\
-  \ και ελπίζω να ξαναπάμε σύντομα! Σε φιλώ, [Όνομα]»."
+lesson_notes: "Unit A2-06 Core Notes: Συναλλαγές, Τράπεζα & Δημόσιες Υπηρεσίες (Public\
+  \ Services & Transactions)\n• Civic & Administrative Environments:\n  - Η τράπεζα:\
+  \ λογαριασμός (account), κατάθεση (deposit), ανάληψη (withdrawal), ΑΤΜ, υπόλοιπο\
+  \ (balance).\n  - Το ταχυδρομείο (ΕΛΤΑ): δέμα (parcel), γραμματόσημο (stamp), συστημένο\
+  \ (registered mail).\n  - Το ΚΕΠ (Κέντρο Εξυπηρέτησης Πολιτών): αίτηση (application),\
+  \ πιστοποιητικό (certificate), βεβαίωση (attestation), γνήσιο υπογραφής (signature\
+  \ legalization).\n• Imperative Directives in Public Counters:\n  - Περάστε (step\
+  \ forward), Περιμένετε (wait), Δείξτε μου (show me), Δώστε μου (give me), Υπογράψτε\
+  \ (sign)."
 entries:
 - id: A2-U06-001
-  greek: Το περασμένο καλοκαίρι πήγα διακοπές στην Κρήτη με την παρέα μου.
-  english: Last summer I went on vacation to Crete with my group of friends.
-  notes: '[Lego Sentence Builder] Essential narrative opening anchor. Spells: περασμένο
-    (with double sigma), παρέα μου (feminine accusative).'
-  gender_or_pos: sentence
-  keg_communicative_function: Setting the scene and time of past holidays
-  example_el: Το περασμένο καλοκαίρι πήγα διακοπές στην Κρήτη με την παρέα μου και
-    μείναμε δύο εβδομάδες σε ένα μικρό χωριό.
-  example_en: Last summer I went on vacation to Crete with my friends and we stayed
-    two weeks in a small village.
-  audio: to-perasmeno-kalokai-a2d363.mp3
+  greek: ο λογαριασμός
+  english: bill / bank account
+  notes: 'Masculine noun in -ος (-οι). Dual meaning: utility/restaurant bill (''πληρώνω
+    τον λογαριασμό'') or bank account (''τραπεζικός λογαριασμός'').'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι λογαριασμοί
+    genitive_singular: του λογαριασμού
+    collocations: λογαριασμός ρεύματος, τραπεζικός λογαριασμός
+  keg_communicative_function: Settling utility bills and handling bank accounts in
+    Speaking Stage 2 role-plays
+  example_el: Θα ήθελα να ανοίξω έναν τραπεζικό λογαριασμό ταμιευτηρίου.
+  example_en: I would like to open a savings bank account.
+  example2_el: Πήγα στο ταχυδρομείο για να πληρώσω τον λογαριασμό του νερού.
+  example2_en: I went to the post office to pay the water bill.
+  audio: o-logariasmos-0a3d2a.mp3
   status: verified
+  example_audio: tha-ithela-na-anoixo-52d0aa.mp3
+  example2_audio: piga-sto-tachydromei-ee4d16.mp3
 - id: A2-U06-002
-  greek: Ο καιρός ήταν υπέροχος και η θέα από το ξενοδοχείο ήταν μαγευτική.
-  english: The weather was wonderful and the view from the hotel was magical.
-  notes: '[Lego Sentence Builder] Sensory description chunk. Uses imperfect ''ήταν''
-    with descriptive adjectives ''υπέροχος'' and ''μαγευτική''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing weather and scenery in narrative writing
-  example_el: Ο καιρός ήταν υπέροχος όλη την εβδομάδα και η θέα από το ξενοδοχείο
-    στη θάλασσα ήταν πραγματικά μαγευτική.
-  example_en: The weather was wonderful all week and the view from the hotel towards
-    the sea was truly magical.
-  audio: o-kairos-itan-yperoc-13ed3a.mp3
+  greek: η κατάθεση
+  english: bank deposit
+  notes: 'Feminine noun in -η (-εις). Verb: ''καταθέτω'' (to deposit). Antonym: ''η
+    ανάληψη'' (withdrawal).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καταθέσεις
+    verb: καταθέτω
+    antonym: η ανάληψη
+  keg_communicative_function: Depositing funds at bank counters and filling out deposit
+    slips
+  example_el: Θέλω να κάνω μια κατάθεση χρημάτων στον λογαριασμό του ενοικίου.
+  example_en: I want to make a cash deposit into the rent account.
+  example2_el: Συμπληρώστε το έντυπο κατάθεσης με το ακριβές ποσό και την υπογραφή
+    σας.
+  example2_en: Fill in the deposit form with the exact amount and your signature.
+  audio: i-katathesi-673ed4.mp3
   status: verified
+  example_audio: thelo-na-kano-mia-ka-3d2a41.mp3
+  example2_audio: sympliroste-to-entyp-38cc8a.mp3
 - id: A2-U06-003
-  greek: Κάθε πρωί κάναμε μπάνιο στην παραλία και το μεσημέρι τρώγαμε φρέσκο ψάρι.
-  english: Every morning we swam at the beach and at midday we ate fresh fish.
-  notes: '[Lego Sentence Builder] Contrasting habitual past actions (κάναμε, τρώγαμε)
-    with time markers (κάθε πρωί, το μεσημέρι).'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing daily holiday activities in the past
-  example_el: Κάθε πρωί κάναμε μπάνιο στην παραλία, κολυμπούσαμε με τις ώρες και το
-    μεσημέρι τρώγαμε φρέσκο ψάρι σε μια ταβέρνα.
-  example_en: Every morning we swam at the beach, swam for hours, and at noon we ate
-    fresh fish at a taverna.
-  audio: kathe-proi-kaname-mp-63bbaf.mp3
+  greek: η ανάληψη
+  english: cash withdrawal
+  notes: Feminine noun in -η (-εις). Collocates with 'κάνω ανάληψη' (to withdraw money).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αναλήψεις
+    verb: κάνω ανάληψη / σηκώνω χρήματα
+    antonym: η κατάθεση
+  keg_communicative_function: Withdrawing money from bank tellers and ATM machines
+  example_el: Έκανα ανάληψη διακοσίων ευρώ από το μηχάνημα της τράπεζας.
+  example_en: I made a withdrawal of two hundred euros from the bank machine.
+  example2_el: Υπάρχει ημερήσιο όριο για ανάληψη μετρητών με την κάρτα σας.
+  example2_en: There is a daily limit for cash withdrawal with your card.
+  audio: i-analipsi-5992a5.mp3
   status: verified
+  example_audio: ekana-analipsi-diako-d00408.mp3
+  example2_audio: yparchei-imerisio-or-0fc232.mp3
 - id: A2-U06-004
-  greek: Επισκεφτήκαμε τα αρχαία μνημεία και περπατήσαμε στα γραφικά σοκάκια του χωριού.
-  english: We visited the ancient monuments and walked in the picturesque alleys of
-    the village.
-  notes: '[Lego Sentence Builder] Sightseeing vocabulary: deponent past ''επισκεφτήκαμε''
-    + adjective ''γραφικά σοκάκια''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Recounting cultural visits and sightseeing
-  example_el: Το απόγευμα επισκεφτήκαμε τα αρχαία μνημεία και περπατήσαμε στα γραφικά
-    σοκάκια του χωριού όπου αγοράσαμε αναμνηστικά.
-  example_en: In the afternoon we visited the ancient monuments and walked in the
-    picturesque alleys of the village where we bought souvenirs.
-  audio: episkeftikame-ta-arc-d94136.mp3
+  greek: το ΑΤΜ
+  english: ATM / cash dispenser
+  notes: Neuter indeclinable acronym. Pronounced 'ά-τα-μα'. Essential in city navigation
+    dialogues.
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ΑΤΜ
+    synonym: μηχάνημα αυτόματων συναλλαγών
+  keg_communicative_function: Asking for and giving directions to the nearest cash
+    dispenser
+  example_el: Μήπως γνωρίζετε πού βρίσκεται το κοντινότερο ΑΤΜ για ανάληψη μετρητών;
+  example_en: Do you happen to know where the nearest ATM is located for cash withdrawal?
+  example2_el: Το ΑΤΜ έξω από την τράπεζα είναι εκτός λειτουργίας αυτή τη στιγμή.
+  example2_en: The ATM outside the bank is out of order at the moment.
+  audio: to-atm-640ffe.mp3
   status: verified
+  example_audio: mipos-gnorizete-poy--49bb60.mp3
+  example2_audio: to-atm-exo-apo-tin-t-cd5b8e.mp3
 - id: A2-U06-005
-  greek: Μια μέρα νοικιάσαμε ένα καραβάκι και πήγαμε σε μια απομονωμένη παραλία.
-  english: One day we rented a small boat and went to an isolated beach.
-  notes: '[Lego Sentence Builder] Specific punctive event in Aorist: ''νοικιάσαμε''
-    (Aorist of νοικιάζω), ''απομονωμένη παραλία''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Narrating a highlight or special event during a journey
-  example_el: Μια μέρα νοικιάσαμε ένα καραβάκι και πήγαμε σε μια απομονωμένη παραλία
-    όπου τα νερά ήταν κρυστάλλινα.
-  example_en: One day we rented a small boat and went to an isolated beach where the
-    waters were crystal clear.
-  audio: mia-mera-noikiasame--0ea6b1.mp3
+  greek: το υπόλοιπο
+  english: account balance / remainder
+  notes: Neuter noun in -ο (-α). Collocates with 'υπόλοιπο λογαριασμού' (account balance).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα υπόλοιπα
+    genitive_singular: του υπολοίπου
+    collocation: υπόλοιπο λογαριασμού
+  keg_communicative_function: Inquiring about account balances at banks or over telephone
+    banking
+  example_el: Θα ήθελα να ελέγξω το υπόλοιπο του τραπεζικού μου λογαριασμού.
+  example_en: I would like to check the balance of my bank account.
+  example2_el: Στην οθόνη του ΑΤΜ εμφανίστηκε το διαθέσιμο υπόλοιπο.
+  example2_en: On the ATM screen the available balance was displayed.
+  audio: to-ypoloipo-5a9c8f.mp3
   status: verified
+  example_audio: tha-ithela-na-elegxo-98bc07.mp3
+  example2_audio: stin-othoni-toy-atm--b8a869.mp3
 - id: A2-U06-006
-  greek: Περάσαμε αξέχαστα και ελπίζω να ξαναπάμε εκεί του χρόνου.
-  english: We had an unforgettable time and I hope we go there again next year.
-  notes: '[High-Yield Evaluation Chunk] ''Περάσαμε αξέχαστα'' (we had an unforgettable
-    time) is an examiner-favorite closing impression.'
-  gender_or_pos: sentence
-  keg_communicative_function: Expressing overall positive impression of a journey
-  example_el: Ήταν οι καλύτερες διακοπές της ζωής μου. Περάσαμε αξέχαστα και ελπίζω
-    να ξαναπάμε εκεί του χρόνου!
-  example_en: It was the best vacation of my life. We had an unforgettable time and
-    I hope we go there again next year!
-  audio: perasame-axechasta-k-df8383.mp3
+  greek: η συναλλαγή
+  english: transaction
+  notes: Feminine noun in -η (-ες). Core formal noun covering banking, shopping, and
+    postal operations.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συναλλαγές
+    genitive_singular: της συναλλαγής
+  keg_communicative_function: Conducting administrative and commercial operations
+  example_el: Για λόγους ασφαλείας, κρατήστε την απόδειξη της συναλλαγής σας.
+  example_en: For security reasons, retain the receipt of your transaction.
+  example2_el: Η συναλλαγή ολοκληρώθηκε με επιτυχία.
+  example2_en: The transaction was completed successfully.
+  audio: i-synallagi-81a292.mp3
   status: verified
+  example_audio: gia-logoys-asfaleias-b9e695.mp3
+  example2_audio: i-synallagi-olokliro-23a5d3.mp3
 - id: A2-U06-007
-  greek: Γυρίσαμε στο σπίτι αργά το βράδυ, κουρασμένοι αλλά πολύ χαρούμενοι.
-  english: We returned home late in the evening, tired but very happy.
-  notes: '[Lego Sentence Builder] Concluding narrative sentence: Aorist ''γυρίσαμε''
-    + plural adjectives ''κουρασμένοι αλλά πολύ χαρούμενοι''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Concluding a holiday narrative with return details and
-    mood
-  example_el: Το ταξίδι τελείωσε την Κυριακή. Γυρίσαμε στο σπίτι αργά το βράδυ, κουρασμένοι
-    αλλά πολύ χαρούμενοι.
-  example_en: The trip ended on Sunday. We returned home late in the evening, tired
-    but very happy.
-  audio: gyrisame-sto-spiti-a-8540ce.mp3
+  greek: το ταχυδρομείο
+  english: post office
+  notes: Neuter noun in -ο (-α). Often abbreviated as 'ΕΛΤΑ' (Hellenic Post).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ταχυδρομεία
+    genitive_singular: του ταχυδρομείου
+    acronym: ΕΛΤΑ
+  keg_communicative_function: Seeking postal services and navigating postal branch
+    hours
+  example_el: Πρέπει να πάω στο κεντρικό ταχυδρομείο για να παραλάβω ένα δέμα.
+  example_en: I must go to the central post office to collect a parcel.
+  example2_el: Μέχρι τι ώρα μένει ανοιχτό το ταχυδρομείο τις καθημερινές;
+  example2_en: Until what time does the post office stay open on weekdays?
+  audio: to-tachydromeio-4f5b5b.mp3
   status: verified
+  example_audio: prepei-na-pao-sto-ke-d142f9.mp3
+  example2_audio: mechri-ti-ora-menei--87b8e6.mp3
 - id: A2-U06-008
-  greek: Γράμμα σε φίλο για τις καλοκαιρινές διακοπές (Task 2 Simulation)
-  english: 'Prompt: Write a 65-75 word email describing a summer vacation (destination,
-    activities, food, feelings).'
-  notes: '[Micro-Prompt Simulation - Task 2: 72 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα email σε έναν φίλο σας (60-75 λέξεις) για να του περιγράψετε:
-
-    • πού πήγατε διακοπές και με ποιους
-
-    • τι κάνατε εκεί (δραστηριότητες και φαγητό)
-
-    • πώς περάσατε και ποιες είναι οι εντυπώσεις σας»
-
-
-    Gold-Standard Model Response:
-
-    Αγαπητέ Γιώργο,
-
-    Σου γράφω για να σου πω τα νέα μου! Τον Αύγουστο πήγα διακοπές στη Νάξο με τους
-    φίλους μου. Μείναμε σε ένα όμορφο ξενοδοχείο κοντά στη θάλασσα.
-
-    Κάθε μέρα κολυμπούσαμε σε υπέροχες παραλίες και το μεσημέρι τρώγαμε φρέσκο ψάρι
-    σε παραδοσιακές ταβέρνες. Το βράδυ περπατούσαμε στη Χώρα. Περάσαμε αξέχαστα και
-    ξεκουραστήκαμε πολύ! Εσύ πού πήγες φέτος;
-
-    Πολλά φιλιά,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a complete narrative composition about past
-    summer holidays
-  example_el: Αγαπητέ Γιώργο, τον Αύγουστο πήγα διακοπές στη Νάξο με τους φίλους μου.
-    Κάθε μέρα κολυμπούσαμε και τρώγαμε φρέσκο ψάρι. Περάσαμε αξέχαστα! Πολλά φιλιά!
-  example_en: Dear Giorgos, in August I went on vacation to Naxos with my friends.
-    Every day we swam and ate fresh fish. We had an unforgettable time! Lots of kisses!
-  audio: gramma-se-filo-gia-t-fc33e4.mp3
+  greek: το δέμα
+  english: parcel / package
+  notes: Neuter noun in -μα (-ματα). Central subject in post office counter dialogues.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δέματα
+    genitive_singular: του δέματος
+    genitive_plural: των δεμάτων
+  keg_communicative_function: Mailing or collecting packages in service counter dialogues
+  example_el: Θέλω να στείλω αυτό το δέμα στην οικογένειά μου στο εξωτερικό.
+  example_en: I want to send this parcel to my family abroad.
+  example2_el: Ήρθε ειδοποίηση ότι το δέμα σας έφτασε και είναι έτοιμο για παραλαβή.
+  example2_en: A notification arrived that your parcel arrived and is ready for collection.
+  audio: to-dema-74fd64.mp3
   status: verified
+  example_audio: thelo-na-steilo-ayto-802b6e.mp3
+  example2_audio: irthe-eidopoiisi-oti-ac488a.mp3
 - id: A2-U06-009
-  greek: Το περασμένο Σαββατοκύριακο πήγαμε μια μονοήμερη εκδρομή στο βουνό.
-  english: Last weekend we went on a one-day excursion to the mountain.
-  notes: '[Lego Sentence Builder] Excursion topic: compound noun ''μονοήμερη εκδρομή''
-    (feminine accusative), ''στο βουνό''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing weekend excursions and nature trips
-  example_el: Το περασμένο Σαββατοκύριακο πήγαμε μια μονοήμερη εκδρομή στο βουνό,
-    κάναμε πεζοπορία στο δάσος και αναπνεύσαμε καθαρό αέρα.
-  example_en: Last weekend we went on a one-day excursion to the mountain, hiked in
-    the forest, and breathed clean air.
-  audio: to-perasmeno-savvato-66cab4.mp3
+  greek: το γραμματόσημο
+  english: postage stamp
+  notes: 'Neuter noun in -ο (-α). Compound: γράμμα + σήμα.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γραμματόσημα
+    genitive_singular: του γραμματοσήμου
+  keg_communicative_function: Purchasing stamps for letters and postcards
+  example_el: Χρειάζομαι δύο γραμματόσημα για απλή επιστολή εσωτερικού.
+  example_en: I need two postage stamps for a simple domestic letter.
+  example2_el: Πόσο κοστίζει το γραμματόσημο για αποστολή κάρτας στη Γαλλία;
+  example2_en: How much does the stamp cost for sending a card to France?
+  audio: to-grammatosimo-e29bea.mp3
   status: verified
+  example_audio: chreiazomai-dyo-gram-9d7e4a.mp3
+  example2_audio: poso-kostizei-to-gra-2c74b1.mp3
 - id: A2-U06-010
-  greek: Δοκιμάσαμε παραδοσιακές τοπικές συνταγές και ήπιαμε ντόπιο κρασί.
-  english: We tasted traditional local recipes and drank local wine.
-  notes: '[Lego Sentence Builder] Aorist irregular ''ήπιαμε'' (from πίνω) + adjective
-    agreement: ''παραδοσιακές τοπικές συνταγές'', ''ντόπιο κρασί''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing local cuisine and dining experiences during
-    travels
-  example_el: Στο ορεινό χωριό δοκιμάσαμε παραδοσιακές τοπικές συνταγές και ήπιαμε
-    ντόπιο κρασί με τη συνοδεία παραδοσιακής μουσικής.
-  example_en: In the mountain village we tasted traditional local recipes and drank
-    local wine accompanied by traditional music.
-  audio: dokimasame-paradosia-1d5408.mp3
+  greek: συστημένο
+  english: registered (mail)
+  notes: Adjective / substantivized neuter 'συστημένο'. Ensures tracked delivery.
+  gender_or_pos: adjective / noun
+  grammatical_info:
+    part_of_speech: adjective
+    collocation: συστημένη επιστολή / συστημένο δέμα
+  keg_communicative_function: Specifying tracked postal dispatch methods at service
+    counters
+  example_el: Θα ήθελα να στείλω αυτό το επίσημο έγγραφο ως συστημένο.
+  example_en: I would like to send this official document as registered mail.
+  example2_el: Τα συστημένα γράμματα παραδίδονται μόνο με επίδειξη ταυτότητας και
+    υπογραφή.
+  example2_en: Registered letters are delivered only upon presentation of identity
+    and signature.
+  audio: systimeno-e8bf4b.mp3
   status: verified
+  example_audio: tha-ithela-na-steilo-974d10.mp3
+  example2_audio: ta-systimena-grammat-a07767.mp3
+- id: A2-U06-011
+  greek: το ΚΕΠ
+  english: Citizens' Service Center (KEP)
+  notes: Neuter indeclinable acronym (Κέντρο Εξυπηρέτησης Πολιτών). Core Greek civic
+    institution for certificates and legalizations.
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun (acronym)
+    full_name: Κέντρο Εξυπηρέτησης Πολιτών
+  keg_communicative_function: Navigating administrative paperwork at civic service
+    centers in Greece
+  example_el: Μπορείτε να πάτε στο πλησιέστερο ΚΕΠ για να βγάλετε βεβαίωση κατοικίας.
+  example_en: You can go to the nearest KEP to obtain a certificate of residence.
+  example2_el: Τα ΚΕΠ εξυπηρετούν τους πολίτες με ταχύτητα και χωρίς ταλαιπωρία.
+  example2_en: Citizens' Service Centers serve citizens quickly and hassle-free.
+  audio: to-kep-d1ac47.mp3
+  status: verified
+  example_audio: mporeite-na-pate-sto-9a516a.mp3
+  example2_audio: ta-kep-exypiretoyn-t-08de8d.mp3
+- id: A2-U06-012
+  greek: η αίτηση
+  english: formal application / petition
+  notes: Feminine noun in -η (-εις). Core document required across public services
+    and exam registrations.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αιτήσεις
+    collocation: υποβάλλω / συμπληρώνω αίτηση
+    genitive_singular: της αίτησης
+  keg_communicative_function: Submitting applications and filling administrative forms
+  example_el: Συμπλήρωσα την αίτηση συμμετοχής στις εξετάσεις ελληνομάθειας.
+  example_en: I filled in the application to participate in the Greek language examinations.
+  example2_el: Η προθεσμία για την υποβολή των αιτήσεων λήγει στο τέλος της εβδομάδας.
+  example2_en: The deadline for the submission of applications expires at the end
+    of the week.
+  audio: i-aitisi-01baf8.mp3
+  status: verified
+  example_audio: symplirosa-tin-aitis-bb9648.mp3
+  example2_audio: i-prothesmia-gia-tin-fe8692.mp3
+- id: A2-U06-013
+  greek: το πιστοποιητικό
+  english: certificate
+  notes: Neuter noun in -ο (-α). Essential term for the exam credential itself ('πιστοποιητικό
+    ελληνομάθειας').
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πιστοποιητικά
+    genitive_singular: του πιστοποιητικού
+  keg_communicative_function: Requesting official certifications and language credentials
+  example_el: Χρειάζομαι ένα πιστοποιητικό γεννήσεως μεταφρασμένο στα ελληνικά.
+  example_en: I need a birth certificate translated into Greek.
+  example2_el: Το πιστοποιητικό ελληνομάθειας αποτελεί επίσημη αναγνώριση των γλωσσικών
+    σας δεξιοτήτων.
+  example2_en: The certificate of attainment in Greek constitutes official recognition
+    of your language skills.
+  audio: to-pistopoiitiko-43571f.mp3
+  status: verified
+  example_audio: chreiazomai-ena-pist-f9b727.mp3
+  example2_audio: to-pistopoiitiko-ell-b2356a.mp3
+- id: A2-U06-014
+  greek: η βεβαίωση
+  english: attestation / statement / confirmation certificate
+  notes: Feminine noun in -η (-εις). Official paper attesting to attendance, residence,
+    or employment.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βεβαιώσεις
+    genitive_singular: της βεβαίωσης
+    verb: βεβαιώνω
+  keg_communicative_function: Asking for proof of enrollment, employment, or residence
+    at KEP or school
+  example_el: Ζήτησα από τη γραμματεία μια βεβαίωση σπουδών για την ανανέωση της κάρτας.
+  example_en: I asked the secretariat for a study attestation for the card renewal.
+  example2_el: Η βεβαίωση εργασίας αναφέρει τον μισθό και τα έτη προϋπηρεσίας.
+  example2_en: The employment attestation states the salary and years of previous
+    service.
+  audio: i-vevaiosi-b55e99.mp3
+  status: verified
+  example_audio: zitisa-apo-ti-gramma-ea22c4.mp3
+  example2_audio: i-vevaiosi-ergasias--5efa44.mp3
+- id: A2-U06-015
+  greek: η ουρά
+  english: queue / line / wait-line
+  notes: Feminine noun in -ά (-ές). Collocates with 'περιμένω στην ουρά' (to wait
+    in line).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ουρές
+    collocation: περιμένω στην ουρά
+  keg_communicative_function: Waiting in service queues and asking who is last in
+    line
+  example_el: Είχε μεγάλη ουρά στην τράπεζα και περίμενα σχεδόν μισή ώρα.
+  example_en: There was a long line at the bank and I waited nearly half an hour.
+  example2_el: Συγγνώμη, ποιος είναι ο τελευταίος στην ουρά;
+  example2_en: Excuse me, who is the last person in the line?
+  audio: i-oyra-d292b4.mp3
+  status: verified
+  example_audio: eiche-megali-oyra-st-41896f.mp3
+  example2_audio: syggnomi-poios-einai-fa5a5d.mp3
+- id: A2-U06-016
+  greek: ο αριθμός προτεραιότητας
+  english: queue number / priority ticket
+  notes: Masculine noun phrase. Taken from electronic ticket dispensers at banks,
+    post offices, and KEP.
+  gender_or_pos: noun phrase (masculine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι αριθμοί προτεραιότητας
+    collocation: παίρνω αριθμό προτεραιότητας
+  keg_communicative_function: Understanding electronic ticketing procedures in Greek
+    public services
+  example_el: Παρακαλώ πάρτε αριθμό προτεραιότητας από το μηχάνημα στην είσοδο.
+  example_en: Please take a priority number from the machine at the entrance.
+  example2_el: Όταν εμφανιστεί ο αριθμός προτεραιότητάς σας στην οθόνη, περάστε στο
+    αντίστοιχο γκισέ.
+  example2_en: When your priority number appears on the screen, proceed to the corresponding
+    counter.
+  audio: o-arithmos-proteraio-9a93bf.mp3
+  status: verified
+  example_audio: parakalo-parte-arith-fa0b22.mp3
+  example2_audio: otan-emfanistei-o-ar-cc81fb.mp3
+- id: A2-U06-017
+  greek: το γκισέ
+  english: service counter / teller window
+  notes: Neuter indeclinable noun of French origin. Plural 'τα γκισέ'.
+  gender_or_pos: noun (neuter indeclinable)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα γκισέ
+    synonym: το ταμείο, η θυρίδα
+  keg_communicative_function: Locating service desks and approaching tellers
+  example_el: Περάστε παρακαλώ στο γκισέ νούμερο τέσσερα για την εξυπηρέτησή σας.
+  example_en: Please proceed to counter number four for your assistance.
+  example2_el: Ο υπάλληλος πίσω από το γκισέ έλεγξε τα δικαιολογητικά μου.
+  example2_en: The clerk behind the counter inspected my supporting documents.
+  audio: to-gkise-1d8ccc.mp3
+  status: verified
+  example_audio: peraste-parakalo-sto-141af8.mp3
+  example2_audio: o-ypallilos-piso-apo-2a5882.mp3
+- id: A2-U06-018
+  greek: η εξυπηρέτηση
+  english: service / customer assistance
+  notes: Feminine noun in -η (-εις). Collocates with 'εξυπηρέτηση πελατών' (customer
+    service).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    verb: εξυπηρετώ
+    collocation: εξυπηρέτηση πολιτών / πελατών
+  keg_communicative_function: Evaluating service quality or expressing compliments/complaints
+  example_el: Η εξυπηρέτηση στο συγκεκριμένο κατάστημα ήταν άψογη και ευγενική.
+  example_en: The service at this specific store was impeccable and polite.
+  example2_el: Για οποιαδήποτε απορία απευθυνθείτε στο τμήμα εξυπηρέτησης.
+  example2_en: For any query please contact the customer service department.
+  audio: i-exypiretisi-61dc8b.mp3
+  status: verified
+  example_audio: i-exypiretisi-sto-sy-10618b.mp3
+  example2_audio: gia-opoiadipote-apor-3aff1b.mp3
+- id: A2-U06-019
+  greek: εξυπηρετώ
+  english: to serve / to assist (customers/citizens)
+  notes: 'Contracted verb (εξυπηρετώ, εξυπηρετείς, εξυπηρετεί). Passive: ''εξυπηρετούμαι''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: εξυπηρέτησα
+    simple_future: θα εξυπηρετήσω
+    passive_present: εξυπηρετούμαι
+  keg_communicative_function: Interacting with service clerks and understanding turn
+    announcements
+  example_el: Ο επόμενος παρακαλώ! Πώς μπορώ να σας εξυπηρετήσω;
+  example_en: Next please! How may I assist you?
+  example2_el: Οι πολίτες εξυπηρετούνται κατά σειρά προτεραιότητας.
+  example2_en: Citizens are served in order of priority.
+  audio: exypireto-1bb2c9.mp3
+  status: verified
+  example_audio: o-epomenos-parakalo--86c924.mp3
+  example2_audio: oi-polites-exypireto-2f1c21.mp3
+- id: A2-U06-020
+  greek: ο υπάλληλος
+  english: clerk / employee / official
+  notes: 'Masculine noun in -ος (-οι). Feminine: ''η υπάλληλος''.'
+  gender_or_pos: noun (masculine / feminine)
+  grammatical_info:
+    part_of_speech: noun (common gender)
+    plural: οι υπάλληλοι
+    genitive_singular: του/της υπαλλήλου
+    genitive_plural: των υπαλλήλων
+  keg_communicative_function: Identifying service representatives and consulting officials
+  example_el: Ο υπάλληλος της τράπεζας μου εξήγησε πώς λειτουργεί η νέα εφαρμογή.
+  example_en: The bank clerk explained to me how the new application works.
+  example2_el: Ρωτήστε την αρμόδια υπάλληλο στο γραφείο πληροφοριών.
+  example2_en: Ask the competent employee at the information desk.
+  audio: o-ypallilos-2092ff.mp3
+  status: verified
+  example_audio: o-ypallilos-tis-trap-898c02.mp3
+  example2_audio: rotiste-tin-armodia--e16111.mp3
+- id: A2-U06-021
+  greek: υπογράφω
+  english: to sign
+  notes: 'Verb taking direct object. Simple past: ''υπέγραψα''. Imperative: ''υπογράψτε
+    εδώ''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: υπέγραψα
+    simple_future: θα υπογράψω
+    imperative_formal: υπογράψτε
+    noun_derivative: η υπογραφή
+  keg_communicative_function: Signing contracts, forms, and receipts in administrative
+    workflows
+  example_el: Παρακαλώ υπογράψτε στο κάτω μέρος της σελίδας δίπλα στην ημερομηνία.
+  example_en: Please sign at the bottom of the page next to the date.
+  example2_el: Υπέγραψα το συμβόλαιο ενοικίασης του διαμερίσματος χθες.
+  example2_en: I signed the rental contract for the apartment yesterday.
+  audio: ypografo-94f6b2.mp3
+  status: verified
+  example_audio: parakalo-ypograpste--741518.mp3
+  example2_audio: ypegrapsa-to-symvola-5e73de.mp3
+- id: A2-U06-022
+  greek: η υπογραφή
+  english: signature
+  notes: Feminine noun in -ή (-ές). Collocates with 'βάζω υπογραφή' (to put a signature).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι υπογραφές
+    verb: υπογράφω
+  keg_communicative_function: Verifying required signatures on applications and test
+    cover sheets
+  example_el: Χωρίς τη δική σας υπογραφή, το έγγραφο δεν θεωρείται έγκυρο.
+  example_en: Without your signature, the document is not considered valid.
+  example2_el: Βάλτε την υπογραφή σας στην απόδειξη παραλαβής του δέματος.
+  example2_en: Put your signature on the parcel delivery receipt.
+  audio: i-ypografi-e49893.mp3
+  status: verified
+  example_audio: choris-ti-diki-sas-y-e0d89a.mp3
+  example2_audio: valte-tin-ypografi-s-c3c91c.mp3
+- id: A2-U06-023
+  greek: το γνήσιο της υπογραφής
+  english: legalization / authentication of signature
+  notes: Fixed legal phrase in Greek public administration. Done at KEP or police
+    stations.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    institution: performed at KEP or Police Station
+  keg_communicative_function: Requesting official signature legalization for declarations
+  example_el: Χρειάζομαι το γνήσιο της υπογραφής για αυτή την υπεύθυνη δήλωση.
+  example_en: I need the authentication of my signature for this solemn declaration.
+  example2_el: Στο ΚΕΠ κάνουν το γνήσιο της υπογραφής δωρεάν με επίδειξη ταυτότητας.
+  example2_en: At KEP they authenticate signatures free of charge upon presentation
+    of ID.
+  audio: to-gnisio-tis-ypogra-2056fc.mp3
+  status: verified
+  example_audio: chreiazomai-to-gnisi-2be506.mp3
+  example2_audio: sto-kep-kanoyn-to-gn-c54a2e.mp3
+- id: A2-U06-024
+  greek: το αντίγραφο
+  english: copy / duplicate / photocopy
+  notes: Neuter noun in -ο (-α). Collocates with 'επικυρωμένο αντίγραφο' (certified
+    copy).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αντίγραφα
+    collocation: επικυρωμένο αντίγραφο
+  keg_communicative_function: Providing required document copies in paperwork submissions
+  example_el: Παρακαλώ κρατήστε ένα αντίγραφο της αίτησης για το προσωπικό σας αρχείο.
+  example_en: Please keep a copy of the application for your personal archive.
+  example2_el: Χρειάζεται να καταθέσετε ένα απλό αντίγραφο του διαβατηρίου σας.
+  example2_en: You need to submit a simple copy of your passport.
+  audio: to-antigrafo-171181.mp3
+  status: verified
+  example_audio: parakalo-kratiste-en-33c604.mp3
+  example2_audio: chreiazetai-na-katat-efd87c.mp3
+- id: A2-U06-025
+  greek: παραλαμβάνω
+  english: to receive / to collect / to pick up
+  notes: 'Compound verb: παρά + λαμβάνω. Simple past: ''παρέλαβα''. Simple future:
+    ''θα παραλάβω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: παρέλαβα
+    simple_future: θα παραλάβω
+    noun_derivative: η παραλαβή
+  keg_communicative_function: Collecting parcels, cards, or certificates from public
+    services
+  example_el: Πότε μπορώ να έρθω για να παραλάβω το νέο μου διαβατήριο;
+  example_en: When can I come to pick up my new passport?
+  example2_el: Παρέλαβα το πιστοποιητικό από τη γραμματεία σήμερα το πρωί.
+  example2_en: I collected the certificate from the secretariat this morning.
+  audio: paralamvano-75251b.mp3
+  status: verified
+  example_audio: pote-mporo-na-ertho--2e261b.mp3
+  example2_audio: parelava-to-pistopoi-c9585e.mp3
+- id: A2-U06-026
+  greek: περάστε
+  english: come in / step forward / please proceed
+  notes: Imperative plural / formal polite of 'περνάω'. Standard greeting invitation
+    from officials.
+  gender_or_pos: verb (imperative)
+  grammatical_info:
+    part_of_speech: verb
+    mood: imperative (προστακτική)
+    register: polite / formal
+    singular_informal: πέρασε
+  keg_communicative_function: Understanding polite verbal instructions from bank tellers
+    or examiners
+  example_el: Περάστε παρακαλώ, καθίστε απέναντι και δείξτε μου τα έγγραφά σας.
+  example_en: Please come in, sit across, and show me your documents.
+  example2_el: Περάστε στο ταμείο για να πληρώσετε το παράβολο.
+  example2_en: Proceed to the cashier to pay the administrative fee.
+  audio: peraste-f1c011.mp3
+  status: verified
+  example_audio: peraste-parakalo-kat-a80137.mp3
+  example2_audio: peraste-sto-tameio-g-8071b3.mp3
+- id: A2-U06-027
+  greek: περιμένετε
+  english: wait / please wait
+  notes: 'Imperative plural / formal polite of ''περιμένω''. Singular: ''περίμενε''.'
+  gender_or_pos: verb (imperative)
+  grammatical_info:
+    part_of_speech: verb
+    mood: imperative (προστακτική)
+    register: polite / formal
+    singular_informal: περίμενε
+  keg_communicative_function: Following staff instructions in waiting rooms and telephone
+    queues
+  example_el: Περιμένετε ένα λεπτό παρακαλώ στη γραμμή μέχρι να ελέγξω τα στοιχεία
+    σας.
+  example_en: Please wait a minute on the line while I check your details.
+  example2_el: Περιμένετε στην αίθουσα αναμονής μέχρι να φωνάξουν το όνομά σας.
+  example2_en: Wait in the waiting room until they call your name.
+  audio: perimenete-8fe34b.mp3
+  status: verified
+  example_audio: perimenete-ena-lepto-6642e5.mp3
+  example2_audio: perimenete-stin-aith-fdb3bf.mp3
+- id: A2-U06-028
+  greek: δείξτε μου
+  english: show me
+  notes: Imperative of 'δείχνω' + weak pronoun 'μου'. Routine demand from public officials
+    and police.
+  gender_or_pos: imperative phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: δείχνω
+    mood: imperative
+    clitic: μου (indirect object placed after imperative)
+  keg_communicative_function: Responding to requests for identity verification at
+    gates or counters
+  example_el: Δείξτε μου παρακαλώ την ταυτότητα ή το διαβατήριό σας.
+  example_en: Show me please your identity card or your passport.
+  example2_el: Δείξτε μου στην οθόνη πού ακριβώς εμφανίζεται το σφάλμα.
+  example2_en: Show me on the screen where exactly the error appears.
+  audio: deixte-moy-66a36f.mp3
+  status: verified
+  example_audio: deixte-moy-parakalo--0c3ac2.mp3
+  example2_audio: deixte-moy-stin-otho-4e9a10.mp3
+- id: A2-U06-029
+  greek: δώστε μου
+  english: give me / please hand me
+  notes: 'Imperative of ''δίνω'' + weak pronoun ''μου''. Polite customer request:
+    ''δώστε μου ένα λεπτό''.'
+  gender_or_pos: imperative phrase
+  grammatical_info:
+    part_of_speech: phrase
+    verb: δίνω
+    mood: imperative
+    register: polite / formal
+  keg_communicative_function: Requesting documents, time, or receipts in administrative
+    transactions
+  example_el: Δώστε μου παρακαλώ τον αριθμό φορολογικού σας μητρώου.
+  example_en: Please give me your tax registration number (AFM).
+  example2_el: Δώστε μου λίγο χρόνο να συγκεντρώσω τα απαιτούμενα δικαιολογητικά.
+  example2_en: Give me a little time to gather the required supporting documents.
+  audio: doste-moy-56ddd0.mp3
+  status: verified
+  example_audio: doste-moy-parakalo-t-92f928.mp3
+  example2_audio: doste-moy-ligo-chron-d65252.mp3
+- id: A2-U06-030
+  greek: το παράβολο
+  english: administrative fee / official receipt voucher
+  notes: Neuter noun in -ο (-α). Fee paid for state certificates, permits, or exam
+    participation.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παράβολα
+    collocation: ηλεκτρονικό παράβολο (e-paravolo)
+  keg_communicative_function: Paying official state administrative fees for registrations
+    and permits
+  example_el: Πρέπει να πληρώσετε το ηλεκτρονικό παράβολο μέσω της τράπεζας για να
+    ολοκληρωθεί η αίτηση.
+  example_en: You must pay the electronic administrative fee through the bank for
+    the application to be completed.
+  example2_el: Εκδώστε το παράβολο από την ιστοσελίδα και προσκομίστε τον κωδικό πληρωμής.
+  example2_en: Issue the fee voucher from the website and provide the payment code.
+  audio: to-paravolo-92c284.mp3
+  status: verified
+  example_audio: prepei-na-plirosete--1b7a2b.mp3
+  example2_audio: ekdoste-to-paravolo--dd1ae7.mp3
+- id: A2-U06-031
+  greek: τα μετρητά
+  english: cash
+  notes: Neuter plural noun (always plural). Collocates with 'πληρώνω με μετρητά'
+    (to pay in cash).
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    contrast: με κάρτα (by card)
+    collocation: πληρωμή σε μετρητά
+  keg_communicative_function: Specifying payment by cash vs card at cash desks
+  example_el: Προτιμάτε να πληρώσετε με μετρητά ή με πιστωτική κάρτα;
+  example_en: Do you prefer to pay in cash or with a credit card?
+  example2_el: Δεν έχω αρκετά μετρητά μαζί μου, οπότε θα πληρώσω με την κάρτα.
+  example2_en: I do not have enough cash with me, so I will pay with the card.
+  audio: ta-metrita-4b1de5.mp3
+  status: verified
+  example_audio: protimate-na-plirose-91ac0d.mp3
+  example2_audio: den-echo-arketa-metr-6ca80d.mp3
+- id: A2-U06-032
+  greek: η απόδειξη
+  english: receipt / proof
+  notes: Feminine noun in -η (-εις). Always provided after commercial transactions
+    in Greece.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αποδείξεις
+    collocation: απόδειξη πληρωμής / αγοράς
+  keg_communicative_function: Requesting and checking transaction receipts in commercial
+    dialogues
+  example_el: Ορίστε η απόδειξη πληρωμής και τα ρέστα σας.
+  example_en: Here is the payment receipt and your change.
+  example2_el: Κρατήστε την απόδειξη σε περίπτωση που χρειαστεί να αλλάξετε το προϊόν.
+  example2_en: Keep the receipt in case you need to exchange the product.
+  audio: i-apodeixi-8d4ab6.mp3
+  status: verified
+  example_audio: oriste-i-apodeixi-pl-ad12dd.mp3
+  example2_audio: kratiste-tin-apodeix-deaa85.mp3
+- id: A2-U06-033
+  greek: τα ρέστα
+  english: change (monetary balance returned)
+  notes: Neuter plural noun (always plural). Collocates with 'πάρτε τα ρέστα σας'
+    (take your change).
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural only)
+    collocation: κρατήστε τα ρέστα (keep the change)
+  keg_communicative_function: Collecting monetary change in shops, taxis, and public
+    offices
+  example_el: Ξεχάσατε τα ρέστα σας πάνω στο ταμείο!
+  example_en: You forgot your change on the counter!
+  example2_el: Σας έδωσα είκοσι ευρώ, οπότε περιμένω πέντε ευρώ ρέστα.
+  example2_en: I gave you twenty euros, so I expect five euros change.
+  audio: ta-resta-bc6b04.mp3
+  status: verified
+  example_audio: xechasate-ta-resta-s-1e031f.mp3
+  example2_audio: sas-edosa-eikosi-eyr-267cab.mp3
+- id: A2-U06-034
+  greek: η χρέωση
+  english: charge / fee / debit
+  notes: 'Feminine noun in -η (-εις). Relates to ''χρεώνω'' (to charge). Antonym:
+    ''η πίστωση'' (credit).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι χρεώσεις
+    verb: χρεώνω
+    antonym: η πίστωση
+  keg_communicative_function: Questioning service charges or verifying commission
+    fees on bank transfers
+  example_el: Υπάρχει επιπλέον χρέωση για την άμεση μεταφορά χρημάτων σε άλλη τράπεζα;
+  example_en: Is there an additional charge for the immediate money transfer to another
+    bank?
+  example2_el: Είδα μια άγνωστη χρέωση στον λογαριασμό μου και τηλεφώνησα στην εξυπηρέτηση.
+  example2_en: I saw an unknown charge on my account and phoned customer service.
+  audio: i-chreosi-179b71.mp3
+  status: verified
+  example_audio: yparchei-epipleon-ch-459242.mp3
+  example2_audio: eida-mia-agnosti-chr-80977a.mp3
+- id: A2-U06-035
+  greek: το ωράριο λειτουργίας
+  english: operating hours / opening schedule
+  notes: Neuter noun phrase. Always posted outside Greek stores, banks, post offices,
+    and clinics.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    head_noun: το ωράριο
+    genitive: της λειτουργίας
+  keg_communicative_function: Reading and understanding opening hours on public notices
+    in Reading Part 1
+  example_el: Το ωράριο λειτουργίας της τράπεζας είναι από τις οκτώ το πρωί έως τις
+    δύο το μεσημέρι.
+  example_en: The bank's operating hours are from eight in the morning until two in
+    the afternoon.
+  example2_el: Ποιο είναι το ωράριο λειτουργίας του ταχυδρομείου το Σάββατο;
+  example2_en: What is the post office operating schedule on Saturday?
+  audio: to-orario-leitoyrgia-ac2086.mp3
+  status: verified
+  example_audio: to-orario-leitoyrgia-301ced.mp3
+  example2_audio: poio-einai-to-orario-4a79d5.mp3

@@ -1,0 +1,150 @@
+unit_id: unit-wr1-03
+lesson_id: lesson-01
+title: 'Μάθημα 3: Συνδετικές Λέξεις & Συντακτική Συνοχή (Discourse Connectors & Logical
+  Flow)'
+description: 'High-scoring sentence linkers: sequence (πρώτα... μετά... στο τέλος),
+  contrast (όμως, αν και), cause/effect (επειδή, γι'' αυτό), and condition (όταν,
+  πριν από, αφού).'
+lesson_status: not_started
+lesson_notes: 'Unit WR1-03 Core Notes: Connectors & Syntax
+
+  • Sequence: πρώτα, μετά, έπειτα, στο τέλος
+
+  • Contrast: αλλά, όμως, αν και
+
+  • Cause & Effect: γιατί, επειδή, γι'' αυτό το λόγο
+
+  • Condition & Time: όταν, πριν από, αφού, λοιπόν.'
+entries:
+- id: WR1-U03-001
+  greek: επίσης
+  english: also / additionally
+  notes: Adverb of addition. Adds secondary facts without repeating 'και'.
+  gender_or_pos: adverb
+  example_el: Το σπίτι είναι μεγάλο και επίσης είναι πολύ κοντά στη δουλειά μου.
+  example_en: The house is big and also very close to my work.
+  example2_el: Επίσης, μην ξεχάσεις να φέρεις τη φωτογραφική σου μηχανή.
+  example2_en: Additionally, don't forget to bring your camera.
+  audio: episis-f47a21.mp3
+  status: verified
+  example_audio: to-spiti-einai-megal-80acb9.mp3
+  example2_audio: episis-min-xechaseis-ec8f40.mp3
+- id: WR1-U03-002
+  greek: πρώτα... μετά... στο τέλος
+  english: first... then... in the end
+  notes: Temporal narrative chain. Indispensable for chronological flow in Task 2.
+  gender_or_pos: phrase (temporal sequence)
+  example_el: Πρώτα κάναμε μπάνιο στη θάλασσα, μετά φάγαμε και στο τέλος ήπιαμε καφέ.
+  example_en: First we swam in the sea, then we ate, and in the end we drank coffee.
+  example2_el: Πρώτα πήγαμε στο μουσείο, μετά κάναμε βόλτα και στο τέλος γυρίσαμε
+    στο ξενοδοχείο.
+  example2_en: First we went to the museum, then we strolled, and in the end we returned
+    to the hotel.
+  audio: prota-meta-sto-telos-b8facf.mp3
+  status: verified
+  example_audio: prota-kaname-mpanio--3e4c55.mp3
+  example2_audio: prota-pigame-sto-moy-d0a78a.mp3
+- id: WR1-U03-003
+  greek: όμως
+  english: however / nevertheless
+  notes: Adversative connector. Introduces a contrast or unexpected obstacle.
+  gender_or_pos: conjunction
+  example_el: Το ξενοδοχείο ήταν παλιό, όμως το δωμάτιο ήταν πεντακάθαρο.
+  example_en: The hotel was old; however, the room was spotless.
+  example2_el: Ήθελα να έρθω στο πάρτι, όμως είχα πάρα πολλή δουλειά.
+  example2_en: I wanted to come to the party; however, I had too much work.
+  audio: omos-882dbd.mp3
+  status: verified
+  example_audio: to-xenodocheio-itan--1eac7b.mp3
+  example2_audio: ithela-na-ertho-sto--d62607.mp3
+- id: WR1-U03-004
+  greek: αν και
+  english: although / even though
+  notes: Concessive conjunction introducing dependent clauses of concession.
+  gender_or_pos: conjunction
+  example_el: Αν και ο καιρός ήταν βροχερός, περάσαμε υπέροχα στην εκδρομή.
+  example_en: Even though the weather was rainy, we had a wonderful time on the trip.
+  example2_el: Αν και ήμουν κουρασμένος, πήγα στη γιορτή του φίλου μου.
+  example2_en: Although I was tired, I went to my friend's celebration.
+  audio: an-kai-890a9a.mp3
+  status: verified
+  example_audio: an-kai-o-kairos-itan-1bf715.mp3
+  example2_audio: an-kai-imoyn-koyrasm-a7f76f.mp3
+- id: WR1-U03-005
+  greek: επειδή
+  english: because / since
+  notes: Causal conjunction placed at clause start. Synonymous with γιατί.
+  gender_or_pos: conjunction
+  example_el: Επειδή είχα υψηλό πυρετό, δεν πήγα σήμερα στο γραφείο.
+  example_en: Because I had a high fever, I did not go to the office today.
+  example2_el: Επειδή μου αρέσει η θάλασσα, προτιμώ να κάνω διακοπές σε νησί.
+  example2_en: Since I like the sea, I prefer vacationing on an island.
+  audio: epeidi-8d2f77.mp3
+  status: verified
+  example_audio: epeidi-eicha-ypsilo--9588f5.mp3
+  example2_audio: epeidi-moy-aresei-i--1711dd.mp3
+- id: WR1-U03-006
+  greek: γι' αυτό (το λόγο)
+  english: for this reason / therefore
+  notes: Consecutive connector indicating result or logical conclusion.
+  gender_or_pos: phrase
+  example_el: Αισθάνομαι άρρωστος, γι' αυτό θα μείνω σήμερα στο σπίτι.
+  example_en: I feel sick; for this reason I will stay at home today.
+  example2_el: Χάλασε το αυτοκίνητο, γι' αυτό πήραμε το τρένο.
+  example2_en: The car broke down; therefore, we took the train.
+  audio: gi-ayto-to-logo-63a854.mp3
+  status: verified
+  example_audio: aisthanomai-arrostos-93f8cc.mp3
+  example2_audio: chalase-to-aytokinit-9d90af.mp3
+- id: WR1-U03-007
+  greek: όταν
+  english: when / whenever
+  notes: Temporal conjunction connecting dependent time clauses with main clause.
+  gender_or_pos: conjunction
+  example_el: Όταν φτάσαμε στο νησί, ενθουσιαστήκαμε με το τοπίο.
+  example_en: When we arrived on the island, we were thrilled with the landscape.
+  example2_el: Όταν έχεις ελεύθερο χρόνο, πάρε με ένα τηλέφωνο.
+  example2_en: When you have free time, give me a call.
+  audio: otan-f91465.mp3
+  status: verified
+  example_audio: otan-ftasame-sto-nis-e52dcd.mp3
+  example2_audio: otan-echeis-eleyther-b94d9d.mp3
+- id: WR1-U03-008
+  greek: πριν από
+  english: before
+  notes: Preposition of time. Followed by noun or dependent clause (πριν + να).
+  gender_or_pos: preposition
+  example_el: Πριν από τις διακοπές, πρέπει να κλείσουμε τα εισιτήρια του πλοίου.
+  example_en: Before the holidays, we must book the ferry tickets.
+  example2_el: Φάγαμε πρωινό πριν από την αναχώρηση του λεωφορείου.
+  example2_en: We ate breakfast before the bus's departure.
+  audio: prin-apo-c87c63.mp3
+  status: verified
+  example_audio: prin-apo-tis-diakope-c64fd1.mp3
+  example2_audio: fagame-proino-prin-a-78967b.mp3
+- id: WR1-U03-009
+  greek: αφού
+  english: after / since
+  notes: Temporal/causal connector. Expresses sequence or completed condition.
+  gender_or_pos: conjunction
+  example_el: Αφού τελείωσα τη δουλειά μου, πήγα κατευθείαν στην παραλία.
+  example_en: After I finished my work, I went straight to the beach.
+  example2_el: Αφού σου αρέσει το ελληνικό φαγητό, πρέπει να δοκιμάσεις μουσακά.
+  example2_en: Since you like Greek food, you must try moussaka.
+  audio: afoy-7ba565.mp3
+  status: verified
+  example_audio: afoy-teleiosa-ti-doy-32646a.mp3
+  example2_audio: afoy-soy-aresei-to-e-849d17.mp3
+- id: WR1-U03-010
+  greek: λοιπόν
+  english: well then / so
+  notes: Discourse marker used to open proposals, summaries, or conclusions.
+  gender_or_pos: particle
+  example_el: Λοιπόν, τι ώρα θα συναντηθούμε το Σάββατο στην πλατεία;
+  example_en: Well then, what time shall we meet on Saturday in the square?
+  example2_el: Λοιπόν, αποφάσισα να νοικιάσω αυτό το διαμέρισμα.
+  example2_en: So, I decided to rent this apartment.
+  audio: loipon-518ef0.mp3
+  status: verified
+  example_audio: loipon-ti-ora-tha-sy-0601ab.mp3
+  example2_audio: loipon-apofasisa-na--35889d.mp3

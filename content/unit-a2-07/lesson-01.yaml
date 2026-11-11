@@ -1,198 +1,704 @@
 unit_id: unit-a2-07
 lesson_id: lesson-01
-title: 'Μάθημα 7: Γραπτός Λόγος — Το Σπίτι, η Γειτονιά & Μετακόμιση (A2 Writing: Housing
-  & Moving)'
-description: Describing apartments, rooms, locations, and neighborhood facilities,
-  handling housewarming invitations and practical rental inquiries.
+title: 'Μάθημα 7: Ταξίδια, Διακοπές & Κρατήσεις (Travel, Vacations & Reservations)'
+description: Making hotel and transport bookings, discussing departure and arrival
+  schedules, and comparing prices and travel duration using comparative adjectives
+  (πιο, καλύτερος, φθηνότερος, ακριβότερος, γρηγορότερος).
 lesson_status: not_started
-lesson_notes: "Unit A2-07 Core Notes: Το Σπίτι & η Γειτονιά (Housing & City Life)\n\
-  • Frequent Prompts:\n  - Writing an email to a friend announcing a move to a new\
-  \ flat and describing the rooms and location.\n  - Asking rental questions (floor,\
-  \ elevator, heating, balcony, metro access).\n• Key Spatial Prepositions & Adverbs:\n\
-  \  - στον [πρώτο/δεύτερο/τρίτο] όροφο (on the [1st/2nd/3rd] floor)\n  - απέναντι\
-  \ από (opposite to / across from)\n  - δίπλα σε / κοντά σε (next to / near to)\n\
-  \  - μακριά από (far from)\n• Essential Vocabulary:\n  - διαμέρισμα, σαλόνι, κουζίνα,\
-  \ υπνοδωμάτιο, μπαλκόνι, ασανσέρ, κεντρική θέρμανση, ενοίκιο, κοινόχρηστα."
+lesson_notes: "Unit A2-07 Core Notes: Ταξίδια, Διακοπές & Κρατήσεις (Travel & Bookings)\n\
+  • Travel Logistics:\n  - Διαμονή: δίκλινο δωμάτιο (double room), μονόκλινο (single),\
+  \ θέα στη θάλασσα (sea view), πρωινό (breakfast).\n  - Μετακινήσεις: δρομολόγιο\
+  \ (schedule), καθυστέρηση (delay), ακύρωση (cancellation), επιστροφή (return).\n\
+  • Comparative Adjectives & Adverbs:\n  - πιο + adjective + από (πιο γρήγορος από\
+  \ το λεωφορείο).\n  - Irregular comparatives: καλύτερος (better), χειρότερος (worse),\
+  \ μεγαλύτερος (bigger/older), μικρότερος (smaller/younger)."
 entries:
 - id: A2-U07-001
-  greek: Πρόσφατα μετακόμισα σε ένα καινούργιο διαμέρισμα στο κέντρο της πόλης.
-  english: Recently I moved to a new apartment in the city center.
-  notes: '[Lego Sentence Builder] Aorist ''μετακόμισα'' (from μετακομίζω) + time adverb
-    ''πρόσφατα''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Announcing a move to a new home in personal correspondence
-  example_el: Σου γράφω για να σου πω ότι πρόσφατα μετακόμισα σε ένα καινούργιο διαμέρισμα
-    στο κέντρο της πόλης.
-  example_en: I am writing to tell you that recently I moved to a new apartment in
-    the city center.
-  audio: prosfata-metakomisa--181ad6.mp3
+  greek: η κράτηση
+  english: booking / reservation
+  notes: 'Feminine noun in -η (-εις). Verb: ''κάνω κράτηση'' (to book). Found on travel
+    portals and hotel vouchers.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι κρατήσεις
+    accusative_singular: την κράτηση
+    collocation: επιβεβαίωση κράτησης (booking confirmation)
+  keg_communicative_function: Making, confirming, and modifying reservations in hotels
+    and transport
+  example_el: Έκανα κράτηση για ένα δίκλινο δωμάτιο με θέα στη θάλασσα.
+  example_en: I made a booking for a double room with sea view.
+  example2_el: Παρακαλώ δείξτε μου τον αριθμό της κράτησής σας κατά την άφιξη.
+  example2_en: Please show me your reservation number upon arrival.
+  audio: i-kratisi-f325cd.mp3
   status: verified
+  example_audio: ekana-kratisi-gia-en-127f0c.mp3
+  example2_audio: parakalo-deixte-moy--b52f0a.mp3
 - id: A2-U07-002
-  greek: Το σπίτι είναι στον τρίτο όροφο, είναι πολύ φωτεινό και έχει δύο υπνοδωμάτια.
-  english: The house is on the third floor, it is very bright and has two bedrooms.
-  notes: '[Lego Sentence Builder] Ordinal number ''στον τρίτο όροφο'' + descriptive
-    adjective ''φωτεινό'' + rooms.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing apartment floor, lighting, and room count
-  example_el: Το σπίτι είναι στον τρίτο όροφο μιας πολυκατοικίας, είναι πολύ φωτεινό
-    και έχει δύο μεγάλα υπνοδωμάτια.
-  example_en: The house is on the third floor of an apartment building, it is very
-    bright and has two large bedrooms.
-  audio: to-spiti-einai-ston--2a5053.mp3
+  greek: το εισιτήριο
+  english: ticket
+  notes: Neuter noun in -ο (-α). Collocates with 'απλό εισιτήριο' (one-way) or 'εισιτήριο
+    μετ' επιστροφής' (return ticket).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα εισιτήρια
+    genitive_singular: του εισιτηρίου
+    collocation: εισιτήριο μετ' επιστροφής (round-trip ticket)
+  keg_communicative_function: Purchasing transportation tickets at ticket counters
+    or travel agencies
+  example_el: Θα ήθελα δύο εισιτήρια μετ' επιστροφής για το πλοίο της γραμμής.
+  example_en: I would like two round-trip tickets for the regular ferry.
+  example2_el: Μπορείτε να κλείσετε τα εισιτήριά σας ηλεκτρονικά για καλύτερες τιμές.
+  example2_en: You can book your tickets online for better prices.
+  audio: to-eisitirio-667f52.mp3
   status: verified
+  example_audio: tha-ithela-dyo-eisit-cc14d5.mp3
+  example2_audio: mporeite-na-kleisete-a65108.mp3
 - id: A2-U07-003
-  greek: Έχει ένα μεγάλο μπαλκόνι με όμορφη θέα σε ένα μικρό πάρκο.
-  english: It has a large balcony with a beautiful view of a small park.
-  notes: '[Lego Sentence Builder] Balcony and view: ''θέα σε'' + accusative.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing balconies and views in residential descriptions
-  example_el: Το σαλόνι έχει ένα μεγάλο μπαλκόνι με όμορφη θέα σε ένα μικρό πάρκο
-    γεμάτο δέντρα.
-  example_en: The living room has a large balcony with a beautiful view of a small
-    park full of trees.
-  audio: echei-ena-megalo-mpa-e52633.mp3
+  greek: η πτήση
+  english: flight
+  notes: Feminine noun in -η (-εις). Core noun in airport audio announcements (Listening
+    Part 1).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πτήσεις
+    accusative_singular: την πτήση
+    collocation: αριθμός πτήσης (flight number)
+  keg_communicative_function: Following airport flight boards, departure times, and
+    gate changes
+  example_el: Η πτήση για τη Θεσσαλονίκη αναχωρεί από την πύλη Β12.
+  example_en: The flight to Thessaloniki departs from gate B12.
+  example2_el: Η πτήση μας είχε καθυστέρηση μίας ώρας λόγω ομίχλης.
+  example2_en: Our flight had a one-hour delay due to fog.
+  audio: i-ptisi-298de3.mp3
   status: verified
+  example_audio: i-ptisi-gia-ti-thess-1f6919.mp3
+  example2_audio: i-ptisi-mas-eiche-ka-6e4862.mp3
 - id: A2-U07-004
-  greek: Η γειτονιά είναι ήσυχη και βρίσκεται πολύ κοντά στη στάση του μετρό.
-  english: The neighborhood is quiet and is located very close to the metro stop.
-  notes: '[Lego Sentence Builder] Neighborhood amenities: ''κοντά σε'' + feminine
-    accusative ''στη στάση του μετρό''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing neighborhood atmosphere and public transit
-    proximity
-  example_el: Η γειτονιά είναι ήσυχη και ασφαλής και βρίσκεται πολύ κοντά στη στάση
-    του μετρό και σε στάσεις λεωφορείων.
-  example_en: The neighborhood is quiet and safe and is located very close to the
-    metro stop and bus stops.
-  audio: i-geitonia-einai-isy-16e8c8.mp3
+  greek: το πλοίο
+  english: ship / ferry / boat
+  notes: Neuter noun in -ο (-α). Main transport mode connecting the Greek islands.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πλοία
+    genitive_singular: του πλοίου
+    synonym: το καράβι
+  keg_communicative_function: Organizing island hopping and maritime voyages
+  example_el: Το πλοίο φτάνει στο λιμάνι της Πάρου σε περίπου τέσσερις ώρες.
+  example_en: The ship arrives at the port of Paros in approximately four hours.
+  example2_el: Το καλοκαίρι τα πλοία για τις Κυκλάδες είναι πάντα γεμάτα ταξιδιώτες.
+  example2_en: In summer the ferries to the Cyclades are always full of travelers.
+  audio: to-ploio-c2a3ee.mp3
   status: verified
+  example_audio: to-ploio-ftanei-sto--b10dbd.mp3
+  example2_audio: to-kalokairi-ta-ploi-014496.mp3
 - id: A2-U07-005
-  greek: Κοντά στο σπίτι υπάρχουν σούπερ μάρκετ, φαρμακείο και πολλές ωραίες καφετέριες.
-  english: Near the house there are supermarkets, a pharmacy, and many nice cafes.
-  notes: '[Lego Sentence Builder] Listing neighborhood services: ''υπάρχουν'' (there
-    are) + plural nouns.'
-  gender_or_pos: sentence
-  keg_communicative_function: Listing neighborhood infrastructure and daily amenities
-  example_el: 'Είναι πολύ βολική τοποθεσία: κοντά στο σπίτι υπάρχουν σούπερ μάρκετ,
-    φαρμακείο και πολλές ωραίες καφετέριες.'
-  example_en: 'It is a very convenient location: near the house there are supermarkets,
-    a pharmacy, and many nice cafes.'
-  audio: konta-sto-spiti-ypar-9029a6.mp3
+  greek: το λιμάνι
+  english: port / harbor
+  notes: Neuter noun in -ι (-ια). Hub for ferry connections (Πειραιάς, Ραφήνα, Λαύριο).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα λιμάνια
+    genitive_singular: του λιμανιού
+  keg_communicative_function: Navigating port terminals and coordinating maritime
+    connections
+  example_el: Πρέπει να βρισκόμαστε στο λιμάνι του Πειραιά μία ώρα πριν από τον απόπλου.
+  example_en: We must be at the port of Piraeus one hour before sailing.
+  example2_el: Το λιμάνι των Χανίων είναι ένα από τα πιο γραφικά της Κρήτης.
+  example2_en: The port of Chania is one of the most picturesque in Crete.
+  audio: to-limani-847c04.mp3
   status: verified
+  example_audio: prepei-na-vriskomast-c39099.mp3
+  example2_audio: to-limani-ton-chanio-3593ef.mp3
 - id: A2-U07-006
-  greek: Το ενοίκιο είναι λογικό και στην τιμή περιλαμβάνονται τα κοινόχρηστα.
-  english: The rent is reasonable and the building fees are included in the price.
-  notes: '[Lego Sentence Builder] Practical housing: ''ενοίκιο'' (rent), ''κοινόχρηστα''
-    (building maintenance fees).'
-  gender_or_pos: sentence
-  keg_communicative_function: Stating rental costs and included utilities
-  example_el: Το ενοίκιο είναι λογικό για την περιοχή και στην τιμή περιλαμβάνονται
-    τα κοινόχρηστα και το νερό.
-  example_en: The rent is reasonable for the area and the building fees and water
-    are included in the price.
-  audio: to-enoikio-einai-log-fe26b1.mp3
+  greek: η διαμονή
+  english: stay / accommodation
+  notes: Feminine noun in -ή (-ές). Covers lodging in hotels, rooms, or hostels.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διαμονές
+    verb: διαμένω (to reside / lodge)
+  keg_communicative_function: Discussing lodging quality, costs, and services in reviews
+    and emails
+  example_el: Η διαμονή μας στο ξενοδοχείο ήταν εξαιρετικά ευχάριστη και άνετη.
+  example_en: Our stay at the hotel was extremely pleasant and comfortable.
+  example2_el: Στην τιμή του πακέτου περιλαμβάνεται η διαμονή και το πρωινό.
+  example2_en: The package price includes accommodation and breakfast.
+  audio: i-diamoni-56c5f1.mp3
   status: verified
+  example_audio: i-diamoni-mas-sto-xe-a86e58.mp3
+  example2_audio: stin-timi-toy-paketo-7c6761.mp3
 - id: A2-U07-007
-  greek: Θέλω να σε καλέσω να δεις το καινούργιο μου σπίτι το επόμενο Σάββατο.
-  english: I want to invite you to see my new home next Saturday.
-  notes: '[Housewarming Invite] Modal ''θέλω να'' + subjunctive ''να σε καλέσω'' +
-    day of the week in accusative.'
-  gender_or_pos: sentence
-  keg_communicative_function: Inviting a friend to a housewarming visit
-  example_el: Μόλις τελείωσα το τακτοποίηση! Θέλω να σε καλέσω να δεις το καινούργιο
-    μου σπίτι το επόμενο Σάββατο στις επτά.
-  example_en: I just finished unpacking! I want to invite you to see my new home next
-    Saturday at seven.
-  audio: thelo-na-se-kaleso-n-379ee8.mp3
+  greek: το μονόκλινο
+  english: single room
+  notes: 'Neuter substantivized adjective (μόνος + κλίνη: single bed). Antonym: ''το
+    δίκλινο''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μονόκλινα
+    contrast: το δίκλινο (double room)
+  keg_communicative_function: Booking specific room categories at reception desks
+  example_el: Θα ήθελα να κλείσω ένα μονόκλινο δωμάτιο για δύο βραδιές.
+  example_en: I would like to book a single room for two nights.
+  example2_el: Υπάρχει διαθέσιμο μονόκλινο με ιδιωτικό μπάνιο;
+  example2_en: Is there an available single room with private bathroom?
+  audio: to-monoklino-45b330.mp3
   status: verified
+  example_audio: tha-ithela-na-kleiso-cb3d94.mp3
+  example2_audio: yparchei-diathesimo--b5925f.mp3
 - id: A2-U07-008
-  greek: Σημείωμα σε φίλο για το νέο διαμέρισμα & πρόσκληση (Task 1 Simulation)
-  english: 'Prompt: Write a 35-40 word note telling a friend about your new apartment
-    and inviting them over.'
-  notes: '[Micro-Prompt Simulation - Task 1: 37 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα μήνυμα στον φίλο σας τον Αλέξη (35-40 λέξεις) για να του πείτε:
-
-    • ότι μετακομίσατε σε νέο σπίτι
-
-    • σε ποια περιοχή βρίσκεται και πώς είναι
-
-    • καλέστε τον να σας επισκεφτεί το Σαββατοκύριακο»
-
-
-    Gold-Standard Model Response:
-
-    Γεια σου Αλέξη!
-
-    Μετακόμισα πρόσφατα σε ένα καινούργιο διαμέρισμα στο Μαρούσι. Το σπίτι είναι μεγάλο,
-    φωτεινό και έχει όμορφη θέα. Θα χαρώ πολύ να έρθεις να το δεις αυτό το Σάββατο
-    το απόγευμα. Σε περιμένω!
-
-    Φιλιά,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a functional note announcing a move and inviting
-    a visitor
-  example_el: Γεια σου Αλέξη, μετακόμισα πρόσφατα σε νέο διαμέρισμα στο Μαρούσι. Το
-    σπίτι είναι μεγάλο και φωτεινό. Έλα να το δεις το Σάββατο! Φιλιά!
-  example_en: Hi Alexis, I moved recently to a new apartment in Marousi. The home
-    is large and bright. Come see it on Saturday! Kisses!
-  audio: simeioma-se-filo-gia-e9df60.mp3
+  greek: το δίκλινο
+  english: double / twin room
+  notes: 'Neuter substantivized adjective (δύο + κλίνη: two beds).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δίκλινα
+    collocation: δίκλινο με διπλό κρεβάτι (with double bed)
+  keg_communicative_function: Reserving accommodation for couples or pairs of travelers
+  example_el: Έχουμε κλείσει ένα δίκλινο δωμάτιο στο όνομα Παπαδόπουλος.
+  example_en: We have booked a double room under the name Papadopoulos.
+  example2_el: Πόσο κοστίζει το δίκλινο με θέα στη θάλασσα;
+  example2_en: How much does the double room with sea view cost?
+  audio: to-diklino-d8e08a.mp3
   status: verified
+  example_audio: echoyme-kleisei-ena--b4b46c.mp3
+  example2_audio: poso-kostizei-to-dik-bd1441.mp3
 - id: A2-U07-009
-  greek: Email σε φίλο συγκρίνοντας την παλιά και τη νέα γειτονιά (Task 2 Simulation)
-  english: 'Prompt: Write a 65-75 word email comparing your old and new apartment
-    and neighborhood.'
-  notes: '[Micro-Prompt Simulation - Task 2: 70 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα email σε έναν φίλο σας (60-75 λέξεις) για να συγκρίνετε το παλιό με
-    το καινούργιο σας σπίτι:
-
-    • πού βρισκόταν το παλιό και πού το νέο
-
-    • τι διαφορές έχουν σε μέγεθος και άνεση
-
-    • πώς είναι η νέα σας γειτονιά»
-
-
-    Gold-Standard Model Response:
-
-    Αγαπητή Μαρία,
-
-    Σου γράφω από το καινούργιο μου σπίτι! Το παλιό μου διαμέρισμα ήταν μικρό, σκοτεινό
-    και βρισκόταν μακριά από το κέντρο.
-
-    Αντίθετα, το νέο σπίτι είναι πολύ πιο άνετο, έχει μεγάλα παράθυρα και βρίσκεται
-    κοντά στη στάση του μετρό. Επιπλέον, η νέα γειτονιά είναι ήσυχη και έχει πολλά
-    πάρκα και μαγαζιά. Είμαι πολύ χαρούμενος με αυτή την αλλαγή!
-
-    Με αγάπη,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a comparative text evaluating two living arrangements
-  example_el: Αγαπητή Μαρία, το παλιό μου σπίτι ήταν μικρό και σκοτεινό. Αντίθετα,
-    το νέο είναι άνετο, φωτεινό και κοντά στο μετρό. Είμαι πολύ χαρούμενος!
-  example_en: Dear Maria, my old house was small and dark. In contrast, the new one
-    is comfortable, bright, and near the metro. I am very happy!
-  audio: email-se-filo-sygkri-0435cf.mp3
+  greek: οι αποσκευές
+  english: luggage / baggage
+  notes: Feminine noun plural (singular 'η αποσκευή' is rare). Essential for weight
+    limits.
+  gender_or_pos: noun (feminine plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    genitive_plural: των αποσκευών
+    synonym: οι βαλίτσες
+    collocation: παραλαβή αποσκευών (baggage claim)
+  keg_communicative_function: Handling baggage allowances, claims, and lost luggage
+    at airports
+  example_el: Το επιτρεπόμενο όριο για τις αποσκευές είναι είκοσι τρία κιλά ανά επιβάτη.
+  example_en: The permitted luggage allowance is twenty-three kilograms per passenger.
+  example2_el: Περιμένουμε τις αποσκευές μας στον ιμάντα παραλαβής νούμερο τρία.
+  example2_en: We are waiting for our luggage at baggage carousel number three.
+  audio: oi-aposkeyes-ca5084.mp3
   status: verified
+  example_audio: to-epitrepomeno-orio-807fee.mp3
+  example2_audio: perimenoyme-tis-apos-8e2078.mp3
 - id: A2-U07-010
-  greek: Η πολυκατοικία διαθέτει ασανσέρ και αυτόνομη θέρμανση φυσικού αερίου.
-  english: The apartment building features an elevator and autonomous natural gas
-    heating.
-  notes: '[Lego Sentence Builder] Building infrastructure: ''διαθέτει'' (features/possesses),
-    ''ασανσέρ'' (elevator), ''αυτόνομη θέρμανση''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Describing building amenities and heating specifications
-  example_el: Το διαμέρισμα είναι ανακαινισμένο και η πολυκατοικία διαθέτει ασανσέρ
-    και αυτόνομη θέρμανση φυσικού αερίου.
-  example_en: The apartment is renovated and the apartment building features an elevator
-    and autonomous natural gas heating.
-  audio: i-polykatoikia-diath-8ae38a.mp3
+  greek: η καθυστέρηση
+  english: delay
+  notes: Feminine noun in -η (-εις). Relates to 'καθυστερώ' (to be delayed/late).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καθυστερήσεις
+    collocation: με καθυστέρηση (with a delay)
+    verb: καθυστερώ
+  keg_communicative_function: Understanding transit delays and apologizing for arriving
+    late
+  example_el: Το τρένο έφτασε με καθυστέρηση σαράντα λεπτών στον σταθμό.
+  example_en: The train arrived with a forty-minute delay at the station.
+  example2_el: Ζητούμε συγγνώμη για την καθυστέρηση λόγω τεχνικού προβλήματος.
+  example2_en: We apologize for the delay due to a technical problem.
+  audio: i-kathysterisi-d56d3f.mp3
   status: verified
+  example_audio: to-treno-eftase-me-k-4ce35a.mp3
+  example2_audio: zitoyme-syggnomi-gia-206ad3.mp3
+- id: A2-U07-011
+  greek: η ακύρωση
+  english: cancellation
+  notes: Feminine noun in -η (-εις). Relates to 'ακυρώνω' (to cancel).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ακυρώσεις
+    verb: ακυρώνω
+    collocation: δωρεάν ακύρωση (free cancellation)
+  keg_communicative_function: Handling cancelled trips and understanding refund policies
+    in reading ads
+  example_el: Σε περίπτωση ακύρωσης του ταξιδιού, σας επιστρέφεται το σύνολο του ποσού.
+  example_en: In case of trip cancellation, the entire amount is refunded to you.
+  example2_el: Λόγω της κακοκαιρίας ανακοινώθηκε η ακύρωση όλων των πτήσεων.
+  example2_en: Due to bad weather the cancellation of all flights was announced.
+  audio: i-akyrosi-b59ef4.mp3
+  status: verified
+  example_audio: se-periptosi-akyrosi-90a1d1.mp3
+  example2_audio: logo-tis-kakokairias-e1245f.mp3
+- id: A2-U07-012
+  greek: η αναχώρηση
+  english: departure
+  notes: 'Feminine noun in -η (-εις). Antonym: ''η άφιξη'' (arrival). Verb: ''αναχωρώ''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αναχωρήσεις
+    verb: αναχωρώ
+    antonym: η άφιξη
+  keg_communicative_function: Checking departure gates and schedule listings on transit
+    boards
+  example_el: Η ώρα αναχώρησης του λεωφορείου είναι ακριβώς στις δέκα και μισή.
+  example_en: The departure time of the bus is exactly at half past ten.
+  example2_el: Ο πίνακας αναχωρήσεων δείχνει τις επόμενες πτήσεις της ημέρας.
+  example2_en: The departures board shows the next flights of the day.
+  audio: i-anachorisi-d144d3.mp3
+  status: verified
+  example_audio: i-ora-anachorisis-to-d919ac.mp3
+  example2_audio: o-pinakas-anachorise-ac2678.mp3
+- id: A2-U07-013
+  greek: η άφιξη
+  english: arrival
+  notes: 'Feminine noun in -η (-εις). Antonym: ''η αναχώρηση''. Verb: ''φτάνω''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι αφίξεις
+    antonym: η αναχώρηση
+  keg_communicative_function: Arranging airport/port pickups and meeting arriving
+    guests
+  example_el: Θα σας περιμένω στην αίθουσα αφίξεων του αεροδρομίου.
+  example_en: I will be waiting for you in the arrivals hall of the airport.
+  example2_el: Η αναμενόμενη ώρα άφιξης του πλοίου είναι στις επτά το απόγευμα.
+  example2_en: The expected arrival time of the ship is at seven in the evening.
+  audio: i-afixi-226a90.mp3
+  status: verified
+  example_audio: tha-sas-perimeno-sti-a57544.mp3
+  example2_audio: i-anamenomeni-ora-af-845f19.mp3
+- id: A2-U07-014
+  greek: αναχωρώ
+  english: to depart / to leave
+  notes: Contracted verb (αναχωρεί, αναχωρούν). Formal verb common in announcements.
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αναχώρησα
+    simple_future: θα αναχωρήσω
+    noun_derivative: η αναχώρηση
+  keg_communicative_function: Reporting vehicle departures in formal announcements
+    and travel writing
+  example_el: Το πλοίο αναχωρεί καθημερινά από τη Ραφήνα για την Άνδρο και την Τήνο.
+  example_en: The ship departs daily from Rafina for Andros and Tinos.
+  example2_el: Θα αναχωρήσουμε νωρίς το ξημέρωμα για να αποφύγουμε την κίνηση.
+  example2_en: We will depart early at dawn to avoid traffic.
+  audio: anachoro-4cb2a1.mp3
+  status: verified
+  example_audio: to-ploio-anachorei-k-9038ee.mp3
+  example2_audio: tha-anachorisoyme-no-20cc7a.mp3
+- id: A2-U07-015
+  greek: επισκέπτομαι
+  english: to visit
+  notes: 'Deponent verb (επισκέπτομαι, επισκέπτεσαι, επισκέπτεται). Simple past: ''επισκέφτηκα''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: επισκέφτηκα
+    simple_future: θα επισκεφτώ
+    noun_derivative: η επίσκεψη
+  keg_communicative_function: Describing sightseeing itineraries and museum excursions
+  example_el: Κατά τη διαμονή μας στην Αθήνα επισκεφτήκαμε τον Ιερό Βράχο της Ακρόπολης.
+  example_en: During our stay in Athens we visited the Sacred Rock of the Acropolis.
+  example2_el: Σκοπεύουμε να επισκεφτούμε τα Μετέωρα τον επόμενο μήνα.
+  example2_en: We intend to visit Meteora next month.
+  audio: episkeptomai-63ef59.mp3
+  status: verified
+  example_audio: kata-ti-diamoni-mas--8e3ffd.mp3
+  example2_audio: skopeyoyme-na-episke-9a960f.mp3
+- id: A2-U07-016
+  greek: ο προορισμός
+  english: destination
+  notes: Masculine noun in -ος (-οι). Collocates with 'δημοφιλής προορισμός' (popular
+    destination).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι προορισμοί
+    genitive_singular: του προορισμού
+  keg_communicative_function: Discussing vacation destinations and travel recommendations
+  example_el: Η Σαντορίνη είναι ένας από τους πιο διάσημους τουριστικούς προορισμούς
+    στον κόσμο.
+  example_en: Santorini is one of the most famous tourist destinations in the world.
+  example2_el: Ποιος είναι ο επόμενος προορισμός του ταξιδιού σας;
+  example2_en: What is the next destination of your trip?
+  audio: o-proorismos-aa413b.mp3
+  status: verified
+  example_audio: i-santorini-einai-en-49efa5.mp3
+  example2_audio: poios-einai-o-epomen-c3d1ba.mp3
+- id: A2-U07-017
+  greek: τα αξιοθέατα
+  english: sights / tourist attractions
+  notes: 'Neuter plural noun (άξιος + θέαμα: worthy of viewing). Collocates with ''βλέπω
+    τα αξιοθέατα''.'
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    genitive_plural: των αξιοθεάτων
+    singular: το αξιοθέατο
+  keg_communicative_function: Asking for recommendations about monuments, sights,
+    and historical ruins
+  example_el: Ποια είναι τα σημαντικότερα αξιοθέατα που αξίζει να δει κανείς στην
+    πόλη;
+  example_en: What are the most important sights worth seeing in the city?
+  example2_el: Περάσαμε όλη την ημέρα περπατώντας και βλέποντας τα αξιοθέατα.
+  example2_en: We spent the entire day walking and viewing the sights.
+  audio: ta-axiotheata-18ee15.mp3
+  status: verified
+  example_audio: poia-einai-ta-simant-12bda3.mp3
+  example2_audio: perasame-oli-tin-ime-08aed5.mp3
+- id: A2-U07-018
+  greek: ο ξεναγός
+  english: tour guide
+  notes: Masculine / feminine noun (ο/η ξεναγός). Related to 'η ξενάγηση' (guided
+    tour).
+  gender_or_pos: noun (common gender)
+  grammatical_info:
+    part_of_speech: noun
+    plural: οι ξεναγοί
+    noun_activity: η ξενάγηση
+    verb: ξεναγώ
+  keg_communicative_function: Booking guided tours or describing historical tour experiences
+  example_el: Ο ξεναγός μάς εξήγησε την ιστορία του αρχαιολογικού χώρου με μεγάλη
+    λεπτομέρεια.
+  example_en: The tour guide explained the history of the archaeological site to us
+    in great detail.
+  example2_el: Κλείσαμε μια ξενάγηση με πιστοποιημένο ξεναγό στα ελληνικά και αγγλικά.
+  example2_en: We booked a tour with a certified tour guide in Greek and English.
+  audio: o-xenagos-304260.mp3
+  status: verified
+  example_audio: o-xenagos-mas-exigis-211626.mp3
+  example2_audio: kleisame-mia-xenagis-bd282b.mp3
+- id: A2-U07-019
+  greek: η ξενάγηση
+  english: guided tour
+  notes: Feminine noun in -η (-εις). Essential tourist activity vocabulary.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ξεναγήσεις
+    genitive_singular: της ξενάγησης
+  keg_communicative_function: Participating in cultural excursions and museum tours
+  example_el: Η ξενάγηση στο μουσείο διαρκεί περίπου μιάμιση ώρα.
+  example_en: The guided tour in the museum lasts about an hour and a half.
+  example2_el: Περιλαμβάνεται η ξενάγηση στην τιμή του εισιτηρίου εισόδου;
+  example2_en: Is the guided tour included in the price of the entrance ticket?
+  audio: i-xenagisi-70900f.mp3
+  status: verified
+  example_audio: i-xenagisi-sto-moyse-a73ac5.mp3
+  example2_audio: perilamvanetai-i-xen-769332.mp3
+- id: A2-U07-020
+  greek: το δρομολόγιο
+  english: itinerary / route / timetable
+  notes: Neuter noun in -ο (-α). Essential for ferry and train timetables.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δρομολόγια
+    collocation: δρομολόγια πλοίων / τρένων
+  keg_communicative_function: Inquiring about bus, train, or boat schedules and routes
+  example_el: Μπορείτε να μου πείτε ποιο είναι το επόμενο δρομολόγιο για το αεροδρόμιο;
+  example_en: Can you tell me what the next route/service to the airport is?
+  example2_el: Το χειμερινό δρομολόγιο του πλοίου έχει λιγότερες αναχωρήσεις την εβδομάδα.
+  example2_en: The ship's winter timetable has fewer departures per week.
+  audio: to-dromologio-79755e.mp3
+  status: verified
+  example_audio: mporeite-na-moy-peit-48134a.mp3
+  example2_audio: to-cheimerino-dromol-4af5a0.mp3
+- id: A2-U07-021
+  greek: η κάρτα επιβίβασης
+  english: boarding pass
+  notes: Feminine noun phrase. Essential check-in document at airport and ferry gates.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι κάρτες επιβίβασης
+    verb: επιβιβάζομαι
+  keg_communicative_function: Printing or showing boarding passes on smartphones during
+    gate control
+  example_el: Παρακαλώ να έχετε την κάρτα επιβίβασης και το διαβατήριό σας έτοιμα
+    για έλεγχο.
+  example_en: Please have your boarding pass and passport ready for inspection.
+  example2_el: Κατέβασα την ηλεκτρονική κάρτα επιβίβασης στο κινητό μου τηλέφωνο.
+  example2_en: I downloaded the electronic boarding pass onto my mobile phone.
+  audio: i-karta-epivivasis-8988f5.mp3
+  status: verified
+  example_audio: parakalo-na-echete-t-5fb5a6.mp3
+  example2_audio: katevasa-tin-ilektro-a8fb63.mp3
+- id: A2-U07-022
+  greek: η πύλη επιβίβασης
+  english: boarding gate
+  notes: Feminine noun phrase. Key airport audio announcement focus.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι πύλες επιβίβασης
+    collocation: αλλαγή πύλης (gate change)
+  keg_communicative_function: Navigating airport terminals to correct departure gates
+  example_el: Η πύλη επιβίβασης θα κλείσει είκοσι λεπτά πριν από την αναχώρηση της
+    πτήσης.
+  example_en: The boarding gate will close twenty minutes prior to the flight departure.
+  example2_el: Παρακαλούνται οι επιβάτες να προσέλθουν άμεσα στην πύλη επιβίβασης.
+  example2_en: Passengers are requested to proceed immediately to the boarding gate.
+  audio: i-pyli-epivivasis-919029.mp3
+  status: verified
+  example_audio: i-pyli-epivivasis-th-c90372.mp3
+  example2_audio: parakaloyntai-oi-epi-3d24dc.mp3
+- id: A2-U07-023
+  greek: το κατάστρωμα
+  english: ship deck / open deck
+  notes: Neuter noun in -μα (-ματα). Cheapest and most popular ferry ticket tier in
+    Greece.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα καταστρώματα
+    collocation: εισιτήριο καταστρώματος (deck ticket)
+  keg_communicative_function: Purchasing economy ferry tickets and describing the
+    sea voyage
+  example_el: Πήραμε εισιτήρια καταστρώματος και καθίσαμε έξω απολαμβάνοντας τη θέα.
+  example_en: We bought deck tickets and sat outside enjoying the view.
+  example2_el: Στο κατάστρωμα του πλοίου φυσούσε ένα δροσερό αεράκι.
+  example2_en: On the ship deck a refreshing breeze was blowing.
+  audio: to-katastroma-fd6a46.mp3
+  status: verified
+  example_audio: pirame-eisitiria-kat-df9277.mp3
+  example2_audio: sto-katastroma-toy-p-d471bf.mp3
+- id: A2-U07-024
+  greek: η καμπίνα
+  english: ship cabin / compartment
+  notes: Feminine noun in -α (-ες). Used for overnight ferry voyages (π.χ. Πειραιάς
+    - Χανιά / Ηράκλειο).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καμπίνες
+    collocation: δίκλινη καμπίνα (two-berth cabin)
+  keg_communicative_function: Booking overnight sleeping cabins on long maritime crossings
+  example_el: Επειδή το ταξίδι είναι νυχτερινό, προτιμήσαμε να κλείσουμε μια δίκλινη
+    καμπίνα.
+  example_en: Because the voyage is overnight, we preferred to book a two-berth cabin.
+  example2_el: Η καμπίνα είχε δικό της μπάνιο και ήταν πολύ καθαρή.
+  example2_en: The cabin had its own bathroom and was very clean.
+  audio: i-kampina-5aa1b2.mp3
+  status: verified
+  example_audio: epeidi-to-taxidi-ein-4f36a5.mp3
+  example2_audio: i-kampina-eiche-diko-e20259.mp3
+- id: A2-U07-025
+  greek: νοικιάζω
+  english: to rent / to hire
+  notes: 'Active verb. Simple past: ''νοίκιασα''. Future: ''θα νοικιάσω''. Used for
+    cars, scooters, or apartments.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: νοίκιασα
+    simple_future: θα νοικιάσω
+    noun_derivative: το ενοίκιο (rent) / η ενοικίαση
+  keg_communicative_function: Renting a car, motorcycle, or holiday house during travels
+  example_el: Στο νησί νοικιάσαμε ένα μικρό αυτοκίνητο για να γυρίσουμε όλες τις παραλίες.
+  example_en: On the island we rented a small car to tour all the beaches.
+  example2_el: Πόσο κοστίζει να νοικιάσει κανείς μηχανάκι για μία εβδομάδα;
+  example2_en: How much does it cost to rent a scooter for one week?
+  audio: noikiazo-7b0291.mp3
+  status: verified
+  example_audio: sto-nisi-noikiasame--c7c39c.mp3
+  example2_audio: poso-kostizei-na-noi-a75680.mp3
+- id: A2-U07-026
+  greek: πιο
+  english: more (comparative particle)
+  notes: 'Comparative particle placed before adjectives and adverbs: ''πιο μεγάλος''
+    (bigger), ''πιο γρήγορα'' (faster).'
+  gender_or_pos: adverb / particle
+  grammatical_info:
+    part_of_speech: particle
+    syntax: πιο + θετικός βαθμός επιθέτου / επιρρήματος
+    comparative_structure: πιο ... από (more ... than)
+  keg_communicative_function: Comparing options, prices, hotels, and travel durations
+  example_el: Το αεροπλάνο είναι πιο γρήγορο από το πλοίο, αλλά το πλοίο είναι πιο
+    οικονομικό.
+  example_en: The plane is faster than the ferry, but the ferry is more economical.
+  example2_el: Αναζητούμε ένα ξενοδοχείο πιο κοντά στο κέντρο της παλιάς πόλης.
+  example2_en: We are seeking a hotel closer to the center of the old town.
+  audio: pio-822149.mp3
+  status: verified
+  example_audio: to-aeroplano-einai-p-191932.mp3
+  example2_audio: anazitoyme-ena-xenod-ece282.mp3
+- id: A2-U07-027
+  greek: καλύτερος
+  english: better / best
+  notes: 'Irregular comparative adjective (καλός -> καλύτερος). Feminine: καλύτερη,
+    neuter: καλύτερο.'
+  gender_or_pos: adjective (comparative)
+  grammatical_info:
+    part_of_speech: adjective
+    positive: καλός, -ή, -ό
+    superlative: ο καλύτερος (the best)
+  keg_communicative_function: Expressing superior quality and personal preferences
+    in debates
+  example_el: Ποια είναι η καλύτερη εποχή για να επισκεφτεί κανείς την Ελλάδα;
+  example_en: What is the best season to visit Greece?
+  example2_el: Αυτό το κατάλυμα έχει πολύ καλύτερη βαθμολογία από το προηγούμενο.
+  example2_en: This accommodation has a much better rating than the previous one.
+  audio: kalyteros-5a573a.mp3
+  status: verified
+  example_audio: poia-einai-i-kalyter-edbfb3.mp3
+  example2_audio: ayto-to-katalyma-ech-c08d4d.mp3
+- id: A2-U07-028
+  greek: φθηνότερος
+  english: cheaper
+  notes: 'Regular synthetic comparative of ''φθηνός'' (-ότερος, -ότερη, -ότερο). Synonym:
+    ''πιο φθηνός''.'
+  gender_or_pos: adjective (comparative)
+  grammatical_info:
+    part_of_speech: adjective
+    positive: φθηνός
+    antonym: ακριβότερος (more expensive)
+  keg_communicative_function: Comparing ticket prices and shopping options in commercial
+    dialogues
+  example_el: Αν κλείσετε τα εισιτήρια νωρίς, θα βρείτε πολύ φθηνότερες τιμές.
+  example_en: If you book the tickets early, you will find much cheaper prices.
+  example2_el: Υπάρχει κάποιο φθηνότερο μέσο μεταφοράς για το αεροδρόμιο;
+  example2_en: Is there a cheaper means of transport to the airport?
+  audio: fthinoteros-9f54bb.mp3
+  status: verified
+  example_audio: an-kleisete-ta-eisit-71ee1e.mp3
+  example2_audio: yparchei-kapoio-fthi-d64744.mp3
+- id: A2-U07-029
+  greek: ακριβότερος
+  english: more expensive
+  notes: 'Synthetic comparative of ''ακριβός'' (-ότερος, -ότερη, -ότερο). Synonym:
+    ''πιο ακριβός''.'
+  gender_or_pos: adjective (comparative)
+  grammatical_info:
+    part_of_speech: adjective
+    positive: ακριβός
+    antonym: φθηνότερος
+  keg_communicative_function: Discussing cost variations between peak season and off-season
+  example_el: Τον Αύγουστο τα δωμάτια στα νησιά είναι πολύ ακριβότερα από τον Ιούνιο.
+  example_en: In August rooms on the islands are much more expensive than in June.
+  example2_el: Η πρώτη θέση στο τρένο είναι ακριβότερη, αλλά προσφέρει περισσότερη
+    άνεση.
+  example2_en: First class on the train is more expensive, but offers more comfort.
+  audio: akrivoteros-20cfde.mp3
+  status: verified
+  example_audio: ton-aygoysto-ta-doma-ab951c.mp3
+  example2_audio: i-proti-thesi-sto-tr-410f5e.mp3
+- id: A2-U07-030
+  greek: γρηγορότερος
+  english: faster / quicker
+  notes: 'Synthetic comparative of ''γρήγορος''. Adverbial comparative: ''γρηγορότερα''
+    (more quickly).'
+  gender_or_pos: adjective (comparative)
+  grammatical_info:
+    part_of_speech: adjective
+    positive: γρήγορος
+    adverb: γρηγορότερα (faster / sooner)
+  keg_communicative_function: Comparing transport transit speeds and efficiency
+  example_el: Το ταχύπλοο είναι γρηγορότερο από το συμβατικό πλοίο κατά δύο ώρες.
+  example_en: The high-speed ferry is faster than the conventional ferry by two hours.
+  example2_el: Ποιος είναι ο γρηγορότερος δρόμος για να πάμε στο κέντρο;
+  example2_en: Which is the fastest way to get to the center?
+  audio: grigoroteros-e1c3f4.mp3
+  status: verified
+  example_audio: to-tachyploo-einai-g-0a0676.mp3
+  example2_audio: poios-einai-o-grigor-6c2c47.mp3
+- id: A2-U07-031
+  greek: η παραλία
+  english: beach / seashore
+  notes: Feminine noun in -α (-ες). Essential leisure and geography vocabulary.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι παραλίες
+    genitive_singular: της παραλίας
+  keg_communicative_function: Describing summer beach excursions and coastal scenery
+  example_el: Κολυμπήσαμε σε μια υπέροχη παραλία με κρυστάλλινα γαλαζοπράσινα νερά.
+  example_en: We swam at a magnificent beach with crystal-clear turquoise waters.
+  example2_el: Η παραλία είναι οργανωμένη με ομπρέλες, ξαπλώστρες και ναυαγοσώστη.
+  example2_en: The beach is organized with umbrellas, sunbeds, and a lifeguard.
+  audio: i-paralia-019ba7.mp3
+  status: verified
+  example_audio: kolympisame-se-mia-y-f70c27.mp3
+  example2_audio: i-paralia-einai-orga-8a23fa.mp3
+- id: A2-U07-032
+  greek: το νησί
+  english: island
+  notes: 'Neuter noun in -ί (-ιά). Plural: ''τα νησιά''. Central element of Greek
+    geography.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νησιά
+    genitive_singular: του νησιού
+    adjective: νησιωτικός, -ή, -ό
+  keg_communicative_function: Talking about holidays on Greek islands in oral and
+    written tasks
+  example_el: Κάθε καλοκαίρι επισκεπτόμαστε και ένα διαφορετικό ελληνικό νησί.
+  example_en: Every summer we visit a different Greek island.
+  example2_el: Η ζωή στο νησί τον χειμώνα είναι πολύ πιο ήσυχη.
+  example2_en: Life on the island in winter is much quieter.
+  audio: to-nisi-52295e.mp3
+  status: verified
+  example_audio: kathe-kalokairi-epis-b98891.mp3
+  example2_audio: i-zoi-sto-nisi-ton-c-49bf2c.mp3
+- id: A2-U07-033
+  greek: το ξενοδοχείο
+  english: hotel
+  notes: Neuter noun in -ο (-α). Collocates with 'πεντάστερο ξενοδοχείο' (five-star
+    hotel).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ξενοδοχεία
+    genitive_singular: του ξενοδοχείου
+  keg_communicative_function: Checking in, checking out, and evaluating hotel amenities
+  example_el: Το ξενοδοχείο προσφέρει δωρεάν ασύρματο διαδίκτυο και πρωινό μπουφέ.
+  example_en: The hotel offers free wireless internet and a buffet breakfast.
+  example2_el: Φτάσαμε στο ξενοδοχείο αργά το βράδυ και κάναμε άμεσα check-in.
+  example2_en: We arrived at the hotel late at night and checked in immediately.
+  audio: to-xenodocheio-2248f1.mp3
+  status: verified
+  example_audio: to-xenodocheio-prosf-f11e7e.mp3
+  example2_audio: ftasame-sto-xenodoch-26d710.mp3
+- id: A2-U07-034
+  greek: η βαλίτσα
+  english: suitcase
+  notes: Feminine noun in -α (-ες). Collocates with 'φτιάχνω / ετοιμάζω τη βαλίτσα'
+    (to pack the suitcase).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι βαλίτσες
+    collocation: φτιάχνω τη βαλίτσα (to pack)
+  keg_communicative_function: Describing trip preparations and packing essentials
+    in letters
+  example_el: Ετοίμασα τη βαλίτσα μου από το προηγούμενο βράδυ για να είμαι έτοιμος.
+  example_en: I packed my suitcase from the previous night to be ready.
+  example2_el: Η βαλίτσα μου ξεπέρασε το επιτρεπόμενο βάρος κατά δύο κιλά.
+  example2_en: My suitcase exceeded the permitted weight by two kilograms.
+  audio: i-valitsa-96c34e.mp3
+  status: verified
+  example_audio: etoimasa-ti-valitsa--0ca68c.mp3
+  example2_audio: i-valitsa-moy-xepera-77ff5f.mp3
+- id: A2-U07-035
+  greek: καλό ταξίδι
+  english: have a good trip / safe journey
+  notes: Formulaic farewell addressed to anyone departing on a voyage.
+  gender_or_pos: phrase (farewell)
+  grammatical_info:
+    part_of_speech: phrase
+    synonym: καλό δρόμο, καλή επιστροφή
+  keg_communicative_function: Wishing safe journeys to departing friends and travelers
+  example_el: Σας εύχομαι καλό ταξίδι και να περάσετε υπέροχα!
+  example_en: I wish you a good trip and have a wonderful time!
+  example2_el: Καλό ταξίδι και περιμένουμε νέα σας μόλις φτάσετε στον προορισμό σας.
+  example2_en: Safe journey and we look forward to hearing from you as soon as you
+    reach your destination.
+  audio: kalo-taxidi-aa6b2a.mp3
+  status: verified
+  example_audio: sas-eychomai-kalo-ta-965dd5.mp3
+  example2_audio: kalo-taxidi-kai-peri-756bc1.mp3

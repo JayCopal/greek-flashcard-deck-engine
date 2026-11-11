@@ -1,153 +1,705 @@
 unit_id: unit-a2-10
 lesson_id: lesson-01
-title: 'Μάθημα 10: Γραπτός Λόγος — Ασφαλείς Λιμένες & Ανώμαλοι Αόριστοι (A2 Writing:
-  Grammar Safe Harbors)'
-description: 'Eliminating high-penalty errors in A2 written exams: irregular past
-  stems (είδα, ήπια, έφαγα, βρήκα, έμαθα, πήρα, έφυγα), clitic pronoun positions,
-  and modal subjunctive rules.'
+title: 'Μάθημα 10: Υγεία, Ατυχήματα & Φαρμακείο (Health, Accidents & Medical Consultation)'
+description: Explaining bodily symptoms, consulting doctors and pharmacists, following
+  medical prescriptions, and reporting emergencies using mediopassive verbs (αισθάνομαι,
+  κουράζομαι, τραυματίζομαι) and anatomy vocabulary.
 lesson_status: not_started
-lesson_notes: "Unit A2-10 Core Notes: Γραμματικοί Ασφαλείς Λιμένες (Grammar Safe Harbors)\n\
-  • Top Irregular Aorists in Writing Tasks:\n  - βλέπω -> είδα, είδες, είδε, είδαμε,\
-  \ είδατε, είδαν\n  - πίνω -> ήπια, ήπιες, ήπιε, ήπιαμε, ήπιατε, ήπιαν\n  - τρώω\
-  \ -> έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν\n  - βρίσκω -> βρήκα, βρήκες,\
-  \ βρήκε, βρήκαμε, βρήκατε, βρήκαν\n  - μαθαίνω -> έμαθα, έμαθες, έμαθε, μάθαμε,\
-  \ μάθατε, έμαθαν\n  - παίρνω -> πήρα, πήρες, πήρε, πήραμε, πήρατε, πήραν\n  - φεύγω\
-  \ -> έφυγα, έφυγες, έφυγε, φύγαμε, φύγατε, έφυγαν\n• Clitic Pronoun Placement:\n\
-  \  - Direct object pronouns (τον, την, το, τους, τις, τα) ALWAYS precede the conjugated\
-  \ verb in declarative sentences:\n    «Τον είδα χθες» (I saw him yesterday), NOT\
-  \ *Είδα τον χθες."
+lesson_notes: "Unit A2-10 Core Notes: Υγεία & Φαρμακείο (Health & Medicine)\n• Anatomy\
+  \ & Symptoms:\n  - πυρετός (fever), πονοκέφαλος (headache), πονόλαιμος (sore throat),\
+  \ βήχας (cough), κρυολόγημα (cold), γρίπη (flu).\n  - πονάει το... / πονάνε τα...\
+  \ (my ... hurts).\n• Mediopassive Health Verbs:\n  - αισθάνομαι (feel), κουράζομαι\
+  \ (get tired), τραυματίζομαι (get injured), κοιμάμαι (sleep)."
 entries:
 - id: A2-U10-001
-  greek: Χθες το βράδυ είδαμε μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο.
-  english: Last night we saw a very interesting movie at the cinema.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of βλέπω: ''είδαμε'' (we saw) + feminine
-    accusative adjective ''ενδιαφέρουσα''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'είδαμε' to recount past entertainment
-  example_el: Χθες το βράδυ είδαμε μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο
-    και μετά συζητήσαμε για το τέλος της.
-  example_en: Last night we saw a very interesting movie at the cinema and afterwards
-    we discussed its ending.
-  audio: chthes-to-vrady-eida-e9db62.mp3
+  greek: πονάω
+  english: to hurt / to ache / I feel pain
+  notes: 'Group B1 verb (πονάω / πονώ). Takes direct object of body part: ''πονάει
+    το κεφάλι μου'' (my head hurts) or ''πονάω στο στομάχι''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    third_person: πονάει / πονούν
+    simple_past: πόνεσα
+    noun_derivative: ο πόνος (pain)
+  keg_communicative_function: Describing localized pain and physical discomfort to
+    a doctor or pharmacist
+  example_el: Με πονάει πολύ ο λαιμός μου και δυσκολεύομαι να καταπιώ.
+  example_en: My throat hurts a lot and I have difficulty swallowing.
+  example2_el: Πονάει το στομάχι μου από χθες το βράδυ, χρειάζομαι ένα παυσίπονο.
+  example2_en: My stomach has been aching since yesterday evening; I need a painkiller.
+  audio: ponao-f36b23.mp3
   status: verified
+  example_audio: me-ponaei-poly-o-lai-06aa5d.mp3
+  example2_audio: ponaei-to-stomachi-m-e553af.mp3
 - id: A2-U10-002
-  greek: Καθίσαμε στην πλατεία και ήπιαμε δροσερό καφέ κάτω από τον ήλιο.
-  english: We sat in the square and drank iced coffee under the sun.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of πίνω: ''ήπιαμε'' (we drank). Watch
-    tonos placement.'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'ήπιαμε' in narrative leisure
-    descriptions
-  example_el: Το απόγευμα καθίσαμε στην κεντρική πλατεία και ήπιαμε δροσερό καφέ κάτω
-    από τον ζεστό ήλιο.
-  example_en: In the afternoon we sat in the main square and drank iced coffee under
-    the warm sun.
-  audio: kathisame-stin-plate-b93cdb.mp3
+  greek: αισθάνομαι
+  english: to feel / I feel
+  notes: 'Deponent verb (αισθάνομαι, αισθάνεσαι, αισθάνεται). Simple past: ''αισθάνθηκα''
+    or ''ένιωσα''. Collocates with ''αισθάνομαι άρρωστος / καλά''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αισθάνθηκα
+    synonym: νιώθω
+    noun_derivative: το αίσθημα
+  keg_communicative_function: Explaining general physical and psychological symptoms
+    during clinical consultations
+  example_el: Αισθάνομαι έντονη αδυναμία και ζαλάδα από το πρωί.
+  example_en: I feel intense weakness and dizziness since morning.
+  example2_el: Πώς αισθάνεστε σήμερα μετά τη λήψη των φαρμάκων;
+  example2_en: How do you feel today after taking the medicines?
+  audio: aisthanomai-3c2210.mp3
   status: verified
+  example_audio: aisthanomai-entoni-a-a11989.mp3
+  example2_audio: pos-aisthaneste-sime-9084a7.mp3
 - id: A2-U10-003
-  greek: Το μεσημέρι φάγαμε σπιτικό παστίτσιο που μαγείρεψε η μητέρα μου.
-  english: At noon we ate homemade pastitsio that my mother cooked.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of τρώω: ''φάγαμε'' (drops initial
-    augment in plural: φάγαμε, NOT *έφαγαμε).'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'φάγαμε' without incorrect augment
-  example_el: Όλη η οικογένεια συγκεντρώθηκε και το μεσημέρι φάγαμε σπιτικό παστίτσιο
-    που μαγείρεψε η μητέρα μου.
-  example_en: The whole family gathered and at noon we ate homemade pastitsio that
-    my mother cooked.
-  audio: to-mesimeri-fagame-s-05165d.mp3
+  greek: ο πυρετός
+  english: fever / temperature
+  notes: Masculine noun in -ός (-οί). Collocates with 'έχω / ανεβάζω πυρετό' (to have/run
+    a fever).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πυρετοί
+    collocation: έχω πυρετό (I have a fever), βάζω θερμόμετρο
+  keg_communicative_function: Reporting body temperature and fever spikes to medical
+    staff
+  example_el: Το παιδί ανέβασε υψηλό πυρετό, σχεδόν τριάντα εννέα βαθμούς.
+  example_en: The child developed a high fever, nearly thirty-nine degrees.
+  example2_el: Πάρτε αυτό το αντιπυρετικό σιρόπι για να πέσει ο πυρετός.
+  example2_en: Take this antipyretic syrup to bring the fever down.
+  audio: o-pyretos-95d8d4.mp3
   status: verified
+  example_audio: to-paidi-anevase-yps-7ab6b8.mp3
+  example2_audio: parte-ayto-to-antipy-462310.mp3
 - id: A2-U10-004
-  greek: Τελικά βρήκαμε ένα πολύ οικονομικό δωμάτιο κοντά στο λιμάνι.
-  english: In the end we found a very economical room near the port.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of βρίσκω: ''βρήκαμε'' (we found).'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'βρήκαμε' to state outcome of
-    a search
-  example_el: Ψάξαμε για αρκετή ώρα και τελικά βρήκαμε ένα πολύ οικονομικό δωμάτιο
-    κοντά στο λιμάνι του νησιού.
-  example_en: We searched for quite a while and in the end we found a very economical
-    room near the island's port.
-  audio: telika-vrikame-ena-p-3d5ed4.mp3
+  greek: ο πονοκέφαλος
+  english: headache
+  notes: 'Masculine compound noun: πόνος + κεφάλι. Plural: ''οι πονοκέφαλοι''.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πονοκέφαλοι
+    collocation: έντονος πονοκέφαλος
+  keg_communicative_function: Stating head aches and asking for analgesic tablets
+    in pharmacy role-plays
+  example_el: Έχω έναν αφόρητο πονοκέφαλο, έχετε κάτι αποτελεσματικό για να μου δώσετε;
+  example_en: I have an unbearable headache; do you have something effective to give
+    me?
+  example2_el: Η πολλή ώρα μπροστά στην οθόνη του υπολογιστή μού προκαλεί συχνά πονοκέφαλο.
+  example2_en: Too much time in front of the computer screen often causes me a headache.
+  audio: o-ponokefalos-f0102a.mp3
   status: verified
+  example_audio: echo-enan-aforito-po-cec9a4.mp3
+  example2_audio: i-polli-ora-mprosta--0cc679.mp3
 - id: A2-U10-005
-  greek: Χάρηκα πολύ όταν έμαθα τα ευχάριστα νέα για την προαγωγή σου.
-  english: I was very glad when I learned the pleasant news about your promotion.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of μαθαίνω: ''έμαθα'' (I learned)
-    + deponent past ''χάρηκα'' (I was glad).'
-  gender_or_pos: sentence
-  keg_communicative_function: Expressing congratulations upon learning milestone news
-  example_el: Χάρηκα πάρα πολύ όταν έμαθα τα ευχάριστα νέα για την προαγωγή σου στη
-    δουλειά! Συγχαρητήρια!
-  example_en: I was very glad when I learned the pleasant news about your promotion
-    at work! Congratulations!
-  audio: charika-poly-otan-em-ff4f8e.mp3
+  greek: ο πονόλαιμος
+  english: sore throat
+  notes: 'Masculine compound noun: πόνος + λαιμός. Common symptom of seasonal infections.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι πονόλαιμοι
+    collocation: καραμέλες για τον πονόλαιμο
+  keg_communicative_function: Requesting throat lozenges or sprays at the pharmacy
+  example_el: Ο πονόλαιμος δεν με αφήνει να μιλήσω καθαρά, θα ήθελα καραμέλες με μέλι.
+  example_en: My sore throat won't let me speak clearly; I would like lozenges with
+    honey.
+  example2_el: Αν ο πονόλαιμος επιμένει για μέρες, πρέπει να σας εξετάσει ένας γιατρός.
+  example2_en: If the sore throat persists for days, a doctor must examine you.
+  audio: o-ponolaimos-d21d0f.mp3
   status: verified
+  example_audio: o-ponolaimos-den-me--44ebe8.mp3
+  example2_audio: an-o-ponolaimos-epim-a0d662.mp3
 - id: A2-U10-006
-  greek: Πήραμε το πρωινό πλοίο και φτάσαμε στο νησί σε δύο ώρες.
-  english: We took the morning boat and arrived on the island in two hours.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of παίρνω: ''πήραμε'' (we took).'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'πήραμε' in travel descriptions
-  example_el: Ξυπνήσαμε αχάραγα, πήραμε το πρωινό πλοίο από τον Πειραιά και φτάσαμε
-    στο νησί σε δύο ώρες.
-  example_en: We woke up at dawn, took the morning boat from Piraeus, and arrived
-    on the island in two hours.
-  audio: pirame-to-proino-plo-5b2e3e.mp3
+  greek: ο βήχας
+  english: cough
+  notes: Masculine noun in -ας (-ες). Relates to 'βήχω' (to cough).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    verb: βήχω
+    collocation: ξηρός βήχας (dry cough)
+  keg_communicative_function: Describing respiratory cough symptoms and buying cough
+    syrups
+  example_el: Έχω έναν έντονο ξηρό βήχα που με ταλαιπωρεί κυρίως τη νύχτα.
+  example_en: I have an intense dry cough that bothers me mainly at night.
+  example2_el: Ο φαρμακοποιός μού συνέστησε ένα φυτικό σιρόπι για τον βήχα.
+  example2_en: The pharmacist recommended a herbal syrup for my cough.
+  audio: o-vichas-e1bdb0.mp3
   status: verified
+  example_audio: echo-enan-entono-xir-28d514.mp3
+  example2_audio: o-farmakopoios-moy-s-758420.mp3
 - id: A2-U10-007
-  greek: Φύγαμε νωρίς από τη συναυλία γιατί είχε πάρα πολύ κόσμο.
-  english: We left early from the concert because it was very crowded.
-  notes: '[Grammar Safe Harbor] Irregular Aorist of φεύγω: ''φύγαμε'' (drops augment
-    in plural: φύγαμε, NOT *έφυγαμε).'
-  gender_or_pos: sentence
-  keg_communicative_function: Using irregular Aorist 'φύγαμε' with causal explanation
-  example_el: Αν και η μουσική ήταν εξαιρετική, φύγαμε νωρίς από τη συναυλία γιατί
-    είχε πάρα πολύ κόσμο.
-  example_en: Although the music was excellent, we left early from the concert because
-    it was very crowded.
-  audio: fygame-noris-apo-ti--21d363.mp3
+  greek: το κρυολόγημα
+  english: common cold
+  notes: Neuter noun in -μα (-ματα). Relates to 'κρυολογώ' (to catch a cold).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κρυολογήματα
+    verb: κρυολογώ
+  keg_communicative_function: Explaining school/work absences due to mild seasonal
+    illness
+  example_el: Έμεινα στο σπίτι σήμερα επειδή με έπιασε ένα βαρύ κρυολόγημα.
+  example_en: I stayed home today because I caught a bad cold.
+  example2_el: Πίνετε ζεστό τσάι του βουνού με λεμόνι για να ανακουφιστείτε από το
+    κρυολόγημα.
+  example2_en: Drink warm Greek mountain tea with lemon to relieve your cold.
+  audio: to-kryologima-f74468.mp3
   status: verified
+  example_audio: emeina-sto-spiti-sim-9280fb.mp3
+  example2_audio: pinete-zesto-tsai-to-4762c7.mp3
 - id: A2-U10-008
-  greek: Τον είδα χθες στο δρόμο και μου είπε ότι θα σου τηλεφωνήσει σύντομα.
-  english: I saw him yesterday in the street and he told me that he will call you
-    soon.
-  notes: '[Clitic Pronoun Rule] Direct object ''τον'' and indirect ''μου'' precede
-    the verbs ''τον είδα'' and ''μου είπε''. NEVER *Είδα τον.'
-  gender_or_pos: sentence
-  keg_communicative_function: Positioning clitic object pronouns accurately before
-    finite verbs
-  example_el: Τον είδα χθες το πρωί στο δρόμο και μου είπε ότι θα σου τηλεφωνήσει
-    σύντομα για να κανονίσετε.
-  example_en: I saw him yesterday morning in the street and he told me that he will
-    call you soon to make arrangements.
-  audio: ton-eida-chthes-sto--34afed.mp3
+  greek: η γρίπη
+  english: flu / influenza
+  notes: Feminine noun in -η. Relates to 'εποχική γρίπη' (seasonal flu).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    collocation: εμβόλιο γρίπης (flu vaccine)
+  keg_communicative_function: Distinguishing between a simple cold and contagious
+    flu infections
+  example_el: Ο γιατρός είπε ότι δεν είναι απλό κρυολόγημα αλλά εποχική γρίπη.
+  example_en: The doctor said it is not a simple cold but seasonal flu.
+  example2_el: Χρειάζεται τουλάχιστον μία εβδομάδα ανάπαυση για να αναρρώσει κανείς
+    από τη γρίπη.
+  example2_en: At least one week of rest is needed for someone to recover from the
+    flu.
+  audio: i-gripi-5d12af.mp3
   status: verified
+  example_audio: o-giatros-eipe-oti-d-7c1ee2.mp3
+  example2_audio: chreiazetai-toylachi-2891af.mp3
 - id: A2-U10-009
-  greek: Πρέπει να ξεκινήσουμε νωρίς για να προλάβουμε το πρώτο τρένο.
-  english: We must start early in order to catch the first train.
-  notes: '[Modal Safe Harbor] Impersonal modal ''πρέπει να'' + dependent subjunctive
-    ''ξεκινήσουμε'' + purpose ''για να προλάβουμε''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Constructing modal necessity sentences with dependent
-    subjunctive
-  example_el: Αύριο το πρωί πρέπει να ξεκινήσουμε νωρίς από το σπίτι για να προλάβουμε
-    το πρώτο τρένο των επτά.
-  example_en: Tomorrow morning we must start early from home in order to catch the
-    first train at seven.
-  audio: prepei-na-xekinisoym-4f49ce.mp3
+  greek: το φαρμακείο
+  english: pharmacy / chemist's shop
+  notes: Neuter noun in -ο (-α). Distinctive green cross sign across Greece. Open
+    on rotational night shifts ('διανυκτερεύον φαρμακείο').
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φαρμακεία
+    collocation: διανυκτερεύον φαρμακείο (on-duty night pharmacy)
+  keg_communicative_function: Locating open pharmacies on weekends or during night
+    emergencies
+  example_el: Πού μπορώ να βρω ένα εφημερεύον φαρμακείο ανοιχτό αυτή την ώρα;
+  example_en: Where can I find an on-duty pharmacy open at this hour?
+  example2_el: Τα φαρμακεία στην Ελλάδα προσφέρουν πρώτες βοήθειες και μέτρηση πίεσης.
+  example2_en: Pharmacies in Greece offer first aid and blood pressure checks.
+  audio: to-farmakeio-569253.mp3
   status: verified
+  example_audio: poy-mporo-na-vro-ena-eccb82.mp3
+  example2_audio: ta-farmakeia-stin-el-92dc64.mp3
 - id: A2-U10-010
-  greek: Μπορείς να μου δώσεις τη συνταγή για αυτή την υπέροχη πίτα;
-  english: Can you give me the recipe for this wonderful pie?
-  notes: '[Polite Request Harbor] ''Μπορείς να μου δώσεις'' (Aorist subjunctive of
-    δίνω: δώσω/δώσεις).'
-  gender_or_pos: phrase
-  keg_communicative_function: Formulating polite requests for recipes or information
-    using modals
-  example_el: Το φαγητό ήταν πεντανόστιμο! Μπορείς να μου δώσεις τη συνταγή για αυτή
-    την υπέροχη παραδοσιακή πίτα;
-  example_en: The food was delicious! Can you give me the recipe for this wonderful
-    traditional pie?
-  audio: mporeis-na-moy-dosei-b7a04f.mp3
+  greek: το φάρμακο
+  english: medicine / medication / drug
+  notes: Neuter noun in -ο (-α). Collocates with 'παίρνω το φάρμακο' (to take medicine).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα φάρμακα
+    genitive_singular: του φαρμάκου
+    genitive_plural: των φαρμάκων
+  keg_communicative_function: Asking for medicine dosages and usage instructions
+  example_el: Πρέπει να παίρνετε αυτό το φάρμακο τρεις φορές την ημέρα μετά το φαγητό.
+  example_en: You must take this medicine three times a day after meals.
+  example2_el: Μην παίρνετε φάρμακα χωρίς τη συμβουλή του γιατρού σας.
+  example2_en: Do not take medications without your doctor's advice.
+  audio: to-farmako-34841b.mp3
   status: verified
+  example_audio: prepei-na-pairnete-a-f2af47.mp3
+  example2_audio: min-pairnete-farmaka-0f9035.mp3
+- id: A2-U10-011
+  greek: η ιατρική συνταγή
+  english: medical prescription
+  notes: Feminine noun phrase. Collocates with 'γράφω / εκτελώ συνταγή'.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι ιατρικές συνταγές
+    collocation: ηλεκτρονική συνταγογράφηση
+  keg_communicative_function: Presenting electronic or paper prescriptions to pharmacists
+  example_el: Αυτό το αντιβιοτικό χορηγείται αποκλειστικά με ιατρική συνταγή.
+  example_en: This antibiotic is dispensed exclusively with a medical prescription.
+  example2_el: Ο γιατρός μού έστειλε τον κωδικό της ηλεκτρονικής συνταγής στο κινητό.
+  example2_en: The doctor sent me the electronic prescription code to my mobile.
+  audio: i-iatriki-syntagi-b241e3.mp3
+  status: verified
+  example_audio: ayto-to-antiviotiko--6790c2.mp3
+  example2_audio: o-giatros-moy-esteil-d78db8.mp3
+- id: A2-U10-012
+  greek: το παυσίπονο
+  english: painkiller / analgesic
+  notes: 'Neuter compound noun: παύω (to stop) + πόνος (pain).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα παυσίπονα
+    literal: pain stopper
+  keg_communicative_function: Requesting over-the-counter painkillers for toothache
+    or headache
+  example_el: Πήρα ένα παυσίπονο επειδή δεν άντεχα άλλο τον πονόδοντο.
+  example_en: I took a painkiller because I couldn't bear the toothache any longer.
+  example2_el: Δώστε μου ένα κουτί παυσίπονα σε αναβράζοντα δισκία.
+  example2_en: Give me a box of painkillers in effervescent tablets.
+  audio: to-paysipono-ee8426.mp3
+  status: verified
+  example_audio: pira-ena-paysipono-e-2dbcbb.mp3
+  example2_audio: doste-moy-ena-koyti--ef8bd1.mp3
+- id: A2-U10-013
+  greek: το αντιβιοτικό
+  english: antibiotic
+  notes: 'Neuter noun in -ο (-α). Plural: ''τα αντιβιοτικά''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα αντιβιοτικά
+    collocation: θεραπεία με αντιβιοτικά (antibiotic course)
+  keg_communicative_function: Understanding prescription schedules for antibiotic
+    treatments
+  example_el: Πρέπει να ολοκληρώσετε όλη τη θεραπεία με το αντιβιοτικό για επτά ημέρες.
+  example_en: You must complete the entire antibiotic treatment for seven days.
+  example2_el: Έχετε κάποια αλλεργία σε συγκεκριμένα αντιβιοτικά;
+  example2_en: Do you have any allergy to specific antibiotics?
+  audio: to-antiviotiko-379b79.mp3
+  status: verified
+  example_audio: prepei-na-oloklirose-470787.mp3
+  example2_audio: echete-kapoia-allerg-338cd9.mp3
+- id: A2-U10-014
+  greek: η πίεση
+  english: blood pressure
+  notes: Feminine noun in -η (-εις). Collocates with 'μετράω την πίεση' (to measure
+    blood pressure).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πιέσεις
+    collocation: υψηλή πίεση (hypertension), μέτρηση πίεσης
+  keg_communicative_function: Requesting a blood pressure check at a clinic or pharmacy
+  example_el: Μπορείτε να μου μετρήσετε την πίεση παρακαλώ; Νιώθω μια μικρή ζαλάδα.
+  example_en: Could you please measure my blood pressure? I feel a little dizzy.
+  example2_el: Η πίεσή σας είναι απολύτως φυσιολογική, δώδεκα με οκτώ.
+  example2_en: Your blood pressure is completely normal, twelve over eight.
+  audio: i-piesi-1c07be.mp3
+  status: verified
+  example_audio: mporeite-na-moy-metr-f2d292.mp3
+  example2_audio: i-piesi-sas-einai-ap-78c3b5.mp3
+- id: A2-U10-015
+  greek: η δόση
+  english: dosage / dose
+  notes: Feminine noun in -η (-εις). Essential instructions on medicine boxes.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δόσεις
+    collocation: ημερήσια δόση (daily dosage)
+  keg_communicative_function: Comprehending medicine intake schedules and dosage limits
+  example_el: Η συνιστώμενη δόση είναι ένα χάπι κάθε οκτώ ώρες.
+  example_en: The recommended dose is one pill every eight hours.
+  example2_el: Μην υπερβαίνετε τη μέγιστη ημερήσια δόση που αναγράφεται στο φυλλάδιο.
+  example2_en: Do not exceed the maximum daily dose indicated on the leaflet.
+  audio: i-dosi-4cb0f1.mp3
+  status: verified
+  example_audio: i-synistomeni-dosi-e-c33e8c.mp3
+  example2_audio: min-ypervainete-ti-m-658259.mp3
+- id: A2-U10-016
+  greek: το ιατρικό ραντεβού
+  english: doctor's appointment
+  notes: Neuter noun phrase. Collocates with 'κλείνω ραντεβού με γιατρό'.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα ιατρικά ραντεβού
+    collocation: κλείνω ραντεβού
+  keg_communicative_function: Scheduling medical appointments with clinic receptionists
+    over the phone
+  example_el: Θα ήθελα να κλείσω ένα ραντεβού με τον οφθαλμίατρο για την επόμενη εβδομάδα.
+  example_en: I would like to book an appointment with the ophthalmologist for next
+    week.
+  example2_el: Υπάρχει διαθέσιμο ραντεβού το απόγευμα της Τετάρτης;
+  example2_en: Is there an available appointment on Wednesday afternoon?
+  audio: to-iatriko-rantevoy-e187ef.mp3
+  status: verified
+  example_audio: tha-ithela-na-kleiso-fcbc11.mp3
+  example2_audio: yparchei-diathesimo--a32288.mp3
+- id: A2-U10-017
+  greek: οι εξετάσεις αίματος
+  english: blood tests
+  notes: 'Feminine noun phrase plural (singular: η εξέταση αίματος). Routine diagnostic
+    procedure.'
+  gender_or_pos: noun phrase (feminine plural)
+  grammatical_info:
+    part_of_speech: noun phrase
+    singular: η εξέταση αίματος
+    collocation: κάνω εξετάσεις αίματος
+  keg_communicative_function: Arranging diagnostic lab tests and discussing results
+    with medical practitioners
+  example_el: Ο παθολόγος μού συνέστησε να κάνω γενικές εξετάσεις αίματος και ούρων.
+  example_en: The general practitioner recommended that I do general blood and urine
+    tests.
+  example2_el: Πρέπει να πάτε νηστικός στο μικροβιολογικό εργαστήριο για τις εξετάσεις
+    αίματος.
+  example2_en: You must go fasting to the microbiology laboratory for the blood tests.
+  audio: oi-exetaseis-aimatos-5765c8.mp3
+  status: verified
+  example_audio: o-pathologos-moy-syn-ebc59a.mp3
+  example2_audio: prepei-na-pate-nisti-029fb0.mp3
+- id: A2-U10-018
+  greek: το ατύχημα
+  english: accident
+  notes: 'Neuter noun in -μα (-ματα). Examples: τροχαίο ατύχημα (traffic accident),
+    εργατικό ατύχημα (workplace accident).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ατυχήματα
+    genitive_singular: του ατυχήματος
+    collocation: τροχαίο ατύχημα (traffic accident)
+  keg_communicative_function: Reporting emergency incidents and vehicle collisions
+    in dialogues and essays
+  example_el: Συνέβη ένα τροχαίο ατύχημα στη διασταύρωση, αλλά ευτυχώς χωρίς σοβαρούς
+    τραυματισμούς.
+  example_en: A traffic accident occurred at the intersection, but fortunately without
+    serious injuries.
+  example2_el: Η τροχαία διερευνά τα αίτια του ατυχήματος.
+  example2_en: The traffic police are investigating the causes of the accident.
+  audio: to-atychima-6eb83e.mp3
+  status: verified
+  example_audio: synevi-ena-trochaio--3ac26d.mp3
+  example2_audio: i-trochaia-diereyna--700c8b.mp3
+- id: A2-U10-019
+  greek: το τραύμα
+  english: wound / injury / trauma
+  notes: Neuter noun in -μα (-ματα). Relates to 'τραυματίζομαι' (to get injured).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα τραύματα
+    verb: τραυματίζομαι
+    adjective: τραυματισμένος
+  keg_communicative_function: Describing wounds and seeking emergency medical dressing
+  example_el: Ο γιατρός καθάρισε και απολύμανε προσεκτικά το τραύμα στο πόδι.
+  example_en: The doctor carefully cleaned and disinfected the wound on the leg.
+  example2_el: Ευτυχώς το τραύμα ήταν επιφανειακό και δεν χρειάστηκε ράμματα.
+  example2_en: Fortunately the injury was superficial and did not require stitches.
+  audio: to-trayma-bdb484.mp3
+  status: verified
+  example_audio: o-giatros-katharise--21a127.mp3
+  example2_audio: eytychos-to-trayma-i-aa6738.mp3
+- id: A2-U10-020
+  greek: ο επίδεσμος
+  english: bandage / dressing
+  notes: Masculine noun in -ος (-οι). First aid supply.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι επίδεσμοι
+    collocation: ελαστικός επίδεσμος (elastic bandage)
+  keg_communicative_function: Purchasing first aid supplies and managing sprains or
+    cuts
+  example_el: Έβαλε έναν ελαστικό επίδεσμο στον αστράγαλό του επειδή έπαθε διάστρεμμα.
+  example_en: He placed an elastic bandage on his ankle because he suffered a sprain.
+  example2_el: Χρειαζόμαστε οινόπνευμα, βαμβάκι και αποστειρωμένους επιδέσμους.
+  example2_en: We need rubbing alcohol, cotton wool, and sterile bandages.
+  audio: o-epidesmos-8a018b.mp3
+  status: verified
+  example_audio: evale-enan-elastiko--decbdc.mp3
+  example2_audio: chreiazomaste-oinopn-422a00.mp3
+- id: A2-U10-021
+  greek: το ασθενοφόρο
+  english: ambulance
+  notes: 'Neuter compound noun: ασθενής (patient) + φέρω (to carry). Emergency number:
+    166 (ΕΚΑΒ).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα ασθενοφόρα
+    emergency_number: 166 (ΕΚΑΒ)
+  keg_communicative_function: Calling emergency medical services in crisis scenarios
+  example_el: Καλέστε αμέσως ασθενοφόρο στο 166, κάποιος λιποθύμησε στον δρόμο!
+  example_en: Immediately call an ambulance on 166; someone fainted on the street!
+  example2_el: Το ασθενοφόρο έφτασε στο σημείο μέσα σε δέκα λεπτά και μετέφερε τον
+    τραυματία.
+  example2_en: The ambulance reached the scene within ten minutes and transferred
+    the injured person.
+  audio: to-asthenoforo-afd4a5.mp3
+  status: verified
+  example_audio: kaleste-amesos-asthe-aca89e.mp3
+  example2_audio: to-asthenoforo-eftas-6e95ef.mp3
+- id: A2-U10-022
+  greek: το νοσοκομείο
+  english: hospital
+  notes: Neuter noun in -ο (-α). Collocates with 'εφημερεύον νοσοκομείο' (hospital
+    on call/duty).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα νοσοκομεία
+    collocation: εφημερεύον νοσοκομείο (on-call hospital)
+  keg_communicative_function: Directing patients to emergency departments and on-call
+    hospitals
+  example_el: Ποιο νοσοκομείο εφημερεύει απόψε στην Αθήνα για έκτακτα περιστατικά;
+  example_en: Which hospital is on call tonight in Athens for emergency cases?
+  example2_el: Τον μετέφεραν στο γενικό νοσοκομείο για περαιτέρω ιατρικές εξετάσεις.
+  example2_en: They transferred him to the general hospital for further medical examinations.
+  audio: to-nosokomeio-47505b.mp3
+  status: verified
+  example_audio: poio-nosokomeio-efim-17c19c.mp3
+  example2_audio: ton-meteferan-sto-ge-d320d7.mp3
+- id: A2-U10-023
+  greek: η θεραπεία
+  english: treatment / therapy / cure
+  notes: Feminine noun in -α (-ες). Relates to 'θεραπεύω' (to cure/treat).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι θεραπείες
+    verb: θεραπεύω
+  keg_communicative_function: Following prescribed treatment regimens and medical
+    guidelines
+  example_el: Η προτεινόμενη θεραπεία περιλαμβάνει ανάπαυση και φαρμακευτική αγωγή.
+  example_en: The proposed treatment includes rest and medication regimen.
+  example2_el: Ανταποκρίθηκε πολύ θετικά στη θεραπεία και η υγεία του βελτιώθηκε.
+  example2_en: He responded very positively to the treatment and his health improved.
+  audio: i-therapeia-04c9ae.mp3
+  status: verified
+  example_audio: i-proteinomeni-thera-cdcfac.mp3
+  example2_audio: antapokrithike-poly--332390.mp3
+- id: A2-U10-024
+  greek: η ανάρρωση
+  english: recovery / convalescence
+  notes: Feminine noun in -η (-εις). Relates to 'αναρρώνω' (to recover).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    verb: αναρρώνω
+    collocation: ταχεία ανάρρωση (speedy recovery)
+  keg_communicative_function: Wishing a speedy recovery to friends or reporting on
+    convalescence
+  example_el: Σας εύχομαι ολόψυχα γρήγορη ανάρρωση και επιστροφή στις δραστηριότητές
+    σας.
+  example_en: I wholeheartedly wish you a speedy recovery and return to your activities.
+  example2_el: Η περίοδος ανάρρωσης μετά την επέμβαση διήρκεσε δύο εβδομάδες.
+  example2_en: The recovery period after the surgery lasted two weeks.
+  audio: i-anarrosi-0bde18.mp3
+  status: verified
+  example_audio: sas-eychomai-olopsyc-392641.mp3
+  example2_audio: i-periodos-anarrosis-cbeeb7.mp3
+- id: A2-U10-025
+  greek: κουράζομαι
+  english: to get tired / to be fatigued
+  notes: 'Mediopassive verb (κουράζομαι, κουράζεσαι, κουράζεται). Simple past: ''κουράστηκα''.
+    Adjective: ''κουρασμένος''.'
+  gender_or_pos: verb (mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: κουράστηκα
+    simple_future: θα κουραστώ
+    adjective: κουρασμένος, -η, -ο
+  keg_communicative_function: Expressing bodily exhaustion, strain, and need for rest
+  example_el: Κουράστηκα πάρα πολύ σήμερα στη δουλειά και χρειάζομαι επειγόντως ύπνο.
+  example_en: I got very tired today at work and urgently need sleep.
+  example2_el: Μην κουράζεστε υπερβολικά αν αισθάνεστε ακόμα αδιαθεσία.
+  example2_en: Do not exhaust yourself excessively if you still feel indisposed.
+  audio: koyrazomai-acadfe.mp3
+  status: verified
+  example_audio: koyrastika-para-poly-24b407.mp3
+  example2_audio: min-koyrazeste-yperv-4399b0.mp3
+- id: A2-U10-026
+  greek: τραυματίζομαι
+  english: to get injured / to be wounded
+  notes: 'Mediopassive verb. Simple past: ''τραυματίστηκα''.'
+  gender_or_pos: verb (mediopassive)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: τραυματίστηκα
+    simple_future: θα τραυματιστώ
+    noun_derivative: το τραύμα
+  keg_communicative_function: Explaining sports injuries or workplace accidents in
+    past narratives
+  example_el: Τραυματίστηκε στο γόνατο ενώ έπαιζε ποδόσφαιρο και πήγε στο νοσοκομείο.
+  example_en: He got injured in the knee while playing football and went to the hospital.
+  example2_el: Κανένας επιβάτης δεν τραυματίστηκε κατά την απότομη στάση του λεωφορείου.
+  example2_en: No passenger was injured during the sudden stop of the bus.
+  audio: traymatizomai-dd2c60.mp3
+  status: verified
+  example_audio: traymatistike-sto-go-aebf4f.mp3
+  example2_audio: kanenas-epivatis-den-2c7bc4.mp3
+- id: A2-U10-027
+  greek: χτύπησα
+  english: I hit / I knocked / I bumped (part of body)
+  notes: 'Simple past of ''χτυπάω'' (χτύπησα, χτύπησες, χτύπησε). Also used mediopassively:
+    ''χτύπησα το χέρι μου''.'
+  gender_or_pos: verb (simple past)
+  grammatical_info:
+    part_of_speech: verb
+    present_stem: χτυπάω / χτυπώ
+    collocation: χτύπησα το κεφάλι μου (I bumped my head)
+  keg_communicative_function: Describing domestic mishaps, falls, and bruised limbs
+    to examiners or triage nurses
+  example_el: Έπεσα από το ποδήλατο και χτύπησα τον ώμο μου.
+  example_en: I fell off the bicycle and hit my shoulder.
+  example2_el: Χτύπησε το κουδούνι του ιατρείου και μπήκε ο επόμενος ασθενής.
+  example2_en: The clinic doorbell rang and the next patient entered.
+  audio: chtypisa-8390bc.mp3
+  status: verified
+  example_audio: epesa-apo-to-podilat-5af38e.mp3
+  example2_audio: chtypise-to-koydoyni-66de69.mp3
+- id: A2-U10-028
+  greek: το κεφάλι
+  english: head
+  notes: 'Neuter noun in -ι (-ια). Plural: ''τα κεφάλια''.'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κεφάλια
+    genitive_singular: του κεφαλιού
+  keg_communicative_function: Pinpointing bodily areas of pain or symptoms
+  example_el: Γύρισε το κεφάλι του δεξιά και ένιωσε έναν οξύ πόνο στον σβέρκο.
+  example_en: He turned his head to the right and felt a sharp pain in his neck.
+  example2_el: Φορέστε καπέλο για να προστατεύσετε το κεφάλι σας από τον καυτό ήλιο.
+  example2_en: Wear a hat to protect your head from the hot sun.
+  audio: to-kefali-528f3c.mp3
+  status: verified
+  example_audio: gyrise-to-kefali-toy-07fad7.mp3
+  example2_audio: foreste-kapelo-gia-n-893a4f.mp3
+- id: A2-U10-029
+  greek: ο λαιμός
+  english: throat / neck
+  notes: Masculine noun in -ός (-οί). Covers both external neck and internal throat.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι λαιμοί
+    genitive_singular: του λαιμού
+  keg_communicative_function: Describing throat inflammation and ENT symptoms
+  example_el: Ο λαιμός μου είναι κόκκινος και πρησμένος, μάλλον έχω αμυγδαλίτιδα.
+  example_en: My throat is red and swollen; I probably have tonsillitis.
+  example2_el: Τύλιξε ένα ζεστό κασκόλ γύρω από τον λαιμό του για το κρύο.
+  example2_en: He wrapped a warm scarf around his neck for the cold.
+  audio: o-laimos-105150.mp3
+  status: verified
+  example_audio: o-laimos-moy-einai-k-0932d5.mp3
+  example2_audio: tylixe-ena-zesto-kas-7e0eaf.mp3
+- id: A2-U10-030
+  greek: το στομάχι
+  english: stomach
+  notes: 'Neuter noun in -ι (-ια). Plural: ''τα στομάχια''. Collocates with ''στομαχόπονος''
+    (stomach ache).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα στομάχια
+    genitive_singular: του στομαχιού
+  keg_communicative_function: Describing digestive issues or indigestion to medical
+    staff
+  example_el: Έφαγα κάτι βαρύ χθες το βράδυ και με πειράζει το στομάχι μου.
+  example_en: I ate something heavy yesterday evening and my stomach is bothering
+    me.
+  example2_el: Πάρτε αυτά τα χάπια με γεμάτο στομάχι για να μην έχετε ενοχλήσεις.
+  example2_en: Take these pills on a full stomach so that you don't have discomfort.
+  audio: to-stomachi-aba6c2.mp3
+  status: verified
+  example_audio: efaga-kati-vary-chth-a4f4bd.mp3
+  example2_audio: parte-ayta-ta-chapia-0016af.mp3
+- id: A2-U10-031
+  greek: η πλάτη
+  english: back (anatomy)
+  notes: Feminine noun in -η (-ες). Collocates with 'πονάει η πλάτη μου'.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πλάτες
+    genitive_singular: της πλάτης
+  keg_communicative_function: Describing back strain and physical therapy needs
+  example_el: Σήκωσα ένα βαρύ κιβώτιο και με έπιασε δυνατός πόνος στην πλάτη.
+  example_en: I lifted a heavy box and was seized by severe back pain.
+  example2_el: Η κολύμβηση βοηθάει πολύ στην ενδυνάμωση των μυών της πλάτης.
+  example2_en: Swimming helps very much in strengthening the muscles of the back.
+  audio: i-plati-65e67f.mp3
+  status: verified
+  example_audio: sikosa-ena-vary-kivo-ba24fd.mp3
+  example2_audio: i-kolymvisi-voithaei-134a36.mp3
+- id: A2-U10-032
+  greek: το πόδι
+  english: leg / foot
+  notes: Neuter noun in -ι (-ια). Covers entire lower limb or foot. 'Με τα πόδια'
+    = on foot.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πόδια
+    collocation: με τα πόδια (on foot)
+  keg_communicative_function: Describing foot/leg sprains or walking mobility issues
+  example_el: Γλίστρησα στις σκάλες και γύρισα το πόδι μου, δεν μπορώ να το πατήσω.
+  example_en: I slipped on the stairs and twisted my foot; I cannot put weight on
+    it.
+  example2_el: Περπατήσαμε όλη την ημέρα και στο τέλος δεν αισθανόμασταν τα πόδια
+    μας.
+  example2_en: We walked all day and at the end we couldn't feel our legs.
+  audio: to-podi-efba4b.mp3
+  status: verified
+  example_audio: glistrisa-stis-skale-fdcaad.mp3
+  example2_audio: perpatisame-oli-tin--2e96ba.mp3
+- id: A2-U10-033
+  greek: το χέρι
+  english: arm / hand
+  notes: Neuter noun in -ι (-ια). Covers hand and arm. Collocates with 'πλένω τα χέρια
+    μου'.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα χέρια
+    collocation: δίνω το χέρι (to shake hands)
+  keg_communicative_function: Describing hand/arm injuries, hygiene instructions,
+    or gestures
+  example_el: Πλύνετε καλά τα χέρια σας με σαπούνι και νερό πριν από το φαγητό.
+  example_en: Wash your hands thoroughly with soap and water before eating.
+  example2_el: Έσπασε το χέρι του στο σκι και του έβαλαν γύψο για έναν μήνα.
+  example2_en: He broke his arm skiing and they put it in a cast for a month.
+  audio: to-cheri-f10a1c.mp3
+  status: verified
+  example_audio: plynete-kala-ta-cher-e5d67d.mp3
+  example2_audio: espase-to-cheri-toy--23a374.mp3
+- id: A2-U10-034
+  greek: αρρωσταίνω
+  english: to get sick / to fall ill
+  notes: 'Active verb. Simple past: ''αρρώστησα''. Simple future: ''θα αρρωστήσω''.
+    Adjective: ''άρρωστος''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αρρώστησα
+    simple_future: θα αρρωστήσω
+    adjective: άρρωστος, -η, -ο
+  keg_communicative_function: Stating illness onsets and explaining absences from
+    courses or exam sessions
+  example_el: Αρρώστησα ξαφνικά το Σαββατοκύριακο και δεν μπόρεσα να έρθω στο μάθημα.
+  example_en: I fell sick suddenly over the weekend and was not able to come to class.
+  example2_el: Ντυθείτε ζεστά για να μην αρρωστήσετε από το κρύο.
+  example2_en: Dress warmly so as not to get sick from the cold.
+  audio: arrostaino-19fe5d.mp3
+  status: verified
+  example_audio: arrostisa-xafnika-to-909db0.mp3
+  example2_audio: ntytheite-zesta-gia--f58b89.mp3
+- id: A2-U10-035
+  greek: η υγεία
+  english: health
+  notes: 'Feminine noun in -α. Core wish: ''στην υγειά σας!'' (cheers / to your health)
+    or ''γεια και υγεία''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    adjective: υγιεινός (healthy)
+    collocation: στην υγειά σας! (cheers / to your health)
+  keg_communicative_function: Proposing toasts and emphasizing wellness as life's
+    greatest value in essays
+  example_el: Το πολυτιμότερο αγαθό στη ζωή του ανθρώπου είναι αναμφίβολα η υγεία.
+  example_en: The most valuable asset in human life is undoubtedly health.
+  example2_el: Σηκώσαμε τα ποτήρια μας και ευχηθήκαμε υγεία και ευημερία σε όλους.
+  example2_en: We raised our glasses and wished health and prosperity to everyone.
+  audio: i-ygeia-bc5615.mp3
+  status: verified
+  example_audio: to-polytimotero-agat-944e16.mp3
+  example2_audio: sikosame-ta-potiria--0291c8.mp3

@@ -1,0 +1,206 @@
+unit_id: unit-wr2-05
+lesson_id: lesson-01
+title: 'Μάθημα 9: Γραπτός Λόγος — Φαγητό, Αγορά & Προτάσεις στην Πόλη (A2 Writing:
+  Dining & City Life)'
+description: Writing restaurant reviews and recommendations, making table reservations,
+  and detailing city shopping excursions.
+lesson_status: not_started
+lesson_notes: "Unit A2-09 Core Notes: Φαγητό, Αγορά & Προτάσεις (Dining & City Outings)\n\
+  • Common Tasks:\n  - Recommending a restaurant, taverna, or cafe to a visiting tourist\
+  \ or friend.\n  - Making an arrangement or table reservation.\n  - Recounting a\
+  \ shopping spree or buying a gift for a celebration.\n• Key Evaluation Vocabulary:\n\
+  \  - νόστιμο φαγητό (delicious food), τοπικές σπεσιαλιτέ (local specialties)\n \
+  \ - φιλική εξυπηρέτηση (friendly service), λογικές τιμές (reasonable prices)\n \
+  \ - κλείνω τραπέζι (reserve a table), λογαριασμός (the bill)\n  - ψάχνω για δώρο\
+  \ (looking for a gift), αναμνηστικά (souvenirs)."
+entries:
+- id: A2-U09-001
+  greek: Σου προτείνω να πας σε μια παραδοσιακή ταβέρνα στην παλιά πόλη.
+  english: I recommend you go to a traditional taverna in the old town.
+  notes: '[Lego Sentence Builder] Giving recommendations: ''σου προτείνω να'' + dependent
+    subjunctive ''πας''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Recommending an eatery or local attraction to a peer
+  example_el: Αν θέλεις να φας καλό ελληνικό φαγητό, σου προτείνω να πας σε μια παραδοσιακή
+    ταβέρνα στην παλιά πόλη.
+  example_en: If you want to eat good Greek food, I recommend you go to a traditional
+    taverna in the old town.
+  audio: soy-proteino-na-pas--3462ef.mp3
+  status: verified
+- id: A2-U09-002
+  greek: Η ατμόσφαιρα είναι ζεστή, το προσωπικό πολύ φιλικό και οι τιμές λογικές.
+  english: The atmosphere is warm, the staff very friendly, and the prices reasonable.
+  notes: '[Lego Sentence Builder] 3-part evaluation chunk: ''ζεστή ατμόσφαιρα'', ''φιλικό
+    προσωπικό'', ''λογικές τιμές''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Evaluating atmosphere, staff service, and pricing of
+    a venue
+  example_el: 'Μου αρέσει πολύ αυτό το μαγαζί: η ατμόσφαιρα είναι ζεστή, το προσωπικό
+    πολύ φιλικό και οι τιμές απόλυτα λογικές.'
+  example_en: 'I like this place very much: the atmosphere is warm, the staff very
+    friendly, and the prices completely reasonable.'
+  audio: i-atmosfaira-einai-z-d49163.mp3
+  status: verified
+- id: A2-U09-003
+  greek: Πρέπει οπωσδήποτε να δοκιμάσεις το ψητό κρέας και τις φρέσκες σαλάτες.
+  english: You must definitely taste the grilled meat and the fresh salads.
+  notes: '[Lego Sentence Builder] Strong recommendation: ''πρέπει οπωσδήποτε να''
+    + subjunctive ''δοκιμάσεις''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Recommending specific dishes and culinary specialties
+  example_el: Όταν πας εκεί, πρέπει οπωσδήποτε να δοκιμάσεις το ψητό κρέας και τις
+    φρέσκες χωριάτικες σαλάτες.
+  example_en: When you go there, you must definitely taste the grilled meat and the
+    fresh Greek salads.
+  audio: prepei-oposdipote-na-bdd8dc.mp3
+  status: verified
+- id: A2-U09-004
+  greek: Χθες πήγα στην κεντρική αγορά για να αγοράσω ένα αναμνηστικό δώρο.
+  english: Yesterday I went to the central market to buy a souvenir gift.
+  notes: '[Lego Sentence Builder] Shopping narrative: ''πήγα'' + destination ''στην
+    κεντρική αγορά'' + purpose ''για να αγοράσω''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Narrating a shopping trip and gift purchase
+  example_el: Χθες το απόγευμα πήγα στην κεντρική αγορά για να αγοράσω ένα αναμνηστικό
+    δώρο για τα γενέθλια της μητέρας μου.
+  example_en: Yesterday afternoon I went to the central market to buy a souvenir gift
+    for my mother's birthday.
+  audio: chthes-piga-stin-ken-4d92a0.mp3
+  status: verified
+- id: A2-U09-005
+  greek: Μήπως έχετε αυτό το πουκάμισο σε μεσαίο μέγεθος και τι χρώματα υπάρχουν;
+  english: Do you perhaps have this shirt in medium size and what colors are available?
+  notes: '[Polite Transaction] Polite inquiry particle ''μήπως'' + clothing item ''πουκάμισο''
+    + size ''μεσαίο μέγεθος''.'
+  gender_or_pos: phrase
+  keg_communicative_function: Inquiring politely about garment sizes and color options
+    in a store
+  example_el: Καλησπέρα σας, μήπως έχετε αυτό το πουκάμισο σε μεσαίο μέγεθος και τι
+    άλλα χρώματα υπάρχουν;
+  example_en: Good evening, do you perhaps have this shirt in medium size and what
+    other colors are available?
+  audio: mipos-echete-ayto-to-33562a.mp3
+  status: verified
+- id: A2-U09-006
+  greek: Έκλεισα τραπέζι για τέσσερα άτομα στις εννιά το βράδυ στο όνομά μου.
+  english: I reserved a table for four people at nine in the evening under my name.
+  notes: '[Lego Sentence Builder] Table booking formula: ''έκλεισα τραπέζι για...
+    άτομα'' + time + ''στο όνομά μου''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Confirming a restaurant table reservation with time
+    and headcount
+  example_el: 'Μην ανησυχείς για τη θέση: έκλεισα τραπέζι για τέσσερα άτομα στις εννιά
+    το βράδυ στο όνομά μου.'
+  example_en: 'Don''t worry about the seating: I reserved a table for four people
+    at nine in the evening under my name.'
+  audio: ekleisa-trapezi-gia--2813c1.mp3
+  status: verified
+- id: A2-U09-007
+  greek: Ο λογαριασμός δεν ήταν ακριβός και περάσαμε ένα υπέροχο βράδυ.
+  english: The bill was not expensive and we spent a wonderful evening.
+  notes: '[Lego Sentence Builder] Concluding dining review: ''λογαριασμός'' + adjective
+    ''ακριβός'' + positive impression.'
+  gender_or_pos: sentence
+  keg_communicative_function: Evaluating expenses and overall enjoyment of an evening
+    out
+  example_el: Φάγαμε πάρα πολύ καλά, ο λογαριασμός δεν ήταν ακριβός και περάσαμε ένα
+    υπέροχο βράδυ με την παρέα.
+  example_en: We ate very well, the bill was not expensive, and we spent a wonderful
+    evening with our friends.
+  audio: o-logariasmos-den-it-1fd31a.mp3
+  status: verified
+- id: A2-U09-008
+  greek: Πρόταση σε φίλο για παραδοσιακή ταβέρνα (Task 1 Simulation)
+  english: 'Prompt: Write a 35-40 word note recommending a taverna to a friend visiting
+    your city.'
+  notes: '[Micro-Prompt Simulation - Task 1: 36 words]
+
+    Examiner Prompt:
+
+    «Ένας φίλος σας επισκέπτεται την πόλη σας. Γράψτε του ένα μήνυμα (30-40 λέξεις)
+    για να του προτείνετε:
+
+    • πού να πάει να φάει
+
+    • ποια φαγητά να δοκιμάσει
+
+    • πώς είναι οι τιμές και η ατμόσφαιρα»
+
+
+    Gold-Standard Model Response:
+
+    Γεια σου Νίκο!
+
+    Σου προτείνω να φας στην ταβέρνα «Το Λιμάνι» στην παλιά πόλη. Πρέπει να δοκιμάσεις
+    το ψητό ψάρι και τη χωριάτικη σαλάτα. Η ατμόσφαιρα είναι υπέροχη και οι τιμές
+    είναι πολύ οικονομικές!
+
+    Καλή όρεξη,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a concise recommendation note detailing dining
+    advice and costs
+  example_el: Γεια σου Νίκο, σου προτείνω να φας στην ταβέρνα «Το Λιμάνι». Δοκίμασε
+    το ψητό ψάρι και τη σαλάτα. Η ατμόσφαιρα είναι τέλεια και οι τιμές οικονομικές!
+    Καλή όρεξη!
+  example_en: Hi Nikos, I recommend you eat at the taverna 'To Limani'. Try the grilled
+    fish and salad. The atmosphere is great and prices are economical! Bon appetit!
+  audio: protasi-se-filo-gia--3300a0.mp3
+  status: verified
+- id: A2-U09-009
+  greek: Email σε φίλο για απογευματινά ψώνια και καφέ (Task 2 Simulation)
+  english: 'Prompt: Write a 60-70 word email describing an afternoon outing for shopping
+    and coffee with a friend.'
+  notes: '[Micro-Prompt Simulation - Task 2: 67 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα email σε μια φίλη σας (60-70 λέξεις) για να της περιγράψετε πώς περάσατε
+    το χθεσινό απόγευμα:
+
+    • με ποιον συναντηθήκατε και πού πήγατε
+
+    • τι ψωνίσατε στα μαγαζιά
+
+    • πού καθίσατε για καφέ και πώς περάσατε»
+
+
+    Gold-Standard Model Response:
+
+    Αγαπητή Κατερίνα,
+
+    Χθες το απόγευμα συνάντησα την Ελένη στο κέντρο της πόλης. Πρώτα πήγαμε στα εμπορικά
+    καταστήματα στην οδό Ερμού, όπου αγόρασα ένα όμορφο μπλε φόρεμα και παπούτσια.
+
+    Μετά καθίσαμε σε μια όμορφη καφετέρια στην πλατεία, ήπιαμε ζεστό καφέ και φάγαμε
+    γλυκό. Συζητήσαμε για πολλή ώρα και γελάσαμε πολύ. Ήταν ένα τέλειο απόγευμα!
+
+    Σε φιλώ,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a past descriptive narrative about a social
+    shopping and cafe outing
+  example_el: Αγαπητή Κατερίνα, χθες συνάντησα την Ελένη στο κέντρο. Πρώτα πήγαμε
+    για ψώνια στην Ερμού και μετά ήπιαμε καφέ στην πλατεία. Ήταν ένα τέλειο απόγευμα!
+    Σε φιλώ!
+  example_en: Dear Katerina, yesterday I met Eleni in the center. First we went shopping
+    on Ermou street and then had coffee in the square. It was a perfect afternoon!
+    Kisses!
+  audio: email-se-filo-gia-ap-7dc5ae.mp3
+  status: verified
+- id: A2-U09-010
+  greek: Μπορούμε να έχουμε τον λογαριασμό παρακαλώ; Πληρώνουμε με μετρητά ή με κάρτα;
+  english: Can we have the bill please? Do we pay in cash or by card?
+  notes: '[Practical Dining Dialogue] Asking for the check and payment method: ''μετρητά''
+    (cash), ''κάρτα'' (card).'
+  gender_or_pos: phrase
+  keg_communicative_function: Requesting the check and confirming acceptable payment
+    methods
+  example_el: Ευχαριστούμε πολύ για το φαγητό. Μπορούμε να έχουμε τον λογαριασμό παρακαλώ;
+    Πληρώνουμε με κάρτα;
+  example_en: Thank you very much for the food. Can we have the bill please? Do we
+    pay by card?
+  audio: mporoyme-na-echoyme--7e84f9.mp3
+  status: verified

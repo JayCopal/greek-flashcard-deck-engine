@@ -1,0 +1,317 @@
+unit_id: unit-wr2-06
+lesson_id: lesson-01
+title: 'Μάθημα 11: Γραπτός Λόγος — Προσομοιώσεις Εξετάσεων ΚΕΓ Α2 (A2 Writing: Mock
+  Exam Capstone)'
+description: 'Full-scale integrated exam simulations replicating authentic KEG past
+  papers: paired Task 1 (30-45 words) and Task 2 (65-80 words) prompts with model
+  scripts and scoring rubrics.'
+lesson_status: not_started
+lesson_notes: "Unit A2-11 Core Notes: Προσομοιώσεις Εξετάσεων (Exam Simulations Capstone)\n\
+  • Final Exam Timing Protocol (45 Minutes Total):\n  - Minutes 0–3: Read both prompts\
+  \ carefully. Underline bullet points and required tenses.\n  - Minutes 3–15 (12\
+  \ mins): Write Task 1 (30–45 words).\n  - Minutes 15–38 (23 mins): Write Task 2\
+  \ (65–80 words).\n  - Minutes 38–45 (7 mins): Mandatory Proofreading Checklist:\n\
+  \    [ ] Tones on EVERY word of 2+ syllables.\n    [ ] Correct vowels: ι/η/υ/ει/οι,\
+  \ ο/ω.\n    [ ] Subject-verb agreement.\n    [ ] Every bullet point answered directly.\n\
+  \    [ ] Word count strictly respected."
+entries:
+- id: A2-U11-001
+  greek: 'Προσομοίωση 1 - Task 1: Σημείωμα σε γείτονα για πότισμα φυτών (35 λέξεις)'
+  english: 'Mock Exam 1 - Task 1: Write a 30-40 word note to a neighbor asking them
+    to water plants while away.'
+  notes: '[Full Mock Exam 1 - Task 1: 36 words]
+
+    Examiner Prompt:
+
+    «Φεύγετε για ολιγοήμερες διακοπές. Γράψτε ένα σημείωμα στον γείτονά σας (30-40
+    λέξεις) για να:
+
+    • του πείτε ότι θα λείψετε και για πόσες μέρες
+
+    • του ζητήσετε να ποτίσει τα φυτά στο μπαλκόνι σας
+
+    • του εξηγήσετε πού έχετε αφήσει το κλειδί»
+
+
+    Gold-Standard Model Script:
+
+    Γεια σου κύριε Νίκο,
+
+    Θα λείψω για διακοπές για τέσσερις μέρες. Μπορείτε σας παρακαλώ να ποτίσετε τα
+    λουλούδια στο μπαλκόνι μου μια φορά; Έχω αφήσει το κλειδί κάτω από το χαλάκι.
+    Σας ευχαριστώ πολύ!
+
+    Φιλικά,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a functional neighborly request note with key
+    instructions
+  example_el: Γεια σου κύριε Νίκο, θα λείψω για τέσσερις μέρες. Μπορείτε να ποτίσετε
+    τα λουλούδια στο μπαλκόνι; Έχω αφήσει το κλειδί κάτω από το χαλάκι. Ευχαριστώ
+    πολύ!
+  example_en: Hi Mr. Nikos, I will be away for four days. Can you water the flowers
+    on the balcony? I have left the key under the mat. Thank you very much!
+  audio: prosomoiosi-1-task-1-97984c.mp3
+  status: verified
+- id: A2-U11-002
+  greek: 'Προσομοίωση 1 - Task 2: Γράμμα για απρόοπτο περιστατικό σε ταξίδι (72 λέξεις)'
+  english: 'Mock Exam 1 - Task 2: Write a 65-75 word letter recounting an unexpected
+    adventure during a weekend trip.'
+  notes: '[Full Mock Exam 1 - Task 2: 72 words]
+
+    Examiner Prompt:
+
+    «Γράψτε ένα email σε έναν φίλο σας (65-75 λέξεις) για ένα απρόοπτο γεγονός που
+    σας συνέβη σε πρόσφατη εκδρομή:
+
+    • πού είχατε πάει και με ποιο μεταφορικό μέσο
+
+    • τι συνέβη ξαφνικά (το απρόοπτο)
+
+    • πώς λύθηκε το πρόβλημα και πώς νιώσατε στο τέλος»
+
+
+    Gold-Standard Model Script:
+
+    Αγαπητέ μου Κώστα,
+
+    Σου γράφω για να σου διηγηθώ τι μου συνέβη! Το Σάββατο πήγαμε εκδρομή στο Ναύπλιο
+    με το αυτοκίνητο.
+
+    Καθώς οδηγούσαμε στην εθνική οδό, ξαφνικά έσκασε το λάστιχο του αυτοκινήτου! Ευτυχώς,
+    ένας ευγενικός οδηγός σταμάτησε αμέσως και μας βοήθησε να αλλάξουμε τη ρόδα. Στην
+    αρχή φοβηθήκαμε πολύ, αλλά τελικά φτάσαμε ασφαλείς στο ξενοδοχείο και γελάσαμε
+    με την περιπέτειά μας.
+
+    Περιμένω νέα σου,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a detailed narrative describing an unexpected
+    travel incident and resolution
+  example_el: Αγαπητέ Κώστα, το Σάββατο πήγαμε στο Ναύπλιο με το αυτοκίνητο. Ξαφνικά
+    έσκασε το λάστιχο! Ευτυχώς ένας ευγενικός οδηγός μάς βοήθησε. Τελικά φτάσαμε ασφαλείς!
+    Περιμένω νέα σου!
+  example_en: Dear Kostas, on Saturday we went to Nafplio by car. Suddenly the tire
+    popped! Luckily a kind driver helped us. In the end we arrived safely! Looking
+    forward to your news!
+  audio: prosomoiosi-1-task-2-9dcfda.mp3
+  status: verified
+- id: A2-U11-003
+  greek: 'Προσομοίωση 2 - Task 1: Απάντηση σε πρόσκληση για έκθεση ζωγραφικής (36
+    λέξεις)'
+  english: 'Mock Exam 2 - Task 1: Write a 30-40 word email accepting an art exhibition
+    invite and asking for venue details.'
+  notes: '[Full Mock Exam 2 - Task 1: 36 words]
+
+    Examiner Prompt:
+
+    «Μια φίλη σας σάς κάλεσε στα εγκαίνια της έκθεσης ζωγραφικής της. Γράψτε της ένα
+    μήνυμα (30-40 λέξεις) για να:
+
+    • δεχτείτε με ενθουσιασμό την πρόσκληση
+
+    • ρωτήσετε την ακριβή διεύθυνση και την ώρα
+
+    • ευχηθείτε καλή επιτυχία»
+
+
+    Gold-Standard Model Script:
+
+    Αγαπητή μου Ελένη,
+
+    Συγχαρητήρια για την έκθεση ζωγραφικής σου! Θα έρθω με πάρα πολύ μεγάλη χαρά στα
+    εγκαίνια. Μπορείς να μου στείλεις την ακριβή διεύθυνση της γκαλερί και την ώρα;
+    Σου εύχομαι ολόψυχα καλή επιτυχία!
+
+    Πολλά φιλιά,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing an acceptance note for a cultural event with
+    congratulations
+  example_el: Αγαπητή Ελένη, συγχαρητήρια για την έκθεση! Θα έρθω με μεγάλη χαρά στα
+    εγκαίνια. Μπορείς να μου στείλεις τη διεύθυνση και την ώρα; Καλή επιτυχία! Πολλά
+    φιλιά!
+  example_en: Dear Eleni, congratulations on the exhibition! I will come with great
+    joy to the opening. Can you send me the address and time? Good luck! Lots of kisses!
+  audio: prosomoiosi-2-task-1-1b38a3.mp3
+  status: verified
+- id: A2-U11-004
+  greek: 'Προσομοίωση 2 - Task 2: Email περιγράφοντας τη ζωή σε νέα πόλη (70 λέξεις)'
+  english: 'Prompt: Write a 65-75 word email describing adapting to life in a new
+    Greek city compared to your home country.'
+  notes: '[Full Mock Exam 2 - Task 2: 70 words]
+
+    Examiner Prompt:
+
+    «Μετακομίσατε σε μια νέα πόλη στην Ελλάδα. Γράψτε ένα email σε έναν παλιό σας
+    φίλο (65-75 λέξεις) για να:
+
+    • αναφέρετε πώς είναι η ζωή σας στη νέα πόλη
+
+    • περιγράψετε τους ντόπιους ανθρώπους και τις συνήθειές τους
+
+    • εκφράσετε πώς αισθάνεστε και καλέστε τον να σας επισκεφτεί»
+
+
+    Gold-Standard Model Script:
+
+    Αγαπητέ Ντάνιελ,
+
+    Σου γράφω από τη Θεσσαλονίκη, όπου ζω πλέον εδώ και δύο μήνες. Η ζωή εδώ είναι
+    υπέροχη!
+
+    Οι άνθρωποι είναι εξαιρετικά ζεστοί και φιλόξενοι, και η πόλη είναι γεμάτη ζωντάνια
+    και νέους φοιτητές. Κάθε απόγευμα κάνω βόλτα στην παραλία και πίνω καφέ με θέα
+    τον Όλυμπο. Μου λείπεις πολύ και ελπίζω να έρθεις να με επισκεφτείς σύντομα!
+
+    Με αγάπη,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a descriptive and reflective email about relocation
+    and cultural adaptation
+  example_el: Αγαπητέ Ντάνιελ, η ζωή στη Θεσσαλονίκη είναι υπέροχη! Οι άνθρωποι είναι
+    φιλόξενοι και η πόλη έχει ζωντάνια. Κάνω βόλτα στην παραλία κάθε απόγευμα. Έλα
+    να με επισκεφτείς σύντομα! Με αγάπη!
+  example_en: Dear Daniel, life in Thessaloniki is wonderful! The people are hospitable
+    and the city is lively. I walk on the seaside every afternoon. Come visit me soon!
+    With love!
+  audio: prosomoiosi-2-task-2-9f9db5.mp3
+  status: verified
+- id: A2-U11-005
+  greek: 'Προσομοίωση 3 - Task 1: Ακύρωση προπόνησης γυμναστηρίου & αντιπρόταση (35
+    λέξεις)'
+  english: 'Mock Exam 3 - Task 1: Write a 30-35 word message canceling a workout session
+    with a trainer/friend due to work.'
+  notes: '[Full Mock Exam 3 - Task 1: 34 words]
+
+    Examiner Prompt:
+
+    «Είχατε κανονίσει να πάτε για προπόνηση στο γυμναστήριο με έναν φίλο σας. Γράψτε
+    του ένα μήνυμα (30-35 λέξεις) για να:
+
+    • ακυρώσετε το σημερινό ραντεβού
+
+    • εξηγήσετε τον λόγο (έκτακτη δουλειά)
+
+    • προτείνετε νέα μέρα και ώρα»
+
+
+    Gold-Standard Model Script:
+
+    Γεια σου Μάρκο,
+
+    Συγγνώμη αλλά δεν θα μπορέσω να έρθω σήμερα στο γυμναστήριο γιατί προέκυψε μια
+    επείγουσα δουλειά στο γραφείο. Τι λες να πάμε αύριο την ίδια ώρα στις έξι;
+
+    Τα λέμε,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a short cancellation message and suggesting
+    a timely reschedule
+  example_el: Γεια σου Μάρκο, συγγνώμη αλλά δεν θα έρθω σήμερα στο γυμναστήριο γιατί
+    έχω επείγουσα δουλειά. Τι λες να πάμε αύριο στις έξι; Τα λέμε!
+  example_en: Hi Marko, sorry but I won't come to the gym today because I have urgent
+    work. What do you say we go tomorrow at six? See you!
+  audio: prosomoiosi-3-task-1-234faf.mp3
+  status: verified
+- id: A2-U11-006
+  greek: 'Προσομοίωση 3 - Task 2: Αφήγηση παραδοσιακού πανηγυριού σε χωριό (73 λέξεις)'
+  english: 'Prompt: Write a 65-75 word email narrating attending a traditional Greek
+    village festival (πανηγύρι).'
+  notes: '[Full Mock Exam 3 - Task 2: 73 words]
+
+    Examiner Prompt:
+
+    «Επισκεφτήκατε ένα παραδοσιακό ελληνικό πανηγύρι. Γράψτε ένα email σε έναν φίλο
+    σας (65-75 λέξεις) όπου περιγράφετε:
+
+    • πότε και σε ποιο χωριό έγινε το πανηγύρι
+
+    • τι φαγητά φάγατε και τι μουσική ακούσατε
+
+    • πώς διασκεδάσατε με τους ντόπιους κατοίκους»
+
+
+    Gold-Standard Model Script:
+
+    Αγαπητή Σοφία,
+
+    Τον Δεκαπενταύγουστο πήγα σε ένα αυθεντικό παραδοσιακό πανηγύρι σε ένα ορεινό
+    χωριό της Ηπείρου.
+
+    Η πλατεία του χωριού ήταν στολισμένη και γεμάτη χαρούμενους ανθρώπους. Φάγαμε
+    πεντανόστιμο ψητό αρνί, χωριάτικες πίτες και ήπιαμε ντόπιο τσίπουρο. Μια παραδοσιακή
+    ορχήστρα έπαιζε δημοτικά τραγούδια και χορέψαμε όλοι μαζί μέχρι τις πρώτες πρωινές
+    ώρες. Ήταν μια μοναδική εμπειρία που δεν θα ξεχάσω ποτέ!
+
+    Σε φιλώ γλυκά,
+
+    [Όνομα]'
+  gender_or_pos: phrase
+  keg_communicative_function: Writing a culturally rich narrative describing a traditional
+    Greek celebration and dance
+  example_el: Αγαπητή Σοφία, πήγα σε ένα αυθεντικό πανηγύρι σε ορεινό χωριό. Φάγαμε
+    πίτες, ήπιαμε τσίπουρο και χορέψαμε παραδοσιακούς χορούς μέχρι το πρωί. Ήταν μοναδική
+    εμπειρία! Σε φιλώ!
+  example_en: Dear Sofia, I went to an authentic festival in a mountain village. We
+    ate pies, drank tsipouro, and danced traditional dances until morning. It was
+    a unique experience! Kisses!
+  audio: prosomoiosi-3-task-2-f31a14.mp3
+  status: verified
+- id: A2-U11-007
+  greek: Οδηγός Αυτοαξιολόγησης Γραπτού Λόγου ΚΕΓ Α2 (Self-Evaluation Checklist)
+  english: 'Final 4-point proofreading checklist before submitting: Task fulfillment,
+    connectors, grammar, and tones.'
+  notes: '[Self-Evaluation Checklist Card]
+
+    Before submitting your exam paper, run through this 4-step mental audit:
+
+    1. Περιεχόμενο (Task Fulfillment): Did I answer ALL 3 bullet points directly?
+
+    2. Έκταση (Word Count): Is Task 1 between 30–45 words? Is Task 2 between 60–80
+    words?
+
+    3. Γραμματική (Grammar): Did I match subjects with verb endings? Are direct object
+    pronouns placed before the verbs?
+
+    4. Ορθογραφία & Τονισμός: Does EVERY word of two or more syllables have an accent
+    mark (τόνος)?'
+  gender_or_pos: phrase
+  keg_communicative_function: Conducting systematic pre-submission self-auditing in
+    writing examinations
+  example_el: 'Πριν παραδώσετε το γραπτό σας, ελέγξτε προσεκτικά: απαντήσατε σε όλα
+    τα ερωτήματα, βάλατε τόνους σε όλες τις λέξεις και μετρήσατε τις λέξεις σας;'
+  example_en: 'Before submitting your paper, check carefully: did you answer all questions,
+    put accents on all words, and count your words?'
+  audio: odigos-aytoaxiologis-0ecbfe.mp3
+  status: verified
+- id: A2-U11-008
+  greek: 'Διαχείριση Χρόνου Εξέτασης: 12'' Task 1, 25'' Task 2, 8'' Έλεγχος'
+  english: 'Exam Time Management Strategy: 12 minutes Task 1, 25 minutes Task 2, 8
+    minutes proofreading.'
+  notes: '[Time Management Strategic Card]
+
+    Total Time: 45 minutes strictly.
+
+    • 0:00 - 3:00 (3 mins): Prompt Analysis (Identify tenses and bullet points).
+
+    • 3:00 - 15:00 (12 mins): Write Task 1 (Note/Email - 35-40 words).
+
+    • 15:00 - 38:00 (23 mins): Write Task 2 (Letter/Narrative - 65-75 words).
+
+    • 38:00 - 45:00 (7 mins): Final Proofreading (Scan for missing tones and ending
+    agreements).'
+  gender_or_pos: phrase
+  keg_communicative_function: Executing disciplined pacing and time management during
+    official writing tests
+  example_el: Στην εξέταση παραγωγής γραπτού λόγου έχετε 45 λεπτά. Αφιερώστε 12 λεπτά
+    στο πρώτο θέμα, 25 λεπτά στο δεύτερο θέμα και 8 λεπτά στον τελικό έλεγχο.
+  example_en: In the written production exam you have 45 minutes. Dedicate 12 minutes
+    to the first topic, 25 minutes to the second topic, and 8 minutes to final checking.
+  audio: diacheirisi-chronoy--9f790a.mp3
+  status: verified

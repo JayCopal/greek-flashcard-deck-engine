@@ -1,0 +1,141 @@
+unit_id: unit-wr1-01
+lesson_id: lesson-01
+title: 'Μάθημα 1: Αποκωδικοποίηση Οδηγιών & Ρήματα Εξεταστή (Prompt Decoders & Examiner
+  Directives)'
+description: 'Mastering authentic Greek exam instructions: action verbs (περιγράψτε,
+  εξηγήστε, προτείνετε, ζητήστε, ενημερώστε, προσκαλέστε) and tense cues.'
+lesson_status: not_started
+lesson_notes: "Unit WR1-01 Core Notes: Prompt Decoders & Action Verbs\n• Examiner\
+  \ Action Verbs:\n  - Περιγράψτε: describe (adjectives & details)\n  - Εξηγήστε γιατί:\
+  \ explain why (causal connectors)\n  - Προτείνετε: suggest / recommend\n  - Ζητήστε\
+  \ πληροφορίες: ask for details (questions)\n  - Ενημερώστε: notify / inform\n  -\
+  \ Προσκαλέστε: invite (occasion, time, venue)."
+entries:
+- id: WR1-U01-001
+  greek: περιγράψτε
+  english: describe (examiner directive)
+  notes: Imperative of περιγράφω. Directs candidate to use descriptive adjectives,
+    location markers, and sensory details.
+  gender_or_pos: verb (imperative)
+  example_el: Περιγράψτε το νέο σας διαμέρισμα και τη γειτονιά όπου μένετε.
+  example_en: Describe your new apartment and the neighborhood where you live.
+  example2_el: Περιγράψτε ένα ταξίδι που κάνατε το περασμένο καλοκαίρι.
+  example2_en: Describe a trip that you took last summer.
+  audio: perigrapste-c387d0.mp3
+  status: verified
+  example_audio: perigrapste-to-neo-s-5dc1e8.mp3
+  example2_audio: perigrapste-ena-taxi-07f39e.mp3
+- id: WR1-U01-002
+  greek: εξηγήστε γιατί
+  english: explain why (causal directive)
+  notes: 'Imperative of εξηγώ. Triggers causal connectors: γιατί, επειδή, γι'' αυτό.'
+  example_el: Εξηγήστε γιατί δεν μπορείτε να έρθετε στη σημερινή συνάντηση.
+  example_en: Explain why you cannot come to today's meeting.
+  example2_el: Εξηγήστε γιατί σας αρέσει τόσο πολύ αυτή η πόλη.
+  example2_en: Explain why you like this city so much.
+  audio: exigiste-giati-ef6f18.mp3
+  status: verified
+  example_audio: exigiste-giati-den-m-710bc4.mp3
+  example2_audio: exigiste-giati-sas-a-1450af.mp3
+- id: WR1-U01-003
+  greek: προτείνετε
+  english: suggest / recommend
+  notes: 'Imperative of προτείνω. Triggers modal expressions: σου προτείνω να, μπορούμε
+    να.'
+  example_el: Προτείνετε μια παραδοσιακή ταβέρνα για το δείπνο του Σαββάτου.
+  example_en: Suggest a traditional taverna for Saturday dinner.
+  example2_el: Προτείνετε ένα καλό μέρος για διακοπές στον φίλο σας.
+  example2_en: Recommend a good vacation spot to your friend.
+  audio: proteinete-7fd48d.mp3
+  status: verified
+  example_audio: proteinete-mia-parad-7699b2.mp3
+  example2_audio: proteinete-ena-kalo--c3638a.mp3
+- id: WR1-U01-004
+  greek: ζητήστε πληροφορίες
+  english: ask for information / inquire
+  notes: Imperative of ζητώ. Directs candidate to write polite inquiry questions (πού,
+    πότε, πόσο, υπάρχει).
+  example_el: Ζητήστε πληροφορίες για τις τιμές και τα δρομολόγια των πλοίων.
+  example_en: Ask for information about ferry ticket prices and schedules.
+  example2_el: Ζητήστε πληροφορίες για τα δωμάτια του ξενοδοχείου.
+  example2_en: Ask for information about the hotel rooms.
+  audio: zitiste-plirofories-b5048a.mp3
+  status: verified
+  example_audio: zitiste-plirofories--ffd12d.mp3
+  example2_audio: zitiste-plirofories--b271b8.mp3
+- id: WR1-U01-005
+  greek: ενημερώστε
+  english: inform / notify
+  notes: Imperative of ενημερώνω. Directs candidate to state factual circumstances
+    or updates clearly.
+  example_el: Ενημερώστε τον συνάδελφό σας για τη νέα ώρα της συνεδρίασης.
+  example_en: Inform your colleague about the new meeting time.
+  example2_el: Ενημερώστε τον δάσκαλο ότι θα απουσιάσετε από το μάθημα.
+  example2_en: Inform the teacher that you will be absent from class.
+  audio: enimeroste-4183c3.mp3
+  status: verified
+  example_audio: enimeroste-ton-synad-29771f.mp3
+  example2_audio: enimeroste-ton-daska-508a02.mp3
+- id: WR1-U01-006
+  greek: προσκαλέστε
+  english: invite
+  notes: 'Imperative of προσκαλώ. Essential for Task 1: state occasion, date, time,
+    and address.'
+  example_el: Προσκαλέστε τους φίλους σας στα γενέθλιά σας αυτό το Σάββατο.
+  example_en: Invite your friends to your birthday party this Saturday.
+  example2_el: Προσκαλέστε τους γείτονες στα εγκαίνια του νέου σας σπιτιού.
+  example2_en: Invite the neighbors to your housewarming party.
+  audio: proskaleste-494d9e.mp3
+  status: verified
+  example_audio: proskaleste-toys-fil-0d822d.mp3
+  example2_audio: proskaleste-toys-gei-20a6f4.mp3
+- id: WR1-U01-007
+  greek: δικαιολογήστε
+  english: justify / provide reasons
+  notes: Imperative of δικαιολογώ. Required when declining invitations or defending
+    personal preferences.
+  example_el: Δικαιολογήστε την άρνησή σας να παρευρεθείτε στην εκδήλωση.
+  example_en: Justify your refusal to attend the event.
+  example2_el: Δικαιολογήστε γιατί προτιμάτε να ταξιδέψετε με τρένο.
+  example2_en: Justify why you prefer to travel by train.
+  audio: dikaiologiste-b75779.mp3
+  status: verified
+  example_audio: dikaiologiste-tin-ar-dabfc3.mp3
+  example2_audio: dikaiologiste-giati--435f92.mp3
+- id: WR1-U01-008
+  greek: ευχαριστήστε
+  english: thank / express gratitude
+  notes: Imperative of ευχαριστώ. Essential in social notes and polite follow-up messages.
+  example_el: Ευχαριστήστε τον οικοδεσπότη για την υπέροχη φιλοξενία στο νησί.
+  example_en: Thank the host for the wonderful hospitality on the island.
+  example2_el: Ευχαριστήστε τη φίλη σας για το όμορφο δώρο που σας έκανε.
+  example2_en: Thank your friend for the lovely gift she gave you.
+  audio: eycharististe-58436c.mp3
+  status: verified
+  example_audio: eycharististe-ton-oi-fc378f.mp3
+  example2_audio: eycharististe-ti-fil-2055df.mp3
+- id: WR1-U01-009
+  greek: επιβεβαιώστε
+  english: confirm
+  notes: Imperative of επιβεβαιώνω. Common in booking and appointment confirmations.
+  example_el: Επιβεβαιώστε την κράτηση του δωματίου μέχρι αύριο το μεσημέρι.
+  example_en: Confirm the room reservation by tomorrow noon.
+  example2_el: Επιβεβαιώστε την παρουσία σας στο πάρτι γενεθλίων.
+  example2_en: Confirm your attendance at the birthday party.
+  audio: epivevaioste-5c569f.mp3
+  status: verified
+  example_audio: epivevaioste-tin-kra-f4dfed.mp3
+  example2_audio: epivevaioste-tin-par-4124b6.mp3
+- id: WR1-U01-010
+  greek: συγκρίνετε
+  english: compare
+  notes: Imperative of συγκρίνω. Directs candidate to use comparative forms (πιο,
+    καλύτερος, φθηνότερος).
+  example_el: Συγκρίνετε τις δύο πόλεις και πείτε ποια σας αρέσει πιο πολύ.
+  example_en: Compare the two cities and say which one you like more.
+  example2_el: Συγκρίνετε το παλιό με το καινούργιο σας σπίτι.
+  example2_en: Compare your old and your new house.
+  audio: sygkrinete-66b304.mp3
+  status: verified
+  example_audio: sygkrinete-tis-dyo-p-55c6a5.mp3
+  example2_audio: sygkrinete-to-palio--81a63a.mp3

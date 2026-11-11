@@ -1,0 +1,146 @@
+unit_id: unit-wr1-02
+lesson_id: lesson-01
+title: 'Μάθημα 2: Φόρμουλες Έναρξης, Μετάβασης & Κλεισίματος (Formulaic Openers, Transitions
+  & Closers)'
+description: 'Standard letter and email frameworks: friendly salutations, transition
+  chunks, apologies for late replies, call-to-action closers, and sign-offs.'
+lesson_status: not_started
+lesson_notes: 'Unit WR1-02 Core Notes: Openers, Transitions & Closers
+
+  • Openers: Αγαπητέ μου / Αγαπητή μου..., Γεια σου! Πώς είσαι;
+
+  • Transitions: Συγγνώμη που άργησα να σου γράψω..., Σου γράφω για να σου πω...
+
+  • Closers: Περιμένω νέα σου, Πάρε με τηλέφωνο, Σε φιλώ, Με πολλή αγάπη.'
+entries:
+- id: WR1-U02-001
+  greek: Αγαπητέ μου...
+  english: Dear (masculine singular)...
+  notes: Formal/informal letter opener for a male recipient. E.g. Αγαπητέ μου Γιώργο,
+  gender_or_pos: phrase (salutation)
+  example_el: Αγαπητέ μου Νίκο, σου γράφω για να σου πω τα ευχάριστα νέα μου.
+  example_en: Dear Nikos, I am writing to tell you my pleasant news.
+  example2_el: Αγαπητέ μου φίλε, ελπίζω να είσαι καλά εσύ και η οικογένειά σου.
+  example2_en: My dear friend, I hope you and your family are well.
+  audio: agapite-moy-62218c.mp3
+  status: verified
+  example_audio: agapite-moy-niko-soy-6aff23.mp3
+  example2_audio: agapite-moy-file-elp-765705.mp3
+- id: WR1-U02-002
+  greek: Αγαπητή μου...
+  english: Dear (feminine singular)...
+  notes: Formal/informal letter opener for a female recipient. E.g. Αγαπητή μου Μαρία,
+  gender_or_pos: phrase (salutation)
+  example_el: Αγαπητή μου Ελένη, πώς είσαι; Χάθηκα αυτές τις μέρες.
+  example_en: Dear Eleni, how are you? I've been lost these days.
+  example2_el: Αγαπητή μου γιαγιά, σου στέλνω αυτή την κάρτα από τη Ρόδο.
+  example2_en: My dear grandmother, I am sending you this postcard from Rhodes.
+  audio: agapiti-moy-a10dbd.mp3
+  status: verified
+  example_audio: agapiti-moy-eleni-po-a24ec3.mp3
+  example2_audio: agapiti-moy-giagia-s-bb4ff0.mp3
+- id: WR1-U02-003
+  greek: Γεια σου! Πώς είσαι;
+  english: Hello! How are you?
+  notes: Standard friendly informal email and note opener.
+  gender_or_pos: phrase (greeting)
+  example_el: Γεια σου Κώστα! Πώς είσαι; Ελπίζω όλα να πηγαίνουν περίφημα.
+  example_en: Hello Kostas! How are you? I hope everything is going wonderfully.
+  example2_el: Γεια σου Άννα! Πώς είσαι; Σου γράφω από το νέο μου γραφείο.
+  example2_en: Hello Anna! How are you? I am writing to you from my new office.
+  audio: geia-soy-pos-eisai-6d0823.mp3
+  status: verified
+  example_audio: geia-soy-kosta-pos-e-1b6f5b.mp3
+  example2_audio: geia-soy-anna-pos-ei-47b4d4.mp3
+- id: WR1-U02-004
+  greek: Συγγνώμη που άργησα να σου γράψω
+  english: Sorry for being late in writing to you
+  notes: Standard apology transitional chunk. Fulfills politeness conventions.
+  gender_or_pos: phrase
+  example_el: Συγγνώμη που άργησα να σου γράψω, αλλά είχα πάρα πολλή δουλειά.
+  example_en: Sorry for the delay in writing to you, but I had too much work.
+  example2_el: Συγγνώμη που άργησα να σου απαντήσω, έλειπα σε ταξίδι.
+  example2_en: Sorry for being late in answering you; I was away on a trip.
+  audio: syggnomi-poy-argisa--b8f763.mp3
+  status: verified
+  example_audio: syggnomi-poy-argisa--3230f7.mp3
+  example2_audio: syggnomi-poy-argisa--d7c9bc.mp3
+- id: WR1-U02-005
+  greek: Σου γράφω για να σου πω τα νέα μου
+  english: I am writing to tell you my news
+  notes: Standard communicative intent formula opening Task 2 letters.
+  gender_or_pos: phrase
+  example_el: Σου γράφω για να σου πω τα νέα μου από τη νέα μου δουλειά.
+  example_en: I am writing to tell you my news from my new job.
+  example2_el: Σου γράφω για να σου πω ότι τελικά μετακομίζω στην Αθήνα.
+  example2_en: I am writing to tell you that I am finally moving to Athens.
+  audio: soy-grafo-gia-na-soy-522fa1.mp3
+  status: verified
+  example_audio: soy-grafo-gia-na-soy-6b33a5.mp3
+  example2_audio: soy-grafo-gia-na-soy-d584fc.mp3
+- id: WR1-U02-006
+  greek: Ελπίζω να τα πούμε σύντομα
+  english: I hope we talk / see each other soon
+  notes: Pre-closing formula expressing future contact.
+  gender_or_pos: phrase
+  example_el: Αυτά είναι τα νέα μου. Ελπίζω να τα πούμε σύντομα από κοντά!
+  example_en: That is my news. I hope we see each other soon in person!
+  example2_el: Ελπίζω να τα πούμε σύντομα και να κανονίσουμε να βγούμε.
+  example2_en: I hope we talk soon and arrange to go out.
+  audio: elpizo-na-ta-poyme-s-66c2b4.mp3
+  status: verified
+  example_audio: ayta-einai-ta-nea-mo-9f8eed.mp3
+  example2_audio: elpizo-na-ta-poyme-s-869e99.mp3
+- id: WR1-U02-007
+  greek: Περιμένω νέα σου
+  english: I await your news / looking forward to hearing from you
+  notes: Closing prompt expecting recipient reply.
+  gender_or_pos: phrase
+  example_el: Γράψε μου όταν μπορέσεις, περιμένω νέα σου με ανυπομονησία.
+  example_en: Write to me when you can; I look forward to your news with anticipation.
+  example2_el: Περιμένω νέα σου σχετικά με το πρόγραμμα των διακοπών.
+  example2_en: I await your news regarding the holiday schedule.
+  audio: perimeno-nea-soy-07bb8e.mp3
+  status: verified
+  example_audio: grapse-moy-otan-mpor-b0fd0c.mp3
+  example2_audio: perimeno-nea-soy-sch-8b9f40.mp3
+- id: WR1-U02-008
+  greek: Πάρε με τηλέφωνο όταν μπορέσεις
+  english: Call me when you can
+  notes: Action directive closing in Task 1 notes.
+  gender_or_pos: phrase
+  example_el: Πάρε με τηλέφωνο όταν μπορέσεις για να κλείσουμε τα εισιτήρια.
+  example_en: Call me when you can so we can book the tickets.
+  example2_el: Αν έχεις κάποια απορία, πάρε με τηλέφωνο όταν μπορέσεις.
+  example2_en: If you have any question, call me when you can.
+  audio: pare-me-tilefono-ota-304a7d.mp3
+  status: verified
+  example_audio: pare-me-tilefono-ota-df5de8.mp3
+  example2_audio: an-echeis-kapoia-apo-b6f90f.mp3
+- id: WR1-U02-009
+  greek: Σε φιλώ
+  english: Kisses (warm informal letter closer)
+  notes: Most frequent closer in KEG A2 informal writing.
+  gender_or_pos: phrase (valediction)
+  example_el: Χαιρέτησε όλους από μένα. Σε φιλώ, Δημήτρης.
+  example_en: Say hi to everyone from me. Kisses, Dimitris.
+  example2_el: Ανυπομονώ να σε δω το Σάββατο. Σε φιλώ πολύ, Σοφία.
+  example2_en: I look forward to seeing you Saturday. Many kisses, Sofia.
+  audio: se-filo-cfacc8.mp3
+  status: verified
+  example_audio: chairetise-oloys-apo-2d4693.mp3
+  example2_audio: anypomono-na-se-do-t-f894ef.mp3
+- id: WR1-U02-010
+  greek: Με πολλή αγάπη
+  english: With much love
+  notes: 'Affectionate closer for close family and friends. Spells: πολλή (feminine
+    with double lambda and eta).'
+  gender_or_pos: phrase (valediction)
+  example_el: Σου εύχομαι κάθε καλό και καλή επιτυχία. Με πολλή αγάπη, Μαρία.
+  example_en: I wish you all the best and great success. With much love, Maria.
+  example2_el: Να προσέχεις τον εαυτό σου. Με πολλή αγάπη, η μητέρα σου.
+  example2_en: Take care of yourself. With much love, your mother.
+  audio: me-polli-agapi-b24e80.mp3
+  status: verified
+  example_audio: soy-eychomai-kathe-k-e3dd65.mp3
+  example2_audio: na-prosecheis-ton-ea-a3cc08.mp3

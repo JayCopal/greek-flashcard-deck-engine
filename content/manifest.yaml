@@ -5,7 +5,7 @@ created_at: '2026-10-25'
 units:
 - id: unit-00
   title: Γλώσσα Εξετάσεων & Οδηγίες Βιβλίου (Exam Instructions & Textbook Rubrics)
-  order: OG-00-A
+  order: KEG-A1-00-A
   lessons:
   - id: lesson-01
     file: unit-00/lesson-01.yaml
@@ -13,84 +13,84 @@ units:
       Rubrics)'
 - id: unit-01
   title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
-  order: OG-01-A
+  order: KEG-A1-01-A
   lessons:
   - id: lesson-01
     file: unit-01/lesson-01.yaml
     title: Χαιρετισμοί & Γνωριμία (Greetings & Introductions)
 - id: unit-02
   title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
-  order: OG-02-A
+  order: KEG-A1-02-A
   lessons:
   - id: lesson-01
     file: unit-02/lesson-01.yaml
     title: Καταγωγή, Εθνικότητες & Γλώσσες (Origins, Nationalities & Languages)
 - id: unit-03
   title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
-  order: OG-03-A
+  order: KEG-A1-03-A
   lessons:
   - id: lesson-01
     file: unit-03/lesson-01.yaml
     title: Επαγγέλματα, Σπουδές & Στοιχεία Επικοινωνίας (Professions & Contact Details)
 - id: unit-04
   title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
-  order: OG-04-A
+  order: KEG-A1-04-A
   lessons:
   - id: lesson-01
     file: unit-04/lesson-01.yaml
     title: Οικογένεια, Πρόσωπα & Περιγραφή (Family & Physical/Personal Traits)
 - id: unit-05
   title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
-  order: OG-05-A
+  order: KEG-A1-05-A
   lessons:
   - id: lesson-01
     file: unit-05/lesson-01.yaml
     title: Στο Καφέ & Στην Ταβέρνα (Ordering Food & Drinks)
 - id: unit-06
   title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
-  order: OG-06-A
+  order: KEG-A1-06-A
   lessons:
   - id: lesson-01
     file: unit-06/lesson-01.yaml
     title: Στην Αγορά, Ψώνια & Τιμές (Shopping, Supermarket & Prices)
 - id: unit-07
   title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
-  order: OG-07-A
+  order: KEG-A1-07-A
   lessons:
   - id: lesson-01
     file: unit-07/lesson-01.yaml
     title: Το Σπίτι, Έπιπλα & Διαμονή (House, Furniture & Accommodation)
 - id: unit-08
   title: Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)
-  order: OG-08-A
+  order: KEG-A1-08-A
   lessons:
   - id: lesson-01
     file: unit-08/lesson-01.yaml
     title: Καθημερινό Πρόγραμμα & Συνήθειες (Daily Routines & Habits)
 - id: unit-09
   title: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
-  order: OG-09-A
+  order: KEG-A1-09-A
   lessons:
   - id: lesson-01
     file: unit-09/lesson-01.yaml
     title: Ώρα, Ημερολόγιο & Ραντεβού (Telling Time, Calendar & Appointments)
 - id: unit-10
   title: Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)
-  order: OG-10-A
+  order: KEG-A1-10-A
   lessons:
   - id: lesson-01
     file: unit-10/lesson-01.yaml
     title: Στην Πόλη, Μετακινήσεις & Οδηγίες (City Navigation, Transport & Directions)
 - id: unit-11
   title: Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)
-  order: OG-11-A
+  order: KEG-A1-11-A
   lessons:
   - id: lesson-01
     file: unit-11/lesson-01.yaml
     title: Ελεύθερος Χρόνος, Καιρός & Διακοπές (Leisure, Weather & Holidays)
 - id: unit-12
   title: Υγεία, Φαρμακείο & Έκτακτη Ανάγκη (Health, Pharmacy & Emergencies)
-  order: OG-12-A
+  order: KEG-A1-12-A
   lessons:
   - id: lesson-01
     file: unit-12/lesson-01.yaml
@@ -922,3 +922,148 @@ units:
     file: unit-cyp-06/lesson-01.yaml
     title: 'Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση
       (EU, Current Affairs & Naturalization)'
+- id: unit-wr1-01
+  title: 'Μάθημα 1: Αποκωδικοποίηση Οδηγιών & Ρήματα Εξεταστή (Prompt Decoders & Examiner
+    Directives)'
+  description: 'Mastering authentic Greek exam instructions: action verbs and tense
+    cues.'
+  order: KEG-A2-WR-P1-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-01/lesson-01.yaml
+    title: 'Μάθημα 1: Αποκωδικοποίηση Οδηγιών & Ρήματα Εξεταστή (Prompt Decoders &
+      Examiner Directives)'
+- id: unit-wr1-02
+  title: 'Μάθημα 2: Φόρμουλες Έναρξης, Μετάβασης & Κλεισίματος (Formulaic Openers,
+    Transitions & Closers)'
+  description: 'Standard letter and email frameworks: friendly salutations, transition
+    chunks, apologies for late replies, and sign-offs.'
+  order: KEG-A2-WR-P1-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-02/lesson-01.yaml
+    title: 'Μάθημα 2: Φόρμουλες Έναρξης, Μετάβασης & Κλεισίματος (Formulaic Openers,
+      Transitions & Closers)'
+- id: unit-wr1-03
+  title: 'Μάθημα 3: Συνδετικές Λέξεις & Συντακτική Συνοχή (Discourse Connectors &
+    Logical Flow)'
+  description: 'High-scoring sentence linkers: sequence, contrast, cause/effect, and
+    condition.'
+  order: KEG-A2-WR-P1-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-03/lesson-01.yaml
+    title: 'Μάθημα 3: Συνδετικές Λέξεις & Συντακτική Συνοχή (Discourse Connectors
+      & Logical Flow)'
+- id: unit-wr1-04
+  title: 'Μάθημα 4: Γραμματικοί Ασφαλείς Λιμένες & Ανώμαλοι Αόριστοι (Grammar Safe
+    Harbors)'
+  description: 'Eliminating high-penalty errors in A2 written exams: irregular past
+    stems, clitic pronoun positions, and modal subjunctive rules.'
+  order: KEG-A2-WR-P1-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-04/lesson-01.yaml
+    title: 'Μάθημα 4: Γραμματικοί Ασφαλείς Λιμένες & Ανώμαλοι Αόριστοι (Grammar Safe
+      Harbors)'
+- id: unit-wr1-05
+  title: 'Μάθημα 5: Παγίδες Ορθογραφίας, Τόνοι & Συμφωνία (Error Hunter & Orthography
+    Traps)'
+  description: 'Eliminating high-penalty errors in written production: πολύ vs πολλή,
+    final nu rules, -τε vs -ται verb endings, stress marks (τόνος), and clitic placement.'
+  order: KEG-A2-WR-P1-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-05/lesson-01.yaml
+    title: 'Μάθημα 5: Παγίδες Ορθογραφίας, Τόνοι & Συμφωνία (Error Hunter & Orthography
+      Traps)'
+- id: unit-wr1-06
+  title: 'Μάθημα 6: Lego Sentence Builders — Task 1 Σημειώματα & Μηνύματα (Task 1
+    Functional Notes)'
+  description: 'Modular sentence building blocks for Task 1 functional notes (30-45
+    words): arrangements, leaving keys, watering plants, and reminders.'
+  order: KEG-A2-WR-P1-06-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr1-06/lesson-01.yaml
+    title: 'Μάθημα 6: Lego Sentence Builders — Task 1 Σημειώματα & Μηνύματα (Task
+      1 Functional Notes)'
+- id: unit-wr2-01
+  title: 'Μάθημα 1: Προσκλήσεις, Γενέθλια & RSVP (Thematic Playbook 1: Social Invitations
+    & Parties)'
+  description: 'Mastering Task 1 notes: composing and replying to party, birthday,
+    and celebration invitations, accepting or politely declining with justifications.'
+  order: KEG-A2-WR-P2-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-01/lesson-01.yaml
+    title: 'Μάθημα 1: Προσκλήσεις, Γενέθλια & RSVP (Thematic Playbook 1: Social Invitations
+      & Parties)'
+- id: unit-wr2-02
+  title: 'Μάθημα 2: Γραπτός Λόγος — Το Σπίτι, η Γειτονιά & Μετακόμιση (A2 Writing:
+    Housing & Moving)'
+  description: Describing apartments, rooms, locations, and neighborhood facilities,
+    handling housewarming invitations and practical rental inquiries.
+  order: KEG-A2-WR-P2-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-02/lesson-01.yaml
+    title: 'Μάθημα 2: Γραπτός Λόγος — Το Σπίτι, η Γειτονιά & Μετακόμιση (A2 Writing:
+      Housing & Moving)'
+- id: unit-wr2-03
+  title: 'Μάθημα 3: Γραπτός Λόγος — Υγεία, Συμπτώματα & Απουσία (A2 Writing: Health
+    & Absences)'
+  description: Describing illness symptoms, doctor diagnoses, and writing polite notes
+    to employers, teachers, or colleagues excusing absences.
+  order: KEG-A2-WR-P2-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-03/lesson-01.yaml
+    title: 'Μάθημα 3: Γραπτός Λόγος — Υγεία, Συμπτώματα & Απουσία (A2 Writing: Health
+      & Absences)'
+- id: unit-wr2-04
+  title: 'Μάθημα 4: Γραπτός Λόγος — Ταξίδια, Διακοπές & Εκδρομές (A2 Writing: Travel
+    & Holidays)'
+  description: 'Mastering the narrative past in Task 2 compositions: setting the scene,
+    describing places, expressing impressions, and using chronological Aorist chains.'
+  order: KEG-A2-WR-P2-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-04/lesson-01.yaml
+    title: 'Μάθημα 4: Γραπτός Λόγος — Ταξίδια, Διακοπές & Εκδρομές (A2 Writing: Travel
+      & Holidays)'
+- id: unit-wr2-05
+  title: 'Μάθημα 5: Γραπτός Λόγος — Φαγητό, Αγορά & Προτάσεις στην Πόλη (A2 Writing:
+    Dining & City Life)'
+  description: Writing restaurant reviews and recommendations, making table reservations,
+    and detailing city shopping excursions.
+  order: KEG-A2-WR-P2-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-05/lesson-01.yaml
+    title: 'Μάθημα 5: Γραπτός Λόγος — Φαγητό, Αγορά & Προτάσεις στην Πόλη (A2 Writing:
+      Dining & City Life)'
+- id: unit-wr2-06
+  title: 'Μάθημα 6: Γραπτός Λόγος — Προσομοιώσεις Εξετάσεων ΚΕΓ Α2 (A2 Writing: Mock
+    Exam Capstone)'
+  description: 'Full-scale integrated exam simulations replicating authentic KEG past
+    papers: paired Task 1 (30-45 words) and Task 2 (65-80 words) prompts with model
+    scripts and scoring rubrics.'
+  order: KEG-A2-WR-P2-06-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-wr2-06/lesson-01.yaml
+    title: 'Μάθημα 6: Γραπτός Λόγος — Προσομοιώσεις Εξετάσεων ΚΕΓ Α2 (A2 Writing:
+      Mock Exam Capstone)'

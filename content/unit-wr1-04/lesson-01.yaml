@@ -1,0 +1,162 @@
+unit_id: unit-wr1-04
+lesson_id: lesson-01
+title: 'Μάθημα 4: Γραμματικοί Ασφαλείς Λιμένες & Ανώμαλοι Αόριστοι (Grammar Safe Harbors)'
+description: 'Eliminating high-penalty errors in A2 written exams: irregular past
+  stems (είδα, ήπια, έφαγα, βρήκα, έμαθα, πήρα, έφυγα), clitic pronoun positions,
+  and modal subjunctive rules.'
+lesson_status: not_started
+lesson_notes: "Unit A2-10 Core Notes: Γραμματικοί Ασφαλείς Λιμένες (Grammar Safe Harbors)\n\
+  • Top Irregular Aorists in Writing Tasks:\n  - βλέπω -> είδα, είδες, είδε, είδαμε,\
+  \ είδατε, είδαν\n  - πίνω -> ήπια, ήπιες, ήπιε, ήπιαμε, ήπιατε, ήπιαν\n  - τρώω\
+  \ -> έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν\n  - βρίσκω -> βρήκα, βρήκες,\
+  \ βρήκε, βρήκαμε, βρήκατε, βρήκαν\n  - μαθαίνω -> έμαθα, έμαθες, έμαθε, μάθαμε,\
+  \ μάθατε, έμαθαν\n  - παίρνω -> πήρα, πήρες, πήρε, πήραμε, πήρατε, πήραν\n  - φεύγω\
+  \ -> έφυγα, έφυγες, έφυγε, φύγαμε, φύγατε, έφυγαν\n• Clitic Pronoun Placement:\n\
+  \  - Direct object pronouns (τον, την, το, τους, τις, τα) ALWAYS precede the conjugated\
+  \ verb in declarative sentences:\n    «Τον είδα χθες» (I saw him yesterday), NOT\
+  \ *Είδα τον χθες."
+entries:
+- id: A2-U10-001
+  greek: Χθες το βράδυ είδαμε μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο.
+  english: Last night we saw a very interesting movie at the cinema.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of βλέπω: ''είδαμε'' (we saw) + feminine
+    accusative adjective ''ενδιαφέρουσα''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'είδαμε' to recount past entertainment
+  example_el: Χθες το βράδυ είδαμε μια πολύ ενδιαφέρουσα ταινία στον κινηματογράφο
+    και μετά συζητήσαμε για το τέλος της.
+  example_en: Last night we saw a very interesting movie at the cinema and afterwards
+    we discussed its ending.
+  audio: chthes-to-vrady-eida-e9db62.mp3
+  status: verified
+  example_audio: chthes-to-vrady-eida-90b72a.mp3
+- id: A2-U10-002
+  greek: Καθίσαμε στην πλατεία και ήπιαμε δροσερό καφέ κάτω από τον ήλιο.
+  english: We sat in the square and drank iced coffee under the sun.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of πίνω: ''ήπιαμε'' (we drank). Watch
+    tonos placement.'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'ήπιαμε' in narrative leisure
+    descriptions
+  example_el: Το απόγευμα καθίσαμε στην κεντρική πλατεία και ήπιαμε δροσερό καφέ κάτω
+    από τον ζεστό ήλιο.
+  example_en: In the afternoon we sat in the main square and drank iced coffee under
+    the warm sun.
+  audio: kathisame-stin-plate-b93cdb.mp3
+  status: verified
+  example_audio: to-apogeyma-kathisam-fb8fbf.mp3
+- id: A2-U10-003
+  greek: Το μεσημέρι φάγαμε σπιτικό παστίτσιο που μαγείρεψε η μητέρα μου.
+  english: At noon we ate homemade pastitsio that my mother cooked.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of τρώω: ''φάγαμε'' (drops initial
+    augment in plural: φάγαμε, NOT *έφαγαμε).'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'φάγαμε' without incorrect augment
+  example_el: Όλη η οικογένεια συγκεντρώθηκε και το μεσημέρι φάγαμε σπιτικό παστίτσιο
+    που μαγείρεψε η μητέρα μου.
+  example_en: The whole family gathered and at noon we ate homemade pastitsio that
+    my mother cooked.
+  audio: to-mesimeri-fagame-s-05165d.mp3
+  status: verified
+  example_audio: oli-i-oikogeneia-syg-e4dcf6.mp3
+- id: A2-U10-004
+  greek: Τελικά βρήκαμε ένα πολύ οικονομικό δωμάτιο κοντά στο λιμάνι.
+  english: In the end we found a very economical room near the port.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of βρίσκω: ''βρήκαμε'' (we found).'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'βρήκαμε' to state outcome of
+    a search
+  example_el: Ψάξαμε για αρκετή ώρα και τελικά βρήκαμε ένα πολύ οικονομικό δωμάτιο
+    κοντά στο λιμάνι του νησιού.
+  example_en: We searched for quite a while and in the end we found a very economical
+    room near the island's port.
+  audio: telika-vrikame-ena-p-3d5ed4.mp3
+  status: verified
+  example_audio: psaxame-gia-arketi-o-8aafee.mp3
+- id: A2-U10-005
+  greek: Χάρηκα πολύ όταν έμαθα τα ευχάριστα νέα για την προαγωγή σου.
+  english: I was very glad when I learned the pleasant news about your promotion.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of μαθαίνω: ''έμαθα'' (I learned)
+    + deponent past ''χάρηκα'' (I was glad).'
+  gender_or_pos: sentence
+  keg_communicative_function: Expressing congratulations upon learning milestone news
+  example_el: Χάρηκα πάρα πολύ όταν έμαθα τα ευχάριστα νέα για την προαγωγή σου στη
+    δουλειά! Συγχαρητήρια!
+  example_en: I was very glad when I learned the pleasant news about your promotion
+    at work! Congratulations!
+  audio: charika-poly-otan-em-ff4f8e.mp3
+  status: verified
+  example_audio: charika-para-poly-ot-17795d.mp3
+- id: A2-U10-006
+  greek: Πήραμε το πρωινό πλοίο και φτάσαμε στο νησί σε δύο ώρες.
+  english: We took the morning boat and arrived on the island in two hours.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of παίρνω: ''πήραμε'' (we took).'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'πήραμε' in travel descriptions
+  example_el: Ξυπνήσαμε αχάραγα, πήραμε το πρωινό πλοίο από τον Πειραιά και φτάσαμε
+    στο νησί σε δύο ώρες.
+  example_en: We woke up at dawn, took the morning boat from Piraeus, and arrived
+    on the island in two hours.
+  audio: pirame-to-proino-plo-5b2e3e.mp3
+  status: verified
+  example_audio: xypnisame-acharaga-p-d57189.mp3
+- id: A2-U10-007
+  greek: Φύγαμε νωρίς από τη συναυλία γιατί είχε πάρα πολύ κόσμο.
+  english: We left early from the concert because it was very crowded.
+  notes: '[Grammar Safe Harbor] Irregular Aorist of φεύγω: ''φύγαμε'' (drops augment
+    in plural: φύγαμε, NOT *έφυγαμε).'
+  gender_or_pos: sentence
+  keg_communicative_function: Using irregular Aorist 'φύγαμε' with causal explanation
+  example_el: Αν και η μουσική ήταν εξαιρετική, φύγαμε νωρίς από τη συναυλία γιατί
+    είχε πάρα πολύ κόσμο.
+  example_en: Although the music was excellent, we left early from the concert because
+    it was very crowded.
+  audio: fygame-noris-apo-ti--21d363.mp3
+  status: verified
+  example_audio: an-kai-i-moysiki-ita-c1ff87.mp3
+- id: A2-U10-008
+  greek: Τον είδα χθες στο δρόμο και μου είπε ότι θα σου τηλεφωνήσει σύντομα.
+  english: I saw him yesterday in the street and he told me that he will call you
+    soon.
+  notes: '[Clitic Pronoun Rule] Direct object ''τον'' and indirect ''μου'' precede
+    the verbs ''τον είδα'' and ''μου είπε''. NEVER *Είδα τον.'
+  gender_or_pos: sentence
+  keg_communicative_function: Positioning clitic object pronouns accurately before
+    finite verbs
+  example_el: Τον είδα χθες το πρωί στο δρόμο και μου είπε ότι θα σου τηλεφωνήσει
+    σύντομα για να κανονίσετε.
+  example_en: I saw him yesterday morning in the street and he told me that he will
+    call you soon to make arrangements.
+  audio: ton-eida-chthes-sto--34afed.mp3
+  status: verified
+  example_audio: ton-eida-chthes-to-p-07e211.mp3
+- id: A2-U10-009
+  greek: Πρέπει να ξεκινήσουμε νωρίς για να προλάβουμε το πρώτο τρένο.
+  english: We must start early in order to catch the first train.
+  notes: '[Modal Safe Harbor] Impersonal modal ''πρέπει να'' + dependent subjunctive
+    ''ξεκινήσουμε'' + purpose ''για να προλάβουμε''.'
+  gender_or_pos: sentence
+  keg_communicative_function: Constructing modal necessity sentences with dependent
+    subjunctive
+  example_el: Αύριο το πρωί πρέπει να ξεκινήσουμε νωρίς από το σπίτι για να προλάβουμε
+    το πρώτο τρένο των επτά.
+  example_en: Tomorrow morning we must start early from home in order to catch the
+    first train at seven.
+  audio: prepei-na-xekinisoym-4f49ce.mp3
+  status: verified
+  example_audio: ayrio-to-proi-prepei-b31df9.mp3
+- id: A2-U10-010
+  greek: Μπορείς να μου δώσεις τη συνταγή για αυτή την υπέροχη πίτα;
+  english: Can you give me the recipe for this wonderful pie?
+  notes: '[Polite Request Harbor] ''Μπορείς να μου δώσεις'' (Aorist subjunctive of
+    δίνω: δώσω/δώσεις).'
+  gender_or_pos: phrase
+  keg_communicative_function: Formulating polite requests for recipes or information
+    using modals
+  example_el: Το φαγητό ήταν πεντανόστιμο! Μπορείς να μου δώσεις τη συνταγή για αυτή
+    την υπέροχη παραδοσιακή πίτα;
+  example_en: The food was delicious! Can you give me the recipe for this wonderful
+    traditional pie?
+  audio: mporeis-na-moy-dosei-b7a04f.mp3
+  status: verified
+  example_audio: to-fagito-itan-penta-149a94.mp3

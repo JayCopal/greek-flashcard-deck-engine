@@ -1,0 +1,159 @@
+unit_id: unit-wr2-01
+lesson_id: lesson-01
+title: 'Μάθημα 1: Προσκλήσεις, Γενέθλια & RSVP (Thematic Playbook 1: Social Invitations
+  & Parties)'
+description: 'Mastering Task 1 notes: composing and replying to party, birthday, and
+  celebration invitations, accepting or politely declining with justifications.'
+lesson_status: not_started
+lesson_notes: "Unit WR2-01 Core Notes: Social Invitations (Task 1)\n• Key elements:\n\
+  \  - Αφορμή: Έχω τα γενέθλιά μου / Κάνω πάρτι.\n  - Χρόνος & Τόπος: Το Σάββατο στις\
+  \ 8:00 στο σπίτι μου.\n  - Φιλοξενία: Μην φέρεις τίποτα, θα έχω φαγητό και ποτά.\n\
+  \  - RSVP: Πες μου μέχρι την Παρασκευή αν θα έρθεις.\n  - Αποδοχή / Άρνηση: Με μεγάλη\
+  \ χαρά δέχομαι vs Δυστυχώς θα λείπω."
+entries:
+- id: WR2-U01-001
+  greek: Το Σάββατο έχω τα γενέθλιά μου και κάνω πάρτι.
+  english: On Saturday it's my birthday and I am throwing a party.
+  notes: '[Playbook 1] Core anchor sentence opening birthday invitations in Task 1.'
+  gender_or_pos: sentence
+  example_el: Αυτό το Σάββατο έχω τα γενέθλιά μου και κάνω ένα μεγάλο πάρτι στο σπίτι
+    μου.
+  example_en: This Saturday it's my birthday and I am throwing a big party at my house.
+  example2_el: Την επόμενη εβδομάδα έχω τα γενέθλιά μου και θέλω να το γιορτάσουμε
+    μαζί.
+  example2_en: Next week is my birthday and I want us to celebrate it together.
+  audio: to-savvato-echo-ta-g-e8ee94.mp3
+  status: verified
+  example_audio: ayto-to-savvato-echo-1cb950.mp3
+  example2_audio: tin-epomeni-evdomada-452f42.mp3
+- id: WR2-U01-002
+  greek: Θα χαρώ πολύ αν έρθεις στη γιορτή μου.
+  english: I will be very glad if you come to my celebration.
+  notes: '[Playbook 1] Polite conditional welcome formula.'
+  gender_or_pos: sentence
+  example_el: Θα χαρώ πάρα πολύ αν έρθεις στη γιορτή μου με την παρέα σου.
+  example_en: I will be very glad if you come to my celebration with your friends.
+  example2_el: Θα χαρούμε πολύ αν μπορέσετε να παρευρεθείτε στο δείπνο.
+  example2_en: We will be very glad if you can attend the dinner.
+  audio: tha-charo-poly-an-er-ff190d.mp3
+  status: verified
+  example_audio: tha-charo-para-poly--faf98d.mp3
+  example2_audio: tha-charoyme-poly-an-7d5b34.mp3
+- id: WR2-U01-003
+  greek: Το πάρτι θα αρχίσει στις οκτώ το βράδυ.
+  english: The party will start at eight in the evening.
+  notes: '[Playbook 1] Time specification essential for exam task fulfillment.'
+  gender_or_pos: sentence
+  example_el: Το πάρτι θα αρχίσει στις οκτώ το βράδυ και θα έχει πολλή μουσική και
+    φαγητό.
+  example_en: The party will start at eight in the evening and will have lots of music
+    and food.
+  example2_el: Η εκδήλωση θα ξεκινήσει στις εννέα ακριβώς στην ταράτσα.
+  example2_en: The event will start at nine sharp on the terrace.
+  audio: to-parti-tha-archise-b4dc56.mp3
+  status: verified
+  example_audio: to-parti-tha-archise-d26dd7.mp3
+  example2_audio: i-ekdilosi-tha-xekin-6665f9.mp3
+- id: WR2-U01-004
+  greek: Μην φέρεις τίποτα, θα έχω φαγητό και ποτά.
+  english: Don't bring anything; I will have food and drinks.
+  notes: '[Playbook 1] Friendly hospitality note in invitations.'
+  gender_or_pos: sentence
+  example_el: Μην φέρεις τίποτα απολύτως, θα έχω ετοιμάσει φαγητό, γλυκά και ποτά
+    για όλους.
+  example_en: Don't bring anything at all; I will have prepared food, sweets, and
+    drinks for everyone.
+  example2_el: Μην ανησυχείς για τίποτα, έχουμε κανονίσει όλο το φαγητό.
+  example2_en: Don't worry about anything; we have arranged all the food.
+  audio: min-fereis-tipota-th-5b1062.mp3
+  status: verified
+  example_audio: min-fereis-tipota-ap-6d1293.mp3
+  example2_audio: min-anisycheis-gia-t-c1495c.mp3
+- id: WR2-U01-005
+  greek: Πες μου μέχρι την Παρασκευή αν θα έρθεις.
+  english: Tell me by Friday if you will come (RSVP deadline).
+  notes: '[Playbook 1] Essential confirmation deadline requested by exam prompts.'
+  gender_or_pos: sentence
+  example_el: Σε παρακαλώ, πες μου μέχρι την Παρασκευή αν θα έρθεις για να ξέρω πόσα
+    άτομα θα είμαστε.
+  example_en: Please tell me by Friday if you will come so I know how many people
+    we will be.
+  example2_el: Ενημέρωσέ με μέχρι την Πέμπτη αν μπορείς να έρθεις.
+  example2_en: Let me know by Thursday if you can make it.
+  audio: pes-moy-mechri-tin-p-f186b3.mp3
+  status: verified
+  example_audio: se-parakalo-pes-moy--174a62.mp3
+  example2_audio: enimerose-me-mechri--7a1c21.mp3
+- id: WR2-U01-006
+  greek: Σε ευχαριστώ πολύ για την πρόσκληση!
+  english: Thank you very much for the invitation!
+  notes: '[Playbook 1] Mandatory opener when replying to invitations.'
+  gender_or_pos: phrase
+  example_el: Σε ευχαριστώ πάρα πολύ για την όμορφη πρόσκληση στα γενέθλιά σου!
+  example_en: Thank you so much for the lovely invitation to your birthday!
+  example2_el: Σας ευχαριστούμε θερμά για την πρόσκληση στον γάμο σας.
+  example2_en: We thank you warmly for the invitation to your wedding.
+  audio: se-eycharisto-poly-g-3e76fb.mp3
+  status: verified
+  example_audio: se-eycharisto-para-p-3694b1.mp3
+  example2_audio: sas-eycharistoyme-th-211956.mp3
+- id: WR2-U01-007
+  greek: Με μεγάλη μου χαρά δέχομαι να έρθω.
+  english: With great pleasure I accept to come.
+  notes: '[Playbook 1] Positive RSVP acceptance formula.'
+  gender_or_pos: sentence
+  example_el: Με μεγάλη μου χαρά δέχομαι να έρθω στο πάρτι και ανυπομονώ να σε δω!
+  example_en: With great pleasure I accept to come to the party and look forward to
+    seeing you!
+  example2_el: Φυσικά και θα έρθω, δεν θα έχανα με τίποτα τη γιορτή σου.
+  example2_en: Of course I will come; I wouldn't miss your celebration for anything.
+  audio: me-megali-moy-chara--0d98a6.mp3
+  status: verified
+  example_audio: me-megali-moy-chara--988b8f.mp3
+  example2_audio: fysika-kai-tha-ertho-606d3f.mp3
+- id: WR2-U01-008
+  greek: Δυστυχώς δεν μπορώ να έρθω γιατί θα λείπω.
+  english: Unfortunately I cannot come because I will be away.
+  notes: '[Playbook 1] Negative RSVP with polite travel excuse.'
+  gender_or_pos: sentence
+  example_el: Δυστυχώς δεν μπορώ να έρθω στο πάρτι γιατί εκείνο το Σαββατοκύριακο
+    θα λείπω σε ταξίδι.
+  example_en: Unfortunately I cannot come to the party because that weekend I will
+    be away on a trip.
+  example2_el: Λυπάμαι πολύ αλλά δεν θα μπορέσω να παρευρεθώ λόγω επαγγελματικού ταξιδιού.
+  example2_en: I am very sorry but I will not be able to attend due to a business
+    trip.
+  audio: dystychos-den-mporo--dc70d6.mp3
+  status: verified
+  example_audio: dystychos-den-mporo--a06565.mp3
+  example2_audio: lypamai-poly-alla-de-807bd8.mp3
+- id: WR2-U01-009
+  greek: Σου εύχομαι ολόψυχα χρόνια πολλά και καλή χρονιά!
+  english: I wish you from my heart many happy years and a good year!
+  notes: '[Playbook 1] Warm birthday/nameday wish formula.'
+  gender_or_pos: sentence
+  example_el: Σου εύχομαι ολόψυχα χρόνια πολλά, υγεία, ευτυχία και κάθε επιτυχία στη
+    ζωή σου!
+  example_en: I wish you from my heart many happy years, health, happiness, and every
+    success in your life!
+  example2_el: Χρόνια πολλά για την ονομαστική σου γιορτή, να είσαι πάντα χαρούμενος!
+  example2_en: Happy name day, may you always be joyful!
+  audio: soy-eychomai-olopsyc-628cfd.mp3
+  status: verified
+  example_audio: soy-eychomai-olopsyc-9b2a63.mp3
+  example2_audio: chronia-polla-gia-ti-7befe7.mp3
+- id: WR2-U01-010
+  greek: Ελπίζω να βρεθούμε μια άλλη μέρα να κεράσω.
+  english: I hope we meet another day so I can treat you.
+  notes: '[Playbook 1] Polite restorative closing after declining an invite.'
+  gender_or_pos: sentence
+  example_el: Λυπάμαι που δεν θα είμαι εκεί, αλλά ελπίζω να βρεθούμε μια άλλη μέρα
+    να σε κεράσω καφέ.
+  example_en: I am sorry I won't be there, but I hope we meet another day so I can
+    treat you to coffee.
+  example2_el: Υπόσχομαι να βρεθούμε μόλις επιστρέψω για να γιορτάσουμε μαζί.
+  example2_en: I promise we'll meet as soon as I return to celebrate together.
+  audio: elpizo-na-vrethoyme--c6a432.mp3
+  status: verified
+  example_audio: lypamai-poy-den-tha--112b81.mp3
+  example2_audio: yposchomai-na-vretho-dde247.mp3

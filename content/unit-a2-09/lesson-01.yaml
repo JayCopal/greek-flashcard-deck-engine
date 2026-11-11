@@ -1,206 +1,740 @@
 unit_id: unit-a2-09
 lesson_id: lesson-01
-title: 'Μάθημα 9: Γραπτός Λόγος — Φαγητό, Αγορά & Προτάσεις στην Πόλη (A2 Writing:
-  Dining & City Life)'
-description: Writing restaurant reviews and recommendations, making table reservations,
-  and detailing city shopping excursions.
+title: 'Μάθημα 9: Εργασία, Επαγγέλματα & Αγγελίες (Workplaces, CVs & Classified Ads)'
+description: Navigating job advertisements, employment contracts, working conditions,
+  and interview questions using Type 1 Conditionals (αν + ενεστώτας -> μέλλοντας)
+  and temporal connectives (μόλις, αφού, πριν).
 lesson_status: not_started
-lesson_notes: "Unit A2-09 Core Notes: Φαγητό, Αγορά & Προτάσεις (Dining & City Outings)\n\
-  • Common Tasks:\n  - Recommending a restaurant, taverna, or cafe to a visiting tourist\
-  \ or friend.\n  - Making an arrangement or table reservation.\n  - Recounting a\
-  \ shopping spree or buying a gift for a celebration.\n• Key Evaluation Vocabulary:\n\
-  \  - νόστιμο φαγητό (delicious food), τοπικές σπεσιαλιτέ (local specialties)\n \
-  \ - φιλική εξυπηρέτηση (friendly service), λογικές τιμές (reasonable prices)\n \
-  \ - κλείνω τραπέζι (reserve a table), λογαριασμός (the bill)\n  - ψάχνω για δώρο\
-  \ (looking for a gift), αναμνηστικά (souvenirs)."
+lesson_notes: "Unit A2-09 Core Notes: Εργασία & Επαγγέλματα (Work & Employment)\n\
+  • Workplace Vocabulary:\n  - βιογραφικό (CV), συνέντευξη (interview), μισθός (salary),\
+  \ ωράριο (working hours), άδεια (leave/vacation).\n  - σύμβαση (contract), προϋπηρεσία\
+  \ (previous experience), προσόντα (qualifications).\n• Type 1 Conditionals:\n  -\
+  \ Αν + Present -> Future / Imperative: «Αν με προσλάβετε, θα δουλέψω σκληρά.»"
 entries:
 - id: A2-U09-001
-  greek: Σου προτείνω να πας σε μια παραδοσιακή ταβέρνα στην παλιά πόλη.
-  english: I recommend you go to a traditional taverna in the old town.
-  notes: '[Lego Sentence Builder] Giving recommendations: ''σου προτείνω να'' + dependent
-    subjunctive ''πας''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Recommending an eatery or local attraction to a peer
-  example_el: Αν θέλεις να φας καλό ελληνικό φαγητό, σου προτείνω να πας σε μια παραδοσιακή
-    ταβέρνα στην παλιά πόλη.
-  example_en: If you want to eat good Greek food, I recommend you go to a traditional
-    taverna in the old town.
-  audio: soy-proteino-na-pas--3462ef.mp3
+  greek: η αγγελία εργασίας
+  english: job advertisement / vacancy listing
+  notes: Feminine noun phrase. Fundamental authentic genre in KEG A2 Reading Section
+    3 (matching job ads with candidates).
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι αγγελίες εργασίας
+    genitive: της αγγελίας εργασίας
+  keg_communicative_function: Analyzing job offers, qualifications, and employment
+    terms in classifieds
+  example_el: Είδα μια πολύ ενδιαφέρουσα αγγελία εργασίας για γραμματέα σε δικηγορικό
+    γραφείο.
+  example_en: I saw a very interesting job advertisement for a secretary at a law
+    office.
+  example2_el: Η αγγελία ζητάει άτομο με άριστη γνώση υπολογιστών και εμπειρία στις
+    πωλήσεις.
+  example2_en: The ad asks for an individual with excellent computer knowledge and
+    sales experience.
+  audio: i-aggelia-ergasias-cacbef.mp3
   status: verified
+  example_audio: eida-mia-poly-endiaf-7c0797.mp3
+  example2_audio: i-aggelia-zitaei-ato-daf8bd.mp3
 - id: A2-U09-002
-  greek: Η ατμόσφαιρα είναι ζεστή, το προσωπικό πολύ φιλικό και οι τιμές λογικές.
-  english: The atmosphere is warm, the staff very friendly, and the prices reasonable.
-  notes: '[Lego Sentence Builder] 3-part evaluation chunk: ''ζεστή ατμόσφαιρα'', ''φιλικό
-    προσωπικό'', ''λογικές τιμές''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Evaluating atmosphere, staff service, and pricing of
-    a venue
-  example_el: 'Μου αρέσει πολύ αυτό το μαγαζί: η ατμόσφαιρα είναι ζεστή, το προσωπικό
-    πολύ φιλικό και οι τιμές απόλυτα λογικές.'
-  example_en: 'I like this place very much: the atmosphere is warm, the staff very
-    friendly, and the prices completely reasonable.'
-  audio: i-atmosfaira-einai-z-d49163.mp3
+  greek: ο μισθός
+  english: salary / wage
+  notes: Masculine noun in -ός (-οί). Collocates with 'βασικός μισθός' (minimum wage)
+    and 'καθαρός μισθός' (net salary).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι μισθοί
+    collocation: βασικός μισθός (minimum wage)
+  keg_communicative_function: Inquiring about remuneration and payment terms in job
+    interviews
+  example_el: Ο μηνιαίος μισθός καταβάλλεται στον τραπεζικό λογαριασμό την τελευταία
+    εργάσιμη ημέρα.
+  example_en: The monthly salary is paid into the bank account on the last working
+    day.
+  example2_el: Προσφέρουν ικανοποιητικό μισθό και δυνατότητα επαγγελματικής εξέλιξης.
+  example2_en: They offer a satisfactory salary and potential for career development.
+  audio: o-misthos-73fe69.mp3
   status: verified
+  example_audio: o-miniaios-misthos-k-3974d5.mp3
+  example2_audio: prosferoyn-ikanopoii-fee5d7.mp3
 - id: A2-U09-003
-  greek: Πρέπει οπωσδήποτε να δοκιμάσεις το ψητό κρέας και τις φρέσκες σαλάτες.
-  english: You must definitely taste the grilled meat and the fresh salads.
-  notes: '[Lego Sentence Builder] Strong recommendation: ''πρέπει οπωσδήποτε να''
-    + subjunctive ''δοκιμάσεις''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Recommending specific dishes and culinary specialties
-  example_el: Όταν πας εκεί, πρέπει οπωσδήποτε να δοκιμάσεις το ψητό κρέας και τις
-    φρέσκες χωριάτικες σαλάτες.
-  example_en: When you go there, you must definitely taste the grilled meat and the
-    fresh Greek salads.
-  audio: prepei-oposdipote-na-bdd8dc.mp3
+  greek: η προϋπηρεσία
+  english: previous work experience
+  notes: 'Feminine noun in -α. Compound: προ + υπηρεσία. Prime requirement in Greek
+    job applications.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    collocation: προϋπηρεσία τουλάχιστον δύο ετών (at least two years of experience)
+  keg_communicative_function: Detailing professional background and years of service
+    in CVs
+  example_el: Απαιτείται προϋπηρεσία τουλάχιστον τριών ετών σε αντίστοιχη θέση.
+  example_en: At least three years of previous experience in an equivalent position
+    is required.
+  example2_el: Έχω πενταετή προϋπηρεσία στον τομέα της φιλοξενίας και του τουρισμού.
+  example2_en: I have five years of previous work experience in the hospitality and
+    tourism sector.
+  audio: i-proypiresia-ce2285.mp3
   status: verified
+  example_audio: apaiteitai-proypires-21a45e.mp3
+  example2_audio: echo-pentaeti-proypi-31bb58.mp3
 - id: A2-U09-004
-  greek: Χθες πήγα στην κεντρική αγορά για να αγοράσω ένα αναμνηστικό δώρο.
-  english: Yesterday I went to the central market to buy a souvenir gift.
-  notes: '[Lego Sentence Builder] Shopping narrative: ''πήγα'' + destination ''στην
-    κεντρική αγορά'' + purpose ''για να αγοράσω''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Narrating a shopping trip and gift purchase
-  example_el: Χθες το απόγευμα πήγα στην κεντρική αγορά για να αγοράσω ένα αναμνηστικό
-    δώρο για τα γενέθλια της μητέρας μου.
-  example_en: Yesterday afternoon I went to the central market to buy a souvenir gift
-    for my mother's birthday.
-  audio: chthes-piga-stin-ken-4d92a0.mp3
+  greek: τα προσόντα
+  english: qualifications / credentials
+  notes: Neuter plural noun (singular 'το προσόν' is rare). Essential heading in CVs
+    and vacancies.
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    genitive_plural: των προσόντων
+    collocation: απαιτούμενα προσόντα (required qualifications)
+  keg_communicative_function: Matching candidate profiles with employment prerequisites
+  example_el: Τα βασικά προσόντα για τη θέση περιλαμβάνουν πτυχίο πανεπιστημίου και
+    ξένες γλώσσες.
+  example_en: The basic qualifications for the position include a university degree
+    and foreign languages.
+  example2_el: Διαθέτει όλα τα απαραίτητα τυπικά και ουσιαστικά προσόντα.
+  example2_en: He possesses all the necessary formal and substantive qualifications.
+  audio: ta-prosonta-747999.mp3
   status: verified
+  example_audio: ta-vasika-prosonta-g-48c4f7.mp3
+  example2_audio: diathetei-ola-ta-apa-f8eaeb.mp3
 - id: A2-U09-005
-  greek: Μήπως έχετε αυτό το πουκάμισο σε μεσαίο μέγεθος και τι χρώματα υπάρχουν;
-  english: Do you perhaps have this shirt in medium size and what colors are available?
-  notes: '[Polite Transaction] Polite inquiry particle ''μήπως'' + clothing item ''πουκάμισο''
-    + size ''μεσαίο μέγεθος''.'
-  gender_or_pos: phrase
-  keg_communicative_function: Inquiring politely about garment sizes and color options
-    in a store
-  example_el: Καλησπέρα σας, μήπως έχετε αυτό το πουκάμισο σε μεσαίο μέγεθος και τι
-    άλλα χρώματα υπάρχουν;
-  example_en: Good evening, do you perhaps have this shirt in medium size and what
-    other colors are available?
-  audio: mipos-echete-ayto-to-33562a.mp3
+  greek: η πλήρης απασχόληση
+  english: full-time employment
+  notes: 'Feminine noun phrase. Contrast: ''η μερική απασχόληση'' (part-time).'
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    antonym: η μερική απασχόληση (part-time)
+    adjective: πλήρης (full)
+  keg_communicative_function: Specifying contract working modality in job searches
+    and interviews
+  example_el: Η εταιρεία αναζητά υπάλληλο γραφείου για πλήρη απασχόληση.
+  example_en: The company is seeking an office clerk for full-time employment.
+  example2_el: Προτιμώ την πλήρη απασχόληση επειδή παρέχει μεγαλύτερη σταθερότητα.
+  example2_en: I prefer full-time employment because it provides greater stability.
+  audio: i-pliris-apascholisi-d343b0.mp3
   status: verified
+  example_audio: i-etaireia-anazita-y-6ecfdb.mp3
+  example2_audio: protimo-tin-pliri-ap-0716e3.mp3
 - id: A2-U09-006
-  greek: Έκλεισα τραπέζι για τέσσερα άτομα στις εννιά το βράδυ στο όνομά μου.
-  english: I reserved a table for four people at nine in the evening under my name.
-  notes: '[Lego Sentence Builder] Table booking formula: ''έκλεισα τραπέζι για...
-    άτομα'' + time + ''στο όνομά μου''.'
-  gender_or_pos: sentence
-  keg_communicative_function: Confirming a restaurant table reservation with time
-    and headcount
-  example_el: 'Μην ανησυχείς για τη θέση: έκλεισα τραπέζι για τέσσερα άτομα στις εννιά
-    το βράδυ στο όνομά μου.'
-  example_en: 'Don''t worry about the seating: I reserved a table for four people
-    at nine in the evening under my name.'
-  audio: ekleisa-trapezi-gia--2813c1.mp3
+  greek: η μερική απασχόληση
+  english: part-time employment
+  notes: 'Feminine noun phrase. Contrast: ''η πλήρης απασχόληση''.'
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    antonym: η πλήρης απασχόληση
+  keg_communicative_function: Discussing flexible student jobs and part-time shifts
+  example_el: Ως φοιτητής εργαζόμουν με μερική απασχόληση σε ένα βιβλιοπωλείο.
+  example_en: As a student I worked part-time at a bookstore.
+  example2_el: Η θέση αφορά μερική απασχόληση τεσσάρων ωρών ημερησίως.
+  example2_en: The position concerns part-time employment of four hours daily.
+  audio: i-meriki-apascholisi-2f9933.mp3
   status: verified
+  example_audio: os-foititis-ergazomo-d94ffc.mp3
+  example2_audio: i-thesi-afora-meriki-4588a8.mp3
 - id: A2-U09-007
-  greek: Ο λογαριασμός δεν ήταν ακριβός και περάσαμε ένα υπέροχο βράδυ.
-  english: The bill was not expensive and we spent a wonderful evening.
-  notes: '[Lego Sentence Builder] Concluding dining review: ''λογαριασμός'' + adjective
-    ''ακριβός'' + positive impression.'
-  gender_or_pos: sentence
-  keg_communicative_function: Evaluating expenses and overall enjoyment of an evening
-    out
-  example_el: Φάγαμε πάρα πολύ καλά, ο λογαριασμός δεν ήταν ακριβός και περάσαμε ένα
-    υπέροχο βράδυ με την παρέα.
-  example_en: We ate very well, the bill was not expensive, and we spent a wonderful
-    evening with our friends.
-  audio: o-logariasmos-den-it-1fd31a.mp3
+  greek: η συνέντευξη εργασίας
+  english: job interview
+  notes: Feminine noun phrase. Relates to 'δίνω συνέντευξη' (to give an interview).
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: οι συνεντεύξεις εργασίας
+    collocation: περνάω από συνέντευξη
+  keg_communicative_function: Preparing for and describing employment interviews in
+    speaking Stage 1
+  example_el: Αύριο το πρωί έχω μια κρίσιμη συνέντευξη εργασίας με τον υπεύθυνο προσωπικού.
+  example_en: Tomorrow morning I have a crucial job interview with the HR manager.
+  example2_el: Στη συνέντευξη εργασίας με ρώτησαν για την εμπειρία μου και τους στόχους
+    μου.
+  example2_en: In the job interview they asked me about my experience and my goals.
+  audio: i-synenteyxi-ergasia-959404.mp3
   status: verified
+  example_audio: ayrio-to-proi-echo-m-71e6e9.mp3
+  example2_audio: sti-synenteyxi-ergas-06eb3a.mp3
 - id: A2-U09-008
-  greek: Πρόταση σε φίλο για παραδοσιακή ταβέρνα (Task 1 Simulation)
-  english: 'Prompt: Write a 35-40 word note recommending a taverna to a friend visiting
-    your city.'
-  notes: '[Micro-Prompt Simulation - Task 1: 36 words]
-
-    Examiner Prompt:
-
-    «Ένας φίλος σας επισκέπτεται την πόλη σας. Γράψτε του ένα μήνυμα (30-40 λέξεις)
-    για να του προτείνετε:
-
-    • πού να πάει να φάει
-
-    • ποια φαγητά να δοκιμάσει
-
-    • πώς είναι οι τιμές και η ατμόσφαιρα»
-
-
-    Gold-Standard Model Response:
-
-    Γεια σου Νίκο!
-
-    Σου προτείνω να φας στην ταβέρνα «Το Λιμάνι» στην παλιά πόλη. Πρέπει να δοκιμάσεις
-    το ψητό ψάρι και τη χωριάτικη σαλάτα. Η ατμόσφαιρα είναι υπέροχη και οι τιμές
-    είναι πολύ οικονομικές!
-
-    Καλή όρεξη,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a concise recommendation note detailing dining
-    advice and costs
-  example_el: Γεια σου Νίκο, σου προτείνω να φας στην ταβέρνα «Το Λιμάνι». Δοκίμασε
-    το ψητό ψάρι και τη σαλάτα. Η ατμόσφαιρα είναι τέλεια και οι τιμές οικονομικές!
-    Καλή όρεξη!
-  example_en: Hi Nikos, I recommend you eat at the taverna 'To Limani'. Try the grilled
-    fish and salad. The atmosphere is great and prices are economical! Bon appetit!
-  audio: protasi-se-filo-gia--3300a0.mp3
+  greek: η σύμβαση
+  english: employment contract / agreement
+  notes: Feminine noun in -η (-εις). Collocates with 'σύμβαση αορίστου χρόνου' (permanent
+    contract) or 'ορισμένου χρόνου' (fixed-term).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συμβάσεις
+    collocation: υπογράφω σύμβαση (to sign a contract)
+  keg_communicative_function: Understanding formal employment terms and contract conditions
+  example_el: Υπέγραψα σύμβαση εργασίας αορίστου χρόνου με την εταιρεία πληροφορικής.
+  example_en: I signed an open-ended employment contract with the IT company.
+  example2_el: Διαβάστε προσεκτικά όλους τους όρους πριν υπογράψετε τη σύμβαση.
+  example2_en: Read all terms carefully before signing the contract.
+  audio: i-symvasi-97b455.mp3
   status: verified
+  example_audio: ypegrapsa-symvasi-er-de9b84.mp3
+  example2_audio: diavaste-prosektika--69b188.mp3
 - id: A2-U09-009
-  greek: Email σε φίλο για απογευματινά ψώνια και καφέ (Task 2 Simulation)
-  english: 'Prompt: Write a 60-70 word email describing an afternoon outing for shopping
-    and coffee with a friend.'
-  notes: '[Micro-Prompt Simulation - Task 2: 67 words]
-
-    Examiner Prompt:
-
-    «Γράψτε ένα email σε μια φίλη σας (60-70 λέξεις) για να της περιγράψετε πώς περάσατε
-    το χθεσινό απόγευμα:
-
-    • με ποιον συναντηθήκατε και πού πήγατε
-
-    • τι ψωνίσατε στα μαγαζιά
-
-    • πού καθίσατε για καφέ και πώς περάσατε»
-
-
-    Gold-Standard Model Response:
-
-    Αγαπητή Κατερίνα,
-
-    Χθες το απόγευμα συνάντησα την Ελένη στο κέντρο της πόλης. Πρώτα πήγαμε στα εμπορικά
-    καταστήματα στην οδό Ερμού, όπου αγόρασα ένα όμορφο μπλε φόρεμα και παπούτσια.
-
-    Μετά καθίσαμε σε μια όμορφη καφετέρια στην πλατεία, ήπιαμε ζεστό καφέ και φάγαμε
-    γλυκό. Συζητήσαμε για πολλή ώρα και γελάσαμε πολύ. Ήταν ένα τέλειο απόγευμα!
-
-    Σε φιλώ,
-
-    [Όνομα]'
-  gender_or_pos: phrase
-  keg_communicative_function: Writing a past descriptive narrative about a social
-    shopping and cafe outing
-  example_el: Αγαπητή Κατερίνα, χθες συνάντησα την Ελένη στο κέντρο. Πρώτα πήγαμε
-    για ψώνια στην Ερμού και μετά ήπιαμε καφέ στην πλατεία. Ήταν ένα τέλειο απόγευμα!
-    Σε φιλώ!
-  example_en: Dear Katerina, yesterday I met Eleni in the center. First we went shopping
-    on Ermou street and then had coffee in the square. It was a perfect afternoon!
-    Kisses!
-  audio: email-se-filo-gia-ap-7dc5ae.mp3
+  greek: οι υπερωρίες
+  english: overtime (hours)
+  notes: Feminine noun plural (singular 'η υπερωρία'). Collocates with 'πληρώνομαι
+    υπερωρίες'.
+  gender_or_pos: noun (feminine plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    singular: η υπερωρία
+    verb: κάνω υπερωρίες
+  keg_communicative_function: Negotiating working schedule limits and overtime payments
+  example_el: Όταν υπάρχει πολλή δουλειά, κάνουμε υπερωρίες οι οποίες πληρώνονται
+    επιπλέον.
+  example_en: When there is a lot of work, we work overtime which is paid extra.
+  example2_el: Ο νόμος καθορίζει το ανώτατο όριο υπερωριών ανά μήνα.
+  example2_en: The law defines the maximum limit of overtime per month.
+  audio: oi-yperories-043a45.mp3
   status: verified
+  example_audio: otan-yparchei-polli--f32ccd.mp3
+  example2_audio: o-nomos-kathorizei-t-dc0ea4.mp3
 - id: A2-U09-010
-  greek: Μπορούμε να έχουμε τον λογαριασμό παρακαλώ; Πληρώνουμε με μετρητά ή με κάρτα;
-  english: Can we have the bill please? Do we pay in cash or by card?
-  notes: '[Practical Dining Dialogue] Asking for the check and payment method: ''μετρητά''
-    (cash), ''κάρτα'' (card).'
-  gender_or_pos: phrase
-  keg_communicative_function: Requesting the check and confirming acceptable payment
-    methods
-  example_el: Ευχαριστούμε πολύ για το φαγητό. Μπορούμε να έχουμε τον λογαριασμό παρακαλώ;
-    Πληρώνουμε με κάρτα;
-  example_en: Thank you very much for the food. Can we have the bill please? Do we
-    pay by card?
-  audio: mporoyme-na-echoyme--7e84f9.mp3
+  greek: η ασφάλιση
+  english: insurance / social security coverage
+  notes: Feminine noun in -η (-εις). Core civic entitlement (ΕΦΚΑ).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι ασφαλίσεις
+    collocation: κοινωνική ασφάλιση, ασφάλιση υγείας
+  keg_communicative_function: Clarifying social security benefits and health coverage
+    in employment inquiries
+  example_el: Η θέση παρέχει πλήρη ασφάλιση υγείας και συνταξιοδοτικά δικαιώματα.
+  example_en: The position provides full health insurance and pension rights.
+  example2_el: Πρέπει να ελέγξετε αν η ασφάλισή σας είναι ενεργή.
+  example2_en: You must check whether your insurance coverage is active.
+  audio: i-asfalisi-824b33.mp3
   status: verified
+  example_audio: i-thesi-parechei-pli-706a8b.mp3
+  example2_audio: prepei-na-elegxete-a-233792.mp3
+- id: A2-U09-011
+  greek: τα ένσημα
+  english: social security contributions / stamps
+  notes: Neuter plural noun. Quintessential Greek labor system concept denoting registered
+    workdays.
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    singular: το ένσημο
+    collocation: κολλάω ένσημα (to accrue social security stamps)
+  keg_communicative_function: Confirming legal registration of working days and insurance
+    stamps
+  example_el: Ο εργοδότης είναι υποχρεωμένος να κολλάει όλα τα νόμιμα ένσημα στον
+    εργαζόμενο.
+  example_en: The employer is obliged to contribute all legal social security stamps
+    for the employee.
+  example2_el: Χρειάζομαι βεβαίωση ενσήμων από τον ασφαλιστικό μου φορέα.
+  example2_en: I need an attestation of insurance stamps from my social security agency.
+  audio: ta-ensima-e87746.mp3
+  status: verified
+  example_audio: o-ergodotis-einai-yp-8de1ac.mp3
+  example2_audio: chreiazomai-vevaiosi-eb2731.mp3
+- id: A2-U09-012
+  greek: ο εργαζόμενος
+  english: employee / worker
+  notes: 'Masculine substantivized participle (-ος, -η, -ο). Plural: ''οι εργαζόμενοι''.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    feminine: η εργαζόμενη
+    plural: οι εργαζόμενοι
+    antonym: ο εργοδότης
+  keg_communicative_function: Discussing workers' rights, schedules, and responsibilities
+  example_el: Οι εργαζόμενοι της επιχείρησης δικαιούνται ετήσια άδεια με αποδοχές.
+  example_en: Employees of the enterprise are entitled to annual paid leave.
+  example2_el: Είναι ένας πολύ συνεπής και εργατικός εργαζόμενος.
+  example2_en: He is a very punctual and hardworking employee.
+  audio: o-ergazomenos-e1dc38.mp3
+  status: verified
+  example_audio: oi-ergazomenoi-tis-e-b78902.mp3
+  example2_audio: einai-enas-poly-syne-8df99f.mp3
+- id: A2-U09-013
+  greek: ο εργοδότης
+  english: employer
+  notes: 'Masculine noun in -ης (-ες). Feminine: ''η εργοδότρια''. Antonym: ''ο εργαζόμενος''.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι εργοδότες
+    feminine: η εργοδότρια
+    antonym: ο εργαζόμενος
+  keg_communicative_function: Referring to management and employer responsibilities
+    in workplace texts
+  example_el: Ο εργοδότης οφείλει να διασφαλίζει συνθήκες υγιεινής και ασφάλειας στον
+    χώρο εργασίας.
+  example_en: The employer is obliged to ensure health and safety conditions in the
+    workplace.
+  example2_el: Είχαμε μια εποικοδομητική συζήτηση με τον νέο εργοδότη.
+  example2_en: We had a constructive discussion with the new employer.
+  audio: o-ergodotis-15f80f.mp3
+  status: verified
+  example_audio: o-ergodotis-ofeilei--c78ea1.mp3
+  example2_audio: eichame-mia-epoikodo-0b3f3b.mp3
+- id: A2-U09-014
+  greek: η πρόσληψη
+  english: hiring / recruitment
+  notes: 'Feminine noun in -η (-εις). Verb: ''προσλαμβάνω'' (to hire). Antonym: ''η
+    απόλυση''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προσλήψεις
+    verb: προσλαμβάνω
+    antonym: η απόλυση
+  keg_communicative_function: Recognizing announcement of new hirings or job vacancy
+    offers
+  example_el: Η εταιρεία ανακοίνωσε την πρόσληψη είκοσι νέων προγραμματιστών.
+  example_en: The company announced the hiring of twenty new software developers.
+  example2_el: Μετά τη δεύτερη συνέντευξη έλαβα την επίσημη ειδοποίηση πρόσληψης.
+  example2_en: After the second interview I received the official hiring notification.
+  audio: i-proslipsi-09f35e.mp3
+  status: verified
+  example_audio: i-etaireia-anakoinos-807bfa.mp3
+  example2_audio: meta-ti-deyteri-syne-8ef8d4.mp3
+- id: A2-U09-015
+  greek: προσλαμβάνω
+  english: to hire / to employ
+  notes: 'Active compound verb (προς + λαμβάνω). Simple past: ''προσέλαβα''. Simple
+    future: ''θα προσλάβω''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: προσέλαβα
+    simple_future: θα προσλάβω
+    noun_derivative: η πρόσληψη
+  keg_communicative_function: Describing recruitment decisions and employer actions
+    in business dialogues
+  example_el: Το ξενοδοχείο προσλαμβάνει προσωπικό για την καλοκαιρινή τουριστική
+    περίοδο.
+  example_en: The hotel is hiring staff for the summer tourist season.
+  example2_el: Με προσέλαβαν αμέσως μόλις είδαν τις συστατικές μου επιστολές.
+  example2_en: They hired me immediately as soon as they saw my reference letters.
+  audio: proslamvano-7c2ed7.mp3
+  status: verified
+  example_audio: to-xenodocheio-prosl-bd77e3.mp3
+  example2_audio: me-proselavan-amesos-5d2986.mp3
+- id: A2-U09-016
+  greek: παραιτούμαι
+  english: to resign / to step down
+  notes: 'Deponent verb (παραιτούμαι, παραιτείσαι, παραιτείται). Simple past: ''παραιτήθηκα''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: παραιτήθηκα
+    simple_future: θα παραιτηθώ
+    noun_derivative: η παραίτηση
+  keg_communicative_function: Explaining past career transitions and resignation motives
+    in interviews
+  example_el: Παραιτήθηκα από την προηγούμενη δουλειά μου επειδή δεν υπήρχε προοπτική
+    εξέλιξης.
+  example_en: I resigned from my previous job because there was no prospect of advancement.
+  example2_el: Υπέβαλε την παραίτησή του και αποφάσισε να κάνει ένα νέο ξεκίνημα.
+  example2_en: He submitted his resignation and decided to make a fresh start.
+  audio: paraitoymai-795b31.mp3
+  status: verified
+  example_audio: paraitithika-apo-tin-d7f477.mp3
+  example2_audio: ypevale-tin-paraitis-dc1241.mp3
+- id: A2-U09-017
+  greek: αναζητώ
+  english: to seek / to look for
+  notes: 'Formal verb (αναζητώ, αναζητάς/αναζητείς). Standard formula in job ads:
+    ''εταιρεία αναζητά...''.'
+  gender_or_pos: verb
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: αναζήτησα
+    noun_derivative: η αναζήτηση
+  keg_communicative_function: Identifying employer search criteria in newspaper and
+    online vacancy listings
+  example_el: Μεγάλη εμπορική εταιρεία αναζητά άμεσα πωλητή με άριστες επικοινωνιακές
+    δεξιότητες.
+  example_en: A large commercial company is actively seeking a salesperson with excellent
+    communication skills.
+  example2_el: Αναζητώ μια σταθερή εργασία με προοπτικές μακροχρόνιας συνεργασίας.
+  example2_en: I am seeking a stable job with long-term collaboration prospects.
+  audio: anazito-7352ff.mp3
+  status: verified
+  example_audio: megali-emporiki-etai-29fb86.mp3
+  example2_audio: anazito-mia-statheri-a71e72.mp3
+- id: A2-U09-018
+  greek: αν
+  english: if (conditional particle)
+  notes: 'Conditional conjunction. Variant: ''εάν''. At A2 level, introduces Type
+    1 conditionals: ''αν + ενεστώτας -> μέλλοντας''.'
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conditional conjunction
+    variant: εάν
+    type_1_rule: αν + ενεστώτας -> θα + συνοπτικός μέλλοντας
+  keg_communicative_function: Stating realistic conditions and their future outcomes
+    in advice & proposals
+  example_el: Αν περάσετε τις εξετάσεις του Μαΐου, θα αποκτήσετε το επίσημο πιστοποιητικό.
+  example_en: If you pass the May exams, you will obtain the official certificate.
+  example2_el: Αν έχετε απορίες σχετικά με την αγγελία, καλέστε στο τηλέφωνο της εταιρείας.
+  example2_en: If you have questions regarding the advertisement, call the company
+    phone.
+  audio: an-23eff6.mp3
+  status: verified
+  example_audio: an-perasete-tis-exet-9a44fd.mp3
+  example2_audio: an-echete-apories-sc-4322e1.mp3
+- id: A2-U09-019
+  greek: μόλις
+  english: as soon as / just now
+  notes: 'Temporal conjunction taking subjunctive or past: ''μόλις λάβω'' (as soon
+    as I receive), ''μόλις έφτασα'' (I just arrived).'
+  gender_or_pos: conjunction / adverb
+  grammatical_info:
+    part_of_speech: conjunction
+    syntax: μόλις + υποτακτική (future time) / μόλις + αόριστος (immediate past)
+  keg_communicative_function: Sequencing immediate successive actions in business
+    correspondence
+  example_el: Θα σας ενημερώσω μόλις ολοκληρωθεί η αξιολόγηση των βιογραφικών.
+  example_en: I will inform you as soon as the evaluation of CVs is completed.
+  example2_el: Μόλις έλαβα την επιστολή αποδοχής της αίτησής μου.
+  example2_en: I just received the letter of acceptance of my application.
+  audio: molis-f0158b.mp3
+  status: verified
+  example_audio: tha-sas-enimeroso-mo-2db10f.mp3
+  example2_audio: molis-elava-tin-epis-3d5bfe.mp3
+- id: A2-U09-020
+  greek: αφού
+  english: after / since
+  notes: Subordinating temporal conjunction taking past tense or subjunctive.
+  gender_or_pos: conjunction
+  grammatical_info:
+    part_of_speech: conjunction
+    temporal_role: marks prior action before main clause
+  keg_communicative_function: Narrating chronological sequences in past career achievements
+  example_el: Αφού τελείωσε το πανεπιστήμιο, έκανε πρακτική άσκηση σε μεγάλη τράπεζα.
+  example_en: After finishing university, she did an internship at a major bank.
+  example2_el: Αφού συμφωνήσουμε στους όρους, θα προχωρήσουμε στην υπογραφή της σύμβασης.
+  example2_en: After we agree on the terms, we will proceed to signing the contract.
+  audio: afoy-7ba565.mp3
+  status: verified
+  example_audio: afoy-teleiose-to-pan-c9dd7f.mp3
+  example2_audio: afoy-symfonisoyme-st-d6a685.mp3
+- id: A2-U09-021
+  greek: πριν
+  english: before
+  notes: 'Temporal conjunction/adverb. Followed by ''να + subjunctive'': ''πριν υπογράψετε''.'
+  gender_or_pos: conjunction / adverb
+  grammatical_info:
+    part_of_speech: conjunction
+    syntax: πριν να + υποτακτική / πριν από + ουσιαστικό
+    antonym: μετά
+  keg_communicative_function: Setting cautionary pre-conditions in administrative
+    and legal processes
+  example_el: Ελέγξτε προσεκτικά τα στοιχεία σας πριν στείλετε το ηλεκτρονικό μήνυμα.
+  example_en: Check your details carefully before sending the email.
+  example2_el: Πριν από τη συνέντευξη καλό είναι να ενημερωθείτε για το προφίλ της
+    εταιρείας.
+  example2_en: Before the interview it is wise to get informed about the company's
+    profile.
+  audio: prin-7b9e5d.mp3
+  status: verified
+  example_audio: elegxte-prosektika-t-faaf82.mp3
+  example2_audio: prin-apo-ti-synentey-89d751.mp3
+- id: A2-U09-022
+  greek: η προϋπόθεση
+  english: prerequisite / condition
+  notes: 'Feminine noun in -η (-εις). Essential in criteria descriptions: ''υπό την
+    προϋπόθεση ότι''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι προϋποθέσεις
+    collocation: βασική προϋπόθεση (key prerequisite)
+  keg_communicative_function: Comprehending strict admission criteria and prerequisites
+    in job and exam ads
+  example_el: Η καλή γνώση της ελληνικής γλώσσας είναι απαραίτητη προϋπόθεση για την
+    πρόσληψη.
+  example_en: Good knowledge of the Greek language is an essential prerequisite for
+    hiring.
+  example2_el: Πληροίτε όλες τις προϋποθέσεις που ορίζει ο διαγωνισμός;
+  example2_en: Do you meet all the conditions set by the competition?
+  audio: i-proypothesi-94e3c8.mp3
+  status: verified
+  example_audio: i-kali-gnosi-tis-ell-678373.mp3
+  example2_audio: pliroite-oles-tis-pr-1a57cd.mp3
+- id: A2-U09-023
+  greek: τα καθήκοντα
+  english: duties / responsibilities / tasks
+  notes: Neuter plural noun (singular 'το καθήκον'). Key section in any employment
+    specification.
+  gender_or_pos: noun (neuter plural)
+  grammatical_info:
+    part_of_speech: noun (plural)
+    singular: το καθήκον
+    genitive_plural: των καθηκόντων
+    collocation: εκτελώ τα καθήκοντά μου
+  keg_communicative_function: Describing job role responsibilities and daily functions
+  example_el: Στα κύρια καθήκοντά σας περιλαμβάνεται η καθημερινή επικοινωνία με τους
+    πελάτες.
+  example_en: Your main duties include daily communication with clients.
+  example2_el: Ανέλαβε τα νέα του καθήκοντα ως υπεύθυνος τμήματος από την 1η του μηνός.
+  example2_en: He assumed his new duties as department head starting on the 1st of
+    the month.
+  audio: ta-kathikonta-4b002f.mp3
+  status: verified
+  example_audio: sta-kyria-kathikonta-e715ab.mp3
+  example2_audio: anelave-ta-nea-toy-k-638550.mp3
+- id: A2-U09-024
+  greek: το περιβάλλον εργασίας
+  english: working environment
+  notes: Neuter noun phrase. Standard term in attractive employer branding.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    collocation: ευχάριστο περιβάλλον εργασίας (pleasant work environment)
+  keg_communicative_function: Describing company culture and physical work atmosphere
+  example_el: Η εταιρεία προσφέρει ευχάριστο και δυναμικό περιβάλλον εργασίας με συνεχή
+    εκπαίδευση.
+  example_en: The company offers a pleasant and dynamic working environment with continuous
+    training.
+  example2_el: Ένα υγιές περιβάλλον εργασίας ενισχύει τη δημιουργικότητα και τη συνεργασία.
+  example2_en: A healthy working environment fosters creativity and collaboration.
+  audio: to-perivallon-ergasi-a6bf5b.mp3
+  status: verified
+  example_audio: i-etaireia-prosferei-207054.mp3
+  example2_audio: ena-ygies-perivallon-3cf994.mp3
+- id: A2-U09-025
+  greek: η εξέλιξη
+  english: development / career progression / evolution
+  notes: Feminine noun in -η (-εις). Collocates with 'δυνατότητα εξέλιξης' (advancement
+    opportunity).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εξελίξεις
+    verb: εξελίσσομαι
+    collocation: επαγγελματική εξέλιξη (career progression)
+  keg_communicative_function: Discussing career ambitions and professional growth
+    prospects in interviews
+  example_el: Αναζητώ μια θέση που να προσφέρει πραγματικές δυνατότητες επαγγελματικής
+    εξέλιξης.
+  example_en: I am seeking a position that offers real possibilities for professional
+    advancement.
+  example2_el: Η τεχνολογική εξέλιξη έχει αλλάξει τον τρόπο με τον οποίο εργαζόμαστε.
+  example2_en: Technological evolution has changed the way we work.
+  audio: i-exelixi-c7f3fe.mp3
+  status: verified
+  example_audio: anazito-mia-thesi-po-9494fa.mp3
+  example2_audio: i-technologiki-exeli-59d948.mp3
+- id: A2-U09-026
+  greek: ικανός
+  english: capable / competent / skilled
+  notes: 'Adjective in -ός, -ή, -ό. Antonym: ''ανίκανος''. Collocates with ''ικανός
+    να'' + subjunctive.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: ικανή
+    neuter: ικανό
+    noun: η ικανότητα (ability)
+  keg_communicative_function: Highlighting personal competences and problem-solving
+    abilities in CVs
+  example_el: Είναι ένας ιδιαίτερα ικανός επαγγελματίας που ανταποκρίνεται σε δύσκολες
+    προκλήσεις.
+  example_en: He is an exceptionally capable professional who rises to difficult challenges.
+  example2_el: Αισθάνομαι ικανός να αναλάβω αυξημένες ευθύνες στο τμήμα.
+  example2_en: I feel capable of undertaking increased responsibilities in the department.
+  audio: ikanos-951bec.mp3
+  status: verified
+  example_audio: einai-enas-idiaitera-15c699.mp3
+  example2_audio: aisthanomai-ikanos-n-31fcab.mp3
+- id: A2-U09-027
+  greek: έμπειρος
+  english: experienced
+  notes: 'Adjective in -ος, -η, -ο. Derived from ''η εμπειρία'' (experience). Antonym:
+    ''άπειρος''.'
+  gender_or_pos: adjective
+  grammatical_info:
+    part_of_speech: adjective
+    feminine: έμπειρη
+    neuter: έμπειρο
+    antonym: άπειρος (inexperienced)
+    noun: η εμπειρία
+  keg_communicative_function: Presenting accumulated professional experience in applications
+    and dialogues
+  example_el: Η ομάδα μας αποτελείται από έμπειρους καθηγητές με πολυετή διδακτική
+    πείρα.
+  example_en: Our team consists of experienced teachers with multi-year teaching experience.
+  example2_el: Ζητείται έμπειρος λογιστής για πλήρη απασχόληση.
+  example2_en: An experienced accountant is sought for full-time employment.
+  audio: empeiros-16a07f.mp3
+  status: verified
+  example_audio: i-omada-mas-apotelei-ea1b3e.mp3
+  example2_audio: ziteitai-empeiros-lo-bf78b5.mp3
+- id: A2-U09-028
+  greek: υπεύθυνος
+  english: responsible / in charge
+  notes: Adjective in -ος, -η, -ο. Substantivized 'ο υπεύθυνος' means the manager
+    / person in charge.
+  gender_or_pos: adjective / noun
+  grammatical_info:
+    part_of_speech: adjective
+    noun_use: ο υπεύθυνος (the manager in charge)
+    noun_quality: η υπευθυνότητα (responsibility)
+  keg_communicative_function: Demonstrating reliability and designating departmental
+    heads
+  example_el: Είμαι υπεύθυνος για την εξυπηρέτηση των πελατών και τη διαχείριση παραγγελιών.
+  example_en: I am responsible for customer service and order management.
+  example2_el: Μπορώ να μιλήσω με τον υπεύθυνο του καταστήματος παρακαλώ;
+  example2_en: May I speak with the store manager please?
+  audio: ypeythynos-f62149.mp3
+  status: verified
+  example_audio: eimai-ypeythynos-gia-85a7b4.mp3
+  example2_audio: mporo-na-miliso-me-t-e59b50.mp3
+- id: A2-U09-029
+  greek: η συνεργασία
+  english: cooperation / collaboration
+  notes: Feminine noun in -α (-ες). Relates to 'συνεργάζομαι' (to cooperate). Standard
+    in formal letter closings.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι συνεργασίες
+    verb: συνεργάζομαι
+    collocation: προσβλέπω σε μια γόνιμη συνεργασία
+  keg_communicative_function: Expressing desire for professional teamwork and successful
+    partnerships
+  example_el: Σας ευχαριστώ εκ των προτέρων και προσβλέπω σε μια άριστη συνεργασία.
+  example_en: I thank you in advance and look forward to an excellent collaboration.
+  example2_el: Η καλή συνεργασία μεταξύ των συναδέλφων είναι απαραίτητη για την επιτυχία
+    του έργου.
+  example2_en: Good collaboration among colleagues is essential for the project's
+    success.
+  audio: i-synergasia-b7f256.mp3
+  status: verified
+  example_audio: sas-eycharisto-ek-to-bc802e.mp3
+  example2_audio: i-kali-synergasia-me-a28101.mp3
+- id: A2-U09-030
+  greek: η απόλυση
+  english: dismissal / layoff / termination
+  notes: 'Feminine noun in -η (-εις). Verb: ''απολύω'' (to dismiss). Antonym: ''η
+    πρόσληψη''.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι απολύσεις
+    verb: απολύω
+    antonym: η πρόσληψη
+  keg_communicative_function: Discussing labor news and employment disruptions in
+    Reading Part 2
+  example_el: Σε περίπτωση απόλυσης, ο εργαζόμενος δικαιούται νόμιμη αποζημίωση.
+  example_en: In case of dismissal, the employee is entitled to statutory compensation.
+  example2_el: Το εργοστάσιο ανακοίνωσε ότι δεν θα προχωρήσει σε απολύσεις προσωπικού.
+  example2_en: The factory announced that it will not proceed with staff layoffs.
+  audio: i-apolysi-0fd7b6.mp3
+  status: verified
+  example_audio: se-periptosi-apolysi-003a8f.mp3
+  example2_audio: to-ergostasio-anakoi-5eddde.mp3
+- id: A2-U09-031
+  greek: το επίδομα
+  english: allowance / benefit / subsidy
+  notes: 'Neuter noun in -μα (-ματα). Examples: επίδομα ανεργίας (unemployment benefit),
+    επίδομα αδείας (holiday bonus).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επιδόματα
+    genitive_singular: του επιδόματος
+    collocation: επίδομα ανεργίας (unemployment benefit)
+  keg_communicative_function: Understanding state welfare allowances and social benefits
+    at public agencies
+  example_el: Υπέβαλε τα δικαιολογητικά στη ΔΥΠΑ για να λάβει το επίδομα ανεργίας.
+  example_en: He submitted the supporting documents to DYPA to receive the unemployment
+    benefit.
+  example2_el: Ο νόμος προβλέπει επίδομα τέκνων για οικογένειες με χαμηλό εισόδημα.
+  example2_en: The law provides a child allowance for low-income families.
+  audio: to-epidoma-3f40c7.mp3
+  status: verified
+  example_audio: ypevale-ta-dikaiolog-6b5b8d.mp3
+  example2_audio: o-nomos-provlepei-ep-9b5295.mp3
+- id: A2-U09-032
+  greek: η άδεια με αποδοχές
+  english: paid leave
+  notes: Feminine noun phrase. 'Αποδοχές' = earnings/salary.
+  gender_or_pos: noun phrase (feminine)
+  grammatical_info:
+    part_of_speech: noun phrase
+    contrast: άδεια άνευ αποδοχών (unpaid leave)
+  keg_communicative_function: Inquiring about statutory annual vacation rights in
+    employment negotiations
+  example_el: Κάθε εργαζόμενος στον ιδιωτικό τομέα δικαιούται κανονική άδεια με αποδοχές.
+  example_en: Every worker in the private sector is entitled to regular paid leave.
+  example2_el: Ζήτησε τρεις μέρες άδεια με αποδοχές για οικογενειακούς λόγους.
+  example2_en: She requested three days paid leave for family reasons.
+  audio: i-adeia-me-apodoches-cc8376.mp3
+  status: verified
+  example_audio: kathe-ergazomenos-st-0ed025.mp3
+  example2_audio: zitise-treis-meres-a-7d9009.mp3
+- id: A2-U09-033
+  greek: το ωράριο εργασίας
+  english: working hours / work schedule
+  notes: Neuter noun phrase. Collocates with 'ευέλικτο ωράριο' (flexible hours) or
+    'συνεχές ωράριο'.
+  gender_or_pos: noun phrase (neuter)
+  grammatical_info:
+    part_of_speech: noun phrase
+    plural: τα ωράρια εργασίας
+    collocation: ευέλικτο ωράριο (flexible schedule)
+  keg_communicative_function: Agreeing on daily shift hours and weekly schedules
+  example_el: Το ωράριο εργασίας είναι οκτάωρο, από τις εννιά το πρωί έως τις πέντε
+    το απόγευμα.
+  example_en: The working schedule is eight hours, from nine in the morning until
+    five in the afternoon.
+  example2_el: Προτιμώ μια δουλειά με σταθερό ωράριο χωρίς νυχτερινές βάρδιες.
+  example2_en: I prefer a job with fixed hours without night shifts.
+  audio: to-orario-ergasias-0afddb.mp3
+  status: verified
+  example_audio: to-orario-ergasias-e-3a3257.mp3
+  example2_audio: protimo-mia-doyleia--7cee0f.mp3
+- id: A2-U09-034
+  greek: διαπραγματεύομαι
+  english: to negotiate
+  notes: 'Deponent verb. Simple past: ''διαπραγματεύτηκα''. Relates to ''η διαπραγμάτευση''.'
+  gender_or_pos: verb (deponent)
+  grammatical_info:
+    part_of_speech: verb
+    simple_past: διαπραγματεύτηκα
+    noun_derivative: η διαπραγμάτευση
+  keg_communicative_function: Negotiating salary terms, schedules, or commercial agreements
+  example_el: Στη συνέντευξη διαπραγματεύτηκε έναν καλύτερο βασικό μισθό.
+  example_en: In the interview he negotiated a better base salary.
+  example2_el: Είναι σημαντικό να γνωρίζεις τα δικαιώματά σου πριν διαπραγματευτείς
+    τους όρους.
+  example2_en: It is important to know your rights before you negotiate the terms.
+  audio: diapragmateyomai-940d20.mp3
+  status: verified
+  example_audio: sti-synenteyxi-diapr-f52f92.mp3
+  example2_audio: einai-simantiko-na-g-8ab9bb.mp3
+- id: A2-U09-035
+  greek: το επάγγελμα
+  english: profession / occupation
+  notes: Neuter noun in -μα (-ματα). Key question in Speaking Stage 1 ('Ποιο είναι
+    το επάγγελμά σας;').
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα επαγγέλματα
+    genitive_singular: του επαγγέλματος
+    adjective: επαγγελματικός, -ή, -ό
+  keg_communicative_function: Stating one's profession, trade, and career history
+    in candidate interviews
+  example_el: Ποιο είναι το επάγγελμά σας και πόσα χρόνια εργάζεστε σε αυτόν τον τομέα;
+  example_en: What is your profession and how many years have you been working in
+    this sector?
+  example2_el: Το επάγγελμα του μεταφραστή απαιτεί διαρκή γλωσσική εξάσκηση και ακρίβεια.
+  example2_en: The profession of translator requires continuous linguistic practice
+    and precision.
+  audio: to-epaggelma-f3017e.mp3
+  status: verified
+  example_audio: poio-einai-to-epagge-441263.mp3
+  example2_audio: to-epaggelma-toy-met-fbad97.mp3
