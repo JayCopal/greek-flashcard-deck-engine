@@ -1,0 +1,724 @@
+unit_id: unit-cyp-03
+lesson_id: lesson-01
+title: 'Μάθημα 3: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της Κύπρου (Geography, Districts,
+  Cities & Nature)'
+description: Geographical position in the northeastern Mediterranean, the 6 administrative
+  districts, major cities and traditional villages (Omodos, Lefkara, Kakopetria, Fikardou),
+  Troodos and Pentadaktylos mountain ranges, Pedieos river, Kouris dam, and endemic
+  flora and fauna (mouflon, golden oak).
+lesson_status: not_started
+lesson_notes: "Unit CYP-03 Core Exam Notes: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της\
+  \ Κύπρου (Geography, Districts, Cities & Nature)\n\n• Γεωγραφική Θέση & Μέγεθος:\n\
+  \  - Η Κύπρος βρίσκεται στη βορειοανατολική Μεσόγειο (Northeastern Mediterranean),\
+  \ στο σταυροδρόμι Ευρώπης, Ασίας και Αφρικής.\n  - Είναι το τρίτο μεγαλύτερο νησί\
+  \ της Μεσογείου (μετά τη Σικελία και τη Σαρδηνία), με έκταση 9.251 τετραγωνικά χιλιόμετρα\
+  \ (τ.χλμ.).\n\n• Οι 6 Επαρχίες της Κύπρου (The 6 Administrative Districts — High\
+  \ Exam Frequency!):\n  1. Λευκωσία (Nicosia): Πρωτεύουσα και μεγαλύτερη σε πληθυσμό\
+  \ πόλη, στο κέντρο του νησιού. Η τελευταία διαιρεμένη πρωτεύουσα της Ευρώπης.\n\
+  \  2. Λεμεσός (Limassol): Δεύτερη μεγαλύτερη πόλη, στη νότια ακτή. Διαθέτει το μεγαλύτερο\
+  \ εμπορικό λιμάνι της Κύπρου και αποτελεί κέντρο ναυτιλίας.\n  3. Λάρνακα (Larnaca):\
+  \ Στη νοτιοανατολική ακτή. Διαθέτει το κύριο διεθνές αεροδρόμιο, την Αλυκή Λάρνακας\
+  \ (με τα φλαμίνγκο) και το τέμενος Χαλά Σουλτάν Τεκκέ.\n  4. Πάφος (Paphos): Στη\
+  \ νοτιοδυτική Κύπρο. Διαθέτει το δεύτερο διεθνές αεροδρόμιο, την Πόλη Χρυσοχούς,\
+  \ τη χερσόνησο του Ακάμα και μνημεία UNESCO.\n  5. Αμμόχωστος (Famagusta): Στα ανατολικά.\
+  \ Η πόλη της Αμμοχώστου είναι κατεχόμενη από το 1974. Στην ελεύθερη επαρχία Αμμοχώστου\
+  \ ανήκουν το Παραλίμνι (προσωρινή διοικητική έδρα), η Αγία Νάπα, ο Πρωταράς και\
+  \ η Δερύνεια.\n  6. Κερύνεια (Kyrenia): Στη βόρεια ακτή. Είναι η μικρότερη επαρχία\
+  \ και η μόνη που βρίσκεται εξ ολοκλήρου υπό τουρκική κατοχή από το 1974.\n\n• Βουνά,\
+  \ Πεδιάδες, Ποτάμια & Φύση:\n  - Οροσειρά του Τροόδους: Η μεγαλύτερη οροσειρά (κεντρική/νοτιοδυτική\
+  \ Κύπρος). Ψηλότερη κορυφή: ο Όλυμπος (Χιονίστρα) στα 1.952 μέτρα. Άλλες κορυφές\
+  \ Τροόδους: Μαδαρή, Παπούτσα.\n  - Οροσειρά του Πενταδακτύλου (Βόρεια): Κατεχόμενη\
+  \ ασβεστολιθική οροσειρά. Κορυφές & κάστρα: Κυπαρισσόβουνο (1.024 μ.), Άγιος Ιλαρίωνας,\
+  \ Βουφαβέντο, Καντάρα.\n  - Πεδιάδα της Μεσαορίας: Η μεγαλύτερη εύφορη πεδιάδα,\
+  \ ανάμεσα στο Τρόοδος και τον Πενταδάκτυλο.\n  - Ποταμοί & Φράγματα: Μεγαλύτερος\
+  \ ποταμός ο Πεδιαίος (ή Πηδιάς, ~100 χλμ.). Μεγαλύτερο φράγμα: το φράγμα του Κούρη\
+  \ (στην επαρχία Λεμεσού).\n  - Χλωρίδα & Πανίδα: Εθνικό ζώο το κυπριακό αγρινό (Ovis\
+  \ orientalis ophion), θαλάσσιες χελώνες Καρέτα-Καρέτα και Πράσινη Χελώνα (στον Ακάμα/Λάρα),\
+  \ εθνικό δέντρο η λατζιά (χρυσή δρυς της Κύπρου)."
+entries:
+- id: CYP-U03-001
+  greek: — Σε ποιο μέρος της Μεσογείου βρίσκεται η Κύπρος; — Στη βορειοανατολική Μεσόγειο.
+  phonetic_hint: seh pyoh MEH-ros tees meh-soh-YEE-oo VREE-skeh-teh ee KEE-pros? stee
+    voh-ree-oh-ah-nah-toh-lee-KEE meh-SOH-yee-oh
+  english: — In which part of the Mediterranean is Cyprus located? — In the northeastern
+    Mediterranean.
+  notes: Actual past exam question! Watch out for distractors like 'νοτιοδυτική' or
+    'βορειοδυτική'. Cyprus is in the northeastern corner of the Mediterranean (βορειοανατολική
+    Μεσόγειος).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Geographical location of Cyprus
+  example_el: Η Κύπρος βρίσκεται στη βορειοανατολική λεκάνη της Μεσογείου, στο σταυροδρόμι
+    τριών ηπείρων.
+  example_en: Cyprus is located in the northeastern basin of the Mediterranean, at
+    the crossroads of three continents.
+  example2_el: Με έκταση 9.251 τετραγωνικά χιλιόμετρα, η Κύπρος είναι το τρίτο μεγαλύτερο
+    νησί της Μεσογείου μετά τη Σικελία και τη Σαρδηνία.
+  example2_en: With an area of 9,251 square kilometers, Cyprus is the third largest
+    island in the Mediterranean after Sicily and Sardinia.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-002
+  greek: — Ποιες είναι οι έξι (6) επαρχίες της Κυπριακής Δημοκρατίας; — Λευκωσία,
+    Λεμεσός, Λάρνακα, Πάφος, Αμμόχωστος και Κερύνεια.
+  phonetic_hint: pyehs EE-neh ee EHK-see eh-pahr-KHEE-ehs tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs?
+    lef-koh-SEE-ah, leh-meh-SOHS, LAHR-nah-kah, PAH-fos, ah-MOH-khoh-stos keh keh-REE-nyah
+  english: — What are the six (6) districts of the Republic of Cyprus? — Nicosia,
+    Limassol, Larnaca, Paphos, Famagusta, and Kyrenia.
+  notes: Essential exam question! Cyprus is administratively divided into 6 districts
+    (έξι επαρχίες).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Six administrative districts of Cyprus
+  example_el: Η Κυπριακή Δημοκρατία διαιρείται διοικητικά σε έξι επαρχίες.
+  example_en: The Republic of Cyprus is administratively divided into six districts.
+  example2_el: Η επαρχία Λευκωσίας είναι η μεγαλύτερη σε πληθυσμό, ενώ η επαρχία Κερύνειας
+    είναι η μικρότερη σε έκταση.
+  example2_en: The Nicosia district is the largest in population, while the Kyrenia
+    district is the smallest in area.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-003
+  greek: η Λευκωσία (η πρωτεύουσα)
+  phonetic_hint: ee lef-koh-SEE-ah (ee proh-TEH-voo-sah)
+  english: Nicosia (the capital city)
+  notes: Capital and largest city of Cyprus, located inland near the center of the
+    island; surrounded in its historic core by the 16th-century Venetian Walls (τα
+    Ενετικά Τείχη).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: τη Λευκωσία
+    genitive_singular: της Λευκωσίας
+  keg_communicative_function: Geography — Capital of Cyprus
+  example_el: Η Λευκωσία είναι η πρωτεύουσα της Κύπρου και η τελευταία διαιρεμένη
+    πρωτεύουσα της Ευρώπης.
+  example_en: Nicosia is the capital of Cyprus and the last divided capital of Europe.
+  example2_el: Η παλιά πόλη της Λευκωσίας περιβάλλεται από τα κυκλικά Ενετικά Τείχη
+    του 16ου αιώνα.
+  example2_en: The old city of Nicosia is surrounded by the circular Venetian Walls
+    of the 16th century.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-004
+  greek: η Λεμεσός
+  phonetic_hint: ee leh-meh-SOHS
+  english: Limassol
+  notes: Second largest urban area in Cyprus, located on the southern coast between
+    the ancient cities of Amathus (Αμαθούντα) and Kourion (Κούριο); hosts Cyprus's
+    largest commercial port.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: τη Λεμεσό
+    genitive_singular: της Λεμεσού
+  keg_communicative_function: Geography — Major cities of Cyprus
+  example_el: Η Λεμεσός διαθέτει το μεγαλύτερο εμπορικό λιμάνι της Κύπρου και αποτελεί
+    διεθνές ναυτιλιακό κέντρο.
+  example_en: Limassol has the largest commercial port in Cyprus and is an international
+    shipping center.
+  example2_el: Στη Λεμεσό διοργανώνονται κάθε χρόνο το μεγάλο Καρναβάλι και η παραδοσιακή
+    Γιορτή του Κρασιού.
+  example2_en: In Limassol, the grand Carnival and the traditional Wine Festival are
+    organized every year.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-005
+  greek: η Λάρνακα
+  phonetic_hint: ee LAHR-nah-kah
+  english: Larnaca
+  notes: Built over ancient Kition (το αρχαίο Κίτιο), birthplace of the Stoic philosopher
+    Zeno (Ζήνωνας ο Κιτιεύς). Home to Cyprus's largest international airport, Finikoudes
+    promenade, Saint Lazarus Church, and the Salt Lake.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: τη Λάρνακα
+    genitive_singular: της Λάρνακας
+  keg_communicative_function: Geography — Major cities of Cyprus
+  example_el: Η Λάρνακα είναι χτισμένη στη θέση του αρχαίου βασιλείου του Κιτίου και
+    διαθέτει το μεγαλύτερο αεροδρόμιο της χώρας.
+  example_en: Larnaca is built on the site of the ancient kingdom of Kition and has
+    the country's largest airport.
+  example2_el: Τον χειμώνα χιλιάδες ροζ φλαμίνγκο φιλοξενούνται στον υγροβιότοπο της
+    Αλυκής Λάρνακας.
+  example2_en: In winter, thousands of pink flamingos are hosted at the Larnaca Salt
+    Lake wetland.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-006
+  greek: η Πάφος
+  phonetic_hint: ee PAH-fos
+  english: Paphos
+  notes: Located in southwestern Cyprus; mythical birthplace of Aphrodite, capital
+    of Cyprus in Hellenistic and Roman times, and European Capital of Culture in 2017
+    (Πολιτιστική Πρωτεύουσα της Ευρώπης 2017).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: την Πάφο
+    genitive_singular: της Πάφου
+  keg_communicative_function: Geography — Major cities of Cyprus
+  example_el: Η Πάφος υπήρξε Πολιτιστική Πρωτεύουσα της Ευρώπης το 2017 και φημίζεται
+    για τα ρωμαϊκά ψηφιδωτά της.
+  example_en: Paphos was European Capital of Culture in 2017 and is famous for its
+    Roman mosaics.
+  example2_el: Στην επαρχία Πάφου βρίσκεται η Πέτρα του Ρωμιού, η οποία συνδέεται
+    με τον μύθο της γέννησης της θεάς Αφροδίτης.
+  example2_en: In the Paphos district lies Petra tou Romiou, which is linked to the
+    myth of the birth of the goddess Aphrodite.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-007
+  greek: — Σε ποια επαρχία ανήκει η Πόλη Χρυσοχούς; — Στην επαρχία Πάφου.
+  phonetic_hint: seh pyah eh-pahr-KHEE-ah ah-NEE-kee ee POH-lee khree-soh-KHOOS? steen
+    eh-pahr-KHEE-ah PAH-foo
+  english: — To which district does Polis Chrysochous belong? — To the Paphos district.
+  notes: Actual past exam question! Polis Chrysochous (with the fishing port of Latchi
+    / Λατσί and the Baths of Aphrodite) is in the northwestern part of the Paphos
+    district.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — District of Polis Chrysochous
+  example_el: Η Πόλη Χρυσοχούς βρίσκεται στα βορειοδυτικά της επαρχίας Πάφου, κοντά
+    στη χερσόνησο του Ακάμα.
+  example_en: Polis Chrysochous is located in the northwest of the Paphos district,
+    near the Akamas peninsula.
+  example2_el: Κοντά στην Πόλη Χρυσοχούς βρίσκονται το λιμανάκι στο Λατσί και τα Λουτρά
+    της Αφροδίτης.
+  example2_en: Near Polis Chrysochous are the small harbor of Latchi and the Baths
+    of Aphrodite.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-008
+  greek: — Σε ποια επαρχία ανήκουν η Αγία Νάπα, το Παραλίμνι και ο Πρωταράς; — Στην
+    επαρχία Αμμοχώστου.
+  phonetic_hint: seh pyah eh-pahr-KHEE-ah ah-NEE-koon ee ah-YEE-ah NAH-pah, toh pah-rah-LEEM-nee
+    keh oh proh-tah-RAHS? steen eh-pahr-KHEE-ah ah-moh-KHOH-stoo
+  english: — To which district do Ayia Napa, Paralimni, and Protaras belong? — To
+    the Famagusta district.
+  notes: Frequent past exam question! Candidates often mistakenly guess Larnaca because
+    they fly into Larnaca airport; Ayia Napa, Paralimni, Protaras, Deryneia, and Sotira
+    make up the free Famagusta area (ελεύθερη επαρχία Αμμοχώστου).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Free Famagusta District towns
+  example_el: Το Παραλίμνι αποτελεί την προσωρινή διοικητική έδρα της ελεύθερης επαρχίας
+    Αμμοχώστου.
+  example_en: Paralimni serves as the temporary administrative center of the free
+    Famagusta district.
+  example2_el: Το εθνικό δασικό πάρκο του Κάβο Γκρέκο βρίσκεται ανάμεσα στην Αγία
+    Νάπα και τον Πρωταρά στην επαρχία Αμμοχώστου.
+  example2_en: The Cape Greco National Forest Park is located between Ayia Napa and
+    Protaras in the Famagusta district.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-009
+  greek: — Ποια επαρχία της Κύπρου βρίσκεται ολόκληρη υπό τουρκική κατοχή από το 1974;
+    — Η επαρχία Κερύνειας.
+  phonetic_hint: pyah eh-pahr-KHEE-ah tees KEE-proo VREE-skeh-teh oh-LOH-klee-ree
+    ee-POH toor-kee-KEE kah-toh-KHEE? ee eh-pahr-KHEE-ah keh-REE-nyahs
+  english: — Which district of Cyprus has been entirely under Turkish occupation since
+    1974? — The Kyrenia district.
+  notes: Past exam question! While parts of Nicosia, Famagusta, and Larnaca districts
+    are also occupied, Kyrenia (η Κερύνεια) is the only district that is 100% occupied.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Occupied districts of Cyprus
+  example_el: Η επαρχία Κερύνειας είναι η μόνη από τις έξι επαρχίες που είναι εξ ολοκλήρου
+    κατεχόμενη από το 1974.
+  example_en: The Kyrenia district is the only one of the six districts that has been
+    wholly occupied since 1974.
+  example2_el: Στην πόλη της Κερύνειας βρίσκεται το μεσαιωνικό κάστρο όπου εκτίθεται
+    το αρχαίο καράβι της Κερύνειας.
+  example2_en: In the city of Kyrenia stands the medieval castle where the ancient
+    Kyrenia ship is exhibited.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-010
+  greek: η οροσειρά του Τροόδους
+  phonetic_hint: ee oh-roh-see-RAH too troh-OH-thoos
+  english: the Troodos mountain range
+  notes: Largest mountain range in Cyprus, covering much of the western and central
+    parts of the island; rich in pine forests, copper ore (οφιολιθικό σύμπλεγμα),
+    and UNESCO-listed Byzantine churches.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι οροσειρές
+    accusative_singular: την οροσειρά του Τροόδους
+  keg_communicative_function: Geography — Mountain ranges of Cyprus
+  example_el: Η οροσειρά του Τροόδους είναι ο σημαντικότερος φυσικός πνεύμονας πρασίνου
+    και κύρια πηγή νερού της Κύπρου.
+  example_en: The Troodos mountain range is the most important natural green lung
+    and main water source of Cyprus.
+  example2_el: Οι κορυφές Μαδαρή και Παπούτσα ανήκουν στην οροσειρά του Τροόδους.
+  example2_en: The peaks Madari and Papoutsa belong to the Troodos mountain range.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-011
+  greek: — Ποια είναι η ψηλότερη κορυφή της Κύπρου; — Ο Όλυμπος (Χιονίστρα) στο Τρόοδος,
+    με ύψος 1.952 μέτρα.
+  phonetic_hint: pyah EE-neh ee psee-LOH-teh-ree koh-ree-FEE tees KEE-proo? oh OH-leem-bos
+    (khyoh-NEE-strah) stoh TROH-oh-thos
+  english: — What is the highest peak in Cyprus? — Mount Olympus (Chionistra) in Troodos,
+    at 1,952 meters.
+  notes: Past exam question! Mount Olympus (also called Chionistra / Χιονίστρα) in
+    the Troodos range reaches 1,952 meters above sea level.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Highest mountain peak of Cyprus
+  example_el: Ο Όλυμπος, γνωστός και ως Χιονίστρα, έχει υψόμετρο 1.952 μέτρα και χιονίζεται
+    κάθε χειμώνα.
+  example_en: Mount Olympus, also known as Chionistra, has an elevation of 1,952 meters
+    and receives snow every winter.
+  example2_el: Ο Πρόδρομος, σε υψόμετρο 1.380 μέτρων στο Τρόοδος, είναι το ψηλότερο
+    κατοικημένο χωριό της Κύπρου.
+  example2_en: Prodromos, at an altitude of 1,380 meters in Troodos, is the highest
+    inhabited village in Cyprus.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-012
+  greek: η οροσειρά του Πενταδακτύλου
+  phonetic_hint: ee oh-roh-see-RAH too pehn-dah-thahk-TEE-loo
+  english: the Pentadaktylos (Kyrenia) mountain range
+  notes: Past exam question often asks to distinguish Pentadaktylos peaks/castles
+    (Κυπαρισσόβουνο 1.024 μ., Άγιος Ιλαρίωνας, Βουφαβέντο, Καντάρα) from Troodos peaks
+    (Όλυμπος, Μαδαρή, Παπούτσα).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι οροσειρές
+    accusative_singular: την οροσειρά του Πενταδακτύλου
+  keg_communicative_function: Geography — Mountain ranges & castles of Cyprus
+  example_el: 'Στην οροσειρά του Πενταδακτύλου βρίσκονται τα τρία βυζαντινά κάστρα:
+    του Αγίου Ιλαρίωνα, του Βουφαβέντο και της Καντάρας.'
+  example_en: 'In the Pentadaktylos range stand the three Byzantine castles: Saint
+    Hilarion, Buffavento, and Kantara.'
+  example2_el: Η ψηλότερη κορυφή του Πενταδακτύλου είναι το Κυπαρισσόβουνο με ύψος
+    1.024 μέτρα.
+  example2_en: The highest peak of Pentadaktylos is Kyparissovouno with a height of
+    1,024 meters.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-013
+  greek: η πεδιάδα της Μεσαορίας
+  phonetic_hint: ee peh-thee-AH-thah tees meh-sah-oh-REE-ahs
+  english: the Mesaoria plain
+  notes: 'Meaning ''between the mountains'' (μεταξύ των ορέων): the central agricultural
+    plain stretching across the island from Morphou Bay in the west to Famagusta Bay
+    in the east, between Troodos and Pentadaktylos.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι πεδιάδες
+    accusative_singular: την πεδιάδα της Μεσαορίας
+  keg_communicative_function: Geography — Plains and agriculture
+  example_el: Η πεδιάδα της Μεσαορίας εκτείνεται ανάμεσα στην οροσειρά του Τροόδους
+    και την οροσειρά του Πενταδακτύλου.
+  example_en: The Mesaoria plain stretches between the Troodos mountain range and
+    the Pentadaktylos mountain range.
+  example2_el: Η Μεσαορία αποτελεί τον κύριο σιτοβολώνα της Κύπρου, όπου καλλιεργούνται
+    δημητριακά και πατάτες.
+  example2_en: Mesaoria is the main breadbasket of Cyprus, where cereals and potatoes
+    are cultivated.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-014
+  greek: — Ποιος είναι ο μεγαλύτερος ποταμός της Κύπρου; — Ο Πεδιαίος (ή Πηδιάς).
+  phonetic_hint: pyos EE-neh oh meh-ghah-LEE-teh-ros poh-tah-MOHS tees KEE-proo? oh
+    peh-thee-EH-os (ee pee-THYAHS)
+  english: — Which is the longest river in Cyprus? — The Pedieos (or Pidias) river.
+  notes: Past exam question! The Pedieos river originates in Troodos near Machairas
+    Monastery, flows through Nicosia and the Mesaoria plain, and empties into Famagusta
+    Bay (~100 km long).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Longest river in Cyprus
+  example_el: Ο Πεδιαίος ποταμός έχει μήκος περίπου 100 χιλιόμετρα, πηγάζει από το
+    Τρόοδος και διασχίζει τη Λευκωσία.
+  example_en: The Pedieos river is about 100 kilometers long, originates in Troodos,
+    and flows through Nicosia.
+  example2_el: Όλοι οι ποταμοί της Κύπρου είναι χείμαρροι που τροφοδοτούνται από τις
+    βροχές του χειμώνα και το λιώσιμο του χιονιού.
+  example2_en: All rivers in Cyprus are seasonal streams fed by winter rains and melting
+    snow.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-015
+  greek: — Ποιο είναι το μεγαλύτερο φράγμα της Κύπρου; — Το φράγμα του Κούρη στην
+    επαρχία Λεμεσού.
+  phonetic_hint: pyoh EE-neh toh meh-ghah-LEE-teh-roh FRAHGH-mah tees KEE-proo? toh
+    FRAHGH-mah too KOO-ree steen eh-pahr-KHEE-ah leh-meh-SOO
+  english: — Which is the largest dam/reservoir in Cyprus? — The Kouris Dam in the
+    Limassol district.
+  notes: Past exam question! Completed in 1988 with a capacity of 115 million cubic
+    meters; the old village of Alassa was submerged and its Church of Saint Nicholas
+    roof can be seen when water levels drop.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Largest dam in Cyprus
+  example_el: Το φράγμα του Κούρη στην επαρχία Λεμεσού έχει χωρητικότητα 115 εκατομμύρια
+    κυβικά μέτρα νερού.
+  example_en: The Kouris Dam in the Limassol district has a capacity of 115 million
+    cubic meters of water.
+  example2_el: Άλλα μεγάλα φράγματα της Κύπρου είναι του Ασπρόκρεμμου στην Πάφο και
+    της Ευρέτου στην Πόλη Χρυσοχούς.
+  example2_en: Other large dams in Cyprus are Asprokremmos in Paphos and Evretou in
+    Polis Chrysochous.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-016
+  greek: η χερσόνησος του Ακάμα
+  phonetic_hint: ee kher-SOH-nee-sos too ah-KAH-mah
+  english: the Akamas Peninsula
+  notes: Protected national forest park at the northwestern tip of Cyprus (Paphos
+    district), famous for the Avakas Gorge (Φαράγγι του Άβακα), Blue Lagoon, and Lara
+    Beach turtle nesting ground.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι χερσόνησοι
+    accusative_singular: τη χερσόνησο του Ακάμα
+  keg_communicative_function: Geography — Peninsulas & natural parks
+  example_el: Η χερσόνησος του Ακάμα στην επαρχία Πάφου είναι προστατευόμενος βιότοπος
+    με σπάνια χλωρίδα και πανίδα.
+  example_en: The Akamas Peninsula in the Paphos district is a protected habitat with
+    rare flora and fauna.
+  example2_el: Στην παραλία της Λάρας στον Ακάμα γεννούν τα αυγά τους οι προστατευόμενες
+    θαλάσσιες χελώνες Καρέτα-Καρέτα και Πράσινη Χελώνα.
+  example2_en: On Lara Beach in Akamas, the protected Loggerhead (Caretta caretta)
+    and Green sea turtles lay their eggs.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-017
+  greek: η χερσόνησος της Καρπασίας
+  phonetic_hint: ee kher-SOH-nee-sos tees kahr-pah-SEE-ahs
+  english: the Karpasia (Karpass) Peninsula
+  notes: Long narrow peninsula in the northeastern tip of Cyprus (Famagusta district),
+    ending at Cape Apostolos Andreas (το Ακρωτήριο του Αποστόλου Ανδρέα). Occupied
+    since August 1974.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι χερσόνησοι
+    accusative_singular: τη χερσόνησο της Καρπασίας
+  keg_communicative_function: Geography — Peninsulas of Cyprus
+  example_el: Στο βορειοανατολικό άκρο της χερσονήσου της Καρπασίας βρίσκεται το Μοναστήρι
+    του Αποστόλου Ανδρέα.
+  example_en: At the northeastern tip of the Karpasia peninsula lies the Apostolos
+    Andreas Monastery.
+  example2_el: Στην Καρπασία ζουν ελεύθερα τα άγρια γαϊδουράκια και βρίσκονται τα
+    χωριά των Ελληνοκυπρίων εγκλωβισμένων.
+  example2_en: In Karpasia, wild donkeys live freely and the villages of the enclaved
+    Greek Cypriots are located.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-018
+  greek: το κυπριακό αγρινό
+  phonetic_hint: toh kee-pree-ah-KOH ah-ghree-NOH
+  english: the Cyprus mouflon (wild sheep)
+  notes: Endemic wild sheep subspecies (Ovis orientalis ophion) living in the Paphos
+    Forest (το Δάσος της Πάφου / Κοιλάδα των Κέδρων). National animal symbol featured
+    on Cyprus euro coins (1, 2, and 5 cent coins) and Cyprus Airways.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κυπριακά αγρινά
+    accusative_singular: το κυπριακό αγρινό
+    genitive_singular: του κυπριακού αγρινού
+  keg_communicative_function: Geography & Nature — Endemic fauna of Cyprus
+  example_el: Ποιο είναι το μεγαλύτερο ενδημικό άγριο θηλαστικό της Κύπρου και εθνικό
+    της σύμβολο; Το κυπριακό αγρινό.
+  example_en: Which is the largest endemic wild mammal of Cyprus and its national
+    symbol? The Cyprus mouflon.
+  example2_el: Το αγρινό ζει προστατευμένο στο Δάσος της Πάφου και απεικονίζεται στα
+    κυπριακά κέρματα του ευρώ.
+  example2_en: The mouflon lives protected in the Paphos Forest and is depicted on
+    Cypriot euro coins.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-019
+  greek: η λατζιά (η χρυσή δρυς της Κύπρου)
+  phonetic_hint: ee lah-TZAH (ee khree-SEE threes tees KEE-proo)
+  english: the golden oak of Cyprus (national tree)
+  notes: Endemic evergreen oak species (Quercus alnifolia) growing exclusively in
+    the Troodos mountains; designated in 2006 as the National Tree of Cyprus (το εθνικό
+    δέντρο της Κύπρου).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι λατζιές
+    accusative_singular: τη λατζιά
+  keg_communicative_function: Geography & Nature — Endemic flora of Cyprus
+  example_el: Ποιο είναι το εθνικό δέντρο της Κύπρου που φύεται αποκλειστικά στην
+    οροσειρά του Τροόδους; Η λατζιά.
+  example_en: What is the national tree of Cyprus that grows exclusively in the Troodos
+    mountain range? The golden oak (latzia).
+  example2_el: Εκτός από τη λατζιά, στην Κοιλάδα των Κέδρων στο Δάσος της Πάφου φύεται
+    ο ενδημικός κυπριακός κέδρος.
+  example2_en: Besides the golden oak, the endemic Cyprus cedar grows in Cedar Valley
+    in the Paphos Forest.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-020
+  greek: οι αλυκές (Λάρνακας και Ακρωτηρίου)
+  phonetic_hint: ee ah-lee-KEHS (LAHR-nah-kahs keh ah-kroh-tee-REE-oo)
+  english: the Salt Lakes (of Larnaca and Akrotiri)
+  notes: Major Ramsar-protected wetlands in Cyprus where migratory birds, especially
+    greater flamingos (τα φλαμίνγκο), spend the winter months.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    singular: η αλυκή
+    plural: οι αλυκές
+    accusative_plural: τις αλυκές
+  keg_communicative_function: Geography & Nature — Wetlands of Cyprus
+  example_el: Οι δύο σημαντικότεροι υγροβιότοποι της Κύπρου είναι η Αλυκή Λάρνακας
+    και η Αλυκή Ακρωτηρίου στη Λεμεσό.
+  example_en: The two most important wetlands of Cyprus are the Larnaca Salt Lake
+    and the Akrotiri Salt Lake in Limassol.
+  example2_el: Το καλοκαίρι το νερό στις αλυκές εξατμίζεται, αφήνοντας ένα παχύ στρώμα
+    αλατιού.
+  example2_en: In summer, the water in the salt lakes evaporates, leaving a thick
+    layer of salt.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-021
+  greek: το μεσογειακό κλίμα
+  phonetic_hint: toh meh-soh-yee-ah-KOH KLEE-mah
+  english: the Mediterranean climate
+  notes: Cyprus has a warm Mediterranean climate with over 300 days of sunshine per
+    year, hot dry summers (May–October) and mild rainy winters (November–March).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα μεσογειακά κλίματα
+    accusative_singular: το μεσογειακό κλίμα
+  keg_communicative_function: Geography — Climate of Cyprus
+  example_el: Η Κύπρος έχει μεσογειακό κλίμα με θερμά, ξηρά καλοκαίρια και ήπιους
+    χειμώνες.
+  example_en: Cyprus has a Mediterranean climate with hot, dry summers and mild winters.
+  example2_el: Το νησί απολαμβάνει περισσότερες από τριακόσιες (300) ημέρες ηλιοφάνειας
+    τον χρόνο.
+  example2_en: The island enjoys more than three hundred (300) days of sunshine a
+    year.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-022
+  greek: τα Κρασοχώρια της Λεμεσού (π.χ. το Όμοδος)
+  phonetic_hint: tah krah-soh-KHOH-ryah tees leh-meh-SOO (toh OH-moh-thos)
+  english: the Wine Villages of Limassol (e.g., Omodos)
+  notes: Past exam question on famous Cypriot villages! Omodos (το Όμοδος, famous
+    for Timios Stavros Monastery and wine), Arsos, Vouni, and Koilani are in the Limassol
+    district.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Κρασοχώρια
+    accusative_plural: τα Κρασοχώρια
+  keg_communicative_function: Geography — Traditional villages of Cyprus
+  example_el: Σε ποια επαρχία βρίσκεται το γραφικό κρασοχώρι Όμοδος με το Μοναστήρι
+    του Τιμίου Σταυρού; Στην επαρχία Λεμεσού.
+  example_en: In which district is the picturesque wine village of Omodos with the
+    Monastery of the Holy Cross located? In the Limassol district.
+  example2_el: Στην επαρχία Λεμεσού βρίσκονται επίσης τα ορεινά θέρετρα Πλάτρες και
+    Αγρός, καθώς και το παραλιακό Πισσούρι.
+  example2_en: Also located in the Limassol district are the mountain resorts of Platres
+    and Agros, as well as coastal Pissouri.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-023
+  greek: τα Λεύκαρα (επαρχία Λάρνακας)
+  phonetic_hint: tah LEHF-kah-rah (eh-pahr-KHEE-ah LAHR-nah-kahs)
+  english: Lefkara village (Larnaca district)
+  notes: Famous mountain village in the Larnaca district, renowned worldwide for traditional
+    Lefkara lace embroidery (τα λευκαρίτικα κεντήματα) and filigree silversmithing
+    (η αργυροχοΐα).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Λεύκαρα
+    accusative_plural: τα Λεύκαρα
+    genitive_plural: των Λευκάρων
+  keg_communicative_function: Geography & Culture — Villages of Larnaca district
+  example_el: Σε ποια επαρχία βρίσκονται τα Λεύκαρα, που φημίζονται για τα κεντήματα
+    και την αργυροχοΐα τους; Στην επαρχία Λάρνακας.
+  example_en: In which district is Lefkara, famous for its embroidery and silversmithing,
+    located? In the Larnaca district.
+  example2_el: Σύμφωνα με την παράδοση, ο Λεονάρντο ντα Βίντσι επισκέφθηκε τα Λεύκαρα
+    το 1481 και αγόρασε κέντημα για τον καθεδρικό ναό του Μιλάνου.
+  example2_en: According to tradition, Leonardo da Vinci visited Lefkara in 1481 and
+    bought embroidery for the Milan Cathedral.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-024
+  greek: η Κακοπετριά και το Φικάρδου (επαρχία Λευκωσίας)
+  phonetic_hint: ee kah-koh-peh-tree-AH keh toh fee-KAHR-thoo
+  english: Kakopetria and Fikardou villages (Nicosia district)
+  notes: Past exam village questions! Kakopetria (in the Solea valley) and the medieval
+    preserved stone village of Fikardou (winner of the Europa Nostra award) are in
+    the Nicosia district.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: την Κακοπετριά
+  keg_communicative_function: Geography — Mountain villages of Nicosia district
+  example_el: Το παραδοσιακό χωριό Φικάρδου και η Κακοπετριά στην κοιλάδα της Σολέας
+    ανήκουν στην επαρχία Λευκωσίας.
+  example_en: The traditional village of Fikardou and Kakopetria in the Solea valley
+    belong to the Nicosia district.
+  example2_el: Ολόκληρο το χωριό Φικάρδου έχει κηρυχθεί αρχαίο μνημείο και έχει τιμηθεί
+    με το βραβείο Europa Nostra.
+  example2_en: The entire village of Fikardou has been declared an ancient monument
+    and honored with the Europa Nostra award.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-025
+  greek: τα Κοκκινοχώρια
+  phonetic_hint: tah koh-kee-noh-KHOH-ryah
+  english: the Kokkinochoria ('Red Soil Villages')
+  notes: Group of villages in southeastern Cyprus (spanning the Famagusta and Larnaca
+    districts, such as Xylofagou, Liopetri, Frenaros, Avgorou, Deryneia) famous for
+    their fertile mineral-rich red soil and Cyprus potato cultivation (η κυπριακή
+    πατάτα).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Κοκκινοχώρια
+    accusative_plural: τα Κοκκινοχώρια
+  keg_communicative_function: Geography & Agriculture — Regions of Cyprus
+  example_el: Τα Κοκκινοχώρια στη νοτιοανατολική Κύπρο ονομάζονται έτσι από το εύφορο
+    κόκκινο χώμα τους.
+  example_en: The Kokkinochoria in southeastern Cyprus are named after their fertile
+    red soil.
+  example2_el: Η περιοχή των Κοκκινοχωρίων φημίζεται ιδιαίτερα για την παραγωγή της
+    κυπριακής πατάτας και του κολοκασιού.
+  example2_en: The Kokkinochoria region is particularly famous for the production
+    of Cyprus potatoes and taro (kolokasi).
+  audio: null
+  status: pending_tts
+- id: CYP-U03-026
+  greek: η Μόρφου
+  phonetic_hint: ee MOR-foo
+  english: Morphou
+  notes: Major town in northwestern Cyprus (in the Nicosia district), famous for its
+    citrus groves (πορτοκάλια της Μόρφου) and the Church of Saint Mamas (ο Άγιος Μάμας).
+    Occupied by Turkish forces since August 1974.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: τη Μόρφου
+    genitive_singular: της Μόρφου
+  keg_communicative_function: Geography — Occupied towns of Nicosia district
+  example_el: Η κωμόπολη της Μόρφου ανήκει διοικητικά στην επαρχία Λευκωσίας και βρίσκεται
+    υπό τουρκική κατοχή από το 1974.
+  example_en: The town of Morphou belongs administratively to the Nicosia district
+    and has been under Turkish occupation since 1974.
+  example2_el: Η Μόρφου είναι γνωστή για τα εσπεριδοειδή της και τον βυζαντινό ναό
+    του Αγίου Μάμαντος.
+  example2_en: Morphou is known for its citrus fruits and the Byzantine church of
+    Saint Mamas.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-027
+  greek: ο χαλκός (το μέταλλο της Κύπρου)
+  phonetic_hint: oh khahl-KOHS (toh MEH-tah-loh tees KEE-proo)
+  english: copper (the metal linked to the name of Cyprus)
+  notes: Since antiquity, Cyprus was famous across the Mediterranean for its rich
+    copper mines (π.χ. Σκουριώτισσα, Ταμασός); the Latin word for copper (aes Cyprium
+    -> cuprum) derives from Cyprus.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    accusative_singular: τον χαλκό
+    genitive_singular: του χαλκού
+  keg_communicative_function: Geography & History — Copper heritage of Cyprus
+  example_el: Ποιο μέταλλο συνδέθηκε ιστορικά με το όνομα και τον πλούτο της Κύπρου
+    από την αρχαιότητα; Ο χαλκός.
+  example_en: Which metal has been historically linked with the name and wealth of
+    Cyprus since antiquity? Copper.
+  example2_el: Το χρώμα του χάρτη στη σημαία της Κυπριακής Δημοκρατίας συμβολίζει
+    τα πλούσια κοιτάσματα χαλκού του νησιού.
+  example2_en: The color of the map on the flag of the Republic of Cyprus symbolizes
+    the island's rich copper deposits.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-028
+  greek: η Πέτρα του Ρωμιού
+  phonetic_hint: ee PEH-trah too roh-MYOO
+  english: Petra tou Romiou (Aphrodite's Rock)
+  notes: Famous sea stack on the coast between Paphos and Limassol (near Kouklia /
+    Palaipafos). Associated with both the mythical birth of Aphrodite from the sea
+    foam and the Byzantine border warrior Digenis Akritas ('ο Ρωμιός').
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    accusative_singular: την Πέτρα του Ρωμιού
+    genitive_singular: της Πέτρας του Ρωμιού
+  keg_communicative_function: Geography & Mythology — Coastal landmarks
+  example_el: Η Πέτρα του Ρωμιού βρίσκεται στην ακτή της επαρχίας Πάφου και συνδέεται
+    με τον μύθο της Αφροδίτης και τον Διγενή Ακρίτα.
+  example_en: Petra tou Romiou is located on the coast of the Paphos district and
+    is linked with the myth of Aphrodite and Digenis Akritas.
+  example2_el: Λόγω της λατρείας της Αφροδίτης στην αρχαιότητα, η Κύπρος ονομάζεται
+    συχνά «το νησί της Αφροδίτης».
+  example2_en: Because of the worship of Aphrodite in antiquity, Cyprus is often called
+    'the island of Aphrodite'.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-029
+  greek: το Κάβο Γκρέκο (το Ακρωτήριο Πηδάλιο)
+  phonetic_hint: toh KAH-voh GREH-koh (toh ah-kroh-TEE-ree-oh pee-THAH-lee-oh)
+  english: Cape Greco (southeastern cape of Cyprus)
+  notes: Protected National Forest Park (Εθνικό Δασικό Πάρκο) at the southeastern
+    tip of Cyprus between Ayia Napa and Protaras in the free Famagusta district.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    accusative_singular: το Κάβο Γκρέκο
+  keg_communicative_function: Geography — Capes and National Forest Parks
+  example_el: Το Κάβο Γκρέκο βρίσκεται στο νοτιοανατολικό άκρο της Κύπρου, ανάμεσα
+    στην Αγία Νάπα και τον Πρωταρά.
+  example_en: Cape Greco is located at the southeastern tip of Cyprus, between Ayia
+    Napa and Protaras.
+  example2_el: Η περιοχή είναι κηρυγμένο Εθνικό Δασικό Πάρκο, γνωστό για τις θαλασσινές
+    σπηλιές και τα κρυστάλλινα νερά της.
+  example2_en: The area is a designated National Forest Park, known for its sea caves
+    and crystal-clear waters.
+  audio: null
+  status: pending_tts
+- id: CYP-U03-030
+  greek: — Ποιες χώρες βρίσκονται γεωγραφικά πιο κοντά στην Κύπρο; — Η Τουρκία, η
+    Συρία, ο Λίβανος, το Ισραήλ, η Αίγυπτος και η Ελλάδα.
+  phonetic_hint: pyehs KHOH-rehs VREE-skohn-deh yeh-oh-ghrah-fee-KAH pyoh kohn-DAH
+    steen KEE-proh? ee toor-KEE-ah, ee see-REE-ah, oh LEE-vah-nos, toh ee-srah-EEL,
+    ee EH-yeep-tos keh ee eh-LAH-thah
+  english: — Which countries are geographically closest to Cyprus? — Turkey, Syria,
+    Lebanon, Israel, Egypt, and Greece.
+  notes: Past exam geography question! Turkey lies ~75 km to the north, Syria and
+    Lebanon ~105–180 km to the east, Israel and Egypt to the south/southeast, and
+    the Greek island of Kastellorizo / Rhodes to the west.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Neighboring countries in the Eastern
+    Mediterranean
+  example_el: Ανατολικά της Κύπρου βρίσκονται η Συρία και ο Λίβανος, ενώ νότια βρίσκονται
+    η Αίγυπτος και το Ισραήλ.
+  example_en: East of Cyprus lie Syria and Lebanon, while to the south lie Egypt and
+    Israel.
+  example2_el: Το ελληνικό νησί που βρίσκεται γεωγραφικά πιο κοντά στην Κύπρο είναι
+    το Καστελλόριζο (Μεγίστη).
+  example2_en: The Greek island located geographically closest to Cyprus is Kastellorizo
+    (Megisti).
+  audio: null
+  status: pending_tts

@@ -1,0 +1,554 @@
+# -*- coding: utf-8 -*-
+"""
+Generate Cyprus Culture and Political/Social Reality Exam Curriculum — Unit 5:
+- unit-cyp-05 (CYP-05-A): Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare & Daily Life) - 30 cards
+"""
+import sys
+from pathlib import Path
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
+
+from scripts.create_cyprus_exam_batch_1 import write_unit
+
+NOTES_CYP_05 = """Unit CYP-05 Core Exam Notes: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare & Daily Life)
+
+• Νόμισμα & Οικονομία της Κύπρου:
+  - Επίσημο Νόμισμα: Το Ευρώ (€), το οποίο υιοθετήθηκε την 1η Ιανουαρίου 2008, αντικαθιστώντας την Κυπριακή Λίρα (1 Ευρώ = 0,585274 Λίρες Κύπρου).
+  - Κύριος Τομέας της Οικονομίας: Ο τριτογενής τομέας των υπηρεσιών (Τουρισμός, Ναυτιλία, Χρηματοοικονομικές & Επαγγελματικές Υπηρεσίες, Πληροφορική).
+  - Εμπορική Ναυτιλία: Η Κύπρος διαθέτει έναν από τους μεγαλύτερους εμπορικούς στόλους στην Ευρωπαϊκή Ένωση και παγκοσμίως (με έδρα το Υφυπουργείο Ναυτιλίας στη Λεμεσό).
+  - Ενέργεια & ΑΟΖ: Αποκλειστική Οικονομική Ζώνη (ΑΟΖ) της Κύπρου — κοιτάσματα φυσικού αερίου («Αφροδίτη», «Καλυψώ», «Γλαύκος», «Κρόνος»).
+  - ΦΠΑ (Φόρος Προστιθέμενης Αξίας): Κανονικός συντελεστής 19%, μειωμένοι συντελεστές 9% και 5%, και 0% σε βασικά είδη πρώτης ανάγκης (π.χ. γάλα, ψωμί, αυγά).
+
+• Υγεία, Κοινωνικές Ασφαλίσεις & Εργασία:
+  - ΓεΣΥ (Γενικό Σύστημα Υγείας): Καθολικό σύστημα υγείας που εφαρμόστηκε το 2019–2020 μέσω του Οργανισμού Ασφάλισης Υγείας (ΟΑΥ), με θεσμό τον Προσωπικό Ιατρό.
+  - Εθνικός Κατώτατος Μισθός: Θεσπίστηκε το 2023 (και αναπροσαρμόστηκε στα 1.000 ευρώ ακαθάριστα μετά από 6 μήνες εργασίας στον ίδιο εργοδότη).
+
+• Μεταφορές, Σημεία Εισόδου & Καθημερινότητα:
+  - Οδήγηση: Στην αριστερή πλευρά του δρόμου (left-hand traffic). Δεν υπάρχει σιδηροδρομικό δίκτυο (τρένο).
+  - Νόμιμα Σημεία Εισόδου: Διεθνή Αεροδρόμια Λάρνακας και Πάφου· Λιμάνια Λεμεσού, Λάρνακας, Πάφου και Λατσιού. (Το αεροδρόμιο της Τύμπου/Ercan και τα λιμάνια Αμμοχώστου/Κερύνειας στα κατεχόμενα είναι παράνομα σημεία εισόδου).
+  - Αριθμοί Έκτακτης Ανάγκης: 112 και 199 (Αστυνομία, Πυροσβεστική, Ασθενοφόρο). Διεθνής κωδικός κλήσης: +357."""
+
+CARDS_CYP_05 = [
+    {
+        "id": "CYP-U05-001",
+        "greek": "— Ποιο είναι το επίσημο νόμισμα της Κυπριακής Δημοκρατίας και πότε υιοθετήθηκε; — Το Ευρώ, την 1η Ιανουαρίου 2008.",
+        "phonetic_hint": "pyoh EE-neh toh eh-PEE-see-moh NOH-meez-mah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs? toh ev-ROH, teen PROH-tee ee-ah-noo-ah-REE-oo 2008",
+        "english": "— What is the official currency of the Republic of Cyprus and when was it adopted? — The Euro, on 1 January 2008.",
+        "notes": "High-frequency past exam question! Cyprus joined the EU in 2004 and adopted the Euro in the Eurozone on 1 January 2008, replacing the Cyprus Pound (η κυπριακή λίρα).",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Official currency and Eurozone entry",
+        "example_el": "Την 1η Ιανουαρίου 2008 η Κύπρος εντάχθηκε στην Ευρωζώνη και αντικατέστησε την κυπριακή λίρα με το ευρώ.",
+        "example_en": "On 1 January 2008, Cyprus joined the Eurozone and replaced the Cyprus pound with the euro.",
+        "example2_el": "Στα κυπριακά κέρματα του ευρώ απεικονίζονται το αγρινό, το καράβι της Κερύνειας και το ειδώλιο του Πωμού.",
+        "example2_en": "Depicted on the Cypriot euro coins are the mouflon, the Kyrenia ship, and the idol of Pomos."
+    },
+    {
+        "id": "CYP-U05-002",
+        "greek": "ο τομέας των υπηρεσιών (ο τριτογενής τομέας)",
+        "phonetic_hint": "oh toh-MEH-ahs ton ee-pee-reh-see-ON (oh tree-toh-yeh-NEES toh-MEH-ahs)",
+        "english": "the services sector (the tertiary sector)",
+        "notes": "Past exam question! The services sector (tourism, shipping, financial/legal services, ICT) is the largest contributor to Cyprus's GDP (over 80% of GDP).",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι τομείς των υπηρεσιών",
+            "accusative_singular": "τον τομέα των υπηρεσιών"
+        },
+        "keg_communicative_function": "Economy — Main economic sectors",
+        "example_el": "Ποιος είναι ο σημαντικότερος τομέας της κυπριακής οικονομίας; Ο τομέας των υπηρεσιών (τουρισμός, ναυτιλία, χρηματοοικονομικά).",
+        "example_en": "Which is the most important sector of the Cypriot economy? The services sector (tourism, shipping, financial services).",
+        "example2_el": "Ο τριτογενής τομέας των υπηρεσιών συνεισφέρει πάνω από το 80% στο Ακαθάριστο Εγχώριο Προϊόν (ΑΕΠ) της Κύπρου.",
+        "example2_en": "The tertiary services sector contributes over 80% to the Gross Domestic Product (GDP) of Cyprus."
+    },
+    {
+        "id": "CYP-U05-003",
+        "greek": "η εμπορική ναυτιλία της Κύπρου",
+        "phonetic_hint": "ee ehm-boh-ree-KEE nahf-tee-LEE-ah tees KEE-proo",
+        "english": "the merchant shipping of Cyprus",
+        "notes": "Cyprus has one of the largest merchant shipping registries in the EU (top 3 in EU, top 11 worldwide) and is the largest third-party ship management center in Europe, centered in Limassol.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την εμπορική ναυτιλία"
+        },
+        "keg_communicative_function": "Economy — Shipping & maritime cluster",
+        "example_el": "Η Κύπρος διαθέτει έναν από τους μεγαλύτερους εμπορικούς στόλους στην Ευρωπαϊκή Ένωση και στον κόσμο.",
+        "example_en": "Cyprus possesses one of the largest merchant fleets in the European Union and in the world.",
+        "example2_el": "Το Υφυπουργείο Ναυτιλίας της Κυπριακής Δημοκρατίας έχει την έδρα του στη Λεμεσό.",
+        "example2_en": "The Shipping Deputy Ministry of the Republic of Cyprus is headquartered in Limassol."
+    },
+    {
+        "id": "CYP-U05-004",
+        "greek": "η Αποκλειστική Οικονομική Ζώνη (ΑΟΖ) και οι υδρογονάνθρακες",
+        "phonetic_hint": "ee ah-poh-klee-stee-KEE ee-koh-noh-mee-KEE ZOH-nee (ah-oh-ZEH) keh ee ee-throh-ghoh-NAHN-thrah-kehs",
+        "english": "the Exclusive Economic Zone (EEZ) and hydrocarbons",
+        "notes": "Past exam question! Cyprus has signed EEZ delimitation agreements with Egypt (2003), Lebanon (2007), and Israel (2010). The first natural gas discovery in Block 12 in 2011 was named «Αφροδίτη» (Aphrodite).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι Αποκλειστικές Οικονομικές Ζώνες",
+            "accusative_singular": "την Αποκλειστική Οικονομική Ζώνη"
+        },
+        "keg_communicative_function": "Economy & Energy — EEZ and natural gas fields",
+        "example_el": "Το πρώτο κοίτασμα φυσικού αερίου που ανακαλύφθηκε το 2011 στην κυπριακή ΑΟΖ (Τεμάχιο 12) ονομάστηκε «Αφροδίτη».",
+        "example_en": "The first natural gas field discovered in 2011 in the Cypriot EEZ (Block 12) was named 'Aphrodite'.",
+        "example2_el": "Η Υπηρεσία Υδρογονανθράκων υπάγεται στο Υπουργείο Ενέργειας, Εμπορίου και Βιομηχανίας.",
+        "example2_en": "The Hydrocarbons Service falls under the Ministry of Energy, Commerce and Industry."
+    },
+    {
+        "id": "CYP-U05-005",
+        "greek": "— Ποιος είναι ο κανονικός συντελεστής ΦΠΑ στην Κύπρο και ποιος ο συντελεστής σε βασικά είδη όπως το γάλα και το ψωμί; — 19% ο κανονικός και 0% (ή 5%) στα βασικά είδη.",
+        "phonetic_hint": "pyos EE-neh oh kah-noh-nee-KOHS seen-deh-leh-STEES fee-pee-AH steen KEE-proh? 19% oh kah-noh-nee-KOHS keh 0% stah vah-see-KAH EE-thee",
+        "english": "— What is the standard VAT rate in Cyprus and the rate on basic goods like milk and bread? — 19% standard rate and 0% (or 5%) on basic essentials.",
+        "notes": "Actual past exam question! Standard VAT (Φόρος Προστιθέμενης Αξίας - ΦΠΑ) in Cyprus is 19%, reduced rates are 9% and 5%, and 0% applies to core necessities such as fresh milk, bread, and eggs.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — VAT rates in Cyprus",
+        "example_el": "Ο κανονικός συντελεστής Φόρου Προστιθέμενης Αξίας (ΦΠΑ) στην Κύπρο ανέρχεται στο 19%.",
+        "example_en": "The standard Value Added Tax (VAT) rate in Cyprus stands at 19%.",
+        "example2_el": "Σε βασικά αγαθά πρώτης ανάγκης, όπως το γάλα, το ψωμί και τα αυγά, εφαρμόζεται μηδενικός συντελεστής ΦΠΑ (0%).",
+        "example2_en": "On basic essential goods, such as milk, bread, and eggs, a zero VAT rate (0%) applies."
+    },
+    {
+        "id": "CYP-U05-006",
+        "greek": "το Γενικό Σύστημα Υγείας (ΓεΣΥ)",
+        "phonetic_hint": "toh yeh-nee-KOH SEE-stee-mah ee-YEE-ahs (yeh-SEE)",
+        "english": "the General Healthcare System (GHS / GeSY)",
+        "notes": "Universal healthcare system of Cyprus, rolled out in June 2019 (outpatient care) and June 2020 (inpatient hospital care), administered by the Health Insurance Organisation (Οργανισμός Ασφάλισης Υγείας - ΟΑΥ).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Γενικό Σύστημα Υγείας"
+        },
+        "keg_communicative_function": "Healthcare & Daily Life — Universal health coverage",
+        "example_el": "Το Γενικό Σύστημα Υγείας (ΓεΣΥ) παρέχει καθολική ιατροφαρμακευτική περίθαλψη στους δικαιούχους κατοίκους της Κύπρου.",
+        "example_en": "The General Healthcare System (GeSY) provides universal medical and pharmaceutical care to eligible residents of Cyprus.",
+        "example2_el": "Κάθε δικαιούχος του ΓεΣΥ εγγράφεται σε έναν Προσωπικό Ιατρό, ο οποίος εκδίδει παραπεμπτικά για ειδικούς γιατρούς.",
+        "example2_en": "Every GeSY beneficiary registers with a Personal Doctor, who issues referrals to specialist doctors."
+    },
+    {
+        "id": "CYP-U05-007",
+        "greek": "ο Εθνικός Κατώτατος Μισθός",
+        "phonetic_hint": "oh eth-nee-KOHS kah-TOH-tah-tos mee-STHOHS",
+        "english": "the National Minimum Wage",
+        "notes": "Past exam question! Introduced across Cyprus on 1 January 2023 (and updated in 2024 to €1,000 gross per month after 6 months of continuous employment, or €900 during the first 6 months).",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "plural": "οι Εθνικοί Κατώτατοι Μισθοί",
+            "accusative_singular": "τον Εθνικό Κατώτατο Μισθό"
+        },
+        "keg_communicative_function": "Economy & Labor — Minimum wage regulations",
+        "example_el": "Ο Εθνικός Κατώτατος Μισθός στην Κύπρο ανέρχεται στα 1.000 ευρώ ακαθάριστα μετά από έξι μήνες απασχόλησης.",
+        "example_en": "The National Minimum Wage in Cyprus amounts to 1,000 euros gross after six months of employment.",
+        "example2_el": "Για τους πρώτους έξι μήνες απασχόλησης, ο κατώτατος μισθός πλήρους απασχόλησης καθορίστηκε στα 900 ευρώ.",
+        "example2_en": "For the first six months of employment, the full-time minimum wage is set at 900 euros."
+    },
+    {
+        "id": "CYP-U05-008",
+        "greek": "οι Κοινωνικές Ασφαλίσεις (ΥΚΑ)",
+        "phonetic_hint": "ee kee-noh-nee-KEHS ah-sfah-LEE-sees (EE-KAH)",
+        "english": "Social Insurance (Social Insurance Services)",
+        "notes": "Compulsory social insurance scheme managed by the Ministry of Labour and Social Insurance (Υπουργείο Εργασίας και Κοινωνικών Ασφαλίσεων), covering pensions, maternity, sickness, and unemployment benefits.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι Κοινωνικές Ασφαλίσεις",
+            "accusative_plural": "τις Κοινωνικές Ασφαλίσεις"
+        },
+        "keg_communicative_function": "Economy & Labor — Social security system",
+        "example_el": "Κάθε εργαζόμενος στην Κύπρο είναι υποχρεωτικά ασφαλισμένος στο Ταμείο Κοινωνικών Ασφαλίσεων.",
+        "example_en": "Every employee in Cyprus is compulsorily insured in the Social Insurance Fund.",
+        "example2_el": "Οι Υπηρεσίες Κοινωνικών Ασφαλίσεων καταβάλλουν συντάξεις, επίδομα μητρότητας, ασθενείας και ανεργίας.",
+        "example2_en": "The Social Insurance Services pay pensions, maternity allowance, sickness benefit, and unemployment benefit."
+    },
+    {
+        "id": "CYP-U05-009",
+        "greek": "— Σε ποια πλευρά του δρόμου οδηγούν τα οχήματα στην Κύπρο; — Στην αριστερή πλευρά.",
+        "phonetic_hint": "seh pyah plef-RAH too THROH-moo oh-thee-GHOON tah oh-KHEE-mah-tah steen KEE-proh? steen ah-ree-steh-REE plef-RAH",
+        "english": "— On which side of the road do vehicles drive in Cyprus? — On the left side.",
+        "notes": "Past exam question on daily life & transport! Inherited from the British colonial period (1878–1960), traffic in Cyprus drives on the left side of the road, with the steering wheel on the right.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Road traffic rules in Cyprus",
+        "example_el": "Στην Κύπρο η οδήγηση γίνεται στην αριστερή λωρίδα του δρόμου και το τιμόνι βρίσκεται στα δεξιά.",
+        "example_en": "In Cyprus, driving is in the left lane of the road and the steering wheel is on the right.",
+        "example2_el": "Το ανώτατο όριο ταχύτητας στους αυτοκινητόδρομους της Κύπρου είναι τα 100 χιλιόμετρα την ώρα.",
+        "example2_en": "The maximum speed limit on the motorways of Cyprus is 100 kilometers per hour."
+    },
+    {
+        "id": "CYP-U05-010",
+        "greek": "— Ποια είναι τα δύο νόμιμα διεθνή αεροδρόμια της Κυπριακής Δημοκρατίας; — Το Διεθνές Αεροδρόμιο Λάρνακας και το Διεθνές Αεροδρόμιο Πάφου.",
+        "phonetic_hint": "pyah EE-neh tah THEE-oh NOH-mee-mah theeh-THNEE ah-eh-roh-THROH-mee-ah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs? lah-RNAH-kahs keh PAH-foo",
+        "english": "— Which are the two legal international airports of the Republic of Cyprus? — Larnaca International Airport and Paphos International Airport.",
+        "notes": "Frequent past exam question! Larnaca (LCA) and Paphos (PFO) are the ONLY legal international airports. The Tymbou (Ercan) airport in the occupied north is an illegal port of entry.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Legal vs. illegal ports of entry",
+        "example_el": "Τα μόνα νόμιμα αεροδρόμια εισόδου στην Κυπριακή Δημοκρατία είναι της Λάρνακας και της Πάφου.",
+        "example_en": "The only legal airports of entry into the Republic of Cyprus are those of Larnaca and Paphos.",
+        "example2_el": "Το αεροδρόμιο της Τύμπου (Ercan) καθώς και τα λιμάνια της Κερύνειας και της Αμμοχώστου στα κατεχόμενα είναι παράνομα σημεία εισόδου.",
+        "example2_en": "Tymbou (Ercan) airport as well as the ports of Kyrenia and Famagusta in the occupied areas are illegal points of entry."
+    },
+    {
+        "id": "CYP-U05-011",
+        "greek": "τα μέσα μαζικής μεταφοράς στην Κύπρο (τα λεωφορεία)",
+        "phonetic_hint": "tah MEH-sah mah-zee-KEES meh-tah-foh-RAHS steen KEE-proh (tah leh-oh-foh-REE-ah)",
+        "english": "public transport in Cyprus (buses)",
+        "notes": "Past exam question! Cyprus has NO operating railway, metro, or tram system (the old Cyprus Government Railway closed in 1951). Public transport consists exclusively of buses (urban buses & InterCity buses) and taxis.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "plural": "τα μέσα μαζικής μεταφοράς",
+            "accusative_plural": "τα μέσα μαζικής μεταφοράς"
+        },
+        "keg_communicative_function": "Daily Life & Transport — Public transport modes",
+        "example_el": "Στην Κύπρο δεν υπάρχει σιδηροδρομικό δίκτυο (τρένο) ή μετρό· οι δημόσιες μεταφορές εξυπηρετούνται αποκλειστικά από λεωφορεία και ταξί.",
+        "example_en": "In Cyprus there is no railway network (train) or metro; public transport is served exclusively by buses and taxis.",
+        "example2_el": "Τα πράσινα υπεραστικά λεωφορεία (InterCity Buses) συνδέουν καθημερινά όλες τις ελεύθερες πόλεις της Κύπρου.",
+        "example2_en": "The green InterCity buses connect all the free cities of Cyprus on a daily basis."
+    },
+    {
+        "id": "CYP-U05-012",
+        "greek": "— Ποιοι είναι οι τηλεφωνικοί αριθμοί έκτακτης ανάγκης στην Κύπρο; — Το 112 και το 199.",
+        "phonetic_hint": "pyee EE-neh ee tee-leh-foh-nee-KEE ah-reeth-MEE EHK-tahk-tees ah-NAHN-gees steen KEE-proh? toh 112 keh toh 199",
+        "english": "— What are the emergency telephone numbers in Cyprus? — 112 and 199.",
+        "notes": "Past exam question! Both 112 (European emergency number) and 199 (national Cyprus emergency number) connect free of charge 24/7 to Police, Fire Service, and Ambulance.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Emergency numbers in Cyprus",
+        "example_el": "Σε περίπτωση έκτακτης ανάγκης στην Κύπρο, οι πολίτες καλούν δωρεάν το 112 ή το 199.",
+        "example_en": "In case of an emergency in Cyprus, citizens call 112 or 199 free of charge.",
+        "example2_el": "Για δασικές πυρκαγιές λειτουργεί επίσης η ειδική γραμμή 1407 του Τμήματος Δασών.",
+        "example2_en": "For forest fires, the special hotline 1407 of the Department of Forests also operates."
+    },
+    {
+        "id": "CYP-U05-013",
+        "greek": "— Ποιος είναι ο διεθνής τηλεφωνικός κωδικός κλήσης της Κύπρου; — Το +357 (00357).",
+        "phonetic_hint": "pyos EE-neh oh theeh-THNEES tee-leh-foh-nee-KOHS koh-thee-KOHS KLEE-sees tees KEE-proo? toh +357",
+        "english": "— What is the international telephone dialing code of Cyprus? — +357 (00357).",
+        "notes": "Past exam question on telecommunications! Landline numbers in Cyprus have 8 digits starting with 22 (Nicosia), 25 (Limassol), 24 (Larnaca), 26 (Paphos), and 23 (Famagusta); mobile numbers start with 9.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Telecommunications & dialing codes",
+        "example_el": "Ο διεθνής τηλεφωνικός κωδικός της Κυπριακής Δημοκρατίας είναι το +357.",
+        "example_en": "The international telephone code of the Republic of Cyprus is +357.",
+        "example2_el": "Τα σταθερά τηλέφωνα στη Λευκωσία ξεκινούν από 22, στη Λεμεσό από 25, στη Λάρνακα από 24, στην Πάφο από 26 και στην Αμμόχωστο από 23.",
+        "example2_en": "Landline phones in Nicosia start with 22, in Limassol with 25, in Larnaca with 24, in Paphos with 26, and in Famagusta with 23."
+    },
+    {
+        "id": "CYP-U05-014",
+        "greek": "τα Κέντρα Εξυπηρέτησης του Πολίτη (ΚΕΠ)",
+        "phonetic_hint": "tah KEHN-drah ehk-see-pee-REH-tee-sees too poh-LEE-tee (KEHP)",
+        "english": "the Citizen Service Centers (KEP)",
+        "notes": "One-stop government service centers operating across all districts where residents obtain ID cards, passports, driving licenses, certificates, and GeSY/Social Insurance services.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "singular": "το Κέντρο Εξυπηρέτησης του Πολίτη",
+            "plural": "τα Κέντρα Εξυπηρέτησης του Πολίτη",
+            "accusative_plural": "τα Κέντρα Εξυπηρέτησης του Πολίτη"
+        },
+        "keg_communicative_function": "Daily Life & Administration — Public services",
+        "example_el": "Τα Κέντρα Εξυπηρέτησης του Πολίτη (ΚΕΠ) παρέχουν δεκάδες δημόσιες υπηρεσίες σε ένα σημείο.",
+        "example_en": "Citizen Service Centers (KEP) provide dozens of public services at a single point.",
+        "example2_el": "Παράλληλα λειτουργούν και τα Κέντρα Πολίτη (ΚΕΠΟ) μέσω των Κυπριακών Ταχυδρομείων.",
+        "example2_en": "Alongside them, Citizen Centers (KEPO) also operate through Cyprus Post."
+    },
+    {
+        "id": "CYP-U05-015",
+        "greek": "η Αρχή Ηλεκτρισμού Κύπρου (ΑΗΚ)",
+        "phonetic_hint": "ee ahr-KHEE ee-lehk-tree-ZMOO KEE-proo (ah-ee-KAH)",
+        "english": "the Electricity Authority of Cyprus (EAC / AHK)",
+        "notes": "Semi-governmental organization (ημικρατικός οργανισμός) established in 1952 responsible for generation, transmission, and supply of electricity in Cyprus. Power sockets in Cyprus use the British 3-pin Type G plug (230V).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Αρχή Ηλεκτρισμού Κύπρου"
+        },
+        "keg_communicative_function": "Daily Life & Utilities — Public utility organizations",
+        "example_el": "Η Αρχή Ηλεκτρισμού Κύπρου (ΑΗΚ) είναι ο ημικρατικός οργανισμός που προμηθεύει ηλεκτρικό ρεύμα στη χώρα.",
+        "example_en": "The Electricity Authority of Cyprus (EAC) is the semi-governmental organization that supplies electricity in the country.",
+        "example2_el": "Στην Κύπρο χρησιμοποιούνται οι τριπολικές πρίζες βρετανικού τύπου (Type G) με τάση 230 βολτ.",
+        "example2_en": "In Cyprus, three-pin British-style sockets (Type G) with a voltage of 230 volts are used."
+    },
+    {
+        "id": "CYP-U05-016",
+        "greek": "η Αρχή Τηλεπικοινωνιών Κύπρου (ΑΤΗΚ / Cyta)",
+        "phonetic_hint": "ee ahr-KHEE tee-leh-pee-kee-noh-nee-ON KEE-proo (CYTA)",
+        "english": "the Cyprus Telecommunications Authority (CYTA)",
+        "notes": "Leading semi-governmental telecommunications provider in Cyprus, alongside private providers such as Epic, Cablenet, and Primetel.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Αρχή Τηλεπικοινωνιών Κύπρου"
+        },
+        "keg_communicative_function": "Daily Life & Utilities — Telecommunications",
+        "example_el": "Η Αρχή Τηλεπικοινωνιών Κύπρου, γνωστή ως Cyta, είναι ημικρατικός οργανισμός τηλεπικοινωνιών.",
+        "example_en": "The Cyprus Telecommunications Authority, known as Cyta, is a semi-governmental telecommunications organization.",
+        "example2_el": "Στην αγορά τηλεπικοινωνιών της Κύπρου δραστηριοποιούνται επίσης ιδιωτικές εταιρείες όπως η Epic, η Cablenet και η Primetel.",
+        "example2_en": "Private companies such as Epic, Cablenet, and Primetel also operate in Cyprus's telecommunications market."
+    },
+    {
+        "id": "CYP-U05-017",
+        "greek": "το Ραδιοφωνικό Ίδρυμα Κύπρου (ΡΙΚ)",
+        "phonetic_hint": "toh rah-thee-oh-foh-nee-KOH EE-three-mah KEE-proo (REEK)",
+        "english": "the Cyprus Broadcasting Corporation (CyBC / RIK)",
+        "notes": "Public broadcaster of Cyprus, founded in 1953 (radio) and 1957 (television), operating television channels ΡΙΚ 1, ΡΙΚ 2, ΡΙΚ HD and four radio stations.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Ραδιοφωνικό Ίδρυμα Κύπρου"
+        },
+        "keg_communicative_function": "Daily Life & Media — Public broadcasting",
+        "example_el": "Το Ραδιοφωνικό Ίδρυμα Κύπρου (ΡΙΚ) είναι ο δημόσιος ραδιοτηλεοπτικός φορέας της Κυπριακής Δημοκρατίας.",
+        "example_en": "The Cyprus Broadcasting Corporation (RIK) is the public radio and television broadcaster of the Republic of Cyprus.",
+        "example2_el": "Το ΡΙΚ μεταδίδει προγράμματα στην ελληνική, την τουρκική, την αγγλική και την αρμενική γλώσσα.",
+        "example2_en": "RIK broadcasts programs in Greek, Turkish, English, and Armenian."
+    },
+    {
+        "id": "CYP-U05-018",
+        "greek": "οι επίσημες αργίες της Κύπρου (25 Μαρτίου, 1 Απριλίου, 1 Οκτωβρίου, 28 Οκτωβρίου)",
+        "phonetic_hint": "ee eh-PEE-see-mehs ahr-YEE-ehs tees KEE-proo",
+        "english": "the public / national holidays of Cyprus (25 March, 1 April, 1 October, 28 October)",
+        "notes": "Past exam question! Cyprus celebrates both Cypriot national anniversaries (1 April 1955 EOKA struggle & 1 October 1960 Independence Day) and Greek national anniversaries (25 March 1821 & 28 October 1940).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "singular": "η επίσημη αργία",
+            "plural": "οι επίσημες αργίες",
+            "accusative_plural": "τις επίσημες αργίες"
+        },
+        "keg_communicative_function": "Daily Life & Holidays — National public holidays",
+        "example_el": "Η 1η Απριλίου (έναρξη αγώνα της ΕΟΚΑ) και η 1η Οκτωβρίου (Ημέρα Ανεξαρτησίας) είναι επίσημες εθνικές αργίες στην Κύπρο.",
+        "example_en": "April 1st (start of the EOKA struggle) and October 1st (Independence Day) are official national holidays in Cyprus.",
+        "example2_el": "Επίσημες αργίες είναι επίσης η 25η Μαρτίου, η 28η Οκτωβρίου, η 1η Μαΐου και η 15η Αυγούστου.",
+        "example2_en": "March 25th, October 28th, May 1st, and August 15th are also official public holidays."
+    },
+    {
+        "id": "CYP-U05-019",
+        "greek": "η ψηφιακή πύλη «gov.cy» και η «Αριάδνη»",
+        "phonetic_hint": "ee psee-fyah-KEE PEE-lee gov.cy keh ee ah-ree-AHTH-nee",
+        "english": "the 'gov.cy' digital portal and 'Ariadni' government gateway",
+        "notes": "Official digital government portal of the Republic of Cyprus (gov.cy) and CY Login (formerly Ariadni), alongside JCCsmart for electronic payment of state fees, taxes, and exam applications.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την ψηφιακή πύλη"
+        },
+        "keg_communicative_function": "Daily Life & e-Government — Digital citizen services",
+        "example_el": "Μέσω της κυβερνητικής διαδικτυακής πύλης gov.cy οι πολίτες έχουν πρόσβαση στις ηλεκτρονικές υπηρεσίες του κράτους.",
+        "example_en": "Through the government web portal gov.cy, citizens have access to the electronic services of the state.",
+        "example2_el": "Η πληρωμή κυβερνητικών τελών, φόρων και των εξετάσεων πολιτογράφησης γίνεται ηλεκτρονικά μέσω της πλατφόρμας JCCsmart.",
+        "example2_en": "Payment of government fees, taxes, and naturalization exam fees is done electronically via the JCCsmart platform."
+    },
+    {
+        "id": "CYP-U05-020",
+        "greek": "οι μονάδες αφαλάτωσης νερού",
+        "phonetic_hint": "ee moh-NAH-thehs ah-fah-LAH-toh-sees neh-ROO",
+        "english": "water desalination plants",
+        "notes": "Because Cyprus experiences frequent droughts (ανομβρία), seawater desalination plants (in Dhekelia, Larnaca, Vasilikos, Episkopi, Paphos) supply the majority of drinking water to households.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "singular": "η μονάδα αφαλάτωσης",
+            "plural": "οι μονάδες αφαλάτωσης",
+            "accusative_plural": "τις μονάδες αφαλάτωσης"
+        },
+        "keg_communicative_function": "Economy & Infrastructure — Water management in Cyprus",
+        "example_el": "Λόγω της λειψυδρίας, η Κύπρος καλύπτει μεγάλο μέρος των αναγκών της σε πόσιμο νερό μέσω μονάδων αφαλάτωσης θαλασσινού νερού.",
+        "example_en": "Due to water scarcity, Cyprus covers a large part of its drinking water needs through seawater desalination plants.",
+        "example2_el": "Το Τμήμα Αναπτύξεως Υδάτων έχει την ευθύνη για τη διαχείριση των φραγμάτων και των υδατικών πόρων.",
+        "example2_en": "The Water Development Department is responsible for managing dams and water resources."
+    },
+    {
+        "id": "CYP-U05-021",
+        "greek": "το Τμήμα Αρχείου Πληθυσμού και Μετανάστευσης (και το Υφυπουργείο Μετανάστευσης)",
+        "phonetic_hint": "toh TMEE-mah ahr-KHEE-oo plee-thee-ZMOO keh meh-tah-NAH-stef-sees",
+        "english": "the Civil Registry and Migration Department (and Deputy Ministry of Migration)",
+        "notes": "Responsible for residence permits (άδειες διαμονής), long-term residence status (καθεστώς επί μακρόν διαμένοντος), naturalization/citizenship (πολιτογράφηση), and identity cards.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Τμήμα Αρχείου Πληθυσμού και Μετανάστευσης"
+        },
+        "keg_communicative_function": "Daily Life & Administration — Residence and citizenship authorities",
+        "example_el": "Οι αιτήσεις για πολιτογράφηση και καθεστώς επί μακρόν διαμένοντος εξετάζονται από το Τμήμα Αρχείου Πληθυσμού και Μετανάστευσης.",
+        "example_en": "Applications for naturalization and long-term residence status are examined by the Civil Registry and Migration Department.",
+        "example2_el": "Το 2024 ιδρύθηκε στην Κύπρο το Υφυπουργείο Μετανάστευσης και Διεθνούς Προστασίας.",
+        "example2_en": "In 2024, the Deputy Ministry of Migration and International Protection was established in Cyprus."
+    },
+    {
+        "id": "CYP-U05-022",
+        "greek": "ο 13ος μισθός και η ΑΤΑ (Αυτόματη Τιμαριθμική Αναπροσαρμογή)",
+        "phonetic_hint": "oh theh-kah-tos TREE-tos mee-STHOHS keh ee AH-TAH",
+        "english": "the 13th salary and CoLA (Cost of Living Allowance / ATA)",
+        "notes": "Key features of employment in Cyprus: the 13th salary paid at Christmas (customary/contractual, mandatory once part of employment practice) and ATA (Αυτόματη Τιμαριθμική Αναπροσαρμογή - Cost of Living Allowance adjusting wages to inflation).",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον 13ο μισθό"
+        },
+        "keg_communicative_function": "Economy & Labor — Cypriot labor terms",
+        "example_el": "Η Αυτόματη Τιμαριθμική Αναπροσαρμογή (ΑΤΑ) αναπροσαρμόζει τους μισθούς ανάλογα με τον πληθωρισμό.",
+        "example_en": "The Automatic Cost of Living Adjustment (ATA) adjusts wages according to inflation.",
+        "example2_el": "Ο δέκατος τρίτος (13ος) μισθός καταβάλλεται στους εργαζομένους τον Δεκέμβριο πριν από τις γιορτές των Χριστουγέννων.",
+        "example2_en": "The thirteenth (13th) salary is paid to employees in December before the Christmas holidays."
+    },
+    {
+        "id": "CYP-U05-023",
+        "greek": "η Γαλάζια Σημαία στις παραλίες της Κύπρου",
+        "phonetic_hint": "ee ghah-LAH-zyah see-MEH-ah stees pah-rah-LEE-ehs tees KEE-proo",
+        "english": "the Blue Flag on the beaches of Cyprus",
+        "notes": "Cyprus consistently ranks first in the European Union for the cleanest bathing waters (99%+ compliance) and holds dozens of Blue Flag (Γαλάζια Σημαία) awards (especially in Ayia Napa, Protaras, Limassol, Paphos, Larnaca).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι Γαλάζιες Σημαίες",
+            "accusative_singular": "τη Γαλάζια Σημαία"
+        },
+        "keg_communicative_function": "Tourism & Environment — Bathing water quality",
+        "example_el": "Η Κύπρος κατατάσσεται σταθερά στις πρώτες θέσεις της Ευρωπαϊκής Ένωσης για την καθαρότητα των νερών κολύμβησης και τις Γαλάζιες Σημαίες.",
+        "example_en": "Cyprus consistently ranks at the top of the European Union for bathing water cleanliness and Blue Flags.",
+        "example2_el": "Ο Δήμος Αγίας Νάπας διαθέτει τον μεγαλύτερο αριθμό παραλιών βραβευμένων με Γαλάζια Σημαία στην Κύπρο.",
+        "example2_en": "The Municipality of Ayia Napa has the largest number of Blue Flag-awarded beaches in Cyprus."
+    },
+    {
+        "id": "CYP-U05-024",
+        "greek": "ο εταιρικός φόρος στην Κύπρο (12,5% / 15%)",
+        "phonetic_hint": "oh eh-teh-ree-KOHS FOH-ros steen KEE-proh",
+        "english": "corporate tax in Cyprus",
+        "notes": "Cyprus's competitive corporate tax regime (traditionally 12.5%, aligning with the OECD/EU 15% global minimum tax for large multinationals) has made the island a major international business and tech hub.",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον εταιρικό φόρο"
+        },
+        "keg_communicative_function": "Economy — Taxation and international business",
+        "example_el": "Το ευνοϊκό φορολογικό σύστημα ανέδειξε την Κύπρο σε διεθνές επιχειρηματικό και τεχνολογικό κέντρο.",
+        "example_en": "The favorable tax system has established Cyprus as an international business and technology center.",
+        "example2_el": "Το Τμήμα Φορολογίας υπάγεται στο Υπουργείο Οικονομικών της Κυπριακής Δημοκρατίας.",
+        "example2_en": "The Tax Department falls under the Ministry of Finance of the Republic of Cyprus."
+    },
+    {
+        "id": "CYP-U05-025",
+        "greek": "το αφορολόγητο εισόδημα φυσικών προσώπων (19.500 ευρώ)",
+        "phonetic_hint": "toh ah-foh-roh-LOH-yee-toh ee-SOH-thee-mah fee-see-KON proh-SOH-pon",
+        "english": "the tax-free personal income threshold (€19,500)",
+        "notes": "In Cyprus, annual personal income up to €19,500 is exempt from income tax (0% tax bracket).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το αφορολόγητο εισόδημα"
+        },
+        "keg_communicative_function": "Economy & Daily Life — Personal income tax",
+        "example_el": "Στην Κύπρο το ετήσιο αφορολόγητο εισόδημα για τα φυσικά πρόσωπα ανέρχεται στις 19.500 ευρώ.",
+        "example_en": "In Cyprus, the annual tax-free income for individuals stands at 19,500 euros.",
+        "example2_el": "Κάθε φορολογούμενος υποβάλλει τη φορολογική του δήλωση ηλεκτρονικά μέσω του συστήματος TaxisNet.",
+        "example2_en": "Every taxpayer submits their tax return electronically through the TaxisNet system."
+    },
+    {
+        "id": "CYP-U05-026",
+        "greek": "η Αστυνομία Κύπρου και η Πυροσβεστική Υπηρεσία",
+        "phonetic_hint": "ee ah-stee-noh-MEE-ah KEE-proo keh ee pee-roh-sveh-stee-KEE ee-pee-reh-SEE-ah",
+        "english": "the Cyprus Police and the Fire Service",
+        "notes": "Fall politically under the Ministry of Justice and Public Order (Υπουργείο Δικαιοσύνης και Δημοσίας Τάξεως). Headed by the Chief of Police (ο Αρχηγός Αστυνομίας).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Αστυνομία Κύπρου"
+        },
+        "keg_communicative_function": "Daily Life & Safety — Public order authorities",
+        "example_el": "Η Αστυνομία Κύπρου και η Πυροσβεστική Υπηρεσία υπάγονται στο Υπουργείο Δικαιοσύνης και Δημοσίας Τάξεως.",
+        "example_en": "The Cyprus Police and the Fire Service fall under the Ministry of Justice and Public Order.",
+        "example2_el": "Ο Αρχηγός της Αστυνομίας διορίζεται από τον Πρόεδρο της Δημοκρατίας.",
+        "example2_en": "The Chief of Police is appointed by the President of the Republic."
+    },
+    {
+        "id": "CYP-U05-027",
+        "greek": "η Εθνική Φρουρά",
+        "phonetic_hint": "ee eth-nee-KEE froo-RAH",
+        "english": "the National Guard (armed forces of the Republic of Cyprus)",
+        "notes": "Founded in 1964; falls under the Ministry of Defence (Υπουργείο Άμυνας). Military service for male citizens lasts 14 months.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Εθνική Φρουρά"
+        },
+        "keg_communicative_function": "Polity & Safety — Defense of the Republic",
+        "example_el": "Η Εθνική Φρουρά ιδρύθηκε το 1964 και αποτελεί την ένοπλη δύναμη αμύνης της Κυπριακής Δημοκρατίας.",
+        "example_en": "The National Guard was founded in 1964 and constitutes the armed defense force of the Republic of Cyprus.",
+        "example2_el": "Η στρατιωτική θητεία στην Εθνική Φρουρά έχει διάρκεια δεκατέσσερις (14) μήνες.",
+        "example2_en": "Military service in the National Guard has a duration of fourteen (14) months."
+    },
+    {
+        "id": "CYP-U05-028",
+        "greek": "ο Οργανισμός Κρατικών Υπηρεσιών Υγείας (ΟΚΥπΥ)",
+        "phonetic_hint": "oh or-ghah-nee-ZMOHS krah-tee-KON ee-pee-reh-see-ON ee-YEE-ahs (oh-kee-PEE)",
+        "english": "the State Health Services Organisation (SHSO / OKYpY)",
+        "notes": "Public organization managing all state general hospitals (such as Nicosia General Hospital, Makarios Hospital, Limassol, Larnaca, Paphos, and Famagusta General Hospitals) and health centers within GeSY.",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον Οργανισμό Κρατικών Υπηρεσιών Υγείας"
+        },
+        "keg_communicative_function": "Healthcare — Public hospitals in Cyprus",
+        "example_el": "Ο ΟΚΥπΥ διαχειρίζεται όλα τα δημόσια νοσοκομεία και κέντρα υγείας της Κύπρου στο πλαίσιο του ΓεΣΥ.",
+        "example_en": "OKYpY manages all public hospitals and health centers in Cyprus within the framework of GeSY.",
+        "example2_el": "Το Νοσοκομείο Αρχιεπίσκοπος Μακάριος Γ΄ στη Λευκωσία είναι το εξειδικευμένο νοσοκομείο μητέρας και παιδιού.",
+        "example2_en": "The Archbishop Makarios III Hospital in Nicosia is the specialized mother and child hospital."
+    },
+    {
+        "id": "CYP-U05-029",
+        "greek": "το Τμήμα Κτηματολογίου και Χωρομετρίας",
+        "phonetic_hint": "toh TMEE-mah ktee-mah-toh-loh-YEE-oo keh khoh-roh-meh-TREE-ahs",
+        "english": "the Department of Lands and Surveys (Land Registry)",
+        "notes": "Oldest government department in Cyprus (operating since 1858), under the Ministry of Interior (Υπουργείο Εσωτερικών); issues property title deeds (τίτλοι ιδιοκτησίας / κοτσάνια).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Τμήμα Κτηματολογίου και Χωρομετρίας"
+        },
+        "keg_communicative_function": "Daily Life & Property — Land registry & title deeds",
+        "example_el": "Το Τμήμα Κτηματολογίου και Χωρομετρίας είναι αρμόδιο για τους τίτλους ιδιοκτησίας ακινήτων στην Κύπρο.",
+        "example_en": "The Department of Lands and Surveys is responsible for real estate title deeds in Cyprus.",
+        "example2_el": "Υπάγεται διοικητικά στο Υπουργείο Εσωτερικών της Κυπριακής Δημοκρατίας.",
+        "example2_en": "It falls administratively under the Ministry of Interior of the Republic of Cyprus."
+    },
+    {
+        "id": "CYP-U05-030",
+        "greek": "η ώρα Κύπρου (Ζώνη Ώρας Ανατολικής Ευρώπης, UTC+2 / UTC+3)",
+        "phonetic_hint": "ee OH-rah KEE-proo (ZOH-nee OH-rahs ah-nah-toh-lee-KEES ev-ROH-pees)",
+        "english": "Cyprus Time Zone (Eastern European Time, UTC+2 / UTC+3)",
+        "notes": "Cyprus is in the Eastern European Time Zone (EET, UTC+2 in winter and EEST, UTC+3 in summer — the same time zone as Athens/Greece).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την ώρα Κύπρου"
+        },
+        "keg_communicative_function": "Daily Life — Time zone and working hours",
+        "example_el": "Η Κύπρος ανήκει στη Ζώνη Ώρας Ανατολικής Ευρώπης (UTC+2 τον χειμώνα και UTC+3 το καλοκαίρι), έχοντας την ίδια ώρα με την Ελλάδα.",
+        "example_en": "Cyprus belongs to the Eastern European Time Zone (UTC+2 in winter and UTC+3 in summer), sharing the same time as Greece.",
+        "example2_el": "Η αλλαγή της ώρας σε θερινή γίνεται την τελευταία Κυριακή του Μαρτίου και σε χειμερινή την τελευταία Κυριακή του Οκτωβρίου.",
+        "example2_en": "The change to daylight saving time takes place on the last Sunday of March and to winter time on the last Sunday of October."
+    }
+]
+
+
+def main():
+    write_unit(
+        unit_id="unit-cyp-05",
+        title="Μάθημα 5: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare & Daily Life)",
+        description="Official currency (Euro adoption 2008), economic sectors (services, shipping, tourism, EEZ & Aphrodite gas field), VAT rates (19% / 0%), GeSY healthcare, minimum wage, left-hand driving, legal airports & ports, emergency numbers (112/199), and public holidays.",
+        notes=NOTES_CYP_05,
+        cards=CARDS_CYP_05,
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,662 @@
+# -*- coding: utf-8 -*-
+"""
+Generate Cyprus Culture and Political/Social Reality Exam Curriculum — Unit 6:
+- unit-cyp-06 (CYP-06-A): Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση (30 cards)
+Also registers unit-cyp-01 to unit-cyp-06 in content/manifest.yaml.
+"""
+import sys
+from pathlib import Path
+import yaml
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
+
+from scripts.create_cyprus_exam_batch_1 import write_unit
+
+CONTENT_DIR = BASE_DIR / "content"
+
+NOTES_CYP_06 = """Unit CYP-06 Core Exam Notes: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση (EU, International Relations, Current Affairs & Naturalization)
+
+• Η Κύπρος στην Ευρωπαϊκή Ένωση & στους Διεθνείς Οργανισμούς:
+  - Ένταξη στην Ευρωπαϊκή Ένωση: 1 Μαΐου 2004.
+  - Ένταξη στην Ευρωζώνη: 1 Ιανουαρίου 2008.
+  - Κύπριοι Ευρωβουλευτές στο Ευρωπαϊκό Κοινοβούλιο: 6 ευρωβουλευτές (εκλέγονται κάθε 5 χρόνια).
+  - Προεδρία του Συμβουλίου της Ευρωπαϊκής Ένωσης: 1η φορά το Β΄ εξάμηνο του 2012· 2η φορά το Α΄ εξάμηνο του 2026.
+  - Διεθνείς Οργανισμοί στους οποίους είναι μέλος η Κύπρος: ΟΗΕ (από το 1960), Συμβούλιο της Ευρώπης (1961), Κοινοπολιτεία των Εθνών (1961), ΟΑΣΕ.
+  - Οργανισμός στον οποίο η Κύπρος ΔΕΝ είναι μέλος: Το ΝΑΤΟ (Βορειοατλαντική Συμμαχία).
+
+• Παιδεία, Δημόσια Πανεπιστήμια & Αθλητισμός:
+  - Τρία (3) Δημόσια Πανεπιστήμια της Κύπρου:
+    1. Πανεπιστήμιο Κύπρου (ΠΚ) στη Λευκωσία (ιδρύθηκε το 1989).
+    2. Τεχνολογικό Πανεπιστήμιο Κύπρου (ΤΕΠΑΚ) στη Λεμεσό (ιδρύθηκε το 2004).
+    3. Ανοικτό Πανεπιστήμιο Κύπρου (ΑΠΚΥ) στη Λευκωσία (εξ αποστάσεως εκπαίδευση).
+  - Ολυμπιακά Μετάλλια Κύπρου: Ο Παύλος Κοντίδης (Ιστιοπλοΐα — κατηγορία Laser) είναι ο μοναδικός Κύπριος Ολυμπιονίκης, με δύο αργυρά μετάλλια (Λονδίνο 2012 και Παρίσι 2024).
+
+• Μεταρρύθμιση Τοπικής Αυτοδιοίκησης (2024) & Υφυπουργεία:
+  - Από τον Ιούνιο του 2024 οι δήμοι στις ελεύθερες περιοχές συνενώθηκαν σε 20 Δήμους και δημιουργήθηκαν οι Επαρχιακοί Οργανισμοί Αυτοδιοίκησης (ΕΟΑ).
+  - Τα 6 Υφυπουργεία της Κυπριακής Δημοκρατίας: Ναυτιλίας (Λεμεσός), Τουρισμού, Έρευνας/Καινοτομίας/Ψηφιακής Πολιτικής, Κοινωνικής Πρόνοιας, Πολιτισμού, και Μετανάστευσης & Διεθνούς Προστασίας.
+
+• Η Εξέταση Σύγχρονης Πολιτικής και Κοινωνικής Πραγματικότητας της Κύπρου:
+  - Διοργανώνεται από την Υπηρεσία Εξετάσεων του Υπουργείου Παιδείας, Αθλητισμού και Νεολαίας (ΥΠΑΝ).
+  - Περιλαμβάνει 25 ερωτήσεις πολλαπλής επιλογής σε 45 λεπτά.
+  - Βάση επιτυχίας: 60% (τουλάχιστον 15/25) για πολιτογράφηση και 50% (13/25) για καθεστώς επί μακρόν διαμένοντος."""
+
+CARDS_CYP_06 = [
+    {
+        "id": "CYP-U06-001",
+        "greek": "— Πόσους Ευρωβουλευτές εκλέγει η Κύπρος στο Ευρωπαϊκό Κοινοβούλιο; — Έξι (6) Ευρωβουλευτές.",
+        "phonetic_hint": "POH-soos ev-roh-voo-lef-TEHS ehk-LEH-yee ee KEE-pros stoh ev-roh-pah-ee-KOH kee-noh-VOO-lee-oh? EHK-see ev-roh-voo-lef-TEHS",
+        "english": "— How many Members of the European Parliament (MEPs) does Cyprus elect to the European Parliament? — Six (6) MEPs.",
+        "notes": "One of the most frequently repeated past exam questions! Cyprus elects 6 MEPs every five years.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Cyprus representation in the European Parliament",
+        "example_el": "Η Κυπριακή Δημοκρατία εκπροσωπείται στο Ευρωπαϊκό Κοινοβούλιο από έξι (6) ευρωβουλευτές.",
+        "example_en": "The Republic of Cyprus is represented in the European Parliament by six (6) MEPs.",
+        "example2_el": "Οι ευρωεκλογές διεξάγονται κάθε πέντε χρόνια σε όλα τα κράτη μέλη της Ευρωπαϊκής Ένωσης.",
+        "example2_en": "European elections are held every five years across all member states of the European Union."
+    },
+    {
+        "id": "CYP-U06-002",
+        "greek": "— Σε ποιον από τους παρακάτω διεθνείς οργανισμούς ΔΕΝ είναι μέλος η Κυπριακή Δημοκρατία; — Στο ΝΑΤΟ (Βορειοατλαντική Συμμαχία).",
+        "phonetic_hint": "seh pyon ah-POH toos theeh-THNEES or-ghah-nee-ZMOOS thehn EE-neh MEH-los ee kee-pree-ah-KEE theem-oh-krah-TEE-ah? stoh NAH-toh",
+        "english": "— Of which of the following international organizations is the Republic of Cyprus NOT a member? — NATO (North Atlantic Treaty Organization).",
+        "notes": "Classic past exam question! Cyprus is a member of the UN (ΟΗΕ), the EU (ΕΕ), the Council of Europe (Συμβούλιο της Ευρώπης), and the Commonwealth (Κοινοπολιτεία), but is NOT a member of NATO.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — International organization memberships",
+        "example_el": "Η Κυπριακή Δημοκρατία είναι μέλος του ΟΗΕ, της Ευρωπαϊκής Ένωσης και της Κοινοπολιτείας, αλλά δεν είναι μέλος του ΝΑΤΟ.",
+        "example_en": "The Republic of Cyprus is a member of the UN, the European Union, and the Commonwealth, but is not a member of NATO.",
+        "example2_el": "Η Κύπρος έγινε μέλος του Οργανισμού Ηνωμένων Εθνών (ΟΗΕ) τον Σεπτέμβριο του 1960, λίγο μετά την ανεξαρτησία της.",
+        "example2_en": "Cyprus became a member of the United Nations (UN) in September 1960, shortly after its independence."
+    },
+    {
+        "id": "CYP-U06-003",
+        "greek": "η Κυπριακή Προεδρία του Συμβουλίου της Ευρωπαϊκής Ένωσης (2012 & 2026)",
+        "phonetic_hint": "ee kee-pree-ah-KEE proh-eth-REE-ah too seem-voo-LEE-oo tees ev-roh-pah-ee-KEES EH-noh-sees",
+        "english": "the Cyprus Presidency of the Council of the European Union (2012 & 2026)",
+        "notes": "Cyprus held the rotating 6-month Presidency of the Council of the EU for the first time in the second half of 2012 (July–December 2012) and for the second time in the first half of 2026 (January–June 2026).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Κυπριακή Προεδρία του Συμβουλίου της ΕΕ"
+        },
+        "keg_communicative_function": "European Union & Current Affairs — Council of the EU Presidency",
+        "example_el": "Η Κύπρος ανέλαβε για πρώτη φορά την Προεδρία του Συμβουλίου της ΕΕ το δεύτερο εξάμηνο του 2012 και για δεύτερη φορά το πρώτο εξάμηνο του 2026.",
+        "example_en": "Cyprus assumed the Presidency of the Council of the EU for the first time in the second half of 2012 and for the second time in the first half of 2026.",
+        "example2_el": "Κάθε κράτος μέλος της ΕΕ ασκεί επίσης το δικαίωμα διορισμού ενός Ευρωπαίου Επιτρόπου στην Ευρωπαϊκή Επιτροπή.",
+        "example2_en": "Each EU member state also nominates one European Commissioner to the European Commission."
+    },
+    {
+        "id": "CYP-U06-004",
+        "greek": "η Κοινοπολιτεία των Εθνών (Commonwealth)",
+        "phonetic_hint": "ee kee-noh-poh-lee-TEE-ah ton eth-NON",
+        "english": "the Commonwealth of Nations",
+        "notes": "Cyprus joined the Commonwealth of Nations in March 1961 under President Makarios III and hosted the Commonwealth Heads of Government Meeting (CHOGM) in Limassol in 1993.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Κοινοπολιτεία των Εθνών"
+        },
+        "keg_communicative_function": "International Relations — Commonwealth membership",
+        "example_el": "Η Κυπριακή Δημοκρατία είναι κράτος μέλος της Κοινοπολιτείας των Εθνών από το 1961.",
+        "example_en": "The Republic of Cyprus has been a member state of the Commonwealth of Nations since 1961.",
+        "example2_el": "Επίσης, από το 1961 η Κύπρος είναι πλήρες μέλος του Συμβουλίου της Ευρώπης που εδρεύει στο Στρασβούργο.",
+        "example2_en": "Also, since 1961 Cyprus has been a full member of the Council of Europe based in Strasbourg."
+    },
+    {
+        "id": "CYP-U06-005",
+        "greek": "— Ποια είναι τα τρία (3) δημόσια πανεπιστήμια της Κυπριακής Δημοκρατίας; — Το Πανεπιστήμιο Κύπρου, το ΤΕΠΑΚ και το Ανοικτό Πανεπιστήμιο Κύπρου.",
+        "phonetic_hint": "pyah EE-neh tah TREE-ah theem-OH-syah pah-neh-pee-STEE-mee-ah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs?",
+        "english": "— Which are the three (3) public universities of the Republic of Cyprus? — The University of Cyprus, the Cyprus University of Technology (TEPAK), and the Open University of Cyprus.",
+        "notes": "Frequent past exam question! Watch out for private universities (like University of Nicosia, European University, Frederick, Neapolis, UCLan) used as distractors when the question specifically asks for PUBLIC universities (δημόσια πανεπιστήμια).",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Public universities in Cyprus",
+        "example_el": "Το Πανεπιστήμιο Κύπρου (ΠΚ) και το Ανοικτό Πανεπιστήμιο Κύπρου (ΑΠΚΥ) εδρεύουν στη Λευκωσία, ενώ το Τεχνολογικό Πανεπιστήμιο Κύπρου (ΤΕΠΑΚ) εδρεύει στη Λεμεσό.",
+        "example_en": "The University of Cyprus (UCY) and the Open University of Cyprus (OUC) are based in Nicosia, while the Cyprus University of Technology (TEPAK) is based in Limassol.",
+        "example2_el": "Το Πανεπιστήμιο Κύπρου ιδρύθηκε το 1989 και δέχθηκε τους πρώτους του φοιτητές το 1992.",
+        "example2_en": "The University of Cyprus was founded in 1989 and admitted its first students in 1992."
+    },
+    {
+        "id": "CYP-U06-006",
+        "greek": "η υποχρεωτική εκπαίδευση στην Κύπρο",
+        "phonetic_hint": "ee ee-poh-khreh-oh-tee-KEE ehk-PEH-thef-see steen KEE-proo",
+        "english": "compulsory education in Cyprus",
+        "notes": "Education in Cyprus is compulsory and free in public schools from pre-primary school (προδημοτική, age 4 years and 8 months) through primary school (Δημοτικό, 6 years) up to the end of Gymnasium (Γυμνάσιο, age 15).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την υποχρεωτική εκπαίδευση"
+        },
+        "keg_communicative_function": "Education & Society — Compulsory schooling stages",
+        "example_el": "Η εκπαίδευση στην Κύπρο είναι υποχρεωτική από την προδημοτική ηλικία μέχρι τη συμπλήρωση του Γυμνασίου (ή του 15ου έτους).",
+        "example_en": "Education in Cyprus is compulsory from pre-primary age until completion of Gymnasium (or age 15).",
+        "example2_el": "Μετά το Γυμνάσιο ακολουθεί η τριετής φοίτηση στο Λύκειο ή στις Τεχνικές και Επαγγελματικές Σχολές.",
+        "example2_en": "After Gymnasium follows three years of study at Lyceum or at Technical and Vocational Schools."
+    },
+    {
+        "id": "CYP-U06-007",
+        "greek": "— Ποιος είναι ο πρώτος (και μοναδικός) Κύπριος αθλητής που κατέκτησε Ολυμπιακό μετάλλιο για την Κύπρο; — Ο Παύλος Κοντίδης στην ιστιοπλοΐα.",
+        "phonetic_hint": "pyos EE-neh oh PROH-tos KEE-pree-os ah-thlee-TEES poo kah-TEHK-tee-seh oh-leem-byah-KOH meh-TAH-lee-oh? oh PAHV-los kohn-DEE-thees",
+        "english": "— Who is the first (and only) Cypriot athlete to win an Olympic medal for Cyprus? — Pavlos Kontides in sailing.",
+        "notes": "High-frequency past exam question! Sailor Pavlos Kontides (born in Limassol) won the Silver Medal at the London 2012 Olympics AND a second Olympic Silver Medal at the Paris 2024 Olympics in the Men's Laser/ILCA 7 class.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Past Exam Q&A — Cyprus Olympic achievements",
+        "example_el": "Ο ιστιοπλόος Παύλος Κοντίδης χάρισε στην Κύπρο δύο αργυρά Ολυμπιακά μετάλλια, στο Λονδίνο το 2012 και στο Παρίσι το 2024.",
+        "example_en": "Sailor Pavlos Kontides won two silver Olympic medals for Cyprus, in London in 2012 and in Paris in 2024.",
+        "example2_el": "Στους Παραολυμπιακούς Αγώνες διακρίθηκε ιδιαίτερα η Κύπρια κολυμβήτρια Καρολίνα Πελενδρίτου με χρυσά μετάλλια.",
+        "example2_en": "At the Paralympic Games, Cypriot swimmer Karolina Pelendritou excelled with gold medals."
+    },
+    {
+        "id": "CYP-U06-008",
+        "greek": "η Μεταρρύθμιση της Τοπικής Αυτοδιοίκησης (2024)",
+        "phonetic_hint": "ee meh-tah-REETH-mee-see tees toh-pee-KEES ahf-toh-thee-EE-kee-sees",
+        "english": "the Local Government Reform (2024)",
+        "notes": "Major reform implemented with the June 2024 local elections: merged the 30 free municipalities and many communities into 20 Municipalities (20 Δήμοι) and created 5 District Local Government Organizations (Επαρχιακοί Οργανισμοί Αυτοδιοίκησης - ΕΟΑ).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "τη Μεταρρύθμιση της Τοπικής Αυτοδιοίκησης"
+        },
+        "keg_communicative_function": "Current Affairs & Polity — 2024 Municipal & District Reform",
+        "example_el": "Με τη μεταρρύθμιση της Τοπικής Αυτοδιοίκησης το 2024, οι δήμοι στις ελεύθερες περιοχές της Κύπρου μειώθηκαν σε είκοσι (20).",
+        "example_en": "With the Local Government reform in 2024, the municipalities in the free areas of Cyprus were reduced to twenty (20).",
+        "example2_el": "Παράλληλα συστάθηκαν οι Επαρχιακοί Οργανισμοί Αυτοδιοίκησης (ΕΟΑ) για την ύδρευση, την αποχέτευση και τις πολεοδομικές άδειες.",
+        "example2_en": "At the same time, District Local Government Organizations (EOA) were established for water supply, sewerage, and planning permits."
+    },
+    {
+        "id": "CYP-U06-009",
+        "greek": "τα έξι (6) Υφυπουργεία της Κυπριακής Δημοκρατίας",
+        "phonetic_hint": "tah EHK-see ee-fee-poor-YEE-ah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs",
+        "english": "the six (6) Deputy Ministries of the Republic of Cyprus",
+        "notes": "Past exam question! The 6 Deputy Ministries are: 1. Ναυτιλίας (Shipping - in Limassol), 2. Τουρισμού (Tourism), 3. Έρευνας, Καινοτομίας και Ψηφιακής Πολιτικής, 4. Κοινωνικής Πρόνοιας (Social Welfare), 5. Πολιτισμού (Culture), 6. Μετανάστευσης και Διεθνούς Προστασίας (Migration & International Protection).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "singular": "το Υφυπουργείο",
+            "plural": "τα Υφυπουργεία",
+            "accusative_plural": "τα Υφυπουργεία"
+        },
+        "keg_communicative_function": "Polity & Current Affairs — Deputy Ministries of Cyprus",
+        "example_el": "Στην Κυπριακή Δημοκρατία λειτουργούν έντεκα Υπουργεία και έξι εξειδικευμένα Υφυπουργεία.",
+        "example_en": "In the Republic of Cyprus, eleven Ministries and six specialized Deputy Ministries operate.",
+        "example2_el": "Το Υφυπουργείο Ναυτιλίας είναι το μόνο που εδρεύει στη Λεμεσό, ενώ τα υπόλοιπα εδρεύουν στη Λευκωσία.",
+        "example2_en": "The Deputy Ministry of Shipping is the only one headquartered in Limassol, while the rest are based in Nicosia."
+    },
+    {
+        "id": "CYP-U06-010",
+        "greek": "το Ινστιτούτο Νευρολογίας και Γενετικής Κύπρου (ΙΝΓΚ) και το Ινστιτούτο Κύπρου",
+        "phonetic_hint": "toh een-stee-TOO-toh nev-roh-loh-YEE-ahs keh yeh-neh-tee-KEES KEE-proo",
+        "english": "the Cyprus Institute of Neurology and Genetics (CING) and the Cyprus Institute",
+        "notes": "Leading scientific research centers in Nicosia, internationally recognized in biomedical/genetic research (including thalassemia research) and environmental/climate science.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Ινστιτούτο Νευρολογίας και Γενετικής Κύπρου"
+        },
+        "keg_communicative_function": "Science & Education — Research centers in Cyprus",
+        "example_el": "Το Ινστιτούτο Νευρολογίας και Γενετικής Κύπρου (ΙΝΓΚ) στη Λευκωσία είναι κορυφαίο ερευνητικό και ιατρικό κέντρο.",
+        "example_en": "The Cyprus Institute of Neurology and Genetics (CING) in Nicosia is a leading research and medical center.",
+        "example2_el": "Ο ετήσιος φιλανθρωπικός θεσμός «Telethon» στηρίζει το έργο του Ινστιτούτου Νευρολογίας και Γενετικής.",
+        "example2_en": "The annual charity event 'Telethon' supports the work of the Institute of Neurology and Genetics."
+    },
+    {
+        "id": "CYP-U06-011",
+        "greek": "η εκστρατεία «Ραδιομαραθώνιος» και η «Πορεία Χριστοδούλας»",
+        "phonetic_hint": "ee ehk-strah-TEE-ah rah-thee-oh-mah-rah-THOH-nee-os keh ee poh-REE-ah khree-stoh-THOO-lahs",
+        "english": "the 'Radiomarathon' charity campaign and the 'Christodoula March'",
+        "notes": "Two of Cyprus's best-known annual social solidarity institutions: Radiomarathon (supporting children with special needs) and the Christodoula March (organized every April by the Cyprus Anti-Cancer Society / Αντικαρκινικός Σύνδεσμος Κύπρου, named after cancer patient Christodoula Tsiarta from 1974).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Πορεία Χριστοδούλας"
+        },
+        "keg_communicative_function": "Society & Solidarity — Major charity institutions in Cyprus",
+        "example_el": "Η «Πορεία Χριστοδούλας» διοργανώνεται κάθε Απρίλιο από τον Αντικαρκινικό Σύνδεσμο Κύπρου για τη στήριξη καρκινοπαθών.",
+        "example_en": "The 'Christodoula March' is organized every April by the Cyprus Anti-Cancer Society in support of cancer patients.",
+        "example2_el": "Ο «Ραδιομαραθώνιος» είναι παγκύπριος φιλανθρωπικός θεσμός για τη στήριξη παιδιών με ειδικές ανάγκες.",
+        "example2_en": "The 'Radiomarathon' is a pan-Cyprian charity institution supporting children with special needs."
+    },
+    {
+        "id": "CYP-U06-012",
+        "greek": "ο ΚΟΑ (Κυπριακός Οργανισμός Αθλητισμού) και το Στάδιο ΓΣΠ",
+        "phonetic_hint": "oh KOH-AH (kee-pree-ah-KOHS or-ghah-nee-ZMOHS ah-thlee-tee-ZMOO) keh toh STAH-thee-oh yee-see-PEE",
+        "english": "KOA (Cyprus Sport Organisation) and the GSP Stadium",
+        "notes": "KOA (founded 1969) is the supreme state authority for sports in Cyprus; GSP Stadium (Στάδιο Γυμναστικού Συλλόγου «Τα Παγκύπρια») in Nicosia is the largest football stadium in Cyprus (~22,859 capacity), alongside the new Alphamega Stadium in Limassol.",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον Κυπριακό Οργανισμό Αθλητισμού"
+        },
+        "keg_communicative_function": "Society & Sports — Sports institutions and stadiums",
+        "example_el": "Ο Κυπριακός Οργανισμός Αθλητισμού (ΚΟΑ) είναι ο ανώτατος ημικρατικός φορέας για τον αθλητισμό στην Κύπρο.",
+        "example_en": "The Cyprus Sport Organisation (KOA) is the supreme semi-governmental body for sports in Cyprus.",
+        "example2_el": "Το Στάδιο ΓΣΠ στη Λευκωσία είναι το μεγαλύτερο ποδοσφαιρικό στάδιο της Κύπρου.",
+        "example2_en": "The GSP Stadium in Nicosia is the largest football stadium in Cyprus."
+    },
+    {
+        "id": "CYP-U06-013",
+        "greek": "— Ποια υπηρεσία διοργανώνει την εξέταση γνώσεων της σύγχρονης πολιτικής και κοινωνικής πραγματικότητας της Κύπρου; — Η Υπηρεσία Εξετάσεων του Υπουργείου Παιδείας, Αθλητισμού και Νεολαίας (ΥΠΑΝ).",
+        "phonetic_hint": "pyah ee-pee-reh-SEE-ah thee-or-ghah-NOH-nee teen ehk-SEH-tah-see? ee ee-pee-reh-SEE-ah ehk-seh-TAH-seh-on too ee-poor-YEE-oo peh-THEE-ahs",
+        "english": "— Which service organizes the exam on the contemporary political and social reality of Cyprus? — The Examinations Service of the Ministry of Education, Sport and Youth (YPAN).",
+        "notes": "Core administrative fact about the exam itself! Conducted twice a year (usually February and July) by the Examinations Service of the Directorate of Higher Education of the Ministry of Education, Sport and Youth.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Exam Rules & Naturalization — Organizing authority",
+        "example_el": "Η εξέταση διενεργείται από την Υπηρεσία Εξετάσεων του Υπουργείου Παιδείας, Αθλητισμού και Νεολαίας.",
+        "example_en": "The examination is conducted by the Examinations Service of the Ministry of Education, Sport and Youth.",
+        "example2_el": "Δικαίωμα συμμετοχής έχουν υπήκοοι τρίτων χωρών που αιτούνται πολιτογράφηση ή καθεστώς επί μακρόν διαμένοντος.",
+        "example2_en": "Third-country nationals applying for naturalization or long-term residence status are eligible to participate."
+    },
+    {
+        "id": "CYP-U06-014",
+        "greek": "— Ποια είναι η βάση επιτυχίας στην εξέταση για πολιτογράφηση και ποια για το καθεστώς επί μακρόν διαμένοντος; — 60% για πολιτογράφηση και 50% για επί μακρόν διαμένοντες.",
+        "phonetic_hint": "pyah EE-neh ee VAH-see eh-pee-tee-KHEE-ahs steen ehk-SEH-tah-see? 60% yah poh-lee-toh-GHRAH-fee-see keh 50% yah eh-PEE mah-KRON theeah-MEH-nohn-dehs",
+        "english": "— What is the passing score in the exam for naturalization and for long-term residence status? — 60% for naturalization and 50% for long-term residents.",
+        "notes": "Out of 25 multiple-choice questions (4 points each = 100%), naturalization (πολιτογράφηση) requires at least 60% (15/25 correct answers), while long-term residence (επί μακρόν διαμένων) requires at least 50% (13/25 correct answers).",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Exam Rules & Naturalization — Passing thresholds",
+        "example_el": "Για τους αιτητές πολιτογράφησης απαιτείται βαθμολογία τουλάχιστον 60%, δηλαδή 15 σωστές απαντήσεις στις 25 ερωτήσεις.",
+        "example_en": "For naturalization applicants, a score of at least 60% is required, namely 15 correct answers out of 25 questions.",
+        "example2_el": "Για την απόκτηση καθεστώτος επί μακρόν διαμένοντος απαιτείται βαθμολογία τουλάχιστον 50%.",
+        "example2_en": "To obtain long-term resident status, a score of at least 50% is required."
+    },
+    {
+        "id": "CYP-U06-015",
+        "greek": "η πολιτογράφηση (η απόκτηση της κυπριακής υπηκοότητας)",
+        "phonetic_hint": "ee poh-lee-toh-GHRAH-fee-see (ee ah-POHK-tee-see tees kee-pree-ah-KEES ee-pee-koh-OH-tee-tahs)",
+        "english": "naturalization (acquisition of Cypriot citizenship)",
+        "notes": "Under the 2023/2024 amendment to the Civil Registry Law (Νόμος περί Αρχείου Πληθυσμού), naturalization requires legal residence, clean criminal record, financial self-sufficiency, Greek language proficiency (CEFR B1, or A2 for fast-track highly skilled employees), and passing the Political & Social Reality Exam with >=60%.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι πολιτογραφήσεις",
+            "accusative_singular": "την πολιτογράφηση"
+        },
+        "keg_communicative_function": "Naturalization & Law — Requirements for Cypriot citizenship",
+        "example_el": "Για την πολιτογράφηση απαιτείται πιστοποιητικό ελληνομάθειας επιπέδου Β1 (ή Α2 για ειδικευμένους εργαζομένους) και επιτυχία στην εξέταση με 60%.",
+        "example_en": "Naturalization requires a Greek language certificate at level B1 (or A2 for skilled workers) and passing the exam with 60%.",
+        "example2_el": "Ο αιτητής πρέπει επίσης να έχει λευκό ποινικό μητρώο και σταθερή, νόμιμη διαμονή στην Κυπριακή Δημοκρατία.",
+        "example2_en": "The applicant must also have a clean criminal record and stable, legal residence in the Republic of Cyprus."
+    },
+    {
+        "id": "CYP-U06-016",
+        "greek": "το καθεστώς του επί μακρόν διαμένοντος",
+        "phonetic_hint": "toh kah-theh-STOHS too eh-PEE mah-KRON theeah-MEH-nohn-dos",
+        "english": "long-term resident status",
+        "notes": "Granted to third-country nationals who have resided legally and continuously in the government-controlled areas of Cyprus for at least 5 years and meet integration criteria (including A2 Greek and >=50% on this exam).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το καθεστώς του επί μακρόν διαμένοντος"
+        },
+        "keg_communicative_function": "Naturalization & Law — Long-term residency",
+        "example_el": "Το καθεστώς του επί μακρόν διαμένοντος χορηγείται σε υπηκόους τρίτων χωρών μετά από πέντε έτη νόμιμης και συνεχούς διαμονής.",
+        "example_en": "Long-term resident status is granted to third-country nationals after five years of legal and continuous residence.",
+        "example2_el": "Οι υποψήφιοι για το καθεστώς επί μακρόν διαμένοντος πρέπει να επιτύχουν τουλάχιστον 50% στην εξέταση.",
+        "example2_en": "Candidates for long-term resident status must achieve at least 50% in the examination."
+    },
+    {
+        "id": "CYP-U06-017",
+        "greek": "ο Επίτροπος Προστασίας Δεδομένων Προσωπικού Χαρακτήρα",
+        "phonetic_hint": "oh eh-PEE-troh-pos proh-stah-SEE-ahs theh-thoh-MEH-non proh-soh-pee-KOO khah-rahk-TEE-rah",
+        "english": "the Commissioner for Personal Data Protection",
+        "notes": "Independent supervisory authority in Cyprus overseeing compliance with the EU General Data Protection Regulation (GDPR / ΓΚΠΔ).",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον Επίτροπο Προστασίας Δεδομένων Προσωπικού Χαρακτήρα"
+        },
+        "keg_communicative_function": "Polity & EU Law — Independent Commissioners in Cyprus",
+        "example_el": "Ο Επίτροπος Προστασίας Δεδομένων Προσωπικού Χαρακτήρα εποπτεύει την εφαρμογή του Ευρωπαϊκού Κανονισμού GDPR στην Κύπρο.",
+        "example_en": "The Commissioner for Personal Data Protection supervises the application of the European GDPR Regulation in Cyprus.",
+        "example2_el": "Στην Κύπρο λειτουργεί επίσης ο θεσμός του Επιτρόπου Προστασίας των Δικαιωμάτων του Παιδιού.",
+        "example2_en": "In Cyprus, the institution of the Commissioner for the Protection of the Rights of the Child also operates."
+    },
+    {
+        "id": "CYP-U06-018",
+        "greek": "το Κυπριακό Πρακτορείο Ειδήσεων (ΚΥΠΕ)",
+        "phonetic_hint": "toh kee-pree-ah-KOH prahk-toh-REE-oh ee-THEE-seh-on (KEE-peh)",
+        "english": "the Cyprus News Agency (CNA / KYPE)",
+        "notes": "Official national news agency of the Republic of Cyprus, founded in 1976 and headquartered in Nicosia.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Κυπριακό Πρακτορείο Ειδήσεων"
+        },
+        "keg_communicative_function": "Media & Current Affairs — National news agency",
+        "example_el": "Το Κυπριακό Πρακτορείο Ειδήσεων (ΚΥΠΕ) ιδρύθηκε το 1976 και αποτελεί το εθνικό πρακτορείο ειδήσεων της χώρας.",
+        "example_en": "The Cyprus News Agency (CNA) was founded in 1976 and is the national news agency of the country.",
+        "example2_el": "Το ΚΥΠΕ μεταδίδει ειδήσεις στην ελληνική, την αγγλική, την τουρκική και την αραβική γλώσσα.",
+        "example2_en": "CNA transmits news in Greek, English, Turkish, and Arabic."
+    },
+    {
+        "id": "CYP-U06-019",
+        "greek": "το Γραφείο Τύπου και Πληροφοριών (ΓΤΠ)",
+        "phonetic_hint": "toh ghrah-FEE-oh TEE-poo keh plee-roh-foh-ree-ON",
+        "english": "the Press and Information Office (PIO)",
+        "notes": "Government department under the Ministry of Interior responsible for official government announcements, press releases, and informative publications on Cyprus.",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Γραφείο Τύπου και Πληροφοριών"
+        },
+        "keg_communicative_function": "Polity & Media — Official government communication",
+        "example_el": "Το Γραφείο Τύπου και Πληροφοριών (ΓΤΠ) εκδίδει τις επίσημες ανακοινώσεις της κυβέρνησης και ενημερωτικές εκδόσεις για την Κύπρο.",
+        "example_en": "The Press and Information Office (PIO) issues official government announcements and informative publications about Cyprus.",
+        "example2_el": "Πολλές πληροφορίες για την ιστορία, την πολιτεία και τον πολιτισμό της Κύπρου δημοσιεύονται στην ιστοσελίδα του ΓΤΠ.",
+        "example2_en": "Extensive information on the history, polity, and culture of Cyprus is published on the PIO website."
+    },
+    {
+        "id": "CYP-U06-020",
+        "greek": "η τριμερής συνεργασία Κύπρου – Ελλάδας – Ισραήλ (και Κύπρου – Ελλάδας – Αιγύπτου)",
+        "phonetic_hint": "ee tree-meh-REES see-nehr-ghah-SEE-ah KEE-proo eh-LAH-thahs ee-srah-EEL",
+        "english": "the trilateral cooperation of Cyprus – Greece – Israel (and Cyprus – Greece – Egypt)",
+        "notes": "Key pillar of contemporary Cypriot foreign policy in the Eastern Mediterranean, covering energy security, electrical interconnection (Great Sea Interconnector), search-and-rescue, and regional stability.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την τριμερή συνεργασία"
+        },
+        "keg_communicative_function": "Current Affairs & Foreign Policy — Eastern Mediterranean alliances",
+        "example_el": "Η Κυπριακή Δημοκρατία έχει αναπτύξει στενές τριμερείς συνεργασίες με την Ελλάδα, την Αίγυπτο και το Ισραήλ στην Ανατολική Μεσόγειο.",
+        "example_en": "The Republic of Cyprus has developed close trilateral partnerships with Greece, Egypt, and Israel in the Eastern Mediterranean.",
+        "example2_el": "Η ηλεκτρική διασύνδεση Great Sea Interconnector στοχεύει στη σύνδεση του ηλεκτρικού δικτύου της Κύπρου με την Κρήτη και το Ισραήλ.",
+        "example2_en": "The Great Sea Interconnector aims to link the electricity grid of Cyprus with Crete and Israel."
+    },
+    {
+        "id": "CYP-U06-021",
+        "greek": "ο ανθρωπιστικός θαλάσσιος διάδρομος «Αμάλθεια»",
+        "phonetic_hint": "oh ahn-throh-pee-stee-KOHS thah-LAH-see-os thee-AH-throh-mos ah-MAHL-thee-ah",
+        "english": "the 'Amalthea' maritime humanitarian corridor",
+        "notes": "Major recent diplomatic initiative launched by the Republic of Cyprus in 2024 from the port of Larnaca (in cooperation with the EU, US, UAE, and UN) to deliver humanitarian aid by sea to civilians in Gaza.",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον ανθρωπιστικό θαλάσσιο διάδρομο «Αμάλθεια»"
+        },
+        "keg_communicative_function": "Current Affairs — Cyprus humanitarian diplomacy",
+        "example_el": "Το σχέδιο «Αμάλθεια» είναι η πρωτοβουλία της Κυπριακής Δημοκρατίας για την αποστολή ανθρωπιστικής βοήθειας μέσω θαλάσσης από το λιμάνι της Λάρνακας.",
+        "example_en": "The 'Amalthea' plan is the initiative of the Republic of Cyprus for sending humanitarian aid by sea from the port of Larnaca.",
+        "example2_el": "Το Κέντρο Συντονισμού Έρευνας και Διάσωσης (ΚΣΕΔ) στη Λάρνακα διαδραματίζει κεντρικό ρόλο σε ανθρωπιστικές επιχειρήσεις στην Ανατολική Μεσόγειο.",
+        "example2_en": "The Joint Rescue Coordination Centre (JRCC) in Larnaca plays a central role in humanitarian operations in the Eastern Mediterranean."
+    },
+    {
+        "id": "CYP-U06-022",
+        "greek": "η Ζώνη Σένγκεν (Schengen) και η Κύπρος",
+        "phonetic_hint": "ee ZOH-nee SEHN-gehn keh ee KEE-pros",
+        "english": "the Schengen Area and Cyprus",
+        "notes": "Past exam trap question! While Cyprus is a full member of the EU (2004) and the Eurozone (2008), it is NOT yet a full member of the border-free Schengen Area (due to the Green Line ceasefire line, though it joined the Schengen Information System SIS in 2023).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "τη Ζώνη Σένγκεν"
+        },
+        "keg_communicative_function": "European Union & Border Control — Schengen status",
+        "example_el": "Η Κύπρος είναι μέλος της Ευρωπαϊκής Ένωσης και της Ευρωζώνης, αλλά δεν έχει ακόμη ενταχθεί πλήρως στη Ζώνη Σένγκεν.",
+        "example_en": "Cyprus is a member of the European Union and the Eurozone, but has not yet fully joined the Schengen Area.",
+        "example2_el": "Για την είσοδο στην Κυπριακή Δημοκρατία διενεργείται έλεγχος διαβατηρίων ή ταυτοτήτων στα νόμιμα αεροδρόμια και λιμάνια.",
+        "example2_en": "To enter the Republic of Cyprus, passport or ID checks are carried out at legal airports and ports."
+    },
+    {
+        "id": "CYP-U06-023",
+        "greek": "η Κυπριακή Ολυμπιακή Επιτροπή (ΚΟΕ) και η ΚΟΠ",
+        "phonetic_hint": "ee kee-pree-ah-KEE oh-leem-byah-KEE eh-pee-troh-PEE (KOH-eh) keh ee KOHP",
+        "english": "the Cyprus Olympic Committee (COC) and the Cyprus Football Association (CFA / KOP)",
+        "notes": "The Cyprus Football Association (Κυπριακή Ομοσπονδία Ποδοσφαίρου - ΚΟΠ) was founded in 1934 and organizes the Cypriot First Division championship and the Cyprus Cup.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Κυπριακή Ολυμπιακή Επιτροπή"
+        },
+        "keg_communicative_function": "Sports & Society — National sports federations",
+        "example_el": "Η Κυπριακή Ομοσπονδία Ποδοσφαίρου (ΚΟΠ) ιδρύθηκε το 1934 και διοργανώνει το παγκύπριο πρωτάθλημα και το κύπελλο ποδοσφαίρου.",
+        "example_en": "The Cyprus Football Association (CFA) was founded in 1934 and organizes the pan-Cyprian football championship and cup.",
+        "example2_el": "Η Κυπριακή Ολυμπιακή Επιτροπή (ΚΟΕ) ιδρύθηκε το 1974 και εκπροσωπεί την Κύπρο στους Ολυμπιακούς Αγώνες.",
+        "example2_en": "The Cyprus Olympic Committee (COC) was founded in 1974 and represents Cyprus at the Olympic Games."
+    },
+    {
+        "id": "CYP-U06-024",
+        "greek": "οι συνδικαλιστικές οργανώσεις στην Κύπρο (ΣΕΚ, ΠΕΟ, ΠΑΣΥΔΥ, ΟΕΛΜΕΚ, ΠΟΕΔ)",
+        "phonetic_hint": "ee seen-thee-kah-lee-stee-KEHS or-ghah-NOH-sees steen KEE-proo",
+        "english": "the trade unions in Cyprus (SEK, PEO, PASYDY, OELMEK, POED)",
+        "notes": "Major trade unions and professional associations in Cyprus: ΣΕΚ and ΠΕΟ (major labor confederations), ΠΑΣΥΔΥ (civil servants union), ΠΟΕΔ (primary school teachers), and ΟΕΛΜΕΚ (secondary school teachers).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "plural": "οι συνδικαλιστικές οργανώσεις",
+            "accusative_plural": "τις συνδικαλιστικές οργανώσεις"
+        },
+        "keg_communicative_function": "Society & Labor — Trade unions and social dialogue",
+        "example_el": "Οι μεγαλύτερες συνδικαλιστικές οργανώσεις εργαζομένων στην Κύπρο είναι η ΣΕΚ και η ΠΕΟ, ενώ η ΠΑΣΥΔΥ εκπροσωπεί τους δημοσίους υπαλλήλους.",
+        "example_en": "The largest workers' trade union federations in Cyprus are SEK and PEO, while PASYDY represents civil servants.",
+        "example2_el": "Οι εργοδοτικές οργανώσεις εκπροσωπούνται κυρίως από το ΚΕΒΕ (Κυπριακό Εμπορικό και Βιομηχανικό Επιμελητήριο) και την ΟΕΒ (Ομοσπονδία Εργοδοτών και Βιομηχάνων).",
+        "example2_en": "Employers' organizations are represented mainly by CCCI (Cyprus Chamber of Commerce and Industry) and OEB (Federation of Employers and Industrialists)."
+    },
+    {
+        "id": "CYP-U06-025",
+        "greek": "ο Κανονισμός της Πράσινης Γραμμής (2004)",
+        "phonetic_hint": "oh kah-noh-nee-ZMOHS tees PRAH-see-nees ghrah-MEES",
+        "english": "the Green Line Regulation (EU Regulation 866/2004)",
+        "notes": "European Union Council Regulation 866/2004 governing the movement of persons, goods, and services across the Green Line between the government-controlled areas and the areas where the Government of Cyprus does not exercise effective control.",
+        "gender_or_pos": "noun (masculine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (masculine)",
+            "accusative_singular": "τον Κανονισμό της Πράσινης Γραμμής"
+        },
+        "keg_communicative_function": "European Union & Cyprus Problem — Green Line Regulation",
+        "example_el": "Ο Κανονισμός της Πράσινης Γραμμής της Ευρωπαϊκής Ένωσης ρυθμίζει τη διέλευση προσώπων και εμπορευμάτων από τα οδοφράγματα.",
+        "example_en": "The European Union's Green Line Regulation governs the crossing of persons and goods through the checkpoints.",
+        "example2_el": "Ο Κανονισμός υιοθετήθηκε το 2004 επειδή η Πράσινη Γραμμή δεν αποτελεί εξωτερικό σύνορο της Κυπριακής Δημοκρατίας.",
+        "example2_en": "The Regulation was adopted in 2004 because the Green Line does not constitute an external border of the Republic of Cyprus."
+    },
+    {
+        "id": "CYP-U06-026",
+        "greek": "η Πολιτική Άμυνα της Κύπρου",
+        "phonetic_hint": "ee poh-lee-tee-KEE AH-mee-nah tees KEE-proo",
+        "english": "the Civil Defence of Cyprus",
+        "notes": "State agency under the Ministry of Interior responsible for protecting civilians during natural disasters (earthquakes, floods, fires) and emergencies, and maintaining public shelters (τα καταφύγια).",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Πολιτική Άμυνα"
+        },
+        "keg_communicative_function": "Daily Life & Safety — Civil Protection and shelters",
+        "example_el": "Η Δύναμη Πολιτικής Άμυνας υπάγεται στο Υπουργείο Εσωτερικών και μεριμνά για την προστασία των πολιτών σε φυσικές καταστροφές και κρίσεις.",
+        "example_en": "The Civil Defence Force falls under the Ministry of Interior and cares for the protection of citizens in natural disasters and crises.",
+        "example2_el": "Οι πολίτες μπορούν να εντοπίσουν το πλησιέστερο καταφύγιο Πολιτικής Άμυνας μέσω της εφαρμογής «SafeCY».",
+        "example2_en": "Citizens can locate the nearest Civil Defence shelter through the 'SafeCY' mobile application."
+    },
+    {
+        "id": "CYP-U06-027",
+        "greek": "η Ευρωπαϊκή Κάρτα Ασφάλισης Ασθένειας (ΕΚΑΑ)",
+        "phonetic_hint": "ee ev-roh-pah-ee-KEE KAHR-tah ah-sfah-LEE-sees ah-STHEH-nee-ahs",
+        "english": "the European Health Insurance Card (EHIC)",
+        "notes": "Issued free of charge in Cyprus by the Ministry of Health / Health Insurance Organisation to eligible insured residents for emergency medical care during temporary stays in EU/EEA countries and Switzerland.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "την Ευρωπαϊκή Κάρτα Ασφάλισης Ασθένειας"
+        },
+        "keg_communicative_function": "Healthcare & EU Rights — European Health Insurance Card",
+        "example_el": "Η Ευρωπαϊκή Κάρτα Ασφάλισης Ασθένειας παρέχει πρόσβαση σε αναγκαία δημόσια ιατροφαρμακευτική περίθαλψη κατά τη διάρκεια προσωρινής διαμονής σε άλλο κράτος μέλος της ΕΕ.",
+        "example_en": "The European Health Insurance Card provides access to necessary public medical care during a temporary stay in another EU member state.",
+        "example2_el": "Στην Κύπρο εκδίδεται δωρεάν για τους δικαιούχους του Γενικού Συστήματος Υγείας.",
+        "example2_en": "In Cyprus it is issued free of charge for beneficiaries of the General Healthcare System."
+    },
+    {
+        "id": "CYP-U06-028",
+        "greek": "το Χρηματιστήριο Αξιών Κύπρου (ΧΑΚ)",
+        "phonetic_hint": "toh khree-mah-tee-STEE-ree-oh ahk-see-ON KEE-proo (KHAHK)",
+        "english": "the Cyprus Stock Exchange (CSE)",
+        "notes": "Established in 1996 and based in Nicosia; supervised by the Cyprus Securities and Exchange Commission (Επιτροπή Κεφαλαιαγοράς Κύπρου - ΕΚΚ).",
+        "gender_or_pos": "noun (neuter)",
+        "grammatical_info": {
+            "part_of_speech": "noun (neuter)",
+            "accusative_singular": "το Χρηματιστήριο Αξιών Κύπρου"
+        },
+        "keg_communicative_function": "Economy & Institutions — Financial markets in Cyprus",
+        "example_el": "Το Χρηματιστήριο Αξιών Κύπρου (ΧΑΚ) εδρεύει στη Λευκωσία και εποπτεύεται από την Επιτροπή Κεφαλαιαγοράς Κύπρου.",
+        "example_en": "The Cyprus Stock Exchange (CSE) is based in Nicosia and is supervised by the Cyprus Securities and Exchange Commission.",
+        "example2_el": "Η Επιτροπή Κεφαλαιαγοράς Κύπρου (CySEC) είναι η ανεξάρτητη εποπτική αρχή για τις επενδυτικές εταιρείες.",
+        "example2_en": "The Cyprus Securities and Exchange Commission (CySEC) is the independent supervisory authority for investment firms."
+    },
+    {
+        "id": "CYP-U06-029",
+        "greek": "η Διεθνής Κρατική Έκθεση Κύπρου και το Συνεδριακό Κέντρο «Φιλοξενία»",
+        "phonetic_hint": "ee theeh-THNEES krah-tee-KEE EHK-theh-see KEE-proo keh toh see-neh-three-ah-KOH KEHN-droh fee-loh-kseh-NEE-ah",
+        "english": "the Cyprus International State Fair and the 'Filoxenia' Conference Centre",
+        "notes": "The 'Filoxenia' Conference Centre in Nicosia is the main venue hosting EU Presidency high-level ministerial meetings and summits in Cyprus.",
+        "gender_or_pos": "noun (feminine)",
+        "grammatical_info": {
+            "part_of_speech": "noun (feminine)",
+            "accusative_singular": "τη Διεθνή Κρατική Έκθεση Κύπρου"
+        },
+        "keg_communicative_function": "Current Affairs & Infrastructure — State venues in Nicosia",
+        "example_el": "Το Συνεδριακό Κέντρο «Φιλοξενία» στη Λευκωσία φιλοξενεί τις επίσημες συνόδους της Κυπριακής Προεδρίας του Συμβουλίου της Ευρωπαϊκής Ένωσης.",
+        "example_en": "The 'Filoxenia' Conference Centre in Nicosia hosts the official summits of the Cyprus Presidency of the Council of the European Union.",
+        "example2_el": "Στη Λευκωσία βρίσκονται επίσης το Δημοτικό Θέατρο Λευκωσίας και η Πλατεία Ελευθερίας, σχεδιασμένη από τη Ζάχα Χαντίντ.",
+        "example2_en": "Also located in Nicosia are the Nicosia Municipal Theatre and Eleftheria Square, designed by Zaha Hadid."
+    },
+    {
+        "id": "CYP-U06-030",
+        "greek": "— Πόσες ερωτήσεις περιλαμβάνει η εξέταση πολιτικής και κοινωνικής πραγματικότητας της Κύπρου και ποια είναι η διάρκειά της; — 25 ερωτήσεις πολλαπλής επιλογής σε 45 λεπτά.",
+        "phonetic_hint": "POH-sehs eh-roh-TEE-sees peh-ree-lahm-VAH-nee ee ehk-SEH-tah-see? 25 eh-roh-TEE-sees poh-lah-PLEES eh-pee-loh-YEES seh 45 leh-PTAH",
+        "english": "— How many questions does the Cyprus political and social reality exam include and what is its duration? — 25 multiple-choice questions in 45 minutes.",
+        "notes": "Essential exam overview! 25 multiple-choice questions (4 options A, Β, Γ, Δ each), 45 minutes total time, conducted in Greek.",
+        "gender_or_pos": "phrase",
+        "grammatical_info": {"part_of_speech": "phrase"},
+        "keg_communicative_function": "Exam Rules & Naturalization — Exam format and timing",
+        "example_el": "Το εξεταστικό δοκίμιο αποτελείται από είκοσι πέντε (25) ερωτήσεις πολλαπλής επιλογής και διαρκεί σαράντα πέντε (45) λεπτά.",
+        "example_en": "The examination paper consists of twenty-five (25) multiple-choice questions and lasts forty-five (45) minutes.",
+        "example2_el": "Κάθε σωστή απάντηση βαθμολογείται με τέσσερις (4) μονάδες, με άριστα τις εκατό (100) μονάδες.",
+        "example2_en": "Each correct answer is graded with four (4) points, out of a maximum of one hundred (100) points."
+    }
+]
+
+MANIFEST_UNITS = [
+    {
+        "id": "unit-cyp-01",
+        "title": "Μάθημα 1: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου (Polity, State Institutions & Governance)",
+        "description": "Constitutional regime of the Republic of Cyprus (Presidential Republic), separation of powers, the President and Council of Ministers, the House of Representatives (56+24 seats & 3 religious groups), independent officials, national symbols, and political parties.",
+        "order": "CYP-01-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-01/lesson-01.yaml",
+                "title": "Μάθημα 1: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου (Polity, State Institutions & Governance)"
+            }
+        ]
+    },
+    {
+        "id": "unit-cyp-02",
+        "title": "Μάθημα 2: Σύγχρονη Ιστορία της Κύπρου 1955–Σήμερα (Modern History of Cyprus)",
+        "description": "The 1955–1959 EOKA liberation struggle, Zurich-London Agreements, proclamation of independence (1960), chronological succession of Presidents of the Republic, the 1974 coup and Turkish invasion, the Green Line, the 2004 Annan Plan referendum, and EU accession.",
+        "order": "CYP-02-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-02/lesson-01.yaml",
+                "title": "Μάθημα 2: Σύγχρονη Ιστορία της Κύπρου 1955–Σήμερα (Modern History of Cyprus)"
+            }
+        ]
+    },
+    {
+        "id": "unit-cyp-03",
+        "title": "Μάθημα 3: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της Κύπρου (Geography, Districts, Cities & Nature)",
+        "description": "Geographical position in the northeastern Mediterranean, the 6 administrative districts, major cities and traditional villages (Omodos, Lefkara, Kakopetria, Fikardou), Troodos and Pentadaktylos mountain ranges, Pedieos river, Kouris dam, and endemic flora and fauna (mouflon, golden oak).",
+        "order": "CYP-03-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-03/lesson-01.yaml",
+                "title": "Μάθημα 3: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της Κύπρου (Geography, Districts, Cities & Nature)"
+            }
+        ]
+    },
+    {
+        "id": "unit-cyp-04",
+        "title": "Μάθημα 4: Πολιτισμός, Παράδοση, Ήθη, Έθιμα & Προϊόντα (Culture, Traditions & Products)",
+        "description": "UNESCO World Heritage and Intangible Heritage in Cyprus (Paphos, Choirokoitia, Painted Churches of Troodos, Lefkara lace, Tsiattista), PDO/PGI products (Halloumi, Commandaria, Zivania, Geroskipou Loukoumi), festivals (Kataklysmos, Limassol Carnival & Wine Festival), and the Church of Cyprus.",
+        "order": "CYP-04-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-04/lesson-01.yaml",
+                "title": "Μάθημα 4: Πολιτισμός, Παράδοση, Ήθη, Έθιμα & Προϊόντα (Culture, Traditions & Products)"
+            }
+        ]
+    },
+    {
+        "id": "unit-cyp-05",
+        "title": "Μάθημα 5: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare & Daily Life)",
+        "description": "Official currency (Euro adoption 2008), economic sectors (services, shipping, tourism, EEZ & Aphrodite gas field), VAT rates (19% / 0%), GeSY healthcare, minimum wage, left-hand driving, legal airports & ports, emergency numbers (112/199), and public holidays.",
+        "order": "CYP-05-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-05/lesson-01.yaml",
+                "title": "Μάθημα 5: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare & Daily Life)"
+            }
+        ]
+    },
+    {
+        "id": "unit-cyp-06",
+        "title": "Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση (EU, Current Affairs & Naturalization)",
+        "description": "Cyprus in the EU (6 MEPs, 2012 & 2026 EU Council Presidencies), international organizations (UN, Commonwealth, non-membership in NATO), the 3 public universities (UCY, TEPAK, OUC), Olympic medalist Pavlos Kontides, 2024 Local Government Reform, and Citizenship Exam rules (60% / 50%).",
+        "order": "CYP-06-A",
+        "total_lessons": 1,
+        "lessons": [
+            {
+                "id": "lesson-01",
+                "file": "unit-cyp-06/lesson-01.yaml",
+                "title": "Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση (EU, Current Affairs & Naturalization)"
+            }
+        ]
+    }
+]
+
+
+def main():
+    write_unit(
+        unit_id="unit-cyp-06",
+        title="Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση (EU, Current Affairs & Naturalization)",
+        description="Cyprus in the EU (6 MEPs, 2012 & 2026 EU Council Presidencies), international organizations (UN, Commonwealth, non-membership in NATO), the 3 public universities (UCY, TEPAK, OUC), Olympic medalist Pavlos Kontides, 2024 Local Government Reform, and Citizenship Exam rules (60% / 50%).",
+        notes=NOTES_CYP_06,
+        cards=CARDS_CYP_06,
+    )
+
+    manifest_path = CONTENT_DIR / "manifest.yaml"
+    with open(manifest_path, "r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f)
+
+    existing_ids = {u["id"] for u in manifest.get("units", [])}
+    added = 0
+    for u in MANIFEST_UNITS:
+        if u["id"] not in existing_ids:
+            manifest["units"].append(u)
+            added += 1
+        else:
+            # Update in place
+            for idx, ex in enumerate(manifest["units"]):
+                if ex["id"] == u["id"]:
+                    manifest["units"][idx] = u
+
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    print(f"[OK] Registered 6 Cyprus Exam units in {manifest_path} (newly added: {added})")
+
+
+if __name__ == "__main__":
+    main()

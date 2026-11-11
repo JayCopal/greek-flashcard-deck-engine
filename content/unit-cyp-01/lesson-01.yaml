@@ -1,0 +1,677 @@
+unit_id: unit-cyp-01
+lesson_id: lesson-01
+title: 'Μάθημα 1: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου (Polity, State Institutions
+  & Governance)'
+description: Constitutional regime of the Republic of Cyprus (Presidential Republic),
+  separation of powers, the President and Council of Ministers, the House of Representatives
+  (56+24 seats & 3 religious groups), independent officials, national symbols, and
+  political parties.
+lesson_status: not_started
+lesson_notes: "Unit CYP-01 Core Exam Notes: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου\
+  \ (Polity, State Institutions & Governance)\n\n• Το Πολίτευμα της Κυπριακής Δημοκρατίας\
+  \ (System of Government):\n  - Η Κύπρος είναι ανεξάρτητη και κυρίαρχη Προεδρική\
+  \ Δημοκρατία (Presidential Republic) σύμφωνα με το Σύνταγμα του 1960.\n  - Ο Πρόεδρος\
+  \ της Δημοκρατίας είναι ταυτόχρονα Αρχηγός του Κράτους (Head of State) και Αρχηγός\
+  \ της Κυβέρνησης (Head of Government).\n  - Εκλέγεται άμεσα από τον λαό με καθολική\
+  \ ψηφοφορία για πενταετή θητεία (5-year term). Σημερινός Πρόεδρος (από το 2023):\
+  \ Νίκος Χριστοδουλίδης.\n\n• Διάκριση των Εξουσιών (Separation of Powers):\n  1.\
+  \ Εκτελεστική Εξουσία (Executive Power): Ασκείται από τον Πρόεδρο της Δημοκρατίας\
+  \ και το Υπουργικό Συμβούλιο (Council of Ministers).\n  2. Νομοθετική Εξουσία (Legislative\
+  \ Power): Ασκείται από τη Βουλή των Αντιπροσώπων (House of Representatives).\n \
+  \    - Συνταγματική σύνθεση: 80 έδρες συνολικά (56 Ελληνοκύπριοι βουλευτές + 24\
+  \ Τουρκοκύπριοι βουλευτές, οι οποίοι απέχουν από το 1964).\n     - Επιπλέον 3 εκπρόσωποι\
+  \ των Θρησκευτικών Ομάδων (Μαρωνίτες, Αρμένιοι, Λατίνοι) με συμβουλευτικό χαρακτήρα.\n\
+  \     - Οι βουλευτικές εκλογές διεξάγονται κάθε 5 χρόνια. Πρόεδρος της Βουλής: Αννίτα\
+  \ Δημητρίου.\n  3. Δικαστική Εξουσία (Judicial Power): Ανεξάρτητη εξουσία που ασκείται\
+  \ από το Ανώτατο Συνταγματικό Δικαστήριο, το Ανώτατο Δικαστήριο και τα Επαρχιακά\
+  \ Δικαστήρια.\n\n• Ανεξάρτητοι Αξιωματούχοι & Εθνικά Σύμβολα:\n  - Ανεξάρτητοι Θεσμοί:\
+  \ Γενικός Εισαγγελέας (Attorney General), Γενικός Ελεγκτής (Auditor General), Επίτροπος\
+  \ Διοικήσεως (Ombudsman).\n  - Επίσημες Γλώσσες (Άρθρο 3 Συντάγματος): Ελληνική\
+  \ και Τουρκική.\n  - Σημαία της Κύπρου: Σχεδιάστηκε το 1960 από τον Τουρκοκύπριο\
+  \ ζωγράφο Ισμέτ Γκιουνέι (λευκό φόντο, χαλκόχρωμος χάρτης του νησιού, δύο κλαδιά\
+  \ ελιάς).\n  - Εθνικός Ύμνος: «Ύμνος εις την Ελευθερίαν» (στίχοι Διονυσίου Σολωμού,\
+  \ μουσική Νικολάου Μάντζαρου, υιοθετήθηκε το 1966)."
+entries:
+- id: CYP-U01-001
+  greek: η Κυπριακή Δημοκρατία
+  phonetic_hint: ee kee-pree-ah-KEE theem-oh-krah-TEE-ah
+  english: the Republic of Cyprus
+  notes: Official constitutional name of the state established on 16 August 1960.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Κυπριακές Δημοκρατίες
+    accusative_singular: την Κυπριακή Δημοκρατία
+    genitive_singular: της Κυπριακής Δημοκρατίας
+  keg_communicative_function: Polity & Institutions — Official state terminology
+  example_el: Η Κυπριακή Δημοκρατία ανακηρύχθηκε επίσημα ανεξάρτητο κράτος το 1960.
+  example_en: The Republic of Cyprus was officially proclaimed an independent state
+    in 1960.
+  example2_el: Η Κυπριακή Δημοκρατία είναι πλήρες κράτος μέλος της Ευρωπαϊκής Ένωσης.
+  example2_en: The Republic of Cyprus is a full member state of the European Union.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-002
+  greek: — Ποιο είναι το πολίτευμα της Κυπριακής Δημοκρατίας; — Προεδρική Δημοκρατία.
+  phonetic_hint: PEE-oh EE-neh toh poh-LEE-tev-mah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs?
+    proh-eth-ree-KEE theem-oh-krah-TEE-ah
+  english: — What is the system of government of the Republic of Cyprus? — Presidential
+    Republic.
+  notes: Frequent past exam question! Distractors often include 'Προεδρευόμενη Κοινοβουλευτική
+    Δημοκρατία' (Greece's system) or 'Βασιλευόμενη Δημοκρατία'.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Constitutional regime of Cyprus
+  example_el: Στην Προεδρική Δημοκρατία ο Πρόεδρος είναι αρχηγός και του κράτους και
+    της κυβέρνησης.
+  example_en: In a Presidential Republic, the President is head of both the state
+    and the government.
+  example2_el: Το πολίτευμα της Κύπρου καθορίζεται από το Σύνταγμα του 1960.
+  example2_en: The system of government of Cyprus is defined by the Constitution of
+    1960.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-003
+  greek: το Σύνταγμα
+  phonetic_hint: toh SEEN-dahg-mah
+  english: the Constitution
+  notes: Neuter noun in -μα (-ματα). The Constitution of Cyprus is the supreme law
+    of the Republic (ο υπέρτατος νόμος).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Συντάγματα
+    accusative_singular: το Σύνταγμα
+    genitive_singular: του Συντάγματος
+  keg_communicative_function: Polity & Institutions — Constitutional law
+  example_el: Το Σύνταγμα της Κυπριακής Δημοκρατίας τέθηκε σε ισχύ στις 16 Αυγούστου
+    1960.
+  example_en: The Constitution of the Republic of Cyprus entered into force on 16
+    August 1960.
+  example2_el: Το Σύνταγμα κατοχυρώνει τα θεμελιώδη δικαιώματα και τις ελευθερίες
+    των πολιτών.
+  example2_en: The Constitution safeguards the fundamental rights and freedoms of
+    citizens.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-004
+  greek: — Ποιες είναι οι επίσημες γλώσσες της Κυπριακής Δημοκρατίας; — Η ελληνική
+    και η τουρκική.
+  phonetic_hint: pyehs EE-neh ee eh-PEE-see-mehs GHLOH-sehs tees kee-pree-ah-KEES
+    theem-oh-krah-TEE-ahs? ee eh-lee-nee-KEE keh ee toor-kee-KEE
+  english: — What are the official languages of the Republic of Cyprus? — Greek and
+    Turkish.
+  notes: Classic past exam question! Under Article 3 of the Constitution, Greek and
+    Turkish are the two official languages (English is widely spoken but NOT an official
+    constitutional language).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Official languages under the Constitution
+  example_el: Σύμφωνα με το Άρθρο 3 του Συντάγματος, οι επίσημες γλώσσες είναι η ελληνική
+    και η τουρκική.
+  example_en: According to Article 3 of the Constitution, the official languages are
+    Greek and Turkish.
+  example2_el: Η αγγλική γλώσσα χρησιμοποιείται ευρέως αλλά δεν είναι επίσημη γλώσσα
+    του κράτους.
+  example2_en: The English language is widely used but is not an official language
+    of the state.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-005
+  greek: η διάκριση των εξουσιών
+  phonetic_hint: ee thee-AH-kree-see ton ehk-soo-see-ON
+  english: the separation of powers
+  notes: Core constitutional principle dividing state authority into Executive (Εκτελεστική),
+    Legislative (Νομοθετική), and Judicial (Δικαστική).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διακρίσεις των εξουσιών
+    accusative_singular: τη διάκριση των εξουσιών
+  keg_communicative_function: Polity & Institutions — Democratic principles
+  example_el: Η διάκριση των εξουσιών αποτελεί θεμελιώδη αρχή της δημοκρατίας στην
+    Κύπρο.
+  example_en: The separation of powers is a fundamental principle of democracy in
+    Cyprus.
+  example2_el: Οι τρεις εξουσίες είναι η εκτελεστική, η νομοθετική και η δικαστική.
+  example2_en: The three powers are the executive, the legislative, and the judicial.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-006
+  greek: η εκτελεστική εξουσία
+  phonetic_hint: ee ehk-teh-leh-stee-KEE ehk-soo-SEE-ah
+  english: the executive power / branch
+  notes: Exercised by the President of the Republic and the Council of Ministers (το
+    Υπουργικό Συμβούλιο).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εκτελεστικές εξουσίες
+    accusative_singular: την εκτελεστική εξουσία
+  keg_communicative_function: Polity & Institutions — Branches of government
+  example_el: Στην Κύπρο η εκτελεστική εξουσία ασκείται από τον Πρόεδρο της Δημοκρατίας
+    και το Υπουργικό Συμβούλιο.
+  example_en: In Cyprus, executive power is exercised by the President of the Republic
+    and the Council of Ministers.
+  example2_el: Τα μέλη της εκτελεστικής εξουσίας δεν μπορούν να είναι ταυτόχρονα και
+    βουλευτές.
+  example2_en: Members of the executive branch cannot simultaneously be members of
+    parliament.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-007
+  greek: — Πόσα χρόνια διαρκεί η θητεία του Προέδρου της Κυπριακής Δημοκρατίας; —
+    Πέντε χρόνια.
+  phonetic_hint: POH-sah KHROH-nyah theeahr-KEE ee thee-TEE-ah too proh-ETH-roo tees
+    kee-pree-ah-KEES theem-oh-krah-TEE-ahs? PEHN-deh KHROH-nyah
+  english: — How many years does the term of the President of the Republic of Cyprus
+    last? — Five years.
+  notes: Past exam question! Both Presidential elections and Parliamentary elections
+    in Cyprus take place every 5 years.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Presidential term of office
+  example_el: Οι προεδρικές εκλογές στην Κύπρο διεξάγονται κάθε πέντε χρόνια με καθολική
+    ψηφοφορία.
+  example_en: Presidential elections in Cyprus are held every five years by universal
+    suffrage.
+  example2_el: Αν κανένας υποψήφιος δεν λάβει πάνω από 50%, διεξάγεται δεύτερος γύρος
+    την επόμενη Κυριακή.
+  example2_en: If no candidate receives over 50%, a second round is held the following
+    Sunday.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-008
+  greek: — Ποιος είναι ο σημερινός Πρόεδρος της Κυπριακής Δημοκρατίας; — Ο Νίκος Χριστοδουλίδης.
+  phonetic_hint: pyos EE-neh oh see-meh-ree-NOHS PROH-eth-ros tees kee-pree-ah-KEES
+    theem-oh-krah-TEE-ahs? oh NEE-kos khree-stoh-thoo-LEE-thees
+  english: — Who is the current President of the Republic of Cyprus? — Nikos Christodoulides.
+  notes: Elected in February 2023 as the 8th President of the Republic of Cyprus,
+    succeeding Nicos Anastasiades.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Current Head of State
+  example_el: Ο Νίκος Χριστοδουλίδης εξελέγη Πρόεδρος της Κυπριακής Δημοκρατίας τον
+    Φεβρουάριο του 2023.
+  example_en: Nikos Christodoulides was elected President of the Republic of Cyprus
+    in February 2023.
+  example2_el: Πριν εκλεγεί Πρόεδρος, ο Νίκος Χριστοδουλίδης είχε διατελέσει Υπουργός
+    Εξωτερικών.
+  example2_en: Before being elected President, Nikos Christodoulides had served as
+    Minister of Foreign Affairs.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-009
+  greek: το Υπουργικό Συμβούλιο
+  phonetic_hint: toh ee-poor-yee-KOH seem-VOO-lee-oh
+  english: the Council of Ministers / Cabinet
+  notes: Appointed by the President of the Republic. Cyprus has 11 Ministries (Υπουργεία)
+    and 6 Deputy Ministries (Υφυπουργεία).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Υπουργικά Συμβούλια
+    accusative_singular: το Υπουργικό Συμβούλιο
+    genitive_singular: του Υπουργικού Συμβουλίου
+  keg_communicative_function: Polity & Institutions — Executive Cabinet
+  example_el: Το Υπουργικό Συμβούλιο διορίζεται από τον Πρόεδρο της Δημοκρατίας και
+    χαράσσει την κυβερνητική πολιτική.
+  example_en: The Council of Ministers is appointed by the President of the Republic
+    and formulates government policy.
+  example2_el: Οι συνεδριάσεις του Υπουργικού Συμβουλίου πραγματοποιούνται στο Προεδρικό
+    Μέγαρο στη Λευκωσία.
+  example2_en: The meetings of the Council of Ministers take place at the Presidential
+    Palace in Nicosia.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-010
+  greek: η νομοθετική εξουσία
+  phonetic_hint: ee noh-moh-theh-tee-KEE ehk-soo-SEE-ah
+  english: the legislative power / branch
+  notes: Exercised by the House of Representatives (η Βουλή των Αντιπροσώπων), which
+    votes on laws and approves the state budget.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι νομοθετικές εξουσίες
+    accusative_singular: τη νομοθετική εξουσία
+  keg_communicative_function: Polity & Institutions — Legislative branch
+  example_el: Ποιο όργανο ασκεί τη νομοθετική εξουσία στην Κύπρο; Η Βουλή των Αντιπροσώπων.
+  example_en: Which body exercises legislative power in Cyprus? The House of Representatives.
+  example2_el: Η νομοθετική εξουσία ψηφίζει τους νόμους και τον κρατικό προϋπολογισμό.
+  example2_en: The legislative branch votes on laws and the state budget.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-011
+  greek: η Βουλή των Αντιπροσώπων
+  phonetic_hint: ee voo-LEE ton ahn-dee-proh-SOH-pon
+  english: the House of Representatives (Parliament of Cyprus)
+  notes: Unicameral parliament of Cyprus. Elected for a 5-year term by proportional
+    representation.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Βουλές των Αντιπροσώπων
+    accusative_singular: τη Βουλή των Αντιπροσώπων
+    genitive_singular: της Βουλής των Αντιπροσώπων
+  keg_communicative_function: Polity & Institutions — Parliament of Cyprus
+  example_el: Η Βουλή των Αντιπροσώπων εδρεύει στην πρωτεύουσα Λευκωσία.
+  example_en: The House of Representatives is based in the capital Nicosia.
+  example2_el: Ο Πρόεδρος της Βουλής αναπληρώνει τον Πρόεδρο της Δημοκρατίας όταν
+    απουσιάζει στο εξωτερικό.
+  example2_en: The President of the House deputizes for the President of the Republic
+    when he is abroad.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-012
+  greek: — Πόσοι Ελληνοκύπριοι βουλευτές εκλέγονται στη Βουλή των Αντιπροσώπων; —
+    Πενήντα έξι (56) βουλευτές.
+  phonetic_hint: POH-see eh-lee-noh-KEE-pree-ee voo-lehf-TEHS ehk-LEH-ghon-deh stee
+    voo-LEE ton ahn-dee-proh-SOH-pon? peh-NEEN-dah EHK-see voo-lehf-TEHS
+  english: — How many Greek Cypriot MPs are elected to the House of Representatives?
+    — Fifty-six (56) MPs.
+  notes: 'High-frequency exam question! Total constitutional seats Since 1985: 80
+    (56 Greek Cypriot + 24 Turkish Cypriot seats, which remain vacant). Plus 3 observers
+    from Religious Groups.'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Composition of Parliament
+  example_el: 'Συνολικά οι βουλευτικές έδρες είναι 80: 56 για την ελληνοκυπριακή κοινότητα
+    και 24 για την τουρκοκυπριακή.'
+  example_en: 'In total there are 80 parliamentary seats: 56 for the Greek Cypriot
+    community and 24 for the Turkish Cypriot community.'
+  example2_el: Οι 24 έδρες των Τουρκοκυπρίων βουλευτών παραμένουν κενές από το 1964.
+  example2_en: The 24 seats of the Turkish Cypriot MPs have remained vacant since
+    1964.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-013
+  greek: — Ποιες είναι οι τρεις αναγνωρισμένες θρησκευτικές ομάδες στη Βουλή; — Οι
+    Μαρωνίτες, οι Αρμένιοι και οι Λατίνοι.
+  phonetic_hint: pyehs EE-neh ee trees ah-nah-ghnoh-ree-ZMEH-nehs three-skef-tee-KEHS
+    oh-MAH-thehs stee voo-LEE? ee mah-roh-NEE-tehs, ee ahr-MEH-nee-ee keh ee lah-TEE-nee
+  english: — Which are the three recognized religious groups in Parliament? — The
+    Maronites, the Armenians, and the Latins.
+  notes: Past exam question! Under the Constitution, the Maronites, Armenians, and
+    Latins (Roman Catholics) are recognized religious groups that each elect 1 representative
+    to the House.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Constitutional Religious Groups
+  example_el: Οι Μαρωνίτες, οι Αρμένιοι και οι Λατίνοι εκλέγουν από έναν εκπρόσωπο
+    στη Βουλή των Αντιπροσώπων.
+  example_en: The Maronites, the Armenians, and the Latins each elect one representative
+    to the House of Representatives.
+  example2_el: Μετά το δημοψήφισμα του 1960, οι τρεις θρησκευτικές ομάδες επέλεξαν
+    να ανήκουν στην ελληνοκυπριακή κοινότητα.
+  example2_en: Following the 1960 referendum, the three religious groups chose to
+    belong to the Greek Cypriot community.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-014
+  greek: — Ποια είναι η Πρόεδρος της Βουλής των Αντιπροσώπων; — Η Αννίτα Δημητρίου.
+  phonetic_hint: pyah EE-neh ee PROH-eth-ros tees voo-LEES ton ahn-dee-proh-SOH-pon?
+    ee ah-NEE-tah theem-ee-TREE-oo
+  english: — Who is the President (Speaker) of the House of Representatives? — Annita
+    Demetriou.
+  notes: Elected in June 2021 as the first female Speaker of the House of Representatives
+    in Cyprus, and also President of DISY since 2023.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Head of the Legislative Branch
+  example_el: Η Αννίτα Δημητρίου είναι η πρώτη γυναίκα που εξελέγη Πρόεδρος της Βουλής
+    των Αντιπροσώπων.
+  example_en: Annita Demetriou is the first woman elected President of the House of
+    Representatives.
+  example2_el: Ο Πρόεδρος της Βουλής είναι ο δεύτερος τη τάξει πολιτειακός αξιωματούχος
+    της Κυπριακής Δημοκρατίας.
+  example2_en: The President of the House is the second highest state official of
+    the Republic of Cyprus.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-015
+  greek: η δικαστική εξουσία
+  phonetic_hint: ee thee-kah-stee-KEE ehk-soo-SEE-ah
+  english: the judicial power / judiciary
+  notes: Completely independent from the executive and legislative branches. Following
+    the 2023 judicial reform, headed by the Supreme Constitutional Court and the Supreme
+    Court.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι δικαστικές εξουσίες
+    accusative_singular: τη δικαστική εξουσία
+  keg_communicative_function: Polity & Institutions — Judiciary
+  example_el: Η δικαστική εξουσία στην Κύπρο είναι ανεξάρτητη και απονέμει τη δικαιοσύνη.
+  example_en: The judicial power in Cyprus is independent and administers justice.
+  example2_el: Στην κορυφή της δικαστικής εξουσίας βρίσκονται το Ανώτατο Συνταγματικό
+    Δικαστήριο και το Ανώτατο Δικαστήριο.
+  example2_en: At the top of the judiciary are the Supreme Constitutional Court and
+    the Supreme Court.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-016
+  greek: το Ανώτατο Δικαστήριο
+  phonetic_hint: toh ah-NOH-tah-toh thee-kah-STEE-ree-oh
+  english: the Supreme Court
+  notes: Highest appellate court of the Republic, alongside the Supreme Constitutional
+    Court (το Ανώτατο Συνταγματικό Δικαστήριο) and the Court of Appeal (το Εφετείο).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Ανώτατα Δικαστήρια
+    accusative_singular: το Ανώτατο Δικαστήριο
+    genitive_singular: του Ανωτάτου Δικαστηρίου
+  keg_communicative_function: Polity & Institutions — Courts of Cyprus
+  example_el: Οι δικαστές του Ανωτάτου Δικαστηρίου διορίζονται από τον Πρόεδρο της
+    Δημοκρατίας.
+  example_en: The judges of the Supreme Court are appointed by the President of the
+    Republic.
+  example2_el: Κάθε επαρχία της Κύπρου διαθέτει το δικό της Επαρχιακό Δικαστήριο.
+  example2_en: Each district of Cyprus has its own District Court.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-017
+  greek: ο Γενικός Εισαγγελέας
+  phonetic_hint: oh yeh-nee-KOHS ee-sahng-gheh-LEH-ahs
+  english: the Attorney General
+  notes: Independent officer of the Republic (head of the Law Office — η Νομική Υπηρεσία)
+    serving as legal adviser to the state and director of public prosecutions.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Γενικοί Εισαγγελείς
+    accusative_singular: τον Γενικό Εισαγγελέα
+    genitive_singular: του Γενικού Εισαγγελέα
+  keg_communicative_function: Polity & Institutions — Independent state officials
+  example_el: Ο Γενικός Εισαγγελέας είναι ο νομικός σύμβουλος της Κυπριακής Δημοκρατίας
+    και προΐσταται της Νομικής Υπηρεσίας.
+  example_en: The Attorney General is the legal adviser of the Republic of Cyprus
+    and heads the Law Office.
+  example2_el: Ο Γενικός Εισαγγελέας της Δημοκρατίας είναι ο Γιώργος Σαββίδης.
+  example2_en: The Attorney General of the Republic is George Savvides.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-018
+  greek: ο Γενικός Ελεγκτής
+  phonetic_hint: oh yeh-nee-KOHS eh-lehng-KTEES
+  english: the Auditor General
+  notes: Head of the Audit Office of the Republic (η Ελεγκτική Υπηρεσία), constitutionally
+    responsible for auditing all public revenues and expenditures.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Γενικοί Ελεγκτές
+    accusative_singular: τον Γενικό Ελεγκτή
+    genitive_singular: του Γενικού Ελεγκτή
+  keg_communicative_function: Polity & Institutions — Financial oversight
+  example_el: Ο Γενικός Ελεγκτής ελέγχει τις δαπάνες και τα έσοδα του κράτους.
+  example_en: The Auditor General audits the expenditures and revenues of the state.
+  example2_el: Η Ελεγκτική Υπηρεσία είναι ανεξάρτητος θεσμός της Κυπριακής Δημοκρατίας.
+  example2_en: The Audit Office is an independent institution of the Republic of Cyprus.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-019
+  greek: ο Επίτροπος Διοικήσεως
+  phonetic_hint: oh eh-PEE-troh-pos thee-ee-KEE-seh-os
+  english: the Commissioner for Administration (Ombudsman)
+  notes: 'Full title: Επίτροπος Διοικήσεως και Προστασίας Ανθρώπινων Δικαιωμάτων.
+    Investigates citizen complaints against public administration.'
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Επίτροποι Διοικήσεως
+    accusative_singular: τον Επίτροπο Διοικήσεως
+  keg_communicative_function: Polity & Institutions — Citizen rights & Ombudsman
+  example_el: Οι πολίτες μπορούν να υποβάλουν παράπονο στον Επίτροπο Διοικήσεως για
+    πράξεις της δημόσιας υπηρεσίας.
+  example_en: Citizens can submit a complaint to the Ombudsman regarding actions of
+    the public service.
+  example2_el: Η Επίτροπος Διοικήσεως και Προστασίας Ανθρώπινων Δικαιωμάτων είναι
+    η Μαρία Στυλιανού-Λοττίδη.
+  example2_en: The Commissioner for Administration and the Protection of Human Rights
+    is Maria Stylianou-Lottides.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-020
+  greek: η σημαία της Κύπρου
+  phonetic_hint: ee see-MEH-ah tees KEE-proo
+  english: the flag of Cyprus
+  notes: Features a white background, the copper-orange silhouette of the island (symbolizing
+    copper deposits), and two crossed olive branches (symbolizing peace between the
+    two communities).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι σημαίες της Κύπρου
+    accusative_singular: τη σημαία της Κύπρου
+  keg_communicative_function: Polity & Institutions — National symbols
+  example_el: Τι απεικονίζει η σημαία της Κύπρου; Τον χάρτη του νησιού σε χρώμα χαλκού
+    και δύο κλαδιά ελιάς σε λευκό φόντο.
+  example_en: What does the flag of Cyprus depict? The map of the island in copper
+    color and two olive branches on a white background.
+  example2_el: Τα δύο κλαδιά ελιάς στη σημαία συμβολίζουν την ειρήνη μεταξύ Ελληνοκυπρίων
+    και Τουρκοκυπρίων.
+  example2_en: The two olive branches on the flag symbolize peace between Greek Cypriots
+    and Turkish Cypriots.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-021
+  greek: — Ποιος σχεδίασε τη σημαία της Κυπριακής Δημοκρατίας; — Ο Τουρκοκύπριος ζωγράφος
+    Ισμέτ Γκιουνέι.
+  phonetic_hint: pyos skheh-THEE-ah-seh tee see-MEH-ah tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs?
+    oh toor-koh-KEE-pree-os zoh-GHRAH-fos ee-SMEHT gyoo-NEH-ee
+  english: — Who designed the flag of the Republic of Cyprus? — The Turkish Cypriot
+    painter Ismet Guney.
+  notes: Classic past exam question! Chosen in 1960 by President Makarios III and
+    Vice-President Fazıl Küçük; blue and red colors were intentionally avoided.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Designer of the Cyprus flag
+  example_el: Η σημαία της Κύπρου σχεδιάστηκε το 1960 από τον Τουρκοκύπριο καλλιτέχνη
+    Ισμέτ Γκιουνέι.
+  example_en: The flag of Cyprus was designed in 1960 by the Turkish Cypriot artist
+    Ismet Guney.
+  example2_el: Η Κύπρος και το Κόσοβο είναι οι μόνες χώρες που απεικονίζουν τον χάρτη
+    τους στη σημαία τους.
+  example2_en: Cyprus and Kosovo are the only countries that depict their map on their
+    flag.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-022
+  greek: — Ποιος είναι ο Εθνικός Ύμνος της Κύπρου; — Ο «Ύμνος εις την Ελευθερίαν»
+    του Διονυσίου Σολωμού.
+  phonetic_hint: pyos EE-neh oh eth-nee-KOHS EEM-nos tees KEE-proo? oh EEM-nos ees
+    teen eh-lef-theh-REE-ahn too thee-oh-nee-SEE-oo soh-loh-MOO
+  english: — What is the National Anthem of Cyprus? — The 'Hymn to Liberty' by Dionysios
+    Solomos.
+  notes: Past exam question! Lyrics by Dionysios Solomos (1823), music composed by
+    Nikolaos Mantzaros; officially adopted by the Republic of Cyprus in November 1966.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — National Anthem of Cyprus
+  example_el: Ο Εθνικός Ύμνος της Κύπρου είναι κοινός με της Ελλάδας, σε στίχους Διονυσίου
+    Σολωμού και μουσική Νικολάου Μάντζαρου.
+  example_en: The National Anthem of Cyprus is shared with Greece, with lyrics by
+    Dionysios Solomos and music by Nikolaos Mantzaros.
+  example2_el: Το Υπουργικό Συμβούλιο καθιέρωσε επίσημα τον Εθνικό Ύμνο στην Κύπρο
+    το 1966.
+  example2_en: The Council of Ministers officially established the National Anthem
+    in Cyprus in 1966.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-023
+  greek: ο Δημοκρατικός Συναγερμός (ΔΗΣΥ)
+  phonetic_hint: oh theem-oh-krah-tee-KOHS see-nah-yer-MOHS (THEE-SEE)
+  english: the Democratic Rally (DISY)
+  notes: Major center-right political party in Cyprus, founded in 1976 by Glafcos
+    Clerides (Γλαύκος Κληρίδης). Affiliated with the European People's Party (ΕΛΚ).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Δημοκρατικοί Συναγερμοί
+    accusative_singular: τον Δημοκρατικό Συναγερμό
+  keg_communicative_function: Polity & Institutions — Major political parties
+  example_el: Ο Δημοκρατικός Συναγερμός (ΔΗΣΥ) ιδρύθηκε το 1976 από τον πρώην Πρόεδρο
+    Γλαύκο Κληρίδη.
+  example_en: The Democratic Rally (DISY) was founded in 1976 by former President
+    Glafcos Clerides.
+  example2_el: Πρόεδρος του Δημοκρατικού Συναγερμού είναι η Αννίτα Δημητρίου.
+  example2_en: The President of the Democratic Rally is Annita Demetriou.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-024
+  greek: το Ανορθωτικό Κόμμα Εργαζόμενου Λαού (ΑΚΕΛ)
+  phonetic_hint: toh ah-nor-thoh-tee-KOH KOH-mah ehr-ghah-ZOH-meh-noo lah-OO (ah-KEHL)
+  english: the Progressive Party of Working People (AKEL)
+  notes: 'Major left-wing political party in Cyprus, founded in 1941 (succeeding the
+    Communist Party of Cyprus of 1926). General Secretary: Stefanos Stefanou (Στέφανος
+    Στεφάνου).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Ανορθωτικά Κόμματα
+    accusative_singular: το Ανορθωτικό Κόμμα Εργαζόμενου Λαού
+  keg_communicative_function: Polity & Institutions — Major political parties
+  example_el: Το ΑΚΕΛ είναι το μεγαλύτερο κόμμα της Αριστεράς στην Κύπρο και ιδρύθηκε
+    το 1941.
+  example_en: AKEL is the largest party of the Left in Cyprus and was founded in 1941.
+  example2_el: Γενικός Γραμματέας της Κεντρικής Επιτροπής του ΑΚΕΛ είναι ο Στέφανος
+    Στεφάνου.
+  example2_en: The General Secretary of the Central Committee of AKEL is Stefanos
+    Stefanou.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-025
+  greek: το Δημοκρατικό Κόμμα (ΔΗΚΟ)
+  phonetic_hint: toh theem-oh-krah-tee-KOH KOH-mah (THEE-KOH)
+  english: the Democratic Party (DIKO)
+  notes: 'Centrist political party in Cyprus, founded in 1976 by Spyros Kyprianou
+    (Σπύρος Κυπριανού). Current President: Nikolas Papadopoulos (Νικόλας Παπαδόπουλος).'
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Δημοκρατικά Κόμματα
+    accusative_singular: το Δημοκρατικό Κόμμα
+  keg_communicative_function: Polity & Institutions — Major political parties
+  example_el: Το Δημοκρατικό Κόμμα (ΔΗΚΟ) ιδρύθηκε το 1976 από τον Σπύρο Κυπριανού
+    και ανήκει στον χώρο του Κέντρου.
+  example_en: The Democratic Party (DIKO) was founded in 1976 by Spyros Kyprianou
+    and belongs to the political Center.
+  example2_el: Πρόεδρος του Δημοκρατικού Κόμματος είναι ο Νικόλας Παπαδόπουλος.
+  example2_en: The President of the Democratic Party is Nikolas Papadopoulos.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-026
+  greek: η ΕΔΕΚ (Κίνημα Σοσιαλδημοκρατών)
+  phonetic_hint: ee eh-THEHK (KEE-nee-mah soh-syahl-theem-oh-krah-TON)
+  english: EDEK (Movement for Social Democracy)
+  notes: Social-democratic party founded in 1969 by Vassos Lyssarides (Βάσος Λυσσαρίδης).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: τα Κινήματα Σοσιαλδημοκρατών
+    accusative_singular: την ΕΔΕΚ
+  keg_communicative_function: Polity & Institutions — Political parties
+  example_el: Η ΕΔΕΚ ιδρύθηκε το 1969 από τον γιατρό και πολιτικό Βάσο Λυσσαρίδη.
+  example_en: EDEK was founded in 1969 by the physician and politician Vassos Lyssarides.
+  example2_el: Η ΕΔΕΚ εκπροσωπεί τον χώρο της σοσιαλδημοκρατίας στην Κυπριακή Βουλή.
+  example2_en: EDEK represents the space of social democracy in the Cypriot Parliament.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-027
+  greek: η καθολική ψηφοφορία
+  phonetic_hint: ee kah-thoh-lee-KEE psee-foh-foh-REE-ah
+  english: universal suffrage / voting
+  notes: In Cyprus, the right to vote (το δικαίωμα του εκλέγειν) is granted to citizens
+    aged 18 and over.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι καθολικές ψηφοφορίες
+    accusative_singular: την καθολική ψηφοφορία
+  keg_communicative_function: Polity & Institutions — Electoral rights
+  example_el: Το δικαίωμα ψήφου στην Κύπρο αποκτάται με τη συμπλήρωση του δέκατου
+    όγδοου (18ου) έτους της ηλικίας.
+  example_en: The right to vote in Cyprus is acquired upon reaching eighteen (18)
+    years of age.
+  example2_el: Η ψηφοφορία στις εκλογές είναι άμεση, καθολική και μυστική.
+  example2_en: Voting in elections is direct, universal, and secret.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-028
+  greek: το Προεδρικό Μέγαρο
+  phonetic_hint: toh proh-eth-ree-KOH MEH-ghah-roh
+  english: the Presidential Palace
+  notes: Official residence and office of the President of the Republic of Cyprus
+    in Nicosia (rebuilt after burning during the July 1974 coup).
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Προεδρικά Μέγαρα
+    accusative_singular: το Προεδρικό Μέγαρο
+    genitive_singular: του Προεδρικού Μεγάρου
+  keg_communicative_function: Polity & Institutions — State buildings
+  example_el: Το Προεδρικό Μέγαρο βρίσκεται στη Λευκωσία και αποτελεί την επίσημη
+    έδρα του Προέδρου της Δημοκρατίας.
+  example_en: The Presidential Palace is located in Nicosia and is the official seat
+    of the President of the Republic.
+  example2_el: Το κτίριο καταστράφηκε κατά το πραξικόπημα του 1974 και ανοικοδομήθηκε
+    στη συνέχεια.
+  example2_en: The building was destroyed during the 1974 coup and was subsequently
+    rebuilt.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-029
+  greek: — Ποιος αναπληρώνει τον Πρόεδρο της Δημοκρατίας όταν απουσιάζει ή κωλύεται;
+    — Ο Πρόεδρος της Βουλής των Αντιπροσώπων.
+  phonetic_hint: pyos ah-nah-plee-ROH-nee ton PROH-eth-roh tees theem-oh-krah-TEE-ahs
+    OH-tahn ah-poo-see-AH-zee? oh PROH-eth-ros tees voo-LEES ton ahn-dee-proh-SOH-pon
+  english: — Who deputizes for the President of the Republic when absent or incapacitated?
+    — The President of the House of Representatives.
+  notes: Past exam question! Because there is no Vice-President currently participating
+    in government, the Speaker of the House serves as Acting President (Προεδρεύων
+    της Δημοκρατίας).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Constitutional succession
+  example_el: Όταν ο Πρόεδρος της Δημοκρατίας ταξιδεύει στο εξωτερικό, καθήκοντα Προεδρεύοντα
+    ασκεί ο Πρόεδρος της Βουλής.
+  example_en: When the President of the Republic travels abroad, the President of
+    the House serves as Acting President.
+  example2_el: Η θέση του Αντιπροέδρου της Δημοκρατίας, που προοριζόταν για Τουρκοκύπριο,
+    παραμένει κενή από το 1963.
+  example2_en: The post of Vice-President of the Republic, reserved for a Turkish
+    Cypriot, has remained vacant since 1963.
+  audio: null
+  status: pending_tts
+- id: CYP-U01-030
+  greek: η Κεντρική Τράπεζα της Κύπρου
+  phonetic_hint: ee kehn-dree-KEE TRAH-peh-zah tees KEE-proo
+  english: the Central Bank of Cyprus
+  notes: 'Established in 1963; member of the Eurosystem since 2008. Current Governor
+    (Διοικητής): Christodoulos Patsalides (Χριστόδουλος Πατσαλίδης, appointed 2024).'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Κεντρικές Τράπεζες
+    accusative_singular: την Κεντρική Τράπεζα της Κύπρου
+  keg_communicative_function: Polity & Institutions — Monetary authority
+  example_el: Η Κεντρική Τράπεζα της Κύπρου ιδρύθηκε το 1963 και αποτελεί μέλος του
+    Ευρωσυστήματος από το 2008.
+  example_en: The Central Bank of Cyprus was founded in 1963 and has been a member
+    of the Eurosystem since 2008.
+  example2_el: Διοικητής της Κεντρικής Τράπεζας της Κύπρου είναι ο Χριστόδουλος Πατσαλίδης.
+  example2_en: The Governor of the Central Bank of Cyprus is Christodoulos Patsalides.
+  audio: null
+  status: pending_tts

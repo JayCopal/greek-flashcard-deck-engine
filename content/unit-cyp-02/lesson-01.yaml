@@ -1,0 +1,711 @@
+unit_id: unit-cyp-02
+lesson_id: lesson-01
+title: 'Μάθημα 2: Σύγχρονη Ιστορία της Κύπρου 1955–Σήμερα (Modern History of Cyprus)'
+description: The 1955–1959 EOKA liberation struggle, Zurich-London Agreements, proclamation
+  of independence (1960), chronological succession of Presidents of the Republic,
+  the 1974 coup and Turkish invasion, the Green Line, the 2004 Annan Plan referendum,
+  and EU accession.
+lesson_status: not_started
+lesson_notes: "Unit CYP-02 Core Exam Notes: Σύγχρονη Ιστορία της Κύπρου (Modern History\
+  \ of Cyprus: 1955–Present)\n\n• Αγώνας της ΕΟΚΑ & Ίδρυση της Κυπριακής Δημοκρατίας\
+  \ (1955–1960):\n  - 1878–1960: Περίοδος Αγγλοκρατίας (Βρετανική αποικιοκρατία).\n\
+  \  - 1 Απριλίου 1955 – 1959: Απελευθερωτικός Αγώνας της ΕΟΚΑ (Εθνική Οργάνωση Κυπρίων\
+  \ Αγωνιστών) κατά της βρετανικής αποικιοκρατίας, με στρατιωτικό αρχηγό τον Γεώργιο\
+  \ Γρίβα (Διγενή) και πολιτικό ηγέτη τον Αρχιεπίσκοπο Μακάριο Γ΄.\n  - Φεβρουάριος\
+  \ 1959: Υπογραφή των Συμφωνιών Ζυρίχης-Λονδίνου. Τρεις Εγγυήτριες Δυνάμεις: Ελλάδα,\
+  \ Τουρκία, Ηνωμένο Βασίλειο.\n  - 16 Αυγούστου 1960: Επίσημη ανακήρυξη της ανεξαρτησίας\
+  \ της Κυπριακής Δημοκρατίας. (Εορτάζεται την 1η Οκτωβρίου).\n\n• Οι Πρόεδροι της\
+  \ Κυπριακής Δημοκρατίας (Chronological List — High Exam Frequency!):\n  1. Αρχιεπίσκοπος\
+  \ Μακάριος Γ΄ (1960–1977) — Πρώτος Πρόεδρος\n  2. Σπύρος Κυπριανού (1977–1988)\n\
+  \  3. Γιώργος Βασιλείου (1988–1993)\n  4. Γλαύκος Κληρίδης (1993–2003)\n  5. Τάσσος\
+  \ Παπαδόπουλος (2003–2008) — Επί προεδρίας του έγινε το δημοψήφισμα για το Σχέδιο\
+  \ Ανάν & η ένταξη στην ΕΕ (2004)\n  6. Δημήτρης Χριστόφιας (2008–2013)\n  7. Νίκος\
+  \ Αναστασιάδης (2013–2023)\n  8. Νίκος Χριστοδουλίδης (2023–σήμερα)\n\n• Γεγονότα\
+  \ 1963–1974 & Το Κυπριακό Πρόβλημα:\n  - 1963–1964: Διακοινοτικές ταραχές, χάραξη\
+  \ της Πράσινης Γραμμής στη Λευκωσία και άφιξη της Ειρηνευτικής Δύναμης του ΟΗΕ (ΟΥΝΦΙΚΥΠ\
+  \ / UNFICYP) το 1964.\n  - 15 Ιουλίου 1974: Στρατιωτικό πραξικόπημα της ελληνικής\
+  \ χούντας και της ΕΟΚΑ Β΄ κατά του Προέδρου Μακαρίου.\n  - 20 Ιουλίου 1974: Τουρκική\
+  \ στρατιωτική εισβολή («Αττίλας Ι» τον Ιούλιο και «Αττίλας ΙΙ» στις 14 Αυγούστου\
+  \ 1974).\n  - Συνέπειες: Κατοχή περίπου του 36,2%–37% του εδάφους της Κυπριακής\
+  \ Δημοκρατίας, ~200.000 πρόσφυγες, αγνοούμενοι, εγκλωβισμένοι στην Καρπασία.\n \
+  \ - 15 Νοεμβρίου 1983: Παράνομη ανακήρυξη του «ψευδοκράτους» στα κατεχόμενα, η οποία\
+  \ καταδικάστηκε από το Ψήφισμα 541 του Συμβουλίου Ασφαλείας του ΟΗΕ (αναγνωρίζεται\
+  \ μόνο από την Τουρκία).\n  - 24 Απριλίου 2004: Δημοψήφισμα για το Σχέδιο Ανάν (απορρίφθηκε\
+  \ από το 76% των Ελληνοκυπρίων, εγκρίθηκε από το 65% των Τουρκοκυπρίων).\n  - 1\
+  \ Μαΐου 2004: Επίσημη ένταξη της Κυπριακής Δημοκρατίας στην Ευρωπαϊκή Ένωση."
+entries:
+- id: CYP-U02-001
+  greek: — Πότε ανακηρύχθηκε επίσημα η Κυπριακή Δημοκρατία ως ανεξάρτητο κράτος; —
+    Στις 16 Αυγούστου 1960.
+  phonetic_hint: POH-teh ah-nah-kee-REEK-thee-keh eh-PEE-see-mah ee kee-pree-ah-KEE
+    theem-oh-krah-TEE-ah? stees theh-kah-EHK-see ahv-GHOO-stoo 1960
+  english: — When was the Republic of Cyprus officially proclaimed an independent
+    state? — On 16 August 1960.
+  notes: 'Crucial exam distinction: Independence was actually proclaimed on 16 August
+    1960, whereas Independence Day is celebrated on 1 October (to avoid the summer
+    heat and holidays).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Date of proclamation of Independence
+  example_el: Η Κυπριακή Δημοκρατία ιδρύθηκε στις 16 Αυγούστου 1960 μετά το τέλος
+    της βρετανικής αποικιοκρατίας.
+  example_en: The Republic of Cyprus was founded on 16 August 1960 after the end of
+    British colonial rule.
+  example2_el: Αν και η ανεξαρτησία ανακηρύχθηκε στις 16 Αυγούστου, η επίσημη εθνική
+    επέτειος γιορτάζεται την 1η Οκτωβρίου.
+  example2_en: Although independence was proclaimed on 16 August, the official national
+    anniversary is celebrated on 1 October.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-002
+  greek: — Πότε γιορτάζεται η Ημέρα Ανεξαρτησίας της Κυπριακής Δημοκρατίας; — Την
+    1η Οκτωβρίου.
+  phonetic_hint: POH-teh yor-TAH-zeh-teh ee ee-MEH-rah ah-nehk-sahr-tee-SEE-ahs tees
+    kee-pree-ah-KEES theem-oh-krah-TEE-ahs? teen PROH-tee ohk-toh-VREE-oo
+  english: — When is the Independence Day of the Republic of Cyprus celebrated? —
+    On 1 October.
+  notes: Past exam question! Decided by the Council of Ministers in 1963 so that schools,
+    diplomatic missions, and the public could participate after summer.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Celebration of Cyprus Independence Day
+  example_el: Την 1η Οκτωβρίου είναι επίσημη αργία και πραγματοποιείται μεγάλη στρατιωτική
+    παρέλαση στη Λευκωσία.
+  example_en: October 1st is a public holiday and a grand military parade takes place
+    in Nicosia.
+  example2_el: Η Ημέρα Ανεξαρτησίας της Κύπρου μεταφέρθηκε από τον Αύγουστο στην 1η
+    Οκτωβρίου λόγω των υψηλών θερμοκρασιών του καλοκαιριού.
+  example2_en: Cyprus Independence Day was moved from August to 1 October due to the
+    high summer temperatures.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-003
+  greek: ο απελευθερωτικός αγώνας της ΕΟΚΑ
+  phonetic_hint: oh ah-peh-lef-theh-roh-tee-KOHS ah-GHOH-nahs tees eh-OH-kah
+  english: the EOKA liberation struggle (1955–1959)
+  notes: EOKA = Εθνική Οργάνωση Κυπρίων Αγωνιστών (National Organisation of Cypriot
+    Fighters). Began on 1 April 1955 against British colonial rule.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι απελευθερωτικοί αγώνες
+    accusative_singular: τον απελευθερωτικό αγώνα της ΕΟΚΑ
+  keg_communicative_function: Modern History — Anti-colonial struggle 1955–1959
+  example_el: Ο απελευθερωτικός αγώνας της ΕΟΚΑ ξεκίνησε την 1η Απριλίου 1955 και
+    έληξε το 1959.
+  example_en: The EOKA liberation struggle began on 1 April 1955 and ended in 1959.
+  example2_el: Η 1η Απριλίου είναι επίσημη εθνική επέτειος και αργία στην Κύπρο.
+  example2_en: April 1st is an official national anniversary and public holiday in
+    Cyprus.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-004
+  greek: οι Συμφωνίες Ζυρίχης-Λονδίνου
+  phonetic_hint: ee seem-foh-NEE-ehs zee-REE-khees lohn-THEE-noo
+  english: the Zurich and London Agreements (1959)
+  notes: Signed in February 1959 by Britain, Greece, Turkey, and representatives of
+    the Greek Cypriot (Makarios III) and Turkish Cypriot (Fazıl Küçük) communities,
+    establishing the Republic of Cyprus.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Συμφωνίες Ζυρίχης-Λονδίνου
+    accusative_plural: τις Συμφωνίες Ζυρίχης-Λονδίνου
+  keg_communicative_function: Modern History — Founding treaties of 1959
+  example_el: Οι Συμφωνίες Ζυρίχης-Λονδίνου υπογράφηκαν τον Φεβρουάριο του 1959 και
+    οδήγησαν στην ανεξαρτησία της Κύπρου.
+  example_en: The Zurich and London Agreements were signed in February 1959 and led
+    to the independence of Cyprus.
+  example2_el: Με τις συμφωνίες αυτές το Ηνωμένο Βασίλειο διατήρησε δύο κυρίαρχες
+    στρατιωτικές βάσεις στο Ακρωτήρι και στη Δεκέλεια.
+  example2_en: Under these agreements, the United Kingdom retained two Sovereign Base
+    Areas at Akrotiri and Dhekelia.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-005
+  greek: — Ποιος ήταν ο πρώτος Πρόεδρος της Κυπριακής Δημοκρατίας; — Ο Αρχιεπίσκοπος
+    Μακάριος Γ΄.
+  phonetic_hint: pyos EE-tahn oh PROH-tos PROH-eth-ros tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs?
+    oh ahr-khee-eh-PEE-skoh-pos mah-KAH-ree-os oh TREE-tos
+  english: — Who was the first President of the Republic of Cyprus? — Archbishop Makarios
+    III.
+  notes: Past exam question! Archbishop Makarios III (Μιχαήλ Χριστοδούλου Μούσκος)
+    served as the first President from 1960 until his death on 3 August 1977.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — First President of Cyprus
+  example_el: Ο Αρχιεπίσκοπος Μακάριος Γ΄ υπήρξε ο πρώτος Πρόεδρος της Κυπριακής Δημοκρατίας
+    από το 1960 έως το 1977.
+  example_en: Archbishop Makarios III was the first President of the Republic of Cyprus
+    from 1960 to 1977.
+  example2_el: Πρώτος Αντιπρόεδρος της Κυπριακής Δημοκρατίας το 1960 εξελέγη ο Τουρκοκύπριος
+    Φαζίλ Κουτσιούκ.
+  example2_en: The Turkish Cypriot Fazil Kucuk was elected first Vice-President of
+    the Republic of Cyprus in 1960.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-006
+  greek: οι εγγυήτριες δυνάμεις
+  phonetic_hint: ee ehng-ghee-EE-tree-ehs thee-NAH-mees
+  english: the Guarantor Powers (Greece, Turkey, United Kingdom)
+  notes: Under the 1960 Treaty of Guarantee (Συνθήκη Εγγυήσεως), Greece, Turkey, and
+    the UK became guarantors of the independence, territorial integrity, and Constitution
+    of Cyprus.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εγγυήτριες δυνάμεις
+    accusative_plural: τις εγγυήτριες δυνάμεις
+  keg_communicative_function: Modern History — 1960 Treaty of Guarantee
+  example_el: Ποιες ήταν οι τρεις εγγυήτριες δυνάμεις της Κυπριακής Δημοκρατίας το
+    1960; Η Ελλάδα, η Τουρκία και το Ηνωμένο Βασίλειο.
+  example_en: Which were the three guarantor powers of the Republic of Cyprus in 1960?
+    Greece, Turkey, and the United Kingdom.
+  example2_el: Οι εγγυήτριες δυνάμεις ανέλαβαν την υποχρέωση να προστατεύουν την ανεξαρτησία
+    και την εδαφική ακεραιότητα της Κύπρου.
+  example2_en: The guarantor powers undertook the obligation to protect the independence
+    and territorial integrity of Cyprus.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-007
+  greek: η Πράσινη Γραμμή (η Νεκρή Ζώνη)
+  phonetic_hint: ee PRAH-see-nee ghrah-MEE (ee neh-KREE ZOH-nee)
+  english: the Green Line (the UN Buffer Zone)
+  notes: First drawn in December 1963 in Nicosia with a green chinagraph pencil by
+    British General Peter Young; extended across the island (180 km) after the 1974
+    Turkish invasion.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Πράσινες Γραμμές
+    accusative_singular: την Πράσινη Γραμμή
+  keg_communicative_function: Modern History — Division of Cyprus & UN Buffer Zone
+  example_el: Η Πράσινη Γραμμή χωρίζει τις ελεύθερες περιοχές της Κυπριακής Δημοκρατίας
+    από τις κατεχόμενες περιοχές.
+  example_en: The Green Line separates the government-controlled areas of the Republic
+    of Cyprus from the occupied areas.
+  example2_el: Η Νεκρή Ζώνη ελέγχεται από την Ειρηνευτική Δύναμη των Ηνωμένων Εθνών
+    στην Κύπρο (ΟΥΝΦΙΚΥΠ).
+  example2_en: The Buffer Zone is controlled by the United Nations Peacekeeping Force
+    in Cyprus (UNFICYP).
+  audio: null
+  status: pending_tts
+- id: CYP-U02-008
+  greek: η ΟΥΝΦΙΚΥΠ (Ειρηνευτική Δύναμη του ΟΗΕ)
+  phonetic_hint: ee OON-fee-keep (ee-ree-nef-tee-KEE THEE-nah-mee too oh-ee-EH)
+  english: UNFICYP (United Nations Peacekeeping Force in Cyprus)
+  notes: Established in March 1964 by UN Security Council Resolution 186 to prevent
+    recurrence of fighting and supervise the ceasefire lines.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Ειρηνευτικές Δυνάμεις
+    accusative_singular: την ΟΥΝΦΙΚΥΠ
+  keg_communicative_function: Modern History — UN peacekeeping in Cyprus
+  example_el: Η Ειρηνευτική Δύναμη του ΟΗΕ (ΟΥΝΦΙΚΥΠ) βρίσκεται στην Κύπρο από το
+    1964.
+  example_en: The UN Peacekeeping Force (UNFICYP) has been in Cyprus since 1964.
+  example2_el: Αποστολή της ΟΥΝΦΙΚΥΠ είναι η επιτήρηση της Νεκρής Ζώνης και η διατήρηση
+    της ειρήνης.
+  example2_en: The mission of UNFICYP is the supervision of the Buffer Zone and the
+    maintenance of peace.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-009
+  greek: το πραξικόπημα της 15ης Ιουλίου 1974
+  phonetic_hint: toh prahk-see-KOH-pee-mah tees theh-kah-PEHN-dees ee-oo-LEE-oo 1974
+  english: the coup d'état of 15 July 1974
+  notes: Staged on 15 July 1974 by the military junta in Athens and EOKA B to overthrow
+    President Makarios III, giving Turkey the pretext to invade five days later.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα πραξικοπήματα
+    accusative_singular: το πραξικόπημα της 15ης Ιουλίου 1974
+  keg_communicative_function: Modern History — Events of July 1974
+  example_el: Στις 15 Ιουλίου 1974 εκδηλώθηκε στρατιωτικό πραξικόπημα για την ανατροπή
+    του Προέδρου Μακαρίου.
+  example_en: On 15 July 1974, a military coup was staged to overthrow President Makarios.
+  example2_el: Το πραξικόπημα της 15ης Ιουλίου 1974 έδωσε την αφορμή στην Τουρκία
+    να εισβάλει στην Κύπρο πέντε ημέρες αργότερα.
+  example2_en: The coup of 15 July 1974 gave Turkey the pretext to invade Cyprus five
+    days later.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-010
+  greek: — Πότε έγινε η τουρκική εισβολή στην Κύπρο; — Στις 20 Ιουλίου 1974.
+  phonetic_hint: POH-teh EH-yee-neh ee toor-kee-KEE ees-voh-LEE steen KEE-proh? stees
+    EE-koh-see ee-oo-LEE-oo 1974
+  english: — When did the Turkish invasion of Cyprus take place? — On 20 July 1974.
+  notes: 'Essential exam question! The invasion occurred in two phases: Phase 1 on
+    20 July 1974 (landing at Pentemili, Kyrenia) and Phase 2 on 14 August 1974 (occupying
+    Morphou, Famagusta, and Karpasia).'
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Date of the Turkish invasion
+  example_el: Η τουρκική εισβολή στην Κύπρο ξεκίνησε τα ξημερώματα της 20ής Ιουλίου
+    1974 από τις ακτές της Κερύνειας.
+  example_en: The Turkish invasion of Cyprus began at dawn on 20 July 1974 on the
+    coast of Kyrenia.
+  example2_el: Η δεύτερη φάση της τουρκικής εισβολής εκδηλώθηκε στις 14 Αυγούστου
+    1974.
+  example2_en: The second phase of the Turkish invasion took place on 14 August 1974.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-011
+  greek: τα κατεχόμενα εδάφη
+  phonetic_hint: tah kah-teh-KHOH-meh-nah eh-THAH-fee
+  english: the occupied territories
+  notes: Since August 1974, approximately 36.2%–37% of the territory of the Republic
+    of Cyprus remains under illegal Turkish military occupation.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα κατεχόμενα εδάφη
+    accusative_plural: τα κατεχόμενα εδάφη
+  keg_communicative_function: Modern History — Consequences of 1974
+  example_el: Περίπου το 37% του εδάφους της Κυπριακής Δημοκρατίας παραμένει υπό τουρκική
+    στρατιωτική κατοχή από το 1974.
+  example_en: Approximately 37% of the territory of the Republic of Cyprus remains
+    under Turkish military occupation since 1974.
+  example2_el: Η επαρχία της Κερύνειας βρίσκεται εξ ολοκλήρου στα κατεχόμενα εδάφη.
+  example2_en: The district of Kyrenia is located entirely within the occupied territories.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-012
+  greek: οι πρόσφυγες
+  phonetic_hint: ee PROH-sfee-yehs
+  english: the refugees / internally displaced persons
+  notes: Approximately 200,000 Greek Cypriots (one-third of the population) were forcibly
+    displaced from their homes in 1974.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    singular: ο πρόσφυγας / η πρόσφυγας
+    plural: οι πρόσφυγες
+    accusative_singular: τον πρόσφυγα
+  keg_communicative_function: Modern History — Displacement & humanitarian impact
+  example_el: Το 1974 περίπου διακόσιες χιλιάδες (200.000) Ελληνοκύπριοι έγιναν πρόσφυγες
+    στην ίδια τους την πατρίδα.
+  example_en: In 1974, approximately two hundred thousand (200,000) Greek Cypriots
+    became refugees in their own homeland.
+  example2_el: Το κράτος δημιούργησε προσφυγικούς συνοικισμούς για τη στέγαση των
+    εκτοπισθέντων πολιτών.
+  example2_en: The state created refugee housing estates to house the displaced citizens.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-013
+  greek: οι αγνοούμενοι
+  phonetic_hint: ee ah-ghnoh-OO-meh-nee
+  english: the missing persons
+  notes: Humanitarian tragedy of the 1963–64 and 1974 events. Investigated by the
+    bi-communal Committee on Missing Persons in Cyprus (Διερευνητική Επιτροπή για
+    τους Αγνοουμένους - ΔΕΑ).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    singular: ο αγνοούμενος
+    plural: οι αγνοούμενοι
+    accusative_singular: τον αγνοούμενο
+  keg_communicative_function: Modern History — Humanitarian issues of the Cyprus Problem
+  example_el: Η Διερευνητική Επιτροπή για τους Αγνοουμένους (ΔΕΑ) εργάζεται για τον
+    εντοπισμό και την ταυτοποίηση των αγνοουμένων.
+  example_en: The Committee on Missing Persons (CMP) works to locate and identify
+    the missing persons.
+  example2_el: Το ζήτημα των αγνοουμένων αποτελεί μία από τις πιο τραγικές ανθρωπιστικές
+    πτυχές της τουρκικής εισβολής.
+  example2_en: The issue of missing persons constitutes one of the most tragic humanitarian
+    aspects of the Turkish invasion.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-014
+  greek: οι εγκλωβισμένοι
+  phonetic_hint: ee ehng-gloh-veez-MEH-nee
+  english: the enclaved persons
+  notes: Greek Cypriots and Maronites who remained in their ancestral villages in
+    the occupied Karpasia peninsula (π.χ. Ριζοκάρπασο) and Maronite villages (π.χ.
+    Κορμακίτης) after 1974.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    singular: ο εγκλωβισμένος
+    plural: οι εγκλωβισμένοι
+    accusative_singular: τον εγκλωβισμένο
+  keg_communicative_function: Modern History — Enclaved population in Karpasia
+  example_el: Οι εγκλωβισμένοι παρέμειναν στα χωριά τους στη χερσόνησο της Καρπασίας
+    και στα μαρωνίτικα χωριά μετά το 1974.
+  example_en: The enclaved remained in their villages on the Karpasia peninsula and
+    in the Maronite villages after 1974.
+  example2_el: Στο Ριζοκάρπασο λειτουργούν ελληνικό δημοτικό σχολείο και γυμνάσιο
+    για τα παιδιά των εγκλωβισμένων.
+  example2_en: In Rizokarpaso, a Greek primary school and high school operate for
+    the children of the enclaved.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-015
+  greek: — Πότε έγινε η παράνομη ανακήρυξη του «ψευδοκράτους» στα κατεχόμενα; — Στις
+    15 Νοεμβρίου 1983.
+  phonetic_hint: POH-teh EH-yee-neh ee pah-RAH-noh-mee ah-nah-KEE-reek-see too psef-thoh-KRAH-toos?
+    stees theh-kah-PEHN-deh noh-ehm-VREE-oo 1983
+  english: — When did the illegal declaration of the 'pseudo-state' in the occupied
+    areas take place? — On 15 November 1983.
+  notes: Past exam question! Unilaterally declared by Rauf Denktaş on 15 Nov 1983;
+    condemned as legally invalid by UN Security Council Resolutions 541 (1983) and
+    550 (1984). Recognized only by Turkey.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Illegal 1983 UDI & UN Resolutions
+  example_el: Στις 15 Νοεμβρίου 1983 η τουρκοκυπριακή ηγεσία προχώρησε στην παράνομη
+    ανακήρυξη του λεγόμενου «ψευδοκράτους».
+  example_en: On 15 November 1983, the Turkish Cypriot leadership proceeded with the
+    illegal declaration of the so-called 'pseudo-state'.
+  example2_el: Το Συμβούλιο Ασφαλείας του ΟΗΕ καταδίκασε την ενέργεια αυτή με το Ψήφισμα
+    541 και κάλεσε όλα τα κράτη να μην το αναγνωρίσουν.
+  example2_en: The UN Security Council condemned this action with Resolution 541 and
+    called on all states not to recognize it.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-016
+  greek: — Ποιος διετέλεσε Πρόεδρος της Κυπριακής Δημοκρατίας αμέσως μετά τον θάνατο
+    του Μακαρίου Γ΄ (1977–1988); — Ο Σπύρος Κυπριανού.
+  phonetic_hint: pyos theeh-TEH-leh-seh PROH-eth-ros tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs
+    ah-MEH-sos meh-TAH ton THAH-nah-toh too mah-kah-REE-oo? oh SPEE-ros kee-pree-ah-NOO
+  english: — Who served as President of the Republic of Cyprus immediately after the
+    death of Makarios III (1977–1988)? — Spyros Kyprianou.
+  notes: Past exam question on Presidential chronology! Spyros Kyprianou was the 2nd
+    President of the Republic (1977–1988).
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Presidents of the Republic of Cyprus
+  example_el: Ο Σπύρος Κυπριανού υπήρξε ο δεύτερος Πρόεδρος της Κυπριακής Δημοκρατίας
+    από το 1977 έως το 1988.
+  example_en: Spyros Kyprianou was the second President of the Republic of Cyprus
+    from 1977 to 1988.
+  example2_el: Μετά τον Σπύρο Κυπριανού, τρίτος Πρόεδρος εξελέγη ο Γιώργος Βασιλείου
+    (1988–1993).
+  example2_en: After Spyros Kyprianou, George Vasiliou was elected third President
+    (1988–1993).
+  audio: null
+  status: pending_tts
+- id: CYP-U02-017
+  greek: ο Γιώργος Βασιλείου (Πρόεδρος 1988–1993)
+  phonetic_hint: oh YOR-ghos vah-see-LEE-oo
+  english: George Vasiliou (3rd President of Cyprus, 1988–1993)
+  notes: During his presidency, Cyprus submitted its formal application for membership
+    in the European Communities (July 1990) and founded the University of Cyprus (1989).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    accusative_singular: τον Γιώργο Βασιλείου
+  keg_communicative_function: Modern History — Presidents of Cyprus
+  example_el: Επί προεδρίας του Γιώργου Βασιλείου το 1990, η Κύπρος υπέβαλε αίτηση
+    ένταξης στην Ευρωπαϊκή Οικονομική Κοινότητα.
+  example_en: During the presidency of George Vasiliou in 1990, Cyprus submitted an
+    application to join the European Economic Community.
+  example2_el: Κατά τη θητεία του Γιώργου Βασιλείου ιδρύθηκε και το Πανεπιστήμιο Κύπρου
+    το 1989.
+  example2_en: During George Vasiliou's term, the University of Cyprus was also founded
+    in 1989.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-018
+  greek: ο Γλαύκος Κληρίδης (Πρόεδρος 1993–2003)
+  phonetic_hint: oh GHLAHF-kos klee-REE-thees
+  english: Glafcos Clerides (4th President of Cyprus, 1993–2003)
+  notes: Served two consecutive five-year terms (1993–1998 and 1998–2003), completing
+    Cyprus's EU accession negotiations.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    accusative_singular: τον Γλαύκο Κληρίδη
+  keg_communicative_function: Modern History — Presidents of Cyprus
+  example_el: Ο Γλαύκος Κληρίδης διετέλεσε τέταρτος Πρόεδρος της Κυπριακής Δημοκρατίας
+    για δύο θητείες, από το 1993 έως το 2003.
+  example_en: Glafcos Clerides served as the fourth President of the Republic of Cyprus
+    for two terms, from 1993 to 2003.
+  example2_el: Κατά τη διακυβέρνηση του Γλαύκου Κληρίδη ολοκληρώθηκαν οι ενταξιακές
+    διαπραγματεύσεις της Κύπρου με την Ευρωπαϊκή Ένωση.
+  example2_en: During Glafcos Clerides's administration, Cyprus's accession negotiations
+    with the European Union were completed.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-019
+  greek: — Ποιος ήταν Πρόεδρος της Κυπριακής Δημοκρατίας το 2004 κατά την ένταξη στην
+    Ευρωπαϊκή Ένωση; — Ο Τάσσος Παπαδόπουλος.
+  phonetic_hint: pyos EE-tahn PROH-eth-ros tees kee-pree-ah-KEES theem-oh-krah-TEE-ahs
+    toh 2004 kah-TAH teen EHN-dahk-see steen ev-roh-pah-ee-KEE EH-noh-see? oh TAH-sos
+    pah-pah-THOH-poo-los
+  english: — Who was President of the Republic of Cyprus in 2004 during accession
+    to the European Union? — Tassos Papadopoulos.
+  notes: Frequent past exam question! Tassos Papadopoulos served as the 5th President
+    (2003–2008). He signed the Accession Treaty in Athens (April 2003) and presided
+    over the 2004 Annan Plan referendum and EU entry.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Presidency during 2004 EU Accession
+  example_el: Ο Τάσσος Παπαδόπουλος διετέλεσε πέμπτος Πρόεδρος της Κυπριακής Δημοκρατίας
+    από το 2003 έως το 2008.
+  example_en: Tassos Papadopoulos served as the fifth President of the Republic of
+    Cyprus from 2003 to 2008.
+  example2_el: Επί προεδρίας Τάσσου Παπαδόπουλου η Κύπρος εντάχθηκε στην Ευρωπαϊκή
+    Ένωση (2004) και στην Ευρωζώνη (2008).
+  example2_en: During Tassos Papadopoulos's presidency, Cyprus joined the European
+    Union (2004) and the Eurozone (2008).
+  audio: null
+  status: pending_tts
+- id: CYP-U02-020
+  greek: το δημοψήφισμα για το Σχέδιο Ανάν (24 Απριλίου 2004)
+  phonetic_hint: toh theem-oh-PSEE-feez-mah yah toh SKHEH-thee-oh ah-NAHN
+  english: the referendum on the Annan Plan (24 April 2004)
+  notes: UN Secretary-General Kofi Annan's plan for a solution to the Cyprus Problem.
+    Rejected by 76% of Greek Cypriots and approved by 65% of Turkish Cypriots in simultaneous
+    referendums on 24 April 2004.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα δημοψηφίσματα
+    accusative_singular: το δημοψήφισμα για το Σχέδιο Ανάν
+  keg_communicative_function: Modern History — 2004 Annan Plan Referendum
+  example_el: Στις 24 Απριλίου 2004 διεξήχθησαν χωριστά δημοψηφίσματα στις δύο κοινότητες
+    για το Σχέδιο Ανάν του ΟΗΕ.
+  example_en: On 24 April 2004, separate referendums were held in the two communities
+    on the UN's Annan Plan.
+  example2_el: Το Σχέδιο Ανάν απορρίφθηκε από την πλειοψηφία (76%) των Ελληνοκυπρίων
+    και εγκρίθηκε από το 65% των Τουρκοκυπρίων.
+  example2_en: The Annan Plan was rejected by the majority (76%) of Greek Cypriots
+    and approved by 65% of Turkish Cypriots.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-021
+  greek: — Πότε εντάχθηκε επίσημα η Κυπριακή Δημοκρατία στην Ευρωπαϊκή Ένωση; — Την
+    1η Μαΐου 2004.
+  phonetic_hint: POH-teh ehn-DAHKH-thee-keh eh-PEE-see-mah ee kee-pree-ah-KEE theem-oh-krah-TEE-ah
+    steen ev-roh-pah-ee-KEE EH-noh-see? teen PROH-tee mah-EE-oo 2004
+  english: — When did the Republic of Cyprus officially join the European Union? —
+    On 1 May 2004.
+  notes: One of the most frequently asked questions in the exam! Cyprus joined the
+    EU on 1 May 2004 alongside 9 other countries; the European acquis (κοινοτικό κεκτημένο)
+    is suspended in the occupied areas under Protocol 10.
+  gender_or_pos: phrase
+  grammatical_info:
+    part_of_speech: phrase
+  keg_communicative_function: Past Exam Q&A — Date of EU Accession
+  example_el: Η Κυπριακή Δημοκρατία έγινε πλήρες μέλος της Ευρωπαϊκής Ένωσης την 1η
+    Μαΐου 2004.
+  example_en: The Republic of Cyprus became a full member of the European Union on
+    1 May 2004.
+  example2_el: Ενώ ολόκληρη η Κύπρος εντάχθηκε στην ΕΕ, η εφαρμογή του ευρωπαϊκού
+    κεκτημένου αναστέλλεται στις κατεχόμενες περιοχές.
+  example2_en: While the whole of Cyprus joined the EU, the application of the European
+    acquis is suspended in the occupied areas.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-022
+  greek: ο Δημήτρης Χριστόφιας (Πρόεδρος 2008–2013)
+  phonetic_hint: oh theem-EE-trees khree-STOH-fyahs
+  english: Demetris Christofias (6th President of Cyprus, 2008–2013)
+  notes: Sixth President of the Republic (2008–2013) and former Speaker of the House
+    (2001–2008) and General Secretary of AKEL. During his term Cyprus held its first
+    Presidency of the Council of the EU (2nd half of 2012).
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    accusative_singular: τον Δημήτρη Χριστόφια
+  keg_communicative_function: Modern History — Presidents of Cyprus
+  example_el: Ο Δημήτρης Χριστόφιας διετέλεσε έκτος Πρόεδρος της Κυπριακής Δημοκρατίας
+    από το 2008 έως το 2013.
+  example_en: Demetris Christofias served as the sixth President of the Republic of
+    Cyprus from 2008 to 2013.
+  example2_el: Το δεύτερο εξάμηνο του 2012 η Κύπρος ανέλαβε για πρώτη φορά την Προεδρία
+    του Συμβουλίου της Ευρωπαϊκής Ένωσης.
+  example2_en: In the second half of 2012, Cyprus assumed the Presidency of the Council
+    of the European Union for the first time.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-023
+  greek: ο Νίκος Αναστασιάδης (Πρόεδρος 2013–2023)
+  phonetic_hint: oh NEE-kos ah-nah-stah-see-AH-thees
+  english: Nicos Anastasiades (7th President of Cyprus, 2013–2023)
+  notes: Seventh President of the Republic, elected for two terms (2013–2018 and 2018–2023).
+    During his presidency, the General Healthcare System (ΓεΣΥ) was implemented and
+    the Crans-Montana talks (2017) took place.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    accusative_singular: τον Νίκο Αναστασιάδη
+  keg_communicative_function: Modern History — Presidents of Cyprus
+  example_el: Ο Νίκος Αναστασιάδης υπήρξε ο έβδομος Πρόεδρος της Κυπριακής Δημοκρατίας
+    από το 2013 έως το 2023.
+  example_en: Nicos Anastasiades was the seventh President of the Republic of Cyprus
+    from 2013 to 2023.
+  example2_el: Εξελέγη Πρόεδρος για δύο συνεχόμενες πενταετείς θητείες, το 2013 και
+    το 2018.
+  example2_en: He was elected President for two consecutive five-year terms, in 2013
+    and 2018.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-024
+  greek: η Διζωνική Δικοινοτική Ομοσπονδία (ΔΔΟ)
+  phonetic_hint: ee thee-zoh-nee-KEE thee-kee-noh-tee-KEE oh-moh-spon-THEE-ah
+  english: Bi-zonal, Bi-communal Federation (BBF)
+  notes: The agreed framework under United Nations Security Council resolutions and
+    the High-Level Agreements (Makarios-Denktaş 1977 & Kyprianou-Denktaş 1979) for
+    a comprehensive settlement of the Cyprus problem.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Διζωνικές Δικοινοτικές Ομοσπονδίες
+    accusative_singular: τη Διζωνική Δικοινοτική Ομοσπονδία
+  keg_communicative_function: Modern History — Framework for solving the Cyprus problem
+  example_el: Τα ψηφίσματα του ΟΗΕ προβλέπουν λύση Διζωνικής Δικοινοτικής Ομοσπονδίας
+    με πολιτική ισότητα.
+  example_en: UN resolutions provide for a solution of a Bi-zonal, Bi-communal Federation
+    with political equality.
+  example2_el: Η λύση προνοεί ένα κράτος με μία κυριαρχία, μία διεθνή προσωπικότητα
+    και μία ιθαγένεια.
+  example2_en: The solution provides for one state with a single sovereignty, a single
+    international personality, and a single citizenship.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-025
+  greek: τα Βαρώσια (η περίκλειστη πόλη της Αμμοχώστου)
+  phonetic_hint: tah vah-ROH-syah (ee peh-REE-klee-stee POH-lee tees ah-moh-KHOH-stoo)
+  english: Varosha (the fenced-off quarter of Famagusta)
+  notes: Once Cyprus's premier tourist resort, abandoned and fenced off by the Turkish
+    army in August 1974. UN Security Council Resolution 550 (1984) calls for its return
+    to its lawful inhabitants under UN administration.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Βαρώσια
+    accusative_plural: τα Βαρώσια
+    genitive_plural: των Βαρωσίων
+  keg_communicative_function: Modern History — Famagusta & UN Resolution 550
+  example_el: Τα Βαρώσια είναι η περίκλειστη συνοικία της Αμμοχώστου που εκκενώθηκε
+    κατά την τουρκική εισβολή του 1974.
+  example_en: Varosha is the fenced-off quarter of Famagusta that was evacuated during
+    the Turkish invasion of 1974.
+  example2_el: Το Ψήφισμα 550 του ΟΗΕ ζητά την επιστροφή των Βαρωσίων στους νόμιμους
+    κατοίκους τους υπό τη διοίκηση του ΟΗΕ.
+  example2_en: UN Resolution 550 calls for the return of Varosha to its lawful inhabitants
+    under UN administration.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-026
+  greek: οι Κυρίαρχες Βρετανικές Βάσεις (Ακρωτήρι & Δεκέλεια)
+  phonetic_hint: ee kee-REE-ahr-khehs vreh-tah-nee-KEHS VAH-sees (ah-kroh-TEE-ree
+    keh theh-KEH-lee-ah)
+  english: the British Sovereign Base Areas (Akrotiri & Dhekelia)
+  notes: Two areas (Akrotiri near Limassol and Dhekelia near Larnaca/Famagusta, totaling
+    ~3% of the island's area) retained by the UK under the 1960 Treaty of Establishment.
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι Κυρίαρχες Βρετανικές Βάσεις
+    accusative_plural: τις Κυρίαρχες Βρετανικές Βάσεις
+  keg_communicative_function: Modern History — 1960 Treaty of Establishment
+  example_el: Πού βρίσκονται οι δύο βρετανικές στρατιωτικές βάσεις στην Κύπρο; Στο
+    Ακρωτήρι και στη Δεκέλεια.
+  example_en: Where are the two British military bases in Cyprus located? At Akrotiri
+    and Dhekelia.
+  example2_el: Οι Βρετανικές Βάσεις καλύπτουν περίπου το 3% της συνολικής έκτασης
+    του νησιού.
+  example2_en: The British Bases cover approximately 3% of the total area of the island.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-027
+  greek: η διάνοιξη των οδοφραγμάτων (2003)
+  phonetic_hint: ee thee-AH-neek-see ton oh-thoh-frahgh-MAH-ton
+  english: the opening of the crossing points / checkpoints (2003)
+  notes: In April 2003, partial movement across the Green Line began for the first
+    time since 1974 (starting with Ledra Palace, and later Ledra Street / οδός Λήδρας
+    in 2008).
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι διανοίξεις των οδοφραγμάτων
+    accusative_singular: τη διάνοιξη των οδοφραγμάτων
+  keg_communicative_function: Modern History — Green Line crossing points
+  example_el: Τον Απρίλιο του 2003 άνοιξαν για πρώτη φορά από το 1974 οδοφράγματα
+    κατά μήκος της Πράσινης Γραμμής.
+  example_en: In April 2003, crossing points along the Green Line opened for the first
+    time since 1974.
+  example2_el: Το οδόφραγμα της οδού Λήδρας στο κέντρο της Λευκωσίας άνοιξε το 2008.
+  example2_en: The Ledra Street crossing point in the center of Nicosia opened in
+    2008.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-028
+  greek: τα Φυλακισμένα Μνήματα
+  phonetic_hint: tah fee-lah-keez-MEH-nah MNEE-mah-tah
+  english: the Imprisoned Graves (Central Prisons of Nicosia)
+  notes: Historic monument in the Central Prisons of Nicosia where 13 EOKA fighters
+    (including Evagoras Pallikarides and Karaolis & Demetriou) are buried.
+  gender_or_pos: noun (neuter)
+  grammatical_info:
+    part_of_speech: noun (neuter)
+    plural: τα Φυλακισμένα Μνήματα
+    accusative_plural: τα Φυλακισμένα Μνήματα
+  keg_communicative_function: Modern History — National memorials in Nicosia
+  example_el: Τα Φυλακισμένα Μνήματα βρίσκονται στις Κεντρικές Φυλακές Λευκωσίας και
+    αποτελούν ιερό μνημείο του αγώνα του 1955–1959.
+  example_en: The Imprisoned Graves are located in the Central Prisons of Nicosia
+    and constitute a sacred memorial of the 1955–1959 struggle.
+  example2_el: Εκεί είναι θαμμένοι δεκατρείς αγωνιστές της ΕΟΚΑ, μεταξύ των οποίων
+    ο Μιχαλάκης Καραολής και ο Ευαγόρας Παλληκαρίδης.
+  example2_en: Thirteen EOKA fighters are buried there, including Michalakis Karaolis
+    and Evagoras Pallikarides.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-029
+  greek: ο Τύμβος της Μακεδονίτισσας
+  phonetic_hint: oh TEEM-vos tees mah-keh-thoh-NEE-tee-sahs
+  english: the Makedonitissa Tomb (Military Cemetery in Nicosia)
+  notes: Military cemetery and memorial in Engomi, Nicosia, honoring Greek Cypriot
+    and Greek soldiers who fell defending Cyprus during the 1974 Turkish invasion.
+  gender_or_pos: noun (masculine)
+  grammatical_info:
+    part_of_speech: noun (masculine)
+    plural: οι Τύμβοι
+    accusative_singular: τον Τύμβο της Μακεδονίτισσας
+  keg_communicative_function: Modern History — 1974 memorials
+  example_el: Ο Τύμβος της Μακεδονίτισσας στη Λευκωσία είναι στρατιωτικό κοιμητήριο
+    και μνημείο των πεσόντων του 1974.
+  example_en: The Makedonitissa Tomb in Nicosia is a military cemetery and memorial
+    to the fallen of 1974.
+  example2_el: Κάθε χρόνο στις 20 Ιουλίου τελείται στον Τύμβο της Μακεδονίτισσας επίσημο
+    μνημόσυνο παρουσία του Προέδρου της Δημοκρατίας.
+  example2_en: Every year on 20 July, an official memorial service is held at the
+    Makedonitissa Tomb in the presence of the President of the Republic.
+  audio: null
+  status: pending_tts
+- id: CYP-U02-030
+  greek: η έκρηξη στη ναυτική βάση στο Μαρί (11 Ιουλίου 2011)
+  phonetic_hint: ee EH-kreek-see stee nahf-tee-KEE VAH-see stoh mah-REE
+  english: the Mari naval base explosion (11 July 2011)
+  notes: 'Major modern tragic event: on 11 July 2011, confiscated munitions exploded
+    at the ''Evangelos Florakis'' Naval Base at Mari, killing 13 people (firefighters,
+    sailors, officers) and destroying the adjacent Vassilikos power station.'
+  gender_or_pos: noun (feminine)
+  grammatical_info:
+    part_of_speech: noun (feminine)
+    plural: οι εκρήξεις
+    accusative_singular: την έκρηξη στη ναυτική βάση στο Μαρί
+  keg_communicative_function: Modern History — Major post-2000 events
+  example_el: Στις 11 Ιουλίου 2011 σημειώθηκε φονική έκρηξη στη ναυτική βάση «Ευάγγελος
+    Φλωράκης» στο Μαρί, με 13 νεκρούς.
+  example_en: On 11 July 2011, a deadly explosion occurred at the 'Evangelos Florakis'
+    naval base in Mari, resulting in 13 deaths.
+  example2_el: Από την έκρηξη στο Μαρί καταστράφηκε και ο γειτονικός ηλεκτροπαραγωγός
+    σταθμός του Βασιλικού.
+  example2_en: The explosion at Mari also destroyed the neighboring Vassilikos power
+    station.
+  audio: null
+  status: pending_tts

@@ -840,3 +840,85 @@ units:
       (Pronunciation & Intonation) and Criterion 2 (Accuracy): nasal stops (μπ/π,
       ντ/τ, γκ/κ), diphthongs (αυ/ευ), stress shifts across tenses, and polite conditional
       tone modulation.'
+- id: unit-cyp-01
+  title: 'Μάθημα 1: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου (Polity, State Institutions
+    & Governance)'
+  description: Constitutional regime of the Republic of Cyprus (Presidential Republic),
+    separation of powers, the President and Council of Ministers, the House of Representatives
+    (56+24 seats & 3 religious groups), independent officials, national symbols, and
+    political parties.
+  order: CYP-01-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-01/lesson-01.yaml
+    title: 'Μάθημα 1: Πολίτευμα, Θεσμοί & Κράτος της Κύπρου (Polity, State Institutions
+      & Governance)'
+- id: unit-cyp-02
+  title: 'Μάθημα 2: Σύγχρονη Ιστορία της Κύπρου 1955–Σήμερα (Modern History of Cyprus)'
+  description: The 1955–1959 EOKA liberation struggle, Zurich-London Agreements, proclamation
+    of independence (1960), chronological succession of Presidents of the Republic,
+    the 1974 coup and Turkish invasion, the Green Line, the 2004 Annan Plan referendum,
+    and EU accession.
+  order: CYP-02-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-02/lesson-01.yaml
+    title: 'Μάθημα 2: Σύγχρονη Ιστορία της Κύπρου 1955–Σήμερα (Modern History of Cyprus)'
+- id: unit-cyp-03
+  title: 'Μάθημα 3: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της Κύπρου (Geography, Districts,
+    Cities & Nature)'
+  description: Geographical position in the northeastern Mediterranean, the 6 administrative
+    districts, major cities and traditional villages (Omodos, Lefkara, Kakopetria,
+    Fikardou), Troodos and Pentadaktylos mountain ranges, Pedieos river, Kouris dam,
+    and endemic flora and fauna (mouflon, golden oak).
+  order: CYP-03-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-03/lesson-01.yaml
+    title: 'Μάθημα 3: Γεωγραφία, Επαρχίες, Πόλεις & Φύση της Κύπρου (Geography, Districts,
+      Cities & Nature)'
+- id: unit-cyp-04
+  title: 'Μάθημα 4: Πολιτισμός, Παράδοση, Ήθη, Έθιμα & Προϊόντα (Culture, Traditions
+    & Products)'
+  description: UNESCO World Heritage and Intangible Heritage in Cyprus (Paphos, Choirokoitia,
+    Painted Churches of Troodos, Lefkara lace, Tsiattista), PDO/PGI products (Halloumi,
+    Commandaria, Zivania, Geroskipou Loukoumi), festivals (Kataklysmos, Limassol Carnival
+    & Wine Festival), and the Church of Cyprus.
+  order: CYP-04-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-04/lesson-01.yaml
+    title: 'Μάθημα 4: Πολιτισμός, Παράδοση, Ήθη, Έθιμα & Προϊόντα (Culture, Traditions
+      & Products)'
+- id: unit-cyp-05
+  title: 'Μάθημα 5: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor, Healthcare
+    & Daily Life)'
+  description: Official currency (Euro adoption 2008), economic sectors (services,
+    shipping, tourism, EEZ & Aphrodite gas field), VAT rates (19% / 0%), GeSY healthcare,
+    minimum wage, left-hand driving, legal airports & ports, emergency numbers (112/199),
+    and public holidays.
+  order: CYP-05-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-05/lesson-01.yaml
+    title: 'Μάθημα 5: Οικονομία, Εργασία, Υγεία & Καθημερινότητα (Economy, Labor,
+      Healthcare & Daily Life)'
+- id: unit-cyp-06
+  title: 'Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση
+    (EU, Current Affairs & Naturalization)'
+  description: Cyprus in the EU (6 MEPs, 2012 & 2026 EU Council Presidencies), international
+    organizations (UN, Commonwealth, non-membership in NATO), the 3 public universities
+    (UCY, TEPAK, OUC), Olympic medalist Pavlos Kontides, 2024 Local Government Reform,
+    and Citizenship Exam rules (60% / 50%).
+  order: CYP-06-A
+  total_lessons: 1
+  lessons:
+  - id: lesson-01
+    file: unit-cyp-06/lesson-01.yaml
+    title: 'Μάθημα 6: Ευρωπαϊκή Ένωση, Διεθνείς Σχέσεις, Επικαιρότητα & Πολιτογράφηση
+      (EU, Current Affairs & Naturalization)'
